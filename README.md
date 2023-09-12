@@ -4,6 +4,11 @@ My learning repo for OR tools of Google.
 
 Take it slowly, it'll go fast.
 
+## Catalog
+
+
+1. [Ortools for Linear Programming](./SimpleLP.ipynb)
+2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb)
 
 ## Ref:
 

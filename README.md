@@ -10,6 +10,7 @@ Take it slowly, it'll go fast.
 1. [Ortools for Linear Programming](./SimpleLP.ipynb)
 2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb)
 3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb)
+4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb)
 
 ## Ref:
 

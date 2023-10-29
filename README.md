@@ -15,6 +15,7 @@ Python Environment: Python 3.10.12
 3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb)
 4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb)
 5. [Ortools for some INTERESTING puzzles!](./Puzzles.ipynb): Recent main project! OR maniac!
+6. [Ortools for VRP](./CVRP.ipynb): Variants and ortools codes.
 
 Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve. 
 

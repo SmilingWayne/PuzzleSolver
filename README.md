@@ -23,14 +23,17 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |    A Standard Sudoku    |      标准数独       |     ✅     |
 |      An Alphadoku       |   25 by 25 字母独   |     ✅     |
 |     A Killer Sudoku     |      杀手数独       |     ✅     |
+|  A Small Killer Sudoku  |     小杀手数独      |     ❌     |
 |  A Consecutive Sudoku   |      连续数独       |     ✅     |
 | Akari (AKA: light UP!)  |        照明         |     ✅     |
 | Cryptarithmetic Puzzle  |      破译密码       |     ✅     |
 |        Norinori         |        海苔         |     ✅     |
 |  A thermometer Sudoku   |     温度计数独      |     ❌     |
-|       Number Link       |        数链         |     ❌     |
+|       Siltherlink       |         环          |     ❌     |
+|       Number Link       |        数链         |     ✅     |
 |      A Minesweeper      |      静态扫雷       |     ✅     |
-
+|      A Simple Loop      |      简单回路       |     ❌     |
+| A petite Killer Sudoku  |     小杀手数独      |     ✅     |
 
 
 
@@ -39,3 +42,4 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 - [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)
 - 《运筹学》机械工业出版社教材。
+- Several Useful puzzle sites.

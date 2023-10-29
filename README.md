@@ -16,6 +16,9 @@ Python Environment: Python 3.10.12
 4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb)
 5. [Ortools for some INTERESTING puzzles!](./Puzzles.ipynb): Recent main project! OR maniac!
 6. [Ortools for VRP](./CVRP.ipynb): Variants and ortools codes.
+7. [Ortools / Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
+
+> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for TSP, VRP is coming soon~~
 
 Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve. 
 

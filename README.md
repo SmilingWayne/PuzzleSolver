@@ -22,22 +22,23 @@ Python Environment: Python 3.10.12
 
 Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve. 
 
-| English Name of Puzzles | Chinese Translation | Finished? |
-| :---------------------: | :-----------------: | :-------: |
-|    A Standard Sudoku    |      标准数独       |     ✅     |
-|      An Alphadoku       |   25 by 25 字母独   |     ✅     |
-|     A Killer Sudoku     |      杀手数独       |     ✅     |
-|  A Small Killer Sudoku  |     小杀手数独      |     ❌     |
-|  A Consecutive Sudoku   |      连续数独       |     ✅     |
-| Akari (AKA: light UP!)  |        照明         |     ✅     |
-| Cryptarithmetic Puzzle  |      破译密码       |     ✅     |
-|        Norinori         |        海苔         |     ✅     |
-|  A thermometer Sudoku   |     温度计数独      |     ❌     |
-|       Siltherlink       |         环          |     ❌     |
-|       Number Link       |        数链         |     ✅     |
-|      A Minesweeper      |      静态扫雷       |     ✅     |
-|      A Simple Loop      |      简单回路       |     ❌     |
-| A petite Killer Sudoku  |     小杀手数独      |     ✅     |
+|  ID   | English Name of Puzzles | Chinese Translation | Finished? |
+| :---: | :---------------------: | :-----------------: | :-------: |
+|   1   |    A Standard Sudoku    |      标准数独       |     ✅     |
+|   2   |      An Alphadoku       |   25 by 25 字母独   |     ✅     |
+|   3   |     A Killer Sudoku     |      杀手数独       |     ✅     |
+|   4   | A petite Killer Sudoku  |     小杀手数独      |     ✅     |
+|   5   |  A Consecutive Sudoku   |      连续数独       |     ✅     |
+|   6   |    A Sandwich Sudoku    |     三明治数独      |     ✅     |
+|   7   | Akari (AKA: light UP!)  |        照明         |     ✅     |
+|   8   | Cryptarithmetic Puzzle  |      破译密码       |     ✅     |
+|   9   |        Norinori         |        海苔         |     ✅     |
+|  10   |  A thermometer Sudoku   |     温度计数独      |     ✅     |
+|  11   |       Number Link       |        数链         |     ✅     |
+|  12   |      A Minesweeper      |      静态扫雷       |     ✅     |
+|  13   |      A Simple Loop      |      简单回路       |     ❌     |
+|  14   |       Siltherlink       |         环          |     ❌     |
+
 
 
 
@@ -46,4 +47,3 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 - [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)
 - 《运筹学》机械工业出版社教材。
-- Several Useful puzzle sites.

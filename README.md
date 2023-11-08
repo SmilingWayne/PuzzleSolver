@@ -44,7 +44,8 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  16   |   Anti-Knight Sudoku    |      无马数独       |     ✅     |
 |  17   |    Anti-King Sudoku     |      无缘数独       |     ✅     |
 |  18   |   Black-White Sudoku    |     黑白点数独      |     ❌     |
-|  19   |      Arrow Sudoku       |      箭头数独       |     ❌     |
+|  19   |      Arrow Sudoku       |      箭头数独       |     ✅     |
+|  20   |         Kakuro          |         ===         |     ✅     |
 
 
 

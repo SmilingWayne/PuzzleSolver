@@ -48,6 +48,13 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  20   |         Kakuro          |         ===         |     ✅     |
 
 
+8. Some basic / classic [Operations Research Modeling](./modeling/):
+
+
+- Nurse assignment problem, 
+- Sport Schedule, 
+- Unit commitment problem
+
 
 ## Ref:
 

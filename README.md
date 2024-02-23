@@ -24,30 +24,31 @@ Python Environment: Python 3.10.12
 
 Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve. 
 
-|  ID   | English Name of Puzzles | Chinese Translation | Finished? |
-| :---: | :---------------------: | :-----------------: | :-------: |
-|   1   |    A Standard Sudoku    |      标准数独       |     ✅     |
-|   2   |      [An Alphadoku](./Puzzles/Alphabetoku.ipynb)       |   25 by 25 字母独   |     ✅     |
-|   3   |     A Killer Sudoku     |      杀手数独       |     ✅     |
-|   4   | A petite Killer Sudoku  |     小杀手数独      |     ✅     |
-|   5   |  A Consecutive Sudoku   |      连续数独       |     ✅     |
-|   6   |    A Sandwich Sudoku    |     三明治数独      |     ✅     |
-|   7   | [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)  |        照明         |     ✅     |
-|   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb)  |      破译密码       |     ✅     |
-|   9   |        [Norinori](./Puzzles/NoriNori.ipynb)         |        海苔         |     ✅     |
-|  10   |  A thermometer Sudoku   |     温度计数独      |     ✅     |
-|  11   |       [Number Link](./Puzzles/NumberLink.ipynb)       |        数链         |     ✅     |
-|  12   |      [A Minesweeper](./Puzzles/Minesweeper.ipynb)      |      静态扫雷       |     ✅     |
-|  13   |      A Simple Loop      |      简单回路       |     ❌     |
-|  14   |       Siltherlink       |         环          |     ❌     |
-|  15   |      Jigsaw Sudoku      |      锯齿数独       |     ❌     |
-|  16   |   Anti-Knight Sudoku    |      无马数独       |     ✅     |
-|  17   |    Anti-King Sudoku     |      无缘数独       |     ✅     |
-|  18   |   Black-White Sudoku    |     黑白点数独      |     ❌     |
-|  19   |      Arrow Sudoku       |      箭头数独       |     ✅     |
-|  20   |         [Mosaic](./Puzzles/Mosaic.ipynb)          |         马赛克         |     ✅     |
-|  21   |         Greater Than Sudoku          |         不等式数独         |     ✅     |
-|  22   |         [Tent](./Puzzles/Tent.ipynb)          |         帐篷         |     ✅     |
+|  ID   |                  English Name of Puzzles                  | Chinese Translation | Finished? |       Note        |
+| :---: | :-------------------------------------------------------: | :-----------------: | :-------: | :---------------: |
+|   1   |                     A Standard Sudoku                     |      标准数独       |     ✅     |                   |
+|   2   |        [An Alphadoku](./Puzzles/Alphabetoku.ipynb)        |   25 by 25 字母独   |     ✅     |                   |
+|   3   |                      A Killer Sudoku                      |      杀手数独       |     ✅     |                   |
+|   4   |                  A petite Killer Sudoku                   |     小杀手数独      |     ✅     |                   |
+|   5   |                   A Consecutive Sudoku                    |      连续数独       |     ✅     |                   |
+|   6   |                     A Sandwich Sudoku                     |     三明治数独      |     ✅     |                   |
+|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |     ✅     |                   |
+|   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb) |      破译密码       |     ✅     |                   |
+|   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |     ✅     |                   |
+|  10   |                   A thermometer Sudoku                    |     温度计数独      |     ✅     |                   |
+|  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |     ✅     |                   |
+|  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                   |
+|  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                   |
+|  14   |                        Siltherlink                        |         环          |     ❌     |                   |
+|  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ❌     |                   |
+|  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                   |
+|  17   |                     Anti-King Sudoku                      |      无缘数独       |     ✅     |                   |
+|  18   |                    Black-White Sudoku                     |     黑白点数独      |     ❌     |                   |
+|  19   |                       Arrow Sudoku                        |      箭头数独       |     ✅     |                   |
+|  20   |             [Mosaic](./Puzzles/Mosaic.ipynb)              |       马赛克        |     ✅     |                   |
+|  21   |                    Greater Than Sudoku                    |     不等式数独      |     ✅     |                   |
+|  22   |               [Tent](./Puzzles/Tent.ipynb)                |        帐篷         |     ✅     |                   |
+|  23   |           [Nonogram](./Puzzles/Nonogram.ipynb)            |        数织         |     ✅     | No use of ortools |
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/):

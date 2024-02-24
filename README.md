@@ -40,7 +40,7 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                   |
 |  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                   |
 |  14   |                        Siltherlink                        |         环          |     ❌     |                   |
-|  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ❌     |                   |
+|  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ✅     |                   |
 |  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                   |
 |  17   |                     Anti-King Sudoku                      |      无缘数独       |     ✅     |                   |
 |  18   |                    Black-White Sudoku                     |     黑白点数独      |     ❌     |                   |
@@ -49,6 +49,7 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  21   |                    Greater Than Sudoku                    |     不等式数独      |     ✅     |                   |
 |  22   |               [Tent](./Puzzles/Tent.ipynb)                |        帐篷         |     ✅     |                   |
 |  23   |           [Nonogram](./Puzzles/Nonogram.ipynb)            |        数织         |     ✅     | No use of ortools |
+|  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |     ❌     |                   |
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/):

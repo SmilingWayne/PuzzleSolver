@@ -49,7 +49,8 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  21   |                    Greater Than Sudoku                    |     不等式数独      |     ✅     |                   |
 |  22   |               [Tent](./Puzzles/Tent.ipynb)                |        帐篷         |     ✅     |                   |
 |  23   |           [Nonogram](./Puzzles/Nonogram.ipynb)            |        数织         |     ✅     | No use of ortools |
-|  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |     ❌     |                   |
+|  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |     ✅     |                   |
+|  25   |           [Kakurasu](./Puzzles/Kakurasu.ipynb)            |       方阵和        |     ✅     |                   |
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/):

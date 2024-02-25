@@ -39,7 +39,7 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |     ✅     |                   |
 |  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                   |
 |  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                   |
-|  14   |                        Siltherlink                        |         环          |     ❌     |                   |
+|  14   |                        Siltherlink                        |         环          |     🚀(Ongoing)     |                   |
 |  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ✅     |                   |
 |  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                   |
 |  17   |                     Anti-King Sudoku                      |      无缘数独       |     ✅     |                   |
@@ -52,6 +52,7 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |     ✅     |                   |
 |  25   |           [Kakurasu](./Puzzles/Kakurasu.ipynb)            |       方阵和        |     ✅     |                   |
 |  26   |         [Starbattle](./Puzzles/Starbattle.ipynb)          |        星战         |     ✅     |                   |
+
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/):

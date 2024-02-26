@@ -1,6 +1,6 @@
 # Ortools tutorials
 
-My learning repo for OR tools of Google, also some Interesting Puzzle games and solvers in ortools.
+This repo provides useful solvers to some interesting puzzles. They're mainly solved by Google Operations Research software ORtools(especially its CS-SAT solver). The puzzles included is listed in the catalog. Besides, some basic tutorials are also included.
 
 Take it slowly, it'll go fast.
 
@@ -14,15 +14,18 @@ Python Environment: Python 3.10.12
 2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb)
 3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb)
 4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb)
-5. [Ortools for some INTERESTING puzzles!](./Puzzles.ipynb): Recent main project! OR maniac! In this repo, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integerate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+5. [Ortools for some INTERESTING Sudokus and variants!!](./Puzzles.ipynb): Recent main project! OR maniac! In this repo, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integerate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
 
 > Come and solve your Sudoku / Sandwich sudoku / Killer Sudoku / Arrow Sudoku / anti-king Sudoku ... with ortools!
-6. [Ortools for VRP](./CVRP.ipynb): Variants and ortools codes.
-7. [Ortools / Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
 
-> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for TSP, ~~VRP is coming soon~~ (VRP is [here!](./CVRP.ipynb))
+6. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
+7. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
 
-Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve. 
+> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
+
+-------
+
+Some puzzles solved in the repo:
 
 |  ID   |                  English Name of Puzzles                  | Chinese Translation | Finished? |       Note        |
 | :---: | :-------------------------------------------------------: | :-----------------: | :-------: | :---------------: |
@@ -39,7 +42,7 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |     ✅     |                   |
 |  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                   |
 |  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                   |
-|  14   |                        Siltherlink                        |         环          |     🚀(Ongoing)     |                   |
+|  14   |        [Siltherlink](./Puzzles/SlitherLink.ipynb)         |         环          |     ✅     |                   |
 |  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ✅     |                   |
 |  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                   |
 |  17   |                     Anti-King Sudoku                      |      无缘数独       |     ✅     |                   |
@@ -54,8 +57,12 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 |  26   |         [Starbattle](./Puzzles/Starbattle.ipynb)          |        星战         |     ✅     |                   |
 
 
+----
 
-1. Some basic / classic [Operations Research Modeling](./modeling/):
+
+1. Some basic / classic [Operations Research Modeling](./modeling/) :
+
+> P.S. This section stopped update.
 
 
 - Nurse assignment problem, 
@@ -67,4 +74,3 @@ Puzzles mentioned above mainly use Google ortools (CS-SAT) to solve.
 
 - [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)
-- 《运筹学》机械工业出版社教材。

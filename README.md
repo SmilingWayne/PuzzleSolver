@@ -29,36 +29,36 @@ Some puzzles solved in the repo:
 
 ![](./assets/figures/Headers.png)
 
-|  ID   |                  English Name of Puzzles                  | Chinese Translation |   Finished?   |                             Note                             |
-| :---: | :-------------------------------------------------------: | :-----------------: | :-----------: | :----------------------------------------------------------: |
-|   1   |                     A Standard Sudoku                     |      标准数独       |       ✅       |                                                              |
-|   2   |        [An Alphadoku](./Puzzles/Alphabetoku.ipynb)        |   25 by 25 字母独   |       ✅       |                                                              |
-|   3   |                      A Killer Sudoku                      |      杀手数独       |       ✅       |                                                              |
-|   4   |                  A petite Killer Sudoku                   |     小杀手数独      |       ✅       |                                                              |
-|   5   |                   A Consecutive Sudoku                    |      连续数独       |       ✅       |                                                              |
-|   6   |                     A Sandwich Sudoku                     |     三明治数独      |       ✅       |                                                              |
-|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |       ✅       |                                                              |
-|   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb) |      破译密码       |       ✅       |                                                              |
-|   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |       ✅       |                                                              |
-|  10   |                   A thermometer Sudoku                    |     温度计数独      |       ✅       |                                                              |
-|  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |       ✅       |                                                              |
-|  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |       ✅       |                                                              |
-|  13   |                       A Simple Loop                       |      简单回路       |       ❌       |                                                              |
-|  14   |        [Siltherlink](./Puzzles/SlitherLink.ipynb)         |         环          | 🚀 Gurobi used |                                                              |
-|  15   |                       Jigsaw Sudoku                       |      锯齿数独       |       ✅       |                                                              |
-|  16   |                    Anti-Knight Sudoku                     |      无马数独       |       ✅       |                                                              |
-|  17   |                     Anti-King Sudoku                      |      无缘数独       |       ✅       |                                                              |
-|  18   |                    Black-White Sudoku                     |     黑白点数独      |       ❌       |                                                              |
-|  19   |                       Arrow Sudoku                        |      箭头数独       |       ✅       |                                                              |
-|  20   |             [Mosaic](./Puzzles/Mosaic.ipynb)              |       马赛克        |       ✅       | [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/) |
-|  21   |                    Greater Than Sudoku                    |     不等式数独      |       ✅       |                                                              |
-|  22   |               [Tent](./Puzzles/Tent.ipynb)                |        帐篷         |       ✅       |            [Rules](https://www.puzzle-tents.com)             |
-|  23   |           [Nonogram](./Puzzles/Nonogram.ipynb)            |        数织         |       ✅       |                      No use of ortools                       |
-|  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |       ✅       |                                                              |
-|  25   |           [Kakurasu](./Puzzles/Kakurasu.ipynb)            |       方阵和        |       ✅       |                                                              |
-|  26   |         [Starbattle](./Puzzles/Starbattle.ipynb)          |        星战         |       ✅       |                                                              |
-|  27   |                 [Vudoku](./Puzzles.ipynb)                 |       V宫数独       |       ✅       |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
-|  28   |                         3D-Sudoku                         |      三维数独       |       🚀       |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
+|  ID   |                  English Name of Puzzles                  | Chinese Translation | Finished? |                             Note                             |
+| :---: | :-------------------------------------------------------: | :-----------------: | :-------: | :----------------------------------------------------------: |
+|   1   |                     A Standard Sudoku                     |      标准数独       |     ✅     |                                                              |
+|   2   |        [An Alphadoku](./Puzzles/Alphabetoku.ipynb)        |   25 by 25 字母独   |     ✅     |                                                              |
+|   3   |                      A Killer Sudoku                      |      杀手数独       |     ✅     |                                                              |
+|   4   |                  A petite Killer Sudoku                   |     小杀手数独      |     ✅     |                                                              |
+|   5   |                   A Consecutive Sudoku                    |      连续数独       |     ✅     |                                                              |
+|   6   |                     A Sandwich Sudoku                     |     三明治数独      |     ✅     |                                                              |
+|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |     ✅     |                                                              |
+|   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb) |      破译密码       |     ✅     |                                                              |
+|   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |     ✅     |                                                              |
+|  10   |                   A thermometer Sudoku                    |     温度计数独      |     ✅     |                                                              |
+|  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |     ✅     |                                                              |
+|  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                                                              |
+|  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                                                              |
+|  14   |        [Siltherlink](./Puzzles/SlitherLink.ipynb)         |         环          |     ✅     |                    🚀 Gurobi used for MILP                    |  |
+|  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ✅     |                                                              |
+|  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                                                              |
+|  17   |                     Anti-King Sudoku                      |      无缘数独       |     ✅     |                                                              |
+|  18   |                    Black-White Sudoku                     |     黑白点数独      |     ❌     |                                                              |
+|  19   |                       Arrow Sudoku                        |      箭头数独       |     ✅     |                                                              |
+|  20   |             [Mosaic](./Puzzles/Mosaic.ipynb)              |       马赛克        |     ✅     | [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/) |
+|  21   |                    Greater Than Sudoku                    |     不等式数独      |     ✅     |                                                              |
+|  22   |               [Tent](./Puzzles/Tent.ipynb)                |        帐篷         |     ✅     |            [Rules](https://www.puzzle-tents.com)             |
+|  23   |           [Nonogram](./Puzzles/Nonogram.ipynb)            |        数织         |     ✅     |                      No use of ortools                       |
+|  24   |            [Aquaium](./Puzzles/Aquarium.ipynb)            |        水箱         |     ✅     |                                                              |
+|  25   |           [Kakurasu](./Puzzles/Kakurasu.ipynb)            |       方阵和        |     ✅     |                                                              |
+|  26   |         [Starbattle](./Puzzles/Starbattle.ipynb)          |        星战         |     ✅     |                                                              |
+|  27   |                 [Vudoku](./Puzzles.ipynb)                 |       V宫数独       |     ✅     |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
+|  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
 
 
 ----

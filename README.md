@@ -1,10 +1,10 @@
-# Ortools tutorials
+# OR Puzzles & Tutorials 
 
-This repo provides useful solvers to some interesting puzzles. They're mainly solved by Google Operations Research software ORtools(especially its CS-SAT solver). The puzzles included is listed in the catalog. Besides, some basic tutorials are also included.
+This repo provides useful solvers to some interesting puzzles. Some basic demos of classic OR problems are also included. They're mainly solved by Google Operations Research software ORtools(especially its CS-SAT solver), some are solved via Commercial solver Gurobi(Licence required, of course). The puzzles included is listed in the catalog.
 
 Take it slowly, it'll go fast.
 
-Python Environment: Python 3.10.12
+Python Environment: Python 3.10.12, Gurobi Optimizer Version: 10.0.3.
 
 
 ## Catalog
@@ -28,6 +28,7 @@ Python Environment: Python 3.10.12
 Some puzzles solved in the repo:
 
 ![](./assets/figures/Headers.png)
+![](./assets/figures/Headers2.png)
 
 |  ID   |                  English Name of Puzzles                  | Chinese Translation | Finished? |                             Note                             |
 | :---: | :-------------------------------------------------------: | :-----------------: | :-------: | :----------------------------------------------------------: |
@@ -37,13 +38,13 @@ Some puzzles solved in the repo:
 |   4   |                  A petite Killer Sudoku                   |     小杀手数独      |     ✅     |                                                              |
 |   5   |                   A Consecutive Sudoku                    |      连续数独       |     ✅     |                                                              |
 |   6   |                     A Sandwich Sudoku                     |     三明治数独      |     ✅     |                                                              |
-|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |     ✅     |                                                              |
+|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |     ✅     |           [Rules](https://www.puzzle-light-up.com)           |
 |   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb) |      破译密码       |     ✅     |                                                              |
-|   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |     ✅     |                                                              |
+|   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |     ✅     |           [Rules](https://www.puzzle-norinori.com)           |  |
 |  10   |                   A thermometer Sudoku                    |     温度计数独      |     ✅     |                                                              |
 |  11   |         [Number Link](./Puzzles/NumberLink.ipynb)         |        数链         |     ✅     |                                                              |
 |  12   |       [A Minesweeper](./Puzzles/Minesweeper.ipynb)        |      静态扫雷       |     ✅     |                                                              |
-|  13   |                       A Simple Loop                       |      简单回路       |     ❌     |                                                              |
+|  13   |  [Simple Loop](./Puzzles/SimpleLoop.ipynb) (AKA: Loopy~)  |      简单回路       |     ✅     |                    🚀 Gurobi used for MILP                    |  |
 |  14   |        [Siltherlink](./Puzzles/SlitherLink.ipynb)         |         环          |     ✅     |                    🚀 Gurobi used for MILP                    |  |
 |  15   |                       Jigsaw Sudoku                       |      锯齿数独       |     ✅     |                                                              |
 |  16   |                    Anti-Knight Sudoku                     |      无马数独       |     ✅     |                                                              |
@@ -58,20 +59,14 @@ Some puzzles solved in the repo:
 |  25   |           [Kakurasu](./Puzzles/Kakurasu.ipynb)            |       方阵和        |     ✅     |                                                              |
 |  26   |         [Starbattle](./Puzzles/Starbattle.ipynb)          |        星战         |     ✅     |                                                              |
 |  27   |                 [Vudoku](./Puzzles.ipynb)                 |       V宫数独       |     ✅     |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
-|  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
+|  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |                                                              |
+|  29   |                           LITS                            |        LITS         |     🐌     |                                                              |
 
 
 ----
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/) :
-
-> P.S. This section stopped update.
-
-
-- Nurse assignment problem, 
-- Sport Schedule, 
-- Unit commitment problem
 
 
 ## Ref:

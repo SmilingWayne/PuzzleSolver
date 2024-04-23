@@ -61,6 +61,7 @@ Some puzzles solved in the repo:
 |  27   |                 [Vudoku](./Puzzles.ipynb)                 |       V宫数独       |     ✅     |       [Rules](https://sudoku-puzzles.net/vudoku-hard/)       |
 |  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |                                                              |
 |  29   |                           LITS                            |        LITS         |     🐌     |                                                              |
+|  30   |                         Pentomino                         |      五联骨牌       |     🐌     |                                                              |
 
 
 ----

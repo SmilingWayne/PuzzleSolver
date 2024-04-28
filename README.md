@@ -1,31 +1,26 @@
-# OR Puzzles & Tutorials 
+# Puzzles Solvers & OR tutorials
 
-This repo provides useful solvers to some interesting puzzles. Some basic demos of classic OR problems are also included. They're mainly solved by Google Operations Research software ORtools(especially its CS-SAT solver), some are solved via Commercial solver Gurobi(Licence required, of course). The puzzles included is listed in the catalog.
+This repo provides useful solvers of some interesting puzzles. Some basic demos of classic OR problems are also included. The main solver I used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver Gurobi (Licence required, of course) is also used for specific puzzle(Like Slitherlink). 
+
+Since most present solver of those problems are based on logical methods, this repo provides solvers based on mathematical Programming (Integer Programming, Constraint Programming etc..)
 
 Take it slowly, it'll go fast.
 
-Python Environment: Python 3.10.12, Gurobi Optimizer Version: 10.0.3.
+✅ Python Environment: Python 3.10.12, 
+
+✅ Gurobi Optimizer Version: 10.0.3.
+
+✅ ortools Optimizer Version: 9.7.2996
 
 
 ## Catalog
 
 
-1. [Ortools for Linear Programming](./SimpleLP.ipynb)
-2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb)
-3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb)
-4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb)
-5. [Ortools for some INTERESTING Sudokus and variants!!](./Puzzles.ipynb): Recent main project! OR maniac! In this repo, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integerate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
-
-> Come and solve your Sudoku / Sandwich sudoku / Killer Sudoku / Arrow Sudoku / anti-king Sudoku ... with ortools!
-
-6. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
-7. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
-
-> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
-
 -------
 
-Some puzzles solved in the repo:
+1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integrate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+
+2. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burned logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
 
 ![](./assets/figures/Headers.png)
 ![](./assets/figures/Headers2.png)
@@ -38,7 +33,7 @@ Some puzzles solved in the repo:
 |   4   |                  A petite Killer Sudoku                   |     小杀手数独      |     ✅     |                                                              |
 |   5   |                   A Consecutive Sudoku                    |      连续数独       |     ✅     |                                                              |
 |   6   |                     A Sandwich Sudoku                     |     三明治数独      |     ✅     |                                                              |
-|   7   |      [Akari](./Puzzles/Akari.ipynb) (AKA: light UP!)      |        照明         |     ✅     |           [Rules](https://www.puzzle-light-up.com)           |
+|   7   |      [Akari](./Puzzles/Akari.ipynb) (aka: light UP!)      |        照明         |     ✅     |           [Rules](https://www.puzzle-light-up.com)           |
 |   8   | [Cryptarithmetic Puzzle](./Puzzles/Cryptarithmetic.ipynb) |      破译密码       |     ✅     |                                                              |
 |   9   |           [Norinori](./Puzzles/NoriNori.ipynb)            |        海苔         |     ✅     |           [Rules](https://www.puzzle-norinori.com)           |  |
 |  10   |                   A thermometer Sudoku                    |     温度计数独      |     ✅     |                                                              |
@@ -64,7 +59,22 @@ Some puzzles solved in the repo:
 |  30   |          [Pentomino](./Puzzles/Pentomino.ipynb)           |      五联骨牌       |     ✅     |         [Rules](https://isomerdesign.com/Pentomino/)         |
 
 
-----
+3. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
+4. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
+5. [Ortools for Constraint Programming](./ConstraintOpt.ipynb): Tutorials.
+6. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
+
+7. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
+8. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
+
+> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
+
+9. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
+
+10. Branch & Price for Parallel Machine Scheduling: 🐌...
+
+
+-------
 
 
 1. Some basic / classic [Operations Research Modeling](./modeling/) :

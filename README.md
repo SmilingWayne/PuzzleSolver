@@ -15,7 +15,6 @@ Take it slowly, it'll go fast.
 
 ## Catalog
 
-
 -------
 
 1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integrate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
@@ -57,15 +56,16 @@ Take it slowly, it'll go fast.
 |  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |                                                              |
 |  29   |                           LITS                            |        LITS         |     🐌     |                                                              |
 |  30   |          [Pentomino](./Puzzles/Pentomino.ipynb)           |      五联骨牌       |     ✅     |         [Rules](https://isomerdesign.com/Pentomino/)         |
+|  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |         🤔️🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
 
 
-3. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
-4. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
-5. [Ortools for Constraint Programming](./ConstraintOpt.ipynb): Tutorials.
-6. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
+1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
+2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
+3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb): Tutorials.
+4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
 
-7. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
-8. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
+5. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
+6. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
 
 > For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
 

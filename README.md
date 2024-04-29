@@ -56,7 +56,8 @@ Take it slowly, it'll go fast.
 |  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |                                                              |
 |  29   |                           LITS                            |        LITS         |     🐌     |                                                              |
 |  30   |          [Pentomino](./Puzzles/Pentomino.ipynb)           |      五联骨牌       |     ✅     |         [Rules](https://isomerdesign.com/Pentomino/)         |
-|  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |         🤔️🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
+|  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |         🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
+|  32   |             [Shikaku](./Puzzles/Shikaku.ipynb)              |         🤔️          |     🐌     |    [Rules](https://www.puzzle-shikaku.com/?size=5)    |
 
 
 1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.

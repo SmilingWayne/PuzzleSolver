@@ -56,9 +56,14 @@ Take it slowly, it'll go fast.
 |  28   |                         3D-Sudoku                         |      三维数独       |     🚀     |                                                              |
 |  29   |                           LITS                            |        LITS         |     🐌     |                                                              |
 |  30   |          [Pentomino](./Puzzles/Pentomino.ipynb)           |      五联骨牌       |     ✅     |         [Rules](https://isomerdesign.com/Pentomino/)         |
-|  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |         🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
-|  32   |             [Shikaku](./Puzzles/Shikaku.ipynb)              |         🤔️          |     🐌     |    [Rules](https://www.puzzle-shikaku.com/?size=5)    |
+|  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |          🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
+|  32   |            [Shikaku](./Puzzles/Shikaku.ipynb)             |        直角         |     🐌     |       [Rules](https://www.puzzle-shikaku.com/?size=5)        |
+|  33   |             [Kakuro](./Puzzles/Kakuro.ipynb)              |       交叉和        |     ✅     |                                                              |
+|  34   |            [Binario](./Puzzles/Binario.ipynb)             |      二进制       |     ✅     |                                                              |
 
+-----
+
+Some materials for self-learning:
 
 1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
 2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
@@ -70,9 +75,9 @@ Take it slowly, it'll go fast.
 
 > For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
 
-9. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
+7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
 
-10. Branch & Price for Parallel Machine Scheduling: 🐌...
+8. Branch & Price for Parallel Machine Scheduling: 🐌...
 
 
 -------

@@ -59,7 +59,9 @@ Take it slowly, it'll go fast.
 |  31   |             [Suguru](./Puzzles/Suguru.ipynb)              |          🤔️          |     ✅     |    [Rules](https://puzzlegenius.org/suguru-from-scratch/)    |
 |  32   |            [Shikaku](./Puzzles/Shikaku.ipynb)             |        直角         |     🐌     |       [Rules](https://www.puzzle-shikaku.com/?size=5)        |
 |  33   |             [Kakuro](./Puzzles/Kakuro.ipynb)              |       交叉和        |     ✅     |                                                              |
-|  34   |            [Binario](./Puzzles/Binario.ipynb)             |      二进制       |     ✅     |                                                              |
+|  34   |            [Binario](./Puzzles/Binario.ipynb)             |       二进制        |     ✅     |                                                              |
+|  35   | [Five Cells(aka: Faibuseruzu)](./Puzzles/FiveCells.ipynb) |       五空格        |     ✅     |                                                              |
+
 
 -----
 

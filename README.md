@@ -61,6 +61,8 @@ Take it slowly, it'll go fast.
 |  33   |             [Kakuro](./Puzzles/Kakuro.ipynb)              |       交叉和        |     ✅     |                                                              |
 |  34   |            [Binario](./Puzzles/Binario.ipynb)             |       二进制        |     ✅     |                                                              |
 |  35   | [Five Cells(aka: Faibuseruzu)](./Puzzles/FiveCells.ipynb) |       五空格        |     ✅     |                                                              |
+|  36   |   [Fobidoshi (aka: No Four)](./Puzzles/Fobidoshi.ipynb)   |      禁止四联       |     ❌     |                                                              |
+|  37   |             [Hitori](./Puzzles/Hitori.ipynb)              |      请勿打扰       |     ✅     |                    🚀 Gurobi used for MILP                    |
 
 
 -----
@@ -92,3 +94,4 @@ Some materials for self-learning:
 
 - [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)
+- Puzzle data: [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm), [Puzzle](https://www.puzzle-loop.com)

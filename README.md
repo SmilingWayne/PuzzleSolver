@@ -64,7 +64,8 @@ Take it slowly, it'll go fast.
 |  36   |   [Fobidoshi (aka: No Four)](./Puzzles/Fobidoshi.ipynb)   |      禁止四联       |     ❌     |                                                              |
 |  37   |             [Hitori](./Puzzles/Hitori.ipynb)              |      请勿打扰       |     ✅     |                    🚀 Gurobi used for MILP                    |
 |  38   |           [Monotone](./Puzzles/Monotone.ipynb)            |       单调性        |     ✅     |                    🚀 Gurobi used for MILP                    |
-|  39   |           [Creek](./Puzzles/Creek.ipynb)            |       小溪        |     ✅     |                    🚀 Gurobi used for MILP                    |
+|  39   |              [Creek](./Puzzles/Creek.ipynb)               |        小溪         |     ✅     |                    🚀 Gurobi used for MILP                    |
+|  40   |   [Patchwork (aka: Tatami)](./Puzzles/Patchwork.ipynb)    |       榻榻米        |     ✅     |        [Rules](https://www.cross-plus-a.com/help.htm)        |
 
 
 

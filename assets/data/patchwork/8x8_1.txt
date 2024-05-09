@@ -1,0 +1,18 @@
+8 8
+. . . . 4 . . 4
+1 . . 1 . . . .
+. . 4 . 2 . . .
+. . . . . . . .
+. . 2 . . . . .
+. . . . . . . .
+1 . . . 2 . . .
+. . . . . . . 4
+
+A B C C C C D E
+A B F G H I D E
+A B F G H I D E
+A B F G H I D E
+J K F G H I L M
+J K N N N N L M
+J K O O O O L M
+J K P P P P L M

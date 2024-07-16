@@ -4,8 +4,14 @@ from Sudokus.SudokuSolver import CompoundSudokuSolver
 
 class TestCompoundSudokuSolver:
     
-    # def test_standard(self):
-    #     pass 
+    def test_standard(self):
+        """测试标准数独
+        """
+        test_std_solver = "549001738367008001200073040000900005000705460135840070004000307780350006023080000" 
+        css = CompoundSudokuSolver(grid=test_std_solver, std_rule= True)
+        result = css.solveall()
+        assert result == "549261738367498521218573649476932815892715463135846972654129387781354296923687154"
+    
     def test_killer(self):
         """测试杀手数独案例
         """
@@ -77,13 +83,15 @@ class TestCompoundSudokuSolver:
         """测试XV数独
         """
         test_XV_sudoku = "000000000000000000000000000000000000000000000000000000000000000090000008000000000"
-        test_XV_example = "---------V-VV-V-------------X----X-VX---X--V---XX------X---X----V------X--X----V-X-V-X--X----V---------X-----X----X------X----X--X-V--V---------"
+        test_XV_example = ".........V.VV.V.............X....X.VX...X..V...XX......X...X....V......X..X....V.X.V.X..X....V.........X.....X....X......X....X..X.V..V........."
         # https://gridpuzzle.com/vx-sudoku/159j0
         css = CompoundSudokuSolver(grid = test_XV_sudoku, XV = test_XV_example )
         result = css.solveall()
         assert result == "938427156625138497741956283213564879859371642467289315182793564394615728576842931"
     
     def test_sandwich(self):
+        """测试三明治数独
+        """
         test_sandwich_grid = "000090064000200100000104007006000000090000806000500000053682010920407005070010020"
         test_sandwich_nums = [
             ["R", 6, 13, 20, 30, 35, 3, 2, 19, 0], 
@@ -93,8 +101,71 @@ class TestCompoundSudokuSolver:
         css = CompoundSudokuSolver(grid = test_sandwich_grid, sandwich = test_sandwich_nums)
         result = css.solveall()
         assert result == "712398564345276198869154237536841972194723856287569341453682719921437685678915423"
-        
+    
+    def test_thermo(self):
+        """测试温度计数独
+        """
+        test_thermo_grid = "785000200000000010000000000000000000000030000000000000000090000004070000100000607"
+        test_thermo_cage = [
+            [(0,4), (1,3), (2,2), (3,1)], 
+            [(4,8), (3,7), (2,6), (1,5)],
+            [(4,5), (3,5), (3,4), (3,3)], 
+            [(4,3), (5,3), (5,4), (5,5)],
+            [(4,0), (5,1), (6,2), (7,3)],
+            [(8,4), (7,5), (6,6), (5,7)]
+        ]
+        css = CompoundSudokuSolver(grid = test_thermo_grid, thermo = test_thermo_cage)
+        result = css.solveall()
+        assert result == "785314296946257318213968475671542839498631752352789164827196543564873921139425687"
+
+    def test_petite_killer(self):
+        """测试小杀手数独
+        """
+        test_petite_killer = "005000000000000000000002000000000000000006040000000000000060000000300000000000008"
+        test_petite_killer_cages = [ 
+            [ "TL", 2, 10, 19, 23, 19, 25, 45, 47], # TL means "Top to Left" (digits from left to right)
+            [ "RT", 4, 13, 16, 13, 20, 30, 45, 47], # RT means "Right to Top" (digits from Top to bottom)
+            [ "BR", 37, 35, 30, 19, 20, 16, 10, 8], # BR means "Bottom to Right" (digits from left to right)
+            [ "LB", 33, 34, 33, 19, 19, 15, 14, 4] # LB means "left to Bottom" (digits from top to bottom)
+        ]
+        css = CompoundSudokuSolver(grid = test_petite_killer, petite_killer=test_petite_killer_cages )
+        result = css.solveall()  
+        assert result == "295631784183749265674852193726493851318576942549218376837165429962384517451927638"
+
+    def test_anti_knight_sudoku(self):
+        """测试无马数独
+        """
+        test_antiknight_grid = "580400027000970000000005030005030000000000680060000300106000000097050000008000000"
+        css = CompoundSudokuSolver(grid = test_antiknight_grid, anti_knight=True)
+        result = css.solveall()
+        assert result == "589463127423971568671825439815634792932517684764289351146398275397152846258746913"
+
+    def test_anti_king_sudoku(self):
+        """测试无缘数独
+        """
+        test_antiking_grid = "001003070050007009600081000000000745009000300543000000000940003100700050060300200"
+        css = CompoundSudokuSolver(grid = test_antiking_grid, anti_king=True)
+        result = css.solveall()
+        assert result == "421593678358627419697481532286139745719854326543276891875942163132768954964315287"
+
+    def test_greater_than_sudoku(self):
+        """测试不等式数独
+        """
+        test_greater_than_solver = "000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        test_greater_than = "<..>..>.>.<....<>...><.>.>><.....>...<>.............>..<...>.<.><..<>>......<..><..<><<.>..<..........<...>.><.>>..>...........<..<<><.........<"
+        css = CompoundSudokuSolver(grid = test_greater_than_solver, greater_than = test_greater_than)
+        result = css.solveall()
+        assert result == "354769218296518437178342956721956384543827169689431572467195823835274691912683745"
+    
+    def test_diagonal_sudoku(self):
+        """测试对角线数独
+        Diagonal sudoku(Evil) https://gridpuzzle.com/diagonal-sudoku/20p55
+        """
+        test_diag = "000002000000000301002000000400000000000009100500030000090280700040007600180000004"
+        css = CompoundSudokuSolver(grid = test_diag, diagonal=True)
+        result = css.solveall()
+        assert result == "318672549764598321952143867471826953836459172529731486693284715245317698187965234"
 
 if __name__ == "__main__":
-    pytest.main()
+    pytest.main(["-v"])
     

@@ -140,7 +140,7 @@ class CompoundSudokuSolver:
         rtl = []
         for i in range(self.Y):
             ltr.append(self.x[i, i])
-            rtl.append(self.X - i - 1, i)
+            rtl.append(self.x[self.X - i - 1, i])
         self.model.AddAllDifferent(ltr)
         self.model.AddAllDifferent(rtl)
             
@@ -356,36 +356,22 @@ class CompoundSudokuSolver:
             self.model.Add(self.x[arrow_[0][0], arrow_[0][1]] == sum([self.x[ar[0], ar[1]] for ar in arrow_[1:]]))
             
     def addGreaterThanConstr(self):
-        for idx, oper in enumerate(self.greater_than):
-            cage, sub_cage =  (idx ) // 12 , (idx ) % 12
-            if oper == "-":
+        for idx, sub_ in enumerate(self.greater_than):
+            if sub_ == ".":
                 continue
-            central_x, central_y =   (cage % 3) * 3 + 1, (cage // 3) * 3  + 1
-            if sub_cage == 0:
-                self.model.Add(self.x[central_y - 1, central_x - 1] > self.x[ central_y - 1, central_x]) if oper == ">" else  self.model.Add(self.x[central_y - 1, central_x - 1] < self.x[central_y - 1, central_x])
-            elif sub_cage == 1:
-                self.model.Add(self.x[central_y - 1, central_x] > self.x[central_y - 1, central_x + 1]) if oper == ">" else  self.model.Add(self.x[central_y - 1, central_x] < self.x[central_y - 1, central_x + 1])
-            elif sub_cage == 2:
-                self.model.Add(self.x[central_y - 1, central_x - 1] < self.x[central_y, central_x - 1]) if oper == ">" else  self.model.Add(self.x[central_y - 1, central_x - 1 ] > self.x[central_y, central_x - 1])
-            elif sub_cage == 3:
-                self.model.Add(self.x[central_y - 1, central_x  ] < self.x[ central_y, central_x ]) if oper == ">" else  self.model.Add(self.x[central_y - 1, central_x ] > self.x[central_y, central_x])
-            elif sub_cage == 4:
-                self.model.Add(self.x[central_y - 1, central_x + 1 ] < self.x[central_y, central_x + 1 ]) if oper == ">" else  self.model.Add(self.x[central_y - 1 , central_x + 1] > self.x[central_y, central_x + 1])
-            elif sub_cage == 5:
-                self.model.Add(self.x[central_y, central_x - 1] > self.x[central_y, central_x]) if oper == ">" else  self.model.Add(self.x[central_y, central_x - 1] < self.x[central_y, central_x])
-            elif sub_cage == 6:
-                self.model.Add(self.x[central_y, central_x] > self.x[central_y, central_x + 1]) if oper == ">" else  self.model.Add(self.x[central_y, central_x] < self.x[central_y, central_x + 1])
-            elif sub_cage == 7:
-                self.model.Add(self.x[central_y, central_x  - 1  ] < self.x[central_y + 1, central_x  - 1  ]) if oper == ">" else  self.model.Add(self.x[central_y , central_x  - 1 ] > self.x[central_y + 1, central_x  - 1 ])
-            elif sub_cage == 8:
-                self.model.Add(self.x[central_y, central_x ] < self.x[central_y + 1, central_x ]) if oper == ">" else  self.model.Add(self.x[central_y, central_x ] > self.x[central_y + 1, central_x])
-            elif sub_cage == 9:
-                self.model.Add(self.x[central_y, central_x  + 1 ] < self.x[central_y + 1, central_x + 1 ]) if oper == ">" else  self.model.Add(self.x[central_y, central_x + 1 ] > self.x[central_y + 1, central_x + 1])
-            elif sub_cage == 10:
-                self.model.Add(self.x[central_y + 1, central_x - 1] > self.x[central_y + 1, central_x]) if oper == ">" else  self.model.Add(self.x[central_y + 1, central_x - 1] < self.x[central_y + 1, central_x])
-            elif sub_cage == 11:
-                self.model.Add(self.x[central_y + 1, central_x] > self.x[central_y + 1, central_x + 1]) if oper == ">" else  self.model.Add(self.x[central_y + 1, central_x] < self.x[central_y + 1, central_x + 1])
-    
+            sub_a, sub_b = idx // 17, idx % 17
+            if sub_ == ">":
+                if sub_b <= 7:
+                    self.model.Add(self.x[int(sub_a), int(sub_b)] > self.x[int(sub_a), int(sub_b) + 1])
+                    print(f"[{int(sub_a)}, {int(sub_b)}] > [{int(sub_a)}, {int(sub_b) + 1}]")
+                elif sub_b <= 16:
+                    self.model.Add(self.x[int(sub_a), int(sub_b) - 8] > self.x[int(sub_a) + 1, int(sub_b) - 8])
+            elif sub_ == "<":
+                if sub_b <= 7:
+                    self.model.Add(self.x[int(sub_a), int(sub_b)] < self.x[int(sub_a), int(sub_b) + 1])
+                elif sub_b <= 16:
+                    self.model.Add(self.x[int(sub_a), int(sub_b) - 8] < self.x[int(sub_a) + 1, int(sub_b) - 8])
+
     def addJigsawConstr(self):
         for i in range(self.Y):
             row = [self.x[i, j] for j in range(self.X)]
@@ -448,7 +434,7 @@ class CompoundSudokuSolver:
     def addXVConstr(self):
         # Sudoku XV(Evil) https://gridpuzzle.com/vx-sudoku/159j0
         for idx, sub_ in enumerate(self.XV):
-            if sub_ == "-":
+            if sub_ == ".":
                 continue
             sub_a, sub_b = idx // 17 , idx % 17 
             if sub_ == "V":
@@ -490,8 +476,7 @@ class CompoundSudokuSolver:
         if self.arrow != None:
             self.addArrowConstr()
         if self.greater_than != None:
-            if len(self.greater_than) == 108:
-                self.addGreaterThanConstr()
+            self.addGreaterThanConstr()
         if self.vudoku != None:
             self.addVudokuConstr()
         if self.all_nine != None:

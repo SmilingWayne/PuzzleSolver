@@ -41,8 +41,8 @@ Take it slowly, it'll go fast.
 |  13   |     Arrow Sudoku     |      箭头数独       |          ✅          |         [Rules](https://www.sudoku-variants.com/arrow)         |
 |  14   |      XV Sudoku       |       XV数独        |          ✅          |       [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)        |
 |  15   |    Window Sudoku     |      窗口数独       |          ✅          |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |
-|  16   |    Kropki Sudoku     |     黑白点数独      |          ❌          |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |
-|  17   |   Even-Odd Sudoku    |      奇偶数独       |          ❌          |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |
+|  16   |    Kropki Sudoku     |     黑白点数独      |          ✅          |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |
+|  17   |   Even-Odd Sudoku    |      奇偶数独       |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |
 
 > Table of Sudoku and its variants: 👆
 
@@ -55,7 +55,7 @@ Take it slowly, it'll go fast.
 |   4   |             [Norinori](./Puzzles/NoriNori.ipynb)             |        海苔         |     ✅     |              [Rules](https://www.puzzle-norinori.com)               |  |
 |   5   |          [Number Link](./Puzzles/NumberLink.ipynb)           |        数链         |     ✅     |                                                                     |
 |   6   |         [A Minesweeper](./Puzzles/Minesweeper.ipynb)         |      静态扫雷       |     ✅     |                                                                     |
-|   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) (AKA: Loopy~)    |      简单回路       |     ✅     |                       🚀 Gurobi used for MILP                        |  |
+|   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) (aka: Loopy~)    |      简单回路       |     ✅     |                       🚀 Gurobi used for MILP                        |  |
 |   8   |          [Siltherlink](./Puzzles/SlitherLink.ipynb)          |         环          |     ✅     |                       🚀 Gurobi used for MILP                        |  |
 |   9   |               [Mosaic](./Puzzles/Mosaic.ipynb)               |       马赛克        |     ✅     |    [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)     |
 |  10   |                 [Tent](./Puzzles/Tent.ipynb)                 |        帐篷         |     ✅     |                [Rules](https://www.puzzle-tents.com)                |

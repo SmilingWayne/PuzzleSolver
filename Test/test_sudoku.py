@@ -166,6 +166,36 @@ class TestCompoundSudokuSolver:
         result = css.solveall()
         assert result == "318672549764598321952143867471826953836459172529731486693284715245317698187965234"
 
+    def test_evenodd_sudoku(self):
+        """测试奇偶数独
+        Even-Odd Sudoku(Evil) https://gridpuzzle.com/even-odd-sudoku/1ywwd
+        """
+        test_even_odd = "000900005000008000300000060000702000001004000074009100600801040402000000700000390"
+        even_odd = ".E...OEE.O.O....O...E..OO..OOE......E...O..............OO...E...E.OO.E.......E..."
+        css = CompoundSudokuSolver(grid = test_even_odd, even_odd = even_odd)
+        result = css.solveall()
+        assert result == "147963825569278413328145769936712584851634972274589136693851247482397651715426398"
+        
+    def test_kropki_sudoku(self):
+        """测试黑白点数独
+        Kropki Sudoku(Evil) https://gridpuzzle.com/kropki-sudoku/08gv1
+        """
+        grid = "000000000000000000000000000000000000000000000000000000000000000000000000000000000" 
+        kropki = ".....B.W.....WW....WW..W........W...WW..W..W.B..B...W.W..B....W.W..WB......BW..W............BBW.....WB........WB.BB.....WW.......W..B........B.B"
+        css = CompoundSudokuSolver(grid = grid, kropki=kropki)
+        result = css.solveall()
+        assert result == "537964821814325769269871453956438217428517936371692584685149372743286195192753648"
+
+    def test_center_dot(self):
+        """测试对角线中心数独 
+        https://gridpuzzle.com/x-center-dot-sudoku/0yxm2
+        """
+        grid = "000000000000734000000801000085070420020416050091080370000108000000342000000000000"
+        window = "000000000010010010000000000000000000010010010000000000000000000010010010000000000"
+        css = CompoundSudokuSolver(grid = grid, all_nine = window, diagonal=True)
+        result = css.solveall()
+        assert result == "317629845568734192942851637685973421723416958491285376254198763176342589839567214"
+        
 if __name__ == "__main__":
     pytest.main(["-v"])
     

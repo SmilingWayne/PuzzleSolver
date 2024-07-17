@@ -24,6 +24,8 @@ class CompoundSudokuSolver:
         vudoku = None,
         all_nine = None,
         XV = None,
+        even_odd = None,
+        kropki = None,
         diagonal = False) -> None:
         
         self.grid = grid
@@ -47,6 +49,8 @@ class CompoundSudokuSolver:
         self.vudoku = vudoku
         self.all_nine = all_nine
         self.XV = XV
+        self.evan_odd = even_odd
+        self.kropki = kropki
         # list (tuple), 
         # 7 2
         # 8 2
@@ -447,8 +451,32 @@ class CompoundSudokuSolver:
                     self.model.Add(self.x[int(sub_a), int(sub_b)] + self.x[int(sub_a), int(sub_b) + 1] == 10)
                 elif sub_b <= 16:
                     self.model.Add(self.x[int(sub_a), int(sub_b) - 8] + self.x[int(sub_a) + 1, int(sub_b) - 8] == 10)
+    
+    def addEvenOddConstr(self):
+        for idx, sub_char in enumerate(self.evan_odd):
+            idx_a, idx_b = idx // self.X, idx % self.X
+            if sub_char == "E":
+                self.model.AddAllowedAssignments([self.x[idx_a, idx_b]], [[2], [4], [6], [8]])
+            elif sub_char == "O":
+                self.model.AddAllowedAssignments([self.x[idx_a, idx_b]], [[1], [3], [5], [7], [9]])
         
-        
+    def addKropkiConstr(self):
+        for idx, sub_ in enumerate(self.kropki):
+            if sub_ == ".":
+                continue
+            sub_a, sub_b = idx // 17 , idx % 17 
+            if sub_ == "B":
+                if sub_b <= 7:
+                    self.model.AddAllowedAssignments([self.x[int(sub_a), int(sub_b)], self.x[int(sub_a), int(sub_b) + 1]], [[1,2], [2,4], [3,6], [4,8], [8,4], [6,3], [4,2], [2,1]])
+                elif sub_b <= 16:
+                    self.model.AddAllowedAssignments([self.x[int(sub_a), int(sub_b) - 8], self.x[int(sub_a) + 1, int(sub_b) - 8]], [[1,2], [2,4], [3,6], [4,8], [8,4], [6,3], [4,2], [2,1]])
+            elif sub_ == "W":
+                if sub_b <= 7:
+                    self.model.AddAbsEquality(1, self.x[int(sub_a), int(sub_b)] - self.x[int(sub_a), int(sub_b) + 1])
+                elif sub_b <= 16:
+                    self.model.AddAbsEquality(1, self.x[int(sub_a), int(sub_b) - 8] - self.x[int(sub_a) + 1, int(sub_b) - 8])
+    
+    
     def solveall(self):
 
         if self.std_rule and self.jigsaw == None:
@@ -483,6 +511,10 @@ class CompoundSudokuSolver:
             self.addAllNineConstr()
         if self.XV != None:
             self.addXVConstr()
+        if self.evan_odd != None:
+            self.addEvenOddConstr()
+        if self.kropki != None:
+            self.addKropkiConstr()
         
         status = self.solver.Solve(self.model)
 

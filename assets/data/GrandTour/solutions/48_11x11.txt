@@ -1,0 +1,12 @@
+11 11
+x - x x x - x x x - x
+x x x - x x x - x x x
+- - x - - x - - - x -
+x x x x - x x - x x x
+x - - - - - x - - - x
+x - x - x x x - x x x
+x - x x x - x - x - -
+x - - x - - - - x - x
+x - x x - x - x x x x
+x - x - - x - x - x -
+x - x x x x - x - x x

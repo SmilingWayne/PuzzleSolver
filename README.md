@@ -98,15 +98,15 @@ Take it slowly, it'll go fast.
 > Currently, this repo have 400 + puzzle grid data.
 
 
-|  ID   |                  Puzzle name                  |             Size of puzzle              |        # of puzzle        | With Sol? |
-| :---: | :-------------------------------------------: | :-------------------------------------: | :-----------------------: | :-------: |
-|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 30x25 <br> 60x60 <br> Others | 100 <br> 9 <br> 1 <br> 13 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |              15x15 ~ 30x25              |            104            |     ✅     |
-|   3   |         [Gappy](./assets/data/Gappy/)         |                  12x12                  |            60             |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                  17x17                  |            153            |     ✅     |
-|   5   |     [GrandTour](./assets/data/GrandTour/)     |                  11x11                  |            126            |     ✅     |
-|   -   |                  Sudoku-like                  |                    ⌛️                    |             ⌛️             |     ⌛️     |
-|   -   |                     Akari                     |                    ⌛️                    |             ⌛️             |     ⌛️     |
+|  ID   |                  Puzzle name                  |                        Size of puzzle                         |               # of puzzle                | With Sol? |
+| :---: | :-------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------: | :-------: |
+|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 100 <br> 91 <br> 28 <br>9 <br> 1 <br> 15 |     ✅     |
+|   2   |        [Mosaic](./assets/data/Mosaic/)        |                         15x15 ~ 30x25                         |                   104                    |     ✅     |
+|   3   |         [Gappy](./assets/data/Gappy/)         |                             12x12                             |                    60                    |     ✅     |
+|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17                             |                   153                    |     ✅     |
+|   5   |     [GrandTour](./assets/data/GrandTour/)     |                             11x11                             |                   126                    |     ✅     |
+|   -   |                  Sudoku-like                  |                               ⌛️                               |                    ⌛️                     |     ⌛️     |
+|   -   |                     Akari                     |                               ⌛️                               |                    ⌛️                     |     ⌛️     |
 
 
 

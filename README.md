@@ -86,6 +86,7 @@ Take it slowly, it'll go fast.
 |  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |            [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)            |                 💪 Working                 |
 |  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)              |      [dataset](./assets/data/Gappy/)      |
 |  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |    🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)    |    [dataset](./assets/data/GrandTour/)    |
+|  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |     🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)      |                     -                     |
 
 > Table of Other Puzzles: 👆
 
@@ -98,15 +99,15 @@ Take it slowly, it'll go fast.
 > Currently, this repo have 400 + puzzle grid data.
 
 
-|  ID   |                  Puzzle name                  |             Size of puzzle              |        # of puzzle        | With Sol? |
-| :---: | :-------------------------------------------: | :-------------------------------------: | :-----------------------: | :-------: |
-|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 30x25 <br> 60x60 <br> Others | 100 <br> 9 <br> 1 <br> 13 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |              15x15 ~ 30x25              |            104            |     ✅     |
-|   3   |         [Gappy](./assets/data/Gappy/)         |                  12x12                  |            60             |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                  17x17                  |            153            |     ✅     |
-|   5   |     [GrandTour](./assets/data/GrandTour/)     |                  11x11                  |            126            |     ✅     |
-|   -   |                  Sudoku-like                  |                    ⌛️                    |             ⌛️             |     ⌛️     |
-|   -   |                     Akari                     |                    ⌛️                    |             ⌛️             |     ⌛️     |
+|  ID   |                  Puzzle name                  |                        Size of puzzle                         |               # of puzzle                | With Sol? |
+| :---: | :-------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------: | :-------: |
+|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 100 <br> 91 <br> 28 <br>9 <br> 1 <br> 15 |     ✅     |
+|   2   |        [Mosaic](./assets/data/Mosaic/)        |                         15x15 ~ 30x25                         |                   104                    |     ✅     |
+|   3   |         [Gappy](./assets/data/Gappy/)         |                             12x12                             |                    60                    |     ✅     |
+|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17                             |                   153                    |     ✅     |
+|   5   |     [GrandTour](./assets/data/GrandTour/)     |                             11x11                             |                   126                    |     ✅     |
+|   -   |                  Sudoku-like                  |                               ⌛️                               |                    ⌛️                     |     ⌛️     |
+|   6   |         [Akari](./assets/data/Akari/)         |  14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others  |    72 <br> 17 <br> 18 <br> 1 <br> 21     |     ✅     |
 
 
 

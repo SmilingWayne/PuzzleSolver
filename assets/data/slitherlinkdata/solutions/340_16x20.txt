@@ -1,0 +1,17 @@
+16 20
+x x x x x - - - - - x - x x - - x x x - 
+- x - - - - - - x - x - x - - - - x - - 
+x x x - x - - x x x x x x x x x x x x x 
+- - x x x x - - - x - x - - - x x - x - 
+- - x - x x - - x x - x x - x x - - x x 
+x - x - - x - - - x - - x - x x x - x - 
+x x x x - - - x x x - x x - - - x - x x 
+x - x - - x - - x - - - x x x - - - - - 
+- - x x x x - - x x - - - x - - - x - x 
+- - - x x x x - - x - x x x x x x x - x 
+x x x x x - - - x x - - - - - x x x x x 
+- x - x x x - x x - - - x x x x - x - - 
+- - - x x x x x x x x - - x - - - x x x 
+- x - x x - - x x x - - - x x - - x - x 
+- x - - x x - - x - - x - x - - - - - x 
+x x x x x x - - - - - x x x - x x x x x

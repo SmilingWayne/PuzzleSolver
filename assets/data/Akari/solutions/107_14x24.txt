@@ -1,0 +1,15 @@
+14 24
+x o - - - x - - o 2 x o - 0 x - - o x - o - - x
+o - 1 o - - - x - o - - - - - - x - - - - x o -
+- 0 - 2 o - x o x - o x x o - x o 2 o - 0 - 2 o
+- 2 o x - o x - 0 - x o - x o 1 - 0 - - x - x -
+- o - x - - o - x - o - - - - x - - - o 3 o - -
+- - - o x - - - o - 1 - 0 x - - - o - x o - - -
+x - 0 - o 1 - - 2 - 0 - - x - x - - 1 o - x o x
+x - 1 - - x - 1 o - x - o x - o 2 - x - - x - 0
+- - o - 2 o - - - - x x - 0 - - o - - 1 - o - -
+o - - 1 o - - - x - o - - - - x - - - o 1 - - -
+- 0 - 0 - - 1 o x - 3 o - x - x - 0 - - 0 - 0 -
+- 1 - 1 - - 0 - x - o x x o - x - x - - 0 - 2 o
+- o 3 o - - - 1 o - - - - - - - 0 - o - - 1 o -
+x - o - - 1 o - - x x o - 0 1 o - - 1 - o - - x

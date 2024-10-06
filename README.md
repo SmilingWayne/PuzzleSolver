@@ -102,10 +102,10 @@ Take it slowly, it'll go fast.
 
 |  ID   |                  Puzzle name                  |                        Size of puzzle                         |               # of puzzle                | With Sol? |
 | :---: | :-------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------: | :-------: |
-|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 100 <br> 91 <br> 28 <br>9 <br> 1 <br> 15 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |                         15x15 ~ 30x25                         |                   104                    |     ✅     |
+|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 20x36 <br> 20x30 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 220 <br> 91 <br> 58 <br>33 <br> 28 <br>9 <br> 1 <br> 44 |     ✅     |
+|   2   |        [Mosaic](./assets/data/Mosaic/)        |                         25x25 <br> 15x15 <br> Others                         |                   38 <br> 40 <br> 26                    |     ✅     |
 |   3   |         [Gappy](./assets/data/Gappy/)         |                             12x12                             |                    60                    |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17                             |                   153                    |     ✅     |
+|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17  <br> 10x10                           |                   153  <br> 172                  |     ✅     |
 |   5   |     [GrandTour](./assets/data/GrandTour/)     |                             11x11                             |                   126                    |     ✅     |
 |   -   |                  Sudoku-like                  |                               ⌛️                               |                    ⌛️                     |     ⌛️     |
 |   6   |         [Akari](./assets/data/Akari/)         |  14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others  |    72 <br> 17 <br> 18 <br> 1 <br> 21     |     ✅     |

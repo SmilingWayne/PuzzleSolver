@@ -1,0 +1,22 @@
+20 30
+- x - - - x x x - - - - x x x - x - - - x - - - - x - x - - 
+- x x x - - - x x - x - x - x x x - x x x - x x - x x x - x 
+- x - - - x - x x - x x x - x x x - x - x x x - - x - x - x 
+x x x x x x x x - - x - - - - - x - - - - - x - - x - - - x 
+x - - - - x - x - - x x x x x - - - x x - x x x - x - - x x 
+- - - x - - - x x - - x x - - - x - - x - - x x x x x - x - 
+- x x x x x - x x - - x x x x x x - - x x - x x - - - - x - 
+- x - x - x - x x x - - - x x x - - x x x - x x - x x x x x 
+- x - - - - - x - x - - - x - - - - - - x x x x x x x x - - 
+- x - x x x - - - x - - x x - x x x x - x - x x - - - x - x 
+x x x x x x - - - x x x x - - - x - x x x - - x - x - x x x 
+x - - x x x x x - x x x x x - x x - - - x x - - - x x x - x 
+- - - - - x - x - x - x - - - - x x - - x - - - x x - - - - 
+- x - x x x - x x x - - - - x - - x x - x - - x x x - - - - 
+- x - - x x - - x - - - x x x - - - x - - - - - - - - x x - 
+- x x - - x - - - - x x x - x x - x x - x - x x x x x x - - 
+- - x - - x x x - - - x - - x x x x x x x - - x x x x - - - 
+x x x x x x - x x x - x - - - - x - x - x - x x - - x - x - 
+x x - - x x - - - x x x x x - - x - - - x x x x - - x x x - 
+- x x - - x x - - - - x - x x - x x - - - - - x - x x - - - 
+unit 27

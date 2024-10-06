@@ -1,0 +1,19 @@
+9 9
+- - - 3 - 1 - 6 -
+- 5 - - - 8 2 - -
+- - - - 2 - 6 5 -
+- - 2 - - - - - -
+- - - - 7 - - 9 -
+9 7 - - - - - - -
+- - - - - 7 - - -
+- - 3 - - - - - 9
+- 8 - 5 - - - - -
+h h h i i i e e e
+h h i i i c e e e
+h h i i i c c e e
+h b a a a c c c e
+h b b a a a c c f
+d b b b a a a c f
+d d b b g g g f f
+d d d b g g g f f
+d d d g g g f f f

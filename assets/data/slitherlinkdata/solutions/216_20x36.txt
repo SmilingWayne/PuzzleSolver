@@ -1,0 +1,21 @@
+20 36
+x x - x x x x x x x x - x x x x x x - - - x x x x - - - - x x x - x x x 
+- x - - - x x x - x x x x x - x x - - - - - x x - - x - x x - - - x x - 
+x x x - x x x - - - x x - - - x x x - - x x x x x x x x x x x - - x x x 
+x x - - - x x x - - x x x - x x - - - - - x - - x x x x x - - - - x x - 
+x x x - - x x - - - x x - - - x x x x x x x x - - x x - x x - x - x x x 
+- x - - - x x x - - x - - - - x x - x - - x - - x x x - - x x x - - x - 
+x x x - x x - x - - - - x x - x - - - - - - - x x x x - - - x - - x x x 
+- x x - - - - - - - - x x - - x x x x - - - - - - - x - - x x x x x x - 
+- - x x - x - - - - x x x x - x x x x x - x x x - x x x - - - x x x x x 
+- x x x x x x x - - - - x - - x - x x x x x - - - x - x - - x x - - x - 
+x x x x - - x x x x - x x x - - - - - x x x x - x x - x x - - x - x x x 
+- x - x x - - x x - - - - x - x - - - - x - - - x x - - x - x x - - - - 
+- - - x - - x x x x - x x x x x x - - - - - x x x x x - x - x - - - - - 
+- - - - - - x - x x x x x x x x - - x - x x x - x x - - - - x x - - x - 
+- x x x - - - - - x x x - x - - - x x x x - - - - x x - x - x x x x x x 
+- - - x x x x x x x - - - x x x - x x x x x x - x x x x x - x x x x x - 
+- - x x x x x x x x - - - - - x - x x - - - x - x x - - - - x x x x x x 
+- - - x x - - - x - - x - x x x x x - - x x x - x x x - x x x - x x - - 
+x x - x x x - x x - x x x x - x x x x - x - x - - x x - - - x - - x x - 
+- x x x x - - - - - - x - x - - - x - - - - - - x x x x - - - - - - x -

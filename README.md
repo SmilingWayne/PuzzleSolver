@@ -95,20 +95,29 @@ Take it slowly, it'll go fast.
 
 ### Dataset of some puzzles
 
-1.  To download puzzle data (in string format, not in PDF or jpg format) and test our solver performance, some easy-to-use scrawlers (python scripts) are provided. Code can be found [here](./Puzzles/utils.ipynb). Note that **all puzzles** mentioned above have **at least one dataset(instance) for numerical validation**, meanwhile some puzzles which are famous, popular and important have more instances. Here is the table. Dataset can be browsed directed via table links.
+1.  To download puzzle data (in string format, not in PDF or jpg format) and test our solver performance, some easy-to-use scrawlers (python scripts) are provided. Code can be found [here](./Puzzles/utils.ipynb). Note that **all puzzles** mentioned above have **at least one dataset(instance) for numerical validation**, meanwhile some puzzles which are famous, popular and important have more instances. Here is the table. Dataset can be browsed directly via table links.
 
 > Currently, this repo have 400 + puzzle grid data.
 
 
-|  ID   |                  Puzzle name                  |                        Size of puzzle                         |               # of puzzle                | With Sol? |
-| :---: | :-------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------: | :-------: |
+|  ID   |                  Puzzle name                  |                                   Size of puzzle                                    |                       # of puzzle                       | With Sol? |
+| :---: | :-------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------: | :-------: |
 |   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 20x36 <br> 20x30 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 220 <br> 91 <br> 58 <br>33 <br> 28 <br>9 <br> 1 <br> 44 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |                         25x25 <br> 15x15 <br> Others                         |                   38 <br> 40 <br> 26                    |     ✅     |
-|   3   |         [Gappy](./assets/data/Gappy/)         |                             12x12                             |                    60                    |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17  <br> 10x10                           |                   153  <br> 172                  |     ✅     |
-|   5   |     [GrandTour](./assets/data/GrandTour/)     |                             11x11                             |                   126                    |     ✅     |
-|   -   |                  Sudoku-like                  |                               ⌛️                               |                    ⌛️                     |     ⌛️     |
-|   6   |         [Akari](./assets/data/Akari/)         |  14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others  |    72 <br> 17 <br> 18 <br> 1 <br> 21     |     ✅     |
+|   2   |        [Mosaic](./assets/data/Mosaic/)        |                            25x25 <br> 15x15 <br> Others                             |                   38 <br> 40 <br> 26                    |     ✅     |
+|   3   |         [Gappy](./assets/data/Gappy/)         |                                        12x12                                        |                           60                            |     ✅     |
+|   4   |        [Hitori](./assets/data/hitori/)        |                                  17x17  <br> 10x10                                  |                      153  <br> 172                      |     ✅     |
+|   5   |     [GrandTour](./assets/data/GrandTour/)     |                                        11x11                                        |                           126                           |     ✅     |
+|   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
+
+|  ID   | Sudoku-varients Puzzle | Size of puzzle | # of puzzle | With Sol? |
+| :---: | :--------------------: | :------------: | :---------: | :-------: |
+|   1   |     Killer Sudoku      |      9x9       |     155     |     ✅     |
+|   2   |     Jigsaw Sudoku      |      9x9       |     128     |     ✅     |
+|   3   |     Samurai Sudoku     |     21x21      |     272     |     ✅     |
+|   4   |     Shogun Sudoku      |     21x45      |     90      |     ✅     |
+|   5   |      Sohei Sudoku      |     21x21      |     120     |     ✅     |
+|   6   |    Clueless2 Sudoku    |     27x27      |     40      |     ✅     |
+|   7   |      Sumo Sudoku       |     33x33      |     110     |     ✅     |
 
 
 

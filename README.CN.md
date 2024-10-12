@@ -1,61 +1,69 @@
-# Puzzles Solvers & OR tutorials
+# 谜题求解器 & 不严肃的运筹教程
 
 [![EN](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/lang-cn-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful solvers for some interesting **puzzles**. Some basic demos of classic OR problems are also included. The main solver I used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver Gurobi (Licence required, of course) is also used for specific puzzle(Like Slitherlink). 
+本仓库包含了一些**有趣谜题**的**自动求解工具**。主要依赖Google研发的开源求解器 [ORtools](https://developers.google.cn/optimization?hl=zh-cn)进行。有的谜题（比如Slitherlink, Hitori 等）使用目前最好的商用整数规划求解器 [Gurobi](https://www.gurobi.com) 进行求解。
 
-Since most present solver of those problems are based on logical methods, this repo provides solvers based on mathematical Programming (Integer Programming, Constraint Programming etc..)
+本仓库同样包含了对若干有趣的逻辑谜题的数学建模。包括整数规划、约束规划等。
 
-Besides, this repo also contains some dataset( > 100 instances) of specific puzzles(Slitherlink, Mosaic for now, more data will be added). Details can be found in catalog.
+除了提供这些求解工具，本仓库也包括了一些我自己搜集和爬取的数据集，目前总共包括了超过10类谜题的约2000条数据。具体细节可以参考README文档后面的内容。
 
-Take it slowly, it'll go fast.
+“慢慢来，反而快。”
 
-✅ Python Environment: Python 3.10.12, 
+✅ Python 版本: Python 3.10.12, 
 
-✅ Gurobi Optimizer Version: 10.0.3.
+✅ Gurobi 版本: 10.0.3.
 
-✅ ortools Optimizer Version: 9.7.2996
+✅ ortools 版本: 9.7.2996
 
 
-## Catalog
+## 目录
 
 -------
 
-### Sudoku and variants puzzles 
+### 数独以及其衍生谜题
 
-1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integrate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+1. [基于Ortools的数独求解工具](./Puzzles.ipynb): 🥰 是本仓库最最最开始的起点。对近20个数独的变体进行求解，制作成了综合求解器，求解器支持**混合规则**的数独模型求解。你只需要输入谜题和对应规则，就可以获得终盘。比如你不仅可以求解锯齿数独，也支持锯齿-无马-不等式数独。可以参考[这个例子](https://cn.gridpuzzle.com/sudoku-puzzles?page=3)。
 
 
-### Other logic Puzzles
+### 其他逻辑谜题
 
-1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burned logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
+1. [其他利用ortools的CS-SAT求解器与MILP进行求解的谜题](./Puzzles/). 包含了同样有趣和烧脑的逻辑谜题的自动化求解工具。目前涵盖了寻路类、填字类、标号类、涂色类等不同的类别。一个简单的总结如下：
 
 ![](./assets/figures/Headers.png)
 ![](./assets/figures/Headers2.png)
 
-|  ID   | Sudoku and variants  | Chinese Translation | Finished and Tested |                              Note                              |
-| :---: | :------------------: | :-----------------: | :-----------------: | :------------------------------------------------------------: |
-|   1   |   Standard Sudoku    |      标准数独       |          ✅          |         [Rules](https://en.gridpuzzle.com/rule/sudoku)         |
-|   2   |    Killer Sudoku     |      杀手数独       |          ✅          |     [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)      |
-|   3   |    Jigsaw Sudoku     |      锯齿数独       |          ✅          |     [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)      |
-|   4   |  Consecutive Sudoku  |      连续数独       |          ✅          |   [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)   |
-|   5   |   Sandwich Sudoku    |     三明治数独      |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)     |
-|   6   |  Thermometer Sudoku  |     温度计数独      |          ✅          |     [Rules](https://www.sudoku-variants.com/thermo-sudoku)     |
-|   7   | Petite-Killer Sudoku |     小杀手数独      |          ✅          | [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/) |
-|   8   |  Anti-Knight Sudoku  |      无马数独       |          ✅          |   [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)   |
-|   9   |   Anti-King Sudoku   |      无缘数独       |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)    |
-|  10   | Greater-Than Sudoku  |     不等式数独      |          ✅          | [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)  |
-|  11   |   Diagonal Sudoku    |     对角线数独      |          ✅          |       [Rules](https://en.gridpuzzle.com/diagonal-sudoku)       |
-|  12   |        Vudoku        |       V宫数独       |          ✅          |           [Rules](https://en.gridpuzzle.com/vsudoku)           |
-|  13   |     Arrow Sudoku     |      箭头数独       |          ✅          |         [Rules](https://www.sudoku-variants.com/arrow)         |
-|  14   |      XV Sudoku       |       XV数独        |          ✅          |       [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)        |
-|  15   |    Window Sudoku     |      窗口数独       |          ✅          |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |
-|  16   |    Kropki Sudoku     |     黑白点数独      |          ✅          |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |
-|  17   |   Even-Odd Sudoku    |      奇偶数独       |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |
+与数独相关的谜题和数据集：
 
-> Table of Sudoku and its variants: 👆
+|  ID   |   谜题名    | 完成并测试 |                             规则                              | 大小  | 数据集大小 | 有解答? |
+| :---: | :---------: | :--------: | :-----------------------------------------------------------: | :---: | :--------: | :-----: |
+|   1   |  标准数独   |     ✅      |         [规则](https://en.gridpuzzle.com/rule/sudoku)         |  9x9  |     -      |    -    |
+|   2   |  杀手数独   |     ✅      |     [规则](https://en.gridpuzzle.com/rule/killer-sudoku)      |  9x9  |    155     |    ✅    |
+|   3   |  锯齿数独   |     ✅      |     [规则](https://en.gridpuzzle.com/rule/jigsaw-sudoku)      |  9x9  |    128     |    ✅    |
+|   4   |  连续数独   |     ✅      |   [规则](https://en.gridpuzzle.com/rule/consecutive-sudoku)   |  9x9  |     -      |    -    |
+|   5   | 三明治数独  |     ✅      |    [规则](https://en.gridpuzzle.com/rule/sandwich-sudoku)     |  9x9  |     -      |    -    |
+|   6   | 温度计数独  |     ✅      |     [规则](https://www.sudoku-variants.com/thermo-sudoku)     |  9x9  |     -      |    -    |
+|   7   | 小杀手数独  |     ✅      | [规则](https://sudoku-puzzles.net/little-killer-sudoku-hard/) |  9x9  |     -      |    -    |
+|   8   |  无马数独   |     ✅      |   [规则](https://en.gridpuzzle.com/rule/anti-knight-sudoku)   |  9x9  |     -      |    -    |
+|   9   |  无缘数独   |     ✅      |    [规则](https://en.gridpuzzle.com/rule/anti-king-sudoku)    |  9x9  |     -      |    -    |
+|  10   | 不等式数独  |     ✅      | [规则](https://sudoku-puzzles.net/greater-than-sudoku-hard/)  |  9x9  |     -      |    -    |
+|  11   | 对角线数独  |     ✅      |       [规则](https://en.gridpuzzle.com/diagonal-sudoku)       |  9x9  |     -      |    -    |
+|  12   |   V宫数独   |     ✅      |           [规则](https://en.gridpuzzle.com/vsudoku)           |  9x9  |     -      |    -    |
+|  13   |  箭头数独   |     ✅      |         [规则](https://www.sudoku-variants.com/arrow)         |  9x9  |     -      |    -    |
+|  14   |   XV数独    |     ✅      |       [规则](https://en.gridpuzzle.com/rule/vx-sudoku)        |  9x9  |     -      |    -    |
+|  15   |  窗口数独   |     ✅      |        [规则](https://en.gridpuzzle.com/rule/windoku)         |  9x9  |     -      |    -    |
+|  16   | 黑白点数独  |     ✅      |        [规则](https://en.gridpuzzle.com/kropki-sudoku)        |  9x9  |     -      |    -    |
+|  17   |  奇偶数独   |     ✅      |    [规则](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |  9x9  |     -      |    -    |
+|  18   |  武士数独   |     🐌      |                               -                               | 21x21 |    272     |    ✅    |
+|  19   |  将军数独   |     🐌      |                               -                               | 21x45 |     90     |    ✅    |
+|  20   |  Sumo数独   |     🐌      |                               -                               | 33x33 |    110     |    ✅    |
+|  21   |  Sohei数独  |     🐌      |                               -                               | 21x21 |    120     |    ✅    |
+|  22   | 无提示数独2 |     🐌      |                               -                               | 27x27 |     40     |    ✅    |
 
+其他谜题的求解器和数据集：
+
+> 待汉化。
 
 |  ID   |                       Name of Other Puzzles                       | Chinese Translation | Solved? |                                      Note                                      |                  Dataset                  |
 | :---: | :---------------------------------------------------------------: | :-----------------: | :-----: | :----------------------------------------------------------------------------: | :---------------------------------------: |
@@ -111,16 +119,6 @@ Take it slowly, it'll go fast.
 |   4   |        [Hitori](./assets/data/hitori/)        |                                  17x17  <br> 10x10                                  |                      153  <br> 172                      |     ✅     |
 |   5   |     [GrandTour](./assets/data/GrandTour/)     |                                        11x11                                        |                           126                           |     ✅     |
 |   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
-
-|  ID   | Sudoku-varients Puzzle | Size of puzzle | # of puzzle | With Sol? |
-| :---: | :--------------------: | :------------: | :---------: | :-------: |
-|   1   |     Killer Sudoku      |      9x9       |     155     |     ✅     |
-|   2   |     Jigsaw Sudoku      |      9x9       |     128     |     ✅     |
-|   3   |     Samurai Sudoku     |     21x21      |     272     |     ✅     |
-|   4   |     Shogun Sudoku      |     21x45      |     90      |     ✅     |
-|   5   |      Sohei Sudoku      |     21x21      |     120     |     ✅     |
-|   6   |    Clueless2 Sudoku    |     27x27      |     40      |     ✅     |
-|   7   |      Sumo Sudoku       |     33x33      |     110     |     ✅     |
 
 
 

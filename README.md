@@ -1,15 +1,15 @@
 # Puzzles Solvers & OR tutorials
 
-[![EN](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
-[![CN](https://img.shields.io/badge/lang-cn-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
+[![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
+[![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful solvers for some interesting **puzzles**. Some basic demos of classic OR problems are also included. The main solver I used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver Gurobi (Licence required, of course) is also used for specific puzzle(Like Slitherlink). 
+This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool I used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)). 
 
-Since most present solver of those problems are based on logical methods, this repo provides solvers based on mathematical Programming (Integer Programming, Constraint Programming etc..)
+Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I must say I always admire those who quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
 
-Besides, this repo also contains some dataset( > 100 instances) of specific puzzles(Slitherlink, Mosaic for now, more data will be added). Details can be found in catalog.
+Besides, **this repo also contains some dataset ( 2000+ instances for now) of specific puzzles**. Details can be found in catalog. More dataset would be added in the future.
 
-Take it slowly, it'll go fast.
+Lastly, this repo also contains some self-learning materials for Operations Research (**OR**).
 
 ✅ Python Environment: Python 3.10.12, 
 
@@ -24,38 +24,51 @@ Take it slowly, it'll go fast.
 
 ### Sudoku and variants puzzles 
 
-1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or delete or integrate these constraints</u> and solve comprehensive Sudoku grid, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example is [This](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or integrate different constraints types and solve comprehensive Sudoku grid</u>, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example can be found [Here](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
 
 
 ### Other logic Puzzles
 
-1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burned logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
+1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burning logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
 
 ![](./assets/figures/Headers.png)
 ![](./assets/figures/Headers2.png)
 
-|  ID   | Sudoku and variants  | Chinese Translation | Finished and Tested |                              Note                              |
-| :---: | :------------------: | :-----------------: | :-----------------: | :------------------------------------------------------------: |
-|   1   |   Standard Sudoku    |      标准数独       |          ✅          |         [Rules](https://en.gridpuzzle.com/rule/sudoku)         |
-|   2   |    Killer Sudoku     |      杀手数独       |          ✅          |     [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)      |
-|   3   |    Jigsaw Sudoku     |      锯齿数独       |          ✅          |     [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)      |
-|   4   |  Consecutive Sudoku  |      连续数独       |          ✅          |   [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)   |
-|   5   |   Sandwich Sudoku    |     三明治数独      |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)     |
-|   6   |  Thermometer Sudoku  |     温度计数独      |          ✅          |     [Rules](https://www.sudoku-variants.com/thermo-sudoku)     |
-|   7   | Petite-Killer Sudoku |     小杀手数独      |          ✅          | [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/) |
-|   8   |  Anti-Knight Sudoku  |      无马数独       |          ✅          |   [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)   |
-|   9   |   Anti-King Sudoku   |      无缘数独       |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)    |
-|  10   | Greater-Than Sudoku  |     不等式数独      |          ✅          | [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)  |
-|  11   |   Diagonal Sudoku    |     对角线数独      |          ✅          |       [Rules](https://en.gridpuzzle.com/diagonal-sudoku)       |
-|  12   |        Vudoku        |       V宫数独       |          ✅          |           [Rules](https://en.gridpuzzle.com/vsudoku)           |
-|  13   |     Arrow Sudoku     |      箭头数独       |          ✅          |         [Rules](https://www.sudoku-variants.com/arrow)         |
-|  14   |      XV Sudoku       |       XV数独        |          ✅          |       [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)        |
-|  15   |    Window Sudoku     |      窗口数独       |          ✅          |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |
-|  16   |    Kropki Sudoku     |     黑白点数独      |          ✅          |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |
-|  17   |   Even-Odd Sudoku    |      奇偶数独       |          ✅          |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |
 
-> Table of Sudoku and its variants: 👆
+> Table of Sudoku and its variants, with dataset. 👇
 
+|  ID   |  Sudoku & variants   |  In Chinese  | Done & Tested |                              Note                              | Dataset size | # of dataset | With Sol? |
+| :---: | :------------------: | :----------: | :-----------: | :------------------------------------------------------------: | :----------: | :----------: | :-------: |
+|   1   |   Standard Sudoku    |   标准数独   |       ✅       |         [Rules](https://en.gridpuzzle.com/rule/sudoku)         |     9x9      |      -       |     -     |
+|   2   |    Killer Sudoku     |   杀手数独   |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)      |     9x9      |     155      |     ✅     |
+|   3   |    Jigsaw Sudoku     |   锯齿数独   |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)      |     9x9      |     128      |     ✅     |
+|   4   |  Consecutive Sudoku  |   连续数独   |       ✅       |   [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)   |     9x9      |      -       |     -     |
+|   5   |   Sandwich Sudoku    |  三明治数独  |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)     |     9x9      |      -       |     -     |
+|   6   |  Thermometer Sudoku  |  温度计数独  |       ✅       |     [Rules](https://www.sudoku-variants.com/thermo-sudoku)     |     9x9      |      -       |     -     |
+|   7   | Petite-Killer Sudoku |  小杀手数独  |       ✅       | [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/) |     9x9      |      -       |     -     |
+|   8   |  Anti-Knight Sudoku  |   无马数独   |       ✅       |   [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)   |     9x9      |      -       |     -     |
+|   9   |   Anti-King Sudoku   |   无缘数独   |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)    |     9x9      |      -       |     -     |
+|  10   | Greater-Than Sudoku  |  不等式数独  |       ✅       | [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)  |     9x9      |      -       |     -     |
+|  11   |   Diagonal Sudoku    |  对角线数独  |       ✅       |       [Rules](https://en.gridpuzzle.com/diagonal-sudoku)       |     9x9      |      -       |     -     |
+|  12   |        Vudoku        |   V宫数独    |       ✅       |           [Rules](https://en.gridpuzzle.com/vsudoku)           |     9x9      |      -       |     -     |
+|  13   |     Arrow Sudoku     |   箭头数独   |       ✅       |         [Rules](https://www.sudoku-variants.com/arrow)         |     9x9      |      -       |     -     |
+|  14   |      XV Sudoku       |    XV数独    |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)        |     9x9      |      -       |     -     |
+|  15   |    Window Sudoku     |   窗口数独   |       ✅       |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |     9x9      |      -       |     -     |
+|  16   |    Kropki Sudoku     |  黑白点数独  |       ✅       |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |     9x9      |      -       |     -     |
+|  17   |   Even-Odd Sudoku    |   奇偶数独   |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |     9x9      |     129      |     ✅     |
+|  18   |    Samurai Sudoku    |   武士数独   |       🐌       |                               -                                |    21x21     |     272      |     ✅     |
+|  19   |    Shogun Sudoku     |   将军数独   |       🐌       |                               -                                |    21x45     |      90      |     ✅     |
+|  20   |     Sumo Sudoku      |   Sumo数独   |       🐌       |                               -                                |    33x33     |     110      |     ✅     |
+|  21   |     Sohei Sudoku     |  Sohei数独   |       🐌       |                               -                                |    21x21     |     120      |     ✅     |
+|  22   |   Clueless Sudoku2   | 无提示数独2  |       🐌       |                               -                                |    27x27     |      40      |     ✅     |
+|  23   |   Butterfly Sudoku   |   蝴蝶数独   |       🐌       |                               -                                |    12x12     |      77      |     ✅     |
+|  24   |   Windmill Sudoku    |   风车数独   |       🐌       |                               -                                |    21x21     |     150      |     ✅     |
+|  25   |   Gattai-8 Sudoku    | Gattai-8数独 |       🐌       |                               -                                |    21x33     |     120      |     ✅     |
+|  26   |   Clueless Sudoku1   | 无提示数独1  |       🐌       |                               -                                |    27x27     |      29      |     ✅     |
+
+
+
+> Table of Other Puzzles 👇.
 
 |  ID   |                       Name of Other Puzzles                       | Chinese Translation | Solved? |                                      Note                                      |                  Dataset                  |
 | :---: | :---------------------------------------------------------------: | :-----------------: | :-----: | :----------------------------------------------------------------------------: | :---------------------------------------: |
@@ -92,16 +105,13 @@ Take it slowly, it'll go fast.
 |  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |     🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)      |                     -                     |
 |  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    |   [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix)   |                     -                     |
 
-> Table of Other Puzzles: 👆
-
 ----
 
 ### Dataset of some puzzles
 
-1.  To download puzzle data (in string format, not in PDF or jpg format) and test our solver performance, some easy-to-use scrawlers (python scripts) are provided. Code can be found [here](./Puzzles/utils.ipynb). Note that **all puzzles** mentioned above have **at least one dataset(instance) for numerical validation**, meanwhile some puzzles which are famous, popular and important have more instances. Here is the table. Dataset can be browsed directly via table links.
+- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 2,000 puzzles across 20+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
-> Currently, this repo have 400 + puzzle grid data.
-
+- Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
 
 |  ID   |                  Puzzle name                  |                                   Size of puzzle                                    |                       # of puzzle                       | With Sol? |
 | :---: | :-------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------: | :-------: |
@@ -112,21 +122,14 @@ Take it slowly, it'll go fast.
 |   5   |     [GrandTour](./assets/data/GrandTour/)     |                                        11x11                                        |                           126                           |     ✅     |
 |   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
 
-|  ID   | Sudoku-varients Puzzle | Size of puzzle | # of puzzle | With Sol? |
-| :---: | :--------------------: | :------------: | :---------: | :-------: |
-|   1   |     Killer Sudoku      |      9x9       |     155     |     ✅     |
-|   2   |     Jigsaw Sudoku      |      9x9       |     128     |     ✅     |
-|   3   |     Samurai Sudoku     |     21x21      |     272     |     ✅     |
-|   4   |     Shogun Sudoku      |     21x45      |     90      |     ✅     |
-|   5   |      Sohei Sudoku      |     21x21      |     120     |     ✅     |
-|   6   |    Clueless2 Sudoku    |     27x27      |     40      |     ✅     |
-|   7   |      Sumo Sudoku       |     33x33      |     110     |     ✅     |
 
 
 
 -----
 
-Some materials for self-learning:
+### Some OR materials 
+
+This section contains several materials when learning(and coding) Operations Research. Mostly IP and CP, with some classical Combinatorial Optimization Problems. More appendix, like mathematical models, can be found in [Notes](https://smilingwayne.github.io/me/OROpt/) (Written in Mandarin) on my personal website.
 
 1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
 2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
@@ -134,16 +137,14 @@ Some materials for self-learning:
 4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
 5. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
 6. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
-
-> For text explanation and mathematical Modeling, visit [My Website](https://smilingwayne.github.io/me/Study/OR/TSP/) for more info.
-
 7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
 8. Branch & Price for Parallel Machine Scheduling: 🐌...
 9. Some basic / classic [Operations Research Modeling](./modeling/) :
 
 
+----
 
-## Ref:
+## Reference
 
 - [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)

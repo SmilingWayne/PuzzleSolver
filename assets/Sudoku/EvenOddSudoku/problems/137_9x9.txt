@@ -1,0 +1,10 @@
+9 9
+7 E E O O O E 2 O
+O E O E E O O O E
+E 5 O E E O E O O
+O E 4 O O O O E E
+O 3 E E 1 E O O E
+E O O E O E E O O
+6 E E O 2 O 3 O O
+9 O O 5 E E E 4 O
+2 O O O O E 7 E 8

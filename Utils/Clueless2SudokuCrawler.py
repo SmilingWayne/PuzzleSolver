@@ -7,7 +7,6 @@ import time
 def get_clueless2_sudoku(problems):
     for p in problems:
         new_p = str(p).zfill(3)
-        
         target_url = f"https://www.janko.at/Raetsel/Sudoku/Clueless-2/{new_p}.a.htm"
         headers = {
             'User-Agent': "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
@@ -30,7 +29,10 @@ def get_clueless2_sudoku(problems):
 
         problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
         # 正则表达式提取 [solution] 和 [moves] 之间的内容
-        solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
+        solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
+        
+        # NOTE：Some puzzles the solution pattern ends with "end", some end with "moves". So better check the output, especially:
+        # Solution!
 
         # 使用 re.DOTALL 使 '.' 匹配换行符
         problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
@@ -73,5 +75,5 @@ def get_clueless2_sudoku(problems):
         time.sleep(2)
     
 if __name__ == "__main__":
-    problems = [38, 37, 32, 31, 40, 33, 36, 3, 35, 39, 34, 1, 16, 22, 18, 14, 25, 23, 21, 19, 11, 24, 29, 26, 5, 28, 8, 10, 17, 13, 9, 7, 6, 27, 2, 4, 15, 20, 30, 12]
+    problems = [19, 11, 24, 29, 26, 5, 28, 8, 10, 17, 13, 9, 7, 6, 27, 2, 4, 15, 20, 30, 12]
     get_clueless2_sudoku(problems)

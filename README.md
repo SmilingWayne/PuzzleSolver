@@ -131,13 +131,13 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 
 This section contains several materials when learning(and coding) Operations Research. Mostly IP and CP, with some classical Combinatorial Optimization Problems. More appendix, like mathematical models, can be found in [Notes](https://smilingwayne.github.io/me/OROpt/) (Written in Mandarin) on my personal website.
 
-1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
-2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
-3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb): Tutorials.
-4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
-5. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
-6. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
-7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
+1. [Ortools for Linear Programming](./ORMaterials/SimpleLP.ipynb) : Tutorials.
+2. [Ortools for Mixed Integer Programming](./ORMaterials/IntegerOpt.ipynb): Tutorials.
+3. [Ortools for Constraint Programming](./ORMaterials/ConstraintOpt.ipynb): Tutorials.
+4. [Ortools for Knapsack Problem](./ORMaterials/KnapsackPro.ipynb): Tutorials.
+5. [Ortools for VRP](./ORMaterials/VRP): Variants and ortools codes( of official website for self-learning).
+6. [Ortools & Gurobi for TSP](./ORMaterials/TSP.ipynb): Two main methods for TSP. 
+7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./ORMaterials/Techniques/ColGen/CSP.ipynb): Team Meeting report.
 8. Branch & Price for Parallel Machine Scheduling: 🐌...
 9. Some basic / classic [Operations Research Modeling](./modeling/) :
 

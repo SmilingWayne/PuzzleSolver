@@ -5,7 +5,7 @@ from collections import defaultdict
 
 if __name__ == "__main__":
     # 设置文件夹路径
-    folder_path = '../assets/Sudoku/Clueless1Sudoku/problems'
+    folder_path = '../assets/data/Akari/problems'
 
     # 创建一个字典来保存统计结果
     size_count = defaultdict(int)

@@ -121,6 +121,8 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |   4   |        [Hitori](./assets/data/hitori/)        |                                  17x17  <br> 10x10                                  |                      153  <br> 172                      |     ✅     |
 |   5   |     [GrandTour](./assets/data/GrandTour/)     |                                        11x11                                        |                           126                           |     ✅     |
 |   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
+|   7   |      [Heyawake](./assets/data/Heyawake/)      |                                 14x24  <br> Others                                  |                       272 <br> 4                        |     ✅     |
+|   8   |     [Patchwork](./assets/data/Patchwork/)     |                                        12x12                                        |                           142                           |     ✅     |
 
 
 

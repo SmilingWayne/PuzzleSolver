@@ -76,8 +76,8 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |   2   |       [Akari](./Puzzles/Akari.ipynb) <br> (aka: light UP!)        |        照明         |    ✅    |                    [Rules](https://www.puzzle-light-up.com)                    |                 💪 Working                 |
 |   3   |  [Cryptarithmetic](./Puzzles/Cryptarithmetic.ipynb) <br> Puzzles  |      破译密码       |    ✅    |                                       -                                        |                     -                     |
 |   4   |               [Norinori](./Puzzles/NoriNori.ipynb)                |        海苔         |    ✅    |                    [Rules](https://www.puzzle-norinori.com)                    |                 💪 Working                 |
-|   5   |             [Number Link](./Puzzles/NumberLink.ipynb)             |        数链         |    🐌    |                                       -                                        |                 💪 Working                 |
-|   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |                                       -                                        |                     -                     |
+|   5   |   [Number Link](./Puzzles/NumberLink.ipynb)<br> (aka: Arukone)    |        数链         |    🐌    |            [Rules](https://www.janko.at/Raetsel/Arukone/index.htm)             |                 💪 Working                 |
+|   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Minesweeper/index.htm)           |   [dataset](./assets/data/Minesweeper/)   |
 |   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |                               🚀 Gurobi required                                |                     -                     |
 |   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |         环          |    ✅    | 🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Slitherlink/index.htm) | [dataset](./assets/data/slitherlinkdata/) |
 |   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |          [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)          |     [dataset](./assets/data/Mosaic/)      |
@@ -85,25 +85,29 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |          No use of ortools, [rules](https://www.puzzle-nonograms.com)          |                 💪 Working                 |
 |  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                       -                                        |                     -                     |
 |  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)            |                 💪 Working                 |
-|  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                                       -                                        |                     -                     |
+|  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                                       -                                        |                 💪 Working                 |
 |  15   |                               LITS                                |        LITS         |    ❌    |                                       -                                        |                     -                     |
 |  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |      五联骨牌       |    ✅    |                  [Rules](https://isomerdesign.com/Pentomino/)                  |                 💪 Working                 |
 |  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |          🤔️          |    ✅    |             [Rules](https://puzzlegenius.org/suguru-from-scratch/)             |                 💪 Working                 |
 |  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ❌    |                [Rules](https://www.puzzle-shikaku.com/?size=5)                 |                     -                     |
-|  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)             |                     -                     |
+|  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)             |     [dataset](./assets/data/Kakuro/)      |
 |  20   |                [Binario](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                    [Rules](https://www.puzzle-binairo.com)                     |                 💪 Working                 |
 |  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |       五空格        |    ✅    |            [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)             |                     -                     |
 |  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |      禁止四连       |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |                     -                     |
 |  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |      请勿打扰       |    ✅    |   🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Hitori/index.htm)    |     [dataset](./assets/data/hitori/)      |
 |  24   |               [Monotone](./Puzzles/Monotone.ipynb)                |       单调性        |    ✅    |                               🚀 Gurobi required                                |                     -                     |
 |  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |        小溪         |    ✅    |    🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Creek/index.htm)    |                 💪 Working                 |
-|  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |       榻榻米        |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |                     -                     |
+|  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |       榻榻米        |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |    [dataset](./assets/data/Patchwork/)    |
 |  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |      解谜游戏       |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)             |                     -                     |
 |  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |            [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)            |                 💪 Working                 |
 |  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)              |      [dataset](./assets/data/Gappy/)      |
 |  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |    🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)    |    [dataset](./assets/data/GrandTour/)    |
 |  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |     🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)      |                     -                     |
-|  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    |   [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix)   |                     -                     |
+|  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    |   [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix)   |   [dataset](./assets/data/Maze-a-pix/)    |
+|  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |     多米诺骨牌      |    ✅    |            [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)             |     [dataset](./assets/data/Dominos/)     |
+|  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |       温度计        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
+|  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |        药丸         |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
+
 
 ----
 
@@ -116,11 +120,16 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  ID   |                  Puzzle name                  |                                   Size of puzzle                                    |                       # of puzzle                       | With Sol? |
 | :---: | :-------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------: | :-------: |
 |   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 20x36 <br> 20x30 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 220 <br> 91 <br> 58 <br>33 <br> 28 <br>9 <br> 1 <br> 44 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |                            25x25 <br> 15x15 <br> Others                             |                   38 <br> 40 <br> 26                    |     ✅     |
-|   3   |         [Gappy](./assets/data/Gappy/)         |                                        12x12                                        |                           60                            |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                                  17x17  <br> 10x10                                  |                      153  <br> 172                      |     ✅     |
-|   5   |     [GrandTour](./assets/data/GrandTour/)     |                                        11x11                                        |                           126                           |     ✅     |
+|   2   |        [Mosaic](./assets/data/Mosaic/)        |                       25x25 <br> 20x20 <br> 15x15 <br> Others                       |               38 <br> 50 <br> 40 <br> 26                |     ✅     |
+|   3   |         [Gappy](./assets/data/Gappy/)         |                            12x12 <br>  10x10 <br> 11x11                             |                  60   <br> 87 <br> 39                   |     ✅     |
+|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17  <br> 15x15 <br>10x10                             |                  153  <br> 96 <br> 172                  |     ✅     |
+|   5   |     [GrandTour](./assets/data/GrandTour/)     |                                     11x11 <br>                                      |                           126                           |     ✅     |
 |   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
+|   7   |      [Heyawake](./assets/data/Heyawake/)      |                                 14x24  <br> Others                                  |                       272 <br> 4                        |     ✅     |
+|   8   |     [Patchwork](./assets/data/Patchwork/)     |                                        12x12                                        |                           142                           |     ✅     |
+|   9   |        [Kakuro](./assets/data/Kakuro/)        |                                  12x20 <br> Others                                  |                       62 <br> 230                       |     ✅     |
+|  10   |   [Thermometer](./assets/data/Thermometer/)   |                                        10x10                                        |                           83                            |     ✅     |
+|  11   |       [Dominos](./assets/data/Dominos/)       |                            7x8 <br>  10x11  <br> Others                             |                   92 <br> 40 <br> 32                    |     ✅     |
 
 
 
@@ -131,13 +140,13 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 
 This section contains several materials when learning(and coding) Operations Research. Mostly IP and CP, with some classical Combinatorial Optimization Problems. More appendix, like mathematical models, can be found in [Notes](https://smilingwayne.github.io/me/OROpt/) (Written in Mandarin) on my personal website.
 
-1. [Ortools for Linear Programming](./SimpleLP.ipynb) : Tutorials.
-2. [Ortools for Mixed Integer Programming](./IntegerOpt.ipynb): Tutorials.
-3. [Ortools for Constraint Programming](./ConstraintOpt.ipynb): Tutorials.
-4. [Ortools for Knapsack Problem](./KnapsackPro.ipynb): Tutorials.
-5. [Ortools for VRP](./VRP): Variants and ortools codes( of official website for self-learning).
-6. [Ortools & Gurobi for TSP](./TSP.ipynb): Two main methods for TSP. 
-7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./Techniques/ColGen/CSP.ipynb): Team Meeting report.
+1. [Ortools for Linear Programming](./ORMaterials/SimpleLP.ipynb) : Tutorials.
+2. [Ortools for Mixed Integer Programming](./ORMaterials/IntegerOpt.ipynb): Tutorials.
+3. [Ortools for Constraint Programming](./ORMaterials/ConstraintOpt.ipynb): Tutorials.
+4. [Ortools for Knapsack Problem](./ORMaterials/KnapsackPro.ipynb): Tutorials.
+5. [Ortools for VRP](./ORMaterials/VRP): Variants and ortools codes( of official website for self-learning).
+6. [Ortools & Gurobi for TSP](./ORMaterials/TSP.ipynb): Two main methods for TSP. 
+7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./ORMaterials/Techniques/ColGen/CSP.ipynb): Team Meeting report.
 8. Branch & Price for Parallel Machine Scheduling: 🐌...
 9. Some basic / classic [Operations Research Modeling](./modeling/) :
 

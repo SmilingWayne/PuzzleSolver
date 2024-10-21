@@ -1,0 +1,8 @@
+7 8
+u u m d d g g w 
+p q m e A A B w 
+p q z e t t B a 
+n y z j r l v a 
+n y k j r l v x 
+f c k b b h h x 
+f c o o i i s s

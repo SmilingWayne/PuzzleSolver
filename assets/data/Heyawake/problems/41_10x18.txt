@@ -1,0 +1,21 @@
+10 18
+- - - - - - - - - - - - - 2 - - - -
+2 - - - - 1 - - - - - - 2 - - - - -
+- - - - - - 4 - - - 2 - - - - - - -
+- - - - - - - - - - - - 1 - - - - - 
+- - 3 - - - - - - - - - - - - - - -
+2 - - - - - - - - - - - 3 - - - - -
+- - - - - - - - - - - - - - - - - - 
+1 - - - - - - - - - - - - - - 2 - -
+- - - - - - - - - - - - - - - - - - 
+- - - 0 - - 2 - 2 - - - - - 1 2 - -
+a a b c c d e e e f g g g h h h i i
+a a b c c d e e e f j j k k k k k l
+m m n n o o e e e f j j p p q q q l
+m m n n o o r r r f s s p p q q q t
+u u n n o o v v v f s s w w w x y t
+u u z z o o v v v 1 1 1 w w w x y t
+2 2 z z 3 3 3 3 4 1 1 1 5 5 6 x y t
+2 2 z z 3 3 3 3 4 1 1 1 5 5 6 x y t
+A B B C D D E E 4 F F F G G 6 H H H
+A B B C D D E E 4 F F F G G 6 H H H

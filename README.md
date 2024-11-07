@@ -100,7 +100,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |            小溪            |    ✅    |    🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Creek/index.htm)    |      [dataset](./assets/data/Creek/)      |
 |  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |           榻榻米           |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |    [dataset](./assets/data/Patchwork/)    |
 |  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |          解谜游戏          |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)             |                     -                     |
-|  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |          Heyawake          |    ✅    |            [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)            |                 💪 Working                 |
+|  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |          Heyawake          |    ✅    |            [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)            |    [dataset](./assets/data/Heyawake/)     |
 |  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |           盖比!            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)              |      [dataset](./assets/data/Gappy/)      |
 |  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |            旅途            |    ✅    |    🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)    |    [dataset](./assets/data/GrandTour/)    |
 |  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |            蜂巢            |    ✅    |     🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)      |                     -                     |
@@ -108,6 +108,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |         多米诺骨牌         |    ✅    |            [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)             |     [dataset](./assets/data/Dominos/)     |
 |  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |           温度计           |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
 |  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |            药丸            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
+|  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |           吸铁石           |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
 
 
 ----

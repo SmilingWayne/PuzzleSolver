@@ -1,0 +1,17 @@
+16 22
+- - - - - x x x - - - - - x x x - - - - x x
+- x - x - - - x - x x x - - - x - x x x x x
+- x x x x x - - - - - x - x - - - - x x x x
+- - - - - - x x - x x - - x x - x - - x - x
+x x - x - - x x x x x - x x x - x x - x - -
+x x x x x - - x x x - - x x x x x x - x x -
+x x x x x - x x x x x x - - x x x - - x - -
+x - x - - - x x - x x x - x x x x x - x - x
+x - - x x - - x - x x x - x x - x x - - - x
+x x - - x - x x - x - x - - x - x x x - - x
+x x x - - - - x - - - - x - - - - - - - x x
+x x x x x x - x - x x - x x x x - x - - - x
+- x - - x - - - - x x x x x - x x x - x x x
+- x x - - - x x - - x x x - - x x - - - x x
+- x - - x - - - x x x x x x - x - - x - x x
+- - - x x x - - - x x x x x - - - x x - - -

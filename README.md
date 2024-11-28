@@ -109,6 +109,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |           温度计           |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
 |  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |            药丸            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
 |  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |           吸铁石           |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
+|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    🐌    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
 
 
 ----

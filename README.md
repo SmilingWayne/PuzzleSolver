@@ -3,11 +3,11 @@
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool I used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)). 
+This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)). 
 
-Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I must say I always admire those who quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
+Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I always admire those who can quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
 
-Besides, **this repo also contains some dataset ( 2000+ instances for now) of specific puzzles**. Details can be found in catalog. More dataset would be added in the future.
+Besides, **this repo also contains dataset ( 5,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
 
 Lastly, this repo also contains some self-learning materials for Operations Research (**OR**).
 
@@ -24,7 +24,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 
 ### Sudoku and variants puzzles 
 
-1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. In this note, most of the sudokus (and variants) are well-designed so <u>you can easily add or integrate different constraints types and solve comprehensive Sudoku grid</u>, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example can be found [Here](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. Most of the sudokus (and variants) are well-designed so <u>you can easily add or integrate different constraints types and solve comprehensive Sudoku grid</u>, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example can be found [here](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
 
 
 ### Other logic Puzzles
@@ -109,13 +109,17 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |           温度计           |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
 |  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |            药丸            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
 |  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |           吸铁石           |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
+|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    🐌    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
+|  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |           照亮！           |    ✅    |               [Rules](https://gridpuzzle.com/rule/bright-light)                |  [dataset](./assets/data/Buraitoraito/)   |
+|  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |           射手！           |    🐌    |                 [Rules](https://gridpuzzle.com/rule/kuroshuto)                 |    [dataset](./assets/data/Kuroshuto/)    |
+|  40   |                             TilePaint                             |          粉刷墙壁          |    🐌    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
 
 
 ----
 
 ### Dataset of some puzzles
 
-- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 3,000 puzzles across 30+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
+- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 5,000 puzzles across 40+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
 - Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
 
@@ -133,8 +137,12 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  10   |   [Thermometer](./assets/data/Thermometer/)   |                                        10x10                                        |                           83                            |     ✅     |
 |  11   |       [Dominos](./assets/data/Dominos/)       |                            7x8 <br>  10x11  <br> Others                             |                   92 <br> 40 <br> 32                    |     ✅     |
 |  12   |         [Pills](./assets/data/Pills/)         |                                        10x10                                        |                           163                           |     ✅     |
-|  13   |   [Minesweeper](./assets/data/Minesweeper/)   |                                  17x17 <br>Others                                   |                       43 <br> 45                        |     ✅     |
-
+|  13   |   [Minesweeper](./assets/data/Minesweeper/)   |                                  17x17 <br>Others                                   |                       43 <br> 50                        |     ✅     |
+|  14   |        [Suguru](./assets/data/Suguru/)        |                                   8x8 <br>Others                                    |                       54 <br> 66                        |     ✅     |
+|  15   |    [Starbattle](./assets/data/Starbattle/)    |                                  10x10 <br>Others                                   |                       126 <br> 54                       |     ✅     |
+|  16   |       [Shikaku](./assets/data/Shikaku/)       |                                  17x17 <br>Others                                   |                       81 <br> 96                        |     ✅     |
+|  17   |      [Magnetic](./assets/data/Magnetic/)      |                                        12x12                                        |                           53                            |     ✅     |
+|  18   |     [TilePaint](./assets/data/TilePaint/)     |                                  16x16 <br> Others                                  |                       50 <br> 59                        |     ✅     |
 
 
 

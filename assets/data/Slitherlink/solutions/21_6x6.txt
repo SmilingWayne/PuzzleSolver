@@ -1,0 +1,7 @@
+6 6
+x x x x x x
+x - - - - x
+- - x x x x
+x x x - - -
+x - - - x x
+x x x x x x

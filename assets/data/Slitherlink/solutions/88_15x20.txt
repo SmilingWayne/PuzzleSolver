@@ -1,0 +1,17 @@
+15 20
+- - - - x - - x x x - x - x x - - x x - 
+x x x - x x x x x x x x x x x x x x - - 
+- - x x x - - x - - x - - x - x - x x x 
+- - - x - - - x - x x x - - - x - x - x 
+- x - x x x - x - x - x - x - - - x - - 
+- x x x - - - - - - - x - x x x x x x - 
+- - x x x x - - x x x x - - - - - - x x 
+x x x x x - - - x x - - - - x x x - - x 
+- - - - x x x - - x x - x - - x - - x x 
+- x - - x - - - x x x - x x - x x - - - 
+- x x - x x - - - - - - - x x x x x - x 
+x x x x x x - x - - - x x x x x - - - x 
+- x x x x x x x x - x x x x - x x - x x 
+- - x - x - x x x x x x - x - x - - x - 
+x x x - - - - x - - - x - - - x x x x - 
+unit 30

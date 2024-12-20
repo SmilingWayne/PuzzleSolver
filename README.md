@@ -3,7 +3,7 @@
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)). 
+This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)).
 
 Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I always admire those who can quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
 
@@ -109,10 +109,11 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |           温度计           |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
 |  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |            药丸            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
 |  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |           吸铁石           |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
-|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    🐌    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
+|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    ✅    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
 |  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |           照亮！           |    ✅    |               [Rules](https://gridpuzzle.com/rule/bright-light)                |  [dataset](./assets/data/Buraitoraito/)   |
 |  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |           射手！           |    🐌    |                 [Rules](https://gridpuzzle.com/rule/kuroshuto)                 |    [dataset](./assets/data/Kuroshuto/)    |
-|  40   |                             TilePaint                             |          粉刷墙壁          |    🐌    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
+|  40   |              [TilePaint](./Puzzles/TilePaint.ipynb)               |          粉刷墙壁          |    ✅    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
+|  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |          双雷扫雷          |    ✅    |            [Rules](https://gridpuzzle.com/rule/minesweeper-double)             |                 💪 Working                 |
 
 
 ----

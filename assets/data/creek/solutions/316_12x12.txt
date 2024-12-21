@@ -1,0 +1,13 @@
+12 12
+x x x x x x x x x x x x
+x - x - - - - - - - - x
+x - - - - x x x - x - x
+x - x x - - x - x x - x
+x - x - - x x - x - - x
+x - - x - - - - x - - x
+x x - x - x x x x - x x
+x - x x x x x - x - - x
+x - - - - - - - - x - x
+x x x x - x x - x - - -
+x x x - - x - - - - x x
+- - - - x x - x x x x x

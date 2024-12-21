@@ -7,7 +7,7 @@ This repo provides useful, problem-tailored solvers for some interesting **logic
 
 Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I always admire those who can quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
 
-Besides, **this repo also contains dataset ( 5,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
+Besides, **this repo also contains dataset ( 6,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
 
 Lastly, this repo also contains some self-learning materials for Operations Research (**OR**).
 
@@ -120,7 +120,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 
 ### Dataset of some puzzles
 
-- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 5,000 puzzles across 40+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
+- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 6,000 puzzles across 40+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
 - Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
 

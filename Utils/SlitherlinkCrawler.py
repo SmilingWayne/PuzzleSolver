@@ -17,7 +17,7 @@ def get_slitherlink(problems):
         if str(p) in exist_files:
             print("JUMP!")
             continue
-        
+        exist_files.add(str(p))
         target_url = f"https://www.janko.at/Raetsel/Slitherlink/{input_p}.a.htm"
 
         headers = {

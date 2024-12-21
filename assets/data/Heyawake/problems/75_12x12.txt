@@ -1,0 +1,25 @@
+12 12
+- - - 3 - - - 4 - - - 0
+- - - - - - - - - - - -
+- - - - - - - - - - - -
+- - - 1 - - - - 2 - 2 -
+- - - - - 2 - - - - - -
+4 - - - - - - - - - - -
+- - - - - - - - - 2 - -
+- - - - - - - - - - - -
+- - - - 4 - - - - - - -
+- - - - - - 2 - - 1 - -
+1 - - - - - - - - - - -
+- - - - - - - - - - - -
+a a n o o o r s s s t u
+a a n o o o r s s s t u
+b b n p p p r s s s t u
+b b n q q v v v 1 1 2 2
+b b n q q w w x 1 1 2 2
+c c c c c w w x 1 1 2 2
+c c c c c y y y 3 4 4 4
+d d d d e y y y 3 4 4 4
+f f f f h h z z z z z z
+f f f f h h i i j k k m
+g g g g h h i i j l l m
+g g g g h h i i j l l m

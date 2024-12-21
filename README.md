@@ -3,11 +3,11 @@
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)). 
+This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The main tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), especially its CS-SAT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)).
 
 Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I always admire those who can quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
 
-Besides, **this repo also contains dataset ( 5,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
+Besides, **this repo also contains dataset ( 6,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
 
 Lastly, this repo also contains some self-learning materials for Operations Research (**OR**).
 
@@ -95,7 +95,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  20   |                [Binario](./Puzzles/Binario.ipynb)                 |           二进制           |    ✅    |                    [Rules](https://www.puzzle-binairo.com)                     |                 💪 Working                 |
 |  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |           五空格           |    ✅    |            [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)             |                     -                     |
 |  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |          禁止四连          |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |                     -                     |
-|  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |          请勿打扰          |    ✅    |   🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Hitori/index.htm)    |     [dataset](./assets/data/hitori/)      |
+|  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |          请勿打扰          |    ✅    |   🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Hitori/index.htm)    |     [dataset](./assets/data/Hitori/)      |
 |  24   |               [Monotone](./Puzzles/Monotone.ipynb)                |           单调性           |    ✅    |                               🚀 Gurobi required                                |                     -                     |
 |  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |            小溪            |    ✅    |    🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Creek/index.htm)    |      [dataset](./assets/data/Creek/)      |
 |  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |           榻榻米           |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |    [dataset](./assets/data/Patchwork/)    |
@@ -109,17 +109,18 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |           温度计           |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
 |  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |            药丸            |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
 |  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |           吸铁石           |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
-|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    🐌    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
+|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |           方块O            |    ✅    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
 |  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |           照亮！           |    ✅    |               [Rules](https://gridpuzzle.com/rule/bright-light)                |  [dataset](./assets/data/Buraitoraito/)   |
 |  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |           射手！           |    🐌    |                 [Rules](https://gridpuzzle.com/rule/kuroshuto)                 |    [dataset](./assets/data/Kuroshuto/)    |
-|  40   |                             TilePaint                             |          粉刷墙壁          |    🐌    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
+|  40   |              [TilePaint](./Puzzles/TilePaint.ipynb)               |          粉刷墙壁          |    ✅    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
+|  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |          双雷扫雷          |    ✅    |            [Rules](https://gridpuzzle.com/rule/minesweeper-double)             |                 💪 Working                 |
 
 
 ----
 
 ### Dataset of some puzzles
 
-- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 5,000 puzzles across 40+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
+- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 6,000 puzzles across 40+ different puzzle types**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
 - Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
 
@@ -128,7 +129,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 20x36 <br> 20x30 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 220 <br> 91 <br> 58 <br>33 <br> 28 <br>9 <br> 1 <br> 44 |     ✅     |
 |   2   |        [Mosaic](./assets/data/Mosaic/)        |                       25x25 <br> 20x20 <br> 15x15 <br> Others                       |               38 <br> 50 <br> 40 <br> 26                |     ✅     |
 |   3   |         [Gappy](./assets/data/Gappy/)         |                            12x12 <br>  10x10 <br> 11x11                             |                  60   <br> 87 <br> 39                   |     ✅     |
-|   4   |        [Hitori](./assets/data/hitori/)        |                             17x17  <br> 15x15 <br>10x10                             |                  153  <br> 96 <br> 172                  |     ✅     |
+|   4   |        [Hitori](./assets/data/Hitori/)        |                             17x17  <br> 15x15 <br>10x10                             |                  153  <br> 96 <br> 172                  |     ✅     |
 |   5   |     [GrandTour](./assets/data/GrandTour/)     |                                     11x11 <br>                                      |                           126                           |     ✅     |
 |   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
 |   7   |      [Heyawake](./assets/data/Heyawake/)      |                                 14x24  <br> Others                                  |                      272 <br> 125                       |     ✅     |

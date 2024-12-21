@@ -1,0 +1,21 @@
+10 10
+2 - - - 0 - - - 0 -
+- - - - - - - - - -
+- - 2 - 2 - - - - -
+- - - - - - - - - -
+0 - - - - - - - 2 -
+- - - - - - - - - -
+- - 2 - - - - - - -
+- - - - - - - - - -
+- - 2 - - - 0 - - -
+- - - - - - - - - -
+a a b b c c d d e e
+a a b b c c d d e e
+f f g g h h i i j j
+f f g g h h i i j j
+k k l l m m n n o o
+k k l l m m n n o o
+p p q q r r s s t t
+p p q q r r s s t t
+u u v v w w x x y y
+u u v v w w x x y y

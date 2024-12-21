@@ -1,0 +1,9 @@
+9 8
+- - x x - x - -
+- x x - - x x -
+x x x x x x x x
+- x x - - x x -
+- - x - - - - -
+- - x - x x x x
+x x x x x x - -
+x x - - x - - -

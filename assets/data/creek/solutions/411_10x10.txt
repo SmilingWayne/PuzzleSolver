@@ -1,0 +1,22 @@
+10 10
+- x - - - - x - - -
+- - x x x - x - x x
+x - - x x - - - - -
+- x - - x - x x x -
+- x x - - - - x x -
+- - x x x x - x - -
+x - x - - - - x x x
+- - - - x - x x x x
+- x x x x - - - - x
+- - - x - - x x - x
+[solution]
+- x - - - - x - - -
+- - x x x - x - x x
+x - - x x - - - - -
+- x - - x - x x x -
+- x x - - - - x x -
+- - x x x x - x - -
+x - x - - - - x x x
+- - - - x - x x x x
+- x x x x - - - - x
+- - - x - - x x - x

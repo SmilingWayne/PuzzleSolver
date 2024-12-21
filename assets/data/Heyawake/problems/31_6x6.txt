@@ -1,0 +1,13 @@
+6 6
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+- - - - - -
+a b c d d d
+e f g d d d
+h i j k l m
+n n n k l m
+o o o k p p
+q q q q q q

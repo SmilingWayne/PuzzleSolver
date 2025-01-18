@@ -1,0 +1,11 @@
+10 10
+- - - - - - - - x o
+- o - - o - o x - -
+- x - - x - - - o -
+o x o - x o - - x -
+- - x - - - - - - -
+o - - - x o - - o x
+x - - o x - - - - x
+- o - - x - o - - o
+- x x - o - x - - x
+o x o - - - - o x o

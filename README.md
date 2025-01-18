@@ -83,7 +83,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |                               🚀 Gurobi required                                |                     -                     |
 |   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |         环          |    ✅    | 🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Slitherlink/index.htm) | [dataset](./assets/data/slitherlinkdata/) |
 |   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |          [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)          |     [dataset](./assets/data/Mosaic/)      |
-|  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                     [Rules](https://www.puzzle-tents.com)                      |                 💪 Working                 |
+|  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                     [Rules](https://www.puzzle-tents.com)                      |      [dataset](./assets/data/Tent/)       |
 |  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |          No use of ortools, [rules](https://www.puzzle-nonograms.com)          |                 💪 Working                 |
 |  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                       -                                        |                     -                     |
 |  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)            |                 💪 Working                 |
@@ -93,7 +93,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |       数字块        |    ✅    |             [Rules](https://puzzlegenius.org/suguru-from-scratch/)             |                 💪 Working                 |
 |  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ✅    |                [Rules](https://www.puzzle-shikaku.com/?size=5)                 |     [dataset](./assets/data/Shikaku/)     |
 |  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)             |     [dataset](./assets/data/Kakuro/)      |
-|  20   |                [Binario](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                    [Rules](https://www.puzzle-binairo.com)                     |                 💪 Working                 |
+|  20   |                [Binairo](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                    [Rules](https://www.puzzle-binairo.com)                     |                 [dataset](./assets/data/Binairo/)                 |
 |  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |       五空格        |    ✅    |            [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)             |                     -                     |
 |  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |      禁止四连       |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |                     -                     |
 |  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |      请勿打扰       |    ✅    |   🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Hitori/index.htm)    |     [dataset](./assets/data/Hitori/)      |
@@ -117,6 +117,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 |  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |      双雷扫雷       |    ✅    |            [Rules](https://gridpuzzle.com/rule/minesweeper-double)             |                 💪 Working                 |
 |  42   |                  [Str8t](./Puzzles/Str8t.ipynb)                   |        街道         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Straights/index.htm)            |      [dataset](./assets/data/Str8t/)      |
 |  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)          |   [dataset](./assets/data/TennerGrid/)    |
+|  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |         [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)         |  [dataset](./assets/data/GokigenNaname/)  |
 
 
 ----

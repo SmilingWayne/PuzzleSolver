@@ -142,8 +142,8 @@ def get_nonogram(problems):
             file.write(solution_text)
         
         # print(f"FILE: problems/{p}_{num_rows}x{num_cols}.txt and FILE solutions/{p}_{num_rows}x{num_cols}.txt, done!")
-        # time.sleep(2)
+        time.sleep(1.5)
 
 if __name__ == "__main__":
-    problems = [255]
+    problems = [736, 737]
     get_nonogram(problems)

@@ -1,15 +1,15 @@
-# Puzzles Solvers & OR tutorials
+# Puzzles Solvers
 
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
 This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), and [z3 solver](https://github.com/Z3Prover/z3), mainly CS-SMT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)).
 
-Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I always admire those who can quickly come up with logic-based solutions for those problems, and this repo is **NOT** aimed at replacing logic method with Computer solvers. This repo is just for fun.
+Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I utterly admire those who quickly find logic-based solutions for those problems, this repo is **NOT** aimed at replacing logic method with Computer solvers: **It's just for fun.**
 
-Besides, **this repo also contains dataset ( 8,000+ instances for now ) of specific puzzles (more than 40 types of puzzles for now)**. Details can be found in catalog. More dataset would be added in the future.
+Currently, **this repo also contains dataset ( 8,000+ instances for now ) of specific puzzles (more than 50 types of puzzles for now)**. Details can be found in table below. More dataset would be added in the future.
 
-Lastly, this repo also contains some self-learning materials for Operations Research (**OR**).
+Lastly, this repo offers some self-learning materials for Operations Research (**OR**) during 2023~2024.
 
 ✅ Python Environment: Python 3.10.12, 
 
@@ -22,7 +22,7 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 
 -------
 
-### Sudoku and variants puzzles 
+### Sudoku and variants of Sudoku puzzles 
 
 1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. Most of the sudokus (and variants) are well-designed so <u>you can easily add or integrate different constraints types and solve comprehensive Sudoku grid</u>, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example can be found [here](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
 
@@ -128,6 +128,8 @@ Lastly, this repo also contains some self-learning materials for Operations Rese
 - Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 8,000 puzzles across 40+ different puzzle categories**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
 - Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
+
+- It's worth noting that some already-checked solver may also have hidden bugs or fail to consider more general input format, you can issue or PR to let me know.
 
 
 |  ID   |                  Puzzle name                  |                                   Size of puzzle                                    |                       # of puzzle                       | With Sol? |

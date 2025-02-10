@@ -15,7 +15,7 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 
 ✅ Gurobi Optimizer Version: 10.0.3.
 
-✅ ortools Optimizer Version: 9.7.2996
+✅ Ortools Optimizer Version: 9.7.2996
 
 
 ## Catalog
@@ -81,10 +81,10 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 |   5   |   [Number Link](./Puzzles/NumberLink.ipynb)<br> (aka: Arukone)    |        数链         |    🐌    |            [Rules](https://www.janko.at/Raetsel/Arukone/index.htm)             |                 💪Working                  |
 |   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Minesweeper/index.htm)           |   [dataset](./assets/data/Minesweeper/)   |
 |   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |                               🚀 Gurobi required                                |                     -                     |
-|   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |         环          |    ✅    | 🚀 Gurobi required, [rules](https://www.janko.at/Raetsel/Slitherlink/index.htm) | [dataset](./assets/data/slitherlinkdata/) |
+|   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |         环          |    ✅    | 🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Slitherlink/index.htm) | [dataset](./assets/data/slitherlinkdata/) |
 |   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |          [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)          |     [dataset](./assets/data/Mosaic/)      |
 |  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                     [Rules](https://www.puzzle-tents.com)                      |      [dataset](./assets/data/Tent/)       |
-|  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |                   [rules](https://www.puzzle-nonograms.com)                    |    [dataset](./assets/data/Nonogram/)     |
+|  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |                   [Rules](https://www.puzzle-nonograms.com)                    |    [dataset](./assets/data/Nonogram/)     |
 |  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                       -                                        |                     -                     |
 |  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)            |                 💪 Working                 |
 |  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                      [dataset](./assets/data/Starbattle/)                      |                 💪 Working                 |

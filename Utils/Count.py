@@ -5,7 +5,7 @@ from collections import defaultdict
 
 if __name__ == "__main__":
     # 设置文件夹路径
-    folder_path = '../assets/data/Gappy/problems'
+    folder_path = '../assets/data/Hakyuu/problems'
     # folder_path = '../assets/Sudoku/16x16Sudoku/problems'
 
     # 创建一个字典来保存统计结果

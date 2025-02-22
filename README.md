@@ -3,19 +3,21 @@
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The tool used in the repo is Google Operations Research software [ORtools](https://developers.google.cn/optimization?hl=zh-cn), and [z3 solver](https://github.com/Z3Prover/z3), mainly CS-SMT solver. Commercial solver [Gurobi](https://www.gurobi.com) (Licence required, of course) is also used for specific puzzle (Like [Slitherlink](./Puzzles/SlitherLink.ipynb)).
+This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The tool used in the repo are open-source solvers like [ORtools](https://developers.google.cn/optimization?hl=zh-cn), [z3 solver](https://github.com/Z3Prover/z3) and [SCIP](https://scipopt.org).
 
 Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I utterly admire those who quickly find logic-based solutions for those problems, this repo is **NOT** aimed at replacing logic method with Computer solvers: **It's just for fun.**
 
-Currently, **this repo also contains dataset ( 8,000+ instances for now ) of specific puzzles (more than 50 types of puzzles for now)**. Details can be found in table below. More dataset would be added in the future.
+Currently, **this repo also contains dataset (8k+ instances) of specific puzzles (more than 50 types of puzzles)**. Details can be found in table below. More dataset would be added in the future.
 
 Lastly, this repo offers some self-learning materials for Operations Research (**OR**) during 2023~2024.
 
 ✅ Python Environment: Python 3.10.12, 
 
-✅ Gurobi Optimizer Version: 10.0.3.
+✅ PySCIPOpt Version: 5.3.0,
 
 ✅ Ortools Optimizer Version: 9.7.2996
+
+✅ Gurobi Optimizer Version: 10.0.3. (will be replaced by SCIP solver).
 
 
 ## Catalog
@@ -72,53 +74,53 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 
 > Table of Other Puzzles 👇.
 
-|  ID   |                       Name of Other Puzzles                       | Chinese Translation | Solved? |                                      Note                                      |                  Dataset                  |
-| :---: | :---------------------------------------------------------------: | :-----------------: | :-----: | :----------------------------------------------------------------------------: | :---------------------------------------: |
-|   1   |             [Alphadoku](./Puzzles/Alphabetoku.ipynb)              | 25 x 25 <br> Sudoku |    ✅    |                                       -                                        |  [dataset](./assets/Sudoku/16x16Sudoku/)  |
-|   2   |       [Akari](./Puzzles/Akari.ipynb) <br> (aka: light UP!)        |        照明         |    ✅    |                    [Rules](https://www.puzzle-light-up.com)                    |      [dataset](./assets/data/Akari/)      |
-|   3   |  [Cryptarithmetic](./Puzzles/Cryptarithmetic.ipynb) <br> Puzzles  |      破译密码       |    ✅    |                                       -                                        |                     -                     |
-|   4   |               [Norinori](./Puzzles/NoriNori.ipynb)                |        海苔         |    ✅    |                    [Rules](https://www.puzzle-norinori.com)                    |                 💪 Working                 |
-|   5   |   [Number Link](./Puzzles/NumberLink.ipynb)<br> (aka: Arukone)    |        数链         |    🐌    |            [Rules](https://www.janko.at/Raetsel/Arukone/index.htm)             |                 💪Working                  |
-|   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Minesweeper/index.htm)           |   [dataset](./assets/data/Minesweeper/)   |
-|   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |                               🚀 Gurobi required                                |                     -                     |
-|   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |         环          |    ✅    | 🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Slitherlink/index.htm) | [dataset](./assets/data/slitherlinkdata/) |
-|   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |          [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)          |     [dataset](./assets/data/Mosaic/)      |
-|  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                     [Rules](https://www.puzzle-tents.com)                      |      [dataset](./assets/data/Tent/)       |
-|  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |                   [Rules](https://www.puzzle-nonograms.com)                    |    [dataset](./assets/data/Nonogram/)     |
-|  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                       -                                        |                     -                     |
-|  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)            |                 💪 Working                 |
-|  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                      [dataset](./assets/data/Starbattle/)                      |                 💪 Working                 |
-|  15   |                               LITS                                |        LITS         |    ❌    |                                       -                                        |                     -                     |
-|  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |      五联骨牌       |    ✅    |                  [Rules](https://isomerdesign.com/Pentomino/)                  |                 💪 Working                 |
-|  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |       数字块        |    ✅    |             [Rules](https://puzzlegenius.org/suguru-from-scratch/)             |     [dataset](./assets/data/Suguru/)      |
-|  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ✅    |                [Rules](https://www.puzzle-shikaku.com/?size=5)                 |     [dataset](./assets/data/Shikaku/)     |
-|  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)             |     [dataset](./assets/data/Kakuro/)      |
-|  20   |                [Binairo](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                    [Rules](https://www.puzzle-binairo.com)                     |     [dataset](./assets/data/Binairo/)     |
-|  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |       五空格        |    ✅    |            [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)             |                     -                     |
-|  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |      禁止四连       |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |                     -                     |
-|  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |      请勿打扰       |    ✅    |   🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Hitori/index.htm)    |     [dataset](./assets/data/Hitori/)      |
-|  24   |               [Monotone](./Puzzles/Monotone.ipynb)                |       单调性        |    ✅    |                               🚀 Gurobi required                                |                     -                     |
-|  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |        小溪         |    ✅    |    🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Creek/index.htm)    |      [dataset](./assets/data/Creek/)      |
-|  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |       榻榻米        |    ✅    |                 [Rules](https://www.cross-plus-a.com/help.htm)                 |    [dataset](./assets/data/Patchwork/)    |
-|  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |      解谜游戏       |    ✅    |            [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)             |                     -                     |
-|  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |            [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)            |    [dataset](./assets/data/Heyawake/)     |
-|  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)              |      [dataset](./assets/data/Gappy/)      |
-|  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |    🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)    |    [dataset](./assets/data/GrandTour/)    |
-|  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |     🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)      |                     -                     |
-|  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    |   [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix)   |   [dataset](./assets/data/Maze-a-pix/)    |
-|  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |     多米诺骨牌      |    ✅    |            [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)             |     [dataset](./assets/data/Dominos/)     |
-|  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |       温度计        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)           |   [dataset](./assets/data/Thermometer/)   |
-|  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |        药丸         |    ✅    |             [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)             |      [dataset](./assets/data/Pills/)      |
-|  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |       吸铁石        |    ✅    |            [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)             |    [dataset](./assets/data/Magnetic/)     |
-|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |        方块O        |    ✅    |             [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)             |     [dataset](./assets/data/SquareO/)     |
-|  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |       照亮！        |    ✅    |               [Rules](https://gridpuzzle.com/rule/bright-light)                |  [dataset](./assets/data/Buraitoraito/)   |
-|  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |       射手！        |    ✅    |                 [Rules](https://gridpuzzle.com/rule/kuroshuto)                 |    [dataset](./assets/data/Kuroshuto/)    |
-|  40   |              [TilePaint](./Puzzles/TilePaint.ipynb)               |      粉刷墙壁       |    ✅    |                 [Rules](https://gridpuzzle.com/rule/tilepaint)                 |    [dataset](./assets/data/TilePaint/)    |
-|  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |      双雷扫雷       |    ✅    |            [Rules](https://gridpuzzle.com/rule/minesweeper-double)             |                 💪 Working                 |
-|  42   |                  [Str8t](./Puzzles/Str8t.ipynb)                   |        街道         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Straights/index.htm)            |      [dataset](./assets/data/Str8t/)      |
-|  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)          |   [dataset](./assets/data/TennerGrid/)    |
-|  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |         [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)         |  [dataset](./assets/data/GokigenNaname/)  |
-|  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |             [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)             |     [dataset](./assets/data/Hakyuu/)      |
+|  ID   |                       Name of Other Puzzles                       | Chinese Translation | Solved? |                                    Note                                    |                  Dataset                  |
+| :---: | :---------------------------------------------------------------: | :-----------------: | :-----: | :------------------------------------------------------------------------: | :---------------------------------------: |
+|   1   |             [Alphadoku](./Puzzles/Alphabetoku.ipynb)              | 25 x 25 <br> Sudoku |    ✅    |                                     -                                      |  [dataset](./assets/Sudoku/16x16Sudoku/)  |
+|   2   |       [Akari](./Puzzles/Akari.ipynb) <br> (aka: light UP!)        |        照明         |    ✅    |                  [Rules](https://www.puzzle-light-up.com)                  |      [dataset](./assets/data/Akari/)      |
+|   3   |  [Cryptarithmetic](./Puzzles/Cryptarithmetic.ipynb) <br> Puzzles  |      破译密码       |    ✅    |                                     -                                      |                     -                     |
+|   4   |               [Norinori](./Puzzles/NoriNori.ipynb)                |        海苔         |    ✅    |                  [Rules](https://www.puzzle-norinori.com)                  |                 💪 Working                 |
+|   5   |   [Number Link](./Puzzles/NumberLink.ipynb)<br> (aka: Arukone)    |        数链         |    🐌    |          [Rules](https://www.janko.at/Raetsel/Arukone/index.htm)           |                 💪Working                  |
+|   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |        [Rules](https://www.janko.at/Raetsel/Minesweeper/index.htm)         |   [dataset](./assets/data/Minesweeper/)   |
+|   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |         [Rules](https://www.janko.at/Raetsel/Naoki/Purenrupu.htm)          |                     -                     |
+|   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |        数回         |    ✅    |        [Rules](https://www.janko.at/Raetsel/Slitherlink/index.htm)         | [dataset](./assets/data/slitherlinkdata/) |
+|   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |        [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)        |     [dataset](./assets/data/Mosaic/)      |
+|  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                   [Rules](https://www.puzzle-tents.com)                    |      [dataset](./assets/data/Tent/)       |
+|  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |                 [Rules](https://www.puzzle-nonograms.com)                  |    [dataset](./assets/data/Nonogram/)     |
+|  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                     -                                      |                     -                     |
+|  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)          |                 💪 Working                 |
+|  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                                     -                                      |   [dataset](./assets/data/Starbattle/)    |
+|  15   |                               LITS                                |        LITS         |    ❌    |                                     -                                      |                     -                     |
+|  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |      五联骨牌       |    ✅    |                [Rules](https://isomerdesign.com/Pentomino/)                |                 💪 Working                 |
+|  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |       数字块        |    ✅    |           [Rules](https://puzzlegenius.org/suguru-from-scratch/)           |     [dataset](./assets/data/Suguru/)      |
+|  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ✅    |              [Rules](https://www.puzzle-shikaku.com/?size=5)               |     [dataset](./assets/data/Shikaku/)     |
+|  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)           |     [dataset](./assets/data/Kakuro/)      |
+|  20   |                [Binairo](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                  [Rules](https://www.puzzle-binairo.com)                   |     [dataset](./assets/data/Binairo/)     |
+|  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |       五空格        |    ✅    |          [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)           |                     -                     |
+|  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |      禁止四连       |    ✅    |               [Rules](https://www.cross-plus-a.com/help.htm)               |                     -                     |
+|  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |      请勿打扰       |    ✅    | 🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Hitori/index.htm)  |     [dataset](./assets/data/Hitori/)      |
+|  24   |               [Monotone](./Puzzles/Monotone.ipynb)                |       单调性        |    ✅    |                             🚀 Gurobi required                              |                     -                     |
+|  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |        小溪         |    ✅    |  🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Creek/index.htm)  |      [dataset](./assets/data/Creek/)      |
+|  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |       榻榻米        |    ✅    |               [Rules](https://www.cross-plus-a.com/help.htm)               |    [dataset](./assets/data/Patchwork/)    |
+|  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |      解谜游戏       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)           |                     -                     |
+|  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)          |    [dataset](./assets/data/Heyawake/)     |
+|  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)            |      [dataset](./assets/data/Gappy/)      |
+|  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |  🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)  |    [dataset](./assets/data/GrandTour/)    |
+|  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |   🚀 Gurobi required, [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)    |                     -                     |
+|  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    | [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix) |   [dataset](./assets/data/Maze-a-pix/)    |
+|  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |     多米诺骨牌      |    ✅    |          [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)           |     [dataset](./assets/data/Dominos/)     |
+|  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |       温度计        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)         |   [dataset](./assets/data/Thermometer/)   |
+|  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |        药丸         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)           |      [dataset](./assets/data/Pills/)      |
+|  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |       吸铁石        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)           |    [dataset](./assets/data/Magnetic/)     |
+|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |        方块O        |    ✅    |           [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)           |     [dataset](./assets/data/SquareO/)     |
+|  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |       照亮！        |    ✅    |             [Rules](https://gridpuzzle.com/rule/bright-light)              |  [dataset](./assets/data/Buraitoraito/)   |
+|  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |       射手！        |    ✅    |               [Rules](https://gridpuzzle.com/rule/kuroshuto)               |    [dataset](./assets/data/Kuroshuto/)    |
+|  40   |              [TilePaint](./Puzzles/TilePaint.ipynb)               |      粉刷墙壁       |    ✅    |               [Rules](https://gridpuzzle.com/rule/tilepaint)               |    [dataset](./assets/data/TilePaint/)    |
+|  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |      双雷扫雷       |    ✅    |          [Rules](https://gridpuzzle.com/rule/minesweeper-double)           |                 💪 Working                 |
+|  42   |                  [Str8t](./Puzzles/Str8t.ipynb)                   |        街道         |    ✅    |         [Rules](https://www.janko.at/Raetsel/Straights/index.htm)          |      [dataset](./assets/data/Str8t/)      |
+|  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)        |   [dataset](./assets/data/TennerGrid/)    |
+|  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |       [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)       |  [dataset](./assets/data/GokigenNaname/)  |
+|  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)           |     [dataset](./assets/data/Hakyuu/)      |
 
 
 ----

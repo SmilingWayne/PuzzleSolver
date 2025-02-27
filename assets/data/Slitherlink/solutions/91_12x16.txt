@@ -1,4 +1,4 @@
-13 16
+12 16
 - - x - - x - - x x x - x - - - 
 x x x - - x x - - - x x x x x - 
 - x - - x x x x - - x - - - x x 

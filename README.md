@@ -17,7 +17,6 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 
 ✅ Ortools Optimizer Version: 9.7.2996
 
-✅ Gurobi Optimizer Version: 10.0.3. (will be replaced by SCIP solver).
 
 
 ## Catalog
@@ -105,7 +104,7 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 |  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |      解谜游戏       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)           |                     -                     |
 |  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)          |    [dataset](./assets/data/Heyawake/)     |
 |  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)            |      [dataset](./assets/data/Gappy/)      |
-|  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |  🚀 Gurobi required, [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)  |    [dataset](./assets/data/GrandTour/)    |
+|  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)            |    [dataset](./assets/data/GrandTour/)    |
 |  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |             [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)             |                     -                     |
 |  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    | [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix) |   [dataset](./assets/data/Maze-a-pix/)    |
 |  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |     多米诺骨牌      |    ✅    |          [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)           |     [dataset](./assets/data/Dominos/)     |

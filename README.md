@@ -1,22 +1,51 @@
-# Puzzles Solvers
+# Puzzle Solver
 
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
 This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The tool used in the repo are open-source solvers like [ORtools](https://developers.google.cn/optimization?hl=zh-cn), [z3 solver](https://github.com/Z3Prover/z3) and [SCIP](https://scipopt.org).
 
-Most other solvers of those problems are based on logical methods, instead, this repo provides solvers based on mathematical Programming (Integer Programming(**IP**), Constraint Programming(**CP**) etc..). Just In case, I utterly admire those who quickly find logic-based solutions for those problems, this repo is **NOT** aimed at replacing logic method with Computer solvers: **It's just for fun.**
+Most other solvers of these problems are based on logical methods, instead, this repo provides solvers based on Mathematical Programming (i.e., **I**nteger **P**rogramming, **C**onstraint **P**rogramming). I utterly admire those who immediately find logic-based solutions for those problems, this repo is **NOT** aimed at replacing logic method with Computer solvers: **It's just for fun.**
 
-Currently, **this repo also contains dataset (8k+ instances) of specific puzzles (more than 50 types of puzzles)**. Details can be found in table below. More dataset would be added in the future.
+**This repo also contains dataset ( 8k+ instances ) of specific puzzles ( 50+ types )**. Details can be found in table below. More dataset would be added in the future.
 
-Lastly, this repo offers some self-learning materials for Operations Research (**OR**) during 2023~2024.
 
-✅ Python Environment: Python 3.10.12, 
+## Usage 
 
-✅ PySCIPOpt Version: 5.3.0,
+Clone this repo or download the Jupyter Notebook in [Puzzles](./Puzzles/) Folder (Better).
 
-✅ Ortools Optimizer Version: 9.7.2996
+```shell
+git clone https://github.com/SmilingWayne/PuzzleSolver
+cd PuzzleSolver
+```
 
+Create Python environment >= 3.10. e.g.,
+
+```shell
+conda create -n py310 python=3.10.14
+```
+
+Install dependencies via pip:
+
+```shell
+pip install -r requirements.txt
+```
+
+Dependencies:
+
+```pip-requirements
+matplotlib==3.9.0
+pyscipopt==5.3.0
+session_info==1.0.0
+networkx==3.3
+numpy==2.0.0
+ortools==9.10.4067
+z3-solver==4.13.3.0
+gurobipy==11.0.2
+requests==2.32.3
+```
+
+Then enjoy the puzzle solver.
 
 
 ## Catalog
@@ -126,9 +155,9 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 
 ### Dataset of some puzzles
 
-- Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 8,000 puzzles across 40+ different puzzle categories**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
+- **Motivation**: Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 8,000 puzzles across 40+ different puzzle categories**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
 
-- Additionally, **for puzzles where bulk datasets are not yet available, at least one test case is provided to validate the correctness of the solving algorithm**. Contributions of more datasets are welcome and encouraged.
+- **Note:** For puzzles where bulk datasets are not yet available, <u>at least one test case is provided</u> to validate the correctness of the solving algorithm. Contributions of more datasets are welcome and encouraged.
 
 - It's worth noting that some already-checked solver may also have hidden bugs or fail to consider more general input format, you can issue or PR to let me know.
 
@@ -155,28 +184,15 @@ Lastly, this repo offers some self-learning materials for Operations Research (*
 |  18   |     [TilePaint](./assets/data/TilePaint/)     |                                  16x16 <br> Others                                  |                       50 <br> 59                        |     ✅     |
 
 
+### OR code & model 
 
------
-
-### Some OR materials 
-
-This section contains several materials when learning(and coding) Operations Research. Mostly IP and CP, with some classical Combinatorial Optimization Problems. More appendix, like mathematical models, can be found in [Notes](https://smilingwayne.github.io/me/OROpt/) (Written in Mandarin) on my personal website.
-
-1. [Ortools for Linear Programming](./ORMaterials/SimpleLP.ipynb) : Tutorials.
-2. [Ortools for Mixed Integer Programming](./ORMaterials/IntegerOpt.ipynb): Tutorials.
-3. [Ortools for Constraint Programming](./ORMaterials/ConstraintOpt.ipynb): Tutorials.
-4. [Ortools for Knapsack Problem](./ORMaterials/KnapsackPro.ipynb): Tutorials.
-5. [Ortools for VRP](./ORMaterials/VRP): Variants and ortools codes( of official website for self-learning).
-6. [Ortools & Gurobi for TSP](./ORMaterials/TSP.ipynb): Two main methods for TSP. 
-7. [Column Generation Method: Large-Scale Linear Programming and Cutting Stock Problems](./ORMaterials/Techniques/ColGen/CSP.ipynb): Team Meeting report.
-8. Branch & Price for Parallel Machine Scheduling: 🐌...
-9. Some basic / classic [Operations Research Modeling](./modeling/) :
-
+Some code of **O**perational **R**esearch during my self-learning in 2023~2025 is also provided. See Folder [modeling](./modeling/) and [ORMaterials](./ORMaterials/). Especially MILP.
 
 ----
 
 ## Reference
 
-- [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn)
-- [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/)
-- Puzzle data: [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm), [Puzzle](https://www.puzzle-loop.com)
+- [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn).
+- [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/).
+- [PySCIPOpt's tutorials](https://pyscipopt.readthedocs.io/en/latest/tutorials/).
+- Puzzle data source: [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm), [Puzzle](https://www.puzzle-loop.com).

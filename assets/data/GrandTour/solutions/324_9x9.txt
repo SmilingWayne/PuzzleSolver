@@ -1,0 +1,10 @@
+9 9
+x x x - x - x x x
+x - x - x - x - -
+- - x - x - x x x
+x x x - x - - - x
+x - - - x x x x x
+x x x - - - - - x
+x - x x - x x - x
+x - - x x x - - x
+x x - x - x x x x

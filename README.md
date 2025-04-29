@@ -186,7 +186,7 @@ Then enjoy the puzzle solver.
 
 ### OR code & model 
 
-Some code of **O**perational **R**esearch during my self-learning in 2023~2025 is also provided. See Folder [modeling](./modeling/) and [ORMaterials](./ORMaterials/). Especially MILP.
+Some code of **O**perational **R**esearch during my self-learning in 2023~2025 is also provided. See Folder [modeling](./modeling/). Some applications, like sports scheduling, nurse scheduling and public transit are included.
 
 ----
 

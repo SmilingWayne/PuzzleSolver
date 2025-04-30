@@ -87,16 +87,16 @@ Then enjoy the puzzle solver.
 |  15   |    Window Sudoku     |    窗口数独    |       ✅       |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |     9x9      |      -       |     -     |
 |  16   |    Kropki Sudoku     |   黑白点数独   |       ✅       |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |     9x9      |      -       |     -     |
 |  17   |   Even-Odd Sudoku    |    奇偶数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |     9x9      |     129      |     ✅     |
-|  18   |    Samurai Sudoku    |    武士数独    |       🐌       |                               -                                |    21x21     |     272      |     ✅     |
-|  19   |    Shogun Sudoku     |    将军数独    |       🐌       |                               -                                |    21x45     |      90      |     ✅     |
-|  20   |     Sumo Sudoku      |    Sumo数独    |       🐌       |                               -                                |    33x33     |     110      |     ✅     |
-|  21   |     Sohei Sudoku     |   Sohei数独    |       🐌       |                               -                                |    21x21     |     120      |     ✅     |
+|  18   |    Samurai Sudoku    |    武士数独    |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Samurai/index.htm)                                |    21x21     |     272      |     ✅     |
+|  19   |    Shogun Sudoku     |    将军数独    |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Shogun/index.htm)                                |    21x45     |      90      |     ✅     |
+|  20   |     Sumo Sudoku      |    Sumo数独    |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Sumo/index.htm)                                |    33x33     |     110      |     ✅     |
+|  21   |     Sohei Sudoku     |   Sohei数独    |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Sohei/index.htm)                                |    21x21     |     120      |     ✅     |
 |  22   |   Clueless Sudoku2   |  无提示数独2   |       🐌       |                               -                                |    27x27     |      40      |     ✅     |
 |  23   |   Butterfly Sudoku   |    蝴蝶数独    |       🐌       |                               -                                |    12x12     |      77      |     ✅     |
-|  24   |   Windmill Sudoku    |    风车数独    |       🐌       |                               -                                |    21x21     |     150      |     ✅     |
-|  25   |   Gattai-8 Sudoku    |  Gattai-8数独  |       🐌       |                               -                                |    21x33     |     120      |     ✅     |
-|  26   |   Clueless Sudoku1   |  无提示数独1   |       🐌       |                               -                                |    27x27     |      29      |     ✅     |
-|  27   |    16 x 16 Sudoku    | 16 x 16 Sudoku |       🐌       |                               -                                |    16x16     |     124      |     ✅     |
+|  24   |   Windmill Sudoku    |    风车数独    |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Windmill/index.htm)                                |    21x21     |     150      |     ✅     |
+|  25   |   Gattai-8 Sudoku    |  Gattai-8数独  |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Gattai-8/index.htm)                                |    21x33     |     120      |     ✅     |
+|  26   |   Clueless Sudoku1   |  无提示数独1   |       🐌       |                               [Rules](https://www.janko.at/Raetsel/Sudoku/Clueless-1/index.htm)                                |    27x27     |      29      |     ✅     |
+|  27   |    16 x 16 Sudoku    | 16 x 16 Sudoku |       ✅       |                               -                                |    16x16     |     124      |     ✅     |
 
 
 

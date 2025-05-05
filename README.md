@@ -68,35 +68,35 @@ Then enjoy the puzzle solver.
 
 > Table of Sudoku and its variants, with dataset. 👇
 
-|  ID   |  Sudoku & variants   |   In Chinese   | Done & Tested |                              Note                              | Dataset size | # of dataset | With Sol? |
-| :---: | :------------------: | :------------: | :-----------: | :------------------------------------------------------------: | :----------: | :----------: | :-------: |
-|   1   |   Standard Sudoku    |    标准数独    |       ✅       |         [Rules](https://en.gridpuzzle.com/rule/sudoku)         |     9x9      |      -       |     -     |
-|   2   |    Killer Sudoku     |    杀手数独    |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)      |     9x9      |     155      |     ✅     |
-|   3   |    Jigsaw Sudoku     |    锯齿数独    |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)      |     9x9      |     128      |     ✅     |
-|   4   |  Consecutive Sudoku  |    连续数独    |       ✅       |   [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)   |     9x9      |      -       |     -     |
-|   5   |   Sandwich Sudoku    |   三明治数独   |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)     |     9x9      |      -       |     -     |
-|   6   |  Thermometer Sudoku  |   温度计数独   |       ✅       |     [Rules](https://www.sudoku-variants.com/thermo-sudoku)     |     9x9      |      -       |     -     |
-|   7   | Petite-Killer Sudoku |   小杀手数独   |       ✅       | [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/) |     9x9      |      -       |     -     |
-|   8   |  Anti-Knight Sudoku  |    无马数独    |       ✅       |   [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)   |     9x9      |      -       |     -     |
-|   9   |   Anti-King Sudoku   |    无缘数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)    |     9x9      |      -       |     -     |
-|  10   | Greater-Than Sudoku  |   不等式数独   |       ✅       | [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)  |     9x9      |      -       |     -     |
-|  11   |   Diagonal Sudoku    |   对角线数独   |       ✅       |       [Rules](https://en.gridpuzzle.com/diagonal-sudoku)       |     9x9      |      -       |     -     |
-|  12   |        Vudoku        |    V宫数独     |       ✅       |           [Rules](https://en.gridpuzzle.com/vsudoku)           |     9x9      |      -       |     -     |
-|  13   |     Arrow Sudoku     |    箭头数独    |       ✅       |         [Rules](https://www.sudoku-variants.com/arrow)         |     9x9      |      -       |     -     |
-|  14   |      XV Sudoku       |     XV数独     |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)        |     9x9      |      -       |     -     |
-|  15   |    Window Sudoku     |    窗口数独    |       ✅       |        [Rules](https://en.gridpuzzle.com/rule/windoku)         |     9x9      |      -       |     -     |
-|  16   |    Kropki Sudoku     |   黑白点数独   |       ✅       |        [Rules](https://en.gridpuzzle.com/kropki-sudoku)        |     9x9      |      -       |     -     |
-|  17   |   Even-Odd Sudoku    |    奇偶数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)     |     9x9      |     129      |     ✅     |
-|  18   |    Samurai Sudoku    |    武士数独    |       🐌       |                               -                                |    21x21     |     272      |     ✅     |
-|  19   |    Shogun Sudoku     |    将军数独    |       🐌       |                               -                                |    21x45     |      90      |     ✅     |
-|  20   |     Sumo Sudoku      |    Sumo数独    |       🐌       |                               -                                |    33x33     |     110      |     ✅     |
-|  21   |     Sohei Sudoku     |   Sohei数独    |       🐌       |                               -                                |    21x21     |     120      |     ✅     |
-|  22   |   Clueless Sudoku2   |  无提示数独2   |       🐌       |                               -                                |    27x27     |      40      |     ✅     |
-|  23   |   Butterfly Sudoku   |    蝴蝶数独    |       🐌       |                               -                                |    12x12     |      77      |     ✅     |
-|  24   |   Windmill Sudoku    |    风车数独    |       🐌       |                               -                                |    21x21     |     150      |     ✅     |
-|  25   |   Gattai-8 Sudoku    |  Gattai-8数独  |       🐌       |                               -                                |    21x33     |     120      |     ✅     |
-|  26   |   Clueless Sudoku1   |  无提示数独1   |       🐌       |                               -                                |    27x27     |      29      |     ✅     |
-|  27   |    16 x 16 Sudoku    | 16 x 16 Sudoku |       🐌       |                               -                                |    16x16     |     124      |     ✅     |
+|  ID   |  Sudoku & variants   |   In Chinese   | Done & Tested |                               Note                                | Dataset size | # of dataset | With Sol? |
+| :---: | :------------------: | :------------: | :-----------: | :---------------------------------------------------------------: | :----------: | :----------: | :-------: |
+|   1   |   Standard Sudoku    |    标准数独    |       ✅       |          [Rules](https://en.gridpuzzle.com/rule/sudoku)           |     9x9      |      -       |     -     |
+|   2   |    Killer Sudoku     |    杀手数独    |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)       |     9x9      |     155      |     ✅     |
+|   3   |    Jigsaw Sudoku     |    锯齿数独    |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)       |     9x9      |     128      |     ✅     |
+|   4   |  Consecutive Sudoku  |    连续数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)     |     9x9      |      -       |     -     |
+|   5   |   Sandwich Sudoku    |   三明治数独   |       ✅       |      [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)      |     9x9      |      -       |     -     |
+|   6   |  Thermometer Sudoku  |   温度计数独   |       ✅       |      [Rules](https://www.sudoku-variants.com/thermo-sudoku)       |     9x9      |      -       |     -     |
+|   7   | Petite-Killer Sudoku |   小杀手数独   |       ✅       |  [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/)   |     9x9      |      -       |     -     |
+|   8   |  Anti-Knight Sudoku  |    无马数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)     |     9x9      |      -       |     -     |
+|   9   |   Anti-King Sudoku   |    无缘数独    |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)      |     9x9      |      -       |     -     |
+|  10   | Greater-Than Sudoku  |   不等式数独   |       ✅       |   [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)   |     9x9      |      -       |     -     |
+|  11   |   Diagonal Sudoku    |   对角线数独   |       ✅       |        [Rules](https://en.gridpuzzle.com/diagonal-sudoku)         |     9x9      |      -       |     -     |
+|  12   |        Vudoku        |    V宫数独     |       ✅       |            [Rules](https://en.gridpuzzle.com/vsudoku)             |     9x9      |      -       |     -     |
+|  13   |     Arrow Sudoku     |    箭头数独    |       ✅       |          [Rules](https://www.sudoku-variants.com/arrow)           |     9x9      |      -       |     -     |
+|  14   |      XV Sudoku       |     XV数独     |       ✅       |         [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)         |     9x9      |      -       |     -     |
+|  15   |    Window Sudoku     |    窗口数独    |       ✅       |          [Rules](https://en.gridpuzzle.com/rule/windoku)          |     9x9      |      -       |     -     |
+|  16   |    Kropki Sudoku     |   黑白点数独   |       ✅       |         [Rules](https://en.gridpuzzle.com/kropki-sudoku)          |     9x9      |      -       |     -     |
+|  17   |   Even-Odd Sudoku    |    奇偶数独    |       ✅       |      [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)      |     9x9      |     129      |     ✅     |
+|  18   |    Samurai Sudoku    |    武士数独    |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Samurai/index.htm)   |    21x21     |     272      |     ✅     |
+|  19   |    Shogun Sudoku     |    将军数独    |       ✅       |   [Rules](https://www.janko.at/Raetsel/Sudoku/Shogun/index.htm)   |    21x45     |      90      |     ✅     |
+|  20   |     Sumo Sudoku      |    Sumo数独    |       ✅       |    [Rules](https://www.janko.at/Raetsel/Sudoku/Sumo/index.htm)    |    33x33     |     110      |     ✅     |
+|  21   |     Sohei Sudoku     |   Sohei数独    |       ✅       |   [Rules](https://www.janko.at/Raetsel/Sudoku/Sohei/index.htm)    |    21x21     |     120      |     ✅     |
+|  22   |   Clueless Sudoku2   |  无提示数独2   |       🐌       | [Rules](https://www.janko.at/Raetsel/Sudoku/Clueless-2/index.htm) |    27x27     |      40      |     ✅     |
+|  23   |   Butterfly Sudoku   |    蝴蝶数独    |       ✅       | [Rules](https://www.janko.at/Raetsel/Sudoku/Butterfly/index.htm)  |    12x12     |      77      |     ✅     |
+|  24   |   Windmill Sudoku    |    风车数独    |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Windmill/index.htm)  |    21x21     |     150      |     ✅     |
+|  25   |   Gattai-8 Sudoku    |  Gattai-8数独  |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Gattai-8/index.htm)  |    21x33     |     120      |     ✅     |
+|  26   |   Clueless Sudoku1   |  无提示数独1   |       🐌       | [Rules](https://www.janko.at/Raetsel/Sudoku/Clueless-1/index.htm) |    27x27     |      29      |     ✅     |
+|  27   |    16 x 16 Sudoku    | 16 x 16 Sudoku |       ✅       |                              Trivial                              |    16x16     |     124      |     ✅     |
 
 
 

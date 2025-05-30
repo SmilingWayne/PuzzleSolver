@@ -149,6 +149,7 @@ Then enjoy the puzzle solver.
 |  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)        |   [dataset](./assets/data/TennerGrid/)    |
 |  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |       [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)       |  [dataset](./assets/data/GokigenNaname/)  |
 |  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)           |     [dataset](./assets/data/Hakyuu/)      |
+|  46   |                            Polyiamonds                            |      多三角形       |    ✅    |                                     -                                      |                     -                     |
 
 
 ----

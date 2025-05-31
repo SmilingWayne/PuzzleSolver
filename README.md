@@ -9,6 +9,7 @@ Most other solvers of these problems are based on logical methods, instead, this
 
 **This repo also contains dataset ( 8k+ instances ) of specific puzzles ( 50+ types )**. Details can be found in table below. More dataset would be added in the future.
 
+For some interesting pattern-placing puzzle like [Polyiamonds](https://puzzler.sourceforge.net/docs/polyiamonds.html) and [Polyminoes](https://puzzler.sourceforge.net/docs/polyominoes-intro.html), an interactive [webpage (PuzzleTool)](https://smilingwayne.github.io/PuzzleTools/) is provided for visualization.
 
 ## Usage 
 
@@ -149,6 +150,7 @@ Then enjoy the puzzle solver.
 |  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)        |   [dataset](./assets/data/TennerGrid/)    |
 |  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |       [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)       |  [dataset](./assets/data/GokigenNaname/)  |
 |  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)           |     [dataset](./assets/data/Hakyuu/)      |
+|  46   |                            [Polyiamonds](./Puzzles/Polyiamond.ipynb)                            |      多三角形       |    ✅    |                                     [Rules](https://puzzler.sourceforge.net/docs/polyiamonds.html)                                      |                     -                     |
 
 
 ----

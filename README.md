@@ -62,7 +62,7 @@ Then enjoy the puzzle solver.
 
 1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burning logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
 
-![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081142279.png)
+![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081152222.png)
 
 ![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804542.png)
 

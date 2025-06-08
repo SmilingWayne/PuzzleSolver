@@ -62,9 +62,10 @@ Then enjoy the puzzle solver.
 
 1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burning logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
 
+![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081142279.png)
+
 ![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804542.png)
 
-![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804109.png)
 
 
 > Table of Sudoku and its variants, with dataset. 👇
@@ -120,7 +121,7 @@ Then enjoy the puzzle solver.
 |  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)          |                 💪 Working                 |
 |  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                                     -                                      |   [dataset](./assets/data/Starbattle/)    |
 |  15   |                               LITS                                |        LITS         |    ❌    |                                     -                                      |                     -                     |
-|  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |      五联骨牌       |    ✅    |                [Rules](https://isomerdesign.com/Pentomino/)                |                 💪 Working                 |
+|  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |       多米诺        |    ✅    |                [Rules](https://isomerdesign.com/Pentomino/)                |                     -                     |
 |  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |       数字块        |    ✅    |           [Rules](https://puzzlegenius.org/suguru-from-scratch/)           |     [dataset](./assets/data/Suguru/)      |
 |  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ✅    |              [Rules](https://www.puzzle-shikaku.com/?size=5)               |     [dataset](./assets/data/Shikaku/)     |
 |  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)           |     [dataset](./assets/data/Kakuro/)      |
@@ -150,7 +151,8 @@ Then enjoy the puzzle solver.
 |  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)        |   [dataset](./assets/data/TennerGrid/)    |
 |  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |       [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)       |  [dataset](./assets/data/GokigenNaname/)  |
 |  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)           |     [dataset](./assets/data/Hakyuu/)      |
-|  46   |                            [Polyiamonds](./Puzzles/Polyiamond.ipynb)                            |      多三角形       |    ✅    |                                     [Rules](https://puzzler.sourceforge.net/docs/polyiamonds.html)                                      |                     -                     |
+|  46   |             [Polyiamonds](./Puzzles/Polyiamond.ipynb)             |      多三角形       |    ✅    |       [Rules](https://puzzler.sourceforge.net/docs/polyiamonds.html)       |                     -                     |
+|  47   |             [Polyominoes](./Puzzles/Polyminoes.ipynb)             |     超级多米诺      |    ✅    |       [Rules](https://puzzler.sourceforge.net/docs/polyominoes.html)       |                     -                     |
 
 
 ----

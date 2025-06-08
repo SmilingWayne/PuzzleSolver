@@ -59,10 +59,9 @@ requests==2.32.3
 
 1. [**使用 CS-SAT 或 MILP 解决逻辑谜题**](./Puzzles/)：这里包含更多令人烧脑的有趣谜题，包括路径寻找、数字填充、旗帜放置等问题。目前已经解决的谜题类型如下：
 
+![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081142279.png)
+
 ![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804542.png)
-
-![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804109.png)
-
 
 与数独相关的谜题和数据集：
 

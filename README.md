@@ -187,11 +187,6 @@ Then enjoy the puzzle solver.
 |  17   |      [Magnetic](./assets/data/Magnetic/)      |                                        12x12                                        |                           53                            |     ✅     |
 |  18   |     [TilePaint](./assets/data/TilePaint/)     |                                  16x16 <br> Others                                  |                       50 <br> 59                        |     ✅     |
 
-
-### OR code & model 
-
-Some code of **O**perational **R**esearch during my self-learning in 2023~2025 is also provided. See Folder [modeling](./modeling/). Some applications, like sports scheduling, nurse scheduling and public transit are included.
-
 ----
 
 ## Reference

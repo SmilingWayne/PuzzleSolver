@@ -25,8 +25,9 @@ class ShikakuSolver(PuzzleSolver):
         if self.grid.num_cols != self.num_cols:
             raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
         
+        allowed_chars = {"-"}
         for pos, cell in self.grid:
-            if not cell.isdigit():
+            if not cell.isdigit() and cell not in allowed_chars:
                 raise ValueError(f"Invalid character '{cell}' at position {pos}")
     
     def _parse_grid(self):
@@ -45,8 +46,8 @@ class ShikakuSolver(PuzzleSolver):
         self._int_matrix = [[0] * self.num_cols for _ in range(self.num_rows)]
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                if self.grid.value(i, j) != "0":
-                    self._int_matrix = [[0] * self.num_cols for _ in range(self.num_rows)]
+                if self.grid.value(i, j) != "-":
+                    self._int_matrix[i][j] = 1
         
         for i in range(1, self.num_rows + 1):
             for j in range(1, self.num_cols + 1):
@@ -60,20 +61,21 @@ class ShikakuSolver(PuzzleSolver):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 self.cells[i, j] = []
-        
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 curr_feasible_position = []
-                if self.grid.value(i, j) != "0":
+                if self.grid.value(i, j).isdigit():
                     factor_pair = get_factor_pairs(int(self.grid.value(i, j)))
                     for (x_, y_) in factor_pair:
                         x_min, x_max = i - x_ + 1, i
                         y_min, y_max = j - y_ + 1, j
-                        candidate_position =  [(x, y) for x in range(x_min, x_max + 1) for y in range(y_min, y_max + 1) if x >= 0 and y >= 0]
+                        candidate_position =  [(x, y) for x in range(max(0, x_min), x_max + 1) for y in range(max(y_min, 0), y_max + 1) if 0 <= x + x_ - 1 < self.num_rows and 0 <= y + y_ - 1 < self.num_cols]
                         for (x1, y1) in candidate_position:
-                            cover_cells = self._prefix_sum_matrix[x1 + x_ + 1][y1 + y_ + 1] - self._prefix_sum_matrix[x1 + x_][y1 + y_ + 1] - self._prefix_sum_matrix[x1 + x_ + 1][y1 + y_] + self._prefix_sum_matrix[x1 + x_][y1 + y_]
+                            cover_cells = self._prefix_sum_matrix[x1 + x_][y1 + y_] - self._prefix_sum_matrix[x1][y1 + y_] - self._prefix_sum_matrix[x1 + x_][y1] + self._prefix_sum_matrix[x1][y1]
+                            
                             if cover_cells == 1:
                                 curr_feasible_position.append((x1, y1, x_, y_)) # (pos_x, pos_y, rect_x, rect_y)
+                
                 if len(curr_feasible_position) > 0:
                     for info in curr_feasible_position:
                         x1, y1, x_, y_ = info[0], info[1], info[2], info[3]
@@ -81,7 +83,7 @@ class ShikakuSolver(PuzzleSolver):
                         for k1 in range(x_):
                             for k2 in range(y_):
                                 self.cells[x1 + k1, y1 + k2].append(self.x[x1, y1, x_, y_])
-                self.model.Add(sum([self.x[a[0], a[1], a[2], a[3]] for a in curr_feasible_position]) == 1)
+                    self.model.Add(sum([self.x[a[0], a[1], a[2], a[3]] for a in curr_feasible_position]) == 1)
         
         for i in range(self.num_rows):
             for j in range(self.num_cols):
@@ -89,4 +91,34 @@ class ShikakuSolver(PuzzleSolver):
                 
     
     def solve(self):
-        pass
+        solution_dict = dict()
+        self._add_constr()
+        status = self.solver.Solve(self.model)
+        solution_grid = Grid.empty()
+        solution_status = {
+            cp.OPTIMAL: "Optimal",
+            cp.FEASIBLE: "Feasible",
+            cp.INFEASIBLE: "Infeasible",
+            cp.MODEL_INVALID: "Invalid Model",
+            cp.UNKNOWN: "Unknown"
+        }
+        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
+        solution_dict['status'] = solution_status[status]
+        if status in [cp.OPTIMAL, cp.FEASIBLE]:
+            solution_grid = self.get_solution()
+
+        solution_dict['grid'] = solution_grid
+        
+        return solution_dict
+
+    def get_solution(self):
+        sol_grid = [["0"] * self.num_cols for _ in range(self.num_rows)]
+        sign = 1
+        for k, v in self.x.items():
+            if self.solver.Value(self.x[k]) > 1e-3:
+                x1, y1, x_, y_ = k
+                for i in range(x_):
+                    for j in range(y_):
+                        sol_grid[x1 + i][y1 + j] = str(sign)
+                sign += 1
+        return Grid(sol_grid)

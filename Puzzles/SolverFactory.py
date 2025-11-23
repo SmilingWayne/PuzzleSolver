@@ -2,6 +2,8 @@ from AkariSolver import AkariSolver
 from ShikakuSolver import ShikakuSolver
 from TentSolver import TentSolver
 from GappySolver import GappySolver
+from TennerGridSolver import TennerGridSolver
+from BinairoSolver import BinairoSolver
 
 from typing import Dict, Any
 
@@ -12,7 +14,9 @@ class SolverFactory:
         'Akari': AkariSolver,
         'Shikaku': ShikakuSolver,
         'Tent': TentSolver,
-        'Gappy': GappySolver
+        'Gappy': GappySolver,
+        "TennerGrid": TennerGridSolver,
+        "Binairo": BinairoSolver
     }
     
     @classmethod

@@ -2,6 +2,8 @@ from Common.Verifier.PuzzleVerifiers.AkariVerifier import AkariVerifier
 from Common.Verifier.PuzzleVerifiers.ShikakuVerifier import ShikakuVerifier
 from Common.Verifier.PuzzleVerifiers.TentVerifier import TentVerifier
 from Common.Verifier.PuzzleVerifiers.GappyVerifier import GappyVerifier
+from Common.Verifier.PuzzleVerifiers.TennerGridVerifier import TennerGridVerifier
+from Common.Verifier.PuzzleVerifiers.BinairoVerifier import BinairoVerifier
 
 class VerifierFactory:
     
@@ -9,7 +11,9 @@ class VerifierFactory:
         'Akari': AkariVerifier,
         'Shikaku': ShikakuVerifier,
         'Tent': TentVerifier,
-        "Gappy": GappyVerifier
+        "Gappy": GappyVerifier, 
+        "TennerGrid": TennerGridVerifier,
+        "Binairo": BinairoVerifier,
     }
     
     @classmethod

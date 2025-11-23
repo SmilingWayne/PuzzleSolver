@@ -2,9 +2,9 @@ from Common.Verifier.BaseVerifier import BasePuzzleVerifier
 from Common.Board.Grid import Grid
 from typing import Dict, Tuple, Optional
 
-class TentVerifier(BasePuzzleVerifier):
+class GappyVerifier(BasePuzzleVerifier):
     def __init__(self):
-        super().__init__("Tent")
+        super().__init__("Gappy")
     
     def verify(self, solver_dict: Dict, solution_dict: Dict):
         solver_grid: Grid = solver_dict['grid']
@@ -16,4 +16,4 @@ class TentVerifier(BasePuzzleVerifier):
         )
     
     def _verify_safe(self, grid1: Grid, grid2: Grid):
-        return all(value == grid2.value(position) for position, value in grid1 if value == "o")
+        return all(value == grid2.value(position) for position, value in grid1 if value == "x")

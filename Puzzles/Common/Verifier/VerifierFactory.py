@@ -1,13 +1,15 @@
 from Common.Verifier.PuzzleVerifiers.AkariVerifier import AkariVerifier
-# from Common.Verifier.PuzzleVerifiers.ShikakuVerifier import ShikakuVerifier
-# from Common.Verifier.PuzzleVerifiers.TentVerifier import TentVerifier
+from Common.Verifier.PuzzleVerifiers.ShikakuVerifier import ShikakuVerifier
+from Common.Verifier.PuzzleVerifiers.TentVerifier import TentVerifier
+from Common.Verifier.PuzzleVerifiers.GappyVerifier import GappyVerifier
 
 class VerifierFactory:
     
     _verifiers = {
         'Akari': AkariVerifier,
-        # 'Shikaku': ShikakuVerifier,
-        # 'Tent': TentVerifier,
+        'Shikaku': ShikakuVerifier,
+        'Tent': TentVerifier,
+        "Gappy": GappyVerifier
     }
     
     @classmethod

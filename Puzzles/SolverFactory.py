@@ -1,6 +1,7 @@
 from AkariSolver import AkariSolver
 from ShikakuSolver import ShikakuSolver
 from TentSolver import TentSolver
+from GappySolver import GappySolver
 
 from typing import Dict, Any
 
@@ -11,6 +12,7 @@ class SolverFactory:
         'Akari': AkariSolver,
         'Shikaku': ShikakuSolver,
         'Tent': TentSolver,
+        'Gappy': GappySolver
     }
     
     @classmethod

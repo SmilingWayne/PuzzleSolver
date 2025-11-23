@@ -1,6 +1,7 @@
 from Common.Parser.PuzzleParsers.AkariParser import AkariParser
 from Common.Parser.PuzzleParsers.ShikakuParser import ShikakuParser
 from Common.Parser.PuzzleParsers.TentParser import TentParser
+from Common.Parser.PuzzleParsers.GappyParser import GappyParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -9,6 +10,7 @@ class ParserFactory:
         'Akari': AkariParser,
         'Shikaku': ShikakuParser,
         'Tent': TentParser,
+        'Gappy': GappyParser
     }
     
     @classmethod

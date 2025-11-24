@@ -12,8 +12,8 @@ class DominosVerifier(BasePuzzleVerifier):
         return (
             solver_grid.num_rows == solution_grid.num_rows and \
             solver_grid.num_cols == solution_grid.num_cols and \
-            self._verify_safe(solver_grid, solution_grid)
+            solver_grid.is_bijective(solution_grid)
         )
     
-    def _verify_safe(self, grid1: Grid, grid2: Grid):
-        return all(value == grid2.value(position) for position, value in grid1 if value == "o")
+    # def _verify_safe(self, grid1: Grid, grid2: Grid):
+    #     return

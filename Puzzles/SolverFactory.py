@@ -5,6 +5,8 @@ from GappySolver import GappySolver
 from TennerGridSolver import TennerGridSolver
 from BinairoSolver import BinairoSolver
 from PillsSolver import PillsSolver
+from DominosSolver import DominosSolver
+from BuraitoraitoSolver import BuraitoraitoSolver
 
 from typing import Dict, Any
 
@@ -18,7 +20,9 @@ class SolverFactory:
         'Gappy': GappySolver,
         "TennerGrid": TennerGridSolver,
         "Binairo": BinairoSolver, 
-        "Pills": PillsSolver
+        "Pills": PillsSolver, 
+        "Dominos": DominosSolver,
+        "Buraitoraito": BuraitoraitoSolver
     }
     
     @classmethod

@@ -166,4 +166,28 @@ class Grid(Generic[T]):
                 j += y_
                 
         return line_of_sight - {None}
+    
+    def is_bijective(self, other):
+        if not issubclass(type(other), Grid):
+            return False
+        mapping_1_to_2 = {}  
+        mapping_2_to_1 = {}  
+        r2, c2 = other.num_rows, other.num_cols
+        if self.num_rows != r2 or self.num_cols != c2:
+            return False
+        for i in range(self.num_rows):
+            for j in range(self.num_cols):
+                elem1 = self.value(i, j)
+                elem2 = other.value(i, j)
+                if elem1 in mapping_1_to_2:
+                    if mapping_1_to_2[elem1] != elem2:
+                        return False
+                else:
+                    mapping_1_to_2[elem1] = elem2
+                if elem2 in mapping_2_to_1:
+                    if mapping_2_to_1[elem2] != elem1:
+                        return False
+                else:
+                    mapping_2_to_1[elem2] = elem1
+        return True
         

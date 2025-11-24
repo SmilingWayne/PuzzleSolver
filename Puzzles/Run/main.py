@@ -12,11 +12,13 @@ if __name__ == "__main__":
         "Gappy", 
         "TennerGrid",
         "Binairo",
-        "Pills"
+        "Pills", 
+        "Dominos", 
+        "Buraitoraito"
     ]
     
     record = []
-    for pz_name in puzzle_names[6:]:
+    for pz_name in puzzle_names[-1: ]:
         pbl_path, sol_path = f"../assets/data/{pz_name}/problems/", f"../assets/data/{pz_name}/solutions/"
 
         pz_ids = load_puzzles(pbl_path)
@@ -28,8 +30,6 @@ if __name__ == "__main__":
         print(f"====== \t Solving: {pz_name} =======", end="\n")
         
         for pz_id in pz_ids:
-            # if pz_id in ["27_15x20.txt", "6_10x10.txt", "42_15x20.txt", "21_12x16.txt"]:
-            #     continue
             pbl_dict, sol_dict = parser.parse(f"{pbl_path}{pz_id}", f"{sol_path}{pz_id}")
             
             if pbl_dict is None or sol_dict is None:

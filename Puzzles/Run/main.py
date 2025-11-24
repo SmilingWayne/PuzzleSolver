@@ -14,7 +14,9 @@ if __name__ == "__main__":
         "Binairo",
         "Pills", 
         "Dominos", 
-        "Buraitoraito"
+        "Buraitoraito",
+        "Eulero",
+        "Mosaic"
     ]
     
     record = []

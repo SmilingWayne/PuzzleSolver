@@ -1,10 +1,10 @@
 from Common.Parser.BaseParser import BasePuzzleParser
 from typing import Dict, Tuple, Optional
 
-class DominosParser(BasePuzzleParser):
+class EuleroParser(BasePuzzleParser):
     
     def __init__(self):
-        super().__init__("Dominos")
+        super().__init__("Eulero")
     
     def parse(self, pbl_path: str, sol_path: str) -> Tuple[Optional[Dict], Optional[Dict]]:
         pbl_dict = {}

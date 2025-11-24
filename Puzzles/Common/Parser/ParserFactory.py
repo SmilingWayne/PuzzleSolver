@@ -4,6 +4,8 @@ from Common.Parser.PuzzleParsers.TentParser import TentParser
 from Common.Parser.PuzzleParsers.GappyParser import GappyParser
 from Common.Parser.PuzzleParsers.TennerGridParser import TennerGridParser
 from Common.Parser.PuzzleParsers.BinairoParser import BinairoParser
+from Common.Parser.PuzzleParsers.PillsParser import PillsParser
+from Common.Parser.PuzzleParsers.DominosParser import DominosParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -15,6 +17,8 @@ class ParserFactory:
         'Gappy': GappyParser,
         'TennerGrid': TennerGridParser,
         'Binairo': BinairoParser,
+        "Pills": PillsParser,
+        "Dominos": DominosParser
     }
     
     @classmethod

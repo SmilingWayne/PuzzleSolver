@@ -4,6 +4,7 @@ from Common.Verifier.PuzzleVerifiers.TentVerifier import TentVerifier
 from Common.Verifier.PuzzleVerifiers.GappyVerifier import GappyVerifier
 from Common.Verifier.PuzzleVerifiers.TennerGridVerifier import TennerGridVerifier
 from Common.Verifier.PuzzleVerifiers.BinairoVerifier import BinairoVerifier
+from Common.Verifier.PuzzleVerifiers.PillsVerifier import PillsVerifier
 
 class VerifierFactory:
     
@@ -14,6 +15,7 @@ class VerifierFactory:
         "Gappy": GappyVerifier, 
         "TennerGrid": TennerGridVerifier,
         "Binairo": BinairoVerifier,
+        "Pills": PillsVerifier
     }
     
     @classmethod

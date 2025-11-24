@@ -7,6 +7,8 @@ from BinairoSolver import BinairoSolver
 from PillsSolver import PillsSolver
 from DominosSolver import DominosSolver
 from BuraitoraitoSolver import BuraitoraitoSolver
+from EuleroSolver import EuleroSolver
+from MosaicSolver import MosaicSolver
 
 from typing import Dict, Any
 
@@ -22,7 +24,9 @@ class SolverFactory:
         "Binairo": BinairoSolver, 
         "Pills": PillsSolver, 
         "Dominos": DominosSolver,
-        "Buraitoraito": BuraitoraitoSolver
+        "Buraitoraito": BuraitoraitoSolver,
+        "Eulero": EuleroSolver,
+        "Mosaic": MosaicSolver
     }
     
     @classmethod

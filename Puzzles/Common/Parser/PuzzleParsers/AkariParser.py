@@ -7,21 +7,7 @@ class AkariParser(BasePuzzleParser):
     def __init__(self):
         super().__init__("Akari")
     
-    def parse_from_json(self, puzzle_info: Dict, solution_info: Dict) -> Tuple[Optional[Dict], Optional[Dict]]:
-        try:
-            pbl_dict = self._parse_puzzle_string(puzzle_info.get("problem", ""))
-            if pbl_dict is None:
-                return None, None
-            
-            sol_dict = self._parse_solution_string(puzzle_info.get("solution", ""))
-            
-            return pbl_dict, sol_dict
-            
-        except Exception as e:
-            print(f"Error: Failed to parse puzzle data for {puzzle_info.get('id', 'unknown')}. Details: {e}")
-            return None, None
-    
-    def _parse_puzzle_string(self, content: str) -> Optional[Dict]:
+    def parse_puzzle_from_str(self, content: str) -> Optional[Dict]:
         try:
             lines = content.strip().split('\n')
             if not lines: 
@@ -43,7 +29,7 @@ class AkariParser(BasePuzzleParser):
             print(f"Error: The Puzzle content is malformed. Details: {e}")
             return None
     
-    def _parse_solution_string(self, content: str) -> Optional[Dict]:
+    def parse_solution_from_str(self, content: str) -> Optional[Dict]:
         if not content:  
             return None
             
@@ -68,74 +54,3 @@ class AkariParser(BasePuzzleParser):
             print(f"Error: The Solution content is malformed. Details: {e}")
             return None
     
-    def parse(self, pbl_path: str, sol_path: str) -> Tuple[Optional[Dict], Optional[Dict]]:
-        pbl_dict = {}
-        sol_dict = {}
-        
-        try:
-            pbl_dict = self._parse_puzzle_file(pbl_path)
-            if pbl_dict is None:
-                return None, None
-            
-            sol_dict = self._parse_solution_file(sol_path)
-            if sol_dict is None:
-                return None, None
-                
-        except Exception as e:
-            print(f"Error: The Puzzle file '{pbl_path}' is malformed. Details: {e}")
-            return None, None
-        
-        return pbl_dict, sol_dict
-    
-    def _parse_puzzle_file(self, file_path: str) -> Optional[Dict]:
-        try:
-            with open(file_path, 'r') as f:
-                num_line = f.readline()
-                if not num_line: 
-                    print(f"Warning: Puzzle File is empty at {file_path}")
-                    return None
-                    
-                m, n = num_line.strip().split(" ")
-                grid_lines = f.readlines()
-                grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
-                
-                return {
-                    "num_rows": int(m), 
-                    "num_cols": int(n), 
-                    "grid": grid
-                }
-
-        except FileNotFoundError:
-            print(f"Error: Puzzle file could not be found at {file_path}")
-            return None
-        except (ValueError, IndexError) as e:
-            print(f"Error: The Puzzle file '{file_path}' is malformed. Details: {e}")
-            return None
-    
-    def _parse_solution_file(self, file_path: str) -> Optional[Dict]:
-        try:
-            with open(file_path, 'r') as f:
-                num_line = f.readline()
-                if not num_line: 
-                    print(f"Warning: Solution File is empty at {file_path}")
-                    return None
-                    
-                m, n = num_line.strip().split(" ")
-                grid_lines = f.readlines()
-                grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
-                
-                return {
-                    "num_rows": int(m), 
-                    "num_cols": int(n), 
-                    "grid": grid
-                }
-
-        except FileNotFoundError:
-            print(f"Error: Solution file could not be found at {file_path}")
-            return None
-        except (ValueError, IndexError) as e:
-            print(f"Error: The Puzzle file '{file_path}' is malformed. Details: {e}")
-            return None
-    
-    def parse_from_string(self, pbl_content: str, sol_content: str) -> Tuple[Optional[Dict], Optional[Dict]]:
-        pass

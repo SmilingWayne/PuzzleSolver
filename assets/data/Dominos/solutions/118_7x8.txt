@@ -1,8 +1,0 @@
-7 8
-w g g q q y y z 
-w u s s B B r z 
-n u d v k k r h 
-n j d v A A i h 
-m j b b e e i c 
-m a a o o t t c 
-x x p p l l f f

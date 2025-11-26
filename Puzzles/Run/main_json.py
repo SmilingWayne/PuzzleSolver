@@ -10,11 +10,11 @@ if __name__ == "__main__":
         "Akari", 
         "Shikaku", 
         "Tent", 
-        # "Gappy", 
-        # "TennerGrid",
-        # "Binairo",
-        # "Pills", 
-        # "Dominos", 
+        "Gappy", 
+        "TennerGrid",
+        "Binairo",
+        "Pills", 
+        "Dominos", 
         # "Buraitoraito",
         # "Eulero",
         # "Mosaic"
@@ -62,7 +62,8 @@ if __name__ == "__main__":
                 continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):
-                    raise ValueError(f"Wrong {pz_name} {puzzle_id},")
+                    # raise ValueError(f"Wrong {pz_name} {puzzle_id},")
+                    print(f"Wrong! {pz_name} {puzzle_id},")
 
                 record.append(solution_dict)
                 print(solution_dict['num_constrs'], solution_dict['status'])

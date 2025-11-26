@@ -7,6 +7,10 @@ class BasePuzzleParser(ABC):
         self.puzzle_name = puzzle_name
     
     @abstractmethod
-    def parse(self, pbl_path: str, sol_path: str) -> Tuple[Optional[Dict], Optional[Dict]]:
+    def parse_puzzle_from_str(self, content: str) -> Dict[Optional[str], Optional[Dict]]:
+        pass
+    
+    @abstractmethod
+    def parse_solution_from_str(self, content: str) -> Dict[Optional[str], Optional[Dict]]:
         pass
     

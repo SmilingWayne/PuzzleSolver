@@ -16,3 +16,19 @@ def get_factor_pairs(target: int) -> List[Tuple[int, int]]:
             if i != j:
                 result.append((j, i))
     return result
+
+
+def convert_str_to_int(s):
+    if isinstance(s, int):
+        return s
+    elif isinstance(s, str):
+        if s.isdigit() and len(s) == 1:
+            return int(s)
+        elif s.isalpha() and len(s) == 1:
+            s = s.lower()
+            return ord(s) - ord('a') + 1
+        else:
+            return -1
+    else:
+        return -1
+    

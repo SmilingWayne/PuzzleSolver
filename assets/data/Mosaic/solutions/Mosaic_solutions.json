@@ -1,0 +1,630 @@
+{
+  "solutions": {
+    "24_15x15": {
+      "id": "24_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x x x x x x x - - - -\n- - x x x x - - - x x x x - -\n- - x x x - - x x x x x x - -\n- x x x - - x x x x x x - - -\n- x x - x x x x x x x x x x -\nx x - - x x x x - - - x x x x\nx x - x x x x - - - - - x x x\n- x x x x x - - x x - x - - -\n- - - - - x - - - - - - - - -\nx x x - - x - - - - x - - - -\nx - x - - - x x - - - x - x x\nx x x - - x - - x x x - - x x\nx - - x x x - - - x x - - - x\n- x x x x x x x x - x x x x -\nx x x x x x x - - - - x x x x"
+    },
+    "87_25x25": {
+      "id": "87_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - x - - x - x x x x - - -\nx - x - - - - - x - x - - x x - x - x - - x - - -\nx x - - - - - - - x x - - x - x x - x x x x - - -\nx - - - - - - - - - x - - x - - x - x - - x - - -\nx x x - x - x - - x x - - - - - - - - - - - - - -\n- - x x x - x x x x - - - - - - x x x x - x x x x\n- - - - x x x x - - - - - - - - x - - x - x - - x\n- - - x x - x x x x - - - - - - x x x x - x x x x\n- - x x x x x x - - - - - - - - x - x - - x - - x\n- - x x x x x x - - - - - - - - - - - - - - - - -\n- - - - - x x x x - - - - - - - - - - - - - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - x x - x x - x - x x x - x x x x x - - -\n- - - - - x x x x - x x x x - x x x x x x - - - -\n- - - - - x x x x x x x x - x x x - x x - - - - -\n- - - - - x x x - x x - x x x - x x x - - - - - -\n- - - - - - x x x x x x x x x x x x - - - - - - x\n- - - - - - x x x x x x x x x x x x - - - - x x x\nx x x - - - x - x x - - - - x x x x x - - - x x x\nx x x x x - x - x - - - - - x x - x x x - x x x x\nx x x x x - x - x - x x x - - x x - x x - x x x x\n- - x x x - x - x - x x x x - - x x - x - x x - -\n- - - - - - x - x - - - - - - - - x - x - - - - -\n- - - - - - x - x - - - - - - - - x - x - - - - -"
+    },
+    "83_15x15": {
+      "id": "83_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x - - - - - - - - - -\n- x - x x x - - - - - - - - -\n- - - - x x x - - - - - - - -\n- - - - x x x x - - - - - x -\n- - - - x x x x x - - - x - -\n- - - - x x x x x x x x x - -\n- - - x x x x x x x x x x - x\n- x - x x x x x x x x x x x -\n- x x x x x x x x x x x - - -\nx x x x x x x x x x - - - - -\nx x - x - - x x x - - - - - -\nx x - - - - - x x - - - - - -\n- x x - - - - - x - - - - - -\n- x x x - - - - - - - - - - -\nx x - - - - - - - - - - - - -"
+    },
+    "121_15x15": {
+      "id": "121_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- x x x - - - - - - - x x x -\n- x - - x x x x x x x - - x -\n- x - - x - x x x x x - - x -\n- - x - x - x x x x x - x - -\n- - - x x x - x x x x x - - -\n- - - - - x x x x x - - - - -\n- - - - - - x x x - - - - - -\n- - - - - - - x - - - - - - -\n- - - - - x x x x x - - - - -\n- - - - - - x x x - - - - - -\n- - - - x x x x x x x - - - -\n- - - - x - - - - - x - - - -\n- - - - x - x x x - x - - - -\n- - - x x - - - - - x x - - -\n- - x x x x x x x x x x x - -"
+    },
+    "52_20x25": {
+      "id": "52_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- - - - - x x - - - - - x - - - - - x x - - - - -\n- - - x x x - - - - - x x x - - - - - x x x - - -\n- - - x - x - - - - x x x x x - - - - x - x - - -\n- - x x x x - x - - - x x x - - - x - x x x x - -\n- - x - - x x x - - x x x x x - - x x x - - x - -\n- - - - x x x - - x x x x x x x - - x x x - - - -\n- - - - - - x - - - - x x x - - - - x - - - - - -\n- - x x x - - - - - x x x x x - - - - - x x x - -\n- - - - x - - - - x x x x x x x - - - - x - - - -\n- - - - - x x - x x x x x x x x x - x x - - - - -\n- - x x x x - - - - - - x - - - - - - x x x x - -\n- - - - x x - - - - - - - - - - - - - x x - - - -\n- - - - x x x - - - - x - x - - - - x x x - - - -\n- - - - x x x x x - x x - x x - x x x x x - - - -\n- - x x x x x x x x x - - - x x x x x x x x x - -\n- - x - - - x x x x x - - - x x x x x - - - x - -\n- - x - - - - - - - x - - - x - - - - - - - x - -\n- - - - - - - - - - x x - x x - - - - - - - - - -\nx x x - x - x x x - - x - x - - x - x x x - x x x\n- x - x x x - x - x x x - x x x x x - x - x - x -"
+    },
+    "11_15x15": {
+      "id": "11_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - - x x x x - - -\n- - - - - - - x x - - x x x -\n- - - - - - x x - - - - x - -\n- - - - - x x - - - - x - x -\n- - - x x x x x x - - - - - -\n- - x x x x x x x x - - - - -\n- x x x - - x x x x x - - - -\n- x x - - - x x x x x - - - -\nx x x - - x x x x x x x - - -\nx x x x x x x x x x x x - - -\n- x x x x x x x x x x - - - -\n- x x x x x x x x x x - - - -\n- - x x x x x x x x - - - - -\n- - - x x x x x x - - - - - -\n- - - - - x x - - - - - - - -"
+    },
+    "152_25x25": {
+      "id": "152_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - - - - - - - - - x x\n- - - - - - x x x x - - - - - - - - - - - - x x x\n- - - - - x x x x x x - - - - - - - - - - x x x x\n- - - - x x x x x x x x - - - - - - - - - x x x x\n- - - x x x x - - x x x x x x x x x x x x x x x x\n- - - x x x x - - x x x x x x x x x x x x x x x x\n- - - - x x - - x x - - x x x x - - x x x x x x -\n- - - - - - - - x x - - - x x x - - - x x x x - -\n- - - - - - - - x x x x - - x x x x - - x x x - -\n- - x x x - - - x x x x - - x x x x - - x x x - -\n- x x x x x x x x x x x x x x x x x x x x x x x -\nx x - x x x x x x x x x x x x x x x x x x x x x x\nx x x x x x x x x x x x x x x x x x x x x x x - x\nx x x x x x x x x x x x x x x x x x x x x x x - x\n- x x x x x x x x x x x x x x x x x x x x x - x x\n- - x x x x x x x x x x x x x x x x x x x - x x x\n- - - - - - - - x x x x x x x x x x x - - x x x x\n- - - - - - - - - x x - x - x - - - - - x x x x -\n- - - - - - - - x x - - - - - - - - - x x x x - -\n- - - - - - - x x - - - - - - - - - x x x x x - -\n- - - - - - - x - - - - - - - - - x x x x x x - -\n- - - - - - - x - - - - - - - - x x x x x x x x x\n- - - - - - - x x - x - x - - x x x x x x x x x x\n- - - - - - - - x x x x x x x x - x x x x x x x x\n- - - - - - - - - x x x x x x - - x x x x x x x x"
+    },
+    "142_15x15": {
+      "id": "142_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x - - - - - x - - - -\n- - x x x - x - x - x x x - -\n- x x x - x x - x x - x x x -\nx x x - - x x - x x - - x x x\nx x x - x x x - x x x - x x x\nx x - x x x - - - x x x - x x\n- x - x x - - - - - x x - x -\n- - x - - - x - x - - - x - -\n- - - x x x x x x x x x - - -\n- - x x x x x x x x x x x - -\n- x - x x x x x x x x x - x -\n- - x x x x x x x x x x x - -\n- x - x x x x x x x x x - x -\n- - - - x - x x x - x - - - -\n- - - x - - - - - - - x - - -"
+    },
+    "62_25x30": {
+      "id": "62_25x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 30\nx x x x x x x x x x x x x x x - x x x - x x x x x x x x x x\nx - - - - - - - - - - - - - - x x x x x - - - - - - - - - x\nx - - - - - - - - - - - - - x x - - - x x x - - - - - - - x\nx - - - - - - - - - - - - x x - - - - - x x x x - - - - - x\nx x x x x x x x - - - - x x - - - x - - - - x x x - - - - x\nx - - - - - - - - - - x x - - - x x x - - x - - x x x - - x\nx - - - - - - - - - x x - - - x x x x x x - - - - x x x x -\nx - - - - - - - - x x - - - x x x x x x x x x - - - - x x x\nx - - - - - - - x x - - - x x - - x x x x x x x - - - x x x\nx - - - - - - x x - - - x x - - x x - x x x x - - - x x x x\nx - - - - - x x - - - x x - - x x - - - x x - - - x x - x x\nx - - - - x x - - - x x - - x x - - - x x - - - x x - - - x\nx - - - x x - - - x x - - x x - - - x x - x - x x - - - x x\nx - - x x - - - x x - - x x - - - x x - - - x x - - - x x -\nx - x x - - - x x - - x x - - - x x - - - x x - - - x x - x\nx x x x x - x x - - x x - - - x x - - - x x - - - x x - - x\n- x x x x x x - - x x - - - x x - - - x x - - - x x - - - x\nx x x x x x - - x x - - - x x - - - x x - x - x x - - - - x\nx - x x x - - x x x x - x x - - - x x - - - x x - - - - - x\nx - - - - - x x x x x x x - - - x x - - - x x - - - - - - x\nx - - - - - - x x x x x - - - x x - - - x x - - - - - - - x\nx - - - - - - - x x x - - - x x x x - x x - - - - - - - - x\nx - - - - - - - - - - - - x x x x x x x - x - - - - - - - x\nx - - - - - - - - - - - - - x x x x x - - - - - - - - - - x\nx x x x x x x x x x x x x x - x x x - x x x x x x x x x x x"
+    },
+    "128_25x25": {
+      "id": "128_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - x x x - - - - - x x x - - - - - - - - - -\n- - - x x x x x - - - x x x x x - - - - - - - - -\n- - x x - - - x x - x x - - - x x - - - - - - - -\n- - x x - x - x x - x x - x - x x - - - - - - - -\n- - x x - - - x x - x x - - - x x - - - - - - - -\n- - - x x x x x - - - x x x x x - - - - - - - - -\n- - - - x x x - - - - - x x x - - - - - - x x - -\nx - - x x x x x x x x x x x x x - - - x x x x - -\nx x x x x x x x x x x x x x x x - x x x x x x - -\nx - - x x x x x x x x x x x x x x x x x x x x - -\n- - - x x x x x x x x x x x x x x x x x x x x - -\n- - - x x x x x x x x - x x - x - x x x x x x - -\n- - - x x x x x x x x x x x x x - - - x x x x - -\n- - x - - - - x x x x x - - - - - - - - - x x - -\n- x - - - - - x x x x x - - - - - - - - - - - - -\nx - - - - - - - x x x - - - - - x x x x x x x x x\n- - - - - - - x - x - x - - - - x - x - x - x - x\n- - - - - - - x - x - x - - - - x x x x x x x x x\n- - - - - - x - - x - - x - - - x x x x x x x x x\n- - - - - - x - - x - - x - - - x x x x x x x x x\n- - - - - x - - - x - - - x - - x x x x x x x x x\n- - - - - x - - - x - - - x - - x x x x x x x x x\n- - - - - x - - - x - - - x - - x - x - x - x - x\n- - - - x - - - - x - - - - x - x x x x x x x x x\n- - - - x - - - - x - - - - x - - - - - - - - - -"
+    },
+    "18_25x25": {
+      "id": "18_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - x x x - - x x x - - - - - x x x - - - - -\n- - x x - - - x - - x - - x x x - - - - x x - - -\n- x x - - x - - - - - - x x x x - x - x - x x - -\nx x x - - - x x x - x - - - - - x x x - - - x x -\nx - - - x x x - - - - - - - - - - - x x - x x x -\nx - x x x x - x - - - - - - - - - - - x x - - x x\n- x x - - - x - x - - - - - - - - - - - x - - - x\nx x x x - x x - - - - - - - - - - - - - - - - - -\nx x - - x x x - - - - - - - - - - - - x - - - x x\n- - - - - x - - - - - - - - - - - - - x x - - x x\n- - x x - - - x - x x - - - - - x x x x x - x x x\n- x x x x x - x - x x x - - - x x x x x x - x - x\n- x - - x x - - x x x - x - - - - x x x - - x x x\n- - - - x x x - - - - - - - - - - - x - x x - x -\nx x x - - x x - - - - - - - - x - - - - x x x - -\nx x x x - x x x - - - - x - - x - - - x - x - - -\n- x x x - x x x - - - - x - - - - - - x x x - - -\n- - - x x x x - - - - - x x x x - - - x x - - - -\n- - - - - x x - - - x x x x x x x - - x - - - - -\n- - - - - x x x - x x x x x x x x x - x - - - - -\n- - - - x x x x - - x x x - x x - - x x x - - - -\n- - x x - - x x x - - - - - - - - x x - - x x - -\n- x - - x x x - x x x - - - - - x x x x x - - x x\n- - x x x x x - - - x x x x x x - - x x x x x - -\nx x x x x x x x x - - - - - - - - x x x x x x x x"
+    },
+    "163_15x15": {
+      "id": "163_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x - - - - x x x x x\nx - - - - x - - - - x - - - x\nx - - - - x - - - - x - - - x\nx - - - - x - - - - x - - - x\nx x x x x x x - - x x x x x x\n- - - - x x x x x x x - - - -\n- - - - - x - - - x - - - - -\n- - - - - x - - - x - - - - -\n- - - - - x - - - x - - - - -\n- - - - x x x x x x x - - - -\nx x x x x x - - - x x x x x x\nx - - - x - - - - - x - - - x\nx - - - x - - - - - x - - - x\nx - - - x - - - - - x - - - x\nx x x x x - - - - - x x x x x"
+    },
+    "17_15x15": {
+      "id": "17_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - - - x - - - - -\n- - - - - - - x x x - - - - -\n- - - - x x x x x x x x - - -\n- - x x x x x x x x x x x - -\n- x x x x x x x x x x x x x -\nx x x x x x x x x x x x x x -\nx - x x - - x x x - - x x x x\nx x x x x x - x x x x - x x x\nx x x - - - - x x - - x - x x\nx x - - x - - - x - - - x x x\n- - - - x x - - - - - - x x -\n- - - - x x x - - - - - x x -\n- - - - x - - - - - - x x - -\n- x x x x x x x - - x x x x -\n- - x x x x x - - x x - - x x"
+    },
+    "54_20x30": {
+      "id": "54_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - - - - - - - x x x x x x x x x x x x - - - - - - - - -\n- - - - - - - x x x x - - - - - - - - x x x x - - - - - - -\n- - - - - - x x x - - - x - - - - x - - - x x x - - - - - -\n- - - - - x x - - x x - x x - - x x - x x - - x x - - - - -\n- - - - x x - - x x - - - x - - x - - - x x - - x x - - - -\n- - - x x - - x x x - - - x x x x - - - x x x - - x x - - -\n- - x x - - x x x x - - - x x x x - - - x x x x - - x x - -\n- x x - - x x x x x x - - x x x x - - x x x x x x - - x x -\n- x x - x x x x x x x x x x x x x x x x x x x x x x - x x -\n- x x - x x x x x x x x x x x x x x x x x x x x x x - x x -\n- x x - x x x x x x x x x x x x x x x x x x x x x x - x x -\n- x x - x x x x x x x x x x x x x x x x x x x x x x - x x -\n- x x - x x x x x x x x x x x x x x x x x x x x x x - x x -\n- x x - - x x x x - x x - x x x x - x x - x x x x - - x x -\n- - x x - - x x x - - x - - x x - - x x - x x x - - x x - -\n- - - x x - - x x - - x - - x x - - x - - x x - - x x - - -\n- - - - x x - - - x - - - - x x - - - - - x - - x x - - - -\n- - - - - x x x - - - - - - - - - - - - - - x x x - - - - -\n- - - - - - - x x x x - - - - - - - - x x x x x - - - - - -\n- - - - - - - - - x x x x x x x x x x x x - - - - - - - - -"
+    },
+    "178_25x25": {
+      "id": "178_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - x x x - x x x - - - - x x x - - - - - x x - -\n- - x - x - x - x - - - x x x x x - - - x x x x -\n- - - x - x - x x - - x x x x x x x - x x x x x x\n- - x - - - - x - - x x x x x x x x x x x x x x x\n- x - - x - - x - - x x x x x x x x x x x x x x x\nx - - - - - - x - - - - - - - - - - x x x x x x x\nx - - - - - - - x - - - - - - - - - - - - - - - -\nx x x x x - - - x x x x x x x x - - - - - - - - -\n- - - - x - - - - - - - - - - - x x x - - - - - -\n- - - - x - - - - - - - - - - - - - - x - - - - -\n- - - - - x - - - x - - - - - - - - - - x - - - -\n- - - - - - x - - x - - - - - - - - - - - x - - -\n- - - - - - x - x - - - - - - - - - - - - - x - -\n- - - - - x - - x - - - - - - - - x x x - - - x -\n- - - - - x - x - x - - - - - - x - - - - - - x -\n- - - - - x - x - x x x - x x - x - - - - - - x -\n- - - - - - x x - - x - x - x - x - - - - - - x -\n- - - - - - - - - - x - - - x - x - - - - - - x -\nx - - - - - - - - x - x - x x - x - - - - - - x -\nx x x - - - - - - x - - - x x x x - - - x x - x -\nx x x x - - - - - x x x x x - - x - x x - x - x -\nx x x x x - - - - - - - - - - - x - x - - x - x -\nx x x x x x - - - x x x x x x x x - x - - x - x x\nx x x x x x x - x - - - - - - - - - x - - x - - -\nx x x x x x x - x x x x x x x x x x x - - - x x x"
+    },
+    "112_15x15": {
+      "id": "112_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x - x x x - x x x x x x\nx - x x - - - - - x x - x x x\nx x x - - - - - - - x x x x x\nx x x - - - - - - - x x x - x\nx x x x - - - - - x x x x x x\n- - - x x - - - x x - - - - x\n- - - - - - - - - - - - - x x\nx - - - - - - - - - - x x x x\nx x - - - - - - - - x x x x x\nx x x x - - - - - x x x x x -\nx x x x - - - - - x x - x x x\nx - x x - - - - - x x x x x x\nx x x x x - - - - x x x x - x\nx x - x x x - - - - x x x x x\nx x x x x x x - - - x x x x x"
+    },
+    "91_15x15": {
+      "id": "91_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - x x x - - - - - -\n- - - x x x - - - x x x - - -\n- - x - - - - - - - - - x - -\n- - x - - - - x - - - - x - -\n- - x - - - - x - - - - x - -\n- x - - x - - x x x - - - x -\n- x - - x - - x - - - - - x -\n- x - x x x x x x x x x - x -\n- x - - - - - x - - - - - x -\nx - - - x - - x - - x - - - x\nx - - x - - x x - x - x - - x\nx - - - - - - x x - - - - - x\nx - - - - x x - - - - - - - x\nx - - - - - - - - - - - - - x\nx x x x x x x x x x x x x x x"
+    },
+    "133_15x15": {
+      "id": "133_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- x x x x - - x x x x x - - -\nx x - - x x x x - - - x x - -\nx - - - - - - - - x x - x - -\nx - x - x - - x - - x x x - -\nx x x - - - - - - - - x - - -\n- - x x x x x - - - - x x x x\n- x - - - - - x - - - x - - -\n- x - x - x - x - - - x - - -\n- x - - - - - x - - x x - - -\n- - x x x x x - - - x - - - -\n- - - x - - - - - x - - - - -\n- - - - x x x x x - - - - - -\n- - - - - x - - - - - - x - -\n- - - - - x - x x x x - x x x\n- - - - - x x x - - x x x - -"
+    },
+    "8_15x15": {
+      "id": "8_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- x - - - - - x - - - x - - -\n- x x - - - x - x - - x x - -\n- x x - - - x - x - - x x - -\n- - x - - - x - x - - - x - -\n- x - x - - x - x - - x - x -\n- x - x - x x x x x - x - x -\n- x - x - - x x x - - x - x -\n- x - x - - - x - - - x - x -\nx x x x x - - x - - x x x x x\n- x x x - - - x - - - x x x -\n- - x - - - x x x - - - x - -\n- - x x - x - x - x - x x - -\n- - - x x - - x - - x x - - -\n- - - - - - x x x - - - - - -\n- - - - - x x x x x - - - - -"
+    },
+    "40_20x25": {
+      "id": "40_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- - - - - - - - - - - - - - - - - - - - - - x - x\n- - - - - - - - - x x - - - - - - - - - - - x - x\n- - - - - - - - - x x - - - - - - - - - - - x - x\n- - - - - - - - x x x x - - - - - - - - - - x - x\n- - - - - - - - x x x x - - - - - - - - - x x - x\n- - - - - - - - x - x x - - - - - - - - - x - x x\n- - - - - - - - x - x x x - - - - - - - - x - x -\n- - - - - - - x x - - x x - - - - - - - - x - x -\n- - - - - - - x - - - x x x - x x x x x x x x - -\n- - - - - - - x - x x x x x x x x - x x x - - x -\nx x x x x x x x x x x x x x x x x - x x x - - x -\nx - x x x x x x x x x x x x x x - x x x x x x x -\nx x - - x x x x x x x x x x x - x x x x x x x x -\n- x x x - - x - - - - - x x x x x x x - x x x x -\n- - - x x x x x x x x x x x x x x x x x - x x - -\n- - x x x x x x x x x x x x x x x - x x - - - - -\n- - - - - x - x x x x x x x - x x - - x - - - - -\n- - - - x x - - - - - - - - - x - - - x x - - - -\n- - - x x - - - - - - - - - x x - - - - x x - - -\n- x x x - - - - - - - - x x x - - - - - - x x x -"
+    },
+    "137_25x25": {
+      "id": "137_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - x - - x - x - - - x - x - - - x - - x x - - -\n- - x - x - - x - - - x - x x - x x - x - - x - -\n- - x x - - - x - - - x - x - x - x - x - - x - -\n- - x - x - - x - - - x - x - x - x - x x x x - -\n- - x - - x - - x x x - - x - - - x - x - - x - -\n- - - - - - - - - - - - - - - - - - - - - - - - -\n- - x x x - - - x x x x x x x x x - - - x x x - -\n- - x - x - x x x x x x x x x x x x x - x - x - -\n- - x x x x x - - x x x x x x x - - x x x x x - -\n- - - - x x x x x x x x x x x x x x x x x - - - -\n- - - - x x x - x x x x x x x x x - x x x - - - -\n- - - x x x - x - x x x x x x x - x - x x x - - -\n- - - x x x - x - x x - - - x x - x - x x x - - -\n- - - x x x x - x - - x x x - - x - x x x x - - -\n- - x - - x x x - - - x x x - - - x x x - - x - -\n- x - - - - x - - - - - x - - - - - x - - - - x -\n- x - - - - x - - - - - - - - - - - x - - - - x -\n- - x - - x x - x x x x x x x x x - x x - - x - -\n- - - x x x x - - x x x x x x x - - x x x x - - -\n- - - x x x x x - - - x x x - - - x x x x x - - -\n- - - x x x x x x - - - - - - - x x x x x x - - -\n- - x x x x x x x x x - - - x x x x x x x x x - -\n- - x x x x x x x x x x x x x x x x x x x x x - -\n- x x x x x x x x x x x x x x x x x x x x x x x -\n- x x x x x x x x x x x x x x x x x x x x x x x -"
+    },
+    "171_15x15": {
+      "id": "171_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x x x x - - - - -\n- - - - x - - - - - x - - - -\nx - x x - - - - - - - x x - x\n- x x x - - - x - - - x x x -\nx x x - x x x x x x x - x x x\nx x - x x - - - - - x x - x x\n- - x x - - - x - - - x x - -\n- - x - - - - x - - - - x - -\n- - x - - - - x - - - - x - -\n- - x - - - x - - - - - x - -\n- - x - - x - - - - - - x - -\n- - x x - - - - - - - x x - -\n- - - x x - - - - - x x - - -\n- - - - x x x x x x x - - - -\n- - - x x - - - - - x x - - -"
+    },
+    "64_25x25": {
+      "id": "64_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - x x x - - - x x x -\n- - - - x x x x x x x x - - - x - x x x x x - x -\n- - - x x - - x x x x x x - - x x x x x x x x x -\n- - - x - - x x x x x x x x - - x x - x - x x - -\n- - x x - - x x x x x x x x x x x x x x x x x - -\n- x x - - x x x x x x x x x x x x - x x x - x - -\nx x - - - x x x x x x x x x x x x - - x - - x - -\n- - - - x x x x x x x x x x x x x x x - x x - - -\n- - - - x x x x - x x x x x x x x x x x x x - - -\n- - - - x x - - - - x x x x x x x x x x x x - - -\n- - - x x - - - - - - - x x x x x x x x x x x - -\n- - x x - - x x - - - - - - x x x - - - x x x - -\n- - x x - x x - x x - - - x x x - - - - - x x x -\n- - - - - x - x x - - - x x x - - - - - - - x x x\n- - - - x x x x - - - - x x - - - - - - - - - x x\n- - - x x - x x x - - - - - - - - - - - - - - - -\n- - x x x x x x x x x x - - - - - - - x - - - - -\n- - x x x x x x x x x x x x x x x x x x - - - - -\n- - - x x - - x x x x x x x x x x x x - - - - - -\n- - - - - - - x x x x x x x x x x x x - - - - - -\n- - - - - - - x x x x x x x x x x x x - - - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - x - - x - - - - - - - x - - x - - - - -\n- - - - - x - - x - - - - - - - x - - x - - - - -\n- - - - - - - - x - - - - - - - x - - x - - - - -"
+    },
+    "144_15x15": {
+      "id": "144_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - x x x x x - - - -\n- - - - - x x x - - x x - - -\n- - - - - x x - - - - x x - -\n- - - - - x - - - - - - x x -\nx - - - x x x x x x x - - x x\nx - - - x x x x x x x x - x x\nx x - - x x x x x x x x - x x\nx x x - x x x x x x x x - x x\nx - x x x x x x x x x x - x x\nx - x x x x x x x x x x - x x\n- - - x x x x x x x x x x x -\n- - - x x x x x x x x x x - -\n- - - - x x x x x x x x - - -\n- - - - x x x x x x x x - - -\n- - - - x x x x x x x x - - -"
+    },
+    "27_35x40": {
+      "id": "27_35x40",
+      "difficulty": 0,
+      "source": "",
+      "solution": "35 40\n- - - - x x x x - - - - - - - - - - - - - - - - - - - - - - - - - x x - x - x -\nx x x - - - - - x x x - - - - x - - - - - - - - - - - - - - - - x - - x - x - x\n- - - x x x x - - - - x x - x x - - - x x x x x x x x x x x x x x - - x - - - -\nx x x - - - - x x x x - - - x x - - x x - x x - x x - x x - x x - - - x x - - -\nx x x x x x x - - - - x x - x x - x x x x x x x x x x x x x x x x - - x x x - -\n- - - - x x x x x x x - - - x x x - x - x - x - x - x x x - x x x x x x - x x -\n- - - - - - - - x x x - - - x - - - - - - - - - - - - - x x x x - - - x x x - x\n- - - - - - - - - - - - - x - x x x - x x x x x x x x x - - - x x x x x x - x -\nx x x x - - - - - - - - x - x x x - - - x x - - - x x x - x x - x - - x x x - x\nx x x x x x x x x - - - x - x x x x x x x - x - x - x x - x x - x - - x x - x -\nx x x x x x x - - x x x x x x x x x x x x x - - - - x x - x x - x - - x x x - x\n- - - - - - - x x - - - - - - - - - - - - - x x x - x x - x x x x - - x - x x -\nx x x x x - x - - - - - - - - - - - - - - - - - - x x x - x x x x - - x x x - x\nx x x x - x - x x x x x x x x x x x x x x x - - - - - - x - x x x x x x x - x -\n- - - - - x - x x x x x x x - x - x - x - - x - - - - - x - - - x - - x x x - x\n- - - - x x - x - - - - - - - - - - - x - - x - - x - - x - x - x x x x - x x -\n- - - - x x - x x x x x x - x x - x x x - - x - - x x - x - - - x - - x x x - x\n- - x x x x - x - - - - - - - - - - - x - - - - - x x - x - - - x - - x x - x -\n- x - - - x - x x x x x x x x x - x - x - - x x x - - - x x x - x - - x x x - x\n- x x - x x - x - - - - - - - - - - - x - - x x - x x - - - - x x - - x x - x -\nx x x x x x - x x x x x x x - x - x - x - - x x x x x - x x x - x - - x x x - x\nx - - - - x - x - - - - - - - - - - - x - - - - - - - x x x x x x - x x x x x x\nx - - - - - - x x x x x - x x - x x x x - - - - - - - x x x x x x - x - - - - x\n- x x x x x x x - - - - - - - - - - - x x x x x x x x x x x x - - x - x x x x x\n- x x x x x x x x x x x x x x x x x x x x x x x x x x x x x - x x x x x x x x x\nx - - - - - - - - - - - - - - - - - - - - - - - - - - x x x x - - - - - x x x x\nx - - x x x x - - x x x x x x x - - - x x - x x - - - x x x x - - - - - x x x x\nx - - - x x - - - x x x x x x - - - x x x - - - x - - x - x x x x x x x x x x -\nx - - - - - - - - - - - - - - - - - - - - - - - - - x - - - x x - - - - x x x -\n- x x x x x x x x x x x x x x x x x x x x x x x x x x - - - x x x x x x x x x -\n- - x x x x x x x x x x x x x x x x x x x x x x x x x - x - x x - - x x x x x x\n- - x x x - - - x x - - - - - - - - - - - - x x x x x - x - x x - - - x x x x x\n- - x x x - x x x x - - - - - - - - - - - - x x x x x x - x x - - - - - - - - -\n- - - x x x x x x - - - - - - - - - - - - - - x x x x x x x x - - - - - - - - -\nx x x - x x x x - x x x x x x x x x x x x x x - x x x x x x - x x x x x x x x x"
+    },
+    "154_25x25": {
+      "id": "154_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - x - - - - - - - - - - x - - - - -\n- - - - - - - x x - - - - - - - - - - x x - - - -\n- - - - - - - x x - - - - - - - - - - x x - - - -\n- - - - - - - x x x - - - - - - - - - x x - - - -\n- - - - - - - x x x x - - - - - - - x x x - - - -\n- - - - - - - - x x x - - - - - - x x x - - - - -\n- - - - - - - - - x x x x x x x x x x - - - - - -\n- - - - x x x x - x x x x x x x x x x x - x x x x\n- - - - x - x x x x x x x x x x x x x x x x x - x\n- - - - x x - x x x x x x x x x x x x x x x - x x\n- - - - - x x - x x x - - x x x x x x x x - x x -\n- - - - - - x x x x x - - x x x - - x x x x - - -\n- - - - - - - x x x x x - x x x x - x x x - - - -\n- - - - - - - x x x x x - x x x x - x x x - - - -\n- - - - x x x x x x x x x x x x x x x x x - - - -\n- - x x x x x x - - - - - - - - - - - - x x - - -\nx x x x x x x - - - - x x x - - x x x - - x - - -\nx x x x x x x - - - - x x x - - x x x - - x - - -\nx x x x x x x - - - - - - - - - - - - - - x - - -\nx x x x x x x x - - - - - - - - - - - - - x - - -\nx x x x x x x x x - - - - x x x x - - - x x - - -\nx x x x x x x x x x - - - - x x x - - x x - - - -\nx x x x x x x x x x x x x x x x x x x x - - - - -\nx x x x x x x x x x x x x x - - - - - - - - - - -\nx x x x x x x x x x x x x x - - - - - - - - - - -"
+    },
+    "140_25x25": {
+      "id": "140_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - x x - - - - - - - - - - - - - - - - -\n- - - - - x x - - - - - - - - - - - - - - - - - -\n- - - - x x x - - - - - - - - - - - - - - - - - -\n- - - x x x x - - - - - - - - - - - - - - - - - -\n- - - x x x - - x x - - - - - - - - - x x x - - -\n- - x x x x - x x x x - - - - - - - - x x x x - -\n- - x x x x - x x x x - - - - - - - x x x x x - -\n- x x x x x - - x x x - - - - - - - - x x x - - -\n- x x x x x - - - x - - - - - - - - - - x - x - -\n- x x x x x x - x - - - - - - - - - - - - - x - -\n- x x x x x x x - - - - - - - - - - - - - - x - -\n- x x x x x x x - - - - - - - - - - - - - - x x -\n- x x x x x x x - - - - - - - - - - - - - - x x -\n- x x x x x x x - - - x x - - - x x - - - - x x -\n- - x x x x x x - - x x - - - - x x x - - - x x x\n- - x x x x x x - - x x - - - - - - x - - - x x x\n- - - x x x x x - - - - - - - - - - - - - - x x x\n- - - - x x x x x - - - - x x x - - - - - x x x x\n- - - - x x x x x x - - - - x - - - - - x x x x x\n- - - - - x x x x x x x - - - - - - x x x x x x x\nx - - - - x x x x x x x x x x x x x x x x x x x x\nx x x x x x x x x x x x x - - - - - - - x x x x x\nx x x x x x x x x x x x - - - - x x - - x x x x x\n- - - - - x x x x x x - - - - - x x x x x x x x x\n- - - - - x x x x x x x - - - - - - - x x x x x -"
+    },
+    "98_25x25": {
+      "id": "98_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - x x x - - - - - - - - - - - - - x - x - - -\n- - x - - - x - - - - - - - - - - - - x x x - - -\n- - x - - - x - - - - - - - - - - - - x - x - - -\n- - x - - - x - - - - - - - - - - - - x x x - - -\n- - - x - x - - - - - - - - - - - - x x - x x - -\n- - - x x x - - - x x x - - - - - x x - - - x x -\n- - - x - x - - x - - - x - - - - x - - x - - x -\nx x x x x x x x x - - - x x x x x x - x - x - x x\n- - x x - x x - x - - - x - - - - x - - x - - x -\n- x x - - - x x x x - x x - - - - x - - - - - x -\n- x - - x - - x - x x x - - - - - x - - - - - x -\n- x - x - x - x - x - x - - - - - x - - - - - x -\n- x - - x - - x - x x x - - - - - x x - - - x x -\n- x - - - - - x x x - x x - - - - - x x x x x - -\n- x - - - - - x x - - - x x - - - - - - - - - - -\n- x - - - - - x - - x - - x - - - - - - - - - - -\n- x x - - - x x - x - x - x x x x x x - - - - - -\n- - x x x x x x - - x - - x x x x x x x - - - - -\n- - - - - - - x - - - - - x x x x x x x x - - - -\n- - - - - - - x - - - - x x x x x x x x x - - - -\n- - - - - - - x - - - - x x x x x x x x x - - - -\n- - - - - - - x x - - - x x x x x x x - x - - - -\n- - - - - - - - x x x x x x x x x - x x x - - - -\n- - - - - - - - - - - - - x x x x x x x - - - - -\n- - - - - - - - - - - - - - x x x x x - - - - - -"
+    },
+    "21_25x25": {
+      "id": "21_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x x - x x x x x - - - - - - - - - x x x x x - -\nx x x x - - - - - x x x x x x x x x - - - - - x -\nx x x - - - x x x - - - - - - - - - x x x - - x -\nx x x x - x x x - - - - - - - - - - - x x x - x -\nx x x x - - x x - - x - - - - - x - - x x - - x -\nx x x x x - - x - - - - - x - - - - - x - - x - -\n- x x x x x x x - - - - x x x - - - - x x x - - -\n- x x x x - - - x - - - x x x - - - x - - - - - -\n- x x x x x - - - x x - - - - - x x - - - - - - -\n- x x x x x - x x - - x x x x x - - x - - - x - x\nx - x x x x x - - - - - - - - - - - x - - - - x -\nx - - x x x - - - - - - - - - - - - - x - - - - -\n- x - x x x x - - x - - - - x - - - - x - - - - -\n- - x x x x x x x - - - x x - - - - - x - - - - -\n- - - x x x x - x - x x - - - - - - - x - - - - -\n- - x - - x x x x x - - - - - - - x - x - - x - -\n- x - x - - - - - - - - - - - - x - - x - - x - -\n- x - - x x x - - - - - - - x x - - - x - x x x -\n- x - - - x x x x x x x x x - - - - x - - x x x -\n- x - - x x x x x - - - - - - - - - x - x x x x x\n- - x - - - x x x x x x - - - - - x - - x x x x x\n- - x - - x x x x - - - x - - - x - - - x x x x x\n- - - x - - x x x - - - - - - x - - - - - x x x -\n- - - x - - - x x x - - - x x - - - - - - - x - -\n- - - - x x x x x x x x x - - - - - - - - - x - -"
+    },
+    "31_15x15": {
+      "id": "31_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x - - - - - x - - - -\n- - x x x - x - x - x x x - -\n- x x x - x x - x x - x x x -\nx x x - - x x - x x - - x x x\nx x x - x x x - x x x - x x x\nx x - x x x - - - x x x - x x\n- x - x x - - - - - x x - x -\n- - x - - - x - x - - - x - -\n- - - x x x x x x x x x - - -\n- - x x x x x x x x x x x - -\n- x - x x x x x x x x x - x -\n- - x x x x x x x x x x x - -\n- x - x x x x x x x x x - x -\n- - - - x - x x x - x - - - -\n- - - x - - - - - - - x - - -"
+    },
+    "53_20x30": {
+      "id": "53_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - x x x x x x x x x x x - - - -\n- - x x x x x x x - - - - x x x - - x - x - x - - x x x - -\n- x x - - - - - x x - - x x - - - - x - x - x - - - - x x -\nx x - - x x x - - x - x x - - - - - x - x - x - - - - - x x\nx - - x - - x - - x - x - - - - - - x - x - x - - - - - - x\nx - x - - - x - - x - x - - - - - - x - x - x - - - - - - x\nx - x - - - x - - x - x - - - - - - x - x - x - - - - - - x\nx - x x x x x - - x - x - - - - - - x - x - x - - - - - - x\nx - - - - - - - - x x x - - - - - - x - x - x - - - - - - x\nx - - - - - - - - x x x - - - - - - x - x - x - - - - - - x\nx - - - - - x x x x x x x - - - - - x - x - x - - - - - x x\nx x - - x x x - - x x x x x x - - - x - x - x - - - x x x x\n- x x x - x x x x x - - - x x x x x x x x x x x x x x x x -\n- - - - - x x x x x - - - x x x x x x x x x x x x x x x - -\n- - - x x x x - - x - - - x - - - x x x x - - - x x x x - -\n- - x x x x x x - x x x x x - - x x x x x x - x x x x x x -\n- - x x - - x x - - - - - - - - x x - - x x - x x - - x x -\n- - x x x x x x - - - - - - - - x x x x x x - x x x x x x -\n- - - x x x x - - - - - - - - - - x x x x - - - x x x x - -"
+    },
+    "101_15x15": {
+      "id": "101_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - x - - x - - - - -\n- - - - x x x x x - x - - - -\n- - - x - - - - - x - x - - -\n- - x - - x - - - - x - x - -\n- x - - - - - - - - x - x - -\nx - - - - - - - - - - x - x -\nx - - - x - - - - - - x - x -\nx x x x - x - - - - - x - x -\n- - - - - x - - - - - x - x -\n- - - - - x - - - - - x - x -\n- - - - x x x x x x x x x - -\n- - - - x - - - - - - - x - -\n- - - x x x x x x x x x x x -\n- - - x - - - - - - - - - x -\n- - - x x x x x x x x x x x -"
+    },
+    "10_15x15": {
+      "id": "10_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x x x x - - - - -\n- - - x x x x x x x x x - - -\n- - x - - - - - - - - - x - -\n- x - - - - - - - - - - - x -\n- x - - - - - - - - - - - x -\nx - - - x x - - - x x - - - x\nx - - - x x - - - x x - - - x\nx - - - - - - - - - - - - - x\nx - - - - - - - - - - - - - x\nx - - - x x x x x x x - - - x\n- x - - - - - x - - x - - x -\n- x - - - - - x - x x - - x -\n- - x - - - - - x x - - x - -\n- - - x x - - - - - x x - - -\n- - - - - x x x x x - - - - -"
+    },
+    "153_25x25": {
+      "id": "153_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - x - - - - - - - - - - - - - - - - - - - -\n- - - x x - - - - - - - - - - - - - - x - - - - -\n- - - - - - - - - - - - - - - - - - - x x - - - -\n- - - - - - - - - - - - x x x - - - - - - - - - -\n- - - - - - - - - - - x x - x x x x - - - - - - -\n- - - - - - - - - - x x - x x - - x - - - - - - -\n- - - - - - - - - x x - - x x x - x - - - - - - -\n- x x - - - - - x x x x x x x x - x x - - - x x -\n- x x x - - - x x x x x x x x x x x x x - x x x -\n- x x x x - x x x x x x x x x x x x x x x x x x -\n- - x x x x x x - x x x x x x x x x x - x x x - -\n- - - x x x x x x - x x x x x x x x - x x x - - -\n- - - - x x x x x x - - - - - - - - x x x - - - -\n- - - - x x x x x x x - - - - - - x x x x - - - -\nx x x - x x x x x x x x x x x x x x x x - - - - -\nx x - x x x x x x x x x x x x x x x x x x - x x x\nx - x x x x - - x x - - - - - - x x - x x x - x x\n- x x x x x - - x x x - - - - x x x - x x x x - x\nx x x x x - - - - x x - - - - x x - - x x x x x x\nx x x x - - - - - - - - - - - - - - - - x x x - x\n- x x - - - - - - - - - - - - - - - - - - x - x x\nx - - - - - - - - - - - - - - - - - - - - - x x x\nx x - - - - - - - - - - - - - - - - - - x x x x x\nx x x x - - - - - - - - - - - - - x x x x x x x x\nx x x x x x x x - - - - - - - - x x x x x x x x x"
+    },
+    "143_15x15": {
+      "id": "143_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x x x x x x x x x\nx x x x x x x x x x x x x x x\nx x x - - - - - - - - - x x x\nx x - - - - - - - - - - - x x\nx x - - - - - - - - - - - x x\nx - - - x x x x x x x - - - x\nx - - - x - - - - - x - - - x\nx - - x x - - - - - x x - - x\nx x x x - - x x x - - x x x x\nx x - - - x x x x x - - - x x\nx x - - - x x x x x - - - x x\nx x - - - x x x x x - - - x x\nx x - - - - x x x - - - - x x\nx x - - - - - - - - - - - x x\nx x x x x x x x x x x x x x x"
+    },
+    "129_25x25": {
+      "id": "129_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x x x x x x x - - x - - x x x x x x x x - x - x\nx x x x x x x x - - x - - x x x x x x x x - x - x\n- - - - - - - - x x x x x - - - - - - - - - x - x\nx x x x - - x x - - x - - x x - - x x x x - x x x\nx x x x - x - - - - x - - - - x - x x x x - - - -\n- - - - x - - - - - x - - - - - x - - - - - x - -\nx x - x - - - - - - x - - - - - - x - x x - x - -\nx x - x - - - - - - x - - - - - - x - x x - x - -\n- - x - - - - - - - x - - - - - - - x - - - x x x\n- x x - x x x - - - x - - - x x x - x x - - - - -\nx - x x - - - x - - x - - x - - - x x - x - x x x\nx x x x - - - - x - x - x - - - - x x x x - - x -\nx - x - x - - - x - x - x - - - x - x - x - - x -\nx - x - - x x x - - x - - x x x - - x - x - - x -\n- x x - - - - - - - x - - - - - - - x x - - - - -\n- x x - - - - - - - x - - - - - - x x x - - x x x\n- - x - - - - - - - x - - - - - - x x - - - x - x\nx x - x - - - - - - x - - - - - - x - x x - x x x\nx x - x - - x x x x x x x x x - x x - x x - x x -\n- - - - x - - x - - - - - x - - x - - - - - x - x\nx x x - x - - - x x x x x - - - x - x x x - - - -\nx x x - - x - - x - - - x - - x - - x x x - x x x\n- - - - - x x - - x - x - - x x - - - - - - x - x\nx x x x - x x x - - x - - x x x - x x x x - x x x\nx x x x - x x x x x x x x x x x - x x x x - x - x"
+    },
+    "63_25x25": {
+      "id": "63_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x - x x x x x x - x x x x x x x x x x x x x x x\nx - - - x x x - - - - x x x x x - x x x x x x x x\n- - - - - x x x - - x x x x x - - - x x x x x x x\n- - - - - - x - - - - x x x - - - - - x x x x x x\nx x - - x x - - - - - - x x x x - x x x x x x x x\nx x - - x - - - - - - - - x x - - - x x x x x x x\nx - - - - x x x - - - x x x - - - - - x x x x x x\n- - - - - - x - - - - - x - - - - - - - - - x x x\n- - - - - - - - - - - - - x x - x - - - - x - - x\n- - - - x x x x x - - - - - - - x x - - x x - - -\n- - - x x x x x x x x x - - - - x x x x x x - - -\n- x x x x x x x x x x x x x - x x - x - x x - - -\nx x x - x x x x x x x x x x x x x x x x x x - - -\nx x - - x x x x x x x x x x x - - x x - x x - - -\nx x - - x x x x x x x x x x x x x x - x x - - - -\nx - - - x x x - x x x x x x x x - - x x x - - - -\n- - - x x x - x x x x x x x x x x x x x x - - - -\n- - - x x - - x x - - x x x x x x x x x x - - - -\n- - - x x - - x x - - - x x x x x x x x x - - - -\n- - - x x - - x x - - - - x x x - - x x x - - - -\n- - - x x x - x x x - - - x x - - - - x x - - - -\n- - - - x x - - x x - - - x x - - - - x x - - - -\n- - - - - - - - - - - - - x x - - - - x x - - - -\n- - - - - - - - - - - - x x x - - - - x x x - - -\n- - - - - - - - - - - - x x - - - - - - x x - - -"
+    },
+    "162_15x15": {
+      "id": "162_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - x x - - x x - -\n- - - - - - - x - - - x - x x\n- - - - - x x x x x - x - - -\n- - - - x x x x x x - x x x -\n- - - - x x x x x x - x x x -\n- - - - - - - x - - - x x x -\n- - - - x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - - - - - x - - - x - - -\nx x x x x - - x - - - x - x x\n- - - x x x x x x x x x x x x\n- - - - x x x x x x x x x x -\n- - - - - x x x x x x x x - -"
+    },
+    "108_25x25": {
+      "id": "108_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - x x x x x x x x - - - - - - - -\n- - - - - - - x x x x x x - - - x x x x - - - - -\n- - - - x - x x - x x - - x x x x x x x x - - - -\n- - - - x x x - x x - x - - x - - - x x x - - - -\n- - - - - x - x x - x x x x x x x x - x x x - - -\n- - - x x x - x x - x x x - - - x x x - x x - x -\n- - x x - x x - x x - x - x x x - x x - x x x x -\n- - x x - x x x - x x x - x x x x - x - x - x x x\n- - x x x - - - x x - x x x - - x - x x - x - - x\n- - x - x x x x - - - - - - - - x x - x - x x x x\nx - x x - x - - - - - - - - - - - x x - x - - x x\nx x x x - x - - - - - - - - - - - x x - x x x - x\n- x x x - x - - - - - - - - - - - - x x - - x x x\nx x x - x x x x x - - - - x x x - - x - x x - x x\nx - - x x x - x x x - - x x x - x - x - x x - x x\nx x x - - x - - x - x - x - x - - x x x - x x x x\nx x - x x x - - - - x - - - - - - x x - x x x x -\n- x x - - x - - - x - - x - - - x - x x x - - - -\n- - - - x x x - - - x x x - - - - - x x x x - - -\n- - - x x - x - - - - - - - - - - x x - - x x - -\n- - x x - - x x - x x x x x - - x x - - - - x x -\n- - x - - - - x - - - - - - - x x - - - - - x x x\n- x x x - - - x x - - x - - x x - - - - - - - x x\nx x x x x x - - x x x x x x x - - - x x x x x x x\nx x x x x x x x - x - - - x - - - x x x x x x x x"
+    },
+    "179_25x25": {
+      "id": "179_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - x - - - - x x x x x x x x x x x x x x x\n- - - - x x - - - - - x x x x - x x x x x x x x x\n- - - - x - - - - - - - x - x x - x - x - x x x x\n- - - - x - x x x - - - x x - x - x x x x - x x x\n- - - - x x - - x - - - - x - - x x - - x x x - x\n- - - - x - - - - x - - - - - x x - - - - - x x -\n- - x x x - - - - x - - - - - x - - - x - - - x -\n- - - x x x x x x - - - - - - - - - x x - - - - -\n- x - - x - - - x x - - - - - - - - x - x x - - -\n- - x x x - - x x x - - - - - - x x x x x - - - -\n- - - - x - - x - x - - - - x x x - - x x x x - -\n- - - x x x - x x x - - - x x - - - - - - - - - -\n- - - x - x x x - - - - - - - - - x x x x x - - x\n- - - x - - - - - - - - - - - x x x - - - x x - x\n- - - x - - - x x x - - - - - x - - - - - - x x x\n- - - x - - - x - - - - - - - x - x x x x - x x x\n- - - x - - - x x - - - - - - x - x - x - - x x x\n- - - x - - - - - - - - - - x x x x - x - - x x x\n- - - x - - - - - - - - - - x - x - - x - x x x x\n- x x x x - x - - - - - - - x - x - - x - x - - -\n- x x x x - - x - - - - x x x - x - - x - x - x x\nx x x x x - - x x - - x x - x - x x x x - x - x -\nx x x x x x - - x x x x - - x x - - - x x x - x -\nx x x x x x - - - - - - - - - x x - - - x x x x -\nx x x x x x x - - - - - - - - - x - - - - - - x -"
+    },
+    "113_15x15": {
+      "id": "113_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x - x - - - - - - - -\n- - - x - x - x - - - - - - -\n- - - - - x - - - - - - - - -\n- - - - - - - - - - - - - - -\n- - - x x x x x x - - - - - -\n- - x x x x x x x x - - - - -\n- x x x x x x x x x x - - - -\n- x x x x x x x x x x x - - -\n- x x x x - x x x x x x x - x\n- x x x x x x x x x x x x x x\n- - - - - - - - - - - - - - -\nx x x x - - - - - x x - - x x\n- - - - - - x x - - - - - - -\n- - - x x - - - - - - - x x x\n- - - - - - - x x x - - - - -"
+    },
+    "55_20x30": {
+      "id": "55_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - - - - - - x x - x x x x x x x x x x x x x x - x x - -\n- - - - - - x x x - x x x x x x x x x x x x x x - x x x x -\n- - - - - x x x - x x x x x x x x x x x x x x - x x x - x x\n- - - - - x x - - - - - - - - - - - - - - - - - x x - - x x\n- - - - - x x - x x x x x x x x x x x x x x - x x - - - x x\n- - - - - x x - x x x x x x x x x x x x x x - x x - x x x x\n- - - - - x x - - - - - - - - - - - - - - - - x x - x x x -\n- - - - - x x - x x x x x x x x x x x x x x - x x - - - - -\n- - - - - x x - x x x x x x x x x x x x x x - x x - - - - -\n- - - - x x x - - - - - - - - - - - - - - - - x x - - - - -\n- - x x x x - - x x x x x x x x x x x x x x - x x x - - - -\n- - x x - - x x x x x x x x x x x x - - - - x x x x - - - -\n- x x - - - - - - - - - - - - - - - x x x x x x - x x - - -\n- x x - x x x x x x x x x x x x - x x x x x x - - x x - - -\n- x x - x x x x x x x x x x x x - x x - - - - - - x x - - -\n- x x - - - - x x - - - - - - - - x x - - - - - - x x - - -\n- x x - - - - x x - - - - - - - - x x - - - - - - x x - - -\nx x x - - - - x x x - - - - - - - x x - - - - - - x x x - -\nx x x - - - - x x x x - - - - x x x x - - - - - - x x x x -\nx x - - - - - - x x x - - - - x x x - - - - - - - - x x x -"
+    },
+    "117_25x25": {
+      "id": "117_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - x x x - - x x x x x x x x - - - - - - -\n- - x x x x - x - - x - - x x x x x x - - - - - -\n- x x - - - x x - x x x - x x x x x x - - - - - -\n- x - x x - - x x x x - - x x x x x x x - - - - -\n- x - x - - - x x x - - x x x x x x x x x - - - -\nx x - - - - - - x - - x x x x x x x x x x - - - -\nx - x - - - - - - - - x x x x x x x x x x x - - -\nx x x x x - - - - - - - x x x x x x x x x x x x -\n- - - x x x - - - - - - - x x x x x x x x x x x x\n- - x x x - - - - - - - - - x x x x x x x x x - x\nx x x x - - - - - - - - - - - x x x x x x x x - x\nx - x - - x x - - - - - - - - x x x x x x - - - x\nx - - - x x x x - - - - - - - - x x x - - - x x x\nx x x x x x x x x - - - - - - - - - - - - x x x x\nx x x x x x x x x x - - - - - - - - - - x x x - -\nx x x x x x x x x x x x - - - - - - x x x x x - -\nx x x x x x x x x x x x x - - - - x x x x x - - -\nx x x x x x x x x x x x x - - - x x x x x - - - -\n- x x x x x x x x x x x x - - x x x x x x x - - -\n- - - x x x x x x x x x - - - x x x x x x x x x -\n- - - - x x x x x x x x - - x x x x x x x x x x x\n- - - - - - x x x x x - - x x x x - x x x x x x x\n- - - - - - - x x x x - x x x x - - - x x x x x x\n- - - - - - - x x - - - x x - - - - - x x x x x x\n- - - - - - - - x x x x x x - - - - - - x x x x x"
+    },
+    "84_15x15": {
+      "id": "84_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - x - - - x - - - - - x x -\n- - x x - x x - - - - - - x x\n- x x x x x x x - - - - - - x\nx x - x x x - x x - - - - - x\n- x x x - x x x - - - - - - x\nx x x x x x x x x - - - - x x\n- x x x x x x x - - - - - x -\n- - - x x x - - - - - - x x -\n- - x x x x x x x x x x x - -\n- - x x x x x x x x x x x - -\n- - x x x x x x x x x x x x -\n- - x x x x x x x x x x x x -\n- - x - - - x - - x x x x x -\n- - x - x x x - - - - x - x x\n- - x - x - - - - - x x - - x"
+    },
+    "41_20x25": {
+      "id": "41_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\nx x x x x - - - - - - - - - - - - - - - - - - - -\nx x - x x x - - x x - - - - - - - - - - - - - - -\n- x x x x x - - x x x - - - - - - - - - - - - - -\n- - - x x x x - - - x - - - - - - - - - - - - - -\n- - - - x x x x x x x x - - - - - - - - - - - - -\n- - - - - x x x x x x x x x x - - - x x - - - - -\n- - - - - x x x x x x x x x x x - x x x x - - - -\n- - - - - - x x x x x x x x x x x x x - x - - - -\n- - - - - x x x x x x x x x x x x x - - x x x - -\n- - x x x x - - - x x x x x x x x x x - - x x x -\n- - x x - - - - - - - - x x x x x x x x - - - - -\n- - - - - - - - - - - x x x - - x x x x x x - - -\n- - - - - - - - - - x x x - - - - - - x x x x - -\n- - - - - - - - - - - x x x x - - - - - - x x x -\n- - - - - - - - - - - - - x x - - - - - - - x x -\n- - - - - - - - - - - - x x - - - - - - - - - x x\n- - - - - - - - - - - x x - - - - - - - - - - x x\n- - - - - - - - - - - x - - - - - - - - - x x x -\n- - - - - - - - - - - - - - - - - x x x x x - - -\n- - - - - - - - - - - - - - - - x x - - - - - - -"
+    },
+    "132_15x15": {
+      "id": "132_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - x x - - - - - x x - - -\n- - x x x - x x x - x x x - -\n- - x x - x x x x x - x x - -\n- - x - x x x x x x x - x - -\n- - - x x - x x x - x x - - -\n- - - x x x x x x x x x - - -\n- - - x x x x - x x x x - - -\n- - - - x x - x - x x - - - -\n- - - x x x x x x x x x - - -\n- x x x x x x x x x x x x x -\nx x x x - x x x x x - x x x x\nx x - - - x x x x x - - - x x\n- x x - - x x x x x - - x x -\n- x x x x x x x x x x x x x -\n- x x x x - x x x - x x x x -"
+    },
+    "9_15x15": {
+      "id": "9_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - x x x x - - - - - - -\n- - - x - - - x x x x - - - -\n- - - x - - x x x - - x - - -\n- - x - - - x - - - - x - - -\n- x - - - - - x x x x - - - -\nx - - - - - - - x x - - - - -\nx - - - - - - - x x - - - - -\n- x - - - - - - x x - - - - -\n- x - - - - - - x x - - - - -\nx - - x - - - - x x - - - - x\nx - - x x - - - x x - - - x x\nx - - - x x - - x x - - x x -\n- x - - - x x - x x - x x - -\n- - x - - - x x x x x x - - -\n- x - - - - - - x x - - - - -"
+    },
+    "164_15x15": {
+      "id": "164_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x x x x x x x x x\nx x x x x x x - - - x x x x x\nx x x x x x x - - - x x x x x\nx x x x x x x x - x x x x x x\nx x - x x x x x x x x x x x x\nx x - x x - - x - - - - - x x\nx x - x - - - x - - - - - x x\nx - - - x x - x - - - - - x x\nx x - x x x - x - - - - - x x\nx x x x x x x - x - - - x x x\nx x x x x x x - - x - x x x x\nx x x x x x - - x - x x x x x\nx x x x x - - x x x - - x x x\nx x x x x - - x x x - - x x x\nx x x x - - - x x x - - - x x"
+    },
+    "65_25x25": {
+      "id": "65_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x x - - - - - - - - - - - - - - - - - - - x x x\nx x - - - - - - - - - - - - - - - - - - - - - x x\nx - - - - - - - - - - - - - - - - - - - - - - - x\n- - - - x x x x x x x - - - - x x x x x x x - - -\n- - - x x x x x x x x - - - - x x x x x x x x - -\n- - - x x x x x x x x - - - - x x x x x x x x - -\n- - - x x x x - x x x - - - - x x x - x x x x - -\n- - - - x x x x x x - - - - - - x x x x x x - - -\n- - - - - x x x x - - - - - - - - x x x x - - - -\nx - - - - - - - - - - - - - - - - - - - - - - - -\nx - - - - - - - - - - - x x - - - x - - - - - - x\nx x - - - - - x - - - x x x x - - x x - - - - x x\nx x x - - - x x - - x x x x x x - - x x x x x x x\nx x x x x x x x - - x x x x x x - - - x x x x x x\nx x - - x x x - - - - x x x x - - - - - x x - x x\nx x - - x x x - - - - - - - - - - - - - x x - x x\nx x x - - x x - - - - - - - - - - - - - - x - x x\nx x x - - x - x - - - - - - - - - - x x - - - x x\nx x x - - - - x x - - - - - - - - x x - - - - x x\nx x x x - - - - x x x x x x x x x x x - - - x x x\nx x x x - - - - x x x x x x x x - x x - - - x x x\nx x x x x - - - x x x - x x x - x x - - - x x x x\nx x x x x x - - - x x x - - - x x - - - x x x x x\nx x x x x x x - - - x x x x x x - - - x x x x x x\nx x x x x x x x - - - - - - - - - - x x x x x x x"
+    },
+    "145_15x15": {
+      "id": "145_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x x - - - - - - -\n- - x x x x - x x - - - - - -\n- x x x x x x - x x x x x x -\n- x x x x x x - x x - - - - x\n- x - x x x x - x x - - - - x\n- x x x x x x - x x x - - x x\n- x x x x x x - x x x x x x x\nx x x x x x - x x x x x x x x\n- x - - - x x x x x x x x x x\n- x - - - x x x x x x x x x x\n- x - - - x x x x x x x x x x\n- x - x - x x x x - - x x x x\n- x x x - x x x x - - x x x x\n- - - - - x x x x - - x x x x\n- - - - - x x x x - - x x x x"
+    },
+    "155_25x25": {
+      "id": "155_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - x x x x x - - - - - - -\n- - - - - - - - - - - - x x x x x x x - - - - - -\n- - - - x x - - - - - x x - - x - - x x - - - - -\n- - - x x x x - - - x x x - x x x - x x x - - - -\n- - x x x x x x - - x x x x x x x x x x x - - - -\n- x x x x x x x x - x x x - x - x - x x x - - - -\nx x x - - x x x x x - x - - - - - - - x - - - - -\nx x - - - - x x x x x x x x x x x x x x - - - - -\nx - - - - - - x x x x x x x - - - x x - - - - - -\nx x - - - - - x x x x x x x x x x x x x - - - - -\n- - - - - - - x x x x x x x x x x x x x x - - - -\n- - - - - - - x x x x x x x x x x x x x x x - - -\n- - - - - - - x x x x x x x x x x x x x x x x - -\n- - - - - - - x x x x x x x x x x x x x x x x x -\n- - - - - - x x x x x x x x x x x x - - x x x x x\n- - - - - x x x x x x x x x x x x x - - - x x x x\n- - - - x x x x x x x x x x x x x - - - - - x x x\n- - - x x x x x x x x x x x x x x - - - - - - x x\n- - x x x x x x - x x - x x x x - - - - - - - x x\n- - x x x x x - - x - - x x x x - - - - - - - x x\n- - x x x x - - - - - - x x x x - - - - - x - x x\n- - - x x x x - - - - - - x x x x - - - - x x x x\n- - - - x x x x - - - - - - x x x x - - - - - - -\n- - - x x x x x - - - - - x x x x x - - - - - - -\n- - x x x x - - - - - - x x x x - - - - - - - - -"
+    },
+    "58_25x30": {
+      "id": "58_25x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 30\n- - - - - - - - - - - x x x x x x x - - - - - - - - - - - -\n- - - - - - - - - - x x - - - - - x x - - - - - - - - - - -\nx x x x x x x x x x x - - - - - - - x x x x x x x x x x - -\nx x x x x x x x x x - - - - - - - - - x x x x x x x x x x -\nx x x x x x x x x x - - - x x x - - - x x x x x x x x x x x\nx x - - - - - - - x x - - x - x - - x x - - - - - - - - - x\nx x - x x x x x x x x x - x - x - x x x x x - - - - - - - x\nx x - x - - - - - - - x x x - x x x - x - x - x x x x x - x\nx x - x - - - - - - - - - x - x - - - - - x - x - - - x - x\nx x - x x x x x x x x x x x - x x x x x x x - x - - - x - x\nx x - - - - - - - - - - - x - x - - - - - - - x x x x x - x\nx x - - - - - - - x x x x x - x x x x x x x - - - - - - - x\nx x - x x x x x - x - - - x - x - - - - x x - x x x x x - x\nx x - x - - - x - x - - - x - x - - - - x x - x - - - x - x\nx x - x - - - x - x x x x x - x x x x - x x - x - - - x - x\nx x - x x x x x - x x - - - - - - - x - x x - x x x x x - x\nx x - - - - - - - x x x x x x x x x x - x x - - - - - - - x\nx x - x x x x x - x - - - - x - - - - - x x - x x x x x - x\nx x - x - - - x - x - - - - x - - - - - x x - x - - - x - x\nx x - x - - - x - x - - - - x - - - - - x x - x - - - x - x\nx x - x x x x x - x - - - - x - - - - - x x - x x x x x - x\n- x - - - - - - - x - - - x x x - - - - x x - - - - - - - x\n- x x x x x x x x x - - x x x x x - - - - x x x x x x x x x\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+    },
+    "102_15x15": {
+      "id": "102_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - - - - - - - - -\n- - - - - - - - x x x x x x -\n- - - - - - - - x - x x x x -\n- - - - - - x x x x x x x x -\n- - - - - x - - x - x x x x -\n- - - - - - - x - x x x x x -\n- - - - - - x - x x x x x x x\n- - - - - x - x x x x - x x x\n- x x x x - x x x x - x - x x\nx - - - x x x x x x x - x x x\nx x x x x x - x - x x x x x x\nx - - - - - - - - - - - - - x\nx x x x x x x x x x x x x x x\n- - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - -"
+    },
+    "14_45x40": {
+      "id": "14_45x40",
+      "difficulty": 0,
+      "source": "",
+      "solution": "45 40\nx x - x x x - x x x - x x x - - - - - x x x x x x x - - x x - x x x x - x x x -\nx x - x - x - - - - - - - - - - - - x - - - x x x x x - - x - x - - x - - - - -\nx x - x x x - x x x - x x x - - - x - x x x - x - x x x - x - x - - x - x x x -\nx x - x - x - - - - - x - x - - x - x x - - x - x x x x - - - x - - x - x - x -\nx x - x - x - x x x - x x x - - x - x x x x x - x x x - x - - x x x x - x x x -\nx x - x x x - x - x - x - x - x - x - x x x - x - - x x x - - x - - x - x - x -\nx x - x - x - x - x - x - x - x x x x x x - x x x x - x - x - x x x x - x - x -\nx x - x - x - x - x - x x x - x - x x - - x x x x x x x x x - x - - x - x - x -\nx x - x x x - x x x - x - x - x x x - x - x - x - x x x x x - x x x x - x x x -\nx x - x x x - x x x - x x x - x x x x x x x - x - - x - x x - x x x x - x x x -\n- - - - - - - - - - - - - - - x - x x - x - - - - - - x x x - - - - - - - - - -\nx x x x x x x x x x x x x x - x x - - - - - - - - - - x x - - x x x x x x x x x\n- - - - - - - - - - - - - - - - x - - x x - - x x - - x x - - - - - - - - - - -\nx x x - x x x x - x x x - x x - - x - - - - - - - - - x - - x x x - x x x - x x\n- - - - x - - x - - - - - x - - - x - - - x x - - - x - - - x x x - x - x - - -\nx x x - x - - x - x x x - x - - - - x - - - - - - - x x - - - x x - x - x - x x\n- - - - x - - x - x - x - x - - - - x - x x x x - x - x x x - - - - x x x - - -\nx x x - x x x x - x - x - - - x x x - x - - - - x - x x x x x x x - x - x - x x\nx - x - x - - x - x x x - - x x x x x x x x x x x x x x x x x x x x - x x - x -\nx - x - x x x x - x x x - x x x x x - - - - - - - - - x x x x x - x x - x - x -\nx - x - x - - x - x x - x x x - - - x x x x x x x x x - - - x - x x x - x - x x\nx x x - x x x x - x x - x x x x x x x x x x x x x x x x x x x - x x x x - - x x\nx x x - x x x x - x - x x - x x x x x - - - - - - - x x x x - x x x x x - - x x\n- - - - - - - - - - - x x - x - - - - x x x x x x x - - - x - x x x x x x - - -\nx x x x x x x x x - x x x x - x x x x - - - - - - - x x x x - x x x x x x - x x\n- - - - - - - - - - x x x x - - - - - x x x x x x x - - x x x x x x x x x x - -\n- - - - - - - x x x x x x x - x x x x x x x x x x x x x - - - - - - x x x x x -\n- - - - - - x - - - x x x x - x x x x - - - - - - x x - - - - - - x - - - - x x\n- - - - - x - - - - x x x x x - - - - x x x x x x x x x - - - x x - - - - - - x\n- - x x x x - - - - - x x x x x x x x - - - - x x x x x x - - x - - - x - x - x\n- x - - - - x x x x - x x - x - - - - x x x x x x x - - - x x - - - - - x - x x\nx - - - - - - - - - x x - - x x x x x x x x x x - - - - x x - - - - x - x x x x\nx x x x - - - - - - - - x x x x x x x x x x - - - - x x - - - - - - x x x x x x\n- - - x x x x - - - - - - - x x x x x x - - - - - x x - - - - - x - x x x x x x\n- - - x - - x x x x - - - - - - x x - - - - - x x - - - - - x - x x x x x x x -\n- - x - - x x x x x x x x - - - - - - - - x x x - - - - - x x x x x x x x x x -\n- - x - x - - - - - - - x x x - - - - - x - - x - - - - - x x x x x x x x x - -\n- - x - - - - - x x x x - - - x x - - x - - - - x - - x - x x - x x x x x - - -\n- - - x - - - x - x x x x x x x x x x - - - - - x - - x x x x x - x x x x x x x\nx x x x x - x - x - x - x - x x - x - - - - - - x x x x x x x x - x x x x x x -\n- x x x x x x - x x x x x x x - - x - - - - x x x x - - x x x x x - x x x - - -\n- - - x x x x - x - x - x - x x - x x - x x x x x x x - x - x x x - x - - - - -\nx - - - - - x - x x x x x x x x x x x x - - - - - - x x x x x - x x - x - - - x\n- x - x - - x - x x x x x x x x x x - x - x - x - - - - x x x x x x - x - - x -\nx - x - x - - x - x x x x x - - - - x - x - x - x - - - - - - x x x x - - x - x"
+    },
+    "106_25x25": {
+      "id": "106_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - x - - - - - x - - - - - - - - -\n- - - - - - - - - x - - - - - x - - - - - - - - -\n- - - - - - - - - - x x x x x - - - - - - - - - -\n- - - - - - - - - x x x x x x x - - - - - - x x x\n- - - - - - - x x x x x x x x x x x - - x x x - -\n- - - - - - - - - x - x - x - x - - - x x - - - -\n- - - - - - - - - x x x x x x x - - - x - - - - -\n- - - - - - - - x x x x x x x x x - - - x x - - -\n- - - - - - - x x x - - x - - x x x - - - - x x x\nx x x - - - x x - - x x - x x - - x x - - - - - -\n- - x x - x x x x x x x x x x x x x x x - - - - -\n- - - x - - - - x - x - x - x - x - - - - - - - -\n- x x - - - - - x x x x x x x x x - - - - - - - -\nx - - - - - - x x x x x x x x x x x - - - - - - -\n- - - - - - x x - x - x x x - x - x x - - - - - -\n- - - - - x x - x - x - - - x - x - x x - - - - -\n- - - x x x x x x x x x x x x x x x x x x x - - -\n- - - - - - x - x - x - x - x - x - x - - - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - x - x - x - x - x - x - x - x - - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - x x x x x x x x x x x x x x x x x - - - -\n- - - x x - x - x - x - x x x x x x x x x x - - -\n- - x x - x - x - x - x x x x x x x x x x x x - -\n- - x - x - x - x - x x x x x x x x x x x x x - -"
+    },
+    "44_20x30": {
+      "id": "44_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - x x x x - - - - - - - - - - - - - - - - - - - - - - -\n- - x x - x x x - - - - - - - - - - - - - - - - - - - - - -\n- x x x x x x x - - - - - - - - - - - - - - - - - - - - - -\nx x x x x x x x - - - - - - - - - - - - - - - - - - - - - -\n- - - - x x x x - - - - - - - - - - x x x x - - - - - - - -\n- - - - - x x x - - - - - - - x x x x x x - - x x - - - - -\n- - - - - x x - - - - - - - x x - - x x x x x x - - - - - -\n- - - - x x x - - - - - - x x - - x x - - x x x x x x - - -\n- - - - x x x - - - - - x x - - x x - - x x x - - x - - - -\n- - - x x x - - - - - x x - x x x - - x x x - - x x x x - -\n- - - x x x - - - - x x - x x x - x x x - - x x - x x - - -\n- - x x x x - - - x x - x x x - x x x - - x x - x x - - - -\n- x x x x - - - - x x x - x - x x x - - x x x x x x x x x x\nx x x x x - - - x x - x x - x x - - - x x x x - - x x x x -\nx x x x - - - x x x x - x x - x x - x x x x - - x x x x - -\nx x x x - - x x x x - x x x x - x x - x x - - x x x x - - -\nx x x x x x x x x x x - x x x x x x x - x - x x x x x - - -\nx x x x x x x x x x x x - x x x - x - x x x x x x x - - - -\n- x x x x x x x x x x x x - x - x - x - x x x x - - - - - -\n- - - - - - - - x x x x x x x x x x x x x - - - - - - - - -"
+    },
+    "26_15x15": {
+      "id": "26_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx - x - x - x - x x x x - - -\n- x - x - x - x - x x - x - -\n- - - - - - x - - - - - - - -\n- - - - - - - - - - - x x x -\nx x x x x x x - - - - x x x -\nx - - x - x - - - x - - x - -\nx x x x x x - - - x - - x - -\nx - - x - x x x x x x x x x -\nx x x x x x x x x x x x x x -\nx x x x x x x x x x x x x x -\nx - - x x - - x x x - - x x x\n- x x - - x x - - - x x - x x\nx x x x - x x x - x x x x - x\nx x x - x x x x - x x x x - x\n- x x - - x x - - - x x - - -"
+    },
+    "127_25x25": {
+      "id": "127_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - x x x x x x x x x x x x x - - - - - -\n- - - - - x x x x x x - - - x x x x x x - - - - -\n- - - - - x x x x x - x x x - x x x x x - - - - -\n- - - - - x x x x x x - - - x x x x x x - - - - -\n- - - - - - x - - - - x x x - - - - x - - x x - -\n- - - x x - x x x x x x x x x x x x x - x - x - -\n- - - x x x x - - - - - - - - - - - x x - - x - -\n- - - x x x x x - - - - - - - - - x x - - - x - -\n- - - x x x x x x x x x x x x x x x - - - - x - -\n- - - x x x x x x x x x x x x - - - - - - x - - -\n- - - - x x x x x x x x x x - - - - - - - x - - -\n- - - - x x x x x x x x x x x x x x - - - x - - -\n- - - x x x x x - - x x - x x - - x x - x x x - -\n- - - x x x x - - x x - - - x x - - x x x x x - -\n- - - x x x x x - - x - - - x - - x x x x x x - -\n- - - x x x x x x x - - x - - x x x x x x x x - -\n- - - x x x x x x - - - - - - - x x x x x x - - -\n- - - - x x x x - - x - x - x - - x x x x x - - -\n- - - - - x x x - - - x x x - - - x x x x - - - -\n- - - - x - x x - - - - - - - - - x x - x - - - -\n- - - - x - - - - - - - - - - - - - - - - x - - -\n- - - x - - - - - - - - - - - - - - - - - - x - -\n- - - x x - - - - - - x x x - - - - - - - - x - -\n- - x x x x - - - - x x x x x - - - - - - - x - -\n- - x x x x x - - - x x x x x - - - - - - - x - -"
+    },
+    "22_25x25": {
+      "id": "22_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - x x x x x - - - - - - - - x - x - - - x x -\n- x x x x x x x - - - - - - - - - x - x - x - x -\nx x x x x x - - x - - - - - - - - x - x - x - x -\nx x x x - - - - x - - - - - - - - - x - x - x - -\nx x x - - - - x - x - - - - - - - - x x x - x - -\nx x - - x x - - x - x - - - - - - x - - - x - - -\nx x - x - - - - - - x - - - - - - x x - - - x - -\nx x x - - x - - x x - x - - - - x - - - - - x - -\nx x x - - - - - - x - x - - - - x x x - - - - x -\nx x x x - - - - - - x - x - - x - - - x - - - x -\n- x - - - - - - x x x - x - x - x - x - x - - x -\n- - x - x - - - - - - - x - x - - - - - x - - - x\n- - - x x - - - - - x x - - - x - x - x x - - x x\n- - - - - x - - x x x - - - - - x x x x x x x x x\n- - - - - x - - - - x - - - - x - - - - x x x - x\n- - - - - x x x - x x x x x - x - x - x - x x x x\n- - - - x x - - x - - x x x x - - x - x - x x x x\n- - x x x x x - - - - - x x x - - - x - x - x x x\n- x x x x x x x - - x - - x x x x - - - - - - x x\nx x x x x x x x x - - - x - - - - x - - - - - x -\nx x x x x x x x x x - x - - - x x x x x x x x x x\nx x - x x x x x x x x - - - - - x x x x x - x x -\nx x x - x x x x x x - - - - - - x x x x x - x x -\nx x x - x x x x - x x - - x x x x x x x x - x x -\nx x x x - x x - x x x x x - - - x x x x x - x x -"
+    },
+    "32_15x15": {
+      "id": "32_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - x x - - x x - -\n- - - - - - - x - - - x - x x\n- - - - - x x x x x - x - - -\n- - - - x x x x x x - x x x -\n- - - - x x x x x x - x x x -\n- - - - - - - x - - - x x x -\n- - - - x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - x x x x x x x - x x x x\n- - - - - - - x - - - x - - -\nx x x x x - - x - - - x - x x\n- - - x x x x x x x x x x x x\n- - - - x x x x x x x x x x -\n- - - - - x x x x x x x x - -"
+    },
+    "180_25x25": {
+      "id": "180_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - x - - - - - - - - x x x x - - - - - - - - - -\n- x - x - - - - - - x x x x x x - - - - - - - - -\nx - - - x - - - - - x x - x x x x x - - - - - - -\nx - - - x - - x x x x x x x x x x x x - - - - - -\nx - - - x - x x x x x x x x x x x x x x - - - - -\nx - - - x - x - - - - - - - - - x x x x x x x x x\nx - - - x - - x x x x x x - - - - x x x x x x x -\nx - - - x - - - - - - - - x - - - x x x x x - - -\nx - - - x - - - - - - - - x x - - x x x x x - - -\nx - - - x - - - - - - - x x x x - x - - x x x - -\nx - - - x - - - - - - x x x x - x - - - x x x - -\nx - - - x - - - - - - x x - - - - x - - x x x - -\n- x - x - - - - - - - - - - - - - - x - x x x - -\n- - x - - - - - - - - - - - - - - - x - x x x - -\n- - x - - - - - - - - - - - - - - - x - x x - - -\n- - x - - - - - - - - - - - - - - - x - x x - - -\n- - x - - - - x - - - - - - - - - - x - x x - - -\n- - x - - - x - x - - - - x - - - - x - x - - - -\n- - x - - - x - - x - - - x x - - x - x - - - - -\n- - x - - - - x - x - - - x x x x x x - - - - - -\n- - x - - - - - - x - - - - x x x x - - - x - - -\n- - x - - x x - - - - - - x x - - - - - - x - - -\n- - x - x - - x - - - - - x x - - - - x - x - - -\n- - x - - x - - x - - - - x - - x - - x - x - - -\n- - x - - - - - - - - - - - - - x - - x - x - - -"
+    },
+    "123_15x15": {
+      "id": "123_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x - - - - - - - -\nx - x - x x x x - - - - - - -\n- x - - x x x x - x - x - - -\n- x - - - x x - - - x - - - -\n- - x x x x x x x x x - - - -\n- - - - - x x - - - - - - - -\n- - - - - x x - - - - - - - -\n- - - - - x x x x x - - - - -\n- - - x x x x - - x - - - - -\n- - x - - x x - x - x - - - -\n- - x - - x x - - - - - - - -\n- x - x - x x - - - - - - - -\n- - - - - - x x - - - - - - -\n- - - - - - - x x x - - - - x\n- - - - - - - - - x x x x x -"
+    },
+    "161_15x15": {
+      "id": "161_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - x x - - - - - x x - - -\n- - x x x x - - - x x x x - -\n- x x x x x x - x x x x x x -\nx x x x x x x x x x x x x x x\nx - - - x x - x - x x - x - x\nx x - x x - - - - - x - x - x\nx x - x x x - - - x x - x - x\nx - - - x x x - x x x - - - x\n- x x x x x x x x x x x x x -\n- - x x x x x x x x x x x - -\n- - - x x x x x x x x x - - -\n- - - - x x x x x x x - - - -\n- - - - - x x x x x - - - - -\n- - - - - - x x x - - - - - -\n- - - - - - - x - - - - - - -"
+    },
+    "88_25x25": {
+      "id": "88_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - - - - - - - - x x x\n- - - - x x x x x x x x x x x x x x - - - - - x -\n- - - x - x x x x x x x x x x x x x x - - - - x -\n- - x - - x x x x x x x - - x x x x x x x x x x -\n- x - - - x x x x x - - - - - - x x x x x x x x -\n- x x x x x x x x - - x x x x - - x x x x x x x -\n- x x x x x x - - - x x x x x x - - - x x x x x -\n- x x x x x - - - x - - - x x x x - - - x x x x -\n- x x x - - - - x x x x x - - x x x - - - x x x -\n- x x - - - - - x x - x x x x - x x - - - - x x -\n- x x x - - - - x x x x x - x x - x - - - x x x -\n- x x x x x - - - x x - x x x x x - - - x x x x -\n- x x x x x x - - - x x x x - x - - - x x x x x -\n- x x x x x x x x - - x x x x - - x x x x x x x -\n- x x x x x x x x x - - - - - - x x x x x x x x -\n- x x x x x x x x x x x - - x x x x x x x x x x -\n- x x x x x x x x x x x x x x x x x x x x x x x -\n- - - - - - x x x x x x x x x x x x x x x x x x -\n- - - - - - - - - - - - - - - - - - x x x x x x -\n- - - - - - - - - - - - - - - - - - - - - - - x -\nx x x - - x x x - x x x - x x x - x - x - - - x -\nx - x - - x - x - x - x - x - - - x - x - - - x -\nx x x x - x x x - x x x - x x x - x - x - - - x -\nx - - x - x x - - x - x - - - x - x - x - - - x -\nx x x x - x - x - x - x - x x x - x - x x x - x -"
+    },
+    "60_25x30": {
+      "id": "60_25x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 30\n- - - - - - x x x x x x - - - - - x x x x - - - - - - - - -\n- - - x x x x - - - - x x - - x x x x x x x - - - - - - x -\n- - x x - - - - - x x x x x x x x x x x x x - - - - - x x x\n- x x - - x x - x x - - - - - x x x x - - x - x - x x x x x\nx x - - x x x x x - - - - x x x x x x x - x x - x x x x x x\nx - x x x - x - - - - - - - - x x x x - - x x - - x - - x -\nx x x - - x x - - - x x x - - x x x - - x x x - x - - - - -\nx - - - x x - - - - - - x x x - x x x x x - x x x - - - - -\nx - - x x - - - x x x x x x x - - x - - x x x - x x - - - -\nx - x x - - x x x - - x x - x - x x - - - - - - - x - - - -\nx - x - x x x - - - - x - x x x x - - - - - x - x x - - - -\nx - x x x - - - - - x - x x x - - - - - x - x x x - - - - -\nx - - - - - - - x x x x x - x x x - - - x x x - - - - - - -\nx - - x x x - - - x x - - - x - x - - x x - - - - - - - - -\nx - x x - x x x x - - x - - - - - - - - x - - - - - - - - -\nx - x - - - - x x x x - x x - - - - - x x - - - - - - - - -\nx x x x x x x - x - - - x - - - - - x x - x - - - - - - - -\nx x - - - - x x x - - - x x - - - - x x x x x - - - - - - -\nx x x - - - - - - - - - - x - - - - x x x - x - - - - - - -\nx - x x - - - - - - - - - - - - - - x - - x x - - - - - - -\nx - - x x - - - - - - - - - - - - - - - x x - - - - - - - -\nx - - - x x x x - - - - - - - - - - - x x - - - - - - - - -\nx - - - - - - x x - - - - - - - x x x x - - - - - - - - - -\nx - - - - - - - x x x x x x x x x - - - - - - - - - - - - -\nx x x x x x x x x x x x x x x x x - - - - - - - - - - - - -"
+    },
+    "38_20x25": {
+      "id": "38_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- - - x x x x - - - - - - - - - - - - - - - - - -\n- - x x x x x x - - - - - - - - - - - - - x x - -\n- - x - x x x x x - - - - - - - - - - x x x x x x\nx x x x x x x x x x x x x x - - - x x x x x x x -\n- - x x x x x x x x x x x x x x x x x x x x - - -\n- - - x x x x - - x x x x x x x x x x - - - - - -\n- - - - x x - - x x x x x x x x x x - - - - - - -\n- - - - - x - - x x x x x x x x x x x x - - - - -\n- - - - - x x - - x x x x x x x x x x x x x x - -\n- - - - - - x - - - x x x x x x x x x x x - - - -\n- - - - - - x x - - - - - - - x - - - - - - - - -\n- - - - - - - x x x - - x x x x x - - - - - - - -\n- - - - - - - - - x x x x - - - x - - - - - - - -\n- - - - - - - - - - - x - - - x x - - - - - x x x\n- - - - - - - - - - x x - - - x - - x x x x x x x\n- - - - - - - - - x x - - - x x x x x x x x x x x\n- - - - - - - - - x - - x x x x x x x x x x x - -\n- - - - - - - - x x x x x x x x x x x - - - - - -\n- - - - - - x x x x x x x x x - - - - - - - - - -\n- - - - - x x x x x x x - - - - - - - - - - - - -"
+    },
+    "131_15x15": {
+      "id": "131_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x x x x x x x - -\nx x x x x x x x x - x - x - -\n- - - - - - - - x - x - x - -\n- - - - - - - x - - x - - x -\n- - - - - - - x - - x - - x -\n- - - - - - x - - - x - - - x\n- - - - - - x - - x - x - - x\n- - - - - - x - - x x x - - x\n- - - - - - x - - - - - - - x\n- - - - - - x - - - - - - - x\n- - - - - - - x - - - - - x -\n- - - - - - - x - - - - - x -\n- - - - - - x x x x x x x x x\n- - - - - - x x x x x x x x x\n- - - - - - x x x x x x x x x"
+    },
+    "42_20x25": {
+      "id": "42_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- x x x x - - - - - - - - - - - - - - - - - - - -\nx - x x x x x - - - - - x x x - - - - - - - - - -\nx x x x x x x x - x x x x x x x x - - - - - - - -\n- - - - x x x x x x x x x x x x x x - - - - - - -\n- - - - - x x - x x - - - x x x - - - x - - - - -\n- - - - - x - x x - x x - - - x x - - - - - - - -\n- - - - - x x x - x x - x x x - x x - - - - - - -\n- - - - - x x x - - - x x x x - - x x - x x - - -\n- - - - - x x x x x - x x x - x x - x x x x x - -\n- - - x x x - x x - x - - - x x x - - x x x x - -\n- - x x x x x - x x x x x - x x x - x x x x x x -\n- - x x x x x x - x x x x - - - - x x x - x x x -\n- - x x x - - x x - x x - x x x x - x x - - x x x\n- - x x x - - - x x - x x x x x x x - x - - - - -\n- x x x - - - - - x x - - - - - - - x x - - - - -\n- - - - - - - - - - x x x x x x x x x x - - - - -\n- - - - - - - - - x x x x - - - - - x x x - - - -\n- - - - - - - - - x x x x x x - - - - x x x x - -\n- - - - - - - - - - x x x x x - - - - - - - - - -\n- - - - - - - - - - - - - - x - - - - - - - - - -"
+    },
+    "20_15x15": {
+      "id": "20_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - x - - - - - - - - x - x\n- x x x - - - x - x - - - x -\nx x x x x - - - x - - - - - -\n- - - x x - - - - - - - - - -\n- - - x x x - - - - - - - - -\n- - - x x x x x x x x - x - -\n- - - x x x x x x x x x - x -\n- - x x x x x x x x x x - x -\nx x x x x x x x x - x x - - x\nx - - x x - - - x - x x - - -\nx - - x - - - - - x - x x - -\n- x - x - - - - - x - - x - -\n- - - - x - - - - x - - x - -\n- - - - - - - - x - - - x - -\n- - - - - - - - - - - x - - -"
+    },
+    "97_25x25": {
+      "id": "97_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - x x x - - - - - x x x - - - - - - - - -\n- - - - x x - x x - - - x x - x x - - - - - - - -\n- - - - x x - - x x - x x - - x x - - - - - - - -\n- - x x x x x x x x x x x x x x x x x x - - - - -\n- x x x x x x - x - x - x - x x x x x x x - - - -\n- x - - - - x x - x - x - x - x x x x x x x - - -\n- x - x x x x x x - x - x - x - x x x x x x x - -\n- x - - - - x x x x - x - x - x - x x x x x x - -\n- x - x x x x x x x - x - x - x - x x x x - x - -\n- x - - - - x - x x - x - x - x - x x - x x x - -\n- x - - - - x - x x - x - x - x - x x x x - x - -\n- x - x x x x x x x - x - x - x - x x - x x x x -\n- x - - - - x x x x - x - x - x - x x x x - x - x\n- x - x x x x - x x - x - x - x - x x - x x x - x\n- x - - - - x - x x - x - x - x - x x x x - x - x\n- x - x x x x x x x - x - x - x - x x - x x x - x\n- x - - - - x x x x - x - x - x - x x x x - x x -\n- x - - - - x - x x - x - x - x - x x - x x x - -\n- x - x x x x - x x - x - x - x - x x x x - x - -\n- x - - - - x x x x - x - x - x - x x - x x x - -\n- x - x x x x x x x - x - x - x - x x x x - x - -\n- x - - - - x x x x - x - x - x - x x - x x x - -\n- x x x x x x x x x - x - x - x - x x x x - x - -\n- - - - - - - x x x x x x x x x x x x x x x x - -\n- - - - - - - - x x - x - x - x - x x x x x x - -"
+    },
+    "68_30x25": {
+      "id": "68_30x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "30 25\n- - - - - x x x x x x x x x x - - - - - - - - - -\n- - - - x x - x x x x x x - x x - - - - - - - - -\n- - - x x - x x x x x x x x - x x - - - - - - - -\n- - - x - x x x - - x x x x x - x - - - - - - - -\n- - - x - x x - - - - x x x x - x - - - - - - - -\n- - x x x x - - - - - - - x x x x x - - - - - - -\n- x x x x x - x x - - x x - x x x x x - - - - - -\n- x x x x x - - - - - - - - x x x x x - - - - - -\n- - x x x x - - - x x - - - x x x x - - - - - - -\n- - - - x x - - - - - - - - x x - - - - - - - - -\n- - - - x x x - - x x - - - x x - - - - - - - - -\n- - - - x x x x - x x - - x x x - - - - - - - - -\n- - - - - x x x x - - - x x x x - - - - - - - - -\n- - - - - x x x x - - - x x x x x - - - - - - x -\n- - - - - x x x x - - - x x x x x x - - - - - x -\n- - - - x x - x - - - - - x - - x x - - - - - x -\n- - - x x - - x - - - - - x - - - x x - - - - x -\n- - x x - - - x x - - - x x - - - - x x - - - x -\n- x x - - - x x x x - x x x x - - - - x x - - x -\nx x - - - x x x x x x x x x x x - - - - x x - x -\nx - - - x x x x x x x x x x x x x - - - x x - x -\nx - - - x x x x x x x x x x x x - - - x x - - x -\nx x - - - x x x x x x x x x x - - - x x - - - x -\n- x x - - - x x x x x x x x - - - x x - - - - x -\n- - x x - - x x x x x x x - - - x x x x x x x x x\n- - - x x x x x x x x x x - - x x - - - - - - x x\n- - - - - x x x x x x x x x x - x x x x x x x - x\n- - - - - x x x x x x x x x x - x x x x x x x x x\n- - - - - x x x x x x x x x x - x x x x x x x - x\n- - - - - x x x x x x x x x x - x x x x x x x x x"
+    },
+    "56_20x30": {
+      "id": "56_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\nx x - x x x x x x x x - x x x x x - x x x x x x x x x x x x\n- - - x x - - - - - - x - x - - x x x - - - - - - - - - x x\nx x - - x x x x x - x x - - - - - x - - x x x x x x x x x -\n- - - - x x - - - - - x x x - - - - x - - - - - - - - x x -\nx x - - - x x x x x x - - x - - x x x - - - x x x x x x - -\n- - - - - x x - - - - - x x - - - - - - x x x - - x x - - -\nx x - - - - x x x x x x x - - - x - - x x - - x x - x x - -\n- - - - - - - - - - x - x - - - x x x x - x - - x - - x x -\nx x - x x x x x x x x - x - - - - - x - - - - - - - - - x -\n- - - x - - - - - - x - x - - - - x x - x x - x x x x - x x\nx x - x - x - - x - x - x x - - - x - - x x - x x x x - x x\n- - - x - - - - - - x - - x - - x x - - - - - - - - - - x x\nx x - x - x x x x - x - - x x - - x x - - - - - - - - - x -\n- - - x - - - - - - x - - x x x - - x - - x - x x x - x x -\nx x - x - - - - - - x - - x - - - - x x x - - - - - x x - -\n- - - x - x x x x - x - - x x - - - x - x x x x x x x - - -\nx x - x - - - - - - x - - - x - x - - x - - - - - - - - - -\n- - - x - - - - - - x - - x - - - - - x - - - - - - - - - -\nx x - x x x x x x x x - x x x x x x x x x x - - - - - - - -\n- - - - - - - - - - - - - x - x - x - x - x - x - - - - - -"
+    },
+    "23_40x35": {
+      "id": "23_40x35",
+      "difficulty": 0,
+      "source": "",
+      "solution": "40 35\n- - - - x x x x x x x x x x - - - - - - - - - - - - - - - - - - - - -\n- - - x - x x x x x x x x x x x - - - - - - - - - - - - - - - - - - -\n- - x - x x x x x x - x x x x x x - - - - - - - - x - x - - - x - - -\n- x x x - x x x - x x x - x x - x x - - x - x - x x x - x x x - - - -\n- x - x x x x x x - x - x x x x x x x - - x x x - - x x x x - x x x -\nx x x x x - x - x x x x - x - x x x x x x x - - x - - - x - x x x - -\nx x x x x x x x x x - x x - x x - x x x - - - - - - - - x x - - x x -\nx - x x - x x - x x x - - x - - x x x x x - x - - x x - x - x x x - -\nx x x - x x x x - x x x x - - - x x x x x x x x - x - - - x x x - x x\nx x x x - x - - x x x - x - - - - x x x - - x - x x x x x x x x x x -\nx - x - x - x - x x x x - - - - - x x - - - - - - x - x x x - x - x -\nx x x x x - x - x x - - - x x - - x x x x x x x x - x x - - x x - - x\n- x x x x - - - - - - - - - x x - x - - - - - - - x x - - - - - x - -\nx - x x - x - - - - - - - x x - x x - - - - - - - x x x x x x x x x -\nx x - - - - - - - - - - - - - - x x x - - x x - - - x x x x x - - x -\n- - - - - - - - - - - - - - - - x x x x - - x x - - - x - - x x - - -\nx - x - - - - - - - - - - - - - x x - - - - - - - - - - - - - x - - x\nx - x - - - - - - - - - - x - - x x - - - - - - - - - - - - - x - x x\nx x - x - - - - - - - x - - x x x x - - - - - - - - - - - - x x - x x\nx x - x - - - - - - - - x x x x x x - x x - - - - - - - - x x x - x x\nx x - - x - - x - - - - - x x x x x - - - - - - - - - - x x - x - x x\nx x x - - - - x x - - - x x x x x x - x x x - - - - - x x x - x - x x\nx x x - x x - - x x x x x x x x x x x - - - - - - - - x x x - x - x x\nx x x x x x x x x x x - - x x x x x x - - - - - - - x x x x - x x - x\nx x x x x x x - x x x x x - x x x x x x - - - x x - x x - x - x x - x\nx x x x x x - - - x x x x x - - x x x x x x x x - - x x - x - x x - x\nx x x x - - - - - - x x x x x x x - - x x x x - - - x x - x - - x - x\nx x x x - - - x - - x x x x x - x - - - x x x - - - - x x - x - x - -\nx x - x x - - - - - x x x x - x - - - - x x x - - - - x x - x - x x -\nx - x x x - - - - - x x x x - x - - - - - x x - - - x x x x x - x x -\n- x x x x x - x - - x x x - - x - - - - - x - - x x x - - x x - - x -\n- x x x x x - - - x x x x - - - x - - - - x - x x - - - - - x - - x x\n- x x x x x x - - x x x - - - - x - - - - x x x - - - x x x x x - - x\nx - x - x x x - - x x x - - - - x - - - - x x - - x x x x x x x - - x\nx - x x - x x x - x x x x x - - - x - - - x - - x x x x - - - x x - x\nx x x x x - x x x x x - - - x x - x - - x x - x x x - - - x x x x - -\nx x - x x x - x x - x x x x - - x x x x - - x - - - - - x x x x x x -\nx x x - x x x x - x x x x x x x - x x - - - x - - - x x x x - - x x -\nx - - - - x x - x x x x x x x x x x x x - - - x - x x x - - - - x x -\nx x x x - - - x x x x x x x - x x x x x - - - - - - - - - - - - x x -"
+    },
+    "7_15x15": {
+      "id": "7_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- x x - - x x x x - x x - x x\nx - x x x - x - - x x x x - x\n- x - - - - - - - - - - - x -\nx - - - x x - - - x x x - - x\n- - - - x - x - - x - x - - -\n- - - x x - x - - - - x x - -\n- - - x - - - - - - - - x - -\n- - x x - - - - - - - - x x -\n- x x - - - - - - - - - - x -\nx x x x x x x x x x x x x x x\nx - - - - x - - - x - - - - x\nx - - - - x - - - x - - - - x\nx x - - x x - - - x x - - x x\n- x x x x - - - - - x x x x -\n- - - - - - - - - - - - - - -"
+    },
+    "29_25x25": {
+      "id": "29_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x - x - x x x x - - - - x x x x x x x x x x x x\nx x x - x x x x - - - - - - - - - x x x x - x - x\nx x x x x x x - - - - x x - - - - - - x x x - x x\n- x - x - - x x - - x - - - - - - x - - x x x x x\nx - x x - - - x - x x x - - - x x x x - - x x x x\nx x x - - x x x x x - x x - - - - x - - - - x x x\nx x x - - - x - - x - - - - - - - - - x - - x x x\nx x - - - - - x x - - - - - - - - - - x x - - x x\nx - - - - x - x - - - - - - - - - x x - - - - x x\n- - x x - x x x - - - - - - - x x - - x - x - x x\nx - - x x x x x - x x x - - - x - - - - - x - x x\n- - x x x x x x - - - x x - - x x x x x - x x - x\nx - - x - x x x - - x x - - - - - - - - - - x - x\nx x - - - - x x x x - - - - - - - - - - - - - - x\nx - - x x - x x - - - - - x x x - - - - - - - - x\nx x - - x x x x - - - - - - - - - - x - - - - x x\n- x x - - x x x x - - - - x x x x - x x x - - x x\n- - - - - x x x x x - - x - - - - x x - - - - - -\nx - x - x x x x x - - x x x x x x x - - - - x - -\nx - x x x x x x x x - - - - - - - - - - - - x - -\nx - - x x x x x x x - - - - x x - - - - - x x - x\n- - - - - x x x x x x - - - - - - - - - x x x - x\n- - x x x x x x x x x x x - - - - - x - - - x x x\n- x - x x x x x x x x x x x x x x x - - - - x x x\n- - - - x - - x x x x x x x x x x - - - - - x x x"
+    },
+    "138_25x25": {
+      "id": "138_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - x x x x x x x x x x x x x - - - - - - -\n- - - - x x x x x x x x x x x x x x x - - - - - -\n- - - x x x x x x x x x x x x x x x x x - - - - -\n- - x x x - - - - - - - - - x x x x x x - - - - -\n- - x x - - - - - - - - - - - - x x x x x - - - -\n- - x - - - - - - - - - - - - - - x x x x - - - -\n- - x - - - - - - - - - x x x - - x x x x x - - -\n- - x x x x x - - - x x x - x x - x x x x x - - -\n- - x x - - x x - x x - - - - - - - x x x x - - -\n- - - x x x - x x - - - x x x - - - x - - x - - -\n- - x x - x x - x - - x x - - - - - - - - x - - -\n- x x - - - - - x - - - - - - - - - - - - x - - -\n- x - - - - - - x - - - - - - x - - - - - x - - -\n- x - - - - - x x x x - - x x x - - x x x x - - -\n- x x - - - - x - - x - - - - - - x x x x x - - -\n- - x - - - - - - - - - - - - x x x x x x - - - -\n- - x x - - - x x x - - - - - - - - x x x x x - -\n- - - x - - x x - x x x - - - - - x x - x x x x -\n- - - x - x x - - - - x x x - - - x - - - x x x x\n- - - x - - - - x x - - - - - - x x - - - - x x x\n- - - x x - - - - - - - - - - x x - - - - - x x x\n- - - - x x - - - - - - - - x x x - - - - - x x x\n- - - - - x x x x x x x x x x - x x x - - - x x x\n- - - - - - x - - - - - - - - x x x x x - - x x x\n- - - - x x x - - - - - - - x x x x x x x x - - -"
+    },
+    "173_15x15": {
+      "id": "173_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x - - - - - - - - - x x x\nx x - - - - - - - - - - - x x\nx - - - x x - - - x x - - - x\n- - - x - - x - x - - x - - -\n- - - - - - - - - - - - - - -\n- - - - - x - - - x - - - - -\n- - - - - x - - - x - - - - -\n- - x x - - x x x - - - x x -\n- x x x - x - x x x - x x x -\n- x x x - x x x x x - x x x -\n- - - - - - x x x - - - - - -\n- - - - x - - - - - x - - - -\nx - - - - x x x x x - - - - x\nx x - - - - - - - - - - - x x\nx x x - - - - - - - - - x x x"
+    },
+    "177_25x25": {
+      "id": "177_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- x x x x x x x x x x x x x x x x x x x x x x x x\nx - - - - - - - - - - - x - - - - - - - - - - - x\nx - - x x x x - x x x - x - - - - x - - x x - - x\nx - x - x - - x - - x - x - - x x x - - x - x - x\nx - x x x x - x - - x - x - x - - - - - x - x - x\nx - x - x - - x x x x - x - - x x x x x x x - - x\nx - x x x x - x x - - - x - - - - x - - x - - - x\nx - x x x x - x - x - - x - x x x x x x x x x - x\nx - - x - x - x - x - - x - - - - x - - - x - - x\nx - x - - x x - - - x - x - - - x - - x - x - - x\nx - - - x x x - - - x - x - - x - - - - x x - - x\nx - - - - - - - - - - - x - - - - - - - - - - - x\nx x x x x x x x x x x x x x x x x x x x x x x x x\nx - - - - - - - - - - - x - - - - - - - - - - - x\nx - - - x x x x x - - - x - - - - - - - - - - - x\nx - - x x x x x x x - - x - - - - - - - - - - - x\nx - x x x x x x x x x - x - - - - - - - - - - - x\nx - x x x x x x x x x - x - x - x x - x x - x - x\nx - x x x x x x x x x - x - x - x x - x x x x - x\nx - x x x x x x x x x - x - - - - - - - - - - - x\nx - x x x x x x x x x - x - - - - - - - - - - - x\nx - - x x x x x x x - - x - - - - - - - - - - - x\nx - - - x x x x x - - - x - - - - - - - - - - - x\nx - - - - - - - - - - - x - - - - - - - - - - - x\n- x x x x x x x x x x x x x x x x x x x x x x x -"
+    },
+    "66_25x25": {
+      "id": "66_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - x x x x x x x - - - - - -\n- - - - - - - - - - - x x x x - - - x - - - - - -\n- - - - - - - - - - - x - x x x - x x - - - - - -\n- - - - - - - - - - x x x x x x x x - - - - - - -\n- - - - - - - - - - - x x x x x x x - - - - - - -\n- - - - - - - - - - - x x x x x x x - - - - - - -\n- - - - - - - - - - - - x x x - x x - - - - - - -\n- - - - - - - - - - - x x x x x - - - - - - - - -\n- - - - - - - - - x x x x x x x x - - - - - - - -\n- - - - - - - x x x x x x x x x x x - - - - - - -\n- x x x x x x x x x x x x x x x x x x x x x x x x\nx x x x x x x x x x x x x x x x x x x x x x x - x\nx - - - - x x x - x x x x x x - x x x x - - - x x\nx x - - - x x - - - x x x x - - - x x - - x x x x\nx x x - - x - - - - x x x x - - - x - - x x x x -\nx x x x - - - - - - x x x x x - - - - x x x x x -\n- x x x x x x x x x x x x x x x x x x x x x x x -\n- x x x x x x x x - x x x x x x x x x x x x x - -\n- - x x x x x x - x x x x x x x x x x x x x x - -\n- - - x x x x - x x x x x x x x x x x x x x - - -\n- - - x x x - x x x x x x x x x x x x x x - - - -\n- - - - x - x x x x - - x x x x x x x x - - - - -\n- - - - - - x x x - - - - x x x x x x - - - - - -\n- - - - - - x x - - - - - - x x - - - - - - - - -\n- - - - - - x x - - - - - - x x - - - - - - - - -"
+    },
+    "45_20x30": {
+      "id": "45_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - x x x x x x x x x x x - -\n- - - - - - - - - - - - - - - - - x x x x x x x x x x x - -\n- - - - - - - - - - - - - - - - - - x x x x x x x x x - - -\n- - - - - - - - - - - - - - - - - - x - x x x - - - x - - -\n- - - - - - - - - - - - - - - - - - x - x x x - - - x - - -\n- - - - - - - - - x x - - - - - - - x - - x - - - - x - - -\n- - - - - x - - - - x - - - - - - - x x x x x - - - x - - -\n- - - - - - - - - - x - - - - - - - x - x x x - - - x - - -\n- - - - - - - - - x x x x x x x x x x - x x x - - x x x x -\n- - - - - - - - - x - x - x - x - - x x x x x x x - - - - x\n- - x x - - - - - x - x - x - x - - x x x x x x x - - - - x\n- - x - x - - - - x x x x x x x x x x x x x x x x x x x - x\n- - - x x x - - x - - - - - - - - - - - - - - - - - - - x -\n- - - - x x x x x x x x x x x x x x x x x x x x x x x x x x\n- - - - x - x - - - - - - - - - - - - - - - - - - - x x - x\n- - - - x x x x x x x x x x x x x x x x x x x x x x x x - x\n- - - x x x - - x - x x x x x x x x x x x x x x x x x x - x\n- - x - x - - - - x - - - - - - - - - - - - - - - - - x x -\n- - x x - - - - - - x x x x x x x x x x x x x x x x x x - -"
+    },
+    "107_25x25": {
+      "id": "107_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - x x x x x x x x x - - - - - - - - -\n- - - - - x x x - - x x x x x x x x - - - - - - -\n- - - - - x x - x x x x x x x x x x x - - - - - -\n- - - - x x x x x x x x x - - - - - x x - - - - -\n- - - - x x x - - - - - - - - - - x x x x x - - -\n- - - x x x - - - - - - - - - - - x x x - x x - -\n- - - x x x - - - - - - - - - - - x x x x - x - -\n- - - x x - - - - - - - - - - - - x x x x - x - -\n- x - x x - x x x - - - x x x x - x x x x x x - x\n- x x x x x x - x x - x x - - x x - x x x x x x x\n- - - x x x - x - x - x x - x - x - x x x x x x -\n- - x x x x - - - x - x - - - - - - - x x x x x -\n- - x - x x - - - x - - - - - - - - x x x x x - -\n- - - - - x - - - x - x - - - - - x x - x x - - -\n- - - - - x - - - x x x - - - - x x - - x x - - -\n- - - - - x - - - - x - - - - - x - x - x x - - -\n- - - - - x - - - x - - - - - - - - x x x - - - -\n- - - - - x - - - x x x - - - - - x x - x - - - -\n- - x x x x - - x - x - x - x x x x - x x - - - -\n- - x - - x x - - - - - - - x - - - x x - x - - -\n- - x - - - x x - - - - - - x x x x x - x x - - -\n- - x x - - x x x - - x - x x x x - - x - x x - -\n- - - x x - x - x x x x x x x - - x x - x x x x -\n- - x x x x x x - - - - x x - x x - - x x x - x x\nx x x x x x x x x x x x x x x - - x x x x - x - -"
+    },
+    "59_25x30": {
+      "id": "59_25x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 30\n- - - - - x x x - - - - - - - - - - - - - - - - - - x - - -\n- - x x x x x x x x x - - - - - - - - - - - - - - - x - - -\n- x x x x x x x x x x x - x x x x x x x x x x x x x x x x x\nx x x x x x x x x - x x x - - - - - - - - - - - - - x - - -\nx x x x x x x x - - - x x x - - - - - - - - - - - - x - - -\nx - x x - x x - - - - x x x - - - - - - - - - - - - x - - -\nx - - - - - - x - x - x - - - - - - - - - - - - - - x - - -\nx x - x x x - - x x x x - - - - - - - - - - - - - - x - - -\n- x - x - x - x - x - x - x x x x x x x x x x x x x x x x x\n- x - x - x - - x x x x - - - - - - - - - - - - - - x - - -\n- x - x x x - - - x - x - - - - - - - - - - - - - - x - - -\n- x - x - x - x x - x x - - - - - - - - - - - - - - x - - -\n- x - x x x - - x x - x x x - - - - - - - - - - - - - - - -\n- x - - - - - - x - x x - x x x - - - - x x x x x x x - - -\n- x - - - - - - x - x - - - - x x x x x x - - - - - x x x -\nx x - - - - - - - - - - - - - - - - - - - - - - - - - - x x\nx - - x x x x - - - - - - - - x x x x x - - - x x x x - - x\nx - - x - - x - - - - - - - - x - x - x - - - x - - x - - x\nx - - x - - x - - - x x x x - x - x - x - - - x x x x - - x\nx - - x x x x - - - x x x x - x x x x x - - - x - - x - - x\nx x - - - - - - - x x x x x - - - - - - - - - x x x x - x x\nx x x x x x - - - x x x x - - - - - - - - - - - - - - x x x\nx x x x x x x x x x x x x - - - - - - - - - - - x x x x x -\nx x x x x x x x x x x x x x x x x x x x x x x x x x x x - -\n- x x x x x x x - - x x x x x x x x x x x x x x x - - - - -"
+    },
+    "51_20x25": {
+      "id": "51_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- - - - - - - - - - - x x x x x x x x x x x x - -\n- - - - - - - - - - x x - - - - - - - - - x - - -\n- - - - - - - - - - x - - - - - - - - - x - - - -\n- - - - - - - - - x x - - - - - - - - x x - - - -\nx x - - - - - - - x - - - - - - - - - x - - - - -\nx x x - - x - x x x - - - - - - - - - x x x x - x\n- x x - - x x x x x - - - - - - - - - x x x x x x\n- - x - - x - x x x - - - - - - - - - x x x x - x\n- - x x - - - - - x - - - - - - - - - x - - - - -\n- - - x x x x x x x x x x x x x x x x x x - - - -\n- - - - - - - - x x x - x - x - x - x x x - - - -\n- - - - - - - - x x x x x - x - x x x x x - - - -\n- - - - - - - x x x x x x x x x x x x x x x - - -\n- - - - - - - x x x x x x x x x x x x x x x - - -\n- - - - - - x x x x - - x - - x - - x - - x x - -\n- - - - - - x x x x x x x x x x x x x x x x x - -\n- - - - - x x x x - - x - - x - - x - - x x x x -\n- - - - - x x x x x x x x x x x x x x x x x x x -\n- - - - - x x x x x - - - - - - - - - x x x x x -\n- - - - - - x x x x x x x x x x x x x x x x x - -"
+    },
+    "122_15x15": {
+      "id": "122_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - x - - - - - - -\n- - - - - - - - - - - - - - -\n- - - - - - - x - - - - - - -\n- - - - - - - - - - - - - - -\n- - - - - - - x - - - - - x -\n- - - - - - - - - - - - x x -\n- - - - - - - x - - - x x - -\nx x x x x x x x x - x x - x x\n- - - - x x - - - x x - - - -\n- - - - - x x - x x - - - - -\n- - - - - - x x x - - - - - -\n- - - x x x - - x x x x - - -\n- - x - - x - - - x - - x - -\n- - x - - x - - - x - - x - -\n- - - x x - - - - - x x - - -"
+    },
+    "170_25x25": {
+      "id": "170_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - x x x - - - x x x -\n- - - - x x x x x x x x - - - x - x x x x x - x -\n- - - x x - - x x x x x x - - x x x x x x x x x -\n- - - x - - x x x x x x x x - - x x - x - x x - -\n- - x x - - x x x x x x x x x x x x x x x x x - -\n- x x - - x x x x x x x x x x x x - x x x - x - -\nx x - - - x x x x x x x x x x x x - - x - - x - -\n- - - - x x x x x x x x x x x x x x x - x x - - -\n- - - - x x x x - x x x x x x x x x x x x x - - -\n- - - - x x - - - - x x x x x x x x x x x x - - -\n- - - x x - - - - - - - x x x x x x x x x x x - -\n- - x x - - x x - - - - - - x x x - - - x x x - -\n- - x x - x x - x x - - - x x x - - - - - x x x -\n- - - - - x - x x - - - x x x - - - - - - - x x x\n- - - - x x x x - - - - x x - - - - - - - - - x x\n- - - x x - x x x - - - - - - - - - - - - - - - -\n- - x x x x x x x x x x - - - - - - - x - - - - -\n- - x x x x x x x x x x x x x x x x x x - - - - -\n- - - x x - - x x x x x x x x x x x x - - - - - -\n- - - - - - - x x x x x x x x x x x x - - - - - -\n- - - - - - - x x x x x x x x x x x x - - - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - x - - x - - - - - - - x - - x - - - - -\n- - - - - x - - x - - - - - - - x - - x - - - - -\n- - - - - - - - x - - - - - - - x - - x - - - - -"
+    },
+    "174_15x15": {
+      "id": "174_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - - - - - - - - -\n- x x x - - - - - x x x x x x\n- x x x x - - - x x x x x x x\n- x x x - x - - x x x x x x x\n- - x x x x - - - x x x x x x\n- - x x x x x - - - - x x x x\n- - x x x x x x - - - - - - -\n- - x x x x x x x x - - - - -\n- - x x x x x x x x x x - - -\n- - x x x x x x x x x x x - x\n- x x x x x x x x x x x x x x\nx x x - x x x x x x x x x x -\n- - - - x x x x - - - - - x x\n- - - - - x x x x - - - - - x\n- - - - - - x x x x - - - - -"
+    },
+    "151_25x25": {
+      "id": "151_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\nx x - x x x x x x - x x x x x x x x x x x x x x x\nx - - - x x x - - - - x x x x x - x x x x x x x x\n- - - - - x x x - - x x x x x - - - x x x x x x x\n- - - - - - x - - - - x x x - - - - - x x x x x x\nx x - - x x - - - - - - x x x x - x x x x x x x x\nx x - - x - - - - - - - - x x - - - x x x x x x x\nx - - - - x x x - - - x x x - - - - - x x x x x x\n- - - - - - x - - - - - x - - - - - - - - - x x x\n- - - - - - - - - - - - - x x - x - - - - x - - x\n- - - - x x x x x - - - - - - - x x - - x x - - -\n- - - x x x x x x x x x - - - - x x x x x x - - -\n- x x x x x x x x x x x x x - x x - x - x x - - -\nx x x - x x x x x x x x x x x x x x x x x x - - -\nx x - - x x x x x x x x x x x - - x x - x x - - -\nx x - - x x x x x x x x x x x x x x - x x - - - -\nx - - - x x x - x x x x x x x x - - x x x - - - -\n- - - x x x - x x x x x x x x x x x x x x - - - -\n- - - x x - - x x - - x x x x x x x x x x - - - -\n- - - x x - - x x - - - x x x x x x x x x - - - -\n- - - x x - - x x - - - - x x x - - x x x - - - -\n- - - x x x - x x x - - - x x - - - - x x - - - -\n- - - - x x - - x x - - - x x - - - - x x - - - -\n- - - - - - - - - - - - - x x - - - - x x - - - -\n- - - - - - - - - - - - x x x - - - - x x x - - -\n- - - - - - - - - - - - x x - - - - - - x x - - -"
+    },
+    "61_25x30": {
+      "id": "61_25x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 30\n- - - - - - - x x x x x x x x x x x x x x x x - - - - - - -\n- - - - - - - x x x - - x x x x x x - - x x x - - - - - - -\n- - - - - - - x x x - - x x x x x x - - x x x - - - - - - -\n- - - - - - - x x x x x x x x x x x x x x x x - - - - - - -\n- - - - - - - x x x x x x x x x x x x x x x x - - - - - - -\n- - - - - - - x x x x x x x x x x x x x x x x - - - - - - -\n- - - - - - - x x x x x x x x x x x x x x x x - - - - - - -\n- - - - - - - - x - - - - - - - - - - - - x - - - - - - - -\n- - - - - - - - x - - x x - - - - x x - - x - - - - - - - -\n- - - - - - - - x - x x x x - - x x x x - x - - - - - - - -\nx x - - - - - - x - x x x x - - x x x x - x - - - - - - x x\nx x x x x x - - x - - x x - - - - x x - - x - - x x x x x x\nx x x x x x x x x x - - - - - - - - - - x x x x x x x x x x\nx - x x x x x x x x x x x x x x x x x x x x x x x x x x - x\nx - x x - - x x x x x x x x x x x x x x x x x x - - x x - x\nx x - - x - - x - - x x x x x x x x x x - - x - - x - - x x\n- x x x - x x - x x - x x - x x - x x - x x - x x - x x x -\n- x - - x - - x - - x - - x - - x - - x - - x - - x - - x -\n- x x x - x x - x x - x x - x x - x x - x x - x x - x x x -\n- - x - x - - x - - x - - x - - x - - x - - x - - x - x - -\n- - x x - x x - x x - x x - x x - x x - x x - x x - x x - -\n- - - x x x x x x x x x x x x x x x x x x x x x x x x - - -\n- - - x x x x x x x x x x x x x x x x x x x x x x x x - - -\n- - - - x x x x x x x x x x x x x x x x x x x x x x - - - -\n- - - - - x x x x x x x x x x x x x x x x x x x x - - - - -"
+    },
+    "141_15x15": {
+      "id": "141_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x x x x x x x x x\nx x x x x x x x x x - - - x x\nx - x x x x x x x - - - - - x\nx - - - - - - - - - - - x - x\nx - - - - - - - - - - - - - -\nx - - - - - - x x x - - - - x\nx - - - - x x x x x - - - x x\nx x - - x x x x x x - - x x x\nx x x - x x x x x - - - x x x\nx x x x - - - - - - - x x x -\nx x x x x x - x - x x x - x x\nx x x x x x - x - x x x x x -\nx x x x x - - - - - - x x x x\nx x x x x x x x x x x x x x x\nx x x x x x x x x x x x x x x"
+    },
+    "96_25x25": {
+      "id": "96_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - x x - - - - - - - - - -\n- - - - - - - - x x x x x x - x x x - - - - - - -\n- - - - - - - x - - - - - x - x - - x - - - - - -\n- - - - - - x - - - - - - - - - - - - x - - - - -\n- - - - - x - - x - - - - x x - - - - - x - - - -\n- - - x x - - - - - - - - - - - - - - - - x - - -\n- - x - - - - - - - - - - - - - - - - - - - x - -\n- x - - - - - - - - - - - - - - - - - - - - - x -\nx x - - - - - - - - - - - - - - - - - - - - - x -\nx x - - - x - - - - - x - - - - - - - - - - - - x\n- x x x x - - - - - - x - - - - - - - - - - - - x\n- - x - - - - - - - - - - - - - - - - - - - - - x\n- - - x x x x - - x - - - - - - - - - - - - - - x\n- - - - - - - x - - - - - - - - - - - - - - - - x\n- - - - - - - - x - - - - - - - - - - - - - - - x\n- - - - - - - - - x - - - - - - - - - - - - - - x\n- - - - - - - - - x - - - - - - - - - - - x x x -\n- - - - - - - - - x - - - - - - - - x x x - x - x\n- - - - - - - - - x - - - - - x x x - x - x - x -\n- - - - - - - - - x - - - x x - x - x - x - x - x\n- - - - - - - - - x - x x x - x - x - x - x - x -\n- - - - - - - - x x x - x - x - x - x - x - x - x\n- - - - - - - x x - x x - x - x - x - x x x x x x\n- - - - - - x - x x - x x x x x x x x x - - - - -\n- - - - - - - x x - x x x - - - - - - - - - - - -"
+    },
+    "69_30x25": {
+      "id": "69_30x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "30 25\nx x - - - x x x - - - - - - - - - - - - - - - - -\nx x x - x x x x - - - - - - - - - - - - - - - - -\n- - x x x - - - - - - - - - - x - - - - - - - - -\nx x x x x x x x - - - - - - x x x - - - - - - - -\nx x - x - - x x x - - - - x x x x x - - - - - - -\nx - - x - - - x x - - - x x x x x x x - - - - - -\n- - - x - - - - - - - x x x x x x x x x - - - - -\n- - - x - - - - - - x x x x x x x x x x x - - - -\n- - - x - - - - - x x x x x x x x x x x x x - - -\n- - - x - - - - x x x x x x x x x x x x x x x - -\n- - - x - - - x x x x x x x x x x x x x x x x x -\n- - - x - - x x x x x x x x x x x x x x x x x x x\n- - - x - x x x x x x x x x x x x x x x x x x x x\n- - - x - - - - - - - - - - - - - - - - - - - - -\n- - x x x - - - x x - - x x - - - - - x - - - - -\n- - - - - - - x x x x - x x x - - - - x x x - - -\n- - - - - - x x x x x x x x x x - - x x x - x - -\n- - - - - x x x x x x x x x x x - x x x x x x x -\n- - - - x x x x x x x x x x x x x x x x x x x x -\n- - - x x x x x x x x x x x x x x x x x x - x x -\n- - x x x x x x x x x x x x x x x x x x x - - - -\n- - x - x x x x x x x x x x x x x x x x x - - - -\n- - x - x x x x x x x x x x x x x x x x x - - - -\n- - - - x x x x x x x x x x x x x x x x - - - - -\n- - - - x x - x x - - - - - x x - x x - - - - - -\n- - - - x x - x x - - - - - x x - x x - - - - - -\n- - - - x x - x x - - - - - x x - x x - - - - - -\n- - - - x x - x x - - - - - x x - x x - - - - - -\n- - - - - x x - x x - - - - - x x - x x - - - - -\n- - - - - x x - x x - - - - - x x - x x - - - - -"
+    },
+    "39_20x25": {
+      "id": "39_20x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 25\n- - - x x - - - - - - - - - - - - - - - - - - - -\nx - - x - x x - - - - - - - - - - - - x x x - - -\nx - - x - - x x x - - - - - - - x x x x - x - - -\nx x - x - - - x x x x x x x x x x x x - - x - - -\n- x - x - - - x x x x x x x x x x x - - - x - - -\n- x - x x - x x x x x x x x x x x x x - - x - - -\n- x - - x x x x x x x x x x x x x x x x - x - - -\nx x - - x x x x x x x x x x x x x x x x x - - - -\nx - - - x x - - - x x x x x x x - - - x x - x x x\nx x x x x x x - - - x x x x x - - - x x x x x - x\n- - - - x x x x - - - x x x - - - x x x x - - - x\n- - - x x x x x x x x x x x x x x x x x x x - x x\n- - - x x x - - - - x - - - x - - - - x x x - x -\n- - - x x - - - - - - x - x - - - - - - x x - x x\n- - - x x - - - - - - - x - - - - - - - x x - - x\n- - - x x - - - - - - x x x - - - - - - x x - - x\n- - - - x x - - - - x x x x x - - - - x x - - - x\n- - - - - x x x x x - x x x - x x x x x - - - x x\n- - - - - - - - - x - - - - - x - - - - - - - x -\n- - - - - - - - - - x x x x x - - - - - - - - - -"
+    },
+    "92_15x15": {
+      "id": "92_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x - - - - - - - - x x -\nx x x x - - - - - x x - x x x\nx x x x - - - - - x x - x x x\nx x x x - - - - - x x - x x x\nx x x x - - - - - - - - x x x\nx x x x x x x x x x x x x x x\nx x x x x x x x x x x x x x x\nx x - - - - - - - - - - - x x\nx x - x x x x x x x x x - x x\nx x - - - - - - - - - - - x x\nx x - x x x x x x x x x - x x\nx x - - - - - - - - - - - x x\nx x - x x x x x x - - - - x x\n- x - - - - - - - - - - - x -\nx x x x x x x x x x x x x x x"
+    },
+    "120_25x25": {
+      "id": "120_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - x x x x x x x x - - - - - -\n- - - - - - - - - - x x x x x x x x x x x - - - -\n- - - - - - - - - x x x x x x x x x x x x x - - -\n- - - - - - - - x x x x x x x x x x x x x x x - -\n- - - - - - - x x x x x x x x x x x x x x x x x -\n- - - - - - x x x x x x x x x - x x - - x x x x -\n- - - - - x x x x x x x - x - x - x x - - - x x -\n- - - - x x x x x x x - x - x - - - x - x x - x -\n- - - x x x x x x x - x - x x x x - - - - x x x -\n- x x x x x x x x - x - x x - - x x - - - - x - -\nx x x x x x x x - x - x x - - - - - - x x - x - -\nx x x x x x x - x - x x - - - - - - x - x x x - -\nx x x x x x - x - x x - - - - - - - x - - x - - -\nx x x x x - x - x x - - - - - - - - x - x x - - -\nx x x - - x - x x - - - - - - - - x x - x - - - -\nx x - x x - x x - x - - - - - - - - - - x - - - -\n- - x - - x x x - x - - - - - x x - - x x - - - -\nx x - x x x x - x x x - - - - - - - - x - - - - -\n- - x x x x - x x x x x - - - - - - x x - - - - -\nx x x x x - - x x x - x x - - x x x x x - - - - -\nx x x - - x x x - x x - x x - - x x - x x - - - -\nx x - x x x x - x - x x - x x x - - x x - x - - -\n- - x x x x - x x x - x x - x x - x x - x x x - -\nx x x x x - x x - x x - x - x x - x - x x - x x -\nx x x x - x x x x - x - x - x x - x - x - x x x x"
+    },
+    "43_20x30": {
+      "id": "43_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\n- - - - - - - - - - - - - - - - x x x - - - - - - - - - - -\n- - - - - - - - - x x x x x x x x x x x x - - - - - - - - -\n- - - - - x x x x x x x x x x x - - - - x x x - - - - - - -\n- - - x x x x x x x - - - - - - - - - - - x x x - - - - - -\n- - x x - - - - - - - - - - - - - - x x x - x x - x x - - -\n- x x x - - x - - - - - - - - - - - x x x - x x x x x - - -\nx x x - - - x - - - - - - - - - - - - x x x - - x x - - - -\nx x x - - - x - - - - - - x - - - x - - x x x x x - - - - -\nx x x - - - x x x - - - - x - - - x - x - x x x x - - - - -\nx x x - - - - x x x x x - x x - - - x - x x x x x - - - - -\nx - x x - - - - x x x x x x x - - - x - x x x x x - - - - -\nx - - x - - - - x x x x x x - - - - x - x x x x x x x x - -\nx - - x - - - x x x x x x - - - - x x x x x x x x x x - - -\nx - x x - - - x x x x x x - - - x x x x x x x x x x - - - x\n- - x x - - x x - - x x x - - - x x - x x x x - x x x x x -\n- - x - - - x x - - - - x - - - x x - x x x x x x x x x - -\n- - x - - - x x - - - - x - - - x x x - x x x x x x x - - -\n- - x - - - x x - - - - x x - - x x x - - x x x x x - - - -\n- - x x - - - x x - - - - x - - - x x x - - x x x - - - - -\n- - - x - - - x x - - - - x - - - x x x - - - - - - - - - -"
+    },
+    "111_15x15": {
+      "id": "111_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x - x x - - - - -\n- - - - x - - x - - x - - - -\n- - - - x - - - - - x - - - -\n- x x - x - - - - - x - x x -\nx - - x - - - x - - - x - - x\nx - - - - x - x - x - - - - x\nx - - - - - x x x - - - - - x\nx - - - x x x - x x x - - - x\n- x x - - - x x x - - - x x -\n- - - x - - x - x - - x - - -\n- - x - - x - - - x - - x - -\n- x - - - - - x - - - - - x -\n- x - - - - x - x - - - - x -\n- - x - - - x - x - - - x - -\n- - - x x x - - - x x x - - -"
+    },
+    "57_20x30": {
+      "id": "57_20x30",
+      "difficulty": 0,
+      "source": "",
+      "solution": "20 30\nx x - x x x x x x x x - x x x x x - x x x x x x x x x x x x\n- - - x x - - - - - - x - x - - x x x - - - - - - - - - x x\nx x - - x x x x x - x x - - - - - x - - x x x x x x x x x -\n- - - - x x - - - - - x x x - - - - x - - - - - - - - x x -\nx x - - - x x x x x x - - x - - x x x - - - x x x x x x - -\n- - - - - x x - - - - - x x - - - - - - x x x - - x x - - -\nx x - - - - x x x x x x x - - - x - - x x - - x x - x x - -\n- - - - - - - - - - x - x - - - x x x x - x - - x - - x x -\nx x - x x x x x x x x - x - - - - - x - - - - - - - - - x -\n- - - x - - - - - - x - x - - - - x x - x x - x x x x - x x\nx x - x - x - - x - x - x x - - - x - - x x - x x x x - x x\n- - - x - - - - - - x - - x - - x x - - - - - - - - - - x x\nx x - x - x x x x - x - - x x - - x x - - - - - - - - - x -\n- - - x - - - - - - x - - x x x - - x - - x - x x x - x x -\nx x - x - - - - - - x - - x - - - - x x x - - - - - x x - -\n- - - x - x x x x - x - - x x - - - x - x x x x x x x - - -\nx x - x - - - - - - x - - - x - x - - x - - - - - - - - - -\n- - - x - - - - - - x - - x - - - - - x - - - - - - - - - -\nx x - x x x x x x x x - x x x x x x x x x x - - - - - - - -\n- - - - - - - - - - - - - x - x - x - x - x - x - - - - - -"
+    },
+    "139_25x25": {
+      "id": "139_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - x x x - x x x - - - - - - - - -\n- - - - - - - x x x - - - - - x x x - - - - - - -\n- - - - - x x x - - - - - - - - - x x x - - - - -\n- - - - x x x - - - - - - - - - - - x x x - - - -\n- - - x x x - - - - - - - - - - - - - x x x - - -\n- - x x x x - - - - - - - x x x - - - x x x x - -\n- - - x x x - x x x x x x x x x x - - x x x - - -\n- x - x x - - - - - - - - - x x - - - - x x - x -\n- x - x x - - - - - - - - x x - - - - - x x - x -\nx x x - x - - - - - - - x x - - - - - - x - x x x\n- x x - x - - - - - - x x - - - - - - - x - x x -\nx - x x x x - - - - x x x - - - - - - x x x x - x\nx x - x x x - - - x x x - - - - - - - x x x - x x\n- x x x x x - - - x x x - - - - - - - x x x x x -\nx - x x x x x - - x x x x x - - - - x x x x x - x\nx x x x x x x x - x x x x x x x - x x x x x x x x\n- x x x x x x x x x x x x x x x x x x x x x x x -\n- x x x x x x x x x x x x x x x x x x x x x x x -\n- - x x x x x x x - x x x - - x x - x x x x x - -\n- - x x x x x x x - x x - x - x x - x x x x x - -\n- - - x x x x x - x x - - - - x - x x x x x - - -\n- - - - x x - - x x - x x x - x - - - x x - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - - - x x x x x x x x x x x - - - - - - -\n- - - - - - - - - x x x x x x x - - - - - - - - -"
+    },
+    "70_30x25": {
+      "id": "70_30x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "30 25\n- - x - - - - - x - - - - - - - - - - - - - - - -\n- - x x - - - x x - - - - - - - - - - - - - - - -\n- - x x x x x x x - - - - - - - - - - - - - - - -\n- x x x x x x x x - - - - - - - - - - - - - - - -\nx x x - - x - - x - - - - - - - - - - - - - - - -\nx x x - x x - x x - - - - - - - - - - - - - - - -\nx x x x x x x x x x - - - - - - - - - - - - - - -\nx x - - x x x x - x x - - - - - - - - - - - - - -\nx - - - x x x x - - x - - - - - - - - - - - - - -\nx x - - - - x - - - x - - - - - - - - - - - - - -\n- x x x x x x x x x - - - - - - - - - - - - - - -\n- - x x x - - x x x x - - - - - - - - - - - - - -\n- - x x x x x x x x x x - - - - - - - - - - - - -\n- - x x - - - x x x x x x x x x x - - - - - - - -\n- - x x - - - - x x x x x x x x x x - - - - - - -\n- - x x - - - - x x x x x x x x x x x - - - - - -\n- - x x - - - - x x x x x x x x x x x x - - - - x\n- - x x - - - - x x x x x x x x x x x x - - - x x\n- - x x x - - - x x x x x x x x x x x x x - - x x\n- - - x x x - - x x x x x - x x x x x x x - - x x\n- - - - x x - - x x x x - x x x x x x x x - - x x\n- - - - x x x - x x x - x x x x x x x x x - - x x\n- - - - x x x x x x x - x x x x x x x x x - - x x\n- - - - x x x - x x x - x x x x x x x x x - - x x\n- - - - x x x - x x x x x x x x x x x x x - x x x\n- - - - x x x - x x - - x x x x x x x x x x x x x\n- - - - x x - - x x - - - x x x x x x x x x x x x\n- - - x x x - x x x - - - - x x x x x x x x x x -\n- - x x x - x x x - x x x x x x x x x - x x x - -\n- - x x x - x x x - x x x x x x x x - - - - - - -"
+    },
+    "6_15x15": {
+      "id": "6_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - - - - - - - - - - -\n- - - - - - - x - x x x x - -\n- - - - - - x x x x x - x - -\n- - - - x x x x x - - - x - -\n- - - x x x - x - - - - x - -\n- - x x - - - x - - - - x - -\n- - x - - - - x - - - - x - -\n- - x - - - - x - - - x - x -\n- - x - - - - x - - x x x x x\n- - x - - - - x - - - x x x -\n- x - x - - - x - - - - - - -\nx x x x x - - x - - - - - - -\n- x x x - - x x x - - - - - -\n- - - - - - x x x - - - - - -\n- - - - x x x x x x x - - - -"
+    },
+    "176_25x25": {
+      "id": "176_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - x x x - - - - - - - - - - -\n- - - - x x x - - x x - x - x x - - x x x - - - -\n- - - - x - x x x - x - x - x - x x x - x - - - -\n- - - x x - - x - - x - x - x - - x - - x x - - -\n- - x - x x - - x - x - x - x - x - - x x - x - -\n- x - x - x x - - x - x - x - x - - x x - x - x -\n- x - - - x x x - - x x - x x - - x x x - - - x -\n- x - x - x x x x - - x - x - - x x x x - x - x -\nx x - - x x x x x x - x - x - x x x x x x - - x x\nx - - x x x - - - x x x - x x x - - - x x x - - x\nx - - x - x x - - x x x - x x x - - x x - x - - x\nx - x x - - x x - - - x - x - - - x x - - x x - x\nx - - x - - - x x x x - - - x x x x - - - x - - x\nx - x x - - - - - x - - - - - x - - - - - x x - x\nx - - - - x - - - x - x - x - x - - - x - x - - x\nx - x x - x x - - x x x x x x x - - x x - x x - x\nx - - x - x - x - - - - - - - - - x - x - x - - x\nx - x x - x - x x x x x x x x x x x - x - x x - x\nx - - x - x - x - x - x - x - x - x - x - x - - x\nx - x x - x x x x x x x x x x x x x x x - x x - x\nx - - x - x x x - x x x x x x x - x x x - x - - x\nx - x x - x x - x - x x x x x - x - x x - x x - x\nx - - x x x x x x x x x x x x x x x x x x x - - x\nx x x x - x - x - x - x - x - x - x - x - x x x x\n- - - x x x x x x x x x x x x x x x x x x x - - -"
+    },
+    "67_25x25": {
+      "id": "67_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - - - - - - - - - - x - - -\n- - - - - - x x x x - - - - - - - - - - x x x x -\n- - - - - x x x x x x - - - - - - - - - x - - - -\n- - - - - x - - x x x - - - - - - - - x x - - - -\n- - x x x x x - x x x - - - - - - - x x - - - - -\n- x x x x x x x x x x x - - - - - - x - - - - - -\n- - - - - - x x x x x x x - - - - x x - - - - - -\n- - - - - x x x x x x x x x - - - x - - x x - - -\n- - - - x x - x x x x x x x x - x x - x x - - - -\n- - - - - - - x x x - x x x x x x x x x - - - - -\nx - - - - - - x x - x x x x x x x - - - - - - - -\nx - - - - - - x x - x x x x x x x x - - - - - - -\nx - - - - - - x x - x x x x x x x x - - - - - - -\nx x - - x - - x x - - x x x x x x x - - - - - - -\nx x - - x x - - x x - - x x x x x x - - - - - - -\nx x - x x - - - - x x - - - - x x x x - - - - - -\nx x x x - - - x x - x x x x x x x x x x - - - - -\nx x x x - x x x - - - x - - - x x x x x x x x x -\nx x x x x x x - - - - x - - - x - x x x x x x x x\nx x x x x x - - - - - x - - - x - - x x x x x x x\nx x x x x x - - - - x x - - x x - - - x x x x x -\nx x x x - - - - - x x - - x x - - - - x x x x - -\nx x x x - - - x x x x x x x x x x - - - x x - - -\nx x x x x x x x x x x x x x x x - - - - - - - - -\nx x x x x x x x x x - - - - - - - - - - - - - - -"
+    },
+    "172_15x15": {
+      "id": "172_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\n- - - - - x x x x x x x - - -\n- - - - x - - - - - - x - - -\n- - - x - x - x - x - x - - -\n- - - x - - - - - - - x - - -\n- - - x - x - x - x - x - - -\n- - - x - - - - - - - x - - -\nx x x x x x x x x x x x x x x\nx - - - - - - - - - - - - - x\nx x x x x x x x x x x x x x x\nx x - - - - - - - - - - - x x\nx - - x x x x x x x x x - - x\nx - - x - - - - - - - x - - x\nx x x x - - - - - - - x x x x\n- - - x - - - - - - - x - - -\n- - - x x x x x x x x x - - -"
+    },
+    "118_25x25": {
+      "id": "118_25x25",
+      "difficulty": 0,
+      "source": "",
+      "solution": "25 25\n- - - - - - - - - - - - x - - - - - - - - - - - -\n- - - - - - - - - - - - x - - - - - - - - - - - -\n- - - - - - - - x x x x x x x x x - - - - - - - -\n- - - - x x x x - - - - - - - - - x x x x - - - -\n- - - x - - - - - x x x x x x x - - - - - x - - -\n- - - x - - - - x - - - - - - - x - - - - x - - -\n- - - x - - - - - - - - - - - - - - - - - x - - -\n- - - x - - - - x x - - - - - x x - - - - x - - -\n- - - x - - - - x x x x x x x x x - - - - x - - -\n- - - x x - - - x x x x x x x x x - - - x x - - -\n- - - x x - - - - x x x x x x x - - - - x x - - -\n- - - x - x - - - - - - - - - - - - - x x x - - -\n- - - x - - x - - - - - - - - - - - x x x x - - -\n- - - x x - - x x - - - - - - - x x x x x x - - -\n- - - x x x x x x x - - - - - x x x x x x x - - -\n- - x - - - - - - - x - - - x - - - - - - - x - -\n- - x - - x x - - - - x - x - - - - x x - - x - -\n- - x - - - - - - - - - - - - - - - - - - - x - -\n- - x x - - - - - - - - - - - - - - - - - x x - -\n- - x - x x x x x x x x x x x x x x x x x x x - -\n- - x x - - - - - - - - - x x x x x x x x x x - -\n- - - x x x x x x x x x - x x x x x x x x x - - -\n- - - - x x x x x - x x - x x - x x x x x - - - -\n- - - - - x x x x x x x x x x x x x x x - - - - -\n- - - - - - - x x - - - - - - - x x - - - - - - -"
+    }
+  },
+  "count": 104,
+  "info": ""
+}

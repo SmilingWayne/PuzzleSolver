@@ -9,11 +9,18 @@ if __name__ == "__main__":
         "Akari", 
         "Shikaku", 
         "Tent", 
-        "Gappy"
+        "Gappy", 
+        "TennerGrid",
+        "Binairo",
+        "Pills", 
+        "Dominos", 
+        "Buraitoraito",
+        "Eulero",
+        "Mosaic"
     ]
     
     record = []
-    for pz_name in puzzle_names[3:]:
+    for pz_name in puzzle_names[: 1]:
         pbl_path, sol_path = f"../assets/data/{pz_name}/problems/", f"../assets/data/{pz_name}/solutions/"
 
         pz_ids = load_puzzles(pbl_path)
@@ -25,8 +32,6 @@ if __name__ == "__main__":
         print(f"====== \t Solving: {pz_name} =======", end="\n")
         
         for pz_id in pz_ids:
-            # if pz_id in ["27_15x20.txt", "6_10x10.txt", "42_15x20.txt", "21_12x16.txt"]:
-            #     continue
             pbl_dict, sol_dict = parser.parse(f"{pbl_path}{pz_id}", f"{sol_path}{pz_id}")
             
             if pbl_dict is None or sol_dict is None:
@@ -37,9 +42,23 @@ if __name__ == "__main__":
             
             solution_dict['puzzle_name'] = pz_name
             sol_dict['grid'] = Grid(sol_dict['grid'])
-
+            # print(solution_dict['grid'])
+            # print(sol_dict['grid'])
             if not verifier.verify(solution_dict, sol_dict):
-                print(solution_dict['grid'])
+                # check_solver, check_solver_info = verifier.verify_by_rules_only(Grid(pbl_dict['grid']), solution_dict['grid'])
+                # check_answer, check_answer_info = verifier.verify_by_rules_only(Grid(pbl_dict['grid']), sol_dict['grid'])
+                # # print(solution_dict['grid'])
+                # # print(pbl_dict['grid'])
+                # print("Check solver result: ", check_solver, check_solver_info)
+                # print("Check answer result: ", check_answer, check_answer_info)
+                # if not check_solver and not check_answer:
+                #     print(f"{pz_id}: Original Answer wrong!")
+                # elif check_solver and not check_answer:
+                #     print(f"{pz_id}: Found optimal via solver, Original Answer wrong, {check_answer_info}")
+                # elif not check_solver and check_answer:
+                #     print(f"{pz_id}: Solver wrong (or Infeasible, info {check_solver_info}), Original Answer correct.")
+                # else:
+                #     print("Unexpected result.")
                 raise ValueError(f"Wrong {pz_name} {pz_id},")
 
             record.append(solution_dict)

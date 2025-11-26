@@ -2,6 +2,13 @@ from Common.Verifier.PuzzleVerifiers.AkariVerifier import AkariVerifier
 from Common.Verifier.PuzzleVerifiers.ShikakuVerifier import ShikakuVerifier
 from Common.Verifier.PuzzleVerifiers.TentVerifier import TentVerifier
 from Common.Verifier.PuzzleVerifiers.GappyVerifier import GappyVerifier
+from Common.Verifier.PuzzleVerifiers.TennerGridVerifier import TennerGridVerifier
+from Common.Verifier.PuzzleVerifiers.BinairoVerifier import BinairoVerifier
+from Common.Verifier.PuzzleVerifiers.PillsVerifier import PillsVerifier
+from Common.Verifier.PuzzleVerifiers.DominosVerifier import DominosVerifier
+from Common.Verifier.PuzzleVerifiers.BuraitoraitoVerifier import BuraitoraitoVerifier
+from Common.Verifier.PuzzleVerifiers.EuleroVerifier import EuleroVerifier
+from Common.Verifier.PuzzleVerifiers.MosaicVerifier import MosaicVerifier
 
 class VerifierFactory:
     
@@ -9,7 +16,14 @@ class VerifierFactory:
         'Akari': AkariVerifier,
         'Shikaku': ShikakuVerifier,
         'Tent': TentVerifier,
-        "Gappy": GappyVerifier
+        "Gappy": GappyVerifier, 
+        "TennerGrid": TennerGridVerifier,
+        "Binairo": BinairoVerifier,
+        "Pills": PillsVerifier,
+        "Dominos": DominosVerifier,
+        "Buraitoraito": BuraitoraitoVerifier,
+        "Eulero": EuleroVerifier,
+        "Mosaic": MosaicVerifier
     }
     
     @classmethod

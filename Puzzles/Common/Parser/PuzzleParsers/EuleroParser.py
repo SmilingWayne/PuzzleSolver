@@ -1,10 +1,10 @@
 from Common.Parser.BaseParser import BasePuzzleParser
 from typing import Dict, Tuple, Optional
 
-class TentParser(BasePuzzleParser):
+class EuleroParser(BasePuzzleParser):
     
     def __init__(self):
-        super().__init__("Tent")
+        super().__init__("Eulero")
     
     def parse_puzzle_from_str(self, content: str) -> Optional[Dict]:
         try:
@@ -15,16 +15,12 @@ class TentParser(BasePuzzleParser):
                 
             num_line = lines[0]
             m, n = num_line.strip().split(" ")
-            grid_row = lines[2].strip().split(" ")
-            grid_col = lines[1].strip().split(" ")
-            grid_lines = lines[3 : 3 + int(m)]
+            grid_lines = lines[1 : 1 + int(m)]
             grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
-
+            
             return {
                 "num_rows": int(m), 
                 "num_cols": int(n), 
-                "rows": grid_row,
-                "cols": grid_col,
                 "grid": grid
             }
 
@@ -56,5 +52,4 @@ class TentParser(BasePuzzleParser):
         except (ValueError, IndexError) as e:
             print(f"Error: The Solution content is malformed. Details: {e}")
             return None
-    
     

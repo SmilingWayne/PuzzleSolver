@@ -2,6 +2,13 @@ from Common.Parser.PuzzleParsers.AkariParser import AkariParser
 from Common.Parser.PuzzleParsers.ShikakuParser import ShikakuParser
 from Common.Parser.PuzzleParsers.TentParser import TentParser
 from Common.Parser.PuzzleParsers.GappyParser import GappyParser
+from Common.Parser.PuzzleParsers.TennerGridParser import TennerGridParser
+from Common.Parser.PuzzleParsers.BinairoParser import BinairoParser
+from Common.Parser.PuzzleParsers.PillsParser import PillsParser
+from Common.Parser.PuzzleParsers.DominosParser import DominosParser
+from Common.Parser.PuzzleParsers.BuraitoraitoParser import BuraitoraitoParser
+from Common.Parser.PuzzleParsers.EuleroParser import EuleroParser
+from Common.Parser.PuzzleParsers.MosaicParser import MosaicParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -10,7 +17,14 @@ class ParserFactory:
         'Akari': AkariParser,
         'Shikaku': ShikakuParser,
         'Tent': TentParser,
-        'Gappy': GappyParser
+        'Gappy': GappyParser,
+        'TennerGrid': TennerGridParser,
+        'Binairo': BinairoParser,
+        "Pills": PillsParser,
+        "Dominos": DominosParser, 
+        "Buraitoraito": BuraitoraitoParser, 
+        "Eulero": EuleroParser,
+        "Mosaic": MosaicParser
     }
     
     @classmethod

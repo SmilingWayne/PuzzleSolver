@@ -2,6 +2,13 @@ from AkariSolver import AkariSolver
 from ShikakuSolver import ShikakuSolver
 from TentSolver import TentSolver
 from GappySolver import GappySolver
+from TennerGridSolver import TennerGridSolver
+from BinairoSolver import BinairoSolver
+from PillsSolver import PillsSolver
+from DominosSolver import DominosSolver
+from BuraitoraitoSolver import BuraitoraitoSolver
+from EuleroSolver import EuleroSolver
+from MosaicSolver import MosaicSolver
 
 from typing import Dict, Any
 
@@ -12,7 +19,14 @@ class SolverFactory:
         'Akari': AkariSolver,
         'Shikaku': ShikakuSolver,
         'Tent': TentSolver,
-        'Gappy': GappySolver
+        'Gappy': GappySolver,
+        "TennerGrid": TennerGridSolver,
+        "Binairo": BinairoSolver, 
+        "Pills": PillsSolver, 
+        "Dominos": DominosSolver,
+        "Buraitoraito": BuraitoraitoSolver,
+        "Eulero": EuleroSolver,
+        "Mosaic": MosaicSolver
     }
     
     @classmethod

@@ -20,7 +20,7 @@ if __name__ == "__main__":
     ]
     
     record = []
-    for pz_name in puzzle_names[-1: ]:
+    for pz_name in puzzle_names[: 1]:
         pbl_path, sol_path = f"../assets/data/{pz_name}/problems/", f"../assets/data/{pz_name}/solutions/"
 
         pz_ids = load_puzzles(pbl_path)

@@ -7,6 +7,67 @@ class AkariParser(BasePuzzleParser):
     def __init__(self):
         super().__init__("Akari")
     
+    def parse_from_json(self, puzzle_info: Dict, solution_info: Dict) -> Tuple[Optional[Dict], Optional[Dict]]:
+        try:
+            pbl_dict = self._parse_puzzle_string(puzzle_info.get("problem", ""))
+            if pbl_dict is None:
+                return None, None
+            
+            sol_dict = self._parse_solution_string(puzzle_info.get("solution", ""))
+            
+            return pbl_dict, sol_dict
+            
+        except Exception as e:
+            print(f"Error: Failed to parse puzzle data for {puzzle_info.get('id', 'unknown')}. Details: {e}")
+            return None, None
+    
+    def _parse_puzzle_string(self, content: str) -> Optional[Dict]:
+        try:
+            lines = content.strip().split('\n')
+            if not lines: 
+                print("Warning: Puzzle content is empty")
+                return None
+                
+            num_line = lines[0]
+            m, n = num_line.strip().split(" ")
+            grid_lines = lines[1 : 1 + int(m)]
+            grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
+            
+            return {
+                "num_rows": int(m), 
+                "num_cols": int(n), 
+                "grid": grid
+            }
+
+        except (ValueError, IndexError) as e:
+            print(f"Error: The Puzzle content is malformed. Details: {e}")
+            return None
+    
+    def _parse_solution_string(self, content: str) -> Optional[Dict]:
+        if not content:  
+            return None
+            
+        try:
+            lines = content.strip().split('\n')
+            if not lines: 
+                print("Warning: Solution content is empty")
+                return None
+                
+            num_line = lines[0]
+            m, n = num_line.strip().split(" ")
+            grid_lines = lines[1:1 + int(m)]  
+            grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
+            
+            return {
+                "num_rows": int(m), 
+                "num_cols": int(n), 
+                "grid": grid
+            }
+
+        except (ValueError, IndexError) as e:
+            print(f"Error: The Solution content is malformed. Details: {e}")
+            return None
+    
     def parse(self, pbl_path: str, sol_path: str) -> Tuple[Optional[Dict], Optional[Dict]]:
         pbl_dict = {}
         sol_dict = {}

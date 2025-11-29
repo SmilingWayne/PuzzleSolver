@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class AkariCrawler(GridCrawler):
+class PfeilzahlenCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -119,8 +119,8 @@ class AkariCrawler(GridCrawler):
                     rows = problem_text.split("\n")
                     matrix = [row.split() for row in rows]
 
-                    num_rows = len(matrix)
-                    num_cols = len(matrix[0]) if num_rows > 0 else 0
+                    num_rows = len(matrix) - 2
+                    num_cols = len(matrix[0]) - 2 if num_rows > 0 else 0
                     
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
                     problem_str = f"{num_rows} {num_cols}\n{problem_text}"

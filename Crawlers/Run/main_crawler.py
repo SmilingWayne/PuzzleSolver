@@ -2,12 +2,16 @@ from AkariCrawler import AkariCrawler
 
 if __name__ == "__main__":
     data = {
-        "saved_folder": "Akari",
-        "index_url": "https://www.janko.at/Raetsel/Fillomino/index.htm"
+        "puzzle_name": "Akari",
+        "index_url": "https://www.janko.at/Raetsel/Akari/index.htm",
+        "root_url": "https://www.janko.at/Raetsel/Akari/"
     }
     crawler = AkariCrawler(data = data)
     ret = crawler.get_puzzle_indexes()
-    print(len(ret['class_sv']), len(ret['other']))
+    # print(ret)
+    ret_ = crawler.get_puzzles_from_batch(ret)
+    crawler.save_puzzles_to_folder(ret_)
+    
     # print(ret['class_sv'], ret['other'])
     
     

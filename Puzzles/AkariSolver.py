@@ -24,8 +24,8 @@ class AkariSolver(PuzzleSolver):
             raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
         if self.grid.num_cols != self.num_cols:
             raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
-        if self.num_rows < 7 or self.num_cols < 7:
-            raise ValueError(f"Akari grid must be at least 7x7, got {self.num_rows}x{self.num_cols} instead.")
+        # if self.num_rows < 7 or self.num_cols < 7:
+        #     raise ValueError(f"Akari grid must be at least 7x7, got {self.num_rows}x{self.num_cols} instead.")
         
         allowed_chars = {'-', 'x', '0', '1', '2', '3', '4'}
 

@@ -21,7 +21,7 @@ if __name__ == "__main__":
     ]
     
     record = []
-    for pz_name in puzzle_names[-1: ]:
+    for pz_name in puzzle_names[0: 1]:
         pzl_dir = get_asset_path(f"data/{pz_name}/problems/{pz_name}_puzzles.json")
         sol_dir = get_asset_path(f"data/{pz_name}/solutions/{pz_name}_solutions.json")
 

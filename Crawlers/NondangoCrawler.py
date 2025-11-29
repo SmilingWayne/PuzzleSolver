@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class AkariCrawler(GridCrawler):
+class NondangoCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -98,10 +98,12 @@ class AkariCrawler(GridCrawler):
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[areas\])"
+                        region_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[areas\])"
+                        region_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
@@ -114,6 +116,7 @@ class AkariCrawler(GridCrawler):
                     page_source = response.text
 
                     problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
+                    region_text = re.search(region_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
                     rows = problem_text.split("\n")
@@ -123,7 +126,7 @@ class AkariCrawler(GridCrawler):
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
                     
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols}\n{problem_text}"
+                    problem_str = f"{num_rows} {num_cols}\n{problem_text}\n{region_text}"
                     solution_str = f"{num_rows} {num_cols}\n{solution_text}"
                     
                     puzzles_ret['puzzles'][pzl_name] = {

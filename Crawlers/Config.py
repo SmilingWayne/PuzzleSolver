@@ -7,7 +7,7 @@ class CrawlerConfig:
             'Connection': "keep-alive",
             'Cookie': "index=2; rules=2; genre=2; https__www_janko_at_Raetsel_Slitherlink_0312_a_htm_0=aFxkQXTcYdfwiUew",
             'Host': "www.janko.at",
-            'Referer': "https://www.janko.at/Raetsel/Akari/index.htm",
+            'Referer': "https://www.janko.at/Raetsel/Norinori/index.htm",
             'Sec-Fetch-Dest': "document",
             'Sec-Fetch-Mode': "navigate",
             'Sec-Fetch-Site': "same-origin"

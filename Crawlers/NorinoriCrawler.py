@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class PfeilzahlenCrawler(GridCrawler):
+class NorinoriCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -91,23 +91,18 @@ class PfeilzahlenCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic_t in all_pzls[:1]:
+            for dic in all_pzls:
                 time.sleep(0.75 + random.random())
-                dic = {
-                    "type": "class_sv",
-                    "href": "https://www.janko.at/Raetsel/Pfeilzahlen/111.a.htm",
-                    "text": "Pfeilzahlen"
-                }
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
@@ -118,20 +113,20 @@ class PfeilzahlenCrawler(GridCrawler):
                     response.encoding = 'utf-8'
                     
                     page_source = response.text
-                    print(page_source)
-                    # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
+
+                    problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
-                    rows = solution_text.split("\n")
+                    rows = problem_text.split("\n")
                     matrix = [row.split() for row in rows]
-                    pbl_matrix = [row.split()[1:-1] for row in rows[1: -1]]
-                    problem_text = "\n".join([" ".join(row) for row in pbl_matrix])
-                    num_rows = len(matrix) - 2
-                    num_cols = len(matrix[0]) - 2 if num_rows > 0 else 0
+
+                    num_rows = len(matrix)
+                    num_cols = len(matrix[0]) if num_rows > 0 else 0
                     
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
                     problem_str = f"{num_rows} {num_cols}\n{problem_text}"
                     solution_str = f"{num_rows} {num_cols}\n{solution_text}"
+                    
                     
                     puzzles_ret['puzzles'][pzl_name] = {
                         "id": pzl_name, 

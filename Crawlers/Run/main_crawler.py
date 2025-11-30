@@ -1,12 +1,15 @@
 from AkariCrawler import AkariCrawler
+from PfeilzahlenCrawler import PfeilzahlenCrawler
+from NorinoriCrawler import NorinoriCrawler
 
 if __name__ == "__main__":
+    target = "Norinori"
     data = {
-        "puzzle_name": "Akari",
-        "index_url": "https://www.janko.at/Raetsel/Akari/index.htm",
-        "root_url": "https://www.janko.at/Raetsel/Akari/"
+        "puzzle_name": f"{target}",
+        "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/{target}/"
     }
-    crawler = AkariCrawler(data = data)
+    crawler = NorinoriCrawler(data = data)
     ret = crawler.get_puzzle_indexes()
     # print(ret)
     ret_ = crawler.get_puzzles_from_batch(ret)

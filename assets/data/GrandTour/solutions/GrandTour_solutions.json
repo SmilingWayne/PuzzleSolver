@@ -1,0 +1,2106 @@
+{
+  "solutions": {
+    "11_9x9": {
+      "id": "11_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - - - x\n- - x - x - x x x\nx - x - x - - - x\nx x x - x x - x x\n- - x - - - - x -\nx x x x - x x x x\nx - x - - x - - x\nx - x x - x x - x"
+    },
+    "285_9x9": {
+      "id": "285_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - - x\nx x x x x x x - -\nx - - - - - x x x\n- - x x x - - x -\nx x x - x x - x x\n- - - - - x - - x\nx - x x x x x x x\nx x x - x - x - x"
+    },
+    "295_9x9": {
+      "id": "295_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx - x - x - - - x\nx x x - x x x - x\nx - - - - - x - -\nx x x x x - x x x\n- x - - - - x - x\nx x - x x - x - x\nx - - - x - - - x\nx x x - x x x x x"
+    },
+    "344_9x9": {
+      "id": "344_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x - x x x x\nx - - x - x - - x\nx - x x - x x - x\nx - - x x x - - x\nx - x x - - - x x\nx - x - - x x x -\nx - - - x x - x x\nx - x x x - - x -\nx x x - x - x x x"
+    },
+    "227_11x11": {
+      "id": "227_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x x x\nx - x - x - x - - - x\n- - x - x - x x x - x\nx x x - x - - - x - -\nx - - - x - x - x x x\nx x - x x - x - - x -\n- x - x - - x x - x x\nx x - x x - - x - - x\nx - - - x x - x x - x\nx x x - - x - - x x x\nx - x x x x x - x - x"
+    },
+    "326_9x9": {
+      "id": "326_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x - x\n- x - x - - x - x\nx x - x x - - - x\nx - - - x - x x x\nx - x - x - x - -\nx x x - x - x x x\nx - - - x - - - x\nx x x - x x x x x\nx - x x x - x - x"
+    },
+    "336_9x9": {
+      "id": "336_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x x x\nx - - x - - - - x\nx - x x - x x x x\nx x x - - x - - x\n- - - - x x x - -\nx x x - x - x x x\n- - x - x - x - x\nx - x - - - - - x\nx x x x x x x x x"
+    },
+    "280_11x11": {
+      "id": "280_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x - x\nx - x - - x - - x - x\nx - x x - - - x x - x\nx x x - - x x x - - x\n- - - - x x - x x - x\nx x x x x - - - - - x\nx - x - x - x x x - x\nx - - - x - x - x x x\nx x x - x - x - - - -\nx - x - - - x - x - x\nx - x x x x x x x x x"
+    },
+    "249_11x11": {
+      "id": "249_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx x x - - - - - x - x\n- x - - x x x - x - x\nx x - x x - x - - - x\n- x - x - - x x x x x\nx x - x x - - - - - -\nx - - - x x x x - x x\nx x x - - - x - - - x\n- - x - x x x - x x x\nx - x - x - - - x - -\nx x x - x x x x x x x"
+    },
+    "139_11x11": {
+      "id": "139_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x x x x x\nx - - - - x - x - - -\nx x x x x x - x x x x\nx - - - - - - - - - x\nx - x x x x x - x x x\nx - - - - - x - x - -\nx - x x - x x - x x x\nx - - x - x - - - - x\nx x x x - x x x x - x\n- - x - - - - - x - x\nx x x x x x x - x x x"
+    },
+    "165_9x9": {
+      "id": "165_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x x x - x - x\nx - x - x x x - x\n- - - - - x - - x\nx x x - x x - x x\nx - x - x - - x -\n- - x - x x - x x\nx - x - - - - - x\nx x x x x x x x x"
+    },
+    "63_7x7": {
+      "id": "63_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x - x x - x\n- x - - x x x\nx x x x x - x\n- - x - - - x\nx x x x x - x\nx - x - - - x\nx - x x x - x"
+    },
+    "175_9x9": {
+      "id": "175_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\n- x - - x - x - -\nx x x x x - x x x\nx - - - - - - - x\nx - x x x x x x x\nx - x - - - - - -\nx - - - x - x x x\nx x x x x - - - x\nx - x - x x x x x"
+    },
+    "181_7x7": {
+      "id": "181_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x - x x x x\n- x x x - - x\nx x - x - x x\n- x - - - - -\nx x x - x x x\nx - x - - x -\nx - x x x x x"
+    },
+    "191_7x7": {
+      "id": "191_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x - x\nx x x - x x x\nx - x x x - x\n- - - - x - x\nx x x - x - x\n- - x - - - x\nx x x x x x x"
+    },
+    "203_9x9": {
+      "id": "203_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x - x x x x\nx x x - - x - - x\n- x - - x x x - x\nx x x - - - x - x\n- - x x x - x - x\nx - - - x - - - x\nx x x - x x x x x\nx - x - - - - - x\nx - x x x x x x x"
+    },
+    "213_9x9": {
+      "id": "213_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x - x - - - x\n- - x - x - x x x\nx x x - x - x - -\nx - - - x - x x x\nx x x - x - x - x\n- x - - x - - - x\nx x x - x - x x x\nx - x x x x x - x"
+    },
+    "268_11x11": {
+      "id": "268_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x - x x - x\nx x x x x - - - x x x\n- x - - - - x - - - x\nx x - x x x x - x x x\n- x - - - - x x x - x\nx x - x x x x - x - x\n- x - x - - - - - - -\nx x - x x x x - x x x\n- x - - x - x x x - x\nx x x - - - - - - - x\nx - x x x x x x x x x"
+    },
+    "73_5x5": {
+      "id": "73_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - x - x\nx - x - x\nx - x - x\nx - x - x"
+    },
+    "2_5x5": {
+      "id": "2_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\n- - x x x\nx x x - -\n- - x x x\nx x x - x"
+    },
+    "261_9x9": {
+      "id": "261_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\nx - - x - x - x -\nx x - x x x - x x\n- x - - - - - - x\nx x x - x x x - x\n- - x - - x - - x\nx - x x x x - x x\nx - - - - x - x -\nx x x x x x - x x"
+    },
+    "271_9x9": {
+      "id": "271_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x - x\n- x - - - - x - x\nx x x x - x x x x\n- x - x - - - - x\nx x - x x - x x x\n- x - - x - - - -\nx x x - x x x - x\n- - x - - - x - x\nx x x x x - x x x"
+    },
+    "67_11x11": {
+      "id": "67_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x x x\nx - - - x - x x x - x\n- - x - - - x - x - -\nx - x x x x x - - - x\nx x x - - - x - x x x\n- x - - x - x x x - x\nx x - x x x x - x - -\nx - - - - - x - x x x\nx x - x x x x - - - x\n- x - x - - x - x x x\nx x - x x - x - x - x"
+    },
+    "340_11x11": {
+      "id": "340_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x x x\nx - - x - - x - - - x\nx x - x - x x x x x x\n- x - x - - - - - - x\nx x - x x x - x x - x\n- x - - - x - - x - x\nx x - x - x - x x - x\nx - - x - x - - x - x\nx - x x - x x - x - x\nx x x - - - x - x - x\nx - x x x - x - x x x"
+    },
+    "250_11x11": {
+      "id": "250_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x x x - x\nx x x x x - x - x x x\nx - - - x - x - - - x\nx x x - - - x - x - x\nx - x x x x x x x - x\n- - - - - x - x - - x\nx x x x - - - - - x x\n- - - x x x x x - x -\nx x - - - - - x - x x\nx - - x x x - x - - x\nx x x x - x x x x x x"
+    },
+    "299_11x11": {
+      "id": "299_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x x x\nx x x x x - - - - - x\n- x - - - - x x - x x\nx x - x x x x - - x -\n- x - - x - x x x x x\nx x x - x - x - - x -\n- - x - - - - - x x x\nx x x - x x - x x - -\nx - - - x - - - x x x\nx - x x x - x - - x -\nx x x - x - x x x x x"
+    },
+    "121_9x9": {
+      "id": "121_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - x - x\nx - - - x - - - x\n- - x x x - x - -\nx x x - x - x x x\n- x - - - - - - x\nx x - x x x x - x\nx - - x - - x - x\nx x x x x - x x x"
+    },
+    "27_7x7": {
+      "id": "27_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - x - - - x\n- - x x x - x\nx x x - - - -\n- - x x x x x\nx x x - - - x\nx - x x - x x"
+    },
+    "225_9x9": {
+      "id": "225_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\n- x - - x - x - x\nx x x - - - x - x\n- - x x - x x - x\nx x x - - x - - x\n- x - - x x - x x\nx x x x x - - x -\nx - - - - - x x x\nx - x x x x x - x"
+    },
+    "235_9x9": {
+      "id": "235_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\nx - - x - - x - x\nx x - x x x x - x\nx - - - - - - - x\nx x x - x x x x x\n- - x - - - - - -\nx - x - x x x x x\nx - x - - - x - x\nx x x x x x x - x"
+    },
+    "59_13x13": {
+      "id": "59_13x13",
+      "difficulty": 0,
+      "source": "",
+      "solution": "13 13\nx x x x x - x x - x x x x\nx - - - x x x - - - - - x\nx - x x x - x x x x x x x\nx - x - x - x - x - x - x\n- - x - x - x - - - - - x\nx x x - - - x x x - x - x\n- - x x - x x - x x x - -\nx x x - - - - - x - x x x\n- - x x - x x x x - - - x\nx - x - - - - x - - x x x\nx x x x - x x x - x x - x\n- - x - - - x - - x - - x\nx x x x - x x - x x - x x"
+    },
+    "143_7x7": {
+      "id": "143_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - - - x x x\nx x x - - x -\n- - x x - x x\nx - - - - - x\nx - x x x - x\nx x x - x x x"
+    },
+    "45_9x9": {
+      "id": "45_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\nx - x x x - x - x\nx - - x - - - - x\nx - x x - x x x x\nx - - x - - - x -\n- - x x - x x x x\nx x x - - - - - x\n- - x - x x x x x\nx x x - x - x - x"
+    },
+    "55_9x9": {
+      "id": "55_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\n- - - x x x - - -\nx x - x - x x x x\n- x - - - x - - x\nx x x x - - - x x\n- - x - - x x x -\nx x x x x x - x x\n- x - - x - - - x\nx x - x x - x x x"
+    },
+    "153_7x7": {
+      "id": "153_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x x x\nx - x x x - x\nx - x - - - x\nx - - - x - x\nx - x x x - x\nx - x - x - x\nx x x - x x x"
+    },
+    "115_11x11": {
+      "id": "115_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x x - x x x x x\n- x - - x x x - - - -\nx x x x x - x x x x x\nx - - x - - x - x - x\nx x - x - x x - - - x\n- - - - - - x x x - -\nx x x x x x x - x x x\n- x - - - - - - - - x\nx x x x x x x - x x x\n- - x - - - x - - - x\nx x x x - x x x - x x"
+    },
+    "337_11x11": {
+      "id": "337_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x x x x - x x x\n- x - x - x - - x - x\nx x - x - x x x x - x\nx - - x - - - - - - -\nx - x x - x x x x x x\nx x x - - - x - - - x\n- x - - x - x x x - -\nx x - x x x x - x x x\nx - - - - - - - - - x\nx x x - x x x x x x x\nx - x x x - x - x - x"
+    },
+    "131_7x7": {
+      "id": "131_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - x\nx - - - - - x\nx x x - x x x\n- - x - x - -\nx - x - - - x\nx x x x x x x"
+    },
+    "328_11x11": {
+      "id": "328_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\n- - x - - - x - x x x\nx x x - x x x - x - -\nx - - - x - - - x - x\nx x x - - - x x x - x\nx - x x x - x - - - x\nx - - x - - x - x x x\n- - x x - x x - x - x\nx x x - - x - - - - x\nx - - - x x x x x x x\nx x x x x - x - x - x"
+    },
+    "26_7x7": {
+      "id": "26_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x - x x\nx - - x - - x\n- - x x x x x\nx x x - x - -\nx - - - x x x\nx x x - x - x\nx - x - x - x"
+    },
+    "256_9x9": {
+      "id": "256_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - - x\n- - x x x x x x x\nx x x - - - - - x\n- x - - x x x - x\nx x x - - - x x x\nx - x x x - - - x\nx - - - x - x - x\nx x x - x x x - x"
+    },
+    "246_9x9": {
+      "id": "246_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x x x x x\nx x x - x - x - x\n- x - - x - x - x\nx x x - x - x - -\nx - x - x - x x x\n- - x - x - - x -\nx - x x x x - x x\nx - - - - - - - x\nx x x x x x x x x"
+    },
+    "234_9x9": {
+      "id": "234_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x x x - x - x\n- - - - x - x - -\nx x x x x - x x x\nx - - - x - - - x\nx - x x x - x x x\nx - - - x - x - -\nx x x - - - x - x\nx - x x x x x x x"
+    },
+    "224_9x9": {
+      "id": "224_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\n- - x - - x - - x\nx x x - x x x - x\nx - - - x - - - -\nx x x - x x x x x\n- x - - - - - - x\nx x - x x x x - x\nx - - x - - x - x\nx x x x x - x x x"
+    },
+    "170_11x11": {
+      "id": "170_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x x x\nx x x x x - - - - x -\n- - - - - - x x x x x\nx x x x x - x - - x -\nx - - - x x x - x x x\n- - x - - - - - x - -\nx x x - x x x - x - x\n- - x - x - x x x - x\nx x x - x - - - - - x\nx - - - x - x x x - x\nx x x x x x x - x x x"
+    },
+    "54_7x7": {
+      "id": "54_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\n- x - - x - x\nx x x x x - x\n- - x - - - -\nx x x x x x x\nx - - - x - -\nx x x - x x x"
+    },
+    "44_7x7": {
+      "id": "44_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - x - - - -\nx x x x x x x\nx - - - - - -\nx x x x x x x\nx - x - - x -\nx - x x - x x"
+    },
+    "200_11x11": {
+      "id": "200_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\n- x - - x - - - - - x\nx x x - x x x x x x x\n- - x - - - - - - - x\nx - x - x - x - x - x\nx - - - x x x - x x x\nx x x - x - x - x - -\n- x - - x - x x x - x\nx x x - x - - - - - x\n- x - - x x x - x - x\nx x x x x - x x x x x"
+    },
+    "311_7x7": {
+      "id": "311_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x - x\nx x x - x x x\n- x - - x - -\nx x x - x - x\nx - x - x x x\nx - - - - x -\nx x x x x x x"
+    },
+    "301_7x7": {
+      "id": "301_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x - x x x x\n- x - x - - x\nx x x x x - x\n- x - - x - x\nx x x - - - x\n- - - - x x x\nx x x x x - x"
+    },
+    "89_11x11": {
+      "id": "89_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x - x x\n- x - - - x - - - x -\nx x - x x x x x - x x\n- x - - - - - - - - x\nx x - x x x x x x x x\nx - - x - - - - x - x\nx x x x x x - x x - x\n- - - x - - - x - - -\nx x x x x x - x x x x\n- x - x - - - - x - x\nx x - x - x x x x - x"
+    },
+    "40_11x11": {
+      "id": "40_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- - - x - - - - - - x\nx x x x x - x x x - x\n- - - - x x x - x - -\nx x x x x - x - - - x\n- - - - x - x x x x x\nx x - x x - x - - - x\nx - - - x - - - x x x\nx x x x x x - x x - -\nx - x - - - - - x x x\nx - x x x x - x x - x"
+    },
+    "198_11x11": {
+      "id": "198_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x - x x\nx - x x x - - x x x -\n- - - - - - x x - x x\nx x x x x x x - - x -\nx - - - - - - - x x x\nx - x x x - x x x - -\nx - x - x - - - x - x\nx - x - x x - x x - x\nx - x - - - - - x - x\nx - x - x x x - x - x\nx x x - x - x x x x x"
+    },
+    "152_7x7": {
+      "id": "152_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - x - - -\nx x - x x x x\n- x - - - - x\nx x - x x x x\nx - - x - - x\nx x x x - x x"
+    },
+    "142_7x7": {
+      "id": "142_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x x x\nx - x - x - x\nx - x - x - x\nx - x - x - -\nx - x - x x x\nx - x - - - x\nx x x x x x x"
+    },
+    "309_11x11": {
+      "id": "309_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x - x x\nx x x - - - x - - - x\nx - - - x x x - x x x\nx - x x x - - - x - -\nx - x - - - x x x - x\nx - x x x - x - - - x\nx - - - x - x - x x x\nx x x - x x x - x - x\n- x - - - - - - - - x\nx x x - x - x x x - x\nx - x x x x x - x x x"
+    },
+    "286_11x11": {
+      "id": "286_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x - x x x\nx x x x x - x - x - -\n- x - - - - x - x - x\nx x - x x x x - x - x\nx - - - - - x - x - x\nx - x x x - x - x - x\nx x x - x - - - x - x\n- x - - x x x - x x x\nx x x - - - x - - - x\n- - x - x - x - x - x\nx x x x x - x x x x x"
+    },
+    "120_7x7": {
+      "id": "120_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - x\nx - - - - - x\nx x - x x x x\nx - - - - - -\nx - x - x - x\nx x x x x x x"
+    },
+    "345_9x9": {
+      "id": "345_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - x -\nx x - x x x - x x\n- x - - x - - - x\nx x - x x x - x x\n- - - - - x - x -\nx - x x x x - x x\nx x x - - - - x -\nx - x x x x x x x"
+    },
+    "78_11x11": {
+      "id": "78_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx x x - x - - x - - x\n- x - - x - x x - x x\nx x - x x - - - - - x\nx - - - x x - x x x x\nx - x - - - - - - - x\nx x x - x x x x x x x\n- - x - - - x - - - -\nx x x x - x x x x x x\n- x - x - x - - x - x\nx x - x - x - x x - x"
+    },
+    "60_15x15": {
+      "id": "60_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x x x x - x x x x\nx - - - - x - - - x - - x - x\nx x x - x x x - x x x x x - x\nx - x - x - x - x - x - - - -\nx - - - - - x - x - x x - x x\nx - x - x x x - x - - - - x -\nx - x - - - x - x - x x x x x\nx - x x x x x - - - - - - - x\n- - x - x - x - x x x - x - x\nx x x - - - - - x - x - x - x\nx - x x x x x x x - x x x x x\n- - x - - x - x - - x - - - -\nx x x - x x - x x - x x x x x\nx - x - x - - x - - - - x - -\nx - x - x - x x - x x x x x x"
+    },
+    "294_9x9": {
+      "id": "294_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x x x\nx - x - x x x - -\nx x x - - - x x x\n- x - - x - - - x\nx x - x x x x - x\n- x - - x - - - x\nx x x x x - x x x\nx - - - - - x - x\nx x x - x x x - x"
+    },
+    "169_11x11": {
+      "id": "169_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x - x x - x x x\n- x - x x x - - x - x\nx x - x - x x x x - x\nx - - x - - - - - - x\nx x x x x - x - x x x\nx - x - x x x - x - x\nx - - - - - x - x - -\n- - x x x - - - x x x\nx x x - x x x - - - x\n- x - - - x - - x x x\nx x - x x x x x x - x"
+    },
+    "284_9x9": {
+      "id": "284_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx - x - - - - - x\nx x x x x - x x x\n- - - - x - x - -\nx x - x x - x x x\n- x - - - - - - x\nx x x x - x - x x\n- - - x - x x x -\nx x x x x x - x x"
+    },
+    "219_11x11": {
+      "id": "219_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - - - - - - - - - -\nx x - x x x x x x x x\n- x - x - - - - - - x\nx x - x x x x - x - x\nx - - - - - x - x - x\nx x - x x x x x x - x\n- x x x - - - - - - x\nx x - - - x x x x x x\n- - - x x x - - - - x\nx x x x - x - x x x x"
+    },
+    "212_7x7": {
+      "id": "212_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - - - - - x\nx - x x x - x\nx - x - x - x\nx - x - x - x\nx - x - x - x\nx x x - x x x"
+    },
+    "202_7x7": {
+      "id": "202_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - - - x x x\nx - x - - - x\nx x x - x - x\nx - x x x - x\n- - - - - - x\nx x x x x x x"
+    },
+    "107_11x11": {
+      "id": "107_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- x - - - - x - - - -\nx x x x x - - - x - x\n- x - - x x x - x x x\nx x - x x - x - x - -\n- - - - - - x x x x x\nx x x x x x x - - - x\nx - - - x - x x x - x\nx x - x x - x - x - x\n- x - - x - x - x - x\nx x - x x - x - x - x"
+    },
+    "277_11x11": {
+      "id": "277_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x x x - x\n- x - - x x x - x x x\nx x - x x - - - - - x\nx - - x - - x x x - x\nx - x x - x x - x x x\nx - x - - x - - - - -\nx x x x - x - x x x x\nx - - - - x - - x - -\nx x x x - x x - x x x\n- - x - - - - - - x -\nx x x x x x x x x x x"
+    },
+    "16_11x11": {
+      "id": "16_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- x - - - x - - - x -\nx x - x x x x x - x x\n- - - - x - - - - x -\nx x x x x x x x - x x\n- - - - - x - - - x -\nx x x x x x x x - x x\n- x - - - - x - - x -\nx x x x - x x x - x x\n- - x - - x - - - x -\nx x x x - x x x - x x"
+    },
+    "3_5x5": {
+      "id": "3_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - - x -\nx - x x x\nx - x - -\nx - x x x"
+    },
+    "72_5x5": {
+      "id": "72_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\nx - x x x\nx - x - -\nx - x x x\nx - x - x"
+    },
+    "62_5x5": {
+      "id": "62_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\nx - x x x\nx - - - x\nx - x x x\nx - x - x"
+    },
+    "126_11x11": {
+      "id": "126_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\n- - - - - - x - x - x\nx x x x x x x - x - x\nx - - - - x - - x - x\nx x x - x x - x x - x\nx - x - - x - x - - x\nx - x x - x - x x x x\nx - - x - x - - - - x\nx x - x - - - x x - x\n- x - x x x - x - - x\nx x - x - x x x x x x"
+    },
+    "310_11x11": {
+      "id": "310_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x - x x x\nx - x - - - x x x - x\nx x x - x - - - - - x\n- x - - x - x - x x x\nx x x x x x x - x - x\n- - - - - x - - x - -\nx x x x - x x - x x x\n- - - x - x - - - - x\nx x - x - x x x x - x\n- x - x - - - - - - x\nx x x x x x x x x x x"
+    },
+    "174_9x9": {
+      "id": "174_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x - x\n- x - x - - x x x\nx x - x x - - - x\nx - - - x - x - x\nx x x - x x x - x\nx - x - - - x - -\nx - x x x - x x x\nx - - - x - - - x\nx x x - x x x x x"
+    },
+    "164_9x9": {
+      "id": "164_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - x - - - x\n- - x - x - x x x\nx x x - x - x - x\n- x - - x - x - -\nx x x - x - x x x\n- - x - - - x - x\nx - x x x - - - x\nx x x - x x x x x"
+    },
+    "37_11x11": {
+      "id": "37_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x x x x\n- x - x - - - - - x -\nx x - x x - x x - x x\n- - - - x x x - - - x\nx x x x x - x x x x x\n- x - - - - - x - - x\nx x x - x x x x x - x\nx - - - - - - - x - x\nx x - x x x x x x - x\n- x - - x - - - x - x\nx x - x x x x - x - x"
+    },
+    "96_9x9": {
+      "id": "96_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - x - - - - - -\n- - x x x x x x x\nx - - - - x - - -\nx x x x x x x x x\n- - - x - - - x -\nx x x x x x - x x\nx - x - - x - x -\nx - x x - x - x x"
+    },
+    "86_9x9": {
+      "id": "86_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - x - x - x\nx x - x x - x - x\nx - - x - - x - -\n- - x x x - x - x\nx - - - x - x x x\nx x x x x - x - -\n- - x - x - x x x\nx x x - x - x - x"
+    },
+    "10_7x7": {
+      "id": "10_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x x x\nx x x x x - -\nx - x - x x x\n- - - - - x -\nx x x x x x x\nx - - - - - x\nx x x x - x x"
+    },
+    "106_9x9": {
+      "id": "106_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - - - x\n- - - - - - x x x\nx x x x x x x - -\n- - x - - - x - x\nx - - - x x x x x\nx x x x x - - - x\n- x - x - - x x x\nx x - x - x x - x"
+    },
+    "90_11x11": {
+      "id": "90_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x x x x\nx - - - x - - - x - x\nx - x - x x x x x - x\nx x x - - - - - - - x\nx - x x x x x x x - -\nx - - - - - x - x x x\nx - x x x x x - - - x\nx - - x - x - - x x x\nx x - x - x x - x - -\n- x - x - - x - x x x\nx x - x - x x - x - x"
+    },
+    "148_11x11": {
+      "id": "148_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\nx - - - - - x x x x x\nx x x x x - - - - x -\n- - - - x - x - x x x\nx x x x x - x - x - -\nx - - - - - x x x - x\nx x - x x - x - - - x\n- x - - x - x x x - x\nx x x - x - - - x - x\n- - - - x x x - x - x\nx x x x x - x x x x x"
+    },
+    "238_11x11": {
+      "id": "238_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x - x - x\nx - - x - - x - x x x\nx x - - - x x - - x -\n- x x x - - x - x x x\nx x - x x - x - - - x\n- - - - x - x - x x x\nx x x x x - x - - x -\nx - - - - - x x - x x\nx - x x x - - x - - x\nx - x - x - x x x - x\nx x x - x x x - x x x"
+    },
+    "226_9x9": {
+      "id": "226_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x - x\nx - x x x - x x x\nx - - x - - - x -\nx x - - - x x x x\n- x - x x x - - -\nx x - x - - - x x\nx - - - - x - - x\nx x x x x x x - x\nx - x - x - x x x"
+    },
+    "236_9x9": {
+      "id": "236_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x - x x\nx - x - - x x x -\n- - x x - - - x x\nx - - x x x - - -\nx - x x - x x x x\nx - x - - - - x -\nx - x x x x - x x\nx - - - - - - - x\nx x x x x x x x x"
+    },
+    "138_11x11": {
+      "id": "138_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x - x - x\nx - x - x x x - x x x\nx - x - - - x x x - x\nx x x x x - x - - - x\nx - - - - - - - x x x\n- - x x x x x x x - x\nx x x - x - - - - - x\nx - - - - - x x x - x\nx - x x x - - - x x x\nx - x - x x x - - - x\nx x x - x - x x - x x"
+    },
+    "248_11x11": {
+      "id": "248_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x x x\nx - x x x - - - - - x\nx - - - - - x x x - x\nx - x x x - x - - - x\nx - - - x - x - x x x\nx x - x x - x - - x -\n- x - x - - x x - x x\nx x - x x - - x - - x\nx - - - x x - x x - x\nx - x - - x - - x x x\nx x x x x x x - x - x"
+    },
+    "24_5x5": {
+      "id": "24_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - x - x\nx x x - x\n- - x - x\nx x x - x"
+    },
+    "244_9x9": {
+      "id": "244_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x - x x\nx - - - - x - x -\n- - x x x x - x x\nx x x - - x - - x\nx - - - x x x - x\nx x x - - - - - x\nx - x x x x x - x\nx - - - - x - - x\nx x x x - x x x x"
+    },
+    "254_9x9": {
+      "id": "254_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx - x - x - - - x\nx x x - x x x - -\n- x - - - - x x x\nx x - x x - - - -\n- x - - x x x x x\nx x - x x - - - x\nx - - - - - x x x\nx x x x x x x - x"
+    },
+    "47_11x11": {
+      "id": "47_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x - x x\n- - x - - x x x x x -\nx - x x - - x - - x x\nx x x - - x x x - - -\n- - x x x x - x x x x\nx - - - x - - - - - x\nx x x x x x - x x x x\n- - - x - - - x - - x\nx x x x x x - x - x x\nx - - x - x - x - - x\nx x - x - x - x - x x"
+    },
+    "122_9x9": {
+      "id": "122_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x - x x x x\n- x x x - x - x -\nx x - x x x - x x\n- x - - x - - - x\nx x x - - - x - x\n- - x - x x x - x\nx x x - - - x x x\nx - - - x - - - -\nx x x x x x x x x"
+    },
+    "34_9x9": {
+      "id": "34_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x - x - x\nx x x x x x x x x\n- x - - - x - x -\nx x - x x x - x x\nx - - - - - - - x\nx - x x - x x x x\nx - x - - - - - x\nx - x x x x x x x\nx - x - x - x - x"
+    },
+    "132_7x7": {
+      "id": "132_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - x\nx - - x - - x\nx x - x x - -\nx - - - x x x\nx - x - - - x\nx x x x x - x"
+    },
+    "8_7x7": {
+      "id": "8_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - x - x x x\nx - x - - - x\nx - x - x x x\nx - x - x - x\nx - x - x - x\nx - x - x - x"
+    },
+    "207_11x11": {
+      "id": "207_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - - - - - - - - - x\nx - x x x - x x x x x\n- - x - x x x - x - x\nx x x - - - - - - - x\nx - - - x - x x - x x\nx - x x x - x - - x -\nx - x - - - x - x x x\nx - x x - x x - x - -\nx - - x - x - - x - x\nx x x x - x x x x x x"
+    },
+    "303_9x9": {
+      "id": "303_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x - x - x\nx x x x x x x x x\nx - - x - - - - x\nx x - x x x x - x\n- x - - - - x - x\nx x - x x - x - x\nx - - - x - x - x\nx - x - x - x - -\nx x x x x - x x x"
+    },
+    "313_9x9": {
+      "id": "313_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x x x\nx x x - x x x - x\n- - - - - - - - x\nx x x x x x x - x\nx - - - - - x x x\nx x x - x - - x -\nx - x - x x - x x\nx - x - - x - - x\nx - x x - x x x x"
+    },
+    "46_9x9": {
+      "id": "46_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\nx - x - - x - - x\n- - x x x x x - -\nx - x - x - x x x\nx x x - - - - - x\n- x - - x x x - x\nx x x - x - x x x\nx - x - - - x - -\nx - x x - x x x x"
+    },
+    "269_11x11": {
+      "id": "269_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x - x\nx - x - x - - - x x x\nx - x - x x x - - x -\nx - x - - - x x - x x\nx - x x x x x - - - x\nx - - - - - - - x x x\nx x x - x x x x x - -\n- - x - x - - - - - x\nx - x - x - x x x x x\nx - x - - - - - - - x\nx x x x x x x x x x x"
+    },
+    "56_9x9": {
+      "id": "56_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- x - - - - x - -\nx x x - x x x x x\n- x - - x - - - x\nx x - x x x - x x\n- - - x - - - - x\nx x x x x x - x x\nx - - x - x - - x\nx x - x - x - x x"
+    },
+    "97_11x11": {
+      "id": "97_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- - x - - - x - - - -\nx x x - x x x - x x x\n- - x - - - x x x - -\nx x x - x - - - x - x\n- - x - x - x x x x x\nx x x x x - x - - - x\nx - x - x - x - x - -\nx - x - x - x x x x x\nx - x - x - - x - - x\nx - x - x - x x - x x"
+    },
+    "325_9x9": {
+      "id": "325_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x - x x x x\nx - - x - - - - x\nx x - x x x x x x\n- x - - - - - - x\nx x x x - x x x x\nx - x - - x - - -\nx - x - x x - x x\nx - x - x - - - x\nx - x x x x x x x"
+    },
+    "335_9x9": {
+      "id": "335_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x - x\nx - x - - - x x x\nx - x - x x x - x\nx - x - x - - - -\nx x x - x x - x x\n- x - - x - - - x\nx x x - x x x - x\n- x - - - x - - x\nx x x x - x x x x"
+    },
+    "317_11x11": {
+      "id": "317_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x x x x\n- - - x - x - - - - x\nx x x x - x x x x x x\nx - - - - - - - - - -\nx x x - x x x x - x x\n- x - - x - - x - - x\nx x x x x x - x x - x\n- x - - - - - x - - x\nx x - x x x - x x - x\n- x - - - x - - x - x\nx x x x x x x - x x x"
+    },
+    "298_11x11": {
+      "id": "298_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x x x - x x x x\nx - - x - x x x - - x\nx x x x - - - x x - x\n- x - - - x - - x - -\nx x - x x x x - x x x\n- x - x - - - - - - x\nx x - x x x - x x - x\n- x - - - x - - x - x\nx x - x x x x - x x x\n- x - x - x - - - - -\nx x x x - x x x x x x"
+    },
+    "12_9x9": {
+      "id": "12_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - x - - - - x\nx x - x x x x - x\n- x - - x - x - x\nx x - x x - x - -\n- x - - x - x - x\nx x x - x - x x x\n- - x - x - x - x\nx x x - x - x - x"
+    },
+    "296_9x9": {
+      "id": "296_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x - x\nx - x - x x x x x\nx - x - - - x - -\nx - x - x - x x x\nx x x - x - - - x\nx - - - x - x - x\nx - x - x x x - x\nx x x x x - x - -\nx - x - x - x x x"
+    },
+    "100_11x11": {
+      "id": "100_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\n- - x - x x x - x - -\nx x x - - - x - x x x\n- - x x x - - - - - -\nx x x - - - x x x x x\n- - x x x - x - x - -\nx - x - x - x - x x x\nx x x - - - x - - - x\nx - x x x x x - x x x\nx - x - - x - - x - -\nx - x x - x - x x x x"
+    },
+    "104_9x9": {
+      "id": "104_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - - x\nx - x x - x x x x\n- - - x - - x - x\nx x - x x x x - x\n- x x x - x - - x\nx x - x - x - x x\n- x - x - x - - x\nx x - x - x x - x"
+    },
+    "270_11x11": {
+      "id": "270_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x - x\nx x x - x - - - x x x\nx - x - x - x x x - x\nx - x - x - x - - - -\nx - x - x - x x x x x\nx - x x x - x - - - x\nx - - - x - - - x x x\nx - x - - - x x x - -\nx - x x x x x - - - x\nx - - - - - - - x - x\nx x x x x x x x x x x"
+    },
+    "262_9x9": {
+      "id": "262_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\nx - x - x - - x -\nx - x x x x - x x\nx - - - - - - - x\nx x x - x - x - x\n- - x - x x x x x\nx x x - - - - - -\n- x - - x - x - x\nx x x x x x x x x"
+    },
+    "272_9x9": {
+      "id": "272_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x - x\nx - x - x x x x x\nx - x - - - - - -\nx x x - x - x - x\nx - - - x x x x x\nx x x - - - - - x\n- - x - x x x - x\nx - x - x - x x x\nx x x x x - x - x"
+    },
+    "1_5x5": {
+      "id": "1_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - x\nx - - - x\nx x x - x\nx - x - x"
+    },
+    "182_7x7": {
+      "id": "182_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x - x\nx x x x x x x\nx - x - - x -\nx - x - x x x\nx - x - - - x\nx - x - x - x\nx - x x x - x"
+    },
+    "84_9x9": {
+      "id": "84_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\nx - x - x x x x x\nx - - - - - - - -\nx x - x x x - x x\n- x x x - - - - x\nx x - x x x x x x\nx - - - x - - - -\nx x x - x x x x x\nx - x - x - x - x"
+    },
+    "94_9x9": {
+      "id": "94_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\nx - x x x - - x -\nx - x - x - x x x\nx - - - x - - x -\nx x x - x x - x x\n- - x - - - - x -\nx x x - x x - x x\nx - x - x - - - x\nx - x - x x x x x"
+    },
+    "192_7x7": {
+      "id": "192_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - - - x - x\nx x x x x - x\n- - - x - - x\nx x - - - x x\n- x - x x x -\nx x x x - x x"
+    },
+    "166_9x9": {
+      "id": "166_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x - x - x\nx x x x x x x - x\nx - - - - - x x x\nx x x x x - - - -\nx - x - x x x x x\n- - - - - - - - x\nx x x x x x x - x\n- x - - - - x - x\nx x x - x x x x x"
+    },
+    "176_9x9": {
+      "id": "176_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x - x x x x\n- x - x - x - - x\nx x - x - x - x x\nx - - x - x - x -\nx x - x - x - x x\n- x - x - - - - x\nx x - x - x x x x\nx - - x - x - - x\nx x x x x x - x x"
+    },
+    "114_11x11": {
+      "id": "114_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x - x\n- - - - - - x - x x x\nx - x x x x x - - - x\nx x x - x - x - x x x\n- x - - - - - - x - x\nx x x - x x x - - - -\n- - x x x - - - x - x\nx x x - - - x x x x x\nx - x x x x x - x - -\nx - x - x - - - x x x\nx - x - x x - x x - x"
+    },
+    "334_9x9": {
+      "id": "334_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - x -\nx - x x x x - x x\nx - x - - x - - x\nx - x - x x - x x\nx - - - x - - - x\nx x - x x - x - x\nx - - x - - x - x\nx x x x - x x x x"
+    },
+    "324_9x9": {
+      "id": "324_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x - x - x - -\n- - x - x - x x x\nx x x - x - - - x\nx - - - x x x x x\nx x x - - - - - x\nx - x x - x x - x\nx - - x x x - - x\nx x - x - x x x x"
+    },
+    "347_11x11": {
+      "id": "347_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x - x x x\n- x - - x x x x x - x\nx x - x x - - - x - x\nx - - x - - x - - - x\nx - x x x - x x x x x\nx - x - - - - - - - -\nx - x - x x x x - x x\nx - x - - - - x x x -\nx - x x x x - x - x x\nx - - - - x - - - - x\nx x x x x x x x x x x"
+    },
+    "211_7x7": {
+      "id": "211_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - - - x - x\nx x x - x x x\nx - x - - - x\nx - x x x - -\nx - - - x x x\nx x x - x - x"
+    },
+    "201_7x7": {
+      "id": "201_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - - x - - -\nx x - x x x x\n- - - - - x -\nx x x x x x x\nx - - - - - x\nx x x x x - x"
+    },
+    "13_9x9": {
+      "id": "13_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - x - x - - - -\nx - x - x x x x x\nx - x - x - x - -\nx - x - - - x x x\nx - - - x - x - x\nx x - x x x x - x\n- - - - x - x - x\nx x x x x - x - x"
+    },
+    "329_11x11": {
+      "id": "329_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x - x x x x\nx - x - - x x x - - x\nx x x - x x - x - x x\n- - - - x - - x - - -\nx x x x x - x x - x x\nx - - - - - - x - - x\nx x x x x - x x x - x\n- - - - x - - x - - x\nx x x x x - x x x - x\nx - - - - - - - - - x\nx x x x x x x x x x x"
+    },
+    "346_9x9": {
+      "id": "346_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\n- - x - x - - - x\nx x x - x x x - x\nx - - - - - x x x\nx x x - x - - - x\n- - x - x x x - x\nx x x - x - x - x\nx - - - x - x - x\nx x x x x - x x x"
+    },
+    "287_11x11": {
+      "id": "287_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x - x x x x x x\nx x x - - x - - - - x\nx - x x - x x - x x x\nx - - x - - x - x - -\nx - x x x - x - x x x\n- - x - - - x - - - x\nx x x - x x x - x - x\nx - x - x - - - x - -\nx - x - x x - x x x x\nx - - - - x - - - - x\nx x x x x x x x x x x"
+    },
+    "308_11x11": {
+      "id": "308_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx - - x - x - - x - x\nx x - x - x x - - - x\n- x - x - - x x x - -\nx x - x x - - - x x x\nx - - - x - x - - - x\nx x - x x - x x x - x\n- x - - x x x - - - x\nx x - x x - - - x x x\nx - - - - - x x x - x\nx x x x x x x - x - x"
+    },
+    "105_9x9": {
+      "id": "105_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\n- - - x - - - - x\nx x x x - x x x x\n- x - - - - - - x\nx x - x - x x x x\nx - - x - - - - x\nx x x x x x x x x\nx - - - x - - - x\nx x x - x x x - x"
+    },
+    "273_9x9": {
+      "id": "273_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x - x x\n- x x x - x - x -\nx x - - - x - x x\n- x x - x x - - x\nx x - - - - - x x\nx - - x x x x x -\nx x - - - x - x x\n- x x x - - - - x\nx x - x x x x x x"
+    },
+    "263_9x9": {
+      "id": "263_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\nx - - - x - x - x\nx x x - x - - - x\n- - - - x - x x x\nx x x - x - - x -\nx - x - x - x x x\nx - - - x - - - x\nx x x x x x x - x\nx - x - x - x x x"
+    },
+    "95_9x9": {
+      "id": "95_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\n- - - x - - x - x\nx x x x x x x - x\n- x - - - x - - -\nx x - x x x - x x\n- x - - x - - - x\nx x - x x x x x x\nx - - x - x - x -\nx - x x - x - x x"
+    },
+    "193_7x7": {
+      "id": "193_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- x - - - x -\nx x x x - x x\n- x - - - - x\nx x - x x x x\n- x - - - - -\nx x x x x x x"
+    },
+    "88_11x11": {
+      "id": "88_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\n- - x - x x x - - - -\nx x x - - - x x x x x\nx - x - x x x - - x -\nx - - - - x - - x x x\nx - x x x x x - - - x\nx - - - - - x - x - x\nx - x - x x x - x x x\nx - x x x - x - - - x\nx - x - - - x - x x x\nx - x x x - x - x - x"
+    },
+    "183_7x7": {
+      "id": "183_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - - - - - -\nx x - x x x x\n- x - x - x -\nx x - x - x x\nx - - x - - -\nx x x x x x x"
+    },
+    "85_9x9": {
+      "id": "85_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - - - x - x\n- - x x x - x - x\nx x x - - - x - x\nx - x - x - x - -\n- - x x x - x - x\nx x x - - - x x x\n- - x x x - x - -\nx x x - x - x x x"
+    },
+    "220_11x11": {
+      "id": "220_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x - x x x x\nx x x - - x x x - - x\nx - x x - x - - - x x\nx - - x - - - x x x -\nx x - x - x x x - x x\nx - - - - x - - - - x\nx - x x x x - x x - x\nx - - x - - - - x x x\nx - x x - x - x x - -\nx - x - - x - x - - x\nx x x - x x x x x x x"
+    },
+    "177_9x9": {
+      "id": "177_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- - - - - - - - x\nx x x x x x - x x\nx - x - - x - - x\nx - - - x x x x x\nx x x - - - - x -\n- - x x x - x x x\nx - - - - - x - -\nx x x x x x x x x"
+    },
+    "199_11x11": {
+      "id": "199_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x - x\n- - - - x x x - x - x\nx x x x x - - - x - x\n- - - - - - x - x - x\nx x x x x - x x x - x\n- x - x - - x - - - x\nx x - x - x x - x x x\n- - - x - x - - - - x\nx x x x - x - x x x x\nx - - - - x - x - - x\nx x x x x x x x - x x"
+    },
+    "150_11x11": {
+      "id": "150_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x x x - x\nx x x - x - x - x x x\n- x - - x - x - x - -\nx x - x x - x - x x x\nx - - x - - x - - x -\nx - x x - x x x - x x\nx - x - - - - - - - x\nx - x - x x x - x x x\nx - x x x - x x x - x\nx - - - - - - - - - x\nx x x x x x x x x x x"
+    },
+    "71_5x5": {
+      "id": "71_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - -\n- - x x x\nx x x - -\nx - x x x"
+    },
+    "61_5x5": {
+      "id": "61_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - x - x\nx x x - x\nx - x - x\nx - x - x"
+    },
+    "312_7x7": {
+      "id": "312_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x - x\nx - x - x x x\nx - - - x - x\nx x x - x - x\n- - x - x - x\nx - x - - - x\nx x x x x x x"
+    },
+    "302_7x7": {
+      "id": "302_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x - x x\nx - - x - - x\nx x - x x x x\n- x - - - x -\nx x x - x x x\n- - x - - x -\nx x x - x x x"
+    },
+    "276_11x11": {
+      "id": "276_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x - x x x\n- x - x - - x x x - x\nx x - x x x x - - - x\n- x - - - - - - x - x\nx x x x x - x - x - x\n- - - x - - x - x - x\nx x - x x x x - x x x\n- x - - - - - - - x -\nx x - x x x - x x x x\n- x - x - x - x - - -\nx x x x - x x x x x x"
+    },
+    "330_11x11": {
+      "id": "330_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x - x x x\nx x x x x - x - - - x\nx - - - x - x x x x x\nx x x - - - - - - - x\nx - x - x x x x - x x\n- - x - x - - x - - -\nx x x - x x - x x x x\nx - - - - x - - - - x\nx x x x - - - x x - x\nx - - x - x x x - - x\nx x - x x x - x x x x"
+    },
+    "17_11x11": {
+      "id": "17_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x - x\nx - x - x x x - x x x\nx - - - - - - - - - x\n- - x x x x - x x - x\nx x x - x - - - x x x\n- - x - x x x x x - x\nx x x - - - x - - - x\n- - - - x x x x x - x\nx x x x x - x - x - x\n- - x - - - x - x - x\nx x x x x - x - x - x"
+    },
+    "255_9x9": {
+      "id": "255_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\nx - - - x x x - x\nx - x - - - x - x\nx - x - x - x x x\nx x x - x - - - x\n- - - - x - x - x\nx x x - x x x - x\nx - x - x - x - x\nx - x x x - x x x"
+    },
+    "245_9x9": {
+      "id": "245_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx - x - x - - - x\nx - x - x x x - x\nx - x - - - x - x\nx - x x x - x - x\nx - - x - - x - -\nx x x x x - x x x\n- x - - - - - - x\nx x - x x x x x x"
+    },
+    "123_9x9": {
+      "id": "123_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- x - - - - - - x\nx x - x x x x x x\nx - - x - - - - -\nx x - x x - x x x\n- x - - x - x - -\nx x x - x x x - x\nx - - - - - - - x\nx x x x x x x x x"
+    },
+    "79_11x11": {
+      "id": "79_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- x - x - - x - - - -\nx x - x x - x x - x x\n- - - x - - x - - - x\nx x x x x - x - x x x\nx - - - - - x x x - x\nx x x x - x x - - - x\nx - - - - - x x x - x\nx x - x - x x - x - x\n- x x x - x - - - - x\nx x - x - x x x - x x"
+    },
+    "25_5x5": {
+      "id": "25_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - -\nx - x x x\nx - x - -\nx - x x x"
+    },
+    "218_11x11": {
+      "id": "218_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x x x - x\nx x x x x x x - x - x\nx - - - - - - - x - x\nx - x x x x - x x - x\nx - x - - - - - x - x\nx - x x - x - x x - x\nx - - x x x - - x x x\nx x - x - x x - - - x\nx - - - - - x x - x x\nx - x - x - - x - x -\nx x x x x x x x - x x"
+    },
+    "168_11x11": {
+      "id": "168_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x - x\nx x x - - - x - x x x\nx - x x x - x - x - x\nx - - - x - - - - - x\nx x x - x - x x x - x\n- x - - - - x - x x x\nx x x - x x x - - - x\n- - x x x - - - x - x\nx - - - - - x x x x x\nx x x - x - - x - - -\nx - x x x x x x x x x"
+    },
+    "9_7x7": {
+      "id": "9_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - x\nx - x - - - x\n- - x x x - x\nx x x - x - x\n- - x - x - x\nx x x - x - x"
+    },
+    "58_11x11": {
+      "id": "58_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x x x x x x x x\n- x - - - - - x - x -\nx x x x x x - - - x x\n- - - - - x x x x x -\nx x x x x x - x - x x\n- - - x - x - x - - x\nx x x x - x - - - x x\n- x - - - - - x - x -\nx x x x x x x x - x x\n- x - - x - - x - x -\nx x - x x x - x - x x"
+    },
+    "239_11x11": {
+      "id": "239_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x - x - x\nx x x - x - x x x x x\nx - x x x - - - x - x\nx - - - - - x - - - x\nx x x x x - x - x x x\n- - - - x x x - x - x\nx x x - - x - - x - x\nx - x x x x x - x - -\nx - - - - - - - x x x\nx - x - x x x - - - x\nx x x - x - x x x x x"
+    },
+    "35_9x9": {
+      "id": "35_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - - - - - x\nx - x x x x x - -\n- - - - - - x x x\nx x x x x x x - -\n- - x - x - - - x\nx x x - x x x x x\nx - x - - x - x -\nx - x x - x - x x"
+    },
+    "133_7x7": {
+      "id": "133_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x - x\nx - x x x - x\nx - - - x - x\nx x x - - - x\n- - x x - x x\nx - - x - - x\nx x x x x x x"
+    },
+    "149_11x11": {
+      "id": "149_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\nx - - - - - x x x x x\n- - x x x x x - - x -\nx x x - x - - - x x x\nx - - - - - x - x - -\nx x x x x - x - x x x\nx - - - x - x x x - x\nx - x - x - - - - - x\nx x x - x x x x - x x\n- x - - - - - x - x -\nx x - x x x x x - x x"
+    },
+    "180_11x11": {
+      "id": "180_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- x - - - - - - - x -\nx x - x x x x - x x x\nx - - x - - x - - - -\nx - x x x - x x x x x\nx - x - - - - - - - x\nx - x - x x - x x x x\nx - x - x - - x - - -\nx - x - x x - x x x x\nx - x - - x - - - - x\nx x x x x x x x x - x"
+    },
+    "151_7x7": {
+      "id": "151_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x x x\nx - x - - x -\nx x x x - x x\n- - - - - x -\nx x x x - x x\n- - - x - - x\nx x x x x x x"
+    },
+    "141_7x7": {
+      "id": "141_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x - x - x x\n- x x x - - x\nx x - x x - x\n- x - - - - x\nx x - x x x x\nx - - - - - x\nx x x x x x x"
+    },
+    "257_11x11": {
+      "id": "257_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x - x x\nx - x x x - - x - - x\nx - - - x x - x - x x\nx - x - - x - - - x -\nx x x - x x x - x x x\n- x - - x - - - x - -\nx x - x x x - x x - x\nx - - x - - - x - - x\nx x - x x - x x - x x\n- x - x - - x - - - x\nx x - x x x x x x x x"
+    },
+    "127_11x11": {
+      "id": "127_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx x x - - - - - - - x\nx - - - x x x x x x x\nx - x x x - - - - - -\nx - x - - - x x x x x\nx - x x x - x - - - x\n- - - - x - x - x - x\nx x x x x - x - x - x\nx - - - - - x x x - x\nx - x x x - - - x - x\nx x x - x x x x x - x"
+    },
+    "36_11x11": {
+      "id": "36_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x x x x\n- x - x x x - - - - x\nx x - - - x x x x - x\n- - - x - - x - - - x\nx x x x x - x x - x x\nx - - - x x x - - x -\nx - x - - - x x - x x\nx x x - x - x - - - x\n- - x - x x x x x x x\nx x x - - x - x - x -\nx - x - x x - x - x x"
+    },
+    "69_15x15": {
+      "id": "69_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx - x - x - x - x - x x x x x\nx x x x x - x x x - - - x - x\n- - - - x x x - x x x - - - x\nx x - x x - x - x - x x - x x\nx - - - - - - - - - - x - - x\nx - x x x x x x x x x x x x x\nx x x - x - x - - - - - - - -\nx - - - - - x x x - x x x x x\nx x x x - x x - - - - - - x -\n- - x - - - x x x x x - x x x\nx x x x x - x - x - x x x - x\nx - x - x - - - - - - x - - -\n- - - - x - x - x x x x - x x\nx x x - - - x x x - - x - x -\nx - x x x x x - x x - x x x x"
+    },
+    "160_11x11": {
+      "id": "160_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x - x x\nx - - - - - - x - - x\nx x x - x x - x - x x\n- - x - - x x x - x -\nx - x x - x - - - x x\nx - - - - x - x - - x\nx - x x - x - x x x x\nx x x - - x - x - - x\nx - - - x x - - - x x\nx x x - x - - x x x -\nx - x x x x x x - x x"
+    },
+    "210_11x11": {
+      "id": "210_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x - x - x\nx - x x x - x x x x x\nx - - - - - - - - - x\nx - x x x x x - x x x\nx - x - x - x - x - -\nx - - - x - x - x - x\nx x - x x - x - x - x\n- x - - x - - - x - x\nx x x - x - x x x - x\n- - x - x - - - - - x\nx x x x x x x x x x x"
+    },
+    "338_11x11": {
+      "id": "338_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x x x x x\nx x x - x - x - - - x\n- - - - x - x - x x x\nx x x x x - x - - - -\n- x - - - - x - x x x\nx x x x - x x - x - x\nx - x - - x - - x - -\n- - x - x x - x x x x\nx x x - x - - - - - x\n- x - - x - x x x x x\nx x x x x x x - x - x"
+    },
+    "222_7x7": {
+      "id": "222_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x - x - -\nx - - - x - x\nx x x - x - x\nx - x - x x x\nx - x - - - x\nx - x x x x x"
+    },
+    "232_7x7": {
+      "id": "232_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x - x - x\nx - - - - - x\nx - x - x x x\nx x x x x - x\n- - - - - - x\nx x x x x x x"
+    },
+    "319_11x11": {
+      "id": "319_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\n- x - - - - x x x x x\nx x x - x x x - - - -\n- x - - x - - - x x x\nx x x - x x x - x - x\n- - - - - x - - x - -\nx x x x x x - x x - x\nx - - - x - - x - - x\nx x x - - - x x - x x\nx - x x x - x - - - x\nx - x - x x x x x x x"
+    },
+    "119_7x7": {
+      "id": "119_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- x - - - - -\nx x - x x x x\nx - - x - x -\nx - x x - x x\nx - x - - - -\nx x x x x x x"
+    },
+    "42_5x5": {
+      "id": "42_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\nx - x x x\nx - - - x\nx - x x x\nx - x - x"
+    },
+    "52_5x5": {
+      "id": "52_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - - - x\nx x x x x\n- x - x -\nx x - x x"
+    },
+    "144_9x9": {
+      "id": "144_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x x x - x\nx x x x x - x x x\n- x - - - - - x -\nx x x - x x x x x\nx - x - x - - - x\nx - x - - - x - x\nx - x x - x x - x\nx - - x - x - - x\nx x - x - x x x x"
+    },
+    "154_9x9": {
+      "id": "154_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\n- - x - - - x - x\nx - x - x x x - x\nx - x - x - - - -\nx x x - x x x x x\nx - - - - x - - x\nx - x x x x x - x\nx - - - - - - - x\nx x x x x x x x x"
+    },
+    "99_11x11": {
+      "id": "99_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\nx - - - x - x x x x x\n- - x x x - - - - - -\nx x x - x x x x x x x\n- - x - - - x - - - x\nx - x - x x x - x x x\nx x x - x - x - x - -\n- x - - - - - - x x x\nx x - x x x x x x - x\nx - - - - - x - x - x\nx x x x - x x - x - x"
+    },
+    "30_7x7": {
+      "id": "30_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - - x - x\nx x x x x - -\n- - - - x x x\nx x x x x - x\nx - - - x - x\nx - x x x - x"
+    },
+    "136_9x9": {
+      "id": "136_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - x - x\n- - x x x - - - x\nx x x - x x x - x\nx - - - - - x x x\nx - x x x - - - x\nx - x - x x x - x\nx - x - - - x - x\nx x x x x - x - x"
+    },
+    "188_11x11": {
+      "id": "188_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x - x x x\nx - x - x x x - x - x\nx - x - x - - - x - x\nx - x - x x x - x - x\nx x x - x - x - x - x\nx - - - x - x x x - x\nx x x - - - - - - - x\n- x - - x x x x x x x\nx x - x x - - - - - x\n- x - x - - x x x - -\nx x - x x x x - x x x"
+    },
+    "117_11x11": {
+      "id": "117_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x - x - x\n- - x x x x x x x x x\nx x x - - - - - - - -\n- - x x x x x x x - x\nx x x - - - x - x x x\nx - x x - x x - - x -\nx - x - - - x x - x x\n- - x - x x x - - - x\nx x x - x - - - x x x\n- - x - x x x - x - -\nx x x - x - x - x x x"
+    },
+    "267_11x11": {
+      "id": "267_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x - x x x\n- x - - x x x - - - x\nx x - x x - x x x - x\n- - - x - - - - x - x\nx x - x x x - x x x x\nx - - x - x - - - - -\nx - x x - x x x x x x\nx - - - - - x - - - x\nx x x x x - - - x x x\n- - - - x - x x x - x\nx x x x x x x - x - x"
+    },
+    "292_7x7": {
+      "id": "292_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x - x\nx x x - - - x\nx - - - x x x\nx x x - x - -\nx - x - x x x\nx - x - - x -\nx - x x x x x"
+    },
+    "204_9x9": {
+      "id": "204_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x x x\n- x x x - - - x -\nx x - x x - x x x\n- x - - x - - - -\nx x x - x x x x x\n- - - - - - - - x\nx x x x x x x x x\n- x - - - - - - x\nx x x - x x x x x"
+    },
+    "214_9x9": {
+      "id": "214_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - x - - - - x -\nx - x x x - x x x\n- - - - x - - - -\nx x x x x - x x x\nx - - - x - x - -\nx x x - x - x - x\nx - x - - - x - x\nx - x x x x x x x"
+    },
+    "68_11x11": {
+      "id": "68_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x - x\n- - x - - - - - x x x\nx x x - x x x x x - x\nx - - - - - - - - - x\nx x x x x x - x x x x\nx - - - - - - - - - x\nx x - x x x x x x - x\n- x - - x - - - - - -\nx x x x x x x x x x x\n- - x - x - - - x - -\nx x x - x x - x x x x"
+    },
+    "70_15x15": {
+      "id": "70_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x - x - x x x x - x - x x x\n- x - x - - x - x x x - x - x\nx x - x x x x - - - x - - - x\n- x - x - - - - x x x - x - x\nx x - x x - x - - - - - x x x\n- x - - x x x x - x x - x - -\nx x x x x - - - - - x - x - x\nx - - - x x x x x x x - x x x\n- - x - x - - - - - x - x - -\nx - x x x x x - x - x - x x x\nx - - - x - - - x - x x x - -\nx x x x x x x - x - - - x x x\n- - - x - - x - x - x - - - -\nx - x x x - x x x x x x x x x\nx x x - x - x - x - x - x - x"
+    },
+    "5_5x5": {
+      "id": "5_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - x - -\nx x x x x\nx - x - x\nx - x - x"
+    },
+    "321_7x7": {
+      "id": "321_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x - x x\nx x x - - - x\nx - x - x x x\nx - x x x - -\nx - - - - - x\nx - x - x - x\nx x x x x x x"
+    },
+    "179_11x11": {
+      "id": "179_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x x x x x\nx - x x x x x - - - x\n- - - - - - x x - x x\nx x x x x - - x - x -\nx - - - x x - x - x x\nx x x - - x - - - - x\n- - x x - x x - x x x\nx - - - - - x - x - x\nx x x x x - x x x - x\n- x - - x - - - - - x\nx x x - x x x x x x x"
+    },
+    "331_7x7": {
+      "id": "331_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - - - - - x\n- - x x x x x\nx x x - - - x\nx - - - x x x\nx x x - - x -\nx - x x - x x"
+    },
+    "209_11x11": {
+      "id": "209_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\n- - - - x - x - - - x\nx x x x x - x - x - x\nx - - x - - x - x - x\nx x - x - x x - x - -\n- x - x - x - - x x x\nx x - x - x - x x - x\nx - - - - x - - x - -\nx x x - x x - x x x x\n- x - - x - - - - - x\nx x x x x x x x x x x"
+    },
+    "29_7x7": {
+      "id": "29_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - - x - x\nx x x x x - -\n- x - - - - x\nx x x x x x x\nx - x - - - -\nx - x x x x x"
+    },
+    "64_9x9": {
+      "id": "64_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- - x - x - - - -\nx - x - x x - x x\nx x x - - x x x -\nx - - - x x - x x\nx - x - x - - x -\nx x x - x x - x x\n- - x - x - - x -\nx x x - x x - x x"
+    },
+    "162_7x7": {
+      "id": "162_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x - x x\nx - - x - x -\nx x - x - x x\nx - - x - - x\nx x - x x x x\n- x - - - - x\nx x x x x x x"
+    },
+    "80_11x11": {
+      "id": "80_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x - x\nx - x - x - x - x x x\nx - x - x - x - - - -\nx - x - - - x x - x x\nx - - - x - - x - x -\nx - x - x x x x x x x\nx x x x x - - - - - x\n- x - - x x x x x - x\nx x - x x - x - x - x\nx - - x - - x - x - x\nx x - x - x x - x - x"
+    },
+    "172_7x7": {
+      "id": "172_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x x x\nx x x - x - -\nx - - - x x x\nx x x - - - x\nx - x x x - x\nx - - - - - x\nx x - x x x x"
+    },
+    "74_9x9": {
+      "id": "74_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\nx - x x x - - x -\nx - - - x x - x x\nx - x - x - - x -\nx - x x x - x x x\nx - x - - - - - -\nx - x x x x - x x\nx - x - x - - - x\nx - x - x x x x x"
+    },
+    "158_11x11": {
+      "id": "158_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x - x\nx x x - x - x - x x x\nx - - - x - x - x - x\nx x x x x - x - - - x\n- - - - - - x x - x x\nx x x x x - - x - - -\n- x - x - - x x x x x\nx x - x x - - - - - x\nx - - - x x x - x x x\nx - x - - - x - x - x\nx x x - x x x x x - x"
+    },
+    "186_9x9": {
+      "id": "186_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - - - x\n- x - - x x x - x\nx x x - x - x - -\nx - - - x - x x x\nx x x - - - - - x\n- - x - x x x x x\nx - x - - - - - -\nx x x x x x x x x"
+    },
+    "196_9x9": {
+      "id": "196_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - x -\nx x - x x x - x x\n- x - - - x - x -\nx x x - x x - x x\n- - x - x - - - x\nx x x - x x x - x\n- - - - x - x - x\nx x x x x - x x x"
+    },
+    "228_11x11": {
+      "id": "228_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x x x x x\nx - x x x x x - - x -\nx - x - x - x - x x x\n- - - - x - - - x - -\nx x x x x - x - x - x\nx - - - x - x - x - x\nx x - x x - x - x - x\n- x - - - - x - x x x\nx x x x - x x - - - x\n- x - x - x - - x - x\nx x - x x x - x x x x"
+    },
+    "282_9x9": {
+      "id": "282_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x x x x x - x\nx - - - - - x - x\n- - x x x - - - x\nx x x - x x x - x\nx - - - - - x - x\nx - x x x - x - x\nx - - - x - x - x\nx x x x x - x x x"
+    },
+    "343_9x9": {
+      "id": "343_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\n- x - - x - - - x\nx x - x x - x x x\nx - - x - - - - -\nx - x x - x x - x\nx - x - - - x x x\nx - x - x x x - x\nx - x - - - x - x\nx x x x x x x - x"
+    },
+    "300_11x11": {
+      "id": "300_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x - x\nx x x x x - - - x - x\n- - - - - - x - x - x\nx - x x x x x - x - x\nx x x - x - - - x - x\nx - - - - - x x x - x\nx x x x x - x - - - x\n- x - - x x x - x x x\nx x x - - - - - x - x\nx - - - x x x x x - x\nx x x x x - x - x - x"
+    },
+    "290_11x11": {
+      "id": "290_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x x x x\nx - x - - x - x - - x\nx - - - x x - x x - -\nx x x - x - - - x x x\n- x - - x x x - - - x\nx x x - - - x x - x x\n- x - - x - - x - x -\nx x x x x - x x - x x\nx - x - x - x - - - x\nx - x - - - x - x - x\nx - x x x x x x x x x"
+    },
+    "259_11x11": {
+      "id": "259_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x - x - x\nx - - - - - x x x x x\nx - x x x - x - x - x\nx - x - x - - - - - x\nx - x - x - x x x - x\nx - x - x x x - x - -\nx x x - - - - - x x x\nx - - - x x x - - - x\nx x - x x - x - x x x\n- x - x - - x x x - x\nx x - x x - x - x - x"
+    },
+    "342_7x7": {
+      "id": "342_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - - - x - -\nx - x x x - x\nx - x - - - x\nx - x - x x x\nx - x - x - x\nx x x x x - x"
+    },
+    "129_11x11": {
+      "id": "129_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x - x x x\nx - x x x x x - x - -\nx - x - x - x - x - x\n- - - - x - x - x - x\nx x x x x - x x x - x\nx - - - x - x - x - x\nx x x - - - - - - - x\nx - x x x x x x - x x\nx - - - - - x - - x -\nx x x - x - x - x x x\nx - x x x - x x x - x"
+    },
+    "38_11x11": {
+      "id": "38_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x - x x x\nx - - - x - x x x - -\nx - x - - - - x - - x\nx x x x - x x x x x x\n- - x - - - - - - - x\nx x x x x x x - x x x\n- - - - - - x x x - -\nx - x x x x x - - - x\nx x x - x - x x x x x\n- - x - x - - - x - -\nx x x - x x - x x x x"
+    },
+    "4_5x5": {
+      "id": "4_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - - - x\nx x - x x\n- x - - x\nx x - x x"
+    },
+    "237_11x11": {
+      "id": "237_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x x x x x\nx x x x x x x - - - x\n- x - - x - - - x x x\nx x x - - - x x x - x\n- x - - x x x - - - x\nx x - x x - - - x - x\n- x - x - - x x x - x\nx x - x x - - - x x x\nx - - - x x x - x - -\nx - x - - - x - - - x\nx x x x x - x x x x x"
+    },
+    "215_9x9": {
+      "id": "215_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x - x x\n- x - - - x x x -\nx x - x - - - x x\nx - - x x x - x -\nx x - x - x x x x\n- x - - - x - - -\nx x x - x x - x x\nx - x - x - - - x\nx - x - x x x x x"
+    },
+    "205_9x9": {
+      "id": "205_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x x x\n- x x x - - - - x\nx x - - - x x x x\nx - - x x x - x -\n- - x x - - - x x\nx x x - - x - - x\n- - - - x x x - x\nx x x - x - x - x\nx - x x x - x x x"
+    },
+    "173_7x7": {
+      "id": "173_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\n- x - - x - x\nx x x - x x x\n- - x - - - x\nx - x x x - x\nx - - - - - x\nx x x x x x x"
+    },
+    "75_9x9": {
+      "id": "75_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\nx - x x x - - - x\n- - x - x x - x x\nx - - - - - - - x\nx x x x - x x x x\n- - - x - - x - x\nx x x x x x x - x\n- x - x - x - - x\nx x - x - x - x x"
+    },
+    "65_9x9": {
+      "id": "65_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x - x\nx - x - x - x x x\nx - x - x - x - x\nx - - - - - - - x\n- - x x x x - x x\nx - x - - - - x -\nx x x x x x x x x\nx - x - - x - - x\nx - x x - x - x x"
+    },
+    "163_7x7": {
+      "id": "163_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\n- - - - x x x\nx x - x x - x\n- x - - x - x\nx x - x x - x\nx - - - - - x\nx x x x x x x"
+    },
+    "197_9x9": {
+      "id": "197_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x - x\nx - - - - - x - x\nx - x x x - x - x\nx - - - x - x - x\nx x x - x x x x x\nx - x - - - - - x\nx - x x x x x - -\nx - - - - x - - x\nx x x x - x x x x"
+    },
+    "187_9x9": {
+      "id": "187_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - x - x\n- - x x x - - - x\nx x x - x x x - x\nx - x - x - x x x\nx - - - - - - - x\nx x - x - x x - x\n- x x x - - x - x\nx x - x - x x x x"
+    },
+    "28_7x7": {
+      "id": "28_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - x - - - x\nx - x x - x x\nx - - x - - x\nx x - x - x x\nx - - x - x -\nx - x x - x x"
+    },
+    "77_11x11": {
+      "id": "77_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x - x - x\nx - x x x - - - x x x\n- - - - x x x - x - -\nx x x x x - x x x - x\n- - x - - - x - x x x\nx x x x x - x - x - -\n- - x - - - x - x x x\nx - x - x x x - x - x\nx x x - - - x - x - x\nx - x - x x x - x - x\nx - x - x - x - x - x"
+    },
+    "350_11x11": {
+      "id": "350_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x - x x\nx - - - - - - x - - x\nx - x x x - x x - x x\nx - x - x - x - - - x\nx x x - x - x x x - x\n- x - - x - - - x - x\nx x x - x x x - x x x\n- x - - - - x - - x -\nx x x - x - x x - x x\n- - x - x - - x - - -\nx x x x x x - x x x x"
+    },
+    "91_5x5": {
+      "id": "91_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - x - x\nx - x - x\nx - x - x\nx - x - x"
+    },
+    "81_5x5": {
+      "id": "81_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - - - x\nx x x - x\nx - x - x\nx - x - x"
+    },
+    "111_5x5": {
+      "id": "111_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - -\n- - x x x\nx x x - -\nx - x x x"
+    },
+    "101_5x5": {
+      "id": "101_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - x\nx - - - x\nx x x - x\nx - x - x"
+    },
+    "278_11x11": {
+      "id": "278_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx x x - - x - - - - -\nx - x - x x - x x x x\nx - x - - - - x - - x\nx - - - x x x x x - x\nx x x - - x - - - - x\nx - x x - x - x x x x\n- - - x - x - x - - -\nx x x x - x - - - x x\nx - - - - x - x - - x\nx x x x x x x x x x x"
+    },
+    "108_11x11": {
+      "id": "108_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x x x x x\nx x x x x - - - - x -\n- x - - - - x x x x x\nx x x x - x x - - - -\n- x - - - - x x x x x\nx x x x x - x - - - -\n- - x - - - x x - x x\nx x x x x - x - - - x\nx - - - x - x x x x x\nx x x - x - - x - x -\nx - x - x - x x - x x"
+    },
+    "19_11x11": {
+      "id": "19_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x - x x\nx - x x x - x - - x -\nx - - - x - x x x x x\n- - x x x - - - - - x\nx x x - x x - x x x x\n- - x - - - - - - x -\nx x x x x x - x x x x\nx - - x - x - - - - x\nx - x x - x x - x x x\nx - x - - x - - x - x\nx - x x - x - x x - x"
+    },
+    "293_9x9": {
+      "id": "293_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\nx - - - x - x x x\nx x x - x - - - x\n- - x - x x x - x\nx - - - - - x - x\nx - x - x - x - x\nx x x - x x x - x\nx - - - x - - - x\nx x x x x x x x x"
+    },
+    "283_9x9": {
+      "id": "283_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - x - - - - - x\nx - x x x - x x x\nx - - - x - - - x\nx x x - x x - x x\n- - - - - x - - -\nx x x - x x x x x\nx - - - - - - - x\nx x x x x x x x x"
+    },
+    "31_9x9": {
+      "id": "31_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- x - - - - - - x\nx x - x x x - x x\nx - - x - - - - -\nx x - x x x x x x\nx - - x - - - - x\nx x x x - x x x x\n- - - x - - x - -\nx x x x - x x x x"
+    },
+    "251_7x7": {
+      "id": "251_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x - x - x x\n- x - x - - x\nx x - x - x x\nx - - x - x -\nx - x x - x x\nx - x - - - x\nx x x x x x x"
+    },
+    "241_7x7": {
+      "id": "241_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - - - - x\nx x x x x x x\n- x - - - - -\nx x x x - x x\nx - x - - x -\nx - x x x x x"
+    },
+    "49_13x13": {
+      "id": "49_13x13",
+      "difficulty": 0,
+      "source": "",
+      "solution": "13 13\nx - x - x - x x x x x x x\nx x x x x x x - - - - - x\nx - x - x - x x - x x - x\nx - - - x - - x - - x - -\n- - x x x - x x x x x - x\nx - x - x - x - x - x x x\nx x x - - - - - - - x - -\n- - x - x x - x x x x x x\nx x x - - x - x - - x - x\nx - x - x x - - - x x - x\nx - x x x - - x - - x - x\nx - - - x x x x x - x - x\nx - x x x - x - x - x - x"
+    },
+    "240_11x11": {
+      "id": "240_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\n- x - - x x x - - x -\nx x x - x - x - x x x\nx - x - - - - - x - x\nx - x x x x x - - - x\nx - - - - - x x x - x\nx - x x x - - - x - -\nx - x - x x x - x x x\nx - x - x - x - - - -\nx - - - - - x - x x x\nx x x x x x x x x - x"
+    },
+    "316_9x9": {
+      "id": "316_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x - x x x x\nx - x - - - - - x\nx - x - x - x x x\nx - x - x x x - x\nx - x - x - - - -\nx - x - x - x x x\nx x x - x x x - x\n- x - - - - - - x\nx x x x x x x x x"
+    },
+    "289_11x11": {
+      "id": "289_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x - x x\n- x - x - - - x - x -\nx x - x x - x x - x x\n- - - x - - x - - - x\nx x x x - x x - x x x\nx - - x - x - - - x -\nx x - - - x - x x x x\n- x x x - x - - - - x\nx x - x - x x x x x x\nx - - x - - - - - x -\nx x - x x x x x x x x"
+    },
+    "306_9x9": {
+      "id": "306_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x - x\nx x x - - - x - x\n- - - - x x x - x\nx x x - - - x - x\nx - x x - x x - x\nx - - x - x - - x\nx - x x - x x x x\nx - x - - - - - x\nx - x x x x x x x"
+    },
+    "130_11x11": {
+      "id": "130_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\n- x - - x - x - - - -\nx x x - x - - - x x x\n- x - - x x x - x - x\nx x x - - - x x x - x\n- - x x x - - - - - x\nx - - x - - x x x x x\nx x x x x - x - - - -\nx - - - - - x x x x x\nx - x x x - - - - - x\nx - x - x x x x x x x"
+    },
+    "233_9x9": {
+      "id": "233_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x x x\n- x - - x - x - -\nx x x x x - x x x\n- - - - - - - x -\nx x x x x x - x x\nx - - - - x - - x\nx x x x - x x x x\n- x - x - - - - x\nx x - x x x - x x"
+    },
+    "223_9x9": {
+      "id": "223_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\n- x - - x - - - x\nx x x - x x x - x\nx - x - - - x x x\nx - x x x - x - x\nx - - - x - - - x\nx - x - x x - x x\nx - x - - x - - x\nx x x x - x x - x"
+    },
+    "327_11x11": {
+      "id": "327_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - - - - - x - - - x\n- - x x x - - - x x x\nx x x - x x x x x - x\nx - - - - - - - - - x\nx - x - x - x x x - x\nx - x - x - x - x x x\nx - x - x - x - - - -\nx - x - x - x - x x x\nx x x - x - x - - x -\nx - x - x x x x x x x"
+    },
+    "155_9x9": {
+      "id": "155_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\n- x - - x - x - x\nx x x - x - x - x\nx - x - - - x - x\nx - x x x - x - x\nx - - - x x x - x\nx - x - - - - - x\nx - x - x - x - x\nx x x x x x x x x"
+    },
+    "53_7x7": {
+      "id": "53_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - - x - -\nx x x x x - x\n- x - - x x x\nx x - x x - x\n- x - - x - x\nx x - x x - x"
+    },
+    "43_7x7": {
+      "id": "43_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - -\nx - - x - - x\n- - x x x x x\nx x x - x - -\nx - - - x x x\nx x - x x - x"
+    },
+    "145_9x9": {
+      "id": "145_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x x - x\n- - x - x - x x x\nx x x - x - - - -\nx - - - x - x x x\nx x - x x - - - x\n- x - x - - x x x\nx x - x x - x - x\n- x - - x x x - x\nx x x x x - x - x"
+    },
+    "118_7x7": {
+      "id": "118_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x x x\nx - x x x - x\nx - - - - - x\nx x x - x - x\n- - x - x - x\nx x x - x - x\nx - x - x x x"
+    },
+    "21_5x5": {
+      "id": "21_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - x - -\nx x x x x\n- - x - x\nx x x - x"
+    },
+    "349_11x11": {
+      "id": "349_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x - x x x x\nx x x - - - - x - - x\nx - x - x x x x x - x\nx - - - x - - - - - x\nx - x x x - x x x - x\nx x x - - - x - x x x\nx - - - x x x - - - -\nx - x - - - - - x x x\nx x x - x x x x x - x\n- - x - - - - - - - x\nx x x x x x x x x x x"
+    },
+    "137_9x9": {
+      "id": "137_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x - x x\nx - x x x - - x -\nx - - - x x - x x\nx x x - - - - - x\nx - x x x x x - x\nx - - - x - - - x\nx x x - x x x - x\n- x - - - x - - x\nx x x x - x x x x"
+    },
+    "322_7x7": {
+      "id": "322_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x x x\nx x x - - - x\n- - x x - x x\nx - - x - - x\nx x - x x x x\n- x - - - x -\nx x x x x x x"
+    },
+    "332_7x7": {
+      "id": "332_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x x x\nx - x - - - x\nx - x x - x x\nx - - - - - x\nx x x x x x x\n- x - - - - -\nx x x x x x x"
+    },
+    "339_11x11": {
+      "id": "339_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x x x - x\nx - x - x - x - x x x\nx x x - x - x - - - x\nx - - - x x x x x - x\nx x x - - - - - - - x\nx - - - x x x x x x x\nx - x x x - x - x - x\nx - x - - - - - - - -\nx - x x x - x x x x x\nx - - x - - x - - - x\nx x - x x x x x x - x"
+    },
+    "6_7x7": {
+      "id": "6_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - x - - - -\n- - x - x - x\nx x x x x x x\nx - - - x - -\nx x x - x x x\nx - x - x - x"
+    },
+    "291_7x7": {
+      "id": "291_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\nx - - - - - x\nx - x x - x x\nx - - x - - x\nx x - x - x x\n- x - x - - x\nx x - x x x x"
+    },
+    "265_9x9": {
+      "id": "265_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - - - x\n- x - - x x - x x\nx x x - - x - - -\n- - x x - x x x x\nx - - x - - - - x\nx x - x x x - x x\nx - - - - x - x -\nx x x x x x - x x"
+    },
+    "275_9x9": {
+      "id": "275_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\n- - - - x x x - x\nx x x x x - x - x\nx - - - - - x - x\nx x - x x - x - x\n- - - x - - x - x\nx x - x - x x - x\n- x x x - x - - x\nx x - x x x x x x"
+    },
+    "103_5x5": {
+      "id": "103_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- x - - -\nx x x x x\nx - x - -\nx - x x x"
+    },
+    "98_11x11": {
+      "id": "98_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x x x x x\nx - x - x x x - - - -\nx x x - x - x x - x x\nx - - - - - - x - x -\nx - x x x - x x x x x\n- - - - x x x - - - x\nx x x - x - x x - x x\n- - x x x - - - - - x\nx x x - x x x x - x x\n- - x - - x - x - - x\nx x x x - x - x x - x"
+    },
+    "113_5x5": {
+      "id": "113_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\n- - x x x\nx x x - x\nx - - - x\nx x x - x"
+    },
+    "230_11x11": {
+      "id": "230_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x - x - x\nx - x - - - x x x - x\nx x x x - x x - x x x\nx - - - - x - - - - x\nx - x - x x - x x x x\nx x x - x - - - - x -\n- - x - x - x - x x x\nx - x - x x x - - - x\nx - x - - - x x x - -\nx x x x x - - - x x x\nx - x - x x x - x - x"
+    },
+    "189_11x11": {
+      "id": "189_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x - x x x\n- - x - x - x x x - x\nx x x - - - x - - - x\nx - - - x x x x x - x\nx - x x x - - - - - x\nx x x - - - x x x x x\n- x - - x x x - - - -\nx x x - x - - - x x x\n- - x - x - x x x - x\nx - x - - - - - - - x\nx x x x x x x x x x x"
+    },
+    "140_11x11": {
+      "id": "140_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x x x x x\n- - - x - - - - - - x\nx x x x x x - x x x x\nx - - - - - - x - - -\nx - x x x x - x - x x\nx x x - x - - x - - x\nx - - - x x - x - x x\nx x x - - x - x - x -\n- - x x - x - x - x x\nx - - x - x - x - - x\nx x x x - x x x x x x"
+    },
+    "281_9x9": {
+      "id": "281_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x x x\nx - x - x x x - -\nx - x - - - x x x\nx - x x x - x - x\nx x x - - - - - x\nx - - - x x x x x\nx x - x x - - - -\nx - - - - - x - x\nx x x x x x x x x"
+    },
+    "15_9x9": {
+      "id": "15_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\nx - x - x - x - -\nx - x - - - x x x\n- - x x x - - x -\nx x x - - - x x x\n- - x - x - x - -\nx x x x x x x x x\nx - x - - - x - x\nx - x x - x x - x"
+    },
+    "297_11x11": {
+      "id": "297_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x x - x x x\nx x x - x - x x x - x\nx - - - x - - x - - x\nx x x - x x - x - x x\nx - x - - x - x - - x\nx - x - x x - x x - x\n- - x - x - - - x - -\nx x x - x x x - x x x\nx - - - - - x - - - -\nx - x x x - x - x - x\nx x x - x x x x x x x"
+    },
+    "185_9x9": {
+      "id": "185_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x - x\n- x - x - - x x x\nx x - x x - x - -\n- x - - - - x x x\nx x - x x - - x -\nx - - - x - x x x\nx x x x x - x - x\n- - - - x - - - x\nx x x x x x x x x"
+    },
+    "195_9x9": {
+      "id": "195_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x - x x - x\n- x x x - - x x x\nx x - x x - x - -\n- x - - - - x x x\nx x - x x - - x -\n- x - - x - x x x\nx x x - x x x - x\n- - x - - - - - x\nx x x x x x x x x"
+    },
+    "318_11x11": {
+      "id": "318_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x x x - x\nx - x x x - - - x x x\nx - x - x x x - - - x\nx - x - - - x x x - x\nx x x - x - - - x - x\n- x - - x - x - x - x\nx x - x x x x - x - x\n- x - x - - - - x - x\nx x - x x x x - - - x\n- x - - - - x - x x x\nx x x x x x x x x - x"
+    },
+    "161_7x7": {
+      "id": "161_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x - x x x\nx x x x x - x\nx - x - x - -\nx - - - - - x\nx x x x x - x\nx - - x - - x\nx x - x x x x"
+    },
+    "171_7x7": {
+      "id": "171_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x - x\nx x x - x x x\nx - - - x - x\nx - x x x - x\nx - x - - - x\n- - x - x - x\nx x x - x x x"
+    },
+    "83_5x5": {
+      "id": "83_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x - x\nx x x x x\n- - - - x\nx x x x x\nx - x - x"
+    },
+    "93_5x5": {
+      "id": "93_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - x\nx - - - x\nx x x - x\nx - x - x"
+    },
+    "304_9x9": {
+      "id": "304_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x - x\nx - x x x x x x x\nx - x - - - x - x\n- - - - x x x - x\nx - x x x - - - x\nx x x - - - x - x\n- - - - x x x - x\nx - x - x - x x x\nx x x x x - x - x"
+    },
+    "314_9x9": {
+      "id": "314_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x x x\nx - x - x - - x -\nx - x - x x - x x\nx - x - - - - - x\nx - x - x - x x x\nx - x - x - x - x\nx - x - x x x - x\nx - x - - - - - x\nx x x x x x x x x"
+    },
+    "208_11x11": {
+      "id": "208_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\nx - - - x - - - x - x\nx - x - x x x - - - x\nx - x - - - x x x x x\nx x x - x - - - - x -\n- - - - x x x x - x x\nx x x x x - - x - x -\nx - - - - - x x - x x\nx x - x x x x - - x -\n- x - x - - - - x x x\nx x - x x x x x x - x"
+    },
+    "221_7x7": {
+      "id": "221_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x - x\nx - x - x - x\nx - x - - - x\nx - x - x x x\nx x x - - - x\n- x - - x x x\nx x x x x - x"
+    },
+    "178_11x11": {
+      "id": "178_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x x x x x x\nx - x - - x - - x - x\nx - - - x x x - x - -\nx x x - - - x - x x x\n- - x x x - - - - - x\nx - - - x - x x x x x\nx x x - x - x - - - -\nx - x x x - x x x x x\nx - - - - - x - - - x\nx - x - x - - - x x x\nx x x x x x x x x - x"
+    },
+    "231_7x7": {
+      "id": "231_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x - x - x\n- x - - x x x\nx x - x x - x\nx - - - - - x\nx x x x x - x\n- x - - - - x\nx x x x x x x"
+    },
+    "33_9x9": {
+      "id": "33_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x - x x\n- x - - x - - - x\nx x x - x x x x x\n- x - - - - - - -\nx x x x x - x - x\n- - x - x x x x x\nx x x - - - x - -\nx - x - x x x x x\nx - x - x - x - x"
+    },
+    "266_11x11": {
+      "id": "266_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x - x x x x x x x x\n- x x x - - - - - - x\nx x - - - x x x x - x\n- - - x - - x - x - x\nx x x x x x x - x - x\nx - - - - - x - - - x\nx x x x - x x x - x x\n- x - x - - - - - x -\nx x - x x x x x - x x\nx - - - - - - x - x -\nx x x x x x - x x x x"
+    },
+    "116_11x11": {
+      "id": "116_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x x x x x\nx - - x - - x - - x -\nx x - x x x x - x x x\n- - - - - - x - - - x\nx - x x x x x - x x x\nx x x - - - x - - x -\n- - x x x - - - x x x\nx x x - x - x - - - -\nx - x - x x x x x x x\nx - x - - - - x - - x\nx - x x - x x x - x x"
+    },
+    "320_11x11": {
+      "id": "320_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - x - - - - - - - x\nx - x x x - x x x - -\nx - - x - - x - x x x\nx x - x x - x - - x -\nx - - - x x x x - x x\nx - x - - - - - - - x\nx x x x x x x x x - x\n- - - - - - - - x - x\nx x x x x x x - - - x\nx - x - x - x x x x x"
+    },
+    "23_5x5": {
+      "id": "23_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - -\nx - x x x\nx - x - -\nx - x x x"
+    },
+    "247_11x11": {
+      "id": "247_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x x x x\nx - x - - x x x - x -\nx - x - x x - - - x x\nx - x - x - - x - - x\nx - x x x x - x x - x\nx - - - - x - - x - x\nx - x - x x x x x - x\nx - x - - - - - x - x\nx - x x x x x - - - x\nx - - - - - x x x x x\nx x x x x - x - x - x"
+    },
+    "243_9x9": {
+      "id": "243_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- - - - - - x - x\nx x x x x x x - x\nx - - - - - - - x\nx - x x - x x - x\nx - x - - x - - x\nx x x - x x - x x\n- - - - x - - x -\nx x x x x x x x x"
+    },
+    "253_9x9": {
+      "id": "253_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x - x\nx - x - x x x - x\nx x x - - x - - x\n- - - - x x - x x\nx x x x x - - x -\nx - - - - - x x x\nx x x x - x x - -\nx - x - - x - - x\nx - x x x x x x x"
+    },
+    "125_9x9": {
+      "id": "125_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x x x\n- x - x - - - - x\nx x - x x - x - x\nx - - - x - x x x\nx x - x x - - - -\n- x - - x x x x x\nx x x - x - - - x\n- - x - - - x x x\nx x x x x x x - x"
+    },
+    "135_9x9": {
+      "id": "135_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\nx - - x x x - - x\nx x - - - - - x x\n- - - x x x x x -\nx x x x - - - x x\nx - - - - x - x -\n- - x x x x - x x\nx x x - - - - - x\nx - x x x x x x x"
+    },
+    "147_9x9": {
+      "id": "147_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x - x x x\nx - x - x - x - x\nx - x - x - x - -\nx - x - - - x x x\nx - x - x - - x -\nx - x - x - x x x\nx x x - x x x - x\n- x - - - - - - x\nx x x x x x x x x"
+    },
+    "157_9x9": {
+      "id": "157_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x - x x x x x x\n- x - - x - - - x\nx x x - x x x - x\n- - x - - - x - x\nx - x x x - x - -\nx - - - x - x x x\nx - x - x - x - x\nx x x - x - - - x\nx - x x x x x x x"
+    },
+    "50_15x15": {
+      "id": "50_15x15",
+      "difficulty": 0,
+      "source": "",
+      "solution": "15 15\nx x x x x x x - x x x x x - x\n- x - - x - x - x - x - - - x\nx x - x x - x x x - x x x - x\nx - - - - - x - - - - - x x x\n- - x - x - - - x - x x x - -\nx x x x x x x x x x x - x - x\nx - - - - - x - x - x - x x x\nx x x x x - - - x - - - - - -\n- - - x - - x - - - x - x x x\nx x x x x x x x x x x x x - -\n- - x - - - x - - - x - x x x\nx x x x x - x x x - - - - x -\n- x - - x - - - x - x x x x x\nx x x - x x x - x - - - x - x\nx - x - x - x - x x x - x - x"
+    },
+    "41_5x5": {
+      "id": "41_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x - x x\n- x - x -\nx x x x x\n- - x - -\nx x x x x"
+    },
+    "48_11x11": {
+      "id": "48_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x - x x x - x\nx x x - x x x - x x x\n- - x - - x - - - x -\nx x x x - x x - x x x\nx - - - - - x - - - x\nx - x - x x x - x x x\nx - x x x - x - x - -\nx - - x - - - - x - x\nx - x x - x - x x x x\nx - x - - x - x - x -\nx - x x x x - x - x x"
+    },
+    "51_5x5": {
+      "id": "51_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - x - -\nx - x x x\nx - x - x\nx - x - x"
+    },
+    "229_11x11": {
+      "id": "229_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x x x x\nx - x - - - - x - - x\nx - x x x - x x x - x\nx - - x - - x - - - x\nx x - x - x x x x - x\nx - - x - x - - - - x\nx - x x - x - x x - x\n- - x - - x - x - - x\nx x x - x x - x x x x\nx - - - x - - - - - -\nx x x x x x x x x x x"
+    },
+    "159_11x11": {
+      "id": "159_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x - x x x - x\nx - - - x x x - x x x\nx - x x x - - - x - -\nx - x - - - x - x x x\nx x x x x x x - x - x\n- x - - x - x - - - x\nx x x - - - - - x x x\n- - - - x x x x x - x\nx x x x x - - - - - x\nx - - - - - x x x - x\nx x x - x x x - x x x"
+    },
+    "190_11x11": {
+      "id": "190_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x x x - x x - x\nx x x - - x - - x x x\nx - x - x x - x x - x\nx - - - x - - - - - x\nx x - x x x x - x x x\n- x - - - - x - x - -\nx x - x x - x - x x x\n- - - x - - x - x - x\nx - x x x - x - - - x\nx - x - x - x x x - x\nx x x - x x x - x x x"
+    },
+    "57_11x11": {
+      "id": "57_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x x - x x x x x x\nx x x - - - - - x - x\nx - x x x x x x x - x\n- - x - - x - - x - x\nx x x x - - - x x - x\n- - x - - x - x - - x\nx x x - x x - x x - x\n- - x - x - - - x - x\nx x x - x x x x x - x\n- - x - x - - - - - x\nx x x - x x x x x - x"
+    },
+    "315_9x9": {
+      "id": "315_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - x x x - x - x\nx - - - - - - - x\nx - x x x x - x x\nx x x - - x - x -\nx - - - x x - x x\nx - x x x - - - x\nx - x - - - x x x\nx - x x x x x - x"
+    },
+    "305_9x9": {
+      "id": "305_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x x x x x\nx x x - x - - - x\nx - x - - - x x x\nx - x x x - x - -\nx - - - x - x x x\nx x x - x - - x -\n- - x - x x - x x\nx - x - - - - - x\nx x x x x x x x x"
+    },
+    "128_11x11": {
+      "id": "128_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x x - x\nx - - x x x - - x x x\n- - x x - x x x x - x\nx x x - - - - - - - x\nx - x - x x - x x x x\nx - - - - x - x - - -\nx x x x - x x x - x x\nx - - x - - x - - - x\nx x - x x - - - x x x\n- x - - x x x - x - -\nx x x - x - x x x x x"
+    },
+    "252_7x7": {
+      "id": "252_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\n- x - - x - x\nx x x - x - x\n- - - - x - x\nx x - x x - x\nx - - x - - x\nx x x x x x x"
+    },
+    "258_11x11": {
+      "id": "258_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x - x\n- - - - - x - - x x x\nx x x x - x x - - - x\n- x - x - - x x - x x\nx x - x x - - x - x -\n- x - - x x - - - x x\nx x x - - x x x - - x\n- - x x - - - x - x x\nx - - x - x - - - - x\nx - x x x x x - x x x\nx x x - x - x x x - x"
+    },
+    "242_7x7": {
+      "id": "242_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x x x\n- - - - - - x\nx x x x x - x\nx - - - x - x\nx - x - x - x\nx - x - x - x\nx x x - x x x"
+    },
+    "32_9x9": {
+      "id": "32_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x x x x x\nx x x x x - - - -\n- x - - x x x x x\nx x x - x - x - -\nx - x - - - x x x\nx - x - x - x - -\nx - x x x - x x x\nx - x - - - x - x\nx - x x - x x - x"
+    },
+    "39_11x11": {
+      "id": "39_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x - x x - x\n- - x - - - - - x x x\nx x x x x x x x x - -\n- x - - - - - x - - x\nx x x x x x - x x x x\n- x - x - - - x - - x\nx x - x x x - x - x x\n- x - - - x - - - - x\nx x - x x x - x - x x\n- x - x - x x x - - -\nx x - x - x - x x x x"
+    },
+    "134_9x9": {
+      "id": "134_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x - x\nx x x - - - x - x\nx - - - x - x x x\nx x - x x x x - x\n- x - - - - - - -\nx x x x x x - x x\n- x - - x - - x -\nx x x - x - x x x\nx - x - x x x - x"
+    },
+    "124_9x9": {
+      "id": "124_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- - - - - x - - x\nx x x x x x - x x\n- x - - - - - x -\nx x - x x x - x x\n- x - x - x - - x\nx x - x - x x - x\n- x - x - - x - -\nx x x x x - x x x"
+    },
+    "109_11x11": {
+      "id": "109_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x - x x\nx - x - x x x - - x -\nx - x - - - - - x x x\nx - x x x x x x x - x\nx - - - - x - - - - x\nx - x x x x x x x - -\n- - x - - - x - x x x\nx x x - x - x - - - x\nx - - - x x x x - x x\nx x x - - - x - - - x\nx - x - x x x - x x x"
+    },
+    "279_11x11": {
+      "id": "279_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x - x\nx - - - x - - - x x x\nx x x - x - x - x - -\n- x - - x - x - x x x\nx x - x x - x - - - x\n- x - x - - x - x x x\nx x - x - x x - x - x\nx - - x - x - - x - -\nx - x x - x x - x x x\nx - x - - - x - - - x\nx x x x x - x x x x x"
+    },
+    "18_11x11": {
+      "id": "18_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x - x x\nx - - - x - x - - - x\n- - x x x - x - x x x\nx x x - - - - - x - -\n- - x x x x x x x x x\nx - - - - - x - x - -\nx x x x x - x - - - x\nx - - - - - x x x x x\nx x x x x x x - x - -\n- x - x - x - - x x x\nx x - x - x - x x - x"
+    },
+    "22_5x5": {
+      "id": "22_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x - x\nx - x x x\nx - x - -\nx - x x x\nx - x - x"
+    },
+    "156_9x9": {
+      "id": "156_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\n- - - - - - - x -\nx x x - x x x x x\n- - x - x - - - x\nx x x - x x x - x\n- x - - - - x - -\nx x x x x - x x x\n- - - - x - - - x\nx x x x x x x x x"
+    },
+    "146_9x9": {
+      "id": "146_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - - x\nx - x x - x x x x\nx - x - - x - - x\n- - x - x x x - x\nx x x - x - x - -\n- x - - - - x x x\nx x x x x - - - x\nx - x - x x x x x"
+    },
+    "167_11x11": {
+      "id": "167_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x - x x x x x - x\nx - x x x - x - x - x\nx - - - - - x - x x x\nx - x x x x x - - - x\nx - x - - - x - x x x\nx - x - x - - - - - x\nx - x - x x x x x - -\nx - x - - - - - x x x\nx - x x x x x - - x -\nx - - - x - - - x x x\nx x x - x x x x x - x"
+    },
+    "217_11x11": {
+      "id": "217_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x x x x x\nx - - - x x x - - - x\n- - x x x - x - x - x\nx x x - - - x - x - x\nx - - - x x x - x - x\nx x x - - x - - x - x\nx - x x - x - x x - x\nx - - x - - - x - - x\nx x - x x - x x - x x\n- x - x - - x - - - x\nx x - x x x x - x x x"
+    },
+    "307_11x11": {
+      "id": "307_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x - x - x x x\nx - - x - - x x x - x\nx x - - - x x - - - x\n- x - x x x - - x - x\nx x - - - - - x x - x\nx - - x x x - - x - x\nx x - x - x x x x - x\n- x x x - - - - x - x\nx x - x x x - x x - x\n- x - - - x - - - - x\nx x x x - x x x x x x"
+    },
+    "288_11x11": {
+      "id": "288_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - x - - - - - - - x\n- - - - x x x - x x x\nx x x x x - x x x - x\nx - - - x - - - - - x\nx x x - - - x x x - x\n- - x x x - x - x - x\nx - - - - - x - x x x\nx x x x x - x - - - -\n- x - - x - x - x - x\nx x x - x x x x x x x"
+    },
+    "216_9x9": {
+      "id": "216_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x x x\n- - - - x x x - x\nx x x x x - - - x\nx - - - - - x - x\nx - x - x - x - x\nx x x - x x x - x\n- - - - x - - - x\nx x x - x x x - x\nx - x x x - x x x"
+    },
+    "206_9x9": {
+      "id": "206_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x - x\nx - - - x - x x x\nx x x - x - - - x\nx - x - - - x x x\nx - x x x - - - -\n- - - - x - x x x\nx x x - x x x - x\n- - x - - - - - x\nx x x x x x x x x"
+    },
+    "7_7x7": {
+      "id": "7_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx - x x x x x\nx x x - - - -\n- - x x x x x\nx - - - - x -\nx x x x x x x\nx - - - x - x\nx x x - x - x"
+    },
+    "20_11x11": {
+      "id": "20_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x - x - x x x\nx x x - x x x x x - -\n- - x - - - - - x x x\nx x x x x x - x x - -\nx - x - x - - - x x x\n- - - - x x x x x - -\nx x x - - - x - x x x\nx - x x x - - - - - x\nx - - - x x x x x x x\nx - x x x - - - x - -\nx - x - x x - x x x x"
+    },
+    "87_11x11": {
+      "id": "87_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx - x - x x - x x x x\nx x x x x - - x - - -\n- x - - x x - x x x x\nx x - x x - - x - - x\n- - - - x x x x - x x\nx x x - x - - - - - x\n- - x x x x x x x - -\nx x x - x - - - - - x\nx - - - x x - x x x x\nx x x - x - - x - - x\nx - x - x x x x - x x"
+    },
+    "341_7x7": {
+      "id": "341_7x7",
+      "difficulty": 0,
+      "source": "",
+      "solution": "7 7\nx x x x x - x\nx - - - x - x\nx x x - x x x\nx - x - - - -\nx - x x x x x\nx - - - - - -\nx x x x x x x"
+    },
+    "274_9x9": {
+      "id": "274_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x - x x x x\n- x - x x x - - x\nx x - x - x x - -\n- x - - - - x x x\nx x x - x - - - -\n- - x x x x x - x\nx - - - - - x x x\nx - x x x - - - x\nx x x - x x x x x"
+    },
+    "264_9x9": {
+      "id": "264_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\n- x - x - - x x x\nx x - x x - x - x\n- - - - x - x - -\nx x x x x - x - x\nx - - x - - x - x\nx x - - - x x - x\n- x x x x x - - x\nx x - x - x x x x"
+    },
+    "14_9x9": {
+      "id": "14_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x x x x x x\nx x x - x - - - x\n- x - - x - x x x\nx x x - x - x - x\n- - x - x - x - x\nx x x - x - x - x\nx - x - x - x - x\nx - x - x - x - x\nx - x - x - x - x"
+    },
+    "348_11x11": {
+      "id": "348_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x - x x x x\nx - x - - x x x - - x\n- - x - x x - x - x x\nx x x - x - - - - x -\nx - - - - - x - x x x\nx x x - x x x - x - -\nx - x x x - x - x - x\nx - - - - - x x x - x\nx - x x x - - - - - x\nx x x - x x x - x - x\nx - x - x - x x x x x"
+    },
+    "112_5x5": {
+      "id": "112_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\n- - - - x\nx x x x x\n- - x - -\nx x x x x"
+    },
+    "102_5x5": {
+      "id": "102_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - x\nx - - - x\nx x x - x\nx - x - x"
+    },
+    "333_9x9": {
+      "id": "333_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x x x x x\nx - - - - - - - x\nx x - x x x x x x\n- x - - - - - - x\nx x - x x x - x x\nx - - x - x - - -\nx - x x - x x x x\nx - x - - - - - x\nx x x x x x - x x"
+    },
+    "110_11x11": {
+      "id": "110_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x x x x x x x x\nx - x - - - - x - - -\nx - x x x - x x x x x\nx - x - x - x - - - x\nx - x - x - x x x - x\nx - x - - - - - - - x\nx - x x x x x x - x x\nx - x - - - - - - - x\nx - x x x x x - x x x\nx - x - x - x - x - -\nx - x - x - x - x x x"
+    },
+    "323_9x9": {
+      "id": "323_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x x x - x - x\n- x - - - - x x x\nx x - x x x x - x\nx - - - - - - - x\nx x x x x x x - x\nx - x - - x - - x\nx - x x - x x - x\nx - - x - - - - x\nx x - x x x x x x"
+    },
+    "92_5x5": {
+      "id": "92_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx x x x x\nx - x - x\nx - x - x\nx - x - x\nx - x - x"
+    },
+    "260_11x11": {
+      "id": "260_11x11",
+      "difficulty": 0,
+      "source": "",
+      "solution": "11 11\nx x x x - x x x x x x\nx - - x - x - - x - -\nx x - x - x x - x x x\n- x - - - x - - - x -\nx x - x x x x x - x x\nx - - x - - - - - - x\nx - x x - x x x x x x\nx - x - - x - - - - x\nx x x x - x x x x - -\n- x - - - - - - x x x\nx x x x x x x - x - x"
+    },
+    "82_5x5": {
+      "id": "82_5x5",
+      "difficulty": 0,
+      "source": "",
+      "solution": "5 5\nx - x x x\nx x x - x\n- - x - x\nx x x - x\nx - x - x"
+    },
+    "194_9x9": {
+      "id": "194_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x - x x x\nx - - - x - x - x\nx - x x x - x - x\nx x x - - - x - x\nx - - - x - x - x\nx - x x x - x - x\nx - - - x x x - x\nx x x - - - - - x\nx - x x x x x x x"
+    },
+    "184_9x9": {
+      "id": "184_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x - x - x - x\nx x x x x - x x x\n- x - - - - x - -\nx x x x x - x - x\n- - - - x - x - x\nx x x x x - x - x\nx - - - - - x - x\nx - x x x - x x x\nx x x - x x x - x"
+    },
+    "76_9x9": {
+      "id": "76_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx x x - x x - x x\n- - x x x - - - x\nx - x - x x x x x\nx x x - - x - - x\n- - x - x x - x x\nx x x - x - - - x\n- - x - x - x x x\nx x x - x - x - -\nx - x - x - x x x"
+    },
+    "66_9x9": {
+      "id": "66_9x9",
+      "difficulty": 0,
+      "source": "",
+      "solution": "9 9\nx - x x - x x x x\nx x x - - - x - x\n- - x x - x x - -\nx - x - - - x - x\nx x x x x x x x x\n- - x - - - - - -\nx x x x - x x x x\nx - - x x x - - x\nx x - x - x - x x"
+    }
+  },
+  "count": 350,
+  "info": ""
+}

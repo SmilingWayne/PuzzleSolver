@@ -1,15 +1,20 @@
-from AkariCrawler import AkariCrawler
-from PfeilzahlenCrawler import PfeilzahlenCrawler
-from NorinoriCrawler import NorinoriCrawler
+from CrawlerFactory import CrawlerFactory
 
 if __name__ == "__main__":
-    target = "Norinori"
+    target = "Magnetic"
+    # data = {
+    #     "puzzle_name": f"{target}",
+    #     "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
+    #     "root_url": f"https://www.janko.at/Raetsel/{target}/"
+    # }
+    
     data = {
         "puzzle_name": f"{target}",
-        "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
-        "root_url": f"https://www.janko.at/Raetsel/{target}/"
+        "index_url": f"https://www.janko.at/Raetsel/Magnete/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/Magnete/"
     }
-    crawler = NorinoriCrawler(data = data)
+    
+    crawler = CrawlerFactory.get_crawler(target, data)
     ret = crawler.get_puzzle_indexes()
     # print(ret)
     ret_ = crawler.get_puzzles_from_batch(ret)

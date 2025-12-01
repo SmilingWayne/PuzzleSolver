@@ -4,6 +4,9 @@ from NorinoriCrawler import NorinoriCrawler
 from ThermometerCrawler import ThermometerCrawler
 from LITSCrawler import LITSCrawler
 from MagneticCrawler import MagneticCrawler
+from MinesweeperCrawler import MinesweeperCrawler
+from SuguruCrawler import SuguruCrawler
+from Str8tCrawler import Str8tCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -15,7 +18,10 @@ class CrawlerFactory:
         "Norinori": NorinoriCrawler,
         "Thermometer": ThermometerCrawler,
         "LITS": LITSCrawler, 
-        "Magnetic": MagneticCrawler
+        "Magnetic": MagneticCrawler, 
+        "Minesweeper": MinesweeperCrawler,
+        "Suguru": SuguruCrawler, 
+        "Str8t": Str8tCrawler
     }
     
     @classmethod

@@ -9,6 +9,7 @@ from Common.Verifier.PuzzleVerifiers.DominosVerifier import DominosVerifier
 from Common.Verifier.PuzzleVerifiers.BuraitoraitoVerifier import BuraitoraitoVerifier
 from Common.Verifier.PuzzleVerifiers.EuleroVerifier import EuleroVerifier
 from Common.Verifier.PuzzleVerifiers.MosaicVerifier import MosaicVerifier
+from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
 
 class VerifierFactory:
     
@@ -23,7 +24,8 @@ class VerifierFactory:
         "Dominos": DominosVerifier,
         "Buraitoraito": BuraitoraitoVerifier,
         "Eulero": EuleroVerifier,
-        "Mosaic": MosaicVerifier
+        "Mosaic": MosaicVerifier,
+        "Nonogram": NonogramVerifier
     }
     
     @classmethod

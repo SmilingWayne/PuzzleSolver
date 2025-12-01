@@ -1,0 +1,1506 @@
+{
+  "solutions": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/001.a.htm",
+      "solution": "6 6\nx x x - - x\n- - - - x x\n- - - - x x\n- x - x x -\n- x x x x -\nx x x x x -"
+    },
+    "2_6x6": {
+      "id": "2_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/002.a.htm",
+      "solution": "6 6\n- x x x x x\nx x x - x x\nx x - x - x\nx x - x - x\nx - - x - -\nx - - - - x"
+    },
+    "3_6x6": {
+      "id": "3_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/003.a.htm",
+      "solution": "6 6\nx - - - - -\nx - - x x -\n- x - x - -\n- x - x x x\n- x x x x x\n- - - - - x"
+    },
+    "4_6x6": {
+      "id": "4_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/004.a.htm",
+      "solution": "6 6\nx - x x x x\n- x x x x x\n- - - - - x\n- x x x - -\nx - - - - x\nx x - - - -"
+    },
+    "5_6x6": {
+      "id": "5_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/005.a.htm",
+      "solution": "6 6\n- - - - - x\nx - - - - -\nx x x x x -\nx x x x x -\nx x - - x -\nx x x - x x"
+    },
+    "6_8x8": {
+      "id": "6_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/006.a.htm",
+      "solution": "8 8\nx x - - x x x x\nx x x x x x x -\n- x x - x x x -\n- - - - - x - -\nx x - - - - x -\n- - x x x x x x\n- - x x x x x -\n- x - - - x x -"
+    },
+    "7_8x8": {
+      "id": "7_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/007.a.htm",
+      "solution": "8 8\n- - x x x x x x\nx - x x x - - -\nx - x x - - - -\nx - x x x x - -\nx - - x x x - -\n- - - - x x - -\n- x x x x x x x\n- - - x x x x x"
+    },
+    "8_8x8": {
+      "id": "8_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/008.a.htm",
+      "solution": "8 8\n- x x - x - - -\nx x - - - - - -\n- - - - - - x -\n- x x x x - x -\n- x x x x x - x\n- x x - - - - x\n- x x x x - - x\nx x x x - - - -"
+    },
+    "9_8x8": {
+      "id": "9_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/009.a.htm",
+      "solution": "8 8\nx x x x - x x -\nx x x x - x x -\n- x - - - - - -\n- x x x - x x x\n- - x x - - x -\nx x x x x - x -\nx x x x - - x -\nx x x x - - - -"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/010.a.htm",
+      "solution": "8 8\nx x x x x - - x\nx x x x x - - -\nx - x - x x - -\nx - x - x x x x\n- - - - x x x x\n- - x x - - - -\n- - - - - x x x\n- - - x x x x -"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/011.a.htm",
+      "solution": "8 8\n- x - x x x x x\n- x - - x x x x\n- x - - - x x x\nx x x - - - - -\nx x x - x x x x\n- - - - x x x x\n- x - x - - - -\n- - - x x x x x"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/012.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - x x x x -\nx - - x x x x -\nx x x x - - - x\n- x - x x - - x\n- - - - - - x x\n- x x - - - x x\n- x x x x - - x"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/013.a.htm",
+      "solution": "10 10\nx x - - - x - x - -\nx x - x x x - x x -\nx x - x x x - x x -\n- - - x x - - - x -\n- x x x x x - - - -\nx x x x x x x x - -\nx - - - - x - - - -\n- - x x x x x x - x\nx x - - x x x x - x\n- - - - - x x x - -"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/014.a.htm",
+      "solution": "10 10\n- - - - - x x x - x\nx - - - - - - - x x\nx - x x x x - - - x\nx x x x - - - - - x\nx x x x - - - - - x\n- x x - - - x - - x\n- x x - - - x - - x\n- - - - - - x - - x\nx x x x - - x - - x\nx x x x - - - - x x"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/015.a.htm",
+      "solution": "10 10\nx - x x x x x x x x\n- x x - - x x x x x\n- x x - - - - - - x\n- x x - - - x x - x\n- x - - - x x x - -\n- x x x x - x x x x\n- - - - x - x - - -\n- - x x - - - - - x\n- - - x - - x x - x\n- - - x x x x x x x"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/016.a.htm",
+      "solution": "10 10\nx - - - x - - - - x\nx x - - - x - - - -\n- - - - - - - - x x\n- - - x x x x x x -\n- - - x x x - - - x\n- - x x x x x x x x\n- - x - x x x - x x\n- - x - - - - x x x\n- x x - x x - - x x\n- - - - x - - x x x"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/017.a.htm",
+      "solution": "10 10\nx x x - - - - - - -\nx x x - - - - x - -\nx x - - - x x x x -\n- x - - - - - x - -\n- x x x - - - x - x\n- x x x x - - x - -\nx x - - - - - x - x\nx - - - - - - x - x\n- - - - x x x x - x\nx x x x x - - - - -"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/018.a.htm",
+      "solution": "10 10\nx x x x - x x x - -\n- - - x - x - x - -\n- - - x - x - x - -\n- - - - - x - - - -\n- - - x - x - x x -\nx - x x - - - - x x\nx x x x x x - - x x\nx x x x x x - - x -\nx x x x x x - x x x\nx x x x x - - x x x"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/019.a.htm",
+      "solution": "10 10\nx x x x x x x x - -\nx x x - - - x x x x\nx - - x - x x x x x\nx - - x - x x x x -\n- - - - - x - - - -\n- - - - - x - - - -\n- - - x - x x x x x\nx x - x x x x x - -\nx x - x x - - x - -\nx x x x x x - x - -"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/020.a.htm",
+      "solution": "10 10\nx x x x x x - x x x\nx x - - - x - - - -\nx - - - - x - - - -\nx x - - x x x x x x\nx x x x - x x x x x\n- x x x - x x x - -\n- - - x - x - x - -\nx x - x - x - - - -\n- - - x - x x x - -\nx x - - - x x x x -"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/021.a.htm",
+      "solution": "6 6\nx - x x - -\nx - x x x x\nx x x x x -\nx - - - - -\n- - - x x -\n- x x x x -"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/022.a.htm",
+      "solution": "6 6\n- - - x x x\n- - x - - x\nx - x x x x\nx - x - - -\nx - x - - -\nx x - - - -"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/023.a.htm",
+      "solution": "8 8\n- x x x - - - x\n- x x x - - - -\n- x x x x x x -\nx - - x - - x -\nx - - x x x x -\nx - - - - - x -\n- - - - x x x -\n- - - - x x - x"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/024.a.htm",
+      "solution": "8 8\nx - - - - x x x\nx - - x - x x -\nx - - x - x x -\nx - - x x x x x\n- - x - - - - -\n- - x x x x x x\nx - - - x x x x\nx x - - x x x x"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/025.a.htm",
+      "solution": "8 8\n- - x - - x x x\nx - x - - x - -\nx x x x - - - -\nx - - - - x x x\n- - - x - x x x\n- - - - - x x x\n- x x x - - x x\n- x x x x x x x"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/026.a.htm",
+      "solution": "8 8\nx x x x x - - x\n- - x - x - - -\n- - - - x - - -\nx x x x x - - x\nx - - - - - x x\nx x x - x x - x\nx x x - x x x x\nx - - - - - - x"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/027.a.htm",
+      "solution": "10 10\n- x x - x x x x x x\n- x x x x - - - - -\n- - x x x - - - - -\nx x - - - - x x x -\nx - - - - - - x x -\nx - x x x x x x x -\nx - - x - x x x x -\nx - x x - - x x x -\nx - - - - - x x x -\nx - - - x - x x x -"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/028.a.htm",
+      "solution": "10 10\n- - - - - - x - x x\n- x x x x - x x x x\n- - - - - - x x x x\nx x x x - x x x x x\n- - - - - x x x x x\nx x x x - x x x x x\n- - - - - - - x x x\n- - - - - - - - - x\nx - x x - - - x x x\nx x x x x x x x x x"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/029.a.htm",
+      "solution": "10 10\nx x x - x x x x x -\n- x x x x - x x x -\n- - - - - - - x x -\nx x - - x - - x x -\n- - x - x - - x x -\n- - x - x x x x - x\nx - x x x x x x - -\nx - x - x x x x - -\nx - - - x x x x x x\nx - - - - - x x x -"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/030.a.htm",
+      "solution": "10 10\nx - - x - - - - - x\nx x x x x x x - x x\nx x x x x - - - - x\nx x x - x - x x x x\nx x x x x x x x x x\n- - x x x x x - x -\n- - - x x x - - - -\nx x x x x x - - - -\n- - - x - x - - - -\nx - - x - - - - - -"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/031.a.htm",
+      "solution": "6 6\nx - - - x -\nx - - x x -\nx - - x x -\n- - x x x x\n- x x - - x\n- x x x x x"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/032.a.htm",
+      "solution": "6 6\n- x - - - -\n- x - - - -\nx - - - x x\nx x x x - x\nx - - - - x\n- x x x - x"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/033.a.htm",
+      "solution": "8 8\nx - x x x x x -\nx - - - - x - -\nx x x - - - x x\nx x x x x x x -\nx x x x x x x -\n- - - - - - x -\n- - x x x x x -\n- - x x - - x -"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/034.a.htm",
+      "solution": "8 8\n- - - - x x x x\nx x x x - - x x\nx x x x - - x x\nx x - - - - - -\nx x - - x - - -\nx x - - x x x x\n- x x x x x x x\n- x - - - - - x"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/035.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx x x - - - - x\n- x - - - - - x\n- x x x x x x x\n- x - - - x x x\n- x x x x x x x\n- - - - - x x x\n- - x - - x x x"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/036.a.htm",
+      "solution": "8 8\nx x x x x x x -\nx x x x - x x -\n- - - - - x x x\n- - x x x x x x\nx x - x x x x x\n- x - - - - - x\n- x - - x x x x\n- x - - - - - -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/037.a.htm",
+      "solution": "10 10\n- - - x x x x x x x\n- - - x - - - - - x\n- - - - - - x - - -\n- x - x x - x x - -\nx - - x - - x x - -\nx - - x - x x x x -\nx - - - - - - x x -\nx - - - - x x - - x\nx x - x x x x x x x\nx x x x x x x - - x"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/038.a.htm",
+      "solution": "10 10\nx x x x x - - - - -\nx - - - - - x - x x\nx - - x - x x x x x\nx - - x - - x x x x\nx - x x - - - - - -\nx x x x x - - - - -\n- x x x x - - - - -\n- x x x - - - x x -\n- x - - - - - x - -\n- - - - - - - x x x"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/039.a.htm",
+      "solution": "10 10\n- - - - - - x x x -\n- x - x x x x x x -\n- x - x x - - - - -\n- x - x - - - - - -\nx x x x - - - x - -\nx x x x x x - x - -\nx x - x - - - x - -\nx x - x - - x x x x\nx x - x x x x x - x\nx x x x x - x x x x"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/040.a.htm",
+      "solution": "10 10\nx x - - - - x - x x\nx x x x x - x - x x\nx x x - - - - - x x\nx - - x x x x - x x\n- - x x x x x - x x\n- x - - - - - - - x\n- - x x x x x - - x\n- - - - - - - - - x\n- x x x - - x x x x\n- x x x x - x x x x"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/041.a.htm",
+      "solution": "6 6\n- - - - x x\nx x - - x x\nx x - x x x\nx - - - - -\nx - x - - -\nx x x - - -"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/042.a.htm",
+      "solution": "6 6\n- - - - x x\n- - - - - x\n- x x x - x\nx - - - - -\nx - x x x -\nx x - x x -"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/043.a.htm",
+      "solution": "8 8\n- x x x x x - x\n- - - - x x - -\nx x - - x x - -\nx - x x x x - x\nx - - - x x - x\nx - - x x - x -\n- x - - - - x -\n- x - - x x x x"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/044.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx x x - x x - -\n- - x - x x - x\nx x x x - - - x\nx - - - - - - x\nx x - - - - - x\nx x x x x - x x\nx x - - - - x -"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/045.a.htm",
+      "solution": "8 8\nx x x x - x x x\nx - x x - x x -\nx x x x - - x -\nx - - - - x x -\nx - x x x x - -\nx - x x - - - -\nx - - - - - - x\n- - - - - x x x"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/046.a.htm",
+      "solution": "8 8\nx x x x x x - -\nx x x x x x x -\nx x - x x x x x\nx - - - x - x x\nx x - - x - - -\n- - - x x x - -\n- - - - - x - -\n- - - x x x - -"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/047.a.htm",
+      "solution": "10 10\nx - x x x - - - - -\nx - - x x - - x x -\nx x x x x - - x x -\n- x x x x - - x x x\n- x x x x - - x - -\n- - - - - - x x x -\n- - - - x x - - x x\n- x x x x x x - x x\n- x - - - x x - - x\nx x x - - x - - - x"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/048.a.htm",
+      "solution": "10 10\n- x - - - - - - x x\n- x - - - - x - x -\n- x - x x x x - - -\n- - - x x x x - - -\nx - x x x x x - - -\nx - x x - x x - - -\nx - - - - x x - - -\nx x x x - x x - - x\nx x x x - x x x x -\nx x x x - x x - - -"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/049.a.htm",
+      "solution": "10 10\n- - - - - - - x x -\n- - - - x - - x x x\n- - - - x - - - - x\nx - - - x - - x x -\n- x x - - - - x x -\nx x x x x x - x x x\n- - x x x x x x x x\n- x x x x x x x x x\nx x x x - x x - - -\nx x x x - - - - - -"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/050.a.htm",
+      "solution": "10 10\nx x x x - - - x - -\n- - - - - x - x - -\nx - x - - - - x - x\nx - x x - - - - - x\n- - x x - - - x x x\nx x x x - x x x x -\nx - - x - x - x x -\nx - - x - x - x - -\nx x x x x x - x x x\nx x x - x x - x x x"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/051.a.htm",
+      "solution": "6 6\nx x x x - -\nx x x - - x\nx - - - - x\n- - - x x x\n- - - x - x\n- - - x - -"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/052.a.htm",
+      "solution": "6 6\n- - x - - -\nx x x - x x\nx x x - x x\nx - - x x x\nx - - - - -\nx x x - x x"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/053.a.htm",
+      "solution": "8 8\nx x x x - x - -\n- - - - - x - -\n- x - - - x - -\nx x - x - - - x\nx x - - x - x x\nx x - - x - x x\nx x x x x - x x\nx x x x x x - x"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/054.a.htm",
+      "solution": "8 8\n- - - x - - - x\n- x x x - - - x\nx x x x - - - -\nx x - x x x x x\n- - x x x x x x\n- - - - - - x x\n- - - - x x x x\n- - - - x - x x"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/055.a.htm",
+      "solution": "8 8\nx x - - - - - -\nx x x x x - - -\n- - x x - - - -\n- x x x - x x -\n- - - x - x x x\n- x - x x x x x\nx x - x x x - x\nx x - - - - x x"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/056.a.htm",
+      "solution": "8 8\n- - x x - - - -\nx x x x - - - -\nx x x x x x - x\nx - x x x x x x\n- - - - x x x x\n- x x - x x - -\n- - - - x x x x\n- - x x - - - x"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/057.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\n- - - x x x x x x x\n- - - - x x x x x x\n- - - - - x x x - -\n- - x x x x x x - -\n- - x - - x x - - -\nx x x - - - x - x x\nx - x x - - x - x x\nx x x x - - - - x x\nx x - - - - x x - -"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/058.a.htm",
+      "solution": "10 10\n- - x - - - - - - -\n- - - x - - - - - -\n- x x - - - - - - x\nx x x - - - - - - x\n- x x - - - x - - x\nx x x - x - - x x x\nx x x - x x x x x x\nx x - x x - - - - x\nx x - - - - x - x x\nx x - - - - x x x -"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/059.a.htm",
+      "solution": "10 10\n- x - - x x x - - x\n- x - - x x x - - x\n- - - - x x x x - x\n- - x x - x x x - x\nx x - - x x - - - x\nx - - x x x - - - x\nx - - - x x - - x x\nx - - - x x - - x x\nx - - x x x - - x x\nx x x x - - - - x x"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/060.a.htm",
+      "solution": "10 10\n- - - x x - - x x x\n- - x x - x - x x x\n- - x x - - - - - -\n- x x x - - - - - -\n- x x x - - - x - -\n- x x x x x x x x x\n- x x x x - - x x x\nx x - x x x - - - x\n- - - x x x - - - x\n- - - x x x x x - x"
+    },
+    "61_6x6": {
+      "id": "61_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/061.a.htm",
+      "solution": "6 6\n- - x x x -\n- - - - x -\n- - x x x x\nx x - - - -\nx - - - x x\nx - - - x x"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/062.a.htm",
+      "solution": "6 6\n- x x x x x\n- - - x - -\nx - - - x -\nx - x - - -\nx - x x x x\nx - x x x x"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/063.a.htm",
+      "solution": "8 8\n- - - x x x x -\nx x - x - - - x\n- x - x - - - x\n- x - x x x - x\nx x - - - x x x\nx x - - - x x x\nx x - x x - - x\nx x x x x - - -"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/064.a.htm",
+      "solution": "8 8\nx - - - - x x x\nx x x x - - x x\nx x x x - - - x\nx x x - x x x x\nx x - - x - - x\nx x x x x - - -\nx x x x - - - -\n- - - x - - - -"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/065.a.htm",
+      "solution": "8 8\nx x x x x - - -\n- x x x x - - x\n- - x x x x - x\n- - x x - - - x\n- x - - - - x x\n- x - - - - x x\nx x - x x x x -\n- - x x x - - -"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/066.a.htm",
+      "solution": "8 8\n- x - x x - x -\nx x - - x x x -\nx - - x x x - -\n- - - x - - - -\n- - x x - - - x\n- - x x - x x x\n- - - x - - x -\nx x x x - - - -"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/067.a.htm",
+      "solution": "10 10\n- - x x x - x x x x\n- - - x x - x - - -\nx - - x x x - - - -\nx x x x x x x - - -\nx x - - - x x - - -\nx - - - - - - - - -\nx x - - - x x x - -\nx x x - - - - x x x\nx x x - - - - - - x\nx - - - x x - - - -"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/068.a.htm",
+      "solution": "10 10\n- - - - x x x - - x\n- x - - x x x - - x\n- x x x - x x - - x\nx x x x x x x - x x\n- - x x x x - - - x\n- - x x x x x x x x\n- - - - - x x x x x\nx - x x - x x - - -\nx - x - - x - - x x\nx - x - - - x x x x"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/069.a.htm",
+      "solution": "10 10\nx x x - - x x - - x\nx x x - - - - x x -\nx x - - - - - x x -\nx x - - x x - x - -\n- - - - x x - x - -\nx x x x x x - x x -\nx x x - x x - x x -\n- - - - - - x x x -\nx - - - - - - - x -\nx - x x x - - - x x"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/070.a.htm",
+      "solution": "10 10\nx x x x x x x x x x\n- - - - - - x x x x\n- - - - - - x - x x\n- x - x x x x x x x\n- x - - x x - - x -\n- - x x x x - x x -\nx - - x x x x - - -\nx - x x x x x - - -\nx - - - - x - - - -\n- - - x - x x x x -"
+    },
+    "71_6x6": {
+      "id": "71_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/071.a.htm",
+      "solution": "6 6\n- - x x x x\n- - x - x x\n- - x - - -\n- x x - x -\n- x x x x -\nx - - x x x"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/072.a.htm",
+      "solution": "6 6\n- - - - - x\n- - - x x -\nx - - - - -\nx x x x - -\nx x x x x -\n- x x x x x"
+    },
+    "73_6x6": {
+      "id": "73_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/073.a.htm",
+      "solution": "6 6\nx x x - x x\n- x x x x -\nx - - - - -\nx - - - x x\nx - - x x x\n- - - - x x"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/074.a.htm",
+      "solution": "8 8\nx - - x x x x x\nx x x x - - - x\nx x x x x x - -\nx x - - x - - x\nx x x x x - - x\nx - - - x x - -\n- - x x x - - -\n- x x - - - x -"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/075.a.htm",
+      "solution": "8 8\n- x x x - x x x\n- x x x - x x x\n- x - - - - - x\n- - - x x - - x\n- - x x - - - x\n- - - x - - - x\nx x - - - x x x\nx x - - - x x -"
+    },
+    "76_8x8": {
+      "id": "76_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/076.a.htm",
+      "solution": "8 8\n- x x - x - x x\n- x x - x x - -\n- - - - x x - x\nx x x - - x - x\nx x - - - x - x\n- x x x x - - x\n- - x - - - - x\n- x x x x x - x"
+    },
+    "77_8x8": {
+      "id": "77_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/077.a.htm",
+      "solution": "8 8\n- x x x - - x x\n- x - x - - x -\n- - - x - x x -\nx - - - - - - -\n- - - - - - x -\nx x x x x - - -\nx x x x x x - -\n- x x x - x x x"
+    },
+    "78_8x8": {
+      "id": "78_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/078.a.htm",
+      "solution": "8 8\n- - - - x x x x\nx - - - x x x x\n- - - - x x - x\nx x x x - - - x\nx x x - - - - -\n- - x - - - - -\n- - x x x - - x\n- - x x x x x x"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/079.a.htm",
+      "solution": "10 10\nx - x - - x - - - x\nx - - - - x - x - -\nx x - x - x - - - -\n- x x x - x x x x x\nx x x x - x x x x -\n- - - x - x - x x -\n- x - x x x - x - x\n- - - - - - - x - x\n- - x x - - x x x x\n- - - x - - x x x x"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/080.a.htm",
+      "solution": "10 10\nx x - - - x x x - -\nx x x x - x x x x x\nx - - - - - - - - x\nx - - - - - - - x x\nx - - x x - - - x x\nx - - x x - - - x x\n- - - - x x - - x x\nx x x x - - - - x x\n- - - - - - x - x x\n- - - x x x x - x x"
+    },
+    "81_6x6": {
+      "id": "81_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/081.a.htm",
+      "solution": "6 6\nx x x x - -\nx - - - - -\nx x - - - -\nx x - - x x\nx x - - - x\n- x x x x x"
+    },
+    "82_6x6": {
+      "id": "82_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/082.a.htm",
+      "solution": "6 6\nx - - x x -\nx x - - - -\nx x - - x x\n- - - - x x\nx x - - x x\nx x x x - x"
+    },
+    "83_6x6": {
+      "id": "83_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/083.a.htm",
+      "solution": "6 6\n- - x x - -\n- - x x x x\n- x - x x x\n- x x x x x\nx x x - - -\n- - x - x -"
+    },
+    "84_8x8": {
+      "id": "84_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/084.a.htm",
+      "solution": "8 8\nx x - - x x - x\nx x - x x x - x\nx x - - - - - x\nx x - - - - - -\nx - - x x x - -\n- - - x x x x x\nx x - x x x - -\nx x x x - - - -"
+    },
+    "85_8x8": {
+      "id": "85_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/085.a.htm",
+      "solution": "8 8\n- x x - x x x x\n- x x x - - x -\nx x x - - - x -\n- x x x x x x -\n- - - - x - x -\n- x - - x - - -\n- x - - x - - -\n- x x - x x - -"
+    },
+    "86_8x8": {
+      "id": "86_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/086.a.htm",
+      "solution": "8 8\n- - - x x x x x\n- - x x x x x x\n- x - - x - x x\n- x - - x - x x\nx x - - - - x x\nx x - - - x - -\nx x x x - x - -\nx x x x x x x -"
+    },
+    "87_8x8": {
+      "id": "87_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/087.a.htm",
+      "solution": "8 8\n- - x - - x x -\nx - x - - - - -\nx x x x - - - -\nx x x x x x x -\n- x - - - - x x\n- - x - x - x -\n- x x x x - - -\n- x x x x x x x"
+    },
+    "88_8x8": {
+      "id": "88_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/088.a.htm",
+      "solution": "8 8\nx x - - x - - x\nx x - - - - x x\nx x - - - - x -\nx x x - - x x -\nx x x - x x x x\nx x - - - - - -\nx x x x x - - -\n- - - - x - - x"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/089.a.htm",
+      "solution": "10 10\nx - - - - - - - - x\nx x x x x x - - - -\n- - x x x - - - - -\n- - x - - - x x - -\n- - - - - - x x x x\n- - - - - - x x x x\nx - x x x x x x x x\n- - x x x - x x - x\n- - x x x - x x - -\nx x x x x - x x x x"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/090.a.htm",
+      "solution": "10 10\n- - - - x - x x x -\n- x - - - x x x x x\n- - - - - x x x x x\n- - x x x x x - - -\nx - x x x x - - - x\nx x x - x x - - - x\nx - - x x x - - - -\n- x - - x x - - - -\n- x x - x x - - - -\n- - - - - - - x x -"
+    },
+    "91_6x6": {
+      "id": "91_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/091.a.htm",
+      "solution": "6 6\nx x - x x x\n- - - x x -\nx x - x x -\n- x x x x x\n- x - - - -\n- x - x x -"
+    },
+    "92_6x6": {
+      "id": "92_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/092.a.htm",
+      "solution": "6 6\nx - - - - -\nx - x x x -\n- - x x - -\nx x x x - x\nx - x x - x\nx - x x - x"
+    },
+    "93_6x6": {
+      "id": "93_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/093.a.htm",
+      "solution": "6 6\n- - x x x x\nx - x x - x\nx - x x - -\nx x - - - -\nx - - - - -\nx x - - - -"
+    },
+    "94_8x8": {
+      "id": "94_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/094.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- x - - x x x x\nx x - - x - - x\nx - - - x - - -\nx - x x x - - -\nx x x - - - - -\nx x x - - x - -\nx x - x x x x x"
+    },
+    "95_8x8": {
+      "id": "95_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/095.a.htm",
+      "solution": "8 8\nx - - x x - - -\nx - - - - - x -\nx - - x - x - -\nx - x x - x - x\nx x x x - x - x\n- - x x x x x -\n- - x - x - x -\n- - x x - x x -"
+    },
+    "96_8x8": {
+      "id": "96_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/096.a.htm",
+      "solution": "8 8\nx x x x x x - -\nx x x - - - - x\nx x x x - - x x\nx x x x - x x x\n- - - - - x - -\nx - - - - x - -\nx - x x - x x -\nx - - - - x x -"
+    },
+    "97_8x8": {
+      "id": "97_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/097.a.htm",
+      "solution": "8 8\nx x - - - - - -\nx x x x - - x x\n- - - x x - x x\n- x - x - - - -\nx x x x x x - -\n- - x x x - x -\n- x x x x - x -\n- x x x x x x -"
+    },
+    "98_8x8": {
+      "id": "98_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/098.a.htm",
+      "solution": "8 8\nx - - - x x x x\nx x x - - - - -\nx x x x - - - -\nx x x - - - - -\n- - x - - - - -\nx x x - x - x x\nx - - - x x x -\nx x - - x x x x"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/099.a.htm",
+      "solution": "10 10\nx - - - - - - - - x\nx x - - - - - - - x\n- - - - - x x x - -\nx - x x x x x x x x\n- - x - - - x - - -\nx x x - x - - x x x\nx x x x x x x - - x\nx x x - x x - - x x\n- x - - x x - x x x\nx x - - x x - x x x"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/100.a.htm",
+      "solution": "10 10\nx x x x x - x x x x\n- - - x x - - x x x\nx x x x x - - x x x\nx - - - - - - x x x\nx - - - - - - x - x\nx x - - - - - x - x\nx x x - - - - x - -\nx - x x x x x x - -\nx - x x x - - x - -\nx - x x x - - x x x"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/101.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- - x x - - - x\n- - x - - - - -\nx - x x - x - -\nx x x x - x - -\nx x x x x x - -\nx x - - - x - -\n- - - - - x x x"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/102.a.htm",
+      "solution": "8 8\n- - - - x x x x\nx x - - x x x x\nx - - - x x x x\nx x x - x - x x\nx - - - - - x -\nx - x x x x x -\n- - - - x - - -\n- - - - - - - x"
+    },
+    "103_8x8": {
+      "id": "103_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/103.a.htm",
+      "solution": "8 8\n- x - - x x x x\n- - - x - - - -\nx - - x x x - -\nx - x x x x - x\n- - x - x - x x\n- - x x x - x x\nx x - x x - x -\n- x x x x - x x"
+    },
+    "104_8x8": {
+      "id": "104_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/104.a.htm",
+      "solution": "8 8\nx - - - - x - -\nx - - - x - - -\nx x x x x - - -\nx x x x - - x -\nx x x x - x x -\nx x - x x x x x\nx - - x x x x x\n- - x x x - - -"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/105.a.htm",
+      "solution": "8 8\nx x - x - - x x\nx x - x - - x x\nx x x x x x x -\n- - - x - - - -\n- - - x x x x x\n- - - - - x - -\n- - - - x - - -\n- - - - - - x x"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/106.a.htm",
+      "solution": "10 10\n- - x - - - - - - -\nx - x x - - - - - -\nx - x x - - - - - -\nx - x x x x x x x -\nx - x x - - - x x -\n- - x - - x - x x x\n- x x - - - - x x x\n- - x - - x x x - x\n- - x - - - - x - x\n- - x x x x - - - -"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/107.a.htm",
+      "solution": "10 10\nx x x - - - - - x x\nx x x - x x - - x x\nx x - - - x - - - x\n- x - - x x x - - x\n- x - - x x x - - x\n- x - - - - - - - x\n- - - - - x x - - x\nx - x - - - x - - -\nx x x x x x x - - -\nx x - - - - x x x -"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/108.a.htm",
+      "solution": "10 10\nx x x x x x x x x x\nx - x x x x x - - -\nx - - - - x x x x -\nx - - - x - - - x x\n- - - - x x x - - -\n- x x x x x - - - -\nx x x x - - x - x -\nx - x x - - x x - -\nx - x x x x x x - -\nx - x x x x - - - -"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/109.a.htm",
+      "solution": "10 10\nx x x x x - x x x x\n- - - x x - x x - -\n- - - x x - - - - -\n- - - x x - - - x -\n- - - - x - - - x -\nx - - - x - - - - -\n- - - - x - x x - x\n- - - x x - x x x -\n- x x x x x x x x -\n- x x x x x x - x x"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/110.a.htm",
+      "solution": "10 10\nx x - - - - - - - x\n- - - x - x x x x -\nx x x x - - - - - x\nx x x - - - - x - x\nx x - - - x - x - x\n- - - x - - - - - x\n- - - x x - - - x x\n- x x x x - - - x x\n- x x x x x - - - -\n- x - - - x x - x x"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/111.a.htm",
+      "solution": "8 8\n- - x x - - - -\n- x x x - - - x\n- x x - - - - -\n- x x x - - - -\nx x x - x x x x\nx x - x - - - x\nx x - x - - - -\nx x - x - - - -"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/112.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx x - x x - - x\nx x - - x x x x\nx x - - - - x x\nx x x x x x - x\n- - - - - - - x\n- - - - x x - x\n- - - x - - - x"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/113.a.htm",
+      "solution": "8 8\n- x x x x - - -\n- - - - x - - -\n- x x x x - - x\n- x x - x x x x\nx x x - x x - -\n- - - - - x x -\n- - - x x x x x\nx - x x x x x x"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/114.a.htm",
+      "solution": "8 8\nx - - x x - - x\nx - x - - - - x\nx - x x x - - x\nx x x x x x - x\nx x x x x - - x\nx x - - - - x -\nx x - x x - - -\n- - - x x - - -"
+    },
+    "115_8x8": {
+      "id": "115_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/115.a.htm",
+      "solution": "8 8\n- x x x x - x x\n- - x x x - - x\n- - x - x - - x\nx x - - - x x x\nx x - - - x x x\nx x x - - - x x\n- - x x - - x -\n- - x - - - x -"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/116.a.htm",
+      "solution": "10 10\n- x x - - - - - - x\n- x x x x - x x x x\n- - - - - - x x x x\nx x x - x - - - x -\n- - x - x - - x - -\n- x x - x - - x - -\n- - x - x - - - - x\n- - x - - - - - x x\n- - x - x - x - - x\n- x x x x x x x x x"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/117.a.htm",
+      "solution": "10 10\n- - x x x x x - - x\n- - x x x x - - - x\n- - - - - - x x - x\nx x - - - - x x - -\n- - - - x - x x - -\n- - - - - - x - - -\nx x x x x x x x x x\n- x x x x x x x - x\n- - x - x - - - - x\nx - - - x - - - x x"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/118.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\n- - - - x x x x x x\n- x - x x x - x x -\n- x x x x x - x x -\nx x x - - - - x x -\nx x x x - - - x x -\nx x - x - - x x x -\nx x - - - - - x x -\nx x - - - - - x x x\nx x x - - - - x x x"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/119.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\n- x x x x x x x x x\n- x x - - - - - x -\n- - - x x - - - - -\n- - - x - - - - - x\n- x - x - - - - x -\nx x - - - - - x - -\n- - - x x x - x - x\n- - - - x x x x - x\n- - - - - - x x x x"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/120.a.htm",
+      "solution": "10 10\nx - - - x x x x - -\nx - x x x - - - - -\nx - x x x x x - x -\nx - x x x x - - x -\nx - x x - - - x x -\nx x x x - - - x x -\n- x - - - - - x x -\n- - - x x - - x - x\nx x x x x - x x - x\n- - x x x - x x x x"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/121.a.htm",
+      "solution": "8 8\nx x - x - x - -\n- - - x - x - -\nx - x x x x x x\nx - - - x x - x\n- - x x x x - x\n- x - x x x - x\n- - x x x - - -\n- - x x x x - -"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/122.a.htm",
+      "solution": "8 8\n- - - - - - x x\nx - - x x x x x\n- x - x - - - -\n- x x x x x x -\n- x - - - x x -\n- x x x x x x -\n- - x x x x x x\n- - - x x x x x"
+    },
+    "123_8x8": {
+      "id": "123_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/123.a.htm",
+      "solution": "8 8\nx - - x x x - -\n- - - - x x - -\nx x - - - - - x\n- - - - - x x x\nx x x x - x x x\nx x - x x x - -\nx x x x x x - -\nx x x x x x x -"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/124.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- - - x - x - x\n- - - x - - x x\n- - x x x - x x\nx - x x x - - x\n- - x x x - - x\nx x x - x x x x\n- x x - - - - -"
+    },
+    "125_8x8": {
+      "id": "125_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/125.a.htm",
+      "solution": "8 8\nx x - - - x - -\nx x - - - - - -\n- - - - - x x x\n- - - - - x x x\n- - x x - x - x\nx x x x x x - x\nx x - - x - x x\nx x - - - - - -"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/126.a.htm",
+      "solution": "10 10\nx x x x x - - - x x\nx - - - x - x x x -\nx x x x x x x x x -\nx x - x x x x x x -\n- - - - x - - - x -\n- - - - x x - - x -\n- - - - x x - - - -\n- x - - x x x x - x\n- x - - x x x x - x\n- x x - x x x x - x"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/127.a.htm",
+      "solution": "10 10\n- x x - - - x x x x\n- x - - x - x - x x\nx x x x x - x x x x\nx x x x - - x x x x\nx x x x x x x x x -\nx x - - - - - - - -\nx - - - - - - - - -\nx x x x - - x x x -\n- x x - - - x x x x\nx x - - - - - - - -"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/128.a.htm",
+      "solution": "10 10\nx x - - - - - - x -\nx x - - - x - - x -\nx - - - x - - - - -\nx x x - x - - - - x\nx x x - - x x x x x\nx x x x - x - - - x\nx x x - - - - - - x\nx - - - - - x x x x\nx - - - - - x x x -\n- - - - - - - - x x"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/129.a.htm",
+      "solution": "10 10\n- - - - - - - - x -\n- - - - x - x - x -\n- - - - x x x x x -\n- - - - x x x x x -\n- x x - x - - x x x\nx x x - x x x x x -\nx x - - x - - - x -\nx x x x - - - - x x\nx x x x - - - - - -\n- - x x - - - - - -"
+    },
+    "130_10x10": {
+      "id": "130_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/130.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\nx x x - - - - x - x\nx x x - - - x x - -\nx x x - - - - - - x\n- x - - x x - - - -\n- x x - x x x x x x\n- x x - x x x - - -\n- x - - x - - - - -\n- x x - - - - - - -\n- x x x - - - - - -"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/131.a.htm",
+      "solution": "8 8\nx - - - - x x -\nx x x x - x - -\n- - x x x x - x\n- - - - x - - -\nx - - x x x x x\n- x x x - x x -\n- - x x - x x -\nx x x x x x x -"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/132.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- - - - - - x x\n- - - - - x x x\nx x x x x x - x\n- - - - x x - x\n- x - - - x x x\n- x - - - - - -\n- x - x x x x x"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/133.a.htm",
+      "solution": "8 8\nx x - - x x - x\nx x x x - x - x\nx x - - - - - x\nx x x x x x x -\nx x x x - - - x\n- - - - x x x x\n- - - - x x x x\n- - x - - - - x"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/134.a.htm",
+      "solution": "8 8\nx x x - - x x x\nx - - - x x x x\n- x x x x x x -\n- - - x x - - -\n- - x x x x - -\n- - - x x - x -\nx x - x x - x x\n- - - - x x x x"
+    },
+    "135_8x8": {
+      "id": "135_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/135.a.htm",
+      "solution": "8 8\n- - x x x x x x\n- - x x x x x x\n- - - - x x - x\nx x x - - - - -\n- x x x x - - -\n- - x x - - x x\nx x x x x - x x\n- - - - x - x -"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/136.a.htm",
+      "solution": "10 10\nx x - x x x x x x x\n- - - x x x - x x -\nx - - - x x - x x -\nx - - - - x x x x -\nx x - - - x x - - -\nx x x x x - x x - -\n- x - - - - x x - -\n- - - x x - - - - x\n- - x x x x x x x x\n- - - - - - - - x x"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/137.a.htm",
+      "solution": "10 10\nx x x - - - - x x x\nx x x - - - x - - -\nx x x x x x x x - -\nx x x x x x x x - -\nx - - - x - - x - -\nx - - - x - x x - -\n- - - - x - x x x x\n- - - - x - x x x x\n- - - - x - x x x x\n- - - - x - - - x x"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/138.a.htm",
+      "solution": "10 10\nx x x x - - - - x x\nx - - x - x x x x x\nx - - x - x x x - x\nx - - x x x x x - x\nx - - - - - x x x x\n- - - - - - x x x x\n- - - - - - - x - -\nx x x - - - - x - -\n- - - x x x - - - x\nx x x x x x - - x x"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/139.a.htm",
+      "solution": "10 10\n- - - - - x - - - -\nx x x x x x - x x -\nx x x x - - - - x -\nx x x - - x x - x -\nx x - x x x x - - -\n- - - - - x x - x -\n- - x x x x x - - -\n- - x - x x x - - x\n- - x - - x x x - -\n- - x - - - - - - -"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/140.a.htm",
+      "solution": "10 10\n- - x x x x - x x x\n- - x x x x x - x x\nx - - - x x x - x -\nx x - - - - x - x -\nx - x x x x x - - -\nx - - - - x x x x x\nx - - - x x - - - -\nx - - - x x - - x x\nx - - - x x x x x x\nx - - - - x - - - x"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/141.a.htm",
+      "solution": "8 8\n- - x x - - - -\n- x x x - - - -\n- x x x - x - -\n- x x x x x - -\n- x - - - - - -\n- x x x x x x x\n- x x x x x x x\nx x x x x x - -"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/142.a.htm",
+      "solution": "8 8\nx x - - - x x -\nx x - x - - - -\nx x x x - - x -\nx x x x - x x -\n- - - x - x x -\n- x x - x x x x\n- x x - x x x x\n- - - - x x - -"
+    },
+    "143_8x8": {
+      "id": "143_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/143.a.htm",
+      "solution": "8 8\nx - - - x x x x\nx x - - - - x x\nx x x - - - x x\nx x x x - - x x\nx x x x x - x x\n- x x x x - - -\n- - x - x - - -\nx - - - - - x x"
+    },
+    "144_8x8": {
+      "id": "144_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/144.a.htm",
+      "solution": "8 8\nx x - - x x - -\nx x x - x x x x\nx x x - x x x -\n- - - x x x - x\n- x - x x - - x\nx - - x x x x x\n- - - - - x - -\nx x - - x x - -"
+    },
+    "145_8x8": {
+      "id": "145_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/145.a.htm",
+      "solution": "8 8\n- - x x x x x x\nx x x - - x x -\n- x x x - - - -\n- - - - - x x -\n- x x x x x x -\n- x x - x x x x\n- x x x - x x x\n- - x x - - - -"
+    },
+    "146_10x10": {
+      "id": "146_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/146.a.htm",
+      "solution": "10 10\n- - - x x x x x x x\n- - x - - - - - - -\nx x x - - - - x - -\nx - - - - - - x x -\nx x x x x x x x x -\nx x x x x x - - x -\nx x x x - - x x x -\n- - - - - - x x x -\n- - - - - - x x x x\nx x x x x x x x x x"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/147.a.htm",
+      "solution": "10 10\n- - - x x x - x x -\n- - - - - x - - - -\n- x - x x x - - - x\n- x x - x - - - - x\n- - x x x x - - - x\n- - - - - - - - x x\n- - x - x x x x x -\n- - x - x x x x x -\nx - x x - - - x x -\nx x x x - - - x x x"
+    },
+    "148_10x10": {
+      "id": "148_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/148.a.htm",
+      "solution": "10 10\n- - - - - x x x x -\nx - - x x x x - - -\n- - - x - x x - x x\n- - - - - x x - - x\n- - - x - x x x x x\nx x x - - - x x x -\nx x x x - - - - - -\nx x x - - x x x x x\nx - - - - x x - - -\nx - x x - - - - - x"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/149.a.htm",
+      "solution": "10 10\nx x x - x x x x x -\n- - x x x - - x x -\nx - - x - - x x x -\nx - - - x x x x - -\n- - x x - x x x - -\n- - x - - x - x - -\n- x x - - x - - - -\nx - - - x x x x x x\n- - x - x - x x - -\n- x x x x - - - - x"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/150.a.htm",
+      "solution": "10 10\n- - - x x x - - - -\n- - x x x - - x - -\n- - - x x - - x - x\n- x - - x - x x x x\n- x x x x - x x x -\n- x x x x - x x x -\nx x x x x - - x x -\nx x - - - - - - x -\n- - - - - - - x x -\n- - - x - - - x x -"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/151.a.htm",
+      "solution": "8 8\nx x - x x x x x\nx x - - - - - -\nx x x x x x - -\n- - - - x x x -\nx x x x x x - -\nx x x - - x - x\nx x x - - - - x\nx x x - - - - x"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/152.a.htm",
+      "solution": "8 8\n- x x - - - - -\nx x x x x x x -\nx - x - x - x x\nx x x x x - - -\nx x x x x - - x\nx x - - - - - -\nx - - - - - - -\n- - - - x - - -"
+    },
+    "153_8x8": {
+      "id": "153_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/153.a.htm",
+      "solution": "8 8\n- - - - x - - -\nx x - - - x x -\nx x - x x x - -\nx x x x x x x -\nx x - - - - - -\nx x - x x x x -\n- - - - - - x -\nx x - - - x - x"
+    },
+    "154_8x8": {
+      "id": "154_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/154.a.htm",
+      "solution": "8 8\n- - x x x x x x\n- - - - - - x -\n- - x x x x x -\n- - x - x x x -\n- - - - - - x -\n- - - - - - x -\nx x x - x x x -\nx x x x x x - -"
+    },
+    "155_8x8": {
+      "id": "155_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/155.a.htm",
+      "solution": "8 8\n- - - - x - - -\n- - - - x x x -\n- - x - x x x -\nx x x - - x x -\n- - x x - x - -\nx x x x x x - -\n- - x x x x - -\nx x - - x x x x"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/156.a.htm",
+      "solution": "10 10\nx x x x x - x x x x\nx x x - x - x x x x\n- x x - x x x x x -\n- - x - x x x - x -\n- - x - - x x - x x\n- - x x - x x - x x\n- - - - - x x - - -\n- x x x x x x x - -\n- x x - - - x - - -\nx x x - - - - - - -"
+    },
+    "157_10x10": {
+      "id": "157_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/157.a.htm",
+      "solution": "10 10\n- - x - x - x x x x\n- - - - x - x x x x\n- - - x - - x - - x\n- x x x x - - - - -\nx x x - x x x x - x\n- - - - - - x x - -\n- - - x x - x x - -\n- - - x x - x x - -\n- x x x x - - x - -\n- - - - - - - x - -"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/158.a.htm",
+      "solution": "10 10\n- - - x x - - - - -\n- - x x x - x - - -\n- - x x x - x x x -\n- - - - x - - - - -\n- - x x x x - - - -\n- - x x x x - - - -\nx x x x - x - x - x\nx - - - - x - x - x\nx - x x x x - x - -\nx x x x x x - x - -"
+    },
+    "159_10x10": {
+      "id": "159_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/159.a.htm",
+      "solution": "10 10\n- x x x x x x x x -\n- - - - - x x x - x\n- - - x - x x x - -\nx x x x - x - x - -\nx x x x - x - - - -\n- - - x - - - - - -\n- - - - - - - x - -\n- x - x x x - - - x\n- - - x - x - - x x\n- - - - - x x x x -"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/160.a.htm",
+      "solution": "10 10\nx x x x x x x x x x\nx x x x x x - - x x\nx - - - x x - - x x\nx - - - x x - - x -\n- x - - x - - x x -\n- x - x x - - - - -\n- x - x x x x x - -\n- x - - - - - x - -\n- x x x x - - x - -\nx x - - - - x x x x"
+    },
+    "161_6x6": {
+      "id": "161_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/161.a.htm",
+      "solution": "6 6\n- - - - - x\n- - x x x x\n- x x x x -\n- x - x x x\nx x - x x x\n- x - - x x"
+    },
+    "162_6x6": {
+      "id": "162_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/162.a.htm",
+      "solution": "6 6\nx - x x x x\n- x x x x -\nx - x x x -\nx - - - x -\nx - - x - -\nx - x x - -"
+    },
+    "163_8x8": {
+      "id": "163_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/163.a.htm",
+      "solution": "8 8\nx x x x - - - x\nx x x x - - - x\n- - x x - - x x\n- - x x - - - x\nx x x x x x - -\n- - x x x x - -\nx x x x x x x -\nx x - - - - - -"
+    },
+    "164_8x8": {
+      "id": "164_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/164.a.htm",
+      "solution": "8 8\n- - x x x - - -\n- - x - x - - -\nx x x x - x x x\nx x x x - x - x\nx x x x - - - x\nx x x - - - - x\n- - - - x x x x\n- - - - x x x -"
+    },
+    "165_8x8": {
+      "id": "165_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/165.a.htm",
+      "solution": "8 8\n- - - x - - - -\nx x - - - x - -\nx x x - - x - -\nx x x - x x x -\n- - x - - - - -\n- - x x x - x -\n- - - - x x - x\nx - - - x x x x"
+    },
+    "166_8x8": {
+      "id": "166_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/166.a.htm",
+      "solution": "8 8\nx - - - - x x x\nx x x x x - x -\nx x x x x - x -\nx x x x - - x -\nx - x x - x x -\n- - x x - x - -\n- x x - - - x x\nx x x - - - - -"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/167.a.htm",
+      "solution": "10 10\nx x - - - - - - - -\nx x x x x x x x x -\nx - - - - - - - - -\nx x x - - - x x - x\nx x x x - - x x - x\nx x x x - x x x x x\nx x - x - - x x x x\nx x - - - - - - x x\nx - - x x x x - - x\nx - - - - - - x x x"
+    },
+    "168_10x10": {
+      "id": "168_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/168.a.htm",
+      "solution": "10 10\nx x x x x x - - x x\n- - - - - x - - x x\n- - - - - x x - - x\n- - - x x x x x x x\n- - - x x - x - - x\n- x - - x - x - - -\nx x x - x - x - - -\n- - - - - x x - x -\n- x x x - - - - x -\n- - x - - - - - x -"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/169.a.htm",
+      "solution": "10 10\nx x x x - x - - - -\nx x x x - x - - - -\nx - - - x x x x - x\nx x x x x x x x - x\n- - - - - x x - - x\n- - - x - x x - - -\n- - x x - x - - - -\n- - x x - x x x x x\n- - x x - x - x x x\n- - x x - x x - - -"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/170.a.htm",
+      "solution": "10 10\n- - - - - x - - - -\nx - x x x x x - - x\n- - - - - - - - - x\n- x x x - - - - - x\n- x - - - x - x x x\n- x x - x x x x x x\n- - x x x - x - - -\n- - x x x - x x x x\nx - x x x - x x x x\nx - - x x - - - - x"
+    },
+    "171_6x6": {
+      "id": "171_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/171.a.htm",
+      "solution": "6 6\nx x x - - -\n- - - x - -\n- - - x x x\nx - - x - -\nx - x x x x\nx - x - x x"
+    },
+    "172_6x6": {
+      "id": "172_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/172.a.htm",
+      "solution": "6 6\nx - x x - -\nx - - x - -\nx - - x - -\nx - - x x x\n- - - - x x\nx x - - x -"
+    },
+    "173_8x8": {
+      "id": "173_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/173.a.htm",
+      "solution": "8 8\n- - - - x x - -\nx - - x - - - -\n- x x x - - x -\n- - - x x x - -\n- - - - x - x x\nx x - - x - x x\nx x x x x - x x\n- - - - - - x x"
+    },
+    "174_8x8": {
+      "id": "174_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/174.a.htm",
+      "solution": "8 8\nx - - - - x x x\nx x x - x x x x\nx x x - x x - -\nx x x x - - - x\nx x x x - - - x\nx - - - - - - x\n- - - - x x - -\n- - - x x x x -"
+    },
+    "175_8x8": {
+      "id": "175_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/175.a.htm",
+      "solution": "8 8\n- x - - x - - -\n- x x - x - - -\n- x x - - - - x\nx x x - - x x x\n- - - - - x x x\nx - x - - x x x\n- - x x x x x x\n- - x - - - x x"
+    },
+    "176_8x8": {
+      "id": "176_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/176.a.htm",
+      "solution": "8 8\nx - x x x - x -\nx - x - - - - x\nx - x - - - - x\nx x x - x x x x\nx x x - x x - -\n- x x x x x - -\n- x x x x x - -\n- x - - x x - -"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/177.a.htm",
+      "solution": "10 10\nx - - - x - - - - -\nx - x x x - x x x -\nx - - x x x - - x -\nx - - x x x x x x x\nx - x x x x - x x x\nx x x x x x - x x -\nx - - - - - - - x -\nx - - - - - - - x -\nx - - x x x x x x -\nx - - x x x x x x -"
+    },
+    "178_10x10": {
+      "id": "178_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/178.a.htm",
+      "solution": "10 10\nx x - - - - - - - -\nx x x x - - - x x x\nx x x x x x x x - x\nx x x - - - - x - x\n- - x - - - - x - -\n- - x - - - - x x -\n- - x - x x - - - -\nx x x x x x - - - -\nx x x - x - - - - -\nx x x - x - - - - -"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/179.a.htm",
+      "solution": "10 10\nx x x x x - - - - x\nx x x x x x x x - x\nx - x x x x x x - x\nx - - x - - - - - -\nx x - - x - - - - -\nx x - x x - - x x -\n- - - x x x - x - -\nx x x x x x - - - -\nx x x - x x - - - -\n- - - x x x x x - -"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/180.a.htm",
+      "solution": "10 10\nx x x x - - - - - -\nx x - x x - - - - -\nx x - x x - x x x -\nx x - - x - x - x -\n- - - - x - x x x -\n- - - - - - x x x -\n- - - - - x x x x -\n- - x x x x x x x x\n- - - - x x x x x -\n- - - - - - - x x -"
+    },
+    "181_6x6": {
+      "id": "181_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/181.a.htm",
+      "solution": "6 6\nx x x - - -\n- - x - - x\nx x x - x -\nx x x - x -\nx x x x x -\n- - - x x -"
+    },
+    "182_6x6": {
+      "id": "182_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/182.a.htm",
+      "solution": "6 6\n- x x x x -\n- x - - - -\n- x x x x x\n- x x x x x\n- x - - - x\nx - - - - x"
+    },
+    "183_8x8": {
+      "id": "183_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/183.a.htm",
+      "solution": "8 8\nx x x x x x x -\nx - - - x - x x\n- - - - - - x x\nx x - x x - x x\nx x x x x - x -\nx x - - - - x -\n- - x x x x x -\n- x - - - - - -"
+    },
+    "184_8x8": {
+      "id": "184_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/184.a.htm",
+      "solution": "8 8\nx x x - - - - x\n- x x - - - - x\n- - x x x x - -\n- x x x x x x x\n- - x x - - x x\n- - x x x x - x\nx - - - x - - x\nx - - - x - - x"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/185.a.htm",
+      "solution": "8 8\nx x x - x - x x\n- - - - x - - x\nx x x x x - - x\n- x x x x x x x\n- x x x x - - -\n- x x - - - - -\n- x x - x x x -\n- x x - x x x x"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/186.a.htm",
+      "solution": "8 8\nx x x x - - x x\nx x - - x - - x\nx x - - x x - x\nx - - x - - - -\nx - x - x - - -\n- x - - - - - x\n- x - - - - - x\n- - - x x - - x"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/187.a.htm",
+      "solution": "10 10\n- - - - - x x x x x\n- - - - - x x x - x\n- - - x x - - - x x\n- - x x x x - - - -\n- - x x x x x - x x\nx x x x - - x - - -\nx - x - - - x x - -\nx - x x x x x x - x\n- x x - - - - x x x\n- x - - - - - x x x"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/188.a.htm",
+      "solution": "10 10\nx x - - x x x x x x\nx x x x x x x - x x\nx x x x x x x - x -\n- x x x x - - - - -\n- - - - x x x - - -\n- - - - x x - x x -\n- - x x x x x x x x\n- - x x x x - - - -\n- - x - - - - - x -\nx x x x x - - - - -"
+    },
+    "189_10x10": {
+      "id": "189_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/189.a.htm",
+      "solution": "10 10\n- - x - - - - - - x\n- - x - x x x x x x\n- - x - - - x x - -\nx x x - - - x x x x\n- x x - x - - - - x\nx x x - x - - x - -\n- x x - - x - - - -\n- x x x x - x - - -\n- x x x x - x - - -\n- - - - - - x - - -"
+    },
+    "190_10x10": {
+      "id": "190_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/190.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - x - x x x x - x\n- - x - - - - - x x\n- - - - - x x x - x\n- - - - - x - - - -\n- x - - x x - x - -\n- x - - x x - x x -\n- x x x x - - x x -\nx - x x x x x x x -\nx - x x - - x - - x"
+    },
+    "191_8x8": {
+      "id": "191_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/191.a.htm",
+      "solution": "8 8\nx x - - x x x x\nx - x - - - - -\nx - - x x x x -\nx - x x x x x x\nx - x x x x - -\n- - x x x x x -\nx x x x x - - -\n- - - x - - - x"
+    },
+    "192_8x8": {
+      "id": "192_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/192.a.htm",
+      "solution": "8 8\n- x x - - - - -\nx x - x - - x x\nx x - x - x - x\n- x - x x x - x\n- - - x x - - -\n- - x x x - - x\n- - x x x - - x\n- x x - - - x x"
+    },
+    "193_8x8": {
+      "id": "193_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/193.a.htm",
+      "solution": "8 8\n- x - - x x - -\nx - - - - - - -\nx - - - - - - -\nx x - - - x x x\nx x x x - x x -\nx x x x - x x -\nx x x - x x x x\nx x x - x x x x"
+    },
+    "194_8x8": {
+      "id": "194_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/194.a.htm",
+      "solution": "8 8\n- - - - x x x -\nx x x - x - x -\nx x x - - - - x\nx x - - - - - x\nx x x x - - x x\nx x x x - - - x\nx x x - - x x -\n- - - - x x x x"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/195.a.htm",
+      "solution": "8 8\n- - - - - - x x\n- - - - x - x x\n- x - x - - x x\nx x x x x x x -\nx x x - x x x x\nx - x - x - x x\nx - x - x - - -\nx x x - x x x -"
+    },
+    "196_10x10": {
+      "id": "196_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/196.a.htm",
+      "solution": "10 10\nx x x x - - - - - -\nx x x x x x - - - -\n- - - x x x x - - -\n- x x x x - - - x -\n- x x - x x x x x -\n- - - - - - - - x -\nx - - - - x x x x x\nx - - - - x x - x -\nx - - - - x x - x -\n- - - - - x x - x -"
+    },
+    "197_10x10": {
+      "id": "197_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/197.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\nx - - - - - - - x -\nx x x x x x - - x -\n- x x x x x x - x x\n- x - - - - - - - -\n- x x x x x x - - -\n- x x x x - x - - -\n- x x x x - x - x x\n- x x x x x x x x x\n- - - x x - - - - -"
+    },
+    "198_10x10": {
+      "id": "198_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/198.a.htm",
+      "solution": "10 10\n- - - - x x x x x -\n- - x x x x x x - -\nx x x x x - - - - -\nx x x x x - - - - -\nx - - - x - x - - -\nx x x - - - - - - -\nx - - - x - - - - -\nx x x - - - - - x -\nx x - - - - - x x -\nx x - - x - - - x x"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/199.a.htm",
+      "solution": "10 10\nx x x x - - x - - -\nx x x x - - - x x -\nx x x x - - - x x x\nx x - - - - - x x -\n- - - - x - - - - -\n- - x x x x x x x -\nx - - - x - x x x -\nx - - - x - - - - -\nx - x x x - - - - -\n- - x x - - - - - x"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/200.a.htm",
+      "solution": "10 10\nx x x x x - - - - x\nx x x x x x x x x x\n- - x x x x x - - -\n- - x x - x x - - x\n- - x - - x x x - -\nx - - - - - x x - -\nx x - x - - - x - x\nx - - x - - - x - x\nx - - x x - x x x x\nx - - x x - x x x x"
+    },
+    "201_8x8": {
+      "id": "201_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/201.a.htm",
+      "solution": "8 8\nx - - - - - x x\nx - - - - - x -\n- x x x - - x -\n- x x x x x x x\nx - x - - - - -\nx - x - - x x -\n- - x x x x x -\nx x x x x x x x"
+    },
+    "202_8x8": {
+      "id": "202_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/202.a.htm",
+      "solution": "8 8\n- - - - x x x -\n- x - - x x x -\n- - - - - - x -\n- x x - - - x x\n- - x x x x x x\n- x - - - - x x\nx x x x x x x -\nx - - x x - - -"
+    },
+    "203_8x8": {
+      "id": "203_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/203.a.htm",
+      "solution": "8 8\nx x x x x - - x\n- x x x x x - x\n- - - x x - - x\nx x - - - x x x\nx x x x - - x -\n- - - x - - - -\n- - - x x x x -\nx x x x - - - -"
+    },
+    "204_8x8": {
+      "id": "204_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/204.a.htm",
+      "solution": "8 8\n- - x x x x x x\n- - x x - - x x\nx - x x x - - -\nx - x x x - - -\nx - x x - - - -\nx - - x x x - -\nx x - x x x x x\n- x - - - - x x"
+    },
+    "205_8x8": {
+      "id": "205_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/205.a.htm",
+      "solution": "8 8\n- - x x x x x x\nx - - - x x x x\nx x - - - x - x\nx x - x x x - x\n- x - x x x x x\n- - - - x - - -\n- - - - x x x x\n- - - - x x - -"
+    },
+    "206_10x10": {
+      "id": "206_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/206.a.htm",
+      "solution": "10 10\nx - - - - x x - x x\n- - - - - x x - x x\n- - - x x x x x x x\n- - - x x x x x x x\n- - - x x x x x x x\n- - x x x x - - - x\n- - x - - - x x - -\nx x x x - - - - x -\nx x x x x x x - - -\n- - - - - - x - - -"
+    },
+    "207_10x10": {
+      "id": "207_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/207.a.htm",
+      "solution": "10 10\n- - - - x - - - x -\n- x - x - x - - x -\n- x - x - x x - - -\n- x - x - x x - - -\n- x x x x x x x x x\n- x x x - - - x x x\nx x x - x x - x x x\n- - x - - - x x x x\n- - x - x x x x x x\n- - x - - x x x x x"
+    },
+    "208_10x10": {
+      "id": "208_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/208.a.htm",
+      "solution": "10 10\nx x x x - x x - - -\nx - - x x x x - - -\n- - - x x x x - - -\n- - - x - - x x x x\n- - - - - - - - x x\nx - - - - - - x x x\n- - - - - - - - x x\n- - - x x x - - x x\n- - - x x x x x x -\n- - x x x x x x x x"
+    },
+    "209_10x10": {
+      "id": "209_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/209.a.htm",
+      "solution": "10 10\nx x - - - x x x - -\nx x - x x - - x - x\nx - - x - - - x - -\n- - x x - - - x - -\n- - - - - - - x - x\n- - x x - - - x x -\n- - x - - - x x x -\n- x x - - - - - x -\nx x x - x x x x x -\nx x x x - - - - - -"
+    },
+    "210_10x10": {
+      "id": "210_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/210.a.htm",
+      "solution": "10 10\nx - x - - - - - x -\n- - x - - - - - x -\n- - x x x x x - x x\n- - x - x - - - - x\n- - x x x x - - x x\n- - x - x - - - x x\n- - - - - - x - x x\nx x x - - - - - x x\nx - - x x x x x x x\nx - - - - - - - - x"
+    },
+    "211_8x8": {
+      "id": "211_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/211.a.htm",
+      "solution": "8 8\n- - - x x x x x\n- - - - x x x x\n- - x - x x x x\n- x x - x - x x\nx x - - - - - x\nx x - - - - - x\nx x - - - x - -\nx x - x - - - -"
+    },
+    "212_8x8": {
+      "id": "212_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/212.a.htm",
+      "solution": "8 8\nx x x - - - - -\n- - - - - - - x\n- - - - - - - x\nx x - x x x x x\nx x - x x x x x\nx x x x x - x x\nx x x - - x - x\nx - - x x x x x"
+    },
+    "213_8x8": {
+      "id": "213_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/213.a.htm",
+      "solution": "8 8\n- - - - x x - -\n- - x x - x - -\n- x - - - x x x\nx x - - x x x -\nx x x x - - - -\n- x x x x - - x\n- - - x x x - -\nx x x x x x - -"
+    },
+    "214_8x8": {
+      "id": "214_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/214.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - x x - - -\n- - - x x x x -\nx x x x x x x -\nx x x x x x - -\nx x - x - - - -\n- x x x - - - -\n- x x - - - - x"
+    },
+    "215_8x8": {
+      "id": "215_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/215.a.htm",
+      "solution": "8 8\n- - x - - x x -\n- - - - - x - -\n- x - - - x - x\nx - - - x x - x\nx - x - - - - x\nx - x x x x x x\nx - x - - - - -\nx x - - - x x -"
+    },
+    "218_10x10": {
+      "id": "218_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/218.a.htm",
+      "solution": "10 10\n- - - - - x x - x x\nx x x x - - x - x x\n- - - - - - x - x -\nx - - - x - x x - -\nx - - x x x x x - -\nx - - - - - - x - -\nx x - - x - - - - -\nx x - - x x x x x x\nx x - - x - x x x -\nx x x - - - x x x -"
+    },
+    "220_10x10": {
+      "id": "220_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/220.a.htm",
+      "solution": "10 10\nx x x - - - - - x x\nx x x - x x x x x x\nx x x x x x x x x -\nx - - x x x x x - -\n- - - - x x x - - -\n- - x - - x x x - x\n- - x - - x - - - x\n- - x x - x - x - x\n- - x - - - - x - x\n- x x x x x - x x x"
+    },
+    "221_8x8": {
+      "id": "221_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/221.a.htm",
+      "solution": "8 8\n- - - x - - - -\n- - x x - - - x\n- x - x - - - x\n- x - x x x - x\nx - - x - - - x\nx - x x x x x -\nx - x x x x x -\n- - - - - - x -"
+    },
+    "222_8x8": {
+      "id": "222_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/222.a.htm",
+      "solution": "8 8\n- x - x x x x -\nx x - - x x x -\nx x - - - x x x\n- - x x - - - -\n- - - x x x x -\n- - - x x - - -\n- - - x - - - -\nx x - x x x x -"
+    },
+    "223_8x8": {
+      "id": "223_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/223.a.htm",
+      "solution": "8 8\nx - - - x - - -\n- - x x x - - -\n- - - - - - x x\nx x x x x - - -\nx x x x x - - x\nx x - x x x - x\nx x - x x x - x\nx - - x x x x x"
+    },
+    "224_8x8": {
+      "id": "224_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/224.a.htm",
+      "solution": "8 8\n- - - - - x x x\nx x - - - x x x\n- x x - - x x x\n- x x x - - - -\n- - x x - x - -\n- x x x x x - -\n- x x x x - - -\nx x - - - - - -"
+    },
+    "225_8x8": {
+      "id": "225_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/225.a.htm",
+      "solution": "8 8\nx - x x - - - -\nx - - - - x - -\nx - - x - - - x\nx - x x - x x x\n- - x x x - - x\n- - - x x - - x\nx x x x x - - x\nx x x x - x x x"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/226.a.htm",
+      "solution": "10 10\nx - - - - - x - - -\nx x x - - - x x x x\n- - x x x - - - - x\n- - - x - - - x x x\n- x x - - - - x - x\n- - x x x x x x - -\n- - x x x - - x - -\n- x x x x - x x - -\n- - x x - - - x x -\n- x x x x - - - - -"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/227.a.htm",
+      "solution": "10 10\nx x x x x x x x - -\n- x x x x - - - - x\n- x - - - x x - - x\n- - x x x x x - - x\n- - - x x x x - x -\n- - x - - - - - x -\n- x x - x - - - x -\n- x x - - x x x x -\n- x x - - - - - - -\n- - - - - - x - - -"
+    },
+    "228_10x10": {
+      "id": "228_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/228.a.htm",
+      "solution": "10 10\n- - - x x x x - - -\n- - - x x x x - x -\n- - - - - - - - x -\n- - x - - - - - x -\n- x x x x x x x - -\nx x x x x - x x x x\nx - x x x - - x - -\nx - x x x x - x - x\nx - x x x x - - x x\n- - x x x x - - x x"
+    },
+    "229_10x10": {
+      "id": "229_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/229.a.htm",
+      "solution": "10 10\nx x x x x - - - - x\nx - - - x - - - - x\n- x - - x - - x - x\n- x - - x x x x x x\n- - - - - - - - - x\nx x - - - x x x - x\nx x x - - x x x - -\nx - - - x x x x - -\n- - - - - - x x - -\n- x x x x - x - - -"
+    },
+    "231_8x8": {
+      "id": "231_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/231.a.htm",
+      "solution": "8 8\n- - - x x - - x\nx - - x x x x x\n- - - - - x x x\n- - x - x x x -\n- x x x x - - -\n- x x x x x - -\n- x x - - - - -\n- - - - x x x -"
+    },
+    "232_8x8": {
+      "id": "232_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/232.a.htm",
+      "solution": "8 8\n- x x x - - x x\n- x - x - - x x\n- x - x - - x -\nx x x - - - x -\nx x x - - - - -\nx - - - x x x x\nx - - - x x x -\nx x - x x - - -"
+    },
+    "233_8x8": {
+      "id": "233_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/233.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- x x - x x - -\n- - - - - - - x\n- x x - - - - -\nx - - - - - - -\n- x - - - - - x\n- x - x x - - -\nx x x x x x x -"
+    },
+    "234_8x8": {
+      "id": "234_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/234.a.htm",
+      "solution": "8 8\nx x x - - - - x\n- - x x x x - x\n- - x x x x - x\nx - - - x x x x\nx x x - - x x x\nx x - - x - - -\n- x x x x - - x\n- x - - x - - x"
+    },
+    "235_8x8": {
+      "id": "235_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/235.a.htm",
+      "solution": "8 8\nx x x x x x - -\n- - - x x x - -\n- - - x - x x -\n- - - - - x - -\n- x x x x x - -\n- - x x - - - x\nx - - - - x - x\n- - - - - x x x"
+    },
+    "238_10x10": {
+      "id": "238_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/238.a.htm",
+      "solution": "10 10\nx x - - - - - x x x\nx - - x x x - x x x\nx - - - - x - x x -\nx - - - - x - x x -\nx - - - - x - x - -\nx x - x x x x x - -\n- - x x - - - x - -\n- - x x x x x x - x\nx x x - - - - x - -\n- - x - x x - x - -"
+    },
+    "241_8x8": {
+      "id": "241_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/241.a.htm",
+      "solution": "8 8\n- x x - - - - -\n- x - x x x - -\nx x - - - x - x\nx x x x - x - x\nx x x x - x x x\nx x x x - - - x\nx - x x - - - -\nx - x - - x x x"
+    },
+    "242_8x8": {
+      "id": "242_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/242.a.htm",
+      "solution": "8 8\nx x x - - - - -\nx - - - - x - -\nx x - - - x - -\nx x x x x x x -\nx x x x x - x -\nx x x x x - x x\nx x x - - - x x\n- - x x x - - -"
+    },
+    "243_8x8": {
+      "id": "243_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/243.a.htm",
+      "solution": "8 8\nx x - x - x x x\nx x - - - x x -\nx - - - x - x x\nx - - x x x x x\n- - - x x x x x\nx - - x x x x x\nx - - - x - - x\nx - x - - - - x"
+    },
+    "244_8x8": {
+      "id": "244_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/244.a.htm",
+      "solution": "8 8\n- - x x x x x x\nx x x x x - x x\nx x - - - - x x\nx x - x x x x x\n- - - x - - x x\nx - - - - x x -\n- - - - - x x x\n- - x - - - - -"
+    },
+    "245_8x8": {
+      "id": "245_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/245.a.htm",
+      "solution": "8 8\nx - x x x x - -\nx x x - x x x x\n- - x - x x x x\nx - x x - x x x\nx - - x x x - -\nx x - - - - - -\nx x - - - - - -\n- - - x x - - -"
+    },
+    "248_10x10": {
+      "id": "248_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/248.a.htm",
+      "solution": "10 10\nx x x x x x x x x x\n- - - - x x - x - -\n- - - - - x - - x x\n- - - x x x - x x -\n- - - - x x - x x -\n- x - - x x x x x x\n- - - x x x x x x x\n- - - x - - x - - x\n- - - - - x - - - -\nx - - - x x x x - x"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/216.a.htm",
+      "solution": "10 10\n- - - - x - x x x x\n- - x - x - x x - -\n- - x - x x x x - x\n- - x - - x - - - -\nx x x x x x - - - -\nx x x x x x - - - -\nx x - - x x - x - -\nx x x - - - - x - -\nx x x - - - - x x x\nx x x x x x x x - -"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/217.a.htm",
+      "solution": "10 10\nx - - - - - - - - -\nx x - - - - - - - x\nx x - - - - x - - x\nx x - - - - x - - x\nx x - - - - x - x x\n- x - - - - x x x x\n- x - x x x x x x x\nx x x x - - - - - -\nx x x x x x - - - -\nx - x x - x - - - -"
+    },
+    "219_10x10": {
+      "id": "219_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/219.a.htm",
+      "solution": "10 10\nx - - - x x x x x -\nx x x x - - - - - -\n- - - x x x x - - -\n- - - x x x x - - -\n- - - - - x x - - -\n- - - - x x x - x -\n- - - - - x x - x x\n- - - - - x - - x -\nx x x - - x - - - -\nx x x x x x - x x -"
+    },
+    "230_10x10": {
+      "id": "230_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/230.a.htm",
+      "solution": "10 10\nx x x x x x x - - x\nx x x x x x x - - -\n- - - - - x - x x x\nx x x - - - - - - -\nx x - - - - - - x -\nx x x x x x x x x x\n- x x - x x x x x x\n- x x - x x x x - -\n- x x x - - - - - -\nx x x x - - - - - x"
+    },
+    "236_10x10": {
+      "id": "236_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/236.a.htm",
+      "solution": "10 10\n- - x - x x - - - -\n- - x - x x - - - -\nx - x x - x x x x x\nx - x x x x - - - x\nx - - - - - - x x x\nx x - - - - - x - x\nx - x x x - - x - x\nx - x - - x - x x x\nx - - - - - - - x x\nx x x - - - - x x x"
+    },
+    "237_10x10": {
+      "id": "237_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/237.a.htm",
+      "solution": "10 10\nx - - - - x - - - x\nx x x x x x - - - x\n- - x x x x - - - x\n- - x x x - - - x x\nx - - - - - - - x x\nx - x x x x x x - -\nx - x x x - x x - -\nx - x x x - x x - -\nx - x x x - - - - -\nx x x - - - - x x x"
+    },
+    "239_10x10": {
+      "id": "239_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/239.a.htm",
+      "solution": "10 10\nx x - - x x - - - x\nx x x - x x - x x x\nx x x - x x - x - x\nx x - - x x x x - x\nx x x x x - - - - x\nx x x - x - x x x -\nx - x x x - x x x -\n- - x x x x x - - -\n- - - x x x x - - -\n- - - x x - - - - -"
+    },
+    "240_10x10": {
+      "id": "240_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/240.a.htm",
+      "solution": "10 10\n- - - - - x - - - x\n- - x - - - - - - x\n- - x - - - x x - x\n- - x - x - x x - -\n- - x - x - x x x x\n- - x - x - x x - x\nx x x x x - - - - -\nx - - - - - - - x x\n- - - x x x x - - x\n- - x x x x x x - -"
+    },
+    "246_10x10": {
+      "id": "246_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/246.a.htm",
+      "solution": "10 10\nx x x - - - - - x -\n- - - - x x - - x -\nx - - - x x x x x x\nx - - - - x x - - -\nx - - - - x x - x x\nx x - - x x x - x x\nx - x - x x - - - x\nx - x x x x x - - x\nx - x - - - - x x x\nx x x - - x x x x x"
+    },
+    "247_10x10": {
+      "id": "247_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/247.a.htm",
+      "solution": "10 10\nx x x - - - - x x x\nx x x - x - - - - -\n- x - - - - - - - -\n- x - - x x x x - -\n- x x - x - x x x -\nx x x x x - x x x -\nx - - x x - x x x -\nx - - x x - x x - x\nx - - x x - x x x -\n- x - x - - - x x -"
+    },
+    "249_10x10": {
+      "id": "249_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/249.a.htm",
+      "solution": "10 10\nx x x x - x x x - -\nx x x x - - - - - x\n- - x x - x - - - x\n- - - x - x - - - x\n- - - x x x x x - x\nx x x x x x x x x x\nx x x - x x x x x x\n- x x - x - x x - x\n- x x - x - - - - -\n- - - x x - - - - -"
+    },
+    "250_10x10": {
+      "id": "250_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Thermometer/250.a.htm",
+      "solution": "10 10\nx - - - x x - - - -\nx x - - - x - - - -\nx x x x - x x x x x\nx x x x x x x x x x\n- - - x - - - - - -\n- - - x x x x - - -\n- - - x x x - - x -\n- x x x - - - - - -\n- - - - x x x x - -\n- - x x x x x x x x"
+    }
+  },
+  "info": "",
+  "count": 250
+}

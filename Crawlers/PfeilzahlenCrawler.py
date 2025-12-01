@@ -118,7 +118,6 @@ class PfeilzahlenCrawler(GridCrawler):
                     response.encoding = 'utf-8'
                     
                     page_source = response.text
-                    print(page_source)
                     # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 

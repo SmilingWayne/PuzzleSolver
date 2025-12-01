@@ -66,8 +66,7 @@ if __name__ == "__main__":
             #     continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):
-            #         # raise ValueError(f"Wrong {pz_name} {puzzle_id},")
                     print(f"Wrong! {pz_name} {puzzle_id},")
 
                 record.append(solution_dict)
-                print(solution_dict['num_constrs'], solution_dict['status'])
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'] )

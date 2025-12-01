@@ -1,0 +1,1740 @@
+{
+  "solutions": {
+    "1_10x10": {
+      "id": "1_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/001.a.htm",
+      "solution": "10 10\nx - - x x - x x - -\nx - - - - x - - x -\n- x x - - x - - x -\nx - - x x - - - - x\nx - x - - - - x - x\n- - x - - - - x - -\nx - - - x x - - x -\nx - x x - - x - x -\n- x - - - - x - - x\n- x - - x x - - - x"
+    },
+    "2_10x10": {
+      "id": "2_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/002.a.htm",
+      "solution": "10 10\n- - x x - - - - - x\n- - - - - x x - - x\nx - x x - - - x x -\nx - - - - x - - - -\n- x x - - x - x x -\n- - - x - - x - - x\nx - - x - - x - - x\nx - x - x x - - - -\n- - x - - - x - x -\nx x - x x - x - x -"
+    },
+    "3_10x10": {
+      "id": "3_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/003.a.htm",
+      "solution": "10 10\nx x - - x x - - x -\n- - x x - - - - x -\nx x - - - x x - - x\n- - x - x - - - - x\nx - x - x - x - x -\nx - - x - - x - x -\n- x - x - x - - - -\n- x - - - x - x x -\nx - x - - - - - - x\nx - x - x x - - - x"
+    },
+    "4_10x10": {
+      "id": "4_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/004.a.htm",
+      "solution": "10 10\nx - x x - - x x - x\nx - - - x x - - - x\n- x x - - - - x x -\nx - - - - x x - - -\nx - - x x - - - - x\n- x - - - x - x - x\n- x - - - x - x - -\nx - x x - - x - x x\nx - - - - - x - - -\n- x x - x x - - x x"
+    },
+    "5_10x10": {
+      "id": "5_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/005.a.htm",
+      "solution": "10 10\nx x - - x - x - x x\n- - - - x - x - - -\nx x - x - x - x x -\n- - - x - x - - - -\n- - - - - - - x x -\nx x - x - x x - - -\n- - - x - - - x - x\nx - x - - - - x - x\nx - x - - x x - - -\n- - - x x - - x x -"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/006.a.htm",
+      "solution": "10 10\n- x x - - - - x - x\nx - - x x - - x - x\nx - - - - x x - x -\n- - - x x - - - x -\n- x - - - - - x - -\n- x - - x x - x - x\nx - x - - - x - - x\nx - x - - - x - x -\n- x - x - x - - x -\n- x - x - x - - - -"
+    },
+    "7_10x10": {
+      "id": "7_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/007.a.htm",
+      "solution": "10 10\nx - - - x - - - x -\nx - - - x - - - x -\n- x x - - x x - - x\n- - - x x - - - - x\n- x x - - x x - - -\nx - - - - - - x x -\nx - - x - x - - - -\n- - - x - x - - x x\n- x x - - - x - - -\n- - - x x - x - x x"
+    },
+    "8_10x10": {
+      "id": "8_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/008.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x x - - - - - x\nx x - - x - - - - x\n- - x - x - x - x -\n- - x - - - x - x -\n- - - - x x - - - x\n- x - x - - - - - x\n- x - x - x x - x -\nx - x - - - - - x -\nx - x - x x - - - -"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/009.a.htm",
+      "solution": "10 10\n- - - - x x - x x -\nx - x x - - - - - -\nx - - - x x - x - x\n- - x x - - - x - x\n- x - - x x - - x -\n- x - - - - x - x -\nx - x - - - x - - x\nx - x - - x - - - x\n- - - x - x - - - -\nx x - x - - x x - -"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/010.a.htm",
+      "solution": "10 10\n- x x - x - - x - x\nx - - - x - - x - x\nx - - x - x x - - -\n- x - x - - - x - -\n- x - - - - - x - -\nx - - x - x x - x x\nx - - x - - - - - -\n- x x - x x - - x x\n- - - x - - x x - -\n- - - x - - - - x x"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/011.a.htm",
+      "solution": "10 10\nx x - - x x - - x -\n- - x x - - x - x -\nx x - - x - x - - x\n- - x - x - - x - x\nx - x - - x - x - -\nx - - - - x - - x x\n- x x - x - x x - -\nx - - - x - - - - x\nx - - - - x x - - x\n- - - x x - - x x -"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/012.a.htm",
+      "solution": "10 10\nx - x - x - x - x x\nx - x - x - x - - -\n- - - x - - - x x -\n- - - x - - - - - x\n- x x - - x x - - x\n- - - x x - - x x -\n- x x - - - - - - -\nx - - x - - x x - x\nx - - x - - - - - x\n- x x - - - - x x -"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/013.a.htm",
+      "solution": "10 10\nx x - - x x - x - -\n- - x x - - - x - x\n- - - - - x x - - x\nx x - x - - - x x -\n- - - x - - - - - -\n- x x - - x - - x x\nx - - - - x - - - -\nx - x x - - x x - x\n- - - - - - - - - x\n- x x - x x - x x -"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/014.a.htm",
+      "solution": "10 10\n- x x - x x - - - x\n- - - - - - x - - x\nx x - - - - x - - -\n- - x - x x - x x -\nx - x - - - - - - -\nx - - x - x x - x x\n- x - x - - - - - -\n- x - - - x x - x x\n- - x - x - - - - -\n- - x - x - x x - -"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/015.a.htm",
+      "solution": "10 10\nx - x - - - x x - x\nx - x - - - - - - x\n- - - x x - - x x -\nx - x - - x x - - x\nx - x - - - - x - x\n- x - - x x - x - -\n- x - - - - x - x x\n- - - - - - x - - -\n- - - x x - - x x -\nx x - - - x x - - -"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/016.a.htm",
+      "solution": "10 10\nx - x - x x - - x -\nx - x - - - - - x -\n- - - x - x - x - x\nx x - x - x - x - x\n- - - - - - x - - -\n- x x - x - x - x x\nx - - - x - - x - -\nx - x x - x - x - x\n- - - - - x - - - x\nx x - x x - - x x -"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/017.a.htm",
+      "solution": "10 10\n- x x - - - x x - -\nx - - x - x - - x x\nx - - x - x - - - -\n- x x - x - - - x -\n- - - - x - - - x -\n- - x x - - - - - x\nx x - - x - - - - x\n- - x - x - x x - -\n- - x - - - - - x x\nx x - x x - x x - -"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/018.a.htm",
+      "solution": "10 10\nx x - x x - - x x -\n- - - - - x x - - -\n- x - - - - - x x -\n- x - - x - - - - -\nx - x - x - - x - x\nx - x - - - - x - x\n- x - - x - x - - -\n- x - - x - x - - -\nx - x - - - - x x -\nx - x - - x x - - -"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/019.a.htm",
+      "solution": "10 10\nx x - - - - x - - -\n- - x x - - x - x x\n- - - - x x - - - -\nx - x x - - - - x x\nx - - - - - x x - -\n- - x x - - - - - x\n- x - - - - x - - x\n- x - x x - x - x -\nx - x - - x - - x -\nx - x - - x - - - -"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/020.a.htm",
+      "solution": "10 10\n- x x - - x - x x -\nx - - x - x - - - x\nx - - x - - x x - x\n- x x - x x - - - -\n- - - - - - x x - x\n- - x x - - - - - x\n- x - - - - x - x -\n- x - x x - x - x -\n- - x - - - - x - x\n- - x - x x - x - x"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/021.a.htm",
+      "solution": "8 8\n- x x - - x x -\nx - - - x - - -\nx - x - x - x -\n- - x - - - x -\nx x - - x x - x\n- - x x - - - x\nx - - - x x - -\nx - x x - - x x"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/022.a.htm",
+      "solution": "8 8\nx - x - x - x -\nx - x - x - x -\n- x - x - - - -\n- x - x - - x x\nx - - - - - - -\nx - - x x - x x\n- x x - - - - -\n- - - x x - x x"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/023.a.htm",
+      "solution": "8 8\nx - x - x - - -\nx - x - x - x x\n- - - - - - - -\nx - x x - - x x\nx - - - x x - -\n- x x - - - x x\nx - - - x x - -\nx - x x - - x x"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/024.a.htm",
+      "solution": "10 10\nx - x x - - x x - x\nx - - - x x - - - x\n- x x - - - x x - -\nx - - - x x - - x x\nx - x - - - x x - -\n- - x - x x - - - -\nx x - x - - x - x -\n- - - x - - x - x -\nx x - - x x - - - x\n- - x x - - x x - x"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/025.a.htm",
+      "solution": "10 10\n- x x - - - x x - -\n- - - - x - - - x x\n- x x - x - x x - -\nx - - x - x - - - x\nx - - x - x - - - x\n- x x - x - x - x -\nx - - - x - x - x -\nx - - x - x - - - x\n- x - x - x - - - x\n- x - - - - - x x -"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/026.a.htm",
+      "solution": "10 10\n- x - - - x x - x x\n- x - - x - - x - -\nx - - - x - - x - x\nx - x x - x x - - x\n- - - - x - - x x -\n- x x - x - x - - -\n- - - x - - x - - -\nx x - x - x - x x -\n- - - - - x - - - x\n- x x - - - x x - x"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/027.a.htm",
+      "solution": "10 10\nx x - - - x x - - -\n- - x x - - - - x -\nx x - - x x - - x -\n- - x x - - x x - -\n- - - - x x - - x x\n- x - x - - x x - -\n- x - x - - - - x -\nx - - - - x x - x -\nx - - x x - - x - x\n- x x - - - - x - x"
+    },
+    "28_13x13": {
+      "id": "28_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/028.a.htm",
+      "solution": "13 13\n- x x - x - - x - - - x x\nx - - - x - - x - x x - -\nx - x x - x x - x - - x x\n- x - - - - - - x - x - -\n- x - - - - x x - - x - x\nx - - - x x - - x x - - x\nx - x x - - x x - - x x -\n- - - - x - - - - - - - x\nx x - - x - x - x x - - x\n- - x x - - x - - - - x -\nx x - - x x - - x x - x -\n- - x x - - x x - - - - -\nx x - - x x - - x x - x x"
+    },
+    "29_13x13": {
+      "id": "29_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/029.a.htm",
+      "solution": "13 13\n- x - - x x - - - x x - x\n- x - x - - - x x - - - x\nx - - x - x x - - - x x -\nx - - - x - - x - x - - x\n- x x - x - - x - x - - x\nx - - x - x x - - - - x -\nx - - x - - - x - x - x -\n- - x - x - - x - x - - x\n- - x - x - - - x - x - x\nx x - x - x - - x - x - -\n- - - x - x - x - x - - -\nx - x - x - - x - x - - -\nx - x - x - - - - - x x -"
+    },
+    "30_13x13": {
+      "id": "30_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/030.a.htm",
+      "solution": "13 13\nx x - x x - x x - - x x -\n- - x - - - - - x x - - x\nx - x - - x x - - - x - x\nx - - x x - - x x - x - -\n- x x - - x x - - - - x x\nx - - x x - - x x - - - -\nx - x - - - x - - x x - x\n- - x - - - x - x - - - x\nx x - - x x - - x - x - -\n- - x x - - x x - - x - x\nx x - - x x - - x x - - x\n- - - x - - x x - - x x -\nx x - x - - - - x x - - -"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/031.a.htm",
+      "solution": "10 10\nx - x - x x - - x -\nx - x - - - - - x -\n- - - - x x - - - x\n- - x x - - x - - x\nx x - - x - x - x -\n- - x - x - - - x -\nx - x - - - x x - x\nx - - - x - - - - x\n- - - - x - - - x -\nx x - - - x x - x -"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/032.a.htm",
+      "solution": "10 10\n- x x - - - x x - -\nx - - x - x - - x -\nx - - x - x - - x -\n- x x - - - x x - -\nx - - - x x - - x x\nx - - - - - - - - -\n- - - - x x - - x -\n- - x x - - - - x -\nx x - - x x - x - x\n- - x x - - - x - x"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/033.a.htm",
+      "solution": "10 10\n- x x - - x x - - -\nx - - x x - - x x -\nx - - - - x x - - -\n- - - x x - - - - x\nx - x - - x x - - x\nx - x - - - - x x -\n- x - - x x - - - -\n- x - x - - - x x -\n- - - x - x - - - -\n- x x - - x - x x -"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/034.a.htm",
+      "solution": "10 10\n- x - - - - - x x -\n- x - x x - x - - x\nx - - - - - x - - x\nx - - x - x - - - -\n- x - x - x - x x -\n- x - - - - x - - -\nx - - - - - x - - -\nx - x x - x - - x x\n- x - - - x - x - -\n- x - x x - - x - -"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/035.a.htm",
+      "solution": "10 10\n- x x - - - x x - -\nx - - - - x - - - x\nx - x x - x - - - x\n- - - - - - x x - -\nx - x x - - - - x x\nx - - - - - x x - -\n- x x - - x - - x x\n- - - - - x - - - -\n- x x - - - x - x -\n- - - x x - x - x -"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/036.a.htm",
+      "solution": "10 10\nx - x - - - x x - x\nx - x - - x - - - x\n- x - - - x - - x -\n- x - - - - - - x -\nx - x - - - x x - x\nx - x - x - - - - x\n- - - - x - - x x -\nx - x x - x x - - x\nx - - - - - - - - x\n- x x - - x x - - -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/037.a.htm",
+      "solution": "10 10\n- - x x - - - - x x\nx x - - x x - - - -\n- - x x - - - - - x\nx x - - - x x - - x\n- - x x - - - x x -\nx x - - - - x - - -\n- - x x - - x - - x\n- - - - x - - - - x\n- - - - x - x - x -\n- - x x - - x - x -"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/038.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\n- x x - - x x - - -\nx - - x x - - - - -\nx - - - - x x - x x\n- - x x - - - x - -\nx x - - - x - x - -\n- - - - - x - - - -\n- x - - - - x x - x\n- x - - - x - - - x\n- - x x - x - x x -"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/039.a.htm",
+      "solution": "10 10\nx - x x - - x x - x\nx - - - x x - - - x\n- x x - - - x x - -\nx - - - x x - - x x\nx - x x - - x - - -\n- - - - - - x - x x\n- x x - x x - - - -\nx - - x - - x x - x\nx - - x - x - - - x\n- x x - - x - x x -"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/040.a.htm",
+      "solution": "10 10\nx x - x - x x - - -\n- - - x - - - x x -\nx - x - x x - - - -\nx - x - - - - x - x\n- x - x - x - x - x\n- x - x - x - - x -\nx - x - x - - - x -\nx - x - x - x x - x\n- - - x - x - - - x\nx x - x - x - x x -"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/041.a.htm",
+      "solution": "10 10\n- x - x x - - - x x\n- x - - - - - - - -\nx - x - x - x - x -\nx - x - x - x - x -\n- - - x - x - x - -\n- - - x - x - x - -\n- x - - - - - - - x\n- x - - - - - x - x\nx - - x x - - x - -\nx - - - - x x - x x"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/042.a.htm",
+      "solution": "10 10\n- - x - x x - - x x\n- - x - - - - x - -\nx - - x x - - x - x\nx - x - - - - - - x\n- - x - x x - x x -\nx - - x - - - - - -\nx - - x - - - - x -\n- x x - - x x - x -\nx - - - - - - - - x\nx - - - x x - - - x"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/043.a.htm",
+      "solution": "10 10\n- x x - - - - - x x\n- - - - - x - x - -\n- - x x - x - x - -\nx x - - x - x - x x\n- - x - x - x - - -\n- - x - - x - - - -\n- - - - - x - - - x\nx - - x - - - x - x\nx - - x - - - x - -\n- x x - x x - - x x"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/044.a.htm",
+      "solution": "10 10\nx - x - x - x x - -\nx - x - x - - - x -\n- x - - - - - - x -\n- x - - x x - - - x\n- - x x - - - - - x\nx - - - - x x - - -\nx - x - x - - - x x\n- - x - x - x x - -\nx x - - - - - - - x\n- - x x - - x x - x"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/045.a.htm",
+      "solution": "10 10\n- - x x - x - x x -\nx x - - - x - - - x\n- - x x - - x x - x\nx x - - x x - - x -\n- - x x - - - - x -\nx - - - x x - - - -\nx - x x - - x x - -\n- - - - x x - - - x\n- - x x - - x x - x\nx x - - x x - - - -"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/046.a.htm",
+      "solution": "10 10\n- x - x - x - - - -\n- x - x - x - - - -\nx - x - - - x x - x\nx - x - x x - - - x\n- x - x - - - x x -\n- x - x - x x - - -\nx - x - x - - x - -\nx - x - x - - x - x\n- x - x - x x - - x\n- x - x - - - x x -"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/047.a.htm",
+      "solution": "10 10\nx x - - x x - - - -\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - - - - -\n- - - - - x x - x x\n- - x x - - - x - -\n- - - - x x - x - -\nx - - x - - x - x -\nx - - x - - x - x -\n- x x - x x - - - -"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/048.a.htm",
+      "solution": "10 10\nx x - - - - x x - -\n- - x x - - - - x x\nx x - - - - x x - -\n- - x x - x - - - -\nx x - - - x - x x -\n- - - - - - x - - x\n- x x - - - x - - x\nx - - x x - - - - -\nx - x - - x x - - -\n- - x - - - - x x -"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/049.a.htm",
+      "solution": "10 10\n- x x - - - - - - -\n- - - - - x x - x x\n- x x - - - - - - -\nx - - - - x x - x x\nx - x x - - - - - -\n- x - - - x x - x x\n- x - x x - - x - -\n- - - - - - - x - -\n- x - x - - x - x -\n- x - x - - x - x -"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/050.a.htm",
+      "solution": "10 10\nx - x x - x x - - -\nx - - - x - - - x -\n- x x - x - - - x -\n- - - - - x - x - -\n- x x - - x - x - -\nx - - x x - - - - x\nx - - - - x x - - x\n- x - x x - - x x -\n- x - - - - x - - -\n- - x x - - x - x x"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/051.a.htm",
+      "solution": "10 10\nx x - - - - - x x -\n- - - x x - - - - -\n- x - - - - x x - -\n- x - - - - - - x x\nx - - - x x - - - -\nx - x x - - - - x x\n- x - - - x - x - -\n- x - - - x - x - x\nx - x x - - x - - x\nx - - - - - x - - -"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/052.a.htm",
+      "solution": "10 10\n- - x x - - x x - -\nx x - - - x - - x x\n- - x x - x - - - -\nx x - - - - x - x x\n- - x x - - x - - -\nx x - - - x - x - x\n- - x x - x - x - x\n- x - - - - x - x -\n- x - - - - x - x -\n- - - - x x - - - -"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/053.a.htm",
+      "solution": "10 10\n- - - x x - - - - -\n- x x - - - - x x -\nx - - x - - - - - -\nx - - x - - - x x -\n- - x - x - x - - x\nx - x - x - x - - x\nx - - x - x - x - -\n- - - x - x - x - -\n- x x - x - x - x -\n- - - - x - x - x -"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/054.a.htm",
+      "solution": "10 10\nx - x x - - x x - -\nx - - - - x - - x x\n- x x - - x - - - -\nx - - - x - - - - -\nx - - - x - x - x x\n- x - x - - x - - -\n- x - x - - - - x x\nx - - - x x - - - -\nx - - - - - - - - -\n- - x x - - - x x -"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/055.a.htm",
+      "solution": "10 10\n- - x x - x x - x x\n- x - - x - - x - -\n- x - - x - - x - -\n- - x x - x x - - -\nx x - - x - - - - x\n- - - - x - x x - x\nx - - x - x - - - -\nx - - x - x - - - x\n- x x - - - x - - x\n- - - x x - x - - -"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/056.a.htm",
+      "solution": "10 10\nx - - x x - x - x -\nx - - - - - x - x -\n- x x - x - - x - x\nx - - - x - - x - x\nx - x x - x x - - -\n- - - - - - - - x -\n- - x x - x - - x -\nx - - - - x - x - x\nx - - x x - - x - x\n- x x - - x x - - -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/057.a.htm",
+      "solution": "10 10\n- - x x - - x x - -\nx x - - - - - - x -\n- - x x - - - - x -\nx x - - x - x x - x\n- - x - x - - - - x\n- - x - - x - x x -\n- - - - - x - - - -\nx - x x - - x x - -\nx - - - - x - - - x\n- x x - - x - - - x"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/058.a.htm",
+      "solution": "10 10\n- x x - - - - x x -\n- - - x - - - - - -\n- - - x - - x x - -\nx - x - - x - - x x\nx - x - - x - - - -\n- - - x x - x - - -\n- x x - - - x - x x\n- - - - x x - x - -\n- x - - - - - x - -\n- x - - - x x - - -"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/059.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\nx x - - - x x - - -\n- - - - - - - x x -\n- x x - x - x - - x\nx - - - x - x - - x\nx - - - - x - - x -\n- x x - - x - - x -\n- - - x x - x x - x\n- x - - - - - - - x\n- x - x x - - x x -"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/060.a.htm",
+      "solution": "10 10\nx - x x - - - - x -\nx - - - - x - - x -\n- x x - - x - x - x\nx - - x x - - x - x\nx - - - - - - - - -\n- x - x - - - x - -\n- x - x - - - x - x\n- - x - x x - - - x\n- - x - - - x x - -\n- - - x x - - - x x"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/061.a.htm",
+      "solution": "10 10\n- x - - - x x - - x\n- x - x x - - x - x\nx - - - - x - x - -\nx - x x - x - - x x\n- x - - - - x x - -\n- x - x x - - - - -\n- - x - - - x x - -\nx - x - x x - - - -\nx - - x - - - x x -\n- - - x - x x - - -"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/062.a.htm",
+      "solution": "10 10\n- - x x - - x x - x\nx x - - - - - - - x\n- - x x - - - x x -\n- - - - - x x - - -\n- x - - - - - x x -\n- x - - - - - - - x\nx - x x - - x x - x\nx - - - x x - - x -\n- - x x - - - - x -\n- - - - x x - - - -"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/063.a.htm",
+      "solution": "10 10\n- x x - - - - x x -\nx - - x x - - - - x\nx - x - - x - x - x\n- - x - - x - x - -\nx x - - x - x - x x\n- - x - x - x - - -\n- - x - - - - x - x\nx x - - - x - x - x\n- - x x - x - - x -\nx x - - - - - - x -"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/064.a.htm",
+      "solution": "10 10\n- - - x x - x x - -\nx x - - - x - - x x\n- - - - - x - x - -\nx x - x x - - x - x\n- - - - - x x - - x\nx x - x - - - x x -\n- - - x - x x - - x\n- x x - x - - x - x\nx - - - x - - x - -\nx - x x - x x - x x"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/065.a.htm",
+      "solution": "10 10\n- x x - x x - x - x\nx - - x - - - x - x\nx - - x - x x - x -\n- x x - x - - - x -\nx - - - x - x x - x\nx - x x - - - - - x\n- - - - - - - x x -\n- - x x - x x - - -\nx x - - - - - x x -\n- - x x - x x - - -"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/066.a.htm",
+      "solution": "10 10\n- - x x - x x - - -\n- x - - - - - - x -\n- x - - - x - - x -\nx - - x - x - x - -\nx - - x - - - x - x\n- - x - x - - - - x\n- - x - x - - x x -\nx x - x - x x - - x\n- - - x - - - - - x\n- x x - - - - x x -"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/067.a.htm",
+      "solution": "10 10\n- - x x - - - x x -\nx x - - - x x - - x\n- - x x - - - x - x\nx x - - - x - x - -\n- - x x - x - - - -\n- - - - x - x x - x\n- x x - x - - - - x\n- - - - - x - x - -\n- x x - - x - x - x\n- - - x x - - - - x"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/068.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x x - - - - - x\nx x - - x x - x - x\n- - x x - - - x - -\nx x - - x x - - x x\n- - x - - - x x - -\n- - x - x - - - x x\nx x - - x - x x - -\n- - x x - x - - - -\nx x - - - x - x x -"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/069.a.htm",
+      "solution": "10 10\nx - x - x - x - x -\nx - x - x - x - x -\n- x - x - x - x - x\n- x - x - x - x - x\n- - - - - - x - x -\n- x x - - - x - x -\nx - - x x - - - - -\nx - x - - x - x - -\n- - x - - x - x - -\nx x - x x - - - x x"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/070.a.htm",
+      "solution": "10 10\nx - x x - - - x x -\nx - - - x x - - - -\n- x x - - - - - x x\nx - - x x - x x - -\nx - x - - - - - x -\n- - x - - x x - x -\n- - - x x - - - - x\n- x x - - x x - - x\n- - - x x - - - x -\n- x x - - x x - x -"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/071.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\n- - x - - x x - - -\nx - x - x - - x x -\nx - - - x - - - - x\n- - - - - - x x - x\nx - x x - - - - x -\nx - - - - - x - x -\n- - x x - - x - - -\n- - - - - x - - - -\n- - x x - x - - x x"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/072.a.htm",
+      "solution": "10 10\n- x - x - x x - x x\n- x - x - - - x - -\nx - x - - x - x - -\nx - x - - x - - x x\n- - - - - - x x - -\n- - x x - - - - - x\nx - - - x x - - - x\nx - x x - - - - - -\n- x - - - - - x - x\n- x - x x - - x - x"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/073.a.htm",
+      "solution": "10 10\n- - - - - x x - - -\n- - x - - - - - x -\n- - x - x x - - x -\nx x - - - - - - - x\n- - x x - x - - - x\n- - - - - x - - - -\n- x x - - - x - x x\nx - - x x - x - - -\nx - - - - - - x x -\n- - x x - x x - - -"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/074.a.htm",
+      "solution": "10 10\n- - x x - x x - - -\nx x - - - - - x x -\n- - x x - - - - - -\n- - - - x x - x x -\nx - x x - - - - - -\nx - - - - - - x x -\n- x x - - x x - - -\nx - - x x - - - - x\nx - - - - - - - - x\n- x x - x x - x x -"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/075.a.htm",
+      "solution": "10 10\nx x - - - - x x - -\n- - x x - - - - - x\nx x - - x - x - - x\n- - - - x - x - x -\nx x - x - x - - x -\n- - - x - x - - - -\nx - - - - - x x - -\nx - x x - - - - x x\n- - - - x x - x - -\n- - x x - - - x - -"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/076.a.htm",
+      "solution": "10 10\n- - x - x - - x x -\n- - x - x - x - - x\nx x - - - - x - - x\n- - x - x x - - - -\n- - x - - - x x - -\n- - - - x x - - - -\nx - x x - - - x - -\nx - - - x x - x - x\n- x - x - - x - - x\n- x - x - - x - - -"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/077.a.htm",
+      "solution": "10 10\n- x x - x x - - - -\nx - - - - - - - x -\nx - - - x - - - x -\n- x x - x - x x - x\nx - - - - - - - - x\nx - - - - - x x - -\n- x - - - - - - - -\n- x - - x - - x x -\n- - - - x - - - - -\n- x x - - x x - x x"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/078.a.htm",
+      "solution": "10 10\n- x - - - - x x - -\n- x - - - x - - - -\nx - x - - x - - - x\nx - x - x - x x - x\n- - - - x - - - - -\nx - x x - x - - - -\nx - - - - x - x x -\n- x x - - - - - - -\n- - - x x - - - x -\n- x x - - x x - x -"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/079.a.htm",
+      "solution": "10 10\n- - x x - - - x x -\nx x - - x - - - - x\n- - - - x - - - - x\n- x x - - x x - - -\nx - - - - - - - - -\nx - - - x x - - - -\n- x x - - - - x x -\n- - - x x - - - - x\nx - x - - - - x - x\nx - x - x x - x - -"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/080.a.htm",
+      "solution": "10 10\n- x x - - x x - x x\nx - - x x - - - - -\nx - x - - - x - x x\n- - x - - - x - - -\nx x - - x x - - x -\n- - x x - - x - x -\n- x - - - - x - - x\n- x - x x - - x - x\nx - x - - - - x - -\nx - x - x x - - x x"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/081.a.htm",
+      "solution": "10 10\nx - x x - x x - x x\nx - - - x - - - - -\n- - - - x - - x - x\n- x - x - - - x - x\n- x - x - x x - - -\n- - x - x - - x x -\n- - x - x - - - - -\nx x - x - x - x - -\n- - - x - x - x - -\nx x - - - - - - x x"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/082.a.htm",
+      "solution": "10 10\nx - x - x - x - x -\nx - x - x - x - x -\n- - - - - - - x - x\n- - - x x - - x - x\n- x - - - x - - - -\n- x - - - x - - - -\nx - x - x - x - x -\nx - x - x - x - x -\n- x - x - x - x - x\n- x - x - x - x - x"
+    },
+    "83_15x17": {
+      "id": "83_15x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/083.a.htm",
+      "solution": "15 17\n- - x x - x x - x - - x x - x - x\nx x - - - - - - x - x - - - x - x\n- - x x - - x x - - x - x - - x -\n- x - - x x - - x x - - x - - x -\n- x - x - - x x - - x - - x - - x\n- - - x - x - - - - x - - x - - x\n- x x - - x - - x x - x x - x x -\n- - - x x - x x - - x - - x - - -\nx - x - - x - - - - x - - x - x x\nx - x - - x - - x x - x - - x - -\n- - - x - - - - - - - x - - x - -\nx x - x - - - x - x x - x x - x x\n- - x - x x - x - - - x - - x - -\nx - x - - - x - - - - x - - x - -\nx - - x x - x - - x x - x x - x x"
+    },
+    "84_15x20": {
+      "id": "84_15x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/084.a.htm",
+      "solution": "15 20\nx x - x - - x x - - x - - - x - - - x x\n- - - x - x - - - - x - - - x - - x - -\nx x - - - x - - x x - x - - - x - x - -\n- - x - - - x x - - - x - - - x - - - x\n- - x - - - - - - - - - x x - - - - - x\n- - - x x - - x - - - - - - - - - x x -\n- - x - - - - x - x x - - x x - - - - x\n- - x - - - x - x - - x x - - - - x - x\n- - - - - - x - x - - - - x - x - x - -\n- - - - x - - - - x x - - x - x - - x x\n- - - - x - - x - - - x x - x - x x - -\n- - x x - x - x - x x - - - x - - - - -\n- - - - - x - - - - - - x x - - - x - -\n- - x x - - - - x x - x - - - - - x - -\nx x - - - - x x - - - x - - - x x - x x"
+    },
+    "85_20x30": {
+      "id": "85_20x30",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/085.a.htm",
+      "solution": "20 30\n- - - - - - - x - x x - x x - x - - - - x x - - - - - - - -\n- - x x - - - x - - - x - - - x - - x x - - x x - - - x x -\n- - - - - x x - x x - x - - - - - - - - x - - - x x - - - -\n- x x - - - - - - - - - x - - x x - - - x - x - - - - x - x\n- - - x x - - - x x - - x - x - - - - x - - x - - - - x - x\nx x - - - - x x - - - x - - x - - - - x - - - x - - x - x -\n- - x x - - - - - x - x - - - x x - x - x - - x - - x - x -\nx x - - - x - - - x - - x - x - - - x - x - x - x x - x - -\n- - - - - x - x x - - - x - x - - - - - - - x - - - - x - -\n- - - x x - - - - x - - - - - - - - x x - - - x x - - - x x\n- - x - - x - - - x - - x x - - x x - - x x - - - x x - - -\n- - x - - x - - - - - - - - - - - - - - - - - x - - - - x -\nx x - x x - x x - - x - - x x - - x x - x x - x - x x - x -\n- - x - - - - - - - x - x - - - - - - x - - - - - - - x - x\nx - x - - - - - - x - - x - - - x x - x - - x - - - - x - x\nx - - x x - x x - x - - - - - - - - - - - - x - x x - - - -\n- x - - - - - - - - x x - - x x - x - - - - - x - - x - x x\n- x - x x - x x - x - - x - - - - x - x x - - x - - x - - -\n- - x - - x - - - x - - x - - x x - - - - - - - - - - - - -\n- - x - - x - - - - x x - x x - - x x - x x - - - - - - - -"
+    },
+    "86_20x24": {
+      "id": "86_20x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/086.a.htm",
+      "solution": "20 24\nx x - x x - - x x - - - - x x - - x x - x x - x\n- - - - - x x - - x - x x - - - - - - x - - - x\nx x - x x - - - - x - - - x - - x x - x - x x -\n- - - - - - - x x - x x - x - - - - x - - - - x\n- - - x x - x - - x - - x - x x - - x - x x - x\nx - - - - - x - - x - - x - - - - - - - - - - -\nx - - - - - - - - - x x - - - x x - - x x - - x\n- x x - - - - - - - - - - - - - - x x - - - - x\nx - - x x - x - x - x x - - - x x - - - x x - -\nx - - - - - x - x - - - - x x - - x x - - - x x\n- x x - x x - - - - x - - - - - - - - x x - - -\n- - - - - - - - x - x - - x x - - x x - - - - x\n- x x - x x - - x - - - x - - - - - - - - - - x\n- - - x - - x - - - - - x - x x - - - - - x x -\n- - - x - - x - - - - x - - - - - x - - - - - x\n- - - - x x - - - - - x - - - x - x - x x - - x\nx x - - - - x x - - - - x x - x - - - - - - - -\n- - x x - x - - - - - x - - - - - - - x x - - -\nx x - - - x - - - - - x - - - - - x x - - x x -\n- - x x - - - - - x x - x x - x x - - x x - - -"
+    },
+    "87_15x24": {
+      "id": "87_15x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/087.a.htm",
+      "solution": "15 24\n- - x x - x x - x x - - x x - - - - - - - - - x\nx x - - - - - x - - x x - - x - x x - x - - - x\n- - x x - - - x - - - - x - x - - - - x - x x -\n- - - - x - x - x - x - x - - - x x - - - - - x\n- x - - x - x - x - x - - x - - - - - - - - - x\n- x - - - x - - - - - - - x - - x x - - - x x -\nx - - - - x - x - - - x x - - - - - x - - - - x\nx - - x - - - x - - x - - - - - x - x - x x - x\n- x - x - - x - x - x - x - - - x - - - - - x -\n- x - - x - x - x - - - x - x x - - - - - - x -\nx - - - x - - - - - x x - - - - - - - - - - - x\nx - - x - x - - - x - - - - - - x x - - x - - x\n- - - x - x - - - x - - x x - x - - - - x - x -\nx - x - x - - - - - x x - - - x - - x x - - x -\nx - x - x - - - x x - - - x x - x x - - x x - -"
+    },
+    "88_16x24": {
+      "id": "88_16x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/088.a.htm",
+      "solution": "16 24\n- x x - - - - - - - - - - x x - x x - - - - - -\nx - - - - - x - - x - - x - - x - - x - - - - -\nx - - - - - x - - x - - x - - x - - x - - - - -\n- x x - - - - - - - - - - - - - - - - - - - - -\n- - - x - - x - - x - - x - - x - - x - - - - -\n- - - x - - x - - x - - x - - x - - x - - - - -\n- x x - - - - x x - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - x x - x x - - - x x - x x -\n- x x - x x - - - x - - - - - - - x - - - - - x\nx - - x - - x - - x - - - - - - - x - - - - - x\nx - - x - - x - - - x x - x x - - - x x - x x -\n- - - - - - - - - x - - - - - - - x - - x - - -\nx - - x - - x - - x - - - - - - - x - - x - - -\nx - - x - - x - - - x x - x x - - - - - - x x -\n- - - - - - - - - - - - - - - - - - - - - - - -"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/089.a.htm",
+      "solution": "10 10\nx - x x - - x x - -\nx - - - x - - - x x\n- - x - x - x x - -\nx - x - - x - - x x\nx - - - - x - x - -\n- x - x x - - x - x\n- x - - - - - - - x\n- - - x x - - x x -\nx - - - - - - - - x\nx - - x x - x x - x"
+    },
+    "90_12x12": {
+      "id": "90_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/090.a.htm",
+      "solution": "12 12\nx - - x - - - x x - x x\nx - - x - x x - - - - -\n- - x - x - - x - x - x\nx - x - x - - x - x - x\nx - - - - x x - - - - -\n- x - x x - - - - x x -\n- x - - - x x - x - - x\nx - - x x - - - x - - x\nx - x - - - x x - x - -\n- - x - x - - - - x - x\nx x - - x - - x x - - x\n- - x x - x x - - x x -"
+    },
+    "91_16x20": {
+      "id": "91_16x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/091.a.htm",
+      "solution": "16 20\nx - - - x x - - - - - x x - x x - - - -\nx - x x - - - - x - x - - - - - x x - -\n- x - - x - - - x - x - - - - x - - x -\n- x - - x - - - - - - - - x - x - - x -\nx - x x - x - - - - - x - x - - x x - x\nx - - - - x - - - - - x - - x - - - - x\n- x - - - - x x - x x - - - x - - - x -\n- x - x x - - - x - - x - - - - - - x -\nx - x - - x x - x - - x - - - - - x - x\nx - x - x - - - - x x - x x - - - x - x\n- - - - x - x - - - - x - - x - - - - -\n- - x x - - x - x x - x - - x - x x - -\n- x - - x - - x - - - - - - - x - - x -\n- x - - x - - x - x x - - - - x - - x -\nx - x x - - - - - - - x x - - - x x - x\nx - - - x x - - - x x - - x x - - - - x"
+    },
+    "92_14x16": {
+      "id": "92_14x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/092.a.htm",
+      "solution": "14 16\n- - - - - - x x - x - - - x - x\n- x x - x x - - - x - - - x - x\nx - - x - - - x x - - x x - x -\nx - - x - x x - - x x - - - x -\n- x x - x - - x x - - x x - - -\nx - - - x - - - - x x - - - x x\nx - x x - - x x - - - x - - - -\n- - - - - - - - x x - x - x x -\nx - x x - - x x - - x - x - - x\nx - - - x x - - - - x - x - - x\n- - - - - - x x - - - - - - x -\nx x - - - x - - x x - - - - x -\n- - x x - x - - - - x x - - - x\nx x - - - - - - x x - - x x - x"
+    },
+    "93_36x54": {
+      "id": "93_36x54",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/093.a.htm",
+      "solution": "36 54\n- - x x - x x - - x x - x x - - - x x - - - - x x - - - - x x - - x x - - - - x x - - - - x x - - x x - - x\n- x - - x - - - x - - x - - - - - - - - x x - - - x - x x - - - - - - - - x x - - - - - - - - x x - - - - x\n- x - - x - x - x - - x - - - x x - x x - - x x - x - - - - - - - x - - - - - x x - - - - - - - - x x - x -\n- - x x - - x - - - x - - - - - - - - - - - - - - - - - x - - x - x - x x - - - - x - - - x - x - - - - x -\n- x - - x - - - - - x - - x - - - x - - - - x x - - - - x - - x - - - - - x x - - x - - - x - x - x - - - -\n- x - - x - - - - x - x - x - - - x - - x - - - - x - - - x x - x x - x x - - - - - x x - - - - - x - - x -\nx - x x - - x - - x - x - - - x x - x - x - x x - x - - - - - - - - - - - x x - x x - - - - - - - - - - x -\nx - - - - - x - x - x - x - - - - - x - - - - - x - x x - x x - x x - - - - - - - - x x - - - - x x - - - -\n- x x - x x - - x - x - x - - - - x - x - x x - x - - - - - - x - - - - x x - - x x - - - - - - - - x - x -\n- - - x - - - - - x - x - x x - - x - x - - - - - - - - - - - x - - - - - - - - - - - x x - - - - - x - x -\nx - - x - - - - - x - x - - - x x - - - - - - - - x - - - x x - x x - x x - x x - x x - - x x - - - - x - x\nx - x - x x - - - - - - x - x - - x x - x - x - - x - - - - - - - - - - - - - - - - - - - - - - x - - x - x\n- - x - - - x x - - - - x - x - - - - - x - x - x - x - x x - - x - x x - - x x - - - - x x - - x - x - - -\n- - - - x x - - x x - - - - - - x x - - - - - - x - x - - - x - x - - - x x - - - - - - - - x x - - x - x x\nx - x - - - - - - - - - x x - - - - - - - - x x - x - x x - x - - x - - - - - - x - - - x x - - - x - - - -\nx - x - x x - - - - x x - - - - x x - - - - - - - x - - - - - x - x - - x x - - x - - - - - - - - x - - x x\n- - - x - - x x - - - - x - - - - - x x - - - x x - - x x - - x - - - x - - x - - - - x x - - x x - x x - -\nx - - x - - - - - x x - x - - x x - - - - x x - - - - - - x - - x x - x - - x - - - x - - x x - - x - - - x\nx - - - x - x x - - - - - - - - - - - x x - - - - - - x - x - x - - - - x x - - - - x - x - - - - x - x - x\n- x - - x - - - x x - - x - - x - x - - - - x x - - - x - - - x - - - x - - x x - x - - x - - - x - - x - -\n- x - - - - x x - - - - x - - x - x - - x x - - x x - - - - x - - - - x - - - - - x - - - x x - x - - - x -\n- - - - - - - - - x - x - x x - - - x x - - x x - - - - - - x - x - - - x - - x x - x x - - - - - - - - x -\n- x - x - - x x - x - x - - - x - x - - x - - - x x - - - - - - x - x - x - x - - - - - - - x x - x - x - x\n- x - x - - - - - - - - x x - x - x - - x - x x - - - - - - - - - - x - - - x - - - - - x x - - - x - x - x\n- - - - - - - - - x - - - - - - - - - - - x - - x x - - x - x x - - - - x x - - - x - - - - x x - - x - - -\n- x x - - - - x - x - x - - - - - x x - - x - - - - x - x - - - x - x x - - x x - x - - - - - - x - x - - x\nx - - x - x - x - - - x - - - x x - - - - - x x - - x - - - - - x - - - x x - - - - - - - - - - x - - x - x\nx - - x - x - - - - x - - x x - - x - x - - - - x x - x - - x x - - - - - - x x - x x - - - x - - - - x - -\n- x x - x - x x - - x - x - - x - x - x - - x x - - - x - x - - - - x x - x - - x - - x x - x - - - x - - -\n- - - - x - - - x x - - x - - x - - - - x x - - - x x - - x - x - - - - - x - - x - - - - - - x x - x - x x\n- x - x - x x - - - - - - - - - x x - - - - - x x - - - - - - x - - - x x - x x - - x x - - x - - - - x - -\n- x - x - - - x x - x - - - - - - - - - - x x - - - - - - - - - x x - - - - - - x x - - - - x - - - - x - -\n- - - - x x - - - - x - - - - x x - - x x - - - - x - - - - x x - - - x - - - x - - - - - x - x x - - - x -\n- x - - - - x x - - - - - - x - - x x - - - - x - x - - x x - - x x - x - - - x - x x - - x - - - - - - x -\n- x - - x x - - - - x x - - x - x - - - - - - x - - x x - - x x - - - - x - x - - - - x x - - - - - - - - -\n- - x x - - x x - - - - x x - - x - - - - - - - x x - - - - - - x x - - x - x - - x x - - x x - x x - x x -"
+    },
+    "94_18x24": {
+      "id": "94_18x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/094.a.htm",
+      "solution": "18 24\nx - x x - x x - - x x - - - x x - - x - - - x x\nx - - - - - - - - - - - x x - - - - x - - x - -\n- x x - - - - - x x - x - - x x - x - - - x - -\n- - - x x - x x - - - x - - - - - x - - - - - -\n- x x - - - - - x x - - - - x x - - x x - x x -\n- - - x - x x - - - - - x x - - - - - - - - - -\n- - - x - - - x x - - x - - - - - - x x - x - x\nx - - - x x - - - - - x - x x - - - - - - x - x\nx - - x - - - - - - - - - - - x x - x x - - - -\n- x - x - x x - - x x - - x - - - x - - x x - x\n- x - - - - - x x - - - - x - - - x - - - - - x\n- - - x - x - - - x x - - - x - - - - x - - - -\n- - - x - x - - - - - x x - x - - - - x - x - x\n- x x - x - x - - x x - - - - - - x x - - x - x\n- - - - x - x - - - - - - - x - x - - x - - - -\n- - x x - - - x - - x - - - x - x - - x - - x x\nx x - - x x - x - - x - x x - - - - - - x x - -\n- - x x - - - - x x - - - - x x - x x - - - x x"
+    },
+    "95_15x17": {
+      "id": "95_15x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/095.a.htm",
+      "solution": "15 17\n- x x - - x x - - - x x - - x x -\nx - - x x - - - x x - - x x - - x\nx - x - - - x x - - - - - - - - x\n- - x - - x - - - - - x x - x x -\n- x - x - x - x x - x - - - - - -\n- x - x - - x - - - x - x - - x x\nx - x - - - x - x x - - x - x - -\nx - x - x x - - - - x x - - x - -\n- x - x - - x x - - - - - x - x -\n- x - x - - - - x x - - - x - x -\nx - x - x - - x - - - - - - - - -\nx - x - x - - x - - - x - - - x -\n- - - - - x x - x x - x - - - x -\nx - x - x - - x - - x - x - x - x\nx - x - x - - x - - x - x - x - x"
+    },
+    "96_18x20": {
+      "id": "96_18x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/096.a.htm",
+      "solution": "18 20\nx x - x - x - x - x - x - x x - x - - x\n- - - x - x - x - x - x - - - - x - - x\n- x x - - - x - x - x - x - x x - - - -\nx - - x x - x - x - x - x - - - x x - x\nx - - - - x - - - - - - - - x - - - - x\n- - - - - x - x - - - x x - x - - - x -\n- x - x x - - x - - - - - x - x x - x -\n- x - - - x x - - x - x - x - - - - - -\n- - x x - - - - - x - x - - x x - - x x\n- - - - - - x x - - x - x x - - x x - -\n- x - - x x - - - - x - - - x x - - x x\n- x - x - - x - x x - - x x - - - - - -\n- - - x - - x - - - - - - - x x - x x -\nx - x - x x - - - x x - - - - - - - - x\nx - x - - - x - x - - x x - - x - x - x\n- - - x x - x - x - - - - - - x - x - -\nx - - - - - - - - x x - - x x - - - x x\nx - x x - - x x - - - - - - - - x x - -"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/097.a.htm",
+      "solution": "10 10\n- x x - - - x - - -\nx - - - - - x - - -\nx - x x - x - x - x\n- x - - - x - x - x\n- x - - - - - - x -\nx - - - - x x - x -\nx - - x x - - - - -\n- - - - - - - x - -\n- - - x x - - x - -\n- x x - - - - - x x"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/098.a.htm",
+      "solution": "10 10\n- - x x - x x - - x\nx x - - x - - - - x\n- - - - x - - - x -\n- x x - - x - - x -\nx - - - - x - x - x\nx - x - x - - x - x\n- - x - x - - - - -\nx x - - - x - x x -\n- - - - - x - - - x\nx x - x x - x x - x"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/099.a.htm",
+      "solution": "10 10\nx - x - x x - x x -\nx - x - - - x - - -\n- x - x - - x - x -\n- x - x - x - - x -\nx - x - - x - - - x\nx - x - - - - x - x\n- - - x - - - x - -\nx x - x - x x - - x\n- - - - - - - - - x\nx x - - - x x - - -"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/100.a.htm",
+      "solution": "10 10\nx - x - - - x x - -\nx - x - x x - - - -\n- x - - - - x - x -\n- x - - - - x - x -\n- - x x - - - - - x\n- - - - x - x - - x\nx x - - x - x - - -\n- - x x - - - - - x\n- - - - - x x - - x\nx x - - - - - x x -"
+    },
+    "101_10x10": {
+      "id": "101_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/101.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x x - - - - - x\nx x - - x - x x - x\n- - - - x - - - x -\nx - x x - x x - x -\nx - - - x - - - - -\n- x x - x - - - x -\n- - - x - x x - x -\nx - - x - - - - - x\nx - - - - - x x - x"
+    },
+    "102_10x10": {
+      "id": "102_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/102.a.htm",
+      "solution": "10 10\nx x - - - x x - x x\n- - - x x - - x - -\nx x - - - - - x - x\n- - x x - x x - - x\nx x - - - - - x x -\n- - x x - - x - - x\n- x - - - - x - - x\n- x - - x x - x x -\nx - - - - - x - - x\nx - - x x - x - - x"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/103.a.htm",
+      "solution": "10 10\n- x - - - - x x - x\n- x - - x x - - - x\n- - x x - - x x - -\nx x - - x x - - - x\n- - x x - - - x - x\nx x - - x x - x - -\n- - x - - - x - x x\n- - x - - - x - - -\nx - - x - x - x - x\nx - - x - x - x - x"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/104.a.htm",
+      "solution": "10 10\nx - x - - - x x - -\nx - x - x x - - - -\n- x - - - - x - - -\n- x - - x - x - - -\n- - x - x - - x - x\nx - x - - - - x - x\nx - - - x - x - x -\n- x x - x - x - x -\n- - - x - x - x - x\nx x - x - x - x - x"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/105.a.htm",
+      "solution": "10 10\nx x - - x x - - x -\n- - x x - - x - x -\nx x - - x - x - - x\n- - - - x - - x - x\nx - x - - x - x - -\nx - x - - x - - - x\n- x - x x - x x - x\n- x - - - - - - - -\nx - x - x - x - x -\nx - x - x - x - x -"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/106.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x - - - - - - -\n- - x - x x - x x -\n- - - x - - - - - x\nx x - x - x - x - x\n- - x - - x - x - -\nx - x - x - x - x x\nx - - - x - x - - -\n- - x x - x - x - x\nx x - - - x - x - x"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/107.a.htm",
+      "solution": "10 10\nx x - - - x x - x x\n- - - - - - - x - -\nx x - x - x - x - x\n- - - x - x - - - x\n- x x - - - x - x -\n- - - x - - x - x -\n- x - x - - - x - x\n- x - - - - - x - x\nx - - - - x x - - -\nx - - x x - - - x x"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/108.a.htm",
+      "solution": "10 10\n- - - - - - x x - x\nx - x - - x - - - x\nx - x - - x - x x -\n- - - x x - x - - -\n- x x - - - x - x x\n- - - - x x - x - -\n- x - - - - - x - -\n- x - x x - - - x x\nx - x - - x x - - -\nx - x - - - - x x -"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/109.a.htm",
+      "solution": "10 10\nx x - x - x x - x x\n- - - x - - - x - -\nx x - - - x - x - -\n- - x x - x - - x x\nx - - - - - x x - -\nx - x - x x - - x x\n- - x - - - x x - -\nx x - - x x - - - -\n- - - x - - - x x -\nx x - x - x x - - -"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/110.a.htm",
+      "solution": "10 10\nx - x - - x x - x x\nx - x - - - - - - -\n- - - x x - x - - x\nx x - - - - x - - x\n- - x - x - - x - -\n- - x - x - - x - x\nx x - x - - - - - x\n- - - x - - - x x -\nx - x - - x x - - -\nx - x - - - - x x -"
+    },
+    "111_10x10": {
+      "id": "111_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/111.a.htm",
+      "solution": "10 10\nx x - - x - - - - x\n- - x - x - x - - x\nx - x - - - x - - -\nx - - x x - - - x x\n- x x - - - - - - -\nx - - - x x - x x -\nx - x - - - x - - x\n- - x - x - x - - x\nx - - - x - - x x -\nx - x x - x x - - -"
+    },
+    "112_10x10": {
+      "id": "112_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/112.a.htm",
+      "solution": "10 10\nx - x x - x - x x -\nx - - - - x - - - -\n- x - x x - x x - x\n- x - - - x - - - x\nx - x x - x - - x -\nx - - - x - x - x -\n- - - - x - x - - -\nx x - x - - - x x -\n- - - x - - - - - x\nx x - - x x - - - x"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/113.a.htm",
+      "solution": "10 10\nx - x - x - x - x -\nx - x - x - x - x -\n- - - - - x - x - -\nx - x x - x - x - x\nx - - - - - x - - x\n- - x x - - x - x -\nx x - - x x - - x -\n- - - - - - x x - -\nx - - - x x - - - x\nx - x x - - x x - x"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/114.a.htm",
+      "solution": "10 10\nx x - x x - x - - x\n- - - - - - x - - x\nx - - - x x - x x -\nx - - - - - x - - x\n- x x - - - x - - x\n- - - - x - - - - -\n- x x - x - - x x -\nx - - x - x x - - x\nx - - x - - - x - x\n- x x - x x - x - -"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/115.a.htm",
+      "solution": "10 10\nx - x - - x x - x x\nx - x - x - - x - -\n- - - - x - - x - x\nx - x x - - x - - x\nx - - - - - x - x -\n- - x x - x - - x -\nx x - - - x - - - x\n- - - x x - x x - x\nx x - - - x - - x -\n- - x x - x - - x -"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/116.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\n- x x - - x x - - x\nx - - - - - - - - x\nx - x x - - x x - -\n- - - - x x - - x x\nx - x x - - - x - -\nx - - - x x - x - x\n- - x x - - - - - x\nx - - - - - - - - -\nx - x x - - x x - -"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/117.a.htm",
+      "solution": "10 10\nx - - x x - x x - x\nx - - - - x - - - x\n- x - x - x - - x -\n- x - x - - - - x -\n- - x - - x x - - x\nx - x - - - - - - x\nx - - x x - - - x -\n- x x - - x x - x -\n- - - - - - - x - x\n- x x - x x - x - x"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/118.a.htm",
+      "solution": "10 10\nx x - x x - - - x x\n- - x - - - x x - -\nx - x - x x - - - -\nx - - x - - - - - x\n- - - x - x - - - x\nx x - - - x - x x -\n- - - x x - x - - -\n- x x - - - x - x x\nx - - - x x - - - -\nx - x x - - - - x x"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/119.a.htm",
+      "solution": "10 10\nx x - - x x - - - x\n- - x x - - - - - x\n- - - - x x - x - -\nx - x x - - - x - -\nx - - - x x - - - -\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - - x\n- - x x - - x x - x"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/120.a.htm",
+      "solution": "10 10\nx x - x x - x - x -\n- - x - - - x - x -\n- - x - x - - - - x\n- x - - x - x x - x\n- x - - - x - - - -\nx - x x - x - - x x\nx - - - x - x x - -\n- x x - x - - - x x\nx - - - - - x x - -\nx - x x - - - - x x"
+    },
+    "121_10x10": {
+      "id": "121_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/121.a.htm",
+      "solution": "10 10\n- x x - - - - x x -\nx - - - - - x - - -\nx - x x - - x - - -\n- x - - x x - x x -\n- x - - - - - - - x\n- - - - x - x x - x\n- - - - x - - - x -\nx x - x - x x - x -\n- - - x - - - - - -\n- x x - x x - - - -"
+    },
+    "122_10x10": {
+      "id": "122_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/122.a.htm",
+      "solution": "10 10\nx - - x x - x - x -\nx - - - - - x - x -\n- x x - x x - x - -\n- - - - - - - x - x\nx x - - x x - - - x\n- - x x - - x x - -\nx x - - - - - - - x\n- - x x - - x - - x\n- - - - - - x - x -\n- x x - x x - - x -"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/123.a.htm",
+      "solution": "10 10\nx - x - - - x - x -\nx - x - - - x - x -\n- x - - x x - - - x\n- x - - - - x x - x\nx - - - - - - - x -\nx - - x x - - - x -\n- x x - - x - x - -\n- - - x - x - x - x\n- x - x - - - - - x\n- x - - x x - x x -"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/124.a.htm",
+      "solution": "10 10\n- - x x - - x - x -\nx x - - - - x - x -\n- - - x - x - - - x\n- - - x - x - - - x\n- - x - x - - - x -\nx - x - x - - - x -\nx - - - - x x - - -\n- - - - - - - - - x\n- - x x - - x x - x\n- - - - x x - - - -"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/125.a.htm",
+      "solution": "10 10\nx - x - - x x - - -\nx - x - - - - x x -\n- - - - - x x - - x\nx x - - x - - x - x\n- - - - x - - x - -\n- - x x - - - - - -\nx - - - - - x - x -\nx - x x - - x - x -\n- x - - x x - x - x\n- x - - - - - x - x"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/126.a.htm",
+      "solution": "10 10\n- x - x - - - - x x\n- x - x - - x x - -\nx - - - - - - - x x\nx - - x x - - - - -\n- - - - - - - x - x\nx x - x x - - x - x\n- - - - - x - - x -\nx x - - - x - - x -\n- - x x - - - - - -\nx x - - x x - x x -"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/127.a.htm",
+      "solution": "10 10\nx x - - - - x x - x\n- - x x - - - - - x\nx x - - x x - x x -\n- - x x - - - - - -\n- - - - x x - - x x\nx - x x - - x x - -\nx - - - x x - - x x\n- - - - - - x x - -\nx - x - x x - - x x\nx - x - - - x x - -"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/128.a.htm",
+      "solution": "10 10\nx x - - - - - x x -\n- - - x - x x - - -\nx x - x - - - x - x\n- - x - x x - x - x\n- - x - - - x - - -\nx - - x x - x - - -\nx - x - - - - - x x\n- - x - - - x x - -\n- - - x x - - - x x\n- x x - - - x x - -"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/129.a.htm",
+      "solution": "10 10\n- x - - x - - x x -\n- x - - x - - - - x\nx - x x - x - - - x\nx - - - - x - - x -\n- x x - x - - - x -\n- - - - x - x x - x\n- x x - - - - - - x\n- - - - - - x x - -\n- - x x - - - - - -\n- - - - x x - x x -"
+    },
+    "130_10x10": {
+      "id": "130_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/130.a.htm",
+      "solution": "10 10\n- - x x - x - x x -\n- - - - - x - - - -\nx - x - x - x x - -\nx - x - x - - - - -\n- x - - - x x - x x\n- x - x x - - - - -\nx - - - - x x - x -\nx - - x x - - - x -\n- x - - - - - - - x\n- x - - x x - - - x"
+    },
+    "131_10x10": {
+      "id": "131_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/131.a.htm",
+      "solution": "10 10\n- - x x - - - - - -\n- - - - - x x - - x\nx - x - x - - x - x\nx - x - x - - x - -\n- x - x - x - - x x\n- x - x - x - - - -\nx - - - - - x - - -\nx - x x - - x - - x\n- x - - - - - - - x\n- x - - - x x - - -"
+    },
+    "132_10x10": {
+      "id": "132_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/132.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\nx - x - - x x - - x\nx - x - - - - - - x\n- x - x - x x - x -\n- x - x - - - - x -\nx - - - - - x x - -\nx - - x x - - - - x\n- x x - - - x x - x\n- - - - x x - - - -\n- - x x - - x x - -"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/133.a.htm",
+      "solution": "10 10\nx - x x - - - - x x\nx - - - - - x x - -\n- x x - - - - - x x\n- - - x - x x - - -\nx x - x - - - x x -\n- - - - - x x - - -\nx x - x x - - - x x\n- - x - - - x x - -\nx - x - x - - - x x\nx - - - x - x x - -"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/134.a.htm",
+      "solution": "10 10\nx x - - - x x - - -\n- - x - x - - - x x\n- - x - x - - x - -\nx x - x - x - x - x\n- - - x - x - - - x\nx x - - - - x - - -\n- - x - x - x - x x\n- - x - x - - x - -\nx - - - - - - x - -\nx - x x - - - - x x"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/135.a.htm",
+      "solution": "10 10\nx - - - - - x x - x\nx - x - x - - - - x\n- - x - x - x x - -\nx x - - - x - - - -\n- - - - - x - x - x\n- x - x x - - x - x\n- x - - - - - - - -\nx - - - x x - - - -\nx - - - - - x - x x\n- - - x x - x - - -"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/136.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x x - - - - - x\nx x - - x - x - - x\n- - - - x - x - x -\n- - - - - x - - x -\n- x x - - x - - - x\nx - - x x - - - - x\nx - - - - - - x x -\n- - x x - - - - - -\nx x - - - x x - x x"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/137.a.htm",
+      "solution": "10 10\nx x - - - - x x - -\n- - x x - - - - x x\nx x - - - - - x - -\n- - x x - - - x - -\nx x - - x - x - x -\n- - x - x - x - x -\n- - x - - x - - - -\n- - - - - x - x x -\nx x - - - - - - - x\n- - x x - - x x - x"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/138.a.htm",
+      "solution": "10 10\n- x x - x - - - - -\nx - - - x - - x x -\nx - x x - - - - - -\n- - - - - - - x x -\nx - - x x - x - - x\nx - x - - - x - - x\n- - x - x x - - - -\nx - - - - - x x - x\nx - x - x x - - - x\n- - x - - - - x x -"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/139.a.htm",
+      "solution": "10 10\n- x - x - - - x x -\n- x - x - - - - - -\nx - - - x x - x x -\nx - x x - - - - - -\n- x - - x - - x x -\n- x - - x - x - - -\nx - x x - - x - x x\nx - - - - - - x - -\n- x x - - - - x - x\n- - - - - x x - - x"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/140.a.htm",
+      "solution": "10 10\nx - - x x - x - - -\nx - - - - - x - - -\n- x - - x x - x x -\n- x - - - - x - - x\nx - x x - - x - - x\nx - - - - - - - - -\n- x x - - - - - x -\nx - - x x - x - x -\nx - - - - - x - - x\n- - - - x x - - - x"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/141.a.htm",
+      "solution": "10 10\n- x - x - x x - - x\n- x - x - - - x - x\n- - - - x x - x - -\nx - - - - - x - - x\nx - x - x - x - - x\n- - x - x - - x x -\nx x - - - x x - - -\n- - x - x - - x - -\n- - x - x - - x - -\nx x - - - x x - x x"
+    },
+    "142_10x11": {
+      "id": "142_10x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/142.a.htm",
+      "solution": "10 11\n- - - x x - - - x - -\n- x x - - x x - x - x\n- - - - - - - - - - x\n- x x - x x - - x x -\nx - - x - - x x - - x\nx - - x - - - - x - x\n- x x - - - - - x - -\n- - - - - x - x - - x\n- x x - - x - x - - x\n- - - x x - - - x x -"
+    },
+    "143_10x14": {
+      "id": "143_10x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/143.a.htm",
+      "solution": "10 14\n- - - x x - - - - x x - x -\nx - - - - x x - x - - - x -\nx - - - x - - - x - x x - x\n- x x - x - x - - - - - - x\nx - - - - - x - - - x - - -\nx - - - x x - x x - x - - x\n- - - x - - x - - x - - - x\n- - - x - - x - - x - x x -\n- x x - - - - - - - - - - x\n- - - x x - x x - - x x - x"
+    },
+    "144_12x12": {
+      "id": "144_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/144.a.htm",
+      "solution": "12 12\n- - - x x - - - - x x -\n- x x - - - x - x - - x\nx - - x - - x - x - - x\nx - - x - - - - - x x -\n- x - - x - x - x - - -\n- x - - x - x - x - x x\nx - x - - - - - - - - -\nx - x - - - x - x - - x\n- x - x x - x - x - - x\n- x - - - - - - - x x -\n- - x x - x x - - - - x\nx x - - - - - - x x - x"
+    },
+    "145_12x12": {
+      "id": "145_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/145.a.htm",
+      "solution": "12 12\n- - x x - - - - - - x x\nx - - - - - x - x - - -\nx - x - - - x - x - x x\n- - x - x x - x - x - -\nx x - x - - - x - x - -\n- - - x - x x - x - - x\nx - x - x - - - x - - x\nx - x - x - x x - x - -\n- x - x - x - - - x - x\n- x - x - x - x x - - x\nx - x - x - - - - x x -\nx - x - x - - x x - - -"
+    },
+    "146_12x14": {
+      "id": "146_12x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/146.a.htm",
+      "solution": "12 14\nx x - x x - x x - - - x - x\n- - - - - - - - - - - x - x\nx x - x x - x x - x x - x -\n- - x - - x - - x - - - x -\n- - x - - x - - x - x x - x\nx - - - x - - x - - - - - x\nx - - - x - - x - - x x - -\n- x x - - - x - - x - - - x\nx - - - - - x - - x - - - x\nx - x x - x - - x - - - x -\n- x - - - x - - x - - - x -\n- x - x x - x x - x x - - -"
+    },
+    "147_10x17": {
+      "id": "147_10x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/147.a.htm",
+      "solution": "10 17\n- - x - x - x - x - x - x x - x x\nx - x - x - x - x - x - - - x - -\nx - - x - - - x - x - x x - x - -\n- - - x - - - x - x - - - x - x -\nx - x - x - x - x - x - - x - x -\nx - x - x - x - x - x - x - - - -\n- - - x - x - x - x - - x - - - x\nx x - x - x - x - x - - - x x - x\n- - x - x - x - x - x x - - - x -\n- - x - x - x - x - - - x x - x -"
+    },
+    "148_10x18": {
+      "id": "148_10x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/148.a.htm",
+      "solution": "10 18\n- x x - - - - x x - x - - - x x - x\nx - - x x - x - - - x - - - - - - x\nx - - - - - x - - - - x - - x x - -\n- - x - - - - x - - - x - - - - x x\n- - x - - x - x - - x - x - x - - -\nx - - x - x - - x - x - x - x - x x\nx - - x - - x - x - - x - x - x - -\n- x x - x - x - - - - x - x - x - x\nx - - - x - - x x - - - x - x - - x\nx - - - - x x - - x x - x - x - - -"
+    },
+    "149_12x15": {
+      "id": "149_12x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/149.a.htm",
+      "solution": "12 15\nx x - x x - - x x - - - x x -\n- - x - - x x - - - - x - - -\nx - x - x - - x x - - x - x x\nx - - - x - x - - x x - x - -\n- x - x - - x - x - - - x - x\n- x - x - x - - x - x x - - x\nx - - - - x - x - x - - x x -\nx - - x x - - x - x - x - - x\n- x x - - x x - x - - x - - x\n- - - x x - - - x - x - x x -\n- x x - - - x x - - x - - - x\n- - - x x - - - x x - x x - x"
+    },
+    "150_14x14": {
+      "id": "150_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/150.a.htm",
+      "solution": "14 14\nx x - - - - x x - - - - - -\n- - x - x x - - x - x - - -\n- - x - - - - - x - x - - -\n- - - x x - x x - - - - - -\nx - x - - - - - - - x x - x\nx - x - - - x x - x - - - x\n- - - x x - - - - x - - x -\n- - - - - - - - x - x - x -\nx x - x x - - - x - x - - -\n- - x - - x - - - - - - - x\n- - x - - x - - - - x - - x\n- - - x x - x x - - x - x -\nx - x - - x - - - - - - x -\nx - x - - x - x x - x x - -"
+    },
+    "151_6x6": {
+      "id": "151_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/151.a.htm",
+      "solution": "6 6\nx x - x - x\n- - - x - x\nx x - - - -\n- - x x - x\n- - - - - x\nx x - x x -"
+    },
+    "152_10x10": {
+      "id": "152_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/152.a.htm",
+      "solution": "10 10\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - x x"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/153.a.htm",
+      "solution": "10 10\n- x - x - x - - - -\n- x - x - x - - x -\nx - x - x - - - x -\nx - x - x - x x - x\n- - - x - x - - - x\nx - - x - x - x x -\nx - - - x - x - - x\n- x x - x - x - - x\nx - - x - x - x - -\nx - - x - x - x - -"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/154.a.htm",
+      "solution": "10 10\nx - x x - x x - x x\nx - - - x - - - - -\n- x x - x - - - x x\nx - - x - - x x - -\nx - - x - - - - x x\n- x x - x - x x - -\nx - - - x - - - x x\nx - x - - - x x - -\n- - x - x x - - x x\nx x - - - - x x - -"
+    },
+    "155_10x10": {
+      "id": "155_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/155.a.htm",
+      "solution": "10 10\n- x x - - x - - x -\nx - - x - x - - x -\nx - - x - - x x - x\n- x x - - x - - - x\nx - - - - x - x x -\nx - - x x - - - - x\n- x x - - - - - - x\n- - - x - x - x x -\n- - - x - x - - - x\n- x x - - - x x - x"
+    },
+    "156_15x15": {
+      "id": "156_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/156.a.htm",
+      "solution": "15 15\n- - x x - - x x - x x - x x -\n- x - - x x - - - - - x - - x\n- x - - - - - x x - - x - - x\nx - x x - x x - - - - - x x -\nx - - - - - - - - - - - - - -\n- x - - x - x - x - - x - x x\n- x - - x - x - x - - x - - -\n- - x x - x - - - x x - - x x\nx x - - - x - - x - - x - - -\n- - - - - - - - x - - x - x x\n- x x - x - x - - x x - - - -\n- - - - x - x - x - - x - x x\n- x x - - - - - x - - x - - -\n- - - - - - x - - x x - - x x\nx x - x x - x - - - - x x - -"
+    },
+    "157_15x15": {
+      "id": "157_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/157.a.htm",
+      "solution": "15 15\n- - x x - x x - x - - x - x x\nx x - - - - - - x - - x - - -\n- - x - x x - x - x x - - x x\n- - x - - - - x - - - x x - -\n- - - x - x - - - x - - - - -\nx - - x - x - x - x - x - - x\nx - - - x - - x - - - x - - x\n- x x - x - x - x x - - x x -\nx - - - - - x - - - - - - - x\nx - - - x x - x x - - x x - x\n- - x x - - x - - x - - - x -\nx x - - x - x - - x - x - x -\n- - x - x - - x x - - x - - -\nx - x - - x x - - - - - x - x\nx - - x x - - - x x - - x - x"
+    },
+    "158_15x15": {
+      "id": "158_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/158.a.htm",
+      "solution": "15 15\n- - x x - - x x - - - x x - -\nx x - - x x - - x x - - - x x\n- - x x - - x x - - - x x - -\nx x - - x x - - - x x - - x x\n- - x x - - - x x - - x - - -\n- - - - x - x - - - - x - x x\n- - - - x - x - - x x - - - -\n- - x - - - - x x - - - x x -\nx - x - - - x - - - x x - - x\nx - - x x - x - - - - - - - x\n- x x - - - - x x - x x - x -\nx - - - x x - - - x - - - x -\nx - x x - - - x - x - x x - x\n- - - - x x - x - - - - - - x\n- - - - - - - - x x - x x - -"
+    },
+    "159_15x15": {
+      "id": "159_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/159.a.htm",
+      "solution": "15 15\nx - x x - - - - x x - x x - x\nx - - - - x - x - - x - - - x\n- x x - - x - x - - x - x x -\nx - - - - - - - - - - x - - -\nx - - - x - - x x - - x - - -\n- - x - x - x - - x x - - - x\n- - x - - - x - x - - x x - x\nx x - x x - - - x - - - - - -\n- - x - - x - x - x - x - x -\n- - x - - x - x - x - x - x -\nx x - x x - x - - - x - x - x\n- - x - - - x - - - x - x - x\nx - x - - - - x - x - x - - -\nx - - x x - - x - x - x - - -\n- x x - - - - - - - - - - x x"
+    },
+    "160_15x20": {
+      "id": "160_15x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/160.a.htm",
+      "solution": "15 20\nx - - x - x x - - x x - x x - x - x - x\nx - - x - - - - - - - - - - - x - x - x\n- - x - x x - x - - x - - x x - - - - -\nx - x - - - - x - - x - x - - - x - x -\nx - - x x - - - - x - - x - x - x - x -\n- x x - - x - x - x - - - - x - - x - x\nx - - - - x - x - - x - - - - - - x - x\nx - - - - - x - - - x - x - - x x - x -\n- - x - - - x - x x - - x - x - - - x -\nx - x - x x - - - - x x - - x - x x - x\nx - - x - - x x - - - - - x - x - - - x\n- x - x - x - - - - x x - x - x - x x -\n- x - - - x - - - x - - x - x - - - - -\n- - x x - - x x - x - - x - x - x - x -\nx x - - x x - - - - x x - - - - x - x -"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/161.a.htm",
+      "solution": "10 10\n- x x - x - - x x -\nx - - - x - x - - x\nx - x x - - x - - x\n- x - - - - - x x -\n- x - - - x x - - -\nx - x x - - - x x -\nx - - - - - - - - x\n- x x - x x - - - x\nx - - x - - x - x -\nx - - x - - x - x -"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/162.a.htm",
+      "solution": "10 10\n- - x x - - - x - x\n- x - - x x - x - x\n- x - - - - x - x -\n- - x - x - x - x -\n- - x - x - - - - -\nx x - - - - x x - -\n- - - - - x - - - x\nx x - x - x - x - x\n- - - x - - - x - -\nx x - - - x x - x x"
+    },
+    "163_13x13": {
+      "id": "163_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/163.a.htm",
+      "solution": "13 13\nx - - x - x x - x x - x x\nx - - x - - - - - - - - -\n- x x - x - - x x - x x -\nx - - - x - x - - x - - x\nx - x x - - x - - x - - x\n- - - - - - - x x - x x -\nx x - x - - - - - - - - -\n- - - x - - x - - x - - x\nx - - - x - x - - x - - x\nx - - - x - - x x - x x -\n- x x - - - - - - - - - -\nx - - - x x - - - x x - -\nx - x x - - - x x - - x x"
+    },
+    "164_16x16": {
+      "id": "164_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/164.a.htm",
+      "solution": "16 16\n- - x x - - x x - x - x - x - x\nx x - - x x - - - x - x - x - x\n- - x x - - x x - - x - x - x -\nx x - - x x - - x - x - x - x -\n- - x x - - - - x - - - - x - x\n- x - - x x - x - x x - - x - x\n- x - x - - - x - - - x x - x -\n- - - x - x x - x x - - - - x -\n- x x - x - - x - - x - x x - -\n- - - - x - - x - - x - - - x -\n- x - x - x - - x x - x x - x -\n- x - x - x - - - - x - - x - x\nx - x - x - x - - - x - - x - x\nx - x - x - x - x x - x x - - -\n- x - x - x - x - - x - - x x -\n- x - x - x - x - - x - - - - -"
+    },
+    "165_14x20": {
+      "id": "165_14x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/165.a.htm",
+      "solution": "14 20\nx - - - - x - x x - x x - - x x - - - -\nx - - x - x - - - x - - - x - - x - - x\n- x - x - - x x - x - - - x - - x - - x\n- x - - x - - - x - x x - - - - - x x -\nx - - - x - - - x - - - - - - - - - - -\nx - - - - - - x - x x - - - x x - x x -\n- - x x - - - x - - - x - x - - - - - x\nx x - - x x - - x x - x - x - - - - - x\n- - x - - - x x - - - - - - x x - x x -\n- - x - x - - - - - - - - - - - - - - -\n- - - - x - x x - - - x x - - - - - - -\nx - - - - - - - - - x - - - x x - x x -\nx - - x x - x - - - x - - - - - - - - -\n- x x - - - x - x x - x x - - - - - - -"
+    },
+    "166_14x20": {
+      "id": "166_14x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/166.a.htm",
+      "solution": "14 20\n- - - - x x - - x x - x x - x - - - - x\nx - - x - - x - - - x - - - x - x - - x\nx - - x - - x - - - x - x x - - x - x -\n- x x - - - - - x x - x - - - x - - x -\n- - - - - - - - - - - x - - - x - - - x\n- x x - x x - - - x x - x - - - - - - x\nx - - - - - x - x - - - x - - - x x - -\nx - - - - - x - x - x x - - x x - - x x\n- x x - x x - - - - - - x x - - - x - -\n- - - - - - - - - - - - - - - x - x - -\n- - - - - - - x x - - - x x - x - - - -\n- x x - x x - - - x - - - - - - - - - x\n- - - - - - - - - x - - - x - x x - - x\n- - - - - - - x x - x x - x - - - x x -"
+    },
+    "167_19x19": {
+      "id": "167_19x19",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/167.a.htm",
+      "solution": "19 19\nx - x - x - - - - x x - - x - x - x -\nx - x - x - - - x - - x - x - x - x -\n- x - x - x x - x - - x - - x - x - x\n- x - x - - - x - x x - - - x - x - x\nx - x - x x - x - - - - x x - - - - -\nx - x - - - x - - x - x - - - x x - x\n- x - x x - x - - x - x - x x - - - x\n- x - - - x - x - - - - x - - x x - -\nx - x - - x - x - x x - x - - - - x -\nx - x - x - x - - - - x - x - x - x -\n- - - - x - x - - x - x - x - x - - x\n- - x x - - - x - x - - x - x - x - x\n- x - - x - - x - - x - x - x - x - -\n- x - - x - x - x - x - - x - x - x -\nx - x x - - x - x - - x - x - x - x -\nx - - - - - - x - - - x - - x - x - x\n- x - x - - - x - x x - - - x - x - x\n- x - x - - - - - - - x - x - - - - -\n- - - - x x - x x - - x - x - - x x -"
+    },
+    "168_13x24": {
+      "id": "168_13x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/168.a.htm",
+      "solution": "13 24\nx x - x x - - x x - x x - - x x - x x - x - x x\n- - x - - - - - - x - - x x - - - - - - x - - -\nx - x - x x - x - x - - - - x x - - x x - - x x\nx - - - - - - x - - - x - x - - - x - - x x - -\n- x x - x - - - - - - x - x - - - x - - - - x x\nx - - - x - - x x - x - x - - x - - x x - x - -\nx - - - - x x - - - x - x - - x - x - - - x - x\n- - - x x - - x x - - x - - - - - x - x x - - x\n- - x - - x x - - x - x - - - x x - - - - x x -\nx - x - x - - x - x - - x x - - - x x - - - - x\nx - - - x - - x - - x x - - x - - - - - - x - x\n- x x - - - - - x x - - - - x - - x x - - x - -\n- - - x x - x x - - - - x x - x x - - x x - x x"
+    },
+    "169_13x25": {
+      "id": "169_13x25",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/169.a.htm",
+      "solution": "13 25\nx x - - x x - x x - - x x - x x - - x - - x x - -\n- - - - - - x - - x x - - x - - - - x - x - - - -\nx - x - - - x - - - - - - x - x - x - - x - x x -\nx - x - x x - x - x - x - - - x - x - x - x - - x\n- x - x - - - x - x - x - x x - x - - x - x - - x\n- x - x - x x - - - - - x - - - x - - - - - x x -\nx - - - - - - - x - x - x - x x - - - - x x - - -\nx - - - - x x - x - x - - - - - x x - - - - x x -\n- x x - x - - x - - - - x x - x - - - - x x - - -\nx - - - x - - x - - x x - - - x - - x x - - x x -\nx - x - - - x - x x - - x - x - x x - - - x - - x\n- - x - - - x - - - x - x - x - - - - - - x - - x\nx x - x x - - x x - x - - - - x x - - x x - x x -"
+    },
+    "170_24x32": {
+      "id": "170_24x32",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/170.a.htm",
+      "solution": "24 32\n- x x - x x - - - - - x - x x - x x - - x x - - - x x - - - x x\nx - - x - - - - - x - x - - - x - - x x - - x - x - - x - x - -\nx - - x - - x x - x - - x - - x - - - - - - x - x - - x - x - x\n- - - - - x - - x - x - x - - - - - - x x - - x - x - - - - - x\n- x x - - x - - x - x - - x - x - - x - - - - x - x - - - x x -\nx - - x x - x x - - - - - x - x - - x - x x - - - - - x - - - -\nx - x - - x - - - - - x x - - - x x - x - - x - x - - x - x - x\n- - x - - x - x - x x - - x - x - - - x - - x - x - - - - x - x\nx - - - - - - x - - - - - x - x - - - - x x - - - - - x x - - -\nx - x x - - - - x x - x x - - - x - x - - - x - x - x - - x - x\n- x - - - - - x - - x - - x x - x - x - - - x - x - x - - x - x\n- x - x - x - x - - x - x - - x - x - x x - - x - - - x x - - -\n- - - x - x - - x x - - x - - x - x - - - x - x - - x - - x - -\nx x - - x - x - - - x x - x x - - - x x - x - - - - x - - x - -\n- - - - x - x - x x - - x - - - - x - - x - x - - x - x - - - x\nx x - - - x - - - - - - x - - - - x - - x - x - - x - x - x - x\n- - - - - x - - x x - x - x x - x - - - - - - - x - - - - x - -\nx - x x - - x x - - - x - - - - x - - x x - - - x - - x x - x x\nx - - - - x - - x x - - - x x - - - x - - x - x - - x - - x - -\n- x x - - x - - - - - x x - - x x - x - - x - x - - x - - x - -\n- - - x x - x x - x x - - x x - - - - - - - x - x x - x - - - x\n- x x - - - - - x - - - - - - x x - x x - - x - - - - x - x - x\nx - - - - - - - x - x - x - - - - - - - - - - x - x x - - x - -\nx - x x - - - - - - x - x - x x - - x x - - - x - - - x x - x x"
+    },
+    "171_10x10": {
+      "id": "171_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/171.a.htm",
+      "solution": "10 10\nx x - x x - - - - -\n- - x - - x - x x -\n- - x - - x - - - -\nx x - x - - - x x -\n- - - x - x x - - -\n- x x - x - - x x -\n- - - - x - - - - -\n- - x x - - - x x -\nx x - - - - - - - -\n- - x x - x x - x x"
+    },
+    "173_10x10": {
+      "id": "173_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/173.a.htm",
+      "solution": "10 10\n- x - x x - - x x -\n- x - - - x x - - -\n- - - - x - - x - -\n- x x - x - - x - x\nx - - - - x x - - x\nx - - x x - - x - -\n- - - - - - - x - -\nx x - - - x x - - -\n- - - x x - - x - x\nx x - - - - - x - x"
+    },
+    "174_10x13": {
+      "id": "174_10x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/174.a.htm",
+      "solution": "10 13\nx - x - x x - - x - x - x\nx - x - - - - - x - x - x\n- x - x - - x - - x - x -\n- x - x - - x - - x - x -\nx - x - x - - x x - x - x\nx - x - x - - - - - x - x\n- x - x - x - x - x - - -\n- x - x - x - x - x - x x\nx - x - x - x - - - - - -\nx - x - x - x - x x - x x"
+    },
+    "175_12x14": {
+      "id": "175_12x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/175.a.htm",
+      "solution": "12 14\n- x x - x - - - x x - - x x\nx - - - x - x x - - x x - -\nx - x x - - - - - - - - - x\n- x - - x x - - - x x - - x\n- x - - - - - x - - - x x -\n- - - x x - - x - - x - - x\n- x - - - x x - x - x - - x\n- x - x x - - - x - - x x -\n- - - - - - - - - x x - - -\nx x - - x x - - - - - - - x\n- - x x - - - x - x x - - x\nx x - - x x - x - - - x x -"
+    },
+    "176_16x16": {
+      "id": "176_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/176.a.htm",
+      "solution": "16 16\nx - x - - - - - - x - - - - x -\nx - x - - - x - - x - x x - x -\n- x - x x - x - - - x - - x - x\n- x - - - x - x x - x - - x - x\nx - x x - x - - - - - - - - - -\nx - - - x - x x - x x - x x - -\n- x x - x - - - - - - x - - x x\n- - - x - x x - - - - x - - - -\n- x - x - - - x x - x - - x x -\n- x - - x x - - - - x - x - - x\nx - x x - - x x - x - - x - - x\nx - - - - x - - - x - - - x x -\n- - x x - x - x x - x x - - - -\n- x - - - - x - - - - - - x - -\n- x - - - - x - - x x - - x - -\n- - x x - - - - - - - x x - x x"
+    },
+    "177_12x22": {
+      "id": "177_12x22",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/177.a.htm",
+      "solution": "12 22\n- - x x - - - - - - x x - - - - - x x - x x\n- x - - x - - x - x - - x x - x x - - x - -\n- x - - x - - x - x - - - - x - - - - x - -\nx - - - - x x - x - x - - - x - - - - - - x\nx - - x x - - - x - x - - - - - - x x - - x\n- x x - - x - x - - - x x - x - x - - x x -\n- - - - - x - x - - - - - - x - x - - - - -\nx - - - - - x - x x - x x - - x - - - x - x\nx - x x - - x - - - - - - x - x - - - x - x\n- x - - x x - - - - - x - x - - - - x - x -\n- x - - - - x x - - - x - - x x - - x - x -\n- - - - x x - - - x x - x x - - x x - - - -"
+    },
+    "179_15x22": {
+      "id": "179_15x22",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/179.a.htm",
+      "solution": "15 22\nx - x - x x - x x - x x - x x - x x - - x x\nx - x - - - x - - x - - x - - x - - x x - -\n- x - x - - x - - x - - x - - x - x - - - x\n- x - x - x - x x - x x - x x - - x - x - x\nx - x - - x - - - x - - x - - - - - - x - -\nx - x - - - x x - x - - x - x x - x x - - -\n- x - x - - - - - - x x - x - - x - - x - x\n- x - x - - x x - - - - - x - - x - - x - x\n- - - - x x - - x x - x - - x x - x x - x -\nx - x - - - x x - - - x - x - - x - - - x -\nx - x - x x - - x x - - - x - - x - x x - -\n- x - x - - x x - - - x - - x x - x - - x x\n- x - x - - - - - - - x - x - - - x - x - -\n- - - - x x - x x - x - - x - x x - - x - x\nx x - - - - - - - - x - - - - - - x x - - x"
+    },
+    "180_25x40": {
+      "id": "180_25x40",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/180.a.htm",
+      "solution": "25 40\nx x - x x - x x - - x x - - - x x - - x x - - x x - x x - - x x - x x - - x - x\n- - - - - x - - x x - - x x - - - x x - - - - - - x - - x x - - x - - x - x - x\n- x - x - x - x - - x x - - x - - - - x x - x - - x - - - - x - x - - x - - - -\n- x - x - - - x - - - - - - x - x - x - - - x - x - x - x - x - - x x - x x - x\nx - - - x - - - x - x - x x - - x - x - x x - - x - x - x - - x x - - x - - - x\nx - - - x - x - x - x - - - x x - x - - - - x x - x - - - x x - - x - x - - - -\n- - x x - - x - - x - - x x - - - x - - - - - - - x - - x - - - - x - - - x - x\nx x - - x x - x - x - - - - x x - - x x - - - x x - x - x - x x - - x x - x - x\n- - x x - - - x - - - - x - - - - - - - - x - - - - x - - x - - - - - - x - x -\n- - - - - x x - x x - - x - x x - - x x - x - x x - - x - x - x x - x - x - x -\n- x x - x - - - - - x x - x - - x x - - x - - - - - - x - - - - - - x - - x - -\nx - - - x - x - - - - - - x - x - - x - x - - x - x x - - - x - x x - - - x - x\nx - x x - - x - x x - - x - - x - - x - - - - x - - - x x - x - - - x - - - - x\n- - - - x x - - - - x - x - - - x x - x x - x - - x x - - x - x x - x - - - x -\nx - x - - - x - x - x - - x x - - - x - - - x - x - - - - x - - - x - x x - x -\nx - x - - - x - x - - x x - - x - - x - x x - - x - - x x - x x - x - - - x - x\n- x - x x - - - - x x - - - - x - x - x - - - x - x x - - - - - x - x - - x - x\n- x - - - x - x x - - x x - x - - x - x - - - x - - - x x - - - x - x - x - x -\nx - - - - x - - - x x - - - x - x - x - - x x - - x - - - x x - - - - - x - x -\nx - - x x - x - x - - - x x - - x - x - - - - x - x - - - - - x x - x x - x - -\n- x x - - - x - x - - - - - x x - x - x - - - x - - - x - - x - - x - - - x - x\n- - - - x x - - - x - - - x - - - x - x - - - - x - - x - - x - - x - x x - - x\n- x x - - - - x - x - - - x - x x - x - x x - - x - x - x x - x x - - - - x x -\nx - - - - - - x - - x x - - - - - - x - - - x x - - x - - - - - - - - - - - - x\nx - x x - x x - x x - - - x x - x x - x x - - - x x - x x - - - x x - x x - - x"
+    },
+    "181_10x10": {
+      "id": "181_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/181.a.htm",
+      "solution": "10 10\nx - x x - - - - x x\nx - - - x x - - - -\n- - x x - - x - x x\nx x - - x - x - - -\n- - x - x - - x x -\nx - x - - x - - - -\nx - - - - x - x x -\n- x x - x - x - - x\nx - - - x - x - - x\nx - x x - - - x x -"
+    },
+    "182_10x10": {
+      "id": "182_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/182.a.htm",
+      "solution": "10 10\nx - x - x x - x - x\nx - x - - - - x - x\n- - - x x - x - x -\n- x x - - - x - x -\nx - - x - x - - - x\nx - - x - x - - - x\n- x - - x - - x x -\n- x - - x - x - - x\n- - x x - - x - - x\nx x - - x x - x x -"
+    },
+    "183_10x10": {
+      "id": "183_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/183.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\n- - x - - - - - - x\n- - x - - x x - - x\nx - - - - - - - x -\nx - x x - - - - x -\n- x - - - x - - - -\n- x - - - x - - - x\n- - - - x - - - - x\nx - x - x - - x x -\nx - x - - x x - - -"
+    },
+    "184_11x15": {
+      "id": "184_11x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/184.a.htm",
+      "solution": "11 15\nx - x - x - - - x - - - - x -\nx - x - x - - - x - - x - x -\n- x - x - - x - - - - x - - x\n- x - x - - x - x - x - - - x\nx - - - x - - - x - x - - x -\nx - x - x - - - - - - x - x -\n- - x - - - x - x - - x - - -\n- - - - x - x - x - x - x - x\nx - x - x - - - - - x - x - x\nx - x - - - x - x - - x - x -\n- - - - - - x - x - - x - x -"
+    },
+    "185_15x15": {
+      "id": "185_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/185.a.htm",
+      "solution": "15 15\nx - x x - - x x - x x - x x -\nx - - - x x - - - - - x - - x\n- x x - - - x x - x - x - - x\nx - - x x - - - - x - - - x -\nx - - - - - - x x - x x - x -\n- x - x x - x - - - - - x - x\n- x - - - - x - x - x - x - x\nx - - - x x - - x - x - - x -\nx - x x - - - x - x - x - x -\n- x - - - x - x - x - x - - -\n- x - x - x - - - - - - - - -\nx - - x - - x x - x - x - x -\nx - x - x x - - - x - x - x -\n- - x - - - - x - - - - x - x\nx x - - x x - x - x x - x - x"
+    },
+    "186_15x15": {
+      "id": "186_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/186.a.htm",
+      "solution": "15 15\n- - - - x x - - - - - x x - -\n- x - - - - - x x - x - - x x\n- x - x - - - - - - x - x - -\nx - - x - - - x x - - - x - x\nx - - - - - - - - x - x - - x\n- x x - - x - - - x - x - - -\nx - - - - x - - x - x - - - -\nx - x x - - - - x - x - - - -\n- - - - - - - x - - - x x - -\n- x - - x x - x - x x - - - -\n- x - - - - - - x - - - - - x\n- - - - x - - - x - - x - - x\n- - x - x - - - - - - x - - -\nx - x - - x x - - - - - x - x\nx - - x x - - - - x x - x - x"
+    },
+    "187_16x16": {
+      "id": "187_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/187.a.htm",
+      "solution": "16 16\n- x x - - - - - - - - - - x x -\nx - - x - x - x - x - x - - - x\nx - - x - x - x - x - x - - - x\n- x - - x - x - x - x - x - x -\n- x - - x - x - x - x - x - x -\n- - x x - x - x - x - x - - - x\nx x - - - x - x - x - x - - - x\n- - x - x - - - x - x - x x - -\n- - x - x - - - x - x - - - x x\nx x - - - x x - - - - x x - - -\n- - x x - - - x - x x - - x - x\nx x - - x x - x - - - x - x - x\n- - x x - - x - x x - x - - x -\nx x - - - - x - - - - - - - x -\n- - - x - x - x - x - x - - - -\nx x - x - x - x - x - x - x x -"
+    },
+    "188_17x20": {
+      "id": "188_17x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/188.a.htm",
+      "solution": "17 20\nx - - x - x x - - - x x - - - x x - - -\nx - - x - - - - x x - - - x x - - - - -\n- x x - x x - x - - x - - - - x - - - x\nx - - - - - - x - - x - - x - x - - - x\nx - - - - - x - x x - - - x - - - x x -\n- - - - - - x - - - - x x - - - - - - x\n- - - - - x - x x - - - - x x - - - - x\nx - - - - x - - - - - x - - - - x - - -\nx - - - - - - - - - - x - - - - x - - -\n- x x - - - - - - - x - x x - - - x x -\nx - - x - - x - x - x - - - - - x - - -\nx - - x - - x - x - - - x - - - x - x -\n- x x - x x - x - - - - x - - - - - x -\n- - - - - - - x - - x x - x - - - x - x\n- - x - - - - - x - - - - x - x - x - x\n- - x - - - - - x - - - - - - x - - - -\nx x - x x - x x - x x - - x x - x x - -"
+    },
+    "189_17x20": {
+      "id": "189_17x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/189.a.htm",
+      "solution": "17 20\nx - x - x x - - - x x - x x - x x - - -\nx - x - - - - x x - - x - - x - - x - -\n- x - - - x - - - - - x - - x - - x - x\n- x - - - x - x x - - - x x - - x - - x\nx - x - x - x - - - x x - - - - x - x -\nx - x - x - x - x - - - x x - x - - x -\n- - - x - x - - x - x x - - - x - x - x\nx x - x - x - x - - - - x - x - - x - x\n- - x - x - - x - - - - x - x - x - x -\n- - x - x - - - x x - x - x - - x - x -\nx - - - - x - x - - - x - x - - - x - x\nx - x - - x - x - - x - x - - - - x - x\n- - x - - - x - - - x - x - - x - - x -\nx x - - - - x - x x - x - - - x - - x -\n- - - - x - - x - - - x - - - - x x - x\nx x - - x - - x - - x - - - - x - - - x\n- - x x - x x - - - x - x x - x - x x -"
+    },
+    "190_17x20": {
+      "id": "190_17x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/190.a.htm",
+      "solution": "17 20\nx x - x x - x - x - - - - x x - x - x -\n- - x - - - x - x - - - x - - - x - x -\nx - x - - x - x - x x - x - - - - - - x\nx - - - - x - x - - - x - - - x x - - x\n- x - x x - - - x x - x - x x - - x x -\n- x - - - x x - - - - - - - - x x - - x\n- - - x x - - x - x x - - x x - - x - x\n- x x - - x - x - - - x x - - - - x - -\nx - - - - x - - x x - - - x x - - - x x\nx - x x - - x x - - x x - - - x x - - -\n- x - - x x - - x x - - x x - - - - x -\n- x - - - - x x - - x x - - x x - - x -\nx - x - x x - - - x - - - - - - x x - x\nx - x - - - x x - x - - - - x x - - - x\n- - - - x x - - - - - - - x - - - x x -\nx - x x - - x x - x - x - x - x - - - -\nx - - - x x - - - x - x - - - x - x x -"
+    },
+    "191_10x10": {
+      "id": "191_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/191.a.htm",
+      "solution": "10 10\nx x - x - x x - - x\n- - - x - - - x - x\nx - x - - x - x - -\nx - x - - x - - - -\n- x - - x - - x x -\n- x - - x - x - - x\n- - - x - - x - - x\nx x - x - - - x x -\n- - x - x - x - - x\n- - x - x - x - - x"
+    },
+    "192_10x10": {
+      "id": "192_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/192.a.htm",
+      "solution": "10 10\n- x x - x x - x x -\nx - - - - - - - - x\nx - x - - x - - - x\n- - x - - x - x x -\nx x - x x - - - - -\n- - x - - x x - x x\nx - x - x - - - - -\nx - - - x - - - x x\n- x - x - - - - - -\n- x - x - x x - x x"
+    },
+    "193_10x13": {
+      "id": "193_10x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/193.a.htm",
+      "solution": "10 13\nx x - - - - - - x x - x x\n- - - - x x - - - - x - -\nx - x - - - - - - - x - x\nx - x - x x - x - x - - x\n- - - - - - - x - x - - -\nx - x x - - x - - - x x -\nx - - - - - x - x x - - x\n- x x - x x - - - - x - x\nx - - - - - x x - - x - -\nx - x x - - - - x x - x x"
+    },
+    "194_12x12": {
+      "id": "194_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/194.a.htm",
+      "solution": "12 12\nx - - - x - x - x - x x\nx - x - x - x - x - - -\n- - x - - x - - - x x -\n- x - - - x - - x - - x\n- x - - - - x - x - - x\nx - x x - - x - - x x -\nx - - - - x - x x - - -\n- - x x - x - - - x - -\nx x - - - - x x - x - -\n- - x x - x - - x - x -\nx x - - - x - - x - x -\n- - x x - - x x - - - -"
+    },
+    "195_11x15": {
+      "id": "195_11x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/195.a.htm",
+      "solution": "11 15\nx - x - x - x - - x x - - x x\nx - x - x - x - - - - x - - -\n- x - x - x - x x - - x - x x\n- x - x - x - - - - x - x - -\nx - x - - - x x - - x - x - -\nx - x - x x - - x x - x - x -\n- - - x - - x - - - - x - x -\nx x - x - - x - x - x - x - x\n- - x - x x - - x - x - x - x\n- - x - - - - x - x - x - x -\nx x - x x - - x - x - x - x -"
+    },
+    "196_11x19": {
+      "id": "196_11x19",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/196.a.htm",
+      "solution": "11 19\nx - x x - x - x x - - - x x - - - x x\nx - - - - x - - - - x x - - - x x - -\n- x - x x - - - x x - - - x x - - - x\n- x - - - x - x - - x - x - - x x - x\n- - x x - x - x - - x - x - - - - x -\nx x - - x - - - x x - - - x x - - x -\n- - - - x - x x - - x - x - - x x - x\nx - - - - - - - - - x - x - - - - - x\nx - x - x - x x - - - - - - - x x - -\n- - x - x - - - x - x - - - - - - x x\nx x - - - x x - x - x - x x - x x - -"
+    },
+    "197_15x15": {
+      "id": "197_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/197.a.htm",
+      "solution": "15 15\nx x - - - x x - - - - x - x -\n- - x x - - - - - x - x - x -\nx x - - x - x x - x - - x - x\n- - - - x - - - x - x - x - x\nx x - - - x - - x - x - - x -\n- - x x - x - x - x - - - x -\nx x - - x - - x - x - - x - x\n- - - - x - - - - - x - x - x\nx - - x - x - x - - x - - x -\nx - - x - x - x - - - x - x -\n- - - - - - x - - - - x - - x\nx - x - - - x - x - x - - - x\nx - x - x x - - x - x - x x -\n- x - - - - x x - - - x - - x\n- x - - x x - - x x - x - - x"
+    },
+    "198_17x17": {
+      "id": "198_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/198.a.htm",
+      "solution": "17 17\nx - - x x - - - x x - - x x - - -\nx - - - - - - - - - x x - - x x -\n- x x - x x - - x x - - x x - - -\nx - - x - - x x - - x x - - - - -\nx - - x - x - - x x - - x x - - -\n- - - - - x - x - - x x - - x x -\n- - - - - - - x - x - - x x - - -\n- - - x - x x - - x - x - - x x -\n- - - x - - - x x - - x - x - - -\n- - x - x x - - - - - - - x - - -\nx - x - - - x x - - - x x - - x -\nx - - x x - - - - x x - - x - x -\n- - x - - - - x x - - x - x - - -\n- - x - - x x - - x - x - - x x -\nx x - x x - - x - x - - x x - - -\n- - - - - x - x - - x x - - - - -\n- x x - - x - - x x - - - x x - -"
+    },
+    "199_20x20": {
+      "id": "199_20x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/199.a.htm",
+      "solution": "20 20\nx - x - x x - - - x x - x - x x - - x x\nx - x - - - - x x - - - x - - - x x - -\n- - - - x x - - - x x - - x - x - - x x\nx x - x - - - x x - - - - x - x - - - -\n- - - x - x x - - x x - x - - - x - x x\n- x x - x - - x - - - - x - - - x - - -\n- - - - x - - x - x x - - - x x - - x x\nx - x x - x x - - - - - x x - - x x - -\nx - - - - - - - x x - - - - x x - - x x\n- x - x - x x - - - x x - x - - - - - -\n- x - x - - - - x x - - - x - x - x - x\nx - - - - x x - - - - x x - - x - x - x\nx - - x x - - x x - - - - x x - - - x -\n- x x - - - - - - - x x - - - x x - x -\n- - - x x - x - x - - - - x x - - - - x\n- x - - - - x - x - x x - - - - x x - x\n- x - x x - - - - - - - x - x - - - - -\nx - - - - x x - x x - - x - x - x x - x\nx - - x x - - - - - - x - x - x - - - x\n- x x - - x x - x x - x - x - x - x x -"
+    },
+    "200_18x20": {
+      "id": "200_18x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/200.a.htm",
+      "solution": "18 20\n- x x - x - x - - x x - - - - - x x - -\n- - - - x - x - - - - x x - x x - - x x\n- x x - - - - - x x - - - x - - - - - -\nx - - x - x - x - - x x - x - x x - x x\nx - - x - x - x - - - - x - x - - x - -\n- x x - x - x - x - x - x - x - - x - x\nx - - - x - x - x - x - - x - x x - - x\nx - x x - x - x - x - x - x - - - x x -\n- x - - - x - x - x - x - - - x x - - -\n- x - x x - x - x - - - - x x - - x x -\nx - - - - - x - x - - x x - - - - - - x\nx - x x - x - x - x x - - - - x - - - x\n- - - - - x - x - - - x x - - x - x x -\nx - x - x - - - - x x - - - - - - - - x\nx - x - x - - x x - - - x - - x x - - x\n- - - - - - - - - x x - x - - - - x x -\nx - x - x - x x - - - - - - x x - - - x\nx - x - x - - - x x - - x x - - x x - x"
+    },
+    "201_10x10": {
+      "id": "201_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/201.a.htm",
+      "solution": "10 10\nx - x - x - x x - -\nx - x - x - - - - -\n- - - - - x - - - x\nx - - x - x - - - x\nx - - x - - - x - -\n- - - - - - - x - x\nx - x - - - - - - x\nx - x - - - - - x -\n- - - x - x - - x -\nx x - x - x - - - -"
+    },
+    "202_10x10": {
+      "id": "202_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/202.a.htm",
+      "solution": "10 10\nx - x - x x - - x x\nx - x - - - x x - -\n- x - x x - - - - x\n- x - - - - - - - x\nx - x x - - x - - -\nx - - - - - x - x x\n- x x - x x - - - -\n- - - - - - x x - -\nx x - - x x - - x x\n- - x x - - x x - -"
+    },
+    "203_12x12": {
+      "id": "203_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/203.a.htm",
+      "solution": "12 12\nx - - - - - - x x - x x\nx - - x x - x - - - - -\n- x x - - - x - x x - -\nx - - x x - - x - - - x\nx - x - - - - x - - - x\n- - x - x - x - - x - -\n- x - - x - x - - x - x\n- x - x - - - x x - - x\nx - - x - x - - - - x -\nx - x - - x - x x - x -\n- - x - - - x - - - - x\nx x - x x - x - x x - x"
+    },
+    "204_11x15": {
+      "id": "204_11x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/204.a.htm",
+      "solution": "11 15\nx - - - - x x - - - x x - - -\nx - - x x - - x - - - - - x x\n- x x - - x - x - - x x - - -\n- - - x - x - - - x - - x x -\n- x - x - - x x - x - - - - x\n- x - - - - - - x - x x - - x\nx - x - x - - - x - - - - x -\nx - x - x - x x - - x x - x -\n- x - - - - - - - x - - x - -\n- x - - - x - x - x - - x - -\n- - x x - x - x - - x x - x x"
+    },
+    "205_13x13": {
+      "id": "205_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/205.a.htm",
+      "solution": "13 13\n- x x - - - - x x - - - x\nx - - x x - x - - x - - x\nx - - - - - x - - x - x -\n- - x x - - - x x - - x -\n- - - - x - - - - x - - x\n- x x - x - x x - x - - x\nx - - - - - - - - - x x -\nx - - - - - - - x x - - x\n- x x - x - - - - - - - x\n- - - - x - x x - - x x -\n- x x - - - - - x - - - x\nx - - - - - - - x - - - x\nx - x x - - x x - x x - -"
+    },
+    "206_13x13": {
+      "id": "206_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/206.a.htm",
+      "solution": "13 13\nx x - x - - - - x x - - -\n- - - x - - - x - - x x -\n- x x - x x - x - - - - x\n- - - - - - - - x - x - x\nx - x - x x - - x - x - -\nx - x - - - x - - - - x x\n- x - x x - x - x x - - -\n- x - - - x - x - - - x x\n- - x x - x - x - x x - -\n- - - - x - - - - - - x x\n- - x - x - x - x x - - -\n- - x - - - x - - - x x -\n- - - x x - - - x x - - -"
+    },
+    "207_13x14": {
+      "id": "207_13x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/207.a.htm",
+      "solution": "13 14\nx x - x x - - x x - - - - -\n- - x - - - - - - - x x - x\n- - x - x - - x x - - - - x\n- x - - x - - - - x x - x -\n- x - - - x - x x - - - x -\nx - - - - x - - - - - - - -\nx - x x - - x x - - x - - x\n- x - - x x - - x - x - - x\n- x - - - - x - x - - x x -\n- - x x - - x - - - - - - -\n- x - - - - - x - - x x - x\n- x - x x - - x - - - - - x\n- - - - - x x - x x - - - -"
+    },
+    "208_15x15": {
+      "id": "208_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/208.a.htm",
+      "solution": "15 15\n- x x - - - - - x - - - - x x\n- - - x x - x - x - x x - - -\n- x x - - - x - - x - - x x -\n- - - - x x - - - x - x - - -\nx x - - - - x x - - - x - x -\n- - x x - - - - - x x - - x -\n- x - - - - x - x - - x x - -\n- x - - - - x - x - - - - x x\n- - x - x x - - - x x - - - -\n- - x - - - - - - - - - x x -\n- x - x x - x x - - x x - - -\n- x - - - x - - x x - - x x -\n- - x x - x - - - - x x - - -\nx x - - x - x - x x - - x x -\n- - - - x - x - - - x x - - -"
+    },
+    "209_17x17": {
+      "id": "209_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/209.a.htm",
+      "solution": "17 17\n- - - - - - - x x - x x - - x x -\n- x - x - x - - - x - - - x - - x\n- x - x - x - x - x - x - x - - x\nx - x - - - - x - - - x - - x x -\nx - x - x x - - - x x - - x - - -\n- x - x - - - x - - - x - x - x -\n- x - x - x - x - - - x - - - x -\nx - x - - x - - - - x - x x - - x\nx - x - - - x - x - x - - - x - x\n- - - x - - x - x - - x x - x - -\n- x - x - x - x - x - - - x - x x\n- x - - - x - x - x - - - x - - -\nx - x - x - x - x - x - x - - - x\nx - x - x - x - x - x - x - - - x\n- x - x - x - x - - - x - - - x -\n- x - x - x - x - - - x - x - x -\n- - - - - - - - - x x - - x - - -"
+    },
+    "210_18x18": {
+      "id": "210_18x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/210.a.htm",
+      "solution": "18 18\n- x x - x x - - - - x - - - - - x x\nx - - x - - x - x - x - x - x x - -\nx - - x - - x - x - - - x - - - x x\n- - - - - - - - - x - x - - x x - -\n- - x x - - - - - x - x - - - - - -\n- - - - x x - - - - x - - - - x x -\n- x - x - - x x - - x - - x x - - -\n- x - x - - - - x x - x x - - - - -\nx - x - - - x x - - x - - x x - - -\nx - x - x x - - - - x - - - - x x -\n- - - - - - - - - x - x - - - - - -\nx - - - x - x - - x - x - - - x x -\nx - - - x - x - x - - - x - - - - x\n- - - - - x - - x - - - x - - - - x\n- x - x - x - - - - - - - - - x x -\n- x - x - - - - x x - x x - x - - x\nx - - - x x - - - - x - - - x - - x\nx - x x - - - x x - x - x x - x x -"
+    },
+    "211_10x10": {
+      "id": "211_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/211.a.htm",
+      "solution": "10 10\n- - - x x - x x - x\nx - - - - - - - - x\nx - - x x - x x - -\n- x x - - - - - x x\nx - - - - x x - - -\nx - x x - - - x x -\n- - - - - x x - - x\n- x x - x - - - - x\nx - - - x - x - x -\nx - x x - - x - x -"
+    },
+    "212_10x10": {
+      "id": "212_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/212.a.htm",
+      "solution": "10 10\nx x - - - x x - x x\n- - x - x - - - - -\nx - x - x - x x - -\nx - - - - x - - - -\n- x x - - x - x - -\n- - - x x - - x - -\n- - - - - x x - x -\nx x - x x - - - x -\n- - - - - - - - - x\nx x - x x - x x - x"
+    },
+    "213_10x10": {
+      "id": "213_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/213.a.htm",
+      "solution": "10 10\nx x - - x x - x x -\n- - x x - - x - - x\nx - - - x - x - - x\nx - x - x - - x x -\n- - x - - - - - - -\nx x - - - x - - x x\n- - x x - x - - - -\nx x - - - - x - x x\n- - x x - - x - - -\nx x - - x x - - x x"
+    },
+    "214_10x10": {
+      "id": "214_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/214.a.htm",
+      "solution": "10 10\n- - x - - x x - x x\nx - x - x - - x - -\nx - - - x - - x - -\n- x - - - x x - - -\n- x - x x - - x - x\nx - - - - - - x - x\nx - - - x x - - - -\n- - x x - - x x - -\n- - - - x - - - x x\n- x x - x - x x - -"
+    },
+    "215_10x10": {
+      "id": "215_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/215.a.htm",
+      "solution": "10 10\n- - - x x - - x x -\nx - x - - x x - - -\nx - x - - - - - x -\n- - - x x - - - x -\nx x - - - - - x - x\n- - - x x - - x - x\n- x x - - x x - x -\n- - - x x - - - x -\nx - x - - x x - - -\nx - x - - - - - x x"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/216.a.htm",
+      "solution": "10 10\n- - - - - - x x - x\n- - - x x - - - - x\nx - x - - - x - x -\nx - x - x - x - x -\n- - - - x - - x - x\nx - x - - - - x - x\nx - x - x - x - x -\n- - - - x - x - x -\nx - x - - x - x - x\nx - x - - x - x - x"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/217.a.htm",
+      "solution": "10 10\n- - - - x x - - - x\nx x - x - - x x - x\n- - - x - x - - x -\nx x - - - x - - x -\n- - x - x - x - - x\nx - x - x - x - - x\nx - - x - - - x - -\n- x - x - x - x - x\n- x - - - x - - - x\n- - x x - - - - - -"
+    },
+    "218_10x10": {
+      "id": "218_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/218.a.htm",
+      "solution": "10 10\nx - x x - - x x - -\nx - - - x x - - x x\n- - x x - - x x - -\nx x - - x x - - - -\n- - x x - - - - x -\nx x - - - x x - x -\n- - - x x - - x - -\nx x - - - x - x - -\n- - - - - x - - - x\nx x - x x - x x - x"
+    },
+    "219_10x10": {
+      "id": "219_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/219.a.htm",
+      "solution": "10 10\n- x x - x x - x - -\nx - - x - - - x - x\nx - - x - x x - - x\n- x - - x - - - x -\n- x - - x - - - x -\n- - x x - - x x - -\nx - - - x x - - - -\nx - x - - - x x - x\n- - x - - - - - - x\nx x - - x x - x x -"
+    },
+    "220_10x10": {
+      "id": "220_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/220.a.htm",
+      "solution": "10 10\nx x - x x - - - x x\n- - x - - - - x - -\n- - x - x - - x - x\nx - - - x - - - - x\nx - x x - x x - x -\n- x - - x - - - x -\n- x - - x - - x - x\n- - x x - - - x - x\nx - - - - x - - - -\nx - x x - x - x x -"
+    },
+    "221_10x10": {
+      "id": "221_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/221.a.htm",
+      "solution": "10 10\nx x - x x - - x x -\n- - - - - - - - - x\n- - x x - x x - - x\nx x - - x - - - - -\n- - x - x - x x - x\nx - x - - - - - - x\nx - - x x - - - - -\n- x x - - x x - x x\n- - - - - - - - - -\nx x - - x x - x x -"
+    },
+    "222_10x10": {
+      "id": "222_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/222.a.htm",
+      "solution": "10 10\n- x x - x x - - x x\nx - - - - - x x - -\nx - - - x x - - x -\n- - - x - - x - x -\n- - - x - - x - - x\nx - - - x x - - - x\nx - - - - - x x - -\n- x x - x x - - x x\nx - - x - - x x - -\nx - - x - - - - x x"
+    },
+    "223_10x10": {
+      "id": "223_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/223.a.htm",
+      "solution": "10 10\n- - - x x - - x - x\n- x x - - - - x - x\nx - - x x - x - x -\nx - - - - - x - x -\n- x x - x x - - - x\n- - - - - - x x - x\n- x x - - - - - - -\nx - - x - x - x x -\nx - - x - x - - - x\n- x x - - - x x - x"
+    },
+    "224_10x10": {
+      "id": "224_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/224.a.htm",
+      "solution": "10 10\nx - x - - x - x - x\nx - x - - x - x - x\n- - - - - - - - x -\nx x - - - - - - x -\n- - x x - - x x - -\nx x - - - x - - x -\n- - x x - x - - x -\n- - - - x - x - - x\nx x - - x - x - - x\n- - x x - - - x x -"
+    },
+    "225_10x10": {
+      "id": "225_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/225.a.htm",
+      "solution": "10 10\nx - - - x x - x x -\nx - x x - - - - - x\n- x - - x x - - - x\n- x - - - - - - - -\nx - - x x - - x - x\nx - - - - x - x - x\n- x x - - x - - x -\n- - - x x - - - x -\n- - - - - - - x - x\n- x x - x x - x - x"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/226.a.htm",
+      "solution": "10 10\nx x - x x - - x x -\n- - - - - - x - - x\nx x - x x - x - - x\n- - - - - x - - x -\nx x - x - x - - x -\n- - - x - - x x - -\nx - x - x - - - x x\nx - x - x - - x - -\n- - - x - x - x - -\nx x - x - x - - x x"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/227.a.htm",
+      "solution": "10 10\nx - - - x x - - x x\nx - x x - - x x - -\n- x - - x x - - x x\n- x - x - - x x - -\nx - - x - - - - - -\nx - x - - - x x - x\n- - x - x x - - - x\nx - - - - - - x x -\nx - x - x - x - - -\n- - x - x - x - x x"
+    },
+    "228_10x10": {
+      "id": "228_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/228.a.htm",
+      "solution": "10 10\nx x - x x - - x x -\n- - - - - x - - - x\n- x x - - x - - - x\n- - - x x - x - x -\nx - - - - - x - x -\nx - - - x - - - - x\n- x x - x - - - - x\nx - - x - x x - - -\nx - - x - - - x - x\n- x x - x x - x - x"
+    },
+    "229_10x10": {
+      "id": "229_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/229.a.htm",
+      "solution": "10 10\nx x - x - x - x - -\n- - - x - x - x - -\n- x x - - - x - x x\nx - - - - - x - - -\nx - - x x - - x x -\n- x x - - x x - - x\nx - - - - - - - - x\nx - x - x x - x x -\n- - x - - - - - - -\nx x - - x x - - x x"
+    },
+    "230_10x10": {
+      "id": "230_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/230.a.htm",
+      "solution": "10 10\n- - - x x - x x - x\nx - - - - x - - - x\nx - x - - x - x x -\n- - x - x - - - - x\nx x - - x - - x - x\n- - x x - - - x - -\nx x - - - x x - - -\n- - x x - - - x x -\n- - - - x - x - - -\n- x x - x - x - x x"
+    },
+    "231_10x10": {
+      "id": "231_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/231.a.htm",
+      "solution": "10 10\nx x - - x x - - x x\n- - - - - - x x - -\nx x - - x x - - - -\n- - x - - - x x - -\nx - x - x x - - - x\nx - - - - - - - - x\n- x - x x - - x x -\n- x - - - - x - - x\nx - x - x - x - - x\nx - x - x - - x x -"
+    },
+    "236_10x10": {
+      "id": "236_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/236.a.htm",
+      "solution": "10 10\nx - x x - x - - x -\nx - - - - x - - x -\n- x - x x - x x - x\n- x - - - x - - - x\n- - - - - x - - - -\n- x x - x - x - x x\nx - - - x - x - - -\nx - x x - - - - x x\n- x - - - - x x - -\n- x - - x x - - x x"
+    },
+    "237_10x10": {
+      "id": "237_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/237.a.htm",
+      "solution": "10 10\n- x x - x - x x - -\nx - - - x - - - - x\nx - x x - x x - - x\n- - - - x - - x x -\nx x - - x - x - - x\n- - x x - - x - - x\n- - - - x - - - x -\n- x x - x - - - x -\n- - - x - - x - - -\nx x - x - - x - x x"
+    },
+    "239_10x10": {
+      "id": "239_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/239.a.htm",
+      "solution": "10 10\nx x - - - x x - - x\n- - - x x - - - - x\nx x - - - - - x x -\n- - x - x - - - - x\n- - x - x - - - - x\nx x - x - - - x x -\n- - - x - - - - - x\n- x x - x - x - - x\nx - - - x - x - - -\nx - x x - - - x x -"
+    },
+    "241_10x10": {
+      "id": "241_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/241.a.htm",
+      "solution": "10 10\nx x - x x - - - x x\n- - x - - x - x - -\nx - x - - x - x - -\nx - - x x - - - x x\n- x x - - x - x - -\n- - - x - x - x - x\nx x - x - - - - - x\n- - x - x x - x x -\n- - x - - - x - - -\nx x - x x - x - x x"
+    },
+    "242_10x10": {
+      "id": "242_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/242.a.htm",
+      "solution": "10 10\nx - x - x - x - x x\nx - x - x - x - - -\n- - - x - x - - x x\nx x - x - x - x - -\n- - x - - - - x - -\nx - x - - x x - x x\nx - - x x - - x - -\n- x x - - x - x - x\nx - - - - x - - - x\nx - - - - - x x - -"
+    },
+    "243_15x15": {
+      "id": "243_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/243.a.htm",
+      "solution": "15 15\nx x - - x x - - x x - - x x -\n- - x - - - x - - - x - - - x\n- - x - - - x - - - x - - - x\nx x - - x x - - x x - - x x -\n- - x - - - x - - - x - - - x\n- - x - - - x - - - x - - - x\nx x - - x x - - x x - - x x -\n- - - - - - - - - - - - - - -\nx x - - x x - - x x - - x x -\n- - x - - - x - - - x - - - x\n- - x - - - x - - - x - - - x\nx x - - x x - - x x - - x x -\n- - x - - - x - - - x - - - x\n- - x - - - x - - - x - - - x\nx x - - x x - - x x - - x x -"
+    },
+    "244_15x15": {
+      "id": "244_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/244.a.htm",
+      "solution": "15 15\n- x x - - - - x - - - x x - x\nx - - x - x - x - - x - - - x\nx - - x - x - - - - x - x x -\n- x x - - - x x - - - - - - -\n- - - x - - - - - x x - - - -\n- - - x - x - x x - - x x - -\nx - x - - x - - - x x - - x x\nx - x - x - x x - - - x x - -\n- - - - x - - - - x x - - - -\nx - x - - - x x - - - - - - x\nx - x - x x - - x x - x x - x\n- x - x - - - - - - x - - x -\n- x - x - x x - x - x - - x -\nx - x - x - - - x - - - x - x\nx - x - x - x x - x x - x - x"
+    },
+    "246_10x10": {
+      "id": "246_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/246.a.htm",
+      "solution": "10 10\n- x - - - x x - - x\n- x - - - - - - - x\nx - x x - x x - - -\nx - - - x - - x - x\n- x x - x - - x - x\n- - - x - x x - - -\n- - - x - - - x - x\nx x - - x x - x - x\n- - x x - - x - x -\nx x - - - - x - x -"
+    },
+    "247_10x10": {
+      "id": "247_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/247.a.htm",
+      "solution": "10 10\nx x - x - - - x - x\n- - - x - - - x - x\nx x - - - - x - - -\n- - x x - - x - x x\nx - - - x x - x - -\nx - - x - - - x - x\n- - - x - - - - - x\n- x x - x x - x - -\nx - - x - - - x - -\nx - - x - - - - x x"
+    },
+    "248_15x15": {
+      "id": "248_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/248.a.htm",
+      "solution": "15 15\n- - - x x - x x - x x - - - -\n- - - - - x - - x - - - - - -\n- - - - - x - - x - x x - - -\nx - - - - - x - - - - - - x -\nx - - x x - x - x - x x - x -\n- x x - - - - - x - - - - - x\n- - - x x - - - - - - x x - x\n- - - - - - - - - - - - - - -\nx - x x - - - - - - - x - - -\nx - - - x - x - - - - x - - x\n- x x - x - x - - - x - x - x\n- - - - - - - x x - x - x - -\n- - - x x - - - - x - - - - -\n- - - - - x x - - x - - - - -\n- - - x x - - x x - x x - - -"
+    },
+    "249_13x13": {
+      "id": "249_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/249.a.htm",
+      "solution": "13 13\nx - x x - x x - - - x x -\nx - - - - - - x - x - - x\n- x x - x x - x - x - - x\n- - - - - - x - - - x x -\n- x x - - - x - - x - - -\nx - - - - - - - - x - x x\nx - - - x x - - x - x - -\n- x - x - - x - x - x - -\n- x - x - - x - - x - - -\n- - - - x - - - - x - - -\nx x - - x - x - x - x - -\n- - x x - - x - x - x - -\n- - - - - - - - - - - x x"
+    },
+    "250_15x20": {
+      "id": "250_15x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/250.a.htm",
+      "solution": "15 20\nx - - x x - - - - - - - - x x - - x x -\nx - - - - - x x - - - x x - - - x - - -\n- x x - - - - - x - - - - - - - x - x -\nx - - - - - x - x - x - x - x x - - x -\nx - - - - - x - - - x - x - - - x - - x\n- - - - x x - - x x - x - x - - x - - x\n- - - - - - x x - - - x - x - - - - - -\n- x - x - - - - - x x - - - - - x - - x\n- x - x - - - - - - - x - x - - x - - x\n- - - - - - - - - - - x - x - x - - x -\nx - - - - - - - - - - - - - - x - - x -\nx - - - x x - x x - - x - - - - - - - x\n- x x - - - x - - x - x - - x x - x - x\nx - - x x - x - - x - - - x - - - x - -\nx - - - - - - - - - x x - x - x x - x x"
+    },
+    "251_14x14": {
+      "id": "251_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/251.a.htm",
+      "solution": "14 14\nx - x - x - x - - - - x - x\nx - x - x - x - - x - x - x\n- x - - - x - x - x - - x -\n- x - - - x - x - - - - x -\nx - - - - - - - x - x - - -\nx - - - - x - - x - x - - -\n- x - x - x - x - x - x - x\n- x - x - - - x - x - x - x\n- - x - - - - - x - - - x -\nx - x - - x - - x - x - x -\nx - - x - x - x - - x - - x\n- x - x - - - x - x - x - x\n- x - - x - x - - x - x - -\n- - - - x - x - - - - - - -"
+    },
+    "252_13x21": {
+      "id": "252_13x21",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/252.a.htm",
+      "solution": "13 21\n- - x x - - - - x x - - - - x - - x x - -\n- x - - - - x x - - x x - - x - - - - x x\n- x - - - - - - - - - - - x - x - x x - -\nx - - - x x - x - x - - - x - x - - - - x\nx - - x - - - x - x - - x - - - - x - - x\n- - - x - - - - x - - - x - - - - x - x -\n- - - - x x - - x - - x - - - x - - - x -\n- x - - - - - - - - - x - - - x - - - - -\n- x - - - - - - - x x - - - x - x - - - -\nx - x - - - - - - - - - - - x - x - - x -\nx - x - - x x - - - - x x - - - - - - x -\n- - - - x - - - - x x - - - - - - - x - x\n- - - - x - x x - - - x x - - - - - x - x"
+    },
+    "253_13x13": {
+      "id": "253_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/253.a.htm",
+      "solution": "13 13\nx - x - x - - - - - x x -\nx - x - x - x x - x - - x\n- x - x - - - - - x - - x\n- x - x - - x x - - x x -\nx - x - - x - - - - - - -\nx - x - - x - - x - x - x\n- - - - x - x - x - x - x\n- x x - x - x - - x - x -\nx - - - - - - x - x - x -\nx - - - x - - x - - - - x\n- x x - x - x - x x - - x\nx - - x - - x - - - x x -\nx - - x - - - - - - - - -"
+    },
+    "254_16x18": {
+      "id": "254_16x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/254.a.htm",
+      "solution": "16 18\n- - - x - x - x - x - x x - - x x -\n- x - x - x - x - x - - - - - - - -\n- x - - x - x - - - - x - - x x - x\nx - - - x - x - - x - x - - - - - x\nx - x - - - - x - x - - - - - x - -\n- - x - x x - x - - - - x x - x - -\nx x - - - - x - - - x x - - x - x -\n- - x x - - x - x x - - x - x - x -\nx - - - x x - - - - - - x - - - - x\nx - x x - - - - x - x x - - - - - x\n- x - - - - - - x - - - x - x - x -\n- x - - x x - - - - - - x - x - x -\n- - x - - - x - - - x x - x - - - x\nx - x - x - x - - - - - - x - - - x\nx - - - x - - x x - - x x - x x - -\n- x x - - x x - - x x - - - - - x x"
+    },
+    "255_15x15": {
+      "id": "255_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/255.a.htm",
+      "solution": "15 15\nx x - x x - x - x x - - - x x\n- - x - - - x - - - x - - - -\n- - x - x x - x - - x - x - x\n- x - x - - - x - x - - x - x\n- x - x - x x - - x - x - x -\nx - x - - - - x x - - x - x -\nx - x - - x x - - x x - x - x\n- x - x x - - x x - - - x - x\n- x - - - x x - - x x - - - -\n- - - x x - - x x - - x x - x\n- x x - - x x - - x x - - - x\nx - - x x - - x x - - x x - -\nx - x - - x x - - x x - - x x\n- - x - - - - x x - - x x - -\n- - - x x - - - - x x - - x x"
+    },
+    "256_15x15": {
+      "id": "256_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/256.a.htm",
+      "solution": "15 15\nx x - x x - - - - - - - - - -\n- - x - - - - x - - - - x - -\n- - x - - - - x - - - - x - -\n- - - - - - - - x x - x - - -\n- - - x - - x x - - - x - x -\nx - - x - - - - - - - - - x -\nx - - - - - x x - - x - - - x\n- x - - x - - - - - x - x - x\n- x - - x - - x x - - - x - -\n- - x x - - - - - - x x - - -\n- - - - - - - x - - - - - - -\n- x x - - x - x - - x - - - -\n- - - - - x - - - - x - - - -\n- - - - - - - - - - - - x - -\n- - - - x x - - - - - - x - -"
+    },
+    "257_16x16": {
+      "id": "257_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/257.a.htm",
+      "solution": "16 16\nx x - x x - - - - - - - - - - -\n- - - - - - - x - x - - - x x -\nx x - x - x - x - x - - x - - -\n- - - x - x - - - - - - x - x x\nx - - - - - - - x x - x - x - -\nx - - x x - - - - - - x - x - -\n- - - - - x x - - - - - - - - -\n- - - - x - - - - - - x - x - -\n- x - - x - - x x - - x - x - x\n- x - - - x x - - - - - - - - x\nx - x - - - - - - - - - - - - -\nx - x - - x - - x x - - x - - -\n- x - x - x - - - - x - x - x x\n- x - x - - x - - - x - - x - -\n- - - - - - x - - - - - - x - -\n- - x x - - - - - - - x x - x x"
+    },
+    "258_15x20": {
+      "id": "258_15x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/258.a.htm",
+      "solution": "15 20\n- - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - x x - - - x x - - - -\n- x x - x x - - x - - - - x - - x - - x\n- - - - - - - - x - - - - x - - x - - x\n- - - - - - x x - x x - - - - - - x x -\n- - - - - - - - - - - x - - - - - - - -\n- x x - - - x x - - - x - - - x - - x -\n- - - - x - - - x - x - x x - x - - x -\n- x x - x - - - x - x - - - - - x x - -\n- - - - - - - - - - - - - - - - - - - -\n- - - - - x x - - - - - - - x x - x x -\n- x - - x - - x - - - - - x - - - - - x\n- x - - x - - x - - x - - x - - - - - x\n- - x x - - - - - - x - - - x x - x x -\n- - - - - - - - x x - x x - - - - - - -"
+    },
+    "259_15x20": {
+      "id": "259_15x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/259.a.htm",
+      "solution": "15 20\n- - - - - - - - x - x - - - x x - - - -\n- x x - x x - - x - x - - x - - x - - x\n- - - - - - x x - - - - - x - - x - - x\nx - - - - - - - x x - x x - - - - x x -\nx - - x x - x x - - - - - - - - - - - -\n- x x - - x - - x x - - - - - x - - - -\nx - - x - x - - - - x - x x - x - x x -\nx - - x - - - - x - x - - - x - x - - x\n- x x - - x - - x - - x x - x - x - - x\nx - - - - x - x - - - - - x - - - - - -\nx - - - - - - x - x x - - x - - - - - -\n- - - - x x - - x - - - - - x x - x x -\nx - - x - - x - x - - - - x - - - - - x\nx - - x - - x - - - x - - x - - - - - x\n- x x - - - - x x - x - - - x x - x x -"
+    },
+    "260_14x14": {
+      "id": "260_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/260.a.htm",
+      "solution": "14 14\nx - - x x - x x - x x - x x\nx - x - - - - - x - - - - -\n- - x - x x - - x - - x - x\nx x - x - - x - - x - x - x\n- - - x - - x - - x - - x -\n- x x - x x - x x - - - x -\nx - - - - - x - - x - x - -\nx - - x x - x - - x - x - -\n- x x - - x - x x - x - x x\n- - - - - x - - - - x - - -\n- - x - - - x - x x - x x -\n- - x - x - x - - - - - - -\nx x - - x - - x x - - x x -\n- - x x - x x - - x x - - -"
+    },
+    "261_12x12": {
+      "id": "261_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/261.a.htm",
+      "solution": "12 12\nx x - - - - - - - - - -\n- - - - x - x - - x x -\nx - - - x - x - - - - x\nx - x x - - - - x x - x\n- - - - x - x x - - - -\n- x x - x - - - x x - x\nx - - - - x - - - - - x\nx - - - - x - x x - - -\n- - - - - - - - - - - x\nx - - x - - - - - - - x\nx - - x - - x x - - - -\n- x x - - - - - - - x x"
+    },
+    "262_12x12": {
+      "id": "262_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/262.a.htm",
+      "solution": "12 12\nx - x x - - x x - - - -\nx - - - - x - - - - - x\n- - x - - x - - - x - x\nx - x - - - x x - x - -\nx - - - x x - - - - x x\n- - - - - - x x - - - -\n- - x - - - - - - - x x\nx - x - - x x - - x - -\nx - - x x - - - - x - x\n- x - - - x x - x - - x\n- x - - - - - - x - x -\n- - x x - - x x - - x -"
+    },
+    "263_14x20": {
+      "id": "263_14x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/263.a.htm",
+      "solution": "14 20\nx - x - - - - - - - x - - x - x - - - -\nx - x - - x - x - - x - - x - x - x - x\n- - - - - x - x - - - - - - - - - x - x\n- - - - - - - - x x - - x - x - - - - -\n- x - x - - - - - - - - x - x - - x - x\n- x - x - - x - x - x x - - - - - x - x\nx - - - - - x - x - - - - - - x - - - -\nx - - - - - - - - - - x - x - x - x - x\n- - x - x - - - x x - x - x - - - x - x\n- - x - x - - - - - - - - - - - - - - -\n- - - - - - x - x - x x - - - - - - - -\n- - - - - - x - x - - - x - x - - x - x\n- x - x - - - - - x - - x - x - - x - x\n- x - x - - - - - x - - - - - - - - - -"
+    },
+    "264_12x12": {
+      "id": "264_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/264.a.htm",
+      "solution": "12 12\n- - - - - - - x - x - x\n- x - x - x - x - x - x\n- x - x - x - - x - - -\nx - x - x - x - x - - x\nx - x - x - x - - x - x\n- x - x - - - x - x - -\n- x - x - - - x - - - -\nx - x - - - - - x - x -\nx - x - - x - - x - x -\n- - - x - x - x - x - x\nx - - x - - - x - x - x\nx - - - - - - - - - - -"
+    },
+    "265_13x13": {
+      "id": "265_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/265.a.htm",
+      "solution": "13 13\nx - x x - - x x - x x - x\nx - - - x - - - x - - - x\n- x x - x - x - x - x x -\nx - - - - - x - - x - - x\nx - x x - - - - - x - - x\n- x - - - - x x - - - x -\n- x - - - - - - x - - x -\nx - x - x - x - x - x - x\nx - x - x - x - - - x - x\n- x - - - x - x - x - x -\n- x - - - x - x - x - x -\nx - x - x - x - x - x - x\nx - x - x - x - x - x - x"
+    },
+    "266_13x20": {
+      "id": "266_13x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/266.a.htm",
+      "solution": "13 20\n- x - x - x x - - - - - - - - - x x - -\n- x - x - - - x x - - - - - x - - - x x\n- - - - x x - - - - - x x - x - x x - -\n- - - - - - - x - x x - - x - - - - - -\nx - x x - - - x - - - - - x - - - x x -\nx - - - - - - - - x x - - - - - - - - -\n- - x - - - x x - - - x - x - - x x - -\n- - x - x x - - x - - x - x - - - - x -\nx - - x - - x - x - x - - - - x x - x -\nx - - x - - x - - - x - - x x - - x - x\n- x x - x - - - x x - - - - - x - x - x\n- - - - x - - - - - - - - - - x - - - -\n- - - - - - - - - x x - - x x - - - x x"
+    },
+    "268_10x15": {
+      "id": "268_10x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/268.a.htm",
+      "solution": "10 15\nx - x - x x - x - x x - x x -\nx - x - - - - x - - - x - - x\n- - - x x - x - x x - x - - x\nx - x - - - x - - - x - x x -\nx - x - x x - - x - x - - - x\n- - - x - - x - x - - x x - x\nx - - x - - x - - - x - - x -\nx - x - x x - x x - x - - x -\n- - x - - - x - - - - - - - x\nx x - x x - x - x x - x x - x"
+    },
+    "269_12x12": {
+      "id": "269_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/269.a.htm",
+      "solution": "12 12\n- x - x x - - - - x - -\n- x - - - x - - - x - x\nx - x x - x - x x - - x\nx - - - x - - - - - - -\n- x x - x - x - x x - -\n- - - - - - x - - - x x\nx - x - - - - x x - - -\nx - x - - - - - - x x -\n- - - x x - - x x - - -\nx x - - - x x - - x x -\n- - x x - - - x x - - -\nx x - - - x x - - - x x"
+    },
+    "270_12x12": {
+      "id": "270_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/270.a.htm",
+      "solution": "12 12\nx x - - - x x - x x - x\n- - x - x - - - - - - x\n- - x - x - x - x - x -\n- x - x - - x - x - x -\n- x - x - x - x - x - -\nx - x - - x - x - x - -\nx - x - - - - - - - x -\n- - - - - x x - - - x -\n- x x - - - - x - x - x\n- - - - - - - x - x - x\n- x x - - x x - - - x -\n- - - x x - - - - - x -"
+    },
+    "271_13x15": {
+      "id": "271_13x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/271.a.htm",
+      "solution": "13 15\nx x - x x - x x - x - x x - x\n- - x - - x - - - x - - - - x\nx - x - - x - - - - x - x x -\nx - - x x - x - - - x - - - x\n- x x - - - x - - x - x x - x\nx - - x x - - x - x - - - - -\nx - - - - x - x - - x - x x -\n- x - x - x - - x - x - - - x\n- x - x - - - - x - - x x - x\nx - x - - - x x - x x - - - -\nx - x - - x - - x - - - - x x\n- - - - - x - - x - - x x - -\nx x - x x - x x - x x - - x x"
+    },
+    "272_13x20": {
+      "id": "272_13x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/272.a.htm",
+      "solution": "13 20\nx - - - x x - x x - - x - - - - x x - -\nx - - - - - x - - x - x - - x x - - - -\n- x x - - - x - - x - - x - - - - - - x\nx - - - - - - - x - x - x - - - - - - x\nx - - x - x - - x - x - - x x - - - x -\n- x - x - x - - - - - x x - - x - - x -\n- x - - x - - - - - - - - - - x - x - x\n- - - - x - - - - - - - - - - - - x - x\n- - x x - - x x - x - x - - - x - - - -\n- - - - - x - - - x - x - - - x - - - -\n- - x x - x - x x - - - x x - - x x - -\n- - - - x - x - - - x x - - x x - - x x\n- - - - x - x - x x - - x x - - x x - -"
+    },
+    "273_16x16": {
+      "id": "273_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/273.a.htm",
+      "solution": "16 16\nx x - x - - x x - x x - x x - -\n- - - x - - - - x - - - - - x x\n- x x - x - - - x - - - x x - -\nx - - - x - - - - x x - - - - x\nx - x x - x - x x - - - x x - x\n- x - - - x - - - x x - - - x -\n- x - x x - - - - - - - - - x -\n- - - - - x - x - x - - - - - x\nx - x - - x - x - x - x x - - x\nx - x - x - x - - - - - - x x -\n- x - - x - x - x x - x x - - -\n- x - x - - - x - - - - - - - -\n- - - x - x - x - - x x - - - -\nx x - - - x - - x x - - x x - -\n- - x x - - x x - - x x - - x x\nx x - - x x - - - - - - x x - -"
+    },
+    "274_13x13": {
+      "id": "274_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/274.a.htm",
+      "solution": "13 13\n- - x x - - x x - - x x -\nx x - - x x - - x x - - -\n- - - - - - - - - - x - -\n- x x - - - x - - - x - x\nx - - - x - x - x x - - x\nx - - - x - - - - - - - -\n- x x - - - - - x x - x -\nx - - x x - - - - - - x -\nx - x - - - - - x x - - x\n- - x - - - x - - - - - x\nx x - x - - x - x x - - -\n- - - x - - - x - - - - x\n- x x - x x - x - x x - x"
+    },
+    "275_12x12": {
+      "id": "275_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/275.a.htm",
+      "solution": "12 12\nx x - - - - x x - x x -\n- - x x - x - - - - - x\nx x - - - x - x - x - x\n- - x x - - - x - x - -\nx x - - - x x - - - x x\n- - x - x - - x - x - -\nx - x - x - - x - x - x\nx - - - - x x - x - - x\n- x - x - - - - x - - -\n- x - x - x x - - - x x\n- - x - x - - - x x - -\n- - x - x - x x - - x x"
+    },
+    "276_10x10": {
+      "id": "276_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/276.a.htm",
+      "solution": "10 10\n- - - - x x - - x -\nx - x - - - - - x -\nx - x - x x - - - x\n- x - x - - x x - x\n- x - x - x - - - -\n- - - - - x - x - x\nx x - - x - - x - x\n- - x - x - x - x -\nx - x - - - x - x -\nx - - - x x - - - -"
+    },
+    "277_13x13": {
+      "id": "277_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/277.a.htm",
+      "solution": "13 13\nx x - x x - - x x - - - -\n- - - - - - - - - - x x -\nx x - x x - x x - - - - x\n- - - - - - - - - - - - x\n- x x - - - - x x - - - -\nx - - - - x x - - - - x x\nx - x - x - - - - x x - -\n- - x - x - x - - - - - x\n- x - - - - x - x - x - x\n- x - - x x - - x - x - -\nx - x x - - x x - - - - x\nx - - - - - - - x x - - x\n- x x - - - x x - - x x -"
+    },
+    "278_15x25": {
+      "id": "278_15x25",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/278.a.htm",
+      "solution": "15 25\nx - x x - x x - x - x x - x x - - - x x - x - - -\nx - - - x - - - x - - - x - - - x x - - - x - - -\n- x x - x - - - - - - - x - x x - - - x x - x x -\nx - - x - x - x x - x x - - - - - x x - - - - - -\nx - - x - x - - - - - - - x x - - - - x x - x x -\n- x - - - - - x x - - x x - - - x x - - - x - - x\n- x - - x x - - - - - - - x x - - - x - - x - - x\nx - - x - - - x x - x x - - - x x - x - x - x - -\nx - - x - x x - - - - - x x - - - x - - x - x - -\n- x x - - - - - x - - - - - x x - x - - - - - x x\n- - - - - x x - x - x x - x - - x - - - - x - - -\nx x - x x - - x - - - - - x - - x - - - - x - x x\n- - x - - - - x - - - x x - - - - x x - - - x - -\n- - x - - - x - x - x - - - x x - - - - - - x - -\nx x - x x - x - x - x - - - - - x x - - x x - x x"
+    },
+    "279_15x15": {
+      "id": "279_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/279.a.htm",
+      "solution": "15 15\nx - x x - - - - x x - x x - -\nx - - - x x - - - - - - - x x\n- - x x - - x x - - - - x - -\n- - - - x x - - - x - - x - -\n- - x - - - - x - x - x - x x\n- - x - x x - x - - - x - - -\n- x - x - - x - x x - - x x -\n- x - x - - x - - - - - - - -\nx - - - - - - - x x - - - - -\nx - - - - - x x - - x - x - x\n- x x - - - - - - - x - x - x\nx - - x x - - - - x - - - x -\nx - x - - x x - - x - x - x -\n- - x - x - - - - - - x - - -\nx x - - x - - - - x x - x x -"
+    },
+    "280_18x30": {
+      "id": "280_18x30",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/280.a.htm",
+      "solution": "18 30\nx x - - - - x - - - - - x x - - x - x - x - x - - - - x - x\n- - x x - - x - x - - - - - x - x - x - x - x - - x - x - x\nx x - - - - - - x - x - x - x - - x - x - - - - - x - - x -\n- - x x - - x x - - x - x - - - - x - x - - x x - - - - x -\nx x - - x x - - x x - - - x x - x - - - - - - - x x - - - x\n- - x x - - x x - - - - x - - - x - - - - - x x - - - - - x\n- - - - x x - - x x - - x - - x - x - - x - - - x - - x x -\n- - x x - - x - - - x x - - - x - x - - x - x - x - - - - x\nx x - - x - x - - - - - x x - - - - x x - - x - - - x x - x\n- - x - x - - x x - - - - - - - x x - - x x - - x x - - - -\n- - x - - x x - - x x - x - x - - - x x - - x x - - - - - -\n- x - - - - - x - - - - x - x - x x - - x x - - x x - - x x\n- x - - x x - x - x - x - x - x - - x x - - x x - - x x - -\n- - - - - - - - - x - x - x - x - - - - x x - - x x - - x x\n- x x - x - x - x - x - x - x - - - - - - - x x - - x x - -\n- - - - x - x - x - x - x - x - x x - x - - - - x x - - x x\n- - x x - - - x - x - x - x - x - - - x - - x x - - - - - -\nx x - - x x - x - x - x - x - x - x x - x x - - - x x - x x"
+    },
+    "281_10x10": {
+      "id": "281_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/281.a.htm",
+      "solution": "10 10\nx - x - - - - x x -\nx - x - x - - - - x\n- - - - x - x - - x\n- - x x - - x - x -\n- x - - x - - - x -\n- x - - x - - - - -\nx - x x - x x - - x\nx - - - x - - x - x\n- x x - x - - x - -\n- - - - - x x - x x"
+    },
+    "282_15x18": {
+      "id": "282_15x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/282.a.htm",
+      "solution": "15 18\n- - - - - - x x - - x x - - - - - -\n- x - - x x - - - x - - - x x - x -\n- x - x - - x x - x - x x - - - x -\nx - - x - - - - - - - - - - - - - x\nx - - - x - x x - - x - x x - x - x\n- - - - x - - - - - x - - - - x - -\nx x - - - x - x - - - - x - - - x -\n- - - - - x - x - x x - x - - - x -\nx - - - x - - - - - - - - x x - - -\nx - x - x - - x - - - x x - - x - x\n- - x - - x - x - x x - - - - x - x\nx - - - - x - - - - - - x - x - x -\nx - - x x - x x - x x - x - x - x -\n- x x - - - - - - - - x - - - - - -\n- - - - x x - x x - - x - x x - x x"
+    },
+    "284_15x15": {
+      "id": "284_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/284.a.htm",
+      "solution": "15 15\nx x - - x x - - x x - x x - -\n- - x x - - x x - - x - - x -\n- - - - - - - - - - x - - x -\n- x x - - x - x - - - x - - -\n- - - - - x - x - x - x - - x\nx x - - - - - - - x - - - - x\n- - x x - - - x x - - - - x -\nx x - - - - - - - x x - - x -\n- - - - - - x x - - - - - - -\nx x - x x - - - x x - x x - -\n- - x - - - x - - - - - - - x\n- - x - - - x - x x - x - - x\n- x - x x - - - - - - x - - -\n- x - - - - x - - x x - x - x\n- - x x - - x - - - - - x - x"
+    },
+    "285_16x20": {
+      "id": "285_16x20",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/285.a.htm",
+      "solution": "16 20\n- x x - - - - - - x x - - - - x x - x x\nx - - - x - - x x - - - - - - - - - - -\nx - - - x - - - - x - - - - x - - x - -\n- - - - - - - x - x - - x - x - - x - -\n- - x x - - - x - - - - x - - x x - x x\nx x - - x x - - x - x - - - x - - - - -\n- - - - - - - - x - x - x - x - - - x -\n- x x - x x - - - x - - x - - x - - x -\nx - - - - - x x - x - x - - - x - x - x\nx - - x - - - - - - - x - x x - - x - x\n- x - x - x x - - - - - - - - x - - - -\n- x - - - - - - x x - - - - - x - - x x\n- - x x - x - - - - - x x - - - - - - -\n- x - - - x - - x x - - - - - - - - x x\n- x - - - - x x - - - - x - - - x x - -\n- - x x - - - - - x x - x - x x - - x x"
+    },
+    "286_23x33": {
+      "id": "286_23x33",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/286.a.htm",
+      "solution": "23 33\n- - - - - - x x - - x x - x x - - - - - - - - x - x - x - x - x -\n- - x - - x - - - - - - - - - x x - - - - - - x - x - x - x - x -\n- - x - - x - x - - - - - x - - - x x - - x x - - - - - - - x - -\nx x - x - - - x - - x x - x - x x - - x - - - x - x x - - - x - -\n- - - x - x x - x x - - x - x - - x - x - - - x - - - x - - - x -\n- x x - - - - - - - x - x - x - - x - - - - x - x x - x - - - x -\n- - - - - - - x x - x - - x - - - - - x x - x - - - x - x - x - -\n- - x x - x x - - x - - - x - - - - - - - - - x x - x - x - x - -\nx x - - x - - x - x - - - - x x - x x - x - x - - - - - - - - x x\n- - x - x - - x - - - x - - - - - - - - x - x - - x x - - x x - -\nx - x - - x x - - - - x - - x x - - - x - - - - - - - x x - - x x\nx - - x x - - - - x x - x - - - x x - x - x - - - x x - - x x - -\n- x x - - x - x x - - - x - - x - - - - - x - x x - - x x - - - -\n- - - x - x - - - - x - - - - x - - x x - - - - - - - - - - - - -\n- - - x - - - x x - x - x - x - - x - - x - - - x x - - - x x - -\n- - x - x - x - - x - - x - x - - x - - x - x x - - - x - - - - x\nx - x - x - x - - x - - - - - x x - - - - - - - x x - x - x x - x\nx - - - - - - - - - - - - - - - - x - - x x - - - - x - - - - - -\n- - - - x - x - - - - - - - - - - x - x - - x - - - x - - x - - x\nx x - - x - x - - x x - x x - x x - - x - - x - - x - x - x - - x\n- - x x - - - x x - - x - - - - - x x - x x - - - x - x - - x x -\nx x - - x x - - - - - x - - - - - - - - - - - - - - - - - x - - -\n- - x x - - - - - - - - - - - - x x - - - - - - - - - - - x - x x"
+    },
+    "287_15x15": {
+      "id": "287_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/287.a.htm",
+      "solution": "15 15\n- - - x x - - x x - - - - x x\n- x x - - - - - - - - x x - -\nx - - - - - x x - - - - - - -\nx - x - x x - - x x - - x x -\n- - x - - - - - - - - x - - -\n- - - - x x - - - - - x - - -\n- - x x - - - x x - - - x x -\n- - - - x - x - - x x - - - -\n- - - - x - x - - - - - - x -\nx - x x - - - - - - x - - x -\nx - - - x - - - x - x - x - x\n- x - - x - - - x - - - x - x\n- x - x - - x x - x x - - x -\nx - - x - - - - - - - - - x -\nx - - - - - - - x x - x x - -"
+    },
+    "288_15x24": {
+      "id": "288_15x24",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/288.a.htm",
+      "solution": "15 24\n- x x - x x - x - x x - - - x - x - - - x x - x\nx - - x - - - x - - - x x - x - x - x x - - - x\nx - - x - - - - - x x - - x - x - x - - - x x -\n- x x - x x - x x - - x - x - x - x - x x - - x\nx - - - - - - - - - - x - - - - - - - - - x - x\nx - x x - - x - x - x - x x - x - x - x - x - -\n- x - - - - x - x - x - - - - x - x - x - - x x\n- x - x x - - - - - - - - - x - x - x - x x - -\nx - x - - x x - x x - x x - x - x - x - - - x x\nx - x - x - - x - - - - - x - x - x - - x x - -\n- - - - x - - x - - x x - x - x - x - - - - x x\n- x - x - x - - - - - - x - - - - - - - x x - -\n- x - x - x - - - - x - x - x - - - x x - - x x\nx - x - - - x x - - x - - - x - - - - - - x - -\nx - x - x x - - x x - - x x - x x - x x - x - -"
+    },
+    "289_10x10": {
+      "id": "289_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/289.a.htm",
+      "solution": "10 10\nx - - - - x - x - x\nx - - x - x - x - x\n- x - x - - - - - -\n- x - - x x - - x x\nx - - x - - x - - -\nx - - x - - x - x x\n- x x - x x - - - -\n- - - - - - - - x x\nx x - - - - x x - -\n- - - - x x - - x x"
+    },
+    "290_24x36": {
+      "id": "290_24x36",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/290.a.htm",
+      "solution": "24 36\n- x x - - - x x - x x - - x x - x x - - - x x - - x x - - x x - - - - x\nx - - x x - - - x - - - - - - x - - - - - - - - - - - x x - - - - - - x\nx - - - - x x - x - - - - - - x - - - - - x x - x x - - - - - - - x x -\n- x x - x - - - - - - x x - x - - - - - - - - - - - x x - x - x x - - x\n- - - - x - - - - x x - - - x - - x x - - - x - - x - - - x - - - - - x\n- x - - - x x - - - - x x - - - - - - x x - x - - x - - - - - - x - - -\n- x - - - - - - - - x - - - - - - - - - - x - x - - x x - - - - x - x -\n- - - - - x x - - - x - - - - x - x - - - x - x - x - - x - x x - - x -\n- x x - x - - x - x - x - - - x - x - x x - - - - x - - x - - - x x - x\nx - - - x - - x - x - x - x x - x - - - - - - - - - - - - x - - - - - x\nx - - x - x - - - - x - - - - - x - x x - - x x - - - - - x - x x - - -\n- x - x - x - x x - x - - - x - - - - - - - - - x x - - - - - - - x - x\n- x - - - - - - - x - x x - x - - - - - x - x x - - - x x - x x - x - x\n- - x x - x - - - x - - - - - - x - - - x - - - x x - - - x - - - - - -\nx x - - - x - x x - - - x - - - x - x x - - - - - - x - - x - - - x - x\n- - - x x - - - - - - - x - x x - x - - x x - - - - x - - - - - - x - x\n- - x - - - - x x - x - - - - - - x - x - - - - x x - x x - - x - - x -\nx - x - x - x - - - x - x - - - - - - x - x - x - - - - - - - x - - x -\nx - - - x - x - x x - - x - - - - x - - - x - x - x x - - x x - - - - -\n- - x x - - - x - - x x - x x - - x - x - - - - - - - - - - - - - x - -\nx x - - - - - x - - - - - - - x x - - x - x - - - - x x - - - - - x - x\n- - x x - - - - - - - - - x - - - x x - - x - - x x - - x x - x x - - x\nx x - - x x - - - x x - - x - - - - - x x - - - - - x x - - - - - x x -\n- - x x - - - x x - - x x - - - x x - - - - - x x - - - - - x x - - - -"
+    },
+    "172_10x10": {
+      "id": "172_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/172.a.htm",
+      "solution": "10 10\nx - x x - - x - x x\nx - - - x - x - - -\n- x x - x - - - x x\n- - - x - x - x - -\nx x - x - x - x - x\n- - x - x - x - - x\nx - x - x - x - x -\nx - - x - x - - x -\n- x - x - x - x - x\n- x - - - - - x - x"
+    },
+    "232_10x10": {
+      "id": "232_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/232.a.htm",
+      "solution": "10 10\nx x - - - x x - x x\n- - x x - - - x - -\nx x - - x x - x - -\n- - x x - - - - - -\nx x - - x - - x - x\n- - x - x - - x - x\n- - x - - x - - - -\n- - - - - x - - x x\nx - x - x - x x - -\nx - x - x - - - x x"
+    },
+    "233_10x10": {
+      "id": "233_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/233.a.htm",
+      "solution": "10 10\nx x - x x - x x - x\n- - - - - - - - - x\nx - x x - - x x - -\nx - - - - - - - - x\n- x - x x - x x - x\n- x - - - x - - x -\nx - x - - x - - x -\nx - x - - - - x - -\n- - - x - - - x - -\nx x - x - x x - x x"
+    },
+    "234_10x10": {
+      "id": "234_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/234.a.htm",
+      "solution": "10 10\n- x x - - - - x - x\nx - - x - x - x - x\nx - - x - x - - x -\n- - x - x - x - x -\nx - x - x - x - - -\nx - - x - - - - - x\n- x - x - - - - - x\n- x - - x - - x x -\nx - x - x - - - - x\nx - x - - x x - - x"
+    },
+    "235_10x10": {
+      "id": "235_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/235.a.htm",
+      "solution": "10 10\n- - - x x - x x - x\n- x x - - - - - - x\nx - - - - x - x x -\nx - x - - x - - - -\n- - x - x - x - - -\nx x - - x - x - - x\n- - - x - - - x - x\n- x - x - x - x - -\n- x - - - x - - x x\n- - - x x - x x - -"
+    },
+    "238_10x10": {
+      "id": "238_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/238.a.htm",
+      "solution": "10 10\n- x x - - x x - x x\nx - - x x - - x - -\nx - - - - x - x - -\n- - x x - x - - x -\n- - - - x - x - x -\n- x x - x - x - - -\n- - - - - - - - - -\n- x x - - x x - x x\n- - - x x - - - - -\nx x - - - x x - x x"
+    },
+    "240_10x10": {
+      "id": "240_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/240.a.htm",
+      "solution": "10 10\n- - x x - x x - x x\n- - - - - - - x - -\nx - x - - - - x - -\nx - x - x - - - x x\n- x - - x - x x - -\n- x - x - - - - x x\nx - - x - - x x - -\nx - x - x x - - x x\n- - x - - - x x - -\nx x - x x - - - x x"
+    },
+    "245_15x25": {
+      "id": "245_15x25",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/245.a.htm",
+      "solution": "15 25\n- - x x - - - - - - x - x - - - - x - x - x - - -\n- x - - - - x - - - x - x - x - - x - x - x - x -\n- x - - x - x - x x - x - - x - - - - - x - - x -\nx - - - x - - x - - - x - - - - - x - - x - x - x\nx - - x - x - x - - x - - - x x - x - - - - x - x\n- x - x - x - - - - x - - x - - x - x - x x - - -\n- x - - - - - x - x - - - x - - x - x - - - x - x\n- - - x x - - x - x - - - - x x - - - - x - x - x\n- x x - - - x - - - - x - - - - x - x - x - - - -\n- - - x x - x - - - - x - - x - x - x - - x - - -\nx - x - - - - x - - - - - - x - - x - - - x - - x\nx - x - x - - x - - - x - x - x - x - - x - - - x\n- x - - x - - - x x - x - x - x - - - - x - - x -\n- x - x - x - x - - x - - - - - - - - x - - - x -\n- - - x - x - x - - x - x x - - - - - x - x x - -"
+    },
+    "267_15x15": {
+      "id": "267_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/267.a.htm",
+      "solution": "15 15\nx x - x x - - x x - - x x - -\n- - - - - x x - - x x - - x x\nx x - x x - - x x - - x x - -\n- - - - - x x - - x x - - x x\n- x - x - - - x x - - x x - -\n- x - x - x x - - - x - - x x\nx - x - x - - x x - x - - - -\nx - x - x - - - - - - - - x x\n- x - x - x - x - - - x x - -\n- x - x - x - x - x x - - x x\nx - x - x - x - x - - x x - -\nx - x - x - x - x - - - - x -\n- x - x - x - - - - x x - x -\n- x - x - x - - x x - - x - x\n- - - - - - x x - - - - x - x"
+    },
+    "283_11x15": {
+      "id": "283_11x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Norinori/283.a.htm",
+      "solution": "11 15\nx - - x x - x x - - x x - - -\nx - x - - - - - x x - - x x -\n- - x - - x x - - - - - - - -\nx x - x - - - x - x - - x x -\n- - - x - - - x - x - x - - -\nx x - - - x x - - - - x - - x\n- - x x - - - - - x x - x - x\nx x - - - x x - - - - - x - -\n- - - - x - - - - - x x - x x\nx - x - x - x - x - - - - - -\nx - x - - - x - x - x x - x x"
+    }
+  },
+  "info": "",
+  "count": 289
+}

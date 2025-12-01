@@ -9,6 +9,7 @@ from Common.Parser.PuzzleParsers.DominosParser import DominosParser
 from Common.Parser.PuzzleParsers.BuraitoraitoParser import BuraitoraitoParser
 from Common.Parser.PuzzleParsers.EuleroParser import EuleroParser
 from Common.Parser.PuzzleParsers.MosaicParser import MosaicParser
+from Common.Parser.PuzzleParsers.NonogramParser import NonogramParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -24,7 +25,8 @@ class ParserFactory:
         "Dominos": DominosParser, 
         "Buraitoraito": BuraitoraitoParser, 
         "Eulero": EuleroParser,
-        "Mosaic": MosaicParser
+        "Mosaic": MosaicParser,
+        "Nonogram": NonogramParser
     }
     
     @classmethod

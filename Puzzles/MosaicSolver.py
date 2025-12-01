@@ -6,7 +6,6 @@ from ortools.sat.python import cp_model as cp
 
 from Common.Utils.ortools_analytics import ortools_cpsat_analytics
 
-import copy
 
 class MosaicSolver(PuzzleSolver):
     def __init__(self, data: dict[str, Any]):
@@ -21,7 +20,7 @@ class MosaicSolver(PuzzleSolver):
             raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
         if self.grid.num_cols != self.num_cols:
             raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
-        allowed_chars = {"-"}
+        allowed_chars = {"-", "."}
         for pos, cell in self.grid:
             if not cell.isdigit() and cell not in allowed_chars:
                 raise ValueError(f"Invalid character '{cell}' at position {pos}")

@@ -17,11 +17,12 @@ if __name__ == "__main__":
         "Dominos", 
         "Buraitoraito",
         "Eulero",
-        "Mosaic"
+        "Mosaic",
+        "Nonogram"
     ]
     
     record = []
-    for pz_name in puzzle_names[0: 1]:
+    for pz_name in puzzle_names[-1: ]:
         pzl_dir = get_asset_path(f"data/{pz_name}/problems/{pz_name}_puzzles.json")
         sol_dir = get_asset_path(f"data/{pz_name}/solutions/{pz_name}_solutions.json")
 
@@ -34,6 +35,7 @@ if __name__ == "__main__":
         print(f"====== \t Solving: {pz_name} =======", end="\n")
         
         for puzzle_id, puzzle_info in problems_data["puzzles"].items():
+            print(puzzle_id)
             if puzzle_id not in solutions_data['solutions']:
                 # Not found this puzzle in solution json:
                 sol_dict = None
@@ -53,16 +55,18 @@ if __name__ == "__main__":
             
             solver = SolverFactory.get_solver(pz_name, pbl_dict)
             solution_dict = solver.solve()
-            solution_dict['puzzle_name'] = pz_name
+            # print(solution_dict)
+            # break
+            # solution_dict['puzzle_name'] = pz_name
             
             if sol_dict is None:
-                # If puzzle is loaded and solved successfully:
-                # TODO: check solutions via rule_based
+            #     # If puzzle is loaded and solved successfully:
+            #     # TODO: check solutions via rule_based
                 print(f"Load and solve puzzle but fail to load {pz_name} solutions, ID: {puzzle_id}")
-                continue
+            #     continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):
-                    # raise ValueError(f"Wrong {pz_name} {puzzle_id},")
+            #         # raise ValueError(f"Wrong {pz_name} {puzzle_id},")
                     print(f"Wrong! {pz_name} {puzzle_id},")
 
                 record.append(solution_dict)

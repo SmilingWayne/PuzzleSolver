@@ -1,0 +1,1206 @@
+{
+  "solutions": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/001.a.htm",
+      "solution": "6 6\n4 2 1 5 1 2\n3 5 3 2 4 5\n1 2 4 1 3 1\n4 3 5 2 4 2\n5 2 1 3 5 3\n1 3 4 2 1 4"
+    },
+    "2_6x6": {
+      "id": "2_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/002.a.htm",
+      "solution": "6 6\n4 1 5 2 4 1\n2 3 4 1 3 5\n1 5 2 5 2 4\n3 4 3 1 3 1\n2 5 2 5 2 4\n4 1 3 1 3 1"
+    },
+    "3_6x6": {
+      "id": "3_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/003.a.htm",
+      "solution": "6 6\n3 2 1 4 1 2\n1 4 5 3 5 4\n3 2 1 2 1 2\n1 5 4 5 3 5\n3 2 3 1 4 1\n4 1 4 5 2 3"
+    },
+    "4_6x6": {
+      "id": "4_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/004.a.htm",
+      "solution": "6 6\n1 2 3 2 3 1\n3 4 5 1 4 2\n5 1 2 3 5 1\n4 3 4 1 2 3\n2 5 2 5 4 1\n4 1 3 1 2 5"
+    },
+    "5_6x6": {
+      "id": "5_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/005.a.htm",
+      "solution": "6 6\n4 5 2 1 3 5\n3 1 3 5 2 1\n2 4 2 4 3 4\n1 3 1 5 1 2\n2 5 2 3 4 3\n1 4 1 5 1 2"
+    },
+    "6_6x6": {
+      "id": "6_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/006.a.htm",
+      "solution": "6 6\n1 5 2 4 1 4\n2 4 1 3 5 3\n1 3 5 2 1 2\n4 2 1 3 4 3\n3 5 4 2 5 1\n1 2 3 1 4 2"
+    },
+    "7_6x6": {
+      "id": "7_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/007.a.htm",
+      "solution": "6 6\n1 3 4 1 3 2\n2 5 2 5 4 1\n3 4 3 1 2 3\n2 1 5 4 5 1\n5 4 3 1 2 3\n2 1 2 4 5 1"
+    },
+    "8_6x6": {
+      "id": "8_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/008.a.htm",
+      "solution": "6 6\n4 3 1 2 1 3\n1 5 4 5 4 2\n3 2 1 2 1 5\n1 5 3 4 3 2\n2 4 2 1 5 1\n3 1 5 4 2 3"
+    },
+    "9_6x6": {
+      "id": "9_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/009.a.htm",
+      "solution": "6 6\n2 1 2 3 4 5\n4 3 5 1 2 1\n1 2 4 3 5 4\n4 5 1 2 1 3\n1 3 4 3 4 5\n5 2 1 2 1 3"
+    },
+    "10_6x6": {
+      "id": "10_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/010.a.htm",
+      "solution": "6 6\n3 4 3 2 4 1\n2 1 5 1 5 2\n3 4 3 2 3 4\n1 2 1 5 1 5\n4 5 4 2 4 3\n1 2 3 5 1 2"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/011.a.htm",
+      "solution": "8 8\n1 3 2 3 2 3 2 3\n4 5 1 5 1 5 4 5\n3 2 4 2 4 2 3 1\n4 1 5 1 3 1 5 4\n3 2 4 2 5 2 3 1\n4 1 5 3 4 1 5 4\n2 3 4 1 2 3 2 1\n1 5 2 3 4 5 4 5"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/012.a.htm",
+      "solution": "8 8\n2 1 3 5 3 1 4 2\n3 5 2 4 2 5 3 1\n1 4 1 3 1 4 2 4\n5 3 5 4 2 3 1 5\n2 4 1 3 1 4 2 4\n1 5 2 5 2 5 1 3\n2 4 1 3 1 3 2 5\n1 3 2 4 5 4 1 3"
+    },
+    "13_8x8": {
+      "id": "13_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/013.a.htm",
+      "solution": "8 8\n1 2 5 3 1 5 1 3\n3 4 1 4 2 3 2 4\n2 5 2 3 5 4 1 5\n4 1 4 1 2 3 2 3\n5 3 2 5 4 5 4 1\n1 4 1 3 2 1 3 5\n2 5 2 4 5 4 2 1\n3 1 3 1 2 3 5 4"
+    },
+    "14_8x8": {
+      "id": "14_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/014.a.htm",
+      "solution": "8 8\n3 2 1 4 5 4 3 2\n5 4 5 2 3 1 5 1\n2 1 3 1 4 2 3 4\n4 5 4 2 3 5 1 5\n1 2 1 5 1 4 2 3\n3 5 3 4 2 3 5 1\n2 1 2 1 5 4 2 4\n4 3 5 4 2 3 1 3"
+    },
+    "15_8x8": {
+      "id": "15_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/015.a.htm",
+      "solution": "8 8\n2 3 2 5 4 3 2 3\n4 1 4 1 2 1 4 1\n3 2 3 5 3 5 2 5\n5 4 1 2 1 4 1 4\n1 3 5 3 5 2 5 3\n4 2 4 2 1 4 1 4\n3 1 3 5 3 5 3 5\n5 2 4 1 2 1 2 4"
+    },
+    "16_8x8": {
+      "id": "16_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/016.a.htm",
+      "solution": "8 8\n2 4 2 1 2 4 5 3\n1 3 5 4 5 3 2 1\n4 2 1 3 2 4 5 3\n3 5 4 5 1 3 1 2\n1 2 1 3 4 5 4 3\n4 5 4 5 2 1 2 1\n3 1 3 1 4 3 4 5\n5 2 4 2 5 1 2 3"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/017.a.htm",
+      "solution": "8 8\n4 2 5 2 4 3 1 2\n1 3 1 3 1 5 4 3\n5 4 5 4 2 3 2 1\n2 1 2 1 5 1 4 3\n4 3 4 3 4 3 2 5\n2 5 2 5 1 5 1 4\n1 3 1 3 2 4 2 5\n5 2 4 5 1 3 1 3"
+    },
+    "18_8x8": {
+      "id": "18_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/018.a.htm",
+      "solution": "8 8\n5 1 2 3 2 1 5 4\n4 3 4 1 5 4 2 3\n2 1 5 3 2 3 5 4\n3 4 2 4 5 1 2 1\n2 5 3 1 3 4 5 3\n4 1 4 2 5 2 1 4\n5 2 5 3 1 3 5 3\n1 3 1 4 2 4 2 1"
+    },
+    "19_8x8": {
+      "id": "19_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/019.a.htm",
+      "solution": "8 8\n4 1 2 5 3 1 5 1\n2 5 3 4 2 4 2 3\n3 1 2 1 3 5 1 4\n4 5 3 4 2 4 3 5\n1 2 1 5 3 5 1 4\n5 4 3 2 4 2 3 2\n3 2 5 1 3 1 5 4\n5 1 3 4 2 4 2 1"
+    },
+    "20_8x8": {
+      "id": "20_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/020.a.htm",
+      "solution": "8 8\n3 1 5 2 5 2 4 1\n2 4 3 1 3 1 5 3\n3 1 2 5 4 2 4 1\n2 5 3 1 3 1 3 2\n4 1 4 2 4 2 4 1\n2 5 3 5 1 3 5 3\n1 4 1 4 2 4 2 4\n2 3 2 5 3 1 3 5"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/021.a.htm",
+      "solution": "6 6\n4 3 1 2 4 2\n5 2 4 3 1 3\n1 3 1 5 2 4\n4 2 4 3 1 3\n1 3 5 2 4 2\n4 2 1 3 5 1"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/022.a.htm",
+      "solution": "6 6\n2 1 3 1 5 2\n4 5 2 4 3 4\n3 1 3 1 5 2\n4 5 4 2 4 1\n3 2 3 5 3 2\n1 5 1 2 1 4"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/023.a.htm",
+      "solution": "8 8\n2 1 6 5 3 1 2 1\n3 4 2 4 2 5 3 5\n5 1 3 1 3 1 4 2\n4 2 4 5 2 5 3 1\n3 1 3 1 3 4 2 4\n2 4 2 4 2 1 6 5\n1 3 5 1 5 3 2 1\n5 4 2 3 4 1 4 3"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/024.a.htm",
+      "solution": "8 8\n3 2 1 5 4 6 2 1\n1 5 4 6 2 1 3 5\n3 2 3 5 4 6 4 2\n1 5 4 1 3 1 5 3\n4 2 3 2 6 2 4 1\n1 6 1 4 3 1 3 2\n3 5 2 6 5 4 5 1\n2 4 3 4 1 2 3 2"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/025.a.htm",
+      "solution": "8 8\n1 6 2 3 2 4 5 1\n4 3 1 4 1 3 2 4\n2 5 6 3 5 4 6 5\n1 3 1 2 6 2 1 3\n4 6 4 3 1 3 4 2\n1 3 2 5 2 5 1 5\n2 4 1 3 4 3 4 6\n5 3 6 2 1 5 1 2"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/026.a.htm",
+      "solution": "8 8\n5 3 1 3 1 2 1 2\n2 4 6 2 4 6 3 4\n6 5 3 1 3 1 5 1\n4 1 2 5 4 2 4 2\n2 5 4 3 6 3 5 1\n1 3 1 2 1 4 2 4\n2 5 4 3 5 3 5 3\n1 3 1 2 4 1 2 4"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/027.a.htm",
+      "solution": "8 8\n3 2 1 5 4 6 2 1\n1 5 4 6 2 1 3 5\n3 2 3 5 4 6 4 2\n1 5 4 1 3 1 5 3\n4 2 3 2 6 2 4 1\n1 6 1 4 3 1 3 2\n3 5 2 6 5 4 5 1\n2 4 3 4 1 2 3 2"
+    },
+    "28_8x8": {
+      "id": "28_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/028.a.htm",
+      "solution": "8 8\n3 4 1 5 3 4 3 2\n1 2 3 2 1 2 1 4\n5 4 1 6 3 4 3 6\n2 6 5 2 1 2 1 4\n4 3 4 3 5 3 5 3\n1 2 1 2 4 1 2 4\n5 3 4 3 6 5 3 6\n1 2 1 2 4 2 1 5"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/029.a.htm",
+      "solution": "10 10\n4 2 1 7 4 3 2 4 1 3\n7 5 3 6 5 1 7 5 2 5\n1 6 4 1 2 3 6 4 1 4\n4 5 3 6 5 4 1 5 3 2\n6 7 4 1 2 3 2 6 1 4\n5 2 3 5 7 5 1 3 5 2\n3 1 6 1 3 2 6 2 6 3\n2 5 4 7 5 1 4 1 4 7\n3 6 3 6 3 2 5 2 5 3\n2 1 4 2 1 4 6 3 1 2"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/030.a.htm",
+      "solution": "10 10\n1 3 7 3 2 7 4 5 1 5\n5 4 1 6 1 6 3 2 3 4\n1 2 5 2 4 2 7 4 5 1\n3 4 6 3 5 6 1 3 2 3\n6 2 1 2 1 3 5 7 6 1\n1 5 4 7 6 2 4 2 5 4\n2 3 2 3 4 3 1 6 3 2\n5 1 6 1 2 5 4 5 1 4\n4 3 5 4 6 1 3 2 3 2\n2 1 2 3 7 5 7 6 1 4"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/031.a.htm",
+      "solution": "6 6\n3 4 3 4 2 1\n2 1 5 1 3 5\n3 4 2 4 2 4\n2 1 5 1 3 1\n3 4 3 4 5 4\n2 1 2 1 2 3"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/032.a.htm",
+      "solution": "6 6\n2 5 2 3 1 4\n4 3 1 4 2 5\n1 5 2 3 1 3\n3 4 1 5 2 4\n1 2 3 4 3 1\n4 5 1 2 5 2"
+    },
+    "33_7x7": {
+      "id": "33_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/033.a.htm",
+      "solution": "7 7\n5 4 5 6 1 2 1\n1 3 1 2 3 4 3\n6 2 5 6 5 6 2\n5 1 3 2 4 1 4\n3 2 4 1 3 5 2\n4 1 3 2 4 1 3\n6 5 4 1 3 2 5"
+    },
+    "34_7x7": {
+      "id": "34_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/034.a.htm",
+      "solution": "7 7\n4 5 2 3 2 3 5\n3 1 4 1 5 1 2\n5 2 5 2 6 3 4\n6 3 1 3 4 2 1\n4 2 4 2 1 5 3\n1 5 1 3 4 2 1\n2 3 4 5 1 6 3"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/035.a.htm",
+      "solution": "8 8\n4 2 1 3 4 1 2 3\n3 5 4 6 2 3 4 5\n1 2 1 3 1 5 1 2\n3 4 6 2 4 3 4 5\n2 1 5 1 5 1 2 1\n6 3 2 3 2 6 3 5\n4 5 4 1 4 5 2 4\n1 2 6 3 2 1 3 1"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/036.a.htm",
+      "solution": "8 8\n5 3 2 1 4 1 3 1\n4 1 5 3 2 5 2 4\n3 6 4 1 4 1 3 1\n1 5 3 2 5 2 5 2\n2 4 1 4 3 4 6 4\n5 3 6 5 2 5 3 1\n1 4 2 1 3 1 4 2\n2 5 3 4 2 5 3 1"
+    },
+    "37_9x9": {
+      "id": "37_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/037.a.htm",
+      "solution": "9 9\n4 2 5 1 2 1 5 4 2\n1 3 4 3 4 3 7 1 3\n5 2 6 1 5 1 6 5 4\n7 3 5 2 4 2 3 1 7\n5 1 4 3 6 5 7 2 6\n3 2 6 7 4 3 4 1 5\n4 7 4 2 1 6 2 3 2\n1 3 1 5 4 3 1 6 1\n2 6 2 3 1 2 5 4 3"
+    },
+    "38_9x9": {
+      "id": "38_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/038.a.htm",
+      "solution": "9 9\n7 1 4 1 2 6 4 2 4\n5 2 3 6 5 1 3 1 3\n1 4 7 4 3 2 4 5 2\n3 5 1 5 6 5 1 6 3\n6 4 3 2 4 2 4 5 1\n2 5 7 5 3 1 3 2 3\n3 6 1 2 4 2 4 6 1\n5 7 4 3 5 7 1 5 3\n1 2 6 2 1 2 4 6 1"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/039.a.htm",
+      "solution": "10 10\n4 1 7 1 2 4 2 5 3 1\n5 3 5 3 6 7 3 1 2 5\n7 1 6 1 2 1 5 4 6 3\n6 2 7 4 6 3 2 3 5 4\n1 5 3 5 2 7 4 1 7 6\n2 4 2 4 3 6 2 3 5 4\n3 7 6 1 2 5 1 6 2 1\n4 1 5 4 7 4 2 7 4 3\n5 2 3 6 3 6 3 1 5 1\n4 7 1 5 1 2 5 2 4 3"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/040.a.htm",
+      "solution": "10 10\n2 3 1 6 4 3 5 2 4 3\n1 5 4 3 1 2 1 7 6 1\n6 2 6 2 4 5 4 5 2 4\n4 1 3 5 1 2 1 6 3 7\n3 5 2 6 4 3 4 5 1 5\n4 7 3 1 2 6 2 3 4 3\n3 5 6 5 4 7 1 5 6 2\n2 1 7 1 3 6 2 3 4 5\n6 4 5 2 5 4 1 5 6 3\n1 2 3 4 1 3 6 2 1 2"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/041.a.htm",
+      "solution": "6 6\n2 1 2 1 3 2\n4 5 4 5 4 1\n1 3 2 3 2 3\n2 4 1 5 1 5\n3 5 3 4 2 4\n2 4 1 5 1 3"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/042.a.htm",
+      "solution": "6 6\n1 4 2 1 3 2\n3 5 3 5 4 5\n4 2 4 2 1 3\n1 3 1 5 4 2\n2 4 2 3 1 5\n1 3 1 4 2 3"
+    },
+    "43_7x7": {
+      "id": "43_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/043.a.htm",
+      "solution": "7 7\n1 2 3 4 2 1 3\n3 4 1 5 3 4 5\n1 2 6 2 1 2 3\n5 3 1 5 3 4 1\n2 4 2 4 1 6 5\n6 3 1 3 5 2 4\n1 2 4 2 6 1 3"
+    },
+    "44_7x7": {
+      "id": "44_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/044.a.htm",
+      "solution": "7 7\n1 3 1 2 3 4 3\n5 2 4 6 1 2 1\n1 3 1 2 4 6 3\n2 5 6 5 3 5 1\n3 4 2 1 2 4 2\n5 1 3 4 6 3 1\n3 4 2 1 2 5 4"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/045.a.htm",
+      "solution": "8 8\n1 2 4 3 1 2 4 1\n4 3 5 2 4 6 3 2\n1 6 1 3 5 2 5 1\n4 2 4 2 1 4 3 4\n3 5 3 5 6 2 5 2\n1 2 1 2 1 4 3 1\n5 4 3 6 3 5 2 5\n3 1 2 4 1 4 1 3"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/046.a.htm",
+      "solution": "8 8\n5 4 3 2 1 4 1 5\n3 2 1 4 3 2 3 4\n1 5 3 2 1 6 1 2\n3 4 1 4 3 5 3 5\n2 6 2 5 6 1 2 4\n5 4 1 3 2 4 6 3\n2 3 2 4 5 1 5 1\n1 4 5 1 3 4 6 2"
+    },
+    "47_9x9": {
+      "id": "47_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/047.a.htm",
+      "solution": "9 9\n1 7 5 3 2 4 5 2 4\n5 4 6 1 6 1 6 1 3\n2 3 2 5 7 2 4 7 4\n6 1 4 3 1 3 1 2 3\n7 3 7 2 4 5 7 6 1\n2 5 1 5 3 6 2 5 7\n1 4 3 4 2 4 3 4 6\n3 2 1 6 1 6 1 2 1\n5 4 5 2 3 4 5 3 5"
+    },
+    "48_9x9": {
+      "id": "48_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/048.a.htm",
+      "solution": "9 9\n4 3 2 1 7 2 1 5 3\n2 1 7 3 6 3 6 4 1\n3 5 6 5 2 1 2 3 5\n4 1 2 1 4 5 4 1 4\n5 3 7 6 2 3 2 7 2\n4 1 4 3 4 1 4 5 3\n2 7 5 2 5 7 6 2 1\n1 6 4 1 6 2 3 5 3\n3 2 5 3 4 1 4 2 1"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/049.a.htm",
+      "solution": "10 10\n4 5 3 6 4 1 3 1 3 1\n3 1 2 5 2 5 4 6 4 2\n2 4 6 3 1 3 1 2 3 5\n6 1 2 7 5 2 5 6 1 2\n5 3 4 6 1 7 4 7 4 5\n7 1 5 2 3 5 2 3 6 2\n3 2 3 4 1 6 1 7 1 4\n4 1 6 2 5 3 4 3 5 2\n6 2 3 1 7 1 2 1 4 1\n1 4 5 2 3 4 5 3 2 3"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/050.a.htm",
+      "solution": "10 10\n1 4 2 3 1 3 5 4 1 5\n2 3 1 4 6 2 6 3 7 6\n1 7 2 3 5 3 5 1 4 2\n5 6 5 1 4 2 4 3 5 1\n4 3 4 2 3 7 1 2 6 2\n6 5 1 6 1 5 4 5 4 3\n7 3 2 4 2 7 3 2 6 1\n2 6 5 1 5 1 4 1 5 2\n5 4 7 3 4 2 3 7 6 7\n6 3 1 2 7 1 6 2 4 3"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/051.a.htm",
+      "solution": "6 6\n4 1 3 2 3 2\n3 5 4 1 4 1\n2 1 2 3 2 3\n4 5 4 1 4 1\n3 1 2 3 2 3\n2 5 4 1 4 1"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/052.a.htm",
+      "solution": "6 6\n3 2 1 4 3 4\n1 4 5 2 1 2\n2 3 1 3 4 3\n1 4 5 2 1 2\n5 2 1 3 4 5\n4 3 4 2 1 3"
+    },
+    "53_7x7": {
+      "id": "53_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/053.a.htm",
+      "solution": "7 7\n3 2 1 4 3 6 2\n1 4 6 2 1 5 3\n2 5 3 4 3 2 1\n1 4 2 6 1 5 4\n5 3 1 3 4 6 2\n1 2 4 5 2 1 3\n4 3 1 3 4 5 2"
+    },
+    "54_7x7": {
+      "id": "54_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/054.a.htm",
+      "solution": "7 7\n1 3 1 3 4 2 4\n4 2 4 2 1 5 3\n6 5 3 5 3 6 2\n3 1 2 4 1 4 1\n2 4 3 5 6 2 5\n1 5 1 2 1 3 6\n3 2 4 3 4 2 1"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/055.a.htm",
+      "solution": "8 8\n2 1 4 5 3 1 3 2\n6 3 2 1 4 2 4 1\n5 1 5 3 6 5 3 5\n3 2 4 2 4 1 4 1\n4 1 3 1 3 2 3 2\n2 5 4 2 6 5 6 5\n1 3 1 3 4 1 3 2\n4 2 4 6 5 2 4 1"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/056.a.htm",
+      "solution": "8 8\n1 2 4 3 2 3 4 1\n5 3 1 6 4 5 2 3\n1 4 5 3 1 3 1 5\n2 3 2 6 2 4 2 4\n4 1 4 1 5 6 3 1\n6 2 5 2 3 1 4 2\n1 4 3 4 5 6 3 1\n3 2 1 2 3 4 5 2"
+    },
+    "57_9x9": {
+      "id": "57_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/057.a.htm",
+      "solution": "9 9\n1 7 1 4 1 7 6 2 4\n2 6 2 3 2 3 1 3 1\n5 4 5 4 5 4 2 5 6\n3 1 3 1 6 3 1 3 7\n5 2 4 7 4 2 6 2 5\n3 1 3 2 5 3 5 4 1\n4 2 4 1 7 4 1 2 3\n1 5 6 2 3 2 6 5 1\n2 3 1 4 6 4 1 2 3"
+    },
+    "58_9x9": {
+      "id": "58_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/058.a.htm",
+      "solution": "9 9\n4 2 1 3 1 5 7 2 3\n1 3 6 2 4 3 6 1 6\n4 2 4 3 5 1 2 4 7\n3 5 1 6 2 4 5 3 5\n1 4 3 4 1 7 2 6 2\n3 2 5 6 2 4 5 1 4\n5 1 4 1 3 1 6 7 3\n6 7 3 5 2 7 2 5 4\n1 2 6 1 4 3 1 3 2"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/059.a.htm",
+      "solution": "10 10\n6 4 1 5 1 5 1 6 2 4\n3 2 7 2 6 2 3 4 5 3\n4 1 6 1 5 4 1 6 2 1\n3 5 2 3 7 3 2 4 3 5\n1 4 1 4 2 4 1 5 1 4\n2 7 6 5 6 3 6 3 2 3\n3 1 2 3 2 1 5 4 7 1\n2 5 4 1 6 7 3 1 3 2\n3 1 7 5 2 5 2 4 5 4\n4 6 2 3 1 4 6 3 7 6"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/060.a.htm",
+      "solution": "10 10\n1 3 2 3 6 5 1 4 2 3\n2 5 4 5 4 7 6 3 5 1\n3 1 6 7 2 3 4 7 2 6\n6 4 3 1 4 1 2 6 1 4\n5 2 6 5 2 5 3 5 3 5\n6 4 1 3 1 4 1 2 7 6\n1 7 5 6 2 3 6 3 1 4\n4 3 2 1 4 7 2 5 6 2\n2 5 4 5 2 5 4 7 4 1\n1 3 1 3 6 1 2 3 5 7"
+    },
+    "61_6x6": {
+      "id": "61_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/061.a.htm",
+      "solution": "6 6\n3 1 2 3 2 5\n4 5 4 1 4 1\n1 3 2 3 2 3\n2 5 4 1 5 4\n1 3 2 3 2 3\n2 4 1 4 1 4"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/062.a.htm",
+      "solution": "6 6\n2 3 2 1 5 2\n1 4 5 4 3 1\n3 2 3 1 2 4\n4 1 4 5 3 1\n3 2 3 1 4 2\n4 1 5 2 3 5"
+    },
+    "63_7x7": {
+      "id": "63_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/063.a.htm",
+      "solution": "7 7\n4 3 4 1 5 4 2\n6 5 2 3 2 1 5\n1 3 1 5 4 3 2\n2 4 6 3 2 6 1\n1 3 2 1 5 4 3\n2 5 4 3 6 1 2\n1 3 2 1 4 5 4"
+    },
+    "64_7x7": {
+      "id": "64_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/064.a.htm",
+      "solution": "7 7\n1 6 2 3 5 2 6\n2 3 1 4 1 3 1\n1 5 6 3 2 5 2\n4 3 1 4 1 4 1\n1 5 2 3 2 3 2\n2 3 4 6 1 4 5\n4 1 2 3 2 3 1"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/065.a.htm",
+      "solution": "8 8\n4 2 6 3 4 1 2 6\n5 1 4 2 5 3 4 1\n4 3 5 1 4 2 5 3\n6 2 6 3 6 1 4 1\n1 3 1 2 5 2 6 3\n4 2 4 3 1 3 4 2\n3 5 6 5 2 5 1 5\n1 2 3 4 1 4 2 3"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/066.a.htm",
+      "solution": "8 8\n3 2 5 4 1 3 1 2\n4 1 6 3 2 5 4 3\n2 5 2 1 4 1 2 1\n3 1 6 5 6 5 6 4\n5 2 3 4 2 1 3 1\n1 4 5 1 3 4 2 4\n5 2 3 4 2 1 3 5\n3 4 1 6 3 4 6 2"
+    },
+    "67_9x9": {
+      "id": "67_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/067.a.htm",
+      "solution": "9 9\n4 5 1 5 1 6 2 3 7\n1 6 2 3 4 3 5 1 5\n2 4 7 6 2 1 4 3 2\n3 5 1 4 3 5 2 1 4\n1 2 3 7 6 1 4 3 2\n3 4 6 5 3 5 2 6 1\n2 1 2 4 6 7 1 3 5\n3 4 6 5 2 3 5 4 7\n2 7 1 3 1 4 2 1 2"
+    },
+    "68_9x9": {
+      "id": "68_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/068.a.htm",
+      "solution": "9 9\n4 3 2 1 3 1 5 4 3\n1 6 5 7 4 2 3 1 5\n4 2 1 3 1 6 4 2 6\n1 3 5 6 4 2 1 5 4\n4 2 4 2 7 5 3 2 1\n6 5 3 5 4 2 1 4 3\n2 1 2 1 3 6 3 2 1\n3 5 7 4 5 2 4 6 4\n1 6 3 2 1 3 5 7 5"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/069.a.htm",
+      "solution": "10 10\n1 2 5 1 3 2 5 4 1 6\n3 4 6 4 6 7 1 6 2 4\n6 1 2 5 3 5 3 4 3 5\n2 7 3 4 1 2 7 1 7 1\n3 4 1 2 7 5 6 3 6 2\n1 2 5 6 1 2 1 2 4 5\n3 4 3 2 3 4 5 6 3 2\n1 2 6 4 5 6 7 2 4 5\n5 7 1 3 2 4 1 6 3 7\n2 3 4 5 1 5 3 7 1 6"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/070.a.htm",
+      "solution": "10 10\n2 5 6 5 4 5 1 4 6 1\n4 3 7 3 7 3 7 3 5 2\n1 5 1 2 1 6 1 2 7 3\n6 2 4 6 4 2 4 5 4 1\n1 7 3 1 3 6 1 6 2 6\n4 2 5 4 2 4 3 5 1 4\n1 3 1 3 5 1 2 6 7 2\n5 4 6 4 2 3 7 3 5 1\n1 2 3 5 7 5 2 1 2 4\n3 6 1 2 4 1 6 5 3 6"
+    },
+    "71_6x6": {
+      "id": "71_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/071.a.htm",
+      "solution": "6 6\n2 3 1 5 2 5\n1 4 2 3 4 1\n5 3 1 5 2 3\n4 2 4 3 1 4\n1 3 1 2 5 2\n4 2 5 4 3 1"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/072.a.htm",
+      "solution": "6 6\n3 1 2 4 2 4\n2 5 3 5 3 1\n1 4 1 4 2 4\n2 3 2 3 1 3\n4 5 1 4 2 4\n1 3 2 3 5 1"
+    },
+    "73_7x7": {
+      "id": "73_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/073.a.htm",
+      "solution": "7 7\n2 4 3 5 3 2 1\n3 1 2 1 4 5 4\n2 4 5 3 2 3 1\n5 6 1 6 1 6 2\n3 4 3 2 3 4 1\n1 2 1 5 6 2 3\n5 4 3 2 1 4 1"
+    },
+    "74_7x7": {
+      "id": "74_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/074.a.htm",
+      "solution": "7 7\n1 2 1 3 1 3 2\n4 3 4 2 5 4 1\n2 1 5 1 3 2 6\n3 6 3 2 4 5 4\n1 2 1 5 3 1 3\n3 4 3 4 2 4 2\n2 1 2 5 1 3 1"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/075.a.htm",
+      "solution": "8 8\n2 4 5 1 5 4 2 3\n5 3 2 3 2 3 6 1\n4 1 5 4 1 4 2 3\n2 3 2 6 3 5 1 5\n4 1 4 1 2 4 2 4\n5 2 3 5 3 1 3 1\n1 4 1 4 6 2 4 2\n2 3 5 3 1 5 1 3"
+    },
+    "76_8x8": {
+      "id": "76_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/076.a.htm",
+      "solution": "8 8\n5 2 3 1 5 3 1 4\n3 4 6 4 2 6 2 3\n6 1 5 1 3 1 4 5\n5 4 2 6 2 5 6 1\n2 1 3 1 4 3 4 2\n3 5 2 5 2 1 5 3\n4 1 4 1 4 3 2 1\n3 2 6 3 2 6 4 5"
+    },
+    "77_9x9": {
+      "id": "77_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/077.a.htm",
+      "solution": "9 9\n2 3 4 1 4 3 4 1 2\n5 6 5 3 2 7 2 3 4\n1 3 1 4 1 6 5 6 1\n6 5 2 7 2 3 4 3 4\n1 4 1 3 5 1 2 1 5\n3 7 5 2 4 3 6 4 2\n2 4 3 6 1 2 1 3 1\n3 1 2 5 4 5 6 5 7\n2 6 4 3 2 3 4 2 1"
+    },
+    "78_9x9": {
+      "id": "78_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/078.a.htm",
+      "solution": "9 9\n1 4 2 3 7 6 4 3 5\n7 6 1 4 1 5 2 1 2\n3 4 5 3 2 6 4 5 3\n2 6 1 7 1 5 2 1 6\n4 3 4 3 2 3 7 4 2\n1 5 2 1 5 4 5 3 1\n2 3 6 7 2 3 1 4 2\n6 4 1 4 1 4 5 3 1\n1 3 6 5 2 3 1 2 4"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/079.a.htm",
+      "solution": "10 10\n4 5 7 5 2 1 3 1 3 1\n2 3 2 1 3 4 6 2 6 4\n5 4 7 6 5 2 1 3 7 5\n6 2 5 1 7 4 7 4 2 3\n1 4 3 4 6 1 3 5 1 5\n3 7 6 1 2 5 4 2 4 2\n5 1 2 3 6 3 1 6 3 1\n6 4 5 4 5 2 5 4 2 7\n2 3 1 2 1 6 1 3 6 1\n1 7 4 3 5 3 7 4 2 5"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/080.a.htm",
+      "solution": "10 10\n1 4 1 3 6 7 3 1 3 2\n2 3 5 7 2 5 4 2 6 1\n1 6 1 4 6 1 7 1 5 3\n3 2 3 2 5 3 2 6 2 4\n1 5 7 4 6 4 7 4 1 5\n2 4 2 1 2 5 6 3 6 2\n5 3 6 3 4 3 1 2 7 3\n6 4 2 1 5 2 4 5 1 4\n5 1 3 7 6 3 1 7 3 2\n3 4 2 1 5 4 6 2 4 1"
+    },
+    "81_6x6": {
+      "id": "81_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/081.a.htm",
+      "solution": "6 6\n4 3 1 5 1 3\n1 2 4 2 4 2\n4 3 1 3 1 3\n2 5 2 4 2 4\n3 1 3 1 5 3\n5 2 4 2 4 1"
+    },
+    "82_6x6": {
+      "id": "82_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/082.a.htm",
+      "solution": "6 6\n3 1 2 4 2 1\n2 4 3 1 3 5\n3 1 5 4 2 1\n4 2 3 1 3 5\n3 1 4 2 4 1\n4 2 3 1 5 2"
+    },
+    "83_7x7": {
+      "id": "83_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/083.a.htm",
+      "solution": "7 7\n1 2 1 3 4 2 1\n4 3 5 2 5 3 4\n2 1 4 3 6 2 1\n3 5 6 2 4 5 3\n1 4 3 1 3 1 2\n2 5 2 5 4 5 4\n6 4 3 1 3 2 1"
+    },
+    "84_7x7": {
+      "id": "84_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/084.a.htm",
+      "solution": "7 7\n1 3 2 3 2 4 5\n5 4 1 4 1 3 1\n3 2 3 2 5 6 4\n1 6 1 4 1 3 2\n2 4 2 3 2 6 1\n3 5 1 5 1 5 4\n1 2 4 3 4 2 3"
+    },
+    "85_8x8": {
+      "id": "85_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/085.a.htm",
+      "solution": "8 8\n4 1 2 4 2 1 2 1\n3 5 3 5 6 3 5 3\n4 1 4 1 4 1 4 2\n3 2 3 2 3 2 3 1\n6 5 4 1 5 1 6 2\n2 1 2 3 2 3 4 1\n5 3 5 4 1 6 5 3\n4 2 6 2 3 4 1 4"
+    },
+    "86_8x8": {
+      "id": "86_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/086.a.htm",
+      "solution": "8 8\n1 5 3 4 2 3 4 1\n3 4 1 5 1 6 5 2\n1 2 3 4 3 2 4 3\n4 6 1 2 1 5 1 2\n2 3 5 6 3 4 3 5\n5 4 1 4 2 6 1 2\n1 3 2 6 1 5 3 5\n2 4 5 3 4 2 1 4"
+    },
+    "87_9x9": {
+      "id": "87_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/087.a.htm",
+      "solution": "9 9\n6 2 1 5 3 2 5 2 4\n4 5 3 2 7 4 3 6 1\n7 6 1 4 1 5 1 4 2\n3 5 2 3 6 2 6 5 1\n4 7 4 1 5 4 3 2 3\n1 5 3 2 6 2 1 4 1\n3 2 1 4 3 4 3 2 3\n1 4 7 2 6 1 5 1 5\n2 3 5 1 4 2 3 4 3"
+    },
+    "88_9x9": {
+      "id": "88_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/088.a.htm",
+      "solution": "9 9\n4 1 2 5 2 4 1 3 1\n7 3 6 3 1 3 2 5 2\n6 1 2 4 2 5 4 1 3\n5 4 5 3 1 3 7 5 4\n1 2 1 6 2 4 2 1 2\n3 4 3 7 3 1 5 4 3\n2 1 5 2 4 2 6 1 2\n4 6 3 6 3 1 4 5 3\n1 5 4 1 5 2 3 1 4"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/089.a.htm",
+      "solution": "10 10\n4 2 1 4 5 4 1 2 1 5\n1 3 5 3 2 3 6 4 6 3\n2 4 2 6 1 4 5 2 7 2\n6 7 1 3 5 3 1 3 5 6\n5 2 5 4 7 2 4 2 4 3\n4 3 1 2 1 6 1 6 5 1\n1 2 5 7 3 4 3 7 4 2\n3 4 6 2 5 1 6 5 1 5\n6 1 3 1 3 2 4 3 2 6\n3 7 4 2 7 5 6 1 4 1"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/090.a.htm",
+      "solution": "10 10\n2 1 6 3 5 2 3 1 4 2\n7 4 2 4 1 6 4 2 3 6\n5 1 5 3 5 2 7 6 5 1\n6 3 6 1 4 3 5 1 3 2\n2 1 2 7 5 2 4 2 4 1\n7 4 3 4 3 1 3 1 5 3\n1 6 1 6 5 6 4 7 4 2\n5 3 2 3 4 1 2 6 5 1\n4 1 5 7 6 5 3 4 3 4\n2 3 2 1 3 4 2 1 2 1"
+    },
+    "91_6x6": {
+      "id": "91_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/091.a.htm",
+      "solution": "6 6\n1 4 1 3 2 3\n2 3 2 4 1 4\n4 1 5 3 2 3\n3 2 4 1 5 1\n1 5 3 2 3 4\n2 4 1 4 1 2"
+    },
+    "92_6x6": {
+      "id": "92_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/092.a.htm",
+      "solution": "6 6\n2 1 2 1 4 3\n3 5 3 5 2 1\n4 2 1 4 3 4\n3 5 3 2 1 2\n4 2 1 4 5 4\n1 3 5 2 3 1"
+    },
+    "93_7x7": {
+      "id": "93_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/093.a.htm",
+      "solution": "7 7\n3 4 2 6 1 3 1\n2 1 5 4 5 4 2\n5 3 2 6 1 3 1\n4 1 5 3 5 4 2\n2 3 4 1 2 3 1\n5 1 2 3 4 5 2\n4 3 4 1 2 1 3"
+    },
+    "94_7x7": {
+      "id": "94_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/094.a.htm",
+      "solution": "7 7\n1 4 3 5 1 3 1\n2 5 1 2 4 2 5\n1 3 4 5 3 6 3\n2 5 2 1 2 4 1\n3 4 6 3 5 6 2\n2 5 1 2 1 4 3\n1 4 3 4 3 2 1"
+    },
+    "95_8x8": {
+      "id": "95_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/095.a.htm",
+      "solution": "8 8\n5 1 5 1 2 3 1 2\n4 3 4 3 5 4 6 3\n1 2 1 2 1 2 1 2\n3 4 5 3 4 3 5 4\n2 1 2 1 2 1 2 1\n5 3 6 3 5 4 6 3\n2 4 1 2 1 3 1 4\n1 5 3 4 5 4 2 5"
+    },
+    "96_8x8": {
+      "id": "96_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/096.a.htm",
+      "solution": "8 8\n2 5 3 1 5 3 4 1\n3 1 4 6 2 1 2 3\n4 5 2 1 3 4 5 1\n1 6 4 5 2 1 2 3\n2 3 2 3 4 3 4 1\n1 4 1 5 1 5 2 6\n5 3 6 2 6 4 3 4\n2 1 4 5 3 1 2 5"
+    },
+    "97_9x9": {
+      "id": "97_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/097.a.htm",
+      "solution": "9 9\n5 2 3 1 5 2 1 4 6\n1 4 5 4 3 4 3 2 3\n5 3 7 6 1 2 5 1 5\n6 2 1 2 4 3 6 4 6\n1 5 4 6 1 2 1 7 5\n4 2 3 7 3 5 3 4 2\n3 1 5 4 1 4 2 1 3\n2 4 2 3 6 5 6 7 2\n6 5 7 5 1 3 2 4 1"
+    },
+    "98_9x9": {
+      "id": "98_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/098.a.htm",
+      "solution": "9 9\n1 7 1 5 1 2 5 6 2\n4 6 4 2 4 3 1 7 4\n3 5 1 3 6 7 4 3 1\n2 7 2 5 2 1 6 5 2\n5 1 3 1 6 4 3 1 4\n2 4 2 4 5 1 2 5 7\n3 6 3 7 3 7 4 1 3\n1 2 1 2 1 2 3 2 4\n3 5 4 6 3 5 4 5 1"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/099.a.htm",
+      "solution": "10 10\n2 4 3 5 1 5 3 6 2 1\n3 1 6 4 6 2 1 4 3 4\n4 2 5 2 3 4 5 7 2 1\n1 3 6 4 5 2 3 4 3 4\n5 4 5 1 7 1 6 1 2 6\n6 7 2 6 2 4 7 3 5 3\n1 3 1 5 1 3 1 6 4 1\n4 2 4 2 7 4 5 3 2 5\n5 7 6 3 1 3 1 6 1 3\n2 3 1 2 6 5 7 2 4 2"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/100.a.htm",
+      "solution": "10 10\n4 3 7 2 6 2 1 5 3 1\n6 2 4 1 4 5 7 2 7 4\n5 3 5 2 3 1 3 1 6 2\n6 1 4 1 4 5 2 4 5 3\n2 3 7 5 7 3 1 3 6 2\n1 6 1 2 1 2 6 4 5 3\n4 5 3 4 6 7 5 1 6 1\n2 1 2 1 5 1 6 2 3 4\n3 6 5 3 2 3 4 7 5 1\n4 1 4 6 1 5 2 6 4 3"
+    },
+    "101_6x6": {
+      "id": "101_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/101.a.htm",
+      "solution": "6 6\n1 4 2 3 2 3\n2 5 1 4 1 4\n3 4 2 3 2 3\n1 5 1 4 1 5\n2 3 2 5 2 3\n4 1 4 3 1 4"
+    },
+    "102_6x6": {
+      "id": "102_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/102.a.htm",
+      "solution": "6 6\n4 1 3 2 3 2\n3 2 5 1 4 1\n4 1 4 2 5 2\n3 5 3 1 3 4\n4 1 2 5 2 1\n2 3 4 1 3 4"
+    },
+    "103_7x7": {
+      "id": "103_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/103.a.htm",
+      "solution": "7 7\n3 5 2 3 1 2 1\n1 6 1 4 6 4 3\n2 4 3 2 3 2 1\n1 5 1 5 1 6 3\n3 2 4 2 3 4 5\n4 5 1 5 1 2 1\n1 2 3 2 6 3 4"
+    },
+    "104_7x7": {
+      "id": "104_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/104.a.htm",
+      "solution": "7 7\n2 3 1 4 2 3 1\n1 4 2 5 1 4 2\n3 6 3 4 2 3 1\n2 1 2 5 1 4 2\n5 6 3 4 3 5 3\n3 4 5 2 1 4 1\n1 2 1 3 6 3 2"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/105.a.htm",
+      "solution": "8 8\n6 2 3 1 4 1 4 1\n3 1 5 6 5 3 2 5\n5 4 2 3 2 4 1 3\n2 3 1 4 1 5 2 4\n6 4 2 3 2 4 6 1\n1 3 1 4 1 5 3 2\n4 5 6 2 3 2 6 4\n2 1 3 1 5 4 1 3"
+    },
+    "106_8x8": {
+      "id": "106_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/106.a.htm",
+      "solution": "8 8\n1 4 1 4 2 3 2 1\n2 3 5 3 5 1 4 3\n5 6 2 1 6 3 2 1\n4 1 5 3 4 5 6 4\n2 3 4 2 1 2 1 2\n1 6 1 3 4 3 4 6\n2 4 5 2 5 1 2 1\n1 3 1 4 3 4 5 3"
+    },
+    "107_9x9": {
+      "id": "107_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/107.a.htm",
+      "solution": "9 9\n5 2 1 2 1 4 3 2 7\n6 3 4 3 5 2 5 4 1\n4 2 1 2 1 3 1 3 2\n1 3 4 6 7 6 2 4 6\n5 6 2 3 1 4 5 7 5\n1 7 1 6 5 6 1 4 1\n2 4 2 4 3 2 7 3 2\n3 1 3 5 1 6 5 1 5\n4 2 6 7 4 3 2 4 3"
+    },
+    "108_9x9": {
+      "id": "108_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/108.a.htm",
+      "solution": "9 9\n5 2 4 5 6 7 4 3 6\n4 6 3 1 3 1 5 1 2\n3 1 2 5 4 2 4 6 7\n2 4 6 3 1 5 3 1 2\n1 3 1 2 4 7 2 4 3\n2 4 5 3 5 3 1 6 5\n1 3 1 2 1 2 7 2 4\n2 4 7 3 4 3 5 3 1\n1 3 6 2 5 1 6 2 4"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/109.a.htm",
+      "solution": "10 10\n1 7 1 4 1 3 5 7 6 2\n3 6 3 5 6 2 4 2 4 1\n2 1 2 1 7 1 6 3 5 2\n5 4 7 3 5 2 4 7 4 3\n1 3 1 4 6 1 3 5 2 1\n2 4 5 2 3 5 4 1 3 4\n3 6 7 4 6 1 6 2 5 2\n2 5 1 5 3 2 7 1 6 1\n3 4 7 6 1 4 5 3 5 4\n2 5 1 4 2 3 1 6 2 3"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/110.a.htm",
+      "solution": "10 10\n2 3 1 6 5 4 7 4 3 1\n1 7 4 3 1 2 6 2 6 5\n2 6 5 2 6 4 5 4 7 1\n1 3 7 1 7 2 3 1 2 3\n2 6 5 2 3 1 5 4 5 1\n5 4 3 1 5 4 2 1 3 4\n3 1 5 2 3 7 3 6 2 1\n2 6 3 6 4 1 5 4 3 7\n1 4 7 1 7 3 6 2 1 6\n5 2 5 3 2 4 1 4 5 2"
+    },
+    "111_6x6": {
+      "id": "111_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/111.a.htm",
+      "solution": "6 6\n1 2 4 1 3 2\n4 3 5 2 4 5\n1 2 1 3 1 3\n3 5 4 2 4 2\n4 1 3 5 3 1\n3 2 4 1 4 2"
+    },
+    "112_6x6": {
+      "id": "112_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/112.a.htm",
+      "solution": "6 6\n2 5 2 3 4 2\n3 1 4 1 5 1\n4 2 3 2 3 2\n1 5 1 4 1 5\n4 3 2 3 2 4\n1 5 1 4 1 3"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/113.a.htm",
+      "solution": "8 8\n4 1 4 3 6 3 1 2\n2 3 2 1 5 2 5 4\n5 6 5 3 4 1 3 2\n1 3 4 1 2 5 4 1\n4 5 2 3 4 1 2 5\n1 3 1 5 2 5 3 1\n2 4 2 6 1 6 4 2\n1 5 3 4 3 2 1 3"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/114.a.htm",
+      "solution": "8 8\n1 3 2 1 4 2 1 3\n4 5 4 5 6 3 5 4\n2 3 2 3 1 2 1 3\n6 5 1 6 5 6 4 2\n4 3 4 2 3 1 3 1\n2 1 5 1 6 5 2 4\n3 4 2 4 2 4 1 5\n5 1 3 5 1 3 2 4"
+    },
+    "115_8x8": {
+      "id": "115_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/115.a.htm",
+      "solution": "8 8\n6 1 3 2 1 2 1 2\n2 5 4 5 4 3 4 5\n4 6 3 1 2 1 2 3\n3 1 5 4 5 3 6 1\n2 4 2 1 2 1 4 5\n3 5 3 4 3 5 6 1\n1 2 1 2 1 2 4 2\n3 4 5 3 4 6 3 1"
+    },
+    "116_8x8": {
+      "id": "116_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/116.a.htm",
+      "solution": "8 8\n1 3 1 4 5 3 1 4\n4 5 2 3 2 4 2 3\n3 1 6 4 1 3 1 5\n5 4 2 3 2 5 4 2\n2 1 6 5 4 1 3 1\n4 3 4 3 2 5 2 5\n2 1 2 1 4 6 3 1\n4 3 5 3 2 1 4 2"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/117.a.htm",
+      "solution": "10 10\n3 6 5 4 6 3 5 2 4 5\n4 1 3 1 2 1 4 7 3 1\n5 7 4 6 3 7 6 1 2 6\n2 3 5 1 2 5 3 4 3 4\n1 4 2 7 3 4 7 2 5 2\n2 5 1 5 6 2 5 1 3 1\n1 6 3 2 1 4 3 6 4 5\n4 2 1 4 7 5 2 5 2 3\n3 5 3 6 3 4 1 3 4 6\n2 1 4 2 1 6 5 2 1 7"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/118.a.htm",
+      "solution": "10 10\n5 6 1 7 2 1 7 2 1 5\n3 4 2 3 6 4 5 3 4 6\n1 6 1 5 1 3 6 2 5 2\n3 2 4 2 4 2 1 3 1 4\n6 7 5 6 5 3 4 5 6 3\n2 1 4 1 2 1 2 3 2 1\n4 6 3 7 3 4 5 4 5 4\n1 2 5 1 6 2 7 1 3 6\n7 4 7 4 7 3 4 6 7 5\n5 3 2 3 1 5 1 3 1 2"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/119.a.htm",
+      "solution": "10 10\n2 3 1 6 3 1 3 1 4 2\n5 4 2 5 4 5 4 2 5 3\n3 6 1 7 2 1 3 7 6 1\n1 7 5 3 6 4 2 1 2 4\n2 3 6 1 5 7 3 4 5 3\n1 4 7 2 4 6 2 6 1 2\n3 5 3 6 3 5 3 7 4 6\n2 1 2 1 2 7 4 1 3 2\n4 3 4 5 4 5 3 5 7 4\n2 5 1 6 1 2 1 2 3 1"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/120.a.htm",
+      "solution": "10 10\n1 6 3 1 3 7 3 2 6 1\n4 2 4 2 5 1 6 1 4 5\n7 3 5 1 4 2 7 5 2 1\n5 1 2 3 5 3 1 4 6 4\n3 4 6 4 1 4 6 2 1 2\n2 7 1 5 2 3 7 3 5 6\n5 4 2 4 7 6 1 4 2 1\n1 3 1 3 5 3 2 3 6 4\n2 5 6 2 6 4 5 7 5 2\n3 1 4 5 1 2 6 1 3 1"
+    },
+    "121_6x6": {
+      "id": "121_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/121.a.htm",
+      "solution": "6 6\n1 2 3 1 4 2\n4 5 4 2 3 5\n3 2 3 1 4 1\n4 1 4 2 3 2\n5 2 3 1 5 4\n3 1 4 2 3 1"
+    },
+    "122_6x6": {
+      "id": "122_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/122.a.htm",
+      "solution": "6 6\n2 3 4 1 3 1\n4 1 2 5 2 4\n3 5 3 4 1 3\n1 4 1 2 5 2\n3 2 5 4 1 4\n1 4 3 2 3 2"
+    },
+    "123_8x8": {
+      "id": "123_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/123.a.htm",
+      "solution": "8 8\n3 2 1 2 3 5 2 3\n4 6 3 5 4 1 4 1\n2 1 2 1 3 6 3 2\n5 4 6 5 4 5 1 4\n3 2 1 2 3 2 3 2\n4 5 4 6 5 1 4 1\n1 3 1 3 2 3 2 3\n5 4 2 4 1 4 1 5"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/124.a.htm",
+      "solution": "8 8\n4 5 2 1 6 3 5 2\n3 1 4 3 4 1 4 1\n2 5 2 5 6 2 3 5\n1 3 4 3 1 5 1 6\n4 2 1 2 4 6 4 2\n1 3 5 3 5 2 1 3\n2 6 4 2 6 3 5 4\n4 3 1 3 4 1 2 1"
+    },
+    "125_8x8": {
+      "id": "125_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/125.a.htm",
+      "solution": "8 8\n2 1 2 4 5 4 3 1\n3 5 3 1 2 1 5 4\n2 1 4 5 3 4 2 3\n3 5 2 6 2 1 5 1\n2 4 1 4 5 3 2 3\n1 5 3 2 1 4 1 6\n3 2 1 4 3 2 3 4\n5 4 3 2 1 4 1 5"
+    },
+    "126_8x8": {
+      "id": "126_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/126.a.htm",
+      "solution": "8 8\n3 2 1 5 4 6 2 1\n1 5 4 6 2 1 3 5\n3 2 3 5 4 6 4 2\n1 5 4 1 3 1 5 3\n4 2 3 2 6 2 4 1\n1 6 1 4 3 1 3 2\n3 5 2 6 5 4 5 1\n2 4 3 4 1 2 3 2"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/127.a.htm",
+      "solution": "10 10\n1 6 4 7 5 2 1 5 3 2\n5 2 3 6 1 4 3 4 1 5\n4 1 4 2 3 7 1 7 3 6\n3 7 5 7 1 5 2 6 5 1\n2 6 2 6 2 3 7 3 2 4\n4 5 1 4 1 6 1 5 7 6\n3 2 7 2 5 2 3 4 3 4\n1 5 3 1 6 4 6 1 2 1\n4 2 4 5 3 5 3 5 6 3\n3 5 1 6 1 4 2 1 2 4"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/128.a.htm",
+      "solution": "10 10\n5 2 6 4 6 2 3 6 5 3\n4 1 7 5 1 7 1 4 2 1\n3 6 4 2 3 2 6 5 7 4\n5 1 5 6 7 1 3 4 1 2\n3 4 2 1 3 4 6 2 3 5\n2 6 3 7 5 1 7 5 7 1\n7 5 4 1 4 3 2 1 3 2\n3 2 3 5 7 5 7 6 4 6\n1 6 1 2 4 3 4 2 7 3\n2 7 4 6 5 1 6 1 5 4"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/129.a.htm",
+      "solution": "10 10\n5 6 1 5 1 3 5 4 3 1\n7 4 2 6 4 6 2 1 2 6\n2 6 3 1 7 3 4 5 4 1\n4 5 4 5 2 5 7 6 3 2\n3 2 3 6 7 1 3 1 5 4\n1 5 1 5 4 6 2 6 2 3\n2 6 3 6 2 3 5 3 4 5\n5 1 7 4 1 4 1 2 6 3\n2 3 6 2 5 2 6 3 5 1\n1 4 5 3 4 1 4 1 2 4"
+    },
+    "130_10x10": {
+      "id": "130_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/130.a.htm",
+      "solution": "10 10\n1 3 5 1 2 1 5 1 4 2\n4 6 2 7 3 4 3 2 3 1\n5 7 1 5 6 2 5 4 6 5\n3 2 3 2 1 4 3 1 3 1\n4 6 7 4 5 6 7 2 4 2\n1 5 2 3 1 4 1 3 1 3\n7 4 1 6 7 3 5 7 2 5\n6 2 3 2 5 1 6 4 6 4\n3 5 4 1 3 2 5 2 3 2\n2 1 3 2 7 1 6 4 1 6"
+    },
+    "131_6x6": {
+      "id": "131_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/131.a.htm",
+      "solution": "6 6\n2 1 2 1 3 4\n3 5 3 4 5 1\n4 1 2 1 3 2\n2 3 4 5 4 1\n1 5 1 2 3 2\n3 2 3 4 1 4"
+    },
+    "132_6x6": {
+      "id": "132_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/132.a.htm",
+      "solution": "6 6\n2 1 2 1 4 1\n3 5 4 3 5 3\n4 2 1 2 1 2\n1 3 4 5 4 5\n4 5 1 2 1 2\n3 2 4 3 5 3"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/133.a.htm",
+      "solution": "8 8\n2 5 4 3 4 3 6 4\n1 3 1 5 6 5 2 1\n2 4 2 4 2 3 4 3\n3 1 3 1 5 1 2 6\n2 6 5 2 4 3 5 1\n4 3 4 1 5 1 2 3\n1 6 2 6 3 4 5 4\n2 5 4 1 5 2 1 3"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/134.a.htm",
+      "solution": "8 8\n3 2 1 4 3 1 5 2\n1 5 3 2 5 6 4 3\n4 2 4 6 3 1 5 1\n1 6 5 2 4 2 4 2\n2 3 4 3 5 6 1 3\n4 1 5 2 4 3 2 5\n6 2 4 1 5 1 4 1\n3 1 3 2 4 3 6 5"
+    },
+    "135_8x8": {
+      "id": "135_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/135.a.htm",
+      "solution": "8 8\n3 4 1 2 3 4 2 1\n1 2 5 4 5 1 6 5\n3 4 3 1 2 3 4 3\n1 5 2 5 4 1 2 1\n4 3 6 1 2 6 4 6\n2 5 4 3 5 1 2 5\n6 1 2 1 2 3 4 1\n3 4 5 3 4 1 2 3"
+    },
+    "136_8x8": {
+      "id": "136_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/136.a.htm",
+      "solution": "8 8\n4 1 6 2 1 4 2 3\n5 2 5 3 6 3 5 4\n3 6 1 4 2 1 2 1\n1 5 2 3 5 4 6 4\n4 6 1 6 1 2 1 2\n1 3 2 3 4 3 4 3\n4 5 4 6 5 2 5 1\n2 3 2 1 3 1 3 2"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/137.a.htm",
+      "solution": "10 10\n1 2 3 1 6 1 4 1 2 4\n4 7 4 2 3 5 3 6 5 1\n6 1 3 1 7 2 1 2 3 2\n5 2 4 2 6 3 6 5 6 1\n1 7 5 3 5 4 2 1 2 4\n2 6 2 7 1 3 5 3 5 3\n5 1 5 3 2 4 1 4 2 6\n4 3 4 6 1 5 3 7 1 4\n1 2 1 3 2 4 2 5 3 5\n3 4 7 6 7 3 6 1 2 4"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/138.a.htm",
+      "solution": "10 10\n6 5 2 7 4 3 6 2 4 5\n1 4 3 5 1 2 1 7 3 1\n2 6 2 4 6 3 6 2 6 4\n5 3 5 3 2 1 4 5 1 5\n1 4 1 7 5 6 3 7 4 2\n3 2 5 2 4 7 5 1 3 1\n4 6 3 7 1 2 4 2 6 5\n3 1 2 4 5 3 6 5 1 7\n6 5 7 1 6 4 1 2 3 2\n3 1 2 4 2 5 3 4 6 1"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/139.a.htm",
+      "solution": "10 10\n2 1 5 1 4 3 1 2 3 5\n6 3 4 7 5 2 6 4 1 2\n4 1 5 6 4 1 3 5 6 3\n6 3 4 1 5 7 2 4 2 4\n2 7 6 3 4 3 1 3 1 6\n1 3 5 2 5 2 5 7 5 2\n2 7 4 1 4 1 3 6 3 4\n3 1 2 6 2 7 5 1 2 1\n5 4 5 3 1 6 3 7 5 3\n2 3 1 2 5 4 1 2 6 4"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/140.a.htm",
+      "solution": "10 10\n2 4 1 7 1 3 6 4 5 2\n5 3 2 3 4 2 5 2 3 1\n1 6 4 1 7 6 3 6 5 4\n7 3 2 5 4 1 2 1 3 7\n4 5 7 3 2 3 4 5 2 5\n1 2 1 6 4 5 6 3 6 1\n3 4 3 2 3 1 7 2 5 4\n2 5 1 6 4 2 3 1 3 2\n7 6 2 3 5 1 5 4 5 4\n4 5 1 4 6 4 2 1 3 1"
+    },
+    "141_6x6": {
+      "id": "141_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/141.a.htm",
+      "solution": "6 6\n1 4 1 5 1 2\n3 2 3 2 3 4\n1 4 1 4 5 2\n3 5 2 3 1 3\n2 4 1 4 2 5\n1 3 2 5 3 1"
+    },
+    "142_6x6": {
+      "id": "142_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/142.a.htm",
+      "solution": "6 6\n3 2 1 4 1 4\n1 4 3 2 3 5\n3 5 1 5 4 2\n2 4 2 3 1 3\n1 5 1 4 5 2\n4 2 3 2 1 3"
+    },
+    "143_7x7": {
+      "id": "143_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/143.a.htm",
+      "solution": "7 7\n3 1 3 1 2 1 2\n5 2 4 6 5 4 3\n3 6 1 3 2 1 2\n1 5 4 5 4 3 6\n4 2 3 1 2 1 2\n1 5 4 6 4 5 3\n3 2 1 2 3 1 2"
+    },
+    "144_7x7": {
+      "id": "144_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/144.a.htm",
+      "solution": "7 7\n3 4 1 5 2 1 3\n2 5 3 4 3 4 2\n4 6 2 1 2 1 3\n1 5 3 4 3 4 5\n3 4 1 2 1 2 3\n6 5 3 5 4 6 4\n2 1 4 2 1 2 1"
+    },
+    "145_8x8": {
+      "id": "145_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/145.a.htm",
+      "solution": "8 8\n2 6 3 1 2 3 2 3\n5 1 2 4 5 1 4 1\n3 4 3 1 3 2 5 3\n2 1 5 2 6 1 6 4\n4 3 4 1 4 3 2 5\n1 6 2 3 2 1 4 1\n2 5 1 5 4 3 2 6\n1 6 4 3 2 1 4 3"
+    },
+    "146_8x8": {
+      "id": "146_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/146.a.htm",
+      "solution": "8 8\n3 4 1 5 2 1 4 3\n1 5 2 3 4 5 6 2\n2 4 1 6 1 2 4 1\n5 3 2 5 4 5 3 5\n2 1 6 3 2 1 2 1\n4 3 2 5 4 3 4 6\n5 1 4 3 2 1 5 3\n4 3 2 1 4 3 2 1"
+    },
+    "147_9x9": {
+      "id": "147_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/147.a.htm",
+      "solution": "9 9\n3 2 3 4 5 3 5 2 1\n4 6 1 6 1 6 1 4 5\n1 3 2 3 2 7 5 3 1\n2 4 1 7 5 4 6 4 2\n1 3 2 6 2 3 2 5 3\n4 5 4 3 1 5 1 4 2\n1 3 1 2 4 2 3 6 1\n4 5 7 3 5 1 5 4 7\n2 1 6 1 4 6 3 2 1"
+    },
+    "148_9x9": {
+      "id": "148_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/148.a.htm",
+      "solution": "9 9\n2 4 2 5 1 3 4 2 3\n1 3 1 3 4 2 1 6 1\n5 2 4 2 1 5 4 7 5\n3 6 3 6 3 2 3 2 4\n2 1 2 1 4 5 6 1 3\n4 3 4 5 3 1 3 4 2\n1 5 1 2 4 7 6 1 5\n4 2 4 3 1 3 5 3 4\n3 1 5 2 6 2 4 2 1"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/149.a.htm",
+      "solution": "10 10\n3 2 1 6 2 4 2 7 3 4\n4 7 5 4 7 1 5 1 6 1\n2 3 6 1 3 6 7 3 4 2\n5 7 4 2 5 1 2 5 1 5\n4 2 5 6 4 6 4 3 2 3\n6 1 7 3 1 3 5 1 6 4\n2 3 5 6 5 4 6 4 3 5\n7 1 2 1 3 1 5 2 1 2\n5 4 3 4 6 2 4 3 4 5\n3 1 2 5 7 3 1 2 1 2"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/150.a.htm",
+      "solution": "10 10\n3 1 5 1 2 1 2 3 5 1\n4 2 3 6 5 4 6 1 4 2\n5 7 4 7 3 7 2 7 3 1\n4 2 6 1 2 1 5 6 2 4\n3 5 3 4 6 7 3 4 3 6\n2 1 2 5 3 1 5 2 5 1\n4 5 3 7 4 2 6 3 4 6\n7 6 4 1 3 5 4 1 7 2\n2 3 2 6 2 1 7 3 5 3\n1 5 7 1 3 5 2 1 6 4"
+    },
+    "151_6x6": {
+      "id": "151_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/151.a.htm",
+      "solution": "6 6\n1 3 1 4 2 3\n2 5 2 3 1 4\n4 1 4 5 2 3\n3 2 3 1 4 1\n4 1 4 2 5 2\n3 2 5 1 3 4"
+    },
+    "152_6x6": {
+      "id": "152_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/152.a.htm",
+      "solution": "6 6\n1 2 1 4 3 1\n3 5 3 2 5 2\n4 2 1 4 1 4\n1 3 5 3 2 3\n4 2 4 1 5 1\n5 1 3 2 4 2"
+    },
+    "153_7x7": {
+      "id": "153_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/153.a.htm",
+      "solution": "7 7\n2 3 1 6 1 3 1\n1 5 2 4 2 6 2\n3 4 3 5 1 5 3\n5 1 2 4 2 4 2\n3 4 3 1 3 6 1\n2 1 2 4 2 4 5\n3 5 3 1 3 1 2"
+    },
+    "154_7x7": {
+      "id": "154_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/154.a.htm",
+      "solution": "7 7\n2 1 5 2 1 3 5\n4 3 4 3 5 4 1\n1 5 1 2 1 2 3\n3 4 3 4 3 4 1\n1 2 1 2 1 5 2\n4 3 4 5 4 3 4\n2 5 2 3 2 1 2"
+    },
+    "155_8x8": {
+      "id": "155_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/155.a.htm",
+      "solution": "8 8\n1 2 3 1 3 4 3 5\n4 5 4 5 2 5 2 4\n2 1 3 1 4 1 3 1\n3 4 5 2 3 2 4 2\n1 2 1 4 1 5 1 3\n4 3 6 3 2 4 2 4\n1 5 1 4 5 1 5 1\n3 2 3 2 3 2 3 2"
+    },
+    "156_8x8": {
+      "id": "156_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/156.a.htm",
+      "solution": "8 8\n5 2 3 2 1 5 3 2\n1 4 1 4 3 4 1 4\n2 3 5 6 1 6 5 3\n4 1 4 3 5 4 2 1\n5 2 5 2 1 6 3 4\n3 1 4 6 5 2 1 2\n2 6 2 3 4 3 4 3\n3 1 4 5 6 1 2 5"
+    },
+    "157_9x9": {
+      "id": "157_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/157.a.htm",
+      "solution": "9 9\n4 2 1 3 4 7 3 1 7\n3 5 4 5 2 1 2 5 3\n2 1 6 3 6 4 3 4 6\n4 7 5 2 1 2 1 2 5\n1 6 1 4 3 5 6 3 1\n5 2 7 6 2 4 2 4 2\n3 1 3 4 3 1 6 1 3\n4 5 6 5 2 4 3 5 4\n3 7 2 1 6 5 7 2 1"
+    },
+    "158_9x9": {
+      "id": "158_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/158.a.htm",
+      "solution": "9 9\n2 6 5 7 1 6 1 3 2\n4 3 1 3 4 3 5 6 4\n6 2 6 2 1 2 4 1 5\n5 4 5 7 5 7 3 6 2\n1 3 1 4 3 2 4 1 3\n4 2 5 2 5 7 6 5 4\n5 3 1 6 3 4 2 1 3\n2 4 2 4 5 7 6 5 2\n3 1 3 1 2 1 3 4 1"
+    },
+    "159_10x10": {
+      "id": "159_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/159.a.htm",
+      "solution": "10 10\n5 2 1 4 1 4 7 3 5 2\n3 6 5 7 5 2 1 6 1 3\n5 2 3 2 6 4 5 2 4 2\n1 4 1 4 1 7 3 1 3 6\n5 6 5 7 3 2 6 4 5 4\n7 1 3 6 4 1 3 2 7 1\n4 2 4 5 7 5 7 6 3 2\n6 5 3 1 6 4 3 1 4 1\n2 7 4 2 5 2 5 2 5 6\n3 1 3 6 1 4 3 6 3 2"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/160.a.htm",
+      "solution": "10 10\n6 2 5 3 6 7 1 7 2 5\n5 4 6 2 1 4 3 5 4 1\n3 1 3 4 5 6 2 7 3 7\n2 4 2 6 7 3 1 4 1 4\n1 5 1 5 1 4 5 2 6 2\n7 2 6 4 3 6 3 1 3 5\n1 4 3 5 1 5 2 4 2 1\n6 2 6 7 2 3 1 5 3 5\n1 3 4 3 4 7 4 7 6 4\n5 2 1 2 6 1 5 1 3 2"
+    },
+    "161_6x6": {
+      "id": "161_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/161.a.htm",
+      "solution": "6 6\n2 1 3 1 5 2\n4 5 2 4 3 4\n3 1 3 1 5 2\n4 5 4 2 4 1\n3 2 3 5 3 2\n1 5 1 2 1 4"
+    },
+    "162_6x6": {
+      "id": "162_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/162.a.htm",
+      "solution": "6 6\n2 3 1 2 4 3\n4 5 4 3 1 5\n2 1 2 5 2 4\n3 5 3 1 3 1\n4 1 4 2 5 2\n5 2 3 1 4 1"
+    },
+    "163_7x7": {
+      "id": "163_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/163.a.htm",
+      "solution": "7 7\n1 3 2 1 5 2 4\n2 4 5 3 4 3 1\n1 3 1 2 1 5 2\n4 2 4 5 6 3 1\n3 1 6 3 4 2 4\n2 4 5 1 6 1 5\n1 3 2 4 3 2 3"
+    },
+    "164_7x7": {
+      "id": "164_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/164.a.htm",
+      "solution": "7 7\n1 4 5 6 4 5 1\n3 2 3 2 3 2 3\n4 1 6 5 6 1 6\n5 2 3 4 2 3 2\n1 4 1 6 1 5 4\n6 2 5 2 4 3 1\n3 1 4 3 1 2 5"
+    },
+    "165_8x8": {
+      "id": "165_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/165.a.htm",
+      "solution": "8 8\n1 2 3 2 1 5 3 4\n5 4 1 4 3 2 6 2\n1 2 6 2 1 4 1 4\n4 5 3 5 3 5 2 3\n3 6 2 1 4 1 4 1\n2 4 3 5 3 2 6 3\n5 6 2 1 4 1 5 2\n1 4 3 6 3 2 4 1"
+    },
+    "166_8x8": {
+      "id": "166_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/166.a.htm",
+      "solution": "8 8\n1 3 4 1 3 5 2 4\n2 5 2 6 2 6 3 1\n3 1 3 1 4 1 2 4\n6 2 5 2 5 3 5 1\n5 1 4 3 4 1 4 3\n4 3 2 1 2 3 5 1\n1 5 4 3 4 1 2 6\n4 6 2 1 2 5 3 4"
+    },
+    "167_9x9": {
+      "id": "167_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/167.a.htm",
+      "solution": "9 9\n2 3 4 2 1 4 1 2 3\n1 5 1 3 5 2 5 4 1\n2 4 2 4 7 1 3 6 7\n1 7 1 5 3 4 5 2 5\n3 2 3 2 6 2 3 1 3\n4 1 6 1 4 1 6 2 4\n5 2 5 2 3 2 4 1 3\n3 4 6 1 5 1 5 6 5\n1 2 3 4 2 4 3 1 4"
+    },
+    "168_9x9": {
+      "id": "168_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/168.a.htm",
+      "solution": "9 9\n3 1 3 2 5 2 4 3 2\n7 5 6 1 3 1 6 1 4\n6 1 2 4 2 4 5 3 2\n3 4 5 3 1 3 1 4 1\n1 7 2 4 6 5 2 5 3\n3 4 5 1 2 4 1 7 1\n2 1 2 4 3 5 2 3 4\n7 5 3 6 1 4 1 5 2\n1 2 1 5 2 3 6 7 4"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/169.a.htm",
+      "solution": "10 10\n1 6 5 2 1 5 4 1 3 6\n5 4 3 4 3 6 3 2 5 2\n2 6 2 1 5 4 1 7 1 4\n1 3 4 7 2 3 2 3 5 2\n7 5 1 3 1 6 5 7 4 1\n4 6 7 4 5 7 2 3 6 3\n3 2 5 1 3 1 4 1 2 1\n5 6 4 6 5 6 2 5 7 6\n1 3 2 3 2 3 4 1 3 1\n2 7 4 6 1 7 6 5 4 2"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/170.a.htm",
+      "solution": "10 10\n1 6 5 1 4 7 1 2 6 7\n3 2 4 7 5 3 6 5 1 4\n1 5 3 2 1 7 4 3 6 5\n4 7 1 4 6 2 5 2 7 3\n5 3 2 3 1 4 7 3 4 2\n6 4 1 5 2 3 6 2 6 1\n2 3 6 3 4 5 4 5 4 2\n4 1 5 1 6 2 1 3 7 1\n5 3 6 3 5 3 4 2 5 2\n1 2 4 2 1 2 1 6 1 3"
+    },
+    "171_6x6": {
+      "id": "171_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/171.a.htm",
+      "solution": "6 6\n3 2 1 4 3 4\n4 5 3 2 1 2\n1 2 1 5 4 3\n5 4 3 2 1 2\n3 2 1 4 5 3\n1 4 3 2 1 4"
+    },
+    "172_6x6": {
+      "id": "172_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/172.a.htm",
+      "solution": "6 6\n1 2 1 5 4 1\n4 3 4 2 3 2\n2 1 5 1 4 1\n4 3 2 3 2 3\n5 1 4 1 5 1\n3 2 5 2 3 4"
+    },
+    "173_7x7": {
+      "id": "173_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/173.a.htm",
+      "solution": "7 7\n1 3 2 5 4 1 2\n2 4 1 3 2 3 4\n1 3 2 4 1 6 1\n2 4 5 3 5 3 4\n1 3 1 2 1 2 6\n2 4 5 3 4 5 3\n3 1 6 1 2 1 2"
+    },
+    "174_7x7": {
+      "id": "174_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/174.a.htm",
+      "solution": "7 7\n4 3 6 2 4 3 4\n1 2 1 3 1 2 1\n3 4 5 4 5 3 5\n2 1 2 1 2 1 2\n4 6 3 4 3 4 3\n2 5 1 2 1 2 5\n1 6 3 5 4 3 6"
+    },
+    "175_8x8": {
+      "id": "175_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/175.a.htm",
+      "solution": "8 8\n2 5 6 1 3 4 1 3\n3 1 2 4 2 5 2 4\n4 6 5 3 1 6 3 1\n1 2 1 2 5 4 2 4\n3 4 3 4 3 1 3 1\n5 2 6 5 2 6 4 2\n4 1 3 1 4 5 3 5\n3 2 4 2 3 1 2 1"
+    },
+    "176_8x8": {
+      "id": "176_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/176.a.htm",
+      "solution": "8 8\n5 2 3 1 4 2 4 1\n1 4 5 2 5 3 5 2\n6 3 1 3 6 2 4 1\n1 2 4 2 4 1 5 3\n4 3 5 3 5 3 4 2\n5 2 1 4 1 2 1 3\n3 4 3 6 5 3 5 4\n1 5 2 4 2 1 6 1"
+    },
+    "177_9x9": {
+      "id": "177_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/177.a.htm",
+      "solution": "9 9\n5 4 2 1 6 3 1 2 3\n6 3 5 3 4 2 5 4 1\n2 1 4 6 1 3 1 3 2\n3 7 3 7 2 4 2 4 5\n5 4 2 1 6 5 3 6 1\n2 6 3 4 2 4 2 4 2\n1 4 1 5 1 3 1 3 1\n2 5 2 3 2 5 4 7 2\n1 3 4 5 4 3 1 5 1"
+    },
+    "178_9x9": {
+      "id": "178_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/178.a.htm",
+      "solution": "9 9\n4 3 1 4 3 5 4 2 3\n1 2 5 2 1 2 7 6 1\n5 6 3 4 6 4 3 2 4\n1 2 1 2 3 1 5 1 5\n4 3 4 7 4 2 6 3 2\n2 7 5 1 3 1 7 5 4\n3 1 4 2 6 5 3 1 2\n6 2 5 3 7 4 7 4 3\n1 3 4 2 1 6 2 1 5"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/179.a.htm",
+      "solution": "10 10\n6 1 2 3 1 4 5 1 5 6\n2 5 6 5 7 3 6 7 4 2\n4 1 3 2 1 4 2 3 1 3\n3 2 4 5 3 5 1 6 2 4\n1 5 3 1 4 2 3 7 1 6\n2 6 2 5 7 1 4 5 2 5\n5 1 3 4 2 5 2 1 4 3\n4 2 6 1 3 7 4 3 2 7\n3 5 4 7 4 1 5 6 5 4\n1 2 6 1 3 2 3 2 1 3"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/180.a.htm",
+      "solution": "10 10\n4 1 5 3 6 3 2 4 5 2\n7 6 2 1 4 5 7 1 6 1\n5 1 4 6 7 6 4 5 2 3\n2 3 2 5 3 2 1 3 1 4\n4 5 1 4 1 7 6 5 2 7\n1 6 2 3 6 5 3 4 1 4\n2 5 4 5 1 4 2 5 7 6\n3 1 2 6 7 5 1 6 1 3\n6 4 3 1 2 6 7 3 2 4\n3 2 5 7 3 4 2 5 1 3"
+    },
+    "181_6x6": {
+      "id": "181_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/181.a.htm",
+      "solution": "6 6\n2 1 3 1 5 4\n5 4 5 2 3 2\n3 2 3 1 4 1\n4 1 4 2 5 3\n3 2 3 1 4 2\n4 1 4 2 3 1"
+    },
+    "182_6x6": {
+      "id": "182_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/182.a.htm",
+      "solution": "6 6\n3 4 3 5 1 2\n1 2 1 2 4 5\n4 3 4 5 1 3\n2 1 2 3 4 5\n3 5 4 5 2 1\n2 1 2 1 3 4"
+    },
+    "183_7x7": {
+      "id": "183_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/183.a.htm",
+      "solution": "7 7\n1 2 1 3 1 4 1\n5 4 5 4 5 2 3\n3 1 2 3 6 1 4\n2 4 5 1 2 3 2\n1 3 6 4 6 4 1\n4 2 1 2 1 2 5\n3 6 5 3 4 3 1"
+    },
+    "184_7x7": {
+      "id": "184_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/184.a.htm",
+      "solution": "7 7\n2 6 3 4 3 4 1\n3 4 1 2 1 6 2\n5 2 5 4 5 3 5\n1 3 1 2 1 6 2\n4 5 4 5 3 4 1\n6 2 1 2 6 2 3\n1 3 4 3 1 4 5"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/185.a.htm",
+      "solution": "8 8\n4 1 6 3 5 3 2 4\n2 3 2 1 2 1 5 1\n1 4 5 4 3 4 3 4\n3 2 1 2 1 6 2 1\n6 4 3 5 3 4 5 3\n5 1 2 1 2 6 1 2\n4 3 4 3 5 3 4 5\n2 1 2 6 4 2 1 3"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/186.a.htm",
+      "solution": "8 8\n3 2 4 1 3 5 2 3\n1 6 3 2 4 1 4 1\n2 4 5 1 6 2 5 2\n5 1 3 4 3 4 6 1\n2 4 5 1 2 1 3 2\n1 3 2 3 5 4 5 4\n2 4 1 4 2 3 2 3\n1 3 2 5 6 1 4 1"
+    },
+    "187_9x9": {
+      "id": "187_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/187.a.htm",
+      "solution": "9 9\n5 3 1 2 1 3 1 2 4\n7 6 5 6 5 4 5 3 5\n1 2 4 3 1 3 2 4 2\n4 3 1 7 2 4 1 3 1\n7 6 5 6 1 7 2 6 4\n4 1 2 3 2 4 3 5 3\n2 6 4 1 7 5 7 4 2\n5 3 5 3 4 6 3 6 5\n1 2 4 6 1 2 5 7 1"
+    },
+    "188_9x9": {
+      "id": "188_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/188.a.htm",
+      "solution": "9 9\n3 1 4 1 4 2 4 2 5\n2 5 2 6 3 5 3 6 3\n3 7 1 5 4 7 2 7 1\n4 2 4 3 6 5 1 4 2\n6 3 6 5 1 4 2 3 5\n4 2 1 4 2 3 5 4 1\n1 6 3 7 5 1 6 2 3\n5 2 1 2 4 7 3 5 1\n1 3 7 3 5 6 1 2 4"
+    },
+    "189_10x10": {
+      "id": "189_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/189.a.htm",
+      "solution": "10 10\n3 5 4 1 4 2 6 1 5 7\n1 6 7 2 6 7 4 2 6 4\n3 2 1 3 5 2 1 3 5 3\n5 4 6 2 4 3 6 2 4 1\n1 2 3 1 6 2 4 3 5 3\n3 6 5 2 5 1 5 1 2 1\n4 1 4 1 4 3 2 3 4 7\n2 3 5 3 7 1 7 1 5 1\n6 7 1 4 2 5 6 3 4 6\n2 3 6 5 3 1 2 5 2 1"
+    },
+    "190_10x10": {
+      "id": "190_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/190.a.htm",
+      "solution": "10 10\n3 2 3 1 2 6 2 3 1 6\n1 5 4 5 3 7 5 4 5 4\n3 6 3 1 6 1 2 7 2 7\n2 1 2 5 4 5 4 3 1 3\n4 5 6 1 3 2 1 7 6 4\n3 1 4 2 4 6 4 2 5 2\n5 6 3 1 7 2 3 6 1 4\n4 1 4 2 5 6 1 7 5 3\n6 5 3 7 4 2 5 4 6 1\n7 1 2 5 3 6 1 7 3 2"
+    },
+    "191_6x6": {
+      "id": "191_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/191.a.htm",
+      "solution": "6 6\n3 1 5 2 4 1\n4 2 3 1 3 2\n3 1 4 2 4 1\n4 2 5 1 5 3\n1 3 4 3 4 2\n4 2 1 2 5 3"
+    },
+    "192_6x6": {
+      "id": "192_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/192.a.htm",
+      "solution": "6 6\n1 2 3 4 2 5\n4 5 1 5 3 1\n1 2 4 2 4 2\n4 3 1 3 1 5\n2 5 4 5 4 3\n1 3 1 3 1 2"
+    },
+    "193_7x7": {
+      "id": "193_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/193.a.htm",
+      "solution": "7 7\n2 6 5 2 6 3 4\n1 4 1 4 5 2 1\n3 5 2 3 1 6 5\n4 1 4 5 2 3 4\n2 3 2 3 1 6 1\n6 1 4 5 2 4 3\n3 2 3 1 3 1 2"
+    },
+    "194_7x7": {
+      "id": "194_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/194.a.htm",
+      "solution": "7 7\n1 2 4 1 3 5 1\n4 3 5 6 2 4 2\n1 2 1 4 3 1 3\n5 4 3 2 5 2 4\n3 2 5 6 1 3 5\n6 4 1 3 4 2 1\n1 2 5 2 1 3 6"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/195.a.htm",
+      "solution": "8 8\n6 5 3 2 3 6 3 5\n1 2 1 4 1 2 1 2\n3 4 6 3 5 4 3 4\n2 5 1 4 2 1 5 1\n3 4 3 5 3 4 2 4\n2 1 2 1 2 1 5 3\n4 5 3 5 3 4 2 4\n2 1 4 1 2 5 1 3"
+    },
+    "196_8x8": {
+      "id": "196_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/196.a.htm",
+      "solution": "8 8\n1 4 3 1 5 2 3 4\n6 2 5 2 3 6 5 2\n5 3 4 1 4 1 4 1\n2 1 2 5 6 3 6 3\n4 3 4 1 2 4 2 1\n2 5 2 3 5 1 3 5\n3 4 1 4 2 4 2 4\n1 2 5 3 1 3 1 3"
+    },
+    "197_9x9": {
+      "id": "197_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/197.a.htm",
+      "solution": "9 9\n1 2 3 6 5 2 5 2 3\n4 5 1 2 1 4 6 1 4\n3 7 4 3 5 2 7 5 3\n4 1 6 2 4 3 4 6 2\n3 2 3 1 7 1 2 3 1\n7 5 4 5 6 5 6 4 6\n2 3 1 3 4 1 2 3 2\n4 6 5 2 7 6 5 7 5\n1 2 3 4 1 3 1 4 1"
+    },
+    "198_9x9": {
+      "id": "198_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/198.a.htm",
+      "solution": "9 9\n6 2 1 3 5 1 5 4 1\n5 7 4 7 2 4 2 7 6\n4 3 2 1 3 1 3 5 3\n5 6 4 7 6 7 2 1 2\n1 3 1 3 2 3 5 4 3\n2 5 6 4 6 1 6 1 2\n3 4 2 1 3 2 7 5 4\n5 1 6 7 4 5 3 1 7\n4 2 4 3 1 6 2 5 4"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/199.a.htm",
+      "solution": "10 10\n6 4 5 2 3 2 7 6 1 4\n7 2 1 7 1 5 3 4 3 5\n1 4 6 4 3 4 2 6 2 1\n7 5 3 1 6 5 7 1 5 6\n2 1 7 2 3 4 3 4 3 2\n4 6 3 5 1 6 2 6 5 4\n3 5 1 6 2 4 1 4 1 2\n4 2 4 7 1 3 2 7 5 7\n3 1 5 2 6 4 1 6 4 3\n5 2 3 1 3 5 3 5 1 2"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Suguru/200.a.htm",
+      "solution": "10 10\n1 5 1 2 5 4 3 2 1 5\n3 4 3 4 7 2 1 4 6 4\n2 6 5 6 1 3 5 3 5 1\n3 7 3 2 4 2 1 2 4 3\n4 5 6 7 3 5 7 6 1 6\n6 2 3 2 1 2 4 3 5 4\n1 4 7 4 6 3 1 2 1 2\n3 2 5 1 2 5 4 7 3 7\n6 4 3 6 7 1 3 5 4 5\n1 5 1 5 2 4 7 2 6 1"
+    }
+  },
+  "info": "",
+  "count": 200
+}

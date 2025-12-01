@@ -1,17 +1,17 @@
 from CrawlerFactory import CrawlerFactory
 
 if __name__ == "__main__":
-    target = "Magnetic"
-    # data = {
-    #     "puzzle_name": f"{target}",
-    #     "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
-    #     "root_url": f"https://www.janko.at/Raetsel/{target}/"
-    # }
+    target = "Str8t"
+    data = {
+        "puzzle_name": f"{target}",
+        "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/{target}/"
+    }
     
     data = {
         "puzzle_name": f"{target}",
-        "index_url": f"https://www.janko.at/Raetsel/Magnete/index.htm",
-        "root_url": f"https://www.janko.at/Raetsel/Magnete/"
+        "index_url": f"https://www.janko.at/Raetsel/Straights/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/Straights/"
     }
     
     crawler = CrawlerFactory.get_crawler(target, data)

@@ -10,11 +10,15 @@ from BuraitoraitoSolver import BuraitoraitoSolver
 from EuleroSolver import EuleroSolver
 from MosaicSolver import MosaicSolver
 from NonogramSolver import NonogramSolver
-
 from SudokuSolver import SudokuSolver
 from ButterflySudokuSolver import ButterflySudokuSolver
 from Clueless1SudokuSolver import Clueless1SudokuSolver
 from Clueless2SudokuSolver import Clueless2SudokuSolver
+from EvenOddSudokuSolver import EvenOddSudokuSolver
+from Gattai8SudokuSolver import Gattai8SudokuSolver
+from SamuraiSudokuSolver import SamuraiSudokuSolver
+from ShogunSudokuSolver import ShogunSudokuSolver
+from SoheiSudokuSolver import SoheiSudokuSolver
 
 from typing import Dict, Any
 
@@ -34,12 +38,16 @@ class SolverFactory:
         "Eulero": EuleroSolver,
         "Mosaic": MosaicSolver, 
         "Nonogram": NonogramSolver,
-        
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,
         "Clueless1Sudoku": Clueless1SudokuSolver,
         "Clueless2Sudoku": Clueless2SudokuSolver,
+        "EvenOddSudoku": EvenOddSudokuSolver,
+        "Gattai8Sudoku": Gattai8SudokuSolver, 
+        "SamuraiSudoku": SamuraiSudokuSolver, 
+        "ShogunSudoku": ShogunSudokuSolver,
+        "SoheiSudoku": SoheiSudokuSolver
     }
     
     @classmethod

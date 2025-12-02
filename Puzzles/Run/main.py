@@ -22,7 +22,12 @@ if __name__ == "__main__":
         "Sudoku",
         "ButterflySudoku",
         "Clueless1Sudoku",
-        "Clueless2Sudoku"
+        "Clueless2Sudoku",
+        "EvenOddSudoku", 
+        "Gattai8Sudoku",
+        "SamuraiSudoku",
+        "ShogunSudoku",
+        "SoheiSudoku"
         
     ]
     

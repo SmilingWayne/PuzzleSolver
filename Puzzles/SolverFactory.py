@@ -11,6 +11,11 @@ from EuleroSolver import EuleroSolver
 from MosaicSolver import MosaicSolver
 from NonogramSolver import NonogramSolver
 
+from SudokuSolver import SudokuSolver
+from ButterflySudokuSolver import ButterflySudokuSolver
+from Clueless1SudokuSolver import Clueless1SudokuSolver
+from Clueless2SudokuSolver import Clueless2SudokuSolver
+
 from typing import Dict, Any
 
 class SolverFactory:
@@ -28,7 +33,13 @@ class SolverFactory:
         "Buraitoraito": BuraitoraitoSolver,
         "Eulero": EuleroSolver,
         "Mosaic": MosaicSolver, 
-        "Nonogram": NonogramSolver
+        "Nonogram": NonogramSolver,
+        
+        # Sudoku (variants)
+        "Sudoku": SudokuSolver,
+        "ButterflySudoku": ButterflySudokuSolver,
+        "Clueless1Sudoku": Clueless1SudokuSolver,
+        "Clueless2Sudoku": Clueless2SudokuSolver,
     }
     
     @classmethod

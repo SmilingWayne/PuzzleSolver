@@ -11,6 +11,9 @@ from Common.Verifier.PuzzleVerifiers.EuleroVerifier import EuleroVerifier
 from Common.Verifier.PuzzleVerifiers.MosaicVerifier import MosaicVerifier
 from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
 
+# For sudoku (variants)
+from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
+
 class VerifierFactory:
     
     _verifiers = {
@@ -25,7 +28,13 @@ class VerifierFactory:
         "Buraitoraito": BuraitoraitoVerifier,
         "Eulero": EuleroVerifier,
         "Mosaic": MosaicVerifier,
-        "Nonogram": NonogramVerifier
+        "Nonogram": NonogramVerifier, 
+        
+        # Sudoku:
+        "Sudoku": SudokuVerifier,
+        "ButterflySudoku": SudokuVerifier,
+        "Clueless1Sudoku": SudokuVerifier,
+        "Clueless2Sudoku": SudokuVerifier
     }
     
     @classmethod

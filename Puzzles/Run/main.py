@@ -18,7 +18,12 @@ if __name__ == "__main__":
         "Buraitoraito",
         "Eulero",
         "Mosaic",
-        "Nonogram"
+        "Nonogram",
+        "Sudoku",
+        "ButterflySudoku",
+        "Clueless1Sudoku",
+        "Clueless2Sudoku"
+        
     ]
     
     record = []

@@ -34,7 +34,12 @@ class VerifierFactory:
         "Sudoku": SudokuVerifier,
         "ButterflySudoku": SudokuVerifier,
         "Clueless1Sudoku": SudokuVerifier,
-        "Clueless2Sudoku": SudokuVerifier
+        "Clueless2Sudoku": SudokuVerifier,
+        "EvenOddSudoku": SudokuVerifier,
+        "Gattai8Sudoku": SudokuVerifier,
+        "SamuraiSudoku": SudokuVerifier,
+        "ShogunSudoku": SudokuVerifier,
+        "SoheiSudoku": SudokuVerifier
     }
     
     @classmethod

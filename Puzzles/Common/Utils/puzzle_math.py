@@ -1,6 +1,13 @@
 import math
 from typing import List, Tuple
 
+def check_square_num(target: int):
+    val = int(math.sqrt(target))
+    if  val * val == target:
+        return True
+    return False
+    
+
 def get_factor_pairs(target: int) -> List[Tuple[int, int]]:
     """
     Get all factor pair (x, y) such that x * y = target

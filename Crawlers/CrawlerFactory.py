@@ -7,6 +7,7 @@ from MagneticCrawler import MagneticCrawler
 from MinesweeperCrawler import MinesweeperCrawler
 from SuguruCrawler import SuguruCrawler
 from Str8tCrawler import Str8tCrawler
+from KakurasuCrawler import KakurasuCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -21,7 +22,8 @@ class CrawlerFactory:
         "Magnetic": MagneticCrawler, 
         "Minesweeper": MinesweeperCrawler,
         "Suguru": SuguruCrawler, 
-        "Str8t": Str8tCrawler
+        "Str8t": Str8tCrawler,
+        "Kakurasu": KakurasuCrawler
     }
     
     @classmethod

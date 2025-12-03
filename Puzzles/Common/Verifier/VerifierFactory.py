@@ -11,6 +11,7 @@ from Common.Verifier.PuzzleVerifiers.EuleroVerifier import EuleroVerifier
 from Common.Verifier.PuzzleVerifiers.MosaicVerifier import MosaicVerifier
 from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
 from Common.Verifier.PuzzleVerifiers.NorinoriVerifier import NorinoriVerifier
+from Common.Verifier.PuzzleVerifiers.KakurasuVerifier import KakurasuVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -29,6 +30,7 @@ class VerifierFactory:
         "Mosaic": MosaicVerifier,
         "Nonogram": NonogramVerifier, 
         "Norinori": NorinoriVerifier, 
+        "Kakurasu": KakurasuVerifier,
         
         # Sudoku:
         "Sudoku": SudokuVerifier,

@@ -1,0 +1,1686 @@
+{
+  "solutions": {
+    "301_5x5": {
+      "id": "301_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/301.a.htm",
+      "solution": "5 5\nx - - - x\n- - x - -\nx x - - x\nx x x x -\n- x x - -"
+    },
+    "302_5x5": {
+      "id": "302_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/302.a.htm",
+      "solution": "5 5\n- - - x -\n- - - - x\nx x - x -\n- - x x x\nx x x x -"
+    },
+    "303_6x6": {
+      "id": "303_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/303.a.htm",
+      "solution": "6 6\n- x - x - -\n- - x x x -\nx - - x - -\nx - x - x x\nx - - x - x\nx x - x - x"
+    },
+    "304_6x6": {
+      "id": "304_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/304.a.htm",
+      "solution": "6 6\nx - - - x x\n- x x x - x\n- - - x - -\nx - x - - -\nx x - x x -\nx x x x - -"
+    },
+    "305_7x7": {
+      "id": "305_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/305.a.htm",
+      "solution": "7 7\n- x - x - x x\nx x x - - x x\n- - x - - - -\nx x x - x - x\nx - - - x - -\nx - x - x - -\nx x - x - x x"
+    },
+    "306_7x7": {
+      "id": "306_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/306.a.htm",
+      "solution": "7 7\n- x - - x - x\n- x x - - x -\nx - - - x - x\n- x x x x x x\nx x - x x - x\n- - x - - - -\n- x x x x - -"
+    },
+    "307_8x8": {
+      "id": "307_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/307.a.htm",
+      "solution": "8 8\n- - - x - x x x\nx - x x - x - -\n- x - x x x x -\n- - x x - - x -\nx x - - - x x -\n- x x - x x x -\nx - - - - - x -\n- x x - - x x x"
+    },
+    "308_8x8": {
+      "id": "308_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/308.a.htm",
+      "solution": "8 8\nx x - - - - x x\nx - - x - x x x\n- x x x - x x x\nx - x x - x x x\n- - - - x - x x\n- - - x - - - -\nx x x - - x - x\nx - - x - - - -"
+    },
+    "309_9x9": {
+      "id": "309_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/309.a.htm",
+      "solution": "9 9\n- - x - - x x - x\nx - x x x - - - -\n- x - - - x x x x\n- - - - x x - x x\n- x x - x - x x x\n- x x x x - x - -\n- - x x x - x x x\n- - - x - - x - -\n- - x - x x x - -"
+    },
+    "310_9x9": {
+      "id": "310_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/310.a.htm",
+      "solution": "9 9\n- x x - - x - x x\nx x x x x - x - x\n- - x - - - - - -\n- x - - x - x x x\n- x - x x - x - x\n- - x x x x - x -\n- x x - x - - - -\n- x x - x - - x -\n- x - x x x - - x"
+    },
+    "311_5x5": {
+      "id": "311_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/311.a.htm",
+      "solution": "5 5\nx x x x -\n- - x - -\n- x x x x\nx x - - -\nx - - - -"
+    },
+    "312_5x5": {
+      "id": "312_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/312.a.htm",
+      "solution": "5 5\nx - x - -\n- - x - -\n- x x x x\n- x x x -\nx x - - -"
+    },
+    "313_6x6": {
+      "id": "313_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/313.a.htm",
+      "solution": "6 6\n- - - x x -\n- x x x x -\n- x x x - -\n- - x x - -\nx x x x - -\n- - x - x x"
+    },
+    "314_6x6": {
+      "id": "314_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/314.a.htm",
+      "solution": "6 6\n- x - x x -\nx x x - x x\n- - - - x -\nx x x x x -\n- - x x - -\nx - x - - -"
+    },
+    "315_7x7": {
+      "id": "315_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/315.a.htm",
+      "solution": "7 7\n- x - - x x -\n- - - - x x x\n- x - x x x x\nx - - - x - -\nx x x x - - -\n- x - x x - -\nx - x x x - x"
+    },
+    "316_7x7": {
+      "id": "316_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/316.a.htm",
+      "solution": "7 7\n- x - - - x -\nx - x - x x -\nx x x - x x -\n- - x x - - -\nx x x - x x x\n- - - - x - x\nx x - - x x -"
+    },
+    "317_8x8": {
+      "id": "317_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/317.a.htm",
+      "solution": "8 8\nx x x x x x x x\nx - x x - x - x\n- x - - x - - x\nx x x - x x - x\n- x - - x - - x\n- x - - - - - -\n- - x x - - - -\nx - x - x - - x"
+    },
+    "318_8x8": {
+      "id": "318_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/318.a.htm",
+      "solution": "8 8\n- x - - - x x x\n- x x x - x - x\n- - x - - - - x\n- x x x - x x x\nx x - x x x x x\n- - x x - - - -\n- - x x - - x -\n- - x - x - - x"
+    },
+    "319_9x9": {
+      "id": "319_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/319.a.htm",
+      "solution": "9 9\nx x x - x x x x x\nx - x - - - - - -\n- - x x - - - x -\nx - - - - - x x -\n- x x x x - - - x\n- - - x x x x x x\n- - x - - - - x x\n- - x - x - - x x\n- x - x - x x x x"
+    },
+    "320_9x9": {
+      "id": "320_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/320.a.htm",
+      "solution": "9 9\nx - - x - x - x -\n- x x - - x x x x\nx x - x x x x - -\nx x - - - x x - x\n- - - x - - - - x\n- x - - - - x - x\n- x x - x - x - -\n- x - - - - x - x\nx x x - - x x x x"
+    },
+    "321_5x5": {
+      "id": "321_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/321.a.htm",
+      "solution": "5 5\nx - - - -\n- x x x x\n- x x - x\n- x x - -\n- - - x x"
+    },
+    "322_5x5": {
+      "id": "322_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/322.a.htm",
+      "solution": "5 5\n- - x x -\n- x - x -\n- - x x -\nx - x - -\nx - x x x"
+    },
+    "323_6x6": {
+      "id": "323_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/323.a.htm",
+      "solution": "6 6\nx - x - x x\nx - x - - x\nx - - - - -\n- - - - x x\n- - x x x x\nx x - - x x"
+    },
+    "324_6x6": {
+      "id": "324_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/324.a.htm",
+      "solution": "6 6\n- - - x x x\nx x x - x x\nx x - x - x\n- x - - - -\nx x - - x -\nx - x - - -"
+    },
+    "325_7x7": {
+      "id": "325_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/325.a.htm",
+      "solution": "7 7\nx x - - x x x\n- - x x x x -\n- x x x x - x\n- x x - - - -\n- - - x - x -\nx - x x - - -\nx - - x x x -"
+    },
+    "326_7x7": {
+      "id": "326_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/326.a.htm",
+      "solution": "7 7\nx - - x - - -\n- - x x x x -\nx x - - x x x\nx x x - - - -\n- x x - - x x\nx - x - - - -\nx x x - x x -"
+    },
+    "327_8x8": {
+      "id": "327_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/327.a.htm",
+      "solution": "8 8\nx x x - x - - x\n- x - - - - - -\nx x - - - - - x\n- x - - x x x x\n- x x - - - x x\nx x - x - x - x\n- x x x - - x x\n- x - x x - x -"
+    },
+    "328_8x8": {
+      "id": "328_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/328.a.htm",
+      "solution": "8 8\nx - - x x x - x\nx x - - - x x -\n- - - x - x x -\nx - - x x - - x\nx - - - - x x -\n- - x x - - x -\nx - - x - x x -\n- x - x x x x x"
+    },
+    "329_9x9": {
+      "id": "329_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/329.a.htm",
+      "solution": "9 9\nx x x - x x - x x\nx x - - - - x x x\n- x - - x - - - x\n- x - x - - - - -\n- x x x - - x - -\nx x - - - - x x -\n- - x - - - x - x\n- x - x - x x x x\nx x - x - x x - x"
+    },
+    "330_9x9": {
+      "id": "330_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/330.a.htm",
+      "solution": "9 9\nx x x - - x x x -\n- x x x x x x x x\nx x - - - - - - -\nx x x - - - - - -\n- x - - - - x - x\n- x x x - - x - -\nx x - - x - x - x\nx - - x x x x - -\nx - x x x - - - -"
+    },
+    "331_5x5": {
+      "id": "331_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/331.a.htm",
+      "solution": "5 5\nx x - x -\nx x - - -\nx - - - x\n- x x - -\nx x - x -"
+    },
+    "332_5x5": {
+      "id": "332_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/332.a.htm",
+      "solution": "5 5\n- x x - -\nx x - x -\n- - x - x\nx x - x x\n- x - - -"
+    },
+    "333_6x6": {
+      "id": "333_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/333.a.htm",
+      "solution": "6 6\nx x x x x x\n- - x x - x\n- x x - - -\nx x - - - x\nx - - x x -\n- - - - x -"
+    },
+    "334_6x6": {
+      "id": "334_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/334.a.htm",
+      "solution": "6 6\nx x x - - -\n- x x - - -\nx x - - - -\n- x x x x -\nx x - - - x\nx x - x x -"
+    },
+    "335_7x7": {
+      "id": "335_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/335.a.htm",
+      "solution": "7 7\nx x x - x x x\n- - - - x - -\nx x - x x x x\n- - x - - x x\n- - - x x x x\n- - x x - - -\n- - x - - x x"
+    },
+    "336_7x7": {
+      "id": "336_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/336.a.htm",
+      "solution": "7 7\n- x x x x x x\n- - x - x - -\nx - - x - x -\nx x - x x - -\nx - x - - x -\nx - - x x x x\n- - - x - x -"
+    },
+    "337_8x8": {
+      "id": "337_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/337.a.htm",
+      "solution": "8 8\n- x x x - - x -\n- x x - x x x x\nx - - - - - - -\nx - - x x - - -\nx - x x x - x -\nx x x - - - x -\n- - - - - x x x\nx x x x x - x -"
+    },
+    "338_8x8": {
+      "id": "338_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/338.a.htm",
+      "solution": "8 8\n- x - - - x - -\n- x x - x - x -\nx x x - x - x x\nx x - x - - - -\nx x - - - - x x\nx x x - x x - -\nx x x - x x - -\n- x x x - - - -"
+    },
+    "339_9x9": {
+      "id": "339_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/339.a.htm",
+      "solution": "9 9\n- x x - - - x x x\nx - x x x x x x x\nx - - x - x x x -\n- x x - - x x - x\nx x - - - x x - x\n- - x - - - - - x\nx - - - - - x x x\n- x x - - - - - x\n- x - x - - - - x"
+    },
+    "340_9x9": {
+      "id": "340_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/340.a.htm",
+      "solution": "9 9\nx x x x x x x x x\nx - x x x x - x -\nx - x x x - - - -\nx - x x x - - - -\n- - - - - x - - -\nx x - x - - - - -\nx - - - x x - x -\nx - x - - x - x x\n- - x x - x - x -"
+    },
+    "341_4x4": {
+      "id": "341_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/341.a.htm",
+      "solution": "4 4\nx - - x\n- x x x\n- x x -\nx - - -"
+    },
+    "342_5x5": {
+      "id": "342_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/342.a.htm",
+      "solution": "5 5\n- - - - x\n- x x x x\nx - - x x\n- x - x -\n- x x - -"
+    },
+    "343_5x5": {
+      "id": "343_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/343.a.htm",
+      "solution": "5 5\n- x - - x\nx x x - x\nx x - - x\nx - - - -\nx - - x -"
+    },
+    "344_6x6": {
+      "id": "344_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/344.a.htm",
+      "solution": "6 6\n- - x x x -\nx - x - - x\nx x x - - x\n- - - x x x\n- x x - - -\nx - x - - x"
+    },
+    "345_6x6": {
+      "id": "345_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/345.a.htm",
+      "solution": "6 6\n- x - - - x\n- - x x x -\n- x - x - -\nx - x x - x\nx x x x - x\n- - x - x -"
+    },
+    "346_7x7": {
+      "id": "346_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/346.a.htm",
+      "solution": "7 7\nx - - x - - x\nx - x x x x -\nx x x x - x x\n- - x - - - -\nx - - - x x x\n- - x x x x x\n- - - x - - -"
+    },
+    "347_7x7": {
+      "id": "347_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/347.a.htm",
+      "solution": "7 7\n- - - x x - -\nx - x x - - x\nx x - - x - -\n- x - - - - x\nx x - x x - x\n- x x - x x x\nx x - - - x x"
+    },
+    "348_8x8": {
+      "id": "348_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/348.a.htm",
+      "solution": "8 8\n- x x x x - - x\n- - x x x - x x\n- - - - - x - -\nx - - x x x - x\n- - x - x - x -\n- - - - - - - x\nx x x x x x x x\n- - - x x - x x"
+    },
+    "349_8x8": {
+      "id": "349_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/349.a.htm",
+      "solution": "8 8\nx x - x - - x -\nx x x x - x x x\n- x x - - - - -\n- - x - - - - x\nx - - - - x x x\nx - - - - x x x\n- x - - x - x x\nx - - x x x x -"
+    },
+    "350_9x9": {
+      "id": "350_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/350.a.htm",
+      "solution": "9 9\n- x - - x - - - -\nx - x x x x - x -\n- x x - - - - - -\nx - x x - - x x x\nx - - x x - - - x\nx - x x x - x - x\nx - - - - - x x -\nx x x x x x x x x\nx - - - - - x x -"
+    },
+    "351_4x4": {
+      "id": "351_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/351.a.htm",
+      "solution": "4 4\nx - x -\nx - x -\nx x - -\n- x - x"
+    },
+    "352_5x5": {
+      "id": "352_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/352.a.htm",
+      "solution": "5 5\n- - - x -\n- - x - x\nx x - x -\n- x - x -\n- x x x x"
+    },
+    "353_5x5": {
+      "id": "353_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/353.a.htm",
+      "solution": "5 5\nx x x x -\nx - x - x\n- x x - -\n- x - - x\nx - - - -"
+    },
+    "354_6x6": {
+      "id": "354_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/354.a.htm",
+      "solution": "6 6\n- x x - x x\nx - - - - x\nx x x x x x\nx - - - - -\n- x - - - x\n- x - - x x"
+    },
+    "355_6x6": {
+      "id": "355_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/355.a.htm",
+      "solution": "6 6\n- - - x - -\n- - - - - x\n- x x x x -\nx - x x x x\nx x x - x -\nx x - x - -"
+    },
+    "356_7x7": {
+      "id": "356_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/356.a.htm",
+      "solution": "7 7\n- x x x - x x\nx x - x - - x\n- - x - x x x\n- x x x - - x\n- - x - x - x\n- - x - x - -\n- - x - - x x"
+    },
+    "357_7x7": {
+      "id": "357_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/357.a.htm",
+      "solution": "7 7\nx - x - x - x\nx x x - - - x\n- x x - - x -\n- - x - - - -\n- x x x - x x\n- x - x x - -\nx x x x - - x"
+    },
+    "358_8x8": {
+      "id": "358_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/358.a.htm",
+      "solution": "8 8\nx - - x x x - -\n- x x x x x x x\n- x x x - x - -\n- - x - - - x -\nx - - x - x x x\nx - x - x - - x\nx - x x - - - -\n- x - x - - - x"
+    },
+    "359_8x8": {
+      "id": "359_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/359.a.htm",
+      "solution": "8 8\n- x - x - x - x\n- - - x x - x x\n- - x x - - - -\n- - x x - - x -\nx - x x - x x x\nx - x - - x x x\n- x x x - x x x\nx - - x - - - -"
+    },
+    "360_9x9": {
+      "id": "360_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/360.a.htm",
+      "solution": "9 9\nx - - - - x - - -\nx - - - x x x - x\nx - x x - - x - x\nx x - - - x - - -\nx - - x x x x x x\n- - x x - x - - x\nx - - x x x - x -\nx - - - - x x x x\nx - x - - x x - x"
+    },
+    "361_4x4": {
+      "id": "361_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/361.a.htm",
+      "solution": "4 4\nx x - x\n- x - -\nx x - -\nx - x -"
+    },
+    "362_5x5": {
+      "id": "362_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/362.a.htm",
+      "solution": "5 5\nx - x - -\nx x - - x\n- x x x -\nx - - - -\n- - x x x"
+    },
+    "363_5x5": {
+      "id": "363_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/363.a.htm",
+      "solution": "5 5\n- - x x x\nx x - x -\n- - x - -\n- - x x -\n- - x x x"
+    },
+    "364_6x6": {
+      "id": "364_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/364.a.htm",
+      "solution": "6 6\nx x - - x x\n- x - - - -\n- x - x x x\n- x x x x -\n- x - - - -\nx - x - x x"
+    },
+    "365_6x6": {
+      "id": "365_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/365.a.htm",
+      "solution": "6 6\n- x - - x x\n- x - x x -\nx - x - - x\nx - x - - x\nx - - - x x\nx x x - - -"
+    },
+    "366_7x7": {
+      "id": "366_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/366.a.htm",
+      "solution": "7 7\nx x - - - - -\nx - - x x x x\nx x - - x - -\nx x - - x x -\nx - - x - - x\nx - x - x x -\nx x x - - x -"
+    },
+    "367_7x7": {
+      "id": "367_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/367.a.htm",
+      "solution": "7 7\nx x x - x x x\nx - - x - - -\n- x x x - x -\n- - x x - x x\nx - - x x x -\n- x - - - - -\nx x - - x x -"
+    },
+    "368_8x8": {
+      "id": "368_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/368.a.htm",
+      "solution": "8 8\nx - - - x x x -\nx - x x x x x x\n- x x - - x - x\nx - - - x x x -\nx - - - - x - -\nx x x - x x - x\n- - x - - x - -\nx x x - - - - -"
+    },
+    "369_8x8": {
+      "id": "369_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/369.a.htm",
+      "solution": "8 8\nx - - - x x x -\n- - - - x - - -\n- x - x x - - -\n- x x x x x x x\nx x x - x - - -\nx x - x x x - -\nx - x x x x - x\nx - - - - - - x"
+    },
+    "370_9x9": {
+      "id": "370_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/370.a.htm",
+      "solution": "9 9\nx - x x x - - - -\n- x - - - - - x -\nx - x x x x x x x\n- - x x x x - - x\n- - - x - x - - -\n- - x - - x x - x\n- x x - - x - x x\n- x x - x x x x -\n- - x x x x - x -"
+    },
+    "371_7x7": {
+      "id": "371_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/371.a.htm",
+      "solution": "7 7\nx - - x - - -\nx - - - - - -\n- - x - - x x\n- - - - x - x\n- x - - - - -\n- - - - - - x\nx x x - - - -"
+    },
+    "372_7x7": {
+      "id": "372_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/372.a.htm",
+      "solution": "7 7\nx - - x x x x\n- - x - - - x\n- x - - - - -\nx - - - - - -\n- x - - - - -\n- x - - - - x\n- - x - - - -"
+    },
+    "373_8x8": {
+      "id": "373_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/373.a.htm",
+      "solution": "8 8\n- x - - - - x x\n- - x - - - - x\n- x - - - x - x\n- x - - x x - -\n- x - x x - - -\nx - - - - - - -\n- - - - - x - x\n- x - - - - - -"
+    },
+    "374_8x8": {
+      "id": "374_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/374.a.htm",
+      "solution": "8 8\nx - x - - x - x\n- x - - x - - -\n- - - - - x x -\nx x - - - - - -\n- x - x - - - -\n- x - x - - - -\n- - x x - - - -\n- - - x - - x -"
+    },
+    "375_9x9": {
+      "id": "375_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/375.a.htm",
+      "solution": "9 9\n- - x - x x - x x\n- x - - - - - - -\nx - - - - - x - x\nx x - - - x - - -\nx - x x x - - - -\n- - - - - x - - -\n- x - - - - - x x\n- - x - x - - x x\n- - - x - - - - -"
+    },
+    "376_9x9": {
+      "id": "376_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/376.a.htm",
+      "solution": "9 9\nx - x - - x - - -\nx - x x - x x x x\n- - - x - x - x -\n- - x x x - - - -\n- - - x - - - - -\n- - - - - x - - -\nx - - - - - - x -\n- x - x - - - - -\n- x x - - - - x -"
+    },
+    "377_10x10": {
+      "id": "377_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/377.a.htm",
+      "solution": "10 10\n- - x - - - - - x -\n- - - - x x x - x x\n- x - x - x - - x -\n- - - x - - - x - -\n- - - x - - - - - -\n- - x - - - x - x x\nx - - x - - - - x x\nx - - x - - - - - -\nx - - - x x - x x x\nx - - x - - - - - -"
+    },
+    "378_10x10": {
+      "id": "378_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/378.a.htm",
+      "solution": "10 10\nx - x x x - x - - x\n- - - - - - x - - -\nx - - - - - - - x -\n- x - x - x - x - x\n- x - - x - - - - -\n- - - x x - - - - -\n- x x - x - - x x -\n- - - - - x - - - -\n- - - - - x - x - -\n- x x x - x - x x -"
+    },
+    "379_11x11": {
+      "id": "379_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/379.a.htm",
+      "solution": "11 11\n- - x x - - - - - - -\nx - x - x - x - x - -\n- - x - - x - - - - x\n- - x - x x - x x - -\nx - - - - - - - - - -\nx x - - - x - - - - -\nx - x - - x x - x x x\n- - x - x x - x x - x\n- - - - - x x - x - -\n- - - - x x x x - - -\n- - - - x - - - - - -"
+    },
+    "380_11x11": {
+      "id": "380_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/380.a.htm",
+      "solution": "11 11\nx x - - - - - x - - -\n- - x - - - - - - - -\n- x - - - x x x - x -\n- - - - - - x x x - -\nx - - - - x x x - - x\nx x x - - - - - - - -\nx - - x - - x - - - -\nx - - - - - - - - - x\nx - - x - - - x - - x\n- - x x x - x x - x x\n- - x - - - x x - - x"
+    },
+    "381_7x7": {
+      "id": "381_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/381.a.htm",
+      "solution": "7 7\n- x x - - - -\nx - x - - - -\n- - - - - x -\n- - - - - x -\nx - x - x - -\nx - x x - - -\n- - - - - - x"
+    },
+    "382_7x7": {
+      "id": "382_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/382.a.htm",
+      "solution": "7 7\nx - x - - - -\n- - - - - - x\nx - x - - - -\n- - x - - - -\n- - - - - x -\n- x - x - x -\nx - - x x - -"
+    },
+    "383_8x8": {
+      "id": "383_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/383.a.htm",
+      "solution": "8 8\n- - x - - - - x\n- - x - - x x x\n- - - - x - x -\nx x - x x - x -\n- - x - - - - -\n- - - - - - x x\nx - - - - - - -\n- - - - - x - -"
+    },
+    "384_8x8": {
+      "id": "384_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/384.a.htm",
+      "solution": "8 8\n- - - - - - x x\nx - - x - - - -\nx - - - - - x -\n- - - - - x - x\n- x - - x - - -\n- x x - - x - x\nx - x - - - - -\n- - x x - - - -"
+    },
+    "385_9x9": {
+      "id": "385_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/385.a.htm",
+      "solution": "9 9\nx - x x - x - - x\nx - - x - - - - -\n- - - x - x - - -\n- x - - - - - - -\n- x - x x x x x -\n- - x x - - - - -\n- x - - - x - - -\n- x - x x - - - -\n- - - x x - - - -"
+    },
+    "386_9x9": {
+      "id": "386_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/386.a.htm",
+      "solution": "9 9\n- - x - - - x - -\nx x - - - - x - -\n- x - - - - - - -\n- - - x x x - x -\n- - - - x x - - x\n- - - x - x - x -\n- x - x x - - x x\n- - - x - - - - -\nx - - - - x - - x"
+    },
+    "387_10x10": {
+      "id": "387_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/387.a.htm",
+      "solution": "10 10\n- - x - - - x - - x\nx - - - x x - x - -\n- - - - x - x - x -\nx - - - - - - - - -\n- x - - x - x x - -\nx - - - x x x x - x\nx - - x x x x - - -\n- - x - - - x - - -\n- - - - - x - - - -\n- - - - - - x x - x"
+    },
+    "388_10x10": {
+      "id": "388_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/388.a.htm",
+      "solution": "10 10\nx - - - - - x - - -\n- x x x x x x x x -\n- x x - - - - - - -\n- x - - - - - - - -\n- x x x x - x - - x\n- - - - - - - x - -\n- - x - - - - - x -\nx x x - x - - - x -\n- x - - - - - - - -\n- - x - - x - x x -"
+    },
+    "389_11x11": {
+      "id": "389_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/389.a.htm",
+      "solution": "11 11\n- - - - - - - x x x -\n- - x x - - - - - - x\n- - x - - x x - - - x\n- - x x x - - - - - -\nx - x - - x - - - x x\n- - x - - x - - - x -\n- x x - - x - - - x -\n- - - x - x - - - x x\n- - - x x x x - x x x\n- - - x - - x - - - x\n- - - - - - - - - - x"
+    },
+    "390_11x11": {
+      "id": "390_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/390.a.htm",
+      "solution": "11 11\nx - - - x - x x - - -\nx - - - - - - - - x -\n- - - - - - - x x - x\nx x x - - - - - - x -\nx - - x - - - - - - -\n- - - - x - - - - - -\n- - x - x - x x x x x\n- - x - - x - x x x -\nx - x - x - - x x x -\n- - x x - - - - x - -\n- - - x - - - x - x -"
+    },
+    "391_7x7": {
+      "id": "391_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/391.a.htm",
+      "solution": "7 7\n- x - - - - -\n- - - x - - -\n- x - x - x -\nx x - - - x -\n- - x x - - -\nx - - - - - -\n- - - - x - x"
+    },
+    "392_7x7": {
+      "id": "392_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/392.a.htm",
+      "solution": "7 7\n- x - - - - -\n- - x - x x x\n- - - x - - -\n- - - x x - x\n- - - x - - -\nx - - - - - -\n- - x x - - -"
+    },
+    "393_8x8": {
+      "id": "393_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/393.a.htm",
+      "solution": "8 8\n- x - - - - x -\nx - - x - x - -\n- x - - - - - -\n- - x - - - - x\n- x - - - x - x\nx - x - - - - x\n- - - - - - - x\nx - - x x - - -"
+    },
+    "394_8x8": {
+      "id": "394_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/394.a.htm",
+      "solution": "8 8\nx - - - - - - -\nx - x - - - - -\nx - - - x - - -\n- - - x - - x -\nx - - - - x - -\n- x - x x - - -\n- - - x x x - -\n- - - x - x - x"
+    },
+    "395_9x9": {
+      "id": "395_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/395.a.htm",
+      "solution": "9 9\n- x - - - x - - -\n- - - - x - - - x\nx - x - x - - x x\nx - - - - x - x x\n- - - x - - - - x\n- x x - - - - x x\n- - x - - - x - -\n- x - - - - - - -\n- - - - x - - x x"
+    },
+    "396_9x9": {
+      "id": "396_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/396.a.htm",
+      "solution": "9 9\n- x x - - x x x x\n- - - - - - x - -\n- - - x - - - x x\n- x x - - - - - x\nx - x - - - - - x\nx - - - x - x - -\n- x - - - - - - x\nx - - - - - - - x\n- x - - x - - - -"
+    },
+    "397_10x10": {
+      "id": "397_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/397.a.htm",
+      "solution": "10 10\n- - - x x x - - - x\n- x - - - x - - - -\n- - x - - - - x - x\n- x - - - x - - - -\nx - - - - - x - - -\n- - - - - - x - - -\nx - - - - x - - - -\nx - - - - x - x x -\n- - x x x x x x x -\nx x x - - - - x x -"
+    },
+    "398_10x10": {
+      "id": "398_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/398.a.htm",
+      "solution": "10 10\nx x x - - - - - x -\n- - - x x x x x - x\nx - x - - - - x x x\n- - x - - - x - - x\n- - - x x x - - - -\n- - x - - - - - - -\n- - - x - - - - - x\n- - - - - - - x - -\n- x - x - - - - - x\n- - x x x x - - - -"
+    },
+    "399_11x11": {
+      "id": "399_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/399.a.htm",
+      "solution": "11 11\n- - - x - x x x - - x\nx - - - - x - - - x x\n- x - - - x - - - x -\n- x - - x - - - x x -\n- - - x x - - - - x x\n- - - - - x - - x x -\n- x - - x x x x - x x\n- - - - - x - - - - -\n- - - - - - - - - x -\n- x x - - - - - x x -\n- x - - - x x - - x -"
+    },
+    "400_11x11": {
+      "id": "400_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/400.a.htm",
+      "solution": "11 11\n- - - - x x - x x - -\n- x x - - - x x x x x\nx x - - - x - - - - x\n- x x - x - x x - - x\n- - - - x - x - x - x\n- - - x - - - - - - -\n- - - - - - - - x - -\n- - - - - - - x x x x\n- - - - x - - x x - -\n- - x - - - x x x - -\n- - x - - - x - - - -"
+    },
+    "401_7x7": {
+      "id": "401_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/401.a.htm",
+      "solution": "7 7\n- - x - x - -\n- - x x - x x\n- - - - x - -\n- - - - x - -\nx - - - - - -\n- x x - - - -\n- - - - x - x"
+    },
+    "402_7x7": {
+      "id": "402_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/402.a.htm",
+      "solution": "7 7\n- - - x - - -\n- - x x - - -\nx - - - - - -\n- x x - - - x\nx - - - x x -\n- - - x x - -\nx - - - - - -"
+    },
+    "403_8x8": {
+      "id": "403_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/403.a.htm",
+      "solution": "8 8\nx - x x - x x -\n- - x x - - - -\n- - - - x x - -\n- x - - - - - -\n- - - - - x - -\n- - - - - x - x\n- x - x - x x -\n- - - x - - - -"
+    },
+    "404_8x8": {
+      "id": "404_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/404.a.htm",
+      "solution": "8 8\nx x - - - x - -\n- - - - - - - x\nx - - - - - - -\nx - x - - - x -\n- - x x - - x x\nx - - - - x - -\nx - - - x x - -\n- - x - - - - -"
+    },
+    "405_9x9": {
+      "id": "405_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/405.a.htm",
+      "solution": "9 9\n- - x x x - - - x\n- - - - - - - x -\n- - - - - - - - x\n- - - - x x - - -\n- - - - x x x - -\n- - - x x x - x -\n- x - - x x - x -\n- x - x x - - x -\nx - - - x - - - -"
+    },
+    "406_9x9": {
+      "id": "406_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/406.a.htm",
+      "solution": "9 9\nx - - x - - - - x\n- x - x x x - - x\nx x - - - - - x -\nx - - - - - - - -\n- - - - - x - x -\n- - x x - - - - -\n- - - x - - - - -\n- x - x - - x x -\n- x x - - x - x -"
+    },
+    "407_10x10": {
+      "id": "407_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/407.a.htm",
+      "solution": "10 10\n- x - - - - - - - -\nx - - - x - - - - -\nx x - - - - - - - -\nx - x x - - x x - x\n- - x - - - - - x -\n- - - x - - - - x x\nx x - - x - x x x -\n- - x - - - - - - -\nx x - - x x - x - -\nx - x - - x x - - -"
+    },
+    "408_10x10": {
+      "id": "408_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/408.a.htm",
+      "solution": "10 10\n- - - x - - - x - x\n- - x x - - x - x x\n- - - x - x x x x x\n- - x x - x - - - -\n- x x - - - x - - x\n- - x - x - - - - -\nx - - - - - - - - -\n- - x - x - - - - x\n- - x - x - x - - -\n- - - - - - x - x -"
+    },
+    "409_11x11": {
+      "id": "409_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/409.a.htm",
+      "solution": "11 11\nx - x - x - x - x - -\n- - x - x x x x x - x\nx - x - - - x - - - x\n- - x - - x - - x - x\nx - x - - - - - - - -\n- - - - - - x - x - -\nx - - - - - x - - - -\n- x x - - - x - x x -\n- x x - - - x - - - x\n- - - x - - x x x - -\n- - - x - - - - - - -"
+    },
+    "410_11x11": {
+      "id": "410_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/410.a.htm",
+      "solution": "11 11\n- - - - - - - - x - -\nx - x x - x - - - - -\nx x x x - - x - - - -\n- x - - - - - - - - -\n- - x x - - - - - - -\n- - x - x - - x - - x\n- - - x - - - - - - -\n- - - - - - - - - x x\nx - x x x x x x x x x\nx - x x - - x - - x -\nx - x - x - - x - - x"
+    },
+    "411_7x7": {
+      "id": "411_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/411.a.htm",
+      "solution": "7 7\nx x x - - - -\n- - - - x x -\n- - - - x - -\n- x - - - - -\n- x - - - - x\n- - - x x - x\n- - - - - - x"
+    },
+    "412_7x7": {
+      "id": "412_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/412.a.htm",
+      "solution": "7 7\nx - - - - - -\n- x - - - x -\n- - - - x - x\n- - x - - - -\n- - - - - - x\n- - x x - x -\n- - x x - - x"
+    },
+    "413_8x8": {
+      "id": "413_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/413.a.htm",
+      "solution": "8 8\n- - - - - - x -\n- x - - x - x -\n- x x - x - - x\n- - - x - - - -\n- x - - - - - -\n- x - x x x - x\nx - - - - - - -\n- - - - x - - x"
+    },
+    "414_8x8": {
+      "id": "414_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/414.a.htm",
+      "solution": "8 8\n- - - x - - - -\nx - - x - - x -\n- x - - - - - -\n- - - - - x - -\n- x x - x - - x\n- x x - - x - x\n- x - - - x - -\n- x - - - x - -"
+    },
+    "415_9x9": {
+      "id": "415_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/415.a.htm",
+      "solution": "9 9\nx x x - x - - - -\n- - - - x - - - -\n- x x - - - - x -\n- x x x x x x - -\n- x - - - - - - -\n- x - - - - - - -\n- - - - x x - - x\n- - - - - - - x x\n- x x x x - - - -"
+    },
+    "416_9x9": {
+      "id": "416_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/416.a.htm",
+      "solution": "9 9\n- - x - - - - - x\nx - x - - x x x -\n- - - - - - - x -\n- x x x x - - - -\nx x x - - - - - -\nx - x - - - - - -\n- x x - - - - - -\n- - x - - - - - -\n- - x x - x - x x"
+    },
+    "417_10x10": {
+      "id": "417_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/417.a.htm",
+      "solution": "10 10\n- - - - x - - - x x\nx x x x x - - - - x\n- - x - - - x - - x\n- - - - - - x - - -\n- - x - - x x x - x\n- - - - - x - - - -\nx - x - x - - x - -\n- - x - - x - x - -\n- x x - - - - - - -\nx - x - - x x - - -"
+    },
+    "418_10x10": {
+      "id": "418_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/418.a.htm",
+      "solution": "10 10\nx - x - x - x - - -\n- - - - - - x - - -\n- - - x - x x - x x\n- x - - - x x x x x\n- - x - - - x - x x\nx - - - - - - x - x\n- - - - - - - x - x\n- - - x - - - - x x\n- - - x - - x - x -\n- - - - - - x - - -"
+    },
+    "419_11x11": {
+      "id": "419_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/419.a.htm",
+      "solution": "11 11\n- - - x - - - x x x x\nx - - x - x - x - - -\n- - - x x - - - - - -\n- x - x - x x - - - x\nx - - x - - - - - - -\n- x - x - x - x - - -\n- - - - - - x - - - -\nx - - x - x x x - x x\n- - - x - x x x - - x\nx - - x - - - - - - -\nx - x x - - - - - - -"
+    },
+    "420_11x11": {
+      "id": "420_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/420.a.htm",
+      "solution": "11 11\n- x x - - - - - - - -\n- - - - - x - - - - -\n- x x x x x - - - x -\n- x - - - x - x - - -\nx x - - x x - x - x x\n- - - x - x - - x - -\nx - - - - - - - - - x\n- - - - x x x x - x x\n- - - x - x - x - - x\n- x - - x x - - - - x\n- - - x - - - - - - x"
+    },
+    "421_7x7": {
+      "id": "421_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/421.a.htm",
+      "solution": "7 7\n- x x - - - -\nx - - - - - -\n- - x - - - -\n- - x x - - x\n- - - - x - -\n- - - x x - -\nx - - x - x -"
+    },
+    "422_7x7": {
+      "id": "422_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/422.a.htm",
+      "solution": "7 7\n- - - - x - -\nx x - - - - -\n- x - - - - -\n- x x - - x -\n- x - x - - x\n- - - x - x -\n- - x - - - -"
+    },
+    "423_8x8": {
+      "id": "423_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/423.a.htm",
+      "solution": "8 8\nx - - - x - - x\nx x - - x - - -\nx - x - - - - -\n- - x - - - x -\nx - - - - x - -\n- - - - x x - x\nx - - x - - - -\n- - - x - - - -"
+    },
+    "424_8x8": {
+      "id": "424_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/424.a.htm",
+      "solution": "8 8\n- x x - - - - -\n- - x - x - - -\n- - - - - - - x\nx - - - - - - -\n- - - x x x - -\n- - x - - - x -\n- x x - x - x -\n- - - - x x x -"
+    },
+    "425_9x9": {
+      "id": "425_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/425.a.htm",
+      "solution": "9 9\n- - - x - x x x -\nx - - x - x x - x\nx - - - - - - - -\n- - x - x - - - -\n- x - - - - - - -\n- x x - - - - x -\n- - x x - - - x x\n- - x - - - - x -\nx - x - - - x - -"
+    },
+    "426_9x9": {
+      "id": "426_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/426.a.htm",
+      "solution": "9 9\n- x - - - - - - -\n- - - - - x - - -\n- x x - - - x x -\nx x - - - - - - x\nx - - x - - - x -\n- x - - - - - x x\nx x - - x - x x -\nx - - - x - - - -\n- x - - - - - x x"
+    },
+    "427_10x10": {
+      "id": "427_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/427.a.htm",
+      "solution": "10 10\n- - - x - x - - x -\nx x - x - - - - - -\nx - x x - - - - - x\n- - x - - - - x x x\n- - x - - x - - - -\n- - - - - - - x - -\n- - x - x x - x x x\n- - x - - - x - x -\nx - - - - - - - x -\n- - - - x x - x - x"
+    },
+    "428_10x10": {
+      "id": "428_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/428.a.htm",
+      "solution": "10 10\n- x x - - - - - - -\n- x - - - - - - - -\n- - - x - - - - x -\n- x x - x - - - - x\n- - - x x - - - - -\nx - x x x - x x - -\nx - x - - - - - - x\n- - x - x x - - - -\n- - x x x - - - x -\n- - x x x x - - - x"
+    },
+    "429_11x11": {
+      "id": "429_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/429.a.htm",
+      "solution": "11 11\n- x - x x - - - - - x\n- - x - x x - - x - -\n- - - - - - - - - - x\n- x x x x x x - x x x\n- - - - - - x - x x x\nx - - - - - - - x - x\n- - x - - - - - x - -\n- - - x - - x - x x -\n- - - - - - - - x - -\n- - x - - - - - x - -\nx - - - - - x x x x x"
+    },
+    "430_11x11": {
+      "id": "430_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/430.a.htm",
+      "solution": "11 11\n- x - - x x - - - - -\n- - - x x - - - - - x\nx - - x - - - - - x -\n- - - x - - - - x x -\n- - - x x x x - x x x\n- - - x - x x - - - -\n- - x x - - x - - x -\n- - - - - x - x x x -\n- - - x - - - - - x -\n- - - x - - - x - - -\n- - x x - x - - x x x"
+    },
+    "431_7x7": {
+      "id": "431_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/431.a.htm",
+      "solution": "7 7\n- - x - - - -\nx - x - - - -\n- - - - x x -\nx x - x - - -\n- - x - - - -\nx - - x - - -\nx - - - - - x"
+    },
+    "432_7x7": {
+      "id": "432_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/432.a.htm",
+      "solution": "7 7\n- - - x - - -\n- - x - - - -\n- x x - - x x\nx - - - - - -\n- - - - x - -\nx - - - - x x\nx x - - - - -"
+    },
+    "433_8x8": {
+      "id": "433_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/433.a.htm",
+      "solution": "8 8\nx - - - x - - -\n- x - - - - x -\n- x - - - - - -\n- - - - - - x -\nx - x - x - - x\n- - - - - - x -\nx - - x x x - -\nx - - x - - x -"
+    },
+    "434_8x8": {
+      "id": "434_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/434.a.htm",
+      "solution": "8 8\n- - x x - - - x\n- - x - - - x -\nx - - x - - - -\n- - - x - - - x\nx - - x x x - -\n- - x - - - - -\n- x - - - - - -\n- - - - - x x x"
+    },
+    "435_9x9": {
+      "id": "435_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/435.a.htm",
+      "solution": "9 9\n- - - - - - x x -\nx x - - - - - - -\nx - x x - x - - -\nx x - - x - - - x\n- x - - x - - x x\nx - x - - - - - -\nx - - - - x - x x\nx - x - - - - - -\n- - - - x - - - -"
+    },
+    "436_9x9": {
+      "id": "436_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/436.a.htm",
+      "solution": "9 9\n- x - x x x - - -\nx - x - - - - - -\n- - - - x - - - -\nx - - - x x x - x\n- - - - - - - - x\n- - - x - - - x x\nx - - - - - x - -\nx x - x x - - - x\n- x - - x - - - -"
+    },
+    "437_10x10": {
+      "id": "437_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/437.a.htm",
+      "solution": "10 10\n- x - - - - - - - -\n- x - x x - x - x x\nx - - - - x - - x -\n- - x - - - - - - -\nx - - - - - - - - -\n- x - - x x x - x -\n- - - - x - x - - -\nx - x - x x x - - -\n- x - - - - - - x x\n- - x - - x x x x -"
+    },
+    "438_10x10": {
+      "id": "438_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/438.a.htm",
+      "solution": "10 10\nx - - x - x - - x x\nx x x x - x - - - x\nx - - - - - x - - -\n- - x - - - - - - -\n- - x - x - - x x x\n- x - - x - - - - -\n- - - - x - - x - x\n- - x - - - - x x -\n- x x - x - - x - -\n- - x - - - - - - -"
+    },
+    "439_11x11": {
+      "id": "439_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/439.a.htm",
+      "solution": "11 11\nx x - - - - x - - - x\n- - - - - - - x x - x\n- - x - - - - - - - -\n- - - x - - - - - - -\nx x - x - - - - - x -\n- x - - - - x - - x -\n- x x x x x x x - x x\n- - x - - - - x - - -\nx x - x - - x x - - -\nx - - x - - x x x x -\nx - - - - - x - - - -"
+    },
+    "440_11x11": {
+      "id": "440_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/440.a.htm",
+      "solution": "11 11\n- - - - x - x - - - -\n- - x - - - - - x - -\nx - - - - x - - - - x\n- - - x x x - - - x x\nx - - x - - - - - - -\n- - - - x - - x - x x\n- - - x - x - x x - x\n- x x x x - - - - x x\nx - - - - - - x - - -\nx - - - - - - - - x x\n- - - x - x - x x x x"
+    },
+    "441_7x7": {
+      "id": "441_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/441.a.htm",
+      "solution": "7 7\n- x x x - - x\nx - - - - - -\n- - - x - x -\n- - - - x - -\n- x - - - x -\nx - - - - - -\n- - x - - - x"
+    },
+    "442_7x7": {
+      "id": "442_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/442.a.htm",
+      "solution": "7 7\n- - - x - - -\nx x - x - - -\n- - x - - - x\n- - - - - x -\n- - x - x - -\n- - - x - - -\nx - - x x - -"
+    },
+    "443_8x8": {
+      "id": "443_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/443.a.htm",
+      "solution": "8 8\n- - - x - - x -\nx x x - - - - -\n- - - - - - - x\nx - - - x - - -\n- - - - - x - x\nx - x x - - x -\n- - x - - x x -\n- - x - - - - -"
+    },
+    "444_8x8": {
+      "id": "444_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/444.a.htm",
+      "solution": "8 8\nx - - x - - - -\nx - - - - - - -\n- - - - x - - -\n- - - x - - - -\n- - - - - x x x\nx - - - x - - -\nx - x x - - x -\nx x x - x - - -"
+    },
+    "445_9x9": {
+      "id": "445_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/445.a.htm",
+      "solution": "9 9\n- - - x - - - - x\n- - x x - - - - -\nx x - - x - - - -\nx - - x - x x x -\n- x - - - x x x -\n- x - - - - - - x\n- - - - - x x x x\n- x - - - x - - -\n- - - - - - - x -"
+    },
+    "446_9x9": {
+      "id": "446_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/446.a.htm",
+      "solution": "9 9\n- x - x x - x x -\nx - - - - - x - -\n- x - - - - - - x\n- - - - - - x - -\n- - - - x - - - -\n- - x - - x - x x\n- x - - - - x - x\n- - x x - - - - -\n- x x x - - x - x"
+    },
+    "447_10x10": {
+      "id": "447_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/447.a.htm",
+      "solution": "10 10\n- x x - - - - - - -\n- - - x - - - - - -\nx - x - - - - - - -\nx - - - - x - x - -\nx - x - x - - x x x\n- - x - - - - x - -\n- x - - - - x - x x\n- - - - - x - - - x\n- - - - - x x x - x\n- - x - x - x x x x"
+    },
+    "448_10x10": {
+      "id": "448_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/448.a.htm",
+      "solution": "10 10\n- - x x - x x x x -\n- - - - x - - - - -\n- - - - - - x - - -\nx x - - - - x x - x\nx - x - - - - x x x\n- - - - - - - - x -\n- - x - x x - - - -\n- - x - - - x - - x\n- - x - - - - - x -\n- - x - x x - - x x"
+    },
+    "449_11x11": {
+      "id": "449_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/449.a.htm",
+      "solution": "11 11\n- - - - - x x x - - -\nx - - - - - - x - x x\n- - - - x - x - x - x\n- x - - x - - - - - -\n- - x x x x x - - - x\n- - x - x x x x - x x\n- - - x - - - - - - -\nx - - - - - - - - - -\n- - - - x x - - - - x\n- - - - x x x x x x x\nx - x - - - - - - - -"
+    },
+    "450_11x11": {
+      "id": "450_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/450.a.htm",
+      "solution": "11 11\nx - - - x - - - - - x\nx x x x - - - - x x -\nx - - - - - - - - - -\n- - - x - x - x - x x\n- - - x - - - x - - x\n- - - - - - - x - - x\n- - x x x - - x - x x\n- - x x - - x - - - x\n- - - x - - x - - - -\n- - x x - - x x - x x\n- - x - - - - x - - -"
+    },
+    "451_7x7": {
+      "id": "451_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/451.a.htm",
+      "solution": "7 7\nx - - - - x -\n- x - x - - x\n- - x x - - -\nx - - - - - -\nx - - - - - -\n- x - - x - -\n- - x - - x -"
+    },
+    "452_7x7": {
+      "id": "452_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/452.a.htm",
+      "solution": "7 7\n- - x x - - x\n- - - - x x -\n- x x - - - -\nx - - - - x -\n- - - x - - -\n- - x - - - x\n- - - - x - -"
+    },
+    "453_8x8": {
+      "id": "453_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/453.a.htm",
+      "solution": "8 8\n- x - - - x - -\n- - - x - - x -\nx - x - x x - x\n- x - - x - - -\n- - - x - - - -\n- - - - x x - -\n- - - - x - - -\n- - - x x - - x"
+    },
+    "454_8x8": {
+      "id": "454_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/454.a.htm",
+      "solution": "8 8\n- - - - x - x -\n- - x - - - - -\n- x - x x - - -\n- - - - x - - -\n- - x - - - - -\n- - x - - - - -\n- - x x - x x -\nx - - x x x - x"
+    },
+    "455_9x9": {
+      "id": "455_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/455.a.htm",
+      "solution": "9 9\n- - - x x - - - -\n- - x - - - - - -\n- x - x x - x x x\n- x - x - - - - x\n- x - - - - - x -\n- - - x x - - - x\nx x - x - - - x -\n- - - x - - - x x\n- - - - - x - - -"
+    },
+    "456_9x9": {
+      "id": "456_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/456.a.htm",
+      "solution": "9 9\n- x - - - - - - -\n- - x - - - - - x\nx - - - x - - - -\n- x x - - x x x -\n- - x x x - x - -\n- - - - - x - - -\n- - x - - - - - -\nx x x - - x - x -\n- x - - - x x - x"
+    },
+    "457_10x10": {
+      "id": "457_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/457.a.htm",
+      "solution": "10 10\n- - x - - x x - x x\n- x - x - - - - - -\n- x - - - - - - - -\nx - - - x - - - x -\n- x - - - - - - - -\nx - x x - x - - - -\n- - - - - - x x x -\nx - x x - - x - x x\nx - x - - - x - - x\n- - - - - x x - x -"
+    },
+    "458_10x10": {
+      "id": "458_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/458.a.htm",
+      "solution": "10 10\n- x - - - - x x - -\n- - x - x x - x x -\n- x x - - - x - x -\n- x - - - - - - - x\nx x - - - - - - - x\n- - - - - x - x - -\n- x - - - - - - x x\n- x - - - x - - x -\n- x - x - - x - - -\n- - - x - - x - x x"
+    },
+    "459_11x11": {
+      "id": "459_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/459.a.htm",
+      "solution": "11 11\n- - - - x x - - - - -\n- x - x - x - x x x x\nx - x - - - - - - - -\n- - x - - - - - - - -\nx x - x - x - - x - -\nx x - - - x x - x - -\nx - - - - x - - x - -\nx - x x - - - x x x -\n- - - - - x - x - x x\n- - - x - - - - - - -\nx - - - - x - x x - -"
+    },
+    "460_11x11": {
+      "id": "460_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/460.a.htm",
+      "solution": "11 11\n- x - x x - - - - - -\n- x - x - - - x x - x\n- - - x - - - x x x x\n- - - - - - x - - - x\n- - - - - - - - - - x\n- x - x - x x x - - x\n- - - - - - - - - x -\n- - x - - - - - - - x\nx - - - - - x x x - x\n- - - - - x - x - - x\n- x x - - x x x x - x"
+    },
+    "461_7x7": {
+      "id": "461_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/461.a.htm",
+      "solution": "7 7\n- x - - - - -\n- - - - - x -\n- x - - x - -\n- - x - - - -\nx - x x x - x\nx - - - - - -\n- - - - - x x"
+    },
+    "462_7x7": {
+      "id": "462_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/462.a.htm",
+      "solution": "7 7\nx x - - - - -\n- - x x x - x\n- - x - - x -\n- - - - x - -\n- x - - - - -\n- - - - - - x\n- - x x - - -"
+    },
+    "463_8x8": {
+      "id": "463_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/463.a.htm",
+      "solution": "8 8\n- x x - x x - x\n- x - - - x - x\n- - - - x - - -\n- - - - - - x x\n- - - x - - - -\nx - - - - - - x\nx - - x - - - x\nx - - - - - - -"
+    },
+    "464_8x8": {
+      "id": "464_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/464.a.htm",
+      "solution": "8 8\n- - - x x - - -\n- x - - - - - -\nx x - - - - - x\n- - x - - - - x\n- - - - x - x -\nx x - - - - - x\n- x - - - - x -\n- x - - - x x -"
+    },
+    "465_9x9": {
+      "id": "465_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/465.a.htm",
+      "solution": "9 9\nx - x - - - - - -\n- x - x x - - - x\n- x - - - - - x -\n- - - x - - x x -\n- - x - x x - - -\n- - - x - - x - x\n- x - - x - - - x\n- - - - - - x - x\n- - - x x - - x -"
+    },
+    "466_9x9": {
+      "id": "466_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/466.a.htm",
+      "solution": "9 9\n- - - - - x - - -\n- x - - - - x - -\n- - - - - - x - x\nx x - x - - x - x\n- x - - - - - x -\nx x - - - - - x -\n- - - x - - - x -\n- - - x - - - - -\n- x x - x x x x x"
+    },
+    "467_10x10": {
+      "id": "467_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/467.a.htm",
+      "solution": "10 10\n- x x x - - - x - -\n- - - - - - - - x -\n- x - x - x - - x -\n- - x x - - - - - -\n- - - - x - - - x -\nx - x - - - x - x -\n- x x x x x - x x -\n- - - x - - - - x -\n- - x - x x - - x x\n- - - - - - x - - -"
+    },
+    "468_10x10": {
+      "id": "468_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/468.a.htm",
+      "solution": "10 10\n- x - x x - x - x x\n- x - - - - - - - -\nx - - - - - - - - -\n- - x - - x x x x x\nx - x - - - - - - -\n- - - - - x - - - -\n- - - x - x - x - x\n- - x x x x - - - -\nx - - - x x - x - -\nx - - - - - x - x -"
+    },
+    "469_11x11": {
+      "id": "469_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/469.a.htm",
+      "solution": "11 11\n- - - x x x - - x - -\nx x x x - - - - - - -\n- - x x - x x - - - x\n- - - - - x x - x x x\n- - - - - x x x x - x\n- - - - x - - - - - -\n- - - x - - x - x x -\n- - - - - - - x - - -\n- - - x - - - - x - x\n- - - - - - - x x - x\n- - x x - x - x - - x"
+    },
+    "470_11x11": {
+      "id": "470_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/470.a.htm",
+      "solution": "11 11\nx x - - - - - - x x -\n- - - x - x x x x - x\nx - x x - x x x - x x\n- x - - - - - - - - -\nx - - - - x - x x - -\nx - x - - - - - - - -\n- - - - x - - x - - -\nx x - - - - x x - x x\nx x - - - - - - x - -\n- - - - - - x x - - -\n- - - - - x - x - - -"
+    },
+    "471_7x7": {
+      "id": "471_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/471.a.htm",
+      "solution": "7 7\nx - - - - - x\n- x - - - - x\n- - - - x - -\n- - - - - x x\n- - - x - - -\n- - x - - x x\nx x - - - - -"
+    },
+    "472_7x7": {
+      "id": "472_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/472.a.htm",
+      "solution": "7 7\n- - - x x - -\n- x x - - - -\nx - - - - - -\n- - - - - x x\n- x - - - - -\n- - x - x x -\nx - - - - - x"
+    },
+    "473_8x8": {
+      "id": "473_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/473.a.htm",
+      "solution": "8 8\nx - x - - - - -\n- - - x - - - -\n- x - x - - - -\nx - - - x - x x\n- - - - x - - x\n- - x x - - - -\n- - x x - - - -\n- - - - x x x -"
+    },
+    "474_8x8": {
+      "id": "474_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/474.a.htm",
+      "solution": "8 8\n- - - - - x x x\n- x x - x - - x\nx x - x - - - -\n- - - - x - - -\n- x - - - - - -\n- x - x - - x -\nx - - - - - x -\n- - x - - - - -"
+    },
+    "475_9x9": {
+      "id": "475_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/475.a.htm",
+      "solution": "9 9\n- - x x - x - - x\n- - - x x - x - x\n- - - x - - - - -\n- - - - x - - - -\n- - - x - - - - -\nx x - x - x - - -\n- - - x - - - x -\nx - x x - - - - x\n- x - x x - - - x"
+    },
+    "476_9x9": {
+      "id": "476_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/476.a.htm",
+      "solution": "9 9\n- x x - x - - - -\n- - - x x - x x -\nx - - - - x - - x\nx - - - - - - - -\n- x - - x - - - -\nx x - - - x - - -\nx x - - x - - x -\n- x - - x - - x -\n- - - - - - - x x"
+    },
+    "477_10x10": {
+      "id": "477_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/477.a.htm",
+      "solution": "10 10\n- x x - - x - x - -\n- - - x x - - x - x\n- - x x - - x - x -\nx - - x - - - - - -\nx - - - - x x - x x\nx - - - - x x x - -\n- x - - - x - - - -\nx - x - - x - - x -\n- - - - - x x - - -\nx - - - - - - - - -"
+    },
+    "478_10x10": {
+      "id": "478_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/478.a.htm",
+      "solution": "10 10\nx x - - - - - - - -\n- - - - - - x - - -\nx - x - x x - - x -\n- - - x x x x - - -\nx - - - - - x x - -\nx - x - - - x x x x\nx - x x - - x - - -\nx - - - - - - - x -\n- x - - - - x - - -\n- - - - - - x x - x"
+    },
+    "479_11x11": {
+      "id": "479_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/479.a.htm",
+      "solution": "11 11\n- - - x x - - - - - -\n- - - - - - - - - - x\nx - x - x x x x - x x\nx - x - x - - - - x -\n- - x - - x - x x - x\n- - x - - x x x - - -\n- x x - - - - x - - -\n- - - - - - - - - x -\n- - x - - - - - x x x\n- - - - - x - - x - -\n- - - - x x - x x x x"
+    },
+    "480_11x11": {
+      "id": "480_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/480.a.htm",
+      "solution": "11 11\n- x - - x x x - - - -\n- - x - - - - - - - -\n- - - x - - - - - - -\nx - - - - - - - x - -\nx x - - - x - - - x x\n- x x - - - - x x x x\n- x x - x - x - - - x\nx x - - - - - - - - -\n- - - - x - - x x x x\n- x - - - - - x x x -\nx - - - - - - x x x x"
+    },
+    "481_7x7": {
+      "id": "481_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/481.a.htm",
+      "solution": "7 7\nx - - - - - x\n- x - - - - -\n- - x - x x -\n- - x - - x -\n- - x - - - x\n- - - x x - -\n- - - - x - -"
+    },
+    "482_7x7": {
+      "id": "482_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/482.a.htm",
+      "solution": "7 7\nx - - x - - -\n- - - - x x -\n- - - - x - -\nx - - - - - x\n- - x - x - x\n- - x - - - -\n- x x - - - -"
+    },
+    "483_8x8": {
+      "id": "483_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/483.a.htm",
+      "solution": "8 8\n- - - - - - x -\nx - - - - - - -\n- - - - - x - -\nx x - - - - - x\n- - x - x - - -\n- - x - - x x -\n- - x - x - - x\n- - x x - x - x"
+    },
+    "484_8x8": {
+      "id": "484_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/484.a.htm",
+      "solution": "8 8\nx - x - - - - -\n- - - x - - x x\n- - x - - x - -\nx x - - - x x -\n- x - - - - x -\n- - - x - - - -\n- - - x x - x -\n- - - - - - x -"
+    },
+    "485_9x9": {
+      "id": "485_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/485.a.htm",
+      "solution": "9 9\nx - - - - x - x -\nx - - - x x - - -\nx - x - - - - - -\n- - - - x - - - -\n- x - - - - x - -\nx - x - - x x x x\n- - - x x - - x x\nx - x x - - - - -\nx - - - - - - - -"
+    },
+    "486_9x9": {
+      "id": "486_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/486.a.htm",
+      "solution": "9 9\n- x x - - - - - -\n- x - - x - - - -\nx - - - - - x - -\n- - - - - x - x -\n- - - - - x x x x\n- - - x x - x - -\nx - - - x x x - -\n- - - x x x x - -\n- x x - - - - - -"
+    },
+    "487_10x10": {
+      "id": "487_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/487.a.htm",
+      "solution": "10 10\nx - - - - - - - - x\n- - - - - x x x - -\n- - - - - x - - - -\n- x - x x - x x - -\n- - - - x - x - - -\n- x - - - - - - - -\n- - x - - - x - x x\nx - x - - - x x - x\nx - - - x x x - x x\n- - - x - x - - - x"
+    },
+    "488_10x10": {
+      "id": "488_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/488.a.htm",
+      "solution": "10 10\n- - x - - - - x - x\nx - - - - x - x x x\n- - - - - x - x - -\n- x - - - - x - - -\n- x - - x - - x x -\n- x x x - - - x x -\n- x - - - x x - x x\n- - x - - - - - - -\n- x - - - x - - x -\n- x - - - - - x - -"
+    },
+    "489_11x11": {
+      "id": "489_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/489.a.htm",
+      "solution": "11 11\nx - - - - - - - x - -\n- - - x - - - x - - -\nx - - - - - - - - - -\nx - x - - x - - - - -\n- - - - - - x x - - x\n- - x - x - x - - x x\n- x x x x - x x x x x\n- - x x x - x x x - -\n- - - - - - - - x - -\n- - x - x - x - x x -\n- - x - x - - - - x -"
+    },
+    "490_11x11": {
+      "id": "490_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/490.a.htm",
+      "solution": "11 11\nx - - - x - - x - - -\n- x x - - - x - x x -\n- - - - - - x - - - -\n- x - - - - - - - - x\n- - - x - - x x - - -\nx - - - x x - - - x x\n- - - - - x - - x - x\n- - - x - - x - - x x\n- x - - - x x x x x x\n- - - - - - x x - x x\n- - - - - x - - - x x"
+    },
+    "491_7x7": {
+      "id": "491_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/491.a.htm",
+      "solution": "7 7\nx - x - - - -\n- x - - - - -\n- - - - x - -\n- - - x - - -\n- - x - - - -\n- x - - x x x\nx - - - x - x"
+    },
+    "492_7x7": {
+      "id": "492_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/492.a.htm",
+      "solution": "7 7\n- x - x x - -\n- - - - x x x\nx x - - - - -\nx - - - - - x\n- - - - - - x\n- - x - - - -\n- - - - x - -"
+    },
+    "493_8x8": {
+      "id": "493_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/493.a.htm",
+      "solution": "8 8\n- x - x x - - -\n- - x x - - - -\n- x - - - x - x\n- - - - x - - -\nx - - - - - x -\n- x - - - - - x\n- - - x x x - -\nx - - - x - - -"
+    },
+    "494_8x8": {
+      "id": "494_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/494.a.htm",
+      "solution": "8 8\n- x - - x x x x\nx - x - - x - -\n- - - - x - - -\n- - - x - - - -\n- - - - - x x -\n- x - - - x - x\n- x - - - - - x\n- - - - - - - x"
+    },
+    "495_9x9": {
+      "id": "495_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/495.a.htm",
+      "solution": "9 9\n- x - - x - x x x\n- - - x - - - - -\n- x x - - - x - x\nx - - - - x x - x\n- - - x x - - - x\n- - - - - - x - -\n- - - - x - x x -\n- - x - - - - - -\nx - - - x - x - -"
+    },
+    "496_9x9": {
+      "id": "496_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/496.a.htm",
+      "solution": "9 9\n- - x - - - - - -\n- x - - x - x - -\nx - - - - - - x -\n- - x - x - x - -\nx x x - - - - - x\n- - x - - - - - -\nx - - - - - x - x\nx x - x - x - - -\nx - - - x x - - x"
+    },
+    "497_10x10": {
+      "id": "497_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/497.a.htm",
+      "solution": "10 10\n- x x - x - - - - x\nx - x x x x - x x x\n- - x - x - - x - -\n- - x - - - x - - -\nx - - x - x - - - x\nx - - x - - - - - -\n- x - - - x - - - -\n- - - - - x - x - -\n- - x - - - - - - -\nx - - x - x - - x -"
+    },
+    "498_10x10": {
+      "id": "498_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/498.a.htm",
+      "solution": "10 10\nx x x x x - - - x -\n- x - x - - x - x x\n- x - - - - - - - -\n- - x - - - - - - -\n- - - - - x - x - -\n- - - - - - x - x -\nx - - x - - x - x x\n- - x - - - - - - -\nx - x - - - - - x -\nx x - - x - x - x x"
+    },
+    "499_11x11": {
+      "id": "499_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/499.a.htm",
+      "solution": "11 11\n- - x x - - - x - x x\nx - - - x - - - - - -\n- - - x - - - - - x -\n- - - x x x x x - - -\n- x x - - x - x - x -\n- x - x - - - x - x -\n- - - - - - - x x - x\n- - - x - x x x - x x\n- - x x - - - - - - -\n- - - x - - - - - x x\n- x - - - - - - - x x"
+    },
+    "500_11x11": {
+      "id": "500_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/500.a.htm",
+      "solution": "11 11\nx - - x - - - - - x -\n- x x x x x - - x x -\n- x - - - - - - x x -\nx - - - x - x - x - x\n- - x - x - - x x x x\n- - - - - x - - - x -\n- - - x - x - - x x x\n- - - x - - - - x - -\n- - - - x - - - - x -\n- - - - x - - - - x -\n- - - - - - x - x x -"
+    },
+    "501_7x7": {
+      "id": "501_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/501.a.htm",
+      "solution": "7 7\nx x - - x x x\n- - - - x - -\n- - x x - x -\n- - - - x - -\n- - - - - - x\n- - - x - - -\n- x - - - - -"
+    },
+    "502_7x7": {
+      "id": "502_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/502.a.htm",
+      "solution": "7 7\n- x - - - - x\n- - x x x - x\n- - - - x x -\nx - - - - - -\nx - - x - - -\n- - - - x - -\nx - - - - - -"
+    },
+    "503_8x8": {
+      "id": "503_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/503.a.htm",
+      "solution": "8 8\nx - - x - - - -\n- - - - - - x -\nx - - - - - - -\nx x - x x - - -\nx - - - - - - x\n- x x - - x x x\n- - - - x - - x\n- - x - - - - -"
+    },
+    "504_8x8": {
+      "id": "504_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/504.a.htm",
+      "solution": "8 8\n- - - - - x - x\nx - - - - - x -\nx - - - - - - x\n- x x - - - - -\n- - - - x - - -\nx - x x x - - x\n- - - x - - x x\n- - - - - x - -"
+    },
+    "505_9x9": {
+      "id": "505_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/505.a.htm",
+      "solution": "9 9\n- x - x x x - x -\n- x - x - - - - -\n- - - - - x x - -\n- - x - x x - - -\nx - - - x x x - -\n- - - - x - - - -\n- x x - x - x - -\n- - - - x x x - -\n- - - - - - - - x"
+    },
+    "506_9x9": {
+      "id": "506_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/506.a.htm",
+      "solution": "9 9\n- - - - x x - x x\nx x x - x - - - -\n- - - - - x x - -\n- x x - - - x - x\n- - - - - - - - x\n- x - x - - - x -\n- x - - - - - - x\n- x - - - - - x -\n- - - x - - x - x"
+    },
+    "507_10x10": {
+      "id": "507_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/507.a.htm",
+      "solution": "10 10\n- x x - x x x - - x\n- - - - - - x - - x\nx - - - x - - - - -\nx - x - - - - - - -\nx - - x - - - x - -\n- - - x x x - x - -\nx - - - - - x - - x\nx - - - - - - - - x\n- - - x - - x x - x\n- - - x - - x - x x"
+    },
+    "508_10x10": {
+      "id": "508_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/508.a.htm",
+      "solution": "10 10\n- x - - - - - - - x\nx x x x - - - - x -\n- - - x - - x - - -\n- x - x - x - x - -\n- x - - x - - - - -\n- x - - - - x - - -\n- x x x x x - x - -\n- - - x - - x - - -\n- x - x x x x x - -\nx - - - - - - - - -"
+    },
+    "509_11x11": {
+      "id": "509_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/509.a.htm",
+      "solution": "11 11\n- - - - - - - x - - - \n- - - - - - - - - x - \n- - - x - - - - - - - \n- - - - - - x - - - - \n- - x - - x - - - - - \nx - - - - - - - x - x \nx x - - - - - - - - - \nx - - - - - - - - - - \n- - - - x - x - - x - \n- - x - - x - - - - - \n- - - - - - - - - x -"
+    },
+    "510_11x11": {
+      "id": "510_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/510.a.htm",
+      "solution": "11 11\n- - - - - - - - - x - \n- - - - x - - - - - - \n- - x x - - - - - - - \n- x - x - x - - - - - \n- - - - - - x - - - - \n- - x - - - x - - - x \n- - - - - x - - - - - \n- - - - - - - - x - - \n- - - x - - - x - - - \n- - - - x - - - - - x \nx - - - - - - - - - -"
+    },
+    "511_7x7": {
+      "id": "511_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/511.a.htm",
+      "solution": "7 7\nx x - - - - -\n- - - - - - x\n- x x - - - x\n- - x x - - -\n- - - - x - x\n- - - x - - -\n- - - - x x -"
+    },
+    "512_7x7": {
+      "id": "512_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/512.a.htm",
+      "solution": "7 7\n- x x x - - -\nx - - x - - -\n- - x - x x -\nx - - - - - x\n- x - - - - -\n- - - - - - x\n- x - - - - -"
+    },
+    "513_8x8": {
+      "id": "513_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/513.a.htm",
+      "solution": "8 8\nx - - x x - x -\n- - - - - - - x\n- x - - - - - x\n- - x - - - - -\nx - - x - - - -\n- - - - x x x -\n- x - - - - x -\nx x - - - - - x"
+    },
+    "514_8x8": {
+      "id": "514_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/514.a.htm",
+      "solution": "8 8\n- - - x x - - -\n- - - x x x - x\n- - - - - - x -\nx - - - - - - -\n- x x - - x - x\nx - - - - - - x\n- - - - x x - -\n- x - - - x - -"
+    },
+    "515_9x9": {
+      "id": "515_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/515.a.htm",
+      "solution": "9 9\nx x - - - x - - -\n- - - - - x - x -\n- - - - x - - - -\n- x - x - x - - -\nx - - - - - - - -\n- x - - - - x - -\nx x x x - x - - x\nx x - - - - x - -\n- x x x x - - - -"
+    },
+    "516_9x9": {
+      "id": "516_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/516.a.htm",
+      "solution": "9 9\n- - - - x - - x -\nx x - - - - - - -\n- x - - - - - - -\nx x x - - - - - -\n- - x - x x - x -\n- - - x x - - - -\nx - - - - x x - x\n- x x - x x - - -\n- x x - - - - x -"
+    },
+    "517_10x10": {
+      "id": "517_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/517.a.htm",
+      "solution": "10 10\n- - - x - - - - x -\n- x - x - - x - x x\n- - x - - x - x x -\n- x - - x - - - - -\nx - - - x x - - x x\n- - - - - x - - - x\n- - - - x - - - x x\n- - x - x - x x x x\n- - - - - x - - - -\n- - x - - - - - - x"
+    },
+    "518_10x10": {
+      "id": "518_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/518.a.htm",
+      "solution": "10 10\n- - - x - - - - - -\n- x x x - - - - x -\nx x - - - - - - - -\nx - - - - - x x x x\n- - - x x - - - x x\nx - - - x - x x - -\n- - - - x - x - - -\n- - - - - x x - - -\nx - x x - - x - - -\nx - - - - x x - x -"
+    },
+    "519_11x11": {
+      "id": "519_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/519.a.htm",
+      "solution": "11 11\n- - - - - - - - x - - \nx - - - - - - x - - - \n- - - - x - - - - - - \n- - - - x - - - - - x \n- x - x - - - - - - - \n- - - - - x x - - - - \n- - x - - - x - - - - \n- - - - - - - - x - - \n- - - - - - - x - x - \n- - - - - - - - x - - \nx x - - - - - - - - -"
+    },
+    "520_11x11": {
+      "id": "520_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/520.a.htm",
+      "solution": "11 11\n- - - x - - - - - - - \n- - - - - - - x - - - \n- - - - - - x - - - - \n- - x - - - - - - - - \n- x - - - - - - x - - \n- - - - - x - - x x - \nx - - - x - - x - - - \n- - - - - - x - - x x \n- - - - x - - - - - - \n- - - - - - - - - - x \n- - - - - - - - - - x"
+    },
+    "521_7x7": {
+      "id": "521_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/521.a.htm",
+      "solution": "7 7\nx - x - x - -\n- x - - x - -\n- - - x - - -\n- - - - - x x\n- x - - - - x\n- - - - x - -\n- - - - x - x"
+    },
+    "522_7x7": {
+      "id": "522_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/522.a.htm",
+      "solution": "7 7\n- - - x - - -\n- - - x - - -\nx - - x - - -\n- - x x - - -\n- - x - - - -\n- x - - - x x\n- - x - x - x"
+    },
+    "523_8x8": {
+      "id": "523_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/523.a.htm",
+      "solution": "8 8\n- x - - - - x -\n- - - - - - - x\n- - - x - - - -\nx - - - - - - -\nx - - - - - x x\n- - x x - x x -\n- x - x x - - x\n- - - - - x x -"
+    },
+    "524_8x8": {
+      "id": "524_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/524.a.htm",
+      "solution": "8 8\n- x - - - - - -\n- x - x x - x -\n- - x - - - x -\n- - - - - - x -\n- - - - x - - x\n- x x - - x - x\n- - - - - x - -\nx - - - - x - x"
+    },
+    "525_9x9": {
+      "id": "525_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/525.a.htm",
+      "solution": "9 9\nx - x - - - - - -\n- - x - x x - x x\nx - x - - - - x -\n- x - - - - x - -\n- - - x - x - - -\n- x x x x x - - x\n- - - - - - - - x\n- - x - x x - - -\n- x - - - - - - -"
+    },
+    "526_9x9": {
+      "id": "526_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/526.a.htm",
+      "solution": "9 9\nx x - x x - x - -\n- - x - - - x x x\n- - - - - - x x -\n- - - x - - x - -\n- - - x - - - x -\n- - - - - x - - -\nx - - x - x x x -\n- x - - - x - x -\n- - x - - - - - -"
+    },
+    "527_10x10": {
+      "id": "527_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/527.a.htm",
+      "solution": "10 10\nx x - x x - x x x -\nx - - x x - - - - x\nx - - - - - - - - -\n- - - - - x - - - -\n- x - - - - - - - -\n- x x - - - - - x -\n- - - - x x - - x x\n- - x - x - - x - -\n- x - x x x - - x -\n- x - - x - x - - -"
+    },
+    "528_10x10": {
+      "id": "528_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/528.a.htm",
+      "solution": "10 10\n- x - - - x - - x -\n- x x x - - x - - x\n- x - - x - - - - -\n- - - - x - - - x -\n- - - - x - x - - -\n- - - - x - - x - x\n- - - x x - - - - -\n- - - - x - x - - x\nx - - x x - x - x x\n- - - - - - x x x x"
+    },
+    "529_11x11": {
+      "id": "529_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/529.a.htm",
+      "solution": "11 11\nx - - - - - - - - - - \n- - - x - - - - - - - \n- x - - - - - - - - - \n- - x - - - - - x - - \n- - - - - x - - - - - \n- x - - - - - - - - - \n- - x - x - - - - - x \n- - - - x - - x x x - \nx - - - - - - - - - - \n- - - - - - - x - - - \n- - - - - - x x - - -"
+    },
+    "530_11x11": {
+      "id": "530_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/530.a.htm",
+      "solution": "11 11\n- - - - - - - - - x - \n- - - x - x - - - - - \n- - - - - - x - - - x \n- - - - - - x - - - - \n- x - - - - - - x - - \n- - - - - - - - - - x \n- - - - - - - - - x - \n- - x - - - - - - - - \nx - - - - - - - x - x \n- - - - x - x x - - - \n- - - - - - - - x - -"
+    },
+    "531_7x7": {
+      "id": "531_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/531.a.htm",
+      "solution": "7 7\n- - - - - - x\n- - - - x - -\nx x - - - - -\nx - x - - - -\n- x x - - - x\nx - - - - - -\n- - x x - x -"
+    },
+    "532_7x7": {
+      "id": "532_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/532.a.htm",
+      "solution": "7 7\nx - - - - - -\n- - - - x - -\n- - - - - x x\n- - x - - - -\nx - x - - - -\n- x x x x - -\nx - - - - x -"
+    },
+    "533_8x8": {
+      "id": "533_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/533.a.htm",
+      "solution": "8 8\nx - - - x x - -\n- x - - x - - -\n- - x x - x - -\n- - - - - - x -\n- - - - - x - x\n- - x - x - - -\n- - - - x x x -\nx - - - - x - -"
+    },
+    "534_8x8": {
+      "id": "534_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/534.a.htm",
+      "solution": "8 8\n- - - - - x - x\nx - x x x - x -\nx - - - - x - x\n- - x - - x - -\n- x - - - - - -\n- - - - x - x -\n- - x - - - - -\n- - x - - x - -"
+    },
+    "535_9x9": {
+      "id": "535_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/535.a.htm",
+      "solution": "9 9\nx x - - - - x - -\n- - - x - - x - -\n- - - - - - - x -\n- - x x - x x - x\n- x - - - x x x -\n- - - - x - x - -\n- - - - - x - x -\n- x - x - - x x x\nx - - - - - - - -"
+    },
+    "536_9x9": {
+      "id": "536_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/536.a.htm",
+      "solution": "9 9\n- x - - x x - - -\nx - x - - - x - -\n- - - x - - - x -\n- - - x - - - x x\n- x - - x - - - -\n- - - x x x x x -\n- - - x x - - - -\n- x - - - - x - -\n- - - x x x - - -"
+    },
+    "537_10x10": {
+      "id": "537_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/537.a.htm",
+      "solution": "10 10\nx - x x x - x - x x\n- x - - - - x x x x\n- - - - x - - x x -\n- - - - - - x x x -\n- x - x - - - - x -\n- - - - - - - - x -\n- - - - - - - x x -\n- - x - - - - - - -\n- - - x - - - x - x\n- x - - - x - x - x"
+    },
+    "538_10x10": {
+      "id": "538_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/538.a.htm",
+      "solution": "10 10\n- - - x x - - - x -\n- - - - - - x x - -\n- x x x - x x - - -\n- - - - - - x - - -\nx - - - - - - x x x\nx - x - - - - - - -\nx - - - - x - - - -\n- - - - x x - - - -\n- - x - x x x x - -\nx - x - x - x x x -"
+    },
+    "539_11x11": {
+      "id": "539_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/539.a.htm",
+      "solution": "11 11\n- - - - - - - - - - x \n- - - x - - - - - - - \n- - x - - - - - - - - \n- x - - x - - - - - - \n- - - - - - x - - - - \nx - - - x x - - - - - \nx - - - - - - - - - - \n- - - - - x - - x - - \n- - x - - - - x - - - \n- - - x x x - - - - - \n- - - - - - - - - x -"
+    },
+    "540_11x11": {
+      "id": "540_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/540.a.htm",
+      "solution": "11 11\n- - - - - x - - - - - \nx - - - x - - - - - - \n- - - x - x - - - x - \n- x x - - - x - - - - \n- - x - - - - - - - - \n- - - - - - - x - - - \n- - - - - - - - - - x \n- x - - - - - - x - - \n- - - - - - - - - x - \n- - - - - x - - - - - \n- - - - - - - x - - x"
+    },
+    "541_7x7": {
+      "id": "541_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/541.a.htm",
+      "solution": "7 7\nx - - - - - -\n- - - x - - x\n- - x - x - -\nx - - x - - -\n- - - x - x -\n- x - - - x -\n- - x - x - -"
+    },
+    "542_7x7": {
+      "id": "542_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/542.a.htm",
+      "solution": "7 7\n- - - - - - x\n- - x x - x -\n- - - - x - -\nx x - - x x -\n- - - - - - x\nx - - - - - -\nx - - - - - x"
+    },
+    "543_8x8": {
+      "id": "543_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/543.a.htm",
+      "solution": "8 8\n- - - - - x - x\n- x x - x - - -\nx - - - - - - -\nx - - - - - x -\n- x - x x - - -\nx - - - - - x x\n- - - - - - - x\n- - - - x x - x"
+    },
+    "544_8x8": {
+      "id": "544_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/544.a.htm",
+      "solution": "8 8\n- - - - - - - x\nx x - - - - - -\n- - - - - - - x\n- - x - - - - -\n- - - - x x - -\nx - x - - x x -\n- x - - x - x -\n- - x x x - x -"
+    },
+    "545_9x9": {
+      "id": "545_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/545.a.htm",
+      "solution": "9 9\n- x x - - - - x -\n- - - x x x - - -\nx - x - - - - x -\nx x x - - - - - -\nx x - - x - - - x\n- - x - - - - - -\nx x - - - - - - -\n- - x - - - - - x\n- x x - x - x - -"
+    },
+    "546_9x9": {
+      "id": "546_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/546.a.htm",
+      "solution": "9 9\nx x - - x x - x x\n- - - - - - x - -\n- - - - - - - x x\nx - - x - x - - -\n- - - - - x - - -\n- - x - - x - - -\nx x - - - - - - -\n- - - x x x - - -\nx - x x - x - - x"
+    },
+    "547_10x10": {
+      "id": "547_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/547.a.htm",
+      "solution": "10 10\n- x x x x x - - x x\n- x x x x - - x x x\n- - - x - - - - - -\n- - - - - x - - - -\n- x - - - - - - - -\n- x x - - - - - - x\nx x - - - x - - - -\nx - - - x - - - x x\nx - - - - - x - x -\n- - x - x - - - - -"
+    },
+    "548_10x10": {
+      "id": "548_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/548.a.htm",
+      "solution": "10 10\n- - - x - - x x - -\nx - x - - x - x x -\nx x - - x - - - x x\n- - x x x - x - x x\nx - x - - - - - x -\nx - - - - - - - - -\n- x - - - - - - - -\nx - - - - - - - - -\n- - x - - - - - x x\n- - x - - x x - x -"
+    },
+    "549_11x11": {
+      "id": "549_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/549.a.htm",
+      "solution": "11 11\n- - - - - - - x - - - \n- - - x - - - - - - - \n- - - - - - x - - - - \n- x - - - x - - - - - \nx - - - - - - - x x - \n- - - - - - - - - - x \n- x x x x - - - x - - \n- - - - x - - - - - - \n- - - - - - - - x - - \n- - - - x - - - - - - \n- - x - - - - - - - -"
+    },
+    "550_11x11": {
+      "id": "550_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/550.a.htm",
+      "solution": "11 11\n- - - x - - - x - - - \n- - - x - - - - - - - \n- - - - - - x - - - - \n- - - - - x - - - - x \nx - - - - - - - - - - \n- - - - x - - - - - - \nx x - - - - x - - x - \n- - - - - - - - x - - \n- - x - - - - - - - - \n- x - - x x - - - - - \n- - x - - - - - - - -"
+    },
+    "551_7x7": {
+      "id": "551_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/551.a.htm",
+      "solution": "7 7\n- x - x - x x\nx x - x - - -\n- x - - - - -\n- - - x x - -\n- - x - - - -\n- - - - x - -\n- x - - - - -"
+    },
+    "552_7x7": {
+      "id": "552_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/552.a.htm",
+      "solution": "7 7\n- - x - - - -\nx - x - - x -\n- - - - x x -\nx - - - - - -\n- - - x x - -\n- x - - - - -\nx - - x - - x"
+    },
+    "553_8x8": {
+      "id": "553_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/553.a.htm",
+      "solution": "8 8\nx - - - - - - -\nx x - - - - - -\n- x - - - - - -\n- x - - - - x -\n- - - - x x x x\n- x - - - - - x\n- x x - x - - -\n- x x x - - - -"
+    },
+    "554_8x8": {
+      "id": "554_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/554.a.htm",
+      "solution": "8 8\n- - - - - - - x\nx - - - - - - -\nx x x - - x x -\nx - - x x - - -\n- x x x - - - -\n- x - - - x - -\n- - - x - - - -\n- x - - - - x -"
+    },
+    "555_9x9": {
+      "id": "555_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/555.a.htm",
+      "solution": "9 9\n- - x - x - - x -\nx x - x - x - - -\nx - - - - - - - -\nx x - - x - - - -\n- x - - x - - - -\n- x - x - - x - -\n- x x - - x - - -\nx x - x - x - - -\nx - - - - - - - x"
+    },
+    "556_9x9": {
+      "id": "556_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/556.a.htm",
+      "solution": "9 9\n- x x x - - x - x\nx - - - - - x - -\n- - - - x - x x -\nx - x - - - - - -\n- - x - - x - x -\n- - - - - x - - x\n- - - - - - x - -\n- - x x - - - x x\nx - x - - - x - -"
+    },
+    "557_10x10": {
+      "id": "557_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/557.a.htm",
+      "solution": "10 10\n- - - - - - x - - x\n- - x x - - - x x x\n- - - x x - - - x x\n- x x x - - - - - -\n- - - x - - - - - x\n- - - x - x - - - -\n- x x - - - - - - -\n- x x - - - - - - -\nx - x x x x - - x x\n- x - - - x - - x -"
+    },
+    "558_10x10": {
+      "id": "558_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/558.a.htm",
+      "solution": "10 10\nx - - x - - - - - x\nx - x - - - - x - -\nx - - - x - x - - x\nx - x x - - - x - -\n- x x - - - - - - x\n- - x - - x - x - x\n- - x x - - - - - -\n- x - - - - - - - -\n- - x - - x - x x x\n- - x x - - - - x -"
+    },
+    "559_11x11": {
+      "id": "559_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/559.a.htm",
+      "solution": "11 11\n- - - - - x - x - - - \n- - x - x - - - x - - \n- - - - - - - - - - x \n- - - - - - x - - - - \n- - - - x - - - - x - \n- - - - - - - - - x - \n- - - - - - x - - - - \n- - x - - x - - - - - \nx - - - - - - - - x - \nx - - x - - - - - - - \n- x - - - - - - - - -"
+    },
+    "560_11x11": {
+      "id": "560_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/560.a.htm",
+      "solution": "11 11\n- - - - - - - x - - x \n- - - - x - - - - - - \n- - - - x - - - - - - \n- - - - - - - - - x - \nx - - - - - x - - - - \n- - - x - - - - - - - \n- - - - - x x - - - - \nx - - - - - - - - - - \n- - - - - - x - - - - \n- - x - - - x x - - - \n- x - - - - - - x - x"
+    },
+    "561_7x7": {
+      "id": "561_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/561.a.htm",
+      "solution": "7 7\n- - - - x - -\n- - - - - x -\n- - - - x - x\n- - - x x x -\n- - x - - - x\n- x - x - - -\nx - - - - x -"
+    },
+    "562_7x7": {
+      "id": "562_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/562.a.htm",
+      "solution": "7 7\nx x - x - - -\n- x - - - x -\n- - - - x - -\n- - - - x - x\n- - x - - x -\n- - x - x - -\n- - x - - - -"
+    },
+    "563_8x8": {
+      "id": "563_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/563.a.htm",
+      "solution": "8 8\nx - x - - - - x\n- - x - - x x x\n- - - - x - x -\n- x - x - - - -\n- - - x - - - -\nx - - - - - - x\n- x - - x - - x\n- - x - - - - -"
+    },
+    "564_8x8": {
+      "id": "564_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/564.a.htm",
+      "solution": "8 8\n- x - - - - - x\nx - - - - x - x\n- - - x - - - -\n- x - - - x x -\n- x x x - - - -\n- - - x - x - -\n- - - - - x - -\nx - - - x x - -"
+    },
+    "565_9x9": {
+      "id": "565_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/565.a.htm",
+      "solution": "9 9\n- - x x - x x x x\n- x - - - - - - -\n- - - - - - - x -\n- x - x x - - - x\n- - - - x x x - x\nx - x - - - - - -\nx - - x x - - - -\nx - - - - x - - -\nx x - - - - - - -"
+    },
+    "566_9x9": {
+      "id": "566_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/566.a.htm",
+      "solution": "9 9\n- - - x - - - - -\n- - - - x - - - -\nx - x - - - - x x\n- - - - - - - x x\n- - x - - - - - -\nx - - - - - x x -\n- x x x x - - x x\n- - x - - x x - x\nx x x - - - - - -"
+    },
+    "567_9x9": {
+      "id": "567_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/567.a.htm",
+      "solution": "9 9\n- x - - - - - x -\n- x - x - x - - x\n- x - - - - - - -\nx x x x x - - - -\n- x - - x x - - -\n- x x - - - x - -\n- - - x - x - - -\n- - - x x x - - -\n- x - - - - - - x"
+    },
+    "568_10x10": {
+      "id": "568_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/568.a.htm",
+      "solution": "10 10\n- x x x - x x x - x\n- - - x - - - - - -\n- - - - x - x - - -\n- - x x x - - - - -\n- - - - - - - x x -\n- - - x - - x - - -\nx - x x - - x x - -\n- - - - - x x x x -\n- - x - - x x x x -\n- - - - - - x - - -"
+    },
+    "569_10x10": {
+      "id": "569_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/569.a.htm",
+      "solution": "10 10\n- - - x - - x - x -\nx - - - x - - - - -\nx - - - - x x - - -\n- x - - - - x - - x\n- - - - - x x - - -\nx - x - x - x x x x\n- - x - - - x - - -\nx - - - x - - - - -\n- - x x - - x - x -\n- - x - - - x - x x"
+    },
+    "570_10x10": {
+      "id": "570_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/570.a.htm",
+      "solution": "10 10\n- x - - x x x - x x\n- - - - x - - - - -\n- - - x - - - - - x\n- x - - - - - x x -\n- - - - x - - x x -\nx - - - x - - x - -\n- - - - - x - x - -\n- - x x x x x x x -\n- - - - - - - - x -\n- - - - x - x x x -"
+    },
+    "571_7x7": {
+      "id": "571_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/571.a.htm",
+      "solution": "7 7\nx - - - - - -\nx - - x - - -\n- x - - - - -\n- - - - - x x\n- - - - x - -\n- - - x x - x\nx - x - - x -"
+    },
+    "572_7x7": {
+      "id": "572_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/572.a.htm",
+      "solution": "7 7\n- - x - - x -\n- x x - - - x\n- - - x - - -\n- - x - x - -\n- x - - - - x\nx - - - - - -\n- - - x - x -"
+    },
+    "573_8x8": {
+      "id": "573_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/573.a.htm",
+      "solution": "8 8\n- - x x - - - x\n- x x x - - - -\n- x - - - - - -\nx - x - - - - -\n- - x - - - x -\n- - - x x x - -\n- x - - - x x -\n- - - - - - x -"
+    },
+    "574_8x8": {
+      "id": "574_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/574.a.htm",
+      "solution": "8 8\nx x - - - - x -\n- - - - - x - -\nx - - x x - x x\n- - - - x - - -\n- - - - - - - x\nx - x - - - - x\nx - - - - x x -\n- - - x - - - -"
+    },
+    "575_9x9": {
+      "id": "575_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/575.a.htm",
+      "solution": "9 9\n- - - x - - x - x\n- x - - - - - - -\n- - - - x - - - -\n- - x - - - x x x\n- - x - x x - x -\n- - x x - - x x -\n- - - x x - x - -\nx - - - - - - - -\nx - x - x x - - -"
+    },
+    "576_9x9": {
+      "id": "576_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/576.a.htm",
+      "solution": "9 9\n- - - x - x - x -\n- - x x x - - - x\n- x - - - - x - -\nx - - x - x x x x\n- - - - - - - x -\n- - - - - - - - x\nx - - - - x x - x\n- - - - - - x - -\n- x - x - - - - x"
+    },
+    "577_9x9": {
+      "id": "577_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/577.a.htm",
+      "solution": "9 9\n- x - - - x x - -\nx - - x x x - - x\n- x - - x - x x -\n- x - - - - - - -\n- x - - - x - - -\n- - x - - x - - -\n- - x - - x - - -\n- x x - x - - - x\n- - - - - x - x -"
+    },
+    "578_10x10": {
+      "id": "578_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/578.a.htm",
+      "solution": "10 10\n- x - x - - - - x -\nx x - - x - x x - -\nx x x - - - x x - -\n- - - x x - x x x x\n- - - x - - - x - -\n- x - - - - x x - -\n- - - - - - x - - -\n- x - - x x - x - -\n- - - x - - - - - -\n- - - - - - x - x -"
+    },
+    "579_10x10": {
+      "id": "579_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/579.a.htm",
+      "solution": "10 10\nx - - - - - - - - -\n- x - - x - - x - x\n- - x - - x - - - x\n- x - - - - - x - -\n- - x - - x - x x x\n- - - x - - - x - x\n- - - - x - x - - x\n- - - - - - x x x x\nx x - - x x - x - x\n- x - - - - - - - -"
+    },
+    "580_10x10": {
+      "id": "580_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/580.a.htm",
+      "solution": "10 10\n- - - x - - - - - x\n- - - - - - x - x -\nx x - x x x - x x -\n- - - - - - - x - -\nx - x - - - - - - -\nx - - - x x x x x -\n- - - - - - x x - -\nx - - x x x - x - -\n- - - - x x x - - -\n- - - - x x - - - -"
+    }
+  },
+  "info": "",
+  "count": 280
+}

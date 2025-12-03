@@ -1,18 +1,18 @@
 from CrawlerFactory import CrawlerFactory
 
 if __name__ == "__main__":
-    target = "Str8t"
+    target = "Kakurasu"
     data = {
         "puzzle_name": f"{target}",
         "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
         "root_url": f"https://www.janko.at/Raetsel/{target}/"
     }
     
-    data = {
-        "puzzle_name": f"{target}",
-        "index_url": f"https://www.janko.at/Raetsel/Straights/index.htm",
-        "root_url": f"https://www.janko.at/Raetsel/Straights/"
-    }
+    # data = {
+    #     "puzzle_name": f"{target}",
+    #     "index_url": f"https://www.janko.at/Raetsel/Straights/index.htm",
+    #     "root_url": f"https://www.janko.at/Raetsel/Straights/"
+    # }
     
     crawler = CrawlerFactory.get_crawler(target, data)
     ret = crawler.get_puzzle_indexes()

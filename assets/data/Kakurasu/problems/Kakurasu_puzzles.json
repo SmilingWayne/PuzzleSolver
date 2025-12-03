@@ -1,0 +1,1686 @@
+{
+  "puzzles": {
+    "301_5x5": {
+      "id": "301_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/301.a.htm",
+      "problem": "5 5\n8 12 11 4 4\n6 3 8 10 5"
+    },
+    "302_5x5": {
+      "id": "302_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/302.a.htm",
+      "problem": "5 5\n8 8 9 13 6\n4 5 7 12 10"
+    },
+    "303_6x6": {
+      "id": "303_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/303.a.htm",
+      "problem": "6 6\n18 7 6 17 6 15\n6 12 5 15 11 13"
+    },
+    "304_6x6": {
+      "id": "304_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/304.a.htm",
+      "problem": "6 6\n16 13 12 16 6 3\n12 15 4 4 12 10"
+    },
+    "305_7x7": {
+      "id": "305_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/305.a.htm",
+      "problem": "7 7\n24 14 15 8 15 10 14\n19 19 3 18 6 9 20"
+    },
+    "306_7x7": {
+      "id": "306_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/306.a.htm",
+      "problem": "7 7\n8 19 19 16 20 6 13\n14 11 13 27 19 3 14"
+    },
+    "307_8x8": {
+      "id": "307_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/307.a.htm",
+      "problem": "8 8\n14 22 20 10 9 25 34 9\n25 14 24 14 16 23 8 26"
+    },
+    "308_8x8": {
+      "id": "308_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/308.a.htm",
+      "problem": "8 8\n22 11 14 23 5 16 15 22\n18 26 30 29 20 4 20 5"
+    },
+    "309_9x9": {
+      "id": "309_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/309.a.htm",
+      "problem": "9 9\n2 14 30 23 33 17 39 19 20\n25 13 32 28 34 21 36 11 21"
+    },
+    "310_9x9": {
+      "id": "310_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/310.a.htm",
+      "problem": "9 9\n2 36 27 22 41 16 11 19 21\n28 31 3 31 27 26 10 18 26"
+    },
+    "311_5x5": {
+      "id": "311_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/311.a.htm",
+      "problem": "5 5\n10 8 6 4 3\n10 3 14 3 1"
+    },
+    "312_5x5": {
+      "id": "312_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/312.a.htm",
+      "problem": "5 5\n6 12 10 7 3\n4 3 14 9 3"
+    },
+    "313_6x6": {
+      "id": "313_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/313.a.htm",
+      "problem": "6 6\n5 10 20 15 9 6\n9 14 9 7 10 14"
+    },
+    "314_6x6": {
+      "id": "314_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/314.a.htm",
+      "problem": "6 6\n12 7 17 10 10 2\n11 17 5 15 7 4"
+    },
+    "315_7x7": {
+      "id": "315_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/315.a.htm",
+      "problem": "7 7\n16 15 12 21 23 6 12\n13 18 24 6 10 11 20"
+    },
+    "316_7x7": {
+      "id": "316_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/316.a.htm",
+      "problem": "7 7\n17 16 14 4 23 18 11\n8 15 17 7 24 12 14"
+    },
+    "317_8x8": {
+      "id": "317_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/317.a.htm",
+      "problem": "8 8\n15 19 22 10 21 7 1 23\n36 22 15 25 15 2 7 17"
+    },
+    "318_8x8": {
+      "id": "318_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/318.a.htm",
+      "problem": "8 8\n5 12 30 24 13 12 17 23\n23 23 11 30 33 7 14 16"
+    },
+    "319_9x9": {
+      "id": "319_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/319.a.htm",
+      "problem": "9 9\n7 15 26 23 20 16 20 38 36\n41 4 15 16 23 39 20 25 36"
+    },
+    "320_9x9": {
+      "id": "320_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/320.a.htm",
+      "problem": "9 9\n17 39 18 9 10 19 39 12 34\n19 35 25 25 13 18 17 18 36"
+    },
+    "321_5x5": {
+      "id": "321_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/321.a.htm",
+      "problem": "5 5\n1 9 9 7 10\n1 14 10 5 9"
+    },
+    "322_5x5": {
+      "id": "322_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/322.a.htm",
+      "problem": "5 5\n9 2 13 11 5\n7 6 7 4 13"
+    },
+    "323_6x6": {
+      "id": "323_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/323.a.htm",
+      "problem": "6 6\n12 6 8 5 16 18\n15 10 1 11 18 14"
+    },
+    "324_6x6": {
+      "id": "324_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/324.a.htm",
+      "problem": "6 6\n16 14 8 4 8 6\n15 17 13 2 8 4"
+    },
+    "325_7x7": {
+      "id": "325_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/325.a.htm",
+      "problem": "7 7\n14 8 15 23 13 15 4\n21 18 21 5 10 8 16"
+    },
+    "326_7x7": {
+      "id": "326_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/326.a.htm",
+      "problem": "7 7\n21 19 24 3 12 17 8\n5 18 21 6 18 4 17"
+    },
+    "327_8x8": {
+      "id": "327_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/327.a.htm",
+      "problem": "8 8\n10 36 13 21 13 10 24 26\n19 2 11 28 20 21 24 18"
+    },
+    "328_8x8": {
+      "id": "328_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/328.a.htm",
+      "problem": "8 8\n19 10 6 29 13 26 31 13\n24 16 17 18 14 14 18 32"
+    },
+    "329_9x9": {
+      "id": "329_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/329.a.htm",
+      "problem": "9 9\n18 38 13 26 4 18 37 17 30\n34 27 16 6 16 18 19 36 29"
+    },
+    "330_9x9": {
+      "id": "330_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/330.a.htm",
+      "problem": "9 9\n32 28 22 25 26 11 29 3 14\n27 44 3 6 18 16 24 23 13"
+    },
+    "331_5x5": {
+      "id": "331_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/331.a.htm",
+      "problem": "5 5\n11 12 4 6 3\n7 3 6 5 7"
+    },
+    "332_5x5": {
+      "id": "332_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/332.a.htm",
+      "problem": "5 5\n6 12 4 6 7\n5 7 8 12 2"
+    },
+    "333_6x6": {
+      "id": "333_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/333.a.htm",
+      "problem": "6 6\n10 8 6 8 12 7\n21 13 5 9 10 5"
+    },
+    "334_6x6": {
+      "id": "334_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/334.a.htm",
+      "problem": "6 6\n15 21 7 10 10 5\n6 5 3 14 9 12"
+    },
+    "335_7x7": {
+      "id": "335_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/335.a.htm",
+      "problem": "7 7\n4 4 18 14 11 20 20\n24 5 25 16 22 7 16"
+    },
+    "336_7x7": {
+      "id": "336_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/336.a.htm",
+      "problem": "7 7\n18 5 8 21 13 22 7\n27 8 11 12 10 23 10"
+    },
+    "337_8x8": {
+      "id": "337_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/337.a.htm",
+      "problem": "8 8\n26 17 22 18 19 9 29 9\n16 31 1 10 20 13 21 22"
+    },
+    "338_8x8": {
+      "id": "338_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/338.a.htm",
+      "problem": "8 8\n25 36 26 12 18 14 10 8\n8 17 26 7 18 17 17 9"
+    },
+    "339_9x9": {
+      "id": "339_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/339.a.htm",
+      "problem": "9 9\n17 27 21 14 2 14 22 13 42\n29 43 26 27 25 12 25 14 15"
+    },
+    "340_9x9": {
+      "id": "340_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/340.a.htm",
+      "problem": "9 9\n31 7 27 25 17 32 1 27 9\n45 27 13 13 6 7 20 27 21"
+    },
+    "341_4x4": {
+      "id": "341_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/341.a.htm",
+      "problem": "4 4\n5 5 5 3\n5 9 5 1"
+    },
+    "342_5x5": {
+      "id": "342_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/342.a.htm",
+      "problem": "5 5\n3 11 7 9 6\n5 14 10 6 5"
+    },
+    "343_5x5": {
+      "id": "343_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/343.a.htm",
+      "problem": "5 5\n14 6 2 5 6\n7 11 8 1 5"
+    },
+    "344_6x6": {
+      "id": "344_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/344.a.htm",
+      "problem": "6 6\n11 8 17 5 5 15\n12 10 12 15 5 10"
+    },
+    "345_6x6": {
+      "id": "345_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/345.a.htm",
+      "problem": "6 6\n9 9 17 14 8 10\n8 12 6 14 16 8"
+    },
+    "346_7x7": {
+      "id": "346_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/346.a.htm",
+      "problem": "7 7\n11 3 15 19 13 16 15\n12 19 23 3 19 25 4"
+    },
+    "347_7x7": {
+      "id": "347_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/347.a.htm",
+      "problem": "7 7\n17 25 8 8 15 13 24\n9 15 8 9 19 23 16"
+    },
+    "348_8x8": {
+      "id": "348_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/348.a.htm",
+      "problem": "8 8\n11 8 15 22 27 14 22 28\n22 27 6 24 15 8 36 24"
+    },
+    "349_8x8": {
+      "id": "349_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/349.a.htm",
+      "problem": "8 8\n22 13 9 11 15 21 29 24\n14 31 5 11 22 22 22 23"
+    },
+    "350_9x9": {
+      "id": "350_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/350.a.htm",
+      "problem": "9 9\n41 12 23 25 22 10 34 30 23\n7 27 5 32 19 29 16 45 16"
+    },
+    "351_4x4": {
+      "id": "351_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/351.a.htm",
+      "problem": "4 4\n6 7 3 4\n4 4 3 6"
+    },
+    "352_5x5": {
+      "id": "352_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/352.a.htm",
+      "problem": "5 5\n3 12 7 13 7\n4 8 7 6 14"
+    },
+    "353_5x5": {
+      "id": "353_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/353.a.htm",
+      "problem": "5 5\n8 8 6 1 6\n10 9 5 7 1"
+    },
+    "354_6x6": {
+      "id": "354_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/354.a.htm",
+      "problem": "6 6\n9 15 4 3 10 17\n16 7 21 1 8 13"
+    },
+    "355_6x6": {
+      "id": "355_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/355.a.htm",
+      "problem": "6 6\n15 14 12 14 12 6\n4 6 14 19 11 7"
+    },
+    "356_7x7": {
+      "id": "356_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/356.a.htm",
+      "problem": "7 7\n2 7 26 7 14 11 22\n22 14 21 16 15 8 16"
+    },
+    "357_7x7": {
+      "id": "357_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/357.a.htm",
+      "problem": "7 7\n10 23 22 18 7 8 15\n16 13 11 3 22 11 17"
+    },
+    "358_8x8": {
+      "id": "358_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/358.a.htm",
+      "problem": "8 8\n19 13 22 26 9 11 11 21\n16 35 15 10 26 17 8 14"
+    },
+    "359_8x8": {
+      "id": "359_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/359.a.htm",
+      "problem": "8 8\n19 8 25 30 2 19 24 21\n20 24 7 14 29 25 30 5"
+    },
+    "360_9x9": {
+      "id": "360_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/360.a.htm",
+      "problem": "9 9\n39 4 18 21 14 42 27 20 33\n7 28 24 9 40 22 24 31 26"
+    },
+    "361_4x4": {
+      "id": "361_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/361.a.htm",
+      "problem": "4 4\n8 6 4 1\n7 2 3 4"
+    },
+    "362_5x5": {
+      "id": "362_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/362.a.htm",
+      "problem": "5 5\n7 5 9 8 7\n4 8 9 1 12"
+    },
+    "363_5x5": {
+      "id": "363_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/363.a.htm",
+      "problem": "5 5\n2 2 13 12 6\n12 7 3 7 12"
+    },
+    "364_6x6": {
+      "id": "364_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/364.a.htm",
+      "problem": "6 6\n7 15 10 7 14 10\n14 2 17 14 2 15"
+    },
+    "365_6x6": {
+      "id": "365_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/365.a.htm",
+      "problem": "6 6\n18 9 13 2 8 13\n13 11 10 10 12 6"
+    },
+    "366_7x7": {
+      "id": "366_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/366.a.htm",
+      "problem": "7 7\n28 15 13 7 15 19 7\n3 23 8 14 12 15 12"
+    },
+    "367_7x7": {
+      "id": "367_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/367.a.htm",
+      "problem": "7 7\n15 17 8 14 13 20 5\n24 5 15 20 16 2 14"
+    },
+    "368_8x8": {
+      "id": "368_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/368.a.htm",
+      "problem": "8 8\n26 17 26 2 13 28 7 11\n19 34 19 19 7 25 9 6"
+    },
+    "369_8x8": {
+      "id": "369_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/369.a.htm",
+      "problem": "8 8\n27 18 16 20 28 18 5 19\n19 5 11 35 11 18 27 9"
+    },
+    "370_9x9": {
+      "id": "370_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/370.a.htm",
+      "problem": "9 9\n4 17 38 22 25 42 17 29 20\n13 10 43 27 10 25 28 31 26"
+    },
+    "371_7x7": {
+      "id": "371_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/371.a.htm",
+      "problem": "7 7\n10 12 10 - - 3 13\n5 1 16 12 2 7 6"
+    },
+    "372_7x7": {
+      "id": "372_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/372.a.htm",
+      "problem": "7 7\n- 14 9 1 - 1 9\n23 10 2 1 2 9 3"
+    },
+    "373_8x8": {
+      "id": "373_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/373.a.htm",
+      "problem": "8 8\n6 21 2 5 9 14 1 13\n- 11 16 13 - 1 14 2"
+    },
+    "374_8x8": {
+      "id": "374_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/374.a.htm",
+      "problem": "8 8\n5 17 8 26 2 4 11 1\n18 7 - - 6 6 7 11"
+    },
+    "375_9x9": {
+      "id": "375_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/375.a.htm",
+      "problem": "9 9\n12 13 14 14 - 11 3 - 19\n31 2 17 9 13 6 19 25 4"
+    },
+    "376_9x9": {
+      "id": "376_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/376.a.htm",
+      "problem": "9 9\n10 17 - - 4 12 2 21 2\n10 38 18 12 4 6 9 6 13"
+    },
+    "377_10x10": {
+      "id": "377_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/377.a.htm",
+      "problem": "10 10\n34 3 7 37 11 14 8 13 28 24\n12 37 21 12 4 29 24 5 39 5"
+    },
+    "378_10x10": {
+      "id": "378_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/378.a.htm",
+      "problem": "10 10\n4 26 18 21 19 31 3 30 20 5\n30 7 10 30 7 9 27 6 14 32"
+    },
+    "379_11x11": {
+      "id": "379_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/379.a.htm",
+      "problem": "11 11\n20 6 25 1 35 47 28 22 30 7 18\n7 25 20 31 1 9 47 42 22 26 5"
+    },
+    "380_11x11": {
+      "id": "380_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/380.a.htm",
+      "problem": "11 11\n36 10 29 26 10 8 40 43 4 13 43\n11 3 33 24 33 6 12 12 24 48 29"
+    },
+    "381_7x7": {
+      "id": "381_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/381.a.htm",
+      "problem": "7 7\n13 1 14 6 5 7 7\n5 - 6 6 - 8 7"
+    },
+    "382_7x7": {
+      "id": "382_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/382.a.htm",
+      "problem": "7 7\n11 6 8 13 7 11 2\n- - 4 3 6 12 10"
+    },
+    "383_8x8": {
+      "id": "383_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/383.a.htm",
+      "problem": "8 8\n11 4 - 4 - 10 15 9\n11 24 12 19 3 15 1 6"
+    },
+    "384_8x8": {
+      "id": "384_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/384.a.htm",
+      "problem": "8 8\n12 11 21 10 5 10 4 11\n15 5 - 14 7 19 - 7"
+    },
+    "385_9x9": {
+      "id": "385_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/385.a.htm",
+      "problem": "9 9\n3 24 - 34 22 - 5 5 1\n23 5 10 2 32 7 8 11 9"
+    },
+    "386_9x9": {
+      "id": "386_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/386.a.htm",
+      "problem": "9 9\n11 12 1 25 - 24 3 - 21\n10 10 2 23 20 18 28 4 16"
+    },
+    "387_10x10": {
+      "id": "387_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/387.a.htm",
+      "problem": "10 10\n19 5 9 7 23 24 40 23 3 17\n20 20 21 1 22 37 23 10 6 25"
+    },
+    "388_10x10": {
+      "id": "388_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/388.a.htm",
+      "problem": "10 10\n9 31 35 7 15 12 8 18 27 5\n8 44 5 2 31 8 12 20 2 26"
+    },
+    "389_11x11": {
+      "id": "389_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/389.a.htm",
+      "problem": "11 11\n5 7 27 33 13 38 22 1 10 36 48\n27 18 27 12 31 19 21 31 52 22 11"
+    },
+    "390_11x11": {
+      "id": "390_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/390.a.htm",
+      "problem": "11 11\n21 4 38 26 23 8 8 39 37 41 10\n21 11 28 16 5 5 53 36 36 16 22"
+    },
+    "391_7x7": {
+      "id": "391_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/391.a.htm",
+      "problem": "7 7\n10 8 5 10 7 7 7\n2 4 12 9 7 1 12"
+    },
+    "392_7x7": {
+      "id": "392_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/392.a.htm",
+      "problem": "7 7\n6 1 9 19 6 2 6\n2 21 4 16 4 1 7"
+    },
+    "393_8x8": {
+      "id": "393_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/393.a.htm",
+      "problem": "8 8\n16 9 10 10 8 7 1 22\n9 11 2 11 16 12 8 10"
+    },
+    "394_8x8": {
+      "id": "394_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/394.a.htm",
+      "problem": "8 8\n11 6 2 25 16 20 4 8\n1 4 6 11 7 11 15 18"
+    },
+    "395_9x9": {
+      "id": "395_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/395.a.htm",
+      "problem": "9 9\n7 15 16 5 14 5 7 22 29\n8 14 26 24 13 22 10 2 22"
+    },
+    "396_9x9": {
+      "id": "396_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/396.a.htm",
+      "problem": "9 9\n19 21 10 3 15 1 9 4 28\n35 7 21 14 13 13 11 10 7"
+    },
+    "397_10x10": {
+      "id": "397_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/397.a.htm",
+      "problem": "10 10\n30 16 22 10 10 31 20 30 27 4\n25 8 21 8 8 7 7 24 42 23"
+    },
+    "398_10x10": {
+      "id": "398_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/398.a.htm",
+      "problem": "10 10\n4 10 24 33 17 17 6 13 4 25\n15 40 31 20 15 3 14 8 16 18"
+    },
+    "399_11x11": {
+      "id": "399_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/399.a.htm",
+      "problem": "11 11\n2 35 10 6 16 38 19 8 20 57 15\n36 28 18 26 30 25 49 6 10 24 25"
+    },
+    "400_11x11": {
+      "id": "400_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/400.a.htm",
+      "problem": "11 11\n3 9 27 6 19 4 32 34 42 10 22\n28 50 20 36 32 4 9 38 22 27 10"
+    },
+    "401_7x7": {
+      "id": "401_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/401.a.htm",
+      "problem": "7 7\n5 6 9 2 15 2 9\n8 20 5 5 1 5 12"
+    },
+    "402_7x7": {
+      "id": "402_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/402.a.htm",
+      "problem": "7 7\n15 4 6 9 11 5 4\n4 7 1 12 12 9 1"
+    },
+    "403_8x8": {
+      "id": "403_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/403.a.htm",
+      "problem": "8 8\n1 11 3 18 3 22 8 6\n21 7 11 2 6 14 19 4"
+    },
+    "404_8x8": {
+      "id": "404_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/404.a.htm",
+      "problem": "8 8\n21 1 17 5 7 14 9 7\n9 8 1 11 22 7 12 3"
+    },
+    "405_9x9": {
+      "id": "405_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/405.a.htm",
+      "problem": "9 9\n9 15 1 15 40 22 5 23 4\n21 8 9 11 18 23 21 19 6"
+    },
+    "406_9x9": {
+      "id": "406_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/406.a.htm",
+      "problem": "9 9\n8 22 15 24 2 16 8 25 3\n14 26 11 1 14 7 4 21 19"
+    },
+    "407_10x10": {
+      "id": "407_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/407.a.htm",
+      "problem": "10 10\n35 20 27 10 18 19 21 20 18 10\n2 6 3 33 12 23 32 3 22 17"
+    },
+    "408_10x10": {
+      "id": "408_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/408.a.htm",
+      "problem": "10 10\n7 5 34 10 23 7 29 4 15 19\n22 33 44 13 22 8 1 18 15 16"
+    },
+    "409_11x11": {
+      "id": "409_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/409.a.htm",
+      "problem": "11 11\n16 17 32 21 3 6 46 12 31 8 18\n25 49 22 29 4 16 8 31 23 28 4"
+    },
+    "410_11x11": {
+      "id": "410_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/410.a.htm",
+      "problem": "11 11\n35 7 46 36 26 11 22 26 10 27 34\n9 14 17 2 7 27 4 21 64 25 28"
+    },
+    "411_7x7": {
+      "id": "411_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/411.a.htm",
+      "problem": "7 7\n1 10 - 6 11 2 -\n6 11 5 2 9 16 7"
+    },
+    "412_7x7": {
+      "id": "412_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/412.a.htm",
+      "problem": "7 7\n1 2 - - - - 15\n1 8 12 3 7 13 14"
+    },
+    "413_8x8": {
+      "id": "413_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/413.a.htm",
+      "problem": "8 8\n7 16 3 10 19 6 3 17\n- 14 18 4 - 25 1 13"
+    },
+    "414_8x8": {
+      "id": "414_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/414.a.htm",
+      "problem": "8 8\n2 29 - 3 - 25 - -\n4 12 2 6 18 19 8 8"
+    },
+    "415_9x9": {
+      "id": "415_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/415.a.htm",
+      "problem": "9 9\n1 28 - 13 23 11 4 - 15\n11 5 13 27 2 2 20 17 14"
+    },
+    "416_9x9": {
+      "id": "416_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/416.a.htm",
+      "problem": "9 9\n- 16 42 13 - 11 - 14 -\n12 25 8 14 6 4 5 3 30"
+    },
+    "417_10x10": {
+      "id": "417_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/417.a.htm",
+      "problem": "10 10\n19 11 44 2 10 - - 20 1 11\n24 25 20 7 34 6 17 17 5 17"
+    },
+    "418_10x10": {
+      "id": "418_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/418.a.htm",
+      "problem": "10 10\n7 4 6 20 1 7 34 17 29 33\n- - 36 42 29 19 - 23 20 -"
+    },
+    "419_11x11": {
+      "id": "419_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/419.a.htm",
+      "problem": "11 11\n36 10 11 59 3 29 28 26 1 9 22\n42 19 9 30 5 20 7 47 36 5 8"
+    },
+    "420_11x11": {
+      "id": "420_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/420.a.htm",
+      "problem": "11 11\n12 23 4 29 26 47 8 26 6 16 50\n5 6 30 16 - 19 12 47 - 24 15"
+    },
+    "421_7x7": {
+      "id": "421_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/421.a.htm",
+      "problem": "7 7\n9 1 - - 11 7 4\n5 1 3 14 5 9 11"
+    },
+    "422_7x7": {
+      "id": "422_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/422.a.htm",
+      "problem": "7 7\n2 14 - 11 - - -\n5 3 2 11 13 10 3"
+    },
+    "423_8x8": {
+      "id": "423_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/423.a.htm",
+      "problem": "8 8\n- 2 7 - 9 11 4 7\n14 8 4 10 7 19 5 4"
+    },
+    "424_8x8": {
+      "id": "424_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/424.a.htm",
+      "problem": "8 8\n4 - - - 22 13 21 -\n5 8 8 1 15 10 17 18"
+    },
+    "425_9x9": {
+      "id": "425_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/425.a.htm",
+      "problem": "9 9\n14 11 34 10 4 3 12 22 9\n- 27 1 8 - 13 24 11 11"
+    },
+    "426_9x9": {
+      "id": "426_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/426.a.htm",
+      "problem": "9 9\n- - 3 5 - 2 - 30 19\n2 6 20 12 13 19 23 6 19"
+    },
+    "427_10x10": {
+      "id": "427_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/427.a.htm",
+      "problem": "10 10\n14 2 - 6 17 23 8 27 29 -\n19 7 18 30 9 8 41 19 10 29"
+    },
+    "428_10x10": {
+      "id": "428_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/428.a.htm",
+      "problem": "10 10\n13 7 45 33 42 18 6 6 12 21\n5 2 13 - - 28 14 - 21 -"
+    },
+    "429_11x11": {
+      "id": "429_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/429.a.htm",
+      "problem": "11 11\n17 5 23 13 7 6 28 11 62 28 30\n22 23 11 57 37 21 12 30 9 12 46"
+    },
+    "430_11x11": {
+      "id": "430_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/430.a.htm",
+      "problem": "11 11\n3 1 18 57 8 31 18 18 28 47 18\n13 20 - - 52 17 24 33 14 12 43"
+    },
+    "431_7x7": {
+      "id": "431_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/431.a.htm",
+      "problem": "7 7\n19 4 8 10 3 3 7\n- - 11 7 3 5 8"
+    },
+    "432_7x7": {
+      "id": "432_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/432.a.htm",
+      "problem": "7 7\n- 10 5 1 - 9 9\n4 3 18 1 5 14 3"
+    },
+    "433_8x8": {
+      "id": "433_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/433.a.htm",
+      "problem": "8 8\n- 5 - 15 13 7 20 5\n6 9 2 7 17 7 16 12"
+    },
+    "434_8x8": {
+      "id": "434_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/434.a.htm",
+      "problem": "8 8\n8 7 9 13 5 13 10 13\n15 - 5 12 - 3 2 21"
+    },
+    "435_9x9": {
+      "id": "435_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/435.a.htm",
+      "problem": "9 9\n30 11 17 3 - - 1 13 16\n15 3 14 17 24 4 24 4 5"
+    },
+    "436_9x9": {
+      "id": "436_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/436.a.htm",
+      "problem": "9 9\n21 18 2 15 25 5 11 6 23\n17 4 - 28 9 21 8 21 -"
+    },
+    "437_10x10": {
+      "id": "437_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/437.a.htm",
+      "problem": "10 10\n16 18 22 2 23 27 33 10 30 11\n2 37 16 3 1 29 - - 21 33"
+    },
+    "438_10x10": {
+      "id": "438_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/438.a.htm",
+      "problem": "10 10\n6 17 - 3 27 3 3 - 14 15\n30 26 8 3 35 7 23 20 18 3"
+    },
+    "439_11x11": {
+      "id": "439_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/439.a.htm",
+      "problem": "11 11\n- 28 18 - 7 7 44 36 12 28 10\n21 28 3 4 17 19 56 11 22 39 8"
+    },
+    "440_11x11": {
+      "id": "440_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/440.a.htm",
+      "problem": "11 11\n27 - - 35 19 25 1 33 20 39 49\n12 12 18 36 5 34 38 35 9 22 48"
+    },
+    "441_7x7": {
+      "id": "441_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/441.a.htm",
+      "problem": "7 7\n8 6 - 4 4 8 -\n16 1 10 5 8 1 10"
+    },
+    "442_7x7": {
+      "id": "442_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/442.a.htm",
+      "problem": "7 7\n9 2 8 16 12 4 3\n4 - 10 6 - 4 10"
+    },
+    "443_8x8": {
+      "id": "443_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/443.a.htm",
+      "problem": "8 8\n12 2 23 7 4 12 14 8\n11 6 - - 14 15 16 3"
+    },
+    "444_8x8": {
+      "id": "444_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/444.a.htm",
+      "problem": "8 8\n24 8 15 12 17 5 12 5\n5 1 5 4 - 6 15 -"
+    },
+    "445_9x9": {
+      "id": "445_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/445.a.htm",
+      "problem": "9 9\n7 22 2 7 3 24 16 25 14\n13 7 8 26 23 - - 8 8"
+    },
+    "446_9x9": {
+      "id": "446_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/446.a.htm",
+      "problem": "9 9\n2 20 23 - 6 6 - 7 25\n26 8 11 7 5 26 18 7 25"
+    },
+    "447_10x10": {
+      "id": "447_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/447.a.htm",
+      "problem": "10 10\n- 8 25 2 15 21 - 34 22 39\n5 4 4 15 36 11 28 16 31 42"
+    },
+    "448_10x10": {
+      "id": "448_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/448.a.htm",
+      "problem": "10 10\n9 4 40 1 19 18 16 10 31 27\n- 5 7 28 31 9 14 - 12 33"
+    },
+    "449_11x11": {
+      "id": "449_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/449.a.htm",
+      "problem": "11 11\n21 4 22 12 37 31 25 19 13 18 35\n- - 32 7 36 50 4 1 22 56 4"
+    },
+    "450_11x11": {
+      "id": "450_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/450.a.htm",
+      "problem": "11 11\n6 2 38 45 8 4 27 43 2 23 41\n- 29 1 39 - 19 41 25 11 43 11"
+    },
+    "451_7x7": {
+      "id": "451_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/451.a.htm",
+      "problem": "7 7\n10 8 10 5 6 8 2\n7 13 7 1 - 7 -"
+    },
+    "452_7x7": {
+      "id": "452_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/452.a.htm",
+      "problem": "7 7\n4 3 10 6 9 6 7\n- 11 5 - 4 10 5"
+    },
+    "453_8x8": {
+      "id": "453_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/453.a.htm",
+      "problem": "8 8\n- 5 3 15 28 10 2 -\n8 11 23 7 4 11 5 17"
+    },
+    "454_8x8": {
+      "id": "454_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/454.a.htm",
+      "problem": "8 8\n8 3 20 18 16 15 8 8\n12 - 11 5 3 3 - 24"
+    },
+    "455_9x9": {
+      "id": "455_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/455.a.htm",
+      "problem": "9 9\n7 - 2 29 10 - 3 23 21\n9 3 35 15 10 18 15 21 6"
+    },
+    "456_9x9": {
+      "id": "456_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/456.a.htm",
+      "problem": "9 9\n11 22 26 5 8 27 18 12 11\n2 12 6 26 - 6 - 20 24"
+    },
+    "457_10x10": {
+      "id": "457_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/457.a.htm",
+      "problem": "10 10\n27 10 24 16 4 17 35 7 30 18\n35 6 - - 2 14 24 34 21 22"
+    },
+    "458_10x10": {
+      "id": "458_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/458.a.htm",
+      "problem": "10 10\n5 37 5 19 2 16 23 9 30 26\n17 31 21 12 - 14 - 17 13 30"
+    },
+    "459_11x11": {
+      "id": "459_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/459.a.htm",
+      "problem": "11 11\n40 13 15 25 1 41 6 30 39 19 11\n11 50 4 3 22 - 16 35 35 4 -"
+    },
+    "460_11x11": {
+      "id": "460_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/460.a.htm",
+      "problem": "11 11\n9 20 19 12 1 27 30 41 25 10 58\n11 34 42 - 11 - 10 14 36 25 46"
+    },
+    "461_7x7": {
+      "id": "461_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/461.a.htm",
+      "problem": "7 7\n11 4 9 5 8 9 12\n2 6 7 3 20 1 13"
+    },
+    "462_7x7": {
+      "id": "462_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/462.a.htm",
+      "problem": "7 7\n1 6 12 9 6 3 8\n3 19 9 5 2 7 7"
+    },
+    "463_8x8": {
+      "id": "463_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/463.a.htm",
+      "problem": "8 8\n21 3 1 12 4 3 4 20\n24 16 5 15 4 9 13 1"
+    },
+    "464_8x8": {
+      "id": "464_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/464.a.htm",
+      "problem": "8 8\n9 26 4 1 6 8 20 13\n9 2 11 11 12 11 9 15"
+    },
+    "465_9x9": {
+      "id": "465_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/465.a.htm",
+      "problem": "9 9\n1 12 6 21 23 5 18 16 23\n4 20 10 19 14 20 16 16 17"
+    },
+    "466_9x9": {
+      "id": "466_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/466.a.htm",
+      "problem": "9 9\n10 26 9 19 9 10 18 27 16\n6 9 16 23 10 11 12 4 40"
+    },
+    "467_10x10": {
+      "id": "467_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/467.a.htm",
+      "problem": "10 10\n6 11 27 23 21 19 16 8 40 9\n17 9 21 7 14 20 37 13 33 7"
+    },
+    "468_10x10": {
+      "id": "468_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/468.a.htm",
+      "problem": "10 10\n27 3 17 16 18 34 15 20 15 12\n37 2 1 43 4 6 28 18 20 17"
+    },
+    "469_11x11": {
+      "id": "469_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/469.a.htm",
+      "problem": "11 11\n2 2 16 33 7 24 19 34 36 11 42\n24 10 31 43 41 5 30 8 24 28 32"
+    },
+    "470_11x11": {
+      "id": "470_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/470.a.htm",
+      "problem": "11 11\n32 22 9 5 7 21 23 46 17 12 13\n22 45 50 2 24 4 13 39 12 15 14"
+    },
+    "471_7x7": {
+      "id": "471_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/471.a.htm",
+      "problem": "7 7\n8 9 6 5 3 10 13\n8 9 5 13 4 16 3"
+    },
+    "472_7x7": {
+      "id": "472_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/472.a.htm",
+      "problem": "7 7\n10 7 8 1 7 10 11\n9 5 1 13 2 14 8"
+    },
+    "473_8x8": {
+      "id": "473_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/473.a.htm",
+      "problem": "8 8\n5 3 14 18 17 8 12 9\n4 4 6 21 13 7 7 18"
+    },
+    "474_8x8": {
+      "id": "474_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/474.a.htm",
+      "problem": "8 8\n10 16 10 9 6 1 14 3\n21 18 7 5 2 13 8 3"
+    },
+    "475_9x9": {
+      "id": "475_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/475.a.htm",
+      "problem": "9 9\n14 15 9 41 15 7 2 7 20\n22 25 4 5 4 13 12 17 20"
+    },
+    "476_9x9": {
+      "id": "476_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/476.a.htm",
+      "problem": "9 9\n20 27 1 2 23 9 2 26 12\n10 24 16 1 7 9 16 15 17"
+    },
+    "477_10x10": {
+      "id": "477_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/477.a.htm",
+      "problem": "10 10\n33 8 12 9 2 36 23 9 16 7\n19 27 23 5 33 22 8 19 13 1"
+    },
+    "478_10x10": {
+      "id": "478_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/478.a.htm",
+      "problem": "10 10\n30 10 16 11 7 7 43 21 17 16\n3 7 24 22 16 38 15 10 9 25"
+    },
+    "479_11x11": {
+      "id": "479_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/479.a.htm",
+      "problem": "11 11\n7 7 34 1 19 35 9 32 35 35 30\n9 11 51 19 37 24 13 10 33 15 49"
+    },
+    "480_11x11": {
+      "id": "480_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/480.a.htm",
+      "problem": "11 11\n28 37 15 3 17 6 8 36 40 41 38\n20 3 4 10 30 43 28 3 43 29 39"
+    },
+    "481_7x7": {
+      "id": "481_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/481.a.htm",
+      "problem": "7 7\n1 2 12 6 16 7 6\n8 2 14 9 10 9 5"
+    },
+    "482_7x7": {
+      "id": "482_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/482.a.htm",
+      "problem": "7 7\n5 7 18 1 10 2 9\n5 11 5 8 15 3 5"
+    },
+    "483_8x8": {
+      "id": "483_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/483.a.htm",
+      "problem": "8 8\n6 4 26 8 12 17 7 19\n7 1 6 11 8 16 16 21"
+    },
+    "484_8x8": {
+      "id": "484_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/484.a.htm",
+      "problem": "8 8\n5 9 4 15 7 7 26 2\n4 19 9 16 9 4 16 7"
+    },
+    "485_9x9": {
+      "id": "485_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/485.a.htm",
+      "problem": "9 9\n29 5 17 15 13 9 11 14 13\n15 12 4 5 9 34 26 8 1"
+    },
+    "486_9x9": {
+      "id": "486_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/486.a.htm",
+      "problem": "9 9\n10 12 10 14 23 24 29 9 5\n5 7 8 14 30 16 19 22 5"
+    },
+    "487_10x10": {
+      "id": "487_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/487.a.htm",
+      "problem": "10 10\n18 10 15 14 18 24 35 14 16 35\n11 21 6 26 12 2 29 29 38 20"
+    },
+    "488_10x10": {
+      "id": "488_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/488.a.htm",
+      "problem": "10 10\n2 41 15 6 5 21 11 27 29 10\n21 34 14 9 24 26 34 3 17 10"
+    },
+    "489_11x11": {
+      "id": "489_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/489.a.htm",
+      "problem": "11 11\n8 7 46 17 42 4 36 22 35 34 18\n10 12 1 10 26 36 59 36 9 34 18"
+    },
+    "490_11x11": {
+      "id": "490_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/490.a.htm",
+      "problem": "11 11\n7 15 2 13 7 33 37 25 18 46 55\n14 31 7 13 19 33 26 32 53 36 27"
+    },
+    "491_7x7": {
+      "id": "491_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/491.a.htm",
+      "problem": "7 7\n8 8 6 4 16 6 13\n4 2 5 4 3 20 13"
+    },
+    "492_7x7": {
+      "id": "492_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/492.a.htm",
+      "problem": "7 7\n7 4 6 1 10 2 11\n11 18 3 8 7 3 5"
+    },
+    "493_8x8": {
+      "id": "493_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/493.a.htm",
+      "problem": "8 8\n13 10 2 10 20 10 5 9\n11 7 16 5 8 10 15 6"
+    },
+    "494_8x8": {
+      "id": "494_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/494.a.htm",
+      "problem": "8 8\n2 14 2 4 4 14 6 22\n28 10 5 4 13 16 10 8"
+    },
+    "495_9x9": {
+      "id": "495_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/495.a.htm",
+      "problem": "9 9\n13 4 11 7 22 4 30 8 13\n31 4 21 23 18 7 20 3 13"
+    },
+    "496_9x9": {
+      "id": "496_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/496.a.htm",
+      "problem": "9 9\n32 15 16 8 15 17 13 3 21\n3 14 9 15 15 3 17 13 21"
+    },
+    "497_10x10": {
+      "id": "497_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/497.a.htm",
+      "problem": "10 10\n23 8 19 23 6 32 4 13 12 8\n20 46 16 10 21 5 8 14 3 20"
+    },
+    "498_10x10": {
+      "id": "498_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/498.a.htm",
+      "problem": "10 10\n27 16 22 10 11 5 25 5 35 19\n24 32 2 3 14 16 31 3 13 34"
+    },
+    "499_11x11": {
+      "id": "499_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/499.a.htm",
+      "problem": "11 11\n2 22 15 41 6 17 12 31 7 44 37\n36 6 14 30 29 24 28 46 7 25 23"
+    },
+    "500_11x11": {
+      "id": "500_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/500.a.htm",
+      "problem": "11 11\n5 5 7 18 30 15 15 5 40 54 16\n15 39 21 33 46 16 40 13 15 15 26"
+    },
+    "501_7x7": {
+      "id": "501_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/501.a.htm",
+      "problem": "7 7\n1 8 3 9 7 4 6\n21 5 13 5 7 4 2"
+    },
+    "502_7x7": {
+      "id": "502_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/502.a.htm",
+      "problem": "7 7\n16 1 2 7 11 3 3\n9 19 11 1 5 5 1"
+    },
+    "503_8x8": {
+      "id": "503_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/503.a.htm",
+      "problem": "8 8\n13 10 14 5 11 6 8 18\n5 7 1 12 9 26 13 3"
+    },
+    "504_8x8": {
+      "id": "504_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/504.a.htm",
+      "problem": "8 8\n11 4 10 13 11 9 9 17\n14 8 9 5 5 21 19 6"
+    },
+    "505_9x9": {
+      "id": "505_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/505.a.htm",
+      "problem": "9 9\n5 10 11 3 31 21 23 1 9\n25 6 13 14 19 5 17 18 9"
+    },
+    "506_9x9": {
+      "id": "506_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/506.a.htm",
+      "problem": "9 9\n2 27 6 15 3 4 16 15 26\n28 11 13 21 9 14 11 10 20"
+    },
+    "507_10x10": {
+      "id": "507_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/507.a.htm",
+      "problem": "10 10\n27 1 5 30 10 7 29 20 10 37\n33 17 6 4 13 23 18 11 29 30"
+    },
+    "508_10x10": {
+      "id": "508_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/508.a.htm",
+      "problem": "10 10\n12 34 9 33 21 20 26 20 2 1\n12 19 11 20 7 9 28 11 32 1"
+    },
+    "509_11x11": {
+      "id": "509_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/509.a.htm",
+      "problem": "11 11\n21 7 15 3 9 15 13 1 6 22 6\n8 10 4 7 9 21 3 1 22 9 10"
+    },
+    "510_11x11": {
+      "id": "510_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/510.a.htm",
+      "problem": "11 11\n11 4 9 16 12 11 11 9 8 1 16\n10 5 7 12 7 21 6 9 12 16 1"
+    },
+    "511_7x7": {
+      "id": "511_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/511.a.htm",
+      "problem": "7 7\n1 4 7 10 12 7 10\n3 7 12 7 12 4 11"
+    },
+    "512_7x7": {
+      "id": "512_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/512.a.htm",
+      "problem": "7 7\n6 13 4 3 3 3 10\n9 5 14 8 2 7 2"
+    },
+    "513_8x8": {
+      "id": "513_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/513.a.htm",
+      "problem": "8 8\n14 18 4 6 7 6 14 13\n17 8 10 3 5 18 9 11"
+    },
+    "514_8x8": {
+      "id": "514_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/514.a.htm",
+      "problem": "8 8\n10 13 5 3 10 22 3 13\n9 23 7 1 19 9 11 8"
+    },
+    "515_9x9": {
+      "id": "515_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/515.a.htm",
+      "problem": "9 9\n21 35 16 20 12 14 14 2 7\n9 14 5 12 1 9 25 10 14"
+    },
+    "516_9x9": {
+      "id": "516_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/516.a.htm",
+      "problem": "9 9\n13 26 26 6 20 20 7 15 7\n13 3 2 6 22 9 23 16 13"
+    },
+    "517_10x10": {
+      "id": "517_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/517.a.htm",
+      "problem": "10 10\n5 6 21 3 24 23 10 11 26 38\n13 32 26 7 31 16 24 42 6 13"
+    },
+    "518_10x10": {
+      "id": "518_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/518.a.htm",
+      "problem": "10 10\n32 5 11 17 18 18 44 10 21 9\n4 18 3 35 28 21 12 13 15 23"
+    },
+    "519_11x11": {
+      "id": "519_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/519.a.htm",
+      "problem": "11 11\n13 16 7 5 7 6 13 11 19 9 4\n9 9 5 16 6 13 10 9 18 9 3"
+    },
+    "520_11x11": {
+      "id": "520_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/520.a.htm",
+      "problem": "11 11\n7 5 4 1 16 6 11 9 11 14 29\n4 8 7 3 11 25 14 28 5 11 11"
+    },
+    "521_7x7": {
+      "id": "521_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/521.a.htm",
+      "problem": "7 7\n1 7 1 3 16 4 16\n9 7 4 13 9 5 12"
+    },
+    "522_7x7": {
+      "id": "522_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/522.a.htm",
+      "problem": "7 7\n3 6 16 10 7 6 13\n4 4 5 7 3 15 15"
+    },
+    "523_8x8": {
+      "id": "523_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/523.a.htm",
+      "problem": "8 8\n9 8 6 16 7 14 20 14\n9 8 4 1 16 20 19 13"
+    },
+    "524_8x8": {
+      "id": "524_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/524.a.htm",
+      "problem": "8 8\n8 9 9 2 7 21 9 19\n2 18 10 7 13 19 6 15"
+    },
+    "525_9x9": {
+      "id": "525_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/525.a.htm",
+      "problem": "9 9\n4 19 20 11 16 21 4 5 15\n4 31 12 9 10 29 9 14 2"
+    },
+    "526_9x9": {
+      "id": "526_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/526.a.htm",
+      "problem": "9 9\n8 9 11 17 1 21 17 25 2\n19 27 15 11 12 6 26 16 3"
+    },
+    "527_10x10": {
+      "id": "527_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/527.a.htm",
+      "problem": "10 10\n6 31 14 12 37 20 11 9 23 9\n36 20 1 6 2 14 30 16 26 14"
+    },
+    "528_10x10": {
+      "id": "528_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/528.a.htm",
+      "problem": "10 10\n9 6 2 18 42 1 34 16 24 35\n17 26 7 14 12 23 9 22 36 34"
+    },
+    "529_11x11": {
+      "id": "529_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/529.a.htm",
+      "problem": "11 11\n10 9 11 2 15 5 11 29 12 8 7\n1 4 2 12 6 2 19 32 1 8 15"
+    },
+    "530_11x11": {
+      "id": "530_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/530.a.htm",
+      "problem": "11 11\n9 5 8 2 10 2 17 10 25 8 18\n10 10 18 7 11 11 10 3 21 20 9"
+    },
+    "531_7x7": {
+      "id": "531_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/531.a.htm",
+      "problem": "7 7\n13 8 16 7 2 7 6\n7 5 3 4 12 1 13"
+    },
+    "532_7x7": {
+      "id": "532_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/532.a.htm",
+      "problem": "7 7\n13 6 15 6 8 10 3\n1 5 13 3 4 14 7"
+    },
+    "533_8x8": {
+      "id": "533_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/533.a.htm",
+      "problem": "8 8\n9 2 9 3 16 24 11 5\n12 7 13 7 14 8 18 7"
+    },
+    "534_8x8": {
+      "id": "534_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/534.a.htm",
+      "problem": "8 8\n5 5 21 2 8 16 8 4\n14 20 15 9 2 12 3 9"
+    },
+    "535_9x9": {
+      "id": "535_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/535.a.htm",
+      "problem": "9 9\n10 14 4 14 6 16 26 23 12\n10 11 8 29 23 12 14 30 1"
+    },
+    "536_9x9": {
+      "id": "536_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/536.a.htm",
+      "problem": "9 9\n2 14 2 29 28 16 16 13 4\n13 11 12 21 7 30 9 9 15"
+    },
+    "537_10x10": {
+      "id": "537_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/537.a.htm",
+      "problem": "10 10\n1 17 9 15 4 10 7 35 28 22\n39 36 22 24 15 9 17 3 22 26"
+    },
+    "538_10x10": {
+      "id": "538_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/538.a.htm",
+      "problem": "10 10\n28 3 28 4 28 27 28 26 16 5\n18 15 22 7 28 4 7 11 29 33"
+    },
+    "539_11x11": {
+      "id": "539_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/539.a.htm",
+      "problem": "11 11\n13 4 12 12 20 24 5 9 8 11 1\n11 4 3 7 7 12 1 15 11 15 10"
+    },
+    "540_11x11": {
+      "id": "540_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/540.a.htm",
+      "problem": "11 11\n2 12 9 3 2 14 4 17 8 12 18\n6 6 20 12 3 8 11 11 10 6 19"
+    },
+    "541_7x7": {
+      "id": "541_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/541.a.htm",
+      "problem": "7 7\n5 6 10 11 10 11 2\n1 11 8 5 10 8 8"
+    },
+    "542_7x7": {
+      "id": "542_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/542.a.htm",
+      "problem": "7 7\n17 4 2 2 7 6 13\n7 13 5 14 7 1 8"
+    },
+    "543_8x8": {
+      "id": "543_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/543.a.htm",
+      "problem": "8 8\n13 7 2 5 15 9 10 22\n14 10 1 8 11 16 8 19"
+    },
+    "544_8x8": {
+      "id": "544_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/544.a.htm",
+      "problem": "8 8\n8 9 18 8 20 11 21 4\n8 3 8 3 11 17 14 19"
+    },
+    "545_9x9": {
+      "id": "545_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/545.a.htm",
+      "problem": "9 9\n19 26 31 2 16 2 9 4 13\n13 15 12 6 17 3 3 12 17"
+    },
+    "546_9x9": {
+      "id": "546_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/546.a.htm",
+      "problem": "9 9\n21 8 15 21 9 33 2 4 13\n31 7 17 11 6 9 3 15 23"
+    },
+    "547_10x10": {
+      "id": "547_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/547.a.htm",
+      "problem": "10 10\n24 21 19 6 21 12 9 2 20 17\n39 41 4 6 2 15 9 25 17 8"
+    },
+    "548_10x10": {
+      "id": "548_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/548.a.htm",
+      "problem": "10 10\n24 10 30 5 7 12 15 3 33 16\n19 27 27 38 13 1 2 1 22 25"
+    },
+    "549_11x11": {
+      "id": "549_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/549.a.htm",
+      "problem": "11 11\n5 11 18 9 25 4 3 1 21 5 6\n8 4 7 8 20 11 23 5 9 5 3"
+    },
+    "550_11x11": {
+      "id": "550_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/550.a.htm",
+      "problem": "11 11\n12 17 20 3 16 14 10 1 8 7 4\n12 4 7 17 1 5 20 9 3 13 3"
+    },
+    "551_7x7": {
+      "id": "551_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/551.a.htm",
+      "problem": "7 7\n2 13 5 7 10 1 1\n19 7 2 9 3 5 2"
+    },
+    "552_7x7": {
+      "id": "552_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/552.a.htm",
+      "problem": "7 7\n13 6 3 12 8 5 7\n3 10 11 1 9 2 12"
+    },
+    "553_8x8": {
+      "id": "553_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/553.a.htm",
+      "problem": "8 8\n3 30 15 8 12 5 9 11\n1 3 2 9 26 10 10 9"
+    },
+    "554_8x8": {
+      "id": "554_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/554.a.htm",
+      "problem": "8 8\n9 22 8 16 4 9 11 1\n8 1 19 10 9 8 4 9"
+    },
+    "555_9x9": {
+      "id": "555_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/555.a.htm",
+      "problem": "9 9\n26 32 8 16 10 17 6 1 9\n16 13 1 8 7 13 11 13 10"
+    },
+    "556_9x9": {
+      "id": "556_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/556.a.htm",
+      "problem": "9 9\n15 1 27 9 3 11 22 16 15\n25 8 20 4 17 15 7 24 11"
+    },
+    "557_10x10": {
+      "id": "557_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/557.a.htm",
+      "problem": "10 10\n9 29 30 29 12 25 1 2 24 20\n17 34 28 9 14 10 5 5 38 17"
+    },
+    "558_10x10": {
+      "id": "558_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/558.a.htm",
+      "problem": "10 10\n10 13 43 22 3 15 3 21 19 24\n15 12 23 16 15 27 7 2 36 16"
+    },
+    "559_11x11": {
+      "id": "559_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/559.a.htm",
+      "problem": "11 11\n19 11 10 10 7 9 11 1 2 20 3\n14 17 11 7 15 10 7 9 11 5 2"
+    },
+    "560_11x11": {
+      "id": "560_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/560.a.htm",
+      "problem": "11 11\n13 11 10 6 5 7 31 11 11 4 12\n19 5 5 10 8 4 13 1 7 18 22"
+    },
+    "561_7x7": {
+      "id": "561_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/561.a.htm",
+      "problem": "7 7\n7 6 5 10 8 13 8\n5 6 12 15 10 6 7"
+    },
+    "562_7x7": {
+      "id": "562_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/562.a.htm",
+      "problem": "7 7\n1 3 18 1 13 7 4\n7 8 5 12 9 8 3"
+    },
+    "563_8x8": {
+      "id": "563_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/563.a.htm",
+      "problem": "8 8\n7 11 11 9 10 2 5 16\n12 24 12 6 4 9 15 3"
+    },
+    "564_8x8": {
+      "id": "564_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/564.a.htm",
+      "problem": "8 8\n10 10 5 14 8 27 4 3\n10 15 4 15 9 10 6 12"
+    },
+    "565_9x9": {
+      "id": "565_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/565.a.htm",
+      "problem": "9 9\n30 15 7 12 16 14 6 4 10\n37 2 8 20 27 4 10 7 3"
+    },
+    "566_9x9": {
+      "id": "566_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/566.a.htm",
+      "problem": "9 9\n18 16 32 8 9 8 14 20 22\n4 5 21 17 3 16 31 25 6"
+    },
+    "567_9x9": {
+      "id": "567_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/567.a.htm",
+      "problem": "9 9\n4 30 10 21 17 22 6 1 11\n10 21 2 15 13 12 10 15 11"
+    },
+    "568_10x10": {
+      "id": "568_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/568.a.htm",
+      "problem": "10 10\n7 1 21 20 7 18 44 30 22 1\n40 4 12 12 17 11 23 30 33 7"
+    },
+    "569_10x10": {
+      "id": "569_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/569.a.htm",
+      "problem": "10 10\n19 4 32 10 16 8 45 6 26 20\n20 6 14 19 13 43 10 6 23 29"
+    },
+    "570_10x10": {
+      "id": "570_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/570.a.htm",
+      "problem": "10 10\n6 5 8 11 32 16 19 40 37 4\n39 5 14 19 22 14 14 42 9 29"
+    },
+    "571_7x7": {
+      "id": "571_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/571.a.htm",
+      "problem": "7 7\n10 3 7 8 11 11 10\n1 5 2 13 5 16 10"
+    },
+    "572_7x7": {
+      "id": "572_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/572.a.htm",
+      "problem": "7 7\n6 7 7 10 4 8 7\n9 12 4 8 9 1 10"
+    },
+    "573_8x8": {
+      "id": "573_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/573.a.htm",
+      "problem": "8 8\n4 12 12 9 6 13 20 1\n15 9 2 4 10 15 15 7"
+    },
+    "574_8x8": {
+      "id": "574_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/574.a.htm",
+      "problem": "8 8\n17 1 6 11 7 9 11 14\n10 6 25 5 8 12 14 4"
+    },
+    "575_9x9": {
+      "id": "575_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/575.a.htm",
+      "problem": "9 9\n17 2 24 14 24 14 18 15 5\n20 2 5 27 22 22 16 1 15"
+    },
+    "576_9x9": {
+      "id": "576_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/576.a.htm",
+      "problem": "9 9\n11 12 2 16 2 12 22 10 28\n18 21 9 35 8 9 23 7 15"
+    },
+    "577_9x9": {
+      "id": "577_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/577.a.htm",
+      "problem": "9 9\n2 21 21 2 13 30 4 12 10\n15 25 22 2 8 9 9 19 14"
+    },
+    "578_10x10": {
+      "id": "578_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/578.a.htm",
+      "problem": "10 10\n5 20 3 19 14 8 32 28 15 4\n15 23 21 43 12 17 7 21 4 16"
+    },
+    "579_10x10": {
+      "id": "579_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/579.a.htm",
+      "problem": "10 10\n10 25 8 6 18 17 15 34 13 40\n1 25 19 10 36 22 22 34 32 2"
+    },
+    "580_10x10": {
+      "id": "580_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Kakurasu/580.a.htm",
+      "problem": "10 10\n22 3 5 12 36 36 24 28 11 1\n14 16 35 8 4 36 15 24 18 11"
+    }
+  },
+  "info": "",
+  "count": 280
+}

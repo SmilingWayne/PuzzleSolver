@@ -11,6 +11,7 @@ from EuleroSolver import EuleroSolver
 from MosaicSolver import MosaicSolver
 from NonogramSolver import NonogramSolver
 from NorinoriSolver import NorinoriSolver
+from KakurasuSolver import KakurasuSolver
 from SudokuSolver import SudokuSolver
 from ButterflySudokuSolver import ButterflySudokuSolver
 from Clueless1SudokuSolver import Clueless1SudokuSolver
@@ -42,6 +43,7 @@ class SolverFactory:
         "Mosaic": MosaicSolver, 
         "Nonogram": NonogramSolver,
         "Norinori": NorinoriSolver,
+        "Kakurasu": KakurasuSolver,
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,

@@ -11,6 +11,7 @@ from Common.Parser.PuzzleParsers.EuleroParser import EuleroParser
 from Common.Parser.PuzzleParsers.MosaicParser import MosaicParser
 from Common.Parser.PuzzleParsers.NonogramParser import NonogramParser
 from Common.Parser.PuzzleParsers.NorinoriParser import NorinoriParser
+from Common.Parser.PuzzleParsers.KakurasuParser import KakurasuParser
 from Common.Parser.PuzzleParsers.SudokuParser import SudokuParser
 from Common.Parser.PuzzleParsers.ButterflySudokuParser import ButterflySudokuParser
 from Common.Parser.PuzzleParsers.Clueless1SudokuParser import Clueless1SudokuParser
@@ -40,7 +41,7 @@ class ParserFactory:
         "Mosaic": MosaicParser,
         "Nonogram": NonogramParser, 
         "Norinori": NorinoriParser,
-        
+        "Kakurasu": KakurasuParser,
         # Sudoku (variants)
         "Sudoku": SudokuParser,
         "ButterflySudoku": ButterflySudokuParser, 

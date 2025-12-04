@@ -31,7 +31,8 @@ if __name__ == "__main__":
         "SumoSudoku",
         "WindmillSudoku", 
         "Norinori",
-        "Kakurasu"
+        "Kakurasu",
+        "Fuzuli"
         
     ]
     

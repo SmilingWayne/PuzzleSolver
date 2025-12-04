@@ -1,6 +1,23 @@
 import math
 from typing import List, Tuple
 
+def find_max_integer_safe(matrix):
+    max_value = None
+    
+    for row in matrix:
+        for element in row:
+            element = element.strip()
+            if not element or not element.isdigit():
+                continue
+            try:
+                num = int(element)
+                if max_value is None or num > max_value:
+                    max_value = num
+            except ValueError:
+                continue
+    return max_value
+
+
 def check_square_num(target: int):
     val = int(math.sqrt(target))
     if  val * val == target:

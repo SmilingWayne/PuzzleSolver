@@ -12,6 +12,7 @@ from MosaicSolver import MosaicSolver
 from NonogramSolver import NonogramSolver
 from NorinoriSolver import NorinoriSolver
 from KakurasuSolver import KakurasuSolver
+from FuzuliSolver import FuzuliSolver
 from SudokuSolver import SudokuSolver
 from ButterflySudokuSolver import ButterflySudokuSolver
 from Clueless1SudokuSolver import Clueless1SudokuSolver
@@ -44,6 +45,7 @@ class SolverFactory:
         "Nonogram": NonogramSolver,
         "Norinori": NorinoriSolver,
         "Kakurasu": KakurasuSolver,
+        "Fuzuli": FuzuliSolver,
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,

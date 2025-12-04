@@ -1,0 +1,1626 @@
+{
+  "solutions": {
+    "1_5x5": {
+      "id": "1_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/001.a.htm",
+      "solution": "5 5 3\n- - 2 3 1\n2 3 - 1 -\n3 - 1 2 -\n- 1 3 - 2\n1 2 - - 3"
+    },
+    "2_5x5": {
+      "id": "2_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/002.a.htm",
+      "solution": "5 5 3\n1 - 2 3 -\n3 - 1 2 -\n2 3 - - 1\n- 2 - 1 3\n- 1 3 - 2"
+    },
+    "3_6x6": {
+      "id": "3_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/003.a.htm",
+      "solution": "6 6 3\n- 2 3 1 - -\n3 1 2 - - -\n2 3 1 - - -\n1 - - - 2 3\n- - - 3 1 2\n- - - 2 3 1"
+    },
+    "4_6x6": {
+      "id": "4_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/004.a.htm",
+      "solution": "6 6 3\n3 1 2 - - -\n1 2 - - - 3\n- - 3 1 2 -\n- - - 3 1 2\n2 3 1 - - -\n- - - 2 3 1"
+    },
+    "5_6x6": {
+      "id": "5_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/005.a.htm",
+      "solution": "6 6 3\n1 2 - - - 3\n3 - 2 1 - -\n- 1 3 2 - -\n- 3 - - 1 2\n2 - - - 3 1\n- - 1 3 2 -"
+    },
+    "6_6x6": {
+      "id": "6_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/006.a.htm",
+      "solution": "6 6 3\n2 3 - 1 - -\n1 2 - 3 - -\n3 - - 2 1 -\n- - 1 - 2 3\n- 1 3 - - 2\n- - 2 - 3 1"
+    },
+    "7_6x6": {
+      "id": "7_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/007.a.htm",
+      "solution": "6 6 4\n- 2 3 - 1 4\n2 - 1 4 - 3\n1 4 - 2 3 -\n3 - 4 1 2 -\n- 3 2 - 4 1\n4 1 - 3 - 2"
+    },
+    "8_6x6": {
+      "id": "8_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/008.a.htm",
+      "solution": "6 6 4\n3 4 2 - 1 -\n2 1 - 3 4 -\n1 - - 2 3 4\n- 3 4 - 2 1\n4 - 3 1 - 2\n- 2 1 4 - 3"
+    },
+    "9_6x6": {
+      "id": "9_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/009.a.htm",
+      "solution": "6 6 4\n4 2 - - 3 1\n2 1 3 - 4 -\n1 - - 4 2 3\n3 4 2 1 - -\n- - 4 3 1 2\n- 3 1 2 - 4"
+    },
+    "10_6x6": {
+      "id": "10_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/010.a.htm",
+      "solution": "6 6 4\n- - 3 4 2 1\n4 3 2 - 1 -\n3 2 4 1 - -\n1 4 - 2 - 3\n- 1 - 3 4 2\n2 - 1 - 3 4"
+    },
+    "11_7x7": {
+      "id": "11_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/011.a.htm",
+      "solution": "7 7 3\n3 1 2 - - - -\n2 3 - 1 - - -\n- 2 1 - 3 - -\n1 - 3 2 - - -\n- - - - 1 2 3\n- - - - 2 3 1\n- - - 3 - 1 2"
+    },
+    "12_7x7": {
+      "id": "12_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/012.a.htm",
+      "solution": "7 7 3\n3 2 - 1 - - -\n- - 2 3 1 - -\n1 3 - 2 - - -\n2 - - - 3 1 -\n- - - - 2 3 1\n- 1 3 - - - 2\n- - 1 - - 2 3"
+    },
+    "13_7x7": {
+      "id": "13_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/013.a.htm",
+      "solution": "7 7 3\n3 1 2 - - - -\n- 3 1 2 - - -\n- 2 - 3 1 - -\n- - - - 3 1 2\n2 - - 1 - - 3\n1 - 3 - - 2 -\n- - - - 2 3 1"
+    },
+    "14_7x7": {
+      "id": "14_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/014.a.htm",
+      "solution": "7 7 3\n3 1 - 2 - - -\n2 3 - 1 - - -\n1 2 - 3 - - -\n- - - - 1 3 2\n- - 2 - 3 1 -\n- - 1 - 2 - 3\n- - 3 - - 2 1"
+    },
+    "15_7x7": {
+      "id": "15_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/015.a.htm",
+      "solution": "7 7 4\n3 4 2 1 - - -\n2 1 4 3 - - -\n4 - - 2 - 1 3\n- 3 1 - 4 2 -\n- - 3 4 1 - 2\n1 - - - 2 3 4\n- 2 - - 3 4 1"
+    },
+    "16_7x7": {
+      "id": "16_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/016.a.htm",
+      "solution": "7 7 4\n3 2 4 1 - - -\n4 3 2 - - - 1\n- - 1 4 - 2 3\n1 4 3 - 2 - -\n2 - - 3 4 1 -\n- 1 - - 3 4 2\n- - - 2 1 3 4"
+    },
+    "17_7x7": {
+      "id": "17_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/017.a.htm",
+      "solution": "7 7 4\n4 2 - 3 1 - -\n1 3 4 - 2 - -\n- 1 3 2 4 - -\n- 4 2 - - 1 3\n- - - 1 3 4 2\n3 - 1 - - 2 4\n2 - - 4 - 3 1"
+    },
+    "18_7x7": {
+      "id": "18_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/018.a.htm",
+      "solution": "7 7 4\n3 1 2 - - - 4\n- 2 3 4 - - 1\n1 4 - 2 - - 3\n2 - 1 - 4 3 -\n4 - - 1 3 2 -\n- - 4 3 2 1 -\n- 3 - - 1 4 2"
+    },
+    "19_7x7": {
+      "id": "19_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/019.a.htm",
+      "solution": "7 7 4\n3 2 - 1 4 - -\n1 3 4 - 2 - -\n2 - - 3 - 1 4\n4 1 2 - 3 - -\n- 4 - - 1 3 2\n- - 3 2 - 4 1\n- - 1 4 - 2 3"
+    },
+    "20_9x9": {
+      "id": "20_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/020.a.htm",
+      "solution": "9 9 5\n- 1 4 3 2 5 - - -\n2 5 - - 3 4 - - 1\n3 2 - 5 - 1 - - 4\n1 - 2 4 5 3 - - -\n5 - 3 2 - - 1 4 -\n- - 5 1 - - 4 3 2\n- - 1 - 4 - 3 2 5\n- 4 - - - 2 5 1 3\n4 3 - - 1 - 2 5 -"
+    },
+    "21_5x5": {
+      "id": "21_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/021.a.htm",
+      "solution": "5 5 3\n- 3 1 - 2\n1 2 - 3 -\n2 - 3 1 -\n3 - 2 - 1\n- 1 - 2 3"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/022.a.htm",
+      "solution": "6 6 3\n3 - 1 2 - -\n1 2 - 3 - -\n- - 2 1 - 3\n2 - 3 - 1 -\n- 1 - - 3 2\n- 3 - - 2 1"
+    },
+    "23_6x6": {
+      "id": "23_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/023.a.htm",
+      "solution": "6 6 3\n3 1 2 - - -\n1 - 3 - - 2\n2 3 - 1 - -\n- 2 - - 3 1\n- - - 2 1 3\n- - 1 3 2 -"
+    },
+    "24_6x6": {
+      "id": "24_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/024.a.htm",
+      "solution": "6 6 4\n4 2 - 3 - 1\n3 1 2 4 - -\n2 3 - 1 4 -\n- - 4 2 1 3\n- 4 1 - 3 2\n1 - 3 - 2 4"
+    },
+    "25_6x6": {
+      "id": "25_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/025.a.htm",
+      "solution": "6 6 4\n1 3 - 2 - 4\n4 - - 1 2 3\n- 1 4 - 3 2\n- - 2 3 4 1\n2 4 3 - 1 -\n3 2 1 4 - -"
+    },
+    "26_7x7": {
+      "id": "26_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/026.a.htm",
+      "solution": "7 7 3\n2 3 - - - 1 -\n3 1 - - - 2 -\n- - 2 1 - - 3\n1 - 3 - 2 - -\n- - 1 - 3 - 2\n- - - 2 1 3 -\n- 2 - 3 - - 1"
+    },
+    "27_7x7": {
+      "id": "27_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/027.a.htm",
+      "solution": "7 7 3\n3 2 1 - - - -\n2 3 - - 1 - -\n1 - 3 2 - - -\n- 1 - 3 - 2 -\n- - - - 3 1 2\n- - 2 1 - - 3\n- - - - 2 3 1"
+    },
+    "28_7x7": {
+      "id": "28_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/028.a.htm",
+      "solution": "7 7 4\n1 3 4 2 - - -\n4 1 3 - - - 2\n- 2 - 4 3 1 -\n3 4 - 1 2 - -\n- - 1 - 4 2 3\n- - 2 - 1 3 4\n2 - - 3 - 4 1"
+    },
+    "29_7x7": {
+      "id": "29_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/029.a.htm",
+      "solution": "7 7 4\n2 3 1 - 4 - -\n3 - 2 1 - 4 -\n- 2 4 3 1 - -\n1 4 - - 2 - 3\n4 1 - - - 3 2\n- - - 2 3 1 4\n- - 3 4 - 2 1"
+    },
+    "30_9x9": {
+      "id": "30_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/030.a.htm",
+      "solution": "9 9 5\n2 1 - 4 - 3 - 5 -\n- 2 - - 1 5 - 3 4\n- 5 1 3 - 4 - - 2\n- 4 - - 2 1 5 - 3\n3 - 5 - - - 4 2 1\n1 - 4 2 5 - 3 - -\n4 - 2 5 3 - 1 - -\n- 3 - 1 - 2 - 4 5\n5 - 3 - 4 - 2 1 -"
+    },
+    "31_5x5": {
+      "id": "31_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/031.a.htm",
+      "solution": "5 5 3\n2 1 3 - -\n3 - 1 - 2\n- 2 - 1 3\n- 3 - 2 1\n1 - 2 3 -"
+    },
+    "32_5x5": {
+      "id": "32_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/032.a.htm",
+      "solution": "5 5 3\n3 1 - 2 -\n1 - 2 3 -\n2 3 - - 1\n- 2 1 - 3\n- - 3 1 2"
+    },
+    "33_6x6": {
+      "id": "33_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/033.a.htm",
+      "solution": "6 6 3\n1 - 2 3 - -\n- - 1 2 - 3\n2 1 3 - - -\n3 - - 1 2 -\n- 3 - - 1 2\n- 2 - - 3 1"
+    },
+    "34_6x6": {
+      "id": "34_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/034.a.htm",
+      "solution": "6 6 3\n- 3 2 - - 1\n- 1 3 2 - -\n3 - - 1 2 -\n1 2 - 3 - -\n- - 1 - 3 2\n2 - - - 1 3"
+    },
+    "35_6x6": {
+      "id": "35_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/035.a.htm",
+      "solution": "6 6 3\n2 1 3 - - -\n3 - 1 2 - -\n- 2 - 1 - 3\n1 - - 3 2 -\n- 3 - - 1 2\n- - 2 - 3 1"
+    },
+    "36_6x6": {
+      "id": "36_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/036.a.htm",
+      "solution": "6 6 3\n1 2 - 3 - -\n3 - - 2 1 -\n- 1 2 - - 3\n2 - 1 - 3 -\n- 3 - - 2 1\n- - 3 1 - 2"
+    },
+    "37_7x7": {
+      "id": "37_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/037.a.htm",
+      "solution": "7 7 4\n2 - 1 3 - 4 -\n3 2 4 1 - - -\n4 - 3 - 1 - 2\n- 3 2 - 4 1 -\n- 1 - 2 3 - 4\n- 4 - - 2 3 1\n1 - - 4 - 2 3"
+    },
+    "38_7x7": {
+      "id": "38_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/038.a.htm",
+      "solution": "7 7 4\n4 3 - 2 1 - -\n2 1 - - - 3 4\n3 - 4 - 2 - 1\n1 - - 4 - 2 3\n- - 2 3 4 1 -\n- 4 1 - 3 - 2\n- 2 3 1 - 4 -"
+    },
+    "39_7x7": {
+      "id": "39_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/039.a.htm",
+      "solution": "7 7 4\n3 - 1 4 2 - -\n4 2 3 - 1 - -\n2 1 - 3 4 - -\n1 - - 2 - 4 3\n- - 2 - 3 1 4\n- 3 4 - - 2 1\n- 4 - 1 - 3 2"
+    },
+    "40_7x7": {
+      "id": "40_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/040.a.htm",
+      "solution": "7 7 4\n1 4 2 3 - - -\n- - - 2 4 3 1\n4 3 - 1 2 - -\n3 2 - - 1 - 4\n- 1 3 4 - 2 -\n2 - 4 - - 1 3\n- - 1 - 3 4 2"
+    },
+    "41_5x5": {
+      "id": "41_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/041.a.htm",
+      "solution": "5 5 3\n2 - 3 - 1\n3 - 1 - 2\n- 1 - 2 3\n- 3 2 1 -\n1 2 - 3 -"
+    },
+    "42_5x5": {
+      "id": "42_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/042.a.htm",
+      "solution": "5 5 3\n2 - 1 3 -\n1 - 2 - 3\n3 2 - 1 -\n- 3 - 2 1\n- 1 3 - 2"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/043.a.htm",
+      "solution": "6 6 4\n1 4 3 2 - -\n4 1 2 - - 3\n2 3 1 - 4 -\n3 - - 1 2 4\n- - 4 3 1 2\n- 2 - 4 3 1"
+    },
+    "44_6x6": {
+      "id": "44_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/044.a.htm",
+      "solution": "6 6 4\n- 3 2 - 1 4\n- 4 1 3 - 2\n2 1 3 - 4 -\n3 2 4 1 - -\n1 - - 4 2 3\n4 - - 2 3 1"
+    },
+    "45_6x6": {
+      "id": "45_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/045.a.htm",
+      "solution": "6 6 4\n4 - 1 3 - 2\n1 - - 2 3 4\n3 4 2 - - 1\n- 1 4 - 2 3\n2 3 - 1 4 -\n- 2 3 4 1 -"
+    },
+    "46_6x6": {
+      "id": "46_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/046.a.htm",
+      "solution": "6 6 4\n3 2 - - 1 4\n- 3 4 2 - 1\n4 - 3 1 - 2\n1 4 - - 2 3\n2 - 1 3 4 -\n- 1 2 4 3 -"
+    },
+    "47_7x7": {
+      "id": "47_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/047.a.htm",
+      "solution": "7 7 3\n1 2 3 - - - -\n2 - - 1 3 - -\n3 - 1 - - 2 -\n- 1 2 3 - - -\n- - - - 1 3 2\n- 3 - - 2 - 1\n- - - 2 - 1 3"
+    },
+    "48_7x7": {
+      "id": "48_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/048.a.htm",
+      "solution": "7 7 3\n- 3 - 1 2 - -\n3 - 1 - - 2 -\n1 2 - 3 - - -\n2 1 - - - 3 -\n- - 3 - 1 - 2\n- - - 2 - 1 3\n- - 2 - 3 - 1"
+    },
+    "49_7x7": {
+      "id": "49_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/049.a.htm",
+      "solution": "7 7 3\n3 - 2 - 1 - -\n1 3 - - - - 2\n2 - - - 3 - 1\n- - - 1 2 - 3\n- 2 1 - - 3 -\n- - 3 2 - 1 -\n- 1 - 3 - 2 -"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/051.a.htm",
+      "solution": "6 6 3\n1 - - - 2 3\n- 2 - - 3 1\n3 - - - 1 2\n2 - 3 1 - -\n- 3 1 2 - -\n- 1 2 3 - -"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/052.a.htm",
+      "solution": "6 6 3\n3 2 - 1 - -\n2 - 1 3 - -\n- - 2 - 3 1\n- 3 - - 1 2\n- 1 - - 2 3\n1 - 3 2 - -"
+    },
+    "53_6x6": {
+      "id": "53_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/053.a.htm",
+      "solution": "6 6 4\n4 - - 2 1 3\n3 - 4 1 2 -\n2 1 - 4 3 -\n1 3 2 - - 4\n- 2 3 - 4 1\n- 4 1 3 - 2"
+    },
+    "54_6x6": {
+      "id": "54_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/054.a.htm",
+      "solution": "6 6 4\n3 1 2 4 - -\n- 2 3 1 4 -\n2 4 1 - - 3\n- 3 4 - 2 1\n4 - - 3 1 2\n1 - - 2 3 4"
+    },
+    "55_7x7": {
+      "id": "55_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/055.a.htm",
+      "solution": "7 7 3\n1 2 - 3 - - -\n2 - - 1 - 3 -\n- 1 2 - 3 - -\n3 - - - 1 - 2\n- - 3 2 - 1 -\n- 3 - - 2 - 1\n- - 1 - - 2 3"
+    },
+    "56_7x7": {
+      "id": "56_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/056.a.htm",
+      "solution": "7 7 3\n2 3 1 - - - -\n1 - 3 2 - - -\n3 - 2 1 - - -\n- - - - 2 3 1\n- 1 - - 3 2 -\n- - - 3 - 1 2\n- 2 - - 1 - 3"
+    },
+    "57_7x7": {
+      "id": "57_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/057.a.htm",
+      "solution": "7 7 3\n- 2 1 3 - - -\n- 3 - 1 2 - -\n3 - 2 - - 1 -\n- 1 - 2 3 - -\n- - 3 - 1 - 2\n1 - - - - 2 3\n2 - - - - 3 1"
+    },
+    "58_7x7": {
+      "id": "58_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/058.a.htm",
+      "solution": "7 7 4\n3 2 1 - 4 - -\n1 3 - - - 2 4\n2 1 4 - 3 - -\n- - 3 4 - 1 2\n- 4 2 3 1 - -\n- - - 1 2 4 3\n4 - - 2 - 3 1"
+    },
+    "60_7x7": {
+      "id": "60_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/060.a.htm",
+      "solution": "7 7 4\n4 3 2 - - - 1\n2 - 1 - 4 3 -\n1 4 3 2 - - -\n- - 4 1 3 - 2\n3 - - 4 1 2 -\n- 2 - 3 - 1 4\n- 1 - - 2 4 3"
+    },
+    "61_6x6": {
+      "id": "61_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/061.a.htm",
+      "solution": "6 6 3\n3 2 1 - - -\n- 3 - - 2 1\n- 1 2 - - 3\n2 - - 1 3 -\n1 - - 3 - 2\n- - 3 2 1 -"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/062.a.htm",
+      "solution": "6 6 3\n2 - 3 - 1 -\n1 3 - 2 - -\n- 1 2 3 - -\n- 2 - - 3 1\n- - - 1 2 3\n3 - 1 - - 2"
+    },
+    "63_6x6": {
+      "id": "63_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/063.a.htm",
+      "solution": "6 6 4\n2 3 - 1 - 4\n3 1 - 4 - 2\n4 - 1 2 3 -\n- 4 2 - 1 3\n1 2 3 - 4 -\n- - 4 3 2 1"
+    },
+    "64_6x6": {
+      "id": "64_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/064.a.htm",
+      "solution": "6 6 4\n- 4 2 - 1 3\n- 1 - 2 3 4\n4 - 3 1 2 -\n2 3 1 4 - -\n1 - - 3 4 2\n3 2 4 - - 1"
+    },
+    "65_7x7": {
+      "id": "65_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/065.a.htm",
+      "solution": "7 7 3\n3 - 1 - 2 - -\n2 - 3 1 - - -\n1 2 - - - 3 -\n- - - - 3 1 2\n- - - - 1 2 3\n- 3 - 2 - - 1\n- 1 2 3 - - -"
+    },
+    "66_7x7": {
+      "id": "66_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/066.a.htm",
+      "solution": "7 7 3\n1 2 3 - - - -\n3 1 2 - - - -\n- - 1 - 3 2 -\n2 3 - 1 - - -\n- - - 2 - 3 1\n- - - - 2 1 3\n- - - 3 1 - 2"
+    },
+    "67_7x7": {
+      "id": "67_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/067.a.htm",
+      "solution": "7 7 3\n3 1 - - 2 - -\n- 2 - - 3 1 -\n- 3 2 - 1 - -\n- - - 1 - 3 2\n2 - 1 - - - 3\n1 - - 3 - 2 -\n- - 3 2 - - 1"
+    },
+    "68_7x7": {
+      "id": "68_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/068.a.htm",
+      "solution": "7 7 4\n2 - - 3 4 - 1\n- 1 3 4 - - 2\n4 3 - - 1 2 -\n3 - 4 1 2 - -\n- 4 1 2 - 3 -\n- - 2 - 3 1 4\n1 2 - - - 4 3"
+    },
+    "69_7x7": {
+      "id": "69_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/069.a.htm",
+      "solution": "7 7 4\n4 3 2 - 1 - -\n2 1 - 3 4 - -\n- 2 4 - - 3 1\n1 4 - - 3 2 -\n3 - 1 2 - - 4\n- - 3 4 - 1 2\n- - - 1 2 4 3"
+    },
+    "70_7x7": {
+      "id": "70_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/070.a.htm",
+      "solution": "7 7 4\n3 1 2 4 - - -\n2 4 - 3 - - 1\n- - 4 - 3 1 2\n4 - 1 - 2 3 -\n- - 3 - 1 2 4\n1 3 - 2 4 - -\n- 2 - 1 - 4 3"
+    },
+    "71_6x6": {
+      "id": "71_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/071.a.htm",
+      "solution": "6 6 3\n3 - 1 2 - -\n- 2 3 1 - -\n- 1 2 3 - -\n- 3 - - 1 2\n2 - - - 3 1\n1 - - - 2 3"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/072.a.htm",
+      "solution": "6 6 3\n3 2 - - - 1\n1 3 - - 2 -\n- - 1 2 - 3\n- 1 2 - 3 -\n2 - - 3 1 -\n- - 3 1 - 2"
+    },
+    "73_6x6": {
+      "id": "73_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/073.a.htm",
+      "solution": "6 6 4\n2 1 4 - - 3\n1 3 - 4 - 2\n- 4 3 - 2 1\n- - 2 1 3 4\n3 - 1 2 4 -\n4 2 - 3 1 -"
+    },
+    "74_6x6": {
+      "id": "74_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/074.a.htm",
+      "solution": "6 6 4\n1 - 4 2 - 3\n3 4 2 - 1 -\n2 - 1 3 4 -\n4 2 3 - - 1\n- 1 - 4 3 2\n- 3 - 1 2 4"
+    },
+    "75_7x7": {
+      "id": "75_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/075.a.htm",
+      "solution": "7 7 3\n3 - - - 1 - 2\n1 - - - 2 - 3\n2 - 3 - - - 1\n- - 2 1 - 3 -\n- 2 1 - 3 - -\n- 3 - 2 - 1 -\n- 1 - 3 - 2 -"
+    },
+    "76_7x7": {
+      "id": "76_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/076.a.htm",
+      "solution": "7 7 3\n1 - 3 2 - - -\n- - 2 3 1 - -\n3 2 1 - - - -\n2 - - 1 3 - -\n- - - - 2 3 1\n- 3 - - - 1 2\n- 1 - - - 2 3"
+    },
+    "77_7x7": {
+      "id": "77_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/077.a.htm",
+      "solution": "7 7 3\n1 2 - 3 - - -\n3 1 - 2 - - -\n2 3 - 1 - - -\n- - - - 1 3 2\n- - 2 - 3 1 -\n- - 3 - 2 - 1\n- - 1 - - 2 3"
+    },
+    "78_7x7": {
+      "id": "78_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/078.a.htm",
+      "solution": "7 7 4\n2 4 - 3 1 - -\n3 - 1 - 2 4 -\n4 1 2 - 3 - -\n1 2 3 - - - 4\n- - - 1 4 3 2\n- 3 - 4 - 2 1\n- - 4 2 - 1 3"
+    },
+    "79_7x7": {
+      "id": "79_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/079.a.htm",
+      "solution": "7 7 4\n- 4 3 - - 1 2\n3 - 1 2 4 - -\n2 1 4 - - - 3\n- 3 2 1 - 4 -\n4 2 - 3 1 - -\n1 - - - 3 2 4\n- - - 4 2 3 1"
+    },
+    "80_7x7": {
+      "id": "80_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/080.a.htm",
+      "solution": "7 7 4\n- 3 1 2 4 - -\n- 2 3 4 - 1 -\n3 4 2 1 - - -\n- 1 4 3 - - 2\n1 - - - 2 4 3\n2 - - - 1 3 4\n4 - - - 3 2 1"
+    },
+    "81_6x6": {
+      "id": "81_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/081.a.htm",
+      "solution": "6 6 3\n1 - 3 2 - -\n2 1 - 3 - -\n3 - 2 1 - -\n- 2 - - 1 3\n- - 1 - 3 2\n- 3 - - 2 1"
+    },
+    "82_6x6": {
+      "id": "82_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/082.a.htm",
+      "solution": "6 6 3\n1 2 - - 3 -\n- 3 1 2 - -\n- - 2 - 1 3\n- - 3 - 2 1\n3 - - 1 - 2\n2 1 - 3 - -"
+    },
+    "83_6x6": {
+      "id": "83_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/083.a.htm",
+      "solution": "6 6 4\n- 2 1 4 3 -\n4 3 - 2 - 1\n3 1 4 - 2 -\n1 - 3 - 4 2\n2 - - 3 1 4\n- 4 2 1 - 3"
+    },
+    "84_6x6": {
+      "id": "84_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/084.a.htm",
+      "solution": "6 6 4\n- 2 3 - 4 1\n3 - - 2 1 4\n1 - 4 - 3 2\n- 4 1 3 2 -\n2 1 - 4 - 3\n4 3 2 1 - -"
+    },
+    "85_7x7": {
+      "id": "85_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/085.a.htm",
+      "solution": "7 7 3\n2 - 1 3 - - -\n1 - 3 2 - - -\n- 1 2 - 3 - -\n- - - - 2 3 1\n3 2 - 1 - - -\n- - - - 1 2 3\n- 3 - - - 1 2"
+    },
+    "86_7x7": {
+      "id": "86_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/086.a.htm",
+      "solution": "7 7 3\n- 3 2 1 - - -\n- 2 1 - - 3 -\n- 1 3 2 - - -\n2 - - - 3 1 -\n- - - 3 - 2 1\n1 - - - 2 - 3\n3 - - - 1 - 2"
+    },
+    "87_7x7": {
+      "id": "87_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/087.a.htm",
+      "solution": "7 7 3\n2 1 - 3 - - -\n1 3 - 2 - - -\n- 2 3 - - 1 -\n- - 2 1 3 - -\n3 - - - - 2 1\n- - - - 1 3 2\n- - 1 - 2 - 3"
+    },
+    "88_7x7": {
+      "id": "88_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/088.a.htm",
+      "solution": "7 7 4\n3 2 1 4 - - -\n1 - 3 2 - 4 -\n4 1 2 3 - - -\n2 - 4 - 1 - 3\n- 3 - - 2 1 4\n- - - 1 4 3 2\n- 4 - - 3 2 1"
+    },
+    "89_7x7": {
+      "id": "89_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/089.a.htm",
+      "solution": "7 7 4\n1 - 4 3 - 2 -\n4 2 3 1 - - -\n3 1 2 4 - - -\n- - 1 - 2 4 3\n- 3 - - 4 1 2\n2 4 - - 3 - 1\n- - - 2 1 3 4"
+    },
+    "90_7x7": {
+      "id": "90_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/090.a.htm",
+      "solution": "7 7 4\n2 1 4 - 3 - -\n4 2 - - 1 3 -\n- 3 2 - 4 1 -\n- 4 - 1 2 - 3\n3 - - 2 - 4 1\n1 - 3 4 - - 2\n- - 1 3 - 2 4"
+    },
+    "91_6x6": {
+      "id": "91_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/091.a.htm",
+      "solution": "6 6 3\n1 2 - 3 - -\n2 3 1 - - -\n- - - 1 2 3\n- 1 3 2 - -\n- - 2 - 3 1\n3 - - - 1 2"
+    },
+    "92_6x6": {
+      "id": "92_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/092.a.htm",
+      "solution": "6 6 3\n- 1 2 - - 3\n1 - - - 3 2\n- 2 - 3 1 -\n3 - - 2 - 1\n- 3 1 - 2 -\n2 - 3 1 - -"
+    },
+    "93_6x6": {
+      "id": "93_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/093.a.htm",
+      "solution": "6 6 4\n1 2 - - 3 4\n4 3 2 - - 1\n- - 4 3 1 2\n2 - 1 4 - 3\n- 4 3 1 2 -\n3 1 - 2 4 -"
+    },
+    "94_6x6": {
+      "id": "94_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/094.a.htm",
+      "solution": "6 6 4\n4 1 3 2 - -\n1 2 4 3 - -\n- 3 1 - 2 4\n- 4 2 - 1 3\n3 - - 1 4 2\n2 - - 4 3 1"
+    },
+    "95_7x7": {
+      "id": "95_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/095.a.htm",
+      "solution": "7 7 3\n- 3 1 - 2 - -\n- 1 2 - 3 - -\n- - - 2 - 1 3\n2 - - - 1 3 -\n3 2 - 1 - - -\n1 - 3 - - - 2\n- - - 3 - 2 1"
+    },
+    "96_7x7": {
+      "id": "96_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/096.a.htm",
+      "solution": "7 7 3\n2 - 1 - 3 - -\n3 1 - 2 - - -\n- 2 - - - 1 3\n- 3 2 - - - 1\n1 - 3 - - 2 -\n- - - 1 2 3 -\n- - - 3 1 - 2"
+    },
+    "97_7x7": {
+      "id": "97_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/097.a.htm",
+      "solution": "7 7 3\n3 2 - - 1 - -\n1 - 3 2 - - -\n- - 1 3 2 - -\n2 - - 1 3 - -\n- - 2 - - 1 3\n- 3 - - - 2 1\n- 1 - - - 3 2"
+    },
+    "98_7x7": {
+      "id": "98_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/098.a.htm",
+      "solution": "7 7 4\n1 4 - 3 2 - -\n2 - 1 - 3 4 -\n- 3 2 4 1 - -\n- 2 3 - 4 - 1\n4 - - 1 - 3 2\n3 1 - - - 2 4\n- - 4 2 - 1 3"
+    },
+    "99_7x7": {
+      "id": "99_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/099.a.htm",
+      "solution": "7 7 4\n4 3 - 2 - 1 -\n3 4 2 - - - 1\n1 - - 3 4 - 2\n- - 1 4 2 3 -\n2 1 - - 3 4 -\n- - 3 1 - 2 4\n- 2 4 - 1 - 3"
+    },
+    "100_7x7": {
+      "id": "100_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/100.a.htm",
+      "solution": "7 7 4\n1 4 - 3 - - 2\n3 - - 1 2 - 4\n2 1 - 4 3 - -\n- 3 2 - 4 1 -\n4 - 1 2 - 3 -\n- 2 3 - - 4 1\n- - 4 - 1 2 3"
+    },
+    "101_5x5": {
+      "id": "101_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/101.a.htm",
+      "solution": "5 5 3\n3 - 1 - 2\n2 1 - - 3\n1 3 - 2 -\n- 2 3 1 -\n- - 2 3 1"
+    },
+    "102_7x7": {
+      "id": "102_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/102.a.htm",
+      "solution": "7 7 3\n1 3 2 - - - -\n- 1 - 2 - - 3\n2 - - 3 - 1 -\n3 2 1 - - - -\n- - - - 3 2 1\n- - 3 - 1 - 2\n- - - 1 2 3 -"
+    },
+    "105_7x7": {
+      "id": "105_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/105.a.htm",
+      "solution": "7 7 3\n2 1 - 3 - - -\n- - 2 1 - 3 -\n1 - - 2 - - 3\n- 3 - - - 2 1\n3 - 1 - 2 - -\n- 2 3 - 1 - -\n- - - - 3 1 2"
+    },
+    "106_7x7": {
+      "id": "106_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/106.a.htm",
+      "solution": "7 7 3\n- 1 2 - 3 - -\n- 3 - - 2 1 -\n- - 1 3 - 2 -\n1 - - 2 - - 3\n3 - - 1 - - 2\n2 - - - - 3 1\n- 2 3 - 1 - -"
+    },
+    "111_5x5": {
+      "id": "111_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/111.a.htm",
+      "solution": "5 5 3\n3 2 1 - -\n- 1 3 2 -\n1 - - 3 2\n- 3 2 - 1\n2 - - 1 3"
+    },
+    "112_5x5": {
+      "id": "112_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/112.a.htm",
+      "solution": "5 5 3\n- 1 2 3 -\n2 - - 1 3\n3 - - 2 1\n1 2 3 - -\n- 3 1 - 2"
+    },
+    "113_6x6": {
+      "id": "113_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/113.a.htm",
+      "solution": "6 6 3\n- 1 - - 2 3\n- - 3 - 1 2\n- - 2 3 - 1\n2 - - 1 3 -\n1 3 - 2 - -\n3 2 1 - - -"
+    },
+    "114_6x6": {
+      "id": "114_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/114.a.htm",
+      "solution": "6 6 3\n1 - 2 - - 3\n3 - 1 2 - -\n- 2 3 1 - -\n- 3 - - 1 2\n2 - - - 3 1\n- 1 - 3 2 -"
+    },
+    "115_6x6": {
+      "id": "115_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/115.a.htm",
+      "solution": "6 6 4\n1 4 2 3 - -\n3 2 - - 1 4\n- - 4 2 3 1\n4 - 3 1 - 2\n2 1 - - 4 3\n- 3 1 4 2 -"
+    },
+    "116_6x6": {
+      "id": "116_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/116.a.htm",
+      "solution": "6 6 4\n1 2 - 4 - 3\n3 - 1 2 4 -\n2 3 - - 1 4\n- - 4 3 2 1\n4 1 3 - - 2\n- 4 2 1 3 -"
+    },
+    "117_7x7": {
+      "id": "117_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/117.a.htm",
+      "solution": "7 7 4\n- 4 2 - - 3 1\n- 2 3 1 - 4 -\n2 - 1 - 3 - 4\n3 1 - 4 2 - -\n4 - - 2 - 1 3\n1 3 - - 4 - 2\n- - 4 3 1 2 -"
+    },
+    "118_7x7": {
+      "id": "118_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/118.a.htm",
+      "solution": "7 7 4\n4 1 3 2 - - -\n3 - - - 1 4 2\n1 2 - 3 4 - -\n- - 1 - 2 3 4\n2 4 - 1 3 - -\n- - 2 4 - 1 3\n- 3 4 - - 2 1"
+    },
+    "119_9x9": {
+      "id": "119_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/119.a.htm",
+      "solution": "9 9 5\n4 3 - 1 2 5 - - -\n- - 2 - 1 4 - 5 3\n- 2 5 4 3 1 - - -\n1 5 3 - 4 2 - - -\n2 1 - - 5 3 4 - -\n- - 4 3 - - 5 1 2\n3 - - 5 - - 2 4 1\n- 4 - 2 - - 1 3 5\n5 - 1 - - - 3 2 4"
+    },
+    "120_9x9": {
+      "id": "120_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/120.a.htm",
+      "solution": "9 9 5\n3 - 5 2 4 1 - - -\n4 2 1 5 - - 3 - -\n5 1 2 4 - 3 - - -\n- - - 1 3 2 - 5 4\n- 3 - - 1 - 5 4 2\n2 - 3 - - 4 1 - 5\n1 - 4 - - 5 - 2 3\n- 4 - - 5 - 2 3 1\n- 5 - 3 2 - 4 1 -"
+    },
+    "121_5x5": {
+      "id": "121_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/121.a.htm",
+      "solution": "5 5 3\n- - 3 2 1\n1 3 2 - -\n- 1 - 3 2\n2 - 1 - 3\n3 2 - 1 -"
+    },
+    "122_5x5": {
+      "id": "122_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/122.a.htm",
+      "solution": "5 5 3\n3 - 2 - 1\n1 2 - 3 -\n2 1 3 - -\n- - 1 2 3\n- 3 - 1 2"
+    },
+    "123_6x6": {
+      "id": "123_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/123.a.htm",
+      "solution": "6 6 3\n2 - 3 1 - -\n1 3 2 - - -\n3 - 1 2 - -\n- 1 - - 3 2\n- - - 3 2 1\n- 2 - - 1 3"
+    },
+    "124_6x6": {
+      "id": "124_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/124.a.htm",
+      "solution": "6 6 3\n2 1 - - 3 -\n- 2 - 1 - 3\n1 - - 3 2 -\n- - 3 - 1 2\n- 3 1 2 - -\n3 - 2 - - 1"
+    },
+    "125_6x6": {
+      "id": "125_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/125.a.htm",
+      "solution": "6 6 4\n2 4 - 1 3 -\n1 3 4 - - 2\n- 2 3 4 - 1\n4 - 1 3 2 -\n3 - 2 - 1 4\n- 1 - 2 4 3"
+    },
+    "126_6x6": {
+      "id": "126_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/126.a.htm",
+      "solution": "6 6 4\n2 - - 4 1 3\n4 3 - 2 - 1\n- 2 3 1 - 4\n3 4 1 - 2 -\n- 1 2 3 4 -\n1 - 4 - 3 2"
+    },
+    "127_7x7": {
+      "id": "127_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/127.a.htm",
+      "solution": "7 7 4\n- 3 4 1 - 2 -\n3 1 - 4 - - 2\n2 - 3 - 4 - 1\n1 - - - 2 4 3\n- - 2 - 3 1 4\n- 4 - 2 1 3 -\n4 2 1 3 - - -"
+    },
+    "129_9x9": {
+      "id": "129_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/129.a.htm",
+      "solution": "9 9 5\n2 5 - 1 3 4 - - -\n3 1 4 5 - 2 - - -\n5 - 2 3 - 1 - 4 -\n4 - 1 2 - 3 - - 5\n- 2 - - 1 - 3 5 4\n- - - 4 5 - 2 3 1\n1 - 3 - - 5 4 2 -\n- 3 - - 4 - 5 1 2\n- 4 5 - 2 - 1 - 3"
+    },
+    "131_5x5": {
+      "id": "131_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/131.a.htm",
+      "solution": "5 5 3\n2 - 1 - 3\n1 - - 3 2\n- 2 3 - 1\n- 3 2 1 -\n3 1 - 2 -"
+    },
+    "132_5x5": {
+      "id": "132_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/132.a.htm",
+      "solution": "5 5 3\n1 3 - - 2\n- - 2 1 3\n- 2 3 - 1\n3 1 - 2 -\n2 - 1 3 -"
+    },
+    "133_6x6": {
+      "id": "133_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/133.a.htm",
+      "solution": "6 6 3\n1 2 - - 3 -\n2 3 - 1 - -\n- - 2 - 1 3\n3 1 - - - 2\n- - 3 2 - 1\n- - 1 3 2 -"
+    },
+    "134_6x6": {
+      "id": "134_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/134.a.htm",
+      "solution": "6 6 3\n2 - - - 1 3\n1 - 3 - - 2\n- - - 2 3 1\n3 1 2 - - -\n- 2 1 3 - -\n- 3 - 1 2 -"
+    },
+    "135_6x6": {
+      "id": "135_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/135.a.htm",
+      "solution": "6 6 4\n2 - 1 4 3 -\n3 1 4 2 - -\n- 4 2 3 - 1\n- - 3 1 4 2\n1 3 - - 2 4\n4 2 - - 1 3"
+    },
+    "137_7x7": {
+      "id": "137_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/137.a.htm",
+      "solution": "7 7 4\n3 1 2 4 - - -\n4 2 3 - 1 - -\n- 4 - 2 - 3 1\n1 3 - - 2 4 -\n2 - 4 - - 1 3\n- - 1 3 4 - 2\n- - - 1 3 2 4"
+    },
+    "138_7x7": {
+      "id": "138_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/138.a.htm",
+      "solution": "7 7 4\n- 2 4 - 1 - 3\n3 - - - 2 4 1\n2 4 1 - 3 - -\n4 1 - 3 - 2 -\n1 3 - 2 4 - -\n- - 2 1 - 3 4\n- - 3 4 - 1 2"
+    },
+    "139_9x9": {
+      "id": "139_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/139.a.htm",
+      "solution": "9 9 5\n3 - 5 - 2 1 4 - -\n4 - - 1 5 2 3 - -\n2 - 1 - - - 5 3 4\n5 2 - 4 1 - - - 3\n- 4 2 5 - 3 - - 1\n- 5 - 3 4 - 1 2 -\n1 3 4 - - - 2 5 -\n- 1 - - 3 5 - 4 2\n- - 3 2 - 4 - 1 5"
+    },
+    "140_9x9": {
+      "id": "140_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/140.a.htm",
+      "solution": "9 9 5\n- 1 4 - - 5 - 2 3\n4 - 1 - 2 - - 3 5\n1 3 - - 4 - - 5 2\n2 5 3 - - 4 - 1 -\n- 4 5 2 - 3 1 - -\n- 2 - 1 3 - 5 4 -\n5 - - 3 - 2 4 - 1\n- - 2 4 5 1 3 - -\n3 - - 5 1 - 2 - 4"
+    },
+    "141_5x5": {
+      "id": "141_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/141.a.htm",
+      "solution": "5 5 3\n3 2 1 - -\n1 - 2 - 3\n2 - 3 1 -\n- 3 - 2 1\n- 1 - 3 2"
+    },
+    "142_5x5": {
+      "id": "142_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/142.a.htm",
+      "solution": "5 5 3\n1 2 - 3 -\n3 1 2 - -\n- 3 - 1 2\n2 - 1 - 3\n- - 3 2 1"
+    },
+    "143_6x6": {
+      "id": "143_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/143.a.htm",
+      "solution": "6 6 3\n2 3 1 - - -\n- 1 3 - 2 -\n- - 2 - 1 3\n- 2 - 3 - 1\n1 - - 2 3 -\n3 - - 1 - 2"
+    },
+    "144_6x6": {
+      "id": "144_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/144.a.htm",
+      "solution": "6 6 3\n3 1 2 - - -\n1 2 3 - - -\n- - - 2 1 3\n2 3 - 1 - -\n- - 1 - 3 2\n- - - 3 2 1"
+    },
+    "145_6x6": {
+      "id": "145_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/145.a.htm",
+      "solution": "6 6 4\n4 1 2 3 - -\n1 4 - - 2 3\n- - 1 2 3 4\n2 - 3 - 4 1\n- 3 - 4 1 2\n3 2 4 1 - -"
+    },
+    "146_6x6": {
+      "id": "146_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/146.a.htm",
+      "solution": "6 6 4\n- 2 - 4 3 1\n2 4 3 1 - -\n3 1 4 - - 2\n4 - 1 3 2 -\n1 - - 2 4 3\n- 3 2 - 1 4"
+    },
+    "147_7x7": {
+      "id": "147_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/147.a.htm",
+      "solution": "7 7 4\n1 3 2 - 4 - -\n- 2 4 3 1 - -\n3 - - 1 - 2 4\n- 4 - 2 - 3 1\n2 1 3 - - 4 -\n4 - 1 - 2 - 3\n- - - 4 3 1 2"
+    },
+    "148_7x7": {
+      "id": "148_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/148.a.htm",
+      "solution": "7 7 4\n2 4 3 - - - 1\n- 1 - - 3 4 2\n4 3 - 1 - 2 -\n1 2 - 3 - - 4\n- - 2 - 4 1 3\n- - 4 2 1 3 -\n3 - 1 4 2 - -"
+    },
+    "149_9x9": {
+      "id": "149_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/149.a.htm",
+      "solution": "9 9 5\n2 - 5 1 4 - - - 3\n- - 1 4 - - 3 5 2\n3 - 2 5 1 - 4 - -\n1 2 - 3 5 4 - - -\n- 1 - - - 2 5 3 4\n- 5 4 2 3 - - 1 -\n- 4 3 - 2 5 - - 1\n5 3 - - - 1 2 4 -\n4 - - - - 3 1 2 5"
+    },
+    "150_9x9": {
+      "id": "150_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/150.a.htm",
+      "solution": "9 9 5\n3 4 5 2 1 - - - -\n4 3 2 - - - - 1 5\n- - 3 4 5 - 2 - 1\n1 2 - 5 3 - - 4 -\n5 - 1 - 2 3 4 - -\n- 1 - - 4 5 3 - 2\n- - - 3 - 1 5 2 4\n- - 4 - - 2 1 5 3\n2 5 - 1 - 4 - 3 -"
+    },
+    "151_5x5": {
+      "id": "151_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/151.a.htm",
+      "solution": "5 5 3\n- 3 2 - 1\n1 - - 2 3\n3 2 - 1 -\n- 1 3 - 2\n2 - 1 3 -"
+    },
+    "152_5x5": {
+      "id": "152_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/152.a.htm",
+      "solution": "5 5 3\n2 - 1 3 -\n- 3 - 2 1\n1 - 3 - 2\n3 2 - 1 -\n- 1 2 - 3"
+    },
+    "153_6x6": {
+      "id": "153_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/153.a.htm",
+      "solution": "6 6 3\n1 3 - 2 - -\n- 1 - 3 2 -\n2 - 3 - - 1\n- - 2 1 - 3\n3 2 - - 1 -\n- - 1 - 3 2"
+    },
+    "154_6x6": {
+      "id": "154_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/154.a.htm",
+      "solution": "6 6 3\n1 - - - 2 3\n2 - 3 - - 1\n3 1 - - - 2\n- - 1 2 3 -\n- 3 2 1 - -\n- 2 - 3 1 -"
+    },
+    "155_6x6": {
+      "id": "155_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/155.a.htm",
+      "solution": "6 6 4\n4 - - 2 1 3\n3 1 - - 2 4\n1 4 2 - 3 -\n- 3 1 4 - 2\n2 - 4 3 - 1\n- 2 3 1 4 -"
+    },
+    "156_6x6": {
+      "id": "156_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/156.a.htm",
+      "solution": "6 6 4\n1 3 - - 2 4\n3 2 1 - 4 -\n2 - 4 3 1 -\n- - 2 4 3 1\n4 1 - 2 - 3\n- 4 3 1 - 2"
+    },
+    "157_7x7": {
+      "id": "157_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/157.a.htm",
+      "solution": "7 7 4\n1 4 3 - 2 - -\n- 3 - 4 1 2 -\n- 2 4 - 3 1 -\n2 1 - - 4 - 3\n4 - - 1 - 3 2\n- - 2 3 - 4 1\n3 - 1 2 - - 4"
+    },
+    "158_7x7": {
+      "id": "158_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/158.a.htm",
+      "solution": "7 7 4\n4 3 - 1 2 - -\n- 1 - 3 4 - 2\n3 - - 2 1 - 4\n- 2 4 - - 1 3\n2 - 1 - 3 4 -\n1 - 3 4 - 2 -\n- 4 2 - - 3 1"
+    },
+    "159_9x9": {
+      "id": "159_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/159.a.htm",
+      "solution": "9 9 5\n5 2 1 - - 3 4 - -\n- 3 2 4 5 1 - - -\n- - 4 - 3 5 - 2 1\n- 5 3 2 1 4 - - -\n- 4 - - - 2 1 5 3\n3 1 - 5 2 - - 4 -\n1 - 5 - 4 - 3 - 2\n4 - - 1 - - 2 3 5\n2 - - 3 - - 5 1 4"
+    },
+    "160_9x9": {
+      "id": "160_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/160.a.htm",
+      "solution": "9 9 5\n5 2 3 - 1 4 - - -\n1 5 2 4 3 - - - -\n3 4 - 1 - 2 5 - -\n4 - - - 2 5 - 3 1\n- - 5 - - 1 2 4 3\n- - 1 5 - - 3 2 4\n- 3 - 2 - - 4 1 5\n2 1 4 - 5 3 - - -\n- - - 3 4 - 1 5 2"
+    },
+    "161_5x5": {
+      "id": "161_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/161.a.htm",
+      "solution": "5 5 3\n- 3 - 2 1\n3 1 - - 2\n2 - 3 1 -\n- 2 1 - 3\n1 - 2 3 -"
+    },
+    "162_5x5": {
+      "id": "162_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/162.a.htm",
+      "solution": "5 5 3\n3 1 - - 2\n- - 2 1 3\n- 3 - 2 1\n2 - 1 3 -\n1 2 3 - -"
+    },
+    "163_5x5": {
+      "id": "163_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/163.a.htm",
+      "solution": "5 5 3\n- 1 2 - 3\n1 - - 3 2\n2 - 3 1 -\n3 2 - - 1\n- 3 1 2 -"
+    },
+    "164_5x5": {
+      "id": "164_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/164.a.htm",
+      "solution": "5 5 3\n1 3 - - 2\n- 2 3 1 -\n- 1 2 3 -\n3 - - 2 1\n2 - 1 - 3"
+    },
+    "165_6x6": {
+      "id": "165_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/165.a.htm",
+      "solution": "6 6 3\n3 - - 1 - 2\n- 3 1 - 2 -\n1 - 2 3 - -\n- 1 - 2 - 3\n2 - 3 - 1 -\n- 2 - - 3 1"
+    },
+    "166_6x6": {
+      "id": "166_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/166.a.htm",
+      "solution": "6 6 3\n- - 2 - 3 1\n- 2 1 - - 3\n3 - - 1 2 -\n1 3 - - - 2\n- 1 3 2 - -\n2 - - 3 1 -"
+    },
+    "167_6x6": {
+      "id": "167_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/167.a.htm",
+      "solution": "6 6 3\n- 3 - 1 - 2\n3 1 - 2 - -\n2 - - 3 1 -\n- 2 3 - - 1\n1 - 2 - 3 -\n- - 1 - 2 3"
+    },
+    "168_6x6": {
+      "id": "168_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/168.a.htm",
+      "solution": "6 6 3\n- - 1 2 - 3\n2 - - - 3 1\n3 - - 1 - 2\n- 2 - 3 1 -\n1 3 2 - - -\n- 1 3 - 2 -"
+    },
+    "169_8x8": {
+      "id": "169_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/169.a.htm",
+      "solution": "8 8 5\n- 4 - 1 - 5 3 2\n3 2 5 4 - - - 1\n2 - 4 3 - 1 5 -\n4 5 - - 1 2 - 3\n- - 1 2 4 3 - 5\n- 3 2 - 5 - 1 4\n5 1 3 - 2 - 4 -\n1 - - 5 3 4 2 -"
+    },
+    "170_8x8": {
+      "id": "170_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/170.a.htm",
+      "solution": "8 8 5\n- 1 4 2 5 - - 3\n3 2 - - 4 5 - 1\n5 - - - 3 1 4 2\n1 - 5 - 2 - 3 4\n- 3 2 1 - 4 5 -\n4 - 1 3 - - 2 5\n- 4 3 5 1 2 - -\n2 5 - 4 - 3 1 -"
+    },
+    "171_6x6": {
+      "id": "171_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/171.a.htm",
+      "solution": "6 6 3\n- 3 - - 1 2\n- 1 3 - 2 -\n3 - - 2 - 1\n2 - 1 - 3 -\n- 2 - 1 - 3\n1 - 2 3 - -"
+    },
+    "172_6x6": {
+      "id": "172_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/172.a.htm",
+      "solution": "6 6 3\n2 3 1 - - -\n- 1 - 2 3 -\n- - 3 - 1 2\n- - 2 3 - 1\n3 - - 1 2 -\n1 2 - - - 3"
+    },
+    "173_6x6": {
+      "id": "173_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/173.a.htm",
+      "solution": "6 6 3\n2 - 3 - - 1\n- 1 2 3 - -\n3 2 - - 1 -\n- 3 1 - 2 -\n- - - 1 3 2\n1 - - 2 - 3"
+    },
+    "174_6x6": {
+      "id": "174_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/174.a.htm",
+      "solution": "6 6 3\n3 - 1 2 - -\n1 3 - - - 2\n- - 3 1 2 -\n2 1 - - 3 -\n- 2 - - 1 3\n- - 2 3 - 1"
+    },
+    "175_7x7": {
+      "id": "175_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/175.a.htm",
+      "solution": "7 7 4\n- 1 4 3 2 - -\n1 2 - 4 - - 3\n4 - - - 1 3 2\n3 4 2 1 - - -\n- 3 1 - - 2 4\n- - 3 2 4 1 -\n2 - - - 3 4 1"
+    },
+    "176_7x7": {
+      "id": "176_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/176.a.htm",
+      "solution": "7 7 4\n3 - 2 - 4 1 -\n4 3 - 2 1 - -\n- 1 4 3 - - 2\n2 - 1 - 3 - 4\n- - 3 4 - 2 1\n1 2 - - - 4 3\n- 4 - 1 2 3 -"
+    },
+    "177_7x7": {
+      "id": "177_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/177.a.htm",
+      "solution": "7 7 4\n- 1 - 2 - 4 3\n- - 4 1 2 3 -\n2 - 3 4 1 - -\n- 2 1 3 4 - -\n1 3 - - - 2 4\n4 - - - 3 1 2\n3 4 2 - - - 1"
+    },
+    "179_8x8": {
+      "id": "179_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/179.a.htm",
+      "solution": "8 8 5\n3 2 4 - 1 - 5 -\n2 - 3 1 - - 4 5\n- 5 2 - 3 4 - 1\n- 4 5 2 - 3 1 -\n- 3 - 5 - 1 2 4\n5 - 1 - 4 2 - 3\n4 1 - 3 2 5 - -\n1 - - 4 5 - 3 2"
+    },
+    "180_8x8": {
+      "id": "180_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/180.a.htm",
+      "solution": "8 8 5\n- 3 2 5 - - 4 1\n3 1 - - - 2 5 4\n- 4 - 1 2 5 3 -\n2 - 4 - 1 3 - 5\n1 2 - 3 5 4 - -\n4 - 5 - 3 - 1 2\n5 - 1 4 - - 2 3\n- 5 3 2 4 1 - -"
+    },
+    "181_6x6": {
+      "id": "181_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/181.a.htm",
+      "solution": "6 6 3\n- 1 2 3 - -\n2 - - 1 - 3\n1 - - 2 3 -\n3 2 - - 1 -\n- 3 1 - - 2\n- - 3 - 2 1"
+    },
+    "182_6x6": {
+      "id": "182_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/182.a.htm",
+      "solution": "6 6 3\n1 - - 2 3 -\n3 - - 1 - 2\n- 1 2 3 - -\n2 3 - - - 1\n- 2 3 - 1 -\n- - 1 - 2 3"
+    },
+    "183_6x6": {
+      "id": "183_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/183.a.htm",
+      "solution": "6 6 3\n2 1 - 3 - -\n3 - - 2 - 1\n- 3 1 - 2 -\n- 2 - - 1 3\n- - 3 1 - 2\n1 - 2 - 3 -"
+    },
+    "184_6x6": {
+      "id": "184_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/184.a.htm",
+      "solution": "6 6 3\n3 - 1 - 2 -\n1 3 2 - - -\n- - 3 1 - 2\n- 1 - 2 3 -\n2 - - - 1 3\n- 2 - 3 - 1"
+    },
+    "185_7x7": {
+      "id": "185_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/185.a.htm",
+      "solution": "7 7 4\n- 4 2 - 1 3 -\n- - 4 2 - 1 3\n4 3 1 - 2 - -\n2 - 3 1 - - 4\n- - - 3 4 2 1\n1 2 - 4 3 - -\n3 1 - - - 4 2"
+    },
+    "186_7x7": {
+      "id": "186_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/186.a.htm",
+      "solution": "7 7 4\n1 3 2 - - - 4\n- 2 4 - 1 3 -\n- - 3 1 4 2 -\n- - 1 2 3 4 -\n4 - - 3 2 - 1\n3 4 - - - 1 2\n2 1 - 4 - - 3"
+    },
+    "187_7x7": {
+      "id": "187_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/187.a.htm",
+      "solution": "7 7 4\n4 - 2 1 - - 3\n- 3 4 2 1 - -\n2 4 - - - 3 1\n1 2 3 - - 4 -\n- 1 - - 3 2 4\n- - 1 3 4 - 2\n3 - - 4 2 1 -"
+    },
+    "189_8x8": {
+      "id": "189_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/189.a.htm",
+      "solution": "8 8 5\n2 5 1 4 - 3 - -\n- 1 4 3 - - 5 2\n1 4 3 - 2 - - 5\n- 3 - 2 5 1 4 -\n3 - - 1 4 5 2 -\n4 - 2 5 3 - - 1\n5 - - - 1 2 3 4\n- 2 5 - - 4 1 3"
+    },
+    "190_8x8": {
+      "id": "190_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/190.a.htm",
+      "solution": "8 8 5\n4 - 2 - - 1 3 5\n5 4 1 3 - 2 - -\n2 3 - - 4 - 5 1\n1 2 3 - 5 - - 4\n- 1 5 4 - 3 - 2\n- 5 - 1 2 - 4 3\n- - 4 2 3 5 1 -\n3 - - 5 1 4 2 -"
+    },
+    "191_6x6": {
+      "id": "191_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/191.a.htm",
+      "solution": "6 6 3\n- 1 3 2 - -\n2 3 - - 1 -\n- 2 1 3 - -\n- - 2 1 - 3\n3 - - - 2 1\n1 - - - 3 2"
+    },
+    "192_6x6": {
+      "id": "192_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/192.a.htm",
+      "solution": "6 6 3\n- - 1 - 2 3\n3 - 2 - - 1\n- 2 - 1 3 -\n- - - 3 1 2\n1 3 - 2 - -\n2 1 3 - - -"
+    },
+    "193_6x6": {
+      "id": "193_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/193.a.htm",
+      "solution": "6 6 3\n- - 3 2 - 1\n2 3 1 - - -\n- 2 - 1 3 -\n1 - - - 2 3\n3 - 2 - 1 -\n- 1 - 3 - 2"
+    },
+    "194_6x6": {
+      "id": "194_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/194.a.htm",
+      "solution": "6 6 3\n3 2 1 - - -\n1 - 2 3 - -\n- 3 - - 2 1\n- - - 2 1 3\n2 1 - - 3 -\n- - 3 1 - 2"
+    },
+    "195_7x7": {
+      "id": "195_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/195.a.htm",
+      "solution": "7 7 4\n2 - 4 - 1 - 3\n- 4 3 - 2 - 1\n1 - - 2 3 4 -\n- 1 2 3 - - 4\n3 - 1 - 4 2 -\n- 3 - 4 - 1 2\n4 2 - 1 - 3 -"
+    },
+    "196_7x7": {
+      "id": "196_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/196.a.htm",
+      "solution": "7 7 4\n- 4 - - 2 3 1\n- - 3 2 - 1 4\n1 - 4 - 3 - 2\n2 1 - 3 - 4 -\n- - - 1 4 2 3\n3 2 1 4 - - -\n4 3 2 - 1 - -"
+    },
+    "197_7x7": {
+      "id": "197_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/197.a.htm",
+      "solution": "7 7 4\n4 1 2 - 3 - -\n2 - 3 4 1 - -\n- 4 - 2 - 1 3\n3 - - - 4 2 1\n1 2 - 3 - - 4\n- 3 1 - 2 4 -\n- - 4 1 - 3 2"
+    },
+    "198_7x7": {
+      "id": "198_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/198.a.htm",
+      "solution": "7 7 4\n4 - - 3 1 2 -\n3 - 2 - 4 1 -\n1 3 - 4 - - 2\n- 4 1 2 - - 3\n2 1 - - - 3 4\n- 2 4 - 3 - 1\n- - 3 1 2 4 -"
+    },
+    "199_8x8": {
+      "id": "199_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/199.a.htm",
+      "solution": "8 8 5\n- 3 2 4 - 1 5 -\n2 1 4 - 5 - - 3\n3 5 - 1 - 2 4 -\n1 2 - 3 4 5 - -\n- 4 5 - 3 - 1 2\n5 - - - 2 4 3 1\n- - 1 5 - 3 2 4\n4 - 3 2 1 - - 5"
+    },
+    "200_8x8": {
+      "id": "200_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/200.a.htm",
+      "solution": "8 8 5\n2 5 - - - 4 1 3\n- 3 2 - 1 5 4 -\n5 2 - - - 1 3 4\n- - 1 2 4 3 5 -\n1 - - 4 3 - 2 5\n4 1 3 5 - 2 - -\n3 - 4 1 5 - - 2\n- 4 5 3 2 - - 1"
+    },
+    "201_6x6": {
+      "id": "201_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/201.a.htm",
+      "solution": "6 6 3\n1 3 - - - 2\n- - 1 2 3 -\n3 - 2 1 - -\n2 1 - - - 3\n- 2 - 3 1 -\n- - 3 - 2 1"
+    },
+    "202_6x6": {
+      "id": "202_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/202.a.htm",
+      "solution": "6 6 3\n2 3 1 - - -\n1 2 - - - 3\n- 1 - 2 3 -\n- - 3 - 2 1\n- - 2 3 1 -\n3 - - 1 - 2"
+    },
+    "203_6x6": {
+      "id": "203_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/203.a.htm",
+      "solution": "6 6 3\n- 3 1 2 - -\n2 1 - - 3 -\n- 2 3 - 1 -\n1 - 2 - - 3\n- - - 3 2 1\n3 - - 1 - 2"
+    },
+    "204_7x7": {
+      "id": "204_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/204.a.htm",
+      "solution": "7 7 4\n4 1 - 3 - 2 -\n2 4 - - 1 - 3\n3 2 1 - - 4 -\n- 3 2 - - 1 4\n- - 3 4 2 - 1\n1 - 4 2 3 - -\n- - - 1 4 3 2"
+    },
+    "205_7x7": {
+      "id": "205_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/205.a.htm",
+      "solution": "7 7 4\n4 1 - 2 - - 3\n2 - - 3 1 4 -\n- 2 1 - 3 - 4\n- - 3 4 - 1 2\n3 - 4 1 - 2 -\n1 3 2 - 4 - -\n- 4 - - 2 3 1"
+    },
+    "206_7x7": {
+      "id": "206_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/206.a.htm",
+      "solution": "7 7 4\n1 - - - 2 4 3\n- 3 1 - - 2 4\n- 1 2 4 - 3 -\n- - 3 - 4 1 2\n4 - - 2 3 - 1\n2 4 - 3 1 - -\n3 2 4 1 - - -"
+    },
+    "207_7x7": {
+      "id": "207_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/207.a.htm",
+      "solution": "7 7 4\n4 - 2 3 - 1 -\n1 4 - - - 2 3\n- - 4 1 3 - 2\n3 1 - 2 - 4 -\n- 3 1 - 2 - 4\n2 - 3 4 1 - -\n- 2 - - 4 3 1"
+    },
+    "208_8x8": {
+      "id": "208_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/208.a.htm",
+      "solution": "8 8 5\n1 5 - - - 3 2 4\n4 - - 5 1 2 3 -\n5 - 4 - 3 - 1 2\n- 3 2 1 - - 4 5\n3 1 - 4 2 - 5 -\n- - 1 2 4 5 - 3\n- 2 5 3 - 4 - 1\n2 4 3 - 5 1 - -"
+    },
+    "209_8x8": {
+      "id": "209_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/209.a.htm",
+      "solution": "8 8 5\n5 1 3 - - 4 2 -\n4 5 - 3 2 - - 1\n1 - 2 4 - 5 3 -\n- 2 - 5 1 3 - 4\n3 4 1 - - - 5 2\n2 - 5 1 3 - 4 -\n- - 4 2 5 1 - 3\n- 3 - - 4 2 1 5"
+    },
+    "210_8x8": {
+      "id": "210_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/210.a.htm",
+      "solution": "8 8 5\n4 - - 1 5 - 2 3\n1 3 - 2 - 4 5 -\n- 2 5 4 - - 3 1\n3 1 2 - 4 5 - -\n- - 3 5 2 1 - 4\n2 5 4 - 3 - 1 -\n- - - 3 1 2 4 5\n5 4 1 - - 3 - 2"
+    },
+    "211_6x6": {
+      "id": "211_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/211.a.htm",
+      "solution": "6 6 3\n2 1 - - 3 -\n- - - 2 1 3\n3 - 1 - - 2\n- 2 - 3 - 1\n- 3 2 1 - -\n1 - 3 - 2 -"
+    },
+    "212_6x6": {
+      "id": "212_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/212.a.htm",
+      "solution": "6 6 3\n- 2 1 3 - -\n1 - - - 2 3\n- - 3 - 1 2\n3 - - 2 - 1\n- 3 2 1 - -\n2 1 - - 3 -"
+    },
+    "213_6x6": {
+      "id": "213_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/213.a.htm",
+      "solution": "6 6 3\n- 1 3 - - 2\n1 - - 2 3 -\n2 - - 1 - 3\n- - 1 3 2 -\n3 2 - - - 1\n- 3 2 - 1 -"
+    },
+    "214_7x7": {
+      "id": "214_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/214.a.htm",
+      "solution": "7 7 4\n- 2 4 - 1 - 3\n2 1 - 4 - 3 -\n4 - 3 - 2 - 1\n- 4 1 2 3 - -\n- - 2 3 - 1 4\n3 - - 1 4 2 -\n1 3 - - - 4 2"
+    },
+    "215_7x7": {
+      "id": "215_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/215.a.htm",
+      "solution": "7 7 4\n1 3 4 - 2 - -\n3 - - 2 1 - 4\n4 - - - 3 2 1\n- - 1 - 4 3 2\n2 4 - 3 - 1 -\n- 2 3 1 - 4 -\n- 1 2 4 - - 3"
+    },
+    "216_7x7": {
+      "id": "216_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/216.a.htm",
+      "solution": "7 7 4\n3 - 4 - 1 2 -\n- 4 1 3 - - 2\n4 2 - - 3 1 -\n1 3 - - 2 4 -\n- 1 2 4 - - 3\n- - - 2 4 3 1\n2 - 3 1 - - 4"
+    },
+    "217_7x7": {
+      "id": "217_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/217.a.htm",
+      "solution": "7 7 4\n- 4 - 1 3 2 -\n4 - - - 1 3 2\n- - 2 4 - 1 3\n3 - - - 2 4 1\n1 3 4 2 - - -\n2 1 3 - 4 - -\n- 2 1 3 - - 4"
+    },
+    "218_8x8": {
+      "id": "218_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/218.a.htm",
+      "solution": "8 8 5\n- - 2 5 3 - 4 1\n3 1 5 - 2 - - 4\n- 2 1 - - 4 5 3\n1 5 - 3 4 - - 2\n5 4 - 1 - 3 2 -\n4 3 - - - 2 1 5\n2 - 3 4 5 1 - -\n- - 4 2 1 5 3 -"
+    },
+    "219_8x8": {
+      "id": "219_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/219.a.htm",
+      "solution": "8 8 5\n5 - 3 - 4 - 2 1\n3 - - - 2 1 4 5\n- 1 - 4 3 - 5 2\n- 5 4 3 1 2 - -\n1 - 2 5 - 3 - 4\n4 3 1 2 - 5 - -\n2 4 5 1 - - 3 -\n- 2 - - 5 4 1 3"
+    },
+    "220_8x8": {
+      "id": "220_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/220.a.htm",
+      "solution": "8 8 5\n1 - - 5 2 3 - 4\n2 - 4 - 3 1 5 -\n3 - - - 5 2 4 1\n5 3 - - 1 4 2 -\n- 1 5 4 - - 3 2\n- 2 1 3 4 5 - -\n4 5 2 1 - - - 3\n- 4 3 2 - - 1 5"
+    },
+    "221_6x6": {
+      "id": "221_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/221.a.htm",
+      "solution": "6 6 3\n- 1 - 2 - 3\n- - - 1 3 2\n2 - 3 - 1 -\n1 - 2 3 - -\n3 2 - - - 1\n- 3 1 - 2 -"
+    },
+    "222_6x6": {
+      "id": "222_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/222.a.htm",
+      "solution": "6 6 3\n- 1 - - 2 3\n2 - 3 - 1 -\n- 2 1 3 - -\n3 - 2 1 - -\n1 3 - - - 2\n- - - 2 3 1"
+    },
+    "223_6x6": {
+      "id": "223_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/223.a.htm",
+      "solution": "6 6 3\n- 1 - - 2 3\n- - 3 - 1 2\n2 - 1 3 - -\n3 2 - 1 - -\n1 3 2 - - -\n- - - 2 3 1"
+    },
+    "224_7x7": {
+      "id": "224_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/224.a.htm",
+      "solution": "7 7 4\n4 2 3 1 - - -\n3 - - 2 4 - 1\n- 4 1 - - 2 3\n- - - 3 1 4 2\n1 - 4 - 2 3 -\n2 3 - 4 - 1 -\n- 1 2 - 3 - 4"
+    },
+    "225_7x7": {
+      "id": "225_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/225.a.htm",
+      "solution": "7 7 4\n4 3 - - 1 - 2\n- 4 - 1 - 2 3\n- - 2 - 4 3 1\n1 - 3 4 2 - -\n- 1 4 2 3 - -\n2 - 1 3 - 4 -\n3 2 - - - 1 4"
+    },
+    "226_7x7": {
+      "id": "226_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/226.a.htm",
+      "solution": "7 7 4\n- - 4 - 2 3 1\n- 1 - 4 - 2 3\n- - 2 1 3 4 -\n4 - 1 3 - - 2\n2 4 3 - 1 - -\n3 2 - - 4 1 -\n1 3 - 2 - - 4"
+    },
+    "227_7x7": {
+      "id": "227_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/227.a.htm",
+      "solution": "7 7 4\n2 - 3 1 - 4 -\n3 4 - - 1 2 -\n1 2 - 3 4 - -\n- 1 4 - - 3 2\n- 3 1 - 2 - 4\n- - 2 4 3 - 1\n4 - - 2 - 1 3"
+    },
+    "228_8x8": {
+      "id": "228_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/228.a.htm",
+      "solution": "8 8 5\n3 - 2 5 - 1 - 4\n- 2 4 - 5 3 - 1\n2 3 5 - 1 - 4 -\n4 5 - 1 - - 2 3\n5 - - 2 3 4 1 -\n- 1 3 - 4 - 5 2\n- - 1 4 2 5 3 -\n1 4 - 3 - 2 - 5"
+    },
+    "229_8x8": {
+      "id": "229_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/229.a.htm",
+      "solution": "8 8 5\n- - 3 2 4 - 1 5\n1 - - 5 3 - 4 2\n2 3 - 4 1 - 5 -\n3 5 4 1 - 2 - -\n- 2 5 - - 1 3 4\n- 4 - 3 2 5 - 1\n5 - 1 - - 4 2 3\n4 1 2 - 5 3 - -"
+    },
+    "230_8x8": {
+      "id": "230_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/230.a.htm",
+      "solution": "8 8 5\n- 5 1 4 - 3 2 -\n- 2 - 1 - 4 3 5\n5 4 2 - - 1 - 3\n- - 4 3 5 2 - 1\n1 - - 2 3 - 5 4\n4 3 5 - 1 - - 2\n3 1 - 5 2 - 4 -\n2 - 3 - 4 5 1 -"
+    },
+    "231_6x6": {
+      "id": "231_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/231.a.htm",
+      "solution": "6 6 3\n- - 1 - 3 2\n- 1 2 - - 3\n3 - - 2 1 -\n2 3 - - - 1\n- 2 3 1 - -\n1 - - 3 2 -"
+    },
+    "232_6x6": {
+      "id": "232_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/232.a.htm",
+      "solution": "6 6 3\n2 3 - 1 - -\n1 - - 2 3 -\n- 1 3 - - 2\n- - 2 3 1 -\n- 2 1 - - 3\n3 - - - 2 1"
+    },
+    "233_7x7": {
+      "id": "233_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/233.a.htm",
+      "solution": "7 7 4\n- 2 3 1 4 - -\n3 - - 2 - 4 1\n4 - 1 - - 2 3\n- 4 - 3 1 - 2\n1 - - - 2 3 4\n- 1 2 4 3 - -\n2 3 4 - - 1 -"
+    },
+    "234_7x7": {
+      "id": "234_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/234.a.htm",
+      "solution": "7 7 4\n3 - 1 - - 4 2\n- 1 4 - 2 - 3\n- - - 2 1 3 4\n1 3 - - 4 2 -\n4 - 2 3 - - 1\n2 4 3 1 - - -\n- 2 - 4 3 1 -"
+    },
+    "235_7x7": {
+      "id": "235_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/235.a.htm",
+      "solution": "7 7 4\n4 - - 3 1 2 -\n3 - - 2 4 - 1\n1 3 - 4 - - 2\n2 1 4 - - 3 -\n- 2 1 - - 4 3\n- - 2 - 3 1 4\n- 4 3 1 2 - -"
+    },
+    "236_8x8": {
+      "id": "236_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/236.a.htm",
+      "solution": "8 8 5\n5 4 - - 3 1 - 2\n4 - - 3 - 2 5 1\n- 3 - 1 2 5 4 -\n2 - 5 - - 3 1 4\n1 - 3 - - 4 2 5\n- 5 4 2 1 - 3 -\n3 1 2 5 4 - - -\n- 2 1 4 5 - - 3"
+    },
+    "238_8x8": {
+      "id": "238_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/238.a.htm",
+      "solution": "8 8 5\n5 3 1 - 2 - 4 -\n- - - 3 1 5 2 4\n- 2 5 4 3 - 1 -\n1 - 4 - - 3 5 2\n4 - 2 - - 1 3 5\n- 1 - 5 4 2 - 3\n3 4 - 2 5 - - 1\n2 5 3 1 - 4 - -"
+    },
+    "239_9x9": {
+      "id": "239_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/239.a.htm",
+      "solution": "9 9 5\n4 - 2 - - 5 3 - 1\n2 1 3 5 - 4 - - -\n- 4 1 - 2 - 5 3 -\n3 5 - - 4 - 2 1 -\n- - - - 3 1 4 2 5\n5 - 4 2 1 3 - - -\n1 2 - 4 - - - 5 3\n- - - 3 5 - 1 4 2\n- 3 5 1 - 2 - - 4"
+    },
+    "240_9x9": {
+      "id": "240_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/240.a.htm",
+      "solution": "9 9 5\n5 - - - 1 4 3 - 2\n- 3 - 2 - - 5 1 4\n3 - 4 - 5 - 2 - 1\n4 - - 3 - 2 1 5 -\n2 5 1 - 3 - - 4 -\n- 4 3 1 - 5 - 2 -\n- 2 5 4 - 1 - - 3\n1 - - 5 2 - 4 3 -\n- 1 2 - 4 3 - - 5"
+    },
+    "241_6x6": {
+      "id": "241_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/241.a.htm",
+      "solution": "6 6 3\n3 - 1 - 2 -\n- 1 2 3 - -\n- - - 2 1 3\n1 3 - - - 2\n2 - 3 - - 1\n- 2 - 1 3 -"
+    },
+    "242_6x6": {
+      "id": "242_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/242.a.htm",
+      "solution": "6 6 3\n3 1 2 - - -\n2 - 1 3 - -\n1 2 - - - 3\n- 3 - - 2 1\n- - - 1 3 2\n- - 3 2 1 -"
+    },
+    "243_7x7": {
+      "id": "243_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/243.a.htm",
+      "solution": "7 7 4\n- 2 4 - - 3 1\n3 4 2 - - 1 -\n4 - 1 3 - - 2\n- 3 - 1 4 2 -\n- - 3 2 1 - 4\n1 - - - 2 4 3\n2 1 - 4 3 - -"
+    },
+    "244_7x7": {
+      "id": "244_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/244.a.htm",
+      "solution": "7 7 4\n4 3 - - 2 1 -\n2 - 1 3 - - 4\n- 4 - 2 1 - 3\n- 2 3 - - 4 1\n1 - - 4 3 2 -\n- 1 4 - - 3 2\n3 - 2 1 4 - -"
+    },
+    "245_7x7": {
+      "id": "245_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/245.a.htm",
+      "solution": "7 7 4\n- 4 - 2 3 1 -\n- - 3 - 4 2 1\n2 - 1 - - 4 3\n3 2 - 1 - - 4\n1 3 4 - - - 2\n4 - 2 3 1 - -\n- 1 - 4 2 3 -"
+    },
+    "246_8x8": {
+      "id": "246_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/246.a.htm",
+      "solution": "8 8 5\n- 3 2 - - 5 4 1\n3 1 - 4 - 2 5 -\n5 4 - 1 - - 3 2\n- 5 3 2 1 - - 4\n- - 5 3 2 4 1 -\n4 2 - - 3 1 - 5\n1 - 4 - 5 3 2 -\n2 - 1 5 4 - - 3"
+    },
+    "247_8x8": {
+      "id": "247_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/247.a.htm",
+      "solution": "8 8 5\n4 3 5 - - 1 - 2\n- - 3 1 4 5 2 -\n1 2 - 5 3 - - 4\n- - 4 3 5 2 1 -\n5 1 - 4 2 - 3 -\n3 5 2 - - - 4 1\n2 4 1 - - 3 - 5\n- - - 2 1 4 5 3"
+    },
+    "248_8x8": {
+      "id": "248_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/248.a.htm",
+      "solution": "8 8 5\n1 5 4 - 2 - 3 -\n4 - 5 3 1 2 - -\n- 4 - - 5 1 2 3\n5 2 - 4 3 - - 1\n2 3 - 5 - 4 1 -\n- - 3 1 4 - 5 2\n3 - 1 2 - 5 - 4\n- 1 2 - - 3 4 5"
+    },
+    "249_9x9": {
+      "id": "249_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/249.a.htm",
+      "solution": "9 9 5\n1 - 3 - - 2 - 4 5\n5 3 2 4 - - - - 1\n3 - - 2 4 - 1 5 -\n2 5 1 - - 3 - - 4\n- - - 3 5 1 4 2 -\n- - 4 1 2 - 5 3 -\n4 2 - 5 - - 3 1 -\n- 4 - - 1 5 2 - 3\n- 1 5 - 3 4 - - 2"
+    },
+    "251_6x6": {
+      "id": "251_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/251.a.htm",
+      "solution": "6 6 3\n- 2 3 - 1 -\n- 3 - - 2 1\n3 - 1 - - 2\n1 - 2 3 - -\n- 1 - 2 - 3\n2 - - 1 3 -"
+    },
+    "252_6x6": {
+      "id": "252_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/252.a.htm",
+      "solution": "6 6 3\n- - 3 - 2 1\n3 2 - 1 - -\n1 - - 2 - 3\n- 1 2 - 3 -\n2 - - 3 1 -\n- 3 1 - - 2"
+    },
+    "253_7x7": {
+      "id": "253_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/253.a.htm",
+      "solution": "7 7 4\n- 3 1 - - 2 4\n- 1 4 2 - - 3\n- - 3 - 2 4 1\n1 - - - 4 3 2\n2 - - 4 3 1 -\n4 2 - 3 1 - -\n3 4 2 1 - - -"
+    },
+    "254_7x7": {
+      "id": "254_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/254.a.htm",
+      "solution": "7 7 4\n1 - - - 2 3 4\n- - - 2 3 4 1\n- 4 2 - 1 - 3\n- 1 3 - 4 2 -\n2 - 4 3 - 1 -\n3 2 1 4 - - -\n4 3 - 1 - - 2"
+    },
+    "256_8x8": {
+      "id": "256_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/256.a.htm",
+      "solution": "8 8 5\n4 3 1 5 2 - - -\n- - 5 2 4 - 1 3\n- 4 2 - - 5 3 1\n3 - 4 - 1 - 2 5\n5 1 - 3 - 2 4 -\n- 5 3 4 - 1 - 2\n1 2 - - 5 3 - 4\n2 - - 1 3 4 5 -"
+    },
+    "258_8x8": {
+      "id": "258_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/258.a.htm",
+      "solution": "8 8 5\n5 - 4 1 2 - 3 -\n2 - 3 - - 5 4 1\n- 1 5 - 4 - 2 3\n- 4 - 5 - 3 1 2\n4 3 - 2 5 1 - -\n- - 1 4 3 2 - 5\n1 5 2 3 - 4 - -\n3 2 - - 1 - 5 4"
+    },
+    "260_9x9": {
+      "id": "260_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/260.a.htm",
+      "solution": "9 9 5\n- - 4 5 - 3 - 1 2\n1 5 - 2 - - 4 - 3\n- 4 2 - - - 1 3 5\n4 - 1 - 2 - 3 5 -\n2 1 - 3 - 5 - 4 -\n- 3 - 1 5 4 - 2 -\n3 - 5 4 1 2 - - -\n- 2 3 - 4 - 5 - 1\n5 - - - 3 1 2 - 4"
+    },
+    "261_6x6": {
+      "id": "261_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/261.a.htm",
+      "solution": "6 6 3\n2 - 1 - 3 -\n- 1 - 2 - 3\n3 - - - 1 2\n- 3 2 - - 1\n- - 3 1 2 -\n1 2 - 3 - -"
+    },
+    "262_6x6": {
+      "id": "262_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/262.a.htm",
+      "solution": "6 6 3\n- - 1 - 2 3\n- 1 2 - 3 -\n3 - - 1 - 2\n2 3 - - 1 -\n1 - 3 2 - -\n- 2 - 3 - 1"
+    },
+    "263_7x7": {
+      "id": "263_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/263.a.htm",
+      "solution": "7 7 4\n1 - - 4 - 2 3\n- 2 3 - 1 - 4\n- 1 4 3 2 - -\n- - - 1 3 4 2\n3 - 2 - 4 1 -\n4 3 1 2 - - -\n2 4 - - - 3 1"
+    },
+    "264_7x7": {
+      "id": "264_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/264.a.htm",
+      "solution": "7 7 4\n2 3 - 4 - 1 -\n4 - - 1 2 3 -\n- 4 3 2 - - 1\n1 - 2 - 3 4 -\n- 2 4 - 1 - 3\n- 1 - 3 - 2 4\n3 - 1 - 4 - 2"
+    },
+    "265_7x7": {
+      "id": "265_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/265.a.htm",
+      "solution": "7 7 4\n4 3 1 2 - - -\n3 - 4 1 - 2 -\n1 4 - 3 2 - -\n2 1 - - 4 - 3\n- 2 3 - - 4 1\n- - 2 - 3 1 4\n- - - 4 1 3 2"
+    },
+    "267_8x8": {
+      "id": "267_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/267.a.htm",
+      "solution": "8 8 5\n5 2 - 4 - 3 - 1\n1 4 3 - 2 - 5 -\n4 - 5 2 1 - 3 -\n- 5 - - 3 1 4 2\n- 1 2 3 - 4 - 5\n3 - - 5 4 2 1 -\n- 3 1 - - 5 2 4\n2 - 4 1 5 - - 3"
+    },
+    "268_8x8": {
+      "id": "268_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/268.a.htm",
+      "solution": "8 8 5\n- - 5 3 - 1 4 2\n4 2 - - - 5 1 3\n- 1 - 4 3 - 2 5\n3 - 1 - 5 2 - 4\n1 4 3 5 2 - - -\n- - 2 1 4 3 5 -\n5 3 - 2 - 4 - 1\n2 5 4 - 1 - 3 -"
+    },
+    "50_7x7": {
+      "id": "50_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/050.a.htm",
+      "solution": "7 7 3\n1 2 3 - - - -\n2 3 - - - - 1\n- 1 - 2 - - 3\n- - - 3 2 1 -\n- - 2 - 1 3 -\n3 - - 1 - - 2\n- - 1 - 3 2 -"
+    },
+    "59_7x7": {
+      "id": "59_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/059.a.htm",
+      "solution": "7 7 4\n3 2 1 4 - - -\n4 - 2 - - 1 3\n- 1 - - 4 3 2\n2 4 3 1 - - -\n- - - 3 1 2 4\n1 3 4 - 2 - -\n- - - 2 3 4 1"
+    },
+    "103_7x7": {
+      "id": "103_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/103.a.htm",
+      "solution": "7 7 3\n3 1 2 - - - -\n- 2 3 1 - - -\n2 - 1 3 - - -\n1 3 - 2 - - -\n- - - - 1 3 2\n- - - - 3 2 1\n- - - - 2 1 3"
+    },
+    "104_7x7": {
+      "id": "104_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/104.a.htm",
+      "solution": "7 7 3\n3 - 1 - - 2 -\n1 2 - - - 3 -\n2 3 - - - 1 -\n- 1 3 - 2 - -\n- - 2 1 - - 3\n- - - 3 1 - 2\n- - - 2 3 - 1"
+    },
+    "107_7x7": {
+      "id": "107_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/107.a.htm",
+      "solution": "7 7 4\n2 4 3 - 1 - -\n3 1 4 2 - - -\n- - 2 1 4 - 3\n4 2 - - 3 1 -\n- 3 - 4 - 2 1\n1 - - 3 - 4 2\n- - 1 - 2 3 4"
+    },
+    "108_7x7": {
+      "id": "108_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/108.a.htm",
+      "solution": "7 7 4\n3 2 - 4 1 - -\n4 1 3 2 - - -\n1 4 - 3 - - 2\n- 3 - 1 4 2 -\n- - 4 - 2 3 1\n- - 2 - 3 1 4\n2 - 1 - - 4 3"
+    },
+    "109_7x7": {
+      "id": "109_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/109.a.htm",
+      "solution": "7 7 4\n- 1 3 2 4 - -\n- - 4 - 3 1 2\n- 3 2 4 1 - -\n3 4 1 - 2 - -\n4 - - 3 - 2 1\n2 - - 1 - 3 4\n1 2 - - - 4 3"
+    },
+    "110_7x7": {
+      "id": "110_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/110.a.htm",
+      "solution": "7 7 4\n1 2 4 - 3 - -\n4 3 2 - - 1 -\n- 1 3 2 - 4 -\n- 4 - 1 2 - 3\n2 - - 3 1 - 4\n- - 1 - 4 3 2\n3 - - 4 - 2 1"
+    },
+    "128_7x7": {
+      "id": "128_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/128.a.htm",
+      "solution": "7 7 4\n4 1 - 2 3 - -\n3 4 - 1 - 2 -\n2 - 4 3 1 - -\n1 2 - - 4 - 3\n- - 2 4 - 3 1\n- - 3 - 2 1 4\n- 3 1 - - 4 2"
+    },
+    "130_9x9": {
+      "id": "130_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/130.a.htm",
+      "solution": "9 9 5\n- - 1 - 2 - 4 3 5\n4 - 2 5 - - - 1 3\n- 1 - 4 - 3 2 5 -\n1 3 - - 5 - - 4 2\n- 2 5 3 1 - - - 4\n5 4 3 - - 2 1 - -\n2 5 - - - 4 3 - 1\n- - 4 2 3 1 5 - -\n3 - - 1 4 5 - 2 -"
+    },
+    "136_6x6": {
+      "id": "136_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/136.a.htm",
+      "solution": "6 6 4\n1 - 3 4 2 -\n- 4 2 - 1 3\n4 2 - - 3 1\n2 3 4 1 - -\n- - 1 3 4 2\n3 1 - 2 - 4"
+    },
+    "178_7x7": {
+      "id": "178_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/178.a.htm",
+      "solution": "7 7 4\n- - 1 2 - 3 4\n2 1 4 3 - - -\n3 2 - - 4 - 1\n- 3 - 4 - 1 2\n1 - 2 - 3 4 -\n4 - 3 - 1 2 -\n- 4 - 1 2 - 3"
+    },
+    "188_7x7": {
+      "id": "188_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/188.a.htm",
+      "solution": "7 7 4\n- 3 - 1 4 - 2\n3 - - - 1 2 4\n- - 2 4 3 1 -\n1 - - 3 2 4 -\n4 1 3 2 - - -\n2 4 1 - - - 3\n- 2 4 - - 3 1"
+    },
+    "237_8x8": {
+      "id": "237_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/237.a.htm",
+      "solution": "8 8 5\n1 5 - - 3 4 2 -\n- 1 5 - - 3 4 2\n- 2 - 3 4 1 5 -\n5 4 - 2 - - 3 1\n4 - 1 5 2 - - 3\n- - 3 4 1 2 - 5\n2 3 4 - 5 - 1 -\n3 - 2 1 - 5 - 4"
+    },
+    "250_9x9": {
+      "id": "250_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/250.a.htm",
+      "solution": "9 9 5\n3 - 4 - 5 2 - 1 -\n1 - 2 - - 4 3 - 5\n- 3 1 - - 5 2 4 -\n- 2 5 3 - - 1 - 4\n- - - - 2 1 4 5 3\n2 1 3 4 - - 5 - -\n- 5 - 1 4 - - 3 2\n5 4 - 2 1 3 - - -\n4 - - 5 3 - - 2 1"
+    },
+    "255_7x7": {
+      "id": "255_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/255.a.htm",
+      "solution": "7 7 4\n- - 1 3 2 4 -\n- - 4 2 - 3 1\n3 - - 1 4 - 2\n2 4 - - 1 - 3\n1 3 2 4 - - -\n- 2 - - 3 1 4\n4 1 3 - - 2 -"
+    },
+    "257_8x8": {
+      "id": "257_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/257.a.htm",
+      "solution": "8 8 5\n5 - 3 1 2 4 - -\n4 - - - 1 2 3 5\n- 5 2 3 - - 4 1\n- - 1 - 4 5 2 3\n2 1 - 5 3 - - 4\n- 3 5 4 - - 1 2\n3 4 - 2 - 1 5 -\n1 2 4 - 5 3 - -"
+    },
+    "259_9x9": {
+      "id": "259_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/259.a.htm",
+      "solution": "9 9 5\n3 - 2 1 - 4 - 5 -\n- 4 5 - - - 2 1 3\n- 3 1 2 5 - - 4 -\n5 - - - 2 1 3 - 4\n- 1 4 - - 3 - 2 5\n4 - 3 5 - - 1 - 2\n2 - - 4 1 - 5 3 -\n- 2 - - 3 5 4 - 1\n1 5 - 3 4 2 - - -"
+    },
+    "266_8x8": {
+      "id": "266_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/266.a.htm",
+      "solution": "8 8 5\n1 2 3 - - 5 4 -\n- - - 3 5 1 2 4\n3 5 4 - 1 - - 2\n5 4 - 1 2 - 3 -\n- 3 2 5 - 4 1 -\n4 - 5 2 3 - - 1\n- - 1 4 - 2 5 3\n2 1 - - 4 3 - 5"
+    },
+    "269_9x9": {
+      "id": "269_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/269.a.htm",
+      "solution": "9 9 5\n4 - - 5 - 3 1 2 -\n5 3 2 - - - 4 1 -\n- - 3 - 2 1 - 4 5\n2 4 - - 1 5 3 - -\n- - 4 1 - 2 5 - 3\n- 1 - 2 5 - - 3 4\n1 2 5 3 4 - - - -\n- 5 - 4 3 - 2 - 1\n3 - 1 - - 4 - 5 2"
+    },
+    "270_9x9": {
+      "id": "270_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Nanbaboru/270.a.htm",
+      "solution": "9 9 5\n- - 2 3 5 - - 4 1\n3 - - 4 1 5 2 - -\n5 - - 2 - 4 1 - 3\n2 3 - - - - 4 1 5\n- 2 4 - 3 1 5 - -\n- 5 1 - 2 - - 3 4\n1 - 3 - 4 2 - 5 -\n- 4 5 1 - - 3 2 -\n4 1 - 5 - 3 - - 2"
+    }
+  },
+  "info": "",
+  "count": 270
+}

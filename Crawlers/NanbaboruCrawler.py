@@ -3,13 +3,14 @@ import re
 import time
 from GridCrawler import GridCrawler
 from Utils.index_url_filter import filter_and_classify_results
+from Utils.puzzle_extracter import find_max_integer_safe
 from Config import CrawlerConfig
 from bs4 import BeautifulSoup
 from typing import Any
 import random
 import json
 
-class StarbattleCrawler(GridCrawler):
+class NanbaboruCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -91,21 +92,20 @@ class StarbattleCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic in all_pzls[:1]:
+            for dic in all_pzls:
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
-                    
                     
                     target_url = f"{self.root_url}{href_}"
 
@@ -117,17 +117,13 @@ class StarbattleCrawler(GridCrawler):
                     problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
-                    
                     rows = solution_text.split("\n")
                     matrix = [row.split() for row in rows]
-                    k += 1
-                    for r_ in matrix[0]:
-                        if r_ == "x":
-                            k += 1
-                            
+
                     num_rows = len(matrix)
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
                     
+                    k = find_max_integer_safe(matrix)
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
                     problem_str = f"{num_rows} {num_cols} {k}\n{problem_text}"
                     solution_str = f"{num_rows} {num_cols} {k}\n{solution_text}"
@@ -177,3 +173,4 @@ class StarbattleCrawler(GridCrawler):
         except Exception as e:
             print(e)
         return 
+

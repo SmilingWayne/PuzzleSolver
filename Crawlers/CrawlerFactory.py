@@ -8,6 +8,14 @@ from MinesweeperCrawler import MinesweeperCrawler
 from SuguruCrawler import SuguruCrawler
 from Str8tCrawler import Str8tCrawler
 from KakurasuCrawler import KakurasuCrawler
+from FuzuliCrawler import FuzuliCrawler
+from SnakeCrawler import SnakeCrawler
+from MakaroCrawler import MakaroCrawler
+from NanbaboruCrawler import NanbaboruCrawler
+from JigsawSudokuCrawler import JigsawSudokuCrawler
+from SternenhimmelCrawler import SternenhimmelCrawler
+from StarbattleCrawler import StarbattleCrawler
+from KakkuruCrawler import KakkuruCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -23,7 +31,15 @@ class CrawlerFactory:
         "Minesweeper": MinesweeperCrawler,
         "Suguru": SuguruCrawler, 
         "Str8t": Str8tCrawler,
-        "Kakurasu": KakurasuCrawler
+        "Kakurasu": KakurasuCrawler,
+        "Fuzuli": FuzuliCrawler,
+        "Snake": SnakeCrawler,
+        "Makaro": MakaroCrawler,
+        "Nanbaboru": NanbaboruCrawler,
+        "JigsawSudoku": JigsawSudokuCrawler,
+        "Sternenhimmel": SternenhimmelCrawler,
+        "Starbattle": StarbattleCrawler,
+        "Kakkuru": KakkuruCrawler
     }
     
     @classmethod

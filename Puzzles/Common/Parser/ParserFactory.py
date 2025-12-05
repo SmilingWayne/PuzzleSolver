@@ -10,6 +10,20 @@ from Common.Parser.PuzzleParsers.BuraitoraitoParser import BuraitoraitoParser
 from Common.Parser.PuzzleParsers.EuleroParser import EuleroParser
 from Common.Parser.PuzzleParsers.MosaicParser import MosaicParser
 from Common.Parser.PuzzleParsers.NonogramParser import NonogramParser
+from Common.Parser.PuzzleParsers.NorinoriParser import NorinoriParser
+from Common.Parser.PuzzleParsers.KakurasuParser import KakurasuParser
+from Common.Parser.PuzzleParsers.FuzuliParser import FuzuliParser
+from Common.Parser.PuzzleParsers.SudokuParser import SudokuParser
+from Common.Parser.PuzzleParsers.ButterflySudokuParser import ButterflySudokuParser
+from Common.Parser.PuzzleParsers.Clueless1SudokuParser import Clueless1SudokuParser
+from Common.Parser.PuzzleParsers.Clueless2SudokuParser import Clueless2SudokuParser
+from Common.Parser.PuzzleParsers.EvenOddSudokuParser import EvenOddSudokuParser
+from Common.Parser.PuzzleParsers.Gattai8SudokuParser import Gattai8SudokuParser
+from Common.Parser.PuzzleParsers.SamuraiSudokuParser import SamuraiSudokuParser
+from Common.Parser.PuzzleParsers.ShogunSudokuParser import ShogunSudokuParser
+from Common.Parser.PuzzleParsers.SoheiSudokuParser import SoheiSudokuParser
+from Common.Parser.PuzzleParsers.SumoSudokuParser import SumoSudokuParser
+from Common.Parser.PuzzleParsers.WindmillSudokuParser import WindmillSudokuParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -26,7 +40,22 @@ class ParserFactory:
         "Buraitoraito": BuraitoraitoParser, 
         "Eulero": EuleroParser,
         "Mosaic": MosaicParser,
-        "Nonogram": NonogramParser
+        "Nonogram": NonogramParser, 
+        "Norinori": NorinoriParser,
+        "Kakurasu": KakurasuParser,
+        "Fuzuli": FuzuliParser,
+        # Sudoku (variants)
+        "Sudoku": SudokuParser,
+        "ButterflySudoku": ButterflySudokuParser, 
+        "Clueless1Sudoku": Clueless1SudokuParser,
+        "Clueless2Sudoku": Clueless2SudokuParser,
+        "EvenOddSudoku": EvenOddSudokuParser, 
+        "Gattai8Sudoku": Gattai8SudokuParser,
+        "SamuraiSudoku": SamuraiSudokuParser, 
+        "ShogunSudoku": ShogunSudokuParser,
+        "SoheiSudoku": SoheiSudokuParser,
+        "SumoSudoku": SumoSudokuParser,
+        "WindmillSudoku": WindmillSudokuParser
     }
     
     @classmethod

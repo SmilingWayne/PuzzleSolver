@@ -1,0 +1,1026 @@
+{
+  "solutions": {
+    "1_8x8": {
+      "id": "1_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/001.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew sw se ew sw ns\nns ne sw ns ne sw ns ns\nns se nw ne sw ns ne nw\nns ne ew sw ns ne ew sw\nne sw se nw ne ew sw ns\nse nw ns se ew ew nw ns\nne ew nw ne ew ew ew nw"
+    },
+    "2_8x8": {
+      "id": "2_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/002.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew ew ew sw ns\nns ns se ew ew sw ne nw\nns ns ns se sw ne ew sw\nns ns ns ns ne ew ew nw\nns ns ns ne ew ew ew sw\nns ne nw se sw se sw ns\nne ew ew nw ne nw ne nw"
+    },
+    "3_10x10": {
+      "id": "3_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/003.a.htm",
+      "solution": "10 10\nse sw se ew ew ew ew sw se sw\nns ne nw se ew ew sw ne nw ns\nns se sw ns se sw ne ew sw ns\nns ns ne nw ns ne ew sw ns ns\nns ne ew sw ne ew sw ne nw ns\nns se sw ne ew sw ne sw se nw\nns ns ne ew sw ns se nw ne sw\nns ns se sw ns ns ns se ew nw\nns ne nw ns ns ns ns ne ew sw\nne ew ew nw ne nw ne ew ew nw"
+    },
+    "4_10x10": {
+      "id": "4_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/004.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se sw se ew ew sw ne nw ns\nns ns ns ne ew sw ne ew sw ns\nne nw ne ew sw ns se sw ns ns\nse ew ew ew nw ns ns ns ns ns\nne sw se ew ew nw ns ne nw ns\nse nw ns se sw se nw se ew nw\nne ew nw ns ns ns se nw se sw\nse ew ew nw ne nw ne ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "5_10x10": {
+      "id": "5_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/005.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nns se ew ew ew sw ns ns se nw\nns ne sw se sw ns ns ns ne sw\nne sw ns ns ns ne nw ne sw ns\nse nw ns ns ne ew ew ew nw ns\nns se nw ne ew ew sw se sw ns\nns ns se ew ew ew nw ns ns ns\nns ne nw se ew ew ew nw ns ns\nns se sw ns se ew ew ew nw ns\nne nw ne nw ne ew ew ew ew nw"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/006.a.htm",
+      "solution": "10 10\nse ew ew sw se sw se sw se sw\nne ew sw ns ns ne nw ne nw ns\nse ew nw ns ns se ew ew sw ns\nne sw se nw ns ns se sw ns ns\nse nw ns se nw ns ns ne nw ns\nne sw ne nw se nw ne ew ew nw\nse nw se ew nw se ew ew ew sw\nns se nw se ew nw se ew sw ns\nns ne ew nw se sw ns se nw ns\nne ew ew ew nw ne nw ne ew nw"
+    },
+    "7_10x10": {
+      "id": "7_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/007.a.htm",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns se sw ns ns se sw se ew nw\nne nw ns ne nw ns ns ne ew sw\nse sw ne ew sw ns ne sw se nw\nns ne sw se nw ne sw ns ne sw\nne sw ns ns se sw ns ns se nw\nse nw ns ne nw ne nw ns ne sw\nns se nw se ew ew sw ne sw ns\nns ne ew nw se sw ne ew nw ns\nne ew ew ew nw ne ew ew ew nw"
+    },
+    "8_12x12": {
+      "id": "8_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/008.a.htm",
+      "solution": "12 12\nse sw se sw se ew ew sw se sw se sw\nns ne nw ns ne sw se nw ns ne nw ns\nne sw se nw se nw ne sw ne sw se nw\nse nw ns se nw se sw ne sw ns ne sw\nns se nw ns se nw ne sw ns ne sw ns\nns ns se nw ne sw se nw ne ew nw ns\nns ne nw se sw ns ns se sw se ew nw\nns se sw ns ns ns ne nw ns ne ew sw\nns ns ns ns ns ne ew sw ns se ew nw\nns ns ne nw ne sw se nw ns ns se sw\nns ne ew sw se nw ns se nw ne nw ns\nne ew ew nw ne ew nw ne ew ew ew nw"
+    },
+    "9_12x12": {
+      "id": "9_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/009.a.htm",
+      "solution": "12 12\nse sw se ew ew sw se ew ew ew ew sw\nns ne nw se sw ns ns se ew sw se nw\nns se sw ns ns ns ns ns se nw ne sw\nne nw ne nw ns ne nw ns ne ew sw ns\nse ew ew ew nw se sw ne ew sw ns ns\nne ew sw se ew nw ns se sw ns ns ns\nse sw ns ns se sw ne nw ns ns ne nw\nns ne nw ne nw ne ew sw ns ns se sw\nns se sw se ew ew sw ns ns ne nw ns\nns ns ne nw se sw ns ns ne sw se nw\nns ne ew ew nw ns ns ns se nw ne sw\nne ew ew ew ew nw ne nw ne ew ew nw"
+    },
+    "10_12x12": {
+      "id": "10_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/010.a.htm",
+      "solution": "12 12\nse sw se ew sw se ew ew sw se ew sw\nns ns ns se nw ns se sw ns ne sw ns\nns ne nw ns se nw ns ns ne ew nw ns\nne ew sw ns ns se nw ne sw se ew nw\nse ew nw ns ne nw se ew nw ne ew sw\nne ew sw ne ew sw ne ew ew sw se nw\nse sw ns se sw ne sw se ew nw ne sw\nns ne nw ns ne ew nw ns se ew sw ns\nne ew sw ne ew sw se nw ne sw ns ns\nse sw ne ew sw ns ne sw se nw ne nw\nns ne ew ew nw ne ew nw ne ew ew sw\nne ew ew ew ew ew ew ew ew ew ew nw"
+    },
+    "11_12x12": {
+      "id": "11_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/011.a.htm",
+      "solution": "12 12\nse ew ew sw se sw se sw se ew ew sw\nns se ew nw ns ns ns ns ns se ew nw\nns ne ew sw ns ns ns ns ns ne ew sw\nns se ew nw ns ne nw ne nw se ew nw\nns ne ew ew nw se sw se sw ne ew sw\nns se ew ew sw ns ns ns ne sw se nw\nns ns se sw ne nw ns ne sw ns ne sw\nne nw ns ne ew sw ne sw ns ne ew nw\nse sw ne sw se nw se nw ne ew ew sw\nns ns se nw ne sw ns se ew ew sw ns\nns ne nw se sw ne nw ne ew sw ns ns\nne ew ew nw ne ew ew ew ew nw ne nw"
+    },
+    "12_12x12": {
+      "id": "12_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/012.a.htm",
+      "solution": "12 12\nse ew sw se sw se sw se ew sw se sw\nne sw ne nw ne nw ns ne sw ns ns ns\nse nw se ew sw se nw se nw ne nw ns\nns se nw se nw ns se nw se sw se nw\nne nw se nw se nw ne ew nw ns ne sw\nse sw ne sw ns se sw se ew nw se nw\nns ne ew nw ne nw ns ns se sw ne sw\nne sw se ew ew sw ns ne nw ne sw ns\nse nw ne ew sw ns ne ew ew ew nw ns\nne ew ew sw ns ne sw se ew ew sw ns\nse ew ew nw ne sw ns ne sw se nw ns\nne ew ew ew ew nw ne ew nw ne ew nw"
+    },
+    "13_12x12": {
+      "id": "13_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/013.a.htm",
+      "solution": "12 12\nse sw se sw se sw se sw se sw se sw\nns ne nw ns ns ns ns ns ns ns ns ns\nns se sw ns ns ns ns ns ns ne nw ns\nns ns ns ne nw ne nw ns ne sw se nw\nne nw ne sw se ew sw ne ew nw ne sw\nse sw se nw ne sw ne ew ew ew ew nw\nns ns ns se sw ne sw se ew sw se sw\nns ne nw ns ne sw ne nw se nw ns ns\nns se sw ns se nw se sw ne ew nw ns\nns ns ns ns ne ew nw ns se sw se nw\nns ns ns ne sw se ew nw ns ns ne sw\nne nw ne ew nw ne ew ew nw ne ew nw"
+    },
+    "14_14x14": {
+      "id": "14_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/014.a.htm",
+      "solution": "14 14\nse sw se ew sw se sw se sw se ew ew ew sw\nns ns ne sw ne nw ns ns ns ne ew ew sw ns\nns ne ew nw se ew nw ns ne ew ew sw ns ns\nne ew ew sw ne sw se nw se ew ew nw ns ns\nse ew ew nw se nw ns se nw se ew ew nw ns\nne ew ew sw ns se nw ne sw ne sw se ew nw\nse sw se nw ne nw se sw ne ew nw ne ew sw\nns ns ne sw se ew nw ne ew ew sw se ew nw\nns ns se nw ns se ew sw se ew nw ns se sw\nns ns ne sw ns ns se nw ns se ew nw ns ns\nns ns se nw ns ns ns se nw ns se ew nw ns\nns ns ns se nw ns ns ne sw ne nw se ew nw\nns ne nw ne sw ns ne ew nw se sw ne ew sw\nne ew ew ew nw ne ew ew ew nw ne ew ew nw"
+    },
+    "15_14x14": {
+      "id": "15_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/015.a.htm",
+      "solution": "14 14\nse sw se sw se ew ew sw se ew ew sw se sw\nns ne nw ns ns se ew nw ns se sw ne nw ns\nne ew sw ns ns ns se sw ns ns ne ew sw ns\nse ew nw ne nw ns ns ns ns ne sw se nw ns\nns se ew ew ew nw ns ns ne sw ns ne ew nw\nns ne ew ew ew sw ns ne ew nw ne ew ew sw\nne ew sw se sw ne nw se sw se ew ew sw ns\nse sw ne nw ne ew sw ns ns ne ew sw ns ns\nns ne ew ew ew ew nw ns ns se ew nw ne nw\nns se ew ew ew ew ew nw ns ne ew ew ew sw\nns ns se ew ew ew sw se nw se ew ew ew nw\nns ne nw se sw se nw ne sw ns se ew ew sw\nns se sw ns ns ns se ew nw ne nw se sw ns\nne nw ne nw ne nw ne ew ew ew ew nw ne nw"
+    },
+    "16_14x14": {
+      "id": "16_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/016.a.htm",
+      "solution": "14 14\nse ew sw se ew sw se sw se ew ew ew ew sw\nns se nw ns se nw ns ns ne sw se sw se nw\nns ne ew nw ns se nw ne ew nw ns ns ne sw\nns se ew sw ne nw se sw se ew nw ne sw ns\nns ns se nw se ew nw ns ne sw se sw ne nw\nns ns ns se nw se sw ne sw ns ns ne ew sw\nns ns ne nw se nw ne ew nw ns ne sw se nw\nne nw se ew nw se sw se sw ne sw ns ne sw\nse sw ne ew sw ns ns ns ne sw ns ns se nw\nns ne ew sw ns ns ne nw se nw ne nw ne sw\nne ew sw ne nw ns se ew nw se sw se ew nw\nse sw ne sw se nw ns se ew nw ns ns se sw\nns ne ew nw ns se nw ne sw se nw ne nw ns\nne ew ew ew nw ne ew ew nw ne ew ew ew nw"
+    },
+    "17_14x14": {
+      "id": "17_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/017.a.htm",
+      "solution": "14 14\nse ew ew ew ew sw se ew sw se ew sw se sw\nns se ew ew sw ne nw se nw ne sw ne nw ns\nns ne sw se nw se ew nw se sw ns se ew nw\nns se nw ns se nw se ew nw ne nw ne ew sw\nne nw se nw ne ew nw se ew ew ew ew sw ns\nse ew nw se sw se sw ne ew sw se sw ns ns\nns se ew nw ne nw ns se sw ne nw ns ns ns\nns ns se sw se sw ns ns ne ew ew nw ne nw\nne nw ns ne nw ns ns ne ew sw se ew ew sw\nse sw ns se sw ne nw se ew nw ns se sw ns\nns ns ne nw ne ew sw ne ew ew nw ns ns ns\nns ne ew ew ew sw ns se ew ew ew nw ne nw\nns se sw se sw ne nw ne ew ew ew ew ew sw\nne nw ne nw ne ew ew ew ew ew ew ew ew nw"
+    },
+    "18_14x14": {
+      "id": "18_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/018.a.htm",
+      "solution": "14 14\nse sw se ew sw se ew ew ew sw se ew ew sw\nns ne nw se nw ns se ew sw ne nw se sw ns\nne ew sw ne ew nw ne sw ne ew ew nw ns ns\nse sw ns se ew ew sw ne sw se ew sw ne nw\nns ne nw ns se sw ne sw ns ne sw ne ew sw\nne ew sw ns ns ns se nw ne sw ne sw se nw\nse sw ns ns ns ne nw se sw ne ew nw ne sw\nns ns ns ns ne ew ew nw ne ew sw se ew nw\nns ne nw ne ew sw se sw se sw ns ne ew sw\nne ew ew ew sw ns ns ns ns ns ne ew sw ns\nse ew ew sw ns ns ns ne nw ne sw se nw ns\nns se sw ne nw ns ne sw se sw ns ns se nw\nns ns ns se sw ne sw ns ns ns ne nw ne sw\nne nw ne nw ne ew nw ne nw ne ew ew ew nw"
+    },
+    "19_16x16": {
+      "id": "19_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/019.a.htm",
+      "solution": "16 16\nse ew ew sw se ew sw se sw se sw se sw se ew sw\nns se ew nw ne sw ne nw ns ns ne nw ns ne sw ns\nns ns se sw se nw se ew nw ne ew sw ne ew nw ns\nns ne nw ne nw se nw se ew ew sw ne sw se sw ns\nne ew ew ew sw ne ew nw se sw ne sw ns ns ne nw\nse ew ew ew nw se ew ew nw ne sw ns ns ns se sw\nne ew ew ew ew nw se ew sw se nw ne nw ne nw ns\nse ew ew ew ew sw ne sw ns ns se sw se ew sw ns\nns se ew ew sw ne sw ns ns ns ns ne nw se nw ns\nne nw se sw ne sw ne nw ns ns ne sw se nw se nw\nse ew nw ne sw ne ew sw ne nw se nw ne sw ne sw\nns se sw se nw se ew nw se ew nw se ew nw se nw\nns ns ns ne ew nw se ew nw se sw ne ew sw ne sw\nns ns ne ew ew sw ne ew sw ns ns se sw ne sw ns\nns ne ew sw se nw se sw ne nw ne nw ne sw ns ns\nne ew ew nw ne ew nw ne ew ew ew ew ew nw ne nw"
+    },
+    "20_16x16": {
+      "id": "20_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/020.a.htm",
+      "solution": "16 16\nse ew sw se ew ew sw se ew ew sw se ew sw se sw\nns se nw ns se sw ns ns se ew nw ne sw ne nw ns\nns ns se nw ns ns ns ns ne ew ew ew nw se ew nw\nns ne nw se nw ns ne nw se sw se ew sw ne ew sw\nne ew sw ne sw ns se ew nw ns ne sw ne ew ew nw\nse ew nw se nw ne nw se sw ne sw ns se ew ew sw\nne sw se nw se ew ew nw ns se nw ns ne sw se nw\nse nw ne ew nw se sw se nw ne sw ne ew nw ne sw\nne sw se sw se nw ne nw se ew nw se sw se sw ns\nse nw ns ns ne sw se ew nw se sw ns ne nw ns ns\nne ew nw ne sw ns ne ew sw ns ns ns se ew nw ns\nse ew ew sw ns ns se sw ne nw ne nw ne sw se nw\nne ew sw ne nw ns ns ns se ew ew ew sw ns ne sw\nse sw ns se sw ne nw ns ne sw se ew nw ns se nw\nns ne nw ns ns se sw ne sw ns ne ew ew nw ne sw\nne ew ew nw ne nw ne ew nw ne ew ew ew ew ew nw"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/021.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne ew ew ew ew ew ew sw se nw\nse ew ew ew ew ew sw ns ne sw\nne ew ew ew ew sw ns ne sw ns\nse ew ew ew sw ns ne sw ns ns\nne ew ew sw ns ne sw ns ns ns\nse ew ew nw ns se nw ns ns ns\nns se ew ew nw ns se nw ns ns\nns ne ew ew ew nw ne ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/022.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew ew sw ne nw ne nw ns\nns ne ew sw ne ew ew ew sw ns\nns se sw ne sw se ew sw ns ns\nns ns ne sw ns ne sw ns ns ns\nns ns se nw ne sw ns ns ns ns\nns ns ns se sw ns ns ns ns ns\nns ns ns ns ne nw ns ns ns ns\nns ns ns ne ew ew nw ns ns ns\nne nw ne ew ew ew ew nw ne nw"
+    },
+    "23_12x12": {
+      "id": "23_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/023.a.htm",
+      "solution": "12 12\nse sw se ew ew sw se ew ew sw se sw\nns ns ns se ew nw ne ew sw ne nw ns\nns ne nw ns se ew ew sw ns se ew nw\nne ew sw ne nw se sw ne nw ne ew sw\nse sw ne sw se nw ne ew ew ew sw ns\nns ne ew nw ne sw se ew ew sw ns ns\nne ew sw se ew nw ne ew sw ne nw ns\nse ew nw ns se sw se sw ns se ew nw\nne ew sw ns ns ne nw ns ns ns se sw\nse ew nw ns ne ew sw ns ns ne nw ns\nns se sw ne ew ew nw ns ns se sw ns\nne nw ne ew ew ew ew nw ne nw ne nw"
+    },
+    "24_12x12": {
+      "id": "24_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/024.a.htm",
+      "solution": "12 12\nse ew sw se ew sw se sw se ew ew sw\nns se nw ne sw ne nw ns ne sw se nw\nns ns se sw ns se sw ne sw ns ne sw\nns ne nw ns ns ns ne sw ns ns se nw\nns se ew nw ne nw se nw ns ns ne sw\nns ne sw se ew ew nw se nw ne sw ns\nne sw ns ne sw se sw ns se ew nw ns\nse nw ne sw ne nw ns ns ns se ew nw\nns se sw ne ew ew nw ns ns ne ew sw\nne nw ne sw se ew sw ne nw se sw ns\nse ew ew nw ns se nw se sw ns ns ns\nne ew ew ew nw ne ew nw ne nw ne nw"
+    },
+    "25_14x14": {
+      "id": "25_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/025.a.htm",
+      "solution": "14 14\nse ew sw se ew sw se ew sw se ew sw se sw\nne sw ne nw se nw ne sw ns ns se nw ns ns\nse nw se ew nw se ew nw ne nw ne sw ns ns\nns se nw se ew nw se ew sw se sw ns ns ns\nns ne sw ne ew sw ne sw ne nw ns ns ns ns\nne sw ns se sw ne ew nw se sw ns ne nw ns\nse nw ns ns ne ew ew ew nw ne nw se sw ns\nns se nw ne ew ew ew ew sw se ew nw ne nw\nns ne ew ew sw se ew ew nw ns se ew ew sw\nne ew ew sw ns ne sw se ew nw ns se ew nw\nse ew ew nw ne sw ns ne ew sw ns ne ew sw\nns se sw se ew nw ns se ew nw ns se ew nw\nns ns ns ne ew ew nw ne ew ew nw ne ew sw\nne nw ne ew ew ew ew ew ew ew ew ew ew nw"
+    },
+    "26_14x14": {
+      "id": "26_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/026.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew ew ew sw se ew ew ew sw\nne ew ew sw se ew sw se nw ns se ew sw ns\nse ew sw ns ne sw ns ne sw ns ne sw ns ns\nns se nw ne ew nw ns se nw ns se nw ns ns\nns ns se ew ew ew nw ns se nw ne sw ns ns\nns ne nw se ew ew ew nw ns se sw ns ns ns\nne sw se nw se ew ew ew nw ns ne nw ne nw\nse nw ne ew nw se ew sw se nw se ew ew sw\nne sw se ew ew nw se nw ns se nw se ew nw\nse nw ne sw se sw ne sw ne nw se nw se sw\nne sw se nw ns ne ew nw se sw ns se nw ns\nse nw ne sw ne sw se ew nw ns ns ns se nw\nns se sw ns se nw ns se ew nw ne nw ne sw\nne nw ne nw ne ew nw ne ew ew ew ew ew nw"
+    },
+    "27_14x14": {
+      "id": "27_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/027.a.htm",
+      "solution": "14 14\nse ew sw se sw se ew sw se sw se ew ew sw\nns se nw ns ns ns se nw ns ns ne sw se nw\nns ne ew nw ns ns ns se nw ne sw ns ne sw\nne sw se ew nw ns ns ne ew sw ne nw se nw\nse nw ne ew sw ns ne sw se nw se sw ne sw\nne ew ew sw ne nw se nw ne sw ns ne sw ns\nse sw se nw se sw ns se sw ns ne sw ne nw\nns ne nw se nw ns ne nw ns ne sw ne ew sw\nne ew sw ns se nw se sw ne sw ne sw se nw\nse ew nw ns ne ew nw ne ew nw se nw ne sw\nne ew sw ne ew sw se sw se ew nw se ew nw\nse sw ns se sw ns ns ns ns se sw ne ew sw\nns ne nw ns ns ne nw ne nw ns ns se sw ns\nne ew ew nw ne ew ew ew ew nw ne nw ne nw"
+    },
+    "28_16x16": {
+      "id": "28_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/028.a.htm",
+      "solution": "16 16\nse ew ew sw se ew ew sw se sw se sw se sw se sw\nns se sw ne nw se sw ne nw ns ns ne nw ns ns ns\nns ns ne sw se nw ne sw se nw ne ew sw ne nw ns\nns ns se nw ne sw se nw ne ew ew sw ne sw se nw\nne nw ns se ew nw ns se ew ew sw ns se nw ne sw\nse ew nw ns se ew nw ne ew sw ns ns ns se ew nw\nne sw se nw ne ew ew sw se nw ns ne nw ns se sw\nse nw ne ew sw se sw ns ne sw ns se sw ne nw ns\nns se ew sw ne nw ns ne sw ns ne nw ne ew sw ns\nns ne sw ne ew sw ne sw ne nw se ew ew sw ns ns\nne sw ne ew sw ne sw ne ew ew nw se sw ns ne nw\nse nw se sw ne sw ne sw se sw se nw ns ne ew sw\nne sw ns ne sw ne sw ne nw ns ns se nw se sw ns\nse nw ne sw ne ew nw se sw ne nw ns se nw ns ns\nns se sw ne ew ew ew nw ne ew sw ns ns se nw ns\nne nw ne ew ew ew ew ew ew ew nw ne nw ne ew nw"
+    },
+    "29_16x16": {
+      "id": "29_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/029.a.htm",
+      "solution": "16 16\nse ew sw se sw se sw se sw se ew ew ew sw se sw\nne sw ne nw ne nw ns ns ns ne ew ew sw ns ns ns\nse nw se ew sw se nw ns ne sw se ew nw ne nw ns\nne sw ns se nw ns se nw se nw ne sw se ew ew nw\nse nw ns ns se nw ns se nw se sw ns ne ew ew sw\nns se nw ns ne ew nw ns se nw ns ne sw se sw ns\nns ns se nw se ew ew nw ne sw ne sw ns ns ns ns\nns ns ne ew nw se sw se sw ne sw ne nw ns ne nw\nns ne ew ew ew nw ns ns ne sw ns se sw ns se sw\nns se ew ew ew ew nw ne sw ne nw ns ne nw ns ns\nns ne sw se ew ew sw se nw se sw ne sw se nw ns\nne sw ns ne sw se nw ns se nw ns se nw ne sw ns\nse nw ne sw ns ne ew nw ns se nw ne ew ew nw ns\nne sw se nw ne sw se ew nw ne ew ew ew ew sw ns\nse nw ne ew ew nw ne ew ew sw se ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw ne ew ew ew ew nw"
+    },
+    "30_16x16": {
+      "id": "30_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/030.a.htm",
+      "solution": "16 16\nse ew sw se sw se ew ew ew ew sw se ew ew ew sw\nne sw ns ns ne nw se sw se ew nw ns se ew ew nw\nse nw ns ns se sw ns ne nw se sw ns ne ew ew sw\nns se nw ns ns ne nw se sw ns ns ne sw se ew nw\nns ns se nw ne ew ew nw ne nw ne sw ns ne ew sw\nns ns ne ew ew sw se ew ew ew ew nw ne ew sw ns\nns ne ew ew ew nw ne sw se sw se sw se ew nw ns\nns se ew ew sw se sw ns ns ns ns ne nw se ew nw\nne nw se sw ns ns ns ns ns ne nw se ew nw se sw\nse ew nw ne nw ns ns ns ne sw se nw se ew nw ns\nne ew ew ew sw ns ne nw se nw ns se nw se sw ns\nse ew ew sw ns ne ew sw ne sw ns ns se nw ns ns\nne ew sw ns ns se sw ne sw ns ns ns ns se nw ns\nse sw ns ne nw ns ne sw ns ns ne nw ns ne sw ns\nns ne nw se sw ne sw ns ne nw se sw ns se nw ns\nne ew ew nw ne ew nw ne ew ew nw ne nw ne ew nw"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/031.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne ew ew ew ew sw se ew ew nw\nse ew ew ew ew nw ns se ew sw\nns se ew ew ew ew nw ne sw ns\nns ne ew ew ew ew sw se nw ns\nne sw se ew sw se nw ns se nw\nse nw ne sw ns ne sw ns ne sw\nne ew sw ns ne sw ns ne sw ns\nse ew nw ne sw ns ne ew nw ns\nne ew ew ew nw ne ew ew ew nw"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/032.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne sw se sw se ew ew ew sw ns\nse nw ns ns ne ew ew sw ne nw\nne sw ns ne ew ew sw ne ew sw\nse nw ns se ew sw ne sw se nw\nns se nw ne sw ne sw ns ne sw\nns ns se ew nw se nw ne sw ns\nns ns ne ew sw ns se sw ne nw\nns ne ew ew nw ne nw ne ew sw\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "33_12x12": {
+      "id": "33_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/033.a.htm",
+      "solution": "12 12\nse ew sw se ew ew ew sw se sw se sw\nns se nw ns se ew sw ne nw ne nw ns\nns ne sw ns ns se nw se ew ew sw ns\nns se nw ns ns ne sw ne ew sw ns ns\nns ns se nw ne sw ne ew sw ns ne nw\nns ns ns se sw ns se sw ns ne ew sw\nns ns ne nw ne nw ns ns ns se sw ns\nns ne sw se sw se nw ne nw ns ns ns\nne sw ns ns ns ne ew ew sw ns ns ns\nse nw ne nw ne sw se ew nw ns ns ns\nns se sw se sw ne nw se sw ns ns ns\nne nw ne nw ne ew ew nw ne nw ne nw"
+    },
+    "34_12x12": {
+      "id": "34_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/034.a.htm",
+      "solution": "12 12\nse ew sw se ew sw se sw se ew ew sw\nne sw ns ne sw ns ns ne nw se ew nw\nse nw ne ew nw ne nw se sw ne ew sw\nns se sw se ew ew ew nw ns se ew nw\nne nw ns ns se sw se ew nw ne ew sw\nse ew nw ns ns ns ne ew sw se ew nw\nns se ew nw ns ns se ew nw ns se sw\nns ns se sw ns ns ne sw se nw ns ns\nns ne nw ns ns ne sw ns ns se nw ns\nns se ew nw ns se nw ns ne nw se nw\nns ne ew ew nw ns se nw se sw ne sw\nne ew ew ew ew nw ne ew nw ne ew nw"
+    },
+    "35_14x14": {
+      "id": "35_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/035.a.htm",
+      "solution": "14 14\nse sw se sw se ew sw se sw se ew sw se sw\nns ne nw ns ne sw ns ns ns ne sw ne nw ns\nne ew sw ne ew nw ne nw ne sw ne sw se nw\nse ew nw se ew sw se ew sw ne sw ns ne sw\nns se ew nw se nw ne sw ne sw ns ns se nw\nne nw se sw ns se sw ne sw ns ne nw ne sw\nse ew nw ne nw ns ns se nw ne ew ew ew nw\nns se sw se ew nw ne nw se ew ew sw se sw\nne nw ns ne ew ew ew ew nw se sw ne nw ns\nse sw ne ew sw se sw se sw ns ne ew ew nw\nns ne ew ew nw ns ne nw ns ne ew ew ew sw\nne ew sw se sw ne ew sw ns se ew ew sw ns\nse ew nw ns ns se sw ns ns ne sw se nw ns\nne ew ew nw ne nw ne nw ne ew nw ne ew nw"
+    },
+    "36_14x14": {
+      "id": "36_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/036.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew ew ew sw se sw se ew sw\nns se ew ew ew ew ew sw ne nw ns ns se nw\nne nw se ew ew sw se nw se sw ns ns ne sw\nse ew nw se ew nw ns se nw ne nw ne sw ns\nne ew sw ne ew sw ns ne ew ew ew sw ns ns\nse ew nw se sw ne nw se ew ew sw ns ns ns\nne ew sw ns ne ew ew nw se ew nw ns ns ns\nse ew nw ne sw se ew sw ne ew sw ne nw ns\nns se ew sw ns ne sw ne sw se nw se ew nw\nne nw se nw ne sw ne sw ns ns se nw se sw\nse sw ne ew sw ne ew nw ns ns ns se nw ns\nns ne ew sw ns se sw se nw ns ne nw se nw\nns se sw ne nw ns ns ne sw ns se sw ne sw\nne nw ne ew ew nw ne ew nw ne nw ne ew nw"
+    },
+    "37_14x14": {
+      "id": "37_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/037.a.htm",
+      "solution": "14 14\nse sw se ew sw se ew ew ew ew sw se ew sw\nns ns ne sw ns ns se ew ew sw ns ns se nw\nns ne ew nw ns ne nw se sw ns ne nw ne sw\nne ew sw se nw se sw ns ns ne sw se ew nw\nse ew nw ne ew nw ns ns ne ew nw ns se sw\nne sw se ew ew ew nw ne sw se sw ne nw ns\nse nw ne ew ew sw se ew nw ns ns se sw ns\nne sw se ew ew nw ns se ew nw ns ns ns ns\nse nw ne ew ew ew nw ne sw se nw ns ns ns\nns se sw se ew ew sw se nw ns se nw ns ns\nns ns ns ns se sw ns ne sw ns ns se nw ns\nne nw ns ne nw ns ne ew nw ns ns ns se nw\nse ew nw se sw ne ew sw se nw ns ns ne sw\nne ew ew nw ne ew ew nw ne ew nw ne ew nw"
+    },
+    "38_16x16": {
+      "id": "38_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/038.a.htm",
+      "solution": "16 16\nse sw se sw se sw se sw se ew ew sw se ew ew sw\nns ne nw ns ns ne nw ns ns se sw ne nw se ew nw\nns se sw ns ne sw se nw ns ns ne ew sw ne ew sw\nne nw ns ns se nw ne sw ns ne ew sw ne ew ew nw\nse ew nw ne nw se ew nw ns se sw ne sw se ew sw\nns se ew ew sw ne ew sw ne nw ns se nw ns se nw\nns ne sw se nw se sw ns se sw ns ne sw ns ne sw\nns se nw ne sw ns ns ne nw ns ne sw ns ne sw ns\nns ns se sw ne nw ns se sw ne sw ns ne ew nw ns\nne nw ns ne ew sw ns ns ne sw ne nw se ew ew nw\nse ew nw se sw ns ns ns se nw se sw ns se ew sw\nne ew sw ns ns ne nw ns ns se nw ne nw ns se nw\nse sw ns ns ne ew sw ns ne nw se ew ew nw ne sw\nns ne nw ne ew sw ne nw se ew nw se ew ew sw ns\nns se sw se sw ne ew ew nw se sw ne ew sw ns ns\nne nw ne nw ne ew ew ew ew nw ne ew ew nw ne nw"
+    },
+    "39_16x16": {
+      "id": "39_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/039.a.htm",
+      "solution": "16 16\nse sw se sw se ew ew sw se sw se sw se ew ew sw\nns ns ns ne nw se ew nw ns ns ns ns ns se ew nw\nns ne nw se sw ne ew sw ns ne nw ne nw ns se sw\nns se ew nw ns se ew nw ns se ew ew sw ne nw ns\nne nw se ew nw ne ew ew nw ne ew sw ne ew sw ns\nse sw ne sw se ew ew sw se ew sw ne ew sw ne nw\nns ne ew nw ns se sw ns ne sw ne ew ew nw se sw\nne ew ew sw ne nw ns ns se nw se ew ew sw ns ns\nse ew sw ns se sw ns ns ne sw ns se sw ne nw ns\nns se nw ns ns ne nw ne sw ne nw ns ns se ew nw\nns ne ew nw ns se ew ew nw se ew nw ns ne ew sw\nne ew sw se nw ne sw se sw ns se sw ne sw se nw\nse ew nw ne ew sw ne nw ns ne nw ns se nw ne sw\nns se sw se sw ne ew sw ne sw se nw ns se ew nw\nns ns ns ns ns se sw ns se nw ns se nw ne ew sw\nne nw ne nw ne nw ne nw ne ew nw ne ew ew ew nw"
+    },
+    "40_16x16": {
+      "id": "40_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/040.a.htm",
+      "solution": "16 16\nse ew ew ew sw se sw se ew ew sw se ew sw se sw\nns se ew ew nw ns ne nw se sw ne nw se nw ns ns\nns ns se ew ew nw se sw ns ns se sw ne sw ns ns\nns ns ns se sw se nw ne nw ns ns ne sw ne nw ns\nns ne nw ns ns ne ew ew sw ns ns se nw se ew nw\nne ew ew nw ns se ew ew nw ns ns ne sw ne ew sw\nse ew sw se nw ns se sw se nw ne sw ne ew sw ns\nns se nw ns se nw ns ns ne ew sw ns se sw ns ns\nns ns se nw ns se nw ne ew sw ns ne nw ns ns ns\nns ns ne sw ne nw se ew ew nw ns se ew nw ns ns\nns ne sw ne ew ew nw se sw se nw ns se ew nw ns\nne sw ne ew ew ew sw ns ne nw se nw ns se ew nw\nse nw se sw se sw ns ne ew sw ns se nw ns se sw\nne ew nw ns ns ns ns se ew nw ns ne ew nw ns ns\nse ew ew nw ns ns ne nw se sw ne ew ew ew nw ns\nne ew ew ew nw ne ew ew nw ne ew ew ew ew ew nw"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/041.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se sw se sw ns ns ne nw ns\nns ns ne nw ns ns ne ew sw ns\nns ne ew sw ns ne ew ew nw ns\nns se sw ns ne ew sw se sw ns\nns ns ns ne ew sw ne nw ns ns\nns ns ne ew sw ne ew sw ns ns\nns ne ew sw ne ew sw ns ne nw\nns se sw ne ew sw ns ne ew sw\nne nw ne ew ew nw ne ew ew nw"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/042.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nne ew sw se sw ns ns ne nw ns\nse ew nw ns ns ns ne ew sw ns\nns se sw ns ns ne ew ew nw ns\nns ns ne nw ne ew ew ew ew nw\nns ne ew ew ew sw se ew ew sw\nne sw se ew sw ns ne ew sw ns\nse nw ne sw ns ne ew sw ns ns\nns se sw ns ns se sw ne nw ns\nne nw ne nw ne nw ne ew ew nw"
+    },
+    "43_12x12": {
+      "id": "43_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/043.a.htm",
+      "solution": "12 12\nse sw se sw se ew ew ew ew ew ew sw\nns ns ns ne nw se ew ew ew ew sw ns\nns ns ns se ew nw se ew sw se nw ns\nns ns ns ns se sw ne sw ns ne ew nw\nns ne nw ne nw ne sw ns ne ew ew sw\nns se ew ew ew ew nw ne sw se ew nw\nns ne sw se ew ew ew ew nw ne ew sw\nne sw ne nw se ew ew sw se ew ew nw\nse nw se sw ne ew sw ns ne ew ew sw\nne sw ns ne sw se nw ns se sw se nw\nse nw ne sw ns ne sw ns ns ns ne sw\nne ew ew nw ne ew nw ne nw ne ew nw"
+    },
+    "44_12x12": {
+      "id": "44_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/044.a.htm",
+      "solution": "12 12\nse ew sw se ew ew ew ew ew ew ew sw\nns se nw ns se ew ew sw se ew ew nw\nns ns se nw ns se sw ne nw se ew sw\nns ns ne sw ns ns ne ew sw ne sw ns\nns ne ew nw ne nw se sw ne ew nw ns\nne ew ew ew ew ew nw ne ew sw se nw\nse ew ew sw se ew ew ew ew nw ne sw\nne ew sw ns ne ew sw se ew sw se nw\nse ew nw ns se sw ne nw se nw ne sw\nne sw se nw ns ne ew sw ne sw se nw\nse nw ne ew nw se sw ne ew nw ne sw\nne ew ew ew ew nw ne ew ew ew ew nw"
+    },
+    "45_14x14": {
+      "id": "45_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/045.a.htm",
+      "solution": "14 14\nse ew ew ew sw se ew sw se ew ew sw se sw\nns se ew sw ne nw se nw ns se sw ne nw ns\nne nw se nw se ew nw se nw ns ne ew sw ns\nse ew nw se nw se sw ne sw ne ew sw ne nw\nns se sw ne ew nw ns se nw se sw ns se sw\nns ns ne sw se ew nw ne ew nw ns ne nw ns\nne nw se nw ne sw se ew ew ew nw se ew nw\nse sw ns se sw ne nw se sw se ew nw se sw\nns ne nw ns ne ew ew nw ne nw se ew nw ns\nne ew sw ne ew sw se sw se ew nw se sw ns\nse sw ne ew sw ns ns ne nw se sw ns ne nw\nns ne ew ew nw ns ns se sw ns ne nw se sw\nns se sw se sw ne nw ns ns ne ew ew nw ns\nne nw ne nw ne ew ew nw ne ew ew ew ew nw"
+    },
+    "46_14x14": {
+      "id": "46_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/046.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew sw se ew sw se sw se sw\nne sw se ew ew ew nw ne sw ne nw ne nw ns\nse nw ne ew ew sw se sw ne sw se ew ew nw\nne ew ew ew sw ne nw ns se nw ne ew ew sw\nse ew ew ew nw se sw ne nw se ew ew ew nw\nne sw se sw se nw ne ew sw ne ew sw se sw\nse nw ns ns ns se ew sw ns se sw ne nw ns\nns se nw ne nw ne sw ns ns ns ne ew sw ns\nns ns se sw se sw ns ne nw ns se sw ns ns\nns ns ns ne nw ns ne ew sw ne nw ns ne nw\nne nw ne ew sw ne ew ew nw se sw ne ew sw\nse sw se sw ne ew sw se ew nw ns se sw ns\nns ne nw ne ew ew nw ne sw se nw ns ns ns\nne ew ew ew ew ew ew ew nw ne ew nw ne nw"
+    },
+    "47_14x14": {
+      "id": "47_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/047.a.htm",
+      "solution": "14 14\nse sw se sw se sw se ew ew sw se sw se sw\nns ns ns ns ns ne nw se sw ns ns ne nw ns\nns ns ns ns ns se ew nw ne nw ns se ew nw\nns ne nw ne nw ne ew ew ew ew nw ne ew sw\nne ew ew sw se ew sw se ew ew sw se ew nw\nse ew ew nw ns se nw ns se sw ns ne ew sw\nns se ew ew nw ne sw ne nw ns ns se sw ns\nns ne ew ew ew sw ne ew ew nw ne nw ns ns\nns se ew ew ew nw se ew sw se sw se nw ns\nns ne ew ew ew sw ne sw ne nw ns ne ew nw\nne ew sw se sw ne sw ns se sw ne ew ew sw\nse sw ns ns ne ew nw ns ns ns se ew sw ns\nns ne nw ne ew ew ew nw ns ns ns se nw ns\nne ew ew ew ew ew ew ew nw ne nw ne ew nw"
+    },
+    "48_16x16": {
+      "id": "48_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/048.a.htm",
+      "solution": "16 16\nse ew ew ew sw se sw se ew sw se ew ew ew ew sw\nns se ew sw ns ns ns ne sw ne nw se ew ew sw ns\nns ns se nw ns ns ne sw ns se sw ns se ew nw ns\nne nw ns se nw ns se nw ns ns ns ns ns se sw ns\nse ew nw ne ew nw ne sw ns ns ns ns ne nw ne nw\nne ew ew ew ew ew sw ne nw ns ns ne ew sw se sw\nse ew ew ew ew sw ns se sw ns ne ew ew nw ns ns\nns se ew ew sw ne nw ns ns ne ew sw se sw ns ns\nns ns se sw ne ew ew nw ne ew ew nw ns ne nw ns\nns ne nw ns se sw se ew ew sw se ew nw se ew nw\nns se sw ns ns ns ne ew sw ne nw se ew nw se sw\nns ns ns ns ns ns se sw ne ew sw ns se ew nw ns\nns ns ns ne nw ne nw ns se ew nw ns ns se ew nw\nns ns ne sw se ew sw ns ns se ew nw ns ns se sw\nns ns se nw ne sw ns ne nw ne ew ew nw ne nw ns\nne nw ne ew ew nw ne ew ew ew ew ew ew ew ew nw"
+    },
+    "49_16x16": {
+      "id": "49_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/049.a.htm",
+      "solution": "16 16\nse sw se ew sw se ew ew sw se sw se sw se ew sw\nns ns ne sw ns ns se sw ne nw ns ns ne nw se nw\nns ns se nw ne nw ns ns se ew nw ns se sw ne sw\nns ne nw se ew sw ns ns ne ew sw ns ns ne ew nw\nns se sw ns se nw ns ne ew sw ns ns ne sw se sw\nne nw ns ns ne ew nw se sw ne nw ns se nw ns ns\nse sw ns ne ew ew ew nw ne ew sw ns ne sw ns ns\nns ne nw se sw se ew ew sw se nw ne sw ne nw ns\nns se ew nw ne nw se ew nw ne ew sw ne sw se nw\nne nw se sw se sw ne sw se ew sw ne sw ns ne sw\nse sw ns ns ns ne ew nw ns se nw se nw ns se nw\nns ns ns ne nw se sw se nw ns se nw se nw ne sw\nns ns ne ew sw ns ns ns se nw ne ew nw se ew nw\nns ne ew sw ns ns ne nw ns se ew ew sw ne ew sw\nns se sw ne nw ne sw se nw ne sw se nw se sw ns\nne nw ne ew ew ew nw ne ew ew nw ne ew nw ne nw"
+    },
+    "50_16x16": {
+      "id": "50_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/050.a.htm",
+      "solution": "16 16\nse ew ew ew sw se sw se ew ew ew sw se sw se sw\nns se ew sw ns ns ns ns se ew sw ne nw ne nw ns\nne nw se nw ns ns ne nw ne sw ne ew sw se sw ns\nse sw ne sw ne nw se ew sw ns se sw ne nw ns ns\nns ne ew nw se ew nw se nw ns ns ns se ew nw ns\nns se ew ew nw se sw ns se nw ns ns ne sw se nw\nns ns se ew ew nw ne nw ne sw ns ne ew nw ne sw\nne nw ne sw se ew ew ew sw ns ne ew sw se sw ns\nse ew ew nw ne ew ew sw ne nw se sw ne nw ns ns\nne ew ew sw se ew sw ns se ew nw ne sw se nw ns\nse ew ew nw ne sw ns ns ns se sw se nw ns se nw\nne ew sw se sw ns ns ns ne nw ns ns se nw ne sw\nse ew nw ns ne nw ns ne sw se nw ns ns se sw ns\nns se sw ns se sw ne sw ne nw se nw ns ns ne nw\nns ns ns ne nw ne sw ns se sw ne sw ns ne ew sw\nne nw ne ew ew ew nw ne nw ne ew nw ne ew ew nw"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/051.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se ew ew ew sw ns\nse nw ne sw se ew nw ns\nns se sw ns ne ew sw ns\nns ns ns ne sw se nw ns\nns ns ne sw ns ne sw ns\nns ne sw ns ns se nw ns\nne ew nw ne nw ne ew nw"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/052.a.htm",
+      "solution": "8 8\nse sw se ew sw se ew sw\nns ns ns se nw ne sw ns\nns ns ns ns se ew nw ns\nns ns ns ns ns se ew nw\nns ns ns ns ns ne ew sw\nns ns ns ns ne ew sw ns\nns ne nw ne ew ew nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/053.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew ew sw ne nw ns ns ns\nne nw se ew nw se sw ne nw ns\nse ew nw se ew nw ne sw se nw\nns se sw ns se ew sw ns ne sw\nns ns ne nw ns se nw ns se nw\nns ne sw se nw ns se nw ne sw\nne ew nw ns se nw ns se ew nw\nse ew ew nw ne ew nw ne ew sw\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/054.a.htm",
+      "solution": "10 10\nse ew ew sw se sw se ew ew sw\nns se sw ns ns ns ne sw se nw\nns ns ne nw ns ne sw ns ne sw\nns ne ew sw ne sw ne nw se nw\nns se sw ne sw ne ew sw ne sw\nns ns ne sw ne ew sw ne sw ns\nns ne sw ne ew sw ne sw ns ns\nns se nw se sw ns se nw ns ns\nns ne ew nw ns ns ne ew nw ns\nne ew ew ew nw ne ew ew ew nw"
+    },
+    "55_12x12": {
+      "id": "55_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/055.a.htm",
+      "solution": "12 12\nse ew sw se ew ew ew ew ew ew ew sw\nne sw ns ne ew sw se ew ew sw se nw\nse nw ns se ew nw ne ew sw ns ne sw\nns se nw ns se ew ew ew nw ne sw ns\nns ne ew nw ne sw se ew ew sw ns ns\nne ew ew sw se nw ne ew sw ne nw ns\nse sw se nw ne ew ew sw ns se ew nw\nns ns ne ew ew sw se nw ne nw se sw\nns ne ew sw se nw ns se ew ew nw ns\nne ew sw ns ne sw ne nw se sw se nw\nse ew nw ne ew nw se sw ns ns ne sw\nne ew ew ew ew ew nw ne nw ne ew nw"
+    },
+    "56_12x12": {
+      "id": "56_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/056.a.htm",
+      "solution": "12 12\nse sw se ew sw se ew ew sw se ew sw\nns ne nw se nw ns se sw ns ne sw ns\nne sw se nw se nw ns ns ne sw ns ns\nse nw ne sw ns se nw ne sw ne nw ns\nne sw se nw ns ns se sw ne sw se nw\nse nw ne sw ns ne nw ne sw ns ne sw\nns se ew nw ns se sw se nw ne ew nw\nns ns se ew nw ns ns ne ew ew ew sw\nns ne nw se sw ns ns se sw se ew nw\nns se ew nw ne nw ns ns ns ns se sw\nns ns se ew ew ew nw ns ns ne nw ns\nne nw ne ew ew ew ew nw ne ew ew nw"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/057.a.htm",
+      "solution": "14 14\nse sw se sw se ew ew sw se ew sw se ew sw\nns ns ns ns ns se ew nw ne sw ns ne sw ns\nns ne nw ns ns ns se ew sw ns ne ew nw ns\nne ew sw ne nw ns ne sw ne nw se sw se nw\nse ew nw se sw ns se nw se sw ns ns ne sw\nne sw se nw ns ne nw se nw ne nw ne sw ns\nse nw ns se nw se sw ne ew ew sw se nw ns\nns se nw ne ew nw ne sw se ew nw ne ew nw\nne nw se sw se ew sw ns ne ew ew sw se sw\nse ew nw ns ne sw ne nw se ew sw ns ns ns\nne ew sw ns se nw se sw ns se nw ns ns ns\nse sw ns ne nw se nw ne nw ns se nw ns ns\nns ne nw se sw ne ew sw se nw ne ew nw ns\nne ew ew nw ne ew ew nw ne ew ew ew ew nw"
+    },
+    "58_14x14": {
+      "id": "58_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/058.a.htm",
+      "solution": "14 14\nse ew ew ew sw se ew ew ew ew sw se ew sw\nne sw se sw ne nw se ew ew sw ns ns se nw\nse nw ns ne ew sw ne ew sw ns ne nw ne sw\nns se nw se sw ns se sw ns ns se ew sw ns\nns ne ew nw ns ne nw ns ns ns ne sw ne nw\nne ew ew ew nw se sw ns ns ne sw ns se sw\nse ew ew ew ew nw ne nw ne sw ne nw ns ns\nns se ew ew ew sw se ew sw ns se ew nw ns\nns ns se ew sw ns ns se nw ns ns se ew nw\nns ne nw se nw ne nw ne sw ne nw ns se sw\nne ew sw ns se ew sw se nw se sw ns ns ns\nse sw ns ns ne sw ne nw se nw ns ne nw ns\nns ne nw ne sw ns se sw ns se nw se sw ns\nne ew ew ew nw ne nw ne nw ne ew nw ne nw"
+    },
+    "59_16x16": {
+      "id": "59_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/059.a.htm",
+      "solution": "16 16\nse sw se sw se ew ew ew sw se ew ew ew ew ew sw\nns ne nw ns ne sw se ew nw ne ew sw se ew sw ns\nne ew sw ns se nw ne sw se sw se nw ns se nw ns\nse sw ns ne nw se ew nw ns ns ne sw ns ne sw ns\nns ne nw se sw ns se sw ns ns se nw ne sw ns ns\nne sw se nw ne nw ns ne nw ne nw se sw ns ne nw\nse nw ne sw se ew nw se ew ew sw ns ne nw se sw\nne sw se nw ne ew ew nw se ew nw ne ew ew nw ns\nse nw ne ew sw se ew ew nw se ew ew ew ew ew nw\nns se ew ew nw ne ew ew sw ne ew ew ew ew ew sw\nns ne ew ew ew sw se ew nw se ew sw se sw se nw\nne ew sw se ew nw ne ew ew nw se nw ns ns ne sw\nse ew nw ns se ew sw se sw se nw se nw ns se nw\nns se sw ns ne sw ns ns ne nw se nw se nw ne sw\nns ns ns ne ew nw ne nw se sw ns se nw se sw ns\nne nw ne ew ew ew ew ew nw ne nw ne ew nw ne nw"
+    },
+    "60_16x16": {
+      "id": "60_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/060.a.htm",
+      "solution": "16 16\nse sw se ew ew ew sw se ew ew ew ew ew ew ew sw\nns ne nw se ew sw ns ns se ew ew ew ew ew ew nw\nns se ew nw se nw ns ns ne sw se sw se ew ew sw\nns ne sw se nw se nw ne sw ns ns ns ne ew sw ns\nns se nw ne ew nw se ew nw ne nw ne ew ew nw ns\nns ne ew ew ew sw ne ew sw se ew sw se ew ew nw\nns se ew ew ew nw se ew nw ns se nw ne ew ew sw\nns ns se ew ew sw ne ew ew nw ne sw se ew sw ns\nns ne nw se sw ne ew sw se sw se nw ne sw ne nw\nne sw se nw ne ew sw ns ns ne nw se ew nw se sw\nse nw ne ew ew sw ns ne nw se ew nw se ew nw ns\nne ew sw se ew nw ns se sw ns se ew nw se ew nw\nse ew nw ne ew sw ne nw ns ne nw se sw ns se sw\nns se ew ew sw ne ew sw ne sw se nw ns ns ns ns\nns ne sw se nw se sw ne sw ns ns se nw ne nw ns\nne ew nw ne ew nw ne ew nw ne nw ne ew ew ew nw"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/061.a.htm",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew ew nw\nse nw se sw ne ew ew sw\nne sw ns ne ew ew sw ns\nse nw ns se ew sw ns ns\nne sw ns ns se nw ns ns\nse nw ne nw ns se nw ns\nne ew ew ew nw ne ew nw"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/062.a.htm",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ns ne ew ew sw ns\nse nw ne ew sw se nw ns\nne ew ew sw ns ne sw ns\nse sw se nw ns se nw ns\nns ns ns se nw ne sw ns\nns ne nw ne ew ew nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/063.a.htm",
+      "solution": "10 10\nse ew ew ew sw se ew ew ew sw\nne sw se sw ne nw se sw se nw\nse nw ns ne ew ew nw ns ne sw\nne sw ne ew ew ew sw ne sw ns\nse nw se ew ew ew nw se nw ns\nne ew nw se ew ew ew nw se nw\nse ew ew nw se ew ew sw ne sw\nns se ew ew nw se sw ne sw ns\nns ne ew ew sw ns ne ew nw ns\nne ew ew ew nw ne ew ew ew nw"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/064.a.htm",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns se sw ne nw se sw se ew nw\nns ns ne ew ew nw ns ne ew sw\nne nw se ew ew sw ne sw se nw\nse ew nw se sw ns se nw ne sw\nns se ew nw ns ns ne ew sw ns\nns ns se sw ns ne ew ew nw ns\nne nw ns ns ne ew ew ew sw ns\nse ew nw ne ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "65_12x12": {
+      "id": "65_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/065.a.htm",
+      "solution": "12 12\nse ew ew ew ew ew sw se sw se ew sw\nns se ew ew ew sw ne nw ns ns se nw\nns ns se sw se nw se sw ne nw ne sw\nne nw ns ns ne ew nw ne sw se sw ns\nse ew nw ne ew ew sw se nw ns ne nw\nne ew ew sw se ew nw ne sw ne ew sw\nse ew ew nw ne ew ew ew nw se sw ns\nne ew ew ew sw se ew sw se nw ne nw\nse sw se ew nw ns se nw ne ew ew sw\nns ne nw se sw ns ne sw se ew sw ns\nns se sw ns ns ne sw ns ns se nw ns\nne nw ne nw ne ew nw ne nw ne ew nw"
+    },
+    "66_12x12": {
+      "id": "66_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/066.a.htm",
+      "solution": "12 12\nse sw se ew ew ew ew ew ew sw se sw\nns ne nw se ew sw se ew sw ne nw ns\nne ew ew nw se nw ns se nw se ew nw\nse sw se sw ns se nw ne sw ne ew sw\nns ns ns ne nw ns se sw ne sw se nw\nns ne nw se ew nw ns ne sw ns ne sw\nne ew sw ne ew ew nw se nw ne ew nw\nse sw ne sw se ew sw ns se ew ew sw\nns ne sw ns ns se nw ns ns se ew nw\nns se nw ns ns ns se nw ns ns se sw\nns ne ew nw ns ns ne ew nw ne nw ns\nne ew ew ew nw ne ew ew ew ew ew nw"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/067.a.htm",
+      "solution": "14 14\nse ew ew ew ew sw se ew sw se sw se ew sw\nne sw se ew ew nw ne sw ne nw ns ns se nw\nse nw ne ew ew ew sw ne ew sw ne nw ne sw\nns se ew ew ew sw ne ew sw ne ew ew sw ns\nns ns se ew sw ne ew sw ns se ew sw ns ns\nns ns ns se nw se sw ns ns ne sw ne nw ns\nne nw ns ne sw ns ne nw ne ew nw se sw ns\nse sw ne sw ns ns se ew ew ew sw ns ns ns\nns ne ew nw ne nw ne sw se sw ne nw ns ns\nne ew ew ew sw se ew nw ns ne sw se nw ns\nse ew ew ew nw ne ew sw ne sw ns ne sw ns\nns se sw se ew sw se nw se nw ne ew nw ns\nns ns ns ne sw ns ns se nw se sw se sw ns\nne nw ne ew nw ne nw ne ew nw ne nw ne nw"
+    },
+    "68_14x14": {
+      "id": "68_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/068.a.htm",
+      "solution": "14 14\nse ew ew sw se ew ew sw se sw se sw se sw\nne ew sw ns ns se sw ne nw ns ns ne nw ns\nse ew nw ne nw ns ne ew ew nw ne ew sw ns\nne ew ew sw se nw se sw se ew ew ew nw ns\nse sw se nw ns se nw ne nw se ew ew ew nw\nns ne nw se nw ne ew ew sw ne ew ew ew sw\nns se sw ne ew ew ew sw ns se ew ew sw ns\nns ns ne ew sw se sw ne nw ns se sw ns ns\nns ne ew sw ne nw ns se ew nw ns ne nw ns\nns se sw ne ew sw ne nw se sw ns se sw ns\nne nw ne ew sw ne ew ew nw ns ne nw ns ns\nse sw se sw ns se ew sw se nw se sw ns ns\nns ne nw ne nw ns se nw ns se nw ne nw ns\nne ew ew ew ew nw ne ew nw ne ew ew ew nw"
+    },
+    "69_16x16": {
+      "id": "69_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/069.a.htm",
+      "solution": "16 16\nse ew ew sw se sw se ew ew sw se sw se sw se sw\nne ew sw ns ns ns ns se sw ns ns ns ns ns ns ns\nse sw ns ns ns ns ne nw ns ne nw ns ns ne nw ns\nns ne nw ne nw ns se sw ne ew sw ne nw se sw ns\nns se ew sw se nw ns ne ew sw ne sw se nw ne nw\nne nw se nw ne ew nw se sw ne ew nw ne ew ew sw\nse ew nw se ew ew ew nw ns se ew ew sw se ew nw\nne sw se nw se sw se ew nw ne ew sw ne nw se sw\nse nw ne sw ns ne nw se sw se ew nw se sw ns ns\nne ew sw ns ne ew ew nw ns ns se sw ns ne nw ns\nse ew nw ne sw se sw se nw ne nw ns ns se ew nw\nne sw se ew nw ns ne nw se ew sw ns ns ns se sw\nse nw ne sw se nw se sw ns se nw ne nw ns ns ns\nne ew sw ns ne sw ns ne nw ns se ew ew nw ns ns\nse ew nw ns se nw ne ew sw ns ne ew ew ew nw ns\nne ew ew nw ne ew ew ew nw ne ew ew ew ew ew nw"
+    },
+    "70_16x16": {
+      "id": "70_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/070.a.htm",
+      "solution": "16 16\nse sw se sw se sw se sw se ew ew sw se ew ew sw\nns ns ns ne nw ne nw ne nw se ew nw ns se ew nw\nns ns ns se ew ew ew ew sw ns se sw ns ne ew sw\nns ne nw ne ew ew ew sw ns ns ns ne nw se ew nw\nne ew sw se ew ew sw ns ns ns ns se sw ns se sw\nse sw ne nw se ew nw ns ns ne nw ns ns ne nw ns\nns ne sw se nw se ew nw ns se ew nw ne ew sw ns\nns se nw ne ew nw se ew nw ns se sw se sw ne nw\nns ne sw se ew ew nw se sw ne nw ne nw ns se sw\nns se nw ne ew ew sw ns ne sw se ew ew nw ns ns\nns ne ew ew ew sw ns ne sw ne nw se ew ew nw ns\nns se ew ew ew nw ns se nw se ew nw se ew ew nw\nns ne ew ew ew ew nw ne ew nw se ew nw se ew sw\nns se ew ew sw se ew sw se ew nw se ew nw se nw\nns ne sw se nw ne sw ns ne ew ew nw se sw ne sw\nne ew nw ne ew ew nw ne ew ew ew ew nw ne ew nw"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/071.a.htm",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se ew nw ns se sw ns\nns ns se ew nw ns ns ns\nns ns ne ew ew nw ns ns\nns ne ew sw se ew nw ns\nne sw se nw ns se ew nw\nse nw ne ew nw ne ew sw\nne ew ew ew ew ew ew nw"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/072.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se sw se ew ew nw\nse nw ns ns ne ew ew sw\nne sw ns ne ew ew sw ns\nse nw ne ew ew sw ns ns\nne sw se ew ew nw ns ns\nse nw ne sw se ew nw ns\nne ew ew nw ne ew ew nw"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/073.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nne ew sw se sw ns ns ne nw ns\nse ew nw ns ns ns ns se sw ns\nns se ew nw ns ns ns ns ns ns\nns ne sw se nw ne nw ns ns ns\nne ew nw ne ew ew ew nw ns ns\nse ew ew ew sw se ew sw ns ns\nne sw se sw ne nw se nw ns ns\nse nw ns ns se sw ne ew nw ns\nne ew nw ne nw ne ew ew ew nw"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/074.a.htm",
+      "solution": "10 10\nse sw se ew ew ew ew sw se sw\nns ns ne sw se ew sw ns ns ns\nns ne ew nw ns se nw ne nw ns\nne ew ew ew nw ne ew ew sw ns\nse ew ew sw se sw se sw ns ns\nne ew sw ne nw ne nw ns ns ns\nse ew nw se sw se sw ns ns ns\nns se ew nw ne nw ne nw ns ns\nns ne ew ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "75_12x12": {
+      "id": "75_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/075.a.htm",
+      "solution": "12 12\nse sw se sw se sw se sw se ew ew sw\nns ne nw ns ns ne nw ns ne ew sw ns\nne ew sw ne nw se sw ne ew ew nw ns\nse ew nw se ew nw ns se ew ew ew nw\nns se ew nw se ew nw ne ew ew ew sw\nns ns se sw ne ew ew ew ew ew sw ns\nns ne nw ne ew sw se sw se sw ne nw\nne sw se ew ew nw ns ne nw ne ew sw\nse nw ne ew sw se nw se ew ew ew nw\nns se sw se nw ne sw ne ew ew ew sw\nns ns ns ne ew ew nw se sw se sw ns\nne nw ne ew ew ew ew nw ne nw ne nw"
+    },
+    "76_12x12": {
+      "id": "76_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/076.a.htm",
+      "solution": "12 12\nse sw se ew sw se ew ew ew ew ew sw\nns ne nw se nw ne sw se ew ew ew nw\nne ew sw ns se sw ns ns se ew ew sw\nse ew nw ne nw ne nw ne nw se ew nw\nns se ew ew sw se ew ew sw ne ew sw\nne nw se sw ne nw se sw ns se sw ns\nse ew nw ne ew sw ns ne nw ns ns ns\nns se ew sw se nw ne sw se nw ns ns\nns ne sw ns ne sw se nw ne sw ns ns\nne sw ns ne ew nw ne sw se nw ns ns\nse nw ne ew ew ew ew nw ns se nw ns\nne ew ew ew ew ew ew ew nw ne ew nw"
+    },
+    "77_14x14": {
+      "id": "77_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/077.a.htm",
+      "solution": "14 14\nse ew sw se ew ew ew ew ew ew ew sw se sw\nne sw ns ne ew ew ew ew sw se sw ns ns ns\nse nw ne ew ew sw se sw ne nw ns ne nw ns\nne ew ew ew sw ns ns ns se sw ne sw se nw\nse sw se sw ns ns ns ns ns ne ew nw ne sw\nns ns ns ns ns ne nw ns ne sw se ew sw ns\nns ne nw ne nw se sw ne ew nw ne sw ns ns\nne sw se ew ew nw ne ew ew ew sw ns ne nw\nse nw ne ew sw se ew sw se sw ns ne ew sw\nne sw se ew nw ns se nw ns ns ns se sw ns\nse nw ne ew ew nw ne ew nw ns ne nw ne nw\nns se sw se sw se sw se ew nw se ew ew sw\nns ns ns ns ns ns ns ne ew ew nw se sw ns\nne nw ne nw ne nw ne ew ew ew ew nw ne nw"
+    },
+    "78_14x14": {
+      "id": "78_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/078.a.htm",
+      "solution": "14 14\nse ew sw se ew ew sw se ew ew ew ew ew sw\nne sw ne nw se sw ns ne sw se sw se sw ns\nse nw se ew nw ne nw se nw ns ns ns ne nw\nns se nw se ew sw se nw se nw ns ne ew sw\nns ne ew nw se nw ne sw ne sw ne ew sw ns\nns se ew ew nw se sw ne sw ns se ew nw ns\nns ns se sw se nw ne ew nw ns ne ew sw ns\nns ne nw ns ns se ew ew ew nw se sw ns ns\nne sw se nw ns ne ew sw se sw ns ns ne nw\nse nw ne sw ns se sw ne nw ne nw ns se sw\nne ew sw ns ne nw ne ew sw se ew nw ns ns\nse sw ns ns se sw se sw ns ns se sw ns ns\nns ne nw ne nw ne nw ne nw ne nw ne nw ns\nne ew ew ew ew ew ew ew ew ew ew ew ew nw"
+    },
+    "79_16x16": {
+      "id": "79_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/079.a.htm",
+      "solution": "16 16\nse sw se ew ew ew sw se ew sw se ew ew sw se sw\nns ns ns se ew sw ns ne sw ns ne ew sw ne nw ns\nns ns ns ne sw ns ns se nw ns se sw ne sw se nw\nns ns ns se nw ns ns ne sw ne nw ns se nw ne sw\nns ns ne nw se nw ne sw ne ew sw ns ns se ew nw\nns ne ew ew nw se ew nw se ew nw ns ns ne ew sw\nns se ew ew sw ne ew ew nw se sw ns ne ew sw ns\nns ns se ew nw se sw se sw ns ns ne ew ew nw ns\nns ns ns se ew nw ne nw ne nw ne ew ew ew ew nw\nns ns ns ne ew sw se sw se sw se ew ew ew ew sw\nns ns ne ew sw ns ns ns ns ns ns se sw se sw ns\nns ne sw se nw ne nw ns ns ne nw ns ne nw ne nw\nne sw ns ne sw se sw ne nw se sw ne ew ew ew sw\nse nw ne sw ne nw ne ew sw ns ns se ew ew sw ns\nns se sw ns se ew ew ew nw ns ns ne ew sw ns ns\nne nw ne nw ne ew ew ew ew nw ne ew ew nw ne nw"
+    },
+    "80_16x16": {
+      "id": "80_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/080.a.htm",
+      "solution": "16 16\nse ew ew ew ew ew sw se ew sw se ew ew ew ew sw\nns se ew ew sw se nw ns se nw ns se ew ew sw ns\nns ns se ew nw ns se nw ne sw ns ns se sw ne nw\nne nw ne ew sw ns ne ew sw ne nw ns ns ne ew sw\nse ew ew sw ns ns se sw ne sw se nw ne ew sw ns\nne sw se nw ns ne nw ns se nw ne ew ew ew nw ns\nse nw ne ew nw se sw ne nw se ew ew sw se sw ns\nne ew ew ew ew nw ne ew sw ne ew sw ne nw ne nw\nse ew sw se ew ew sw se nw se sw ne sw se ew sw\nne sw ns ne ew sw ne nw se nw ne sw ns ns se nw\nse nw ne ew sw ne sw se nw se ew nw ne nw ne sw\nns se ew sw ne sw ns ne sw ne ew ew sw se ew nw\nns ne sw ne ew nw ne sw ne sw se ew nw ne ew sw\nne sw ns se sw se sw ns se nw ne sw se ew sw ns\nse nw ne nw ne nw ne nw ns se ew nw ne sw ns ns\nne ew ew ew ew ew ew ew nw ne ew ew ew nw ne nw"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/081.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew sw se ew sw ns\nns ns se nw ns se nw ns\nns ns ns se nw ns se nw\nns ns ns ns se nw ne sw\nne nw ns ns ne sw se nw\nse ew nw ns se nw ne sw\nne ew ew nw ne ew ew nw"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/082.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne ew ew ew ew sw se nw\nse sw se ew sw ns ne sw\nns ne nw se nw ne sw ns\nns se sw ne ew sw ns ns\nns ns ne ew sw ns ns ns\nns ne ew sw ns ne nw ns\nne ew ew nw ne ew ew nw"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/083.a.htm",
+      "solution": "10 10\nse ew ew sw se sw se ew ew sw\nns se sw ne nw ns ns se sw ns\nns ns ns se sw ns ns ns ns ns\nne nw ne nw ns ns ne nw ns ns\nse ew ew ew nw ne ew sw ns ns\nns se ew ew sw se ew nw ns ns\nns ne ew sw ns ne sw se nw ns\nns se sw ns ne ew nw ns se nw\nns ns ns ne ew ew ew nw ne sw\nne nw ne ew ew ew ew ew ew nw"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/084.a.htm",
+      "solution": "10 10\nse ew ew ew sw se sw se ew sw\nns se ew sw ne nw ne nw se nw\nns ne sw ne ew ew ew sw ne sw\nne sw ns se ew ew ew nw se nw\nse nw ns ne ew ew ew sw ne sw\nns se nw se ew ew sw ne ew nw\nns ns se nw se sw ne ew ew sw\nns ns ns se nw ne ew ew ew nw\nns ne nw ne ew ew ew ew ew sw\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "85_12x12": {
+      "id": "85_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/085.a.htm",
+      "solution": "12 12\nse sw se sw se ew ew sw se ew ew sw\nns ns ns ns ns se sw ns ns se sw ns\nns ns ns ne nw ns ns ns ne nw ns ns\nns ne nw se ew nw ns ne sw se nw ns\nne ew sw ns se sw ne ew nw ne sw ns\nse ew nw ns ns ns se ew ew sw ns ns\nns se sw ne nw ns ns se sw ns ns ns\nne nw ne sw se nw ne nw ns ne nw ns\nse ew ew nw ns se ew ew nw se sw ns\nns se ew sw ne nw se ew sw ns ns ns\nns ne sw ns se sw ne sw ns ns ns ns\nne ew nw ne nw ne ew nw ne nw ne nw"
+    },
+    "86_12x12": {
+      "id": "86_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/086.a.htm",
+      "solution": "12 12\nse sw se sw se ew ew ew ew ew ew sw\nns ns ns ne nw se ew sw se ew sw ns\nns ne nw se ew nw se nw ne sw ns ns\nns se ew nw se sw ne sw se nw ns ns\nns ne sw se nw ne ew nw ne sw ns ns\nns se nw ne ew ew ew sw se nw ns ns\nns ne sw se ew ew sw ns ns se nw ns\nne ew nw ne ew sw ns ne nw ne sw ns\nse ew sw se ew nw ne ew ew ew nw ns\nne sw ns ns se sw se sw se sw se nw\nse nw ne nw ns ns ns ns ns ns ne sw\nne ew ew ew nw ne nw ne nw ne ew nw"
+    },
+    "87_14x14": {
+      "id": "87_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/087.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew ew sw se ew ew ew ew sw\nne ew ew sw se sw se nw ne ew sw se sw ns\nse ew ew nw ns ns ns se ew sw ns ns ns ns\nns se ew ew nw ns ns ne sw ns ns ns ne nw\nns ns se ew ew nw ne sw ns ne nw ne ew sw\nns ns ns se sw se sw ns ne ew sw se sw ns\nne nw ne nw ne nw ns ns se ew nw ns ne nw\nse ew ew ew ew ew nw ne nw se ew nw se sw\nne sw se ew ew ew sw se ew nw se ew nw ns\nse nw ne sw se sw ne nw se ew nw se ew nw\nns se sw ns ns ne sw se nw se sw ns se sw\nne nw ns ne nw se nw ns se nw ns ne nw ns\nse ew nw se sw ne ew nw ns se nw se sw ns\nne ew ew nw ne ew ew ew nw ne ew nw ne nw"
+    },
+    "88_14x14": {
+      "id": "88_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/088.a.htm",
+      "solution": "14 14\nse sw se ew ew ew ew ew ew sw se sw se sw\nns ne nw se ew ew sw se sw ns ns ns ns ns\nne sw se nw se ew nw ns ns ne nw ns ns ns\nse nw ne sw ns se ew nw ns se sw ne nw ns\nne ew ew nw ne nw se ew nw ns ne sw se nw\nse ew ew ew ew ew nw se sw ne sw ns ne sw\nns se sw se ew ew ew nw ns se nw ne ew nw\nns ns ne nw se sw se sw ns ne ew sw se sw\nns ns se ew nw ne nw ne nw se sw ns ns ns\nns ns ne sw se sw se sw se nw ns ns ns ns\nns ne sw ne nw ns ns ns ne sw ns ne nw ns\nne sw ne ew sw ne nw ne sw ns ne ew sw ns\nse nw se sw ne ew sw se nw ns se ew nw ns\nne ew nw ne ew ew nw ne ew nw ne ew ew nw"
+    },
+    "89_16x16": {
+      "id": "89_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/089.a.htm",
+      "solution": "16 16\nse ew ew sw se sw se ew sw se ew ew sw se ew sw\nns se ew nw ns ns ne sw ns ne sw se nw ne sw ns\nns ns se ew nw ns se nw ne ew nw ne ew ew nw ns\nns ne nw se ew nw ne sw se sw se ew sw se sw ns\nne sw se nw se ew sw ns ns ns ne sw ne nw ns ns\nse nw ne ew nw se nw ns ns ne sw ne ew sw ns ns\nns se sw se sw ne ew nw ne sw ns se sw ns ns ns\nns ns ne nw ns se ew ew sw ns ne nw ne nw ns ns\nns ns se sw ns ne ew sw ns ne ew sw se sw ns ns\nns ns ns ns ne sw se nw ne sw se nw ns ns ns ns\nne nw ns ne ew nw ne sw se nw ns se nw ne nw ns\nse ew nw se ew ew ew nw ns se nw ne ew ew sw ns\nne ew sw ne ew sw se ew nw ns se ew ew ew nw ns\nse sw ns se sw ns ns se ew nw ns se ew sw se nw\nns ne nw ns ns ns ns ne ew sw ns ns se nw ne sw\nne ew ew nw ne nw ne ew ew nw ne nw ne ew ew nw"
+    },
+    "90_16x16": {
+      "id": "90_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/090.a.htm",
+      "solution": "16 16\nse sw se sw se ew sw se sw se ew sw se ew ew sw\nns ns ns ns ns se nw ns ns ne sw ns ne sw se nw\nns ne nw ne nw ne ew nw ne sw ns ne ew nw ne sw\nne ew ew ew ew ew ew ew sw ns ne sw se sw se nw\nse ew ew ew ew sw se ew nw ne ew nw ns ns ne sw\nne ew sw se sw ns ns se ew ew ew sw ns ne sw ns\nse ew nw ns ns ne nw ne sw se sw ns ne sw ne nw\nne ew sw ns ne ew sw se nw ns ns ne sw ne ew sw\nse ew nw ne ew sw ns ns se nw ne sw ne sw se nw\nne sw se ew ew nw ne nw ne sw se nw se nw ne sw\nse nw ne ew sw se ew ew ew nw ne ew nw se ew nw\nne sw se ew nw ns se ew ew ew ew ew sw ne ew sw\nse nw ns se sw ne nw se ew sw se ew nw se sw ns\nne sw ns ns ne ew sw ne sw ns ns se ew nw ns ns\nse nw ne nw se sw ne sw ns ne nw ne sw se nw ns\nne ew ew ew nw ne ew nw ne ew ew ew nw ne ew nw"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/091.a.htm",
+      "solution": "8 8\nse sw se ew ew sw se sw\nns ns ns se sw ne nw ns\nns ne nw ns ne ew ew nw\nne sw se nw se ew ew sw\nse nw ne sw ns se sw ns\nne ew sw ns ne nw ns ns\nse ew nw ne ew ew nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/092.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se sw se ew ew sw ns\nne nw ns ns se sw ns ns\nse ew nw ns ns ne nw ns\nns se sw ns ns se ew nw\nns ns ne nw ns ne ew sw\nns ne ew sw ns se sw ns\nne ew ew nw ne nw ne nw"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/093.a.htm",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns se sw ne nw se ew ew ew nw\nne nw ne ew sw ns se ew ew sw\nse ew ew ew nw ns ns se ew nw\nne sw se ew sw ns ns ne ew sw\nse nw ne sw ne nw ne ew sw ns\nns se sw ne ew ew ew sw ns ns\nns ns ne ew ew ew sw ns ns ns\nns ne ew ew ew sw ns ne nw ns\nne ew ew ew ew nw ne ew ew nw"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/094.a.htm",
+      "solution": "10 10\nse sw se sw se sw se ew ew sw\nns ne nw ne nw ne nw se ew nw\nne sw se ew ew sw se nw se sw\nse nw ns se ew nw ne sw ns ns\nne sw ns ne ew sw se nw ns ns\nse nw ne sw se nw ns se nw ns\nns se sw ns ns se nw ns se nw\nns ns ns ns ne nw se nw ne sw\nns ns ns ne ew ew nw se sw ns\nne nw ne ew ew ew ew nw ne nw"
+    },
+    "95_12x12": {
+      "id": "95_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/095.a.htm",
+      "solution": "12 12\nse ew ew sw se ew ew sw se ew ew sw\nns se sw ne nw se sw ns ns se ew nw\nne nw ns se sw ns ns ns ns ne ew sw\nse ew nw ns ns ns ne nw ne sw se nw\nne ew sw ns ne nw se sw se nw ne sw\nse ew nw ne ew sw ns ns ns se ew nw\nns se sw se sw ne nw ne nw ne ew sw\nns ns ne nw ne sw se sw se ew sw ns\nns ns se ew sw ns ns ne nw se nw ns\nne nw ne sw ns ne nw se ew nw se nw\nse ew ew nw ne ew ew nw se sw ne sw\nne ew ew ew ew ew ew ew nw ne ew nw"
+    },
+    "96_12x12": {
+      "id": "96_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/096.a.htm",
+      "solution": "12 12\nse sw se ew sw se ew ew ew ew ew sw\nns ne nw se nw ns se sw se sw se nw\nne sw se nw se nw ns ns ns ns ne sw\nse nw ne ew nw se nw ne nw ne sw ns\nns se ew ew sw ns se ew ew sw ns ns\nns ne ew sw ne nw ns se sw ne nw ns\nns se sw ne ew sw ne nw ne ew ew nw\nns ns ne sw se nw se ew ew ew ew sw\nns ne sw ns ne sw ns se sw se sw ns\nns se nw ne sw ne nw ns ne nw ne nw\nns ne sw se nw se sw ne ew ew ew sw\nne ew nw ne ew nw ne ew ew ew ew nw"
+    },
+    "97_14x14": {
+      "id": "97_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/097.a.htm",
+      "solution": "14 14\nse ew ew ew ew sw se ew sw se ew ew ew sw\nns se ew ew sw ne nw se nw ns se sw se nw\nne nw se sw ns se sw ne sw ne nw ns ne sw\nse ew nw ne nw ns ne sw ns se sw ns se nw\nns se ew ew sw ne sw ns ne nw ne nw ne sw\nne nw se ew nw se nw ne sw se sw se sw ns\nse ew nw se sw ne ew sw ne nw ne nw ns ns\nne ew sw ns ne ew sw ne ew ew ew sw ne nw\nse ew nw ns se sw ne ew sw se sw ne ew sw\nne sw se nw ns ne sw se nw ns ne sw se nw\nse nw ne sw ne sw ns ne sw ns se nw ne sw\nns se sw ne ew nw ne sw ns ns ne sw se nw\nns ns ns se sw se sw ns ns ns se nw ne sw\nne nw ne nw ne nw ne nw ne nw ne ew ew nw"
+    },
+    "98_14x14": {
+      "id": "98_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/098.a.htm",
+      "solution": "14 14\nse ew ew ew sw se ew sw se ew ew ew ew sw\nns se sw se nw ns se nw ns se ew ew sw ns\nns ns ns ns se nw ns se nw ne ew sw ne nw\nne nw ns ns ne sw ne nw se ew sw ne ew sw\nse ew nw ne ew nw se sw ne sw ne ew sw ns\nne ew sw se sw se nw ne sw ne ew sw ne nw\nse sw ne nw ns ns se sw ne ew sw ne ew sw\nns ne ew sw ne nw ns ns se sw ne sw se nw\nne ew sw ne ew ew nw ne nw ns se nw ne sw\nse sw ne ew ew ew ew ew sw ns ns se ew nw\nns ne ew ew ew ew sw se nw ne nw ne ew sw\nns se sw se ew sw ns ne ew ew sw se sw ns\nns ns ns ne sw ns ne ew ew ew nw ns ns ns\nne nw ne ew nw ne ew ew ew ew ew nw ne nw"
+    },
+    "99_16x16": {
+      "id": "99_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/099.a.htm",
+      "solution": "16 16\nse ew ew ew sw se sw se sw se sw se sw se ew sw\nns se ew sw ne nw ne nw ns ns ns ns ns ns se nw\nns ns se nw se ew ew ew nw ns ne nw ne nw ne sw\nne nw ns se nw se ew ew sw ns se ew sw se sw ns\nse ew nw ns se nw se ew nw ns ne sw ns ns ne nw\nns se sw ne nw se nw se sw ns se nw ne nw se sw\nne nw ne ew sw ns se nw ne nw ne sw se sw ns ns\nse ew ew ew nw ne nw se ew ew sw ns ns ne nw ns\nne ew ew sw se ew sw ns se sw ns ne nw se ew nw\nse ew ew nw ne sw ne nw ns ne nw se sw ns se sw\nne ew sw se sw ne sw se nw se ew nw ne nw ns ns\nse sw ne nw ne sw ns ne sw ns se ew ew ew nw ns\nns ne ew ew sw ns ne sw ns ne nw se sw se ew nw\nne sw se sw ns ns se nw ne sw se nw ne nw se sw\nse nw ns ns ne nw ns se ew nw ne ew ew ew nw ns\nne ew nw ne ew ew nw ne ew ew ew ew ew ew ew nw"
+    },
+    "100_16x16": {
+      "id": "100_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/100.a.htm",
+      "solution": "16 16\nse ew sw se sw se ew sw se ew ew ew sw se ew sw\nne sw ne nw ns ne sw ne nw se ew sw ne nw se nw\nse nw se sw ns se nw se sw ne sw ne ew sw ne sw\nns se nw ns ne nw se nw ne sw ne ew sw ne ew nw\nne nw se nw se sw ns se sw ns se sw ne ew ew sw\nse ew nw se nw ne nw ns ns ns ns ne ew ew ew nw\nne ew ew nw se ew ew nw ne nw ne ew ew ew ew sw\nse ew ew ew nw se sw se ew ew ew sw se ew ew nw\nns se sw se ew nw ne nw se ew ew nw ns se ew sw\nns ns ns ne ew sw se ew nw se ew ew nw ns se nw\nne nw ns se sw ns ns se sw ne ew ew ew nw ne sw\nse sw ne nw ns ns ns ns ne ew ew sw se ew sw ns\nns ne ew ew nw ns ne nw se ew sw ns ns se nw ns\nns se ew ew sw ne ew sw ns se nw ns ns ns se nw\nns ne sw se nw se sw ne nw ne sw ns ns ns ne sw\nne ew nw ne ew nw ne ew ew ew nw ne nw ne ew nw"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/101.a.htm",
+      "solution": "8 8\nse sw se ew sw se ew sw\nns ne nw se nw ne sw ns\nns se sw ne ew sw ns ns\nns ns ne ew sw ns ns ns\nns ns se ew nw ns ns ns\nns ns ns se ew nw ns ns\nns ns ns ne ew ew nw ns\nne nw ne ew ew ew ew nw"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/102.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew ew ew ew nw\nns ne ew ew ew ew ew sw\nns se ew ew ew ew sw ns\nns ns se ew ew ew nw ns\nns ns ns se ew ew sw ns\nns ns ns ne ew sw ns ns\nne nw ne ew ew nw ne nw"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/103.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne sw se ew ew ew ew sw se nw\nse nw ns se ew ew sw ns ne sw\nne sw ns ns se ew nw ne sw ns\nse nw ns ns ne ew ew sw ns ns\nne sw ns ne ew ew sw ns ne nw\nse nw ne sw se ew nw ne ew sw\nne ew sw ne nw se ew sw se nw\nse ew nw se sw ns se nw ne sw\nne ew ew nw ne nw ne ew ew nw"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/104.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nne ew sw se ew sw ns ne sw ns\nse ew nw ns se nw ns se nw ns\nns se ew nw ne sw ns ne sw ns\nns ns se ew ew nw ne sw ns ns\nns ns ne ew ew ew sw ns ns ns\nns ns se sw se sw ns ne nw ns\nns ns ns ns ns ns ne sw se nw\nns ne nw ns ns ne ew nw ne sw\nne ew ew nw ne ew ew ew ew nw"
+    },
+    "105_12x12": {
+      "id": "105_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/105.a.htm",
+      "solution": "12 12\nse ew sw se ew ew sw se ew sw se sw\nns se nw ne sw se nw ne sw ne nw ns\nns ne ew ew nw ne ew sw ne ew sw ns\nne ew ew sw se ew sw ne sw se nw ns\nse sw se nw ns se nw se nw ns se nw\nns ns ne sw ns ne ew nw se nw ne sw\nns ne ew nw ne ew ew ew nw se ew nw\nne ew ew ew sw se ew sw se nw se sw\nse ew ew sw ns ne sw ne nw se nw ns\nns se sw ns ne sw ns se ew nw se nw\nns ns ns ne ew nw ne nw se sw ne sw\nne nw ne ew ew ew ew ew nw ne ew nw"
+    },
+    "106_12x12": {
+      "id": "106_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/106.a.htm",
+      "solution": "12 12\nse ew ew ew ew ew sw se ew sw se sw\nne ew sw se sw se nw ne sw ns ns ns\nse ew nw ns ns ns se sw ns ne nw ns\nns se ew nw ne nw ns ns ne ew sw ns\nns ns se ew sw se nw ne ew sw ns ns\nns ns ne sw ne nw se sw se nw ns ns\nns ne ew nw se sw ns ne nw se nw ns\nne ew sw se nw ns ns se sw ne sw ns\nse sw ns ns se nw ns ns ns se nw ns\nns ns ns ns ne sw ns ns ns ns se nw\nns ne nw ne sw ns ne nw ne nw ne sw\nne ew ew ew nw ne ew ew ew ew ew nw"
+    },
+    "107_14x14": {
+      "id": "107_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/107.a.htm",
+      "solution": "14 14\nse sw se ew ew sw se ew ew ew ew ew ew sw\nns ne nw se sw ne nw se ew ew ew sw se nw\nne sw se nw ne ew sw ns se sw se nw ne sw\nse nw ns se sw se nw ns ns ns ne sw se nw\nns se nw ns ns ns se nw ns ne sw ns ne sw\nns ne sw ns ne nw ne sw ns se nw ne sw ns\nne ew nw ne sw se sw ne nw ns se sw ns ns\nse sw se sw ne nw ne ew ew nw ns ne nw ns\nns ne nw ne ew ew sw se sw se nw se sw ns\nns se ew sw se sw ns ns ne nw se nw ns ns\nns ns se nw ns ns ne nw se ew nw se nw ns\nns ns ne ew nw ne sw se nw se ew nw se nw\nns ne ew sw se ew nw ne sw ns se sw ne sw\nne ew ew nw ne ew ew ew nw ne nw ne ew nw"
+    },
+    "108_14x14": {
+      "id": "108_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/108.a.htm",
+      "solution": "14 14\nse sw se ew sw se ew ew sw se sw se ew sw\nns ns ns se nw ne ew sw ns ns ne nw se nw\nns ns ns ns se ew ew nw ne nw se sw ne sw\nns ne nw ne nw se ew ew ew sw ns ne sw ns\nne ew ew ew sw ns se ew sw ns ne sw ne nw\nse ew ew sw ns ns ns se nw ne sw ns se sw\nns se ew nw ns ne nw ne ew sw ns ne nw ns\nns ns se sw ns se ew ew sw ns ne ew sw ns\nns ne nw ne nw ne ew sw ne nw se ew nw ns\nns se ew ew sw se ew nw se ew nw se ew nw\nns ne ew sw ns ne sw se nw se ew nw se sw\nns se ew nw ne sw ns ne ew nw se sw ns ns\nns ne ew ew sw ns ne ew ew ew nw ne nw ns\nne ew ew ew nw ne ew ew ew ew ew ew ew nw"
+    },
+    "109_16x16": {
+      "id": "109_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/109.a.htm",
+      "solution": "16 16\nse ew ew sw se ew sw se ew ew sw se ew ew ew sw\nne sw se nw ns se nw ne ew sw ns ns se ew ew nw\nse nw ne ew nw ns se sw se nw ne nw ne ew ew sw\nne sw se ew sw ne nw ne nw se ew ew ew sw se nw\nse nw ns se nw se sw se sw ns se ew ew nw ne sw\nns se nw ns se nw ns ns ns ns ne ew sw se sw ns\nne nw se nw ns se nw ns ns ns se sw ns ns ns ns\nse ew nw se nw ne sw ns ne nw ns ns ns ns ne nw\nne sw se nw se sw ne nw se ew nw ns ns ne ew sw\nse nw ne ew nw ne ew sw ne ew sw ns ne ew sw ns\nne ew ew ew ew sw se nw se ew nw ns se ew nw ns\nse ew sw se ew nw ne ew nw se sw ns ns se ew nw\nne sw ns ne ew ew sw se sw ns ns ns ne nw se sw\nse nw ne ew ew sw ns ns ne nw ne nw se ew nw ns\nns se sw se sw ne nw ne ew ew ew ew nw se sw ns\nne nw ne nw ne ew ew ew ew ew ew ew ew nw ne nw"
+    },
+    "110_16x16": {
+      "id": "110_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/110.a.htm",
+      "solution": "16 16\nse sw se sw se ew ew sw se ew ew sw se ew ew sw\nns ne nw ns ne ew sw ne nw se sw ns ne sw se nw\nns se sw ns se ew nw se sw ns ns ne sw ns ne sw\nne nw ns ne nw se ew nw ns ns ne sw ns ns se nw\nse sw ne sw se nw se sw ns ne sw ns ne nw ne sw\nns ne ew nw ne ew nw ns ne ew nw ns se ew sw ns\nne sw se ew ew ew ew nw se ew sw ns ne sw ne nw\nse nw ns se ew ew ew ew nw se nw ne sw ne ew sw\nns se nw ne ew ew sw se sw ns se sw ne ew sw ns\nns ne ew ew ew sw ne nw ns ne nw ns se ew nw ns\nns se ew ew sw ne sw se nw se ew nw ne ew ew nw\nns ns se sw ne sw ne nw se nw se ew ew ew ew sw\nns ne nw ne sw ns se sw ns se nw se sw se ew nw\nne sw se sw ns ns ns ns ne nw se nw ns ns se sw\nse nw ns ns ns ns ns ns se sw ns se nw ne nw ns\nne ew nw ne nw ne nw ne nw ne nw ne ew ew ew nw"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/111.a.htm",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ns ns se ew ew sw ns\nns ne nw ns se sw ns ns\nne sw se nw ns ns ns ns\nse nw ns se nw ns ns ns\nns se nw ns se nw ns ns\nns ne sw ns ne ew nw ns\nne ew nw ne ew ew ew nw"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/112.a.htm",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ns ns se sw se ew nw\nns ns ns ns ns ne ew sw\nns ns ns ns ne ew sw ns\nns ne nw ns se sw ne nw\nne sw se nw ns ne ew sw\nse nw ne ew nw se sw ns\nne ew ew ew ew nw ne nw"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/113.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew ew ew ew sw ns\nns ne ew sw se ew sw se nw ns\nne ew sw ns ne sw ns ns se nw\nse sw ns ne sw ns ne nw ne sw\nns ns ne ew nw ns se ew ew nw\nns ne sw se sw ns ne ew ew sw\nne sw ne nw ns ne ew ew sw ns\nse nw se sw ne ew ew ew nw ns\nne ew nw ne ew ew ew ew ew nw"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/114.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne ew ew ew ew ew ew ew sw ns\nse ew ew ew ew ew ew ew nw ns\nns se ew ew ew ew ew ew sw ns\nns ns se ew ew ew ew ew nw ns\nns ns ns se ew sw se ew ew nw\nns ns ne nw se nw ns se ew sw\nns ne ew sw ne ew nw ne sw ns\nns se sw ne ew ew ew ew nw ns\nne nw ne ew ew ew ew ew ew nw"
+    },
+    "115_12x12": {
+      "id": "115_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/115.a.htm",
+      "solution": "12 12\nse sw se ew ew ew ew sw se sw se sw\nns ne nw se ew ew sw ns ns ns ns ns\nne sw se nw se sw ns ns ns ne nw ns\nse nw ne ew nw ns ne nw ns se sw ns\nns se ew ew ew nw se ew nw ns ne nw\nns ne ew sw se sw ns se sw ne ew sw\nns se sw ne nw ne nw ns ne ew sw ns\nns ns ne sw se ew ew nw se ew nw ns\nns ne sw ns ns se ew ew nw se ew nw\nne sw ns ns ns ns se sw se nw se sw\nse nw ns ns ns ns ns ns ne ew nw ns\nne ew nw ne nw ne nw ne ew ew ew nw"
+    },
+    "116_12x12": {
+      "id": "116_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/116.a.htm",
+      "solution": "12 12\nse ew sw se sw se ew ew sw se ew sw\nne sw ns ns ne nw se ew nw ne sw ns\nse nw ne nw se sw ne sw se sw ns ns\nns se ew ew nw ne sw ne nw ne nw ns\nns ns se ew ew ew nw se ew ew sw ns\nns ns ns se ew ew sw ne ew sw ne nw\nns ns ne nw se ew nw se sw ne ew sw\nns ne sw se nw se ew nw ne ew ew nw\nne ew nw ns se nw se ew ew ew ew sw\nse sw se nw ne sw ne sw se sw se nw\nns ne nw se sw ne ew nw ns ns ne sw\nne ew ew nw ne ew ew ew nw ne ew nw"
+    },
+    "117_14x14": {
+      "id": "117_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/117.a.htm",
+      "solution": "14 14\nse sw se ew sw se sw se ew sw se sw se sw\nns ns ns se nw ns ns ne sw ne nw ns ns ns\nns ne nw ns se nw ne sw ns se ew nw ns ns\nns se ew nw ns se ew nw ns ne ew ew nw ns\nns ne sw se nw ne sw se nw se ew ew sw ns\nne sw ne nw se sw ns ne sw ne ew sw ne nw\nse nw se ew nw ns ne ew nw se sw ne ew sw\nns se nw se sw ns se ew ew nw ne ew sw ns\nns ns se nw ns ne nw se ew sw se ew nw ns\nns ns ne sw ne ew sw ne sw ne nw se ew nw\nns ne sw ns se sw ne ew nw se sw ne ew sw\nne sw ns ns ns ne sw se ew nw ne sw se nw\nse nw ns ns ne sw ns ne ew sw se nw ne sw\nne ew nw ne ew nw ne ew ew nw ne ew ew nw"
+    },
+    "118_14x14": {
+      "id": "118_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/118.a.htm",
+      "solution": "14 14\nse ew ew sw se ew ew ew ew ew ew ew ew sw\nne sw se nw ns se sw se ew ew ew sw se nw\nse nw ne ew nw ns ne nw se sw se nw ne sw\nns se ew sw se nw se ew nw ns ne ew sw ns\nne nw se nw ne ew nw se sw ne ew sw ns ns\nse sw ns se sw se sw ns ns se ew nw ne nw\nns ns ne nw ns ns ne nw ns ne ew ew ew sw\nns ne sw se nw ns se sw ne sw se ew ew nw\nne sw ns ns se nw ns ne sw ns ne ew ew sw\nse nw ne nw ne sw ne sw ne nw se ew sw ns\nns se sw se sw ns se nw se sw ns se nw ns\nns ns ns ns ns ns ne sw ns ne nw ns se nw\nns ns ns ns ns ns se nw ne ew sw ns ne sw\nne nw ne nw ne nw ne ew ew ew nw ne ew nw"
+    },
+    "119_16x16": {
+      "id": "119_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/119.a.htm",
+      "solution": "16 16\nse sw se sw se ew ew ew ew ew sw se ew sw se sw\nns ns ns ns ns se ew ew ew sw ne nw se nw ns ns\nns ne nw ns ns ns se ew sw ns se sw ne ew nw ns\nne ew sw ne nw ns ns se nw ns ns ne ew ew sw ns\nse ew nw se sw ns ns ns se nw ne ew sw se nw ns\nne sw se nw ns ne nw ns ne sw se sw ns ne ew nw\nse nw ne sw ns se ew nw se nw ns ns ne ew ew sw\nne ew sw ns ns ne ew sw ne ew nw ne ew ew sw ns\nse sw ne nw ne ew sw ne ew ew ew sw se sw ns ns\nns ne ew ew ew sw ns se ew sw se nw ns ns ns ns\nns se ew ew sw ne nw ne sw ns ns se nw ns ns ns\nns ne sw se nw se ew sw ns ne nw ns se nw ns ns\nne sw ns ne sw ne sw ns ne sw se nw ns se nw ns\nse nw ne sw ne ew nw ne sw ne nw se nw ns se nw\nns se sw ne sw se ew ew nw se sw ns se nw ne sw\nne nw ne ew nw ne ew ew ew nw ne nw ne ew ew nw"
+    },
+    "120_16x16": {
+      "id": "120_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/120.a.htm",
+      "solution": "16 16\nse ew ew ew ew ew sw se ew ew ew ew ew sw se sw\nne ew sw se ew sw ns ns se ew ew ew sw ns ns ns\nse ew nw ne sw ns ns ne nw se sw se nw ne nw ns\nne ew sw se nw ne nw se sw ns ne nw se sw se nw\nse sw ns ne ew sw se nw ne nw se ew nw ns ne sw\nns ne nw se ew nw ns se ew sw ne ew sw ne sw ns\nne sw se nw se ew nw ns se nw se sw ne sw ns ns\nse nw ne sw ne sw se nw ne ew nw ns se nw ns ns\nne ew sw ne ew nw ne sw se sw se nw ne sw ne nw\nse sw ne ew ew ew sw ns ns ne nw se sw ns se sw\nns ne ew ew ew sw ns ns ns se ew nw ns ns ns ns\nne ew ew ew sw ne nw ns ne nw se ew nw ne nw ns\nse ew ew sw ne ew sw ne sw se nw se ew sw se nw\nne ew sw ne ew sw ne sw ns ns se nw se nw ne sw\nse ew nw se sw ne ew nw ns ns ns se nw se sw ns\nne ew ew nw ne ew ew ew nw ne nw ne ew nw ne nw"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/121.a.htm",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se sw se sw ns\nns se sw ns ns ns ns ns\nne nw ne nw ns ns ne nw\nse ew ew sw ns ne ew sw\nne sw se nw ne ew sw ns\nse nw ne ew ew ew nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/122.a.htm",
+      "solution": "8 8\nse ew ew ew sw se ew sw\nns se ew sw ns ne sw ns\nns ns se nw ns se nw ns\nne nw ns se nw ns se nw\nse ew nw ns se nw ne sw\nns se ew nw ne ew sw ns\nns ne ew ew ew ew nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/123.a.htm",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se sw se ew ew sw ns\nns ns ns ns ns ne ew sw ns ns\nns ns ns ns ne ew sw ns ne nw\nns ns ns ne ew sw ns ne ew sw\nns ns ne ew sw ns ne ew sw ns\nns ne sw se nw ns se sw ne nw\nne sw ns ns se nw ns ns se sw\nse nw ne nw ne ew nw ne nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/124.a.htm",
+      "solution": "10 10\nse ew ew sw se ew ew sw se sw\nns se sw ne nw se sw ne nw ns\nns ns ne ew ew nw ne ew sw ns\nns ne ew sw se ew ew sw ns ns\nns se sw ns ns se sw ns ns ns\nns ns ns ns ne nw ns ne nw ns\nns ns ns ne ew sw ne ew sw ns\nns ns ne sw se nw se sw ns ns\nns ne sw ns ne ew nw ns ns ns\nne ew nw ne ew ew ew nw ne nw"
+    },
+    "125_12x12": {
+      "id": "125_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/125.a.htm",
+      "solution": "12 12\nse ew ew ew sw se ew ew ew sw se sw\nns se ew ew nw ne sw se sw ne nw ns\nns ne sw se ew ew nw ns ne ew sw ns\nns se nw ns se ew sw ne ew sw ne nw\nns ns se nw ne sw ns se sw ne ew sw\nns ns ns se sw ns ne nw ne ew sw ns\nns ne nw ns ns ne sw se ew ew nw ns\nne ew ew nw ne ew nw ne sw se ew nw\nse ew ew ew sw se sw se nw ns se sw\nns se ew sw ne nw ns ne sw ne nw ns\nns ne sw ns se sw ne ew nw se sw ns\nne ew nw ne nw ne ew ew ew nw ne nw"
+    },
+    "126_12x12": {
+      "id": "126_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/126.a.htm",
+      "solution": "12 12\nse ew ew ew ew ew ew ew sw se ew sw\nns se ew sw se sw se sw ne nw se nw\nne nw se nw ns ne nw ne ew sw ne sw\nse ew nw se nw se ew ew sw ne ew nw\nns se ew nw se nw se sw ne ew ew sw\nns ns se sw ns se nw ne ew ew ew nw\nns ne nw ne nw ns se ew ew ew ew sw\nne ew ew ew sw ne nw se sw se ew nw\nse ew ew sw ns se ew nw ns ne ew sw\nns se sw ns ns ns se sw ns se sw ns\nns ns ns ne nw ne nw ns ns ns ns ns\nne nw ne ew ew ew ew nw ne nw ne nw"
+    },
+    "127_14x14": {
+      "id": "127_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/127.a.htm",
+      "solution": "14 14\nse sw se ew ew sw se sw se sw se sw se sw\nns ne nw se sw ne nw ne nw ne nw ns ns ns\nne ew sw ns ns se ew ew sw se sw ns ns ns\nse ew nw ns ne nw se ew nw ns ns ne nw ns\nne sw se nw se ew nw se sw ns ne ew sw ns\nse nw ns se nw se ew nw ns ne ew sw ns ns\nne ew nw ne ew nw se sw ne ew ew nw ns ns\nse ew ew ew ew sw ns ne ew ew ew ew nw ns\nne ew sw se sw ne nw se ew ew sw se ew nw\nse sw ne nw ne sw se nw se ew nw ns se sw\nns ne ew ew sw ne nw se nw se ew nw ns ns\nne sw se ew nw se sw ns se nw se ew nw ns\nse nw ne ew ew nw ne nw ne ew nw se sw ns\nne ew ew ew ew ew ew ew ew ew ew nw ne nw"
+    },
+    "128_14x14": {
+      "id": "128_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/128.a.htm",
+      "solution": "14 14\nse ew ew ew sw se ew ew sw se sw se ew sw\nns se sw se nw ns se sw ne nw ne nw se nw\nns ns ne nw se nw ns ne ew sw se sw ne sw\nns ne ew sw ne sw ne ew sw ne nw ns se nw\nns se ew nw se nw se sw ns se ew nw ne sw\nns ne ew ew nw se nw ne nw ne ew ew sw ns\nns se sw se ew nw se sw se ew ew ew nw ns\nns ns ne nw se ew nw ns ns se ew ew sw ns\nns ne ew sw ne ew sw ns ne nw se ew nw ns\nne ew sw ne ew sw ns ne sw se nw se sw ns\nse sw ns se ew nw ns se nw ns se nw ne nw\nns ne nw ns se sw ns ns se nw ne ew ew sw\nns se sw ns ns ne nw ne nw se sw se sw ns\nne nw ne nw ne ew ew ew ew nw ne nw ne nw"
+    },
+    "129_16x16": {
+      "id": "129_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/129.a.htm",
+      "solution": "16 16\nse ew sw se sw se sw se ew ew sw se ew sw se sw\nns se nw ns ns ns ns ns se ew nw ne sw ne nw ns\nns ns se nw ns ns ns ns ne ew ew sw ns se sw ns\nns ns ne sw ns ns ns ns se ew sw ne nw ns ns ns\nns ne ew nw ne nw ne nw ns se nw se sw ns ne nw\nne ew sw se ew sw se ew nw ne sw ns ne nw se sw\nse ew nw ns se nw ns se ew sw ns ne ew ew nw ns\nns se ew nw ns se nw ne sw ns ns se sw se sw ns\nns ne ew sw ns ne sw se nw ns ne nw ns ns ne nw\nns se ew nw ne sw ns ne sw ne ew sw ns ne ew sw\nns ne sw se ew nw ns se nw se sw ne nw se sw ns\nns se nw ne ew sw ns ne ew nw ns se ew nw ns ns\nns ne ew ew sw ns ne ew sw se nw ns se sw ne nw\nne ew sw se nw ne sw se nw ne sw ne nw ns se sw\nse ew nw ne ew sw ns ns se ew nw se sw ne nw ns\nne ew ew ew ew nw ne nw ne ew ew nw ne ew ew nw"
+    },
+    "130_16x16": {
+      "id": "130_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/130.a.htm",
+      "solution": "16 16\nse sw se ew sw se sw se ew ew sw se sw se ew sw\nns ns ne sw ns ns ne nw se sw ne nw ns ne sw ns\nns ns se nw ns ns se ew nw ns se sw ne ew nw ns\nns ne nw se nw ns ne ew sw ns ns ne ew ew sw ns\nne sw se nw se nw se ew nw ns ne sw se sw ne nw\nse nw ne ew nw se nw se sw ne ew nw ns ne ew sw\nne ew ew ew sw ne sw ns ne ew ew sw ne sw se nw\nse sw se sw ns se nw ns se ew sw ns se nw ne sw\nns ns ns ne nw ne sw ns ne sw ns ne nw se sw ns\nns ns ne ew ew sw ne nw se nw ns se ew nw ne nw\nns ne ew ew ew nw se sw ne sw ne nw se ew ew sw\nns se ew sw se sw ns ns se nw se ew nw se sw ns\nns ne sw ne nw ns ns ns ns se nw se ew nw ns ns\nne sw ne ew sw ne nw ns ne nw se nw se sw ns ns\nse nw se sw ne ew sw ns se sw ns se nw ne nw ns\nne ew nw ne ew ew nw ne nw ne nw ne ew ew ew nw"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/131.a.htm",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ns ns ns ns ns\nns se sw ns ns ns ns ns\nne nw ns ns ns ns ns ns\nse ew nw ns ns ns ns ns\nns se ew nw ns ns ns ns\nns ne ew ew nw ne nw ns\nne ew ew ew ew ew ew nw"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/132.a.htm",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se ew ew ew sw ns\nse nw ns se ew ew nw ns\nne sw ns ns se ew sw ns\nse nw ns ns ne sw ns ns\nne sw ns ne sw ns ne nw\nse nw ne sw ns ne ew sw\nne ew ew nw ne ew ew nw"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/133.a.htm",
+      "solution": "10 10\nse sw se sw se sw se sw se sw\nns ne nw ne nw ne nw ne nw ns\nns se ew ew ew ew ew ew sw ns\nns ne ew sw se ew sw se nw ns\nne ew ew nw ns se nw ns se nw\nse sw se sw ns ns se nw ne sw\nns ne nw ne nw ns ns se ew nw\nns se sw se ew nw ns ne ew sw\nns ns ns ne ew ew nw se sw ns\nne nw ne ew ew ew ew nw ne nw"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/134.a.htm",
+      "solution": "10 10\nse sw se ew ew sw se ew ew sw\nns ne nw se sw ne nw se sw ns\nne ew ew nw ns se ew nw ns ns\nse ew ew sw ne nw se ew nw ns\nns se sw ne ew ew nw se sw ns\nns ns ne ew ew ew ew nw ns ns\nns ne sw se ew ew ew sw ns ns\nne ew nw ne sw se sw ns ns ns\nse ew ew ew nw ns ns ne nw ns\nne ew ew ew ew nw ne ew ew nw"
+    },
+    "135_12x12": {
+      "id": "135_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/135.a.htm",
+      "solution": "12 12\nse ew sw se sw se ew sw se sw se sw\nns se nw ns ns ne sw ne nw ne nw ns\nns ne ew nw ne sw ne sw se ew ew nw\nns se sw se sw ns se nw ns se ew sw\nne nw ne nw ns ns ne sw ns ne sw ns\nse ew ew ew nw ns se nw ne ew nw ns\nne ew sw se sw ns ns se sw se sw ns\nse ew nw ns ns ns ne nw ns ns ns ns\nns se sw ns ne nw se ew nw ns ns ns\nne nw ns ne ew sw ne ew ew nw ns ns\nse ew nw se sw ne ew ew ew ew nw ns\nne ew ew nw ne ew ew ew ew ew ew nw"
+    },
+    "136_12x12": {
+      "id": "136_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/136.a.htm",
+      "solution": "12 12\nse ew ew sw se ew ew ew sw se ew sw\nne ew sw ne nw se ew sw ns ns se nw\nse sw ns se ew nw se nw ne nw ne sw\nns ns ne nw se sw ns se ew ew ew nw\nns ns se sw ns ne nw ne ew sw se sw\nns ne nw ne nw se ew ew ew nw ns ns\nne ew sw se sw ne sw se ew ew nw ns\nse sw ne nw ne sw ns ns se ew ew nw\nns ne ew ew ew nw ne nw ne ew ew sw\nne sw se ew sw se ew sw se sw se nw\nse nw ne sw ns ne sw ns ns ns ne sw\nne ew ew nw ne ew nw ne nw ne ew nw"
+    },
+    "137_14x14": {
+      "id": "137_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/137.a.htm",
+      "solution": "14 14\nse sw se sw se ew sw se sw se ew sw se sw\nns ne nw ns ns se nw ns ns ne sw ne nw ns\nne ew sw ne nw ne ew nw ne sw ne sw se nw\nse ew nw se ew ew ew ew sw ns se nw ne sw\nne ew ew nw se ew ew sw ns ne nw se sw ns\nse sw se sw ns se sw ns ne sw se nw ne nw\nns ne nw ne nw ns ns ne sw ns ne ew ew sw\nne ew sw se ew nw ne sw ns ns se ew ew nw\nse sw ns ns se sw se nw ns ns ne ew ew sw\nns ns ne nw ns ns ne sw ns ns se ew sw ns\nns ne sw se nw ne ew nw ne nw ne sw ns ns\nne sw ns ne sw se ew ew sw se ew nw ns ns\nse nw ne ew nw ne ew sw ns ne sw se nw ns\nne ew ew ew ew ew ew nw ne ew nw ne ew nw"
+    },
+    "138_14x14": {
+      "id": "138_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/138.a.htm",
+      "solution": "14 14\nse ew ew ew ew sw se sw se sw se ew ew sw\nns se ew ew sw ne nw ns ns ns ns se ew nw\nns ns se ew nw se ew nw ns ns ns ns se sw\nns ns ne sw se nw se ew nw ne nw ne nw ns\nne nw se nw ns se nw se ew ew sw se sw ns\nse ew nw se nw ns se nw se sw ns ns ne nw\nne ew sw ne ew nw ne ew nw ns ne nw se sw\nse sw ne ew ew ew sw se ew nw se ew nw ns\nns ne sw se ew sw ns ns se ew nw se sw ns\nne sw ns ne sw ns ns ne nw se ew nw ns ns\nse nw ne sw ns ne nw se sw ns se sw ns ns\nne ew sw ne nw se sw ns ns ne nw ns ns ns\nse ew nw se sw ns ns ns ns se sw ns ns ns\nne ew ew nw ne nw ne nw ne nw ne nw ne nw"
+    },
+    "139_16x16": {
+      "id": "139_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/139.a.htm",
+      "solution": "16 16\nse ew ew ew ew sw se ew ew ew ew sw se sw se sw\nne ew ew ew sw ns ne sw se ew sw ns ns ns ns ns\nse ew sw se nw ns se nw ne sw ne nw ns ns ns ns\nns se nw ns se nw ns se sw ns se sw ns ne nw ns\nns ne ew nw ne sw ne nw ns ns ns ns ne sw se nw\nne sw se ew ew nw se sw ns ne nw ne ew nw ne sw\nse nw ne ew sw se nw ns ne ew ew ew sw se ew nw\nne ew ew sw ns ns se nw se ew ew sw ns ns se sw\nse ew ew nw ns ns ne ew nw se sw ns ns ns ns ns\nns se ew ew nw ns se ew sw ns ns ns ns ns ns ns\nns ns se ew sw ns ns se nw ns ns ns ns ne nw ns\nns ns ne sw ns ns ns ne ew nw ns ne nw se ew nw\nns ne ew nw ne nw ne ew sw se nw se sw ns se sw\nne ew ew sw se sw se sw ns ns se nw ns ne nw ns\nse ew ew nw ns ns ns ns ns ns ns se nw se sw ns\nne ew ew ew nw ne nw ne nw ne nw ne ew nw ne nw"
+    },
+    "140_16x16": {
+      "id": "140_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/140.a.htm",
+      "solution": "16 16\nse ew sw se sw se ew ew ew sw se ew sw se ew sw\nne sw ns ns ns ne sw se ew nw ns se nw ns se nw\nse nw ne nw ns se nw ns se ew nw ne sw ns ne sw\nne ew ew sw ns ns se nw ns se sw se nw ns se nw\nse ew sw ns ns ns ns se nw ns ns ne sw ns ne sw\nne sw ne nw ne nw ns ns se nw ne sw ne nw se nw\nse nw se ew ew sw ns ns ne ew sw ne ew sw ne sw\nne sw ne ew sw ne nw ne ew sw ns se sw ne sw ns\nse nw se sw ne ew ew ew ew nw ne nw ne sw ne nw\nns se nw ne ew sw se ew ew sw se sw se nw se sw\nns ns se ew ew nw ns se sw ns ns ne nw se nw ns\nns ns ne sw se ew nw ns ne nw ns se ew nw se nw\nns ne sw ns ne sw se nw se sw ne nw se sw ne sw\nne sw ns ne sw ns ne sw ns ne ew sw ns ns se nw\nse nw ne sw ns ne sw ns ne sw se nw ns ns ne sw\nne ew ew nw ne ew nw ne ew nw ne ew nw ne ew nw"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/141.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne ew ew ew ew ew sw se ew nw\nse ew ew ew ew sw ns ne ew sw\nns se ew ew sw ns ne ew sw ns\nns ne sw se nw ns se ew nw ns\nne ew nw ne sw ns ns se ew nw\nse ew ew ew nw ns ns ne ew sw\nne sw se ew ew nw ne ew sw ns\nse nw ne ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "142_10x10": {
+      "id": "142_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/142.a.htm",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew ew ew ew sw ns\nns se sw ns se ew ew sw ns ns\nns ns ne nw ns se sw ne nw ns\nns ne sw se nw ns ns se ew nw\nne sw ns ne ew nw ns ns se sw\nse nw ne ew sw se nw ns ns ns\nne ew ew sw ns ne sw ne nw ns\nse ew ew nw ns se nw se sw ns\nne ew ew ew nw ne ew nw ne nw"
+    },
+    "143_12x12": {
+      "id": "143_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/143.a.htm",
+      "solution": "12 12\nse ew ew ew ew ew ew ew ew ew ew sw\nns se ew sw se sw se sw se ew sw ns\nns ns se nw ns ns ns ns ne sw ne nw\nne nw ne ew nw ns ns ne sw ne ew sw\nse sw se ew sw ns ne sw ne ew sw ns\nns ne nw se nw ne sw ne ew sw ne nw\nne ew sw ne sw se nw se sw ne ew sw\nse sw ne sw ne nw se nw ns se ew nw\nns ne sw ne ew sw ne sw ns ne ew sw\nns se nw se sw ne sw ns ne ew sw ns\nns ne ew nw ne ew nw ne ew sw ns ns\nne ew ew ew ew ew ew ew ew nw ne nw"
+    },
+    "144_12x12": {
+      "id": "144_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/144.a.htm",
+      "solution": "12 12\nse ew ew ew ew sw se sw se sw se sw\nne ew ew ew sw ns ns ns ns ne nw ns\nse ew sw se nw ns ns ne nw se ew nw\nns se nw ns se nw ne ew sw ne ew sw\nns ne ew nw ne ew ew sw ne sw se nw\nns se sw se ew ew ew nw se nw ne sw\nns ns ns ne ew ew sw se nw se ew nw\nns ns ne sw se sw ne nw se nw se sw\nns ne sw ns ns ns se sw ns se nw ns\nns se nw ns ns ne nw ns ns ns se nw\nns ne sw ns ns se ew nw ne nw ne sw\nne ew nw ne nw ne ew ew ew ew ew nw"
+    },
+    "145_12x12": {
+      "id": "145_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/145.a.htm",
+      "solution": "12 12\nse sw se ew sw se sw se ew ew ew sw\nns ne nw se nw ns ns ns se sw se nw\nns se ew nw se nw ns ne nw ns ne sw\nns ne ew ew nw se nw se sw ne sw ns\nne ew ew ew sw ns se nw ne ew nw ns\nse ew ew sw ns ne nw se sw se sw ns\nns se sw ne nw se sw ns ne nw ne nw\nns ns ne sw se nw ns ne ew ew ew sw\nne nw se nw ns se nw se sw se ew nw\nse sw ns se nw ne ew nw ns ne ew sw\nns ne nw ne ew sw se ew nw se sw ns\nne ew ew ew ew nw ne ew ew nw ne nw"
+    },
+    "146_14x14": {
+      "id": "146_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/146.a.htm",
+      "solution": "14 14\nse sw se ew sw se sw se ew ew sw se ew sw\nns ne nw se nw ns ns ns se sw ns ne sw ns\nns se ew nw se nw ne nw ns ns ne ew nw ns\nns ne ew ew nw se sw se nw ne sw se ew nw\nns se ew sw se nw ns ns se sw ns ne ew sw\nns ns se nw ns se nw ne nw ns ne ew sw ns\nne nw ns se nw ne ew ew sw ne ew sw ns ns\nse sw ne nw se sw se sw ns se ew nw ne nw\nns ne sw se nw ne nw ne nw ns se ew ew sw\nns se nw ns se sw se ew sw ne nw se ew nw\nns ne ew nw ns ns ns se nw se sw ne ew sw\nns se sw se nw ns ns ne ew nw ns se ew nw\nns ns ns ne sw ns ne ew sw se nw ne ew sw\nne nw ne ew nw ne ew ew nw ne ew ew ew nw"
+    },
+    "147_14x14": {
+      "id": "147_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/147.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew ew ew ew ew ew ew ew sw\nne ew ew sw se sw se ew ew ew ew ew ew nw\nse ew ew nw ns ns ns se ew ew ew ew ew sw\nne ew ew ew nw ns ne nw se ew ew ew sw ns\nse ew ew ew sw ns se sw ne sw se sw ns ns\nne ew ew sw ne nw ns ne sw ns ns ne nw ns\nse sw se nw se sw ne sw ns ns ne ew sw ns\nns ne nw se nw ne ew nw ns ne ew sw ne nw\nne ew ew nw se ew sw se nw se ew nw se sw\nse ew ew sw ne sw ne nw se nw se sw ns ns\nns se sw ne ew nw se sw ns se nw ne nw ns\nne nw ne sw se sw ns ne nw ns se sw se nw\nse ew ew nw ns ns ne ew ew nw ns ns ne sw\nne ew ew ew nw ne ew ew ew ew nw ne ew nw"
+    },
+    "148_14x14": {
+      "id": "148_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/148.a.htm",
+      "solution": "14 14\nse ew ew sw se ew sw se ew sw se sw se sw\nns se sw ns ns se nw ne sw ns ns ns ns ns\nne nw ns ne nw ne ew sw ns ns ns ne nw ns\nse ew nw se ew sw se nw ns ne nw se ew nw\nns se sw ne sw ns ns se nw se ew nw se sw\nne nw ne ew nw ns ns ne sw ns se ew nw ns\nse ew ew ew ew nw ne ew nw ne nw se ew nw\nns se ew ew sw se sw se sw se sw ne ew sw\nns ne ew sw ns ns ns ns ns ns ne ew sw ns\nne ew ew nw ne nw ne nw ns ne ew sw ns ns\nse ew ew ew ew ew ew ew nw se sw ns ne nw\nne sw se sw se sw se ew ew nw ns ne ew sw\nse nw ns ns ns ns ne ew sw se nw se sw ns\nne ew nw ne nw ne ew ew nw ne ew nw ne nw"
+    },
+    "149_16x16": {
+      "id": "149_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/149.a.htm",
+      "solution": "16 16\nse ew sw se sw se ew ew ew ew ew ew ew sw se sw\nne sw ns ns ns ns se ew ew ew ew ew sw ns ns ns\nse nw ne nw ne nw ne sw se sw se sw ns ne nw ns\nns se ew ew sw se sw ns ns ns ns ns ns se sw ns\nne nw se ew nw ns ns ns ns ns ns ns ne nw ns ns\nse ew nw se sw ns ne nw ns ns ns ns se sw ne nw\nne sw se nw ns ne ew sw ns ns ns ns ns ne ew sw\nse nw ns se nw se sw ns ns ne nw ne nw se ew nw\nns se nw ne ew nw ne nw ne sw se ew ew nw se sw\nns ne ew sw se sw se sw se nw ns se ew ew nw ns\nne ew sw ne nw ne nw ne nw se nw ns se ew ew nw\nse sw ne ew ew ew ew sw se nw se nw ne sw se sw\nns ne ew sw se sw se nw ns se nw se ew nw ns ns\nne ew sw ne nw ns ne sw ns ns se nw se ew nw ns\nse ew nw se sw ne ew nw ne nw ne ew nw se sw ns\nne ew ew nw ne ew ew ew ew ew ew ew ew nw ne nw"
+    },
+    "150_16x16": {
+      "id": "150_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/150.a.htm",
+      "solution": "16 16\nse ew ew ew sw se sw se ew ew sw se ew ew ew sw\nne ew ew sw ne nw ns ns se sw ns ns se sw se nw\nse sw se nw se sw ns ns ns ns ns ns ns ns ne sw\nns ne nw se nw ns ns ne nw ns ns ns ns ne ew nw\nne ew ew nw se nw ne sw se nw ne nw ne ew ew sw\nse ew ew sw ns se sw ns ne sw se sw se ew ew nw\nns se ew nw ns ns ns ne sw ns ns ns ne ew ew sw\nns ne ew sw ns ns ne sw ne nw ns ne sw se sw ns\nns se sw ne nw ne sw ns se sw ne sw ne nw ne nw\nne nw ne ew sw se nw ne nw ne ew nw se sw se sw\nse ew ew sw ns ns se ew ew ew sw se nw ne nw ns\nne ew sw ne nw ne nw se ew sw ne nw se ew sw ns\nse sw ns se sw se sw ns se nw se sw ns se nw ns\nns ns ns ns ns ns ns ns ne ew nw ns ns ne ew nw\nns ne nw ns ns ns ns ne sw se ew nw ne ew ew sw\nne ew ew nw ne nw ne ew nw ne ew ew ew ew ew nw"
+    },
+    "151_10x10": {
+      "id": "151_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/151.a.htm",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns se ew nw ns se sw se sw ns\nns ne ew ew nw ns ne nw ns ns\nne ew ew ew ew nw se ew nw ns\nse ew ew ew ew ew nw se sw ns\nne ew ew ew ew ew ew nw ns ns\nse ew ew ew ew ew ew sw ns ns\nns se ew ew ew ew ew nw ns ns\nns ne ew ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "152_10x10": {
+      "id": "152_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/152.a.htm",
+      "solution": "10 10\nse ew sw se ew ew ew ew ew sw\nne sw ne nw se ew sw se sw ns\nse nw se sw ne sw ne nw ns ns\nne ew nw ne sw ne sw se nw ns\nse sw se sw ne sw ns ne sw ns\nns ns ns ne ew nw ns se nw ns\nns ne nw se ew ew nw ne sw ns\nne ew ew nw se sw se sw ns ns\nse ew ew ew nw ne nw ne nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "153_12x12": {
+      "id": "153_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/153.a.htm",
+      "solution": "12 12\nse ew sw se sw se ew ew ew sw se sw\nns se nw ns ns ne ew ew sw ne nw ns\nns ne ew nw ne ew ew ew nw se ew nw\nne ew ew ew ew sw se ew sw ne ew sw\nse sw se ew ew nw ne sw ns se sw ns\nns ns ns se ew sw se nw ne nw ne nw\nns ns ne nw se nw ne ew sw se ew sw\nns ne sw se nw se ew sw ns ns se nw\nne sw ns ne sw ne sw ns ne nw ne sw\nse nw ne sw ne sw ns ns se ew ew nw\nns se sw ne ew nw ns ns ne ew ew sw\nne nw ne ew ew ew nw ne ew ew ew nw"
+    },
+    "154_12x12": {
+      "id": "154_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/154.a.htm",
+      "solution": "12 12\nse sw se ew ew ew ew ew sw se ew sw\nns ne nw se sw se ew ew nw ne sw ns\nns se sw ns ne nw se ew ew sw ns ns\nns ns ne nw se sw ne ew sw ne nw ns\nns ne ew ew nw ne ew ew nw se ew nw\nns se ew sw se sw se ew ew nw se sw\nns ns se nw ns ns ns se sw se nw ns\nns ns ns se nw ns ne nw ns ns se nw\nne nw ns ne sw ns se sw ne nw ne sw\nse sw ns se nw ne nw ns se ew sw ns\nns ne nw ne ew ew sw ns ns se nw ns\nne ew ew ew ew ew nw ne nw ne ew nw"
+    },
+    "155_12x12": {
+      "id": "155_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/155.a.htm",
+      "solution": "12 12\nse ew sw se ew sw se sw se sw se sw\nne sw ns ns se nw ns ns ns ne nw ns\nse nw ne nw ne sw ns ns ne sw se nw\nne ew ew ew sw ns ns ne ew nw ne sw\nse ew ew ew nw ne nw se ew ew ew nw\nne ew ew sw se ew sw ns se ew ew sw\nse sw se nw ns se nw ne nw se ew nw\nns ns ne sw ns ne ew sw se nw se sw\nns ne sw ns ns se sw ns ne ew nw ns\nne sw ne nw ne nw ns ne ew ew ew nw\nse nw se sw se sw ne ew ew ew ew sw\nne ew nw ne nw ne ew ew ew ew ew nw"
+    },
+    "156_14x14": {
+      "id": "156_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/156.a.htm",
+      "solution": "14 14\nse sw se ew sw se sw se ew sw se sw se sw\nns ne nw se nw ns ns ne sw ne nw ne nw ns\nns se ew nw se nw ne sw ne ew sw se ew nw\nns ns se ew nw se sw ne ew sw ns ne ew sw\nns ns ne sw se nw ns se sw ns ne sw se nw\nns ne ew nw ne sw ne nw ns ne ew nw ne sw\nns se ew sw se nw se sw ne ew sw se sw ns\nne nw se nw ne ew nw ns se sw ns ns ne nw\nse sw ne ew sw se sw ne nw ns ns ne ew sw\nns ne ew ew nw ns ne sw se nw ne ew sw ns\nne ew sw se sw ne sw ns ne ew sw se nw ns\nse sw ns ns ne sw ns ne sw se nw ns se nw\nns ne nw ne sw ns ne sw ns ns se nw ne sw\nne ew ew ew nw ne ew nw ne nw ne ew ew nw"
+    },
+    "157_14x14": {
+      "id": "157_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/157.a.htm",
+      "solution": "14 14\nse ew ew sw se ew ew ew sw se ew sw se sw\nne sw se nw ns se ew sw ns ne sw ne nw ns\nse nw ne sw ne nw se nw ne sw ns se sw ns\nns se ew nw se ew nw se sw ne nw ns ne nw\nns ns se ew nw se sw ns ne ew sw ne ew sw\nns ns ns se ew nw ns ne ew sw ne ew ew nw\nns ns ns ns se sw ne ew sw ns se ew ew sw\nns ne nw ne nw ne ew sw ns ne nw se sw ns\nne ew ew sw se sw se nw ns se ew nw ne nw\nse ew ew nw ns ns ne sw ns ns se ew ew sw\nns se ew sw ns ne sw ns ns ne nw se sw ns\nne nw se nw ne sw ne nw ns se ew nw ne nw\nse ew nw se sw ne ew sw ns ne ew ew ew sw\nne ew ew nw ne ew ew nw ne ew ew ew ew nw"
+    },
+    "158_14x14": {
+      "id": "158_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/158.a.htm",
+      "solution": "14 14\nse ew ew ew sw se ew ew sw se ew sw se sw\nne ew ew sw ns ns se ew nw ne sw ns ns ns\nse ew ew nw ns ns ne ew ew ew nw ne nw ns\nne ew ew sw ns ne ew sw se ew sw se ew nw\nse ew ew nw ne ew ew nw ns se nw ne ew sw\nne ew sw se ew ew ew ew nw ne ew sw se nw\nse sw ne nw se sw se ew ew sw se nw ne sw\nns ne ew ew nw ns ne ew sw ne nw se sw ns\nne ew ew ew sw ne sw se nw se ew nw ne nw\nse ew ew sw ne sw ns ns se nw se ew ew sw\nns se sw ne sw ns ns ns ne ew nw se sw ns\nne nw ne sw ne nw ns ne ew sw se nw ns ns\nse ew ew nw se sw ne ew ew nw ns se nw ns\nne ew ew ew nw ne ew ew ew ew nw ne ew nw"
+    },
+    "159_16x16": {
+      "id": "159_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/159.a.htm",
+      "solution": "16 16\nse sw se ew sw se ew ew ew ew ew sw se sw se sw\nns ne nw se nw ns se ew sw se sw ns ns ne nw ns\nne sw se nw se nw ne sw ns ns ne nw ne sw se nw\nse nw ne ew nw se sw ns ns ns se ew ew nw ne sw\nns se ew ew sw ns ns ns ne nw ne ew sw se sw ns\nns ns se ew nw ns ns ns se ew ew ew nw ns ne nw\nne nw ne ew sw ns ns ns ne sw se ew sw ne ew sw\nse sw se ew nw ns ns ne ew nw ne sw ne ew sw ns\nns ns ne sw se nw ne ew sw se sw ne ew sw ns ns\nns ns se nw ne sw se sw ne nw ne ew sw ns ns ns\nns ns ne ew sw ns ns ne sw se ew ew nw ns ne nw\nns ns se sw ne nw ne sw ne nw se sw se nw se sw\nns ns ns ne ew ew ew nw se sw ns ns ns se nw ns\nns ne nw se ew sw se ew nw ne nw ns ne nw se nw\nns se sw ne sw ns ne ew ew sw se nw se sw ne sw\nne nw ne ew nw ne ew ew ew nw ne ew nw ne ew nw"
+    },
+    "160_16x16": {
+      "id": "160_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/160.a.htm",
+      "solution": "16 16\nse ew ew ew sw se ew ew ew ew ew ew ew sw se sw\nns se ew sw ns ns se ew ew sw se ew sw ne nw ns\nne nw se nw ns ne nw se sw ns ne sw ns se ew nw\nse ew nw se nw se sw ns ns ne ew nw ns ne ew sw\nne sw se nw se nw ns ns ne sw se sw ns se sw ns\nse nw ne sw ns se nw ne sw ne nw ns ns ns ns ns\nne ew sw ns ns ns se ew nw se sw ns ns ns ne nw\nse sw ns ne nw ns ne sw se nw ns ne nw ne ew sw\nns ne nw se sw ne sw ns ns se nw se ew ew sw ns\nne ew ew nw ns se nw ns ns ne sw ne sw se nw ns\nse ew ew sw ns ne ew nw ns se nw se nw ne ew nw\nne ew sw ns ns se sw se nw ns se nw se ew ew sw\nse ew nw ns ne nw ns ne sw ns ns se nw se ew nw\nns se sw ne ew ew nw se nw ns ne nw se nw se sw\nns ns ns se sw se sw ns se nw se sw ne ew nw ns\nne nw ne nw ne nw ne nw ne ew nw ne ew ew ew nw"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/161.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne ew ew ew ew sw se sw se nw\nse ew ew ew sw ne nw ns ne sw\nns se ew sw ne ew sw ne sw ns\nns ne sw ns se sw ne ew nw ns\nne sw ns ne nw ne ew ew sw ns\nse nw ne sw se ew ew sw ns ns\nns se sw ns ns se sw ns ns ns\nns ns ns ns ns ns ns ne nw ns\nne nw ne nw ne nw ne ew ew nw"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/162.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nne ew ew ew sw ns ne ew sw ns\nse sw se sw ns ns se ew nw ns\nns ne nw ns ns ns ne sw se nw\nns se sw ne nw ns se nw ne sw\nns ns ne ew ew nw ne ew sw ns\nns ne ew sw se ew ew ew nw ns\nne ew sw ns ne sw se sw se nw\nse ew nw ne ew nw ns ns ne sw\nne ew ew ew ew ew nw ne ew nw"
+    },
+    "163_12x12": {
+      "id": "163_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/163.a.htm",
+      "solution": "12 12\nse sw se ew ew ew ew sw se ew ew sw\nns ne nw se ew ew sw ne nw se sw ns\nne sw se nw se ew nw se sw ns ns ns\nse nw ns se nw se ew nw ns ns ne nw\nns se nw ne sw ns se sw ns ne ew sw\nns ne sw se nw ne nw ns ne ew ew nw\nns se nw ne sw se sw ne ew sw se sw\nne nw se ew nw ns ne sw se nw ns ns\nse ew nw se sw ne sw ns ns se nw ns\nns se sw ns ne ew nw ns ne nw se nw\nns ns ns ne ew sw se nw se sw ne sw\nne nw ne ew ew nw ne ew nw ne ew nw"
+    },
+    "164_12x12": {
+      "id": "164_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/164.a.htm",
+      "solution": "12 12\nse sw se ew ew sw se ew ew ew ew sw\nns ns ns se ew nw ne ew sw se ew nw\nns ns ns ns se ew sw se nw ne ew sw\nns ne nw ne nw se nw ns se sw se nw\nns se ew ew ew nw se nw ns ns ne sw\nns ne ew sw se sw ne sw ns ne sw ns\nne sw se nw ns ne sw ns ns se nw ns\nse nw ne sw ne sw ne nw ns ne ew nw\nns se sw ne ew nw se ew nw se ew sw\nns ns ns se ew ew nw se ew nw se nw\nns ns ns ne ew ew ew nw se sw ne sw\nne nw ne ew ew ew ew ew nw ne ew nw"
+    },
+    "165_12x12": {
+      "id": "165_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/165.a.htm",
+      "solution": "12 12\nse ew sw se sw se ew ew ew sw se sw\nne sw ns ns ns ne ew ew sw ne nw ns\nse nw ne nw ns se ew sw ne sw se nw\nns se ew sw ns ne sw ne ew nw ne sw\nne nw se nw ne ew nw se sw se ew nw\nse sw ne ew ew sw se nw ne nw se sw\nns ne ew sw se nw ne ew ew ew nw ns\nne ew sw ns ne ew sw se ew ew ew nw\nse sw ns ne ew ew nw ne ew ew ew sw\nns ns ne sw se sw se ew ew ew ew nw\nns ne ew nw ns ns ne ew ew ew ew sw\nne ew ew ew nw ne ew ew ew ew ew nw"
+    },
+    "166_14x14": {
+      "id": "166_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/166.a.htm",
+      "solution": "14 14\nse sw se ew sw se sw se sw se ew ew ew sw\nns ne nw se nw ns ns ns ns ns se ew ew nw\nns se ew nw se nw ns ns ns ns ne sw se sw\nns ne ew ew nw se nw ns ns ne sw ns ns ns\nne sw se ew ew nw se nw ne ew nw ns ns ns\nse nw ne ew ew ew nw se ew ew sw ne nw ns\nns se ew ew ew ew ew nw se ew nw se ew nw\nne nw se ew ew sw se sw ns se sw ne ew sw\nse sw ns se sw ne nw ne nw ns ne ew ew nw\nns ns ns ns ne sw se ew sw ne ew sw se sw\nns ne nw ne sw ns ne sw ne ew sw ne nw ns\nne sw se sw ns ne sw ne ew sw ne sw se nw\nse nw ns ns ne sw ns se sw ns se nw ne sw\nne ew nw ne ew nw ne nw ne nw ne ew ew nw"
+    },
+    "167_14x14": {
+      "id": "167_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/167.a.htm",
+      "solution": "14 14\nse ew ew ew ew ew ew sw se sw se sw se sw\nne ew sw se ew sw se nw ns ns ns ns ns ns\nse ew nw ns se nw ns se nw ns ns ns ns ns\nns se ew nw ne sw ns ns se nw ns ns ns ns\nns ne sw se ew nw ne nw ns se nw ne nw ns\nns se nw ne sw se sw se nw ne ew sw se nw\nns ns se ew nw ns ns ne ew sw se nw ne sw\nns ns ne ew ew nw ne ew sw ne nw se ew nw\nns ns se ew ew ew ew sw ne sw se nw se sw\nns ns ne sw se ew sw ns se nw ns se nw ns\nns ne sw ns ne sw ns ne nw se nw ns se nw\nne sw ns ne ew nw ne ew sw ns se nw ne sw\nse nw ne ew sw se ew ew nw ne nw se sw ns\nne ew ew ew nw ne ew ew ew ew ew nw ne nw"
+    },
+    "168_14x14": {
+      "id": "168_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/168.a.htm",
+      "solution": "14 14\nse sw se sw se ew ew ew sw se ew sw se sw\nns ns ns ne nw se sw se nw ne sw ns ns ns\nns ne nw se ew nw ns ns se ew nw ns ns ns\nns se ew nw se sw ns ns ns se sw ne nw ns\nne nw se ew nw ns ns ne nw ns ne ew ew nw\nse ew nw se ew nw ns se sw ns se ew ew sw\nns se sw ne ew ew nw ns ns ne nw se sw ns\nne nw ns se ew ew ew nw ne sw se nw ns ns\nse sw ns ne sw se ew ew ew nw ne sw ne nw\nns ns ns se nw ns se ew sw se ew nw se sw\nns ne nw ne sw ns ne sw ns ns se ew nw ns\nns se ew ew nw ne sw ns ns ne nw se sw ns\nns ns se ew ew ew nw ns ns se sw ns ns ns\nne nw ne ew ew ew ew nw ne nw ne nw ne nw"
+    },
+    "169_16x16": {
+      "id": "169_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/169.a.htm",
+      "solution": "16 16\nse ew ew ew sw se ew sw se ew ew ew ew sw se sw\nns se ew sw ne nw se nw ns se ew ew sw ne nw ns\nne nw se nw se ew nw se nw ns se sw ne ew sw ns\nse ew nw se nw se ew nw se nw ns ns se sw ne nw\nns se ew nw se nw se sw ns se nw ne nw ne ew sw\nns ns se sw ns se nw ns ns ne ew sw se ew sw ns\nns ne nw ne nw ns se nw ne ew sw ns ne sw ne nw\nns se ew sw se nw ne sw se sw ns ne sw ne ew sw\nns ne sw ne nw se ew nw ns ns ne sw ne ew sw ns\nne sw ns se ew nw se ew nw ns se nw se ew nw ns\nse nw ns ns se sw ne sw se nw ns se nw se ew nw\nns se nw ns ns ne sw ns ne sw ne nw se nw se sw\nns ne sw ns ne sw ne nw se nw se ew nw se nw ns\nne sw ns ne sw ne ew sw ne sw ne ew ew nw se nw\nse nw ns se nw se sw ne sw ns se sw se sw ne sw\nne ew nw ne ew nw ne ew nw ne nw ne nw ne ew nw"
+    },
+    "170_16x16": {
+      "id": "170_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Entry-Exit/170.a.htm",
+      "solution": "16 16\nse ew ew sw se ew sw se ew ew sw se sw se ew sw\nns se sw ns ne sw ne nw se sw ns ns ns ne sw ns\nne nw ns ne sw ne sw se nw ns ne nw ne sw ns ns\nse ew nw se nw se nw ne sw ne sw se sw ne nw ns\nns se sw ne sw ns se sw ne sw ne nw ne sw se nw\nne nw ne sw ns ns ns ne sw ne sw se ew nw ne sw\nse sw se nw ns ne nw se nw se nw ns se ew sw ns\nns ne nw se nw se sw ne ew nw se nw ns se nw ns\nne ew sw ne sw ns ns se ew sw ne sw ns ne ew nw\nse sw ne sw ne nw ns ns se nw se nw ne ew ew sw\nns ne sw ns se sw ne nw ns se nw se ew ew ew nw\nne sw ns ns ns ns se sw ne nw se nw se ew ew sw\nse nw ne nw ns ns ns ne ew sw ns se nw se sw ns\nns se sw se nw ns ns se sw ns ne nw se nw ne nw\nns ns ns ne sw ns ns ns ne nw se sw ne ew ew sw\nne nw ne ew nw ne nw ne ew ew nw ne ew ew ew nw"
+    }
+  },
+  "info": "",
+  "count": 170
+}

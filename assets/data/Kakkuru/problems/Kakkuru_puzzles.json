@@ -1,0 +1,2406 @@
+{
+  "puzzles": {
+    "1_4x4": {
+      "id": "1_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/001.a.htm",
+      "problem": "4 4\n.  3  5  .\n 4  6  .  .\n .  .  7  4\n 5  .  .  1"
+    },
+    "2_4x4": {
+      "id": "2_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/002.a.htm",
+      "problem": "4 4\n.  5  .  3\n 3  .  8  .\n 5  6  .  .\n .  .  4  3"
+    },
+    "3_4x4": {
+      "id": "3_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/003.a.htm",
+      "problem": "4 4\n.  .  3  1\n .  8  .  4\n 3  6  .  .\n 1  .  6  ."
+    },
+    "4_4x4": {
+      "id": "4_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/004.a.htm",
+      "problem": "4 4\n.  .  5  2\n 4  .  8  .\n 3  6  .  .\n .  5  .  4"
+    },
+    "5_4x4": {
+      "id": "5_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/005.a.htm",
+      "problem": "4 4\n.  . 11  .\n 7  .  .  .\n . 15  .  .\n .  .  .  4"
+    },
+    "6_5x5": {
+      "id": "6_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/006.a.htm",
+      "problem": "5 5\n.  .  9  7  .\n 7  .  .  .  7\n .  9  . 13  .\n 7  .  9  .  .\n .  7  .  .  5"
+    },
+    "7_5x5": {
+      "id": "7_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/007.a.htm",
+      "problem": "5 5\n.  7  5  .  .\n .  .  . 11  8\n . 14  .  .  4\n 7  .  . 11  .\n 5  .  9  .  ."
+    },
+    "8_5x5": {
+      "id": "8_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/008.a.htm",
+      "problem": "5 5\n.  .  .  9  5\n 4 10  .  .  .\n 4  .  . 14  .\n . 11  9  .  .\n .  .  6  .  4"
+    },
+    "9_5x5": {
+      "id": "9_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/009.a.htm",
+      "problem": "5 5\n.  .  4  6  .\n . 10  7  .  .\n . 11  .  .  7\n 6  .  . 12  .\n 3  .  .  .  4"
+    },
+    "10_5x5": {
+      "id": "10_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/010.a.htm",
+      "problem": "5 5\n.  .  6  5  .\n . 13  .  .  5\n 6  .  .  .  7\n 5  . 12  .  .\n .  5  .  8  ."
+    },
+    "11_5x5": {
+      "id": "11_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/011.a.htm",
+      "problem": "5 5\n.  7  .  .  5\n 6  .  .  .  9\n 9  . 10  .  .\n .  .  7 10  .\n .  9  .  6  ."
+    },
+    "12_5x5": {
+      "id": "12_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/012.a.htm",
+      "problem": "5 5\n.  6  . 11  .\n 4 10  .  .  .\n 6  .  .  .  9\n .  . 10  7  .\n .  .  4  .  4"
+    },
+    "13_5x5": {
+      "id": "13_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/013.a.htm",
+      "problem": "5 5\n.  7  .  9  .\n 5  .  .  .  9\n . 10 12  .  .\n 9  .  .  9  .\n .  .  8  .  3"
+    },
+    "14_5x5": {
+      "id": "14_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/014.a.htm",
+      "problem": "5 5\n.  7  .  .  5\n .  .  9 11  .\n . 13  .  9  .\n 7  .  .  .  7\n 5  .  9  .  ."
+    },
+    "15_5x5": {
+      "id": "15_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/015.a.htm",
+      "problem": "5 5\n.  .  .  8  3\n 4  .  .  .  8\n 6  9  .  .  .\n .  .  7 10  .\n .  8  4  .  ."
+    },
+    "16_5x5": {
+      "id": "16_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/016.a.htm",
+      "problem": "5 5\n.  8  .  .  .\n 8  .  .  .  .\n .  .  . 16  .\n .  . 16  .  .\n .  .  .  .  4"
+    },
+    "17_5x5": {
+      "id": "17_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/017.a.htm",
+      "problem": "5 5\n.  .  . 14  .\n11  .  .  .  .\n .  . 19  .  .\n .  .  .  .  9\n . 16  .  .  ."
+    },
+    "18_5x5": {
+      "id": "18_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/018.a.htm",
+      "problem": "5 5\n.  9  .  .  .\n .  .  . 22  .\n14  .  .  .  .\n .  . 20  .  .\n .  .  .  .  4"
+    },
+    "19_5x5": {
+      "id": "19_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/019.a.htm",
+      "problem": "5 5\n.  .  . 13  .\n . 22  .  .  .\n .  .  .  .  9\n .  . 19  .  .\n 7  .  .  .  ."
+    },
+    "20_5x5": {
+      "id": "20_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/020.a.htm",
+      "problem": "5 5\n.  .  .  .  7\n . 22  .  .  .\n .  .  . 19  .\n13  .  .  .  .\n .  .  9  .  ."
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/021.a.htm",
+      "problem": "6 6\n.  .  .  .  8  1\n . 17  .  .  .  6\n .  . 14 14  .  .\n11  .  .  . 14  .\n . 13  . 14  .  .\n 5  .  7  .  .  ."
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/022.a.htm",
+      "problem": "6 6\n. 13  .  .  .  5\n .  .  . 13 11  .\n11  .  . 10  .  .\n 9 14  .  .  .  .\n .  . 14  . 19  .\n .  . 10  .  .  5"
+    },
+    "23_6x6": {
+      "id": "23_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/023.a.htm",
+      "problem": "6 6\n.  .  8  .  .  8\n . 14  . 14  .  .\n 8  .  .  . 14  .\n 7  .  .  .  .  9\n . 16 16  .  .  .\n .  .  .  9 11  ."
+    },
+    "24_6x6": {
+      "id": "24_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/024.a.htm",
+      "problem": "6 6\n.  .  . 11  7  .\n12  .  .  . 11  .\n .  . 19 17  .  .\n10  .  .  .  . 14\n . 11 10  .  .  .\n .  8  .  .  .  9"
+    },
+    "25_6x6": {
+      "id": "25_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/025.a.htm",
+      "problem": "6 6\n. 10  .  .  .  8\n 8  .  . 16  .  .\n .  . 18  . 14  .\n10  .  .  .  .  9\n . 16 14  .  .  .\n .  .  .  8 11  ."
+    },
+    "26_6x6": {
+      "id": "26_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/026.a.htm",
+      "problem": "6 6\n.  .  .  8  5  .\n .  .  . 16  . 11\n 9 14  .  .  .  .\n .  8 13  .  .  .\n12  .  .  . 16  .\n .  . 12  .  .  5"
+    },
+    "27_6x6": {
+      "id": "27_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/027.a.htm",
+      "problem": "6 6\n.  8  .  . 12  .\n 5 14  .  .  .  .\n11  .  .  .  . 10\n .  .  . 10  . 10\n .  . 11  8  .  .\n .  .  7  . 12  ."
+    },
+    "28_6x6": {
+      "id": "28_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/028.a.htm",
+      "problem": "6 6\n.  9  .  .  .  9\n12  .  . 13  .  .\n .  . 11 10  .  .\n10 16  .  .  .  .\n .  .  .  . 16  8\n .  . 14  .  8  ."
+    },
+    "29_6x6": {
+      "id": "29_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/029.a.htm",
+      "problem": "6 6\n.  . 12  . 12  .\n 4  .  .  . 19  .\n 8 16  .  .  .  .\n .  .  . 16  . 12\n . 19  . 13  .  .\n .  .  9  .  .  5"
+    },
+    "30_6x6": {
+      "id": "30_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/030.a.htm",
+      "problem": "6 6\n.  .  9  . 14  .\n 4 11  .  .  .  .\n 6  .  .  . 17  .\n .  . 19  .  .  6\n .  .  . 13  .  7\n . 14  .  8  .  ."
+    },
+    "31_7x7": {
+      "id": "31_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/031.a.htm",
+      "problem": "7 7\n.  7  .  5  8  .  .\n . 10  5  8  .  .  .\n . 12  8  .  . 17  .\n 9  .  . 14 12  .  .\n 9  .  .  .  .  8  4\n10  .  .  . 17  .  1\n .  . 12  .  .  4  1"
+    },
+    "32_7x7": {
+      "id": "32_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/032.a.htm",
+      "problem": "7 7\n.  .  .  9  7  9  .\n 9  . 12  .  . 13  .\n . 14 14  .  .  .  6\n .  .  . 11 16  .  9\n 9 16 15  .  .  .  .\n . 10  .  . 16  . 10\n 5  .  . 10  .  9  ."
+    },
+    "33_7x7": {
+      "id": "33_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/033.a.htm",
+      "problem": "7 7\n.  .  6  . 12  .  9\n 5  . 10 13  .  .  .\n 7 12  . 15  .  .  .\n .  .  .  .  9  9  4\n . 19  . 16  .  4  .\n . 14  .  .  . 11  8\n 5  .  9  .  9  .  ."
+    },
+    "34_7x7": {
+      "id": "34_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/034.a.htm",
+      "problem": "7 7\n.  .  .  .  7  3  2\n .  . 13 10  .  .  6\n . 12  7 10  .  .  .\n 4  5  .  .  . 22  .\n 5 10 11  .  .  .  .\n .  .  . 13 12  . 11\n 6  .  .  .  4  5  ."
+    },
+    "35_7x7": {
+      "id": "35_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/035.a.htm",
+      "problem": "7 7\n.  .  .  . 10  9  5\n 8  . 13 10  .  .  .\n 6  .  8  . 15  .  .\n . 13  . 10  .  . 12\n 8  .  .  . 10  8  .\n . 13  .  .  . 11  7\n .  9  7 11  .  .  ."
+    },
+    "36_7x7": {
+      "id": "36_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/036.a.htm",
+      "problem": "7 7\n.  .  .  .  7  4  4\n 9  .  .  . 10  7  .\n . 19  . 12  .  .  7\n .  .  . 10  9  .  7\n . 14 10 11  .  .  .\n 5  .  4  .  . 22  .\n 1  1  4  .  .  .  ."
+    },
+    "37_7x7": {
+      "id": "37_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/037.a.htm",
+      "problem": "7 7\n. 10  .  .  .  6  4\n 7  .  .  . 12 13  .\n . 11  9  8  .  .  .\n 7  .  . 12 18  .  .\n . 12 16  .  .  .  8\n11  .  .  .  . 10  6\n .  . 10  6  6  .  ."
+    },
+    "38_7x7": {
+      "id": "38_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/038.a.htm",
+      "problem": "7 7\n.  8  .  8  .  .  6\n .  . 11  . 15 14  .\n12  .  . 12  .  .  6\n . 17  .  . 12 10  .\n . 14  .  .  .  9  5\n 7  . 13  . 13  .  .\n 5  .  9  5  .  .  ."
+    },
+    "39_7x7": {
+      "id": "39_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/039.a.htm",
+      "problem": "7 7\n.  . 10  .  8  9  .\n10  .  . 10  .  . 10\n . 12  . 11  .  . 12\n . 14 11  . 11  .  .\n 7  .  . 15  . 15  .\n 8  . 15  .  . 12  .\n .  7  .  . 11  .  4"
+    },
+    "40_7x7": {
+      "id": "40_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/040.a.htm",
+      "problem": "7 7\n.  .  9  6  6  .  .\n . 15  .  .  . 10  9\n . 14  .  . 16  .  4\n 6  .  .  .  . 13 11\n .  9 12  . 15  .  .\n 7  . 10 12  .  .  .\n 5  .  . 11  . 11  ."
+    },
+    "41_7x7": {
+      "id": "41_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/041.a.htm",
+      "problem": "7 7\n.  . 13  .  .  .  9\n .  .  .  . 24  . 13\n . 24  . 18  .  .  .\n .  .  .  .  9 10  .\n .  .  . 20  . 13  .\n10 18  .  .  .  .  .\n 1  .  9  .  .  .  ."
+    },
+    "42_7x7": {
+      "id": "42_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/042.a.htm",
+      "problem": "7 7\n.  .  .  .  9  8  .\n . 21  .  .  .  . 11\n13  .  .  .  . 13  .\n .  .  .  . 20  .  9\n . 18 20  .  .  .  .\n12  .  . 15  .  .  .\n .  .  4  8  .  .  ."
+    },
+    "43_7x7": {
+      "id": "43_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/043.a.htm",
+      "problem": "7 7\n.  .  . 15  . 16  .\n12  .  .  .  . 22  .\n .  .  . 24  .  .  9\n . 30  .  . 14  .  .\n .  .  .  . 16  . 12\n . 18 18  .  .  .  .\n 6  .  8  .  .  .  ."
+    },
+    "46_7x7": {
+      "id": "46_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/046.a.htm",
+      "problem": "7 7\n.  .  . 10 12  .  .\n . 20 17  .  .  .  .\n .  . 18  .  . 18  .\n10 13  .  .  .  .  .\n 6  .  . 22  .  .  .\n .  .  .  . 17  . 12\n .  .  .  .  .  6  5"
+    },
+    "47_7x7": {
+      "id": "47_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/047.a.htm",
+      "problem": "7 7\n.  .  .  8  . 19  .\n11  .  . 19  .  .  .\n . 17  .  .  .  . 15\n .  . 19  . 20  .  .\n . 25  .  . 17  .  .\n .  .  .  .  . 15 10\n 9  . 16  .  .  .  ."
+    },
+    "48_7x7": {
+      "id": "48_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/048.a.htm",
+      "problem": "7 7\n.  9  .  .  . 15  .\n .  . 20  . 18  .  .\n15  .  .  .  . 17  .\n .  . 24  .  .  . 10\n . 22  .  . 19  .  .\n .  .  . 16  .  . 15\n12  .  .  8  .  .  ."
+    },
+    "49_7x7": {
+      "id": "49_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/049.a.htm",
+      "problem": "7 7\n. 14  .  .  9  .  .\n .  .  . 15  . 21  .\n .  . 18  . 18  .  .\n17  .  .  .  .  . 11\n .  .  . 19  .  .  7\n .  . 19  .  . 18  .\n 5  9  .  .  .  .  ."
+    },
+    "50_7x7": {
+      "id": "50_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/050.a.htm",
+      "problem": "7 7\n.  . 11  .  .  .  9\n . 17  .  .  .  . 11\n .  .  .  . 20 18  .\n15  .  . 18  .  .  .\n .  .  . 13 10  .  .\n14  . 17  .  .  .  .\n .  9  .  .  . 16  ."
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/051.a.htm",
+      "problem": "8 8\n. 11  9  . 14  .  .  .\n .  .  . 17  .  . 18 12\n . 17 18  .  . 14  .  .\n12  . 16  . 16  .  .  .\n .  .  . 15  . 16  .  9\n12  .  .  . 10  . 18  .\n . 20  . 20  . 16  .  .\n 6  .  .  .  .  . 11  9"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/052.a.htm",
+      "problem": "8 8\n.  .  .  . 12  5 10  .\n 4  .  .  . 18  . 20  .\n 6 13  .  . 20  .  .  .\n .  . 18  .  . 16 17  .\n .  . 16 17  .  .  . 10\n14 17  .  .  .  .  .  9\n . 15  . 15  .  .  . 13\n .  .  5  7  . 12  .  ."
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/053.a.htm",
+      "problem": "8 8\n. 14  .  .  .  7  8  .\n .  .  . 16 12  .  . 11\n .  . 16  . 15  .  . 10\n13 14  .  .  .  . 20  .\n 7  . 16  .  .  . 20  .\n . 18  . 20  . 17  .  .\n .  .  . 18  . 20  . 14\n 8  . 11  . 10  .  .  ."
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/054.a.htm",
+      "problem": "8 8\n.  . 12  . 13  . 12  .\n15  . 22  .  .  . 15  .\n .  .  .  . 21  . 15  6\n . 21  . 17  .  .  .  8\n 7  .  . 17  . 24  .  .\n 6  . 16  .  . 21  .  .\n . 16  .  . 16  .  . 13\n . 14  . 13  . 10  .  ."
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/055.a.htm",
+      "problem": "8 8\n.  .  .  . 10  .  7  4\n . 18  . 22  . 16  .  .\n 9  . 18  .  .  .  . 13\n 8  .  .  . 21  .  . 11\n . 21  . 13  .  . 19  .\n .  .  . 14 16  . 20  .\n13  . 12  .  . 16  .  .\n .  6  4  .  . 12  .  ."
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/056.a.htm",
+      "problem": "8 8\n.  .  .  . 13 12 16  .\n 8 11 10  .  .  .  .  .\n . 14  6  7  .  .  .  .\n .  . 17 12  .  .  .  6\n .  .  .  . 16  . 14 10\n12 22  .  .  . 13  .  .\n .  .  . 22 16  .  . 13\n 8  .  .  .  .  8  7  ."
+    },
+    "57_8x8": {
+      "id": "57_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/057.a.htm",
+      "problem": "8 8\n.  . 14 16  . 13  .  .\n13  .  .  .  .  . 15 12\n .  . 19  . 20 20  .  .\n15  . 16 13  .  .  .  .\n . 18  .  .  .  . 15  4\n10  .  . 19  .  .  . 10\n . 17  .  . 13 14  .  .\n . 10  .  .  6  . 15  ."
+    },
+    "58_8x8": {
+      "id": "58_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/058.a.htm",
+      "problem": "8 8\n.  . 12  5  5  .  .  .\n10  .  . 14 11  .  .  .\n 9  .  .  . 13  .  . 13\n . 18  .  .  . 12 10  .\n . 19  .  .  . 13  .  9\n .  . 11 13  .  . 17  .\n . 14 14  .  .  . 18  .\n 4  .  .  .  . 14  .  6"
+    },
+    "59_8x8": {
+      "id": "59_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/059.a.htm",
+      "problem": "8 8\n. 11  9  .  . 13  .  .\n .  .  . 15 16  .  . 13\n15  . 14  .  . 18  .  .\n . 16  . 16  .  . 18  .\n11  .  .  . 16  .  . 11\n .  .  . 15 12  . 18  .\n11  .  .  .  . 12  . 11\n . 11 16  .  .  .  7  ."
+    },
+    "60_8x8": {
+      "id": "60_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/060.a.htm",
+      "problem": "8 8\n.  .  .  9 11  .  .  6\n . 21 14  .  .  . 18  .\n .  . 11 14  . 15  .  .\n 9 12  .  .  .  . 16  .\n 7  .  .  .  .  . 14  9\n .  .  . 24 21 16  .  .\n12  .  .  . 12  .  . 13\n .  9 11  .  . 12  .  ."
+    },
+    "61_7x7": {
+      "id": "61_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/061.a.htm",
+      "problem": "7 7\n.  .  9  .  7 10  .\n10 15  . 12  .  .  .\n .  .  .  . 13  7  5\n . 19  .  . 11  .  3\n . 13  . 13  .  .  9\n 7  .  7 12  .  .  .\n 3  .  4  .  . 16  ."
+    },
+    "62_7x7": {
+      "id": "62_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/062.a.htm",
+      "problem": "7 7\n.  8  . 12  .  .  5\n 6  .  .  . 15 13  .\n .  8 10  . 18  .  .\n . 10  7  .  .  . 10\n .  . 10  . 12 14  .\n12  .  . 11  . 10  .\n 7  .  .  8  .  .  5"
+    },
+    "63_7x7": {
+      "id": "63_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/063.a.htm",
+      "problem": "7 7\n.  7  9 12  .  .  .\n 8  .  .  .  . 10  5\n .  .  .  .  7  5  4\n . 16  .  .  7 11  .\n . 12  .  7 10  .  .\n 9  . 12 10  .  .  .\n 7  . 11  .  .  .  4"
+    },
+    "64_7x7": {
+      "id": "64_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/064.a.htm",
+      "problem": "7 7\n.  9  .  9  .  .  7\n 4  .  .  . 14 12  .\n 7 13  .  .  .  .  7\n 6  .  .  . 18  .  8\n . 14 12  9  .  .  .\n .  .  4  . 12 17  .\n .  .  4  5  .  9  ."
+    },
+    "65_7x7": {
+      "id": "65_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/065.a.htm",
+      "problem": "7 7\n.  4  1  5  .  .  .\n .  7  . 11 18  .  .\n 9  . 12  .  .  . 11\n10  . 14 12  .  .  .\n . 15  .  . 10 11  .\n10  .  .  .  .  5  4\n .  .  .  .  6  1  0"
+    },
+    "66_7x7": {
+      "id": "66_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/066.a.htm",
+      "problem": "7 7\n.  .  .  9  8  .  4\n . 18 15  .  .  7  .\n .  . 13  .  . 10  7\n 8  .  . 14 12  .  .\n 1  7  .  .  . 19  .\n 5  8  . 15  .  .  .\n .  .  6  . 10  .  8"
+    },
+    "67_7x7": {
+      "id": "67_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/067.a.htm",
+      "problem": "7 7\n.  .  6  6  8  .  .\n . 11  .  .  . 16 10\n 9 13  . 14  .  .  .\n .  . 13  . 17  .  8\n 6 12  .  .  . 13  .\n 8  .  . 16 12  .  .\n .  . 11  .  .  6  5"
+    },
+    "68_7x7": {
+      "id": "68_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/068.a.htm",
+      "problem": "7 7\n.  .  5  4 11  .  .\n 9  .  8  7  .  .  .\n . 11  .  . 14 17  .\n 8  .  . 16  .  .  6\n . 17  .  .  .  9  5\n .  . 17  . 12  7  .\n 6  9  .  .  .  .  4"
+    },
+    "69_7x7": {
+      "id": "69_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/069.a.htm",
+      "problem": "7 7\n.  5  4  7  .  .  .\n 4  8  . 10  .  .  .\n .  . 14 13  . 14  .\n14  .  .  .  9  .  5\n .  .  .  . 11  5  1\n .  . 16  .  .  7  3\n 5  8  .  . 11  .  ."
+    },
+    "70_7x7": {
+      "id": "70_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/070.a.htm",
+      "problem": "7 7\n.  8  . 16  .  8  .\n 1 10  .  .  . 13  .\n 3  8  .  .  .  .  8\n .  . 10 11  . 14  .\n .  . 12  . 12  .  8\n16  .  .  .  9  . 10\n .  .  9  3  6  .  ."
+    },
+    "71_7x7": {
+      "id": "71_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/071.a.htm",
+      "problem": "7 7\n.  4  5  .  .  .  5\n .  . 13 15  .  .  7\n 7  .  .  . 14 16  .\n 4 11 17  .  .  .  .\n 5 10  .  .  . 15  .\n .  .  . 10  7  .  8\n .  .  .  3  4  5  ."
+    },
+    "72_7x7": {
+      "id": "72_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/072.a.htm",
+      "problem": "7 7\n.  .  7  . 10  .  5\n . 10  . 15  . 15  .\n11 14  .  .  . 15  .\n .  . 15 16  . 12  .\n 8  .  .  . 10  .  8\n 6 13  .  . 13  .  .\n .  .  8  6  .  .  9"
+    },
+    "73_7x7": {
+      "id": "73_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/073.a.htm",
+      "problem": "7 7\n.  .  .  .  7  6  4\n . 15 12 12  .  .  .\n 9  .  . 12  . 16  .\n .  7  8  .  .  . 11\n 6  . 12 15  .  .  .\n . 12  .  . 12  . 11\n 5  .  .  .  5  5  ."
+    },
+    "74_7x7": {
+      "id": "74_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/074.a.htm",
+      "problem": "7 7\n. 11  .  .  6  .  5\n .  . 13 12  . 10  .\n . 12  7  . 12  .  .\n .  .  9  7 13  .  .\n 7  .  . 12  . 17  .\n 7 13  .  .  .  .  5\n 4  .  .  .  .  8  1"
+    },
+    "75_7x7": {
+      "id": "75_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/075.a.htm",
+      "problem": "7 7\n.  8  7  8  .  .  .\n 7  .  . 11  . 16  .\n . 16  .  . 11  .  7\n 7  .  .  . 18 12  .\n . 11 14  .  .  .  8\n11  . 11 12  .  .  .\n .  .  .  .  6  6  4"
+    },
+    "76_7x7": {
+      "id": "76_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/076.a.htm",
+      "problem": "7 7\n.  .  7  .  6  9  .\n . 11 10  9  .  .  .\n 6  .  . 14  .  . 10\n 6  .  .  .  . 12  5\n 7  .  .  . 12  9  .\n . 14 14  . 12  .  .\n .  7  .  7  .  .  7"
+    },
+    "77_7x7": {
+      "id": "77_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/077.a.htm",
+      "problem": "7 7\n.  7  . 10  .  .  6\n . 13  8  .  . 16  .\n . 13  . 17  . 12  .\n10  .  .  . 11  .  6\n .  . 16  . 12 10  .\n11  . 14  . 10  .  .\n 6  .  .  6  .  .  8"
+    },
+    "78_7x7": {
+      "id": "78_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/078.a.htm",
+      "problem": "7 7\n.  .  .  9 12  .  7\n10 15 17  .  .  .  .\n .  .  .  . 15 15  8\n11  . 12 13  .  .  .\n .  8  7  .  . 19  .\n 9  .  . 13 11  .  .\n . 10  .  .  .  8  7"
+    },
+    "79_7x7": {
+      "id": "79_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/079.a.htm",
+      "problem": "7 7\n.  7  9 10  .  .  .\n 7  .  .  . 16  . 11\n11  . 19 14  .  .  .\n .  .  .  . 14  9  6\n10  . 14  .  .  .  5\n . 11  . 13  . 14  .\n .  8  .  .  5 11  ."
+    },
+    "80_7x7": {
+      "id": "80_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/080.a.htm",
+      "problem": "7 7\n.  .  .  7 11  .  7\n 9  .  . 12  .  .  9\n . 19  .  .  8 10  .\n .  .  . 11  4  7  .\n . 14 14  .  . 10  .\n 5  . 10  .  .  . 10\n 1  1  8  .  .  .  ."
+    },
+    "81_7x7": {
+      "id": "81_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/081.a.htm",
+      "problem": "7 7\n. 14  .  . 12  .  .\n .  .  . 16  .  . 12\n .  .  . 14  . 16  .\n .  . 19  .  .  .  9\n 8 12  .  .  .  .  .\n .  . 20  . 20  .  .\n 8  .  .  .  . 14  ."
+    },
+    "82_7x7": {
+      "id": "82_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/082.a.htm",
+      "problem": "7 7\n.  .  9  7  .  .  .\n .  .  .  . 20  . 17\n16 26  .  .  .  .  .\n .  .  .  . 13 10  .\n . 22  .  .  . 13  .\n11  . 17  .  .  .  .\n .  .  . 14  .  . 10"
+    },
+    "83_7x7": {
+      "id": "83_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/083.a.htm",
+      "problem": "7 7\n.  .  . 12  . 15  .\n 7  .  .  . 17  .  .\n 8  .  .  .  . 19  .\n . 22  .  . 17  .  .\n .  .  . 17  .  .  9\n .  . 17  .  .  .  7\n . 12  8  .  .  .  ."
+    },
+    "84_7x7": {
+      "id": "84_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/084.a.htm",
+      "problem": "7 7\n.  . 17  .  .  .  7\n17  .  .  .  .  . 12\n .  .  . 16 10  .  .\n13  .  . 18  .  .  .\n . 13  .  .  . 25  .\n . 13 16  .  .  .  .\n .  .  .  . 17 13  ."
+    },
+    "85_7x7": {
+      "id": "85_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/085.a.htm",
+      "problem": "7 7\n.  .  . 15  .  .  5\n .  .  .  .  . 26 14\n 9  .  . 20  .  .  .\n 7  . 17  .  .  .  .\n . 22  .  . 16  .  .\n .  .  .  . 13 10  .\n . 17 15  .  .  .  ."
+    },
+    "86_7x7": {
+      "id": "86_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/086.a.htm",
+      "problem": "7 7\n.  4  6  .  .  .  .\n .  . 16  .  .  . 15\n .  .  .  . 23 19  .\n16 26  .  .  .  .  .\n .  .  . 21 16  .  .\n .  .  .  .  . 14  8\n10  .  . 15  .  .  ."
+    },
+    "87_7x7": {
+      "id": "87_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/087.a.htm",
+      "problem": "7 7\n.  .  8  .  . 21  .\n 9  . 12  .  .  .  .\n . 22  . 13  .  .  .\n .  .  . 16 13  .  .\n14 23  .  .  .  .  .\n .  .  .  .  . 15  8\n .  .  .  . 15  .  1"
+    },
+    "88_7x7": {
+      "id": "88_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/088.a.htm",
+      "problem": "7 7\n.  4 10  .  .  .  .\n . 10  .  .  .  . 14\n .  .  . 22  .  . 12\n13  . 22  .  .  .  .\n17  .  .  .  . 13  .\n .  .  .  .  9 12  .\n .  .  .  8  6  .  ."
+    },
+    "89_7x7": {
+      "id": "89_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/089.a.htm",
+      "problem": "7 7\n.  .  9  .  . 16  .\n . 19  . 13  .  .  .\n .  .  . 13 16  .  .\n11  .  .  .  .  . 12\n 9  .  .  .  . 17  .\n .  . 23  . 20  .  .\n . 14  .  .  .  .  8"
+    },
+    "90_7x7": {
+      "id": "90_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/090.a.htm",
+      "problem": "7 7\n. 12  .  .  . 15  .\n .  . 20 26  .  .  .\n .  .  .  .  . 16  4\n .  . 22  .  .  . 10\n14 18  .  .  .  .  .\n .  .  . 10 16  .  .\n14  .  .  .  8  .  ."
+    },
+    "93_9x9": {
+      "id": "93_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/093.a.htm",
+      "problem": "9 9\n.  .  .  .  5  3  .  . 13\n15  .  .  . 12 16  .  .  .\n . 18  . 17  .  .  . 28  .\n . 13 12  .  .  .  .  .  9\n . 14 19  .  .  .  . 23  .\n15  .  .  .  . 20 19  .  .\n .  . 21  . 21  .  .  . 15\n .  .  . 18  .  . 21 16  .\n 9  .  . 14  .  . 12  .  ."
+    },
+    "97_9x9": {
+      "id": "97_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/097.a.htm",
+      "problem": "9 9\n.  . 10  .  . 20  . 20  .\n10 16  . 21  .  .  .  .  .\n .  .  .  . 18 10 19  .  .\n .  .  .  . 22  .  7  . 17\n .  . 24  .  . 13 15  .  .\n . 16  . 21  .  .  .  . 14\n18  . 16  .  .  .  . 20  .\n .  .  . 19 23  .  .  .  9\n11 20  .  .  .  .  . 11  ."
+    },
+    "98_9x9": {
+      "id": "98_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/098.a.htm",
+      "problem": "9 9\n. 18  .  . 16  .  .  .  3\n14  .  .  . 19  .  .  . 13\n .  .  . 21  . 16 15  .  .\n16  .  .  .  .  . 19 30  .\n .  . 14 17  . 20  .  .  .\n .  .  . 15  .  . 21 30  .\n . 16 16  .  . 21  .  .  .\n . 14 22  . 29  .  .  .  .\n 7  .  .  .  .  .  .  9  4"
+    },
+    "100_9x9": {
+      "id": "100_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/100.a.htm",
+      "problem": "9 9\n. 14  .  . 16  .  .  .  5\n .  . 21 19  .  .  . 20  .\n .  . 18  . 23  .  .  .  9\n .  .  .  .  . 16 13 16  .\n17  .  .  .  . 16  4  .  .\n11 18  .  .  .  . 19  .  .\n .  . 14 18  .  .  .  . 15\n .  .  . 14  . 22  . 28  .\n 9 15  .  .  9  .  .  .  ."
+    },
+    "101_7x7": {
+      "id": "101_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/101.a.htm",
+      "problem": "7 7\n. 10  6  8  .  .  .\n .  .  .  .  8 13  9\n .  .  . 13 10 10  .\n 7 13 16  .  .  .  .\n 5  .  .  .  . 14 10\n . 14  . 13 13  .  .\n 6  .  8  .  .  .  8"
+    },
+    "102_7x7": {
+      "id": "102_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/102.a.htm",
+      "problem": "7 7\n.  .  9  . 12 10  .\n10 12  .  .  .  .  9\n .  . 12 16  .  .  7\n 8 15  .  .  . 10  .\n 6  .  .  . 10 12  .\n .  . 12 10  9  .  .\n . 10  .  3  .  .  8"
+    },
+    "103_7x7": {
+      "id": "103_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/103.a.htm",
+      "problem": "7 7\n.  7  .  . 13  .  4\n11  . 14  .  .  .  7\n .  . 12  9  . 14  .\n13  . 11  .  . 12  .\n .  .  . 15 12 14  .\n 6 14  .  .  .  .  9\n .  6  . 11 13  .  ."
+    },
+    "104_7x7": {
+      "id": "104_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/104.a.htm",
+      "problem": "7 7\n.  .  .  7  5  .  6\n . 17  .  8 10  .  .\n . 14 10  . 13  .  .\n 7  .  . 12  .  . 11\n 6  . 16  .  . 14  .\n 7  .  .  .  . 13  7\n .  7  9  .  .  7  ."
+    },
+    "105_7x7": {
+      "id": "105_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/105.a.htm",
+      "problem": "7 7\n.  .  .  6  7  9  .\n 8  . 15  . 10  .  .\n .  8  .  .  . 14  8\n 5 10 11  .  .  .  .\n 6  .  . 13 19  .  .\n . 16 12  .  .  .  8\n .  .  .  9  .  5  1"
+    },
+    "106_7x7": {
+      "id": "106_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/106.a.htm",
+      "problem": "7 7\n.  .  .  .  .  6  1\n .  .  . 26  . 13  .\n . 22  . 20  .  .  .\n11  .  .  . 17  .  .\n .  . 10  . 20  .  .\n . 15 13  .  .  .  .\n 7  .  .  .  .  . 10"
+    },
+    "107_7x7": {
+      "id": "107_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/107.a.htm",
+      "problem": "7 7\n.  . 14  .  . 15  .\n17  . 20  .  .  .  .\n .  .  . 15 18  .  .\n .  .  . 23  .  .  7\n . 16  .  .  .  .  8\n . 16  .  .  . 19  .\n 5  .  .  . 12  .  ."
+    },
+    "109_7x7": {
+      "id": "109_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/109.a.htm",
+      "problem": "7 7\n.  4  8  .  .  .  .\n .  . 16  .  . 23  .\n .  .  .  .  . 20 12\n12 20  .  .  .  .  .\n .  .  . 18  .  . 11\n .  .  . 15 12  .  .\n14  .  .  .  6  .  ."
+    },
+    "111_7x7": {
+      "id": "111_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/111.a.htm",
+      "problem": "7 7\n.  . 12  .  .  .  6\n . 17  .  .  . 22  .\n11  .  . 21  .  .  .\n .  .  . 13 13  .  .\n13  . 17  .  .  .  .\n . 18  .  . 20  .  .\n .  .  .  .  .  7  3"
+    },
+    "112_7x7": {
+      "id": "112_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/112.a.htm",
+      "problem": "7 7\n.  7 11  .  .  .  .\n .  .  .  . 26 23  .\n 8 14  .  .  .  .  .\n .  . 19  .  . 19  .\n .  .  . 20  .  .  8\n21  .  .  .  .  . 11\n .  .  .  9  7  .  ."
+    },
+    "113_7x7": {
+      "id": "113_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/113.a.htm",
+      "problem": "7 7\n.  .  9  .  . 15  .\n . 20  . 20  .  .  .\n .  .  .  .  . 23 14\n12  . 19  .  .  .  .\n . 19  .  . 21  .  .\n .  .  .  . 18  . 11\n 9  .  . 13  .  .  ."
+    },
+    "114_7x7": {
+      "id": "114_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/114.a.htm",
+      "problem": "7 7\n.  .  .  .  .  6  1\n .  .  . 27  . 12  .\n 9  .  .  .  .  . 15\n 7  .  .  . 25  .  .\n . 13 10  .  .  .  .\n . 18  .  . 18  .  .\n .  .  8  7  .  .  ."
+    },
+    "115_7x7": {
+      "id": "115_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/115.a.htm",
+      "problem": "7 7\n. 13  .  .  .  .  7\n .  .  .  . 26  . 13\n .  . 19  . 23  .  .\n12 15  .  .  .  .  .\n .  . 17  .  . 19  .\n .  .  . 14  . 16  .\n14  .  .  8  .  .  ."
+    },
+    "116_8x8": {
+      "id": "116_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/116.a.htm",
+      "problem": "8 8\n. 12  .  .  .  .  8  4\n12  .  .  . 19  .  .  8\n .  . 16 11  . 13  .  .\n .  . 11  . 13 15  .  .\n . 20  . 12  .  . 19  .\n10  .  .  . 18 19  .  .\n .  . 15 15  .  . 22  .\n 4  7  .  .  .  .  .  7"
+    },
+    "117_8x8": {
+      "id": "117_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/117.a.htm",
+      "problem": "8 8\n.  8  7  .  .  .  . 10\n .  .  . 14 15 17  .  .\n15  .  .  .  4  . 20  .\n .  .  . 13 13  . 17  .\n14  . 18  .  .  .  .  9\n . 16 24  .  . 18  .  .\n 9  .  .  .  .  . 13 10\n . 13  . 14  . 13  .  ."
+    },
+    "118_8x8": {
+      "id": "118_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/118.a.htm",
+      "problem": "8 8\n.  . 11  .  9  . 13  .\n . 18  . 20  . 12  .  .\n 7  .  .  .  .  . 14 13\n 6  .  .  .  . 20  . 11\n . 12  . 19 21  .  .  .\n11  . 12  .  .  . 18  .\n . 18  .  .  . 18  .  9\n .  .  9  6  7  .  .  ."
+    },
+    "119_8x8": {
+      "id": "119_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/119.a.htm",
+      "problem": "8 8\n. 13  .  .  .  7  6  .\n .  . 18  . 20  .  .  9\n16 20  . 11  .  .  .  .\n .  .  .  9 15  .  . 10\n19  .  .  8  .  .  . 10\n .  . 18  . 14  . 20  .\n 8 12  .  .  . 14  .  .\n .  .  9  .  . 13 11  ."
+    },
+    "120_8x8": {
+      "id": "120_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/120.a.htm",
+      "problem": "8 8\n.  .  . 11  7  . 10  .\n . 20  .  .  . 13  . 11\n10  .  . 21  .  . 14  .\n . 12  .  . 22  .  . 11\n 9  . 16  .  . 18  .  .\n . 16 19  .  . 16  .  .\n .  .  .  . 16  . 17 12\n 9  . 11  8  .  .  .  ."
+    },
+    "121_4x4": {
+      "id": "121_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/121.a.htm",
+      "problem": "4 4\n-  4  5  -\n 4  -  -  5\n -  8  -  4\n 4  -  4  -"
+    },
+    "122_4x4": {
+      "id": "122_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/122.a.htm",
+      "problem": "4 4\n-  5  -  3\n -  6  6  -\n 5  -  7  -\n 3  -  -  3"
+    },
+    "123_4x4": {
+      "id": "123_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/123.a.htm",
+      "problem": "4 4\n- - 5 2 \n4 - 8 - \n3 6 - - \n- 5 - 4"
+    },
+    "124_4x4": {
+      "id": "124_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/124.a.htm",
+      "problem": "4 4\n-  7  -  -\n -  - 15  -\n11  -  -  -\n -  -  -  4"
+    },
+    "125_4x4": {
+      "id": "125_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/125.a.htm",
+      "problem": "4 4\n- 3 5 - \n3 6 - - \n5 - - 4 \n- - 4 1"
+    },
+    "126_5x5": {
+      "id": "126_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/126.a.htm",
+      "problem": "5 5\n-  8  -  -  4\n - 12  - 11  -\n -  -  7 10  -\n 9  - 10  -  -\n 5  -  -  -  6"
+    },
+    "127_5x5": {
+      "id": "127_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/127.a.htm",
+      "problem": "5 5\n-  7  -  9  -\n 6  -  -  -  6\n 9  -  -  9  -\n -  -  9  -  7\n -  6  4  -  -"
+    },
+    "128_5x5": {
+      "id": "128_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/128.a.htm",
+      "problem": "5 5\n-  -  8  6  -\n 7  -  - 11  -\n 5  -  -  -  8\n -  9 10  -  -\n -  6  -  -  6"
+    },
+    "129_5x5": {
+      "id": "129_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/129.a.htm",
+      "problem": "5 5\n-  7  -  -  5\n -  - 13  -  7\n11  -  -  7  -\n -  -  9 10  -\n 5  7  -  -  -"
+    },
+    "130_5x5": {
+      "id": "130_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/130.a.htm",
+      "problem": "5 5\n-  -  6  -  4\n - 13  -  9  -\n 7  -  -  -  7\n - 10 12  -  -\n 3  -  -  9  -"
+    },
+    "131_5x5": {
+      "id": "131_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/131.a.htm",
+      "problem": "5 5\n-  -  8  -  7\n 4  9  -  -  -\n 4  -  -  -  8\n - 13  -  9  -\n -  -  4  4  -"
+    },
+    "132_5x5": {
+      "id": "132_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/132.a.htm",
+      "problem": "5 5\n-  8  -  -  4\n -  - 11  9  -\n11  - 10  -  -\n -  -  - 12  8\n 3  7  -  -  -"
+    },
+    "133_5x5": {
+      "id": "133_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/133.a.htm",
+      "problem": "5 5\n- 11  -  -  -\n -  -  -  - 16\n -  - 19  -  -\n14  -  -  -  -\n -  -  -  9  -"
+    },
+    "134_5x5": {
+      "id": "134_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/134.a.htm",
+      "problem": "5 5\n-  -  -  -  7\n - 21  -  -  -\n -  -  - 14  -\n -  - 18  -  -\n 6  -  -  -  -"
+    },
+    "135_5x5": {
+      "id": "135_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/135.a.htm",
+      "problem": "5 5\n- - 9 7 - \n7 - - - 8 \n5 - 12 - - \n- 10 - 11 - \n- 8 - - 4"
+    },
+    "136_6x6": {
+      "id": "136_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/136.a.htm",
+      "problem": "6 6\n-  6  -  9  -  5\n - 10  7  -  -  5\n -  -  6  - 10  7\n 7 10  -  6  -  -\n 5  -  -  7 10  -\n 5  -  9  -  6  -"
+    },
+    "137_6x6": {
+      "id": "137_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/137.a.htm",
+      "problem": "6 6\n-  7  -  -  5  0\n -  - 12  -  8  3\n 6  -  8  7  -  -\n 8  9  -  4  -  -\n -  -  6  9 10  -\n 5  7  -  -  -  4"
+    },
+    "138_6x6": {
+      "id": "138_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/138.a.htm",
+      "problem": "6 6\n-  -  -  -  9  3\n - 16 14  -  -  -\n - 11  - 13  -  -\n 7  -  - 16  -  -\n 9  -  -  -  - 12\n -  - 13  -  9  -"
+    },
+    "139_6x6": {
+      "id": "139_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/139.a.htm",
+      "problem": "6 6\n-  - 10  - 11  -\n 7  -  - 14  -  -\n 7  - 11  -  -  -\n - 16  - 14  -  -\n -  -  -  - 11  4\n - 12  -  -  -  1"
+    },
+    "140_6x6": {
+      "id": "140_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/140.a.htm",
+      "problem": "6 6\n-  -  7 11  -  -\n 8  -  - 17  -  -\n - 19  -  -  -  6\n -  -  -  - 13  4\n12 16  -  -  -  -\n -  - 11  - 12  -"
+    },
+    "141_4x4": {
+      "id": "141_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/141.a.htm",
+      "problem": "4 4\n- 4 3 - \n- - 6 5 \n5 8 - - \n2 - - 4"
+    },
+    "142_4x4": {
+      "id": "142_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/142.a.htm",
+      "problem": "4 4\n- 4 - 4 \n4 - 6 - \n- 6 7 - \n4 - - 2"
+    },
+    "143_5x5": {
+      "id": "143_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/143.a.htm",
+      "problem": "5 5\n- - 8 6 - \n9 - - 9 - \n- 12 - - 6 \n6 - - - 9 \n- 5 7 - -"
+    },
+    "144_5x5": {
+      "id": "144_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/144.a.htm",
+      "problem": "5 5\n- - 9 - 5 \n- 9 - - 9 \n5 - 11 - - \n6 - - 12 - \n- 9 - 8 -"
+    },
+    "145_6x6": {
+      "id": "145_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/145.a.htm",
+      "problem": "6 6\n- 7 6 - - 2 \n- - - 10 11 6 \n6 11 10 - - - \n4 - - 10 10 - \n- 11 - 8 - 6 \n5 - 5 - 6 -"
+    },
+    "146_6x6": {
+      "id": "146_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/146.a.htm",
+      "problem": "6 6\n- - - - 7 3 \n- - 16 14 - - \n8 11 - - - - \n6 - - - - 12 \n- - - 16 14 - \n- 13 8 - - -"
+    },
+    "147_7x7": {
+      "id": "147_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/147.a.htm",
+      "problem": "7 7\n- - 16 - 5 3 - \n11 - - - 8 10 - \n- 15 15 12 - - - \n7 - - - 13 - 12 \n- 12 11 - - 13 - \n- 10 - 15 - - 8 \n5 - - 10 - - 5"
+    },
+    "148_7x7": {
+      "id": "148_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/148.a.htm",
+      "problem": "7 7\n- 7 3 7 - - - \n- - - 12 - 14 8 \n12 - - - 10 - 5 \n- - 17 15 - 11 - \n3 7 - - 16 - - \n7 13 17 - - - - \n- - - - 9 6 5"
+    },
+    "149_8x8": {
+      "id": "149_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/149.a.htm",
+      "problem": "8 8\n- 10 - - 4 4 6 - \n7 - - - 7 7 - 10 \n- 15 15 10 - - 10 - \n11 - - - 10 9 9 - \n- 14 12 9 - - - 5 \n7 - - 8 16 - - 6 \n5 - 8 10 - - - 8 \n- 3 5 - - 10 8 -"
+    },
+    "150_8x8": {
+      "id": "150_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/150.a.htm",
+      "problem": "8 8\n- - - 10 - - 12 5 \n- 15 15 - 20 - - - \n10 - - - - 19 - 17 \n- 9 13 - - 18 - - \n11 17 - - - 13 - - \n- - - 23 18 - 14 - \n16 - - - - - 12 4 \n- - 15 12 14 - - -"
+    },
+    "151_4x4": {
+      "id": "151_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/151.a.htm",
+      "problem": "4 4\n- 3 5 - \n4 - 8 - \n5 - - 4 \n- 6 - 3"
+    },
+    "152_4x4": {
+      "id": "152_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/152.a.htm",
+      "problem": "4 4\n- 5 - 3 \n6 - 6 - \n- - 7 4 \n3 4 - -"
+    },
+    "153_5x5": {
+      "id": "153_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/153.a.htm",
+      "problem": "5 5\n- 8 - - 4 \n9 - - 9 - \n- - 9 10 - \n8 10 - - - \n- - 7 - 7"
+    },
+    "154_5x5": {
+      "id": "154_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/154.a.htm",
+      "problem": "5 5\n- 6 - - 6 \n9 - 11 - - \n- - 10 7 - \n- - - 10 6 \n3 7 - - -"
+    },
+    "155_6x6": {
+      "id": "155_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/155.a.htm",
+      "problem": "6 6\n- - 5 7 - 6 \n3 6 10 - - - \n3 8 - - 10 - \n- 14 - - 4 1 \n- - - 6 6 5 \n6 - 5 3 - -"
+    },
+    "156_6x6": {
+      "id": "156_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/156.a.htm",
+      "problem": "6 6\n- 12 - 10 - - \n- - - - 11 8 \n12 - - 12 - - \n- 13 11 - - - \n- - 13 - - 12 \n7 - - - 11 -"
+    },
+    "157_7x7": {
+      "id": "157_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/157.a.htm",
+      "problem": "7 7\n- 6 - 10 9 - - \n6 - 11 - - 15 - \n- 9 12 - - - 7 \n10 - - 10 - 15 - \n12 - - 12 10 - - \n- - 15 - - 9 7 \n- 11 - - 9 - 3"
+    },
+    "158_7x7": {
+      "id": "158_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/158.a.htm",
+      "problem": "7 7\n- 10 - - 8 6 - \n8 - - - - 7 3 \n12 - - - 12 10 - \n- - 14 11 - - 8 \n- 10 5 - 13 - - \n- 8 7 9 - - - \n5 - - 5 - - 10"
+    },
+    "159_8x8": {
+      "id": "159_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/159.a.htm",
+      "problem": "8 8\n- 11 - - - 4 0 0 \n- - - - 13 4 1 1 \n- - 18 - 9 3 7 - \n9 - 13 10 10 - - - \n4 7 - - - 19 - 11 \n7 10 - 9 - - - 9 \n- - 4 4 11 - 19 - \n7 7 3 1 - - - -"
+    },
+    "160_8x8": {
+      "id": "160_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/160.a.htm",
+      "problem": "8 8\n- - 12 - - - 10 2 \n- - - 17 20 - 18 - \n16 23 - - - 10 - - \n- - - 19 9 12 - - \n14 24 - - - - - 14 \n- 14 - - 16 19 - - \n11 - 12 - - - - 12 \n- - 8 12 - - 12 -"
+    },
+    "161_4x4": {
+      "id": "161_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/161.a.htm",
+      "problem": "4 4\n- - 3 1 \n- 6 6 - \n3 6 - - \n1 - - 5"
+    },
+    "162_5x5": {
+      "id": "162_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/162.a.htm",
+      "problem": "5 5\n- 8 - - 4 \n- 12 - 11 - \n- - 10 9 - \n9 - - - 8 \n5 - 9 - -"
+    },
+    "163_5x5": {
+      "id": "163_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/163.a.htm",
+      "problem": "5 5\n- 8 - - 4 \n- - 12 10 - \n9 - - - 7 \n- 10 12 - - \n4 - - 8 -"
+    },
+    "164_5x5": {
+      "id": "164_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/164.a.htm",
+      "problem": "5 5\n- - - 6 1 \n- 14 - - 4 \n5 - - 13 - \n6 - 9 - - \n- 4 6 - -"
+    },
+    "165_6x6": {
+      "id": "165_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/165.a.htm",
+      "problem": "6 6\n- - - 6 6 4 \n4 9 10 - - - \n1 - - 14 - 9 \n4 7 - - - 7 \n- 9 8 - 9 - \n- - 4 1 4 -"
+    },
+    "166_6x6": {
+      "id": "166_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/166.a.htm",
+      "problem": "6 6\n- - 8 - 12 - \n- 14 - 8 - - \n- - 14 11 - - \n9 - - - 14 - \n7 - - - - 8 \n- 10 - - - 7"
+    },
+    "167_7x7": {
+      "id": "167_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/167.a.htm",
+      "problem": "7 7\n- - 9 - 5 8 - \n- - 13 10 12 - - \n6 9 - - - - 11 \n8 - 13 - - 14 - \n- - - 17 14 - 5 \n11 18 - - - 10 - \n- 10 - 12 - - 4"
+    },
+    "168_7x7": {
+      "id": "168_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/168.a.htm",
+      "problem": "7 7\n- 8 - - 8 - 7 \n6 - - 15 - 13 - \n- 11 12 - - 15 - \n11 - - 13 - - 6 \n- - 9 11 - 15 - \n- 14 12 - 12 - - \n6 - - - 10 - 7"
+    },
+    "169_8x8": {
+      "id": "169_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/169.a.htm",
+      "problem": "8 8\n- 8 - - 10 6 - 2 \n7 - - - - 11 9 8 \n- 8 7 9 12 - - - \n8 - 10 7 - - 15 - \n7 - - - 8 9 - 9 \n- 14 - 13 11 11 - - \n8 - 7 - - - 13 7 \n- 6 3 5 - - 9 -"
+    },
+    "170_8x8": {
+      "id": "170_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/170.a.htm",
+      "problem": "8 8\n- 9 - 14 - 11 - - \n1 13 - - 17 - - - \n5 12 - - - 19 - - \n- - 18 17 - - - 10 \n- - - - 13 - 18 14 \n- - 18 11 - 14 - - \n15 - - - 18 - 16 - \n- - 14 - - - 7 1"
+    },
+    "171_4x4": {
+      "id": "171_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/171.a.htm",
+      "problem": "4 4\n- 4 5 - \n3 - - 6 \n5 8 - - \n- - 4 3"
+    },
+    "172_4x4": {
+      "id": "172_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/172.a.htm",
+      "problem": "4 4\n- 4 3 - \n- 7 - 5 \n5 - - 4 \n3 - 6 -"
+    },
+    "173_5x5": {
+      "id": "173_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/173.a.htm",
+      "problem": "5 5\n- 8 - 9 - \n- 12 - - 6 \n- - 12 - 7 \n9 - 12 - - \n5 - - 7 -"
+    },
+    "174_5x5": {
+      "id": "174_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/174.a.htm",
+      "problem": "5 5\n- 9 - 8 - \n8 - - 10 - \n- - 9 - 7 \n- 9 10 - - \n4 - - - 7"
+    },
+    "175_5x5": {
+      "id": "175_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/175.a.htm",
+      "problem": "5 5\n- - 9 - 4 \n8 - - 10 - \n- 12 - 12 - \n- 10 - - 8 \n4 - 7 - -"
+    },
+    "176_5x5": {
+      "id": "176_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/176.a.htm",
+      "problem": "5 5\n- 8 - 8 - \n4 - - - 8 \n8 11 - - - \n- - 9 - 8 \n- - 4 4 -"
+    },
+    "177_5x5": {
+      "id": "177_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/177.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - 22 - \n14 - - - - \n- - 20 - - \n- - - - 4"
+    },
+    "178_5x5": {
+      "id": "178_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/178.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "179_6x6": {
+      "id": "179_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/179.a.htm",
+      "problem": "6 6\n- 7 6 - - - \n- - - 19 - 13 \n- 16 - - - 9 \n11 - - - 11 - \n- - - 11 10 - \n10 - 11 - - -"
+    },
+    "181_4x4": {
+      "id": "181_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/181.a.htm",
+      "problem": "4 4\n- - 3 1 \n- 8 - 4 \n3 6 - - \n1 - 6 -"
+    },
+    "182_5x5": {
+      "id": "182_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/182.a.htm",
+      "problem": "5 5\n- 7 - - 5 \n6 - - - 6 \n- 11 - 11 - \n8 - 7 - - \n- - 4 6 -"
+    },
+    "183_5x5": {
+      "id": "183_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/183.a.htm",
+      "problem": "5 5\n- - - 6 3 \n7 - - - 8 \n6 - 10 - - \n- 9 7 - - \n- 8 - 7 -"
+    },
+    "184_5x5": {
+      "id": "184_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/184.a.htm",
+      "problem": "5 5\n- - 9 7 - \n7 - - - 7 \n- 9 - 13 - \n7 - 9 - - \n- 7 - - 5"
+    },
+    "185_5x5": {
+      "id": "185_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/185.a.htm",
+      "problem": "5 5\n- 6 - 11 - \n4 9 - - - \n- - 9 10 - \n- - 10 - 6 \n8 - - - 3"
+    },
+    "186_5x5": {
+      "id": "186_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/186.a.htm",
+      "problem": "5 5\n- - 7 9 - \n4 7 - - - \n6 - 13 - - \n- - - 9 6 \n- 11 - - 1"
+    },
+    "187_5x5": {
+      "id": "187_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/187.a.htm",
+      "problem": "5 5\n- - 14 - - \n9 - - - - \n- - - 20 - \n- 22 - - - \n- - - - 4"
+    },
+    "188_5x5": {
+      "id": "188_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/188.a.htm",
+      "problem": "5 5\n- - 8 - 5 \n7 - - 11 - \n5 - - - 8 \n- 11 10 - - \n- 6 - 7 -"
+    },
+    "189_6x6": {
+      "id": "189_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/189.a.htm",
+      "problem": "6 6\n- - - 7 10 - \n- 13 14 - - - \n7 - - - 22 - \n6 - 16 - - - \n- 17 - - - 9 \n- - - 11 - 3"
+    },
+    "190_7x7": {
+      "id": "190_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/190.a.htm",
+      "problem": "7 7\n- - - 8 10 - - \n11 - - 15 - - - \n- 21 - - - - 15 \n- - - - 20 - 11 \n- - 22 - - 12 - \n- 17 - - - 16 - \n6 - 15 - - - -"
+    },
+    "191_4x4": {
+      "id": "191_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/191.a.htm",
+      "problem": "4 4\n- 6 - 3 \n5 - - 4 \n- 6 7 - \n3 - 4 -"
+    },
+    "192_4x4": {
+      "id": "192_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/192.a.htm",
+      "problem": "4 4\n- - 5 3 \n5 6 - - \n- 6 7 - \n3 - - 3"
+    },
+    "193_5x5": {
+      "id": "193_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/193.a.htm",
+      "problem": "5 5\n- - 5 6 - \n- 14 - - 4 \n- - - 10 4 \n6 10 - - - \n1 - 9 - -"
+    },
+    "194_5x5": {
+      "id": "194_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/194.a.htm",
+      "problem": "5 5\n- 5 - - 7 \n6 - 14 - - \n7 - - - 7 \n- 13 - 9 - \n- - 4 6 -"
+    },
+    "195_5x5": {
+      "id": "195_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/195.a.htm",
+      "problem": "5 5\n- 7 - 8 - \n6 - - 12 - \n- 13 - - 5 \n- - 12 - 7 \n6 - 8 - -"
+    },
+    "196_5x5": {
+      "id": "196_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/196.a.htm",
+      "problem": "5 5\n- 7 6 - - \n- - - 10 8 \n9 - 9 - - \n- 11 - 11 - \n4 - - - 4"
+    },
+    "197_5x5": {
+      "id": "197_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/197.a.htm",
+      "problem": "5 5\n- - - 14 - \n11 - - - - \n- - 19 - - \n- - - - 9 \n- 16 - - -"
+    },
+    "198_5x5": {
+      "id": "198_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/198.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "199_6x6": {
+      "id": "199_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/199.a.htm",
+      "problem": "6 6\n- 9 - 8 - - \n- - 11 - 14 - \n- - 16 - - 7 \n14 - - - - 6 \n- - - 19 16 - \n3 9 - - - -"
+    },
+    "200_7x7": {
+      "id": "200_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/200.a.htm",
+      "problem": "7 7\n- - - - - 11 3 \n- 18 21 - - - - \n- 16 - - 23 - - \n- - - 15 20 - - \n- - 19 - - - 13 \n12 - - - - 22 - \n5 - - 11 - - -"
+    },
+    "201_5x5": {
+      "id": "201_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/201.a.htm",
+      "problem": "5 5\n- - 5 6 - \n- 11 - - 7 \n4 9 - - - \n6 - 13 - - \n- - - 6 5"
+    },
+    "202_5x5": {
+      "id": "202_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/202.a.htm",
+      "problem": "5 5\n- 7 - 8 - \n8 - - 10 - \n- - 11 - 5 \n- 11 - - 7 \n4 - 9 - -"
+    },
+    "203_5x5": {
+      "id": "203_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/203.a.htm",
+      "problem": "5 5\n- - - 6 3 \n8 - - - 4 \n- 9 - 13 - \n6 - 7 - - \n- 4 4 - -"
+    },
+    "204_5x5": {
+      "id": "204_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/204.a.htm",
+      "problem": "5 5\n- 8 - - - \n8 - - - - \n- - - 16 - \n- - 16 - - \n- - - - 4"
+    },
+    "206_6x6": {
+      "id": "206_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/206.a.htm",
+      "problem": "6 6\n- - - - 9 3 \n- 16 19 - - - \n11 - - - - 8 \n- - 14 - 14 - \n- 14 - 11 - - \n5 - - 8 - -"
+    },
+    "207_6x6": {
+      "id": "207_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/207.a.htm",
+      "problem": "6 6\n- - 7 11 - - \n9 - 11 - - - \n- - - 17 19 - \n9 17 - - - - \n- 20 - - - 4 \n- - - - 4 1"
+    },
+    "208_6x6": {
+      "id": "208_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/208.a.htm",
+      "problem": "6 6\n- 7 7 - - - \n- - - 14 16 - \n9 - - - - 8 \n7 14 - - - - \n- - 14 16 - - \n- - - - 8 7"
+    },
+    "209_6x6": {
+      "id": "209_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/209.a.htm",
+      "problem": "6 6\n- 4 - 12 - - \n8 11 - - - - \n- - 14 - 16 - \n- - - 13 - 8 \n12 - 18 - - - \n- - - - 7 3"
+    },
+    "210_6x6": {
+      "id": "210_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/210.a.htm",
+      "problem": "6 6\n- 9 - - - 4 \n- - - - 17 9 \n14 - 16 - - - \n- - 11 10 - - \n12 17 - - - - \n- - - 10 10 -"
+    },
+    "211_5x5": {
+      "id": "211_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/211.a.htm",
+      "problem": "5 5\n- - 8 - 5 \n7 - - 11 - \n- 9 7 - - \n- 11 - 11 - \n5 - - - 3"
+    },
+    "212_5x5": {
+      "id": "212_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/212.a.htm",
+      "problem": "5 5\n- - - 7 5 \n7 - 12 - - \n6 - - 12 - \n- 11 9 - - \n- 8 - - 4"
+    },
+    "213_5x5": {
+      "id": "213_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/213.a.htm",
+      "problem": "5 5\n- - 6 8 - \n7 - 9 - - \n- 12 - - 6 \n- - - 10 4 \n5 9 - - -"
+    },
+    "214_5x5": {
+      "id": "214_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/214.a.htm",
+      "problem": "5 5\n- - - - 7 \n- 22 - - - \n- - - 19 - \n13 - - - - \n- - 9 - -"
+    },
+    "215_5x5": {
+      "id": "215_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/215.a.htm",
+      "problem": "5 5\n- - - - 6 \n- 21 - - - \n- - - 18 - \n- - 14 - - \n7 - - - -"
+    },
+    "216_6x6": {
+      "id": "216_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/216.a.htm",
+      "problem": "6 6\n- 10 - 9 - - \n- - 14 - - 8 \n- - - - 10 4 \n9 - 19 - - - \n7 11 - - - - \n- - - 11 13 -"
+    },
+    "217_6x6": {
+      "id": "217_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/217.a.htm",
+      "problem": "6 6\n- - 12 - 14 - \n7 - 19 - - - \n6 - - - - 13 \n- 17 - 13 - - \n- - - 10 11 - \n- 14 - - - 5"
+    },
+    "218_6x6": {
+      "id": "218_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/218.a.htm",
+      "problem": "6 6\n- - 7 9 - - \n9 - - 14 - - \n- - 16 - - 12 \n12 16 - - - - \n- - - - 13 4 \n- 14 - - 6 -"
+    },
+    "219_6x6": {
+      "id": "219_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/219.a.htm",
+      "problem": "6 6\n- 10 - 12 - - \n- 16 - - 14 - \n9 - - 17 - - \n13 - - - - 7 \n- - 16 - - 7 \n- - 8 - 10 -"
+    },
+    "220_6x6": {
+      "id": "220_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/220.a.htm",
+      "problem": "6 6\n- - 9 6 - - \n- - - - 17 12 \n13 - 16 - - - \n- - - 16 - 10 \n- 17 - - 13 - \n4 11 - - - -"
+    },
+    "221_5x5": {
+      "id": "221_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/221.a.htm",
+      "problem": "5 5\n- - - 9 5 \n8 12 - - - \n- - 11 - 9 \n9 - - 9 - \n- 6 5 - -"
+    },
+    "222_5x5": {
+      "id": "222_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/222.a.htm",
+      "problem": "5 5\n- 6 7 - - \n9 - - 9 - \n- - - 7 4 \n- - 11 - 6 \n3 6 - - -"
+    },
+    "223_6x6": {
+      "id": "223_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/223.a.htm",
+      "problem": "6 6\n- 4 8 - 8 - \n5 - 11 - 11 - \n7 - - 10 - 6 \n- 12 - 12 - 5 \n7 - - - 7 6 \n- 7 6 5 - -"
+    },
+    "224_6x6": {
+      "id": "224_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/224.a.htm",
+      "problem": "6 6\n- 4 1 5 - - \n- - 7 8 - 8 \n11 - - - 4 3 \n- - - 8 7 3 \n5 9 11 - - - \n0 3 - - 9 -"
+    },
+    "225_7x7": {
+      "id": "225_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/225.a.htm",
+      "problem": "7 7\n- 3 4 - - - 6 \n- 7 11 16 - - - \n11 - 10 - - - 8 \n- - - 8 10 12 - \n- 16 - 7 5 - - \n8 - - - 8 11 - \n5 - - - - 5 4"
+    },
+    "226_7x7": {
+      "id": "226_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/226.a.htm",
+      "problem": "7 7\n- - - 10 - 12 7 \n10 13 11 - - - - \n- - 13 7 10 - - \n- - - 5 7 - 9 \n- 14 12 - 10 - - \n5 8 - - - 14 - \n1 - - - - 9 4"
+    },
+    "227_8x8": {
+      "id": "227_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/227.a.htm",
+      "problem": "8 8\n- 5 11 - 7 3 - - \n1 8 - - 13 7 - - \n0 9 - - 17 - 11 - \n4 10 - - - - 10 1 \n11 - - 13 - - 6 0 \n- - 9 6 - - 10 7 \n- - 6 3 4 11 - - \n- - 3 1 - 8 - 11"
+    },
+    "228_8x8": {
+      "id": "228_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/228.a.htm",
+      "problem": "8 8\n- 7 - 9 7 - - 6 \n3 9 - 10 - - 17 - \n- 7 10 - 14 - - 9 \n11 - 13 - - 8 10 - \n- - 15 - 10 5 7 - \n- - 13 - 7 6 - 8 \n8 - - 12 - 13 10 - \n4 8 - 10 - - - 4"
+    },
+    "229_9x9": {
+      "id": "229_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/229.a.htm",
+      "problem": "9 9\n- - - 13 5 11 - 14 - \n3 13 - 24 - 16 - - - \n7 12 - - - 14 - - 13 \n- - 17 - 12 - 14 19 - \n17 - - 8 9 9 - - - \n- - 17 - - - 18 12 9 \n14 15 - - - - 16 - 6 \n- - 11 13 22 - - 12 - \n- 10 6 - - - 11 - 5"
+    },
+    "230_9x9": {
+      "id": "230_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/230.a.htm",
+      "problem": "9 9\n- 11 8 - - - - 9 5 \n- - - 13 17 19 17 - - \n- - 17 - - 9 - 17 12 \n15 - - 14 13 - 12 - - \n- - 17 15 - 14 14 - - \n7 15 - - - - - 16 12 \n0 12 - 16 13 - - - - \n5 12 - - 15 - - 18 - \n- - 12 - - 9 6 - 6"
+    },
+    "231_5x5": {
+      "id": "231_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/231.a.htm",
+      "problem": "5 5\n- - - 6 1 \n- 12 - 11 - \n6 - 7 - - \n- 7 10 - - \n5 - - - 6"
+    },
+    "232_5x5": {
+      "id": "232_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/232.a.htm",
+      "problem": "5 5\n- - 8 6 - \n9 - - 9 - \n- 12 - - 6 \n6 - - - 9 \n- 5 7 - -"
+    },
+    "233_6x6": {
+      "id": "233_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/233.a.htm",
+      "problem": "6 6\n- - - 7 5 3 \n8 - 8 - - 6 \n- 9 6 9 - - \n- 8 - 7 10 - \n4 8 10 - - - \n2 - - - 9 5"
+    },
+    "234_6x6": {
+      "id": "234_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/234.a.htm",
+      "problem": "6 6\n- 4 5 7 - - \n4 9 - - 9 - \n3 - - - 10 4 \n6 8 10 - - - \n- - 7 8 - 6 \n- - - 4 3 3"
+    },
+    "235_7x7": {
+      "id": "235_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/235.a.htm",
+      "problem": "7 7\n- 6 8 - 11 - - \n- 12 - - - 12 8 \n7 - - 18 - - 5 \n- 17 - - 9 10 - \n- - - 13 - 13 7 \n12 - 12 10 - - - \n7 - 8 - 10 - -"
+    },
+    "236_7x7": {
+      "id": "236_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/236.a.htm",
+      "problem": "7 7\n- - 5 7 - 14 - \n8 11 - 12 - - - \n- - 13 - - 12 7 \n- - 14 - 13 - 3 \n- 14 - - 15 - 7 \n5 12 - - 14 - - \n1 - - 12 - 9 -"
+    },
+    "237_8x8": {
+      "id": "237_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/237.a.htm",
+      "problem": "8 8\n- 1 7 - - 7 9 - \n4 8 14 - - - 12 - \n9 - - 11 9 - - 5 \n- - - 8 4 9 - 6 \n12 - 11 - 6 - - 8 \n- 7 - 7 - 15 17 - \n6 9 6 - 12 - - - \n- - - 8 - 11 8 5"
+    },
+    "238_8x8": {
+      "id": "238_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/238.a.htm",
+      "problem": "8 8\n- - 4 5 - - 8 1 \n- 13 10 9 - - - 4 \n4 - - 12 11 - 14 - \n5 11 - - 9 11 - - \n- 10 9 - - 13 - 10 \n- 12 - - 11 9 - 7 \n8 - - - 9 6 11 - \n4 - 11 8 - - 8 -"
+    },
+    "239_9x9": {
+      "id": "239_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/239.a.htm",
+      "problem": "9 9\n- 6 10 - 12 9 - - - \n6 - 13 - - - 12 19 - \n5 5 11 - - 22 - - - \n8 12 12 - - - 11 - - \n- - - 18 - - 11 5 5 \n18 - - 15 - - 11 6 - \n- - - 16 11 - - 13 5 \n- 18 - - 6 13 - - 9 \n- - - 8 5 7 - - 9"
+    },
+    "240_9x9": {
+      "id": "240_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/240.a.htm",
+      "problem": "9 9\n- 12 - - - 11 - 8 3 \n- 18 - 20 15 - 14 - - \n11 - - - - 14 - 7 3 \n- 13 - - - - 15 12 7 \n7 - 14 21 22 - - - - \n- 12 - 10 - - 20 - 17 \n10 - 14 - 11 13 - - - \n13 - 11 - - 10 - 24 - \n- - 7 3 7 - 10 - -"
+    },
+    "241_5x5": {
+      "id": "241_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/241.a.htm",
+      "problem": "5 5\n- 9 - - 3 \n- - 11 9 - \n- - 9 - 8 \n6 9 - - - \n3 - - 9 -"
+    },
+    "242_5x5": {
+      "id": "242_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/242.a.htm",
+      "problem": "5 5\n- 6 9 - - \n7 - - - 9 \n- - 12 12 - \n8 12 - - - \n- - - 7 3"
+    },
+    "243_5x5": {
+      "id": "243_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/243.a.htm",
+      "problem": "5 5\n- - - 9 5 \n8 12 - - - \n- - 12 12 - \n9 - - - 7 \n- 6 7 - -"
+    },
+    "244_5x5": {
+      "id": "244_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/244.a.htm",
+      "problem": "5 5\n- 8 - 7 - \n- - 7 - 8 \n- 11 9 - - \n7 - - 11 - \n5 - - - 4"
+    },
+    "245_5x5": {
+      "id": "245_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/245.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "246_6x6": {
+      "id": "246_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/246.a.htm",
+      "problem": "6 6\n- 6 8 - - 3 \n9 - - 8 6 - \n- - - 7 4 3 \n5 9 - - 9 - \n3 6 7 - - - \n- - 3 6 - 7"
+    },
+    "247_6x6": {
+      "id": "247_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/247.a.htm",
+      "problem": "6 6\n- 4 6 - - 5 \n7 - - 6 10 - \n- - 4 4 9 - \n- 9 6 9 - - \n5 10 - - - 5 \n3 - - - 4 1"
+    },
+    "248_6x6": {
+      "id": "248_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/248.a.htm",
+      "problem": "6 6\n- 7 - 6 5 - \n7 - 9 - - 6 \n- - 9 4 7 - \n- - 6 - 8 7 \n5 8 - 12 - - \n0 3 - - - 6"
+    },
+    "249_6x6": {
+      "id": "249_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/249.a.htm",
+      "problem": "6 6\n- - - - 9 3 \n- 16 14 - - - \n- - 8 14 - - \n10 - - 11 - - \n7 - - - 16 - \n- 11 - - - 5"
+    },
+    "250_6x6": {
+      "id": "250_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/250.a.htm",
+      "problem": "6 6\n- 10 - 12 - - \n- 14 - - 16 - \n- - 13 - 14 - \n- - 14 - - 9 \n13 - - 16 - - \n7 - - - - 6"
+    },
+    "251_5x5": {
+      "id": "251_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/251.a.htm",
+      "problem": "5 5\n- 7 6 - - \n- - - 9 6 \n11 - - - 4 \n- - 12 12 - \n3 6 - - -"
+    },
+    "252_5x5": {
+      "id": "252_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/252.a.htm",
+      "problem": "5 5\n- 6 - - 6 \n6 11 - - - \n- - 9 10 - \n11 - - 7 - \n- - 8 - 5"
+    },
+    "253_5x5": {
+      "id": "253_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/253.a.htm",
+      "problem": "5 5\n- - 7 - 4 \n- 14 - 7 - \n- - - 9 6 \n6 - 11 - - \n1 4 - - -"
+    },
+    "254_5x5": {
+      "id": "254_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/254.a.htm",
+      "problem": "5 5\n- - 9 - 5 \n- 12 - - 6 \n- 12 - 12 - \n6 - - 12 - \n3 - 7 - -"
+    },
+    "255_5x5": {
+      "id": "255_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/255.a.htm",
+      "problem": "5 5\n- - - - 6 \n- 21 - - - \n- - - 18 - \n- - 14 - - \n7 - - - -"
+    },
+    "256_5x5": {
+      "id": "256_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/256.a.htm",
+      "problem": "5 5\n- - - - 7 \n- 22 - - - \n- - - 19 - \n13 - - - - \n- - 9 - -"
+    },
+    "257_6x6": {
+      "id": "257_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/257.a.htm",
+      "problem": "6 6\n- 1 3 8 - - \n5 7 6 - - - \n- - - 10 9 4 \n9 - 9 - - 4 \n- 11 - 8 7 - \n4 - - - 4 3"
+    },
+    "258_6x6": {
+      "id": "258_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/258.a.htm",
+      "problem": "6 6\n- 8 - - 4 1 \n- - 10 6 7 - \n11 - 9 4 - - \n- - - 10 8 6 \n3 7 - - - 8 \n0 1 4 - - -"
+    },
+    "259_6x6": {
+      "id": "259_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/259.a.htm",
+      "problem": "6 6\n- - 8 - 7 3 \n8 10 - - - 4 \n- - 7 9 10 - \n6 10 - 8 - - \n4 - - - 10 8 \n- 7 6 6 - -"
+    },
+    "260_6x6": {
+      "id": "260_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/260.a.htm",
+      "problem": "6 6\n- 11 - - - 7 \n12 - - 13 - - \n- - - 8 11 - \n- - 14 - 14 - \n8 11 - - - - \n- - 8 - - 10"
+    },
+    "261_5x5": {
+      "id": "261_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/261.a.htm",
+      "problem": "5 5\n- 7 - 8 - \n6 - - 12 - \n9 - 12 - - \n- - 12 - 7 \n- 9 - - 3"
+    },
+    "262_5x5": {
+      "id": "262_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/262.a.htm",
+      "problem": "5 5\n- - - 6 3 \n- 14 11 - - \n- - 9 - 7 \n6 - - 12 - \n1 4 - - -"
+    },
+    "263_5x5": {
+      "id": "263_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/263.a.htm",
+      "problem": "5 5\n- - 9 - 4 \n7 - - 11 - \n6 - 9 - - \n- 10 - 11 - \n- 8 - - 4"
+    },
+    "264_5x5": {
+      "id": "264_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/264.a.htm",
+      "problem": "5 5\n- - - 6 3 \n9 - - - 6 \n- 7 10 - - \n6 - 7 - - \n- 6 - 9 -"
+    },
+    "265_6x6": {
+      "id": "265_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/265.a.htm",
+      "problem": "6 6\n- 4 4 - - 5 \n- 7 - 10 - 7 \n7 - 10 - 7 - \n9 - - 6 4 - \n- - - 8 7 5 \n4 6 5 - - -"
+    },
+    "266_6x6": {
+      "id": "266_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/266.a.htm",
+      "problem": "6 6\n- 4 6 - 8 - \n- 10 - - 8 3 \n- - - 10 9 5 \n6 11 9 - - - \n5 - - 10 - 9 \n5 - 8 6 - -"
+    },
+    "267_6x6": {
+      "id": "267_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/267.a.htm",
+      "problem": "6 6\n- 4 5 - 8 - \n4 9 - 10 - - \n3 - - 12 - 9 \n8 11 9 - - - \n- - - 8 9 5 \n- - 7 - 3 0"
+    },
+    "268_6x6": {
+      "id": "268_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/268.a.htm",
+      "problem": "6 6\n- 6 - - 6 3 \n7 - 12 10 - - \n- - - 9 9 8 \n3 7 8 - - - \n5 6 - - 12 - \n- - 5 4 - 4"
+    },
+    "269_7x7": {
+      "id": "269_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/269.a.htm",
+      "problem": "7 7\n- - - 7 9 - 5 \n- 11 12 - - 13 - \n7 - 10 - 14 - - \n9 - - 9 10 - - \n- - - 12 - 10 7 \n- 16 - - - 10 3 \n3 7 8 - - - -"
+    },
+    "270_7x7": {
+      "id": "270_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/270.a.htm",
+      "problem": "7 7\n- 5 - 13 - - 6 \n8 12 - - - 14 - \n- - 14 - 9 12 - \n14 - 15 - - 9 - \n- - - 16 14 - 7 \n8 14 - - - - 9 \n- - 8 9 12 - -"
+    },
+    "271_5x5": {
+      "id": "271_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/271.a.htm",
+      "problem": "5 5\n- 7 - - 5 \n7 - - 11 - \n- - 10 9 - \n9 - - - 7 \n- 7 9 - -"
+    },
+    "272_5x5": {
+      "id": "272_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/272.a.htm",
+      "problem": "5 5\n- 4 6 - - \n- 7 - - 11 \n7 - 13 - - \n9 - - 9 - \n- - - 6 1"
+    },
+    "273_6x6": {
+      "id": "273_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/273.a.htm",
+      "problem": "6 6\n- 6 5 - 6 - \n- - 10 9 - 4 \n8 12 - - 6 - \n3 - - 14 - 6 \n6 9 - - - 8 \n- - 4 6 7 -"
+    },
+    "274_6x6": {
+      "id": "274_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/274.a.htm",
+      "problem": "6 6\n- 6 - 8 6 - \n6 11 - 9 - - \n- - 6 - 8 7 \n- - 9 4 7 - \n6 - 10 - - 6 \n3 4 - - - 3"
+    },
+    "275_6x6": {
+      "id": "275_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/275.a.htm",
+      "problem": "6 6\n- 6 - 8 - 4 \n6 - 10 - - 5 \n- 12 - 6 6 - \n- - 7 4 7 - \n6 - 8 - 11 - \n2 3 - - - 5"
+    },
+    "276_6x6": {
+      "id": "276_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/276.a.htm",
+      "problem": "6 6\n- 6 - - 6 1 \n- 10 12 - - 3 \n9 - - 7 8 - \n- - 8 6 - 7 \n6 8 - - 10 - \n2 - 5 6 - -"
+    },
+    "277_6x6": {
+      "id": "277_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/277.a.htm",
+      "problem": "6 6\n- 6 - 5 6 - \n7 - 10 - - 5 \n- - - 7 4 3 \n- - 10 8 - 3 \n5 6 - - 12 - \n0 1 6 - - -"
+    },
+    "278_6x6": {
+      "id": "278_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/278.a.htm",
+      "problem": "6 6\n- - 8 - 6 1 \n- 8 10 - - 5 \n5 8 - 12 - - \n- 10 - 11 - 8 \n6 - - 7 8 - \n3 - 7 - 6 -"
+    },
+    "279_7x7": {
+      "id": "279_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/279.a.htm",
+      "problem": "7 7\n- - - - 8 9 7 \n8 - 17 14 - - - \n- 13 - - 10 13 - \n- 14 - 15 13 - - \n9 - 7 - - - 12 \n- 10 9 12 - - - \n7 - - - - 10 5"
+    },
+    "280_7x7": {
+      "id": "280_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/280.a.htm",
+      "problem": "7 7\n- - 11 7 - 8 - \n12 - - 10 - 11 - \n- 17 - - 10 - 6 \n9 - - - 16 10 - \n- 11 16 - - - 7 \n6 - - - 18 - 11 \n- 5 6 8 - - -"
+    },
+    "281_5x5": {
+      "id": "281_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/281.a.htm",
+      "problem": "5 5\n- 8 - - - \n8 - - - - \n- - - 16 - \n- - 16 - - \n- - - - 4"
+    },
+    "282_5x5": {
+      "id": "282_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/282.a.htm",
+      "problem": "5 5\n- - - - 7 \n- 22 - - - \n- - - 19 - \n13 - - - - \n- - 9 - -"
+    },
+    "283_5x5": {
+      "id": "283_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/283.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "284_5x5": {
+      "id": "284_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/284.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - 22 - \n14 - - - - \n- - 20 - - \n- - - - 4"
+    },
+    "285_5x5": {
+      "id": "285_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/285.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "286_6x6": {
+      "id": "286_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/286.a.htm",
+      "problem": "6 6\n- - - 7 10 - \n- 13 14 - - - \n12 - - - 14 - \n- - - 16 - 10 \n10 - 16 - - - \n- 8 - - - 8"
+    },
+    "287_6x6": {
+      "id": "287_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/287.a.htm",
+      "problem": "6 6\n- - 9 13 - - \n7 12 - - - - \n- 17 - - - 4 \n- - - - 11 5 \n- - 16 - 12 - \n6 - - 8 - -"
+    },
+    "288_6x6": {
+      "id": "288_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/288.a.htm",
+      "problem": "6 6\n- - 7 8 - - \n- 14 - - 16 - \n- - 16 - - 5 \n- - - - 14 7 \n8 16 - - - - \n1 - - 14 - -"
+    },
+    "289_6x6": {
+      "id": "289_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/289.a.htm",
+      "problem": "6 6\n- 10 - - 10 - \n- - 14 16 - - \n- 18 - - - 8 \n9 - - - 14 - \n11 - - 14 - - \n- - 9 - - 8"
+    },
+    "290_6x6": {
+      "id": "290_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/290.a.htm",
+      "problem": "6 6\n- 11 - 11 - - \n10 - - - 14 - \n- - 19 - - 8 \n12 16 - - - - \n- - - - 16 10 \n- - 7 6 - -"
+    },
+    "291_5x5": {
+      "id": "291_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/291.a.htm",
+      "problem": "5 5\n- - 14 - - \n9 - - - - \n- - - 20 - \n- 22 - - - \n- - - - 4"
+    },
+    "292_5x5": {
+      "id": "292_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/292.a.htm",
+      "problem": "5 5\n- - - 14 - \n11 - - - - \n- - 19 - - \n- - - - 9 \n- 16 - - -"
+    },
+    "293_5x5": {
+      "id": "293_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/293.a.htm",
+      "problem": "5 5\n- - - - 6 \n- 21 - - - \n- - - 18 - \n- - 14 - - \n7 - - - -"
+    },
+    "294_5x5": {
+      "id": "294_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/294.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "296_6x6": {
+      "id": "296_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/296.a.htm",
+      "problem": "6 6\n- 8 - - 12 - \n- - 16 - 17 - \n- - 14 - - 7 \n- - - 13 - 7 \n11 - - 16 - - \n4 9 - - - -"
+    },
+    "298_6x6": {
+      "id": "298_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/298.a.htm",
+      "problem": "6 6\n- - 9 13 - - \n4 11 - - - - \n8 - - 19 - - \n- - - - 11 6 \n- 19 - - - 5 \n- - 9 - 9 -"
+    },
+    "299_6x6": {
+      "id": "299_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/299.a.htm",
+      "problem": "6 6\n- - 11 - - 6 \n- - 12 14 - - \n- 16 - 11 - - \n- 14 - - 16 - \n7 - - - 14 - \n3 - - - - 5"
+    },
+    "300_6x6": {
+      "id": "300_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/300.a.htm",
+      "problem": "6 6\n- - 9 - - 10 \n4 11 - - - - \n6 - - - - 10 \n- - 16 - 14 - \n- 19 - 8 - - \n- - - 4 6 -"
+    },
+    "301_5x5": {
+      "id": "301_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/301.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - 22 - \n14 - - - - \n- - 20 - - \n- - - - 4"
+    },
+    "302_5x5": {
+      "id": "302_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/302.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "305_6x6": {
+      "id": "305_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/305.a.htm",
+      "problem": "6 6\n- 8 11 - - - \n5 - - - 18 - \n9 17 - - - - \n- - - 14 - 9 \n- - - 14 12 - \n- - 10 - - 4"
+    },
+    "306_6x6": {
+      "id": "306_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/306.a.htm",
+      "problem": "6 6\n- - - - 8 5 \n- - 13 11 - - \n10 - 8 - - - \n- 13 - 16 - - \n8 - - - - 8 \n- 9 - - 11 -"
+    },
+    "307_6x6": {
+      "id": "307_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/307.a.htm",
+      "problem": "6 6\n- - 14 - 8 - \n10 - - - 13 - \n8 - - 19 - - \n- 16 - - - 10 \n- - - 16 - 10 \n- 9 6 - - -"
+    },
+    "308_6x6": {
+      "id": "308_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/308.a.htm",
+      "problem": "6 6\n- 4 - - 16 - \n6 13 - - - - \n- - - 16 - 13 \n16 - 14 - - - \n- - 16 13 - - \n- - - - 7 3"
+    },
+    "311_5x5": {
+      "id": "311_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/311.a.htm",
+      "problem": "5 5\n- - - - 7 \n- 21 - - - \n- - - 14 - \n- - 18 - - \n6 - - - -"
+    },
+    "312_5x5": {
+      "id": "312_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/312.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - 22 - \n14 - - - - \n- - 20 - - \n- - - - 4"
+    },
+    "313_5x5": {
+      "id": "313_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/313.a.htm",
+      "problem": "5 5\n- - 14 - - \n9 - - - - \n- - - 20 - \n- 22 - - - \n- - - - 4"
+    },
+    "314_5x5": {
+      "id": "314_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/314.a.htm",
+      "problem": "5 5\n- - - 14 - \n11 - - - - \n- - 19 - - \n- - - - 9 \n- 16 - - -"
+    },
+    "315_6x6": {
+      "id": "315_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/315.a.htm",
+      "problem": "6 6\n- - - 9 - 5 \n- - - 14 8 - \n- 20 - - 10 - \n- 14 14 - - - \n7 - - - - 13 \n3 - 11 - - -"
+    },
+    "316_6x6": {
+      "id": "316_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/316.a.htm",
+      "problem": "6 6\n- - 11 - 10 - \n10 - - 16 - - \n- 11 - - - 12 \n- 13 11 - - - \n- - - 14 - 10 \n8 - - - 6 -"
+    },
+    "317_6x6": {
+      "id": "317_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/317.a.htm",
+      "problem": "6 6\n- - 10 - 11 - \n- - - 14 17 - \n12 19 - - - - \n- - - 18 - 7 \n- 17 - - - 9 \n5 - 8 - - -"
+    },
+    "318_6x6": {
+      "id": "318_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/318.a.htm",
+      "problem": "6 6\n- - - 6 9 - \n- 16 11 - - - \n- - 13 - - 10 \n10 - - - 14 - \n- 14 - 19 - - \n4 - - - - 8"
+    },
+    "319_7x7": {
+      "id": "319_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/319.a.htm",
+      "problem": "7 7\n- - 8 7 - - - \n- 17 - - 17 - - \n- - - - 20 26 - \n- 19 16 - - - - \n- - - - - 19 10 \n14 - - 27 - - - \n7 - - - - - 4"
+    },
+    "321_5x5": {
+      "id": "321_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/321.a.htm",
+      "problem": "5 5\n- - - - 7 \n- 21 - - - \n- - - 14 - \n- - 18 - - \n6 - - - -"
+    },
+    "322_5x5": {
+      "id": "322_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/322.a.htm",
+      "problem": "5 5\n- - 14 - - \n9 - - - - \n- - - 20 - \n- 22 - - - \n- - - - 4"
+    },
+    "323_5x5": {
+      "id": "323_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/323.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "324_5x5": {
+      "id": "324_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/324.a.htm",
+      "problem": "5 5\n- - - 13 - \n- 22 - - - \n- - - - 9 \n- - 19 - - \n7 - - - -"
+    },
+    "325_6x6": {
+      "id": "325_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/325.a.htm",
+      "problem": "6 6\n- - - - 11 7 \n10 - 16 - - - \n- 13 - 14 - - \n8 - - - 14 - \n- 14 - - - 10 \n- - 8 11 - -"
+    },
+    "326_6x6": {
+      "id": "326_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/326.a.htm",
+      "problem": "6 6\n- 12 - - - 4 \n- - - 14 11 - \n- - 14 - 8 - \n- - - 11 - 10 \n7 - 14 - - - \n4 5 - - - -"
+    },
+    "327_6x6": {
+      "id": "327_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/327.a.htm",
+      "problem": "6 6\n- 10 10 - - - \n- - - - 14 9 \n- - - 14 - 11 \n- 13 - 14 - - \n9 - 17 - - - \n7 - - - 9 -"
+    },
+    "328_6x6": {
+      "id": "328_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/328.a.htm",
+      "problem": "6 6\n- 5 7 - - - \n11 - 12 - - - \n- - - 12 11 - \n- - - - 8 4 \n9 - - 19 - - \n- 10 - - - 7"
+    },
+    "329_7x7": {
+      "id": "329_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/329.a.htm",
+      "problem": "7 7\n- 8 - - 13 - - \n- 18 17 - - - - \n- - - 17 - 18 - \n19 - - - 15 - - \n- - - 17 - - 13 \n- - 17 - - - 11 \n8 - - - - 13 -"
+    },
+    "330_7x7": {
+      "id": "330_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/330.a.htm",
+      "problem": "7 7\n- - - - 13 - 10 \n11 - - 19 - - - \n- 17 - - - - 15 \n- - 16 15 - - - \n14 - - - 15 - - \n- 19 - - - 16 - \n- - 15 - - 8 -"
+    },
+    "331_5x5": {
+      "id": "331_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/331.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - 22 - \n14 - - - - \n- - 20 - - \n- - - - 4"
+    },
+    "332_5x5": {
+      "id": "332_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/332.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "333_5x5": {
+      "id": "333_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/333.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "334_5x5": {
+      "id": "334_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/334.a.htm",
+      "problem": "5 5\n- 9 - - - \n- - - - 14 \n- - 19 - - \n16 - - - - \n- - - 11 -"
+    },
+    "335_5x5": {
+      "id": "335_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/335.a.htm",
+      "problem": "5 5\n- 8 - - - \n8 - - - - \n- - - 16 - \n- - 16 - - \n- - - - 4"
+    },
+    "336_6x6": {
+      "id": "336_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/336.a.htm",
+      "problem": "6 6\n- - 7 - 11 - \n- 17 - 11 - - \n- - - 13 - 7 \n- - 16 - - 9 \n6 13 - - - - \n1 - - - 12 -"
+    },
+    "337_6x6": {
+      "id": "337_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/337.a.htm",
+      "problem": "6 6\n- - - 9 - 5 \n- - - 17 12 - \n9 - - - - 10 \n7 - 13 - - - \n- 12 11 - - - \n- 11 - - 9 -"
+    },
+    "338_6x6": {
+      "id": "338_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/338.a.htm",
+      "problem": "6 6\n- 9 - 12 - - \n- - 8 - - 16 \n- 13 11 - - - \n12 - - 12 - - \n- - - - 11 4 \n9 - - - 8 -"
+    },
+    "339_6x6": {
+      "id": "339_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/339.a.htm",
+      "problem": "6 6\n- 11 - - 9 - \n8 - - 14 - - \n- - 14 - 18 - \n10 14 - - - - \n- - - 16 - 9 \n- - 10 - - 3"
+    },
+    "340_6x6": {
+      "id": "340_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/340.a.htm",
+      "problem": "6 6\n- 11 - - - 7 \n- - 16 17 - - \n- - - - 11 4 \n- - 17 - 16 - \n9 12 - - - - \n4 - - 9 - -"
+    },
+    "341_6x6": {
+      "id": "341_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/341.a.htm",
+      "problem": "6 6\n- 3 4 - - 7 \n6 - 8 9 - - \n7 - 10 - - 6 \n- 11 - - 7 3 \n- 12 - 9 6 - \n4 - - 5 3 -"
+    },
+    "342_6x6": {
+      "id": "342_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/342.a.htm",
+      "problem": "6 6\n- - - 5 3 3 \n4 - - 9 8 - \n6 9 - - 9 - \n- - 8 8 - 5 \n- 8 6 - - 7 \n3 3 3 - - -"
+    },
+    "343_6x6": {
+      "id": "343_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/343.a.htm",
+      "problem": "6 6\n- 5 4 - - 4 \n- 7 - 9 11 - \n- 9 6 7 - - \n6 - 8 - - 8 \n6 - - 9 7 - \n3 - - - 4 3"
+    },
+    "344_6x6": {
+      "id": "344_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/344.a.htm",
+      "problem": "6 6\n- 6 5 - - 3 \n- - 8 8 10 - \n8 11 - - 7 - \n6 - - 7 9 - \n- - 10 10 - 6 \n3 6 - - - 4"
+    },
+    "345_6x6": {
+      "id": "345_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/345.a.htm",
+      "problem": "6 6\n- - 6 4 - 3 \n- - - 9 6 4 \n5 9 - - 9 - \n1 4 9 - - - \n4 - 7 9 - - \n- 6 - - 6 5"
+    },
+    "346_6x6": {
+      "id": "346_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/346.a.htm",
+      "problem": "6 6\n- - 7 - 6 4 \n6 8 - 9 - - \n4 - 8 - - 8 \n- 8 7 - 10 - \n- 10 - 9 8 - \n4 - - 6 - 4"
+    },
+    "347_6x6": {
+      "id": "347_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/347.a.htm",
+      "problem": "6 6\n- - 8 - - 11 \n9 - 14 - - - \n- 14 - - 16 - \n- 19 - 14 - - \n- - - - 11 8 \n7 - - 10 - -"
+    },
+    "348_6x6": {
+      "id": "348_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/348.a.htm",
+      "problem": "6 6\n- - 11 - 9 - \n- 18 - - - 7 \n- - - 14 14 - \n9 - 17 - - - \n6 - - - - 13 \n- 10 - 12 - -"
+    },
+    "349_6x6": {
+      "id": "349_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/349.a.htm",
+      "problem": "6 6\n- 8 9 - - - \n8 - - 14 - - \n- - 16 - 16 - \n8 13 - - - - \n- - - - 11 6 \n- - - 8 - 1"
+    },
+    "350_6x6": {
+      "id": "350_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/350.a.htm",
+      "problem": "6 6\n- - - 7 11 - \n7 - - 14 - - \n9 - 16 - - - \n- - - - 13 6 \n- 20 - - - 4 \n- 11 9 - - -"
+    },
+    "351_6x6": {
+      "id": "351_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/351.a.htm",
+      "problem": "6 6\n- - 7 6 - 4 \n6 7 - - 11 - \n- 6 8 - - 8 \n5 - - 10 8 - \n6 - - 8 - 5 \n- 8 7 - 4 -"
+    },
+    "352_7x7": {
+      "id": "352_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/352.a.htm",
+      "problem": "7 7\n- 8 - 13 - - 4 \n- 13 - - - 16 7 \n9 - - 12 - - 9 \n12 - 12 7 - - - \n- - 13 - 11 13 - \n10 - 16 - 10 - - \n- 9 - - 7 5 -"
+    },
+    "353_7x7": {
+      "id": "353_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/353.a.htm",
+      "problem": "7 7\n- - 8 - - 7 3 \n- 16 - 15 13 - - \n- - - - 13 12 10 \n6 7 12 - - - - \n8 - 10 - - 17 - \n- - - 12 10 - 10 \n7 13 - 7 - - -"
+    },
+    "354_7x7": {
+      "id": "354_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/354.a.htm",
+      "problem": "7 7\n- - 12 - 12 - 7 \n4 - - - 17 - 11 \n8 14 - 14 - - - \n- - 7 12 - 16 - \n- 15 - 10 - 14 - \n9 13 - - 11 - - \n- - 11 - - 7 6"
+    },
+    "355_7x7": {
+      "id": "355_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/355.a.htm",
+      "problem": "7 7\n- 4 5 - 10 - - \n8 - 10 7 - - - \n9 - 12 - 15 - - \n- 13 - - 13 - 10 \n7 - - 18 - 9 - \n- 19 - - - 7 1 \n- - - 12 - 3 0"
+    },
+    "356_7x7": {
+      "id": "356_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/356.a.htm",
+      "problem": "7 7\n- 4 1 5 - - - \n- - 8 12 - - 14 \n7 12 - - 15 - - \n4 - - - 11 10 - \n11 18 - 13 - - - \n- - - - 10 10 5 \n- - 9 - - 4 0"
+    },
+    "357_7x7": {
+      "id": "357_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/357.a.htm",
+      "problem": "7 7\n- - 7 4 - 10 - \n- - 13 11 8 - - \n11 - - 8 - 14 - \n- 14 10 - 11 - - \n- 12 - - 14 - 9 \n5 - - - - 10 7 \n1 6 - - - - 4"
+    },
+    "358_7x7": {
+      "id": "358_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/358.a.htm",
+      "problem": "7 7\n- 10 - 11 - 9 - \n- - 13 - - 13 7 \n8 10 - - 15 - - \n- - 10 13 - 18 - \n10 13 - 9 - - - \n- - 16 - 13 - 9 \n11 - - - 8 - 3"
+    },
+    "359_8x8": {
+      "id": "359_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/359.a.htm",
+      "problem": "8 8\n- 4 10 - - - 12 - \n- 12 - - 24 - 16 - \n8 - - - - 16 - 12 \n- 18 - 17 17 - - - \n15 - 16 - - - 16 - \n- - - 15 - 12 - 11 \n- - - 13 7 15 - - \n9 - 10 - - - - 12"
+    },
+    "360_8x8": {
+      "id": "360_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/360.a.htm",
+      "problem": "8 8\n- 8 - - - - 6 1 \n- 15 - - - 18 9 - \n- 18 - 27 - 16 - - \n11 - - - - - 18 12 \n13 - 19 - 12 - - - \n- - - 9 9 17 - - \n16 - 14 - - - - 17 \n- - 8 3 7 - - -"
+    },
+    "361_6x6": {
+      "id": "361_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/361.a.htm",
+      "problem": "6 6\n- 4 6 - - 3 \n- 6 - - 12 7 \n7 - 10 8 - - \n6 - 10 - - 8 \n7 - - 8 6 - \n- 9 - 5 3 -"
+    },
+    "362_7x7": {
+      "id": "362_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/362.a.htm",
+      "problem": "7 7\n- - - 5 3 6 - \n- - 11 8 - - 8 \n- 12 8 - - - 9 \n4 7 - - - - 8 \n1 7 - - - 14 - \n6 - - - 12 12 - \n- - 11 7 5 - -"
+    },
+    "363_7x7": {
+      "id": "363_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/363.a.htm",
+      "problem": "7 7\n- 7 - - - 8 1 \n- 12 10 - - - 6 \n- - 9 10 12 - - \n11 - - 7 - 13 - \n- 15 17 - 10 - - \n9 - - - - 12 10 \n6 - - 7 7 - -"
+    },
+    "364_7x7": {
+      "id": "364_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/364.a.htm",
+      "problem": "7 7\n- - - 8 - 6 3 \n- 15 13 - 10 - - \n9 - - 14 - 13 - \n- 11 - - - 18 11 \n5 - 11 13 - - - \n6 - 13 - 15 - - \n- 8 - - 10 - 6"
+    },
+    "365_7x7": {
+      "id": "365_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/365.a.htm",
+      "problem": "7 7\n- - 5 4 7 - - \n6 - 12 13 - - - \n5 9 - - - 15 - \n- 12 - - 15 - 7 \n10 - - 11 - 12 - \n- - 15 - 11 - 5 \n- 12 - - - 4 3"
+    },
+    "366_7x7": {
+      "id": "366_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/366.a.htm",
+      "problem": "7 7\n- 9 - 9 - - 4 \n- - 14 - 15 11 - \n9 - 13 - - 13 - \n7 8 - 11 - - - \n6 - 9 10 - - - \n- 17 - - 10 - 8 \n- - - - 7 4 4"
+    },
+    "367_7x7": {
+      "id": "367_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/367.a.htm",
+      "problem": "7 7\n- 5 10 - - - 7 \n9 - 13 - 16 - - \n- - - 11 - 9 5 \n- - - 14 5 7 - \n11 - - - 8 10 - \n- 10 - 13 - - 12 \n2 3 4 - - - -"
+    },
+    "368_7x7": {
+      "id": "368_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/368.a.htm",
+      "problem": "7 7\n- - 5 6 9 - - \n- 13 - - - 15 12 \n12 - - 13 11 - - \n- - 15 - - 12 6 \n12 14 - - - - 5 \n- - 15 17 - 13 - \n5 8 - - 7 - -"
+    },
+    "369_8x8": {
+      "id": "369_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/369.a.htm",
+      "problem": "8 8\n- - - - 10 12 - 8 \n- 20 17 12 - - - - \n- - 14 10 - - - 16 \n15 - - - 15 15 - - \n- 11 13 - - - 20 - \n11 17 - - - - 18 - \n- - - 22 20 - - 10 \n7 - - - - 9 8 -"
+    },
+    "370_8x8": {
+      "id": "370_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/370.a.htm",
+      "problem": "8 8\n- 11 9 13 - - - - \n- - - - - 20 15 12 \n14 - 15 13 - - - - \n- 16 15 - 12 - - - \n9 - - 20 - 16 - - \n12 - - - - 13 - 4 \n- - - - 21 - 15 6 \n- 11 - - 14 - 14 -"
+    },
+    "371_6x6": {
+      "id": "371_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/371.a.htm",
+      "problem": "6 6\n- - - 7 5 5 \n4 10 - 9 - - \n1 - - 11 14 - \n4 6 8 - - - \n- 8 9 - - 4 \n- - 6 - 4 1"
+    },
+    "372_7x7": {
+      "id": "372_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/372.a.htm",
+      "problem": "7 7\n- 4 1 5 - - - \n- - 7 8 - - 11 \n- - - - 12 10 7 \n7 13 - - 12 - - \n5 10 14 - - - - \n- - - 15 - 11 6 \n9 - - - 6 5 -"
+    },
+    "373_7x7": {
+      "id": "373_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/373.a.htm",
+      "problem": "7 7\n- 9 - - 8 - 9 \n8 - - 10 13 - - \n13 - 10 8 - - - \n- - 12 15 - 12 - \n- 16 - - - 7 1 \n- - 15 - - 10 7 \n4 6 - - 10 - -"
+    },
+    "374_7x7": {
+      "id": "374_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/374.a.htm",
+      "problem": "7 7\n- 9 - - - 5 2 \n- - 15 - 14 - 6 \n6 9 - - - 13 - \n- 11 9 - - - 9 \n- - 11 10 12 - - \n13 - - 4 - 14 - \n7 - - 4 5 - -"
+    },
+    "375_7x7": {
+      "id": "375_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/375.a.htm",
+      "problem": "7 7\n- - 8 - 12 - 11 \n4 - 13 - 15 - - \n1 8 - - 13 - - \n7 15 - 15 - - - \n- - - 15 - 10 3 \n- - 14 - - 7 1 \n- 11 - 10 - 5 -"
+    },
+    "376_7x7": {
+      "id": "376_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/376.a.htm",
+      "problem": "7 7\n- 8 - 7 - 10 - \n- - 8 - 13 - 8 \n- 12 - 12 - - 9 \n8 - 13 - 14 - - \n9 - - 11 - 13 - \n10 - 17 - - 10 - \n- 10 - - 8 - 4"
+    },
+    "377_7x7": {
+      "id": "377_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/377.a.htm",
+      "problem": "7 7\n- - 10 - - 5 3 \n- 17 - 12 8 - - \n8 - - 10 10 - - \n6 - 15 - - - 9 \n- 8 - - - 15 11 \n7 - 10 - 15 - - \n- 7 - 7 - 12 -"
+    },
+    "378_7x7": {
+      "id": "378_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/378.a.htm",
+      "problem": "7 7\n- - 7 9 - - 3 \n- 15 - - - 10 4 \n- 13 - - 12 12 - \n9 - 14 10 - - - \n7 - - 9 12 - - \n- 12 15 - - - 10 \n3 - - - 12 9 -"
+    },
+    "379_8x8": {
+      "id": "379_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/379.a.htm",
+      "problem": "8 8\n- 11 - 10 - 14 - - \n- - - 12 12 - - 14 \n- - 13 - 14 - 17 - \n- 24 - 16 - - - 5 \n- - - - 19 - 15 6 \n10 - 21 - - - 16 - \n9 10 - - - 14 - - \n5 - 15 - - 8 - -"
+    },
+    "380_8x8": {
+      "id": "380_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/380.a.htm",
+      "problem": "8 8\n- - 11 - 13 - 12 - \n- 14 - - - 16 - 11 \n7 - - 23 - - 15 - \n8 - - - 14 - 17 - \n- 17 - 18 - 20 - - \n13 18 - 17 - - - - \n- - 19 - - 19 - 10 \n- - 16 - 13 - - 3"
+    },
+    "381_4x4": {
+      "id": "381_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/381.a.htm",
+      "problem": "4 4\n- - 11 - \n7 - - - \n- 15 - - \n- - - 4"
+    },
+    "382_4x4": {
+      "id": "382_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/382.a.htm",
+      "problem": "4 4\n- 4 5 - \n3 - - 6 \n5 8 - - \n- - 4 3"
+    },
+    "383_6x6": {
+      "id": "383_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/383.a.htm",
+      "problem": "6 6\n- - 8 - 4 1 \n- - 10 9 - 5 \n6 8 - 8 - - \n4 - 6 - 11 - \n- 8 - 9 - 7 \n3 7 - - 5 -"
+    },
+    "384_6x6": {
+      "id": "384_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/384.a.htm",
+      "problem": "6 6\n- 4 - 7 8 - \n4 - 10 - - 7 \n6 - 9 - 12 - \n- 9 10 - - 5 \n8 - - 8 6 - \n- 9 - 5 - 3"
+    },
+    "385_7x7": {
+      "id": "385_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/385.a.htm",
+      "problem": "7 7\n- 10 - - 15 - - \n4 13 - - - - - \n- - 15 - 21 - - \n- - - 15 - - 13 \n19 - - 17 - - - \n- - 23 - - 15 - \n- - - - - 8 5"
+    },
+    "387_7x7": {
+      "id": "387_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/387.a.htm",
+      "problem": "7 7\n- 8 - - - 13 - \n- 19 - - 19 - - \n- - - 19 - - 14 \n14 - 18 - - - - \n- - - 17 19 - - \n17 - - - - 19 - \n- - 13 - - - 6"
+    },
+    "388_8x8": {
+      "id": "388_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/388.a.htm",
+      "problem": "8 8\n- 11 - 14 - 13 - - \n- - 17 - - - 15 12 \n14 - - 20 - 12 - - \n16 - - - 13 8 - - \n- - - - 16 - 17 12 \n- 13 7 12 - - - - \n- 10 10 - - - - 15 \n6 - - - 16 - 13 -"
+    },
+    "389_8x8": {
+      "id": "389_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/389.a.htm",
+      "problem": "8 8\n- 10 - - 9 6 - - \n- - 17 - 12 - 19 - \n- - 16 10 - - 18 - \n12 - - 12 - - - 10 \n5 11 - - - - - 10 \n3 13 - - - 21 - - \n- - - - 16 15 12 - \n- - 14 11 - - - 4"
+    },
+    "390_8x8": {
+      "id": "390_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/390.a.htm",
+      "problem": "8 8\n- - 13 - - - 9 0 \n- - - - 23 - 10 1 \n- - - - 20 17 14 - \n11 - 15 - - - - 15 \n7 - 12 16 - - - - \n- 13 - - 13 16 - - \n9 21 - 20 - - - - \n- 14 - 12 - 9 - -"
+    },
+    "391_4x4": {
+      "id": "391_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/391.a.htm",
+      "problem": "4 4\n- - 11 - \n7 - - - \n- 15 - - \n- - - 4"
+    },
+    "392_4x4": {
+      "id": "392_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/392.a.htm",
+      "problem": "4 4\n- 7 - - \n- - 15 - \n11 - - - \n- - - 4"
+    },
+    "393_7x7": {
+      "id": "393_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/393.a.htm",
+      "problem": "7 7\n- - - - 8 1 0 \n- 19 - - - 4 1 \n- 13 - 18 - 13 - \n6 - 8 11 - - - \n7 - 4 - 14 - - \n- 10 9 7 - - - \n7 - - - 10 - 7"
+    },
+    "394_7x7": {
+      "id": "394_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/394.a.htm",
+      "problem": "7 7\n- 6 - 12 - 10 - \n6 - 14 - - 15 - \n7 - 15 - - - 10 \n- 14 - 12 12 - - \n- 17 - - 9 - 10 \n- - 13 - 11 - 7 \n9 - - 6 - 8 -"
+    },
+    "395_7x7": {
+      "id": "395_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/395.a.htm",
+      "problem": "7 7\n- 4 - - - 17 - \n4 10 - - - - - \n- - - 16 - 23 - \n- - 19 - 12 - - \n- - - - 14 - 7 \n- - - 19 - - 9 \n10 - 14 - - - -"
+    },
+    "396_7x7": {
+      "id": "396_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/396.a.htm",
+      "problem": "7 7\n- 11 - - - - 9 \n7 - - - 21 - - \n- 21 - 21 - - - \n13 - - - - - 10 \n- - 21 - - 15 - \n- - - - 17 23 - \n- - 7 7 - - -"
+    },
+    "397_7x7": {
+      "id": "397_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/397.a.htm",
+      "problem": "7 7\n- 10 - 13 - - - \n- 15 - - - - 19 \n11 - - - 20 - - \n13 - - 20 - - - \n- - - - - 15 10 \n- - 20 - 19 - - \n- - 12 - - 9 -"
+    },
+    "398_8x8": {
+      "id": "398_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/398.a.htm",
+      "problem": "8 8\n- - - 11 - 11 - 9 \n- 20 17 - 13 - - - \n- 13 - - 17 - 18 - \n- 12 15 - - 14 - - \n6 - - - 20 - 21 - \n10 - - 16 - - 19 - \n- - 18 - - 20 - 9 \n10 - - 11 - - - 4"
+    },
+    "399_8x8": {
+      "id": "399_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/399.a.htm",
+      "problem": "8 8\n- - - - - 5 1 1 \n- - - - 21 17 10 - \n12 - 24 - - - - 7 \n- 13 - - 21 - 17 - \n11 - - - - 16 - 13 \n- 18 11 13 - - - - \n- 15 - 8 12 - - - \n5 - 6 7 - - - -"
+    },
+    "400_8x8": {
+      "id": "400_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/400.a.htm",
+      "problem": "8 8\n- - - 7 10 - 13 - \n- 21 15 - - - - 11 \n- 18 - 16 17 - - - \n9 - - - 14 - 22 - \n- 13 18 17 - - - - \n11 - - - - 23 - 16 \n- - 18 - - 21 - 10 \n9 - - - - 12 5 -"
+    },
+    "44_7x7": {
+      "id": "44_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/044.a.htm",
+      "problem": "7 7\n. 12  .  . 12  .  .\n .  . 20  .  . 17  .\n .  . 21  .  .  . 10\n13  .  . 19  .  .  .\n .  .  .  . 20  . 14\n12 21  .  .  .  .  .\n .  .  . 13  . 16  ."
+    },
+    "45_7x7": {
+      "id": "45_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/045.a.htm",
+      "problem": "7 7\n.  . 15  .  .  .  5\n .  .  . 17  .  . 12\n . 22  .  . 17  .  .\n12  .  .  .  . 15  .\n .  .  .  . 13 16  .\n12  . 16  .  .  .  .\n .  8  . 13  .  .  ."
+    },
+    "91_9x9": {
+      "id": "91_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/091.a.htm",
+      "problem": "9 9\n.  .  .  .  . 16  . 11  6\n14  .  .  .  . 23  .  . 13\n . 12 14  .  .  . 22  .  .\n15  . 20  .  . 17  .  .  .\n .  .  .  . 19  .  . 21 16\n . 30  . 21  .  . 21  .  .\n . 33  . 16 10  .  .  .  .\n .  .  . 14 16  .  . 24  .\n10  . 13  .  .  . 17  .  ."
+    },
+    "92_9x9": {
+      "id": "92_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/092.a.htm",
+      "problem": "9 9\n.  .  6  . 17  .  . 20  .\n11  . 14 11  .  .  .  .  .\n .  .  .  . 17 24  . 27  .\n . 20  . 19  .  .  .  . 12\n13  . 18  .  .  .  . 15  .\n . 24  .  .  .  . 15  .  8\n .  .  .  .  . 13 16  . 11\n18 29  . 25  .  .  .  .  .\n .  .  .  . 11  9 11  .  ."
+    },
+    "94_9x9": {
+      "id": "94_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/094.a.htm",
+      "problem": "9 9\n. 13  .  .  . 17 15  .  .\n .  . 17 22  .  .  .  . 16\n . 23  .  . 14  .  . 26  .\n . 25  .  . 15  9  .  .  .\n .  .  .  . 20  .  . 20 16\n14  .  . 19  .  . 27  .  .\n16  . 18 15  .  .  .  .  .\n .  . 21  .  .  .  . 20 10\n13  .  .  .  . 13 11  .  ."
+    },
+    "95_9x9": {
+      "id": "95_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/095.a.htm",
+      "problem": "9 9\n.  . 14  . 19  .  . 13  .\n10 17  .  .  .  . 18  .  .\n .  .  .  . 22 17  . 26  .\n14  . 20  . 19  .  .  .  .\n . 22  . 19  .  . 26  .  .\n . 33  . 21  .  .  .  .  7\n .  .  . 20  . 27  .  . 11\n19  . 25  .  .  . 19  .  .\n .  .  .  .  . 15  . 12  8"
+    },
+    "96_9x9": {
+      "id": "96_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/096.a.htm",
+      "problem": "9 9\n. 20  .  .  . 14  .  .  6\n .  .  . 21  .  . 17 15  .\n17  .  . 15  .  .  . 16  .\n 9 16  . 21  .  .  .  .  .\n .  . 19  .  . 25  .  . 12\n .  .  .  . 23  . 24 22  .\n .  . 25  . 21  .  .  . 14\n .  . 20  . 17  . 25  .  .\n 7 12  .  .  .  9  .  .  ."
+    },
+    "99_9x9": {
+      "id": "99_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/099.a.htm",
+      "problem": "9 9\n.  .  .  8 16  .  .  . 11\n14  . 20 21  .  .  .  .  .\n . 25  .  .  .  . 17 19  .\n .  .  .  . 14 16  .  .  8\n . 25  .  .  . 19  . 27  .\n11  .  . 18 13  .  .  .  .\n . 14  .  .  . 21  .  . 20\n12  . 20  .  .  . 17  .  .\n .  . 14  .  .  .  6  8  ."
+    },
+    "108_7x7": {
+      "id": "108_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/108.a.htm",
+      "problem": "7 7\n. 13  .  .  .  .  5\n .  . 19  .  . 17  .\n .  .  . 17 15  .  .\n 8 19  .  .  .  .  .\n .  .  .  . 21  . 13\n15  .  .  .  . 18  .\n .  . 11  7  .  .  ."
+    },
+    "110_7x7": {
+      "id": "110_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/110.a.htm",
+      "problem": "7 7\n.  . 16  .  .  .  5\n .  .  .  . 18 16  .\n . 26  . 21  .  .  .\n . 22  .  .  . 18  .\n 7  .  . 22  .  .  .\n 9  . 17  .  .  .  .\n .  .  .  . 16  . 13"
+    },
+    "180_7x7": {
+      "id": "180_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/180.a.htm",
+      "problem": "7 7\n- - - - 15 - 8 \n16 - 19 - - - - \n- - 12 - - 25 - \n- 19 - 15 - - - \n12 - - - 15 - - \n- - - 21 - 17 - \n- 15 - - - - 6"
+    },
+    "205_5x5": {
+      "id": "205_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/205.a.htm",
+      "problem": "5 5\n- - - - 6 \n- 21 - - - \n- - - 18 - \n- - 14 - - \n7 - - - -"
+    },
+    "295_5x5": {
+      "id": "295_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/295.a.htm",
+      "problem": "5 5\n- - - - 6 \n- 21 - - - \n- - - 18 - \n- - 14 - - \n7 - - - -"
+    },
+    "297_6x6": {
+      "id": "297_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/297.a.htm",
+      "problem": "6 6\n- - - - 6 1 \n- 19 - - 11 - \n- - 14 16 - - \n11 - - - - 12 \n- 11 13 - - - \n5 - - 9 - -"
+    },
+    "303_5x5": {
+      "id": "303_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/303.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "304_5x5": {
+      "id": "304_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/304.a.htm",
+      "problem": "5 5\n- 11 - - - \n- - - - 16 \n- - 19 - - \n14 - - - - \n- - - 9 -"
+    },
+    "309_7x7": {
+      "id": "309_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/309.a.htm",
+      "problem": "7 7\n- 16 - 13 - - - \n- - - - 12 16 - \n19 - - 20 - - - \n- - - - - 20 10 \n- - 21 - - - 8 \n10 - - - 25 - - \n- 9 13 - - - -"
+    },
+    "310_7x7": {
+      "id": "310_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/310.a.htm",
+      "problem": "7 7\n- 9 - - - - 5 \n- - 25 - - - 9 \n15 - - - - 19 - \n- - - 16 14 - - \n16 23 - - - - - \n- - - - 16 21 - \n- - 9 8 - - -"
+    },
+    "320_7x7": {
+      "id": "320_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/320.a.htm",
+      "problem": "7 7\n- - - - 11 - 6 \n14 - - - - 21 - \n- - 12 18 - - - \n- 16 9 - - - - \n- - - 17 - 20 - \n13 - - - 15 - - \n- 14 - - - - 9"
+    },
+    "386_7x7": {
+      "id": "386_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Lateinische-Summen/386.a.htm",
+      "problem": "7 7\n- - - - 13 - 10 \n- - 16 13 - - - \n- - 9 - - 24 - \n- 19 - 17 - - - \n8 - - - - 20 - \n- 16 - - 23 - - \n6 - - - - - 5"
+    }
+  },
+  "info": "",
+  "count": 400
+}

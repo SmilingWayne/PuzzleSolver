@@ -1,20 +1,30 @@
-from AkariCrawler import AkariCrawler
-from PfeilzahlenCrawler import PfeilzahlenCrawler
-from NorinoriCrawler import NorinoriCrawler
+from CrawlerFactory import CrawlerFactory
+
+def get_specific_puzzle(target, data):
+    crawler = CrawlerFactory.get_crawler(target, data)
+    ret = crawler.get_puzzle_indexes()
+    ret_ = crawler.get_puzzles_from_batch(ret)
+    crawler.save_puzzles_to_folder(ret_)
+    print(f"[Done] {target}")
 
 if __name__ == "__main__":
-    target = "Norinori"
+    # Sternenhimmel
+    target = "Nondango"
     data = {
         "puzzle_name": f"{target}",
         "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
         "root_url": f"https://www.janko.at/Raetsel/{target}/"
     }
-    crawler = NorinoriCrawler(data = data)
-    ret = crawler.get_puzzle_indexes()
-    # print(ret)
-    ret_ = crawler.get_puzzles_from_batch(ret)
-    crawler.save_puzzles_to_folder(ret_)
     
-    # print(ret['class_sv'], ret['other'])
+    # # Used for ununified puzzles
+    # target = "Simpleloop"
+    # data = {
+    #     "puzzle_name": f"{target}",
+    #     "index_url": f"https://www.janko.at/Raetsel/Rundreise/index.htm",
+    #     "root_url": f"https://www.janko.at/Raetsel/Rundreise/"
+    # }
+    
+    
+    get_specific_puzzle(target, data)
     
     

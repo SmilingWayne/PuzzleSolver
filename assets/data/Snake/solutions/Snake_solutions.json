@@ -1,0 +1,1386 @@
+{
+  "solutions": {
+    "1_8x8": {
+      "id": "1_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/001.a.htm",
+      "solution": "8 8\n- - x x x x - x\n- - x - - x x x\n- - x - - - - -\n- - x x x - - -\n- - - - x - - -\n- - x x x - - -\n- - x - - - - -\nx x x - - - - -"
+    },
+    "2_8x8": {
+      "id": "2_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/002.a.htm",
+      "solution": "8 8\nx x x x x x x x\nx - - - - - - x\nx x x x - x x x\n- - - x - x - -\nx x x x - x x x\nx - - - - - - x\nx x x - - x x x\n- - x - - x - -"
+    },
+    "3_9x9": {
+      "id": "3_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/003.a.htm",
+      "solution": "9 9\n- - x x x - - - -\n- - x - x - - - -\n- - x - x - - - -\nx - x - x - - - -\nx - x - x - - - -\nx - x - x - - x x\nx - x - x - - x -\nx x x - x - - x -\n- - - - x x x x -"
+    },
+    "4_9x9": {
+      "id": "4_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/004.a.htm",
+      "solution": "9 9\n- - x x x x x x -\n- - x - - - - x -\nx x x - - - - x x\nx - - - - - - - x\nx - - x - x - - x\nx - - x - x - x x\nx x - x - x - x -\n- x - x - x x x -\n- x x x - - - - -"
+    },
+    "5_10x10": {
+      "id": "5_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/005.a.htm",
+      "solution": "10 10\n- - - - - x x x x x\nx x x - - x - - - x\nx - x x x x - - - -\nx - - - - - - - - -\nx - - - - - - - - -\nx - x x x x - - - -\nx x x - - x - - - -\n- - - - - x - - - -\n- x x - - x - - - -\n- - x x x x - - - -"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/006.a.htm",
+      "solution": "10 10\nx x x x x x x - - -\nx - - - - - x - - -\nx x - - - - x - - -\n- x x x x - x - - -\n- - - - x - x - x -\n- x - - x - x x x -\n- x - - x - - - - -\nx x - - x x x x x x\nx - - - - - - - - x\nx x x x x x x x x x"
+    },
+    "7_11x11": {
+      "id": "7_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/007.a.htm",
+      "solution": "11 11\n- - - x x x x - - - -\n- - - x - - x x x x x\nx - - x - - - - - - x\nx - - x - - - - - - x\nx - - x - x x x x x x\nx x x x - x - - - - -\n- - - - - x x x - - -\n- - - - - - - x - - -\n- - - x x x x x - - -\n- - - x - - - - - - -\n- x x x - - - - - - -"
+    },
+    "8_11x11": {
+      "id": "8_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/008.a.htm",
+      "solution": "11 11\nx x x x x x x x x - -\nx - - - - - - - x - -\nx x x x - - - - x x x\n- - - x x x x - - - -\n- - - - - - x x x x -\n- - - - - - - - - x -\n- x x x x x x x x x -\n- x - - - - - - - - -\n- x - - - - - - - - -\n- x - - - - - - - - -\n- x - - - - - - - - -"
+    },
+    "9_12x12": {
+      "id": "9_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/009.a.htm",
+      "solution": "12 12\nx x x x x x - - x x x x\nx - - - - x - - x - - x\nx - - - - x - - x - - x\nx - - - - x - - x - - x\nx - - - - x x x x - - x\nx x x - - - - - - - - x\n- - x - - - - - - - - x\n- - x - - - - - - - - x\n- - x - - - - - - - - x\n- - x - - x x x x x x x\n- - x - - x - - - - - -\n- - x - - x x x x x x -"
+    },
+    "10_12x12": {
+      "id": "10_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/010.a.htm",
+      "solution": "12 12\n- - - - - x x x x - - -\n- - - - - x - - x - - -\n- - - - - x - - x - - -\n- - - - - x - - x x x x\n- - - - - x - - - - - x\n- - - - - x - - - - - x\nx x - - - x - - - - - x\n- x - - - x - - - - - -\n- x - - - x - - - - - -\n- x - - - x - - - - - -\n- x - - - x - - - - - -\n- x x x x x - - - - - -"
+    },
+    "11_9x9": {
+      "id": "11_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/011.a.htm",
+      "solution": "9 9\n- x x x - x x x -\n- x - x x x - x -\nx x - - - - - x -\nx - - - - - - x x\nx - - x x x - - x\nx x x x - x x - x\n- - - - - - - - x\n- - x - x x x - x\n- - x x x - x x x"
+    },
+    "12_9x9": {
+      "id": "12_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/012.a.htm",
+      "solution": "9 9\n- - - x x x x - -\nx x x x - - x - -\nx - - - - - x x x\nx - x x x - - - x\nx - x - x - x - x\nx - x - x - x - x\nx - - - x - x - x\nx x x x x - x - x\n- - - - - - x x x"
+    },
+    "13_9x9": {
+      "id": "13_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/013.a.htm",
+      "solution": "9 9\nx x x - - - - - x\nx - x x - - - - x\nx - - x x - - - x\nx x - - x - - - x\n- x x - x x - - x\n- - x - - x x x x\nx x x - - - - - -\nx - - - x x x - x\nx x x x x - x x x"
+    },
+    "14_9x9": {
+      "id": "14_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/014.a.htm",
+      "solution": "9 9\nx x x - - x x x x\nx - x - x x - - x\nx - - - x - - - x\nx x - - x - - - x\n- x - x x - - x x\nx x - x - - x x -\nx - - - - - x - -\nx - x x x - x - -\nx x x - x x x - -"
+    },
+    "15_9x9": {
+      "id": "15_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/015.a.htm",
+      "solution": "9 9\nx x x x x - - - -\nx - - - x - - - -\nx x x - x - - - -\n- - - - x - x x -\nx x x - x - x - -\nx - x x x - x x -\nx - - - - - - x x\nx - x x x - - - x\nx x x - x x x x x"
+    },
+    "16_9x9": {
+      "id": "16_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/016.a.htm",
+      "solution": "9 9\n- - - x x x x x x\n- - - x - - - - x\nx - - x x - x x x\nx - - - x - x - -\nx - x x x - x x x\nx - x - - - - - x\nx - x x - x x x x\nx - - x - x - - -\nx x x x - x - - -"
+    },
+    "17_9x9": {
+      "id": "17_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/017.a.htm",
+      "solution": "9 9\nx x x x - - - - -\nx - - x x - x x x\nx x - - x - x - x\n- x x - x x x - x\n- - x - - - - - x\nx - x x - - x x x\nx - - - - - x - -\nx - x x x - x - -\nx x x - x x x - -"
+    },
+    "18_9x9": {
+      "id": "18_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/018.a.htm",
+      "solution": "9 9\n- - - x x x x x -\n- - - x - - - x -\n- x x x - - - x x\n- x - - - - - - x\nx x - x x x - x x\nx - - x - x x x -\nx - x x - - - - -\nx - x - - x x x x\nx - x x x x - - x"
+    },
+    "19_9x9": {
+      "id": "19_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/019.a.htm",
+      "solution": "9 9\n- x x x x x x - -\nx x - - - - x - -\nx - - x x - x - -\nx - x x - - x x x\n- - x - - - - - x\n- x x - x x x - x\nx x - - x - x x x\nx - - x x - - - -\nx x x x - - - - -"
+    },
+    "20_9x9": {
+      "id": "20_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/020.a.htm",
+      "solution": "9 9\n- - - x x x x x x\n- x - x - - - - x\nx x - x x x - x x\nx - - - - x - x -\nx - x x x x - x x\nx - x - - - - - x\nx - - - - x x x x\nx x - - x x - - -\n- x x x x - - - -"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/021.a.htm",
+      "solution": "10 10\n- - - - - x x x - -\n- - - x x x - x x -\n- - - x - - - - x -\n- - x x - x x - x x\n- x x - - x - - - x\n- - - - x x - - x x\nx x x - x - - x x -\nx - x x x - - x - -\nx - - - - - x x - -\nx x x x x x x - - -"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/022.a.htm",
+      "solution": "10 10\n- - - x x x - - - -\n- - - x - x x - - -\n- - - x - - x - - -\nx x - x x - - - - -\nx - - - x - - x x x\nx x x - x x - x - x\n- - x - - x - x - x\n- x x - - x x x - x\n- x - - - - - - - x\n- x x x x x x x x x"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/023.a.htm",
+      "solution": "10 10\nx x x x x x - x x x\nx - - - - x x x - x\nx - x x - - - - - x\nx x x - - x x x x x\n- - - - x x - - - -\n- - x x x - - - - -\nx x x - - - - - - -\nx - - - x - - - - -\nx x x - x - - - - -\n- - x x x - - - - -"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/024.a.htm",
+      "solution": "10 10\n- - x x - - - x x x\n- - x - - x x x - x\n- x x - - x - - - x\n- x - - x x - - x x\nx x - x x - - x x -\nx - - - - - x x - -\nx - - - - - x - - -\nx - - - - - x x x -\nx x - - - - - - x -\n- x x x x x x x x -"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/025.a.htm",
+      "solution": "10 10\nx x x - - - x x x -\nx - x - - x x - x x\nx - - - x x - - - x\nx x - x x - - x x x\n- x - x - - x x - -\nx x - x - x x - - -\nx - - x - x - - - -\nx x - - - x - - - -\n- x x - - x - - - -\n- - x x x x - - - -"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/026.a.htm",
+      "solution": "10 10\n- - - - - x x x - -\n- - - x x x - x x -\n- - - x - - - - x -\n- - x x - - x - x x\n- x x - - x x - - x\n- - - - x x - - x x\nx x x - x - - x x -\nx - x x x - - x - -\nx - - - - - x x - -\nx x x x x x x - - -"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/027.a.htm",
+      "solution": "10 10\nx x x - x x x x x x\nx - x x x - - - - x\n- - - - - - - - x x\nx x x x - - x x x -\nx - - x - - x - - -\nx - - x x - x - - -\nx - - - - - x x - -\nx x - - - - - x - -\n- x x x x - - x - -\n- - - - x x x x - -"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/028.a.htm",
+      "solution": "10 10\n- x x x - - x x x x\n- x - x x - - - - x\n- x - - x x - - x x\nx x - - - x - x x -\nx - - - - x - x - -\nx x x - - x x x - x\n- - x - - - - - - x\n- - x x x - - - x x\n- - - - x x x - x -\n- - - - - - x x x -"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/029.a.htm",
+      "solution": "10 10\nx x x x x - - - - -\nx - - - x x - - - -\n- - - - - x x - - -\n- - - - - - x x x x\n- - x x x - - - - x\nx x x - x x x x - x\nx - - - - - - x x x\nx - x x x - - - - -\nx - x - x x x x - -\nx x x - - - - x x x"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/030.a.htm",
+      "solution": "10 10\n- x x x - - - x x x\n- x - x x x - x - x\n- - - - - x - x - x\n- - - - x x - x - x\n- - - x x - - x - x\n- x x x - - - x - x\nx x - - - - - - - x\nx - - x x x x x x x\nx x - x - - - - - -\n- x x x - - - - - -"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/031.a.htm",
+      "solution": "8 8\nx x x x x - x -\nx - - - x - x -\nx - - - x - x -\nx x x - x - x -\n- - x - x - x x\nx - x - x - - x\nx - x - x - - x\nx x x - x x x x"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/032.a.htm",
+      "solution": "8 8\n- - - - x x x x\n- x x - x - - x\n- - x - x - - -\nx x x - x x x -\nx - - - - - x -\nx - x x x - x -\nx - x - x - x -\nx x x - x x x -"
+    },
+    "33_9x9": {
+      "id": "33_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/033.a.htm",
+      "solution": "9 9\n- - x x x x x - -\nx x x - - - x x -\nx - - - - - - x -\nx - x x x x - x -\nx - x - - - - x -\nx - x - x x - x x\nx - x - - x - - x\nx x x - - x x - x\n- - - - - - x x x"
+    },
+    "34_9x9": {
+      "id": "34_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/034.a.htm",
+      "solution": "9 9\nx - - - - x x x -\nx x - - - x - x x\n- x x - - x - - x\n- - x x - x - x x\n- - - x - x - x -\n- - x x - x - x x\n- x x - - x - - x\n- x - - x x - x x\n- x x x x - - - -"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/035.a.htm",
+      "solution": "10 10\n- - - - x x x - - -\n- - - x x - x - - -\n- - - x - - x - - -\n- - x x - x x - - -\n- - x - - x - - - -\n- - x - - x - - - -\nx x x - - x - - - -\nx - - - - x x x - -\nx - - - - - - x - -\nx - - - - - - x x x"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/036.a.htm",
+      "solution": "10 10\n- - - x x x x - - -\n- - - x - - x - - -\nx x x x - - - - - -\nx - - - - - - - - -\nx x x x x x x x x x\n- - - - - - - - - x\n- x x x - x x x - x\n- x - x - x - x - x\n- x - x - x - x - x\n- - - x x x - x x x"
+    },
+    "37_11x11": {
+      "id": "37_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/037.a.htm",
+      "solution": "11 11\n- x x x x x - - - - -\n- x - - - x x x x x -\n- x - - - - - - - x -\n- x - x x x x x - x -\n- x - x - - - x - x -\nx x - x - x x x - x -\nx - - x - - - - - x -\nx - - x x x x x x x -\nx - - - - - - - - - -\nx - - - - x x x x x x\nx x x x x x - - - - -"
+    },
+    "38_11x11": {
+      "id": "38_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/038.a.htm",
+      "solution": "11 11\n- - x x x - - x x x x\nx x x - x - - x - - x\nx - - - x - - x - - x\nx x - - x x x x - - x\n- x - - - - - - - - x\n- x x x x - x x x x x\n- - - - x - x - - - -\nx x x x x - x x x x x\nx - - - - - - - - - x\nx - x x x - x x x - x\nx x x - x - x - x x x"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/039.a.htm",
+      "solution": "12 12\n- - - - - x x x x x x x\n- - - - - x - - - - - x\nx x x x x x - - - - - x\nx - - - - - - - - - - x\nx - - - - - - x - - - x\nx - - - - - - x - - - x\nx x x x x x - x x x x x\n- - - - - x - - - - - -\n- - x - - x - - - - - -\n- - x - - x - - - - - -\n- - x - - x - - - - - -\n- - x x x x - - - - - -"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/040.a.htm",
+      "solution": "12 12\nx - - - - - - - - - - -\nx - - - - - - x x x x x\nx x x - - - - x - - - x\n- - x - - - - x - - - x\n- - x - - - - x x x - x\n- - x x x - - - - x - x\n- - - - x - - - - x - x\n- - - - x - - - - x - x\n- - - - x x x - - x - x\n- - - - - - x - - x - x\n- - - - - - x - - x - x\n- - - - - - x x x x - x"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/041.a.htm",
+      "solution": "8 8\n- x x x - x x x\n- x - x - x - x\n- x - x - x - x\n- x - x - x - x\n- x - - - x - x\n- x x x x x - x\n- - - - - - - x\nx x x x x x x x"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/042.a.htm",
+      "solution": "8 8\n- x x x x x x x\n- x - - - - - x\nx x - x x x - x\nx - - - - x - x\nx - - x x x - x\nx - - x - - - x\nx - - x x x - x\nx x - - - x x x"
+    },
+    "43_9x9": {
+      "id": "43_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/043.a.htm",
+      "solution": "9 9\nx x x - x x x x x\nx - x - - - - - x\nx - x - x x x - x\n- - x - x - x x x\nx x x - x - - - -\nx - - - x x x x x\nx - - - - - - - x\nx x x x - - x x x\n- - - x x x x - -"
+    },
+    "44_9x9": {
+      "id": "44_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/044.a.htm",
+      "solution": "9 9\n- - - x x x x x x\n- - - x - - - - x\nx x x x - x x - x\nx - - - - x - - x\nx x - - x x - - x\n- x - - x - - x x\nx x - x x - - x -\nx - - x - - x x -\nx x - x x x x - -"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/045.a.htm",
+      "solution": "10 10\nx x x x x x - x x x\nx - - - - x - x - x\nx - x x x x - x - x\nx - x - - - - x - x\n- - x x x x x x - x\n- - - - - - - - - x\n- x x x x x x x x x\n- x - - - - - - - -\n- x x x x x x x - -\n- - - - - - - x x x"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/046.a.htm",
+      "solution": "10 10\n- x x x x x x - - -\n- x - - - - x x x x\nx x - - - - - - - x\nx - - x x x x x x x\nx - - x - - - - - -\nx x - x x x x - x -\n- - - - - - x - x -\n- - - - - - x - x x\n- - - - - - x - - x\n- - - - - - x x x x"
+    },
+    "47_11x11": {
+      "id": "47_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/047.a.htm",
+      "solution": "11 11\n- - - - - - - - x x x\n- - - - - - - - x - x\n- - x x x x x - - - x\n- - x - - - x - - x x\n- - x - x - x - - x -\n- - x - x - x - - x -\n- - x x x - x - - x x\n- - - - - - x - - - x\nx x x x x x x - - x x\nx - - - - - - - x x -\nx x x x x x x x x - -"
+    },
+    "48_11x11": {
+      "id": "48_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/048.a.htm",
+      "solution": "11 11\nx x x x - x x x x - -\nx - - x - x - - x x x\nx - - x - x - - - - x\nx - - x x x - - - - x\nx - - - - - - - - - x\nx x x - - x x x - - x\n- - - - - x - x - - x\n- - x - - x - x x - x\n- - x - - x - - x - x\n- - x - - x - - x x x\n- - x x x x - - - - -"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/049.a.htm",
+      "solution": "12 12\n- - - - - - x x x - - -\n- - - - - - x - - - - -\n- - - - x x x - - - - -\nx x x - x - - - x x x -\nx - x - x - - - x - x -\nx - x x x - x x x - x x\nx - - - - - x - - - - x\nx - - - x x x - - - x x\nx - - - x - - - - - x -\nx - x x x - - - x x x -\nx - x - - - - - x - - -\nx x x - - - - - x - - -"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/050.a.htm",
+      "solution": "12 12\n- - - x x x x x x x - -\nx x x x - - - - - x - -\nx - - - - - - - - x x x\nx - - - x x x x - - - x\nx - - - x - - x - - - x\nx - x x x - - x - x x x\nx - x - - - - x - - - -\nx x x - - - - x x x - -\n- - - - - - - - - x - -\n- - - - - - x x x x - -\n- - - - - - x - - - - -\n- - - - - - x x x x x x"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/051.a.htm",
+      "solution": "8 8\nx x x - - - - -\nx - x - - - - -\nx - - - x x x x\nx - - - x - - x\nx x x x x - - x\n- - - - - - - x\n- - - x x x x x\n- - x x - - - -"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/052.a.htm",
+      "solution": "8 8\n- - - - - - - x\n- - - - - - x x\n- x x x x - x -\n- x - - x - x x\n- x - x x - - x\nx x - x - - - x\nx - - x - - - x\nx x - x x x x x"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/053.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx - - x x x - -\nx - - - - x - -\nx x x x - x - -\n- - - x - x x x\n- - x x - - - x\n- - x - - - - x\n- x x - - x x x"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/054.a.htm",
+      "solution": "8 8\n- - - x - - - -\n- x x x - - - -\n- x - - - - - -\nx x - x x - - -\nx - - - x - - -\nx - - - x x x x\nx x x - - - - x\n- - x x x x x x"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/055.a.htm",
+      "solution": "10 10\n- - - - x x x x x -\n- - - - x - - - x -\n- - - - x - - - x x\n- - x x x - - - - x\nx - x - - - - x x x\nx - x - - - - x - -\nx - x - - - - x - -\nx - x x x - x x - -\nx - - - x - x - - -\nx x x x x - x x x -"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/056.a.htm",
+      "solution": "10 10\n- - x x x x - - - -\n- - x - - x x x x x\n- - x - - - - - - x\n- x x - - - - - - x\n- x - - - - x x x x\nx x - - - - x - - -\nx - - - - - - - - -\nx x x - - x x x x -\n- - x - x x - - x -\n- - x x x - - x x -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/057.a.htm",
+      "solution": "10 10\n- - - - - - - x x x\n- - - - - - - x - x\n- x - - - - - x - x\n- x x - - - - x - x\n- - x - - x x x - x\n- - x - x x - - - x\nx x x - x - - x x x\nx - - - x - - x - -\nx x x - - - - x - -\n- - x x x x x x - -"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/058.a.htm",
+      "solution": "10 10\n- - x x x x - - - -\n- - x - - x x x x -\n- - x - - - - - x -\n- - x x x x - - x -\n- - - - - x - - x x\n- x - - - x - - - x\nx x - - - x x x - x\nx - - - - - - x - x\nx - - - - - - x - x\nx x x x x x x x - -"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/059.a.htm",
+      "solution": "12 12\n- x x x x x x x - - - -\n- x - - - - - x x x - -\n- x - - - - - - - - - -\n- x - - - - - - x x x x\n- x x - x x x x x - - x\n- - x - x - - - - - - x\n- - x - x - - - - - - x\nx x x - x x x - - - x x\nx - - - - - x - - - - -\nx - - - - - x x x x x -\nx x x x x - - - - - x -\n- - - - x x x x x x x -"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/060.a.htm",
+      "solution": "12 12\nx x x x x x x - - - - -\nx - - - - - x - - - - -\nx - - - - x x - - - - -\nx - - - - x - - - - - -\nx - x - - x x x - - - -\nx - x - - - - x - - - -\nx - x x x x - x x x x x\nx - - - - x - - - - - x\nx - - - - x x x - x - x\nx x x x - - - x - x - x\n- - - x - - x x - x - x\n- - - x x x x - - x x x"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/061.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\nx - - - x - - -\nx - x - x x x x\nx x x - - - - x\n- - - - - x - x\n- - - - - x - x\n- - - - - x x x"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/062.a.htm",
+      "solution": "8 8\n- - x x - x x x\n- - - x x x - x\n- - - - - - - x\n- - - - - - - x\nx x x - - - - x\nx - - - - - - x\nx x x - - - x x\n- - x x x x x -"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/063.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - - - x - - - - x\n- - - x x - - - - x\n- - - x - - - - - x\nx x x x - x x - x x\nx - - - - - x - x -\nx - - - - - x - x x\nx - - - - - x - - x\nx x x - - - x - - x\n- - - - - - x x x x"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/064.a.htm",
+      "solution": "10 10\n- - - - - - - - x x\n- x x x - - - - - x\n- x - x x x x x x x\nx x - - - - - - - -\nx - - - x x x x x x\nx - - - - - - - - x\nx x - - - - - - - x\n- x - - - - - - - x\n- x - - x x x - - x\n- x x x x - x x x x"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/065.a.htm",
+      "solution": "10 10\n- - - - - x x x x -\n- - - - - x - - x -\n- - - - - x - - x -\nx x x x x x - x x -\nx - - - - - - x - -\nx - - - - - - x x x\nx - x x x x - - - x\nx - - - - x x x x x\nx - - - - - - - - -\nx x x x x x x x - -"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/066.a.htm",
+      "solution": "10 10\n- x x x x - - - - -\n- x - - x x x - - -\nx x - - - - x - - -\nx - - - - - x x x -\nx x x x - - - - x -\n- - - x - - - - x -\n- x x x - - x - x x\n- x - - - x x - - x\n- x - - - x - - - x\n- x x x x x - x x x"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/067.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\n- - - x - - x - - x\n- - - x - - x - - x\n- - - x - x x - x x\nx x x x - x - - x -\nx - - - - x x - - -\nx x x x - - x x x -\n- - - x x - - - x x\n- - - - x - - - - x\n- - - - x x x x x x"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/068.a.htm",
+      "solution": "10 10\n- - - x x x x x x x\n- x - x - - - - - x\n- x x x - x x x x x\n- - - - - x - - - -\nx x x x x x - - - -\nx - - - - - - - - -\nx - x x x x x x - -\nx - x - - - - x - -\nx - x - - - - x - -\nx x x - - - - - - -"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/069.a.htm",
+      "solution": "12 12\nx x x x x - x x x x x x\nx - - - x x x - - - - x\nx x x - - - - - - x x x\n- - x x x x - - - x - -\n- - - - - x - x x x - -\nx x - - - x - x - - - -\n- x - x x x - x - - - -\n- x x x - - - x - - - -\n- - - - - x x x - x x x\n- - - - - x - - - - - x\n- - - - - x x x x - - x\n- - - - - - - - x x x x"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/070.a.htm",
+      "solution": "12 12\n- - - - - - - - - x x x\n- - - x x x x - - x - x\n- - - x - - x x x x - -\n- x x x - - - - - - - -\n- x - - - - - - - - - -\nx x - - x x x - - - - -\nx - - - x - x - - - x x\nx x x - x - x x x - - x\n- - x - x - - - x - - x\n- - x - x x x - x x - x\n- - x - - - x - - x - x\n- - x x x x x - - x x x"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/071.a.htm",
+      "solution": "8 8\n- - x x x x x -\n- - x - - - x x\n- x x - - - - x\n- x - - - - - x\n- x - - - x x x\nx x - - - x - -\nx - - - - x x x\nx x - - - - - -"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/072.a.htm",
+      "solution": "8 8\nx x x - x x - -\nx - - - - x - -\nx - - - - x x -\nx x - - - - x x\n- x - - - - - x\n- x x - - x x x\n- - x - - x - -\n- - x x x x - -"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/073.a.htm",
+      "solution": "10 10\nx x x x - x - - - -\nx - - x - x - x x x\nx - - x - x x x - x\n- - - x - - - - - x\n- x x x - - - - x x\n- x - - - - - - x -\n- x - - - - - - x -\n- x x x - - - - x x\n- - - x x x - - - x\n- - - - - x x x x x"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/074.a.htm",
+      "solution": "10 10\n- - - - x x x x - -\nx x x x x - - x - -\nx - - - - - - x - -\nx x - x - - - x - -\n- x - x - - - x x x\nx x - x x - - - - -\nx - - - x - - - - -\nx - - - x x x - - -\nx - - - - - x - - -\nx x x x x x x - - -"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/075.a.htm",
+      "solution": "10 10\nx x x x x x x - - -\nx - - - - - x - - x\nx - - - - - x - - x\nx - - - - - x x - x\nx - - - - - - x - x\nx x - - x - - x - x\n- x - - x - x x - x\n- x x x x - x - - x\n- - - - - - x - - x\n- - - - - - x x x x"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/076.a.htm",
+      "solution": "10 10\n- - x x x - - - - x\nx x x - x - - - - x\nx - - - x x x x x x\nx - - - - - - - - -\nx - - - - - - - - -\nx - - - - x x x x x\nx - x x x x - - - x\nx - - - - - - - - x\nx x x x - - - - - x\n- - - x x x x x x x"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/077.a.htm",
+      "solution": "10 10\n- - - - x x x x x -\nx x x x x - - - - -\nx - - - - - x x x x\nx - - - - x x - - x\nx x x x x x - - - x\n- - - - - - - x x x\n- - x - - - - x - -\n- x x - - - - x - -\n- x - - x x x x - -\n- x x x x - - - - -"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/078.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- x x x x - - - - x\n- x - - - - - - - -\n- x - - - - x x x x\n- x x - x x x - - x\n- - x - x - - - - x\nx x x - x x - - x x\nx - - - - x - - x -\nx x x - - x - - - -\n- - x x x x - - - -"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/079.a.htm",
+      "solution": "12 12\n- - x x x x x x x x x x\nx x x - - - - - - - - x\n- - - - - - - - - - - x\nx x x x x x x - - - x x\nx - - - - - x - - - x -\nx - - - - - x x x - x x\nx - - - - - - - x - - x\nx - - - - - - - x x x x\nx - - - - - - - - - - -\nx - - - x x x - x x - -\nx - - - x - x - - x - -\nx x x x x - x x x x - -"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/080.a.htm",
+      "solution": "12 12\n- - - x x x - x x x x x\n- x x x - x x x - - - x\n- x - - - - - - - - - x\nx x - x x - - - - - - x\nx - - - x x x - - - - x\nx - - - - - x x x x x x\nx - - - - - - - - - - -\nx x - - - - - - - x x x\n- x - - - - - x x x - x\n- x - - - - - x - - - x\n- x x x x - - x - - x x\n- - - - x x x x - - - -"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/081.a.htm",
+      "solution": "8 8\nx x x x x x - -\nx - - - - - - -\nx x x x - x x x\n- - - x - x - -\n- - - x - x - -\n- - - x - x x x\n- - - x - - - x\n- - - x x x x x"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/082.a.htm",
+      "solution": "8 8\nx x - - - - - -\n- x - x x x x x\n- x - - - - - x\nx x - - - - - x\nx - - - - - x x\nx x x x - - x -\n- - - x - - x -\n- - - x x x x -"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/083.a.htm",
+      "solution": "10 10\n- - - - x x x x x -\n- - - - x - - - x -\n- - - - x - x x x -\nx x x - - - x - - -\nx - - - - - x - - -\nx - - - - - x - - -\nx - - - - - x x x x\nx - x x x - - - - x\nx - x - x x x x - x\nx x x - - - - x x x"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/084.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\n- - - x x - x - - x\n- - - - x - x - x x\n- - - - x x x - x -\n- - - - - - - - x x\nx - x x x - - - - x\nx - x - x - - x x x\nx - x - x x x x - -\nx - x - - - - - - -\nx x x - - - - - - -"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/085.a.htm",
+      "solution": "10 10\nx x x - - - - - x x\nx - x x x x x - x -\nx - - - - - x - x -\nx - - - x x x - x -\nx - - - - - - - x x\nx x x - - - - - - x\n- - x - - - - - - x\n- - x x x x - - - x\n- - - - - x - - - x\n- - - - - x x x x x"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/086.a.htm",
+      "solution": "10 10\n- - - - x x x x - -\n- x x x x - - x x x\n- x - - - - - - - x\n- x - - x x x - - x\n- x x x x - x - x x\n- - - - - - x - x -\n- - - - - - x - x -\nx - - - - - x - x -\nx - - x x x x - - -\nx x x x - - - - - -"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/087.a.htm",
+      "solution": "10 10\nx x x x - - - x x x\nx - - x - - - x - x\nx - - x x x x x - x\nx - - - - - - - - x\nx - - - - - x x x x\nx x x - - - x - - -\n- - x - x x x - - -\nx x x - x - - - - -\n- - - - x - - - - -\n- x x x x - - - - -"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/088.a.htm",
+      "solution": "10 10\n- - x x x - - x x x\nx x x - x - x x - x\nx - - - x - x - - x\nx - - - x - x - x x\nx - - - x - - - x -\nx x x - x - - - x -\n- - x - x x x x x -\n- - x - - - - - - -\n- - x x x - - - - -\n- - - - x x - - - -"
+    },
+    "89_12x12": {
+      "id": "89_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/089.a.htm",
+      "solution": "12 12\nx x x x x x x x x x - -\nx - - - - - - - - x - -\nx - - x x x x - - x - -\nx - - - - - x - x x - -\nx - - - - - x - x - - -\nx x - - - - x - x x x x\n- x x x x x x - - - - x\n- - - - - - - - - - - x\nx x x x x x x x - - - x\nx - - - - - - x - - - x\n- - - - - - - x - - - x\n- - - - - - - x x x x x"
+    },
+    "90_12x12": {
+      "id": "90_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/090.a.htm",
+      "solution": "12 12\n- - x x x - - x x x - -\nx x x - x - - x - x x x\nx - - - x x x x - - - x\nx - - - - - - - - - - x\nx - - - - - - - x x - x\nx x - - - - - - - x x x\n- x - - - - - - - - - -\nx x - - - x x x x - - -\nx - - - - x - - x - - -\nx x - x x x - - x - x -\n- x - x - - - - x - x -\n- x x x - - - - x x x -"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/091.a.htm",
+      "solution": "8 8\n- x x x x x - -\n- x - - - x x x\nx x - - - - - x\nx - - - - - - x\nx - - - - - - x\nx x - - - - - x\n- x - - x x x x\nx x - - x - - -"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/092.a.htm",
+      "solution": "8 8\nx - - - x x - -\nx - - - x - - -\nx - - - x - - -\nx - - - x x x x\nx - - - - - - x\nx - - - - - - x\nx x x x x x - x\n- - - - - x x x"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/093.a.htm",
+      "solution": "10 10\n- - x x x - x x x x\n- - x - x x x - - x\nx x x - - - - - x x\nx - - - x - - - x -\nx - - - x - - - x -\nx x x - x - - - x x\n- - x - x x - - - x\n- - - - - x - - - x\n- - - - - x x x - x\n- - - - - - - x x x"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/094.a.htm",
+      "solution": "10 10\n- x x x - - x x x x\n- x - x - - x - - x\n- x - x x x x - - x\n- x - - - - - - x x\nx x - - - - - - x -\nx - - - - - - - x -\nx x x x - - - - x -\n- - - - - - - - x -\n- - - x x x x - x -\n- x x x - - x x x -"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/095.a.htm",
+      "solution": "10 10\n- x x x x x - - - -\nx x - - - x x - - -\nx - - - - - x - - -\nx x - - x x x - - -\n- x - - x - - - - -\nx x - x x - x x x x\nx - - x - - x - - x\nx - - - - x x - - x\nx x x x - x - - - x\n- - - x x x - - - -"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/096.a.htm",
+      "solution": "10 10\n- - - x x x x x x x\n- - - x - - - - - x\nx x - x - - - - - x\nx - - x - - - - - x\nx - - x - - - - - x\nx x x x - - - x x x\n- - - - - - - x - -\n- - - x x x - x x -\n- - - x - x - - x -\n- - - x - x x x x -"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/097.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - - - x - - - - x\n- - - - x x x - x x\n- - - - - - x - x -\n- - x x x - x - x -\nx x x - x - - - x x\nx - - - x x - - - x\nx x - - - x - - - x\n- - - - - x - - - x\n- - - - - x x x x x"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/098.a.htm",
+      "solution": "10 10\nx x x x - - - - - -\nx - - x - - - - - -\nx - - x - - - - - -\nx - - x - - - - - -\nx - x x - x x x x x\nx - x - - x - - - x\nx - - - - x - - - x\nx - - - - x x - - x\nx x x x - - - - - x\n- - - x x x x x x x"
+    },
+    "99_12x12": {
+      "id": "99_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/099.a.htm",
+      "solution": "12 12\n- - - x x x x x x x - -\n- - - x - - - - - x - -\n- - - x - - - - - x x -\n- - - x - - - - - - x -\nx x x x - x x - x - x x\nx - - - - - x - x - - x\nx - - - - x x - x x - x\nx - - - - x - - - x - x\nx - - - - x x x - x - x\nx - - - - - - x - x x x\nx - - - - - - x - - - -\nx x x x x x x x - - - -"
+    },
+    "100_12x12": {
+      "id": "100_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/100.a.htm",
+      "solution": "12 12\nx x x x - x x x - - - -\nx - - x - x - x - - - x\nx - - x x x - x x x x x\nx x - - - - - - - - - -\n- x - x x x x - - - - -\n- x - x - - x - - - - -\nx x - x - - x - - - - -\nx - - x x - x x x - - -\nx - - - x - - - x - - -\nx - - - x x x - x x - -\nx x x - - - x - - x - -\n- - x x x x x - - - - -"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/101.a.htm",
+      "solution": "8 8\n- - x x x x x x\nx x x - - - - x\nx - - - x x x x\nx - - - x - - -\nx - - - x x x -\nx - - - - - x -\nx - x - - - - -\nx x x - - - - -"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/102.a.htm",
+      "solution": "8 8\nx x x - x x x x\nx - x x x - - x\nx - - - - - - x\nx x x - - - - -\n- - x - - - x x\n- - x - - - x -\n- - x - - - x -\n- - x x x x x -"
+    },
+    "103_8x8": {
+      "id": "103_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/103.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\nx - - - x x - -\nx x - - - - - -\n- x - x x x x x\n- x - x - - - x\n- x - x - - - -\n- x x x - - - -"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/104.a.htm",
+      "solution": "10 10\n- x x - x x x x x x\n- - x - x - - - - x\n- - x - x - - x x x\n- - x x x - - x - -\n- - - - - - - x - -\n- - - - - - - x x x\n- - - - - - - - - x\nx x x - - - - - - x\nx - - - - x x x x x\nx x x x x x - - - -"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/105.a.htm",
+      "solution": "10 10\nx x x - - x - - - -\nx - x - - x x - - -\nx - x - - - x - - -\nx - x x x - x - - -\nx - - - x - x - - -\nx x - x x - x - - -\n- x - x - - x x x x\n- x - x - - - - - x\n- - - x x x x - - x\n- - - - - - x x x x"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/106.a.htm",
+      "solution": "10 10\n- x x x - - - x x -\nx x - x - - - - x -\nx - - x x - - x x -\nx - - - x - - x - -\nx x - - x x - x - -\n- x - - - x - x x x\nx x - - - x - - - x\nx - - - - x - - - x\nx - - - - x x x - x\n- - - - - - - x x x"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/107.a.htm",
+      "solution": "10 10\nx x x - - - - - - -\nx - x - - - - - - -\nx - x - - - - x x -\nx - x - - - - - x -\nx - x x x x - - x -\nx - - - - x - - x x\nx x - - - x - - - x\n- x - - - x x x x x\n- x - - - - - - - -\n- x x x x x x x x x"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/108.a.htm",
+      "solution": "10 10\n- - - - - - x x x -\n- - - x x x x - x -\n- - - x - - - - x x\n- - - x - - - - - x\n- x x x - - - - - x\n- x - - - x x x - x\nx x - - - - - x - x\nx - - - - - - x - x\nx - x x x - - x - x\nx x x - - - - x x x"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/109.a.htm",
+      "solution": "10 10\nx x - - x x x - - -\n- x - - x - x - - -\n- x x x x - x - - -\n- - - - - - x - - -\n- - x x x - x x x x\n- - x - - - - - - x\nx x x - - - - - - x\nx - - - - - - - - x\nx - - x x x - - - x\nx x x x - x x x x x"
+    },
+    "110_12x12": {
+      "id": "110_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/110.a.htm",
+      "solution": "12 12\n- - x x - - - - - x x x\nx x x - - - - x x x - x\nx - - - - - - x - - - x\nx - x x x - - x - - - x\nx - x - x - - x - - x x\nx - x - x x x x - - x -\nx x x - - - - - - - x x\n- - - - - - - - - - - x\nx x x x x - - - - x x x\nx - - - x - - - - x - -\nx x - - x x x - - x - -\n- - - - - - x x x x - -"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/112.a.htm",
+      "solution": "8 8\n- - - - - - x x\n- - - - - - - x\nx x x x - - - x\nx - - x - - x x\n- - - x - - x -\nx x x x - x x -\nx - - - - x - -\nx x x x x x - -"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/113.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - - - - -\nx - - - - - - -\nx x - - x x x x\n- x - - x - - x\nx x - x x - - x\nx - - x - - - x\nx x x x - - - x"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/114.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\n- - x - - - - - - x\n- - x - - - - - - x\n- - x - - - - - - x\nx - x - - - - x x x\nx - x x x x - x - -\nx - - - - x - x - -\nx - x x x x - x x x\nx - x - - - - - - -\nx x x - - - - - - -"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/115.a.htm",
+      "solution": "10 10\n- - - - - - x x x -\n- - - - x x x - x -\n- - - - x - - - x -\nx x x x x - - - x -\nx - - - - - - - x x\nx x x - - x x - - x\n- - x - - x - - - x\nx x x - - x x x - x\nx - - - - - - x - x\nx x x x - - - x x x"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/117.a.htm",
+      "solution": "10 10\nx x x x - - - - - -\nx - - x - - - - - -\nx x - x - - - - - -\n- x - x - x x x x x\nx x - x - x - - - x\n- - - x - x - x - x\n- - - x - x x x - x\n- - - x - - - - - x\n- - - x x x x - - x\n- - - - - - x x x x"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/118.a.htm",
+      "solution": "10 10\nx x x x x x x - - -\nx - - - - - x x x x\nx x x x - - - - - x\n- - - x - - - x x x\n- - - x - - - x - -\n- - - x - - - x x x\n- - - - - - - - - x\n- - x x x x - - - x\n- - - - - x x - - x\n- - - - - - x x x x"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/119.a.htm",
+      "solution": "10 10\n- - - - - - x x x -\n- - - - x x x - x -\n- - - - x - - - x x\n- - - - x x x - - -\n- - - - - - x x x x\nx x x x x - - - - x\nx - - - x x x x x x\nx x - - - - - - - -\n- x - x x x - - - -\n- x x x - x x - - -"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/121.a.htm",
+      "solution": "8 8\n- - x x x x x x\n- - x - - - - x\nx x x - - - - x\nx - - - - - - x\nx - - - - - x x\nx - x x x - x -\nx - x - - - x x\nx x x - - - - x"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/122.a.htm",
+      "solution": "8 8\nx x x - x x x x\nx - x x x - - x\nx - - - - - - x\nx - - - - - - x\nx - - - - - - x\nx x x - - - - -\n- - x - x - - -\n- - x x x - - -"
+    },
+    "123_8x8": {
+      "id": "123_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/123.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx - - x - - - -\nx - - x x x x -\n- - - - - - x x\n- - x x x - - x\n- - x - x - - x\n- - - - x - - x\n- - - - x x x x"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/124.a.htm",
+      "solution": "8 8\n- - - - - x x x\n- x x x - - - x\n- x - x - - x x\nx x - x - - x -\nx - - - - - x -\nx - - - x x x -\nx - - - x - - -\nx x x x x - - -"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/132.a.htm",
+      "solution": "8 8\n- - - - x x x x\n- - - - - - - x\n- - - - - x - x\n- - - - x x - x\nx x x x x - - x\nx - - - - - x x\nx - - - x x x -\nx x x x x - - -"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/133.a.htm",
+      "solution": "8 8\nx x x - - - - -\nx - x - - - - -\nx - x x x x x -\nx - - - - - x -\nx x x x - - x x\n- - - x x - - x\n- - - - x - - x\n- x x x x - x x"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/134.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\nx - - - x - - -\nx - - - x x x -\nx x x - - - x -\n- - - - - - x x\n- - x - - - - x\n- - x x x x x x"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/141.a.htm",
+      "solution": "8 8\n- - - x x x x -\n- - - x - - x -\n- - - x x - x -\n- - - - - - x -\n- - - x x x x -\nx x x x - - - -\nx - - - - x x x\nx x x x x x - -"
+    },
+    "143_8x8": {
+      "id": "143_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/143.a.htm",
+      "solution": "8 8\n- - x x x - - x\nx x x - x x - x\nx - - - - x - x\nx - - - - x x x\nx - - - - - - -\nx - - - - - - -\nx x x x - - - -\n- - - x x x - -"
+    },
+    "144_8x8": {
+      "id": "144_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/144.a.htm",
+      "solution": "8 8\n- x x - - - - -\n- - x x x - - -\n- - - - x - - -\n- - x - x x x x\nx x x - - - - x\nx - - - - - - x\nx - - x x x x x\nx x x x - - - -"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/149.a.htm",
+      "solution": "10 10\nx x x x x x x - - -\nx - - - - - x - - -\nx x - - - - x x - -\n- x - - - - - x x x\n- x - x x x - - - x\nx x - x - x - - - x\nx - - x - x - - - -\nx - - x - x - - - -\nx - x x - x x - - -\nx x x - - - - - - -"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/151.a.htm",
+      "solution": "8 8\n- - x x x - x x\n- - x - x - - x\n- - x - - - x x\nx x x - - - x -\nx - - - - - x -\nx - - - - - x x\nx x x - - - - x\n- - x x x x x x"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/152.a.htm",
+      "solution": "8 8\nx x x - x x x x\nx - x x x - - x\nx - - - - - - x\nx - - - x x x x\nx x x - x - - -\n- - x - x - - -\n- - x - - - - -\n- - x - - - - -"
+    },
+    "153_8x8": {
+      "id": "153_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/153.a.htm",
+      "solution": "8 8\n- x x x - - - -\n- x - x - - - x\nx x - x x - - x\nx - - - x - - x\nx - - - x x - x\nx - - - - x - x\n- - - - - x - x\n- - - - - x x x"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/154.a.htm",
+      "solution": "10 10\nx x x x - - - x x x\nx - - x - x x x - -\nx - - x - x - - - -\nx - - x x x - - - -\nx x - - - - - - - -\n- x x - - - - x x x\n- - x x x - - - - x\n- - - - x - - - - x\n- - - - x x x x - x\n- - - - - - - x x x"
+    },
+    "155_10x10": {
+      "id": "155_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/155.a.htm",
+      "solution": "10 10\nx x x - x x x - - -\nx - x x x - x x x -\nx - - - - - - - x -\nx x x - - - - - x x\n- - x - - - - - - x\n- - x - - x x - - x\n- x x - - x - - - x\n- x - - x x - - x x\n- x - - x - - - x -\n- x x x x - - - - -"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/156.a.htm",
+      "solution": "10 10\n- - - - x x x - - -\n- - - x x - x - - -\n- - - - - - x x - -\n- - - - - - - x - -\n- - - - x x x x - x\nx x x x x - - - - x\nx - - - - - - - x x\nx - x x x x - - x -\nx - x - - x - - x -\nx x x - - x x x x -"
+    },
+    "157_10x10": {
+      "id": "157_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/157.a.htm",
+      "solution": "10 10\nx x x - - - - - x x\nx - x - - - - - - x\nx - x - - - - - - x\nx - x x x - - - - x\nx - - - x - x x x x\nx - - - x x x - - -\nx - - - - - - - - -\nx x - - - x x x x x\n- x - - - x - - - -\n- x x x x x - - - -"
+    },
+    "161_8x8": {
+      "id": "161_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/161.a.htm",
+      "solution": "8 8\n- - x x x x - -\n- - x - - x - x\n- - x - - x - x\n- - x - - x - x\n- - x - x x - x\n- - x - x - - x\n- - x - x - - x\nx x x - x x x x"
+    },
+    "162_8x8": {
+      "id": "162_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/162.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\nx x x - x x x x\n- - x - - - - x\n- x x - x x x x\n- x - - x - - -\n- x - x x - - -\nx x - - - - - -"
+    },
+    "163_8x8": {
+      "id": "163_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/163.a.htm",
+      "solution": "8 8\n- x x x - x x x\n- x - x x x - x\n- x - - - - - -\n- x - - x - - -\n- x - - x - - -\nx x - x x - - -\nx - - x - - - -\nx x x x - - - -"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/166.a.htm",
+      "solution": "10 10\n- - x x x - x x x x\n- - x - - - x - - x\nx x x - x x x - - x\nx - - - x - - - - x\nx - - x x - x x x x\nx x x x - - x - - -\n- - - - - x x - - -\n- - - - - x - - - -\n- - - - - x - - - -\n- - x x x x - - - -"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/167.a.htm",
+      "solution": "10 10\nx x x x - - - x x x\nx - - x x x x x - x\nx - - - - - - - - x\nx x x - x x x x x x\n- - x - x - - - - -\n- - x - x - - - - -\n- - x - x x x x x x\n- - x - - - - - - x\n- - x - - - - - - x\n- x x - - - - - - -"
+    },
+    "169_12x12": {
+      "id": "169_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/169.a.htm",
+      "solution": "12 12\nx x x x - - - - - - - -\nx - - x - - - - - - - -\nx x - x x x x x - - - -\n- x - - - - - x - - - -\nx x - - - - - x - - - -\nx - - - - x x x - - - -\nx - - - - x - - - x x x\nx x - x x x - x x x - x\n- x - x - - - - - - - x\nx x - x x x x x - - x x\nx - - - - - - x - - x -\nx x x x - - - x x x x -"
+    },
+    "171_8x8": {
+      "id": "171_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/171.a.htm",
+      "solution": "8 8\n- - - x x x - -\n- - x x - x x x\n- - x - - - - x\nx - x - - - - x\nx x x - - - - x\n- - - - - - - x\nx x - x x x x x\n- x x x - - - -"
+    },
+    "172_8x8": {
+      "id": "172_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/172.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx - - x - - - x\nx x - x x x x x\n- x - - - - - -\nx x - - x x - -\nx - - - x - - -\nx x - - x - - -\n- x x x x - - -"
+    },
+    "173_8x8": {
+      "id": "173_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/173.a.htm",
+      "solution": "8 8\n- - x x x - - -\nx x x - x - - -\nx - - - x x x x\nx x x - - - - x\n- - x - - - x x\n- - x - - - x -\n- - x - - - x -\nx x x - x x x -"
+    },
+    "174_10x10": {
+      "id": "174_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/174.a.htm",
+      "solution": "10 10\nx x x x x - - - - -\nx - - - x - - - - -\nx - - x x - - - - -\nx - - - - - - - - -\nx - x x x - - - - -\nx - - - x x x - - -\nx x x - - - x x x x\n- - x - - - - - - x\n- - x - - x x x - x\n- - x x x x - x x x"
+    },
+    "175_10x10": {
+      "id": "175_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/175.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - x x x - - - - -\n- - x - - - - - - -\n- x x - x x x - - -\n- x - - x - x - - -\n- x - - x - x x x x\n- x x x x - - - - x\n- - - - - - - - x x\nx x x x x - - - x -\nx - - - x x x x x -"
+    },
+    "176_10x10": {
+      "id": "176_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/176.a.htm",
+      "solution": "10 10\nx x x - x x x x - -\n- - x x x - - x - -\n- - - - - - - x x x\nx x x x x x - - - x\nx - - - - x - x x x\nx x - x x x - x - -\n- - - x - - - x - -\n- - - x - - - x - -\n- - - x - x x x - -\n- - - x x x - - - -"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/177.a.htm",
+      "solution": "10 10\nx - - x x x x x - -\nx - - x - - - x x x\nx x x x - - - - - x\n- - - - - - - - - x\nx x x x x - - - - x\nx - - - x - - - - x\nx - - - x - - - - x\nx - - - x - x x x x\n- - - - x - x - - -\n- - - - x x x - - -"
+    },
+    "178_12x12": {
+      "id": "178_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/178.a.htm",
+      "solution": "12 12\n- - x x x - - x x x - -\n- - x - x - - - - x - -\n- - x - x - - - - x - -\nx x x - x - - - - x x x\nx - - - x - - - - - - x\nx - - - x x x x x - - x\nx - - - - - - - x - - x\nx x x - - - - - x x x x\n- - x - - - - - - - - -\nx x x - - - - - - - - -\nx - - - - - x x x - - -\nx x x x x x x - x x x x"
+    },
+    "179_12x12": {
+      "id": "179_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/179.a.htm",
+      "solution": "12 12\n- - - x x x - x x x x x\n- - - - - x x x - - - x\n- - - - - - - - - - - x\n- - - - - - x x x x - x\n- - - - - - x - - x - x\n- x x x - - - - - x - x\n- x - x x x x x - x - x\nx x - - - - - x x x - x\nx - - x x x - - - - - x\nx x x x - x x x x - x x\n- - - - - - - - x - x -\n- - - - - - - - x x x -"
+    },
+    "180_12x12": {
+      "id": "180_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/180.a.htm",
+      "solution": "12 12\n- - - x x x x - - - - -\n- - - x - - x - - - - -\nx x x x - - x x x x x x\nx - - - - - - - - - - x\nx x x x x x x x - x x x\n- - - - - - - - - x - -\n- - x x x x - x x x - -\n- - x - - x x x - - - -\n- - x - - - - - - x x x\n- - x x x x - - - - - x\n- - - - - x x x x - - x\n- - - - - - - - x x x x"
+    },
+    "181_8x8": {
+      "id": "181_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/181.a.htm",
+      "solution": "8 8\n- - x x x x x x\n- - x - - - - x\nx x x - - - - x\nx - - - - - - x\nx - - - - x x x\nx x - - - x - -\n- x - x - x x -\n- x x x - - - -"
+    },
+    "182_8x8": {
+      "id": "182_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/182.a.htm",
+      "solution": "8 8\nx x - - - x x x\nx - - x x x - x\nx x - x - - - x\n- x - x - - x x\nx x - x - - - -\nx - - x - - - -\nx - - x - - - -\nx x x x - - - -"
+    },
+    "183_8x8": {
+      "id": "183_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/183.a.htm",
+      "solution": "8 8\n- - - x x x x -\n- - x x - - x x\n- - - - - - - x\n- - x - - - - x\nx x x - - - - x\nx - - - - - x x\nx - - - - - x -\nx x x x x x x -"
+    },
+    "184_8x8": {
+      "id": "184_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/184.a.htm",
+      "solution": "8 8\nx x x x - - x x\nx - - x - - x -\nx - - x - - x -\nx - - x - - x x\nx x - x - - - x\n- x - x - - - x\n- - - x x x - x\n- - - - - x x x"
+    },
+    "185_10x10": {
+      "id": "185_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/185.a.htm",
+      "solution": "10 10\n- x x x x x x x x x\n- x - - - - - - - x\n- x x x - - - - x x\n- - - x - - x x x -\n- - x x - - x - - -\n- - x - - - x - - -\nx x x - - - x x x -\nx - - - - - - - x -\n- - - x x - - - x -\n- - - - x x x x x -"
+    },
+    "186_10x10": {
+      "id": "186_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/186.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - - - x - - - - x\n- - - - x - - - - x\n- - - - x - - - x x\n- - - - x - - - x -\nx x x - x - - - x x\nx - - - x - - - - x\nx x x x x - - - - x\n- - - - - - - - - x\n- x x x x x x x x x"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/187.a.htm",
+      "solution": "10 10\n- x x x x - - - x x\n- x - - x - - - - x\n- x - - x - - - x x\n- x - - x x x - x -\nx x - - - - x - x x\nx - - - - - - - - x\nx - - - - - - - - x\nx x - - - - - - x x\n- x - x x x - - x -\n- x x x - x x x x -"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/188.a.htm",
+      "solution": "10 10\nx x x x x - x - - -\nx - - - x x x - - -\nx - - - - - - - - -\nx - x x x - - - - -\nx - x - x - - - - -\nx - - - x x x x x x\nx x - - - - - - - x\n- x - - - - x x x x\n- x - - - - x - - -\n- x x x x x x - - -"
+    },
+    "191_8x8": {
+      "id": "191_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/191.a.htm",
+      "solution": "8 8\n- x x x - - - -\n- x - x x x x x\nx x - - - - - x\nx - - - x - - x\nx x - - x - x x\n- x - x x - x -\n- - - x - - x -\n- - - x x x x -"
+    },
+    "192_8x8": {
+      "id": "192_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/192.a.htm",
+      "solution": "8 8\n- - - x x x - -\n- x x x - x - -\n- - - - - x x -\n- - - - - - x -\nx x x - - - x x\nx - x - - - - x\n- - x - - - - x\n- - x x x x x x"
+    },
+    "193_8x8": {
+      "id": "193_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/193.a.htm",
+      "solution": "8 8\nx x x - - - - -\nx - x - - x x x\nx - x x x x - x\nx - - - - - - x\nx - - - - - - -\nx x x - - - - -\n- - x - - - - -\n- - x x x x x x"
+    },
+    "194_8x8": {
+      "id": "194_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/194.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx - - - - - - -\nx - - - - - - -\nx x - - x x x -\n- x - x x - x x\nx x - x - - - x\nx - - x - - - x\nx x x x - - - -"
+    },
+    "195_10x10": {
+      "id": "195_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/195.a.htm",
+      "solution": "10 10\n- - - - - - - x x x\nx x x x - - - x - x\nx - - x x x - - - x\nx - - - - x - - x x\nx - - - - x - - x -\nx x x - - x - - x x\n- - x - - x - - - x\n- - x - - x x x - x\n- - x - - - - x - x\n- - x x x - - x x x"
+    },
+    "196_10x10": {
+      "id": "196_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/196.a.htm",
+      "solution": "10 10\n- x x x x x x x x x\nx x - - - - - - - x\nx - - x x x x x x x\nx - - x - - - - - -\nx - - x x - x x x x\nx - - - x - x - - x\n- - - - x x x - - x\n- - - - - - - - - x\n- - - - - - - - x x\n- - - - - - - - x -"
+    },
+    "197_10x10": {
+      "id": "197_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/197.a.htm",
+      "solution": "10 10\nx x x x - x x x x -\nx - - x - x - - x -\nx - - x - x - - x -\nx x - x - x - - x x\n- x - x x x - - - x\nx x - - - - - - x x\nx - - - - - - - x -\n- - - - - - - - x x\n- - - - - - - - - x\n- - - - x x x x x x"
+    },
+    "198_10x10": {
+      "id": "198_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/198.a.htm",
+      "solution": "10 10\n- - - - - - x - - -\n- - - - - - x - - -\n- - - - - - x x x x\nx x x x - - - - - x\nx - - x - - - - x x\nx x - x - - - - x -\n- x - x - - - - x x\nx x - - - - - - - x\nx - - - x x x - - x\nx x x x x - x x x x"
+    },
+    "199_12x12": {
+      "id": "199_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/199.a.htm",
+      "solution": "12 12\nx x x - x x x - - - x -\nx - x x x - x x x - x -\nx - - - - - - - x - x x\nx x - - - - - - x - - x\n- x - - - - - - x x - x\n- x - - - - - - - x - x\n- x - - - - - - - x - x\n- x - - - - - - - x x x\n- x - - - - - - - - - -\nx x - - - x x x - x x x\nx - - - - x - x - x - x\nx x x x x x - x x x - x"
+    },
+    "200_12x12": {
+      "id": "200_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/200.a.htm",
+      "solution": "12 12\n- x x x x x x x x x x x\n- x - - - - - - - - - x\nx x - - - - - - - - - x\nx - - - - x x x - - - x\nx - - - - x - - - x x x\nx - - - - x - - - x - -\nx - - - - x - - - x - -\nx - - - - x - x - x x x\nx - - - - x - x - - - x\nx - - - - x - x x - - x\nx - - x x x - - x - - x\nx x x x - - - - x x x x"
+    },
+    "201_8x8": {
+      "id": "201_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/201.a.htm",
+      "solution": "8 8\nx x x - - - - -\nx - x x x - - -\nx - - - x - x -\nx - - x x - x -\nx - - x - - x x\nx - - x - - - x\nx x - x - - - x\n- - - x x x x x"
+    },
+    "203_10x10": {
+      "id": "203_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/203.a.htm",
+      "solution": "10 10\n- - x x x x x x x -\n- - x - - - - - x -\n- - x x x x x - x -\n- - - - - - x - x x\nx x x x x x x - - x\nx - - - - - - - - x\nx - - - - - - - - x\nx - - - - - - - x x\nx - - - - - - - x -\nx x x - - - - - x x"
+    },
+    "211_8x8": {
+      "id": "211_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/211.a.htm",
+      "solution": "8 8\nx x x x x - - -\nx - - - x - - -\nx - - - x x x x\nx - - - - - - x\nx x x x x x - x\n- - - - - x - -\n- - - - - x - x\n- - - - - x x x"
+    },
+    "212_8x8": {
+      "id": "212_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/212.a.htm",
+      "solution": "8 8\nx x x x - - - -\nx - - x x x - -\nx x - - - - - -\n- x x x x x - -\n- - - - - x x x\n- - x x - - - x\n- - x - - x x x\n- - x x x x - -"
+    },
+    "213_10x10": {
+      "id": "213_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/213.a.htm",
+      "solution": "10 10\n- - x x x x x - - -\n- - x - - - x - - -\n- - x x x - x x x -\n- - - - x - - - x -\n- - - - x - - - x x\nx x x x x - - - - x\nx - - - - - x x - x\nx - - - x x x - - x\nx x x x x - - - - x\n- - - - - - - - - x"
+    },
+    "214_10x10": {
+      "id": "214_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/214.a.htm",
+      "solution": "10 10\n- x x x - - x x x x\nx x - x - - x - - x\nx - - x - - - - - x\nx x - x - - - - - x\n- x - x - x x x x x\nx x - - - x - - - -\nx - - - - x - - - -\nx x x - x x - - - -\n- - x - x - - - - -\n- - x x x - - - - -"
+    },
+    "215_10x10": {
+      "id": "215_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/215.a.htm",
+      "solution": "10 10\nx x x x - - - - - x\nx - - x - - - - - x\nx - - x - - - - - x\nx x - x - - - x x x\n- x - x x x x x - -\n- x - - - - - - - -\n- x - x x x x - - -\nx x - x - - x - - -\nx - - x - - x - - -\nx x x x - - - - - -"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/216.a.htm",
+      "solution": "10 10\n- - x x x - x x x x\nx x x - x - x - - x\nx - - - - - x - - x\nx - - - - - x - x x\nx - - - x x x - x -\nx - - x x - - - x -\nx x x x - - - - x -\n- - - - - x x x x -\n- - - - - x - - - -\n- - - x x x - - - -"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/217.a.htm",
+      "solution": "10 10\nx x x x x x x - - -\nx - - - - - x - - -\nx - - x - - x - - -\nx - - x - - x x x -\nx x x x - - - - x -\n- - - - - - - - x -\n- x - - - - - - x x\nx x - - - - - - - x\nx - - - x x x - - x\nx x x x x - x x x x"
+    },
+    "220_12x12": {
+      "id": "220_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/220.a.htm",
+      "solution": "12 12\n- - x x x x x - - x x x\n- - x - - - x - - x - x\n- - x - - - x x x x - x\n- - x x x - - - - - - x\n- - - - x x x - - x x x\n- - - - - - x - - x - -\n- - - - - - x - - x - -\n- - - - - - x - - x x x\nx x x x - - - - - - - x\nx - - x x x x - x x x x\nx - - - - - x - x - - -\nx x - - - - x x x - - -"
+    },
+    "221_8x8": {
+      "id": "221_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/221.a.htm",
+      "solution": "8 8\n- - x x - - - -\n- - - x - x x x\nx x x x - x - x\nx - - - - - - x\nx - - - - - - x\nx - - x x x x x\nx x - x - - - -\n- x x x - - - -"
+    },
+    "222_8x8": {
+      "id": "222_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/222.a.htm",
+      "solution": "8 8\nx x - - - - - -\nx - - - - x x x\nx x - - - x - x\n- x - - x x - x\n- x - - x - - x\n- x x - x - - x\n- - x - x - x x\n- - x x x - - -"
+    },
+    "223_10x10": {
+      "id": "223_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/223.a.htm",
+      "solution": "10 10\nx x x x x - - - - -\nx - - - x - - - - -\n- - - - x x x - - -\n- - - - - - x - - -\n- - x x x - x - - -\nx x x - - - x x x x\nx - - - - - - - - x\nx - - - - - - - - x\nx - - x x x x - - x\nx x x x - - x x x x"
+    },
+    "224_10x10": {
+      "id": "224_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/224.a.htm",
+      "solution": "10 10\n- x x x x - - - - -\n- x - - x x x - - -\n- x - - - - x - - -\n- x - x x x x - - -\nx x - - - - - - - x\nx - - - - - - - - x\nx - - - - - - - - x\nx - - - - x x x - x\nx x - x x x - x - x\n- x x x - - - x x x"
+    },
+    "225_10x10": {
+      "id": "225_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/225.a.htm",
+      "solution": "10 10\nx - - - - x x x - -\nx - - - - x - x - -\nx - - - - x - x - -\nx - x x x x - x x x\nx - x - - - - - - x\nx - x - x x x - x x\nx - x x x - x - - -\nx - - - - - x - - -\nx x x - - - x - - -\n- - x x x x x - - -"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/226.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\nx x - - - - x - - x\n- x x x x x x - x x\n- - - - - - - - x -\n- - x x x x - x x -\n- - x - - - - x - -\n- - x - - x x x - -\nx x x - - x - - - -\nx - - - - x - - - -\nx x x x x x - - - -"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/227.a.htm",
+      "solution": "10 10\n- - x x x x - x x x\nx x x - - x - x - -\nx - - - - x - x - -\nx - - - - x - x x x\nx - - - - - - - - x\nx - - - - - - - - x\nx - - - - - - - - x\nx - - - - - - - - x\nx x x x - - x x x x\n- - - x x x x - - -"
+    },
+    "228_10x10": {
+      "id": "228_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/228.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\n- - x - - - - - - x\n- - x - - - - - - x\nx x x - - - - - - x\nx - - - - x - - - x\nx - - - - x - x x x\nx - - - - x x x - -\nx - - - - - - - - -\nx - - - - - x x x x\nx x x x x x x - - -"
+    },
+    "230_12x12": {
+      "id": "230_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/230.a.htm",
+      "solution": "12 12\nx x x - x x x - x x x x\nx - x - x - x - x - - x\nx - - - x - x x x - - x\nx - - - x - - - - - x x\nx x x - x - - - - - x -\n- - x - x x - - x x x -\n- - x - - x - - x - - -\nx x x - - x x - x x - -\nx - - - - - x - - - - -\nx - - - - - x - - - - -\nx - x x x x x - - - - -\nx x x - - - - - - - - -"
+    },
+    "111_12x12": {
+      "id": "111_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/111.a.htm",
+      "solution": "12 12\n- - - - - - - - x x x -\n- - - - - - - - x - x x\n- - - - - - - x x - - x\n- x x x x x x x - - - x\nx x - - - - - - - x x x\nx - - x x x x - - x - -\nx - x x - - x - - x - -\nx - x - - - x - - x - -\nx - x - - - x - x x - x\nx - x - - - x - x - - x\nx - x - - - x - x - - x\nx x x - - - - - x x x x"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/116.a.htm",
+      "solution": "10 10\n- x x x - - - - x -\n- x - x x x - - x -\nx x - - - x - x x -\nx - - - - - - x - -\nx x x - - - - x - -\n- - x - - - - x x x\nx x x - - - - - - x\nx - - - - - - x x x\nx - x x x x - x - -\nx x x - - x x x - -"
+    },
+    "120_12x12": {
+      "id": "120_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/120.a.htm",
+      "solution": "12 12\nx x - x x x x x - - - -\nx - - x - - - x - - - -\nx - - x x x - x - x x x\nx - - - - x - x x x - x\nx x x - - x - - - - - x\n- - x - - x - - - - x x\n- - x x - - - - - - x -\n- - - x - - - x x x x -\nx x x x - x x x - - - -\nx - - - - x - - - - - -\nx - - x x x - - - - - -\nx x x x - - - - - - - -"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/125.a.htm",
+      "solution": "10 10\n- x x x - - - - - x\n- x - x x x - - - x\n- x - - - x - x x x\n- x - - - x - x - -\nx x - - - x x x - -\nx - - - - - - - - -\nx - x x x x x x - -\nx x x - - - - x - -\n- - - - - x x x - -\nx x x x x x - - - -"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/126.a.htm",
+      "solution": "10 10\n- - - - x x x x x x\n- - - - x - - - - x\n- - - - x - - - - x\n- - - - x x x - - x\n- - - - - - - - - x\nx x x x x x x - - x\nx - - - - - x x x x\nx - - - - - - - - -\nx - - x x x - - - -\nx x x x - x x x - -"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/127.a.htm",
+      "solution": "10 10\nx x x x x - - - - x\nx - - - x x x x - x\nx - - - - - - x - x\nx - - - - - - - - x\nx - - - - - - x x x\nx - - - - - - x - -\nx - - - - - - x - -\nx x - - - - - x x x\n- x - - - - - - - x\n- x x x x x x x x x"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/128.a.htm",
+      "solution": "10 10\n- - x x x x x x x x\n- - x - - - - - - x\n- - x - - - - - - x\n- - x - - - - - - x\nx x x - x - - - - -\nx - - - x - x x x -\nx - - - x x x - x -\nx - - - - - - - x -\nx x x x - - - - x -\n- - - x x x x x x -"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/129.a.htm",
+      "solution": "10 10\nx x x - x x x - - -\nx - x x x - x - - -\nx - - - - - x x - -\nx - - - - - - x - -\nx x x x x - - x - -\n- - - - x - - - - -\n- - - - x - x x x x\n- - - x x - x - - x\n- - - x - - - - - x\n- - - x x x x x x x"
+    },
+    "130_12x12": {
+      "id": "130_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/130.a.htm",
+      "solution": "12 12\n- - - - - - x x x - - -\n- - - - - - x - x - - -\n- - - - - - x - x x x x\n- x - x x x x - - - - x\n- x - x - - - - - - x x\n- x - x - - - - - - x -\n- x - x - - - - - - x -\nx x - x x x - x x x x -\nx - - - - x - x - - - -\nx - - - - x - x - - x x\nx - x x x x - x - - - x\nx x x - - - - x x x x x"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/131.a.htm",
+      "solution": "8 8\nx - - - - x x x\nx x - - - x - x\n- x - - x x - x\nx x - - - - - x\nx - - - x x x x\nx - x x x - - -\nx - x - - - - -\nx x x - - - - -"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/135.a.htm",
+      "solution": "10 10\n- - x x x x - - - -\n- - x - - x - - - -\nx x x - - x x - - -\nx - - - - - - - - -\nx - - - - x x x x -\nx - - - - - - - x -\nx x - - - - - - x -\n- x - - x x x - x x\n- x - - x - x - - x\n- x x x x - x x x x"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/136.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\n- - - x x x x - - x\n- - - x - - - - x x\n- x - x - - - - x -\n- x - x - - - - x -\nx x - - - - - - x x\nx - - - - - - - - x\nx - - x x x - x x x\nx - - x - x x x - -\nx x x x - - - - - -"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/137.a.htm",
+      "solution": "10 10\nx x x x - x x - - -\nx - - x x x - - - -\nx x - - - - - - - -\n- x - x x x - - - -\nx x - x - x x x x x\nx - - x - - - - - x\nx - - x x x - - - -\nx x - - - x - - - -\n- x - - - x - - - -\n- x x x x x - - - -"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/138.a.htm",
+      "solution": "10 10\n- - - - - x x x x x\n- - - - - x - - - x\n- - - - - x - - - x\nx - - - x x - - - x\nx - - - x - - - - x\nx - - - x - x x x x\nx - - - x - x - - -\nx x - x x - x x x x\n- x - - - - - - - x\n- x x x x x x x x x"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/139.a.htm",
+      "solution": "10 10\n- - - - x - - x x x\n- - - - x x - x - x\n- - - - - x - x - x\n- - - - - x - x - x\nx - - - - x - x - x\nx - - - - x x x - x\nx - - - - - - - - x\nx - - x x x - x x x\nx - - x - x - x - -\nx x x x - x x x - -"
+    },
+    "140_12x12": {
+      "id": "140_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/140.a.htm",
+      "solution": "12 12\nx x x x x - - - - - - -\nx - - - x - - - - - - -\nx - - - x - - - - x x x\nx - - - x x x - - - - x\nx x x - - - x - - - - x\n- - x - - - x x x x - x\n- x x - x - - - - x - x\n- x - - x - - x x x - x\n- x - x x - - x - - - x\n- x - x - - - x x - - x\n- x x x - - - - x - - x\n- - - - - - - - x x x x"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/142.a.htm",
+      "solution": "8 8\n- x x x x - - -\n- x - - x x x -\nx x - - - - x x\nx - - - - - - x\nx - - - - x x x\nx - - - - x - -\n- - - - - x - -\n- x x x x x - -"
+    },
+    "145_10x10": {
+      "id": "145_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/145.a.htm",
+      "solution": "10 10\n- - - - - x x x - -\n- - - - - - - x x x\n- - - - - - - - - x\n- - x x x x x - - x\n- - x - - - x - - x\nx x x - - - x - x x\nx - - - - x x - x -\nx - - - - x - - x x\nx - x - - x - - - x\nx x x - - x x x x x"
+    },
+    "146_10x10": {
+      "id": "146_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/146.a.htm",
+      "solution": "10 10\n- - - - - x x x x x\n- - - x - x - - - x\n- x x x - x - - - x\n- x - - - x - - x x\n- x x x - x x - x -\n- - - x - - x - x -\n- - - x x x x - x -\n- - - - - - - - x -\n- - - x x x - - x -\nx x x x - x x x x -"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/147.a.htm",
+      "solution": "10 10\nx x x x - - - - - -\nx - - x - - - - - -\nx x - x x - - - - -\n- x - - x - x x x x\n- - - - x - x - - x\nx x x - x x x - - x\nx - x - - - - - - x\n- - x x x x x - - x\n- - - - - - x - - x\n- - - - - - x x x x"
+    },
+    "148_10x10": {
+      "id": "148_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/148.a.htm",
+      "solution": "10 10\n- - - - - x - - - -\n- - - - - x - - - -\n- - - - - x - - - -\n- x x x - x - x x x\n- - - x - x - x - x\nx x x x - x x x - x\nx - - - - - - - - x\nx - - - x x x - x x\nx - - - x - x x x -\nx x x x x - - - - -"
+    },
+    "150_12x12": {
+      "id": "150_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/150.a.htm",
+      "solution": "12 12\n- - - - - - - - - x x x\n- - - - - - - - - - - x\n- x x x x x - - - - - x\n- x - - - x - - x x x x\nx x - - - x - - x - - -\n- - - - - x - - x - - -\nx x x - - x x - x - - -\nx - x - - - x - x - - -\nx - x x x x x - x x x x\nx - - - - - - - - - - x\nx x x x x x x x x - x x\n- - - - - - - - x x x -"
+    },
+    "158_12x12": {
+      "id": "158_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/158.a.htm",
+      "solution": "12 12\n- - - - x x x - - - - x\n- - - - x - x x - - - x\n- - - - x - - x - - - x\n- - - - x x - x x x x x\n- - - - - x - - - - - -\n- - - - - x - - x x x -\n- - - - x x - - x - x -\nx x x x x - - - - - x -\nx - - - - - x x x - x x\nx - - - - - x - x - - x\nx - - - - - x - x - x x\nx x x x x x x - x x x -"
+    },
+    "159_12x12": {
+      "id": "159_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/159.a.htm",
+      "solution": "12 12\nx x x x x x x - - x x x\nx - - - - - x - - x - x\nx x - x - - x - x x - x\n- x - x x - x - x - - x\nx x - - x - x x x - x x\nx - - - x - - - - - x -\nx - - - x - - - - x x -\nx - - - x x x x - x - -\nx - - - - - - x - x x -\n- - - - - - - x - - x -\n- - - - - - - x - - x -\n- - - - - - - x x x x -"
+    },
+    "160_12x12": {
+      "id": "160_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/160.a.htm",
+      "solution": "12 12\n- - - - - - x x x x x x\n- - - x x x x - - - - x\n- - - x - - - - - x x x\n- - - x - - - - - x - -\nx x x x - x x x x x - -\nx - - - - x - - - - - x\nx - x x x x - - - - - x\nx - x - - - - - - - - x\nx - x x - - - x x x x x\nx - - - - - - x - - - -\nx - x x x x - x - - - -\nx x x - - x x x - - - -"
+    },
+    "164_10x10": {
+      "id": "164_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/164.a.htm",
+      "solution": "10 10\n- - x x x x - - - -\n- - x - - x - - - -\nx - x - - x x x - -\nx x x - - - - x x x\n- - - - - - - - - x\nx x x x x - - - x x\nx - - - x - - - x -\nx - - - - - - x x -\nx x x - - - - x - -\n- - x x x x x x - -"
+    },
+    "165_10x10": {
+      "id": "165_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/165.a.htm",
+      "solution": "10 10\nx x x x - - - x x x\nx - - x x x x x - x\nx - - - - - - - - x\nx x - - - - - - - x\n- - - - - - - - x x\nx x x x - - - - x -\nx - - x - - - - x -\nx x - x x x - - x x\n- - - - - x - - - x\n- - - - - x x x x x"
+    },
+    "168_12x12": {
+      "id": "168_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/168.a.htm",
+      "solution": "12 12\nx x x - - - - - x x x x\nx - x - - - - - x - - x\n- - x - - - - - - - - x\n- - x x - - - x x x x x\n- - - x - x x x - - - -\n- - - x - x - - - x x x\n- - - x - x - - - x - x\n- - x x - x x x - x - x\n- - x - - - - x x x - x\n- - x - - - - - - - - x\n- - x x x x - - x x x x\n- - - - - x x x x - - -"
+    },
+    "170_12x12": {
+      "id": "170_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/170.a.htm",
+      "solution": "12 12\nx x x x - - x x x - - -\nx - - x x x x - x x - -\nx - - - - - - - - x - -\nx - - x x x x - - x x x\nx - - x - - x - - - - x\nx - - x - - x - x x x x\nx - - x - - x - - - - -\nx x - x x - x x x - - -\n- x - - x - - - x - - -\n- x x - x x - - x - - -\n- - x - - x - x x - - -\n- - x x x x - - - - - -"
+    },
+    "189_12x12": {
+      "id": "189_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/189.a.htm",
+      "solution": "12 12\n- - - - x x x x x x x x\nx x x x x - - - - - - x\nx - - - - - - - - - - x\nx - x x x x x - - - - x\nx - x - - - x - - - - -\nx x x - - - x x - - - -\n- - - - - - - x - - - -\n- - - - - - - x x x - -\nx x x x x - - - - x - -\nx - - - x x x x - x x x\nx - - - - - - x - - - x\nx x - - - - - x x x x x"
+    },
+    "190_12x12": {
+      "id": "190_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/190.a.htm",
+      "solution": "12 12\n- - - - x x x - - x x x\n- - - - x - x - - x - x\n- - - x x - x x - x - x\n- - - x - - - x x x - x\n- - - x x x - - - - - x\n- - - - - x x x x - - x\nx x x - - - - - x - - x\nx - x x x - - x x - - x\nx - - - x - - - - - - x\nx - - - x x x - - - x x\n- - - - - - x x x - x -\n- - - - - - - - x x x -"
+    },
+    "202_8x8": {
+      "id": "202_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/202.a.htm",
+      "solution": "8 8\n- x x x - - - -\nx x - x x x - -\nx - - - - x x x\n- - x - - - - x\n- - x - - - - x\n- - x - - - x x\n- - x x x - x -\n- - - - x x x -"
+    },
+    "204_10x10": {
+      "id": "204_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/204.a.htm",
+      "solution": "10 10\n- - - - - - x x x x\nx x x - x x x - - x\nx - x x x - - - - x\nx - - - - - - - - x\nx - x x x - - - x x\nx - - - x - x x x -\nx - - - x x x - - -\nx - - - - - - - - -\nx x x - - - - - - -\n- - x x x x - - - -"
+    },
+    "205_10x10": {
+      "id": "205_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/205.a.htm",
+      "solution": "10 10\n- - - - x x x - - -\n- - - - x - x - - x\nx x x x x - x - - x\nx - - - - - x - x x\nx - - - - - x - x -\nx x - - - x x - x x\n- x - - - x - - - x\nx x - - - x x x - x\nx - - - - - - x - x\nx x x - - - - x x x"
+    },
+    "206_10x10": {
+      "id": "206_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/206.a.htm",
+      "solution": "10 10\n- - - x x x - x x x\n- - - x - x x x - x\n- - - x - - - - - x\nx x x x - - - x x x\nx - - - - - - x - -\n- - x x x x - x - -\n- - x - - - - x x x\n- - x x x - - - - x\n- - - - x - - - - x\n- - - - x x x x x x"
+    },
+    "207_10x10": {
+      "id": "207_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/207.a.htm",
+      "solution": "10 10\n- - - x x x - - - -\n- - - x - x - - - -\n- - - x - x x x - -\n- - - x - - - x - -\n- - x x - - - x - -\nx x x - - - - x - x\nx - - - x - x x - x\nx - - - x - x - - x\nx - - - x - x - - x\nx x x x x - x x x x"
+    },
+    "208_10x10": {
+      "id": "208_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/208.a.htm",
+      "solution": "10 10\n- - x x x - - x x x\n- - x - - - - x - x\n- - x - - - - x - x\n- x x - x - - x - x\nx x - - x - x x - x\nx - - - x x x - - x\nx - - - - - - - - x\nx - - - - x x x x x\nx - - x x x - - - -\nx x x x - - - - - -"
+    },
+    "209_12x12": {
+      "id": "209_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/209.a.htm",
+      "solution": "12 12\n- - - - - - - x x x x -\n- - - x x x - x - - x -\nx - - x - x x x - - x -\nx - x x - - - - - - x -\nx - x - - - x x x - x x\nx - x x x - x - x - - x\nx - - - x - x - x x x x\nx x x x x - x - - - - -\n- - - - - - x - - x x x\n- - - - - - x - - - - x\n- - - - - - x x x - - x\n- - - - - - - - x x x x"
+    },
+    "210_12x12": {
+      "id": "210_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/210.a.htm",
+      "solution": "12 12\nx x x x x - - - - - - -\nx - - - x - - - - - - -\nx - - - x - - - - - - -\nx x x - x x x - - - x -\n- - x - - - x - - - x x\n- - x - - - x - - - - x\nx x x - - - x - - - - x\nx - - - - - x x x x - x\nx - x x x - - - - x - x\nx - x - x - x - x x - x\nx - x - x x x - x - - x\nx x x - - - - - x x x x"
+    },
+    "218_10x10": {
+      "id": "218_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/218.a.htm",
+      "solution": "10 10\nx x x x - x x x - -\nx - - x - x - x - -\nx - - x - x - x x x\nx - - x x x - - - x\nx x - - - - - - - x\n- x - - - - - - x x\n- x x x x x - - x -\n- - - - - x - - - -\nx x - - - x - - - -\n- x x x x x - - - -"
+    },
+    "219_12x12": {
+      "id": "219_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/219.a.htm",
+      "solution": "12 12\n- x x x - x x x x x x x\n- x - x - x - - - - - x\nx x - x - x x - - - - x\nx - - x - - x x x - - x\nx - - x x - - - x - x x\nx - - - x - x x x - x -\nx - - - - - x - - - x x\nx - - - - - x x x - - x\nx x x - - - - - x - - -\n- - x - x x x x x - - -\n- - x - x - - - - - - -\n- - x x x - - - - - - -"
+    },
+    "229_12x12": {
+      "id": "229_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Schlange/229.a.htm",
+      "solution": "12 12\n- - x x x - - - - - - -\n- - x - x x x x - - - -\nx x x - - - - x - - - -\nx - - - x - - x x - - -\nx - - - x - - - x - - -\nx x x - x x x - x - - -\n- - x - - - x - x x x -\nx x x - - - x - - - x -\nx - - - - - x - - - x x\nx x - x x x x - - - - x\n- x - x - - - - - - - x\nx x - x x x x x x x x x"
+    }
+  },
+  "info": "",
+  "count": 230
+}

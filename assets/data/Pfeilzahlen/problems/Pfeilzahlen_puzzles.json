@@ -1,0 +1,2166 @@
+{
+  "puzzles": {
+    "1_8x8": {
+      "id": "1_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/001.a.htm",
+      "problem": "8 8\n3 3 3 5 3 2 2 4\n1 2 4 2 2 0 2 3\n2 5 3 3 2 2 3 5\n4 3 3 2 3 2 4 5\n1 2 1 2 2 2 3 3\n1 2 3 3 4 3 3 4\n1 2 3 4 4 2 3 4\n3 4 4 5 4 3 4 4"
+    },
+    "2_8x8": {
+      "id": "2_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/002.a.htm",
+      "problem": "8 8\n2 6 2 3 1 5 4 2\n4 3 4 3 3 2 3 5\n2 5 1 6 3 1 2 5\n3 3 4 3 3 3 2 3\n1 4 1 2 1 3 2 2\n5 5 2 4 4 3 5 6\n2 2 1 2 1 2 2 4\n1 3 1 2 1 2 2 2"
+    },
+    "3_8x8": {
+      "id": "3_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/003.a.htm",
+      "problem": "8 8\n4 2 4 3 3 3 4 1\n3 2 3 4 2 6 2 2\n4 3 3 5 6 4 5 2\n2 1 3 5 3 5 2 2\n2 1 4 4 3 4 3 1\n3 4 3 5 4 4 4 4\n5 1 3 3 2 4 3 2\n3 3 2 3 2 4 3 2"
+    },
+    "4_8x8": {
+      "id": "4_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/004.a.htm",
+      "problem": "8 8\n2 1 1 2 5 3 2 1\n4 2 1 4 5 4 4 3\n2 2 2 1 3 2 4 4\n5 4 3 2 2 3 5 6\n5 5 2 2 3 2 5 4\n4 2 2 1 3 2 1 2\n5 4 3 5 5 3 3 3\n4 4 4 4 5 2 4 3"
+    },
+    "5_8x8": {
+      "id": "5_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/005.a.htm",
+      "problem": "8 8\n2 4 3 3 1 4 3 1\n3 1 5 3 2 3 2 3\n2 4 3 6 5 2 2 6\n2 1 4 4 3 3 2 1\n3 3 5 4 3 6 2 2\n2 4 2 3 4 1 2 2\n5 2 5 5 2 3 1 5\n1 3 4 3 1 1 2 2"
+    },
+    "6_8x8": {
+      "id": "6_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/006.a.htm",
+      "problem": "8 8\n4 1 2 4 2 3 4 2\n6 2 4 4 3 3 4 5\n3 3 1 2 1 1 1 2\n5 2 4 3 2 2 2 3\n3 2 3 5 2 2 3 2\n5 2 4 5 5 4 3 3\n3 2 2 4 4 4 2 2\n5 2 4 5 4 4 5 4"
+    },
+    "7_8x8": {
+      "id": "7_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/007.a.htm",
+      "problem": "8 8\n5 2 4 4 3 5 6 3\n2 0 1 2 3 2 2 3\n1 1 1 2 3 2 2 2\n3 1 4 3 2 4 4 1\n3 4 4 4 4 4 4 3\n3 1 2 2 3 1 1 2\n5 2 3 4 2 3 3 1\n3 5 5 3 4 4 4 2"
+    },
+    "8_8x8": {
+      "id": "8_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/008.a.htm",
+      "problem": "8 8\n3 2 4 4 2 3 4 4\n2 2 2 3 1 2 2 4\n5 1 3 2 1 2 2 4\n3 4 2 3 0 2 3 2\n4 2 5 2 1 2 1 4\n3 3 3 5 1 1 2 3\n6 4 6 6 4 4 4 4\n3 4 5 4 3 5 2 3"
+    },
+    "9_8x8": {
+      "id": "9_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/009.a.htm",
+      "problem": "8 8\n2 2 1 3 4 4 4 4\n2 1 2 3 4 2 4 6\n1 2 2 4 2 2 4 5\n0 1 2 1 2 1 2 3\n3 2 1 3 3 2 2 4\n2 2 1 3 3 1 3 4\n2 1 3 2 2 2 3 5\n4 4 2 4 3 3 5 4"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/010.a.htm",
+      "problem": "8 8\n2 2 4 5 2 3 3 3\n4 2 5 6 3 3 4 7\n1 1 3 2 1 2 3 4\n3 2 3 3 1 5 4 4\n4 1 3 3 3 3 4 4\n2 1 2 4 1 2 1 3\n2 2 6 4 2 2 2 3\n3 4 6 6 2 3 3 6"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/011.a.htm",
+      "problem": "8 8\n2 4 5 4 3 5 4 2\n5 2 5 4 4 5 4 2\n1 4 2 3 5 2 3 2\n2 1 5 3 2 4 2 2\n2 2 4 3 2 2 4 1\n3 5 3 3 4 3 3 4\n3 1 4 1 2 3 2 2\n1 2 2 3 1 2 4 1"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/012.a.htm",
+      "problem": "8 8\n2 2 1 3 4 2 3 2\n2 1 1 1 2 3 1 2\n4 4 2 1 3 3 5 2\n4 5 2 2 2 4 4 2\n5 3 4 2 4 3 2 2\n4 6 3 6 5 3 3 2\n4 3 5 3 4 3 2 1\n4 6 4 4 4 5 4 2"
+    },
+    "13_8x8": {
+      "id": "13_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/013.a.htm",
+      "problem": "8 8\n5 2 4 3 3 5 6 3\n5 3 3 3 4 4 4 4\n5 2 2 3 4 1 1 3\n4 2 4 4 2 1 1 2\n3 3 5 3 2 1 2 1\n3 2 2 2 2 1 0 1\n6 1 2 3 4 2 2 2\n4 2 2 3 3 3 3 1"
+    },
+    "14_8x8": {
+      "id": "14_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/014.a.htm",
+      "problem": "8 8\n3 2 4 3 3 3 5 3\n6 3 2 6 5 4 3 6\n4 1 1 2 4 2 1 2\n5 4 4 4 3 5 4 5\n5 3 3 3 2 2 5 4\n4 2 1 2 2 2 1 4\n3 1 1 2 3 2 1 2\n4 1 2 4 3 3 3 3"
+    },
+    "15_8x8": {
+      "id": "15_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/015.a.htm",
+      "problem": "8 8\n2 2 3 3 1 1 3 1\n3 1 3 2 2 2 2 2\n5 5 2 4 5 4 5 3\n3 1 2 1 2 3 3 1\n2 2 3 3 2 3 4 3\n3 2 2 3 3 1 4 5\n3 1 1 1 1 2 3 2\n4 3 2 1 2 4 4 1"
+    },
+    "16_8x8": {
+      "id": "16_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/016.a.htm",
+      "problem": "8 8\n2 1 4 3 1 1 1 3\n6 2 4 3 4 1 1 4\n4 4 1 1 3 1 1 2\n5 2 5 1 2 4 3 3\n2 1 2 2 2 1 3 3\n5 1 2 3 5 2 2 5\n2 1 2 1 3 3 1 3\n4 3 5 3 4 4 6 3"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/017.a.htm",
+      "problem": "8 8\n4 2 1 2 2 4 2 4\n4 2 1 1 3 4 2 3\n5 4 2 3 3 4 4 4\n5 4 4 3 2 4 3 4\n3 4 3 2 2 2 1 4\n4 2 1 2 1 1 1 2\n5 2 1 1 1 3 1 2\n3 5 2 1 3 4 3 3"
+    },
+    "19_8x8": {
+      "id": "19_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/019.a.htm",
+      "problem": "8 8\n2 3 3 2 3 4 4 1\n3 1 3 3 4 5 3 2\n3 2 1 4 6 3 4 2\n3 1 2 2 3 4 2 1\n4 5 5 3 4 5 5 3\n4 4 3 3 3 2 4 4\n5 1 2 2 2 2 2 2\n2 3 1 1 3 3 2 1"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/021.a.htm",
+      "problem": "8 8\n3 4 1 3 4 4 4 3\n4 2 2 3 2 5 4 4\n2 1 1 2 1 2 4 5\n3 3 1 3 2 3 5 4\n4 1 1 1 1 4 1 2\n3 3 0 2 2 1 2 1\n6 3 3 4 1 2 2 4\n3 5 4 3 1 2 3 3"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/022.a.htm",
+      "problem": "8 8\n2 4 4 3 2 2 3 5\n3 2 3 4 3 1 2 6\n1 1 1 2 3 1 1 3\n3 1 1 1 2 3 1 2\n3 4 2 2 3 2 3 5\n4 3 4 3 2 1 3 5\n2 4 4 4 2 2 1 4\n3 4 5 4 6 2 2 5"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/023.a.htm",
+      "problem": "8 8\n3 3 1 4 1 4 4 2\n2 2 1 1 1 2 3 4\n2 5 1 2 1 4 5 4\n4 4 3 3 2 6 6 4\n3 3 1 3 3 4 4 3\n3 4 1 4 3 4 3 2\n3 4 4 3 2 4 3 2\n3 7 4 5 2 4 5 4"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/027.a.htm",
+      "problem": "8 8\n2 3 3 5 2 6 3 2\n3 1 1 4 4 3 1 4\n3 2 2 4 2 4 2 3\n2 5 5 4 1 6 4 2\n5 5 6 5 4 5 3 5\n3 3 1 6 2 2 0 3\n2 1 4 3 2 3 1 1\n3 4 3 4 1 6 2 2"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/032.a.htm",
+      "problem": "8 8\n2 5 5 3 3 7 4 3\n2 3 4 3 4 4 3 2\n1 2 1 5 3 2 2 1\n3 3 6 4 5 6 3 4\n1 5 3 3 3 5 5 1\n4 3 3 3 3 5 4 2\n1 2 2 2 3 3 1 3\n1 3 3 4 3 3 4 2"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/034.a.htm",
+      "problem": "8 8\n4 5 4 6 2 5 3 4\n4 5 5 3 5 3 3 4\n4 4 1 5 1 4 1 3\n3 2 3 2 3 2 3 4\n3 3 1 3 1 4 3 4\n3 3 1 2 2 4 3 2\n1 1 1 1 2 2 0 3\n2 2 1 5 1 2 2 4"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/035.a.htm",
+      "problem": "8 8\n1 4 1 2 4 3 3 2\n6 2 3 3 6 4 2 5\n1 3 2 4 3 2 4 1\n3 4 7 4 5 5 4 5\n4 5 4 5 6 4 4 4\n3 2 1 3 4 2 2 1\n2 1 3 1 3 3 1 2\n2 3 1 2 2 1 3 2"
+    },
+    "37_8x8": {
+      "id": "37_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/037.a.htm",
+      "problem": "8 8\n2 5 2 6 4 6 4 3\n1 3 2 4 4 5 3 3\n2 3 2 5 3 4 3 4\n1 4 1 4 1 2 2 4\n3 4 3 2 1 2 2 3\n2 6 1 4 0 3 1 1\n4 5 5 5 5 3 2 4\n1 4 2 7 2 3 1 3"
+    },
+    "39_8x8": {
+      "id": "39_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/039.a.htm",
+      "problem": "8 8\n3 5 2 1 4 1 3 2\n5 2 1 1 2 1 1 0\n3 4 2 2 4 1 2 2\n2 3 3 2 4 1 3 1\n3 2 2 3 3 3 2 2\n4 4 2 2 7 2 5 3\n5 4 2 3 4 5 4 4\n3 4 4 2 5 3 6 3"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/042.a.htm",
+      "problem": "8 8\n5 2 2 4 1 3 3 3\n3 2 3 2 3 4 1 3\n5 2 1 4 3 3 2 2\n5 1 1 3 1 2 1 2\n3 3 3 1 1 2 1 4\n6 5 4 5 2 4 5 4\n5 2 3 4 3 4 2 3\n3 1 1 3 4 3 0 1"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/043.a.htm",
+      "problem": "8 8\n2 7 3 5 4 6 4 3\n1 2 3 3 2 4 2 2\n2 4 1 6 4 3 4 4\n2 3 1 3 3 4 2 3\n1 4 2 2 2 5 3 2\n3 6 3 6 4 5 6 4\n1 2 2 4 3 3 1 3\n2 4 2 5 4 4 2 2"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/044.a.htm",
+      "problem": "8 8\n3 5 2 3 6 4 4 4\n4 1 0 2 2 3 2 2\n2 2 2 1 1 1 4 2\n3 5 3 2 1 2 3 5\n5 4 3 2 2 1 3 4\n2 3 1 2 1 1 2 2\n3 1 2 1 2 2 2 1\n4 4 1 3 3 3 3 3"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/046.a.htm",
+      "problem": "8 8\n2 1 3 2 3 2 0 2\n6 2 4 3 4 2 1 3\n5 6 4 4 4 2 4 4\n6 3 7 2 3 4 3 4\n3 2 1 2 2 1 1 1\n6 1 2 2 5 1 1 3\n4 2 3 2 2 3 1 3\n4 4 5 2 3 2 5 4"
+    },
+    "47_8x8": {
+      "id": "47_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/047.a.htm",
+      "problem": "8 8\n4 2 2 4 2 2 1 4\n5 2 4 2 3 1 1 2\n5 5 2 3 1 2 1 2\n7 4 5 2 3 2 3 5\n4 2 1 2 0 1 2 2\n5 2 2 2 3 3 2 3\n2 1 1 1 3 2 1 3\n4 1 2 4 2 3 4 3"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/049.a.htm",
+      "problem": "8 8\n3 3 3 2 0 1 5 2\n4 3 6 1 1 3 3 6\n2 4 2 1 1 1 3 2\n5 3 5 3 3 4 4 4\n2 2 4 2 2 3 3 4\n1 2 2 1 1 1 4 3\n4 2 4 1 1 4 4 5\n2 4 3 1 2 3 5 4"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/053.a.htm",
+      "problem": "8 8\n2 2 1 1 2 1 2 2\n6 3 1 2 2 2 3 4\n5 5 2 3 3 2 5 5\n3 1 2 1 1 1 2 2\n4 2 0 3 2 1 1 1\n4 4 2 3 5 1 2 2\n5 4 5 5 3 4 3 4\n5 5 4 5 4 2 6 3"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/054.a.htm",
+      "problem": "8 8\n2 2 1 3 5 2 2 1\n5 2 0 4 3 2 3 2\n5 4 3 3 3 3 5 5\n2 4 2 2 2 2 5 3\n5 2 2 5 4 4 4 3\n3 2 1 5 7 3 3 2\n2 1 1 4 4 3 2 1\n5 4 4 5 4 4 6 4"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/055.a.htm",
+      "problem": "8 8\n3 4 3 2 2 5 2 3\n5 3 3 2 4 2 3 3\n3 3 2 3 1 1 1 3\n2 4 6 2 2 2 2 3\n4 5 5 4 3 3 3 4\n5 3 2 3 3 2 2 3\n3 3 3 1 3 3 2 5\n1 2 2 1 0 2 4 1"
+    },
+    "57_8x8": {
+      "id": "57_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/057.a.htm",
+      "problem": "8 8\n4 4 2 2 4 3 3 3\n3 2 4 2 3 6 1 2\n3 3 3 3 4 4 2 2\n2 3 2 2 3 2 1 2\n5 3 5 2 2 5 1 5\n2 6 3 2 3 3 5 3\n4 2 4 2 3 6 2 4\n2 1 1 2 4 4 1 1"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/061.a.htm",
+      "problem": "8 8\n3 3 7 4 2 3 5 2\n3 2 6 3 1 3 3 1\n4 5 4 3 5 3 4 3\n5 2 5 3 3 5 5 2\n2 1 4 2 1 4 5 1\n4 3 4 2 4 3 5 5\n2 1 2 1 0 2 3 2\n5 2 6 2 2 4 6 2"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/062.a.htm",
+      "problem": "8 8\n2 4 2 4 2 2 2 3\n3 2 3 5 1 2 2 4\n1 4 2 4 2 2 3 3\n3 3 2 3 2 4 2 3\n5 4 2 5 3 4 4 4\n2 5 3 5 3 3 4 5\n1 1 3 3 0 2 1 3\n4 5 2 6 3 3 4 5"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/063.a.htm",
+      "problem": "8 8\n3 2 4 2 4 4 4 2\n3 3 1 4 6 2 2 5\n4 2 2 3 6 2 2 4\n4 3 3 2 3 4 3 3\n4 5 2 1 4 2 4 4\n5 2 1 1 3 1 1 3\n3 2 1 2 3 1 0 2\n4 4 4 3 6 2 3 4"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/065.a.htm",
+      "problem": "8 8\n4 4 5 5 2 5 6 5\n3 2 0 3 3 3 2 2\n5 2 1 3 5 4 2 3\n3 3 2 4 1 4 4 2\n5 4 5 3 2 3 5 5\n5 5 1 3 1 2 2 4\n5 2 1 1 1 1 1 1\n3 3 2 3 1 3 2 2"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/066.a.htm",
+      "problem": "8 8\n4 3 3 4 2 5 7 2\n4 3 1 1 5 3 3 3\n4 2 0 2 2 2 1 1\n5 4 5 4 2 2 5 3\n5 6 5 3 2 2 4 4\n6 5 2 2 2 2 2 1\n4 2 1 1 2 1 1 1\n4 2 2 3 2 2 4 2"
+    },
+    "67_8x8": {
+      "id": "67_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/067.a.htm",
+      "problem": "8 8\n2 5 1 2 0 3 1 1\n7 4 6 2 3 5 2 4\n3 6 1 4 2 3 2 2\n4 2 4 2 3 4 1 2\n3 3 2 3 2 5 1 3\n4 4 1 2 3 3 4 2\n5 3 3 1 1 6 1 4\n1 4 1 1 1 2 2 3"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/072.a.htm",
+      "problem": "8 8\n2 3 6 4 3 4 4 6\n1 2 3 5 2 2 2 6\n1 0 2 2 2 2 1 3\n1 1 1 1 1 4 1 2\n2 2 2 2 2 3 3 6\n1 1 3 3 1 2 4 7\n1 1 3 3 1 4 3 4\n3 3 3 3 5 5 2 5"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/073.a.htm",
+      "problem": "8 8\n5 2 5 3 4 6 1 2\n4 2 2 2 5 3 1 1\n6 3 2 5 4 4 2 4\n2 1 5 1 3 3 2 3\n2 2 2 3 2 4 2 2\n6 1 2 3 6 4 2 3\n2 1 1 2 4 4 0 3\n4 1 4 3 3 4 4 2"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/075.a.htm",
+      "problem": "8 8\n4 3 3 2 5 3 3 3\n5 1 2 1 2 3 2 1\n5 3 3 1 4 2 4 2\n5 3 3 2 3 3 2 2\n3 1 3 1 3 1 1 1\n2 1 2 2 3 1 2 0\n5 2 4 3 5 5 3 3\n5 3 3 2 6 4 5 2"
+    },
+    "77_8x8": {
+      "id": "77_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/077.a.htm",
+      "problem": "8 8\n6 6 4 4 3 4 3 6\n4 2 2 2 1 1 2 2\n4 2 2 4 2 2 2 4\n2 1 1 2 2 1 1 2\n4 2 2 3 2 3 2 3\n3 3 2 3 2 2 3 4\n3 1 2 2 1 1 2 4\n4 3 2 4 2 3 3 4"
+    },
+    "78_8x8": {
+      "id": "78_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/078.a.htm",
+      "problem": "8 8\n3 3 3 3 2 3 5 2\n6 3 4 5 3 5 3 4\n3 4 2 4 5 2 1 2\n4 3 5 6 4 4 2 3\n3 2 4 5 2 3 3 1\n3 3 1 2 3 2 1 1\n5 2 1 2 2 3 0 2\n4 2 2 3 1 1 3 1"
+    },
+    "79_8x8": {
+      "id": "79_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/079.a.htm",
+      "problem": "8 8\n2 2 1 4 3 3 4 3\n3 2 3 4 6 3 3 7\n1 2 1 5 4 2 2 5\n1 1 3 4 4 2 3 4\n1 2 2 4 4 3 2 4\n1 1 0 3 4 1 1 3\n3 1 2 4 4 2 2 6\n1 3 2 4 3 2 4 5"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/081.a.htm",
+      "problem": "8 8\n2 3 3 1 2 1 3 1\n4 2 3 6 1 3 3 4\n1 2 3 2 4 0 3 2\n4 4 3 4 2 5 2 3\n5 5 5 4 4 3 6 4\n2 3 3 3 1 1 3 4\n3 2 3 3 1 2 2 3\n2 3 2 2 3 1 3 2"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/082.a.htm",
+      "problem": "8 8\n3 4 5 3 3 3 6 2\n4 4 5 2 5 4 3 4\n4 3 3 3 4 2 3 1\n1 2 4 2 2 1 2 1\n5 4 7 3 4 3 4 5\n3 6 3 3 3 2 5 1\n3 1 5 0 3 3 1 2\n2 2 2 3 3 1 3 1"
+    },
+    "84_8x8": {
+      "id": "84_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/084.a.htm",
+      "problem": "8 8\n3 3 3 4 3 2 2 3\n6 3 3 2 4 2 1 3\n4 4 1 1 2 2 0 2\n3 2 3 1 2 1 2 1\n4 2 3 4 3 3 1 4\n2 2 1 2 5 1 1 1\n6 3 4 4 5 6 2 4\n4 5 4 4 5 4 5 4"
+    },
+    "86_8x8": {
+      "id": "86_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/086.a.htm",
+      "problem": "8 8\n2 4 4 4 2 5 2 2\n4 4 4 2 3 4 2 4\n3 4 1 3 0 3 2 2\n1 2 4 1 1 3 1 2\n2 3 3 4 2 4 1 3\n2 3 2 4 3 3 2 2\n1 2 4 2 2 5 1 4\n4 4 3 4 2 5 5 3"
+    },
+    "87_8x8": {
+      "id": "87_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/087.a.htm",
+      "problem": "8 8\n1 3 6 1 3 3 2 4\n1 3 3 3 0 1 2 3\n4 3 5 2 2 2 3 6\n2 5 4 1 2 4 4 3\n4 3 4 2 2 5 3 3\n1 2 3 2 3 1 2 4\n1 3 5 4 2 3 3 5\n2 4 7 3 3 5 5 4"
+    },
+    "88_8x8": {
+      "id": "88_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/088.a.htm",
+      "problem": "8 8\n3 4 2 2 2 4 6 2\n3 1 5 1 2 6 3 4\n1 3 2 4 3 3 5 2\n2 1 4 3 3 4 3 3\n1 1 3 1 1 4 2 3\n2 3 1 1 1 2 6 2\n4 2 4 1 1 6 4 5\n1 2 2 1 2 3 4 1"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/091.a.htm",
+      "problem": "8 8\n5 6 3 2 3 2 7 2\n4 3 3 1 2 3 3 2\n3 3 1 3 4 1 3 1\n3 2 2 3 4 1 3 1\n4 3 3 2 2 3 3 2\n2 6 2 1 3 1 6 2\n5 2 3 2 2 3 4 5\n1 2 0 2 3 1 5 1"
+    },
+    "95_8x8": {
+      "id": "95_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/095.a.htm",
+      "problem": "8 8\n5 1 3 1 4 2 3 1\n4 2 2 3 2 2 3 2\n5 3 5 2 4 2 4 4\n4 3 3 2 2 2 3 2\n6 3 4 3 4 3 4 3\n4 2 3 2 4 2 3 1\n3 1 2 2 2 2 1 0\n5 3 5 3 5 2 4 4"
+    },
+    "100_8x8": {
+      "id": "100_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/100.a.htm",
+      "problem": "8 8\n1 4 2 4 3 3 4 3\n3 2 4 3 4 3 3 4\n0 3 2 3 2 3 2 2\n1 2 3 2 3 2 3 1\n3 3 3 4 3 4 2 6\n1 3 2 2 3 1 5 1\n4 4 5 4 3 7 3 5\n1 3 2 2 4 1 3 2"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/101.a.htm",
+      "problem": "8 8\n1 3 5 3 1 3 6 4\n1 2 2 3 1 2 3 4\n2 2 1 2 4 1 2 3\n2 2 2 3 1 3 2 1\n1 4 5 3 2 2 4 3\n2 3 3 3 1 0 2 4\n5 4 3 4 2 2 3 3\n1 5 4 2 3 3 3 2"
+    },
+    "103_8x8": {
+      "id": "103_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/103.a.htm",
+      "problem": "8 8\n1 5 2 5 3 4 4 2\n4 3 5 2 3 5 3 4\n3 6 1 4 3 4 4 4\n2 2 2 2 3 3 3 3\n1 2 3 4 3 6 3 3\n1 3 1 4 5 4 4 2\n2 2 2 3 4 5 2 4\n2 2 1 2 1 3 3 1"
+    },
+    "106_8x8": {
+      "id": "106_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/106.a.htm",
+      "problem": "8 8\n1 2 3 4 0 2 3 1\n6 2 5 5 5 3 4 5\n1 3 1 3 3 2 2 2\n3 1 5 3 2 4 4 3\n3 2 3 4 2 2 5 4\n5 3 2 3 3 2 3 4\n2 2 3 1 1 2 1 3\n4 2 4 4 1 1 5 2"
+    },
+    "108_8x8": {
+      "id": "108_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/108.a.htm",
+      "problem": "8 8\n1 3 4 4 1 3 2 3\n2 5 4 4 4 2 3 7\n4 3 1 4 2 2 3 4\n3 2 1 1 1 3 1 3\n2 5 2 2 3 2 3 4\n2 2 2 4 0 1 1 3\n3 4 5 5 4 2 2 6\n2 6 3 5 4 3 3 4"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/111.a.htm",
+      "problem": "8 8\n3 5 2 3 4 4 4 3\n4 1 2 3 4 2 1 4\n2 1 1 4 2 0 1 2\n1 3 3 2 2 1 1 2\n3 3 3 2 2 2 1 3\n5 5 3 6 5 3 5 4\n1 1 3 3 4 3 1 2\n1 2 3 5 5 4 2 3"
+    },
+    "117_8x8": {
+      "id": "117_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/117.a.htm",
+      "problem": "8 8\n3 2 5 3 2 6 4 4\n1 1 1 1 2 2 3 2\n4 1 2 2 3 3 3 6\n3 2 3 2 1 4 5 2\n2 2 3 0 1 3 2 2\n5 3 3 3 3 2 2 4\n2 2 3 3 1 1 2 3\n3 3 7 3 3 5 5 4"
+    },
+    "125_4x4": {
+      "id": "125_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/125.a.htm",
+      "problem": "4 4\n1 2 4 1\n2 2 3 3\n7 3 4 7\n1 3 4 1"
+    },
+    "127_4x4": {
+      "id": "127_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/127.a.htm",
+      "problem": "4 4\n1 1 3 1\n4 4 4 5\n3 3 5 2\n5 5 5 3"
+    },
+    "130_8x8": {
+      "id": "130_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/130.a.htm",
+      "problem": "8 8\n2 2 3 3 5 2 4 3\n3 1 4 3 5 2 2 6\n1 2 2 2 3 1 4 1\n5 2 4 1 4 4 3 3\n3 4 2 2 5 2 3 5\n3 1 4 3 4 1 5 3\n2 1 4 3 3 4 2 3\n4 3 2 1 7 1 3 2"
+    },
+    "131_3x3": {
+      "id": "131_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/131.a.htm",
+      "problem": "3 3\n1 1 4\n3 1 6\n2 4 4"
+    },
+    "141_3x3": {
+      "id": "141_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/141.a.htm",
+      "problem": "3 3\n1 1 3\n2 0 5\n3 4 5"
+    },
+    "154_4x4": {
+      "id": "154_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/154.a.htm",
+      "problem": "4 4\n1 2 5 3\n1 2 3 7\n4 1 4 5\n1 5 3 3"
+    },
+    "168_8x8": {
+      "id": "168_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/168.a.htm",
+      "problem": "8 8\n1 2 1 1 3 4 3 1\n5 2 2 1 6 3 3 6\n2 3 1 2 2 2 4 3\n1 2 5 0 2 3 3 2\n3 4 3 3 5 3 2 4\n3 2 1 3 5 1 2 2\n4 2 5 2 4 5 3 2\n3 7 4 3 5 5 5 3"
+    },
+    "177_8x8": {
+      "id": "177_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/177.a.htm",
+      "problem": "8 8\n1 3 4 3 2 3 3 3\n3 2 3 3 3 2 2 6\n1 1 1 3 1 1 2 4\n1 1 4 2 2 3 3 4\n2 1 1 2 1 2 1 3\n4 4 3 4 4 2 3 5\n1 2 5 3 1 2 1 5\n4 3 5 5 2 2 4 5"
+    },
+    "178_8x8": {
+      "id": "178_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/178.a.htm",
+      "problem": "8 8\n2 3 6 2 2 4 3 3\n1 2 5 2 1 2 2 3\n3 2 3 3 2 1 3 2\n3 2 4 1 2 4 1 2\n3 5 6 3 4 5 5 4\n1 1 4 3 1 2 4 3\n1 0 4 2 2 3 2 4\n2 2 2 1 3 3 3 1"
+    },
+    "179_8x8": {
+      "id": "179_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/179.a.htm",
+      "problem": "8 8\n2 3 4 2 4 1 5 3\n3 2 3 3 3 3 3 5\n2 3 1 2 6 1 5 4\n3 1 2 2 4 4 4 6\n0 1 1 1 3 2 6 3\n3 3 3 3 6 4 6 6\n2 2 2 3 5 3 3 4\n1 2 3 3 5 1 4 3"
+    },
+    "180_8x8": {
+      "id": "180_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/180.a.htm",
+      "problem": "8 8\n1 4 3 2 4 6 1 3\n2 2 2 3 2 2 2 3\n3 3 4 5 1 2 3 7\n0 4 4 1 1 2 2 3\n4 4 3 3 2 5 1 4\n3 3 2 4 4 2 3 3\n2 2 4 4 2 4 1 4\n2 5 5 4 3 4 3 5"
+    },
+    "187_8x8": {
+      "id": "187_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/187.a.htm",
+      "problem": "8 8\n1 1 3 3 2 1 1 1\n4 2 5 3 3 2 2 4\n4 5 3 2 3 3 4 4\n4 2 3 0 2 4 4 1\n4 2 3 3 4 5 3 4\n2 1 2 3 5 1 3 2\n2 2 5 4 3 5 2 5\n3 3 5 2 4 3 6 2"
+    },
+    "191_3x3": {
+      "id": "191_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/191.a.htm",
+      "problem": "3 3\n1 1 3\n3 1 3\n4 7 3"
+    },
+    "213_3x3": {
+      "id": "213_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/213.a.htm",
+      "problem": "3 3\n2 1 2\n4 0 2\n3 6 3"
+    },
+    "214_4x4": {
+      "id": "214_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/214.a.htm",
+      "problem": "4 4\n2 2 2 2\n4 1 1 4\n7 3 3 7\n2 3 3 2"
+    },
+    "217_4x4": {
+      "id": "217_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/217.a.htm",
+      "problem": "4 4\n1 6 1 2\n6 4 4 6\n2 3 1 4\n2 5 2 3"
+    },
+    "224_4x4": {
+      "id": "224_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/224.a.htm",
+      "problem": "4 4\n1 1 5 2\n1 1 3 6\n2 2 5 6\n1 3 6 3"
+    },
+    "225_4x4": {
+      "id": "225_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/225.a.htm",
+      "problem": "4 4\n3 1 5 2\n5 3 1 3\n7 3 1 1\n4 3 3 1"
+    },
+    "232_3x3": {
+      "id": "232_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/232.a.htm",
+      "problem": "3 3\n2 4 2\n1 2 4\n2 7 4"
+    },
+    "235_4x4": {
+      "id": "235_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/235.a.htm",
+      "problem": "4 4\n2 1 4 1\n7 2 4 6\n2 2 3 1\n5 3 6 3"
+    },
+    "237_4x4": {
+      "id": "237_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/237.a.htm",
+      "problem": "4 4\n4 3 7 3\n2 1 3 2\n2 1 2 1\n5 2 5 2"
+    },
+    "241_3x3": {
+      "id": "241_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/241.a.htm",
+      "problem": "3 3\n3 1 3\n4 0 1\n6 4 4"
+    },
+    "242_4x4": {
+      "id": "242_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/242.a.htm",
+      "problem": "4 4\n3 3 3 4\n0 3 1 3\n5 3 4 4\n1 5 1 2"
+    },
+    "245_5x5": {
+      "id": "245_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/245.a.htm",
+      "problem": "5 5\n3 2 3 2 3\n3 1 1 2 2\n1 3 1 2 2\n2 1 4 1 3\n4 5 3 7 5"
+    },
+    "246_5x5": {
+      "id": "246_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/246.a.htm",
+      "problem": "5 5\n2 1 2 4 0\n6 3 4 4 5\n3 4 0 3 1\n5 1 4 1 0\n3 5 2 4 1"
+    },
+    "247_5x5": {
+      "id": "247_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/247.a.htm",
+      "problem": "5 5\n6 2 2 5 4\n3 0 0 2 2\n4 3 2 4 3\n2 0 1 2 2\n6 2 2 6 4"
+    },
+    "249_6x6": {
+      "id": "249_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/249.a.htm",
+      "problem": "6 6\n2 3 4 1 3 0\n5 4 3 4 3 2\n5 5 5 3 5 3\n2 3 3 1 2 1\n3 2 2 2 1 1\n4 3 3 1 4 2"
+    },
+    "250_8x8": {
+      "id": "250_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/250.a.htm",
+      "problem": "8 8\n2 5 4 4 3 6 3 4\n4 2 4 5 4 4 3 6\n1 1 0 4 2 1 2 4\n1 1 2 1 1 4 1 5\n3 4 3 3 3 5 6 4\n3 2 1 4 2 4 2 6\n1 0 2 2 3 1 1 3\n2 4 3 6 2 5 2 4"
+    },
+    "251_4x4": {
+      "id": "251_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/251.a.htm",
+      "problem": "4 4\n4 3 1 5\n3 1 1 2\n3 3 1 5\n3 2 3 5"
+    },
+    "252_4x4": {
+      "id": "252_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/252.a.htm",
+      "problem": "4 4\n3 5 4 2\n3 4 0 1\n5 3 1 1\n3 6 3 2"
+    },
+    "257_7x7": {
+      "id": "257_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/257.a.htm",
+      "problem": "7 7\n2 3 4 3 2 3 3\n3 2 4 3 4 2 3\n4 4 2 5 5 4 5\n3 1 3 1 4 5 4\n3 3 2 3 4 5 8\n4 1 1 2 3 4 5\n2 1 1 0 3 2 3"
+    },
+    "258_7x7": {
+      "id": "258_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/258.a.htm",
+      "problem": "7 7\n4 3 2 1 2 1 5\n2 1 1 0 1 0 4\n5 2 2 3 3 4 5\n4 3 2 2 6 3 5\n2 2 2 3 3 3 4\n2 0 3 2 2 1 3\n3 4 2 3 4 1 4"
+    },
+    "259_8x8": {
+      "id": "259_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/259.a.htm",
+      "problem": "8 8\n2 4 3 3 6 3 2 4\n1 2 2 3 3 3 2 3\n3 4 4 4 4 5 7 4\n0 3 1 0 3 4 3 3\n3 2 1 2 4 4 3 4\n1 1 0 2 2 1 3 3\n1 2 2 0 1 2 2 3\n2 5 2 1 2 3 3 3"
+    },
+    "260_8x8": {
+      "id": "260_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/260.a.htm",
+      "problem": "8 8\n4 4 2 4 3 3 2 4\n4 2 2 2 2 1 2 1\n3 5 2 4 1 2 3 3\n3 2 3 1 1 0 2 3\n2 3 0 3 0 1 2 2\n6 3 3 3 4 3 4 4\n1 3 0 2 1 2 2 2\n3 3 4 4 3 3 5 4"
+    },
+    "264_5x5": {
+      "id": "264_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/264.a.htm",
+      "problem": "5 5\n3 3 2 5 3\n1 0 4 1 4\n1 4 1 5 3\n2 0 3 1 3\n1 2 1 2 1"
+    },
+    "266_6x6": {
+      "id": "266_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/266.a.htm",
+      "problem": "6 6\n4 1 5 1 5 2\n2 2 2 2 2 2\n4 2 5 1 4 4\n3 2 3 1 4 1\n4 3 4 4 3 3\n2 2 7 1 5 3"
+    },
+    "268_7x7": {
+      "id": "268_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/268.a.htm",
+      "problem": "7 7\n4 3 4 4 2 4 5\n0 1 2 1 2 1 3\n1 1 0 2 1 3 3\n4 1 2 1 3 4 5\n1 4 1 2 2 4 6\n4 1 4 2 2 4 4\n2 4 2 4 3 2 3"
+    },
+    "269_8x8": {
+      "id": "269_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/269.a.htm",
+      "problem": "8 8\n1 5 3 4 3 4 4 3\n3 2 4 0 4 4 1 3\n2 4 1 4 1 3 4 2\n2 2 5 1 2 2 4 3\n1 5 4 3 2 5 2 6\n3 3 3 3 4 2 6 3\n2 2 3 3 2 6 3 4\n0 2 2 0 3 3 3 1"
+    },
+    "273_5x5": {
+      "id": "273_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/273.a.htm",
+      "problem": "5 5\n5 4 3 4 4\n2 2 2 0 3\n4 4 1 3 2\n6 4 4 2 4\n1 4 1 1 1"
+    },
+    "275_6x6": {
+      "id": "275_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/275.a.htm",
+      "problem": "6 6\n2 1 5 3 3 2\n4 1 4 5 2 2\n6 5 5 5 7 3\n3 2 4 3 3 3\n3 0 4 4 2 3\n3 1 2 3 5 1"
+    },
+    "276_6x6": {
+      "id": "276_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/276.a.htm",
+      "problem": "6 6\n4 4 4 4 2 2\n4 3 5 2 0 1\n6 8 5 4 2 4\n6 6 6 3 4 3\n3 2 3 4 0 2\n2 2 3 2 2 2"
+    },
+    "279_8x8": {
+      "id": "279_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/279.a.htm",
+      "problem": "8 8\n4 3 3 5 3 5 6 4\n3 2 1 4 3 3 4 4\n2 0 1 3 1 2 3 3\n1 1 1 3 0 2 4 1\n4 2 2 3 2 3 3 4\n2 2 0 3 1 1 3 2\n4 1 3 4 1 3 4 4\n3 4 3 5 3 4 6 3"
+    },
+    "280_8x8": {
+      "id": "280_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/280.a.htm",
+      "problem": "8 8\n2 2 1 2 1 2 0 3\n4 1 2 0 1 3 0 3\n6 5 2 3 2 5 5 4\n3 3 3 1 2 5 3 4\n1 0 2 2 2 4 1 3\n4 1 1 5 4 4 3 3\n2 3 3 2 4 6 2 3\n3 3 4 2 2 6 3 2"
+    },
+    "281_4x4": {
+      "id": "281_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/281.a.htm",
+      "problem": "4 4\n2 4 1 0\n6 2 3 2\n5 3 2 3\n3 4 3 1"
+    },
+    "283_5x5": {
+      "id": "283_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/283.a.htm",
+      "problem": "5 5\n4 6 3 4 3\n5 3 3 2 2\n2 6 1 2 2\n4 2 2 0 0\n3 5 1 2 2"
+    },
+    "286_6x6": {
+      "id": "286_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/286.a.htm",
+      "problem": "6 6\n3 3 1 4 1 0\n5 1 5 4 2 2\n4 6 3 5 4 3\n3 2 2 2 2 1\n4 0 2 3 0 3\n3 4 1 3 4 1"
+    },
+    "287_7x7": {
+      "id": "287_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/287.a.htm",
+      "problem": "7 7\n1 4 2 3 1 3 1\n4 4 4 5 5 4 5\n3 4 2 7 4 7 3\n0 1 2 2 5 3 2\n0 2 0 5 1 4 3\n4 2 3 3 3 4 5\n1 6 1 3 3 5 2"
+    },
+    "290_8x8": {
+      "id": "290_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/290.a.htm",
+      "problem": "8 8\n4 1 5 3 2 2 3 3\n4 3 3 3 2 1 2 5\n5 2 2 0 1 1 1 3\n6 3 3 1 1 3 3 3\n4 3 3 2 2 2 3 3\n3 0 3 2 2 1 0 3\n2 1 2 3 2 1 1 1\n6 3 5 3 4 4 3 3"
+    },
+    "293_5x5": {
+      "id": "293_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/293.a.htm",
+      "problem": "5 5\n3 5 2 3 4\n3 0 3 2 3\n1 3 1 6 3\n3 1 4 2 4\n1 3 0 2 1"
+    },
+    "296_6x6": {
+      "id": "296_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/296.a.htm",
+      "problem": "6 6\n1 5 1 5 3 3\n2 2 3 4 0 2\n2 5 2 3 1 1\n3 6 1 3 1 3\n3 3 3 3 2 3\n1 5 2 7 3 3"
+    },
+    "297_7x7": {
+      "id": "297_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/297.a.htm",
+      "problem": "7 7\n2 5 3 3 3 5 1\n5 3 5 4 5 4 5\n1 1 1 6 1 3 2\n0 0 4 2 5 2 1\n1 3 2 6 3 5 1\n4 1 4 4 4 2 3\n0 3 2 3 1 2 2"
+    },
+    "298_7x7": {
+      "id": "298_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/298.a.htm",
+      "problem": "7 7\n2 3 3 5 2 3 2\n6 2 5 6 4 3 4\n1 3 2 4 1 3 1\n4 1 4 2 2 2 3\n4 4 2 6 1 4 4\n3 2 5 3 4 3 3\n3 1 2 5 1 3 1"
+    },
+    "299_8x8": {
+      "id": "299_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/299.a.htm",
+      "problem": "8 8\n5 3 5 4 4 2 4 5\n5 3 5 4 2 3 3 5\n3 1 3 1 0 0 2 3\n5 2 3 2 1 1 3 4\n4 1 2 1 0 1 1 2\n6 3 5 3 3 2 3 4\n3 3 4 4 1 1 2 3\n5 2 7 4 3 2 3 4"
+    },
+    "301_4x4": {
+      "id": "301_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/301.a.htm",
+      "problem": "4 4\n3 1 1 3\n3 0 1 4\n1 1 3 4\n3 4 6 5"
+    },
+    "303_5x5": {
+      "id": "303_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/303.a.htm",
+      "problem": "5 5\n0 3 1 0 2\n3 0 2 1 3\n4 4 2 6 5\n2 3 5 2 4\n2 4 4 3 3"
+    },
+    "310_8x8": {
+      "id": "310_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/310.a.htm",
+      "problem": "8 8\n2 5 3 2 4 3 3 2\n5 3 7 3 3 6 2 5\n1 3 3 3 1 1 3 1\n3 3 5 2 3 3 1 4\n4 3 4 2 2 4 1 4\n4 5 4 3 3 3 6 3\n4 3 6 2 2 6 2 5\n2 2 2 1 2 1 1 2"
+    },
+    "314_4x4": {
+      "id": "314_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/314.a.htm",
+      "problem": "4 4\n2 1 1 3\n2 1 2 6\n0 1 2 3\n4 4 3 5"
+    },
+    "315_4x4": {
+      "id": "315_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/315.a.htm",
+      "problem": "4 4\n4 3 1 2\n4 0 0 3\n1 1 2 2\n4 4 4 5"
+    },
+    "321_3x3": {
+      "id": "321_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/321.a.htm",
+      "problem": "3 3\n2 3 1\n3 0 4\n2 5 1"
+    },
+    "323_3x3": {
+      "id": "323_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/323.a.htm",
+      "problem": "3 3\n4 1 3\n4 0 1\n4 4 5"
+    },
+    "326_4x4": {
+      "id": "326_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/326.a.htm",
+      "problem": "4 4\n3 3 5 1\n4 4 2 4\n3 2 3 0\n2 4 3 3"
+    },
+    "327_5x5": {
+      "id": "327_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/327.a.htm",
+      "problem": "5 5\n1 3 2 3 1\n7 3 4 4 6\n2 3 0 4 2\n3 1 5 2 4\n3 2 0 4 1"
+    },
+    "329_6x6": {
+      "id": "329_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/329.a.htm",
+      "problem": "6 6\n4 3 5 5 4 3\n4 3 5 5 4 3\n3 1 3 1 1 3\n6 3 2 1 2 4\n6 4 3 2 3 4\n3 0 3 1 0 2"
+    },
+    "330_6x6": {
+      "id": "330_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/330.a.htm",
+      "problem": "6 6\n3 5 3 3 3 3\n6 5 4 3 4 5\n3 4 0 1 2 3\n3 2 1 0 2 5\n2 2 0 1 3 5\n4 3 1 3 5 3"
+    },
+    "331_3x3": {
+      "id": "331_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/331.a.htm",
+      "problem": "3 3\n3 5 3\n5 1 2\n1 4 0"
+    },
+    "337_5x5": {
+      "id": "337_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/337.a.htm",
+      "problem": "5 5\n1 4 2 1 3\n6 1 3 4 3\n2 3 1 5 4\n2 0 3 1 3\n4 3 1 4 2"
+    },
+    "339_6x6": {
+      "id": "339_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/339.a.htm",
+      "problem": "6 6\n1 1 3 3 3 2\n2 1 4 1 2 5\n2 3 2 2 3 2\n2 1 4 3 2 1\n2 3 7 5 3 4\n3 4 5 4 5 3"
+    },
+    "340_6x6": {
+      "id": "340_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/340.a.htm",
+      "problem": "6 6\n4 4 4 1 5 3\n5 2 2 3 0 2\n3 3 3 1 1 1\n4 4 4 1 3 3\n4 2 1 3 1 1\n3 1 3 1 2 1"
+    },
+    "343_4x4": {
+      "id": "343_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/343.a.htm",
+      "problem": "4 4\n2 3 0 2\n3 0 2 3\n2 3 3 5\n1 4 4 3"
+    },
+    "344_4x4": {
+      "id": "344_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/344.a.htm",
+      "problem": "4 4\n1 0 2 1\n4 2 1 4\n4 3 3 2\n3 5 5 4"
+    },
+    "345_5x5": {
+      "id": "345_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/345.a.htm",
+      "problem": "5 5\n2 3 6 5 1\n4 2 5 2 2\n4 4 2 3 2\n4 2 6 3 2\n2 1 4 3 0"
+    },
+    "348_6x6": {
+      "id": "348_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/348.a.htm",
+      "problem": "6 6\n3 5 2 1 2 3\n7 5 2 3 2 4\n5 4 2 1 2 2\n3 4 1 1 0 1\n6 4 3 2 1 3\n4 6 2 2 3 2"
+    },
+    "349_7x7": {
+      "id": "349_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/349.a.htm",
+      "problem": "7 7\n2 3 1 3 4 2 3\n1 0 1 4 1 0 5\n1 0 2 3 1 2 3\n3 4 1 3 5 2 4\n3 3 2 5 3 3 4\n1 1 5 5 3 2 5\n3 4 3 7 5 3 5"
+    },
+    "350_7x7": {
+      "id": "350_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/350.a.htm",
+      "problem": "7 7\n4 3 2 2 2 2 4\n5 2 1 0 0 1 2\n5 4 0 0 0 0 2\n5 3 2 0 0 0 3\n2 3 2 2 0 2 3\n3 2 3 3 5 3 3\n5 3 2 6 6 5 3"
+    },
+    "353_4x4": {
+      "id": "353_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/353.a.htm",
+      "problem": "4 4\n5 2 4 4\n4 1 2 2\n4 3 2 4\n2 0 4 1"
+    },
+    "18_8x8": {
+      "id": "18_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/018.a.htm",
+      "problem": "8 8\n2 4 4 3 2 2 3 5\n3 2 3 4 3 1 2 6\n1 1 1 2 3 1 1 3\n3 1 1 1 2 3 1 2\n3 4 2 2 3 2 3 5\n4 3 4 3 2 1 3 5\n2 4 4 4 2 2 1 4\n3 4 5 4 6 2 2 5"
+    },
+    "20_8x8": {
+      "id": "20_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/020.a.htm",
+      "problem": "8 8\n2 4 4 1 2 4 2 1\n5 4 2 3 3 2 2 2\n5 4 2 4 3 1 2 2\n3 4 5 2 2 3 1 2\n4 5 3 3 2 2 3 1\n6 5 3 4 4 3 3 4\n3 3 3 2 3 3 2 3\n2 3 2 3 2 3 4 2"
+    },
+    "24_7x7": {
+      "id": "24_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/024.a.htm",
+      "problem": "7 7\n3 6 2 2 5 4 1\n6 3 3 2 5 4 2\n2 5 2 5 3 3 3\n2 3 6 2 5 2 1\n2 5 2 5 3 3 1\n6 4 4 3 6 3 3\n1 4 1 1 2 3 1"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/025.a.htm",
+      "problem": "8 8\n1 3 2 0 4 3 2 2\n3 1 1 2 4 1 2 5\n2 2 2 4 4 1 5 5\n2 2 4 1 4 4 3 4\n2 4 1 2 5 3 3 3\n4 1 2 3 5 1 3 4\n1 1 2 2 2 1 1 3\n3 5 4 2 5 2 4 5"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/026.a.htm",
+      "problem": "8 8\n2 4 2 3 1 1 3 0\n3 3 3 2 2 2 1 2\n5 7 2 5 5 4 4 3\n4 5 4 4 5 5 5 3\n2 2 2 3 2 4 3 1\n2 5 1 4 5 3 4 3\n3 2 2 2 3 3 2 2\n3 5 2 4 2 4 4 1"
+    },
+    "28_8x8": {
+      "id": "28_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/028.a.htm",
+      "problem": "8 8\n4 4 3 4 4 3 6 3\n4 1 2 4 2 3 3 4\n4 1 3 3 4 1 3 4\n3 5 3 6 3 3 4 3\n3 1 6 3 3 2 2 2\n2 2 1 5 2 0 1 1\n5 3 4 5 5 2 3 5\n2 2 4 3 2 3 4 2"
+    },
+    "29_8x8": {
+      "id": "29_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/029.a.htm",
+      "problem": "8 8\n0 4 3 4 2 3 1 2\n3 2 7 4 3 3 2 6\n2 4 3 4 1 2 3 3\n4 5 5 2 3 5 2 4\n2 3 4 2 2 3 1 3\n1 2 3 5 1 1 2 4\n1 2 6 3 3 3 2 5\n1 4 3 3 2 5 2 4"
+    },
+    "30_8x8": {
+      "id": "30_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/030.a.htm",
+      "problem": "8 8\n3 3 2 4 1 4 1 4\n4 2 3 3 3 2 2 3\n5 4 1 4 2 3 1 4\n5 3 2 1 1 2 1 2\n6 6 4 4 2 4 3 6\n3 3 2 3 1 1 2 3\n4 1 2 3 2 3 0 4\n4 4 1 4 4 4 3 3"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/031.a.htm",
+      "problem": "8 8\n4 4 4 5 4 3 2 2\n2 2 4 2 4 2 2 2\n3 3 1 3 3 3 3 3\n3 2 2 1 4 3 4 3\n1 2 2 2 3 4 3 3\n2 1 2 3 4 2 3 2\n2 2 2 3 4 2 1 4\n3 4 4 3 4 3 4 2"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/033.a.htm",
+      "problem": "8 8\n2 3 2 2 3 4 3 2\n5 4 2 4 4 4 4 5\n3 3 2 3 3 2 4 3\n1 2 2 2 1 3 1 3\n3 3 2 3 4 2 4 2\n6 4 2 5 4 5 3 4\n2 3 2 1 3 2 2 1\n4 4 3 4 2 3 3 3"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/036.a.htm",
+      "problem": "8 8\n3 4 3 4 5 1 3 2\n6 3 5 5 5 4 2 4\n3 3 2 2 4 1 2 1\n6 5 4 4 5 4 4 3\n4 3 4 3 4 3 2 2\n2 2 2 3 4 0 1 1\n6 2 3 4 4 2 1 2\n3 5 3 2 4 2 2 1"
+    },
+    "38_8x8": {
+      "id": "38_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/038.a.htm",
+      "problem": "8 8\n5 5 5 4 4 5 5 4\n4 3 1 2 3 4 1 1\n5 3 1 3 6 4 1 3\n2 1 1 3 3 3 2 1\n3 2 3 3 3 5 3 2\n3 4 1 2 5 4 2 3\n5 2 1 3 4 4 2 2\n2 1 1 2 2 3 1 1"
+    },
+    "40_8x8": {
+      "id": "40_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/040.a.htm",
+      "problem": "8 8\n1 3 4 4 2 3 5 1\n3 4 3 6 5 3 5 5\n3 4 3 5 5 4 6 3\n3 4 4 4 3 6 6 3\n2 4 2 3 3 2 6 3\n2 2 1 3 1 1 3 3\n1 2 2 2 1 1 3 1\n2 5 3 4 3 3 5 2"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/041.a.htm",
+      "problem": "8 8\n3 1 0 1 1 2 2 1\n5 1 1 2 3 2 2 5\n3 4 2 4 4 2 4 5\n2 1 4 3 2 3 2 2\n3 3 3 5 5 3 2 4\n4 3 2 5 6 2 3 4\n5 2 4 4 3 5 3 4\n2 4 2 2 3 2 4 3"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/045.a.htm",
+      "problem": "8 8\n3 3 3 2 3 4 4 3\n3 1 3 2 1 2 2 4\n2 4 4 3 3 2 2 6\n2 3 5 3 3 3 3 2\n3 2 4 4 3 5 1 3\n3 3 3 3 6 2 3 2\n3 3 4 4 2 5 1 3\n1 2 5 1 2 1 2 3"
+    },
+    "48_8x8": {
+      "id": "48_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/048.a.htm",
+      "problem": "8 8\n4 4 4 4 3 6 5 2\n3 1 2 0 3 3 4 1\n4 2 2 3 2 4 5 5\n2 2 4 2 2 3 7 2\n3 2 4 2 2 5 3 4\n3 3 2 3 4 2 5 1\n3 1 4 3 2 4 3 3\n2 2 4 2 2 3 5 1"
+    },
+    "50_8x8": {
+      "id": "50_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/050.a.htm",
+      "problem": "8 8\n2 2 2 3 1 2 4 2\n2 1 3 2 2 2 2 5\n2 3 3 4 3 3 3 5\n1 1 3 3 2 2 3 2\n3 1 3 3 2 3 1 3\n2 4 2 3 3 1 2 3\n4 3 6 4 2 3 3 4\n3 4 5 5 2 3 3 5"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/051.a.htm",
+      "problem": "8 8\n3 5 2 6 3 5 3 3\n5 3 4 3 4 5 4 3\n2 3 0 2 1 3 2 3\n2 2 1 2 1 2 3 3\n2 1 2 2 1 3 2 3\n2 4 1 4 3 4 3 2\n3 2 3 3 4 4 2 3\n3 3 2 5 2 4 3 1"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/052.a.htm",
+      "problem": "8 8\n4 3 3 1 3 5 3 4\n4 3 2 2 2 4 4 4\n3 3 3 2 2 2 4 5\n3 3 4 2 1 3 2 4\n2 3 2 1 1 1 1 3\n5 4 4 3 3 3 4 5\n3 3 3 2 1 4 3 3\n2 3 3 1 3 3 3 3"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/056.a.htm",
+      "problem": "8 8\n4 3 2 3 2 3 3 3\n2 0 4 1 1 3 1 1\n1 2 1 3 3 1 1 1\n5 2 4 5 5 4 2 3\n2 2 4 3 3 4 2 2\n2 3 3 3 3 3 4 1\n6 2 4 4 4 5 2 6\n2 2 1 2 3 1 3 1"
+    },
+    "58_8x8": {
+      "id": "58_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/058.a.htm",
+      "problem": "8 8\n5 4 4 4 4 5 4 3\n3 1 2 3 3 1 2 1\n4 2 3 4 3 2 2 4\n5 3 3 2 2 2 4 3\n5 4 2 1 1 3 4 4\n5 2 2 1 2 2 4 5\n4 1 1 3 2 2 4 3\n4 1 2 2 3 3 2 2"
+    },
+    "59_8x8": {
+      "id": "59_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/059.a.htm",
+      "problem": "8 8\n5 2 3 2 5 1 4 4\n4 1 1 2 1 3 1 3\n5 3 2 1 4 1 4 4\n5 2 1 1 1 1 2 4\n4 2 2 1 1 1 2 3\n3 2 2 1 3 0 2 3\n4 1 1 3 2 2 1 3\n4 2 3 2 5 2 4 3"
+    },
+    "60_8x8": {
+      "id": "60_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/060.a.htm",
+      "problem": "8 8\n1 3 4 2 3 2 1 1\n5 1 6 3 3 6 1 2\n3 4 3 3 5 4 4 2\n3 2 5 2 4 6 3 3\n3 1 5 3 3 6 3 3\n2 3 3 3 5 3 4 3\n3 1 5 2 3 6 1 3\n3 2 4 2 3 4 3 1"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/064.a.htm",
+      "problem": "8 8\n1 6 5 5 4 3 3 3\n2 5 7 3 4 3 2 6\n3 4 3 4 2 1 3 3\n2 4 3 2 3 2 1 3\n1 3 4 1 3 2 0 3\n2 4 3 5 2 1 3 3\n2 3 5 2 3 1 1 6\n1 4 2 1 1 1 1 3"
+    },
+    "68_8x8": {
+      "id": "68_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/068.a.htm",
+      "problem": "8 8\n3 3 3 4 1 2 3 5\n2 3 3 3 2 1 2 7\n3 2 2 4 1 2 3 4\n2 2 2 3 2 3 2 4\n3 3 3 4 4 3 3 5\n2 2 2 5 1 2 2 4\n3 3 5 4 3 2 3 6\n2 4 2 4 1 2 2 4"
+    },
+    "69_8x8": {
+      "id": "69_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/069.a.htm",
+      "problem": "8 8\n2 6 1 4 3 3 4 2\n4 3 3 4 4 4 2 2\n3 5 3 7 5 4 4 3\n3 4 3 5 4 3 4 2\n4 4 2 3 2 4 2 1\n3 6 1 3 3 2 3 1\n4 4 4 5 3 3 3 3\n1 3 2 5 2 2 2 0"
+    },
+    "70_8x8": {
+      "id": "70_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/070.a.htm",
+      "problem": "8 8\n3 5 3 4 5 2 4 3\n4 1 1 2 2 2 1 2\n4 3 3 2 3 2 4 3\n2 5 3 3 2 2 4 3\n3 2 5 3 3 2 2 5\n1 2 1 4 3 0 3 2\n5 3 4 4 5 5 4 4\n3 4 3 2 4 4 4 2"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/071.a.htm",
+      "problem": "8 8\n2 2 3 6 3 2 2 4\n3 1 5 5 3 1 3 4\n1 3 2 3 2 1 2 4\n6 2 3 3 3 3 4 4\n2 2 1 3 2 2 3 3\n2 1 4 4 4 2 3 5\n3 2 4 7 4 3 4 6\n2 2 3 4 4 2 4 4"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/074.a.htm",
+      "problem": "8 8\n4 5 3 4 3 2 5 2\n4 2 4 2 2 2 2 2\n6 4 2 5 4 2 3 3\n3 2 1 2 3 0 2 1\n4 2 4 3 2 4 3 2\n3 5 3 5 5 3 6 2\n3 1 3 4 5 3 2 3\n3 1 2 5 4 3 3 1"
+    },
+    "76_8x8": {
+      "id": "76_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/076.a.htm",
+      "problem": "8 8\n4 4 3 3 5 5 3 3\n2 1 4 3 2 3 4 3\n1 2 3 5 1 1 5 5\n1 2 4 2 3 2 3 5\n2 1 1 2 1 3 2 1\n4 3 3 4 4 3 5 3\n2 2 4 3 2 2 2 5\n2 3 4 4 1 1 4 2"
+    },
+    "80_8x8": {
+      "id": "80_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/080.a.htm",
+      "problem": "8 8\n1 5 2 2 1 2 2 1\n5 2 3 2 2 2 1 1\n4 5 1 5 4 2 3 1\n3 2 3 2 3 3 1 1\n3 3 2 3 2 3 3 1\n3 5 2 4 4 3 5 3\n2 1 3 2 3 4 2 3\n2 3 1 5 4 4 5 3"
+    },
+    "83_8x8": {
+      "id": "83_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/083.a.htm",
+      "problem": "8 8\n2 3 3 3 5 4 2 2\n4 2 0 3 4 2 2 2\n5 5 3 4 5 4 5 6\n2 3 3 1 2 3 4 3\n3 3 1 3 3 3 3 2\n3 2 1 3 6 2 1 2\n1 2 2 4 4 3 1 1\n3 4 5 5 5 4 5 4"
+    },
+    "85_8x8": {
+      "id": "85_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/085.a.htm",
+      "problem": "8 8\n2 3 2 3 2 3 3 1\n5 1 5 4 4 3 4 3\n1 3 2 4 3 2 3 3\n2 1 4 2 3 3 4 2\n3 1 2 3 2 4 4 3\n4 4 3 4 6 4 7 6\n2 0 3 2 2 4 4 3\n2 1 2 3 2 3 4 1"
+    },
+    "89_8x8": {
+      "id": "89_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/089.a.htm",
+      "problem": "8 8\n2 2 3 2 2 2 6 2\n3 4 2 2 4 5 4 5\n4 3 1 2 5 4 5 3\n1 1 1 2 2 3 4 3\n3 2 3 2 3 3 5 5\n1 4 0 1 2 2 4 2\n5 2 3 1 3 4 3 3\n2 4 1 3 3 2 4 2"
+    },
+    "90_8x8": {
+      "id": "90_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/090.a.htm",
+      "problem": "8 8\n3 2 3 5 4 4 3 3\n2 1 5 5 3 4 2 5\n2 2 3 3 2 2 2 5\n5 4 3 3 2 4 4 4\n4 2 3 1 1 4 1 3\n3 2 2 3 2 1 1 3\n2 1 3 4 1 1 0 4\n3 2 5 3 2 3 2 3"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/092.a.htm",
+      "problem": "8 8\n3 1 3 2 3 1 3 1\n2 2 3 2 2 2 2 2\n5 3 4 2 4 2 3 4\n3 3 2 2 2 1 3 2\n4 1 4 1 2 2 2 2\n3 4 3 3 4 2 3 3\n3 1 3 2 3 1 2 2\n4 2 4 3 3 3 3 3"
+    },
+    "93_8x8": {
+      "id": "93_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/093.a.htm",
+      "problem": "8 8\n3 3 6 3 5 2 3 3\n3 2 4 4 2 2 2 3\n3 2 2 1 3 0 3 2\n4 3 3 1 3 4 3 5\n2 1 2 1 2 2 5 2\n5 2 4 4 5 4 5 5\n1 2 2 2 4 2 1 3\n3 2 5 3 4 2 4 3"
+    },
+    "94_8x8": {
+      "id": "94_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/094.a.htm",
+      "problem": "8 8\n2 3 2 4 3 2 3 5\n3 2 2 3 6 2 1 4\n3 4 2 5 6 4 2 4\n2 1 2 2 3 1 2 3\n3 4 2 3 3 2 3 6\n3 3 1 1 3 1 2 4\n3 2 1 2 3 2 1 3\n3 3 2 4 5 2 2 4"
+    },
+    "96_8x8": {
+      "id": "96_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/096.a.htm",
+      "problem": "8 8\n3 2 4 4 3 1 3 3\n3 1 6 4 2 3 1 3\n3 3 4 3 5 1 2 4\n6 3 4 5 4 4 4 4\n4 1 5 2 3 4 3 2\n5 4 4 4 5 3 3 4\n5 2 4 4 3 1 1 4\n2 1 5 2 1 0 1 3"
+    },
+    "97_8x8": {
+      "id": "97_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/097.a.htm",
+      "problem": "8 8\n3 2 4 4 3 4 4 2\n5 1 1 4 3 2 3 1\n6 4 4 5 5 4 4 6\n3 2 4 3 1 2 5 1\n5 3 4 5 2 4 4 3\n3 2 2 3 5 1 2 3\n4 1 3 6 3 4 4 2\n3 1 4 4 3 4 5 2"
+    },
+    "98_8x8": {
+      "id": "98_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/098.a.htm",
+      "problem": "8 8\n3 3 4 3 2 3 3 4\n4 4 4 2 2 3 3 4\n3 4 2 1 1 2 3 2\n4 2 3 1 1 3 2 3\n3 3 2 2 2 2 3 4\n2 2 2 1 1 2 3 1\n2 2 3 1 1 4 1 3\n5 5 4 4 5 3 6 4"
+    },
+    "99_8x8": {
+      "id": "99_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/099.a.htm",
+      "problem": "8 8\n1 4 3 2 2 2 3 3\n4 2 4 6 2 3 3 6\n1 1 1 3 3 0 2 2\n2 3 2 3 3 5 1 3\n2 1 2 2 2 2 3 2\n3 3 2 5 2 2 4 5\n1 2 3 2 2 2 1 5\n2 2 2 3 2 2 3 1"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/102.a.htm",
+      "problem": "8 8\n2 4 2 4 1 2 5 1\n6 4 4 4 2 4 4 4\n3 5 1 4 2 2 4 1\n3 2 3 4 2 3 3 3\n3 2 2 5 2 3 5 1\n1 3 0 3 2 3 3 1\n4 2 3 3 3 4 4 3\n4 4 1 6 1 3 6 1"
+    },
+    "104_8x8": {
+      "id": "104_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/104.a.htm",
+      "problem": "8 8\n2 4 4 5 3 5 1 2\n4 2 4 7 3 2 3 3\n3 3 3 4 2 2 1 3\n3 6 4 3 2 5 2 3\n4 3 4 4 2 3 4 3\n3 2 2 6 2 3 2 5\n2 2 3 3 4 3 2 3\n3 4 3 5 2 6 3 3"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/105.a.htm",
+      "problem": "8 8\n3 4 5 1 4 2 4 2\n4 3 2 2 1 4 1 1\n7 4 4 3 6 3 5 2\n3 4 3 3 3 4 2 2\n5 2 5 2 3 3 3 1\n5 6 3 4 4 3 4 3\n6 4 5 2 4 4 3 3\n2 2 2 1 1 2 2 1"
+    },
+    "107_8x8": {
+      "id": "107_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/107.a.htm",
+      "problem": "8 8\n4 2 3 3 2 4 2 4\n2 1 1 3 2 1 1 4\n1 2 1 3 2 1 1 3\n3 1 3 2 1 3 0 2\n5 6 3 5 4 3 3 4\n3 4 4 4 3 2 1 4\n3 2 5 5 2 3 1 4\n3 5 3 6 5 3 4 5"
+    },
+    "109_8x8": {
+      "id": "109_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/109.a.htm",
+      "problem": "8 8\n4 6 2 2 4 3 4 2\n7 3 4 2 2 4 4 2\n3 6 3 2 3 2 4 3\n4 3 3 1 2 1 2 2\n6 5 4 4 3 4 4 3\n3 4 2 0 3 1 3 1\n3 3 2 1 1 3 2 3\n3 2 2 1 2 1 5 2"
+    },
+    "110_8x8": {
+      "id": "110_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/110.a.htm",
+      "problem": "8 8\n4 5 4 5 5 4 4 4\n3 3 1 4 4 1 2 1\n5 4 2 5 5 2 2 3\n4 4 2 3 3 1 2 2\n4 6 3 4 3 2 4 3\n4 3 2 3 3 1 2 2\n4 3 0 4 4 1 1 3\n3 3 1 3 4 1 3 1"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/112.a.htm",
+      "problem": "8 8\n5 5 2 4 3 4 4 4\n2 1 3 0 1 3 1 2\n2 4 1 3 2 2 3 4\n5 2 2 2 2 2 3 6\n3 4 2 1 1 4 4 4\n3 4 2 1 2 4 4 4\n3 1 1 2 2 2 2 3\n3 3 2 4 3 3 2 4"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/113.a.htm",
+      "problem": "8 8\n3 5 7 2 4 3 5 3\n3 5 6 4 3 5 3 3\n3 1 3 2 4 1 1 2\n3 3 3 3 4 3 3 3\n3 3 5 1 2 5 4 2\n4 4 4 1 3 3 4 4\n5 4 3 3 3 2 3 4\n1 2 5 1 2 2 1 2"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/114.a.htm",
+      "problem": "8 8\n2 6 4 4 5 4 6 5\n3 2 3 5 3 4 3 4\n1 2 3 4 6 2 3 4\n1 3 2 5 4 4 3 2\n1 1 3 2 3 3 2 1\n1 3 1 3 3 1 2 3\n3 3 3 4 3 2 3 4\n1 3 4 3 3 3 3 2"
+    },
+    "115_8x8": {
+      "id": "115_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/115.a.htm",
+      "problem": "8 8\n4 1 3 3 5 4 2 2\n3 2 2 3 6 3 2 4\n2 1 3 2 1 3 4 1\n4 4 6 2 3 5 5 5\n5 4 2 2 4 2 3 5\n3 1 2 2 2 2 2 1\n2 1 5 2 3 4 2 2\n4 4 3 4 5 3 4 3"
+    },
+    "116_8x8": {
+      "id": "116_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/116.a.htm",
+      "problem": "8 8\n1 3 4 3 4 4 2 4\n1 2 1 4 3 2 2 3\n2 2 1 2 4 3 2 4\n1 3 1 1 3 5 3 3\n3 3 2 3 4 5 5 4\n2 3 2 4 5 4 3 5\n2 3 3 4 5 4 2 4\n2 5 4 5 5 5 4 4"
+    },
+    "118_8x8": {
+      "id": "118_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/118.a.htm",
+      "problem": "8 8\n3 2 4 6 1 2 5 1\n5 2 5 3 2 4 3 2\n4 5 3 3 3 3 4 1\n4 2 5 5 1 3 4 1\n3 1 6 5 2 2 3 2\n1 3 2 4 2 1 2 0\n5 1 5 3 2 4 3 2\n3 3 3 4 1 3 6 2"
+    },
+    "119_8x8": {
+      "id": "119_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/119.a.htm",
+      "problem": "8 8\n3 5 6 2 3 4 5 4\n2 2 3 1 1 2 2 3\n3 1 2 1 3 1 2 4\n2 3 3 2 3 4 4 3\n2 2 5 1 3 5 4 3\n2 3 3 3 4 3 4 5\n2 1 3 2 3 2 3 3\n3 3 5 2 3 5 3 2"
+    },
+    "120_8x8": {
+      "id": "120_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/120.a.htm",
+      "problem": "8 8\n3 3 4 3 2 6 3 1\n5 3 6 1 4 5 2 1\n4 6 3 4 4 3 1 3\n4 1 6 2 2 2 1 1\n4 4 5 3 2 5 2 2\n5 5 3 1 5 4 3 1\n4 1 3 1 2 5 0 2\n3 1 3 2 2 2 3 2"
+    },
+    "121_3x3": {
+      "id": "121_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/121.a.htm",
+      "problem": "3 3\n4 3 4\n1 1 4\n3 4 4"
+    },
+    "122_3x3": {
+      "id": "122_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/122.a.htm",
+      "problem": "3 3\n3 3 4\n1 1 4\n2 5 4"
+    },
+    "123_4x4": {
+      "id": "123_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/123.a.htm",
+      "problem": "4 4\n1 1 5 1\n3 4 2 6\n5 2 3 1\n3 6 3 2"
+    },
+    "124_4x4": {
+      "id": "124_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/124.a.htm",
+      "problem": "4 4\n3 5 7 3\n3 3 5 3\n5 1 3 5\n1 1 3 1"
+    },
+    "126_4x4": {
+      "id": "126_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/126.a.htm",
+      "problem": "4 4\n1 2 1 1\n4 1 3 4\n3 4 5 4\n3 5 5 3"
+    },
+    "128_4x4": {
+      "id": "128_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/128.a.htm",
+      "problem": "4 4\n1 1 3 2\n3 3 2 6\n4 4 5 5\n2 4 4 4"
+    },
+    "129_8x8": {
+      "id": "129_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/129.a.htm",
+      "problem": "8 8\n4 3 5 3 2 2 4 3\n3 3 2 2 2 2 2 1\n7 4 3 4 5 4 4 3\n3 3 3 3 3 3 4 3\n4 2 4 3 2 3 5 3\n2 3 1 2 2 2 3 3\n5 2 3 2 4 3 4 4\n3 3 2 4 2 4 5 2"
+    },
+    "132_3x3": {
+      "id": "132_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/132.a.htm",
+      "problem": "3 3\n5 5 5\n2 2 3\n3 3 3"
+    },
+    "133_4x4": {
+      "id": "133_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/133.a.htm",
+      "problem": "4 4\n2 1 6 2\n3 4 3 7\n5 1 4 3\n2 4 3 2"
+    },
+    "134_4x4": {
+      "id": "134_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/134.a.htm",
+      "problem": "4 4\n2 1 2 2\n6 2 2 7\n3 2 2 4\n4 3 4 5"
+    },
+    "135_4x4": {
+      "id": "135_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/135.a.htm",
+      "problem": "4 4\n1 1 2 2\n4 2 1 6\n6 3 4 5\n2 5 3 3"
+    },
+    "136_4x4": {
+      "id": "136_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/136.a.htm",
+      "problem": "4 4\n2 2 4 3\n3 4 3 7\n4 3 5 4\n2 4 2 4"
+    },
+    "137_4x4": {
+      "id": "137_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/137.a.htm",
+      "problem": "4 4\n1 1 2 1\n5 2 1 5\n4 2 2 2\n3 5 4 3"
+    },
+    "138_4x4": {
+      "id": "138_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/138.a.htm",
+      "problem": "4 4\n2 2 2 1\n6 3 4 3\n3 3 3 2\n4 3 5 2"
+    },
+    "139_8x8": {
+      "id": "139_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/139.a.htm",
+      "problem": "8 8\n2 3 4 5 4 3 2 2\n5 1 4 6 4 4 1 3\n1 3 2 4 4 2 2 2\n3 2 5 4 3 5 3 5\n4 1 2 4 2 3 4 2\n2 3 1 3 4 3 1 3\n4 1 5 4 4 4 1 3\n2 2 2 6 1 1 2 2"
+    },
+    "140_8x8": {
+      "id": "140_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/140.a.htm",
+      "problem": "8 8\n3 4 5 3 1 1 2 3\n6 3 3 3 1 1 2 3\n4 4 1 2 2 1 3 2\n4 2 4 2 2 4 3 4\n3 1 1 3 1 1 4 2\n3 3 2 3 3 2 3 4\n2 1 3 1 1 2 1 3\n4 3 2 4 1 1 5 2"
+    },
+    "142_3x3": {
+      "id": "142_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/142.a.htm",
+      "problem": "3 3\n2 4 5\n4 2 5\n1 3 2"
+    },
+    "143_4x4": {
+      "id": "143_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/143.a.htm",
+      "problem": "4 4\n2 4 6 2\n4 4 5 6\n4 1 3 5\n1 1 2 1"
+    },
+    "144_4x4": {
+      "id": "144_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/144.a.htm",
+      "problem": "4 4\n3 3 4 1\n6 3 5 2\n2 2 2 2\n3 2 7 3"
+    },
+    "145_4x4": {
+      "id": "145_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/145.a.htm",
+      "problem": "4 4\n4 4 6 2\n5 4 2 2\n7 3 2 1\n3 4 3 1"
+    },
+    "146_4x4": {
+      "id": "146_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/146.a.htm",
+      "problem": "4 4\n3 2 5 2\n2 2 2 3\n5 1 5 3\n3 4 4 2"
+    },
+    "147_4x4": {
+      "id": "147_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/147.a.htm",
+      "problem": "4 4\n2 2 5 2\n2 4 2 5\n6 3 5 4\n2 5 3 2"
+    },
+    "148_4x4": {
+      "id": "148_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/148.a.htm",
+      "problem": "4 4\n2 2 5 2\n3 1 2 3\n5 3 2 5\n2 3 6 2"
+    },
+    "149_8x8": {
+      "id": "149_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/149.a.htm",
+      "problem": "8 8\n2 4 5 2 1 3 1 3\n3 2 5 3 2 2 1 4\n3 1 1 3 2 1 1 4\n2 1 2 0 2 4 2 4\n4 3 4 2 3 7 6 5\n4 2 2 3 3 4 4 6\n1 1 3 2 3 2 1 6\n3 2 5 4 2 4 3 3"
+    },
+    "150_8x8": {
+      "id": "150_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/150.a.htm",
+      "problem": "8 8\n2 3 4 3 2 2 5 2\n2 1 3 4 0 3 1 2\n3 4 3 3 5 2 3 2\n2 3 2 3 1 4 2 1\n5 3 6 4 3 5 6 4\n1 4 1 3 2 2 4 3\n3 1 3 2 2 4 2 3\n3 3 3 4 3 4 5 1"
+    },
+    "151_3x3": {
+      "id": "151_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/151.a.htm",
+      "problem": "3 3\n2 1 4\n2 0 4\n4 4 4"
+    },
+    "152_3x3": {
+      "id": "152_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/152.a.htm",
+      "problem": "3 3\n1 3 3\n5 2 5\n1 5 1"
+    },
+    "153_4x4": {
+      "id": "153_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/153.a.htm",
+      "problem": "4 4\n3 2 6 3\n2 1 3 5\n3 2 4 6\n1 1 5 2"
+    },
+    "155_4x4": {
+      "id": "155_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/155.a.htm",
+      "problem": "4 4\n3 2 4 3\n3 2 3 4\n3 1 5 3\n3 4 5 3"
+    },
+    "156_4x4": {
+      "id": "156_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/156.a.htm",
+      "problem": "4 4\n3 3 1 4\n4 1 2 3\n4 2 1 4\n4 4 3 4"
+    },
+    "157_8x8": {
+      "id": "157_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/157.a.htm",
+      "problem": "8 8\n3 2 3 2 4 5 3 3\n1 2 1 1 3 5 1 4\n2 1 1 3 2 2 5 3\n3 2 4 3 2 5 3 6\n2 5 3 2 4 4 3 3\n5 4 4 5 4 5 3 5\n4 2 4 4 3 3 3 3\n3 5 3 3 3 4 2 3"
+    },
+    "158_8x8": {
+      "id": "158_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/158.a.htm",
+      "problem": "8 8\n3 3 2 4 2 3 5 2\n4 1 3 1 0 4 3 1\n5 6 3 3 4 3 6 3\n6 3 3 4 1 3 3 2\n2 2 4 2 1 1 2 1\n3 4 3 4 2 2 4 2\n6 3 4 4 3 5 5 3\n4 3 2 2 3 4 5 1"
+    },
+    "159_8x8": {
+      "id": "159_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/159.a.htm",
+      "problem": "8 8\n1 4 1 0 4 3 1 1\n5 4 2 2 4 4 2 2\n3 4 1 2 3 1 2 2\n2 4 3 1 3 2 1 2\n3 5 3 3 4 4 2 1\n3 3 1 2 5 2 1 1\n4 4 2 3 5 4 2 4\n3 6 4 3 5 5 6 2"
+    },
+    "160_8x8": {
+      "id": "160_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/160.a.htm",
+      "problem": "8 8\n1 3 2 1 2 3 2 2\n4 1 2 1 3 3 2 1\n2 3 1 2 3 2 3 1\n1 2 4 1 2 3 2 2\n4 4 5 4 4 4 5 3\n4 4 2 3 4 3 3 3\n3 3 4 1 4 4 3 4\n3 4 4 4 3 5 7 2"
+    },
+    "161_3x3": {
+      "id": "161_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/161.a.htm",
+      "problem": "3 3\n2 2 3\n2 0 4\n3 4 4"
+    },
+    "162_3x3": {
+      "id": "162_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/162.a.htm",
+      "problem": "3 3\n4 2 4\n2 0 3\n4 3 4"
+    },
+    "163_4x4": {
+      "id": "163_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/163.a.htm",
+      "problem": "4 4\n2 1 4 1\n5 3 1 5\n7 2 2 2\n4 4 2 2"
+    },
+    "164_4x4": {
+      "id": "164_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/164.a.htm",
+      "problem": "4 4\n3 2 6 3\n6 3 4 6\n3 1 2 3\n3 1 5 3"
+    },
+    "165_4x4": {
+      "id": "165_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/165.a.htm",
+      "problem": "4 4\n2 2 3 3\n4 1 1 6\n4 2 2 4\n3 5 4 4"
+    },
+    "166_4x4": {
+      "id": "166_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/166.a.htm",
+      "problem": "4 4\n2 2 2 2\n4 3 3 5\n3 4 5 4\n3 5 5 4"
+    },
+    "167_8x8": {
+      "id": "167_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/167.a.htm",
+      "problem": "8 8\n2 4 2 4 2 4 4 3\n2 1 3 3 2 1 3 2\n2 6 3 6 4 3 4 4\n3 3 4 3 3 3 3 2\n3 4 2 4 2 3 4 3\n2 4 2 3 3 2 5 2\n1 1 2 2 1 3 1 2\n2 3 1 4 3 1 4 1"
+    },
+    "169_8x8": {
+      "id": "169_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/169.a.htm",
+      "problem": "8 8\n2 5 4 3 5 4 4 4\n2 3 3 4 1 5 2 3\n3 1 3 2 2 1 2 3\n0 5 1 3 1 2 1 3\n2 1 5 1 1 3 1 3\n2 4 2 5 2 3 4 3\n4 3 3 3 4 4 2 3\n2 4 4 3 3 5 1 2"
+    },
+    "170_8x8": {
+      "id": "170_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/170.a.htm",
+      "problem": "8 8\n3 3 1 4 3 2 4 2\n2 1 3 2 4 3 3 4\n0 1 1 2 1 2 5 2\n1 1 1 1 1 2 5 4\n4 2 2 1 3 3 5 5\n3 4 1 3 2 3 5 3\n2 2 5 2 3 2 4 4\n2 4 4 6 3 3 5 3"
+    },
+    "171_3x3": {
+      "id": "171_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/171.a.htm",
+      "problem": "3 3\n3 1 4\n2 0 3\n3 5 4"
+    },
+    "172_3x3": {
+      "id": "172_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/172.a.htm",
+      "problem": "3 3\n1 5 1\n3 2 4\n3 5 3"
+    },
+    "173_4x4": {
+      "id": "173_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/173.a.htm",
+      "problem": "4 4\n2 5 1 1\n7 5 3 4\n5 4 2 3\n3 5 2 2"
+    },
+    "174_4x4": {
+      "id": "174_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/174.a.htm",
+      "problem": "4 4\n2 3 4 1\n5 3 5 3\n1 2 3 1\n3 3 6 3"
+    },
+    "175_4x4": {
+      "id": "175_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/175.a.htm",
+      "problem": "4 4\n2 1 3 1\n5 3 3 2\n5 5 5 3\n4 4 7 2"
+    },
+    "176_4x4": {
+      "id": "176_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/176.a.htm",
+      "problem": "4 4\n1 2 3 3\n4 4 4 6\n2 2 2 4\n3 3 4 3"
+    },
+    "181_3x3": {
+      "id": "181_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/181.a.htm",
+      "problem": "3 3\n3 1 4\n2 0 3\n5 4 4"
+    },
+    "182_3x3": {
+      "id": "182_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/182.a.htm",
+      "problem": "3 3\n2 3 5\n3 1 3\n3 4 3"
+    },
+    "183_4x4": {
+      "id": "183_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/183.a.htm",
+      "problem": "4 4\n1 1 5 1\n4 2 4 6\n2 2 4 4\n2 2 6 1"
+    },
+    "184_4x4": {
+      "id": "184_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/184.a.htm",
+      "problem": "4 4\n3 2 4 3\n4 1 3 5\n4 1 4 4\n4 4 5 4"
+    },
+    "185_4x4": {
+      "id": "185_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/185.a.htm",
+      "problem": "4 4\n1 5 1 1\n4 4 3 3\n6 5 3 5\n2 6 2 2"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/186.a.htm",
+      "problem": "8 8\n3 3 2 3 2 2 2 1\n7 3 3 2 4 2 4 3\n5 5 2 2 3 3 4 3\n5 3 4 2 3 3 4 2\n3 3 3 4 4 2 3 3\n3 2 3 4 5 2 3 2\n2 1 2 2 3 3 2 1\n5 4 3 3 5 4 6 4"
+    },
+    "188_8x8": {
+      "id": "188_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/188.a.htm",
+      "problem": "8 8\n4 2 3 3 5 4 3 2\n4 2 2 4 4 7 1 2\n3 3 1 1 5 3 2 1\n5 4 3 3 2 5 2 5\n4 3 3 1 1 2 3 3\n3 4 1 1 2 3 1 4\n6 2 2 2 4 5 2 3\n3 3 1 3 4 5 3 2"
+    },
+    "189_8x8": {
+      "id": "189_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/189.a.htm",
+      "problem": "8 8\n5 2 4 5 6 5 6 3\n4 2 2 4 4 6 4 1\n4 2 3 3 5 4 4 2\n3 1 2 4 2 2 3 2\n4 2 4 4 3 3 4 2\n2 2 2 2 3 3 2 0\n6 2 3 5 5 5 4 2\n4 1 2 4 4 3 4 1"
+    },
+    "190_8x8": {
+      "id": "190_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/190.a.htm",
+      "problem": "8 8\n5 3 3 3 5 4 3 3\n4 1 2 4 3 2 2 3\n3 2 3 3 2 2 2 5\n2 2 2 0 1 1 3 3\n7 2 1 2 1 4 3 4\n5 3 1 1 4 2 3 4\n2 1 2 2 1 2 1 3\n4 1 4 4 2 2 3 3"
+    },
+    "192_3x3": {
+      "id": "192_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/192.a.htm",
+      "problem": "3 3\n1 5 2\n3 2 4\n3 5 2"
+    },
+    "193_4x4": {
+      "id": "193_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/193.a.htm",
+      "problem": "4 4\n4 2 3 1\n7 4 2 2\n7 4 2 3\n3 2 4 1"
+    },
+    "194_4x4": {
+      "id": "194_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/194.a.htm",
+      "problem": "4 4\n2 2 2 1\n3 4 2 4\n5 5 5 3\n3 7 4 3"
+    },
+    "195_4x4": {
+      "id": "195_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/195.a.htm",
+      "problem": "4 4\n2 3 3 3\n3 1 1 4\n5 2 2 6\n1 3 3 3"
+    },
+    "196_8x8": {
+      "id": "196_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/196.a.htm",
+      "problem": "8 8\n2 3 5 3 3 4 2 4\n1 2 3 4 1 2 1 5\n4 3 3 3 4 3 3 5\n3 4 2 2 3 7 2 4\n4 3 4 3 5 6 5 4\n1 1 1 4 2 3 1 4\n2 2 4 3 4 3 1 5\n2 4 3 3 2 4 2 4"
+    },
+    "197_8x8": {
+      "id": "197_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/197.a.htm",
+      "problem": "8 8\n2 1 2 4 2 2 2 2\n4 3 3 3 4 3 2 5\n3 3 1 2 2 3 2 4\n3 1 2 2 2 3 4 1\n4 3 3 5 5 6 2 5\n2 2 2 4 6 2 2 2\n4 1 3 5 2 4 1 3\n2 3 2 1 2 1 2 2"
+    },
+    "198_8x8": {
+      "id": "198_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/198.a.htm",
+      "problem": "8 8\n2 3 2 4 5 1 4 3\n2 1 2 3 4 2 1 2\n3 2 3 2 4 2 2 1\n4 6 3 4 4 2 4 3\n5 5 7 4 5 3 4 6\n2 3 3 4 3 1 3 1\n3 2 2 3 5 2 1 2\n3 2 2 2 5 2 2 2"
+    },
+    "199_8x8": {
+      "id": "199_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/199.a.htm",
+      "problem": "8 8\n2 4 2 2 4 6 2 3\n4 2 3 3 3 5 3 3\n2 4 2 4 2 3 5 3\n4 3 4 1 2 5 2 5\n3 5 1 2 2 4 4 3\n4 2 2 2 2 4 4 4\n1 1 1 1 1 4 2 2\n4 4 2 3 4 5 4 3"
+    },
+    "200_8x8": {
+      "id": "200_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/200.a.htm",
+      "problem": "8 8\n2 1 3 3 3 5 5 1\n3 1 2 4 4 5 4 3\n4 3 4 4 6 5 6 3\n3 4 5 5 3 7 5 3\n2 1 4 2 3 2 4 2\n3 2 1 4 2 3 3 2\n3 1 3 1 3 4 3 0\n3 3 3 3 3 5 4 2"
+    },
+    "201_3x3": {
+      "id": "201_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/201.a.htm",
+      "problem": "3 3\n1 2 3\n2 0 3\n3 5 5"
+    },
+    "202_3x3": {
+      "id": "202_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/202.a.htm",
+      "problem": "3 3\n4 6 5\n1 2 4\n2 3 3"
+    },
+    "203_3x3": {
+      "id": "203_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/203.a.htm",
+      "problem": "3 3\n3 3 4\n4 3 4\n3 5 3"
+    },
+    "204_4x4": {
+      "id": "204_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/204.a.htm",
+      "problem": "4 4\n1 2 2 2\n4 3 1 6\n6 4 4 4\n2 6 2 3"
+    },
+    "205_4x4": {
+      "id": "205_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/205.a.htm",
+      "problem": "4 4\n2 3 5 3\n5 2 5 6\n1 1 2 4\n3 2 6 4"
+    },
+    "206_4x4": {
+      "id": "206_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/206.a.htm",
+      "problem": "4 4\n3 3 5 2\n5 4 4 5\n6 2 4 5\n2 1 2 1"
+    },
+    "207_4x4": {
+      "id": "207_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/207.a.htm",
+      "problem": "4 4\n2 2 3 2\n4 5 1 4\n4 3 1 2\n4 4 3 3"
+    },
+    "208_4x4": {
+      "id": "208_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/208.a.htm",
+      "problem": "4 4\n1 2 2 1\n4 3 1 5\n4 2 2 2\n4 7 4 3"
+    },
+    "209_4x4": {
+      "id": "209_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/209.a.htm",
+      "problem": "4 4\n1 2 2 2\n3 3 3 5\n3 4 5 3\n3 7 5 5"
+    },
+    "210_4x4": {
+      "id": "210_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/210.a.htm",
+      "problem": "4 4\n2 2 3 2\n2 3 2 4\n4 3 5 4\n4 5 4 4"
+    },
+    "211_3x3": {
+      "id": "211_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/211.a.htm",
+      "problem": "3 3\n3 1 2\n4 1 5\n3 4 3"
+    },
+    "212_3x3": {
+      "id": "212_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/212.a.htm",
+      "problem": "3 3\n3 3 4\n3 3 4\n4 5 4"
+    },
+    "215_4x4": {
+      "id": "215_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/215.a.htm",
+      "problem": "4 4\n1 1 2 2\n5 3 2 7\n5 3 4 4\n3 4 2 3"
+    },
+    "216_4x4": {
+      "id": "216_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/216.a.htm",
+      "problem": "4 4\n3 4 7 3\n2 2 5 4\n3 1 3 6\n2 1 5 2"
+    },
+    "218_11x4": {
+      "id": "218_11x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/218.a.htm",
+      "problem": "11 4\n1 2 2 1\n4 4 2 3\n3 3 2 2\n3 3 3 2\nne nw ne nw\n\ns s se sw\n1 2 2 1\n4 4 2 3\n3 3 2 2\n3 3 3 2"
+    },
+    "219_4x4": {
+      "id": "219_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/219.a.htm",
+      "problem": "4 4\n4 2 4 2\n5 4 4 3\n5 4 4 3\n4 3 5 3"
+    },
+    "220_4x4": {
+      "id": "220_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/220.a.htm",
+      "problem": "4 4\n2 2 2 3\n3 3 3 6\n3 3 5 4\n4 5 3 5"
+    },
+    "221_3x3": {
+      "id": "221_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/221.a.htm",
+      "problem": "3 3\n1 4 4\n1 1 4\n3 5 3"
+    },
+    "222_3x3": {
+      "id": "222_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/222.a.htm",
+      "problem": "3 3\n3 5 5\n3 3 6\n2 2 3"
+    },
+    "223_3x3": {
+      "id": "223_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/223.a.htm",
+      "problem": "3 3\n3 3 5\n1 1 4\n3 4 4"
+    },
+    "226_4x4": {
+      "id": "226_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/226.a.htm",
+      "problem": "4 4\n4 2 2 4\n2 1 1 3\n7 2 3 7\n2 3 2 2"
+    },
+    "227_4x4": {
+      "id": "227_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/227.a.htm",
+      "problem": "4 4\n3 2 3 2\n3 1 4 4\n2 1 4 2\n4 4 4 3"
+    },
+    "228_4x4": {
+      "id": "228_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/228.a.htm",
+      "problem": "4 4\n3 2 3 2\n5 4 3 3\n5 4 4 3\n4 4 5 2"
+    },
+    "229_4x4": {
+      "id": "229_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/229.a.htm",
+      "problem": "4 4\n2 1 4 1\n5 5 4 4\n6 4 5 4\n3 3 5 2"
+    },
+    "230_4x4": {
+      "id": "230_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/230.a.htm",
+      "problem": "4 4\n1 2 2 3\n3 3 3 5\n4 4 5 6\n1 3 3 3"
+    },
+    "231_3x3": {
+      "id": "231_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/231.a.htm",
+      "problem": "3 3\n1 6 1\n2 2 4\n2 6 2"
+    },
+    "233_3x3": {
+      "id": "233_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/233.a.htm",
+      "problem": "3 3\n1 2 3\n3 0 3\n4 4 4"
+    },
+    "234_4x4": {
+      "id": "234_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/234.a.htm",
+      "problem": "4 4\n2 1 4 3\n2 2 2 6\n6 2 5 4\n3 5 2 3"
+    },
+    "236_4x4": {
+      "id": "236_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/236.a.htm",
+      "problem": "4 4\n1 4 2 2\n5 5 3 7\n4 4 3 4\n1 5 1 2"
+    },
+    "238_4x4": {
+      "id": "238_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/238.a.htm",
+      "problem": "4 4\n2 3 2 2\n3 3 2 3\n5 4 4 4\n2 5 3 2"
+    },
+    "239_4x4": {
+      "id": "239_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/239.a.htm",
+      "problem": "4 4\n2 1 4 1\n4 1 1 4\n5 2 3 4\n4 4 6 3"
+    },
+    "240_4x4": {
+      "id": "240_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/240.a.htm",
+      "problem": "4 4\n1 2 4 2\n4 1 2 4\n4 2 2 3\n2 4 5 2"
+    },
+    "243_4x4": {
+      "id": "243_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/243.a.htm",
+      "problem": "4 4\n5 4 6 4\n3 1 3 3\n4 1 3 6\n2 0 4 2"
+    },
+    "244_4x4": {
+      "id": "244_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/244.a.htm",
+      "problem": "4 4\n3 1 1 3\n3 1 1 3\n3 2 2 2\n3 3 2 2"
+    },
+    "248_6x6": {
+      "id": "248_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/248.a.htm",
+      "problem": "6 6\n3 2 3 6 2 1\n3 2 1 4 2 1\n6 4 2 3 3 5\n4 4 1 3 2 2\n4 3 4 6 2 1\n4 4 5 7 3 2"
+    },
+    "253_5x5": {
+      "id": "253_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/253.a.htm",
+      "problem": "5 5\n3 4 3 2 4\n3 2 2 1 3\n4 2 1 3 2\n3 3 3 1 3\n3 5 4 3 3"
+    },
+    "254_5x5": {
+      "id": "254_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/254.a.htm",
+      "problem": "5 5\n4 5 3 4 4\n6 3 3 4 4\n3 2 0 1 3\n6 4 2 3 5\n3 3 2 3 3"
+    },
+    "255_6x6": {
+      "id": "255_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/255.a.htm",
+      "problem": "6 6\n2 3 5 5 2 4\n1 0 3 3 1 2\n2 3 2 3 4 5\n1 1 2 2 3 4\n1 0 3 4 1 4\n2 4 5 5 5 4"
+    },
+    "256_6x6": {
+      "id": "256_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/256.a.htm",
+      "problem": "6 6\n2 3 3 2 3 1\n7 2 2 6 3 2\n3 2 1 3 5 1\n2 1 2 3 4 3\n4 0 1 5 3 2\n4 3 2 4 6 1"
+    },
+    "261_4x4": {
+      "id": "261_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/261.a.htm",
+      "problem": "4 4\n2 4 5 2\n4 6 4 5\n4 4 3 3\n1 3 2 2"
+    },
+    "262_4x4": {
+      "id": "262_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/262.a.htm",
+      "problem": "4 4\n1 2 5 2\n2 1 4 6\n1 1 4 3\n3 5 6 3"
+    },
+    "263_5x5": {
+      "id": "263_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/263.a.htm",
+      "problem": "5 5\n3 3 5 2 2\n3 3 5 2 3\n3 3 1 3 2\n3 1 4 0 4\n1 3 2 3 1"
+    },
+    "265_6x6": {
+      "id": "265_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/265.a.htm",
+      "problem": "6 6\n3 2 3 3 2 2\n2 0 4 2 0 2\n3 3 4 3 3 2\n3 2 3 3 2 1\n4 2 6 4 2 3\n2 4 5 4 3 3"
+    },
+    "267_7x7": {
+      "id": "267_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/267.a.htm",
+      "problem": "7 7\n3 4 2 3 3 4 2\n1 1 3 2 2 2 3\n3 4 3 5 3 5 6\n4 4 3 2 5 6 5\n4 3 1 2 3 5 3\n2 2 1 2 1 1 4\n2 3 4 2 1 3 3"
+    },
+    "270_8x8": {
+      "id": "270_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/270.a.htm",
+      "problem": "8 8\n4 1 2 2 1 2 4 2\n3 0 3 2 2 3 1 3\n4 4 3 5 6 3 4 3\n4 1 4 4 3 4 2 2\n3 2 4 3 3 3 3 4\n6 4 3 4 4 3 6 4\n6 2 3 2 2 5 2 3\n3 2 2 1 3 1 2 1"
+    },
+    "271_4x4": {
+      "id": "271_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/271.a.htm",
+      "problem": "4 4\n3 1 2 2\n5 4 3 5\n4 2 2 2\n4 4 3 4"
+    },
+    "272_4x4": {
+      "id": "272_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/272.a.htm",
+      "problem": "4 4\n3 6 4 4\n3 4 4 2\n4 5 3 6\n1 2 3 1"
+    },
+    "274_5x5": {
+      "id": "274_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/274.a.htm",
+      "problem": "5 5\n4 3 5 5 5\n2 0 4 3 2\n4 2 3 4 5\n5 2 3 4 4\n3 1 4 2 2"
+    },
+    "277_7x7": {
+      "id": "277_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/277.a.htm",
+      "problem": "7 7\n1 5 2 2 2 3 1\n5 4 3 3 5 2 3\n3 5 2 4 3 4 3\n5 5 5 2 5 5 5\n2 5 0 2 2 3 3\n3 2 2 1 3 2 2\n2 4 2 3 3 3 3"
+    },
+    "278_7x7": {
+      "id": "278_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/278.a.htm",
+      "problem": "7 7\n3 4 4 2 5 3 2\n5 1 1 3 4 2 1\n3 4 3 3 4 3 3\n3 4 6 1 3 3 2\n3 5 3 4 2 1 4\n3 1 3 1 3 1 0\n3 3 2 2 4 3 1"
+    },
+    "282_4x4": {
+      "id": "282_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/282.a.htm",
+      "problem": "4 4\n3 4 3 5\n3 3 4 5\n3 3 4 5\n3 3 2 3"
+    },
+    "284_5x5": {
+      "id": "284_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/284.a.htm",
+      "problem": "5 5\n2 2 4 2 0\n3 2 4 2 2\n4 6 4 6 4\n2 1 6 2 1\n2 4 4 4 3"
+    },
+    "285_6x6": {
+      "id": "285_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/285.a.htm",
+      "problem": "6 6\n4 4 4 4 4 6\n2 3 3 3 3 3\n2 1 2 2 1 3\n2 2 1 1 2 4\n2 2 1 1 3 4\n3 2 3 4 3 4"
+    },
+    "288_7x7": {
+      "id": "288_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/288.a.htm",
+      "problem": "7 7\n1 4 0 2 2 2 3\n5 2 2 4 2 2 5\n0 3 1 3 1 3 1\n1 3 3 3 5 2 4\n2 2 1 7 2 5 3\n0 1 2 2 5 2 3\n2 5 2 6 4 6 4"
+    },
+    "289_8x8": {
+      "id": "289_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/289.a.htm",
+      "problem": "8 8\n4 4 2 3 2 5 1 1\n5 1 3 2 4 4 1 2\n2 3 1 4 3 3 2 3\n3 1 4 2 2 4 2 3\n4 3 2 2 2 4 2 2\n5 5 2 3 4 4 2 4\n3 1 4 2 2 3 1 2\n3 3 3 5 2 4 2 3"
+    },
+    "291_4x4": {
+      "id": "291_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/291.a.htm",
+      "problem": "4 4\n2 6 6 3\n3 3 5 3\n1 2 3 2\n2 3 4 1"
+    },
+    "292_4x4": {
+      "id": "292_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/292.a.htm",
+      "problem": "4 4\n3 2 7 2\n4 4 3 4\n5 2 2 1\n4 3 4 2"
+    },
+    "294_5x5": {
+      "id": "294_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/294.a.htm",
+      "problem": "5 5\n1 3 4 3 2\n2 2 5 3 4\n4 4 3 7 4\n2 2 5 2 5\n2 2 2 3 1"
+    },
+    "295_6x6": {
+      "id": "295_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/295.a.htm",
+      "problem": "6 6\n4 4 5 5 4 3\n2 2 2 3 2 2\n3 3 2 4 3 4\n1 1 2 2 3 2\n1 1 1 4 1 3\n5 3 4 4 5 4"
+    },
+    "300_8x8": {
+      "id": "300_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/300.a.htm",
+      "problem": "8 8\n3 3 3 1 4 4 3 2\n3 2 3 3 3 5 2 3\n5 2 3 3 4 3 4 2\n3 5 3 2 3 5 2 5\n5 4 6 2 4 5 6 5\n4 3 2 4 2 5 5 4\n3 1 2 0 5 4 2 2\n4 3 2 3 4 6 2 2"
+    },
+    "302_4x4": {
+      "id": "302_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/302.a.htm",
+      "problem": "4 4\n2 5 3 2\n2 4 4 4\n2 4 4 4\n1 4 2 2"
+    },
+    "304_5x5": {
+      "id": "304_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/304.a.htm",
+      "problem": "5 5\n3 3 3 2 2\n4 2 4 2 3\n4 3 3 4 3\n4 4 6 4 5\n3 3 5 4 3"
+    },
+    "305_6x6": {
+      "id": "305_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/305.a.htm",
+      "problem": "6 6\n3 6 2 2 4 4\n3 3 2 2 1 3\n3 3 2 2 1 2\n5 6 2 2 3 4\n3 5 2 1 2 3\n4 4 4 4 2 4"
+    },
+    "306_6x6": {
+      "id": "306_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/306.a.htm",
+      "problem": "6 6\n1 3 2 2 2 2\n3 0 2 1 0 3\n3 5 2 3 4 5\n4 3 4 3 5 5\n1 2 3 5 2 3\n2 3 5 4 4 5"
+    },
+    "307_7x7": {
+      "id": "307_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/307.a.htm",
+      "problem": "7 7\n3 5 3 6 4 4 4\n5 2 5 5 5 2 4\n2 2 1 3 2 1 2\n3 2 1 1 2 2 3\n4 1 1 1 2 2 3\n3 3 1 4 3 2 3\n3 2 5 4 5 2 3"
+    },
+    "308_7x7": {
+      "id": "308_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/308.a.htm",
+      "problem": "7 7\n1 3 3 3 3 3 2\n3 2 2 5 4 1 3\n3 2 3 5 2 4 2\n1 4 4 2 4 3 3\n5 5 4 7 4 5 5\n3 1 3 4 3 2 3\n1 3 2 3 3 3 1"
+    },
+    "309_8x8": {
+      "id": "309_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/309.a.htm",
+      "problem": "8 8\n2 2 2 4 1 3 3 4\n2 2 4 2 2 3 2 4\n2 4 2 3 2 2 4 3\n5 2 3 3 1 4 3 3\n2 3 2 1 2 2 2 2\n5 5 4 5 3 4 4 4\n4 3 5 4 2 3 3 2\n3 6 5 5 4 4 3 3"
+    },
+    "311_3x3": {
+      "id": "311_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/311.a.htm",
+      "problem": "3 3\n1 3 4\n1 0 4\n3 4 4"
+    },
+    "312_3x3": {
+      "id": "312_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/312.a.htm",
+      "problem": "3 3\n3 4 4\n5 3 3\n3 4 3"
+    },
+    "313_3x3": {
+      "id": "313_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/313.a.htm",
+      "problem": "3 3\n1 3 3\n3 3 6\n3 5 4"
+    },
+    "316_4x4": {
+      "id": "316_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/316.a.htm",
+      "problem": "4 4\n4 6 4 5\n3 4 3 3\n3 3 2 4\n2 3 2 3"
+    },
+    "317_5x5": {
+      "id": "317_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/317.a.htm",
+      "problem": "5 5\n3 4 4 3 3\n2 2 3 2 3\n4 2 3 5 4\n2 3 4 4 4\n3 4 6 4 4"
+    },
+    "318_5x5": {
+      "id": "318_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/318.a.htm",
+      "problem": "5 5\n2 2 2 4 1\n3 1 3 3 4\n5 4 2 6 3\n4 4 5 3 4\n3 3 3 4 1"
+    },
+    "319_6x6": {
+      "id": "319_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/319.a.htm",
+      "problem": "6 6\n3 5 2 2 3 3\n4 2 1 0 2 4\n3 2 0 1 3 2\n3 3 2 3 3 3\n1 2 3 1 2 2\n4 4 2 3 3 3"
+    },
+    "320_6x6": {
+      "id": "320_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/320.a.htm",
+      "problem": "6 6\n2 4 5 2 4 4\n1 2 4 3 2 3\n2 1 3 3 4 3\n1 1 1 1 4 3\n4 2 3 2 3 5\n1 4 4 2 3 4"
+    },
+    "322_3x3": {
+      "id": "322_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/322.a.htm",
+      "problem": "3 3\n2 5 3\n1 2 5\n3 4 4"
+    },
+    "324_4x4": {
+      "id": "324_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/324.a.htm",
+      "problem": "4 4\n2 4 5 1\n4 4 3 4\n4 2 3 3\n1 4 4 0"
+    },
+    "325_4x4": {
+      "id": "325_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/325.a.htm",
+      "problem": "4 4\n2 1 4 3\n3 2 2 5\n5 2 3 3\n4 4 3 3"
+    },
+    "328_5x5": {
+      "id": "328_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/328.a.htm",
+      "problem": "5 5\n2 4 2 1 4\n3 3 3 3 6\n1 2 1 4 4\n0 1 2 0 5\n3 5 2 4 5"
+    },
+    "332_3x3": {
+      "id": "332_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/332.a.htm",
+      "problem": "3 3\n3 4 3\n3 1 6\n1 2 2"
+    },
+    "333_3x3": {
+      "id": "333_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/333.a.htm",
+      "problem": "3 3\n3 1 4\n2 0 3\n3 5 4"
+    },
+    "334_4x4": {
+      "id": "334_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/334.a.htm",
+      "problem": "4 4\n2 5 1 4\n2 2 2 2\n4 4 1 6\n2 5 3 4"
+    },
+    "335_4x4": {
+      "id": "335_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/335.a.htm",
+      "problem": "4 4\n1 3 2 3\n3 1 1 5\n1 1 2 3\n2 3 2 5"
+    },
+    "336_4x4": {
+      "id": "336_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/336.a.htm",
+      "problem": "4 4\n1 3 1 2\n3 0 2 4\n3 1 1 5\n4 4 3 4"
+    },
+    "338_5x5": {
+      "id": "338_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/338.a.htm",
+      "problem": "5 5\n3 2 4 2 3\n2 2 5 1 3\n2 1 2 2 2\n5 2 5 3 5\n3 4 5 3 4"
+    },
+    "341_3x3": {
+      "id": "341_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/341.a.htm",
+      "problem": "3 3\n3 7 3\n3 3 4\n1 4 2"
+    },
+    "342_3x3": {
+      "id": "342_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/342.a.htm",
+      "problem": "3 3\n3 2 2\n6 2 3\n5 4 2"
+    },
+    "346_5x5": {
+      "id": "346_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/346.a.htm",
+      "problem": "5 5\n1 3 2 3 2\n3 2 5 3 5\n3 4 2 6 4\n2 2 4 2 4\n2 3 3 3 1"
+    },
+    "347_6x6": {
+      "id": "347_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/347.a.htm",
+      "problem": "6 6\n2 3 4 2 3 1\n3 2 5 3 2 2\n4 2 2 2 3 1\n5 4 3 2 5 4\n3 2 4 2 3 2\n2 3 5 5 3 2"
+    },
+    "351_3x3": {
+      "id": "351_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/351.a.htm",
+      "problem": "3 3\n3 5 2\n4 1 2\n2 3 4"
+    },
+    "352_3x3": {
+      "id": "352_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/352.a.htm",
+      "problem": "3 3\n4 5 4\n2 1 4\n1 2 4"
+    },
+    "354_4x4": {
+      "id": "354_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/354.a.htm",
+      "problem": "4 4\n3 3 1 2\n3 3 1 2\n4 4 2 4\n4 4 3 3"
+    },
+    "355_5x5": {
+      "id": "355_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/355.a.htm",
+      "problem": "5 5\n4 2 4 4 3\n4 3 5 2 3\n4 5 3 3 3\n3 0 3 1 1\n2 2 3 3 3"
+    },
+    "356_5x5": {
+      "id": "356_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/356.a.htm",
+      "problem": "5 5\n3 5 3 4 1\n3 2 3 3 1\n3 4 1 6 3\n5 2 3 4 3\n2 5 2 4 1"
+    },
+    "357_6x6": {
+      "id": "357_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/357.a.htm",
+      "problem": "6 6\n3 2 5 2 3 4\n4 1 4 5 2 2\n3 2 4 3 4 2\n3 2 4 2 3 5\n3 0 2 2 2 4\n5 1 3 3 5 2"
+    },
+    "358_6x6": {
+      "id": "358_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/358.a.htm",
+      "problem": "6 6\n2 4 2 6 3 2\n4 3 6 4 4 5\n2 4 2 4 2 5\n2 1 1 2 3 2\n2 1 2 4 2 4\n1 2 2 3 2 3"
+    },
+    "359_7x7": {
+      "id": "359_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/359.a.htm",
+      "problem": "7 7\n5 3 3 5 3 3 5\n2 1 1 3 2 0 2\n3 2 1 2 1 1 4\n6 4 2 2 1 4 6\n6 5 2 2 3 3 4\n4 3 2 4 2 0 2\n3 3 5 6 2 1 3"
+    },
+    "360_7x7": {
+      "id": "360_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Pfeilzahlen/360.a.htm",
+      "problem": "7 7\n2 2 4 4 2 3 3\n2 1 4 4 3 2 6\n2 1 1 2 3 4 4\n3 1 1 1 4 5 5\n3 1 2 3 3 4 5\n2 3 5 5 4 3 4\n2 3 6 5 4 2 3"
+    }
+  },
+  "info": "",
+  "count": 360
+}

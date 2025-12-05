@@ -1,0 +1,426 @@
+{
+  "solutions": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/001.a.htm",
+      "solution": "6 6\nse ew ew ew ew sw\nne sw se ew sw ns\n- ns ns - ne nw\nse nw ne ew sw -\nns se sw - ne sw\nne nw ne ew ew nw"
+    },
+    "2_7x7": {
+      "id": "2_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/002.a.htm",
+      "solution": "7 7\nse ew sw - se ew sw\nne sw ne ew nw - ns\n- ns se ew ew ew nw\nse nw ns - - - -\nne sw ne ew ew ew sw\nse nw - se ew sw ns\nne ew ew nw - ne nw"
+    },
+    "3_8x8": {
+      "id": "3_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/003.a.htm",
+      "solution": "8 8\nse sw - se ew ew ew sw\nns ne sw ns - se ew nw\nns - ne nw - ne sw -\nne sw - se ew sw ne sw\nse nw se nw se nw se nw\nns - ns - ns - ne sw\nns se nw se nw se sw ns\nne nw - ne ew nw ne nw"
+    },
+    "4_8x8": {
+      "id": "4_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/004.a.htm",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nns se nw - ne sw - ns\nne nw - se sw ne sw ns\n- se ew nw ne sw ns ns\nse nw - se sw ne nw ns\nns se sw ns ne sw - ns\nne nw ne nw - ne ew nw\n[solution]\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nns se nw - ne sw - ns\nne nw - se sw ne sw ns\n- se ew nw ne sw ns ns\nse nw - se sw ne nw ns\nns se sw ns ne sw - ns\nne nw ne nw - ne ew nw"
+    },
+    "5_8x10": {
+      "id": "5_8x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/005.a.htm",
+      "solution": "8 10\nse sw se sw se sw se sw se sw\nns ne nw ne nw ne nw ne nw ns\nns - se sw se sw se sw se nw\nns se nw ne nw ne nw ne nw -\nns ns se sw se sw se sw se sw\nns ne nw ne nw ne nw ne nw ns\nns - se sw se sw se sw se nw\nne ew nw ne nw ne nw ne nw -"
+    },
+    "6_7x22": {
+      "id": "6_7x22",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/006.a.htm",
+      "solution": "7 22\nse ew ew sw - - se ew sw - se sw - se sw - se ew sw - se sw\nns se ew nw - se nw - ns - ns ne ew nw ne ew nw - ne ew nw ns\nns ns - - - ns se ew nw - ne sw - se ew sw se ew ew ew sw ns\nns ne sw - se nw ns - - se sw ne ew nw - ns ns - - - ns ns\nns - ns - ns - ne ew ew nw ne sw - - se nw ne ew sw - ns ns\nne sw ne ew nw se sw - se ew sw ne ew ew nw se ew ew nw - ne nw\n- ne ew ew ew nw ne ew nw - ne ew ew ew ew nw - - - - - -"
+    },
+    "7_10x10": {
+      "id": "7_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/007.a.htm",
+      "solution": "10 10\nse sw - se ew ew sw - se sw\nns ne ew nw se ew nw se nw ns\nne sw - - ns - se nw - ns\nse nw se sw ne ew nw se sw ns\nns - ns ne sw - se nw ns ns\nne sw ns - ne ew nw - ns ns\n- ne nw se sw - se ew nw ns\nse sw - ns ne ew nw - se nw\nns ne ew nw - se ew sw ne sw\nne ew ew ew ew nw - ne ew nw"
+    },
+    "8_10x10": {
+      "id": "8_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/008.a.htm",
+      "solution": "10 10\nse sw se sw - se sw - se sw\nns ne nw ne ew nw ne ew nw ns\nns - se ew ew ew ew ew sw ns\nns - ns - - - - - ne nw\nns - ne ew ew ew ew ew sw -\nne sw se ew ew ew ew sw ne sw\n- ns ns - - - - ns - ns\nse nw ne ew ew ew sw ne sw ns\nns se sw se ew sw ns - ns ns\nne nw ne nw - ne nw - ne nw"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/009.a.htm",
+      "solution": "10 10\n- - se ew sw - se ew ew sw\nse sw ne sw ne ew nw - se nw\nns ns - ns - se ew sw ne sw\nns ne ew nw se nw se nw se nw\nne sw - se nw - ns - ne sw\nse nw se nw se ew nw se sw ns\nns - ns - ns - se nw ns ns\nns se nw se nw se nw se nw ns\nne nw se nw - ne sw ne sw ns\n- - ne ew ew ew nw - ne nw"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/010.a.htm",
+      "solution": "10 10\nse ew ew sw se ew sw - se sw\nne ew sw ne nw se nw se nw ns\n- se nw - se nw se nw - ns\nse nw se ew nw se nw - se nw\nns - ne sw se nw - se nw -\nne sw - ne nw - se nw se sw\n- ne sw - - se nw se nw ns\nse sw ne sw - ne ew nw - ns\nns ne ew nw se sw - se sw ns\nne ew ew ew nw ne ew nw ne nw"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/011.a.htm",
+      "solution": "10 10\nse ew sw - se ew ew ew sw -\nns se nw se nw se ew sw ne sw\nns ns - ns - ns - ns - ns\nns ne ew nw se nw se nw se nw\nne sw - se nw se nw - ne sw\nse nw se nw se nw se ew sw ns\nns - ns - ns - ns - ne nw\nne sw ne sw ne sw ne ew sw -\nse nw - ne sw ne sw - ne sw\nne ew ew ew nw - ne ew ew nw"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/012.a.htm",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nns - ns se nw - se ew sw ns\nne sw ne nw se ew nw - ne nw\n- ne sw - ns - se ew sw -\nse sw ne sw ne sw ne sw ne sw\nns ne ew nw se nw - ns se nw\nns - se ew nw se ew nw ns -\nne sw ne sw - ns - - ne sw\nse nw - ne ew nw se ew sw ns\nne ew ew ew ew ew nw - ne nw"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/013.a.htm",
+      "solution": "10 10\n- se sw se sw se sw se ew sw\nse nw ne nw ne nw ne nw se nw\nne sw - se sw se sw se nw -\nse nw se nw ne nw ne nw se sw\nne sw ne sw - se sw se nw ns\nse nw se nw se nw ne nw se nw\nne sw ne sw ne sw - se nw -\nse nw se nw se nw se nw se sw\nns - ne ew nw - ne ew nw ns\nne ew ew ew ew ew ew ew ew nw"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/014.a.htm",
+      "solution": "10 10\nse ew sw - se ew sw - se sw\nne sw ne sw ne sw ne ew nw ns\nse nw - ns - ns - se ew nw\nns - se nw se nw se nw - -\nne sw ne sw ne sw ne ew ew sw\nse nw - ns - ne sw - se nw\nns - se nw se ew nw se nw -\nne sw ne sw ne sw - ne ew sw\nse nw - ne ew nw se ew sw ns\nne ew ew ew ew ew nw - ne nw"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/015.a.htm",
+      "solution": "10 10\n- se sw se sw se ew sw - -\nse nw ns ns ne nw se nw se sw\nne sw ne nw - se nw se nw ns\nse nw - - se nw - ne sw ns\nns se sw se nw se sw - ns ns\nns ns ne nw se nw ne ew nw ns\nns ne sw - ne ew sw - se nw\nne sw ne sw - se nw - ne sw\nse nw - ne ew nw se sw se nw\nne ew ew ew ew ew nw ne nw -"
+    },
+    "16_12x12": {
+      "id": "16_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/016.a.htm",
+      "solution": "12 12\nse sw - se ew sw - se ew ew ew sw\nns ne sw ne sw ne sw ne sw - se nw\nne sw ne sw ne sw ne sw ne sw ne sw\nse nw se nw se nw se nw se nw se nw\nne sw ne sw ne sw ne sw ne sw ne sw\nse nw se nw se nw se nw se nw se nw\nne sw ne sw ne sw ne sw ne sw ne sw\nse nw se nw se nw se nw se nw se nw\nne sw ne sw ne sw ne sw ne sw ne sw\nse nw se nw se nw se nw se nw se nw\nns - ne ew nw - ne ew nw - ne sw\nne ew ew ew ew ew ew ew ew ew ew nw"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/017.a.htm",
+      "solution": "12 12\nse ew sw - se ew ew sw se sw se sw\nne sw ne sw ne sw - ne nw ne nw ns\nse nw se nw se nw se sw se sw se nw\nne sw ne ew nw se nw ns ns ne nw -\nse nw se ew sw ns - ns ne sw se sw\nne sw ne sw ne nw - ne sw ne nw ns\n- ne sw ns - se ew sw ne sw - ns\nse sw ne nw - ne sw ne ew nw se nw\nns ne sw se sw se nw se ew sw ne sw\nns - ne nw ne nw se nw se nw se nw\nns se sw se sw se nw se nw - ne sw\nne nw ne nw ne nw - ne ew ew ew nw"
+    },
+    "18_13x13": {
+      "id": "18_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/018.a.htm",
+      "solution": "13 13\n- - - - se ew ew ew sw - - - -\n- - - se nw se ew sw ne sw - - -\n- - se nw se nw - ne sw ne sw - -\n- se nw se nw se ew sw ne sw ne sw -\nse nw se nw se nw - ne sw ne sw ne sw\nns se nw se nw - - - ne sw ne ew nw\nns ns - ns - - - - - ns - - -\nns ne sw ne sw - - - se nw se ew sw\nne sw ne sw ne sw - se nw se nw se nw\n- ne sw ne sw ns - ns se nw se nw -\n- - ne sw ne nw - ne nw se nw - -\n- - - ne sw se ew sw se nw - - -\n- - - - ne nw - ne nw - - - -"
+    },
+    "19_13x14": {
+      "id": "19_13x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/019.a.htm",
+      "solution": "13 14\nse sw se ew sw se sw se ew ew ew ew ew sw\nns ne nw - ne nw ne nw se ew sw se ew nw\nns - - - - se sw - ns - ns ns - -\nne ew sw - se nw ns - ns - ns ne sw -\nse ew nw - ns se nw - ns - ne ew nw -\nns - - - ns ns - - ns - - - - -\nns - - - ns ne ew sw ne sw se sw se sw\nne ew ew ew nw se ew nw - ne nw ne nw ns\n- - - - - ne sw - - - - - - ns\nse ew ew ew ew sw ne sw - se ew sw - ns\nns - - - - ne ew nw - ns se nw - ns\nne ew ew ew ew ew ew sw - ns ns se sw ns\n- - - - - - - ne ew nw ne nw ne nw"
+    },
+    "20_17x18": {
+      "id": "20_17x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/020.a.htm",
+      "solution": "17 18\nse ew sw - se ew ew sw - se sw se sw - se sw se sw\nne sw ne ew nw se ew nw se nw ne nw ne ew nw ne nw ns\nse nw - - - ne sw se nw se sw se ew ew sw - se nw\nns - se ew sw - ne nw se nw ne nw - - ne sw ne sw\nns - ne sw ne ew sw - ne ew sw - se sw - ns se nw\nne sw - ne ew sw ne ew sw - ns - ns ne sw ne nw -\n- ne sw - - ne sw - ns - ns - ne sw ne sw se sw\nse ew nw se sw - ns - ns - ns se ew nw - ne nw ns\nne ew ew nw ns - ns - ns - ns ns - - se sw - ns\n- se ew ew nw - ns - ns - ne nw se ew nw ne ew nw\nse nw - - - se nw - ns - - - ne sw se ew ew sw\nns - se ew sw ne ew sw ne ew ew ew sw ne nw - se nw\nne sw ne sw ne sw - ns se ew sw - ns - se ew nw -\nse nw - ne sw ne sw ne nw - ne sw ne sw ne sw se sw\nns - se sw ne sw ns - se sw - ns se nw - ne nw ns\nne sw ns ns - ns ns se nw ns se nw ns - se sw se nw\n- ne nw ne ew nw ne nw - ne nw - ne ew nw ne nw -"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/021.a.htm",
+      "solution": "6 6\nse sw - se ew sw\nns ne ew nw se nw\nne sw - - ne sw\n- ns - se sw ns\nse nw se nw ns ns\nne ew nw - ne nw"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/022.a.htm",
+      "solution": "8 8\nse sw - se ew sw se sw\nns ne ew nw - ne nw ns\nne sw - se ew sw - ns\n- ne ew nw se nw se nw\nse sw - se nw se nw -\nns ne ew nw - ne ew sw\nns se ew sw se sw - ns\nne nw - ne nw ne ew nw"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/023.a.htm",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se ew sw - ns\nns - se nw - ne sw ns\nns se nw se ew sw ne nw\nns ns - ns - ns - -\nns ne ew nw - ne sw -\nne sw - se sw - ne sw\n- ne ew nw ne ew ew nw"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/024.a.htm",
+      "solution": "8 8\nse sw - se ew sw se sw\nns ne sw ne sw ne nw ns\nne sw ne sw ne sw - ns\nse nw - ne sw ns se nw\nns - se sw ne nw ns -\nns - ns ns - se nw -\nns se nw ns - ne ew sw\nne nw - ne ew ew ew nw"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/025.a.htm",
+      "solution": "10 10\nse sw se sw se sw se sw se sw\nns ne nw ne nw ne nw ne nw ns\nns - se sw se sw se sw se nw\nns se nw ns ns ne nw ne nw -\nne nw se nw ns - se sw se sw\n- se nw se nw - ns ne nw ns\nse nw se nw se sw ne sw - ns\nne sw ne ew nw ne ew nw se nw\nse nw se ew sw se ew sw ne sw\nne ew nw - ne nw - ne ew nw"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/026.a.htm",
+      "solution": "10 10\n- se ew ew ew sw - se ew sw\nse nw se ew ew nw se nw se nw\nne sw ne sw - - ns - ne sw\nse nw se nw se ew nw se sw ns\nne sw ns - ne sw se nw ns ns\n- ns ns - - ns ns - ns ns\n- ns ns se ew nw ns - ns ns\nse nw ne nw - se nw se nw ns\nns se sw se sw ne sw ne sw ns\nne nw ne nw ne ew nw - ne nw"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/027.a.htm",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nns - se ew sw - ns ns - ns\nns se nw - ne sw ne nw se nw\nns ns se sw - ne sw - ne sw\nns ne nw ne ew sw ne sw - ns\nns - se sw - ne sw ne sw ns\nns se nw ne sw - ns - ns ns\nns ns - se nw se nw se nw ns\nne nw se nw se nw se nw - ns\n- - ne ew nw - ne ew ew nw"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/028.a.htm",
+      "solution": "10 10\n- se sw - se sw - se sw -\nse nw ns se nw ns se nw ne sw\nne sw ne nw - ne nw - se nw\n- ne sw - se sw - se nw -\nse ew nw se nw ne sw ne ew sw\nne sw - ne sw - ne sw se nw\n- ne sw - ne sw - ne nw -\nse ew nw se sw ne sw - se sw\nne sw se nw ns - ne ew nw ns\n- ne nw - ne ew ew ew ew nw"
+    },
+    "29_9x13": {
+      "id": "29_9x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/029.a.htm",
+      "solution": "9 13\nse ew ew sw se ew ew ew sw - se ew sw\nne ew sw ne nw se ew sw ns - ns - ns\n- se nw - se nw - ns ns - ns - ns\n- ne sw - ne sw - ns ns - ns - ns\n- se nw - se nw - ns ns - ns - ns\n- ne sw se nw - - ne nw - ns - ns\n- - ns ns - se sw - - - ns - ns\nse ew nw ne ew nw ne ew ew ew nw - ns\nne ew ew ew ew ew ew ew ew ew ew ew nw"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/031.a.htm",
+      "solution": "10 10\n- se ew sw - se sw se ew sw\nse nw se nw se nw ne nw se nw\nne sw ne sw ne sw - se nw -\n- ne sw ne ew nw se nw se sw\nse ew nw se ew sw ne ew nw ns\nne sw se nw - ne sw - - ns\n- ns ns - - se nw se ew nw\nse nw ne ew sw ne sw ne ew sw\nns se sw se nw se nw - se nw\nne nw ne nw - ne ew ew nw -"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/032.a.htm",
+      "solution": "8 8\nse sw - se ew ew ew sw\nns ne sw ns - se ew nw\nns - ne nw - ne sw -\nne sw - se ew sw ne sw\nse nw se nw se nw se nw\nns - ns - ns - ne sw\nns se nw se nw se sw ns\nne nw - ne ew nw ne nw"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/033.a.htm",
+      "solution": "10 10\nse sw se ew sw - se ew ew sw\nns ne nw - ne sw ne sw - ns\nne sw se ew sw ns se nw se nw\n- ns ns - ns ne nw - ne sw\nse nw ne sw ne sw se ew sw ns\nne sw - ns - ns ns - ne nw\nse nw se nw se nw ns se sw -\nne sw ne sw ne sw ne nw ne sw\nse nw - ne sw ne sw se sw ns\nne ew ew ew nw - ne nw ne nw"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/034.a.htm",
+      "solution": "10 10\nse sw - se ew ew sw - se sw\nns ne sw ne sw se nw se nw ns\nne sw ne sw ns ns - ne sw ns\nse nw - ne nw ne ew sw ns ns\nns se ew sw se sw - ne nw ns\nne nw - ne nw ne ew sw se nw\n- se ew sw se sw - ns ns -\nse nw - ne nw ne ew nw ne sw\nns se ew sw se sw - se sw ns\nne nw - ne nw ne ew nw ne nw"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/035.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw - se ew sw\nns se ew sw se nw - ns - ns\nns ns - ns ns - - ns - ns\nne nw - ns ns se sw ns se nw\n- se ew nw ne nw ne nw ns -\nse nw - se sw se sw - ns -\nns - - ns ne nw ne sw ne sw\nns se sw ns - - - ne sw ns\nne nw ns ne ew ew sw - ns ns\n- - ne ew ew ew nw - ne nw"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/036.a.htm",
+      "solution": "8 8\nse sw - se ew sw se sw\nns ne sw ne sw ne nw ns\nns - ns - ne sw - ns\nne sw ne sw se nw se nw\nse nw - ne nw - ne sw\nns se sw - se sw - ns\nns ns ne sw ns ns se nw\nne nw - ne nw ne nw -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/037.a.htm",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nne sw ne sw ne sw - se ew nw\n- ne sw ne sw ne sw ne sw -\nse sw ne sw ne sw ne sw ne sw\nns ns se nw se nw se nw se nw\nns ne nw se nw se nw se nw -\nns - se nw se nw se nw se sw\nne sw ne ew nw se nw - ns ns\nse nw se ew sw ne ew ew nw ns\nne ew nw - ne ew ew ew ew nw"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/038.a.htm",
+      "solution": "10 10\n- se ew sw - se sw se sw -\nse nw se nw se nw ne nw ne sw\nne sw ne sw ne sw - se ew nw\n- ne sw ne sw ne sw ne ew sw\nse sw ne sw ne sw ne sw - ns\nns ne ew nw se nw se nw se nw\nne sw - se nw se nw se nw -\nse nw se nw se nw se nw se sw\nne sw ne ew nw - ne ew nw ns\n- ne ew ew ew ew ew ew ew nw"
+    },
+    "39_11x10": {
+      "id": "39_11x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/039.a.htm",
+      "solution": "11 10\nse sw - se ew ew ew ew sw -\nns ne sw ne sw se ew sw ne sw\nns - ne sw ne nw se nw - ns\nne ew sw ne sw se nw se ew nw\nse ew nw - ne nw - ne ew sw\nns - - - - - - - - ns\nne sw - se sw - se ew sw ns\nse nw se nw ne sw ne sw ne nw\nns - ne ew sw ns - ne sw -\nns se sw - ns ns se sw ne sw\nne nw ne ew nw ne nw ne ew nw"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/040.a.htm",
+      "solution": "10 10\nse sw - se sw - se ew ew sw\nns ne ew nw ne sw ne sw se nw\nns - se ew sw ns - ns ns -\nne sw ne sw ne nw se nw ne sw\n- ne sw ne sw se nw se sw ns\nse sw ne sw ne nw se nw ns ns\nns ns se nw - se nw se nw ns\nns ne nw - se nw se nw - ns\nns - - se nw se nw se sw ns\nne ew ew nw - ne ew nw ne nw"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/041.a.htm",
+      "solution": "10 10\nse sw - se ew ew ew ew ew sw\nns ns - ne ew ew sw - se nw\nns ne ew sw - se nw se nw -\nne sw - ne sw ne sw ne ew sw\n- ne ew sw ne ew nw se ew nw\nse sw - ne sw - - ne sw -\nns ns - se nw se ew sw ne sw\nns ne ew nw - ne sw ns - ns\nns se ew sw se sw ns ns se nw\nne nw - ne nw ne nw ne nw -"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/042.a.htm",
+      "solution": "10 10\nse ew ew ew sw - se ew ew sw\nns se ew sw ne sw ne ew sw ns\nns ns - ne sw ne sw - ns ns\nns ne ew sw ne sw ns - ns ns\nne sw - ne sw ne nw se nw ns\nse nw se ew nw - se nw se nw\nne sw ne sw - se nw se nw -\n- ne sw ne ew nw se nw se sw\nse ew nw se ew sw ne ew nw ns\nne ew ew nw - ne ew ew ew nw"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/043.a.htm",
+      "solution": "10 10\n- se sw se sw se sw - se sw\nse nw ne nw ne nw ns - ns ns\nne sw - se sw se nw se nw ns\nse nw se nw ne nw - ns - ns\nne sw ne ew sw - se nw se nw\nse nw se ew nw - ne sw ne sw\nne sw ne sw se sw se nw se nw\nse nw - ne nw ne nw se nw -\nne sw se sw se sw - ne ew sw\n- ne nw ne nw ne ew ew ew nw"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/044.a.htm",
+      "solution": "10 10\nse sw se ew sw - se sw se sw\nns ne nw se nw se nw ne nw ns\nns - se nw se nw se sw - ns\nne sw ne ew nw se nw ne sw ns\nse nw - se ew nw se sw ne nw\nne ew sw ne sw - ns ne sw -\n- se nw - ns - ne sw ne sw\nse nw se sw ne ew ew nw se nw\nne sw ns ne sw se ew sw ne sw\n- ne nw - ne nw - ne ew nw"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/045.a.htm",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns - se ew sw ne nw ns\nne sw ne sw ne sw se nw\nse nw - ns - ne nw -\nns - se nw se sw se sw\nns - ne ew nw ne nw ns\nns se ew sw se sw - ns\nne nw - ne nw ne ew nw"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/046.a.htm",
+      "solution": "10 10\n- se ew ew ew sw - se ew sw\nse nw se ew sw ne sw ne sw ns\nne sw ne sw ne sw ne sw ns ns\nse nw se nw - ne sw ne nw ns\nns se nw se ew sw ne sw - ns\nns ns - ns - ne sw ne sw ns\nns ne sw ne ew sw ne sw ns ns\nne sw ne sw - ns - ne nw ns\nse nw se nw se nw se sw - ns\nne ew nw - ne ew nw ne ew nw"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/047.a.htm",
+      "solution": "10 10\nse ew ew ew ew sw - se ew sw\nns se ew sw - ne sw ne sw ns\nne nw - ns - se nw - ns ns\n- se ew nw - ns - - ns ns\n- ns - se sw ne ew sw ns ns\nse nw se nw ne ew sw ne nw ns\nne sw ne sw - - ns - se nw\nse nw se nw se ew nw - ne sw\nns - ne sw ne sw se sw - ns\nne ew ew nw - ne nw ne ew nw"
+    },
+    "48_13x13": {
+      "id": "48_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/048.a.htm",
+      "solution": "13 13\n- - - - se ew ew ew sw - - - -\n- - - se nw se ew sw ne sw - - -\n- - se nw se nw - ne sw ne sw - -\n- se nw se nw se ew sw ne sw ne sw -\nse nw se nw se nw - ne sw ne sw ne sw\nns se nw se nw - - - ne sw ne ew nw\nns ns - ns - - - - - ns - - -\nns ne sw ne sw - - - se nw se ew sw\nne sw ne sw ne sw - se nw se nw se nw\n- ne sw ne sw ns - ns se nw se nw -\n- - ne sw ne nw - ne nw se nw - -\n- - - ne sw se ew sw se nw - - -\n- - - - ne nw - ne nw - - - -"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/049.a.htm",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns - se sw se sw se nw\nns se nw ne nw ne nw -\nns ns se sw se sw se sw\nns ne nw ne nw ne nw ns\nne sw se sw se sw - ns\n- ne nw ne nw ne ew nw"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/051.a.htm",
+      "solution": "10 10\n- se ew sw - se ew sw se sw\nse nw - ne ew nw - ne nw ns\nns se ew sw - se ew sw - ns\nns ns - ne sw ne sw ne ew nw\nns ne sw - ns - ne ew sw -\nne ew nw - ne sw - - ne sw\n- - se sw - ne ew sw - ns\nse ew nw ne ew sw - ns - ns\nns se ew sw - ne ew nw - ns\nne nw - ne ew ew ew ew ew nw"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/052.a.htm",
+      "solution": "10 10\nse sw - se ew sw - se ew sw\nns ne sw ne sw ne ew nw - ns\nns - ns se nw - - se ew nw\nns - ns ns - se sw ne sw -\nne sw ne nw - ns ne sw ne sw\n- ns - - se nw - ns - ns\nse nw se ew nw - se nw se nw\nns - ns - - se nw se nw -\nns se nw se ew nw - ne ew sw\nne nw - ne ew ew ew ew ew nw"
+    },
+    "53_12x12": {
+      "id": "53_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/053.a.htm",
+      "solution": "12 12\n- se sw - se sw - se ew ew ew sw\nse nw ns - ns ne sw ne ew sw se nw\nns - ne sw ne sw ne sw - ns ns -\nne sw - ns - ns - ne sw ns ne sw\nse nw - ns - ne sw - ne nw - ns\nne ew sw ne ew sw ne sw - se ew nw\nse ew nw - se nw - ne sw ne sw -\nne sw - se nw - se sw ne sw ne sw\n- ne sw ne sw - ns ne sw ns - ns\nse ew nw - ne ew nw - ne nw - ns\nns - se sw se ew sw se sw - se nw\nne ew nw ne nw - ne nw ne ew nw -"
+    },
+    "54_12x12": {
+      "id": "54_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/054.a.htm",
+      "solution": "12 12\nse ew ew sw - se ew sw se ew ew sw\nne ew sw ne sw ne sw ne nw - se nw\n- se nw se nw - ns - se ew nw -\nse nw - ns - se nw se nw - se sw\nns se ew nw se nw - ns - se nw ns\nns ns - - ns se ew nw se nw - ns\nns ne sw se nw ns - - ns - se nw\nns - ne nw - ne ew sw ns se nw -\nne ew sw - se ew sw ne nw ns se sw\n- se nw - ne sw ne sw - ne nw ns\nse nw se ew sw ne sw ne sw - se nw\nne ew nw - ne ew nw - ne ew nw -"
+    },
+    "55_12x12": {
+      "id": "55_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/055.a.htm",
+      "solution": "12 12\nse ew ew ew sw se sw - se ew sw -\nne ew sw - ne nw ne ew nw - ne sw\n- - ne ew sw se sw - - se ew nw\nse ew sw - ne nw ne ew sw ne sw -\nne sw ne ew sw se ew sw ns - ne sw\n- ne sw - ne nw - ne nw se ew nw\nse sw ne ew sw se ew sw - ne ew sw\nns ne sw - ne nw - ne ew sw - ns\nne sw ne sw - se sw - se nw se nw\nse nw - ne ew nw ne ew nw - ne sw\nns - se sw se ew sw - se sw - ns\nne ew nw ne nw - ne ew nw ne ew nw"
+    },
+    "56_14x14": {
+      "id": "56_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/056.a.htm",
+      "solution": "14 14\nse ew sw - se ew sw - se ew sw se sw -\nne sw ne ew nw - ns se nw - ne nw ne sw\n- ns - se ew sw ne nw se ew sw - se nw\nse nw se nw - ne sw - ns - ne ew nw -\nns - ns - se sw ne sw ne ew sw - se sw\nne sw ne ew nw ns - ne sw - ne ew nw ns\n- ne sw - - ne sw - ne sw - se ew nw\nse sw ne ew sw - ns - - ne ew nw - -\nns ne sw - ne sw ne ew ew sw - se ew sw\nns - ne sw - ns - - se nw - ns - ns\nne sw - ns se nw se ew nw - se nw se nw\n- ne sw ne nw - ne ew ew ew nw - ne sw\nse ew nw - se ew sw se ew sw - se ew nw\nne ew ew ew nw - ne nw - ne ew nw - -"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/057.a.htm",
+      "solution": "14 14\nse ew sw se ew ew sw - se sw - se sw -\nne sw ne nw - se nw se nw ns - ns ne sw\n- ne sw se sw ns - ne sw ne sw ns - ns\nse sw ne nw ns ne sw - ns - ne nw se nw\nns ns - se nw - ne sw ne ew sw - ns -\nns ne ew nw se sw - ne sw - ns - ne sw\nne ew sw - ns ne ew sw ne sw ne sw - ns\n- se nw se nw - se nw se nw - ns - ns\nse nw - ns - - ns - ns - se nw se nw\nne sw se nw se sw ne sw ne ew nw - ne sw\n- ns ns se nw ns - ne ew ew sw - se nw\nse nw ne nw - ne ew sw - se nw se nw -\nne sw - se ew sw se nw se nw - ne ew sw\n- ne ew nw - ne nw - ne ew ew ew ew nw"
+    },
+    "58_14x14": {
+      "id": "58_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/058.a.htm",
+      "solution": "14 14\n- se sw se ew ew sw - se ew ew ew sw -\nse nw ne nw - se nw se nw - - se nw -\nne ew sw - se nw se nw - se sw ne ew sw\nse ew nw se nw se nw se ew nw ns - - ns\nne sw - ne ew nw se nw - se nw - se nw\n- ne sw - se ew nw se ew nw se ew nw -\nse ew nw - ns - - ns - se nw - se sw\nns - se sw ne ew sw ne sw ns - se nw ns\nns se nw ns - se nw - ne nw se nw - ns\nne nw - ns - ns - se sw se nw - - ns\n- se ew nw - ns se nw ns ns - se ew nw\nse nw - se sw ne nw - ne nw - ne sw -\nne sw se nw ns - se sw - se sw - ne sw\n- ne nw - ne ew nw ne ew nw ne ew ew nw"
+    },
+    "59_17x17": {
+      "id": "59_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/059.a.htm",
+      "solution": "17 17\n- - se ew sw - se ew sw - se ew sw - se ew sw\nse sw ns - ne sw ns - ne ew nw - ne ew nw - ns\nns ne nw - - ns ne ew sw - - se sw - se ew nw\nns - se ew ew nw - se nw - se nw ns - ns - -\nne sw ne ew sw - se nw - se nw - ne sw ne sw -\n- ns - se nw se nw - se nw - se sw ns - ns -\nse nw - ne ew nw - - ns - se nw ns ne sw ne sw\nns - se sw - se ew sw ne sw ns - ns se nw - ns\nne sw ns ne sw ns - ns - ns ne sw ne nw - se nw\n- ne nw - ns ne sw ne sw ne sw ns - - se nw -\nse sw - - ns - ne sw ne sw ns ne sw - ne ew sw\nns ne ew sw ne sw - ns - ne nw - ne ew sw - ns\nns - se nw - ne sw ne sw - se sw - se nw se nw\nne sw ns - se ew nw - ns - ns ns se nw se nw -\n- ns ne ew nw - - se nw - ns ne nw - ne ew sw\n- ns - se ew sw - ns - se nw - se ew sw - ns\n- ne ew nw - ne ew nw - ne ew ew nw - ne ew nw"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/060.a.htm",
+      "solution": "17 17\n- - - - se ew ew ew ew sw - - - se ew sw -\nse ew ew sw ne sw - - - ne ew sw - ns - ne sw\nne sw - ns - ne ew ew sw - - ne sw ne sw - ns\n- ne sw ne sw - - - ns - se ew nw - ns se nw\nse ew nw se nw se sw - ne sw ne sw - se nw ns -\nns - - ns - ns ne sw - ns - ns - ns - ne sw\nns - - ne ew nw - ne sw ne sw ne sw ne sw - ns\nne ew ew ew sw - - - ns - ns - ns - ns se nw\n- - - - ns se ew sw ne ew nw se nw - ns ns -\nse ew ew ew nw ns - ne sw - - ne sw - ns ne sw\nne sw - - - ne sw - ne sw se ew nw - ns - ns\nse nw - se ew sw ne sw - ns ns - - se nw se nw\nne ew ew nw - ns - ns - ns ns - - ns - ns -\n- se ew ew ew nw se nw - ns ne sw - ns - ne sw\n- ns - - - - ns - se nw - ne ew nw - - ns\n- ns se ew sw se nw se nw - se ew sw - se ew nw\n- ne nw - ne nw - ne ew ew nw - ne ew nw - -"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/061.a.htm",
+      "solution": "10 10\nse sw - se sw - se ew sw -\nns ne sw ns ne sw ne sw ne sw\nns - ne nw - ne ew nw - ns\nne sw - se ew sw - se sw ns\nse nw se nw - ns se nw ns ns\nns se nw se sw ne nw - ne nw\nns ns - ns ne sw - se sw -\nns ne ew nw - ne ew nw ne sw\nne sw - se ew sw - - se nw\n- ne ew nw - ne ew ew nw -"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/062.a.htm",
+      "solution": "10 10\nse sw - se ew ew ew ew ew sw\nns ne ew nw - se ew sw - ns\nne sw - - se nw - ns - ns\nse nw se ew nw - se nw se nw\nns - ns - se ew nw se nw -\nne sw ns - ne sw - ns se sw\n- ns ne sw - ne sw ne nw ns\nse nw - ne ew sw ne sw - ns\nne sw se ew sw ns - ns se nw\n- ne nw - ne nw - ne nw -"
+    },
+    "63_12x12": {
+      "id": "63_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/063.a.htm",
+      "solution": "12 12\n- se sw - se ew sw se ew sw se sw\nse nw ns se nw - ne nw - ne nw ns\nne sw ne nw se ew sw se ew sw - ns\nse nw - se nw - ne nw - ne sw ns\nns - se nw - se sw - se sw ne nw\nne sw ne ew ew nw ne sw ns ne sw -\n- ne sw - se ew sw ne nw - ne sw\nse sw ne sw ns - ne sw - se ew nw\nns ns - ns ne sw - ne sw ne sw -\nns ne ew nw - ne sw - ns - ne sw\nne sw - se sw se nw se nw - - ns\n- ne ew nw ne nw - ne ew ew ew nw"
+    },
+    "64_12x12": {
+      "id": "64_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/064.a.htm",
+      "solution": "12 12\nse ew sw se ew ew ew sw - se ew sw\nns - ns ns - se ew nw se nw - ns\nne sw ne nw se nw - se nw - se nw\n- ns - se nw - se nw se ew nw -\nse nw - ns - se nw - ne ew ew sw\nne sw - ne ew nw se sw - - se nw\nse nw se ew sw se nw ne ew sw ne sw\nns - ne sw ne nw se sw - ns - ns\nne ew sw ne sw - ns ne ew nw - ns\n- se nw - ne sw ne sw - se sw ns\nse nw se sw - ns - ns se nw ns ns\nne ew nw ne ew nw - ne nw - ne nw"
+    },
+    "65_12x12": {
+      "id": "65_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/065.a.htm",
+      "solution": "12 12\nse ew ew sw - se ew sw - se ew sw\nns - se nw se nw - ne sw ns - ns\nne sw ne ew nw se ew sw ne nw - ns\n- ns se ew sw ns - ne sw - se nw\nse nw ns - ne nw se ew nw - ns -\nne sw ne sw - - ns se ew sw ne sw\nse nw - ne sw - ne nw - ne sw ns\nne sw se ew nw se sw se sw - ne nw\n- ns ns - se nw ne nw ns se sw -\nse nw ne ew nw - - - ne nw ne sw\nns - se ew sw se ew sw - se sw ns\nne ew nw - ne nw - ne ew nw ne nw"
+    },
+    "66_14x14": {
+      "id": "66_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/066.a.htm",
+      "solution": "14 14\n- se ew sw - se sw se ew sw - se ew sw\nse nw - ns - ns ne nw - ne ew nw - ns\nns - se nw se nw - se ew sw - - se nw\nne sw ns - ns - se nw - ne sw - ns -\n- ns ne sw ne sw ns se sw - ne sw ne sw\nse nw - ne sw ns ne nw ne sw - ns - ns\nne ew ew sw ne nw - - se nw se nw se nw\n- - se nw - se ew sw ns - ne sw ne sw\nse ew nw - se nw - ne nw - - ns se nw\nns - se ew nw se ew sw - se ew nw ns -\nne sw ne sw se nw - ne sw ne sw - ne sw\n- ns - ne nw se sw - ns - ne sw - ns\nse nw se sw se nw ns se nw se ew nw se nw\nne ew nw ne nw - ne nw - ne ew ew nw -"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/067.a.htm",
+      "solution": "14 14\nse ew sw - se ew ew ew ew ew sw - se sw\nns se nw - ne ew sw - - se nw se nw ns\nns ns se sw - - ns se ew nw - ns - ns\nns ne nw ns se ew nw ns - se ew nw se nw\nne sw - ne nw - - ne sw ne sw - ns -\nse nw - - se ew sw - ns - ns - ne sw\nns se ew sw ns - ne sw ne sw ne ew sw ns\nne nw - ns ne ew sw ne sw ne sw - ns ns\n- se sw ne sw - ns - ns se nw se nw ns\nse nw ne ew nw se nw se nw ns se nw - ns\nne ew sw - se nw - ns - ne nw se ew nw\n- se nw se nw - se nw se sw - ne sw -\nse nw - ns - se nw - ns ne sw - ne sw\nne ew ew nw - ne ew ew nw - ne ew ew nw"
+    },
+    "68_14x14": {
+      "id": "68_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/068.a.htm",
+      "solution": "14 14\n- se ew ew ew sw se ew ew sw - se ew sw\nse nw se ew sw ne nw - se nw se nw se nw\nns se nw - ns - se ew nw - ns - ns -\nne nw se ew nw se nw - se ew nw - ne sw\n- - ns - se nw se sw ne sw - se ew nw\nse sw ns se nw se nw ns - ne sw ne sw -\nns ne nw ns - ne sw ns - se nw - ne sw\nne sw - ne sw - ns ne sw ns - se ew nw\n- ne sw - ne ew nw - ne nw se nw - -\nse ew nw se ew sw - se sw - ne ew ew sw\nns - se nw - ns - ns ne sw - - se nw\nns se nw se ew nw - ne sw ne ew sw ne sw\nns ns - ns - se sw - ns - se nw - ns\nne nw - ne ew nw ne ew nw - ne ew ew nw"
+    },
+    "69_17x17": {
+      "id": "69_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/069.a.htm",
+      "solution": "17 17\n- se sw - se ew sw - - - se sw - se ew sw -\n- ns ne ew nw - ne ew sw - ns ns - ns - ne sw\n- ns - se ew ew sw - ns - ns ns - ns - - ns\nse nw se nw - - ns se nw se nw ns - ns - se nw\nns - ne sw - se nw ns - ns - ns - ne sw ns -\nne sw - ns - ns - ne sw ne sw ne sw - ns ne sw\n- ns - ne sw ne sw - ne ew nw - ns - ns - ns\n- ns - se nw - ne sw se ew sw - ns - ns - ns\n- ns - ne ew ew sw ne nw - ns - ns - ns - ns\n- ne sw - se ew nw - - se nw se nw se nw - ns\n- se nw se nw - - - se nw - ns - ns - se nw\nse nw - ns - se ew sw ne sw - ne ew nw se nw -\nne sw se nw - ns - ns - ne ew ew sw - ne ew sw\n- ns ns - se nw - ne sw - - - ne sw - - ns\nse nw ne ew nw - - - ne ew ew sw - ns - - ns\nne sw - se ew ew ew ew ew sw - ne sw ne ew ew nw\n- ne ew nw - - - - - ne ew ew nw - - - -"
+    },
+    "70_17x17": {
+      "id": "70_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/070.a.htm",
+      "solution": "17 17\nse sw - - - se ew sw - se ew ew sw - - se sw\nns ns - se ew nw - ne sw ne sw - ne sw se nw ns\nns ne ew nw - - - - ns - ne sw - ne nw - ns\nns - - - se ew ew sw ne ew sw ne sw - - se nw\nne sw se ew nw - - ne sw - ns - ne ew sw ns -\n- ns ns - - se sw - ne sw ne sw - - ns ne sw\nse nw ns - - ns ne ew ew nw - ns - - ns - ns\nne ew nw se sw ne ew sw - se sw ne sw - ns - ns\n- - - ns ne sw - ne ew nw ns - ne ew nw se nw\n- - se nw - ne sw - - - ne ew sw - - ns -\nse sw ne ew sw - ne ew ew ew ew ew nw - - ne sw\nns ns - - ne sw se ew sw - - - se ew sw - ns\nns ne sw - - ne nw - ne ew sw - ns - ns - ns\nns - ne ew sw - se ew sw - ns se nw se nw - ns\nne sw - - ne ew nw - ne ew nw ns - ns - se nw\n- ns - - se ew sw - - - se nw se nw se nw -\n- ne ew ew nw - ne ew ew ew nw - ne ew nw - -"
+    },
+    "30_17x17": {
+      "id": "30_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/030.a.htm",
+      "solution": "17 17\n- se ew ew ew ew sw - se ew ew ew ew ew ew ew sw\n- ns se ew ew sw ne ew nw se ew ew ew sw - se nw\nse nw ns - se nw se ew sw ne sw - se nw se nw -\nns se nw se nw se nw - ns - ns - ne sw ne sw -\nne nw se nw se nw se ew nw se nw se sw ne sw ne sw\n- se nw se nw - ne ew sw ne sw ns ns - ne sw ns\nse nw se nw se ew sw se nw - ne nw ne ew sw ne nw\nns se nw - ns - ne nw se ew sw se sw - ne sw -\nne nw se sw ne ew sw - ns - ns ns ne ew sw ne sw\n- - ns ne sw - ns se nw se nw ne sw - ne sw ns\nse sw ne sw ne sw ne nw se nw se ew nw se sw ns ns\nns ne sw ne sw ne sw - ns - ns - se nw ne nw ns\nne sw ne sw ne sw ne sw ne ew nw se nw se sw - ns\n- ne sw ne sw ne sw ne sw - se nw se nw ns - ns\nse sw ne sw ne sw ne sw ne ew nw se nw se nw se nw\nns ne ew nw - ne ew nw se ew sw ne sw ne sw ne sw\nne ew ew ew ew ew ew ew nw - ne ew nw - ne ew nw"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/050.a.htm",
+      "solution": "17 17\n- se ew ew ew ew sw - se ew ew ew ew ew ew ew sw\n- ns se ew ew sw ne ew nw se ew ew ew sw - se nw\nse nw ns - se nw se ew sw ne sw - se nw se nw -\nns se nw se nw se nw - ns - ns - ne sw ne sw -\nne nw se nw se nw se ew nw se nw se sw ne sw ne sw\n- se nw se nw - ne ew sw ne sw ns ns - ne sw ns\nse nw se nw se ew sw se nw - ne nw ne ew sw ne nw\nns se nw - ns - ne nw se ew sw se sw - ne sw -\nne nw se sw ne ew sw - ns - ns ns ne ew sw ne sw\n- - ns ne sw - ns se nw se nw ne sw - ne sw ns\nse sw ne sw ne sw ne nw se nw se ew nw se sw ns ns\nns ne sw ne sw ne sw - ns - ns - se nw ne nw ns\nne sw ne sw ne sw ne sw ne ew nw se nw se sw - ns\n- ne sw ne sw ne sw ne sw - se nw se nw ns - ns\nse sw ne sw ne sw ne sw ne ew nw se nw se nw se nw\nns ne ew nw - ne ew nw se ew sw ne sw ne sw ne sw\nne ew ew ew ew ew ew ew nw - ne ew nw - ne ew nw"
+    }
+  },
+  "info": "",
+  "count": 70
+}

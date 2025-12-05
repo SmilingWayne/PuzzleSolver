@@ -1,0 +1,2640 @@
+{
+  "solutions": {
+    "1_10x10": {
+      "id": "1_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/001.a.htm",
+      "solution": "10 10\n+ - + x x x + - + -\n- + - x + x x + - +\n+ x x + - + - x + -\n- x + - + - + x - +\n+ x - + - + - x + -\n- x x - + - + x - +\n+ - x x - + - x x -\n- + - + x - + - + x\n+ - + - x + - + - x\nx x - + x x + - + -"
+    },
+    "2_8x8": {
+      "id": "2_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/002.a.htm",
+      "solution": "8 8\n+ - x x x - + x\n- + x + x + x x\nx x + - x - x -\n- + - x - + x +\n+ - x x x x x -\n- + x + x x - +\n+ - x - + - + -\n- + x + - + - +"
+    },
+    "3_10x10": {
+      "id": "3_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/003.a.htm",
+      "solution": "10 10\n- + - + - + x + - +\n+ - + - + x x - + -\n- + - + - x - + - +\n+ - + - x - + - + -\n- + - + x + - + - +\n+ - + - + x x x + -\nx x - + - x - + x x\nx x + - x x + - + -\n- + x x x + - + - +\n+ - x - + - + - + -"
+    },
+    "4_10x10": {
+      "id": "4_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/004.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\nx x + - + - + - + -\n+ x - + - + - + - +\n- x + - + - x x + -\nx x x + - + x - x x\n- + x - + - x + - +\n+ - x x - + x x + -\n- + x x + - x x - +\n+ - x + - + - x x x\n- + x - + - + x + -"
+    },
+    "5_12x12": {
+      "id": "5_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/005.a.htm",
+      "solution": "12 12\n+ - + - + - + - x x x +\n- x - + - + - + x - + -\nx x x x + - + x - + - +\nx - + - x + - x + - + -\n- + - + x x x x - + - +\n+ - + - + x + - + - + -\n- + - + x + - + - + x +\n+ - x x x - x - + - x -\nx x + - x + x + - + - +\n- + - + x - + - + - x x\n+ - + x - + - + - + x +\n- + - x + - + - + - x -"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/006.a.htm",
+      "solution": "10 10\n- x + - + - + - + -\n+ x - + - + x x - +\n- + x - + x - + x -\n+ - x x x x + - x +\nx x - + - + - x + -\n+ - x x + - + x - +\n- + - + x + - + x -\n+ - + - x - + - x +\n- + - + - x x x + -\n+ - + - + - + x - +"
+    },
+    "7_12x12": {
+      "id": "7_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/007.a.htm",
+      "solution": "12 12\n- + - + - x x + x x - +\n+ - + - + - + - x x + -\n- + - + - + - x + x - +\n+ - + - + - + x - x + -\n- + - x x x - + x + - +\n+ - + x + - + - x x + -\nx + - + - + - + - x - +\nx x x - x x + - + x x -\n- + x x - x - + - + - x\n+ - + x + x + - + - + x\n- + - x x + - + - + - +\n+ - + - x - + - + - + -"
+    },
+    "8_12x12": {
+      "id": "8_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/008.a.htm",
+      "solution": "12 12\n- + - x x - + - + x x -\n+ - + - x + x x - x - +\nx + - + x x x x x x + -\nx x x x x x - + x + - +\n- + - + - x + - x x x -\n+ - + - + x - + - + x +\n- + - + x x + - x - x -\n+ - + x x + x x x + x +\n- + - x + - + - + x x x\nx x x x - + - x x x + x\n+ - + - + - x x - + - +\n- + - + - x x - + - + -"
+    },
+    "9_6x6": {
+      "id": "9_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/009.a.htm",
+      "solution": "6 6\n+ - + x x x\nx x - x x x\nx x x x + -\nx x - + - x\nx x + x + x\nx x x x - x"
+    },
+    "10_6x6": {
+      "id": "10_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/010.a.htm",
+      "solution": "6 6\n- + x x + x\n+ x - + - x\n- x x x x +\n+ - x - + -\nx x x + - +\nx + - x x -"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/011.a.htm",
+      "solution": "8 8\nx - + x x + - +\nx + - + x - + -\n+ - x x x x x x\n- x x - + - x x\nx x - + x x x -\n- x + x x x - +\n+ x x x + - + x\n- + x + - x x x"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/012.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ x + x - + x x - +\nx x - x + - x - + -\nx - + x - + x + x +\n- + x - + - + - x x\n+ - x + - x x x x x\n- + x x x x + - x x\nx x x + - + - + - +\nx - + - + - x - + -\n- + x x - + x x x +"
+    },
+    "13_12x12": {
+      "id": "13_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/013.a.htm",
+      "solution": "12 12\nx + - + x x + - x x - x\nx x x - x + - + - x + x\nx x - + x - + - + x x x\n+ - + x x + - + - x x -\n- + x x - x x x x x - +\nx - + - + x + x x x + x\nx x x x x x - + - + - x\nx x + x x + x x + - + x\n- + - x x - + - x x - x\n+ - + x x x - + - x x +\n- + - x + - + x + - + -\n+ - x x - x x x x x - +"
+    },
+    "14_8x8": {
+      "id": "14_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/014.a.htm",
+      "solution": "8 8\n- + x x - + - +\nx - + x + - + -\nx x - x - + - +\n+ x + - x x + -\n- x - + x + - +\n+ x + - x - x x\n- x x + - x x +\n+ - x x + x x -"
+    },
+    "15_8x8": {
+      "id": "15_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/015.a.htm",
+      "solution": "8 8\n+ - + - + x x +\n- + - + - x x -\n+ - x x x x - +\n- x x x + - + -\n+ x - + - + - +\nx x + - + - + -\n+ x - + - + - +\n- x + - + - + -"
+    },
+    "16_8x8": {
+      "id": "16_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/016.a.htm",
+      "solution": "8 8\n+ - + - x - x +\n- + - + x + x -\n+ - + - x x - +\n- + - + x x + -\n+ - x x - + - +\n- x x - + - + -\n+ x x + - + x x\nx x + - x x - +"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/017.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\n+ - + - + - + - + -\nx x - + - + - + - +\n+ x + - + - + - + -\n- x x + - + - + - +\n+ x x x x x x - + -\n- x - + - + - x - +\nx - + - + - + x x x\nx + - + - x x - + -\n+ - + - + x x + - +"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/018.a.htm",
+      "solution": "10 10\n+ - + - + x x + - +\n- + - + - x x - + -\n+ - + x x - + x - +\nx x - x - + - x + -\n+ x x x + x x + - +\n- + - + x - + x x -\n+ - + - x + - + x x\n- + - + - x x - + -\n+ - + x x x - + - +\n- + - x + - + - + -"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/019.a.htm",
+      "solution": "10 10\n+ - + - + - x x + -\n- + - + - + - x x +\n+ - + - + - x - + -\nx + - + - + x + - +\nx - + - + x x - + -\n- x - + x - x x - +\n+ x + - x + x - + -\nx x x + x x x + - +\n- + x - + x + - + -\n+ - x x - x - + - +"
+    },
+    "20_12x12": {
+      "id": "20_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/020.a.htm",
+      "solution": "12 12\n- + - + - + x x + - x +\n+ - + - + - + - x + x -\n- + - + x x - + x - x x\n+ - + - + - x x - + - +\n- + - x x x x - + - + -\n+ x + x x + - + - + - +\n- x x - + x + - + - + -\nx x x + - x - + x x x +\n+ - x - + x x x - x x -\n- + x + - + - x + x + x\n+ - + - x - + x - + - x\n- + - + x + - x + - + -"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/021.a.htm",
+      "solution": "8 8\n+ x - x - + - +\n- x + x + - + -\n+ x x - x + - +\n- x x + x - + -\n+ x + - + x - +\n- x - + - x x x\nx x + - + - + -\n- + - + - + - +"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/022.a.htm",
+      "solution": "8 8\n- + - + - + x +\nx - + - + - x -\nx + - + - + - +\n- x + - x x + -\n+ x x x + x - +\n- + - + - x x x\n+ - + - + - + -\nx x - + - + - +"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/023.a.htm",
+      "solution": "8 8\n+ - + - x + - +\n- + - + x - + -\nx x + - + x x x\n- + - x - x x -\n+ - + x + - x +\n- + - + x x + -\n+ - + - + x - +\n- + - + - x + -"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/024.a.htm",
+      "solution": "8 8\n- x x + x + - +\n+ - + - x - x x\nx x - + x x + -\n- x x - + x - +\n+ x - + x x + -\n- x x x x + - +\n+ - + - + - + -\n- + - + - + - +"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/025.a.htm",
+      "solution": "8 8\nx x x x x x + -\n+ x - + x - x +\n- x x x x + x -\n+ - x x + - x +\n- + - + x x x -\n+ - + x - + x x\n- + - x + - x +\n+ - x x - + x -"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/026.a.htm",
+      "solution": "8 8\n- + x - + - + -\n+ - x x x + - +\nx + - + - x + -\nx x x x x x x +\n+ x x x x - x -\n- + - + - + - x\nx - x - + - + x\nx + x + - + x x"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/027.a.htm",
+      "solution": "8 8\n+ x x + - x + -\n- x + - + x x x\nx x - x x x x -\nx - + x - + - +\nx x x x + - + -\n- + x + - + - +\nx x x - + - + -\nx + - + - + - +"
+    },
+    "28_8x8": {
+      "id": "28_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/028.a.htm",
+      "solution": "8 8\n- + - + - + x x\n+ - x x + - x +\n- x - + - + x -\n+ x + - + - x x\n- + - + - + - x\n+ x x x + - + x\n- x x + - x x -\n+ - x - + x x +"
+    },
+    "29_8x8": {
+      "id": "29_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/029.a.htm",
+      "solution": "8 8\n+ - x x - + - +\nx x x - + - + -\nx + - + - + - +\n+ - + - + - x -\n- + - + x + x +\n+ - x - x - + -\n- + x + - x - +\n+ x x - + x x x"
+    },
+    "30_8x8": {
+      "id": "30_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/030.a.htm",
+      "solution": "8 8\n- + - + x x - +\nx x + - + - x x\n+ - x x - + - +\n- + - + x - + -\n+ - + - x + - +\n- + - + x x + -\n+ x x - x + - +\n- + - + x - x x"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/031.a.htm",
+      "solution": "10 10\n+ x x + - x x + - +\n- x + - + x x - + -\n+ x - + - x + x - +\n- x x x x x - x x x\nx - + - + - + - + -\nx x - + - + - + - +\n- x + - + - + - + -\n+ x - + - x x + - +\n- x + - + - x - + -\n+ x x + - + x x x +"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/032.a.htm",
+      "solution": "10 10\n- + - + - x + - + -\n+ - + - + x - x - +\n- + - + x x + x + -\nx x x x x x - + x +\n+ - + - + - + - x -\n- + - x - + - + x +\n+ - + x x x + x x -\n- + - + - x - x x +\n+ - + - + x + - x -\n- + - + - + - x x +"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/033.a.htm",
+      "solution": "10 10\n- + - + - + - x + -\n+ - + - + - + x x +\n- + - + - + - x x -\n+ - + - x - + x - +\nx + - + x x x x x -\nx x + x x - x - x +\n+ x - x x + x + x -\n- x x x x - + x x +\n+ - + - + x x x + -\n- + - + - x - + - +"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/034.a.htm",
+      "solution": "10 10\n- + - + - + - + - x\nx - x - + - + - + x\nx + x + - + - + - +\nx - + - + - + x + -\nx x x x x x x x x +\n- + - + - x x + x -\n+ - + - + - + - x +\n- + - + x x - + x -\n+ - + - x x + - x +\nx x - + - + - + x -"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/035.a.htm",
+      "solution": "10 10\nx x - + - + - + - +\n- + x x + - + - + -\n+ - + x - + - + - +\n- + - x + - + - + -\n+ x x x - + - x x +\n- x + - + - + - + -\nx + x x - + - + - +\nx - + x x - + - + -\nx x - x x x x + x +\n+ - x x - + x x x -"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/036.a.htm",
+      "solution": "10 10\n+ - + x x + - + - +\n- + - + x - + x + x\n+ - + - x + - x - x\n- + - + x - x x x +\n+ - + - x + x x x -\n- + - x x - x + - +\n+ - x x x x x - + -\n- + - x - + - + - +\n+ x x x x x + - x -\nx x + - x x - + x +"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/037.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\n+ - + - + - + - + -\nx x x x x + - + - x\nx + - + - x x x x x\n+ - + - + - + - + -\n- + - x x + - + x x\n+ - + x - x x x x +\n- + - x + x + - x -\n+ - x x x x - + - +\n- + x - + x + - + -"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/038.a.htm",
+      "solution": "10 10\n+ - + - x + - + - +\n- + - + x - + - + -\n+ x x x x + - + - +\n- x + x x x x - + -\nx x - x + - x x - x\nx - + - x x - x + x\nx + - + x x + x - +\n+ - + - + - x x + -\nx x - + x x + x x +\n+ - x x x x - x x -"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/039.a.htm",
+      "solution": "10 10\nx x + - x + - x - +\n+ - x x x - + x + -\n- + x x x + - x - x\n+ - + - x - + x + x\n- + - + - + - + - x\nx - + - + - + - + x\nx + - + - x - + - x\n+ - + - + x + x x x\n- + - x x - x x + x\n+ - + x x + - + - x"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/040.a.htm",
+      "solution": "10 10\n- + - + x x - + - +\n+ - x - + - + - + -\nx x x x x + - + - +\nx + - x x - + - x x\nx x x x x + - + x -\n+ - + x x x x x x +\n- + - x x - + x + -\nx - + x x x x x - +\nx + - x x x - x + -\n+ - + - + - + x - +"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/041.a.htm",
+      "solution": "8 8\n- + x x - + - +\nx - + x + - x x\nx x - x - x x x\n- x + - + - + x\n+ x x + - + - +\n- + x - + x x -\n+ - x + - + - +\n- + x x + - + -"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/042.a.htm",
+      "solution": "8 8\nx x - + x x - +\n- + x x + - + x\n+ - x x - x x x\n- + x - + - + -\n+ - x + - + - +\n- + - x x - + -\n+ x x + - + - +\n- + x x + - + -"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/043.a.htm",
+      "solution": "8 8\n+ - x + - + - +\nx x x - + - + -\n- + - + - + - x\nx x x - + - + x\nx - x + - x x -\nx + x - + x x +\nx x x + - + x -\n+ - + - x x x +"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/044.a.htm",
+      "solution": "8 8\n- + - x x - + -\n+ - + x x + - +\n- x x + - x x -\n+ x x x + - x +\nx x x x - + x x\nx + - x + - + x\n+ - + x - + - +\n- + - x x - x x"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/045.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - x x + - x\n+ - + - + - + x\n- + x x x x x -\n+ - + x - + x +\n- + - x x - + -\n+ - + - x + - +\n- + x x + - + -"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/046.a.htm",
+      "solution": "8 8\n+ x - + - + - +\n- x + - + - + -\n+ - x x - + - +\n- + x + x x x x\n+ - x - + - + -\nx x - + - + - +\n+ - + - + x + -\n- + - + - x - +"
+    },
+    "47_8x8": {
+      "id": "47_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/047.a.htm",
+      "solution": "8 8\nx x - + - + - +\nx x x - + - + -\n+ - x + - + x x\n- + - x + - + -\n+ - + x - + - +\n- + - + x x + -\n+ - + - + x - +\n- + - + - x + -"
+    },
+    "48_8x8": {
+      "id": "48_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/048.a.htm",
+      "solution": "8 8\nx x x x x + - +\n- + - + x - + -\n+ - + x - + - +\n- + - x + - + -\n+ - x x - + - +\n- + x x x x + x\n+ - + - + x - x\n- + - + - x + -"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/049.a.htm",
+      "solution": "8 8\nx x x - + - + -\n- + x + - + - +\n+ - x x x - + -\n- + x + - + - +\nx x - x x - + -\n+ - + x x + x x\n- + - + - x x +\nx x + - + x x -"
+    },
+    "50_8x8": {
+      "id": "50_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/050.a.htm",
+      "solution": "8 8\nx + - x + - + x\nx x x x - + - x\n+ - + - + - + -\n- + - + x + - +\n+ - x - x - x x\n- x x + - + x -\n+ x x x + - x +\nx x - + - + x x"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/051.a.htm",
+      "solution": "10 10\n+ - + - + - x x + -\nx x - + x + - + - +\n- x + - x x x x x -\n+ x x x + - + x x x\nx x - + x x - x - x\n- x x x x - + x + -\n+ - + - x + - + - +\nx x x + x x x x + -\n- x x x x x - + - +\n+ x + - + - + - + -"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/052.a.htm",
+      "solution": "10 10\n- x x - + - + - + -\n+ x x x x x x x x +\n- x x + - + - x x x\n+ x + - x - x x + x\nx x - + x + - + - +\nx + x - + - + - + -\n+ - x + - + - + - +\n- x x - + - + - + -\nx x - + - + - + - +\nx x + - + - + - + -"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/053.a.htm",
+      "solution": "10 10\n- + - + x + - + - +\n+ - + - x - + - x x\nx + - + - x x x x x\nx - + - x x - x - +\n- + - + x x + - + -\n+ - + x x x x + - +\n- + x x - + x x + -\n+ x x + x x x x x x\n- x x - x x - + - +\n+ - x x x x + - x x"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/054.a.htm",
+      "solution": "10 10\n+ - + - + x - + - +\nx x - x x x + x x -\n+ - + x - + - + - +\n- + - x x - + x x -\n+ - + - x + - x x +\n- + - x + - + x x x\n+ - + x - x x + - x\nx + - x + - + - x x\nx x x x - + x x x x\n+ - + - x x - + - +"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/055.a.htm",
+      "solution": "10 10\n+ - x x - x + - + -\n- + - x + x - + - +\n+ - + x x x + - + -\n- + - + x + - + - +\nx - + - x - + - + -\nx + - + x x x x x +\n+ - + x x + - + x -\n- + - x + - + - x x\n+ - + x - + - x + x\n- + - x x - + x - x"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/056.a.htm",
+      "solution": "10 10\n+ x x - + - + - + -\n- + - + - + - + - +\nx x x x x - x x + x\n+ - + - x + - + - x\n- + - + - x x - + -\n+ - + - + x + x x +\nx + - + - x - + x x\nx x x - + - + - x -\nx x + x - + - + x +\nx x - x + - + - + -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/057.a.htm",
+      "solution": "10 10\n+ - + x + - + - + -\n- x x x - + - + - +\nx + - + x x + - + -\nx - x x x x - + - x\n- + - + x x + - + x\n+ - + x x + - + - +\n- x x x x - x x x x\n+ - + - x x x - + x\n- + - x x x x + - +\n+ - + x - + x - + -"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/058.a.htm",
+      "solution": "10 10\nx x x + - x x - + -\n- + x x x + - + x +\n+ - + - + - x - x -\n- + - + - + x + x x\n+ - + - + x + - x x\n- + - + - x x x x -\n+ - + - + - x + x +\n- + - + - + x - + -\n+ x x - + - + x x +\n- + - + - + - x x -"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/059.a.htm",
+      "solution": "10 10\n+ - + - + x + - + -\n- + - + x x - + - +\nx - + - x - + - + -\nx x - + - + - + - +\n- x + x x - + - + x\n+ x x - x x x x x x\n- + - + - + x + - +\n+ - + - x x + - + -\nx x - + - + - + - +\nx x + x x - + - + -"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/060.a.htm",
+      "solution": "10 10\n- + - + - x x x x +\n+ - + - + - + - + -\n- + - + - + - + - x\n+ - + x + - + - + x\n- + - x - + - + - +\nx x + - + - + x + -\n- + - + - + - x - +\n+ - x x + - + - x x\n- + x - x x - + - +\n+ - x + x x + - + -"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/061.a.htm",
+      "solution": "8 8\n+ - + - + x x x\n- + - x x x x -\n+ - x x - + x +\n- + x x + - + -\n+ - x x - + - +\n- + - x + - + -\n+ x x x x + - +\nx x + - x - + -"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/062.a.htm",
+      "solution": "8 8\nx x + x x - + -\nx x - + - + - +\n- x + - + - + -\n+ x - + - + - +\nx x + - x x x x\n- + - + x x + -\n+ - + - x x - +\n- + x x + - + -"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/063.a.htm",
+      "solution": "8 8\n- + - x x + x x\n+ - + x x - + -\n- + x + - + - +\n+ - x - + - + -\n- + - + - x x +\nx x + - + - x -\n+ x x + - + x +\n- + - x x - + -"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/064.a.htm",
+      "solution": "8 8\n- x x - + - + -\n+ x x + - + - +\n- + x x + - x -\n+ - + - x + x x\n- x x x x x x x\n+ x + - + - + -\nx x - + - + - +\n+ - x x + - + -"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/065.a.htm",
+      "solution": "8 8\nx x - + - + - +\nx - + - + - + -\nx x x x x + x +\n- + - + x x x -\n+ - x x x x - +\nx x x x - x x -\n- + - x + x x +\n+ - + x - + x x"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/066.a.htm",
+      "solution": "10 10\n+ - + - + - x x - +\n- + - + - x + - + -\n+ - + - + x x x - +\n- + - + - x x - + -\n+ - + - x + x + x x\n- + - + x - x x x +\n+ x x - + x x x x -\n- + - + x - + - + x\nx x + x x + - x x x\n- + - x + - + - + -"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/067.a.htm",
+      "solution": "10 10\n- + - + - + - + x x\n+ - + x x - + - + -\n- + - + - + - + x x\n+ - + - + x + - + -\nx x - + x x x x x x\n- x x - x + - + - x\n+ x x + x x x x x x\nx x + - + - x - + -\n- + - + - x x + x x\n+ - + - x x + - + -"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/068.a.htm",
+      "solution": "10 10\n- + - + x - + - + -\n+ - + - x x x + - +\n- + - + - x x x x x\n+ - + - + - + x + -\n- + x x x x - + - +\nx - x + - x + - + -\nx + x - + x - + - +\n- x x + - x + - + -\n+ x - x x x - x x +\nx x + x x x + - + -"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/069.a.htm",
+      "solution": "10 10\n+ - + - x x - + x x\n- + x x + x + - x x\nx x x x - x - + x -\nx x x x + - + - x +\n- + - + - x x x x -\n+ - + - + x - + - +\nx + - + - x + - + -\nx - x x + x - + x +\n- + - + - x x x x x\n+ - + - + - + - + x"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/070.a.htm",
+      "solution": "10 10\n+ - x x - + - + - +\n- + x x x - + - + -\n+ - + - x + - + - +\nx x x x + - + - x x\n- + - + - + - x + -\n+ - + - + x + x - +\nx x x x - x - x x -\n- x x x + - + x x +\n+ x - + - x - + x x\nx x + - + x + - x x"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/071.a.htm",
+      "solution": "8 8\nx x x x - + - +\nx - + - + - + -\nx + - + - + - +\n- x x x x x + -\n+ x x x + x x x\n- + - + - + - x\nx x + - + - + -\n+ - x x - + - +"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/072.a.htm",
+      "solution": "8 8\n- + - + - + - x\n+ x x x + x x x\nx x + x - x x -\nx + - x + x x +\n+ - x x - x x -\n- + - x x + - +\n+ - + - + - x x\n- + - + x x + -"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/073.a.htm",
+      "solution": "8 8\n+ x + - x + x x\n- x - + x - x +\nx - + - x x x -\nx x x + x + - +\n- + x x x - + -\n+ - + - + x - +\n- + x + - x x x\n+ - x - + - + -"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/074.a.htm",
+      "solution": "8 8\nx + - + - + - +\nx - + - + x x -\n+ x - + - + - +\n- x + x x - + -\nx x x x + x x x\n- + - + - + - x\nx x + - + - + -\n+ - x x - + - +"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/075.a.htm",
+      "solution": "8 8\n+ - x + - + - +\n- + x - + - + -\n+ - x + - x - x\nx x x x x x + x\nx x x + - + x x\n+ - x - x x - +\n- + - + x x x -\n+ - + - x + - +"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/076.a.htm",
+      "solution": "10 10\n- + - + - + - + - x\n+ - + - + - + - x x\nx x x + - + - x x -\n- + x x x - + x x +\n+ x - + - + x x x x\n- x x - + - + - + x\n+ - x + x + - + x +\n- x x - x x x - x -\n+ x x + - + x x x x\n- + x x + - x + - x"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/077.a.htm",
+      "solution": "10 10\n+ - x x + - + - + -\n- + - + x x x x - +\n+ - x - x + - x + -\n- + x + x x x x - +\nx - + x x x x - + -\nx + - + - + - + - +\nx - + - + - + - + -\nx + - + - + - + - +\nx x x x x x x - x x\nx - + x + - x + - +"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/078.a.htm",
+      "solution": "10 10\n- + - + - + x - + -\n+ x + - + - x + x x\nx x - + - x x - + x\nx + x x + - x x x x\n+ - + - x + - + x -\n- + - + x - + - x +\nx x + - x x x x x -\n- + - + - + - + - +\n+ - + - + x x - + x\n- + - + - x x + - x"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/079.a.htm",
+      "solution": "10 10\n- + - x x x x + x -\n+ x + x x x x - x +\n- x x x x x - + x -\nx + - x x + x x x +\nx - + - + - x - + x\n- + - + x x x + - x\nx - + - + - + - + -\nx x x + x x x + - +\n- + - x x + - x x -\n+ - + x + - x x - +"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/080.a.htm",
+      "solution": "10 10\nx x - + x x x + - +\nx - + x x - x - + -\nx + - x - + x + - +\n+ - + - + - + x x -\nx x x x x x x x x x\n- + x x x x x + - x\nx - + - + - + - + -\nx + - + - + x x x +\nx x x - + - x + x x\n+ - x + - x x - + -"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/081.a.htm",
+      "solution": "10 10\n- + - + - + - + - x\n+ - + - x x + - + x\n- + - + - x - + - x\n+ - + - + x + - x x\nx + - + - x x x x -\nx - + - + x x + - +\n- + - + x x x x x -\n+ - + x - x x + - +\n- + - x + x x x x -\n+ x x + - x + - x +"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/082.a.htm",
+      "solution": "10 10\n- + - x x + x - + x\nx - + - x - x + - x\nx + x + x x + - + -\nx x x x x x x x x x\n+ - + - + - x + - x\n- + x + x x + - + -\n+ - x - + x x + - +\nx x - + - x x - + -\n+ - + - + - x + - +\n- + - + - + x - + -"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/083.a.htm",
+      "solution": "10 10\n+ - + - + - x + x -\n- + - + - + x - x +\nx x x x + x - + x -\nx x x x - x x x x +\nx + - x x - x - + -\nx - + x x + x + x x\n- + x x + - x x x x\nx x + - x x + - + -\n- + - + x x - + - +\n+ - + - + - + - + -"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/084.a.htm",
+      "solution": "10 10\nx - x - + - x x - +\nx + x + - + - x x -\n+ - + - + - + x x +\n- + - + - + - + - x\n+ - + - + - + - + x\nx x x + - x x x x -\nx - + - + x x + - +\nx x - + x x + - + -\n- x x - + - x + - +\n+ x x + - + x - + -"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/085.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + - + - +\n- + x x + - + x x x\n+ - x x x x - x - +\n- + - + - + x x + -\nx x x x x x + x x +\n+ - + x - + - x x -\n- + - x + - x x x +\nx - x + - + - + x -\nx + x - + - x x - +"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/086.a.htm",
+      "solution": "10 10\nx x + x x + x x x +\n- + - + x - x x x -\n+ - x - x + - + - +\nx x x + - x x - + -\n- + - x + - x x - +\n+ - + x x x x x + -\n- + x + - + - + - +\n+ - x - + - + - + -\n- + - + - + - + - +\n+ - + - x x + - + -"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/087.a.htm",
+      "solution": "10 10\nx - + - + - + - + -\nx x - + x + - + - +\n- x x x x x x - + -\n+ - + x x + - + - +\n- + - + x - + - + -\n+ x + - x x x + - +\n- x - x - x x x + -\n+ - + x + x - + - +\n- + - + x x + - + -\n+ - + - + - x x - +"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/088.a.htm",
+      "solution": "10 10\n+ x - + - + x + - +\n- x + - + x x - + x\nx x - + - x x x - x\n+ - x - x + - + x x\n- + x + x - + - x x\n+ x x - x + - x + -\n- x - + x - + x x x\n+ x + x - + - + - +\n- + - x + - + - + -\n+ - x x - + - + - +"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/089.a.htm",
+      "solution": "10 10\n+ - + - x x + - x +\n- + - + - + - x x -\n+ - + - + - + x - +\nx x - + x + x x + -\n+ - + x x - + - x x\n- + - x - + - + x -\n+ - + x x x x x x +\n- x - x x - + x + -\n+ x + x - + - + - +\n- + - x + - + - + -"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/090.a.htm",
+      "solution": "10 10\n- + - + x x - + x x\n+ - + - + - + x + x\n- + - + - + - x - x\n+ - x - + - + - + x\n- x x x x + - + - x\n+ x - + x x + - x x\nx x + - + - x x x x\n- + - + - + - + - x\n+ - x x + - + - + x\n- + - + - + - + - +"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/091.a.htm",
+      "solution": "10 10\nx + - + - x x + - x\nx - + x + x + - x x\nx x - x - x x x x -\n+ - + x x + x x - +\n- + - x + - x x + -\nx x + x - + - + x +\nx x x x + - + - x -\n- + - + - + - + - +\nx - + - + - x x x -\nx + - + - + - + x +"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/092.a.htm",
+      "solution": "10 10\n- + x x + - + x x x\n+ - x x - x x - + x\n- + - + x - x x - +\nx x + x x + x x x x\nx + - x + - + - + -\nx - + x - + - + x x\n- + - x + - + - x +\nx x x x - + - + x -\n+ x x - + - + - + x\n- + - + - + - + - x"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/093.a.htm",
+      "solution": "10 10\n+ - + - + - + x x -\n- + - + - + - + - +\nx x + - + - + - + -\n+ x x + - + - + - +\n- x x - + - x x + -\n+ - x x x x x x - +\n- + x x - + - + x x\n+ - + - + - + - + -\n- + - + - + - + - +\n+ - x x x x + x x -"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/094.a.htm",
+      "solution": "10 10\n+ - + - x x x x + -\n- + x x + - x x - +\n+ - x + - x + - + -\n- + x - + x - + - +\n+ - x + - x + - + -\n- + x - + x x x - +\n+ x x + - + - x + -\n- x x - + - + x - +\n+ - x + - + - + x x\n- + x - + - + - + -"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/095.a.htm",
+      "solution": "10 10\nx + x x x x - + x +\nx - + - + - + - x -\n- + - x - + - + - +\n+ - + x x - + - + -\n- + x x x x x x x +\n+ - x + - x x + x x\n- + x - + - + - + -\nx x - + - + - + - +\n+ - + - + - + - + -\n- + - x x + - + - +"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/096.a.htm",
+      "solution": "10 10\n- + x x + x x + x x\nx x - + - x x - + -\nx - + - + - x x - +\nx + - + - + x x x x\n+ - + - + - x x + -\n- + - + - + x + - +\nx x x x x x x - + -\nx + x - + x - + x x\n+ - x + - x x x + -\n- x x - + x - + - +"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/097.a.htm",
+      "solution": "10 10\n- + - + x x - + - +\n+ - + - + - + - + -\n- + - + - x - + - +\nx x + - + x + - + -\n+ x x + - x - + - +\n- x x x x x x x + -\n+ x x x + - + - x x\n- x - + - x x x + -\n+ - + - + x x x - +\n- + - + x x + - + -"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/098.a.htm",
+      "solution": "10 10\n- + x x + - + - + -\n+ - + x x + - + - +\n- + - x x x x x x -\n+ - + - + - x + - +\n- + - x x + x - + -\n+ - x x x x x + - x\n- + x - + - + - + x\n+ - + x x x x x x -\n- + - x - x x + - +\nx x + - + x x x + -"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/099.a.htm",
+      "solution": "10 10\nx x - + x x + x x -\n+ - + - x x - x x +\n- + - + x - + x x x\n+ - x - x + x x + -\nx + x x x - x x x +\nx - + x x x + - x -\n+ x x x x + - + x +\n- x x + x - + - + -\nx x x - x x x x - +\nx - + x x - + - + -"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/100.a.htm",
+      "solution": "10 10\n+ - + - + - x x - +\nx x - + - x + x x -\n+ - + - x x - + - +\n- + - + x x + - x x\n+ - + - + x - + - +\n- + - x x x + - + -\n+ - + x + x x + - +\n- + - + - x x - + -\n+ - x x x x + x x +\n- + x - + x - x x -"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/101.a.htm",
+      "solution": "8 8\n+ - x - x + - +\n- + x + x - + -\n+ - + - x x x x\nx x - + - + x +\n- x + - + - x -\n+ x - x x x x +\n- x + - + - + -\n+ x - + - + - +"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/102.a.htm",
+      "solution": "8 8\n+ - + x x - + x\nx x - + - + - x\n+ - + - x x + -\nx + - x + - x x\nx x x x x x x -\n+ - + - x + - +\n- + - + x - + -\n+ - + - x + - +"
+    },
+    "103_8x8": {
+      "id": "103_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/103.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - x - + - +\nx x + x + - + -\n+ x x - x x x +\n- + - + - + x -\n+ x x x x x - +\n- x - x + - + -\n+ - + x - + - +"
+    },
+    "104_8x8": {
+      "id": "104_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/104.a.htm",
+      "solution": "8 8\n+ - + - x x + -\nx x - + - x - +\n- x + - + x x -\n+ x - + - x x +\n- x + x x x + -\n+ x x x x x - +\n- + x + - x + -\nx x + - x x - +"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/105.a.htm",
+      "solution": "8 8\n- + - + - + - x\n+ - + - + - x x\nx + x x x + x x\nx x x x x - + x\n+ x + - x x - +\n- + - x + - + -\n+ - x x - + - +\n- + x - + - + -"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/106.a.htm",
+      "solution": "10 10\n+ - + - + - x x - +\n- x x + - x + - + -\n+ - + - + x - + - +\nx x x x x x x x + -\n- + - + x x + x - +\n+ - + - + x - x + -\nx x - + - x x x - +\nx x + - + - + - + -\n+ x - + - x x + - +\n- x + - + - + - x x"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/107.a.htm",
+      "solution": "10 10\n- x - + x + - + - +\n+ x + - x - + - + -\n- + x + x x - + - +\n+ x x - + - + - + -\n- x - + - + - x - +\n+ x + - + - x x + -\n- x - + x + x - x +\n+ - + - x x x + x -\n- + x + x - + - x +\n+ - x - x + - + x -"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/108.a.htm",
+      "solution": "10 10\n+ - x x - + - + x x\nx x + - + - + x x x\n- + - + - + - x + -\n+ - + - + - + x x +\n- + - x - + - x x -\n+ - + x + - + - + x\nx + - + - x - + - x\nx x x - + x + - x x\n- + - + - + - + - x\n+ - + - + - + - + x"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/109.a.htm",
+      "solution": "10 10\n- + - + - + x - + -\n+ - + x x x x + x +\nx + - x x x x x x -\nx - x x - + - + - +\n- + x x + - + - + -\n+ - + - x x - + - +\n- + - + - x x - + -\nx x + - + x - + - +\n+ x x + - x + - + -\n- x x x x + - + - +"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/110.a.htm",
+      "solution": "10 10\n- + - + x - + x - +\n+ - + - x + - x + -\nx x - + x - + - x +\nx x x x x + - x x -\n+ - + - x - + x - +\nx x - + x + x x + -\n+ - + - x x - x x x\n- + - + x x + - + x\n+ - + - + x x x x -\n- + - + - + - + - +"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/111.a.htm",
+      "solution": "8 8\n+ - x + - + - +\n- x x - + - + -\n+ x - + - + - +\nx x + - + - + -\n+ x x x x x - +\n- x x x - x + -\n+ - + x + x x x\n- + - x - + - +"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/112.a.htm",
+      "solution": "8 8\n- x - + x x + -\n+ x + - + - x +\n- x x + - + x -\n+ - + - + x - +\nx + - + - x + -\nx - + - x x - +\n+ x - + x x x x\n- x + - + - + -"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/113.a.htm",
+      "solution": "8 8\n+ - + - + - + -\nx + - + - + - x\nx x x x x x x x\n+ - x x x - + -\nx x x - x + - +\nx + - + x - + -\n- x + - x + - +\n+ x x x + - x x"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/114.a.htm",
+      "solution": "8 8\n+ - x - + - + -\n- + x + - + - +\n+ - x x + - x x\nx x + - x + - +\n- + - + x - + -\n+ - + x - + - x\nx x - x x - + x\n+ - + - x + - +"
+    },
+    "115_8x8": {
+      "id": "115_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/115.a.htm",
+      "solution": "8 8\n+ - x x x + - +\n- x x - + - + -\n+ x x x x + - +\n- + - + x - + -\n+ - x x - + - +\n- + - + x x x -\n+ x x - + - x +\n- + - + - + x x"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/116.a.htm",
+      "solution": "10 10\nx x + - + - + - + -\n- + - + - + - + - +\nx - + - + x x - x -\nx x x x x x - + x +\n- + - + - x + - + -\n+ - + x x + - + x x\n- + x x + - + - x +\n+ - x x - + - + x -\n- + - + x - + - x x\n+ x x - x + - + x x"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/117.a.htm",
+      "solution": "10 10\nx - + - + - x x x -\nx + - + - + - + x +\n+ - + - + - + - + -\n- + - + - x - + - +\n+ - + - x x + - x x\nx x - + x x - + x -\n+ - + - + x + x x +\n- + - x x x - x x x\n+ - + x x x x + - +\n- + x x + - x - + -"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/118.a.htm",
+      "solution": "10 10\n+ - + x - + - + - +\n- + - x x x x x + -\n+ - + x - x x x x +\n- x x x + x - + x -\n+ - x x - x x - + x\nx x - x + x x + - x\n+ - + x x - + - + -\n- + - x x + - + - +\n+ - + x + - + - + -\n- + - + - x x + - +"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/119.a.htm",
+      "solution": "10 10\n+ - + x x - + x x -\n- x - + - + - + - +\nx x x x + - + x x x\nx - x x - + - x + -\n- + - x + - x + - x\n+ - + x x + x x x x\n- + - + x - + - + x\n+ - + x x + - + - x\n- + - x + - + x x +\n+ - + x - + - x x -"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/120.a.htm",
+      "solution": "10 10\nx - + - x x + - + -\nx + - + - + - + - +\n- x x - + - + - + x\n+ x x + x + - + - x\nx x + - x x x - + -\n- + x + - x + x - +\nx x x x x x - x x x\n+ - + - + - x x - +\n- + - + x + - x + -\n+ - + - x - + x - +"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/121.a.htm",
+      "solution": "8 8\n- + - + - + x -\nx x x x x x x +\n- x x - + - + -\n+ - + x x x - +\nx + - x - x + -\nx - + - + x - +\n- + - + x x + -\n+ - + x x + - +"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/122.a.htm",
+      "solution": "8 8\n+ - + - + x - +\n- + - + - x + -\nx x + x x x - +\n- + - x x x + -\n+ - + - + x - +\n- + - + - x x x\n+ x x x + - x x\n- x - + - + - +"
+    },
+    "123_8x8": {
+      "id": "123_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/123.a.htm",
+      "solution": "8 8\n- + - + - + - x\n+ - + - + - x x\n- + - + - + x -\n+ - + - + x - +\nx + - + - x + -\nx x x x x x x +\n+ x x - + - x x\n- x x + - + - +"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/124.a.htm",
+      "solution": "8 8\n- x - x - x + -\n+ x + x + x - +\n- + - + - + x -\nx x + - + - x +\nx x - + - + x x\n- + x x x x - +\nx - + - + - + -\nx + - + - + - +"
+    },
+    "125_8x8": {
+      "id": "125_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/125.a.htm",
+      "solution": "8 8\n+ - + - + x x x\n- + - + - x x x\n+ - + - + x - +\n- + - + - x x x\nx x + - x x - +\n+ - x x - + x x\n- + x - + - + -\n+ - x + - + - +"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/126.a.htm",
+      "solution": "10 10\n- + - + - + - + - x\n+ - + - + - + - + x\n- + x + - + - + - +\nx x x x x x x x x -\n+ - + - + - + - x x\nx x x + - + - + - +\n- + x - + - + - + -\nx x x x - + - + x x\nx + x x + - + x x x\nx - + - x x - x + -"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/127.a.htm",
+      "solution": "10 10\n+ - x x + - + - x x\n- + - + - + - x + -\n+ - + - + x x x - +\n- + - + - + x x + -\nx x x x x x x x x x\n+ - + - + - x - + x\n- + - + x + - + - +\n+ x + - x - + - + -\n- x - + x + - + - +\n+ - + - x - + - + -"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/128.a.htm",
+      "solution": "10 10\n+ - + - + - + - + x\nx x - + - + - + x x\n+ x x - + x x - x -\n- + - + - + - + x +\nx - + - + x x x x x\nx + - + - x x - + x\n+ - + - + - x + - +\n- x - + - x + - + -\n+ x + - + x - x - +\n- + - + - x x x + -"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/129.a.htm",
+      "solution": "10 10\n- + - + x x x x - +\n+ - + - x x x x x x\n- + x x + - + - + -\n+ - + x - x x + - +\nx x - x x x - x + -\n+ - + - + - + x - +\n- + - + - x x - + -\nx - + - + x x + x +\nx + x + - x + - x -\n+ - x - + x - + - +"
+    },
+    "130_10x10": {
+      "id": "130_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/130.a.htm",
+      "solution": "10 10\nx x x - + - x x + -\n- + x + - + - + - +\n+ - x x + - + - + -\n- + - + - + - x x x\n+ - + - + - + x - x\n- + - + - + - x + x\nx x x x x x + x x x\nx x + - + x - + - +\n- x - x x - + - + -\n+ - + x x + - + - +"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/131.a.htm",
+      "solution": "8 8\n+ - + x - + - +\n- + - x x - + -\nx x + - x + - +\n+ - x + - x + -\n- + x - + x - +\n+ - x x x x + -\n- + x - + x x x\n+ - x + - + - x"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/132.a.htm",
+      "solution": "8 8\n- + - + x + - +\n+ - + - x - x x\n- + - + - x x -\n+ - + - + - x +\n- + - + - + x -\n+ x x - + x x +\nx - + x x x x x\nx + - + - + - x"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/133.a.htm",
+      "solution": "8 8\n+ - x x x + - +\nx x x - + - + -\n+ - x + x x - x\nx x x x x + x x\n- + - + x - x -\n+ - x x x + - +\n- x x - + - + -\n+ - + x x + - +"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/134.a.htm",
+      "solution": "8 8\n+ - x x - + - x\n- + - x + - + x\n+ - + x - + - +\n- + x x + - + -\n+ - x x - + - +\n- + - x x x x x\nx x + x x x + -\n+ - x x - + - +"
+    },
+    "135_8x8": {
+      "id": "135_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/135.a.htm",
+      "solution": "8 8\n+ x - + x x + -\n- x x x x + - +\n+ - x - + x x -\n- + - + x x + x\n+ x x - x + - x\nx x x x x - + -\nx + - x x x - x\n+ - + - + - + x"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/136.a.htm",
+      "solution": "10 10\n- x x - + x x + x x\n+ x - + x + x - + -\nx x x x x - x x x x\nx - + - + x x x x x\nx x - + x x x - + -\n- x x x - + x + - +\n+ - + x + - + - + -\n- + - + - x x + - +\n+ - + - x + x - + x\n- + - + x - x + - x"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/137.a.htm",
+      "solution": "10 10\n+ - + - + - x - + -\nx x - + x x x + x +\n- x x x x x - x x -\n+ - + x + - + x + x\n- + - + - + - + - x\nx x + - + - + - + -\n+ x - + - x x + - +\n- x + - + - + x x -\n+ x - + x + - x - +\n- x + - x - + x + -"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/138.a.htm",
+      "solution": "10 10\n+ - x x x x x - x +\n- x x - + - x + x -\n+ - x x - + x x - +\n- + - x + - + - + -\n+ - + x x x x x - +\n- + - + - + x x + -\n+ x + - + - x + - +\n- x - + - + x - + -\n+ - + - + x x + - +\nx x - + x x + - x x"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/139.a.htm",
+      "solution": "10 10\n+ - + - x - + - + -\nx x - + x + - + - +\n+ - + - + - x x + -\n- + - x x x - + - +\n+ - + x - x + - + -\nx x x x + x - + x x\n- + - + - x + - x x\n+ x x - + x x x + -\n- + - x x + x x - +\n+ - + - + - + - + -"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/140.a.htm",
+      "solution": "10 10\n+ - + - x + - + x +\n- + - + x x x - x -\n+ - + - + x x + - +\nx x - + - x x - + -\n- x x x x - x x x x\n+ x x + x + - + - +\n- + x - x x + - + -\nx x x + - x x x - +\n+ - + - + x x x x x\n- + - + - x + - x x"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/141.a.htm",
+      "solution": "8 8\n+ - x + x - + -\n- + x - x + - x\n+ - + x x x + x\n- x x x - + - +\n+ - x - + - + -\n- x x + - + - +\n+ x - x x x x x\nx x + - + - + x"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/142.a.htm",
+      "solution": "8 8\nx x x x - x x -\n- + x x + x x +\nx x - x x x + -\nx x + x - + - +\n- + x x + - + -\n+ - x x - + x x\n- + - x x x x x\n+ - + - + x + -"
+    },
+    "143_8x8": {
+      "id": "143_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/143.a.htm",
+      "solution": "8 8\n- + - + - x + -\n+ - x - + x - +\nx x x + - + x -\n- + - x x x x +\n+ - + x + x x x\nx x x x - x x x\nx x x x x + - +\n+ - x + - x x -"
+    },
+    "144_8x8": {
+      "id": "144_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/144.a.htm",
+      "solution": "8 8\n+ - + - + x x +\n- x - + - x x -\nx x x x + x x +\nx - + x x - + -\n- + - x + x - +\n+ - + x - x x x\n- + x x + - + -\n+ - x x x x - +"
+    },
+    "145_8x8": {
+      "id": "145_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/145.a.htm",
+      "solution": "8 8\n+ - + x - + - +\n- + - x + - + -\nx x x x - + - +\n+ x + - + - + -\n- x x x x x x x\n+ - x + - + - x\n- x + - + - + x\n+ x - + - + - x"
+    },
+    "146_10x10": {
+      "id": "146_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/146.a.htm",
+      "solution": "10 10\n- + - + x x + - + -\n+ - + - + x - + - +\n- + - + - x + - + -\nx x x x x x x + x x\n+ x x + - + x - x +\n- x x - + - x x x -\n+ - x x - + - + x x\n- + - + x x x x x x\n+ x + - + - + - + -\n- x - + - + - x x +"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/147.a.htm",
+      "solution": "10 10\n- + x x + - + - + -\n+ x - + - + - x x +\n- x + - + - + x x -\n+ - x + - + - + - +\n- + x - + - + x x -\n+ - + x x x x x x x\n- + - + - + - + - x\n+ - + - + - + x x -\nx x x + - + - x x +\n- + x - + - + - + -"
+    },
+    "148_10x10": {
+      "id": "148_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/148.a.htm",
+      "solution": "10 10\n- + x x + - + - x x\nx x + x x x x x + x\n- + - + - + - x - x\nx x x x + - + x x x\nx - + x - x x x + -\nx + - x + - x + - +\nx - + x - + x - + -\n- + - x + - + x - +\nx x + x x + - x + -\n- + x x x - x x - +"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/149.a.htm",
+      "solution": "10 10\n+ - x x - + - + - +\nx x x x x x x x + -\n+ - x - + - + x - +\n- + - + - + x x + -\n+ - + - x x - + - +\n- x x + - + x x + -\nx + - x x x x + - +\nx - x x x x x - x x\n- + x + - + x x x -\n+ - + - + - x + - +"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/150.a.htm",
+      "solution": "10 10\nx x x - + - + - x +\n- + x + - + - + x -\n+ - + - + - + - x +\nx x x x x x x x x -\nx - + x - x - + - x\n- + x x + - + - + x\n+ - x + - + - + - +\n- + - x + - + x + -\n+ - + x - + - x - +\n- + x x + - + - + -"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/151.a.htm",
+      "solution": "8 8\n- + - + x - + -\nx x x x x + - +\nx - + x x x x x\nx + - + x x + -\n+ - x x x + - +\n- + x - + - + -\n+ - x x - + - +\n- + - x + - + -"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/152.a.htm",
+      "solution": "8 8\n+ - + - x + x +\n- + - + x - x -\n+ - x x x x - +\n- + - + x x + -\nx - + x - + - +\nx x - x + - + -\n+ x + x x x - +\n- + - + - x + -"
+    },
+    "153_8x8": {
+      "id": "153_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/153.a.htm",
+      "solution": "8 8\n+ - + - + - x -\n- + - + - + x +\n+ - x x x x + x\nx x x - + x - x\n- + - + x x x x\n+ - + - + - + -\n- + - + x x x x\n+ - x x - + x x"
+    },
+    "154_8x8": {
+      "id": "154_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/154.a.htm",
+      "solution": "8 8\n- + - + - + x x\nx x + - x - + -\n+ x x x x + - +\n- + - x x - + -\n+ - + - x x x +\n- + - + x - x -\n+ - + x x + x +\n- + - x + - + -"
+    },
+    "155_8x8": {
+      "id": "155_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/155.a.htm",
+      "solution": "8 8\n- + - + - + - +\nx - + - x - + -\nx x - + x x x +\n- x + - x + - x\n+ x x + x - + x\n- + x x x x - +\n+ - + - + x + -\n- + - x x x - +"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/156.a.htm",
+      "solution": "10 10\nx x + - + - + - x -\n- + - + - + - + x +\n+ - + - + - x - + -\n- + - + - + x x - +\n+ - + - + x - x x x\n- + - + - x + - x x\nx x x x + x x + x x\n+ - x x x x + - + -\n- + - + - + - + - +\n+ - + - + - x x + -"
+    },
+    "157_10x10": {
+      "id": "157_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/157.a.htm",
+      "solution": "10 10\n+ - x x - + x x + -\n- + - + x x x x - +\n+ x x - x - + x + x\n- + x + - + x x - x\n+ - x x x - + - + -\n- + - + - x x + - +\n+ - x x x x x x x x\n- + x - + - + x x x\nx x - + - + - + - +\n+ - + - + - + - + -"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/158.a.htm",
+      "solution": "10 10\n+ - x x - + - + - +\n- + x - + - + - + -\n+ - x + x + - + - +\nx x + - x - + - x x\n- + x x x + - + x -\n+ - + - x x x - x +\n- + x + - x x x x -\n+ - x x x x - + - +\nx x x - + x + - + -\n+ - x + - + - + - +"
+    },
+    "159_10x10": {
+      "id": "159_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/159.a.htm",
+      "solution": "10 10\n- + - + x x x x + -\n+ - + - + - + x - +\n- + - + - x x x + -\n+ x + x x + - + - +\n- x - x x - + x x x\n+ - x x x x - x + x\n- + x x + - + x - +\n+ - x + - + - x x -\n- + x - + - + x - +\nx x - + - + - x + -"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/160.a.htm",
+      "solution": "10 10\n- + - + - x + - x -\n+ - + - + x - + x +\n- + - + - x + - + -\n+ - + - + x - + x x\n- x x + x - + x x -\n+ - + - x x - + - +\n- + - + - x + - + -\nx x x x + x - + - +\n- + - x - x + - + -\n+ - + x + x x + - +"
+    },
+    "161_8x8": {
+      "id": "161_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/161.a.htm",
+      "solution": "8 8\n+ - + - + - x +\n- + - + - + x -\n+ - + - + - x x\n- + x x x x x x\n+ - x + - x + -\nx x + - x x - +\n- + - x x x + -\n+ - + x + - x x"
+    },
+    "162_8x8": {
+      "id": "162_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/162.a.htm",
+      "solution": "8 8\n- + - + - + - x\n+ - x x + - + x\nx + - + - + - +\nx x x - + x x -\n+ - x x x - + x\n- + - + x + - x\nx x x - + - + -\nx x x + - + - +"
+    },
+    "163_8x8": {
+      "id": "163_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/163.a.htm",
+      "solution": "8 8\n+ x + - + - + -\n- x - x x + - +\nx x + - + - x x\nx x - x - + - +\n- + x x + - + -\n+ - x + - + - +\n- + - x + - + -\n+ - + x - + - +"
+    },
+    "164_8x8": {
+      "id": "164_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/164.a.htm",
+      "solution": "8 8\n+ - + - + - x x\n- + - + - + x x\nx x x x + - + -\n+ - + x - + x x\n- + - x + - + -\n+ - x x - + x x\n- + - + x x x +\n+ - + - x - + -"
+    },
+    "165_8x8": {
+      "id": "165_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/165.a.htm",
+      "solution": "8 8\nx + - + - + - x\nx - + - + - + x\nx + - x - x x -\nx x x x + x x +\n+ - + - x - + -\nx x - + x + - +\n+ - + - + x + -\n- + - + - x - +"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/166.a.htm",
+      "solution": "10 10\n- + - + x x + - + -\n+ - + - + - x x - +\n- + - + - x x - + -\n+ - + x + x x + - +\n- + - x - x + - + -\nx x + - + x x x x x\n+ x - + - x - + x x\n- x + - + x + - x -\n+ x x + - x x + x +\n- + - x x x x - + -"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/167.a.htm",
+      "solution": "10 10\n- + - + x - + - + x\nx x + - x + - x - x\n+ x x x x - + x + -\n- + - + - x x + - +\n+ - + - + - x - + -\n- x x x x + x + x x\n+ x x + x x x x x x\n- + x - + - + - + -\n+ - x x x + - + - +\n- + - x x - + - + -"
+    },
+    "168_10x10": {
+      "id": "168_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/168.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + - + - +\n- + - + x x x x + -\n+ - + - + - x + - x\nx + - + - + x - + x\nx x x x x - x x x x\nx - + x x x x + - +\nx x - x + - x - + -\n- x + x - + x + - +\n+ x x - + x x - + -"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/169.a.htm",
+      "solution": "10 10\n+ - + - + - x x x x\n- + x + - + - x x x\n+ - x - + - x x - x\n- + - + - + - x + -\n+ - + x + - + x x +\n- + - x - + x x x -\n+ - + - + x x + - +\n- x x + - + x x x x\nx - x x x x x x + -\nx + x - + x - + - +"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/170.a.htm",
+      "solution": "10 10\n- + x + - + - + - +\nx x x x x x x - + -\nx - + x + - x x - +\nx + - + - + x x + -\nx x + - + - x + - +\nx + - + - + - x x -\nx - x x x x x - x x\n+ x + - + - x + x x\n- x - x x + - x x +\n+ - + - + - + - + -"
+    },
+    "171_8x8": {
+      "id": "171_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/171.a.htm",
+      "solution": "8 8\n- + - + x x + -\nx - + - + x - +\nx + - x x x + -\n+ - + - + - x +\n- + x x x x x -\n+ - x x - x x x\n- x + - + x + -\n+ x - + - + - +"
+    },
+    "172_8x8": {
+      "id": "172_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/172.a.htm",
+      "solution": "8 8\n+ x - + x x + -\n- x + - x x - +\nx + - + - x + -\nx x x - + x x x\n- + - + x - + -\n+ - + - x + - +\n- + - x + - + -\n+ - + x x x - +"
+    },
+    "173_8x8": {
+      "id": "173_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/173.a.htm",
+      "solution": "8 8\n+ - + - + - x +\n- + - + - + x -\n+ - + - + x x +\n- + - x x - + -\nx - + x x + - +\nx + x - x - + -\nx - x + x x x +\nx x x - + - + -"
+    },
+    "174_8x8": {
+      "id": "174_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/174.a.htm",
+      "solution": "8 8\n- + - + - + x -\n+ - + - + x x +\n- + - + - x + -\n+ - x x x + x +\nx x + x x - x -\n- + - x - + - +\nx x + - + - + -\nx x - + - + x x"
+    },
+    "175_8x8": {
+      "id": "175_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/175.a.htm",
+      "solution": "8 8\n- + x x + - x x\nx x - x x x + -\n+ - + x x x - +\n- + - + - x + -\nx - + x x x x +\nx + x x + - x -\n- x x x - x - +\n+ x + - + x + -"
+    },
+    "176_10x10": {
+      "id": "176_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/176.a.htm",
+      "solution": "10 10\nx x - x + - + x - +\n+ - + x x x - x + -\nx + - + - x x + - x\nx x x x x x x - + x\n+ - + - x - x x - x\n- + - + x + - x + x\n+ - + - + - + x - +\n- + - + - + x - + -\n+ x x x x x x + - +\n- + - x + - + - + -"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/177.a.htm",
+      "solution": "10 10\n+ - + - + - + - + x\n- + - + - + - + - x\n+ - + - + - + x x +\nx x x x - x x - + -\nx + x x x x x x x x\nx - + - + x - + - x\n- + - + x x + - + x\n+ - + - x + - + - +\n- + - x x - + - + -\n+ - x x - + - x x +"
+    },
+    "178_10x10": {
+      "id": "178_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/178.a.htm",
+      "solution": "10 10\n- x x - + - + - + -\n+ x - + - + x + - +\n- x + - x - x - + -\n+ x x + x + x x - +\nx x x x + x x + x x\n- x x x - + x - + -\n+ - + x + - x + - +\n- + - + - x x - x x\n+ - + - x x - + x x\n- + x x + - + - + -"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/179.a.htm",
+      "solution": "10 10\n- + x x x x - + x x\n+ - + - + - + - + -\n- + - + - x x + - +\nx x + - + - + - + -\n- + - + x x - x x x\nx x + - x x + x - +\nx + - x + x - + x x\nx - + x - x + - + -\n- + - + x x x + - +\n+ - + - + - x - + -"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/180.a.htm",
+      "solution": "10 10\n+ - x - + - + - + -\n- + x x x + - + - +\n+ - x + x - + - + -\n- x x - x + - + - +\n+ x - + x - x x + -\n- x + - x + x x - +\n+ x x + x - x x + -\nx - x - x x x + - +\nx + - + x x + x x x\n+ - + - x x - x + -"
+    },
+    "181_8x8": {
+      "id": "181_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/181.a.htm",
+      "solution": "8 8\nx - + x - + x x\nx x x x + - + -\n+ - x x - + - +\n- + - x + - + -\nx - + x - + - +\nx + - + x - + -\n- x x x x + x x\n+ - + x x x - +"
+    },
+    "182_8x8": {
+      "id": "182_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/182.a.htm",
+      "solution": "8 8\nx + x x + - x x\nx - + - x + - +\n+ x x x x - + -\n- + - x - + - x\nx - + - + - + x\nx + - + - + - +\n- x x - + - + -\n+ - + x x + - +"
+    },
+    "183_8x8": {
+      "id": "183_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/183.a.htm",
+      "solution": "8 8\n- x x - + x x -\n+ x x + - + - +\n- + x - + - + -\n+ - x + - + - +\n- + - x + - + -\n+ - + x - x x +\nx x x x x - + -\nx x x + - + - +"
+    },
+    "184_8x8": {
+      "id": "184_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/184.a.htm",
+      "solution": "8 8\n+ x + - x + - +\n- x x x x - + -\nx - x + - + - +\nx + x x x - + -\n+ - + x x + - +\n- + - + - x x -\n+ - + - x x + x\n- x x + - + - x"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/185.a.htm",
+      "solution": "8 8\n+ x x + x x - +\n- x x - + - + -\nx x x + - + - +\nx - + x x - + -\nx x x x x + x x\n- + - + x - + -\n+ - + x x + - +\n- + - x x - + -"
+    },
+    "186_10x10": {
+      "id": "186_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/186.a.htm",
+      "solution": "10 10\n+ - + - + - + - x x\n- + - x - + - + - +\n+ x x x + x x x x x\n- x x x x - + x + x\n+ - x x - + - + - x\n- + x x + - x x x +\n+ - + x x x x x x -\n- + - x - + x x + x\n+ - + - + x x x - x\n- + - + - + - x + -"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/187.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x x x - + x +\n- + x x x x x x x -\nx x - x + - x x x x\n+ - + x - + - + - +\n- + - x x x + - + -\n+ - + x x x - + x +\n- x x x + - + - x -\n+ - + x x + - + - +\n- + - + x - + - + -"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/188.a.htm",
+      "solution": "10 10\n- + x - + - + - + -\n+ - x + - + - + - +\n- x + - + - + x + -\n+ x - x x x x x x x\n- + x x - x x + x x\n+ - + - + - + - + -\nx x - + - + - + - x\nx x + - x - + - + x\nx x x + x + - + - +\n- + x - x x + - + -"
+    },
+    "189_10x10": {
+      "id": "189_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/189.a.htm",
+      "solution": "10 10\n+ x x + - x x - + x\n- + - x x + - + - x\n+ - x x x - x x + -\n- + x + - + - + - +\n+ - + x x - + - + x\n- + - x - + - + - x\nx x x x + - + x x +\nx - + x - + x x x -\n+ x x x + - x + - +\n- + - + - + - x x -"
+    },
+    "190_10x10": {
+      "id": "190_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/190.a.htm",
+      "solution": "10 10\nx x x x + - x + - +\n+ - + x x + x - + -\n- + x - + - x + - +\nx - x + - x x - + -\nx + - x + x - + x x\n- x x x - x x x x x\n+ - + - + - + x + -\n- x x x - + - + - +\n+ x - x + - + - x -\nx x + x - + - + x +"
+    },
+    "191_8x8": {
+      "id": "191_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/191.a.htm",
+      "solution": "8 8\n+ - + - + x x +\n- x x x x - + -\n+ x - + - + - +\n- x + - + - + -\n+ - x + - x - +\nx x x - + x + -\nx + - + - + - +\nx - + - + - + -"
+    },
+    "192_8x8": {
+      "id": "192_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/192.a.htm",
+      "solution": "8 8\n+ - x x x x + -\n- + - + - + x +\nx x x x + - x -\nx - + x - + x x\n+ x x x + - x +\n- x - + - + x -\n+ - + - + - x x\n- + - + - + x x"
+    },
+    "193_8x8": {
+      "id": "193_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/193.a.htm",
+      "solution": "8 8\n+ - + - x - x x\n- + - + x + - +\nx - + x x x x -\nx x x x + - x +\n- x - + - + x x\n+ - + - + - + x\n- + - x - + - +\n+ - + x + - x x"
+    },
+    "194_8x8": {
+      "id": "194_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/194.a.htm",
+      "solution": "8 8\n- + - + x x - +\nx x x x x x x x\nx - + x + - + -\n- + - x - + - +\nx - + x + - + -\nx + - + - + - +\nx x x - + - + -\n+ - x + - + - +"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/195.a.htm",
+      "solution": "8 8\n- + - x - + x x\n+ - + x x x - +\nx + x x + - + -\nx - + - x x - +\nx + x x x - + -\nx - x + - + - +\n- + - x x - + -\n+ - + x x + x x"
+    },
+    "196_10x10": {
+      "id": "196_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/196.a.htm",
+      "solution": "10 10\nx x x - + - + - + -\nx x x + - x x + - +\n- + x - + - + - + -\nx x x x x + x x x +\n+ - + - + - x + x x\n- + x x - x x - + x\n+ x x - + x + x - +\n- + - + - + - x x -\n+ - + - + - + - x x\n- + - + - + - + - x"
+    },
+    "197_10x10": {
+      "id": "197_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/197.a.htm",
+      "solution": "10 10\n+ - x - + - + - + -\n- + x + - + - + - +\n+ - x - + - + x x x\n- x x x x + - x x -\n+ x - + x x x - x +\n- + x x x x x + x -\n+ - x x - + x x x +\n- + x x + - + - + -\n+ - + x - + - + - +\n- + - x + - + - + -"
+    },
+    "198_10x10": {
+      "id": "198_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/198.a.htm",
+      "solution": "10 10\n- + x x - x - + - +\n+ - + - + x + - + -\nx + - x x - x x - x\nx - x x x + x x + x\n- + x - + - x x - +\n+ - + x x + - x + -\n- + x x + - + x - +\n+ - + - x x x x + -\nx + x x - + - + - +\nx - x x + - + - + -"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/199.a.htm",
+      "solution": "10 10\nx + - + - + x - + x\nx - x - + - x + - x\n+ x x + x x + - x x\n- x - x x x - + - +\n+ - + x + - + - + -\n- x - + - + x x - +\n+ x + - + - + - + -\n- + - + - + - + - +\nx - + - + - x - + -\nx + - + x x x + - +"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/200.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\n+ - + x x - + - x -\n- + - + - + - + x +\nx x + - + - + - + -\nx + - + x x x + - +\nx x + - x - x - x x\n+ x - + x + - + - +\n- x + - + - x - + -\n+ x - + - + x + - +\n- x x - + - + - + -"
+    },
+    "201_8x8": {
+      "id": "201_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/201.a.htm",
+      "solution": "8 8\n+ - x x + - x -\n- + - + - + x +\n+ - + - + x + -\nx + - + - x - +\nx - + - + - + -\n+ x x + - x x +\n- x x - + - + -\n+ - x x - + x x"
+    },
+    "202_8x8": {
+      "id": "202_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/202.a.htm",
+      "solution": "8 8\n+ - + - + - x +\n- + - + x x x -\n+ - + x x + - +\n- x - + - x x -\n+ x + - + - x x\nx x - + - + - +\n+ - + x + - + -\n- + - x - + - +"
+    },
+    "203_8x8": {
+      "id": "203_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/203.a.htm",
+      "solution": "8 8\n+ - + x - + - +\n- + - x + - + -\n+ - + x x + - +\n- + - + x - + -\n+ - + - x x - +\n- x x + - x x x\nx x - x x + - +\n+ - + - + - + -"
+    },
+    "204_8x8": {
+      "id": "204_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/204.a.htm",
+      "solution": "8 8\nx - + - + x x +\nx x x x x + x -\n- x - + x - x +\n+ - + - + x x -\n- + - x x - x +\n+ - + - x + x -\n- + - + x x - +\n+ - + - + x + -"
+    },
+    "205_8x8": {
+      "id": "205_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/205.a.htm",
+      "solution": "8 8\nx x + - + - + -\nx - x x - + - +\nx + x x + - x x\n+ - + - x x + -\nx x x x - + - +\n+ - + - + - x -\n- x - + - + x +\n+ x + - + - + -"
+    },
+    "206_10x10": {
+      "id": "206_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/206.a.htm",
+      "solution": "10 10\n+ - + x - + x x x x\n- + - x + - + x - x\n+ - x x - + - x + x\n- x + - + - + x - +\n+ x - x x x x x x x\n- + x x - + - x x -\n+ x x x + - + x x +\n- x - x - + x x + -\nx x + - + - + x - +\nx + - + - + - x + -"
+    },
+    "207_10x10": {
+      "id": "207_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/207.a.htm",
+      "solution": "10 10\n+ - + - x x + - + -\n- + - x + x x + - x\n+ - + x - + - x x x\n- + - x + - + - + -\n+ - + x - + - + - +\n- + x x + - + - + -\nx x x x - + - x x +\n- + x x + - + x x -\n+ x x x - + - + - x\n- + - x + - + x x x"
+    },
+    "208_10x10": {
+      "id": "208_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/208.a.htm",
+      "solution": "10 10\nx - + x - + - + x x\nx x - x + - + - x +\n+ x + x x + - + x -\n- + - x x - + - x x\n+ - + - + x - + - +\n- + - x x x x x + -\n+ - + - + - x x x x\n- + - x - + - + - +\nx x + x x x x - + -\n- + x x + - x + - +"
+    },
+    "209_10x10": {
+      "id": "209_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/209.a.htm",
+      "solution": "10 10\n+ - x - + x x - + -\n- + x + - + - + - +\n+ - + - + x + - + x\n- + - + - x x x - x\n+ - x x x + - x x +\nx x x - x x x + x -\n- + - + x x x - x +\n+ - + - + x x x x -\n- + - + - x + - x x\n+ - + - + x - + - +"
+    },
+    "210_10x10": {
+      "id": "210_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/210.a.htm",
+      "solution": "10 10\nx x - + - x x - x x\n- x + - + x - + x x\n+ x - + - x + x - x\nx x x x + x x x + x\n- + - + - x - + - x\n+ - + - + x + - + x\n- + - + - + - x x -\n+ - + - + - + x - +\n- + - + - + - x + -\nx x + x x - + x x +"
+    },
+    "211_8x8": {
+      "id": "211_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/211.a.htm",
+      "solution": "8 8\n+ x - + x - + -\n- x + - x + - +\nx x - + x x + -\n+ - x x - + x +\nx x + - + - x -\nx x - + - + - +\n+ - + - + - + -\nx x - + - + x x"
+    },
+    "212_8x8": {
+      "id": "212_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/212.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - + - + - +\n- x x x + - + -\n+ x + - x x x x\n- + - + - x + -\n+ - + - + x - +\n- + - x x x x -\nx x + - + x x +"
+    },
+    "213_8x8": {
+      "id": "213_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/213.a.htm",
+      "solution": "8 8\n- + x + - + x x\n+ - x - x x - +\n- + - + - x + -\nx - x x + x - x\nx + - + x x + x\n+ - x x - + - +\n- + x x + - + -\nx x - + - + - +"
+    },
+    "214_8x8": {
+      "id": "214_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/214.a.htm",
+      "solution": "8 8\n- x x x x - + -\n+ x - + x x x +\nx x + - x - + -\nx + - + - + - +\n+ - + x + - + -\n- + - x x x x x\n+ x + - x + x x\n- x - + x - + -"
+    },
+    "215_10x10": {
+      "id": "215_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/215.a.htm",
+      "solution": "10 10\n- + - x x + - + - +\n+ - + - + - + - x x\n- + x + - + - + - +\n+ - x - + - x x + -\n- + - + - + - + - +\n+ x x - x x + - x x\nx - + x x x - + x x\nx + - x - + x x - +\n+ - + - x - + - + -\n- x x + x + - x x +"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/216.a.htm",
+      "solution": "10 10\n- + x x x x x x - +\nx x - x - + - x + -\n+ - + x + x + x - +\n- + - + - x - x + -\n+ x x - + - + x - +\nx x - + - + x x + -\n+ - + - + - x + - +\n- + - + - + x - + -\n+ - + - + x x x - +\nx x x x - + - x + -"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/217.a.htm",
+      "solution": "10 10\nx x + - + x + x - +\n- + - x - x - x + -\n+ - x x + x x x - +\n- + x + - x + - + -\n+ - + - + x - + - +\n- + - x x x + x + -\n+ - + x - + - x - +\n- + - x + - + - + -\n+ x x x x x x x x x\n- + - x x x - + - +"
+    },
+    "218_10x10": {
+      "id": "218_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/218.a.htm",
+      "solution": "10 10\n+ - + - + x x + - +\n- + - + - x x - + -\nx x x x x + x x - +\n+ - x - + - + - + -\n- + - + - + x x - +\nx x x - + - + - + x\n+ - x + - + - + - x\n- + - x + - + - + -\n+ - + x - + - + - +\n- + x x + - + - + -"
+    },
+    "219_12x12": {
+      "id": "219_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/219.a.htm",
+      "solution": "12 12\n+ - + - + - + x - + - +\n- + - + - + - x + - + -\n+ - + - + - + x x + - +\nx x x x - x x - + - + -\n- + - x + - x x - + - +\n+ - + x - x x - + - + -\n- + x x + x x + - + - +\n+ x x x x x + - + - + -\n- x + x - + - + - + - +\nx x - x + - + - + - + -\nx - + x - + - + - + - +\n- + x x + - + - x x x x"
+    },
+    "220_12x12": {
+      "id": "220_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/220.a.htm",
+      "solution": "12 12\n- + - + - + - + - + - +\nx x + - + - + - + - + -\n+ - x x x + - + - + - +\n- + - + x - + - + - + -\n+ - + - + x x + - x x x\n- + - + - + - x x + - x\n+ - + - + - + - + - x +\n- + - + - x - + - + x -\n+ - + - x x + - + - x x\n- + - + x + - + - + - +\n+ - + - + x + - + x x -\n- + - + - x - + - + - +"
+    },
+    "221_8x8": {
+      "id": "221_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/221.a.htm",
+      "solution": "8 8\n- + - + - + - +\nx x + - + - + -\n+ x x x x x - +\n- + x x + x + -\n+ - x x - + - +\n- + - + x - + -\n+ - + - x x - +\n- + - + - x + -"
+    },
+    "222_8x8": {
+      "id": "222_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/222.a.htm",
+      "solution": "8 8\n- + - + - + x x\nx x + - + - + x\n- x - + - + - x\n+ x + - + - + -\n- + - + - + x x\n+ - x x x x - +\nx x + - x x + -\n- + - + - + - +"
+    },
+    "223_8x8": {
+      "id": "223_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/223.a.htm",
+      "solution": "8 8\nx x + - + x - x\n- + - x - x + x\n+ - + x + x x x\n- + - + - x - +\n+ - + - x x + -\nx x x x - + - +\n- + - x + - + -\n+ - + x - + - +"
+    },
+    "224_8x8": {
+      "id": "224_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/224.a.htm",
+      "solution": "8 8\n- + x - + - + x\n+ - x + x + - x\n- x x - x - + -\n+ - + x x + - +\nx x x - + - + -\n- + x + x x - +\nx x - x x - x -\n+ - + x x + x +"
+    },
+    "225_10x10": {
+      "id": "225_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/225.a.htm",
+      "solution": "10 10\n+ - + - + - + x + -\n- + - + - + - x - +\n+ - + - + - + - + -\n- x x x x x x + x x\n+ x - + - + - x x x\n- x + - + - + x + -\nx + - + - + - + - x\nx x x - + - x x x x\n- + - + x x x - + -\n+ - + - + x x + x x"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/226.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + x + - +\n- + - + x x x - + -\n+ - + - x x - + x x\n- + - + - x x - + -\n+ - + - + x x + x +\nx + - + - x x - x -\nx x x x x - x + - +\nx - + x x + x - + -\nx + - + - x x + - +"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/227.a.htm",
+      "solution": "10 10\n+ x - + x x - x x +\n- x + - + - + - + -\nx x - + x + - + - +\n+ - + - x - + - + -\n- + - + - + x x - +\nx - + - + x - + x x\nx x x x x x x x x +\n- + - + - + x + x -\n+ - + - + - + - x +\n- + - + - + - x x -"
+    },
+    "228_10x10": {
+      "id": "228_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/228.a.htm",
+      "solution": "10 10\nx + - + - + - x x -\nx - + - x - + x x +\n- + - + x + - x - x\n+ - + - + - + x + x\n- + - + - + - x x -\nx x + - + x + - x +\n+ x x + - x x x x x\n- + x - + - + - + x\n+ - x + - + - + - +\n- x x - + x x x x -"
+    },
+    "229_12x12": {
+      "id": "229_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/229.a.htm",
+      "solution": "12 12\n+ - x x - + - + - + x -\n- + - + x - + - + - x +\nx x x x x + x x x x + -\n+ - + - + x x + - + - +\n- + - + - x + - + - + -\n+ - + x x x - + - + - +\n- + - x x - + - + - + -\n+ - x + - + - + - + - +\nx + x - + - + - + x x -\nx - x x - + - + - x x +\n+ x x - + - + - + - + -\n- + - + - + - + - + - +"
+    },
+    "230_12x12": {
+      "id": "230_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/230.a.htm",
+      "solution": "12 12\n- + - + - + - + - + - +\n+ - + - + - + x x - + -\n- + - + x + x x - + - +\nx x x x x - + - + - x x\n+ - + - x x x x x x + -\n- + - + - + - + - + - +\nx x x x + - + - + - x -\n+ - x - x x - + - + x +\n- + x + x - + - + - + -\n+ - + - x + - + - + - +\n- + - + x x + - + - + -\n+ - x x - + - + - + - +"
+    },
+    "231_8x8": {
+      "id": "231_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/231.a.htm",
+      "solution": "8 8\n+ - + x x + - +\n- + - x x - + -\nx - + - x x x +\nx + - + - + x -\nx x + - + - x x\n+ - x + - + - x\nx + x x x x x x\nx - + - + - + -"
+    },
+    "232_8x8": {
+      "id": "232_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/232.a.htm",
+      "solution": "8 8\n+ x x + - + - +\n- + - x x - + -\nx x x x x x x +\n+ - + - x + x -\n- + - + x - x x\n+ - + - + x - +\n- + - x x x x -\nx x + - + - x +"
+    },
+    "233_8x8": {
+      "id": "233_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/233.a.htm",
+      "solution": "8 8\n- + - + - x - +\n+ - + - + x x x\nx + - + - + x -\nx - + - + - x +\n- + - + x x + -\n+ - x x - + - +\n- + - x + - + -\nx x + x - + x x"
+    },
+    "234_10x10": {
+      "id": "234_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/234.a.htm",
+      "solution": "10 10\n- + x x + - + - + x\n+ - + x x + - + - x\n- + - x + - + - + -\n+ - + x - x - + x x\n- + - x x x x x x x\nx x x x + - x x + -\n+ - + x x x - + - +\n- + - + - x + - + -\n+ - x x x - x + - +\n- + - + x + x - + -"
+    },
+    "235_10x10": {
+      "id": "235_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/235.a.htm",
+      "solution": "10 10\nx x + - + - + - + -\n+ x x x x + x x x x\n- + - + x - x + x +\nx - + - x x x - x -\nx + - + - x - + - +\nx - + - + - + - + -\nx + - + - + x x x x\n+ - + x x - x + - x\n- + x + - + - x x +\n+ - x - + - + x x -"
+    },
+    "236_10x10": {
+      "id": "236_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/236.a.htm",
+      "solution": "10 10\n- + x x + - x x - +\n+ - x x x + - x x x\n- x x - + - + x + x\n+ x - + x x - x - +\nx x + - + - + x + -\n- + - + - + - x - +\n+ - x x + - + - + -\n- + - + - + - + - x\n+ - + - x - + x + x\n- + - + x + - x - +"
+    },
+    "237_10x10": {
+      "id": "237_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/237.a.htm",
+      "solution": "10 10\n- + - x x + - + - +\n+ - + x x - + - x x\n- + - x - + - + - +\n+ - + x x - + - + -\n- + x x x + - + - x\n+ - x x + - + - + x\n- + x x x + - + x -\nx x - + x x + - x +\n- x x x - x - x x -\n+ - + x + x x + - +"
+    },
+    "238_12x12": {
+      "id": "238_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/238.a.htm",
+      "solution": "12 12\n- + - + - + - x x - + -\n+ x + - + x x + - + - +\n- x - + x - + - + - + -\n+ - + - x x x + - + - +\n- + x x + - + - + - x x\n+ - x + - + - + - + x -\nx x x - x x + - + - x +\n- + - + - + - + - x + -\n+ - + - + x + - x x - +\n- + - + x x x x x - + -\n+ - + - x + - + - + - +\n- + x x + - + - + - + -"
+    },
+    "239_12x12": {
+      "id": "239_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/239.a.htm",
+      "solution": "12 12\n+ - + - + - + - x - + x\n- + - + - + - + x + - x\n+ - + - + - + - + - + x\n- x x + - + - + x x - x\n+ - + - + - + x - + x x\n- + - x - + - x x x - +\n+ - + x + - + - + - + -\n- x x - x x x x - + - +\n+ - x + - + - x + - + -\n- + x - + - + x - + - +\n+ x x + - + - x + - + -\nx x + - + - + x - + - +"
+    },
+    "240_12x12": {
+      "id": "240_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/240.a.htm",
+      "solution": "12 12\n+ - + - + - + - x + x x\n- + - + - + - + x - + -\n+ - + - + - + x - + - +\n- + - + - + - x + - + -\n+ - + - + - + - x x - +\n- + - + - + - + x - x -\n+ x x x x x x x x + x +\n- x + - + - + - + - + -\n+ - x + - + - + - + - +\n- + x - x - + - x x + -\n+ - x x x + - + - + - +\nx x + - + - + - + - + -"
+    },
+    "241_8x8": {
+      "id": "241_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/241.a.htm",
+      "solution": "8 8\nx x + - x + x -\n+ - x x x - x +\nx x + x x + - x\nx x - + - x x x\n+ - + - + - + -\nx x - + - x - +\n- x + - + x + -\n+ x - + - + - +"
+    },
+    "242_8x8": {
+      "id": "242_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/242.a.htm",
+      "solution": "8 8\n- + - + - + - +\n+ - + - x - + -\n- + - + x + x x\nx x x - + - + -\n+ - x x - + - +\nx x + x + - x x\n- + - + - + x -\n+ - x x x x x +"
+    },
+    "243_8x8": {
+      "id": "243_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/243.a.htm",
+      "solution": "8 8\n- + - + - + - +\n+ x x - + - + -\nx x x x - + - x\nx + x x x x + x\nx - x + - + - +\nx x x - + - + -\n- + - + - x x x\n+ - + - + x - +"
+    },
+    "244_10x10": {
+      "id": "244_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/244.a.htm",
+      "solution": "10 10\n- + - x x + - + - +\n+ - + x x - + - + -\n- + - + x x - + x x\n+ - + x - + x x - +\n- + - x x x - x x x\n+ - x x + - + - + x\n- + - + - + - + x +\n+ x x x x x x x x -\n- x x x x - + x + x\nx x - + - + x x - x"
+    },
+    "245_10x10": {
+      "id": "245_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/245.a.htm",
+      "solution": "10 10\n+ x x + x - + - + -\n- x x - x + - + - +\n+ x x x x x x - + -\n- x + - + - x + - +\n+ x - + - + x x + -\n- x x - + - + x - +\nx x - + - + x x + -\n- x + - + - + - x x\n+ x - + - + - + - +\nx x + - + - x x + -"
+    },
+    "246_10x10": {
+      "id": "246_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/246.a.htm",
+      "solution": "10 10\n- + - + x x + - + -\n+ - + - + - x x x +\n- + - + - + x x x -\nx x + - x - + - x x\n- + - + x + - + - +\n+ x x - x x x - + -\n- + - + x + x x - +\n+ - + - x - x x x x\n- + - + - + x - + -\n+ - + - + x x + - +"
+    },
+    "247_10x10": {
+      "id": "247_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/247.a.htm",
+      "solution": "10 10\n+ - + - x x - + x x\n- + x x - x x - x -\n+ - + - + x x + x +\n- + x + - + - x x -\n+ - x - + x x + x +\n- x x + x x x - x -\nx x - x x + x + - +\n+ - + - + - + - + -\n- + - + - x x + - +\nx x + - + - + - + -"
+    },
+    "248_12x12": {
+      "id": "248_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/248.a.htm",
+      "solution": "12 12\nx x - + - + - + x - + -\nx x + - + - + - x x - +\n+ - x + - + - + - x + -\n- x x - + - + - x + - +\n+ x - + - + - + x - x x\nx x + - + - x x - + - +\n- + - + - + x - + - + -\n+ - + - + - x + - + - +\n- + - + x x + - + - + -\n+ - + x - + - + - + - +\n- + x x + - + - + - + -\n+ - x + - + - + - + - +"
+    },
+    "249_12x12": {
+      "id": "249_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/249.a.htm",
+      "solution": "12 12\n- + - + - x x x x x + -\n+ - + - + x - x + x x +\nx x - + - x + x - x x -\n- x + x x x - x x x - +\n+ x x - + x + - + - + -\n- + x + - + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - x x + - +\nx x + - x x + - + - + -\n+ x - + - + - + - + - +\n- x + - + - + - + - + -\n+ - x x - + - + - + - +"
+    },
+    "250_12x12": {
+      "id": "250_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/250.a.htm",
+      "solution": "12 12\n+ - x + - + - + - + - +\nx x x - + - + - + - + -\nx x x x - + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + x x - + x x\n+ - + - x x - + x x - +\n- + - + - + x x x x + -\n+ - + - + - + - x + - +\n- + - + - x x + x - + -\n+ - + - + - + x - + - +\n- + - + - + - x x - + -\n+ x x - + - + - x + - +"
+    },
+    "251_8x8": {
+      "id": "251_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/251.a.htm",
+      "solution": "8 8\nx + - + - + - +\nx - + - + - + -\nx x x x x + - +\n- + - + x x + -\n+ - + - + x - +\n- + - x x x x -\nx x x x x x x x\n+ - x - + x - +"
+    },
+    "252_8x8": {
+      "id": "252_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/252.a.htm",
+      "solution": "8 8\n+ - + - x x x +\n- + - + x - + -\n+ - + - x x x +\n- + - + x x x -\nx x x - + - x x\n+ - x + - + x -\n- + x x x - x +\n+ - + - x + x x"
+    },
+    "253_8x8": {
+      "id": "253_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/253.a.htm",
+      "solution": "8 8\n+ - + - + - + -\n- + - + - x x x\n+ - + - + x x x\nx x - + - x + -\nx x + x x x - x\n+ - x x + - + x\nx x + x - + - +\n- + - x + - + -"
+    },
+    "254_8x8": {
+      "id": "254_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/254.a.htm",
+      "solution": "8 8\n+ - + - x + - x\n- + x x x - + x\n+ x - + - + - +\n- x + - + - + -\n+ - x + - + - x\n- + x - + x x x\n+ x - + - x x x\n- x + x x + - x"
+    },
+    "255_10x10": {
+      "id": "255_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/255.a.htm",
+      "solution": "10 10\n- + x - + x x + - +\n+ - x x x - + - + -\nx + - + - + - + - +\nx - + - + - x - + -\n- + - + - + x + x x\n+ - + - + - + - + -\nx x x x x x x + - x\nx x x x - x x x x x\n+ - + - + x - + - +\n- + - + - + x x + -"
+    },
+    "256_10x10": {
+      "id": "256_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/256.a.htm",
+      "solution": "10 10\n+ - + x x - + x + -\n- + - + - + - x - +\nx - + - x - + x + -\nx x x + x x x x x x\n+ - + x - x x + - +\n- + - x + - + x x -\nx - + - x x x x - +\nx + - + - + x x + -\n+ - + - + - x x - +\n- + - + x x x x + -"
+    },
+    "257_10x10": {
+      "id": "257_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/257.a.htm",
+      "solution": "10 10\nx + - + - + - + - +\nx - + - + - + - + -\nx x - + - + - + - +\n- + x - x x + - + -\n+ - x + - x x + - +\n- + - x x - + - x x\n+ - + x x + - + - +\nx + - + x x + - + -\nx - + - x + x + - +\n- + - + x - x - + -"
+    },
+    "258_10x10": {
+      "id": "258_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/258.a.htm",
+      "solution": "10 10\n+ x x + - + x x - +\n- + - x + - + - + -\n+ - + x - x - + - +\n- + - x x x x x x x\n+ - + - + - + - + x\n- + - + - x - + - x\n+ - + - x x + - + -\n- + - + x x x x - +\nx x x x - x x x + -\n+ - + - + x x + - +"
+    },
+    "259_12x12": {
+      "id": "259_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/259.a.htm",
+      "solution": "12 12\n+ - + - + - x + - + - +\n- + - + - + x x + - + -\n+ - + - + - + x - + - +\n- + - + - + - x x - + -\n+ - + - + x x + - + - +\nx + - + - x + - x x x x\nx - + - + x - x x - + -\n- + - + - x + - x + - +\n+ - + - + x - + x x x -\n- + - + - x + x x + - +\n+ - + - + x - + - x + -\n- + - x x - + - + x - +"
+    },
+    "260_12x12": {
+      "id": "260_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/260.a.htm",
+      "solution": "12 12\n- + - + x - + - + - + -\n+ - + - x + x + - + - +\n- + - + x x x x x - + -\n+ - + - + - + - x x - +\n- + - x - + - + x - + -\n+ - + x + - + - x + - +\n- + - + - + - + x - + -\n+ - + - + - + - x + - +\n- + - + - + - + x x + -\n+ - + - + - + - x x - +\nx x x + - + x + x - + -\nx + - x x - x - x + - +"
+    },
+    "261_8x8": {
+      "id": "261_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/261.a.htm",
+      "solution": "8 8\n+ - + - + - + x\n- + - + - x x x\n+ - x x x x + -\n- + x - + - x +\n+ - x x x + x -\nx x + - + - x x\n- + - + x x x +\n+ - + - x x x -"
+    },
+    "262_8x8": {
+      "id": "262_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/262.a.htm",
+      "solution": "8 8\n- + - + - x + -\n+ - + - + x - +\n- x x + x x + -\n+ - + - + - x x\n- + - + - x - +\nx - x x + x + -\nx + x + - + - +\n+ - x - + - x x"
+    },
+    "263_8x8": {
+      "id": "263_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/263.a.htm",
+      "solution": "8 8\n+ - + - + x - +\n- x x + - x x x\n+ x x - + - + -\n- + - + - + - +\nx - + x x x + x\nx x x - + x - x\n- + - + - + x +\nx x + - + - x -"
+    },
+    "264_8x8": {
+      "id": "264_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/264.a.htm",
+      "solution": "8 8\n- + - + - x - +\n+ - + - x x x x\nx + - + x - + -\nx x + - x x x +\n+ x x x x + x x\n- + - x x - + -\n+ - + - x x x +\n- x x + - + x -"
+    },
+    "265_10x10": {
+      "id": "265_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/265.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\nx - + - x - + x + -\nx + x x x x x x x +\n- x x x - x x + x -\n+ - + x + - + - x x\nx x - + - + - x - +\n+ - + - + x + x + -\n- + - + - x - + - +\n+ - + - + - + - x -\n- + x x - + - + x +"
+    },
+    "266_10x10": {
+      "id": "266_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/266.a.htm",
+      "solution": "10 10\n+ - + - + - + - + -\n- + - x - x - + - +\nx x + x x x x x + -\n- + - x x - + x - +\nx x + x x x x x + x\nx x x - x + - x x x\nx + - + x - x - + -\n- x x x x + x + - +\n+ - + x x - + - + -\n- + - + x + - + - +"
+    },
+    "267_10x10": {
+      "id": "267_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/267.a.htm",
+      "solution": "10 10\n+ - x x + - + - + -\n- + x x - + - + - +\n+ - + - + - + - + -\n- + - + x x x x - +\nx - x x + - + - + -\nx + - + - + - + - +\n+ - + - + - + x x x\n- + - + - + x - + x\n+ - x - + - x x - x\n- + x + - + - x + x"
+    },
+    "268_10x10": {
+      "id": "268_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/268.a.htm",
+      "solution": "10 10\n- + - x x + - x - +\n+ - + - + - + x x x\n- + - + - + - + - +\n+ - x - + - + - + -\nx + x + x x x x x x\nx - + - x + - x - +\n- + - x x - + - x -\nx x + - + x - + x +\nx + - + - x + x x x\nx - + - + x x - + x"
+    },
+    "269_12x12": {
+      "id": "269_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/269.a.htm",
+      "solution": "12 12\n- + - + - + - + - + x -\n+ - + - + - + x + - x +\n- + - + - + - x x x + -\nx - + - + x x + - + - +\nx x - + - + x x x - + -\n- x + - + - + - x + - +\n+ x x + - + x + - x + -\n- + x - + - x - + x - +\n+ - x + - + - x x - + -\n- + x x + - + - x x x x\n+ - x + - + - + - + - +\n- + x - + - + - + - + -"
+    },
+    "270_12x12": {
+      "id": "270_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/270.a.htm",
+      "solution": "12 12\n+ - + - + - + - x x x x\n- + - + - + - + - + - +\n+ - + - + - + - + - x x\n- + - + - + - + x x + -\nx x x x x - + - x x - +\n+ - x x x + - + x - + -\n- + - + x - + - x + - +\n+ - + - x + - + x x x -\n- + - x x - + - x + - +\n+ x x + - + - + - x x x\n- + - x + - + - + x + -\n+ - + x - + - + - + - +"
+    },
+    "271_8x8": {
+      "id": "271_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/271.a.htm",
+      "solution": "8 8\nx - + x - + - +\nx + - x + x x -\n+ - + x - + - +\n- + - x + - + -\nx x x x - + - +\nx x + - x x + -\n- + - x x - x x\nx x + x x + - +"
+    },
+    "272_8x8": {
+      "id": "272_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/272.a.htm",
+      "solution": "8 8\n+ - + - x x - +\n- x - + x x + -\n+ x + x x + - x\n- x x - + - + x\nx x + x x x x x\n- + - x - x + -\n+ - + - + x - +\n- + - + x x + -"
+    },
+    "273_8x8": {
+      "id": "273_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/273.a.htm",
+      "solution": "8 8\n- + - + - + x +\nx x x x x - x -\n+ - + x x + - +\nx x - x - x x x\nx x + - + x + -\n+ x - + - + - +\n- x + - + x + x\nx x - + - x - x"
+    },
+    "274_8x8": {
+      "id": "274_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/274.a.htm",
+      "solution": "8 8\n+ x x + - + - +\n- x x - + - + -\n+ x x + - + - x\n- x x - + - + x\n+ - x x x x - x\nx x x x - x + x\nx + - x + x x x\n+ - x x - + - +"
+    },
+    "275_10x10": {
+      "id": "275_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/275.a.htm",
+      "solution": "10 10\n+ - x + - + - + - +\n- + x - x - + x + -\n+ - x x x + - x - +\n- + x x - x x - + x\n+ x x x + x x + - x\n- + - x x x x - x x\n+ x x + x + - + - +\n- + x - + - + - + -\n+ - x + - + - + x +\n- x x - + - + - x -"
+    },
+    "276_10x10": {
+      "id": "276_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/276.a.htm",
+      "solution": "10 10\n- x x x x + - x x +\n+ - + - + - + - + -\n- + x x x + - + - +\n+ - x + x - + - x x\n- + x - x + - + x -\n+ - x x x - + - x +\n- + - + - x - + x -\n+ x x x x x x x x +\n- + x x x - x x x x\n+ - x + - + - + - +"
+    },
+    "277_10x10": {
+      "id": "277_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/277.a.htm",
+      "solution": "10 10\n- + - x x - + - + -\n+ - + x x + - + - +\nx + - x x - + - + -\nx - + x x + x + x x\n- + - + x x x - + -\nx - + x - + - + - +\nx + - x + - + - + -\n+ - + x - + x x - +\n- x x x x x - x x x\n+ - x x + - + - + x"
+    },
+    "278_10x10": {
+      "id": "278_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/278.a.htm",
+      "solution": "10 10\n+ - + - x + - + - +\n- + - x x - x - + -\n+ - + x - + x + - +\n- + - + x x x x + -\n+ - + - x + - + - x\n- x x x x x x x x x\n+ x + - + - + x + -\n- + - x x + - x - +\nx x + - + - + - + -\nx x - + - + - + - +"
+    },
+    "279_12x12": {
+      "id": "279_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/279.a.htm",
+      "solution": "12 12\n- x x + - x + - + - + -\n+ - + - + x - + - + - +\n- + - + x x + - + - + -\n+ - x x x + - + - x x +\n- + x + - x + - + - + -\n+ - + - + x - + - + - +\n- + - + - x + - + - + -\n+ - + - + x x x x x - +\n- + - + - + - + - x + -\n+ - x x x x + - x x - +\nx x x - + x x + x x x -\nx + - + - x x - + - x x"
+    },
+    "280_12x12": {
+      "id": "280_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/280.a.htm",
+      "solution": "12 12\n- + - x + - x x - + x x\nx x + x - + - + x - x +\nx x x - + - + - x + x -\nx + - x x + - + x - + x\n+ - + - + x x x x + - x\n- + - + - x + - + - + -\n+ - + - + x - + - + - +\n- + - + - x + - + - + -\n+ - + - + - x + - + - +\n- + - x - + x - + - + -\n+ - + x x x x + - + - +\n- + - + x - + - + - + -"
+    },
+    "281_8x8": {
+      "id": "281_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/281.a.htm",
+      "solution": "8 8\n- + x - + - x +\nx x x + - + x -\n+ - + x + - x x\n- x x x x x x -\nx x x x x - x +\nx - + x - + x x\n- + x x + - + x\nx x - + - + x x"
+    },
+    "282_8x8": {
+      "id": "282_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/282.a.htm",
+      "solution": "8 8\n+ x x x - + - +\n- x + - + - + -\n+ - x x - + - +\nx x x x + - + -\nx x - + - + x +\n+ - x x + x x -\n- x + x - x + x\n+ x - x x x - x"
+    },
+    "283_8x8": {
+      "id": "283_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/283.a.htm",
+      "solution": "8 8\n+ - + - + x - +\n- + - + - x x x\n+ - x x + - + -\nx x - + - + - +\nx - + - + - + -\nx + - + - x x +\n- x x - + x - x\n+ x x x x x + x"
+    },
+    "284_8x8": {
+      "id": "284_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/284.a.htm",
+      "solution": "8 8\n+ - + x x x - +\n- + - + - x + -\nx x x - x x - +\nx + - + - x + -\n+ - + - + x - +\n- + - + - + x x\n+ - x x + x x -\n- + - + - x x +"
+    },
+    "285_10x10": {
+      "id": "285_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/285.a.htm",
+      "solution": "10 10\n- + - + - + - x + x\n+ - + - + - + x - x\nx x - x x x x - x -\nx x + - + x - + x +\nx + - + - x + - + -\nx x + - x x x x x +\n+ x - + x + - + x x\n- x x - + - + - + -\n+ x - + - + - + - +\n- x + - + - + - + -"
+    },
+    "286_10x10": {
+      "id": "286_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/286.a.htm",
+      "solution": "10 10\n+ - + x x + - + - +\nx x - x x - + - + -\n+ - + x - + - + - +\n- x x x + - + - + -\nx - + x x x x + - x\nx x x x - + x - x x\n- x - x + - x + x -\n+ x + x - + - x x +\n- x - + x x + - + -\n+ - + x x + - + - +"
+    },
+    "287_10x10": {
+      "id": "287_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/287.a.htm",
+      "solution": "10 10\nx - + - x x - + - +\nx + - x x - + - + -\n+ - + - x x x + - +\nx x x + x - + - + -\n- + x x x + - + - +\nx x - + x - + - x x\n+ - + - x + - + - +\n- x x + x x x - + -\n+ - + - + - x + - +\n- + - + x x + - + -"
+    },
+    "288_10x10": {
+      "id": "288_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/288.a.htm",
+      "solution": "10 10\n+ - + - + x + - + -\n- + - + - x x x - +\n+ - + x x + - x x x\n- + - + - x x + - x\n+ - + - + x x x + -\nx x - + - x + x - +\n- x x x x x - x x -\n+ x x + - + x + x +\n- x x - x x x - x -\n+ x x x x + - + - +"
+    },
+    "289_12x12": {
+      "id": "289_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/289.a.htm",
+      "solution": "12 12\n+ - + - + - + - + x + -\n- + - + - + - + x x - +\n+ - + - + - x x x - + -\n- + - + - x + - + x x +\n+ - + - + x - + - + - x\n- + - + - + x - + - + x\n+ - x - + x x + - + - +\n- + x x - x + - + - x x\nx x - x x x - + - + - +\n+ - + - + - + - + - + -\n- + - + - x x + - + - +\n+ - + - + - + - + x x -"
+    },
+    "290_12x12": {
+      "id": "290_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/290.a.htm",
+      "solution": "12 12\n+ - + - + - + - + x x +\n- + - + - + - + - x x -\n+ - x - + - + - x + - x\n- + x x x + - + x x x x\n+ - + x + - + - + - + -\n- + - x - + - + - + - +\nx x x - + - + - x x x x\n+ - x x x + x x + - + -\n- + - + - x x + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - x\n+ - + - + - + - + - + x"
+    },
+    "291_8x8": {
+      "id": "291_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/291.a.htm",
+      "solution": "8 8\n+ - + - + - + -\n- + x + - + - +\n+ - x - x - x x\nx x x + x + x x\nx x x - x x - +\n+ x x + - x + -\n- x x - + x - +\n+ - x x - + x x"
+    },
+    "292_8x8": {
+      "id": "292_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/292.a.htm",
+      "solution": "8 8\n- x - + - + - x\n+ x + x + x x x\n- + - x x x x x\n+ - x + x + - x\n- + x - + - + -\nx x - + - + x x\n+ - + - + - + x\n- + - + - + - x"
+    },
+    "293_8x8": {
+      "id": "293_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/293.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - + x x - +\nx x x x x x x x\n+ - x x + - + -\nx x x x - + - +\n- + x + x x + -\n+ - x - + - x +\n- + - + - + x -"
+    },
+    "294_8x8": {
+      "id": "294_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/294.a.htm",
+      "solution": "8 8\n- + - + - + - x\n+ - + - + - + x\n- x - + - + - +\n+ x + x + - + -\nx x x x - x x x\nx + - x x x - x\n- x + - x x + -\n+ x - + x + - +"
+    },
+    "295_8x8": {
+      "id": "295_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/295.a.htm",
+      "solution": "8 8\n- + - x - + - +\n+ x x x x x + -\n- + - + x x - +\n+ - x x - x x x\nx x x x + - + x\nx + x x x x x x\n+ - x + - + - +\n- + - x x - + -"
+    },
+    "296_10x10": {
+      "id": "296_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/296.a.htm",
+      "solution": "10 10\n+ - + - + x - x x -\n- + - x x x + x x +\nx x x x - x x - + -\n+ - + - + x - + - +\n- + - + - x + - + -\n+ - x x + x x + - +\nx x x x - x x x x x\nx + - x + - + x + -\n+ - + - x x - + - +\n- + - + x x + - + -"
+    },
+    "297_10x10": {
+      "id": "297_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/297.a.htm",
+      "solution": "10 10\n- + - + - x x + - +\n+ - + - + x x - + -\nx + - + - + - + - +\nx - + - + - + - + -\nx + - + - + - x - +\nx - + x + - + x + -\n- + - x - x x x x x\n+ - + - + x x x - +\nx + - x x - + - + -\nx - + x x + - + - +"
+    },
+    "298_10x10": {
+      "id": "298_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/298.a.htm",
+      "solution": "10 10\n- + - + - + x - + -\n+ - + - + - x + - +\n- + - + - + x - + -\n+ - x x + - x x x +\n- + - + - + x - + -\n+ - + - + - x + - +\nx x x x x + x x x x\n+ - + - x - x x + -\n- + - + x x x + - x\n+ - + - + - x - + x"
+    },
+    "299_12x12": {
+      "id": "299_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/299.a.htm",
+      "solution": "12 12\n+ - x x + - x x + - + -\n- x + x - + - + - + - +\n+ x - x + - + x x x x -\nx x + x - + x x + - x x\n- + - x + - + x x + - +\nx x x x - + - x x - + -\n+ - + - + - + x - + - +\n- + - + - + - x + x x x\n+ - + - + - + x - x + -\n- x - + - + - x + - x +\n+ x + - + - + - x x x -\n- + - + - + - + - + - +"
+    },
+    "300_12x12": {
+      "id": "300_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/300.a.htm",
+      "solution": "12 12\n- + x - + - + - + - + -\n+ - x + - + - + - + - +\n- + x x x - x - + - + -\n+ - + - x + x x x + - +\n- + - + - x - x x - + -\n+ - + - + x + x - + - +\n- + - + - + - x + - + -\nx - + - + x x + - + - +\nx + - + - x x x x - + -\n+ - + - + x x + - + - +\n- + - + - + x - + - + -\n+ - + - + - x + - + - +"
+    },
+    "305_10x10": {
+      "id": "305_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/305.a.htm",
+      "solution": "10 10\n+ - x + - x + - + -\n- + x x x x x + - +\n+ - + - + - x - + -\n- x x + - + x x x +\n+ - x - + x x + x -\n- + x + - + x - x x\nx x x x x - x + - +\n+ - + - x x x - + -\nx x x + - + - + - +\n- + x - + - + - + -"
+    },
+    "306_10x10": {
+      "id": "306_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/306.a.htm",
+      "solution": "10 10\n- + x x - x - + - +\n+ - x x + x x x x x\n- + x x x - + - x x\n+ - x + - + - + - +\n- + x - + - + - + -\n+ - x x x + - + - +\nx + - x x - + x x x\nx - + - + x x x + -\n- + - x x + - + - +\n+ - + - + - + - + -"
+    },
+    "307_10x10": {
+      "id": "307_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/307.a.htm",
+      "solution": "10 10\n+ - + x x + - + - +\n- x x x x - + - x x\n+ - + - x + - + - +\n- + - + x - + - + -\nx x + - x x - + - +\n+ - x + x x x - + -\n- + x - x + - + - +\n+ - + x + - + - + -\n- + - x x + - + - +\n+ - x x x x x - + -"
+    },
+    "308_10x10": {
+      "id": "308_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/308.a.htm",
+      "solution": "10 10\n- + - x x - + - + -\n+ - + x x + - + - +\n- + - + x - + - x x\n+ - + - x + - + - +\nx + - + x - + - + -\nx - + - x + - + - x\nx x x x + - + - + x\n- + x - x x x + - +\n+ - x + x - x - + -\n- + x x x + - + - +"
+    },
+    "309_12x12": {
+      "id": "309_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/309.a.htm",
+      "solution": "12 12\n+ x x + - + - + - + - +\n- + x - + - + - + - + -\n+ - x + - + - + x x x x\n- x + - + - + x x + - +\nx x - + - + - + x - + -\nx - + - + - + - x x - +\n- + - + - + - + - x + -\n+ - + x x - x - + x - +\nx x x - + x x x x x + -\nx + - + - x - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - +"
+    },
+    "310_12x12": {
+      "id": "310_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/310.a.htm",
+      "solution": "12 12\nx + - + - + x x + - + -\nx - + - x x - + - + - +\n+ x x + - + x x + - + -\n- x x - x x x + - + - +\n+ - x x - + x - + - + -\n- + - + x x x + - + - +\n+ - + - x - + - + - + -\n- + - + - + - + - + - +\nx x x x + - + x x x x x\n+ - x x - + - + - x + x\n- + - + x x + - + x - +\n+ - + - x x - + - x x -"
+    },
+    "315_10x10": {
+      "id": "315_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/315.a.htm",
+      "solution": "10 10\nx x - x x - + - + -\n+ - + x x + - + - +\nx x x x x - + - x x\nx + - + - + - + - +\n+ - + - + x x - + -\n- + - x x - x + x x\n+ - + - x + x - x +\n- + - + x - x + x -\n+ - x x x + x - + x\n- + x - + x x + - x"
+    },
+    "316_10x10": {
+      "id": "316_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/316.a.htm",
+      "solution": "10 10\nx x + - + - + - + -\n- + - + - + - + - +\n+ - + - + - + - + -\n- + x x x x x x x x\n+ - + - x + - + - x\nx x - + x x + - + -\n+ x x - + - x x - +\n- + - + x x + - + -\nx x x - + - x x x x\n+ - x + x x + - + -"
+    },
+    "317_10x10": {
+      "id": "317_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/317.a.htm",
+      "solution": "10 10\n+ - + - + x x + - x\n- + - + x x + - x x\n+ - + - x + - + x +\n- + - x x - x - + -\nx - + x - + x + - +\nx + - + x x x - + -\n+ - + - + - x + - x\n- x x x x x - x x x\n+ - + x + - + - + -\n- + - + - + - + - +"
+    },
+    "318_10x10": {
+      "id": "318_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/318.a.htm",
+      "solution": "10 10\nx x + - + - + - + -\n- x - + - + - + x x\n+ x + - + - + - + -\n- x x + - + - + - x\n+ - + - x x + x x x\nx x - + x x x x + -\n+ - + - x + x + - x\nx x - + x - x - + x\n- x x x x + - + - +\n+ - + - + - + - + -"
+    },
+    "319_12x12": {
+      "id": "319_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/319.a.htm",
+      "solution": "12 12\nx - + - + - + - + - + -\nx x x + - + - + - + - +\n- + - x + - + - + x x -\n+ - + x - + - + - + - +\n- + - + x - + - + - + -\n+ - + - x + - + - + - +\n- + - + x x + - + - + -\nx x x - + x - + - + - +\nx x x + - x x x x - + -\n+ - + - + - x - + x x +\n- + - + - + - + - x x x\n+ - + - + - + - + - + x"
+    },
+    "320_12x12": {
+      "id": "320_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/320.a.htm",
+      "solution": "12 12\n+ - + - + x x + - + - +\n- + - + x - + - + - + -\n+ - + - x + - + - + - +\n- + - + x x + - + - + -\nx - + - x + - + - + - +\nx + - + x - x - x x + -\n- x x - x x x x x - x x\n+ x - + - + - + - + - +\n- x + - + - + - + - + -\n+ x - + - + x + - + - +\n- x + - + - x - + - + -\n+ x x x x + - + - + - +"
+    },
+    "325_10x10": {
+      "id": "325_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/325.a.htm",
+      "solution": "10 10\n+ - + - + - x x - +\nx x - + - + x - + -\nx x + - x x x + - +\nx x - + x - x x x x\n+ - + - x + x - x x\n- + - + x x x + - +\n+ - + - + - + - + -\n- + - + - + x x x x\nx x x - + x x + - +\n+ - x + - x x - + -"
+    },
+    "326_10x10": {
+      "id": "326_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/326.a.htm",
+      "solution": "10 10\n- + x - + - + - x +\n+ x x + - + - + x -\n- x + - + - + - x +\n+ - x + x x - + x -\n- + x - x x + - x x\n+ - x x - + x x + -\nx x x x + x x + x x\n- x - + - + x - + -\n+ x + x + - x + - +\n- + - x - x x - + -"
+    },
+    "327_10x10": {
+      "id": "327_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/327.a.htm",
+      "solution": "10 10\n- + - + - + x x + -\n+ - + - + - x x - +\nx + - + - + x x + -\nx - x x + - x x - +\n+ x + x - + x - + x\n- x - x x x x x x x\n+ - + x x - x x x +\n- + - + - + x - + -\n+ - + - + - x + - +\n- + x x - + x - + -"
+    },
+    "328_10x10": {
+      "id": "328_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/328.a.htm",
+      "solution": "10 10\n- + x x - + - + x -\nx x x - + - x x x +\n+ x x + - + - + - x\n- x - x x x x - + x\n+ - + - + - x + - +\n- + - + - + x - + -\n+ - + x x x x + - +\n- + x - + - x x + -\n+ - x + - + x - x x\n- + x x + - x + - +"
+    },
+    "329_12x12": {
+      "id": "329_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/329.a.htm",
+      "solution": "12 12\n- + - + - + x + - + x x\n+ - + - + - x - + x x +\n- + - + - + - + - + x -\n+ - + - + - + - + - x +\nx x x + - + - + - x x -\nx + x - x - + - + x - +\nx - x x x x x + - x x -\nx + - x - + x x x x x +\n- x + - + - + - + - + -\n+ x - + - + - + - + - +\nx x + - + - + - + - + -\n- + - + - + - + - + - +"
+    },
+    "330_12x12": {
+      "id": "330_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/330.a.htm",
+      "solution": "12 12\nx - + - + - + - + - + -\nx + - + - + - + - + x x\n- x x - + - + - + - x +\n+ - + x - + - + - + x -\n- + - x + - + x x x - +\n+ - + - x x x x + x x -\n- + - + x + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - x\n+ - + - + - + - + - + x\n- + - + - + - + - + - +\n+ - + - + - + - + x x -"
+    },
+    "334_10x10": {
+      "id": "334_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/334.a.htm",
+      "solution": "10 10\n- + x x x - + - + -\n+ - x - x + - + - +\n- + x + x x + - + -\n+ - x x x x - + - +\n- + - x - + x - + -\n+ - + x x x x + - +\n- + x - + - x - + -\n+ - x x x + x x x +\n- + - x x x x x x x\n+ - + - + - + - + x"
+    },
+    "335_10x10": {
+      "id": "335_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/335.a.htm",
+      "solution": "10 10\n- + x x - + - + x x\n+ - + - + - + - + x\n- + - + - + - + - x\n+ - + - + - + - + -\n- + x x - + - + - +\n+ x x x x - + - + -\n- x + - x + - + - +\nx x - x x - + - + x\n+ x + x x x x x x x\n- x - + - + - + - +"
+    },
+    "336_10x10": {
+      "id": "336_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/336.a.htm",
+      "solution": "10 10\n+ - + - + - + x x +\nx x x x x x - x x -\nx + - + x - + x - +\nx - + - x + - x x x\n+ x x + x x + - + -\n- x x - x x - x x +\n+ - + x x - + - + -\nx x - + - + - x x +\n+ - + - + - + - + -\n- + - x x + - + - +"
+    },
+    "337_10x10": {
+      "id": "337_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/337.a.htm",
+      "solution": "10 10\nx + - + x - + - x x\nx x + - x + - + - +\n+ x - x + - + - + -\n- x x x - + - + x x\n+ - + - + - + - + -\n- + - + - + - x - +\n+ - + - + - x x + -\nx x x + x x x x x +\n- + x x x + - x x -\n+ - + - + - + - x x"
+    },
+    "338_12x12": {
+      "id": "338_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/338.a.htm",
+      "solution": "12 12\n+ - + x x + - + - + - +\n- + - x x - + - + x + -\n+ - x x - + - + - x - +\n- + - x x x x x x + x -\n+ - + - + x x - + - x +\n- + - x - + - + - + x x\n+ - + x + - + - + - + -\n- + x - x x - + - + - +\n+ - x + x x + - + - x x\n- + x x - + - + - + - +\n+ - x x + - x - + - + -\n- + - + - + x + - + - +"
+    },
+    "339_12x12": {
+      "id": "339_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/339.a.htm",
+      "solution": "12 12\n+ x - x x x x - + - + -\n- x + - + - x + - + - +\nx + - + - + x - + - + -\nx - + - + x x + - + - +\n- + - + - + x - + - + -\n+ - + - x - x + - + - +\n- + - + x x + - + - + -\n+ - + - + x - + - + - +\n- + - + - x + - + - + -\n+ - + - + x - + - + x x\n- + - + - x x x x x x x\n+ - + - + - + x + - + -"
+    },
+    "340_12x12": {
+      "id": "340_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/340.a.htm",
+      "solution": "12 12\nx x + - + - + - x x - +\n- + - + - + - + - + x -\n+ x + - + - + - + - x +\n- x x x x x - + x x x -\nx + - + - x + - x + - +\nx - + - + x - + x x + -\nx x - x x - + - + - x x\n- x + x - + - + - + - +\n+ x - x + - + - + - + -\nx x + x x + - + - + - +\n- + - x + - + - + - + -\n+ - + x - + - + - + - +"
+    },
+    "346_10x10": {
+      "id": "346_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/346.a.htm",
+      "solution": "10 10\n- + - + - x x - + -\n+ - + - + x - + - +\n- + - x x x + - + -\n+ - x - + x - + - +\n- + x x x x + x x -\n+ x + - + - x x - +\nx x - + x x + - + x\nx x + - x x - + - x\n+ x x x + - + - + -\n- + - x x x x + - +"
+    },
+    "347_10x10": {
+      "id": "347_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/347.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + - + x x\n- + - x + - + - x x\nx x + x x x x x x x\n- + - + - + - + x -\n+ - + - + - + - x +\n- + - + - + - + - x\nx x + x + - + - x x\n- x - x - + x + x -\n+ x + - + - x x x +"
+    },
+    "348_10x10": {
+      "id": "348_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/348.a.htm",
+      "solution": "10 10\n+ - + x x x x - + -\n- x x - + x x + x +\n+ - x x x - + - x -\n- + x x x + - + - +\n+ - + - + - + - + -\n- x x + x x - + - +\nx + x x x x x x + -\nx - x x + - + - x x\n- + x x - + - + - +\n+ - + - + - + - + -"
+    },
+    "349_10x10": {
+      "id": "349_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/349.a.htm",
+      "solution": "10 10\n- + - + - + - + - +\n+ x x - + - + - + -\nx + - x x x - + - +\nx x x x x x + - + -\n+ - x - + x - + - +\n- + x x x x + - + x\n+ - x x - + - + - x\n- x x - + - x - + -\n+ x x + x x x x x +\n- + x x - + - + x x"
+    },
+    "350_12x12": {
+      "id": "350_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/350.a.htm",
+      "solution": "12 12\n+ - + - + - + - + - + -\n- x x x x + - x - + - +\n+ x - + x - + x + - + -\n- x x x x + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - + -\nx x - + - + - x x x x x\nx x + - + - + x - + x x\n+ - x x - + x x + - + -\nx x + - + - + x - x x x\n- + - + - + - x + x - +"
+    },
+    "351_8x8": {
+      "id": "351_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/351.a.htm",
+      "solution": "8 8\n- + x x x x - +\n+ - + x x - + -\n- + - x x + - +\n+ - x x + - x x\n- + - + - + - +\n+ - + - + - + -\n- + - + - + - +\n+ - + - + - + -"
+    },
+    "352_8x8": {
+      "id": "352_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/352.a.htm",
+      "solution": "8 8\nx x - + - x + -\n+ - + - + x - +\n- + - + x x x -\n+ - + - x - x +\n- + - x x + x x\n+ - + - + - + x\n- + x x - + - +\n+ - + x x - + -"
+    },
+    "353_8x8": {
+      "id": "353_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/353.a.htm",
+      "solution": "8 8\n- + x x x x x +\n+ x - + - + x -\n- x + - + - x +\nx x - + - x x -\n+ - + - + x - +\n- + - + - x x -\n+ - + - + x x +\n- + x x - + x x"
+    },
+    "354_8x8": {
+      "id": "354_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/354.a.htm",
+      "solution": "8 8\n- + - + - + x -\n+ - + - + - x +\nx x - + x + - x\n+ - + x x x x x\n- x x x + - + -\n+ - + - x + - +\n- + - x x - + -\n+ - + x - + - +"
+    },
+    "355_8x8": {
+      "id": "355_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/355.a.htm",
+      "solution": "8 8\n- + x x + - + -\n+ - x + - + - +\n- x x - + - + -\n+ x - + - + x x\nx x x x x - + x\nx x x x x x x x\n- + - + - x x +\nx x + - + - + -"
+    },
+    "356_10x10": {
+      "id": "356_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/356.a.htm",
+      "solution": "10 10\n- + - + - + - + - x\nx - + - + - + x x x\nx + - x x + - + x -\n- x + - + - + x x +\n+ x x x - x x x + -\n- x - + x x x x - +\n+ x + - x - + x x x\n- + - + x x x x + -\n+ - + - + - + x - +\n- + - + - + - x + -"
+    },
+    "357_10x10": {
+      "id": "357_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/357.a.htm",
+      "solution": "10 10\n+ - + - + - x x + -\nx x - + - + x x - x\nx x x - x x - x + x\n+ - x + x x + x x -\n- + - x x + - + x +\n+ - + - + - + x + -\n- x x + - x - x x x\n+ x x x x x x x - +\nx - + - x - x x + -\nx + x x x + - + - +"
+    },
+    "358_10x10": {
+      "id": "358_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/358.a.htm",
+      "solution": "10 10\n- + x + - + - + - +\nx x x x + - + - x x\nx x + x - + - + x x\n- + - x x x x - + -\nx x + x x x x x x x\n- + - + - + - + - x\n+ - + - x - + - + -\n- + - + x + - + - +\n+ - + - x x x - + -\n- x x + - + x + - +"
+    },
+    "359_10x10": {
+      "id": "359_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/359.a.htm",
+      "solution": "10 10\n- + - + x x x - + x\n+ - + - + x x x x x\n- + - + - x - + - +\n+ - + - + x + - + -\n- + - + - x - + - +\n+ - x - + - + - + -\nx x x + - x x + - +\n- + - x x x x - + -\n+ - + - + x x + - +\n- + - + - + x x + -"
+    },
+    "360_10x10": {
+      "id": "360_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/360.a.htm",
+      "solution": "10 10\nx - x x - + - x x -\nx + x x + - + x x +\n+ - + x - + - + x x\n- + - x + - x x x x\n+ - + x - + x - + -\n- + - x + - x x x +\nx x x x x + - + x x\nx - + - + - + - x +\nx + - + - + - + x -\nx x x x x - x x - +"
+    },
+    "361_8x8": {
+      "id": "361_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/361.a.htm",
+      "solution": "8 8\n- + x x + x x -\n+ - x x - x x +\n- + - + x x + -\n+ - x x - + - +\n- + - + x - + -\n+ - x x x + - +\nx + - x x - + -\nx x x + - x x +"
+    },
+    "362_8x8": {
+      "id": "362_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/362.a.htm",
+      "solution": "8 8\nx + - x x - x x\nx - + x x + x -\n+ x - + x x x +\n- x + - + - + -\n+ - x x x x x +\n- + - + x + x -\n+ - + - + - x +\n- + - + - x x -"
+    },
+    "363_8x8": {
+      "id": "363_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/363.a.htm",
+      "solution": "8 8\n+ x - + - + - +\n- x x - + x x -\n+ - x + - x x +\n- + x x x + - x\nx x x x x x x x\n+ - + x + - + -\n- + - x - + - x\n+ - + - + - + x"
+    },
+    "364_8x8": {
+      "id": "364_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/364.a.htm",
+      "solution": "8 8\n+ - + - x + - +\nx x - + x - + -\nx x x x x + - +\n+ - x - + - + -\nx x x + - + - +\nx + - x x x x -\n+ - + - + - + x\n- + - + - + - x"
+    },
+    "365_8x8": {
+      "id": "365_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/365.a.htm",
+      "solution": "8 8\n+ x - + - + - +\n- x x x x - + x\n+ - x - x + - x\n- + x + x x x +\n+ - x - + - + -\nx x x + - + - +\nx x x - + - + -\n+ - x x - + - +"
+    },
+    "366_10x10": {
+      "id": "366_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/366.a.htm",
+      "solution": "10 10\nx x - x x - x x - x\n+ - + x x + x - + x\n- + - + x - x + x x\n+ - + - x + x x + -\n- + x x + - + x x x\nx x x x - + - x - x\n+ - + - + - + x + -\n- + - + x x x x x +\n+ - x - x + - + x x\nx x x x x - + - + -"
+    },
+    "367_10x10": {
+      "id": "367_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/367.a.htm",
+      "solution": "10 10\n- + - + - + - x + -\n+ - + - + - + x x +\n- + x x - + - + x -\n+ - x + x x + x x +\n- + x - x x - x x -\nx x x + - x x + x x\nx + x - + - + - x x\nx - x + - + - + - x\nx + - x x - + - + x\n+ - x x - + - + - +"
+    },
+    "368_10x10": {
+      "id": "368_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/368.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + - + - +\nx x x x x x x x x -\n+ - x - + x + - x +\n- + - + - + - + - x\n+ - + - + - + - + x\n- + x + - x x + - +\n+ - x - + - + - + -\n- + - + x x - + x x\n+ - x x x x + - + -"
+    },
+    "369_10x10": {
+      "id": "369_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/369.a.htm",
+      "solution": "10 10\n+ - x x - + - x + -\n- + - x + - + x x x\n+ - + x x + - + - +\nx x x x x x x x x -\n- + - x + x x x x x\n+ - + x - + - + - x\n- + x x + - + - x x\n+ - x x - + - + x -\n- + x x + - + x x +\n+ - x x - + - x + -"
+    },
+    "370_10x10": {
+      "id": "370_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/370.a.htm",
+      "solution": "10 10\nx x - + x x - + - +\n+ x + - + - + - + -\n- x - + - + - + - +\nx + x x + - + - x x\nx - x + x x x + x -\nx x x - x - + - x +\n- + - + - + - + x -\n+ - + - + - + - x +\n- + - x - + - + x -\n+ - + x + - + - x +"
+    },
+    "371_8x8": {
+      "id": "371_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/371.a.htm",
+      "solution": "8 8\n+ - + - + x - +\n- + - + - x + -\nx - + - + x - +\nx + - + - x x x\n- x x x + - x x\n+ x + - x x - +\n- + - x x x x x\n+ - + x + - + -"
+    },
+    "372_8x8": {
+      "id": "372_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/372.a.htm",
+      "solution": "8 8\n+ x - + - + - +\n- x + - + - + -\n+ x - + - + - +\n- x x - + - + -\n+ - x + - x x +\n- + x - + x x x\n+ - x x x x + -\nx x - + - + - +"
+    },
+    "373_8x8": {
+      "id": "373_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/373.a.htm",
+      "solution": "8 8\nx x + - + x - +\nx x - x - x + -\n- x x x + x - +\n+ - + x x x + -\nx + - + - + - +\nx - + - + - + -\n+ x - + - + - +\n- x x x x x x x"
+    },
+    "374_8x8": {
+      "id": "374_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/374.a.htm",
+      "solution": "8 8\n+ - + x x x - +\n- + - x x x + -\n+ - x x - + - +\nx x - + x x + -\n- x x x - + - x\n+ - + x + - + x\n- + - x - + - x\n+ - + x + - + x"
+    },
+    "375_8x8": {
+      "id": "375_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/375.a.htm",
+      "solution": "8 8\n- + - + x + - +\n+ - x x x x x -\n- x x x + x x x\n+ x x x - + - x\n- + x x + - + -\n+ - + x - + - +\n- + - x + - + x\n+ - x x - + - x"
+    },
+    "376_10x10": {
+      "id": "376_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/376.a.htm",
+      "solution": "10 10\n- x x x - + x x - +\n+ x - x x - + - + -\nx x + x x + - + x x\n- + - x + - + - x x\n+ x + x x + - x + -\nx x - x x x x x x x\nx - + x + - + x x x\n- + - + - + - x + -\n+ - + - + - + x x +\nx x - + - + - x x -"
+    },
+    "377_10x10": {
+      "id": "377_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/377.a.htm",
+      "solution": "10 10\nx x x x + - + - x x\n+ x x x - + - + - +\n- x + - + - + - + -\n+ - x + - + - + - +\n- + x - + - + - + -\n+ - x x - + - + x +\n- + x x + - x x x x\n+ - x x - x x - + x\n- + x x x x x x - +\n+ - x + - + - x + -"
+    },
+    "378_10x10": {
+      "id": "378_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/378.a.htm",
+      "solution": "10 10\n+ - + - + - + - + -\n- + - + - + - + - +\n+ x x x x - + - + -\n- + - + - + - + - +\nx - + - + - + - + -\nx x x + - + - + - +\n+ x x - + x x x x x\n- + x + - x + - + x\n+ - x - + x - + - x\n- + - + - x x - + x"
+    },
+    "379_10x10": {
+      "id": "379_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/379.a.htm",
+      "solution": "10 10\n+ - x + x + x + - +\nx x x - x - x - + -\n- + - + x x - + x +\n+ - + - + - + - x -\n- + - + x + - + x +\n+ - + - x - + - x -\n- + x x x + - + - +\n+ - x + x - + - + -\nx x x - x x - + x x\nx + - + - x + - + -"
+    },
+    "380_10x10": {
+      "id": "380_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/380.a.htm",
+      "solution": "10 10\n+ - + - + - x x x x\n- + - x - + x x + -\n+ - + x + - + - x x\n- + x + - + - + x -\n+ - x - x - + x x +\nx x + x x x x x x x\n- + - x - + - + x -\n+ - x + x - + - x +\n- + x - x + - x x -\n+ - x x + - + x x +"
+    },
+    "381_8x8": {
+      "id": "381_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/381.a.htm",
+      "solution": "8 8\n- + - + - x x -\n+ - + x x x x +\n- x x - + - + -\n+ x x + x x x +\n- + x x - + x -\n+ - + - + x - +\nx + - + - x x x\nx - + - + - + -"
+    },
+    "382_8x8": {
+      "id": "382_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/382.a.htm",
+      "solution": "8 8\n+ - + - x x x +\n- + - + x - + -\n+ - x - x x - +\n- + x + x x + -\nx x + - + x x +\n+ x - x x - + -\n- x x x x x x +\n+ - + - x x x -"
+    },
+    "383_8x8": {
+      "id": "383_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/383.a.htm",
+      "solution": "8 8\n- x + - + x x -\n+ x - + - + - +\nx x + - + - + -\n+ x x x x x - +\n- + - x + - + -\n+ - x + - + - +\n- + x - + x + -\n+ - x x - x x x"
+    },
+    "384_8x8": {
+      "id": "384_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/384.a.htm",
+      "solution": "8 8\nx x - + x + - +\n- x x - x - + -\n+ - x + - + x +\n- + x - + - x -\n+ x x + - + - +\n- x + - + x x -\n+ x x + - x + x\n- + x - + x - x"
+    },
+    "385_8x8": {
+      "id": "385_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/385.a.htm",
+      "solution": "8 8\n+ - + x - + - +\n- + - x x x x -\n+ - + - x - x +\nx x x x x + x x\nx + - + - x - +\nx x x x + x x x\n+ - + x - + - +\n- + - x x - + -"
+    },
+    "386_10x10": {
+      "id": "386_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/386.a.htm",
+      "solution": "10 10\n- + - + - + - + x -\n+ x x - + - + - x +\n- x x x - + - + x x\nx - + x + - + - + -\nx x x - x + - + - +\n- + - + x - + - + -\n+ x x x x + - + - +\n- x x x x x x - x x\n+ x x + - x x + - +\nx x + - + - + - + -"
+    },
+    "387_10x10": {
+      "id": "387_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/387.a.htm",
+      "solution": "10 10\n+ - + - + - + x x x\nx x - + - + - x x x\n+ - x x x x + - x x\n- x x - + x x x x x\n+ x - + - + - x - +\n- x + - + - + - + -\n+ x x + - + - + - +\nx x + - + - + - + -\n+ x - + - + - + - +\n- x + - + - + - + -"
+    },
+    "388_10x10": {
+      "id": "388_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/388.a.htm",
+      "solution": "10 10\n- + x x - + x x - +\n+ - x + x x x - + -\n- + x - x + - + - +\nx - x + x x x x x x\nx + x - + - x - + x\n+ - x + - + - x x -\nx x x - + x x + - +\nx x - + - + x - + -\n+ - + - + - x + - +\n- + - + - + x x + -"
+    },
+    "389_10x10": {
+      "id": "389_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/389.a.htm",
+      "solution": "10 10\n- + - x x + x + - +\n+ - + - + - x - x x\nx x - + x x x x x -\n+ - + - + - + - x +\n- + - + x x x x + -\nx x + x x x x x x x\n- + - x + - x + - +\n+ - x x - + x - + -\n- + x - + x x + - +\n+ - x x x - + - + -"
+    },
+    "390_10x10": {
+      "id": "390_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/390.a.htm",
+      "solution": "10 10\n+ - + - + - x x - +\n- x x + - x x - + -\n+ x - x x - x x x +\nx x + - x + x - + -\nx + - + x x x + - +\n+ - + - + - + - + x\nx x x x - x x x x x\n- + - + x x x x x +\n+ - + - x + x - + -\n- + - + x - x x x x"
+    },
+    "391_8x8": {
+      "id": "391_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/391.a.htm",
+      "solution": "8 8\n- x + - + - + x\n+ x - + - + - x\nx - + - + - + -\nx + - + - x - +\n+ - + x x x + x\n- x x - x - x x\nx x - + x + x +\n+ - + - + - + -"
+    },
+    "392_8x8": {
+      "id": "392_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/392.a.htm",
+      "solution": "8 8\n- + - + x + - +\n+ - + x x x x -\n- + - x + x x +\n+ - x x - x x -\nx x x - + x x x\nx x x x - x + -\n- + - x + x - +\n+ - + x x x + -"
+    },
+    "393_8x8": {
+      "id": "393_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/393.a.htm",
+      "solution": "8 8\n- + x x + x x x\n+ x x + - x - +\n- x x - + - + -\n+ x + x - + - +\n- x - x + - + -\n+ - x x - + - +\n- + - + x x + -\n+ - + - + - x x"
+    },
+    "394_10x10": {
+      "id": "394_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/394.a.htm",
+      "solution": "10 10\n+ - + x - + - + - +\n- + - x + - x x x x\n+ - + - x + x x + -\n- + - x x - + - x x\n+ x x x - + - + - x\n- + x x + - + x x x\n+ - x x - + x - + -\nx x + x + - x x x +\n+ x - x x + - + - x\n- x + - x - + - + x"
+    },
+    "395_10x10": {
+      "id": "395_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/395.a.htm",
+      "solution": "10 10\n+ - + x - + - + - +\n- + - x x x + x x -\n+ - + - + x x - + x\n- + - + - x - + - x\n+ x x - + x + - + -\n- + - x x x x + - +\n+ - x x - x + - + -\n- + x x + x - + - +\nx - x x - x + - + -\nx + x x + x - + - +"
+    },
+    "396_10x10": {
+      "id": "396_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/396.a.htm",
+      "solution": "10 10\n- + - + - + - x x +\n+ - + - + - + - + -\n- + - + x x - + - +\n+ x + - + - + - + -\nx x x x - + - x - +\nx x - x x - x x + -\n+ x + - x + x x - +\n- + - + x x - x + -\nx x + - + x + x x x\n- + - + - + - + - x"
+    },
+    "397_10x10": {
+      "id": "397_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/397.a.htm",
+      "solution": "10 10\nx - + x + - x x - +\nx + - x - + x x + -\n+ - + - + x - + - +\n- + - + - x + - x x\nx - + - + x - x x x\nx x x + - x + x - +\n- + - x + - x x + x\n+ - + x x x x x - x\n- + - + - x + - + -\n+ - + - + x - + - +"
+    },
+    "398_12x12": {
+      "id": "398_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/398.a.htm",
+      "solution": "12 12\n- + - + - + x x + - + -\n+ - x - + x x + - + - +\n- + x + - + x x + - x -\n+ - + - + - + x - + x +\n- x x + - + - x + - x -\n+ - + - + - + - x x x x\n- + - + - + - + - + - x\nx x + - + - + - + - + -\nx - x + - + - + - + - +\nx + x - + - + - + - + -\n- x x + - + - + x x - +\n+ - + - + - x x - + x x"
+    },
+    "399_12x12": {
+      "id": "399_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/399.a.htm",
+      "solution": "12 12\n- + x x + - + - + - + -\n+ - x + - + - + - + - +\n- + x x x - + - + - + -\n+ - + - x + - + - + - +\nx x - + x x x - + - + -\n- + x - + - x x x + - +\n+ - x + - + - + x - + -\n- + x - + - x x - + x x\n+ - x x - + - + x - + -\n- + - x + - + x x + - +\n+ - + x x x x x + - + -\n- + - + - + - + - + - +"
+    },
+    "400_12x12": {
+      "id": "400_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/400.a.htm",
+      "solution": "12 12\n- + - x x - + - + - + -\n+ - + x - + - + - + - +\n- + - x + - + - + - + -\n+ x x x - x - + - + - +\n- x + - + x + x + - + -\n+ x - + - + - x - + - +\nx x + - + - + - + - + x\nx x x x x x x x x + - x\n+ x - + - + x - + - + -\n- x x - + - + x x + - +\n+ x x + - + - + x - + -\n- x x - + - + - x + - +"
+    },
+    "401_8x8": {
+      "id": "401_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/401.a.htm",
+      "solution": "8 8\n- + - x x - + -\n+ - + - + x x +\n- + - + - + x x\n+ - + - + - + x\n- + - + - x x x\n+ - + x x x x -\n- x x - + x x +\nx x - + x x x x"
+    },
+    "402_8x8": {
+      "id": "402_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/402.a.htm",
+      "solution": "8 8\n- x + - + - + -\n+ x - + - + - x\nx - x x + - x x\nx + - + - + x -\n+ - + - + x x +\n- + - + - + - x\n+ - + - + - + x\n- + x x x x - +"
+    },
+    "403_8x8": {
+      "id": "403_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/403.a.htm",
+      "solution": "8 8\n+ - + - x + - x\n- + - + x x x x\n+ - x x x x x x\nx x + x x + - x\n- + - x + - + -\n+ - + - x x - +\n- + - x x - + -\n+ - + x x + - +"
+    },
+    "404_10x10": {
+      "id": "404_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/404.a.htm",
+      "solution": "10 10\n- + - + x x - + - +\nx x x - + - + - + -\n+ - x + - + - + - +\n- + x - x x + - + -\n+ - x + - x x + - +\nx x + - + x x - + -\n- x x x x - x + - +\n+ x x + - + x x x -\nx x x x + - + - x x\n- + - + - + - + - +"
+    },
+    "405_10x10": {
+      "id": "405_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/405.a.htm",
+      "solution": "10 10\nx + - + - x - + - +\nx - + - + x + - + -\nx + - + - + - + - +\nx x x x x - x x x x\n+ - + - x x x - + x\nx + - + - + - + x x\nx - + - + - + - + -\n- + - + - + x x x x\n+ - + x x x - + - x\n- + - x x x + - + x"
+    },
+    "406_10x10": {
+      "id": "406_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/406.a.htm",
+      "solution": "10 10\n- + - x + - + - + -\n+ - + x - + - + x x\nx + - x + - + - x x\nx x x x - + - x x -\n+ - + - x x + - x +\n- + - + x x x + x -\n+ - + - x + x - x +\n- + - + x - x + x x\n+ - + x - + x x x x\n- + - x + - + - + -"
+    },
+    "407_10x10": {
+      "id": "407_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/407.a.htm",
+      "solution": "10 10\n+ - + - x x - + - +\n- + - + - + x x + -\nx x x - + - x x x x\nx - x + - + x + - +\n- + x - + - x - + -\n+ x x + - + - + - +\nx - x x + - x x x -\nx + - + - + x x x +\n+ - + - + x x x + -\n- + - + - + - x - +"
+    },
+    "408_12x12": {
+      "id": "408_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/408.a.htm",
+      "solution": "12 12\n- + - x x x + - + - + -\n+ - + - + x - + - + - +\n- + x x - + x x + - + -\nx x - x x - x + - + - +\n+ - + x x + x - + - + -\n- + - + - x x + - + - +\n+ - + - + x x - + - + -\n- + - + - + - + - + - +\n+ - + - + x x - + x x -\nx x x x x x x x - + - +\n- + x x x + - x x - + -\n+ - + - + - + - x + - +"
+    },
+    "409_12x12": {
+      "id": "409_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/409.a.htm",
+      "solution": "12 12\n+ - + x + - x + - + - +\n- + - x - + x x x - + -\n+ - + - + - + - x x - +\n- + - + - + - + - x x -\n+ - + - + - + - + x x +\nx + - + - + - + - + x -\nx - + - + - + - + - x +\n- + - + x x - + x x + -\n+ - + x - x x - x x - +\n- + - x + x x + x x + -\n+ - + - x - + - + - x +\n- + - + x + - + - + x -"
+    },
+    "410_12x12": {
+      "id": "410_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/410.a.htm",
+      "solution": "12 12\n- + - + x x + - x x + -\nx x x x - + - + - + - +\n+ - + - + - + - + - + -\n- x x + x + - + - x - +\nx x x x x x x - x x x x\nx - + x + - x + x - + -\n- + - + - x x x x + - +\n+ - + - + x - + - x + -\n- + x + - x + - + x x +\n+ - x x x x - + - + x -\n- + - x + - + - + - x +\n+ - + x - + - + - + x -"
+    },
+    "411_8x8": {
+      "id": "411_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/411.a.htm",
+      "solution": "8 8\n- x + - x x x x\n+ x x + x - + x\n- + x - x x x +\nx x - + - + x -\nx x + - x x - x\n- x x x x x + x\n+ x - + - + - +\nx x + - + - + -"
+    },
+    "412_8x8": {
+      "id": "412_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/412.a.htm",
+      "solution": "8 8\n+ - + - + - x +\n- x x x x + x -\nx + - + x x x x\nx - x - x x - +\n- + x + x - + -\n+ - + x x + - +\n- + - x x - + -\n+ - + - x + - +"
+    },
+    "413_8x8": {
+      "id": "413_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/413.a.htm",
+      "solution": "8 8\nx x x x - + - +\n- + - x x - + -\n+ - + x x + - +\nx + - + - x x -\nx x x x x + - +\n+ - + x x - + -\n- + - x x x x +\n+ - x x - + x x"
+    },
+    "414_10x10": {
+      "id": "414_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/414.a.htm",
+      "solution": "10 10\n+ x + - x x - x + -\n- x - + - x + x x x\n+ - + - + x - + - +\n- + - + x x + x + -\n+ - + - x x - x - +\n- + - + - x + - + -\nx - + - x x - + - +\nx + x + x - + - + -\nx x x x x x x + - +\nx x + - + - + - + -"
+    },
+    "415_10x10": {
+      "id": "415_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/415.a.htm",
+      "solution": "10 10\nx + - + - + - + - +\nx - + - + - + - + -\nx + - + - + - + - +\nx x x - + - + - + -\nx + x x - + - + - +\nx - + - x x + - + -\n- + - + x x - + - +\n+ - + - x + x x + -\n- + - + x - + x x x\n+ - + - x x - + - x"
+    },
+    "416_10x10": {
+      "id": "416_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/416.a.htm",
+      "solution": "10 10\n- + - + - + x x - +\n+ - + - + - + - + -\n- + - x x x x x x +\n+ - + x - + - + - x\n- + - x + - + - + x\n+ - + x - + - + - x\nx + - x + - + x x x\nx - + x x x x - + -\n- + - + - + - + - +\n+ - + - + - x x + -"
+    },
+    "417_10x10": {
+      "id": "417_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/417.a.htm",
+      "solution": "10 10\nx + - + - + - + - +\nx x x - + - + - + x\nx x - + - + - x x x\n+ - + - + - + x - +\n- + - x x + - x + -\n+ - + - + - x + - +\n- + - + - + x - + -\nx x x - + - x x x +\nx - x + - + - + x -\nx + x x + x x - x x"
+    },
+    "418_12x12": {
+      "id": "418_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/418.a.htm",
+      "solution": "12 12\n+ - + - + - + - + - + -\n- + - + - + - + - + - +\n+ - + - + x x x x - + -\nx + - + x x + - x + - +\nx - + - x x - + x x + -\n+ x - x x x x - + x x x\n- x x x - + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - x - +\n+ - + - + - + - + x x x\n- + - + - + - x x + x -\n+ - + - + - + - + - x +"
+    },
+    "419_12x12": {
+      "id": "419_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/419.a.htm",
+      "solution": "12 12\n+ - + - + - x x - + - +\n- + - + - + - x x x x x\n+ - + - + - + - + - + x\n- + x x x + - + - + - +\n+ x - + x x + - + x x -\n- x + - + x - + x - + x\nx + - + - x x - x + - x\nx - + - + - x x + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - x x\nx x x + - + - + - + - +\n- + x - + - + - + - + -"
+    },
+    "420_12x12": {
+      "id": "420_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/420.a.htm",
+      "solution": "12 12\nx x - + x - x x - + - +\n- x + - x + x x + - + -\n+ x - x x - + x - + - +\nx x + - + x - x + x x -\n- + - + - x + x - + - +\n+ - + - + x - x + - + -\nx + - + - x + x - + - +\nx - + - + - x x + - + -\n+ x - + - + x x - + - +\n- x + - + - + x + - + -\nx + - + - + - + - + - +\nx - + - + - + x x - + -"
+    },
+    "421_8x8": {
+      "id": "421_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/421.a.htm",
+      "solution": "8 8\n+ - + - + - + -\n- + - + x x - x\n+ - + x - x + x\n- + - x + x x x\nx x + - x - + -\n+ - x x x + - +\n- + x x x x x -\n+ - + - x + - +"
+    },
+    "422_8x8": {
+      "id": "422_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/422.a.htm",
+      "solution": "8 8\n+ - + - x x x +\n- + - + - + x -\n+ - + - x x - +\n- + x x x x + -\n+ - x - + x x +\n- + x + - x + -\n+ x x - + x - +\n- + - + - x x -"
+    },
+    "423_8x8": {
+      "id": "423_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/423.a.htm",
+      "solution": "8 8\n+ - + - + x + x\n- + - + - x - x\n+ - + - + - + -\nx + - + - x x +\nx - + x x - + -\nx x x x x x - +\n- + - + - x x -\n+ - + - + x x +"
+    },
+    "424_10x10": {
+      "id": "424_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/424.a.htm",
+      "solution": "10 10\n- x + - x + - + - +\n+ x - + x - + - x x\n- x + - + x - + x x\n+ x - x - x x x - +\nx x + x + - + - + -\nx x - + - + - + x x\nx x + - + - + - + -\nx x - + - + - + - +\n- x x x x x x x x x\n+ - + x + - + - + -"
+    },
+    "425_10x10": {
+      "id": "425_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/425.a.htm",
+      "solution": "10 10\n- + - + x x x x x x\n+ - + - + - + - + -\n- + x x - + - + x +\n+ - + - + - + - x -\nx x - + - + - + - x\n- + x x x x + - + x\n+ - + - x + - + - +\n- x x x x - + - + -\n+ x - + - + - + - +\nx x + - + - + - + -"
+    },
+    "426_10x10": {
+      "id": "426_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/426.a.htm",
+      "solution": "10 10\n+ - + x x - + - + -\n- + - + x x x + - +\n+ - + - x + x x + -\n- + - x x - x - x x\n+ - + x - + x + - +\n- + - x x x x x x x\n+ - + - + - + - + -\nx x - + - + x + - +\n+ x + - + - x - + -\n- x - + - + x x - +"
+    },
+    "427_10x10": {
+      "id": "427_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/427.a.htm",
+      "solution": "10 10\n+ - + x - + - + - +\n- + - x + - + - x x\nx - + x - x x x x -\nx x - x + x x + - +\nx x + - x x + - + -\nx + - + - + - + - +\n+ - x - + - + - + -\n- + x + - + x + - +\n+ - + - + - x - + -\n- + x x - + - + - +"
+    },
+    "428_12x12": {
+      "id": "428_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/428.a.htm",
+      "solution": "12 12\nx + - + - x + - + - + -\nx x + - + x - + - + x x\n- x - + - + x x x x x x\n+ - + - + - + - + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + x + -\nx x x x - + - + - x x x\n- + - x + x x x x + - +\n+ - + x - x + - x - + -\n- + x x + x - + - + - +\n+ x - + - x + - + - + -\n- x + - x x - + - + - +"
+    },
+    "429_12x12": {
+      "id": "429_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/429.a.htm",
+      "solution": "12 12\n- + x x - + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - x -\n- + - + - + - + - + x +\n+ - + - + x + - + - + -\n- + - x x x - x x + - +\n+ x x + - + x x + - + -\nx - + - + - x x - + - +\nx + - + - + - + x - + -\n- x + - + - + - x x - +\n+ x - + - + - + - x + -"
+    },
+    "430_12x12": {
+      "id": "430_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/430.a.htm",
+      "solution": "12 12\n+ - + - + - + x - x + -\n- + - + - + - x + x - +\nx - + - + - + x x - + -\nx + - + - + - + - + - +\n- x x - x x x x + x x x\n+ - x x x x + x - x + -\nx + - + - + - x + x x +\nx x x - + - + x x - + -\n+ - x + x + - + - + - +\n- + x - x x + x x x + -\n+ - x x + x - x x x - +\n- + - + - x x + - x x -"
+    },
+    "431_8x8": {
+      "id": "431_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/431.a.htm",
+      "solution": "8 8\nx x + - + - + x\n- + - + - x x x\n+ - x - + - x +\n- + x + - + x -\n+ - + - + - x +\nx x - + - + x -\nx x x x x x x x\n+ - x - + x + -"
+    },
+    "432_8x8": {
+      "id": "432_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/432.a.htm",
+      "solution": "8 8\n- x + - + x - +\n+ x - + - x + -\nx x + x x x - x\n- + - x x x + x\n+ - + - + x x +\n- + - x x x + -\n+ - + x x x - +\n- x x + - x x -"
+    },
+    "433_8x8": {
+      "id": "433_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/433.a.htm",
+      "solution": "8 8\n- + - x + - x x\n+ - + x - + x -\n- + x x + - x +\n+ x x x - + x -\n- x + - + - x +\nx x - + - + x x\n+ - + - + - + x\n- + - x x + - x"
+    },
+    "434_10x10": {
+      "id": "434_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/434.a.htm",
+      "solution": "10 10\n- + - + - + x x - +\n+ - + - + - + - + -\nx x x + - + - + - +\nx + x - + - x x x -\n+ - x + - + x x x +\n- + x - x x - x x -\nx - x + x x + x x +\nx + x x x x x x x -\n+ - x x - + - + - +\n- x x x + - + - + -"
+    },
+    "435_10x10": {
+      "id": "435_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/435.a.htm",
+      "solution": "10 10\n+ - x + - x x + - +\n- + x - + - + - + -\n+ - x + - + - + - +\n- + x x x - + - + -\n+ - + - x + - + - +\n- + - x x - x - + -\nx x + x x + x + x x\n- + - + x - x x - +\n+ - + - x + - x + -\nx x - + x - + x - +"
+    },
+    "436_10x10": {
+      "id": "436_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/436.a.htm",
+      "solution": "10 10\n+ - + - + - + - x +\n- + - + x x - + x -\nx x x - + - + x x +\nx - + x x + - x x -\nx x - x x x x x x x\nx x + - + - + - + x\n+ - x x - + - + - +\n- x x - + - + - + -\n+ x x + - + - + - +\n- + x x + - + - + -"
+    },
+    "437_10x10": {
+      "id": "437_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/437.a.htm",
+      "solution": "10 10\nx - + - x x x x + -\nx + - + - + - + - +\n+ - + - + - + - + -\nx x x x x + - + - +\nx + - x x x x - + -\nx x + x - + - + - +\n+ x - x x x x - + -\n- x x - + - + x - +\n+ - + x - + x x + -\nx x - x x x x + - +"
+    },
+    "438_12x12": {
+      "id": "438_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/438.a.htm",
+      "solution": "12 12\n- + - + - + x x + x - +\n+ - + - + - x x - x + -\n- + - + - x x - + x x +\n+ x + - + - x x x - + -\n- x - + - + - + x + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - +\n+ - + x + x x x x - + -\n- + - x x - + - x + - +\nx x x + x + x x x - + -\n+ - x - + x x + - + - +\n- + - + - x x - + - + -"
+    },
+    "439_12x12": {
+      "id": "439_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/439.a.htm",
+      "solution": "12 12\nx x + - + - + - + - + -\n- + - + - + x x - + - +\n+ x x x x x x x x x + -\n- x + - x x + - + x - +\nx x - + x - x x - x + -\n+ - + - x + x x x x - +\n- + - + - x + - + - + -\n+ - + - + x x x - + - +\n- + - + - + - + x - + -\n+ - + - + - + - x + - +\n- + - + - + x x + - + -\n+ - + - + - x x - + - +"
+    },
+    "440_12x12": {
+      "id": "440_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/440.a.htm",
+      "solution": "12 12\n- + - + x + - + - + - +\n+ - + - x - + - + - + -\n- + - + - + - x - + - +\n+ - + - + - + x + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - + -\nx x x x x + - + - x x x\n- + x + x x + - + x - +\n+ - + - x x - x x - + -\n- + - x x - + - x + - +\n+ - x + - + - + x - + -\n- + x - + - + x x + - +"
+    },
+    "441_8x8": {
+      "id": "441_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/441.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - + - + - +\n- x x x x x + -\n+ x - + - + - +\n- x x - + - + -\n+ x x + - + - +\n- x x - + - x x\n+ x x + - + x x"
+    },
+    "442_8x8": {
+      "id": "442_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/442.a.htm",
+      "solution": "8 8\n- + - x + - x x\n+ - + x - + - +\n- + x - + x + -\nx x x x x x - +\n+ - + - + - + -\n- + x + - + - +\nx - x x x - + -\nx + - + - + - +"
+    },
+    "443_8x8": {
+      "id": "443_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/443.a.htm",
+      "solution": "8 8\n+ - + - + - + -\n- + - x x + - +\n+ - + - + - x x\n- + - + - x + -\n+ - + - + x - +\n- + x x x x x -\n+ - + x x + - +\n- + - x + - + -"
+    },
+    "444_10x10": {
+      "id": "444_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/444.a.htm",
+      "solution": "10 10\n+ - + - + - + - + -\n- + - + - + - + - +\n+ - + - + - + x x x\n- + - x x + - x - +\nx x x x x x + x + -\n+ - + x x + - x - +\n- + - x x - + - + -\nx x + - x x - + - +\n+ x - x + - + - + -\n- x + x - + - + - +"
+    },
+    "446_10x10": {
+      "id": "446_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/446.a.htm",
+      "solution": "10 10\n+ - x - + - + - + -\n- + x + - + - + - x\n+ x x - + - + x + x\n- + - + - + - x - +\n+ - + - + - + - + -\n- x x x - + - + - +\nx + - x x x x x + x\nx x x + x - + x - x\nx x x - x + x x + -\nx + - x x - x x x +"
+    },
+    "447_10x10": {
+      "id": "447_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/447.a.htm",
+      "solution": "10 10\n- + x x x x + x x -\n+ x x x - + - + - +\n- x - + x - + x x -\n+ - + - x + - + - +\n- + - x x x + - + -\n+ - + x + - x x - +\n- + - x x + x x + -\n+ - + - + - + - x +\n- x - + - x - + x -\n+ x x x + x x x - +"
+    },
+    "448_12x12": {
+      "id": "448_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/448.a.htm",
+      "solution": "12 12\n- + - + - + - + - + - x\n+ - + - + - + - + - + x\n- + - x - + - + - + - +\n+ - + x + - + - + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - + -\n- x x + x x x + - + - x\n+ x - x x + x - + x x x\n- x + - + - x + x x x -\nx x x x x x x - x + - +\n- + - + - + - + - x + -\n+ - + - + - + - + x - +"
+    },
+    "449_12x12": {
+      "id": "449_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/449.a.htm",
+      "solution": "12 12\n- + - + - + - + - + - +\n+ - + - + - + - + - + -\n- + - + - + - + - + - x\n+ - + - + - + - + - + x\n- + - + - + x x x + x +\n+ - x x x x - + x - x -\n- + x - + x + - + x - +\n+ - x + - + - + x x + -\nx x x - + - + - x + - x\nx x x x - + - + - x x x\n+ - + - + - + - + - + -\n- + - + - + - + - + - +"
+    },
+    "450_12x12": {
+      "id": "450_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/450.a.htm",
+      "solution": "12 12\nx x - + - + - + - + - +\n- x + - + - + - + - + -\n+ x - x - x x x - + - x\n- x + x + x - x + - + x\n+ x - x x x + - x x x -\nx x + x - + x + x + - +\n+ x x x + - x - + - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - + -\n- + - x - + - + - + - +\n+ x x x x - + - + - + x\nx x + - x x x + - + - x"
+    },
+    "451_8x8": {
+      "id": "451_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/451.a.htm",
+      "solution": "8 8\n- x - + x x - +\n+ x + - + - + x\n- + - + - + - x\n+ - + - + - + -\n- + - x x x - +\n+ - + - + x x x\n- + - + x - x x\n+ - + - x + - +"
+    },
+    "452_8x8": {
+      "id": "452_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/452.a.htm",
+      "solution": "8 8\nx - + - + - + -\nx + - + x x - +\n+ - + - + - + -\n- + x x - + - +\n+ - + x + - + x\n- + - x x + - x\n+ - + - x - + -\n- + - + - + - +"
+    },
+    "453_8x8": {
+      "id": "453_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/453.a.htm",
+      "solution": "8 8\n- x + x x + - +\n+ x - + x - + -\n- x + - x + - +\n+ x - x x - + -\n- + x + - + - +\n+ - x - + - + -\nx x x x x x x +\n- + - + x - + -"
+    },
+    "454_10x10": {
+      "id": "454_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/454.a.htm",
+      "solution": "10 10\n- x x - + - + - + -\n+ - x + - + - + - +\n- + x - + - + x + -\n+ x x + - + - x - +\n- + x - + - x x + -\n+ - x + x + - + x x\nx x x x x - + - + -\nx - + x - + - + - +\nx x x x x x x x x x\n- + x - + - + - + x"
+    },
+    "455_10x10": {
+      "id": "455_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/455.a.htm",
+      "solution": "10 10\nx x x x x x x x x -\nx + - + - + - + - +\n- x + - + - + - + -\n+ x x x - + - + - +\n- + - + x - + - + -\nx x + - x + - + - +\n+ - x x x - + - + -\nx x x - + x x + - +\nx x x x - + x x + -\n+ - x x + - x x - +"
+    },
+    "456_10x10": {
+      "id": "456_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/456.a.htm",
+      "solution": "10 10\n- + - x x x + - + -\n+ x + x - + - + - +\nx x - x x x x - + -\nx + x x + - x x x +\n+ - x x - + - + x -\n- + - x + x x x x +\n+ - + x - + - x + -\n- + - x x - + x - +\n+ - + x - + - + x -\n- + - x + - + - x +"
+    },
+    "457_10x10": {
+      "id": "457_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/457.a.htm",
+      "solution": "10 10\n- + x x - + - + - +\n+ - + - + - + - + -\n- + - + x x x x x x\n+ - + - x + - x - +\n- + - + x x + - + -\n+ - + - x x - + - +\n- + - + - x x - + -\n+ - + x + x - + - +\n- + - x - x + - x x\n+ - + x x + - + - +"
+    },
+    "458_12x12": {
+      "id": "458_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/458.a.htm",
+      "solution": "12 12\n+ - + - + - + - + x x +\n- + - + - + x x - x x -\n+ - + - + - + - + x - +\n- + - x x + - + - x x -\n+ - x x + - + - + - x +\n- + - x - + - + - + - x\nx x + x + - + - + - + x\n+ - x x - + - + - + - +\n- + x x + - + - + - + -\n+ x - + - + - + - + - +\n- x + - + - + - + - + x\n+ - x x - + - + - + - x"
+    },
+    "459_12x12": {
+      "id": "459_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/459.a.htm",
+      "solution": "12 12\n+ - + - + x - + - + - +\n- + - + - x + - + - + -\n+ - + - + x - + - + - +\n- + - + - x + - + - x -\n+ - + - + x x x x + x x\n- + - + x x - + - x - x\nx - + - x - + - + x + x\nx x x x x + x x x x x x\n- x - + x x - + - + x +\n+ - + - + - + x x - + -\n- + - + - + - + - + - +\n+ - + - + - + - + - + -"
+    },
+    "460_12x12": {
+      "id": "460_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Magnete/460.a.htm",
+      "solution": "12 12\n- + - + - + - x - + - +\n+ - + - + - + x x - + -\n- + - + - x x - x + x x\n+ - + x x + - + x x - +\n- + - + - x x - + - + -\n+ - + - + x x + - + - +\n- x x + - x + - + - + -\n+ - + - + x - + - + - +\n- + - + - + x - + - + -\nx x + - + x x x x + - +\n+ - x x - x + - + - + -\n- + - + x x - + - + - +"
+    }
+  },
+  "info": "",
+  "count": 439
+}

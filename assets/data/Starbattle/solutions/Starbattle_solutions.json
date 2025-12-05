@@ -1,0 +1,1848 @@
+{
+  "solutions": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/001.a.htm",
+      "solution": "6 6 1\n- - - x - -\nx - - - - -\n- - - - - x\n- - x - - -\n- - - - x -\n- x - - - -"
+    },
+    "2_6x6": {
+      "id": "2_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/002.a.htm",
+      "solution": "6 6 1\n- - - x - -\nx - - - - -\n- - - - - x\n- - x - - -\n- - - - x -\n- x - - - -"
+    },
+    "3_7x7": {
+      "id": "3_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/003.a.htm",
+      "solution": "7 7 1\n- - - x - - -\n- x - - - - -\n- - - - - - x\n- - - - x - -\nx - - - - - -\n- - - - - x -\n- - x - - - -"
+    },
+    "4_12x12": {
+      "id": "4_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/004.a.htm",
+      "solution": "12 12 1\nx - - - - - - - - - - -\n- - x - - - - - - - - -\n- - - - x - - - - - - -\n- x - - - - - - - - - -\n- - - - - x - - - - - -\n- - - x - - - - - - - -\n- - - - - - x - - - - -\n- - - - - - - - x - - -\n- - - - - - - - - - x -\n- - - - - - - x - - - -\n- - - - - - - - - - - x\n- - - - - - - - - x - -"
+    },
+    "5_10x10": {
+      "id": "5_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/005.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/006.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\n- - x - x - - - - -\nx - - - - - x - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -"
+    },
+    "7_11x11": {
+      "id": "7_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/007.a.htm",
+      "solution": "11 11 1\n- - - - - - x - - - -\n- - - - x - - - - - -\n- - - - - - - - x - -\n- - x - - - - - - - -\n- - - - - - - - - - x\nx - - - - - - - - - -\n- - - - - - - - - x -\n- x - - - - - - - - -\n- - - x - - - - - - -\n- - - - - - - x - - -\n- - - - - x - - - - -"
+    },
+    "8_9x9": {
+      "id": "8_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/008.a.htm",
+      "solution": "9 9 2\n- - - - x - x - -\nx - x - - - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - - x -\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\n- x - - - - - - x"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/009.a.htm",
+      "solution": "10 10 2\nx - - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - x -\nx - - - x - - - - -\n- - x - - - - - - x\n- - - - - x - x - -\n- x - - - - - - - x\n- - - x - - x - - -"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/010.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - - x - - - x\n- x - x - - - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - - - - - x - x -\n- - x - x - - - - -"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/011.a.htm",
+      "solution": "10 10 2\n- - x - - - - - - x\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - x - - x - -"
+    },
+    "12_9x9": {
+      "id": "12_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/012.a.htm",
+      "solution": "9 9 2\n- x - - - x - - -\n- - - x - - - - x\nx - - - - - x - -\n- - x - x - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - x - - x -"
+    },
+    "13_11x11": {
+      "id": "13_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/013.a.htm",
+      "solution": "11 11 2\n- - - - x - x - - - -\n- x - - - - - - x - -\n- - - - x - x - - - -\n- - x - - - - - - x -\nx - - - - - - x - - -\n- - - x - - - - - - x\nx - - - - - - - x - -\n- - x - - - - - - - x\n- - - - - x - x - - -\n- x - - - - - - - x -\n- - - x - x - - - - -"
+    },
+    "14_14x14": {
+      "id": "14_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/014.a.htm",
+      "solution": "14 14 3\n- - - - x - - - x - - - x -\nx - - - - - x - - - x - - -\n- - x - x - - - - - - - x -\n- - - - - - x - x - x - - -\n- x - x - - - - - - - - x -\n- - - - - x - x - x - - - -\nx - x - - - - - - - - x - -\n- - - - - - - x - x - - - x\n- x - x - - - - - - - x - -\n- - - - - x - x - - - - - x\nx - x - - - - - - x - - - -\n- - - - x - x - - - - x - -\n- x - - - - - - x - - - - x\n- - - x - x - - - - x - - -"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/015.a.htm",
+      "solution": "10 10 2\n- - - - x - - x - -\nx - x - - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - - - x - - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - x - - - - x -"
+    },
+    "16_12x12": {
+      "id": "16_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/016.a.htm",
+      "solution": "12 12 2\n- - - - - x - - x - - -\n- - - x - - - - - - x -\n- - - - - - x - x - - -\n- x - - - - - - - - - x\n- - - - - - - x - x - -\nx - - - - - - - - - - x\n- - x - x - - - - - - -\n- - - - - - - x - x - -\n- - - x - x - - - - - -\n- x - - - - - - - - x -\n- - - - x - x - - - - -\nx - x - - - - - - - - -"
+    },
+    "17_9x9": {
+      "id": "17_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/017.a.htm",
+      "solution": "9 9 2\n- x - - x - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - - x -\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - - x\n- - x - - - x - -"
+    },
+    "18_5x5": {
+      "id": "18_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/018.a.htm",
+      "solution": "5 5 1\n- - - x -\n- x - - -\n- - - - x\n- - x - -\nx - - - -"
+    },
+    "19_8x8": {
+      "id": "19_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/019.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - x -\n- - - - x - - -\n- - - - - - - x\n- - - - - x - -\n- - - x - - - -\nx - - - - - - -\n- - x - - - - -"
+    },
+    "20_9x9": {
+      "id": "20_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/020.a.htm",
+      "solution": "9 9 2\n- - x - x - - - -\nx - - - - - x - -\n- - - - x - - - x\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x"
+    },
+    "21_9x9": {
+      "id": "21_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/021.a.htm",
+      "solution": "9 9 2\n- - - x - - - x -\n- x - - - x - - -\n- - - x - - - - x\nx - - - - x - - -\n- - x - - - - x -\nx - - - x - - - -\n- - x - - - x - -\n- - - - x - - - x\n- x - - - - x - -"
+    },
+    "22_9x9": {
+      "id": "22_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/022.a.htm",
+      "solution": "9 9 2\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - x - -\n- - - - x - - - x\nx - x - - - - - -\n- - - - - x - x -"
+    },
+    "23_9x9": {
+      "id": "23_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/023.a.htm",
+      "solution": "9 9 2\nx - - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- x - - x - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - - x -\n- - x - - x - - -"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/024.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - - - - - - x\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - x - -"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/025.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - x - - - x - -\n- - - - - x - - - x\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -"
+    },
+    "26_14x14": {
+      "id": "26_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/026.a.htm",
+      "solution": "14 14 3\n- x - - x - x - - - - - - -\n- - - - - - - - x - x - x -\nx - x - - x - - - - - - - -\n- - - - - - - - x - x - - x\n- x - x - x - - - - - - - -\n- - - - - - - x - - - x - x\n- - - x - x - - - x - - - -\n- x - - - - - x - - - x - -\n- - - x - - - - - x - - - x\nx - - - - - - x - - - x - -\n- - x - x - - - - x - - - -\nx - - - - - x - - - - - x -\n- - x - - - - - x - x - - -\n- - - - x - x - - - - - x -"
+    },
+    "27_15x15": {
+      "id": "27_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/027.a.htm",
+      "solution": "15 15 3\n- - - - - - - - - - x - x - x\nx - x - x - - - - - - - - - -\n- - - - - - - x - x - - x - -\n- x - x - x - - - - - - - - -\n- - - - - - - - x - x - - x -\nx - x - - - x - - - - - - - -\n- - - - x - - - x - - - - x -\n- x - - - - x - - - - x - - -\n- - - x - - - - x - - - - x -\nx - - - - x - - - - - x - - -\n- - - x - - - x - x - - - - -\n- x - - - x - - - - - x - - -\n- - - - - - - x - x - - - - x\n- - x - x - - - - - - - x - -\n- - - - - - x - - - x - - - x"
+    },
+    "28_5x5": {
+      "id": "28_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/028.a.htm",
+      "solution": "5 5 1\nx - - - -\n- - x - -\n- - - - x\n- x - - -\n- - - x -"
+    },
+    "29_9x9": {
+      "id": "29_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/029.a.htm",
+      "solution": "9 9 2\n- x - - - - - x -\n- - - x - x - - -\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -\n- - - - x - x - -\n- - x - - - - - x\nx - - - - x - - -\n- - - x - - - x -"
+    },
+    "30_9x9": {
+      "id": "30_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/030.a.htm",
+      "solution": "9 9 2\n- x - - - - x - -\n- - - - x - - - x\n- - x - - - x - -\nx - - - - - - - x\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - x -\n- - x - x - - - -"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/031.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- x - - - -\n- - - - x -\n- - x - - -\nx - - - - -\n- - - x - -"
+    },
+    "32_9x9": {
+      "id": "32_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/032.a.htm",
+      "solution": "9 9 2\n- - x - - - x - -\nx - - - x - - - -\n- - x - - - - x -\nx - - - x - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - - x\n- x - x - - - - -\n- - - - - x - x -"
+    },
+    "33_9x9": {
+      "id": "33_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/033.a.htm",
+      "solution": "9 9 2\n- - - - x - x - -\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - - x\nx - x - - - - - -\n- - - - x - - x -"
+    },
+    "34_9x9": {
+      "id": "34_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/034.a.htm",
+      "solution": "9 9 2\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - - x -\n- - - x - x - - -\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/035.a.htm",
+      "solution": "10 10 2\n- x - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\n- - - x - - - x - -\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- - x - - - - - - x\nx - - - - - - x - -"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/036.a.htm",
+      "solution": "10 10 2\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\n- - x - x - - - - -\nx - - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/037.a.htm",
+      "solution": "10 10 2\n- x - - - - x - - -\n- - - - x - - - - x\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - x -\n- - x - - - x - - -\nx - - - - - - - x -\n- - - x - x - - - -"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/038.a.htm",
+      "solution": "10 10 2\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/039.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - - - x\n- - - - x - x - - -\nx - - - - - - - x -\n- - x - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - - x - x"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/040.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\n- - - x - - - x - -\nx - - - - x - - - -\n- - - - - - - x - x\n- x - - x - - - - -"
+    },
+    "41_9x9": {
+      "id": "41_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/041.a.htm",
+      "solution": "9 9 2\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - - x\n- x - x - - - - -\n- - - - - - x - x\nx - x - - - - - -\n- - - - x - x - -\nx - x - - - - - -\n- - - - x - - x -"
+    },
+    "42_9x9": {
+      "id": "42_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/042.a.htm",
+      "solution": "9 9 2\n- - - x - - - x -\n- x - - - x - - -\n- - - x - - - x -\nx - - - - x - - -\n- - x - - - - - x\n- - - - x - x - -\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -"
+    },
+    "43_9x9": {
+      "id": "43_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/043.a.htm",
+      "solution": "9 9 2\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - - x\nx - x - - - - - -\n- - - - x - - x -\nx - x - - - - - -\n- - - - x - x - -"
+    },
+    "44_9x9": {
+      "id": "44_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/044.a.htm",
+      "solution": "9 9 2\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -\n- - - - - x - x -\nx - - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- - x - x - - - -"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/045.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - x - - - - x\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - x - x - -\n- - - x - - - - - x"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/046.a.htm",
+      "solution": "10 10 2\n- - - x - - - - - x\nx - - - - - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - x - - - - x\nx - x - - - - - - -\n- - - - - x - x - -"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/047.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - - - x - - - - -\n- - x - - - - x - -\n- - - - - x - - - x\nx - x - - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/048.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - - x - - -\n- - - x - - - - - x\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - x - - x - -\n- x - - - - - - - x\n- - - - - x - x - -"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/049.a.htm",
+      "solution": "10 10 2\n- x - x - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\nx - - - - - - - - x\n- - x - x - - - - -\n- - - - - - - x - x\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/050.a.htm",
+      "solution": "10 10 2\nx - - - - x - - - -\n- - x - - - - x - -\nx - - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- x - - - - - - - x\n- - - x - - - x - -\n- x - - - x - - - -\n- - - x - - - - x -"
+    },
+    "51_5x5": {
+      "id": "51_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/051.a.htm",
+      "solution": "5 5 1\n- - - x -\nx - - - -\n- - x - -\n- - - - x\n- x - - -"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/052.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- - - x - -\nx - - - - -\n- - x - - -\n- - - - x -\n- x - - - -"
+    },
+    "53_7x7": {
+      "id": "53_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/053.a.htm",
+      "solution": "7 7 1\n- - - - - x -\n- - x - - - -\n- - - - - - x\n- - - - x - -\n- x - - - - -\n- - - x - - -\nx - - - - - -"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/054.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\n- - - x - - - -\n- x - - - - - -\n- - - - - x - -\n- - x - - - - -\n- - - - x - - -\nx - - - - - - -\n- - - - - - - x"
+    },
+    "55_9x9": {
+      "id": "55_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/055.a.htm",
+      "solution": "9 9 1\n- - - - x - - - -\n- - - - - - - x -\nx - - - - - - - -\n- - - - - - x - -\n- - - - - - - - x\n- - - x - - - - -\n- x - - - - - - -\n- - - - - x - - -\n- - x - - - - - -"
+    },
+    "56_9x9": {
+      "id": "56_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/056.a.htm",
+      "solution": "9 9 2\n- - - - x - x - -\n- - x - - - - - x\nx - - - - - x - -\n- - x - x - - - -\nx - - - - - - x -\n- - - x - x - - -\n- x - - - - - - x\n- - - x - x - - -\n- x - - - - - x -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/057.a.htm",
+      "solution": "10 10 2\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - - x - x\n- x - - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - - - x - - x\n- - x - x - - - - -\nx - - - - - - - x -\n- - - x - x - - - -"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/058.a.htm",
+      "solution": "10 10 2\n- - - - - - - x - x\n- - - x - x - - - -\n- - - - - - - x - x\n- x - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - x -\nx - x - - - - - - -\n- - - - x - x - - -\nx - x - - - - - - -"
+    },
+    "59_11x11": {
+      "id": "59_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/059.a.htm",
+      "solution": "11 11 2\n- x - - - x - - - - -\n- - - - - - - x - x -\nx - - x - - - - - - -\n- - - - - - x - x - -\n- - - x - - - - - - x\n- x - - - - - x - - -\n- - - - - x - - - - x\n- - x - - - - - x - -\n- - - - x - x - - - -\nx - x - - - - - - - -\n- - - - x - - - - x -"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/060.a.htm",
+      "solution": "12 12 2\n- - - - - - - - x - x -\n- - - x - - x - - - - -\nx - - - - - - - - - - x\n- - - x - - - - x - - -\n- x - - - x - - - - - -\n- - - - - - - - - x - x\n- - - - - x - x - - - -\n- - x - - - - - - - x -\n- - - - x - x - - - - -\nx - x - - - - - - - - -\n- - - - x - - x - - - -\n- x - - - - - - - x - -"
+    },
+    "61_6x6": {
+      "id": "61_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/061.a.htm",
+      "solution": "6 6 1\n- - - - x -\n- x - - - -\n- - - x - -\n- - - - - x\nx - - - - -\n- - x - - -"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/062.a.htm",
+      "solution": "6 6 1\n- - - - x -\n- - x - - -\n- - - - - x\n- x - - - -\n- - - x - -\nx - - - - -"
+    },
+    "63_6x6": {
+      "id": "63_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/063.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- - x - - -\n- - - - x -\n- x - - - -\n- - - x - -\nx - - - - -"
+    },
+    "64_9x9": {
+      "id": "64_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/064.a.htm",
+      "solution": "9 9 2\nx - - - x - - - -\n- - x - - - x - -\n- - - - x - - - x\nx - x - - - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -"
+    },
+    "65_9x9": {
+      "id": "65_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/065.a.htm",
+      "solution": "9 9 2\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - x -\n- - x - x - - - -\n- - - - - - x - x\n- x - - x - - - -\n- - - - - - x - x\nx - x - - - - - -"
+    },
+    "66_9x9": {
+      "id": "66_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/066.a.htm",
+      "solution": "9 9 2\n- - - - x - - - x\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - x - x - -"
+    },
+    "67_9x9": {
+      "id": "67_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/067.a.htm",
+      "solution": "9 9 2\n- - - x - x - - -\n- x - - - - - - x\n- - - x - - x - -\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - x - - x -"
+    },
+    "68_9x9": {
+      "id": "68_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/068.a.htm",
+      "solution": "9 9 2\n- - - - x - - x -\nx - x - - - - - -\n- - - - x - x - -\n- x - - - - - - x\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - - x\n- - x - - - x - -"
+    },
+    "69_9x9": {
+      "id": "69_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/069.a.htm",
+      "solution": "9 9 2\n- - - x - - - - x\n- x - - - - x - -\n- - - - x - - - x\nx - x - - - - - -\n- - - - x - x - -\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -"
+    },
+    "70_9x9": {
+      "id": "70_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/070.a.htm",
+      "solution": "9 9 2\n- - - - - x - - x\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\nx - x - - - - - -\n- - - - x - - x -\nx - x - - - - - -\n- - - - x - x - -"
+    },
+    "71_5x5": {
+      "id": "71_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/071.a.htm",
+      "solution": "5 5 1\nx - - - -\n- - x - -\n- - - - x\n- x - - -\n- - - x -"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/072.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- - - x - -\n- x - - - -\n- - - - x -\n- - x - - -\nx - - - - -"
+    },
+    "73_7x7": {
+      "id": "73_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/073.a.htm",
+      "solution": "7 7 1\n- - - - x - -\nx - - - - - -\n- - - x - - -\n- - - - - x -\n- x - - - - -\n- - - - - - x\n- - x - - - -"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/074.a.htm",
+      "solution": "8 8 1\n- - - - - x - -\nx - - - - - - -\n- - - - - - x -\n- - - - x - - -\n- - x - - - - -\n- - - - - - - x\n- x - - - - - -\n- - - x - - - -"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/075.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - x -\n- - - - x - - -\n- - - - - - - x\n- - - x - - - -\n- - - - - x - -\n- - x - - - - -\nx - - - - - - -"
+    },
+    "76_9x9": {
+      "id": "76_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/076.a.htm",
+      "solution": "9 9 1\n- - - - - - - x -\n- - - - - x - - -\nx - - - - - - - -\n- - - - x - - - -\n- - - - - - x - -\n- - x - - - - - -\n- - - - - - - - x\n- - - x - - - - -\n- x - - - - - - -"
+    },
+    "77_9x9": {
+      "id": "77_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/077.a.htm",
+      "solution": "9 9 2\n- - - - x - - x -\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\nx - x - - - - - -\n- - - - x - x - -\n- x - - - - - - x\n- - - x - x - - -"
+    },
+    "78_9x9": {
+      "id": "78_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/078.a.htm",
+      "solution": "9 9 2\n- - - - x - - - x\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\nx - - - x - - - -\n- - x - - - x - -"
+    },
+    "79_11x11": {
+      "id": "79_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/079.a.htm",
+      "solution": "11 11 2\n- x - x - - - - - - -\n- - - - - - x - - x -\n- - x - x - - - - - -\n- - - - - - x - - - x\n- - - x - - - - x - -\n- x - - - x - - - - -\n- - - - - - - x - - x\nx - - - - x - - - - -\n- - - - - - - x - x -\n- - x - x - - - - - -\nx - - - - - - - x - -"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/080.a.htm",
+      "solution": "12 12 2\n- - - - x - - - x - - -\nx - x - - - - - - - - -\n- - - - - x - x - - - -\n- - - x - - - - - - x -\nx - - - - x - - - - - -\n- - - - - - - - - x - x\n- - x - - - x - - - - -\n- - - - x - - - x - - -\n- - - - - - x - - - - x\n- x - - - - - - - x - -\n- - - x - - - x - - - -\n- x - - - - - - - - x -"
+    },
+    "81_6x6": {
+      "id": "81_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/081.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- - x - - -\n- - - - x -\nx - - - - -\n- - - x - -\n- x - - - -"
+    },
+    "82_6x6": {
+      "id": "82_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/082.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - - x -\nx - - - - -\n- - - x - -\n- - - - - x\n- - x - - -"
+    },
+    "83_6x6": {
+      "id": "83_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/083.a.htm",
+      "solution": "6 6 1\n- - - - x -\n- - x - - -\n- - - - - x\nx - - - - -\n- - - x - -\n- x - - - -"
+    },
+    "84_9x9": {
+      "id": "84_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/084.a.htm",
+      "solution": "9 9 2\n- - x - - - - x -\nx - - - x - - - -\n- - x - - - x - -\nx - - - - - - - x\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\n- x - - - - - - x\n- - - - x - x - -"
+    },
+    "85_9x9": {
+      "id": "85_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/085.a.htm",
+      "solution": "9 9 2\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - x - x - -\n- x - - - - - - x\n- - - x - - x - -\nx - - - - - - - x\n- - x - x - - - -"
+    },
+    "86_9x9": {
+      "id": "86_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/086.a.htm",
+      "solution": "9 9 2\n- x - - - x - - -\n- - - x - - - x -\nx - - - - x - - -\n- - x - - - - x -\nx - - - x - - - -\n- - - - - - x - x\n- - x - x - - - -\n- - - - - - x - x\n- x - x - - - - -"
+    },
+    "87_9x9": {
+      "id": "87_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/087.a.htm",
+      "solution": "9 9 2\n- x - - - - x - -\n- - - - x - - - x\n- - x - - - x - -\nx - - - - - - - x\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - x -\n- - x - x - - - -"
+    },
+    "88_9x9": {
+      "id": "88_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/088.a.htm",
+      "solution": "9 9 2\n- - x - - - x - -\nx - - - x - - - -\n- - x - - - - x -\nx - - - - x - - -\n- - - x - - - x -\n- x - - - x - - -\n- - - x - - - - x\n- x - - - - x - -\n- - - - x - - - x"
+    },
+    "89_9x9": {
+      "id": "89_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/089.a.htm",
+      "solution": "9 9 2\n- - x - - - x - -\nx - - - x - - - -\n- - x - - - - x -\nx - - - - x - - -\n- - - x - - - x -\n- x - - - x - - -\n- - - x - - - - x\n- x - - - - x - -\n- - - - x - - - x"
+    },
+    "90_9x9": {
+      "id": "90_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/090.a.htm",
+      "solution": "9 9 2\n- - x - - - x - -\n- - - - x - - - x\n- x - - - - x - -\n- - - x - - - - x\n- x - - - x - - -\n- - - x - - - x -\nx - - - - x - - -\n- - x - - - - x -\nx - - - x - - - -"
+    },
+    "91_5x5": {
+      "id": "91_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/091.a.htm",
+      "solution": "5 5 1\n- - - - x\n- x - - -\n- - - x -\nx - - - -\n- - x - -"
+    },
+    "92_6x6": {
+      "id": "92_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/092.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - x - -\n- - - - - x\nx - - - - -\n- - - - x -\n- - x - - -"
+    },
+    "93_6x6": {
+      "id": "93_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/093.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- x - - - -\n- - - - x -\n- - x - - -\nx - - - - -\n- - - x - -"
+    },
+    "94_6x6": {
+      "id": "94_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/094.a.htm",
+      "solution": "6 6 1\n- - - - - x\n- - x - - -\n- - - - x -\nx - - - - -\n- - - x - -\n- x - - - -"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/095.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - x - x - - -"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/096.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\nx - - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - - x\n- - x - - - - x - -"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/097.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - x - -\n- - - x - - - - - x\n- x - - - x - - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - x - x - - -"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/098.a.htm",
+      "solution": "10 10 2\n- - - - x - - x - -\n- - x - - - - - - x\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\nx - - x - - - - - -\n- - - - - x - x - -\n- x - - - - - - - x"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/099.a.htm",
+      "solution": "10 10 2\n- - - - - x - - x -\nx - x - - - - - - -\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - x - - x\n- - x - x - - - - -\n- - - - - - - x - x\nx - - x - - - - - -"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/100.a.htm",
+      "solution": "10 10 2\n- - x - - - - - - x\n- - - - - x - x - -\n- - - x - - - - - x\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - x - x - - -\nx - - - - - - - x -\n- - - x - x - - - -\n- x - - - - - x - -"
+    },
+    "101_5x5": {
+      "id": "101_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/101.a.htm",
+      "solution": "5 5 1\n- - x - -\nx - - - -\n- - - - x\n- x - - -\n- - - x -"
+    },
+    "102_6x6": {
+      "id": "102_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/102.a.htm",
+      "solution": "6 6 1\n- - x - - -\n- - - - - x\n- x - - - -\n- - - - x -\nx - - - - -\n- - - x - -"
+    },
+    "103_6x6": {
+      "id": "103_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/103.a.htm",
+      "solution": "6 6 1\n- - - - x -\nx - - - - -\n- - - x - -\n- x - - - -\n- - - - - x\n- - x - - -"
+    },
+    "104_6x6": {
+      "id": "104_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/104.a.htm",
+      "solution": "6 6 1\n- - - - - x\nx - - - - -\n- - - x - -\n- x - - - -\n- - - - x -\n- - x - - -"
+    },
+    "105_7x7": {
+      "id": "105_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/105.a.htm",
+      "solution": "7 7 1\n- - - - - - x\n- - x - - - -\n- - - - - x -\n- - - x - - -\n- x - - - - -\n- - - - x - -\nx - - - - - -"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/106.a.htm",
+      "solution": "10 10 2\n- - - x - - - x - -\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - - x - - x\n- x - - x - - - - -\n- - - - - - - x - x\n- - x - - x - - - -"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/107.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - x - x - -\nx - - x - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\n- x - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/108.a.htm",
+      "solution": "10 10 2\n- x - x - - - - - -\n- - - - - x - x - -\nx - - x - - - - - -\n- - - - - x - - - x\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - - x - x -"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/109.a.htm",
+      "solution": "10 10 2\n- - - x - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - x - - - - - - x"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/110.a.htm",
+      "solution": "10 10 2\nx - - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - x -\nx - x - - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\n- - - - x - - x - -\n- x - - - - - - - x\n- - - x - - x - - -"
+    },
+    "111_5x5": {
+      "id": "111_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/111.a.htm",
+      "solution": "5 5 1\n- - - - x\n- - x - -\nx - - - -\n- - - x -\n- x - - -"
+    },
+    "112_6x6": {
+      "id": "112_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/112.a.htm",
+      "solution": "6 6 1\n- - x - - -\n- - - - x -\n- x - - - -\n- - - - - x\nx - - - - -\n- - - x - -"
+    },
+    "113_7x7": {
+      "id": "113_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/113.a.htm",
+      "solution": "7 7 1\n- - x - - - -\n- - - - - - x\n- - - x - - -\n- x - - - - -\n- - - - - x -\nx - - - - - -\n- - - - x - -"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/114.a.htm",
+      "solution": "8 8 1\n- - - - - x - -\n- - - - - - - x\n- - x - - - - -\n- - - - x - - -\n- - - - - - x -\n- x - - - - - -\n- - - x - - - -\nx - - - - - - -"
+    },
+    "115_9x9": {
+      "id": "115_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/115.a.htm",
+      "solution": "9 9 1\n- - x - - - - - -\n- - - - x - - - -\n- - - - - - - - x\n- - - x - - - - -\n- - - - - - x - -\n- x - - - - - - -\n- - - - - - - x -\nx - - - - - - - -\n- - - - - x - - -"
+    },
+    "116_9x9": {
+      "id": "116_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/116.a.htm",
+      "solution": "9 9 1\n- - - - - - - - x\n- - - - - - x - -\n- - - x - - - - -\nx - - - - - - - -\n- - - - - x - - -\n- x - - - - - - -\n- - - - x - - - -\n- - x - - - - - -\n- - - - - - - x -"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/117.a.htm",
+      "solution": "10 10 2\nx - - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - x - - -\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - - - - - x - x"
+    },
+    "118_11x11": {
+      "id": "118_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/118.a.htm",
+      "solution": "11 11 2\n- - x - - x - - - - -\n- - - - - - - - x - x\n- - x - x - - - - - -\nx - - - - - - x - - -\n- - - x - - - - - x -\n- - - - - x - x - - -\n- x - x - - - - - - -\n- - - - - - x - - x -\nx - - - x - - - - - -\n- - - - - - x - - - x\n- x - - - - - - x - -"
+    },
+    "119_11x11": {
+      "id": "119_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/119.a.htm",
+      "solution": "11 11 2\nh - - - - - x - - x -\n- x - x - - - - - - -\n- - - - - - - - x - x\nx - - - x - - - - - -\n- - x - - - - - x - -\n- - - - x - x - - - -\nx - - - - - - - - - x\n- - x - - x - - - - -\n- - - - - - - x - x -\n- - - x - x - - - - -\n- x - - - - - x - - -"
+    },
+    "120_12x12": {
+      "id": "120_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/120.a.htm",
+      "solution": "12 12 2\n- - x - - - - - - - - x\n- - - - x - - - - x - -\n- x - - - - - x - - - -\n- - - - x - - - - - - x\n- - - - - - x - x - - -\nx - x - - - - - - - - -\n- - - - - x - x - - - -\n- - - x - - - - - - x -\n- x - - - x - - - - - -\n- - - x - - - - - x - -\nx - - - - - x - - - - -\n- - - - - - - - x - x -"
+    },
+    "121_5x5": {
+      "id": "121_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/121.a.htm",
+      "solution": "5 5 1\n- - x - -\nx - - - -\n- - - x -\n- x - - -\n- - - - x"
+    },
+    "122_6x6": {
+      "id": "122_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/122.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - x - -\nx - - - - -\n- - - - x -\n- - x - - -\n- - - - - x"
+    },
+    "123_7x7": {
+      "id": "123_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/123.a.htm",
+      "solution": "7 7 1\n- x - - - - -\n- - - - - - x\n- - - x - - -\n- - - - - x -\n- - x - - - -\n- - - - x - -\nx - - - - - -"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/124.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\n- - x - - - - -\nx - - - - - - -\n- - - x - - - -\n- - - - - x - -\n- - - - - - - x\n- - - - x - - -\n- x - - - - - -"
+    },
+    "125_9x9": {
+      "id": "125_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/125.a.htm",
+      "solution": "9 9 1\n- - - - - x - - -\n- x - - - - - - -\n- - - x - - - - -\n- - - - - - - - x\n- - x - - - - - -\n- - - - - - - x -\nx - - - - - - - -\n- - - - x - - - -\n- - - - - - x - -"
+    },
+    "126_9x9": {
+      "id": "126_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/126.a.htm",
+      "solution": "9 9 2\n- - - - x - - - x\n- - x - - - x - -\nx - - - x - - - -\n- - x - - - - x -\nx - - - - x - - -\n- - - x - - - x -\n- x - - - x - - -\n- - - x - - - - x\n- x - - - - x - -"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/127.a.htm",
+      "solution": "10 10 2\nx - - - - - - - x -\n- - - x - x - - - -\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -"
+    },
+    "128_11x11": {
+      "id": "128_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/128.a.htm",
+      "solution": "11 11 2\n- x - - - - - x - - -\n- - - - x - - - - x -\n- - x - - - x - - - -\n- - - - x - - - x - -\n- - - - - - x - - - x\n- x - x - - - - - - -\n- - - - - x - - - x -\n- - - x - - - x - - -\nx - - - - - - - - - x\n- - x - - - - - x - -\nx - - - - x - - - - -"
+    },
+    "129_11x11": {
+      "id": "129_11x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/129.a.htm",
+      "solution": "11 11 2\n- - - - - - x - - x -\n- x - x - - - - - - -\n- - - - - - x - x - -\n- - - - x - - - - - x\n- - x - - - - - x - -\nx - - - - - - - - - x\n- - x - - x - - - - -\nx - - - - - - x - - -\n- - - x - x - - - - -\n- x - - - - - - - x -\n- - - - x - - x - - -"
+    },
+    "130_12x12": {
+      "id": "130_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/130.a.htm",
+      "solution": "12 12 2\n- - - - - - - x - - x -\n- - x - x - - - - - - -\n- - - - - - - x - x - -\nx - - x - - - - - - - -\n- - - - - - x - x - - -\n- - x - x - - - - - - -\n- - - - - - x - - - x -\n- x - - - - - - x - - -\n- - - - - x - - - - - x\nx - - - - - - - - x - -\n- - - - - x - - - - - x\n- x - x - - - - - - - -"
+    },
+    "131_10x10": {
+      "id": "131_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/131.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\nx - x - - - - - - -\n- - - - x - - - x -\n- - x - - - x - - -\n- - - - x - - - - x\nx - - - - - - x - -\n- - - x - x - - - -\n- x - - - - - x - -"
+    },
+    "132_10x10": {
+      "id": "132_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/132.a.htm",
+      "solution": "10 10 2\nx - - - - - x - - -\n- - - - x - - - - x\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - x - - x - - -\nx - - - - - - - x -\n- - x - x - - - - -\n- - - - - - - x - x\n- - x - - x - - - -"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/133.a.htm",
+      "solution": "10 10 2\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - x - - - - - - x\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- x - - - - - - - x\n- - - x - - - x - -"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/134.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - - x\n- - - - - x - x - -"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/135.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\n- - x - - - - - - x\n- - - - - x - x - -\nx - - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - - x - x\nx - x - - - - - - -"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/136.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - x - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\nx - - - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - - x - x"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/137.a.htm",
+      "solution": "10 10 2\n- - x - - - x - - -\nx - - - - - - - x -\n- - - x - x - - - -\n- x - - - - - x - -\n- - - x - - - - - x\n- - - - - x - x - -\n- x - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - x -\nx - - - x - - - - -"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/138.a.htm",
+      "solution": "10 10 2\n- x - - - x - - - -\n- - - x - - - x - -\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\nx - - - - - x - - -\n- - x - - - - - - x\n- - - - x - - x - -\n- - x - - - - - - x"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/139.a.htm",
+      "solution": "10 10 2\n- x - - - - - x - -\n- - - x - - - - - x\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - x - x - - -"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/140.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\n- x - - - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - - - x\n- - - x - - - x - -"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/141.a.htm",
+      "solution": "10 10 2\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - x - - - - x - -\n- - - - - x - - - x\nx - - x - - - - - -"
+    },
+    "142_12x12": {
+      "id": "142_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/142.a.htm",
+      "solution": "12 12 2\n- - - - - - x - - - x -\n- x - x - - - - - - - -\n- - - - - - x - - - x -\n- x - - x - - - - - - -\n- - - - - - - x - x - -\nx - x - - - - - - - - -\n- - - - - x - - x - - -\nx - - x - - - - - - - -\n- - - - - x - x - - - -\n- - - - - - - - - x - x\n- - x - x - - - - - - -\n- - - - - - - - x - - x"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/143.a.htm",
+      "solution": "10 10 2\n- x - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\n- - - - - x - x - -\nx - - x - - - - - -\n- - - - - - x - - x\nx - - - x - - - - -\n- - x - - - - - x -"
+    },
+    "144_14x14": {
+      "id": "144_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/144.a.htm",
+      "solution": "14 14 3\n- - - - - - - - x - x - x -\n- x - x - x - - - - - - - -\n- - - - - - - x - - - x - x\n- x - - - x - - - x - - - -\n- - - - - - - x - - - x - x\n- x - x - x - - - - - - - -\n- - - - - - - - x - x - x -\n- - x - x - x - - - - - - -\nx - - - - - - - x - x - - -\n- - - x - - x - - - - - - x\nx - - - - - - - - x - x - -\n- - x - x - - x - - - - - -\nx - - - - - - - - x - - x -\n- - x - x - x - - - - - - -"
+    },
+    "145_9x9": {
+      "id": "145_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/145.a.htm",
+      "solution": "9 9 2\n- - - - x - - - x\nx - x - - - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - x - x - -"
+    },
+    "146_15x15": {
+      "id": "146_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/146.a.htm",
+      "solution": "15 15 3\n- - - x - - - - - x - x - - -\n- x - - - - x - - - - - - x -\n- - - - x - - - x - x - - - -\nx - x - - - - - - - - - - x -\n- - - - - - - x - x - x - - -\nx - - - x - - - - - - - - - x\n- - - - - - x - x - - - x - -\n- - x - - - - - - - x - - - x\n- - - - - x - - x - - - x - -\nx - x - - - - - - - x - - - -\n- - - - x - x - - - - - x - -\n- x - - - - - - - x - - - - x\n- - - x - x - x - - - - - - -\n- x - - - - - - - - - x - x -\n- - - x - x - x - - - - - - -"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/147.a.htm",
+      "solution": "10 10 2\nx - - - - x - - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - x - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - x - -\n- x - - - - - - - x"
+    },
+    "148_15x15": {
+      "id": "148_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/148.a.htm",
+      "solution": "15 15 3\n- - - - - - - - - - x - x - x\n- x - - - - x - x - - - - - -\n- - - x - - - - - - - x - x -\n- - - - - x - x - x - - - - -\n- - x - - - - - - - - x - - x\n- - - - x - x - x - - - - - -\n- x - - - - - - - - x - - x -\n- - - x - x - - x - - - - - -\n- x - - - - - - - - x - - x -\n- - - x - x - x - - - - - - -\nx - - - - - - - - x - x - - -\n- - x - x - - x - - - - - - -\nx - - - - - - - - - - - x - x\n- - x - - - x - - x - - - - -\nx - - - x - - - - - - - x - -"
+    },
+    "149_13x13": {
+      "id": "149_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/149.a.htm",
+      "solution": "13 13 2\n- - - x - - x - - - - - -\n- x - - - - - - - - - x -\n- - - - - x - - - x - - -\n- - - - - - - x - - - - x\n- - - x - - - - - x - - -\nx - - - - x - - - - - - -\n- - x - - - - - x - - - -\nx - - - - - - - - - - - x\n- - - - - - - x - - x - -\n- x - - x - - - - - - - -\n- - - - - - - - x - - x -\n- - x - - - x - - - - - -\n- - - - x - - - - - x - -"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/150.a.htm",
+      "solution": "10 10 2\n- - - x - - - - - x\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - x - - - x -\n- x - - - - x - - -"
+    },
+    "151_10x10": {
+      "id": "151_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/151.a.htm",
+      "solution": "10 10 2\n- - - x - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - x - - x\n- - x - x - - - - -\nx - - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -"
+    },
+    "152_10x10": {
+      "id": "152_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/152.a.htm",
+      "solution": "10 10 2\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - - - x\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - - x - x -"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/153.a.htm",
+      "solution": "10 10 2\n- x - - - x - - - -\n- - - x - - - - - x\nx - - - - x - - - -\n- - x - - - - x - -\nx - - - x - - - - -\n- - - - - - - x - x\n- - x - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - - x - x -"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/154.a.htm",
+      "solution": "10 10 2\nx - - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - - x\n- - - - x - - x - -\n- x - - - - - - - x\n- - - x - - x - - -\nx - - - - - - - x -\n- - x - - x - - - -"
+    },
+    "155_8x8": {
+      "id": "155_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/155.a.htm",
+      "solution": "8 8 1\nx - - - - - - -\n- - - - - x - -\n- - x - - - - -\n- - - - x - - -\n- - - - - - x -\n- - - x - - - -\n- x - - - - - -\n- - - - - - - x"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/156.a.htm",
+      "solution": "10 10 2\n- - x - - - - - - x\n- - - - x - x - - -\nx - - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- x - - - - - x - -"
+    },
+    "157_12x12": {
+      "id": "157_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/157.a.htm",
+      "solution": "12 12 2\n- - - - - - - - x - x -\n- - - - x - x - - - - -\n- - x - - - - - x - - -\nx - - - - - - - - - - x\n- - - - - x - - - x - -\n- x - x - - - - - - - -\n- - - - - - x - - - - x\nx - x - - - - - - - - -\n- - - - - - - x - - x -\n- - - x - x - - - - - -\n- x - - - - - - - x - -\n- - - - x - - x - - - -"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/158.a.htm",
+      "solution": "10 10 2\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - x - - - - x -\nx - - - - x - - - -\n- - - - - - - x - x\n- - x - x - - - - -"
+    },
+    "159_9x9": {
+      "id": "159_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/159.a.htm",
+      "solution": "9 9 2\nx - - - x - - - -\n- - - - - - x - x\n- x - x - - - - -\n- - - - - x - x -\nx - x - - - - - -\n- - - - - x - x -\n- x - x - - - - -\n- - - - - - x - x\n- - x - x - - - -"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/160.a.htm",
+      "solution": "10 10 2\n- x - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - x -"
+    },
+    "161_15x15": {
+      "id": "161_15x15",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/161.a.htm",
+      "solution": "15 15 3\n- - - - - - - x - x - - - x -\n- x - - - x - - - - - x - - -\n- - - x - - - - x - - - - - x\n- x - - - - - - - - x - x - -\n- - - x - x - x - - - - - - -\n- - - - - - - - - x - x - x -\n- - x - x - - x - - - - - - -\nx - - - - - - - - - x - x - -\n- - - - - - x - x - - - - - x\nx - x - x - - - - - - - - - -\n- - - - - - x - - x - - - - x\n- - x - x - - - - - - x - - -\nx - - - - - x - - - - - - x -\n- - - x - - - - x - x - - - -\n- x - - - x - - - - - - x - -"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/162.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - x - -\n- - - x - x - - - -\n- - - - - - - x - x\nx - - - x - - - - -\n- - x - - - - - x -\nx - - - - - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- x - - - - - - - x"
+    },
+    "163_10x10": {
+      "id": "163_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/163.a.htm",
+      "solution": "10 10 2\n- x - - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - x - - -\n- - - x - - - - x -\nx - - - - x - - - -\n- - x - - - - - - x\n- - - - x - - x - -"
+    },
+    "164_10x10": {
+      "id": "164_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/164.a.htm",
+      "solution": "10 10 2\nx - - - - - - - x -\n- - x - - x - - - -\nx - - - - - - - - x\n- - - x - - - x - -\n- x - - - x - - - -\n- - - x - - - x - -\n- x - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - x -\n- - - - x - x - - -"
+    },
+    "165_10x10": {
+      "id": "165_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/165.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - x - - - - -"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/166.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - - x - x\n- x - x - - - - - -\n- - - - - x - x - -\n- - - x - - - - - x\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/167.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - - x\n- - x - - - - x - -\nx - - - - - - - - x\n- - - - x - x - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - x -"
+    },
+    "168_10x10": {
+      "id": "168_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/168.a.htm",
+      "solution": "10 10 2\nx - - - x - - - - -\n- - - - - - - x - x\n- x - x - - - - - -\n- - - - - x - - x -\nx - x - - - - - - -\n- - - - - x - x - -\n- - - x - - - - - x\n- x - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/169.a.htm",
+      "solution": "10 10 2\n- - - - - - - x - x\n- - x - - x - - - -\nx - - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\n- x - x - - - - - -"
+    },
+    "170_9x9": {
+      "id": "170_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/170.a.htm",
+      "solution": "9 9 2\n- x - x - - - - -\n- - - - - - x - x\n- - x - x - - - -\nx - - - - - - x -\n- - - x - x - - -\n- x - - - - - - x\n- - - - x - x - -\nx - x - - - - - -\n- - - - - x - x -"
+    },
+    "171_9x9": {
+      "id": "171_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/171.a.htm",
+      "solution": "9 9 2\n- x - - - - x - -\n- - - - x - - - x\n- - x - - - x - -\nx - - - x - - - -\n- - x - - - - x -\nx - - - - x - - -\n- - - x - - - - x\n- x - - - x - - -\n- - - x - - - x -"
+    },
+    "172_9x9": {
+      "id": "172_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/172.a.htm",
+      "solution": "9 9 2\n- x - - - - - x -\n- - - x - x - - -\n- x - - - - - x -\n- - - x - x - - -\nx - - - - - - - x\n- - x - x - - - -\nx - - - - - x - -\n- - - - x - - - x\n- - x - - - x - -"
+    },
+    "173_12x12": {
+      "id": "173_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/173.a.htm",
+      "solution": "12 12 2\n- x - - - - - - - x - -\n- - - x - x - - - - - -\nx - - - - - - - - - - x\n- - x - x - - - - - - -\n- - - - - - x - x - - -\n- - - x - - - - - - x -\n- - - - - x - x - - - -\n- x - - - - - - - - x -\n- - - - - - x - x - - -\nx - - - - - - - - - - x\n- - - - x - - x - - - -\n- - x - - - - - - x - -"
+    },
+    "174_10x10": {
+      "id": "174_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/174.a.htm",
+      "solution": "10 10 2\n- - x - - - - - - x\nx - - - - x - - - -\n- - - x - - - x - -\n- x - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - - x - - x - -"
+    },
+    "175_10x10": {
+      "id": "175_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/175.a.htm",
+      "solution": "10 10 2\n- - - - - - x - - x\n- - x - x - - - - -\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - - x - x\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -"
+    },
+    "176_12x12": {
+      "id": "176_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/176.a.htm",
+      "solution": "12 12 2\n- - - - - x - - x - - -\nx - - - - - - - - - x -\n- - - x - - x - - - - -\n- - - - - - - - - x - x\n- - x - - - x - - - - -\n- - - - x - - - - x - -\n- x - - - - - x - - - -\n- - - - x - - - - - - x\n- x - - - - - - x - - -\n- - - x - - - - - - x -\n- - - - - x - x - - - -\nx - x - - - - - - - - -"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/177.a.htm",
+      "solution": "10 10 2\n- - x - - - - x - -\nx - - - - - - - - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - x - - - - x\nx - - - - - x - - -\n- - x - - - - - x -\n- - - - x - x - - -"
+    },
+    "178_12x12": {
+      "id": "178_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/178.a.htm",
+      "solution": "12 12 2\n- - - - - - - - x - - x\n- x - - - x - - - - - -\n- - - x - - - - - - x -\n- x - - - - - x - - - -\n- - - x - - - - - x - -\n- - - - - - x - - - - x\nx - x - - - - - - - - -\n- - - - x - x - - - - -\n- - - - - - - - x - x -\nx - - - x - - - - - - -\n- - x - - - - - - x - -\n- - - - - x - x - - - -"
+    },
+    "179_13x13": {
+      "id": "179_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/179.a.htm",
+      "solution": "13 13 2\nx - x - - - - - - - - - -\n- - - - - - - - - x - x -\n- x - - - - - x - - - - -\n- - - x - x - - - - - - -\n- - - - - - - - x - x - -\n- - x - - - x - - - - - -\n- - - - x - - - - - - x -\n- - - - - - x - x - - - -\n- - - - x - - - - - - - x\n- x - - - - - x - - - - -\n- - - - - - - - - x - - x\nx - - x - - - - - - - - -\n- - - - - x - - - - x - -"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/180.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - x - -\n- x - - - x - - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\n- - - - x - - - - x"
+    },
+    "181_6x6": {
+      "id": "181_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/181.a.htm",
+      "solution": "6 6 1\nx - - - - -\n- - x - - -\n- - - - x -\n- x - - - -\n- - - x - -\n- - - - - x"
+    },
+    "182_6x6": {
+      "id": "182_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/182.a.htm",
+      "solution": "6 6 1\n- - - x - -\nx - - - - -\n- - - - x -\n- x - - - -\n- - - - - x\n- - x - - -"
+    },
+    "183_7x7": {
+      "id": "183_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/183.a.htm",
+      "solution": "7 7 1\n- - - x - - -\n- x - - - - -\n- - - - - - x\n- - x - - - -\n- - - - - x -\nx - - - - - -\n- - - - x - -"
+    },
+    "184_7x7": {
+      "id": "184_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/184.a.htm",
+      "solution": "7 7 1\n- x - - - - -\n- - - x - - -\n- - - - - x -\n- - x - - - -\nx - - - - - -\n- - - - x - -\n- - - - - - x"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/185.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\n- - x - - - - -\nx - - - - - - -\n- - - x - - - -\n- x - - - - - -\n- - - - - x - -\n- - - - - - - x\n- - - - x - - -"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/186.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\nx - - - - - - -\n- - - - - x - -\n- - - - - - - x\n- - x - - - - -\n- - - - x - - -\n- x - - - - - -\n- - - x - - - -"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/187.a.htm",
+      "solution": "10 10 2\n- - - - - - x - - x\n- x - - x - - - - -\n- - - - - - - x - x\nx - - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - x - -\n- - x - - x - - - -"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/188.a.htm",
+      "solution": "10 10 2\n- - - x - - - x - -\n- x - - - - - - - x\n- - - - x - x - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - - x - - - -\n- - - x - - - - x -"
+    },
+    "189_12x12": {
+      "id": "189_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/189.a.htm",
+      "solution": "12 12 2\n- - - - - - - - - x - x\n- - x - x - - - - - - -\n- - - - - - - - - x - x\nx - - - - x - - - - - -\n- - - - - - - x - - x -\nx - x - - - - - - - - -\n- - - - - - - x - - x -\n- - - x - x - - - - - -\n- x - - - - - - x - - -\n- - - x - - x - - - - -\n- x - - - - - - x - - -\n- - - - x - x - - - - -"
+    },
+    "190_12x12": {
+      "id": "190_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/190.a.htm",
+      "solution": "12 12 2\n- x - - x - - - - - - -\n- - - - - - x - x - - -\n- x - - x - - - - - - -\n- - - - - - - - - x - x\n- - - x - - - x - - - -\nx - - - - - - - - - - x\n- - - - - x - x - - - -\n- - x - - - - - - - x -\n- - - - - - x - x - - -\n- - x - - - - - - - x -\nx - - - - x - - - - - -\n- - - x - - - - - x - -"
+    },
+    "191_6x6": {
+      "id": "191_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/191.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - - x -\nx - - - - -\n- - - x - -\n- - - - - x\n- - x - - -"
+    },
+    "192_6x6": {
+      "id": "192_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/192.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - - - x\n- - - x - -\nx - - - - -\n- - x - - -\n- - - - x -"
+    },
+    "193_7x7": {
+      "id": "193_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/193.a.htm",
+      "solution": "7 7 1\n- - - x - - -\n- - - - - - x\nx - - - - - -\n- - - - x - -\n- - x - - - -\n- - - - - x -\n- x - - - - -"
+    },
+    "194_7x7": {
+      "id": "194_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/194.a.htm",
+      "solution": "7 7 1\n- - - x - - -\n- - - - - x -\nx - - - - - -\n- - x - - - -\n- - - - x - -\n- - - - - - x\n- x - - - - -"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/195.a.htm",
+      "solution": "8 8 1\nx - - - - - - -\n- - - - - x - -\n- - - x - - - -\n- - - - - - x -\n- - x - - - - -\n- - - - - - - x\n- - - - x - - -\n- x - - - - - -"
+    },
+    "196_8x8": {
+      "id": "196_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/196.a.htm",
+      "solution": "8 8 1\n- - x - - - - -\n- - - - - - - x\n- x - - - - - -\n- - - x - - - -\n- - - - - x - -\nx - - - - - - -\n- - - - - - x -\n- - - - x - - -"
+    },
+    "197_8x8": {
+      "id": "197_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/197.a.htm",
+      "solution": "8 8 1\n- - - - - x - -\n- - x - - - - -\n- - - - - - - x\n- x - - - - - -\n- - - - - - x -\n- - - - x - - -\nx - - - - - - -\n- - - x - - - -"
+    },
+    "198_10x10": {
+      "id": "198_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/198.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - x - - - - x\nx - x - - - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/199.a.htm",
+      "solution": "10 10 2\n- - - - - - - x - x\n- - x - x - - - - -\n- - - - - - x - - x\n- x - x - - - - - -\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - - x -"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/200.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - - x\nx - - - - - x - - -"
+    },
+    "201_6x6": {
+      "id": "201_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/201.a.htm",
+      "solution": "6 6 1\n- x - - - -\n- - - x - -\n- - - - - x\nx - - - - -\n- - - - x -\n- - x - - -"
+    },
+    "202_6x6": {
+      "id": "202_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/202.a.htm",
+      "solution": "6 6 1\n- - - - x -\n- - x - - -\nx - - - - -\n- - - x - -\n- - - - - x\n- x - - - -"
+    },
+    "203_7x7": {
+      "id": "203_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/203.a.htm",
+      "solution": "7 7 1\n- - - - x - -\n- x - - - - -\n- - - - - - x\n- - x - - - -\nx - - - - - -\n- - - - - x -\n- - - x - - -"
+    },
+    "204_7x7": {
+      "id": "204_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/204.a.htm",
+      "solution": "7 7 1\n- - x - - - -\n- - - - x - -\n- - - - - - x\n- - - x - - -\nx - - - - - -\n- - - - - x -\n- x - - - - -"
+    },
+    "205_8x8": {
+      "id": "205_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/205.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - - x\n- - - - - x - -\nx - - - - - - -\n- - - x - - - -\n- - - - - - x -\n- - - - x - - -\n- - x - - - - -"
+    },
+    "206_8x8": {
+      "id": "206_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/206.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\n- - - - - - x -\n- x - - - - - -\n- - - - - - - x\n- - - x - - - -\nx - - - - - - -\n- - x - - - - -\n- - - - - x - -"
+    },
+    "207_8x8": {
+      "id": "207_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/207.a.htm",
+      "solution": "8 8 1\n- - - x - - - -\nx - - - - - - -\n- - - - - - x -\n- - x - - - - -\n- - - - - - - x\n- - - - - x - -\n- x - - - - - -\n- - - - x - - -"
+    },
+    "208_10x10": {
+      "id": "208_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/208.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\nx - - - - - - - x -\n- - x - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - - - - x - x\n- x - x - - - - - -\n- - - - - x - - - x\n- - - x - - - x - -\n- x - - - x - - - -"
+    },
+    "209_10x10": {
+      "id": "209_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/209.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - - x\n- - - x - - - x - -"
+    },
+    "210_10x10": {
+      "id": "210_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/210.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\n- - - - - - x - x -\nx - - x - - - - - -\n- - - - - x - x - -\n- x - - - - - - - x\n- - - x - - - x - -\n- - - - - x - - - x\nx - x - - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -"
+    },
+    "211_8x8": {
+      "id": "211_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/211.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\n- - x - - - - -\n- - - - - - - x\n- - - - - x - -\n- x - - - - - -\n- - - - - - x -\nx - - - - - - -\n- - - x - - - -"
+    },
+    "212_8x8": {
+      "id": "212_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/212.a.htm",
+      "solution": "8 8 1\n- - x - - - - -\n- - - - - - - x\n- x - - - - - -\n- - - - - x - -\n- - - x - - - -\nx - - - - - - -\n- - - - x - - -\n- - - - - - x -"
+    },
+    "213_8x8": {
+      "id": "213_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/213.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\nx - - - - - - -\n- - x - - - - -\n- - - - - x - -\n- - - - - - - x\n- x - - - - - -\n- - - - - - x -\n- - - x - - - -"
+    },
+    "214_10x10": {
+      "id": "214_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/214.a.htm",
+      "solution": "10 10 2\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- - - x - - - - - x\n- x - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -\nx - - - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -"
+    },
+    "215_10x10": {
+      "id": "215_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/215.a.htm",
+      "solution": "10 10 2\n- x - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - x -\nx - - - - x - - - -\n- - - x - - - x - -\n- - - - - x - - - x\n- - - x - - - x - -\n- x - - - - - - - x\n- - - - x - x - - -\nx - x - - - - - - -"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/216.a.htm",
+      "solution": "10 10 2\n- - x - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\nx - - - - - - - - x\n- - - - x - x - - -\nx - - - - - - - x -\n- - x - x - - - - -"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/217.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -\nx - - - - - - - - x\n- - - - - x - x - -\n- x - x - - - - - -\n- - - - - - x - x -\n- x - - x - - - - -"
+    },
+    "218_14x14": {
+      "id": "218_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/218.a.htm",
+      "solution": "14 14 3\nx - x - - - - - - - - - x -\n- - - - - - x - x - x - - -\nx - x - x - - - - - - - - -\n- - - - - - x - x - x - - -\n- - x - x - - - - - - - - x\n- - - - - - - x - x - x - -\n- x - x - x - - - - - - - -\n- - - - - - - x - x - - x -\n- x - x - x - - - - - - - -\n- - - - - - - x - - - x - x\n- x - x - x - - - - - - - -\n- - - - - - - - x - x - x -\nx - - - x - x - - - - - - -\n- - - - - - - - - x - x - x"
+    },
+    "219_14x14": {
+      "id": "219_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/219.a.htm",
+      "solution": "14 14 3\n- - - - - - - x - x - x - -\n- - - x - x - - - - - - - x\nx - - - - - - x - x - - - -\n- - x - - - - - - - - x - x\nx - - - x - x - - - - - - -\n- - x - - - - - - - x - x -\nx - - - x - - - x - - - - -\n- - x - - - x - - - - x - -\n- - - - x - - - x - - - - x\n- x - - - - x - - - x - - -\n- - - x - - - - x - - - x -\n- x - - - x - - - - x - - -\n- - - x - - - x - - - - x -\n- x - - - x - - - x - - - -"
+    },
+    "220_14x14": {
+      "id": "220_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/220.a.htm",
+      "solution": "14 14 3\n- - x - - x - - - - - - x -\nx - - - - - - x - x - - - -\n- - x - x - - - - - - x - -\nx - - - - - x - x - - - - -\n- - - x - - - - - - x - x -\n- x - - - x - x - - - - - -\n- - - x - - - - - x - x - -\n- x - - - x - - - - - - - x\n- - - x - - - - x - x - - -\nx - - - - - x - - - - - x -\n- - x - x - - - - - x - - -\n- - - - - - x - x - - - - x\n- x - - x - - - - - - x - -\n- - - - - - - x - x - - - x"
+    },
+    "221_8x8": {
+      "id": "221_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/221.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\n- - - - x - - -\n- - x - - - - -\n- - - - - - - x\n- - - x - - - -\n- x - - - - - -\n- - - - - x - -\nx - - - - - - -"
+    },
+    "222_8x8": {
+      "id": "222_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/222.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\nx - - - - - - -\n- - x - - - - -\n- - - - - x - -\n- - - - - - - x\n- x - - - - - -\n- - - - - - x -\n- - - x - - - -"
+    },
+    "223_10x10": {
+      "id": "223_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/223.a.htm",
+      "solution": "10 10 2\n- x - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - - - x - - - - -\n- - x - - - x - - -\nx - - - - - - - x -\n- - x - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -"
+    },
+    "224_10x10": {
+      "id": "224_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/224.a.htm",
+      "solution": "10 10 2\n- - x - - - - x - -\n- - - - - x - - - x\n- x - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - - x - - x - -"
+    },
+    "225_10x10": {
+      "id": "225_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/225.a.htm",
+      "solution": "10 10 2\n- x - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - x - - - x - -\nx - - - - - - - - x\n- - - - - x - x - -\nx - - - - - - - - x\n- - x - x - - - - -\n- - - - - - x - x -\n- - x - x - - - - -"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/226.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/227.a.htm",
+      "solution": "10 10 2\n- - - - x - - x - -\nx - - - - - - - - x\n- - x - - - - x - -\n- - - - - x - - - x\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -"
+    },
+    "228_14x14": {
+      "id": "228_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/228.a.htm",
+      "solution": "14 14 3\n- - x - x - - - - x - - - -\nx - - - - - - - - - - x - x\n- - x - - - - x - x - - - -\nx - - - - x - - - - - - x -\n- - x - - - - - x - x - - -\n- - - - x - x - - - - - - x\n- x - - - - - - x - - x - -\n- - - x - - x - - - - - - x\n- x - - - - - - - x - x - -\n- - - x - x - x - - - - - -\nx - - - - - - - - - x - x -\n- - - - x - x - x - - - - -\n- x - - - - - - - - x - x -\n- - - x - x - x - - - - - -"
+    },
+    "229_14x14": {
+      "id": "229_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/229.a.htm",
+      "solution": "14 14 3\n- - - - x - - - - x - x - -\nx - x - - - x - - - - - - -\n- - - - x - - - x - x - - -\n- x - - - - x - - - - - x -\n- - - x - - - - x - x - - -\n- x - - - x - - - - - - - x\n- - - x - - - - - x - x - -\nx - - - - - - x - - - - - x\n- - x - x - - - - - - x - -\n- - - - - - x - x - - - - x\nx - x - - - - - - - x - - -\n- - - - - x - x - - - - x -\n- x - x - - - - - x - - - -\n- - - - - x - x - - - - x -"
+    },
+    "230_14x14": {
+      "id": "230_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/230.a.htm",
+      "solution": "14 14 3\n- - x - x - - - - x - - - -\nx - - - - - x - - - - x - -\n- - - x - - - - x - - - - x\n- x - - - - x - - - x - - -\n- - - x - - - - x - - - - x\n- x - - - x - - - - - x - -\n- - - - - - - x - x - - - x\n- - x - x - - - - - - x - -\nx - - - - - x - x - - - - -\n- - - - x - - - - - x - x -\nx - x - - - - x - - - - - -\n- - - - - x - - - - x - x -\n- x - x - - - x - - - - - -\n- - - - - x - - - x - - x -"
+    },
+    "231_8x8": {
+      "id": "231_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/231.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - - x\n- - - - - x - -\n- - x - - - - -\n- - - - - - x -\n- - - x - - - -\nx - - - - - - -\n- - - - x - - -"
+    },
+    "232_8x8": {
+      "id": "232_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/232.a.htm",
+      "solution": "8 8 1\n- - - - - - x -\n- x - - - - - -\n- - - x - - - -\n- - - - - x - -\nx - - - - - - -\n- - - - x - - -\n- - - - - - - x\n- - x - - - - -"
+    },
+    "233_10x10": {
+      "id": "233_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/233.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - x - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -"
+    },
+    "234_10x10": {
+      "id": "234_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/234.a.htm",
+      "solution": "10 10 2\n- - - x - - - x - -\nx - - - - x - - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - - x - - -\n- x - - - - - - - x\n- - - - x - - x - -\n- - x - - - - - - x\nx - - - - x - - - -"
+    },
+    "235_10x10": {
+      "id": "235_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/235.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\n- x - - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\nx - - - - - - - x -\n- - x - - - x - - -\nx - - - x - - - - -\n- - x - - - x - - -"
+    },
+    "236_10x10": {
+      "id": "236_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/236.a.htm",
+      "solution": "10 10 2\n- - x - - - x - - -\nx - - - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - - - - - x - x\nx - - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -"
+    },
+    "237_10x10": {
+      "id": "237_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/237.a.htm",
+      "solution": "10 10 2\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - - - x\n- - - x - - - x - -\n- x - - - - - - - x\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - x - x - -"
+    },
+    "238_14x14": {
+      "id": "238_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/238.a.htm",
+      "solution": "14 14 3\n- - - - x - - - - - x - x -\n- x - - - - x - x - - - - -\n- - - x - - - - - - x - x -\nx - - - - - x - x - - - - -\n- - x - x - - - - - - x - -\nx - - - - - - - - x - - - x\n- - - - - x - x - - - x - -\n- x - x - - - - - - - - - x\n- - - - - - x - x - x - - -\n- - x - x - - - - - - - - x\n- - - - - - - x - x - x - -\n- x - x - x - - - - - - - -\n- - - - - - - x - x - - x -\nx - x - - x - - - - - - - -"
+    },
+    "239_14x14": {
+      "id": "239_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/239.a.htm",
+      "solution": "14 14 3\n- - x - - - - x - - - x - -\n- - - - - x - - - x - - - x\n- x - x - - - x - - - - - -\n- - - - - - - - - x - x - x\nx - - - x - x - - - - - - -\n- - x - - - - - x - x - - -\nx - - - x - x - - - - - - -\n- - - - - - - - x - x - x -\n- x - x - x - - - - - - - -\n- - - - - - - x - x - - x -\n- x - x - x - - - - - - - -\n- - - - - - - - x - x - x -\nx - x - - - x - - - - - - -\n- - - - x - - - - - - x - x"
+    },
+    "240_14x14": {
+      "id": "240_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/240.a.htm",
+      "solution": "14 14 3\n- x - x - - - - x - - - - -\n- - - - - - x - - - x - x -\nx - x - - - - - x - - - - -\n- - - - x - x - - - - - x -\nx - x - - - - - - - x - - -\n- - - - x - x - x - - - - -\n- x - - - - - - - - - x - x\n- - - x - x - - - x - - - -\n- x - - - - - x - - - - - x\n- - - - - x - - - x - x - -\n- - - x - - - x - - - - - x\n- - - - - x - - - x - x - -\nx - x - - - - x - - - - - -\n- - - - x - - - - - x - x -"
+    },
+    "241_8x8": {
+      "id": "241_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/241.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\n- - - - - - x -\nx - - - - - - -\n- - - - - - - x\n- - - x - - - -\n- x - - - - - -\n- - - - - x - -\n- - x - - - - -"
+    },
+    "242_8x8": {
+      "id": "242_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/242.a.htm",
+      "solution": "8 8 1\n- - - x - - - -\n- - - - - - - x\n- x - - - - - -\n- - - - - - x -\n- - - - x - - -\n- - x - - - - -\nx - - - - - - -\n- - - - - x - -"
+    },
+    "243_10x10": {
+      "id": "243_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/243.a.htm",
+      "solution": "10 10 2\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - x - - - x - -\nx - - - - - - - - x\n- - x - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - x - x - - -"
+    },
+    "244_10x10": {
+      "id": "244_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/244.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - - x\n- - - - - x - x - -\nx - - - - - - - - x\n- - x - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - x - x - -\n- x - x - - - - - -"
+    },
+    "245_10x10": {
+      "id": "245_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/245.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- - - - - - - x - x\n- x - - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -"
+    },
+    "246_10x10": {
+      "id": "246_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/246.a.htm",
+      "solution": "10 10 2\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - - - x\n- - x - - - - x - -\nx - - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - x -\n- - - - x - x - - -"
+    },
+    "247_10x10": {
+      "id": "247_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/247.a.htm",
+      "solution": "10 10 2\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - - x\n- - - - - x - x - -\nx - - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -"
+    },
+    "248_14x14": {
+      "id": "248_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/248.a.htm",
+      "solution": "14 14 3\nx - x - - - - x - - - - - -\n- - - - x - - - - x - - x -\nx - x - - - x - - - - - - -\n- - - - x - - - x - x - - -\nx - x - - - x - - - - - - -\n- - - - - - - - x - - x - x\n- x - x - x - - - - - - - -\n- - - - - - - - - x - x - x\n- - - x - x - x - - - - - -\n- x - - - - - - - - x - x -\n- - - - x - x - x - - - - -\n- x - - - - - - - - x - x -\n- - - x - x - x - - - - - -\n- - - - - - - - - x - x - x"
+    },
+    "249_14x14": {
+      "id": "249_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/249.a.htm",
+      "solution": "14 14 3\n- - - - x - x - - - x - - -\n- x - - - - - - x - - - x -\n- - - - x - x - - - x - - -\nx - x - - - - - - - - - x -\n- - - - - x - - x - x - - -\n- x - x - - - - - - - - x -\n- - - - - x - x - x - - - -\n- - - x - - - - - - - x - x\n- x - - - - - x - x - - - -\n- - - x - x - - - - - x - -\n- - - - - - - x - x - - - x\nx - x - - - - - - - - x - -\n- - - - - - x - x - - - - x\nx - x - x - - - - - - - - -"
+    },
+    "250_14x14": {
+      "id": "250_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/250.a.htm",
+      "solution": "14 14 3\n- - x - x - - - - - - - x -\nx - - - - - x - x - - - - -\n- - - x - - - - - - x - x -\n- x - - - x - x - - - - - -\n- - - x - - - - - x - - - x\n- x - - - x - - - - - x - -\n- - - - - - - x - x - - - x\nx - - - x - - - - - - x - -\n- - x - - - - x - x - - - -\nx - - - - x - - - - - x - -\n- - - x - - - - x - - - - x\n- x - - - - x - - - x - - -\n- - - - x - - - x - - - x -\n- - x - - - x - - - x - - -"
+    },
+    "251_8x8": {
+      "id": "251_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/251.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\n- - - - - - - x\n- - - x - - - -\n- - - - - x - -\n- x - - - - - -\n- - - - - - x -\n- - x - - - - -\nx - - - - - - -"
+    },
+    "252_8x8": {
+      "id": "252_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/252.a.htm",
+      "solution": "8 8 1\nx - - - - - - -\n- - - x - - - -\n- - - - - - x -\n- x - - - - - -\n- - - - x - - -\n- - x - - - - -\n- - - - - x - -\n- - - - - - - x"
+    },
+    "253_10x10": {
+      "id": "253_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/253.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\nx - - - - x - - - -\n- - x - - - - x - -\nx - - - x - - - - -\n- - x - - - - x - -\n- - - - - x - - - x\n- x - x - - - - - -\n- - - - - - x - - x\n- x - - x - - - - -\n- - - - - - x - x -"
+    },
+    "254_10x10": {
+      "id": "254_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/254.a.htm",
+      "solution": "10 10 2\n- x - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - x - - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - - - - x - x\n- - - x - x - - - -"
+    },
+    "255_10x10": {
+      "id": "255_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/255.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - - - x\n- - - - x - - x - -\n- x - - - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - - x - x -\nx - - x - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -"
+    },
+    "256_10x10": {
+      "id": "256_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/256.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\nx - - - - - x - - -\n- - x - - - - - x -\nx - - - - - x - - -\n- - x - - - - - - x\n- - - - x - - x - -\n- x - - - - - - - x\n- - - x - x - - - -\n- x - - - - - x - -\n- - - x - x - - - -"
+    },
+    "257_14x14": {
+      "id": "257_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/257.a.htm",
+      "solution": "14 14 3\n- - - x - - - - - - x - x -\n- x - - - x - - x - - - - -\n- - - x - - - - - - - x - x\n- x - - - - x - x - - - - -\n- - - - x - - - - - x - - x\nx - x - - - x - - - - - - -\n- - - - x - - - - x - x - -\nx - x - - - - x - - - - - -\n- - - - - x - - - x - - x -\nx - x - - - - x - - - - - -\n- - - - x - - - - - x - x -\n- x - - - - x - x - - - - -\n- - - x - - - - - - - x - x\n- - - - - x - x - x - - - -"
+    },
+    "258_14x14": {
+      "id": "258_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/258.a.htm",
+      "solution": "14 14 3\n- - - - - - - - x - x - - x\n- x - - x - x - - - - - - -\n- - - - - - - - x - x - x -\n- - x - x - x - - - - - - -\nx - - - - - - - - x - - x -\n- - - x - x - x - - - - - -\n- x - - - - - - - x - x - -\n- - - x - x - x - - - - - -\n- - - - - - - - - x - x - x\nx - x - - - - x - - - - - -\n- - - - - x - - - - - x - x\n- x - x - - - - x - - - - -\n- - - - - - x - - - x - x -\nx - x - x - - - - - - - - -"
+    },
+    "259_14x14": {
+      "id": "259_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/259.a.htm",
+      "solution": "14 14 3\n- - - - x - - x - - - - - x\n- x - - - - - - - x - x - -\n- - - - x - x - - - - - - x\n- - x - - - - - x - x - - -\nx - - - - - x - - - - - x -\n- - - x - - - - x - x - - -\n- x - - - x - - - - - - x -\n- - - x - - - x - x - - - -\nx - - - - - - - - - - x - x\n- - x - x - x - - - - - - -\n- - - - - - - - x - x - x -\n- x - x - x - - - - - - - -\n- - - - - - - x - x - x - -\nx - x - - x - - - - - - - -"
+    },
+    "260_14x14": {
+      "id": "260_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/260.a.htm",
+      "solution": "14 14 3\n- - - - - - - - x - - x - x\nx - - - x - x - - - - - - -\n- - x - - - - - - - x - - x\nx - - - x - x - - - - - - -\n- - x - - - - - - x - - - x\n- - - - - x - x - - - x - -\n- x - x - - - - - x - - - -\n- - - - - x - x - - - x - -\n- x - x - - - - - x - - - -\n- - - - - x - x - - - - x -\n- x - x - - - - - - x - - -\n- - - - - - x - x - - - x -\nx - x - x - - - - - - - - -\n- - - - - - - - x - x - x -"
+    },
+    "261_8x8": {
+      "id": "261_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/261.a.htm",
+      "solution": "8 8 1\n- - - - x - - -\nx - - - - - - -\n- - - x - - - -\n- - - - - x - -\n- - x - - - - -\n- - - - - - x -\n- x - - - - - -\n- - - - - - - x"
+    },
+    "262_8x8": {
+      "id": "262_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/262.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - x - - -\n- - - - - - - x\n- - x - - - - -\nx - - - - - - -\n- - - - - x - -\n- - - x - - - -\n- - - - - - x -"
+    },
+    "263_10x10": {
+      "id": "263_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/263.a.htm",
+      "solution": "10 10 2\n- - x - - - x - - -\nx - - - - - - - x -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - - - x"
+    },
+    "264_10x10": {
+      "id": "264_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/264.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- x - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - - x\nx - - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - x -"
+    },
+    "265_10x10": {
+      "id": "265_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/265.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - x - - - -\n- - - x - - - - - x\n- - - - - x - x - -\n- x - - - - - - - x\n- - - - x - - x - -\nx - x - - - - - - -\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - x - - -"
+    },
+    "266_10x10": {
+      "id": "266_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/266.a.htm",
+      "solution": "10 10 2\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - - x\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - x\nx - x - - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -"
+    },
+    "267_8x8": {
+      "id": "267_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/267.a.htm",
+      "solution": "8 8 1\n- - - - - x - -\n- - x - - - - -\n- - - - x - - -\nx - - - - - - -\n- - - x - - - -\n- - - - - - x -\n- x - - - - - -\n- - - - - - - x"
+    },
+    "268_8x8": {
+      "id": "268_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/268.a.htm",
+      "solution": "8 8 1\n- - - x - - - -\n- x - - - - - -\n- - - - x - - -\n- - x - - - - -\n- - - - - x - -\n- - - - - - - x\nx - - - - - - -\n- - - - - - x -"
+    },
+    "269_10x10": {
+      "id": "269_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/269.a.htm",
+      "solution": "10 10 2\nx - - - x - - - - -\n- - x - - - - - x -\nx - - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -"
+    },
+    "270_10x10": {
+      "id": "270_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/270.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\n- - x - x - - - - -\nx - - - - - - x - -\n- - - x - - - - - x\n- - - - - x - x - -\n- x - - - - - - - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -"
+    },
+    "271_10x10": {
+      "id": "271_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/271.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\nx - - - - x - - - -\n- - - x - - - - - x\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - x - - x - -"
+    },
+    "272_10x10": {
+      "id": "272_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/272.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - - - x\n- - x - - - - x - -\n- - - - - x - - - x\n- x - x - - - - - -\n- - - - - - x - x -\nx - - - x - - - - -\n- - x - - - - x - -"
+    },
+    "273_14x14": {
+      "id": "273_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/273.a.htm",
+      "solution": "14 14 3\n- - - - - - - x - - x - x -\n- x - x - x - - - - - - - -\n- - - - - - - x - x - - - x\n- - - x - x - - - - - x - -\n- x - - - - - - x - - - - x\n- - - - x - x - - - x - - -\nx - x - - - - - - - - - x -\n- - - - x - x - x - - - - -\nx - x - - - - - - - - x - -\n- - - - x - - x - x - - - -\nx - x - - - - - - - - - x -\n- - - - - - x - x - x - - -\n- x - x - - - - - - - - - x\n- - - - - x - - - x - x - -"
+    },
+    "274_14x14": {
+      "id": "274_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/274.a.htm",
+      "solution": "14 14 3\nx - - - - - - - - x - - - x\n- - x - x - x - - - - - - -\nx - - - - - - - x - - - - x\n- - - x - x - - - - - x - -\n- x - - - - - x - - - - - x\n- - - x - - - - - x - x - -\n- x - - - x - x - - - - - -\n- - - x - - - - - x - x - -\nx - - - - x - x - - - - - -\n- - x - - - - - - - x - x -\n- - - - x - x - x - - - - -\n- x - - - - - - - - x - x -\n- - - - x - x - x - - - - -\n- - x - - - - - - - x - x -"
+    },
+    "275_14x14": {
+      "id": "275_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/275.a.htm",
+      "solution": "14 14 3\n- - x - x - - - - - - - x -\n- - - - - - x - x - x - - -\n- x - x - - - - - - - - x -\n- - - - - x - - x - x - - -\n- x - x - - - - - - - - - x\n- - - - - - - x - x - x - -\n- x - - - x - - - - - - - x\n- - - - - - - x - x - x - -\nx - x - x - - - - - - - - -\n- - - - - - x - x - x - - -\nx - - - x - - - - - - - x -\n- - x - - - x - - x - - - -\nx - - - - - - - - - - x - x\n- - - x - x - x - - - - - -"
+    },
+    "276_14x14": {
+      "id": "276_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/276.a.htm",
+      "solution": "14 14 3\n- - - - - - - x - x - x - -\n- x - x - x - - - - - - - -\n- - - - - - - - x - x - x -\n- - x - x - x - - - - - - -\nx - - - - - - - - - x - x -\n- - - x - - x - x - - - - -\n- x - - - - - - - - - x - x\n- - - - x - - x - x - - - -\nx - x - - - - - - - - - - x\n- - - - - x - x - x - - - -\n- x - x - - - - - - - - x -\n- - - - - x - - x - x - - -\nx - x - - - - - - - - - - x\n- - - - x - x - - - - x - -"
+    },
+    "277_14x14": {
+      "id": "277_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/277.a.htm",
+      "solution": "14 14 3\n- - - - - - - x - - - x - x\n- x - x - x - - - - - - - -\n- - - - - - - - x - x - x -\nx - - - x - x - - - - - - -\n- - x - - - - - x - x - - -\nx - - - x - x - - - - - - -\n- - x - - - - - - x - x - -\n- - - - - x - x - - - - - x\n- x - x - - - - - x - - - -\n- - - - - - - x - - - x - x\n- - x - x - - - - x - - - -\nx - - - - - x - - - - - x -\n- - - x - - - - x - x - - -\n- x - - - x - - - - - - x -"
+    },
+    "278_14x14": {
+      "id": "278_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/278.a.htm",
+      "solution": "14 14 3\n- - x - - - - x - x - - - -\nx - - - x - - - - - - - x -\n- - - - - - x - x - x - - -\nx - x - - - - - - - - - - x\n- - - - - - - x - x - x - -\n- x - x - x - - - - - - - -\n- - - - - - - - - x - x - x\n- - x - x - x - - - - - - -\nx - - - - - - - x - - x - -\n- - - x - x - - - - - - - x\n- x - - - - - x - - x - - -\n- - - x - x - - - - - - x -\n- x - - - - - - x - x - - -\n- - - - x - x - - - - - x -"
+    },
+    "279_14x14": {
+      "id": "279_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/279.a.htm",
+      "solution": "14 14 3\n- - - - x - - - - x - x - -\n- - x - - - x - - - - - - x\nx - - - x - - - - - - x - -\n- - - - - - x - x - - - - x\n- x - x - - - - - - x - - -\n- - - - - x - x - - - - x -\n- x - x - - - - - x - - - -\n- - - - - x - x - - - - - x\n- - x - - - - - - x - x - -\nx - - - - x - x - - - - - -\n- - x - - - - - - - x - x -\nx - - - x - - - x - - - - -\n- - - - - - x - - - x - x -\n- x - x - - - - x - - - - -"
+    },
+    "280_14x14": {
+      "id": "280_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/280.a.htm",
+      "solution": "14 14 3\n- - x - - - - - - - x - x -\n- - - - x - x - x - - - - -\n- x - - - - - - - - - x - x\n- - - - x - - x - x - - - -\nx - - - - - - - - - - x - x\n- - x - - x - - x - - - - -\nx - - - - - - - - - x - - x\n- - x - x - x - - - - - - -\nx - - - - - - - - x - - x -\n- - - x - x - x - - - - - -\n- x - - - - - - - x - x - -\n- - - x - x - x - - - - - -\n- x - - - - - - - - x - x -\n- - - x - - x - x - - - - -"
+    },
+    "281_10x10": {
+      "id": "281_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/281.a.htm",
+      "solution": "10 10 2\n- - - x - x - - - -\n- x - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -\nx - - - - - - - x -\n- - - x - - x - - -\n- x - - - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - x - - - x -"
+    },
+    "282_10x10": {
+      "id": "282_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/282.a.htm",
+      "solution": "10 10 2\n- - - - - - - x - x\n- - x - - x - - - -\nx - - - - - - - x -\n- - x - x - - - - -\nx - - - - - x - - -\n- - - x - - - - - x\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -"
+    },
+    "283_10x10": {
+      "id": "283_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/283.a.htm",
+      "solution": "10 10 2\n- - x - - - - x - -\nx - - - - - - - - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\nx - x - - - - - - -\n- - - - x - x - - -"
+    },
+    "284_10x10": {
+      "id": "284_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/284.a.htm",
+      "solution": "10 10 2\n- x - - - - - - x -\n- - - x - x - - - -\nx - - - - - - x - -\n- - x - - - - - - x\n- - - - x - x - - -\n- x - - - - - - - x\n- - - x - x - - - -\nx - - - - - - x - -\n- - x - x - - - - -\n- - - - - - x - x -"
+    },
+    "285_10x10": {
+      "id": "285_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/285.a.htm",
+      "solution": "10 10 2\n- - - - x - x - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - x - - - - - - -\n- - - - - x - - x -\nx - - x - - - - - -\n- - - - - - - x - x\n- x - x - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x"
+    },
+    "286_10x10": {
+      "id": "286_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/286.a.htm",
+      "solution": "10 10 2\n- - x - - - x - - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - x - - - - x -\nx - - - - x - - - -\n- - x - - - - x - -\nx - - - x - - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - - x -"
+    },
+    "287_10x10": {
+      "id": "287_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/287.a.htm",
+      "solution": "10 10 2\n- x - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -\nx - - - - - - - x -\n- - - - x - x - - -\n- - x - - - - - x -\nx - - - - x - - - -\n- - - x - - - x - -\n- x - - - - - - - x\n- - - x - x - - - -"
+    },
+    "288_10x10": {
+      "id": "288_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/288.a.htm",
+      "solution": "10 10 2\n- x - x - - - - - -\n- - - - - - - x - x\n- - x - - x - - - -\nx - - - - - - x - -\n- - - - x - - - - x\n- - x - - - x - - -\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - x -\nx - - - - x - - - -"
+    },
+    "290_10x10": {
+      "id": "290_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/290.a.htm",
+      "solution": "10 10 2\n- x - x - - - - - -\n- - - - - - x - x -\nx - - x - - - - - -\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - - x - - - x\n- - x - - - - x - -\n- - - - x - - - - x\n- x - - - - x - - -\n- - - - x - - - x -"
+    },
+    "291_10x10": {
+      "id": "291_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/291.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - x - x - - - -\n- x - - - - - - - x\n- - - - - x - x - -\nx - x - - - - - - -\n- - - - x - - x - -"
+    },
+    "292_10x10": {
+      "id": "292_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/292.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - - - x\nx - x - - - - - - -\n- - - - - - x - x -\n- x - x - - - - - -\n- - - - - x - x - -\nx - - - - - - - - x\n- - - - x - - x - -"
+    },
+    "293_10x10": {
+      "id": "293_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/293.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\nx - - - - - - - - x\n- - - - x - x - - -\n- - x - - - - - x -\nx - - - - x - - - -\n- - - x - - - x - -\n- x - - - x - - - -\n- - - - - - - x - x\n- x - x - - - - - -\n- - - - - - x - x -"
+    },
+    "294_10x10": {
+      "id": "294_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/294.a.htm",
+      "solution": "10 10 2\n- - - - x - - - - x\n- - x - - - x - - -\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - x -\n- x - - - x - - - -\n- - - - - - - x - x\nx - - x - - - - - -\n- - - - - x - x - -\nx - x - - - - - - -"
+    },
+    "295_10x10": {
+      "id": "295_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/295.a.htm",
+      "solution": "10 10 2\n- x - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - x -\n- - x - x - - - - -\n- - - - - - x - x -\nx - x - - - - - - -\n- - - - x - x - - -\n- x - - - - - - - x\n- - - x - - - x - -\n- - - - - x - - - x"
+    },
+    "296_10x10": {
+      "id": "296_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/296.a.htm",
+      "solution": "10 10 2\n- x - - - x - - - -\n- - - x - - - - x -\nx - - - - - x - - -\n- - x - - - - - x -\n- - - - x - x - - -\n- - x - - - - - - x\n- - - - x - - x - -\nx - - - - - - - - x\n- - - x - - - x - -\n- x - - - x - - - -"
+    },
+    "297_10x10": {
+      "id": "297_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/297.a.htm",
+      "solution": "10 10 2\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\nx - x - - - - - - -\n- - - - - x - x - -\nx - - - - - - - - x\n- - x - - - x - - -\n- - - - x - - - - x\n- x - - - - - x - -\n- - - x - x - - - -"
+    },
+    "298_10x10": {
+      "id": "298_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/298.a.htm",
+      "solution": "10 10 2\nx - - - - - - x - -\n- - x - x - - - - -\nx - - - - - - - - x\n- - x - - x - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - - x - - -"
+    },
+    "299_10x10": {
+      "id": "299_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/299.a.htm",
+      "solution": "10 10 2\n- - - - x - - - - x\n- - x - - - - x - -\nx - - - - x - - - -\n- - - x - - - - x -\n- x - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - x - - - x - -\n- x - - - x - - - -"
+    },
+    "300_10x10": {
+      "id": "300_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/300.a.htm",
+      "solution": "10 10 2\n- - x - x - - - - -\nx - - - - - x - - -\n- - - - x - - - x -\n- x - - - - x - - -\n- - - x - - - - - x\n- x - - - - - x - -\n- - - - - x - - - x\n- - x - - - - x - -\nx - - - - x - - - -\n- - - x - - - - x -"
+    },
+    "301_8x8": {
+      "id": "301_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/301.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - x - - - -\n- - - - - - - x\n- - x - - - - -\n- - - - - x - -\nx - - - - - - -\n- - - - x - - -\n- - - - - - x -"
+    },
+    "302_8x8": {
+      "id": "302_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/302.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - - x\n- - x - - - - -\n- - - - x - - -\n- - - - - - x -\nx - - - - - - -\n- - - - - x - -\n- - - x - - - -"
+    },
+    "303_8x8": {
+      "id": "303_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/303.a.htm",
+      "solution": "8 8 1\n- - - - - - - x\n- - - - - x - -\n- - - x - - - -\n- x - - - - - -\n- - - - - - x -\n- - x - - - - -\nx - - - - - - -\n- - - - x - - -"
+    },
+    "304_8x8": {
+      "id": "304_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/304.a.htm",
+      "solution": "8 8 1\n- x - - - - - -\n- - - - - - x -\n- - - - x - - -\n- - x - - - - -\n- - - - - x - -\nx - - - - - - -\n- - - - - - - x\n- - - x - - - -"
+    },
+    "305_10x10": {
+      "id": "305_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/305.a.htm",
+      "solution": "10 10 2\n- - - - - - x - x -\nx - - x - - - - - -\n- - - - - x - - x -\n- x - x - - - - - -\n- - - - - x - x - -\n- - x - - - - - - x\n- - - - x - x - - -\n- x - - - - - - - x\n- - - - x - - x - -\nx - x - - - - - - -"
+    },
+    "306_10x10": {
+      "id": "306_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/306.a.htm",
+      "solution": "10 10 2\nx - - - - - - x - -\n- - x - - - - - - x\nx - - - - - x - - -\n- - - - x - - - x -\n- - x - - - x - - -\n- - - - x - - - - x\n- x - - - - - x - -\n- - - x - x - - - -\n- x - - - - - - x -\n- - - x - x - - - -"
+    },
+    "308_10x10": {
+      "id": "308_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/308.a.htm",
+      "solution": "10 10 2\n- x - - - - - x - -\n- - - x - x - - - -\nx - - - - - - - - x\n- - x - x - - - - -\n- - - - - - - x - x\n- - - x - x - - - -\n- x - - - - - - x -\n- - - - x - x - - -\nx - - - - - - - x -\n- - x - - - x - - -"
+    },
+    "309_10x10": {
+      "id": "309_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenschlacht/309.a.htm",
+      "solution": "10 10 2\nx - - - - - - x - -\n- - x - - x - - - -\nx - - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\n- - x - x - - - - -\n- - - - - - x - - x\n- x - - x - - - - -\n- - - - - - x - x -\n- x - x - - - - - -"
+    }
+  },
+  "info": "",
+  "count": 307
+}

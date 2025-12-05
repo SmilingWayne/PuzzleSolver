@@ -1,0 +1,780 @@
+{
+  "puzzles": {
+    "11_9x9": {
+      "id": "11_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n7 E E O O E 1 E O\nE O O 2 O 5 E O E\nO E O O E E E O 9\nO 1 O E 4 O O 8 E\nE E E 8 O 7 O O O\nE 3 O O 2 O E 6 O\n9 E O O E O O E E\nE O E 4 O 2 O O O\nO O 2 O O E E O 4"
+    },
+    "138_9x9": {
+      "id": "138_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E O O 7 O E E E\nE O 2 E O E O 7 O\n1 E O O 2 E E O O\nE O E E O E O O O\nE O E 3 E 9 E O 1\nO O O 6 O O E 2 E\n9 O 4 O E O O 8 E\n7 E O 9 E O O E E\nE 8 O E O E 7 O O"
+    },
+    "128_9x9": {
+      "id": "128_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E O O E 5 E E O\nO O E E E O 3 O E\nE E O O E O E O O\nE 7 O O O E O E E\nO O E E E 6 O O 3\nE O E O 9 O 1 E 4\n5 O E E 7 8 E O O\n6 8 O O O E E O 1\nO E 3 E O O O 4 E"
+    },
+    "63_9x9": {
+      "id": "63_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O E O E E O O E\nE 3 O O O E 9 E E\nO 4 E 9 3 6 O 1 2\nO E 5 O E O 4 E O\n4 O O 3 8 5 E E O\nE E O E O 2 O O O\n7 O O E E 3 6 E O\n3 O E E O O E 7 E\nE 6 4 2 7 O O O O"
+    },
+    "73_9x9": {
+      "id": "73_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n7 5 O 2 E E O 8 3\nO 6 O E O 9 2 E O\nE E E 7 O 3 5 E O\nO E E 4 O O E O O\nO O O E E E 3 O E\nE 3 E O O O O E 8\nE 2 6 O O O E O O\n9 O 5 3 4 E 8 1 6\n4 1 O O E E O O E"
+    },
+    "2_9x9": {
+      "id": "2_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n8 O 6 O E E O O O\nO E O E O O 8 9 E\n3 O E O 9 E E 1 E\nO O E 3 O E O E E\nE E 3 E O O 9 E O\nO E O O E 6 O E O\nO 6 O O 2 O E O 8\nE 1 5 E O O E E O\nE O E E E O 7 O 1"
+    },
+    "87_9x9": {
+      "id": "87_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 9 E O E E O E\nE E O O O 4 O O 2\nO E 4 E O O O 8 O\nE O O O E E 7 5 E\n6 9 O O E 7 1 E 4\n4 E O O 5 E O E 9\n9 O 2 O E 5 8 E O\nO E E 8 9 O E 1 O\n3 7 E E E O E 9 O"
+    },
+    "97_9x9": {
+      "id": "97_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O O O E E O 5\nE O O O O 2 E 6 O\n7 O E E E 9 3 O E\n8 O E E O O O O E\nO 3 E O O O E E E\nE O O E E E O O O\nO E O O E E O E O\nO E O E 1 O O E E\n5 4 6 O E O E 7 O"
+    },
+    "107_9x9": {
+      "id": "107_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n4 O O 7 E O E O E\nO E 8 O 4 O 7 E O\n1 E O O E 8 5 O E\nE O 5 E O E E O O\nO O E O 3 O E E E\nO E 2 6 O E O 7 O\nO O 6 2 O O E 4 O\nE O 3 E E E 9 O O\nE E O O O O O E 2"
+    },
+    "117_9x9": {
+      "id": "117_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O E E O 2 3 E\nE E O O O E E O 1\nO E E E O O O E O\nE O O E E O O O E\n2 7 E O 5 O O E E\nO O E E O 4 O E O\n3 E E 9 O E E 1 O\n6 E O O 4 E O O O\n9 5 O O E O 8 E 2"
+    },
+    "121_9x9": {
+      "id": "121_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O E O O O 6 E 5\nO O O 2 4 E 1 O 8\nO 2 E O E O O O E\nE 3 O 5 E E O O 2\n7 E O E O E O O E\nE 6 O 9 1 O E 8 O\n3 5 E 6 O O E E 1\nO E E O E 3 O E O\nE 1 O 8 O E E 3 9"
+    },
+    "131_9x9": {
+      "id": "131_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n5 O 1 4 O 7 8 2 E\nE 7 E 8 O O E O O\n8 3 E 6 E O O O 5\nO E 7 1 O E O E E\nE O 6 O E O E 9 O\nO 2 O O 4 E O E O\nE 1 E O O E E O 3\nO E O E E 1 9 O 8\n9 E O O 7 E O E E"
+    },
+    "45_9x9": {
+      "id": "45_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O E 2 6 7 O O O\nE O 3 E O O 4 O E\n5 O E E O O O E 8\nO 6 E 1 E 9 O 5 E\nE 3 O E O E E 1 O\nO 5 E 3 O 2 E 6 O\n6 E O O O O O E 2\nO E 7 O E E 1 E O\nO E O 5 2 8 E O O"
+    },
+    "55_9x9": {
+      "id": "55_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 9 E E O 6 E 7 O\n6 O E O E O 9 O 8\nO 8 O E O 9 O E E\n1 E 3 E E E O O O\nE O O O O E E E O\nE O E O O O 4 E 1\nE E E 7 O O O 9 E\n9 O 5 E E E E O 7\nO 4 O 9 E O O 8 E"
+    },
+    "27_9x9": {
+      "id": "27_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O E 5 O 7 E O E\n1 E O E E E O O 7\nO 6 O O O E E 5 E\nE O O 2 O 3 O E E\nE O 6 O E O 3 O E\nO O E 6 O 8 O E O\nE 1 E O O O E 2 O\n5 E O O E O E E 3\nO E O 4 E 2 O O O"
+    },
+    "37_9x9": {
+      "id": "37_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 5 E O O 4 O O\nO E O E 1 O E E O\n8 O O 5 E 6 O E 3\nO E 6 E O O 3 O E\nO 3 E O E O E 8 O\nO E 7 O E E 5 O E\n6 O O 7 O 1 E E 8\nO O E E 8 E O O O\nE O 8 O O E 1 O E"
+    },
+    "130_9x9": {
+      "id": "130_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 E O O E O O E E\nO O E 5 E E 7 O E\nE E O E 1 O O E O\nO E O O O E E E O\nE O E 2 O O O O E\nO O E E O E E O 3\nE 5 3 O E O 2 O E\nO 8 1 E E 3 O E O\nE O 4 O O E E O 1"
+    },
+    "120_9x9": {
+      "id": "120_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E E O E E O 9 O\n5 O E 2 O O O 8 E\nO O E 9 E O O E E\nO O O E 3 E E E O\nO E 6 E O 5 O O E\nE 4 O O O 6 9 E O\nE O O O 4 O E O E\nE O O E 5 E E 1 O\n4 E 7 O E O E O O"
+    },
+    "54_9x9": {
+      "id": "54_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 7 O O 5 E 4 O E\n2 O O 8 E E O 7 O\nE E 5 O O O E O 6\nO 2 O O O E O E E\n7 O E E E O E O 3\nE O E O E O O 5 E\n5 E E E O O 3 E O\nO 1 O E E 8 O E 5\nO E 2 O 1 O E 6 O"
+    },
+    "44_9x9": {
+      "id": "44_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 5 O O 6 E O E\nO O O E E O O 4 E\n6 E E 4 O 1 O O O\nE O 6 O O E 8 O 1\nO O O E E O O E E\n3 E 4 O O E 6 O O\nE E O 2 O 9 E O 5\nO 5 E O E E O E O\nO E O 5 E O 7 E E"
+    },
+    "36_9x9": {
+      "id": "36_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 5 O E E E O O\nO E E E O 5 O O E\nO O E E O O E O 4\nO 6 O O 3 E O E E\nO O E 8 O 1 E E O\nO E E E 6 O O 7 O\n4 E O O E E O O O\nE O O 7 E O E E O\nE O O O O E 1 E E"
+    },
+    "26_9x9": {
+      "id": "26_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E 9 O E 7 E O E\nO E O E O O E 2 O\n2 O E 8 E O O O O\nO O 5 E O O E E 4\nE O E O O E O O E\n6 E O E E O 1 O O\nO E E O O 8 E O 9\nO 9 E O E E O E O\nE O O 1 O E 7 E E"
+    },
+    "10_9x9": {
+      "id": "10_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E 7 O E E 1 E O\nE O E 7 O 8 E O O\n1 O E E O O O E 4\nE 7 O O E O O 2 E\nE O O E O E E O O\nO 6 E O O E O 1 E\n7 O O E E O E O 2\nE E E 3 O 1 E O O\nO E 5 E E O 3 E O"
+    },
+    "3_9x9": {
+      "id": "3_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 4 O O E O E 9 O\n7 E 5 O O E 3 E 2\nO 3 E E E O O 4 O\nE E O O 2 O O E O\nO O O 6 O 8 E O E\nE O E E 3 O O O E\nO 1 E O O E E 2 O\n3 O 6 E E E 1 O 9\nE 2 O O O O E 3 E"
+    },
+    "72_9x9": {
+      "id": "72_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E E O O E 6 3 O\nO O O E O 6 E E 5\n2 E O E 9 O 8 O 1\nO 9 E 3 O 8 E O 4\nE E O E O 1 O E 3\nO O 8 E E O O O 6\nE E O 1 2 O O O E\nE 3 O O E 7 1 E E\nO 5 E O E E 3 E 7"
+    },
+    "62_9x9": {
+      "id": "62_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n5 E O 8 O E O O 4\nO E E O 4 1 E O O\nO 1 E E 3 O E E O\nE 9 1 E 7 E O 4 3\nE 5 6 E E O 9 O O\nE O O O 5 O E 6 E\nO E E O E E O O 9\n6 4 O 3 O O O E E\nO O 5 O 8 E E O E"
+    },
+    "129_9x9": {
+      "id": "129_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 O O O E O E 8\nE O O O 8 O E O E\nE E O O 6 E 5 O 3\nO E O 8 1 3 O E E\nO E E O O E E O O\nO 1 E E E O O E O\nO O O E E O E E O\n7 O E 4 O O E O E\nE E 4 O O E O 7 O"
+    },
+    "139_9x9": {
+      "id": "139_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 7 4 E O E O O 6\nE E 3 O O O E E O\nO E O E O E 5 O E\n4 9 5 E 2 O O E O\nO O E O E O O E E\nE O E O O 4 E 9 O\n9 O O O E 8 E E O\n3 E O E E O E O O\n6 E E O O 5 7 O E"
+    },
+    "96_9x9": {
+      "id": "96_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 2 O O E 5 O 3 E\nE 3 E O 1 E 7 6 5\nO O 5 O E E E O E\n9 1 O O O E E E 2\n2 4 6 O E O O 5 O\nO O E E O E O O 6\nO O E E O O E E O\n5 6 O 4 7 O E E O\nE E O 6 E 1 5 O O"
+    },
+    "86_9x9": {
+      "id": "86_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n2 E E O 1 7 O 5 E\nO O O E E E O E O\nO 8 O 9 O E 7 E 6\n3 E O 5 E E E O 9\nO E 1 O 4 O E E O\n4 9 E O E O E O 5\nE O E E O O O O E\nO 1 4 E O 5 E O E\nE 5 O E O 4 1 8 7"
+    },
+    "116_9x9": {
+      "id": "116_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O E O O O E 6 E\nE O O E E O O O 4\nE 7 E 3 E E O 9 O\n7 E O E 9 4 E 1 O\nO O E 2 E O O E O\nO E E 5 7 O E E O\nO E O 4 O 8 O O E\nE O 7 1 O O E E 6\nE E O O E E O O 3"
+    },
+    "106_9x9": {
+      "id": "106_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 O 8 E E 5 E O O\nO 5 E E 7 6 3 9 E\nO E 4 O 9 O 2 O E\nE E O O O 4 O O E\nO E O O 6 E E 7 O\nE O O O O E O E 2\nE 2 O 5 O 7 E E 9\nO O 6 4 2 O O E O\nE 9 O E E 3 7 E O"
+    },
+    "140_9x9": {
+      "id": "140_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 2 6 O 7 O E O O\nE O O 6 O E E O O\nO O 9 E E O E 3 E\nE E E O E O O O 5\nE O O O O 9 4 E E\nO O O E E E O E O\nO E E O 1 O O E E\n5 O O E E 6 9 O E\n9 4 E O O E O E O"
+    },
+    "79_9x9": {
+      "id": "79_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 4 O O E 6 O E\n6 E 9 O O E O E O\nO E O E 4 O O 5 2\nO 1 E 9 O O E 6 E\nO 3 6 E 1 4 O 2 O\nO E 8 5 2 E 7 O O\nE O O E 6 O O 8 O\n8 6 O E O 1 4 7 O\nE O O O E 7 E O E"
+    },
+    "8_9x9": {
+      "id": "8_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 1 E 7 E E O E\nE E O 1 O 9 E O E\n7 E E E O E 9 O O\nO 4 O O E O E 2 O\n1 O E O E O O E 6\nE 5 E E E O O 9 O\nE E 8 O O E O O 9\nE O O 2 O 3 E E O\nO O O O 4 E 1 E E"
+    },
+    "69_9x9": {
+      "id": "69_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 O E O O E O E\n2 O O O O 4 E O E\nE O E E E 5 O O O\nE E E 1 9 O O O 8\nO O E E O E O 1 E\nO 1 5 8 O E E 6 O\nO E O 7 E E O 4 O\nO E 3 O E O E E O\nO 2 E O E O 9 E O"
+    },
+    "122_9x9": {
+      "id": "122_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 6 E O E 5 3 7 9\n1 E O E O O 8 O E\n9 3 5 E 6 O 1 E 4\nE 1 E O O 8 E O O\nE O O E O E E 1 O\nO O E 2 O O E E 5\n2 O E O E 1 9 O 8\nO E 1 O O E O E E\n5 E O O E E O E O"
+    },
+    "132_9x9": {
+      "id": "132_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 4 3 2 O O O 1\nO 1 O 7 E E E E O\nE O O E O O 4 O 6\nE O E 9 O O 2 O E\nO 2 7 E E 1 3 E 9\nE O O E E O O 8 7\n7 O E O O E E 9 E\nO E E O 7 E O E O\n1 E O E O E O 5 8"
+    },
+    "24_9x9": {
+      "id": "24_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n6 5 O E E O O O 8\nE 1 O E O E O 2 3\nO E E O 9 O E E O\nE O O 9 O 4 E O E\nE O 5 O O E 2 O E\nO E E 2 E 7 O O O\nO E O E 6 E O O O\n5 8 E O O O E 6 O\n3 O E O E O O 8 2"
+    },
+    "34_9x9": {
+      "id": "34_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n2 O O E E 9 8 O O\nE E O 1 7 O E E O\nE O O O E E 6 O 1\nO 6 O O O E O E 2\nO 4 E E O E O 3 O\n7 E O O E O E 1 E\n1 O 4 O E O O E E\nE O E E 5 1 O E O\nO O 6 8 O E O O 4"
+    },
+    "46_9x9": {
+      "id": "46_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O E O O 2 E O\nE E O O 7 2 6 O O\nO O E O E E O 4 7\nE E O E O 3 O 1 E\nO 9 O E E O O 2 E\nE 8 O 1 E O E O O\n9 3 E E E E O O O\nO E 6 3 1 O E O E\nO O 8 O O E O E E"
+    },
+    "56_9x9": {
+      "id": "56_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 6 O O O E O 8 E\nE O O 2 6 8 O O O\nE 5 E O O O E 4 O\n9 E O E O O E E 7\n8 E 6 O O O 2 O 5\n1 O O E E E O O 8\nO 1 E O E E E 7 O\nE E E 3 1 7 O O E\nO 9 O E E O O 2 E"
+    },
+    "60_9x9": {
+      "id": "60_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n2 O O E E O O 6 O\nE O O O O E E 1 2\nE O E E O 1 O E O\nO E O O 2 E 9 O E\nE O E 3 E 9 E O O\nO E 3 O 7 E E E O\nO E E 4 E O O O O\n5 1 E E O O O E E\nO 4 O O O E E O 8"
+    },
+    "1_9x9": {
+      "id": "1_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 9 E O 1 E 6 E\n8 E 7 O 9 E O O E\nE E O E E O O 5 9\n5 E E O O E O E O\nE 7 E O O E E 1 O\nO O O E E O E E 5\n9 8 E O E O E O O\nO O O E 4 E 3 O 2\nE 3 E 7 O O 5 E E"
+    },
+    "12_9x9": {
+      "id": "12_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 2 6 7 O O E\nO E 6 E O O 9 E O\nO 3 E E O O O 6 E\nE E O O E E O O O\n1 7 O O E E E 3 2\nO E E O O O E O E\nO 6 E O E O O 4 O\nE O 3 E O E 2 O O\nE O O 1 9 4 E E O"
+    },
+    "104_9x9": {
+      "id": "104_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 3 E E E O E O O\nO 5 O 4 3 O 6 E E\nE 6 E 7 5 8 O 9 O\n6 E 1 O O O E E O\nE O O O O E E E 9\nO E O 6 8 E O 3 O\n3 2 E O 9 E O O 8\nO O E E E O O 1 E\nE O 7 3 4 O O E E"
+    },
+    "114_9x9": {
+      "id": "114_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 4 2 E O 6 O O\n1 5 E E E O E O O\nE 3 E O O O 4 5 E\n7 E O E O E 3 1 E\n6 9 O E O E O E 7\n8 E O O 3 O O E E\nO 6 O O E E O 4 O\nE 8 O O 5 O 7 E 2\n3 O E O 6 E E 9 O"
+    },
+    "84_9x9": {
+      "id": "84_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 1 O E O 6 O E E\n3 E E O E O 2 O 9\nE 2 7 O O E 5 3 E\n2 6 3 O 5 E O E O\nO O E O E 9 E 2 O\nO O E E O E E O O\n5 O 2 8 E O O O E\nE 3 O E E O 8 7 5\nE E O O O 7 3 6 E"
+    },
+    "94_9x9": {
+      "id": "94_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 1 E O E O E E O\n7 4 8 5 2 O 6 O O\nO O E O E E O O 4\nO E O E O 3 E 9 6\nO E O E O O O 8 2\nE E 9 O 6 8 O O O\nE O O E 3 O 2 4 9\nE O O O O E O 6 E\n6 9 4 E O E 1 3 7"
+    },
+    "61_9x9": {
+      "id": "61_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 4 2 O O O O O E\nO O 3 4 E E 9 O 2\nE O O O E O 7 8 E\nE 3 E O 7 E O E O\nO 2 O O O E E 4 O\n1 O 6 8 E O E O 5\nO 8 E E O O O E 1\nO O O E 8 E 6 O O\n2 E O 1 5 O E O E"
+    },
+    "13_9x9": {
+      "id": "13_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 7 E O 6 E O O\nO E 8 O E O O O E\nE O O O E O E 1 2\n6 O E O 3 E O E O\nO E O 5 E 1 O E E\nO O E E 9 E E O 7\n9 4 O E O O O E E\nE O O O E O 2 E O\nO E E 8 O E 5 O O"
+    },
+    "115_9x9": {
+      "id": "115_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O 6 O O O E O\nO E 7 O E E E O O\n3 1 E O 2 O O 6 E\nE E 2 O O E 3 O O\nO O E E E O O O 8\nO O 9 7 8 5 E 4 2\n7 9 6 4 O E 8 1 O\nE 2 O E O O O 5 E\n8 O O 3 O E 4 E O"
+    },
+    "105_9x9": {
+      "id": "105_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 7 2 3 O O E O\nO E 3 5 O 8 E 1 E\nE O O O E 6 O 2 7\nO O 6 O 8 E O O E\nE E O 3 E 5 O O E\n3 O E O 2 9 E E O\n6 O O E O 2 8 O O\nO E E E 9 O 1 O E\nO O E 8 O O E E O"
+    },
+    "95_9x9": {
+      "id": "95_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 3 O O E 8 O 4\nE E O O 2 4 O O 9\nE 9 O 3 E O E O E\nE O 2 4 O O 1 E 7\nO O E 2 O O E E O\nO 5 E 6 O E 9 E O\n7 2 O O 6 O O E 8\nO E E O O O 6 O E\nO E O 8 4 E 3 O 1"
+    },
+    "85_9x9": {
+      "id": "85_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 2 7 E O O E O O\n5 O O E 6 O 8 O 2\nE 4 O O 2 9 O 3 E\nE O E 7 O 2 5 8 O\nE O E O 3 E E 9 O\nO O O 6 E O E E 3\n1 8 E 3 7 E O 2 O\nO E E O O E O O E\n9 O O E E O O E E"
+    },
+    "123_9x9": {
+      "id": "123_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O E E O 3 O E 2\n7 3 E O O E E O E\nO E 8 O 6 2 3 O O\n5 7 O O E 9 E 6 E\nO E O E 2 O O 8 1\nE 2 E O O E O O O\nE O O 7 O E E 2 O\nE E O E 3 O 1 O E\n2 O 3 E E O E 5 O"
+    },
+    "68_9x9": {
+      "id": "68_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 9 O 8 O O E O\nE O E 3 E O O E O\n1 O O E E 5 E E O\nO E 8 O O 2 O 3 E\n3 O E E O E O 5 E\n9 E O E O O E O E\nE E O O 4 O O E O\nE O 6 1 O E E O O\nO 3 O E O E 4 O E"
+    },
+    "9_9x9": {
+      "id": "9_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O 2 1 O E E E\nE 6 4 E O O O O O\nO 5 E O E E E O O\n4 O O 3 E E O E O\n7 E O E O O O E 6\nE O E O E 7 O E 5\nO E E O O E E 5 O\nE E O O O O 4 9 E\nO O O E 4 2 O O E"
+    },
+    "78_9x9": {
+      "id": "78_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E E E 2 O O O 9\nE O O 4 7 O E E O\n7 2 O E 9 O E 5 4\nE 6 E O O 8 9 O O\n8 3 O O O E O E E\nO O 7 E E O 8 E O\nE 1 E 5 E E O 9 O\nO E E O E O O O 6\nO O O O 3 6 4 E E"
+    },
+    "35_9x9": {
+      "id": "35_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E O E O 5 O E E\nE O E 3 E O 7 E O\nO 7 8 E E O 9 E O\n2 E O O O E O 7 E\nE O O E 3 O E O E\nO 4 O E O E O E 9\nO E 6 O E O 2 9 O\nO O 5 O E 2 E O E\nE O E 7 O E E O O"
+    },
+    "25_9x9": {
+      "id": "25_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O 3 O E O E O\nO 6 1 E O E O O E\nO 4 O E 5 O E E O\n5 O E 7 E O E O E\nE O 8 O E O 4 O O\nE O O E E 9 O O 2\nE O E O 7 O E 2 O\nO E E O E E 1 7 O\nO O O E O 2 O E E"
+    },
+    "57_9x9": {
+      "id": "57_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 O 5 E 6 E O O E\nE E O O O 1 O 6 E\n4 O E E O O O O E\nO O O E E 4 O 5 E\n8 O O E O O E E 3\nE 4 E 3 O O E O O\nO E O O E E E O 1\nO 6 E 1 O E O E O\nO O E O 4 O 6 E 9"
+    },
+    "47_9x9": {
+      "id": "47_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 1 O E O 9 E 5 E\n4 E O O E O O E 9\nO O E 4 E 1 O O E\n1 E 5 O 8 O 9 E E\nO E O 2 O 6 E O O\nO E 8 O 9 E 6 O 5\nE O E 6 E 5 O O O\n6 O E O O E O E 3\nO 9 O 7 O E E 6 E"
+    },
+    "99_9x9": {
+      "id": "99_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 1 4 E O E O\nO O O E E O E O 4\nE E 4 O 3 O O 9 E\n7 E O 9 O O E 4 E\nO O 2 E E E O O 3\nO E E E O 3 9 E O\nE E O O O E 7 O E\nO O O 6 O E E E O\nE O E O 2 O E 1 5"
+    },
+    "89_9x9": {
+      "id": "89_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O E 1 O E 5 E O\nE O 9 5 E O E 2 3\nE O O E O E E O 7\nO E E O 7 3 E E 5\nO O 2 E O 6 O O E\nO E O 4 O E 3 O 8\n9 O 1 O E O E 4 6\nO E 5 E 8 1 O O E\nE E E 3 E 9 O O O"
+    },
+    "30_9x9": {
+      "id": "30_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n2 1 E O E O O E 3\nO E O 7 O E O E 6\nO E O E E 3 O E O\nE O 2 E O O E 3 O\nO O E E O E E O O\nE 3 O E O O 4 O E\nE E O 3 E O O E O\n7 O E O E 2 O O E\n9 E O O O E E 7 8"
+    },
+    "42_9x9": {
+      "id": "42_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 3 E E E O E 9 O\nE E E 1 O 5 O O E\n5 O O E O E E E 1\n2 E O O O E O O 6\nO O 5 E E E 1 E O\n3 E E O O O E O 4\n9 E O O E O O E 2\nE O O 2 O 6 E O O\nE 1 E O E O O 6 O"
+    },
+    "52_9x9": {
+      "id": "52_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 O 2 O O O E E\n7 O 2 6 E O O E O\nE 4 O O E O O O E\n4 7 E O 3 E E O O\nE O O 1 O 8 E O E\nO E O E 5 E O 2 9\nO E E E E O O 9 O\nO O E O E 4 2 O 1\nO E O O O 5 E 6 E"
+    },
+    "119_9x9": {
+      "id": "119_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 1 E O E E O\nO 4 E O O E E O O\nO E 1 E 8 O O 5 E\nO E O E O 2 O O E\nO E E O O E O 1 E\n9 O E E O 1 E E O\nE O 8 O 6 O E O O\nE O O 9 E 8 O E O\nE O 7 E O O O 8 E"
+    },
+    "109_9x9": {
+      "id": "109_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O E E 4 E O O 1\nE O 6 O O E 3 E O\nO E O O O O E E E\nE 1 O E O 4 O E 5\nE O E O 9 7 E O E\nO E O E E O E O 3\nO O E O E 3 O 2 E\nE E O 1 O O E O 6\n7 E O E E E O O O"
+    },
+    "126_9x9": {
+      "id": "126_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n1 E E O E E O O O\nO O 3 O 5 2 E E E\nE E O O O 6 O E O\nE 3 8 E 7 O O 5 E\nO O E O E 5 E E O\nO E 7 8 O E O O E\nO E 9 O O O E E E\nE O E E E O O 3 5\nE O O 4 6 O E O O"
+    },
+    "136_9x9": {
+      "id": "136_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 9 O O E E E 8 O\nO E 4 E O 9 O O 6\nE E O O 4 O O O E\nO O E E 1 O 9 E E\nE O O E E O E O O\nE O 6 O 3 8 E 1 O\nE O O O O E E E O\nO E O E 5 O O E E\nO E E 1 E E O 5 O"
+    },
+    "100_9x9": {
+      "id": "100_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 O O E E 7 O E E\nO O E E 4 O 1 O E\nE 6 E O O O O 2 O\nO O O E 8 E E O O\nE 7 E O O E O O 8\nO E E 9 O 1 E O E\nO E O O O E E E O\nE 1 5 6 E O 3 E O\nE E O O O 8 E O 9"
+    },
+    "80_9x9": {
+      "id": "80_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 6 E O E O 9 O O\nE O O O O 3 2 E E\nO 9 O 2 E E 4 7 O\nE E E O 7 E 1 O O\nO 5 E O 9 E O 6 E\nO O O E 6 1 O E E\nE E 2 7 1 9 O E O\n3 E O E E 5 E O O\nO 1 O E 3 E E 9 2"
+    },
+    "90_9x9": {
+      "id": "90_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O 4 E E 7 E O\nO E 4 3 7 2 6 9 O\nO 6 E O 1 O O 8 E\nE O O E E 6 9 O 7\nE 5 O O O E E O 2\nO 2 E O O O O E E\nO O 3 E 2 O E 7 E\n8 7 9 O E 1 E E 3\nE E 6 8 O O O 1 O"
+    },
+    "39_9x9": {
+      "id": "39_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O 5 E 9 O O E\nE 7 O O O E E 5 E\nO E O O E 4 O O E\n9 O E E O O 8 E 3\nO O O E O E E E O\n8 E 4 E O O O O 9\nO E E 6 O E O O O\nO 3 E O E O E 8 O\nE O O 3 E 5 O E E"
+    },
+    "29_9x9": {
+      "id": "29_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O E 3 E E 4 O\n9 E 2 O E O O E O\nE E O O E O O 1 E\nO E O 5 E 6 E O O\n8 E O E O O E O 5\nO O E 7 E 3 E O E\nO 3 E E O E O O E\nE O E O O O 7 E 4\nE 5 O E 7 E O E O"
+    },
+    "64_9x9": {
+      "id": "64_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O 7 E 8 O E 6\nE E 5 9 E 1 O 7 E\n6 O 8 O E O 1 9 E\nO 4 9 E O O E 8 O\n5 6 O E E O O E 7\n7 E E O O E E O O\nO O E E 5 2 O E O\n2 O O E 3 O E O 4\nE O E O O 4 E 3 O"
+    },
+    "5_9x9": {
+      "id": "5_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 5 E 4 O O E\nO O E 9 E 6 E O O\nE O 2 O O O 8 O E\n5 4 O E O O E 2 3\nO E O E E O O E O\n1 2 E E O O O 4 9\nE O 1 O E E 5 O E\nE O E 4 O 1 O O E\nO E O 3 O 2 E E O"
+    },
+    "74_9x9": {
+      "id": "74_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 6 O 4 1 O 9 O E\nO E 1 E O 2 7 5 E\nO O E O O E E E O\nO O O 2 O E 8 E O\nE O E O 3 E E O 9\n5 E E 9 E O 4 O O\nE O 4 O E O O 8 7\nO E O O E O O E E\n6 3 O 8 2 O O O 4"
+    },
+    "101_9x9": {
+      "id": "101_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O E O E O E O\nE O O O E O E E 1\nE O E O O 6 E 7 O\n1 E O E 3 4 7 5 E\n3 4 7 O E O E 9 E\nE O E 9 E O 1 E O\nO 8 O 6 O O 2 O E\n7 1 E E 9 O 5 E E\nO 6 E O E E O O 7"
+    },
+    "28_9x9": {
+      "id": "28_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O E 9 O E E E\nO E 6 E E O 9 O O\nE 9 E O O E O 6 O\n9 O O 2 O 6 E O 4\n3 E O O E E E O 5\n8 E E 9 O 5 O E 1\nE 1 O O O O E 4 E\nO E 2 E E O 3 O O\nE O O O 8 E O O E"
+    },
+    "38_9x9": {
+      "id": "38_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 E E O 3 O E O\nO O O 6 E E 3 E 5\nE 3 E O O O E O E\n9 O E 4 E 1 E 5 O\nO E E O O O E E O\nO 2 O 3 E 8 O O 4\nE O O E O E O 3 E\n7 E 5 O O 6 E E O\nE E O 7 E O O 1 E"
+    },
+    "91_9x9": {
+      "id": "91_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 5 2 E E O E O O\nE E O O O O 2 O E\nE 3 O E E O O 5 E\n2 9 E O O E 7 8 O\nE O 1 O O E 5 E E\nO 8 3 O 2 E E O 9\n7 2 E E O 5 O E O\nO E O 3 O 7 E 6 E\nO 1 8 E E E O O O"
+    },
+    "81_9x9": {
+      "id": "81_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 E E O 1 O 2 O 6\nO O O E E O 4 9 E\nE 5 E 4 E 9 O O 3\nE O O 8 O E O E 1\nO E 6 9 E O O E O\nE 7 O O O 6 E E 9\nO O E E 2 E 9 7 O\nO E 7 O 9 O 6 E E\nE E 9 O O E O O E"
+    },
+    "75_9x9": {
+      "id": "75_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 4 O O O O O E\n1 O O E 4 8 7 O E\n8 O 9 3 E 5 6 O E\n9 E O E 6 O O 4 O\nE 5 2 1 O 4 O 8 O\n7 E O O E O E O E\nO 1 O 4 5 2 E E O\nO O E E O O E E O\n4 E E O O E O O O"
+    },
+    "4_9x9": {
+      "id": "4_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n8 O E O O O O E 2\nO E O 7 E 4 O O E\nO O 4 O E E 8 O O\nO 9 E E 7 O E 1 E\nE O O 1 2 3 E E O\nO 6 E E 9 E O 3 O\nE E 1 O O O 9 E E\nO E O 2 E 9 O E O\n2 O O E O E E O 5"
+    },
+    "65_9x9": {
+      "id": "65_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n1 O 8 O E O 6 5 E\n6 E O O 1 E O O E\nE 3 O E O 4 O E O\nO 1 2 9 E E O 4 O\nO 9 E 5 O E 1 E E\nO E E O 4 O 2 O 9\nO E 3 E E O E 1 5\nE 5 O 4 O O O E E\nE E O E 9 O E O O"
+    },
+    "31_9x9": {
+      "id": "31_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 4 E E O 3 O O E\n7 O E E O O 4 E O\nO E O E 6 O O 8 O\nE O O 7 O O E E 2\nE E 7 O O E 9 E O\n4 O O E E 2 O O O\nO 5 E O 2 O E O E\nO E 2 O O E O O 4\nE O O 9 E E E 3 O"
+    },
+    "21_9x9": {
+      "id": "21_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 3 O O E O 6 O\nO E E O 9 E 1 O 2\n1 O O 2 O E O 4 E\nO O 9 E O O E E E\nE 8 E E O O O 5 O\nE O O O E E 6 O O\nO 7 O E E 9 E O 6\n2 O 8 O 6 O E O O\nO 6 E O E O 7 E O"
+    },
+    "88_9x9": {
+      "id": "88_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 E E E O E O O O\nE 5 E O 7 O O 4 E\n7 O O O 4 E E 5 E\nE O O 8 O O 2 O 4\nO E O E O 4 7 6 5\n2 O E O E O 8 O O\nO O E O O O 4 E E\nE E O O E 3 1 E O\nO E O E 8 6 O 3 9"
+    },
+    "98_9x9": {
+      "id": "98_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n2 E O O E 1 O O 4\n5 E E 3 O 6 O O 2\nO O O 5 E E E O E\n3 O E O O E E E O\nO O E E O 4 O E 1\nE O E 7 E O 6 O O\nE E O E 1 O E O 5\n7 O 5 2 E O O E E\n4 E O E O O O E 3"
+    },
+    "108_9x9": {
+      "id": "108_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O O E O 4 E 1\nO 3 E E E O 5 E 7\nO 6 E E O O E O O\n4 7 O O O O E E E\nO E 2 O O E O 1 E\nE O O E E 8 O O O\nO E E O 3 O 2 O E\nO E O E 7 E O 9 E\nE 9 O O E 2 O E O"
+    },
+    "118_9x9": {
+      "id": "118_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 1 O O E E 7 E\nE O E O E E O O 5\nO O E 1 E O E E O\nO O E 8 O 5 E 6 O\nO E E E E O O O O\n1 E O E O 7 O E E\nE O O E 2 E O O O\nO 8 7 O O 1 E E 4\nE E 9 5 7 6 O 1 E"
+    },
+    "53_9x9": {
+      "id": "53_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 O E O E O 9 E\n8 O E O O E O E 7\nO E O 9 E 1 E E O\nE E 6 O 4 O 5 O O\nO O E 1 E 9 E E O\nO O 3 O 2 E 6 O E\nO O O 6 O 5 E E E\n1 E E E O O O O 6\nE 6 O E O E O 3 O"
+    },
+    "43_9x9": {
+      "id": "43_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 8 5 3 O E E\nE O 9 O E E 7 E O\nO E 4 E O O 5 O E\nO 8 O E E O O 3 E\nE E O O O O E E O\nO 7 E E O E E 9 O\nO O 1 O E E 4 O E\nO E 6 O O O 8 E O\nE O E 7 4 6 O O O"
+    },
+    "137_9x9": {
+      "id": "137_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n7 E E O O O E 2 O\nO E O E E O O O E\nE 5 O E E O E O O\nO E 4 O O O O E E\nO 3 E E 1 E O O E\nE O O E O E E O O\n6 E E O 2 O 3 O O\n9 O O 5 E E E 4 O\n2 O O O O E 7 E 8"
+    },
+    "127_9x9": {
+      "id": "127_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 9 E O O E E 2\nE O E O 4 O O O 8\nO E E E O E 3 O O\nE O O E O 9 E 2 5\n7 O E O E O O E E\nO E E E E 5 O O O\nE O O O E 8 5 E O\nE E 1 O 9 E E O O\nO 2 O O O E E O E"
+    },
+    "83_9x9": {
+      "id": "83_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O 4 O E E E O\n4 E O O 6 9 O 7 E\nE E O 3 7 E O E 1\nE E E 7 9 O 1 3 6\n3 O O E E E O O E\nE 9 O 2 O O E O 4\nO O E O E 6 9 8 O\nO O 6 E 2 O E O 7\n1 4 E O O O 6 E O"
+    },
+    "93_9x9": {
+      "id": "93_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O O E 9 3 O E\nE 7 5 E 3 1 O 6 E\nO E O E O 8 4 O O\nE 9 2 E O E O O O\nO 4 6 O 8 O E O 9\nO O O O O E E E 4\nO O 9 O E 6 E E 3\n1 O E 8 O O O E E\nE 2 8 O E 3 O O O"
+    },
+    "103_9x9": {
+      "id": "103_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 6 1 O E O E O E\nE E E O 1 6 3 O O\nO 5 O E O E E O 6\nO 9 8 4 E 7 O E O\nE O 2 1 O O O 6 E\nE O O 2 8 O 1 4 O\nO 1 O 6 O E E O E\nE 4 O 5 E O E O O\nO E 6 O 3 E O 8 1"
+    },
+    "113_9x9": {
+      "id": "113_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E O 5 O 4 1 E E\nO O O E 7 E E 4 3\n6 E E 1 O E O O 5\nO 3 E 9 4 O 5 E 8\nE O O E 8 E O O 7\nO 6 E 7 O O E 1 E\nO E O E E O E 7 O\nE O O E 6 9 3 E O\n2 O 6 O O O E O E"
+    },
+    "58_9x9": {
+      "id": "58_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 6 O 1 O E E\nE E 6 O O E 7 O O\nO 1 O E O E E 6 O\n5 E E O E O E O 9\nO O E E O E O O E\n1 E O O O E E O 4\nE 5 E O E O O 4 O\nE E 3 O E O 1 O E\nO O O 8 E 3 E E O"
+    },
+    "48_9x9": {
+      "id": "48_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O E 4 E 3 O 7\nE O O O E 9 E O E\nE O E O O O E E 9\nO O E 6 O O O 2 E\n9 E O O O E O E 4\nE 5 E E O 8 O O O\n1 E E E E O O O O\nO E O 3 E O E E O\n5 E 3 O 1 E E O E"
+    },
+    "15_9x9": {
+      "id": "15_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 7 O E O 6 E\nE O E O E O E 3 9\nO E O 8 O 2 O O E\n6 O 9 E E O 2 O O\nO O E E O O O E E\nE E 5 O E O 6 O 3\nO O O 2 E 8 O O E\n1 2 E O O O E E O\nO 4 E O O 6 O E O"
+    },
+    "67_9x9": {
+      "id": "67_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O O O E 7 E 4 E\nE E O 3 E O O E O\nE O E 2 8 O O O O\n7 E O E O O E E O\nO O 8 E 3 E E O O\nE 9 E O O E E 3 O\nO 7 O O E E O 8 4\n5 E 4 8 O O O O E\nE 8 O O 1 E O O E"
+    },
+    "6_9x9": {
+      "id": "6_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 7 O O O 6 E O\nO O E 8 O 2 O O E\n2 O O E 7 E E O 1\nO O E O O E O E E\nO O E 7 E 5 E O E\nE O E E E O O O O\n4 E O E 3 O O E 7\nO E O 5 E 8 O O E\nO E 3 O E O 4 E O"
+    },
+    "77_9x9": {
+      "id": "77_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 9 1 O 3 8 O E\nE O 1 7 E E E 5 O\nE 5 O E E O 4 1 3\nO E E O 6 5 O O E\nO E 3 E O O E 8 1\nO 9 E 4 E O O O E\n2 O E O O 4 1 6 O\nO E E O 1 E 3 E O\nO 1 O E O E O E E"
+    },
+    "41_9x9": {
+      "id": "41_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO O 2 O E E O 4 O\n8 E 1 E E 9 O O O\nO O E 1 O 7 E 2 8\nO 4 3 O 9 O 2 E E\nO E E 2 O 1 E O O\nE O 9 E 4 E 5 1 O\n3 9 O 5 O 4 E E E\nE O O 6 E E 3 O 9\nE 2 E O O O 1 O E"
+    },
+    "51_9x9": {
+      "id": "51_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 6 O E O 5 O O\nE O O 7 6 5 O E E\n5 O 7 E E O 8 E 9\nE 4 O E O O O 1 E\nE O O O E E O O E\nO 1 E O O E E 5 E\n9 E 4 E O O 1 E 5\nO E O 4 1 2 E O O\nO O 2 O O E 4 E O"
+    },
+    "23_9x9": {
+      "id": "23_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O 9 O 3 O E E\n9 O E E O E O O 6\n7 O E E E O E O 9\nE 6 O E O O O 2 O\nE 7 O O E E O 9 E\nO 9 E O E O E 4 O\n5 E E O O E O O 2\n2 E O O O E E O 1\nO O O 8 E 9 E E O"
+    },
+    "33_9x9": {
+      "id": "33_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E 3 E O O 5 E O\nO E O 6 E O O O E\n1 E O 5 O E E O 8\nO O E O E E 9 1 E\nO E O E O E E O O\nE 3 2 O O O E E O\n2 O E O O 6 O E 1\nE O O O E 3 O E E\nO O 6 E E O 4 O O"
+    },
+    "125_9x9": {
+      "id": "125_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n7 E O O E 8 4 5 9\nO O E 4 7 O 6 3 E\nE 4 O O E O O O E\nE E O E O 3 O E O\nO O O E 4 O O 2 E\nE E O O O E O E 5\nO 3 E 1 9 O E 6 E\n2 9 E O O 6 E 1 O\nO O 6 E E E O 9 3"
+    },
+    "135_9x9": {
+      "id": "135_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n5 E O E O O E E 9\nE 8 O 4 2 O 3 5 O\nO O E O E O E O E\n1 E O O E O E O E\nE 7 O E 9 1 E O E\nE O 2 3 E E O O O\nO 3 1 E 5 6 O 2 E\nE 5 E O O 4 O E O\n9 E 8 O 7 2 O E O"
+    },
+    "50_9x9": {
+      "id": "50_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O 5 8 3 O E O\nO E 7 E O O 3 E E\nE 9 O 6 E 7 O 8 O\n1 O 8 O E O 2 E 3\n4 O E O E E O O 1\n9 O 2 O O E 6 O 8\nO 1 O 4 O 6 E 9 E\nE E 4 O O E 5 O O\nO E O 8 3 5 E O E"
+    },
+    "40_9x9": {
+      "id": "40_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E E O O E 8 O O\nO O E 1 8 6 O E O\n7 E O E O O E E O\nO 6 E 4 O 2 O 1 O\nE 3 O O O O E 6 E\nE 1 O 8 E 9 O 5 E\nE O O E O O E O 2\nO E O 9 2 7 O E E\nE O 2 O E E O O O"
+    },
+    "32_9x9": {
+      "id": "32_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O O 8 5 3 E O E\nO E E O E O E O O\nE O 9 O E E 7 E O\nO E O E O E O O E\n2 O E E 3 O O E 9\nO O E O O E E O E\nO E 7 O E E 3 E O\nE E E O O O O O E\nO O O 4 8 5 E E O"
+    },
+    "22_9x9": {
+      "id": "22_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO E E 3 O 7 O E E\nO E 8 O E O 9 E O\nO 3 O E E E E 7 O\nO O E 1 E 6 O E O\n5 E O O O E O E 2\nE O E 7 O 2 O O E\nE 7 O E E O E 3 O\nE O 3 E O O 4 O E\nE E O 6 O 3 E O O"
+    },
+    "134_9x9": {
+      "id": "134_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nO 4 O 2 O 8 O 6 O\nO 6 E 3 O O E E O\n3 O E 6 O E O E 7\n2 O O O O 5 E E E\nE O E O E E 7 O O\nE 7 9 8 E O 2 O O\n5 E 1 9 E O E 3 6\nE 3 6 5 E O O O 2\n9 E 7 E 3 E 1 O E"
+    },
+    "124_9x9": {
+      "id": "124_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 5 E 3 O E O E O\nE O O 8 4 E 3 7 O\nO E O 5 O O E E E\nE 6 O O O O E 1 E\nO E E E E 1 O O O\n1 O 9 4 E O 8 5 6\nE 8 4 O 3 O O E 1\n7 O O O E E E O 4\nO O 6 E O E O E O"
+    },
+    "92_9x9": {
+      "id": "92_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 3 1 4 E 2 O O\n4 7 O E O E O O E\nE E O O O O E 3 E\nO E O O E 4 E O 1\nO E E 6 O 5 7 8 O\nE O O O E 1 O E E\n7 O E O 6 O 8 E O\nO 3 E 4 O 7 O 6 E\nO 4 E 8 5 E O O O"
+    },
+    "82_9x9": {
+      "id": "82_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n9 2 E E 3 O O O E\nO O 3 E E E O E 9\nE O E 9 O 7 E O E\n4 8 5 O O O E O E\nO O E 5 E 2 O 8 O\nO O E E 6 O 5 O 4\nE 5 O E O 8 E 1 O\n8 E O O 2 O O E O\n3 E O O 1 4 E E O"
+    },
+    "49_9x9": {
+      "id": "49_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n5 E 8 O E O E O O\nE O O 9 2 3 O E E\n3 O E O E E O E O\nO 6 O E O O O 8 E\nO 8 E O O E O 6 O\nE 3 O E O E E 1 O\nE O O E E O O O 2\nE E O 3 1 9 E O E\nO O E E O E 4 O 3"
+    },
+    "59_9x9": {
+      "id": "59_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O E 3 E 4 O O O\nE O 5 O E O 3 E E\nO E 7 O O E 6 E O\n1 O O E E O E O 8\n7 O E O O E E O 6\n2 E E E O O O O 3\nO E 2 O O O 9 E E\nE E 1 E E O 7 O O\nO O O 4 O 6 E E O"
+    },
+    "102_9x9": {
+      "id": "102_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE E O E 6 O O O 7\nO 9 E E E O O E O\n2 O O O 9 O E E E\nO E 7 E 1 O E O E\nO E E O 3 E O 5 6\nO 5 E E 2 O O 4 O\nE 7 E 1 E 4 O 3 9\nE 4 O O O E 6 O O\n5 3 O O O E E 8 4"
+    },
+    "14_9x9": {
+      "id": "14_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 7 E O E 9 O E\nO E O 2 E 1 O E O\n2 O E O O O E O 8\nE 3 E E O O O 9 E\nO O O E O E E E O\nE 8 O O E O O 2 O\n7 O E O E E O O 6\nO E E 3 O 7 E E O\nO E 1 O E E 8 O O"
+    },
+    "76_9x9": {
+      "id": "76_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\n3 7 E O E E E 5 O\nO E O E O O E E O\nE 4 O 7 E 1 3 6 O\nO O 4 O O 2 O E E\nO E 1 E O 4 5 O 2\nO E E 3 E O O O E\nE O 7 2 O E E O O\n6 O O O 9 7 E 4 E\nE 1 E E E 3 7 O O"
+    },
+    "7_9x9": {
+      "id": "7_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE 7 6 O E O 2 3 O\n5 E O O 2 E O O 6\n2 O O O E O E E 5\nO O E E 5 E E O O\nE 5 O 7 O 2 E 8 O\nO E E O 3 E O O E\n3 E O E O O O E 8\n9 O O E 8 O O E 4\nE 6 8 E O O 5 9 O"
+    },
+    "66_9x9": {
+      "id": "66_9x9",
+      "difficulty": 0,
+      "source": "",
+      "problem": "9 9\nE O 1 E O E E O O\nE O 6 O O O O E E\nE 3 O E E O O E O\nE O E O 5 E O E O\nO 5 8 4 E O 2 O 9\nO E O 1 E O E O E\nO E O E E 6 5 7 3\n3 E O O O O E E E\nO E E O O 8 O O 6"
+    }
+  },
+  "count": 129,
+  "info": ""
+}

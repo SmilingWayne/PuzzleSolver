@@ -7,7 +7,7 @@ class GridBase(Generic[T]):
     def __init__(self, matrix: list[list[T]]):
         self._matrix = matrix
         self.num_rows = len(matrix)
-        self.num_cols = len(matrix)
+        self.num_cols = len(matrix[0])
         self._walls = set[FrozenSet[Position]]
     
     def __getitem__(self, key) -> T:

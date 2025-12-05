@@ -19,20 +19,19 @@ class NonogramSolver(PuzzleSolver):
             empty_grid = [['-' for _ in range(self.num_cols)] for _ in range(self.num_rows)]
             self.grid: Grid[str] = Grid(empty_grid)
 
-        # Nonogram 的核心输入是行列的线索 (Clues)
-        # 格式预期: [[1, 2], [3], ...]
+        # The clues of each row
+        # Expected: [[1, 2], [3], ...]
         self.rows: List[List[int]] = [
             [int(k) for k in r] for r in self._data['rows']
         ]
         
-        # 处理列线索: 同理
+        # The clues of each col
+        # Expected: [[1, 2], [3], ...]
         self.cols: List[List[int]] = [
             [int(k) for k in c] for c in self._data['cols']
         ]
         
         self._check_validity()
-        # Nonogram 通常不需要复杂的 parse_grid，因为并没有预填数字在格子里
-        # 但如果支持部分预填（提示），可以在这里解析
         self._parse_grid() 
     
     def _check_validity(self):
@@ -55,7 +54,6 @@ class NonogramSolver(PuzzleSolver):
                 raise ValueError(f"Invalid character '{cell}' at position {pos}")
 
     def _parse_grid(self):
-
         pass
         
     def _constraints_one_dim(self, constraints: List[List[int]], other_dim_len: int, identifier: str):
@@ -149,7 +147,7 @@ class NonogramSolver(PuzzleSolver):
                 is_empty = z3.And(z3.And(*empty_cond_row), z3.And(*empty_cond_col))
                 
                 # 只有当行允许被填 AND 列允许被填 (即存在某个行块覆盖它 OR 存在某个列块覆盖它)
-                # 原文逻辑：Board[r][c] is TAKEN if (Row says Taken) AND (Col says Taken).
+                # Board[r][c] is TAKEN if (Row says Taken) AND (Col says Taken).
                 # 注意：Z3 中 Or(*list) 若 list 为空返回 False (即没有块覆盖则为 False)
                 row_says_taken = z3.Or(*taken_cond_row) if taken_cond_row else z3.BoolVal(False)
                 col_says_taken = z3.Or(*taken_cond_col) if taken_cond_col else z3.BoolVal(False)
@@ -166,7 +164,6 @@ class NonogramSolver(PuzzleSolver):
         self._add_constr()
         num_vars = len(self._z3_vars)
         num_constrs = len(self.solver.assertions()) # 顶层约束数量
-        # Z3 的 check 方法开始求解
         status = self.solver.check()
         
         solution_grid = Grid.empty() # 如果失败返回空或其他默认

@@ -9,20 +9,20 @@ def get_specific_puzzle(target, data):
 
 if __name__ == "__main__":
     # Sternenhimmel
-    target = "Sternenhimmel"
+    target = "Nondango"
     data = {
         "puzzle_name": f"{target}",
         "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
         "root_url": f"https://www.janko.at/Raetsel/{target}/"
     }
     
-    # Used for ununified puzzles
-    target = "Kakkuru"
-    data = {
-        "puzzle_name": f"{target}",
-        "index_url": f"https://www.janko.at/Raetsel/Lateinische-Summen/index.htm",
-        "root_url": f"https://www.janko.at/Raetsel/Lateinische-Summen/"
-    }
+    # # Used for ununified puzzles
+    # target = "Simpleloop"
+    # data = {
+    #     "puzzle_name": f"{target}",
+    #     "index_url": f"https://www.janko.at/Raetsel/Rundreise/index.htm",
+    #     "root_url": f"https://www.janko.at/Raetsel/Rundreise/"
+    # }
     
     
     get_specific_puzzle(target, data)

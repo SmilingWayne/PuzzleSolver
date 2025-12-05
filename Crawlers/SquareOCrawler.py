@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class StarbattleCrawler(GridCrawler):
+class SquareOCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -98,14 +98,13 @@ class StarbattleCrawler(GridCrawler):
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
-                    
                     
                     target_url = f"{self.root_url}{href_}"
 
@@ -117,20 +116,15 @@ class StarbattleCrawler(GridCrawler):
                     problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
-                    
-                    rows = solution_text.split("\n")
+                    rows = problem_text.split("\n")
                     matrix = [row.split() for row in rows]
-                    k = 0
-                    for r_ in matrix[0]:
-                        if r_ == "x":
-                            k += 1
-                            
+
                     num_rows = len(matrix)
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
                     
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols} {k}\n{problem_text}"
-                    solution_str = f"{num_rows} {num_cols} {k}\n{solution_text}"
+                    problem_str = f"{num_rows} {num_cols}\n{problem_text}"
+                    solution_str = f"{num_rows} {num_cols}\n{solution_text}"
                     
                     puzzles_ret['puzzles'][pzl_name] = {
                         "id": pzl_name, 
@@ -177,3 +171,4 @@ class StarbattleCrawler(GridCrawler):
         except Exception as e:
             print(e)
         return 
+

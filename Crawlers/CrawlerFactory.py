@@ -1,11 +1,11 @@
-from AkariCrawler import AkariCrawler
+from AkariCrawler import AkariCrawler # Classic grid
 from PfeilzahlenCrawler import PfeilzahlenCrawler
 from NorinoriCrawler import NorinoriCrawler
 from ThermometerCrawler import ThermometerCrawler
 from LITSCrawler import LITSCrawler
 from MagneticCrawler import MagneticCrawler
 from MinesweeperCrawler import MinesweeperCrawler
-from SuguruCrawler import SuguruCrawler
+from SuguruCrawler import SuguruCrawler # problems, areas, solutions
 from Str8tCrawler import Str8tCrawler
 from KakurasuCrawler import KakurasuCrawler
 from FuzuliCrawler import FuzuliCrawler
@@ -16,6 +16,11 @@ from JigsawSudokuCrawler import JigsawSudokuCrawler
 from SternenhimmelCrawler import SternenhimmelCrawler
 from StarbattleCrawler import StarbattleCrawler
 from KakkuruCrawler import KakkuruCrawler
+from SquareOCrawler import SquareOCrawler
+from RenbanCrawler import RenbanCrawler
+from EntryExitCrawler import EntryExitCrawler
+from SimpleloopCrawler import SimpleloopCrawler
+from NondangoCrawler import NondangoCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -39,7 +44,12 @@ class CrawlerFactory:
         "JigsawSudoku": JigsawSudokuCrawler,
         "Sternenhimmel": SternenhimmelCrawler,
         "Starbattle": StarbattleCrawler,
-        "Kakkuru": KakkuruCrawler
+        "Kakkuru": KakkuruCrawler,
+        "SquareO": SquareOCrawler,
+        "Renban": RenbanCrawler,
+        "EntryExit": EntryExitCrawler,
+        "Simpleloop": SimpleloopCrawler,
+        "Nondango": NondangoCrawler
     }
     
     @classmethod

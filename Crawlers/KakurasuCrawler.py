@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class ThermometerCrawler(GridCrawler):
+class KakurasuCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -91,23 +91,25 @@ class ThermometerCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic in all_pzls:
+            for dic in all_pzls[300: ]:
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+                        
+                        # problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+
+                        # problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
                     
                     clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
-                    rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[labels\])"
+                    rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])"
                     
                     target_url = f"{self.root_url}{href_}"
 
@@ -116,20 +118,21 @@ class ThermometerCrawler(GridCrawler):
                     
                     page_source = response.text
 
-                    problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
+                    # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
                     cols_text = re.search(clabels, page_source, re.DOTALL).group().strip()
                     rows_text = re.search(rlabels, page_source, re.DOTALL).group().strip()
                     
-                    rows = problem_text.split("\n")
+                    rows = solution_text.split("\n")
                     matrix = [row.split() for row in rows]
 
                     num_rows = len(matrix)
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
                     
+
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols}\n{cols_text}\n{rows_text}\n{problem_text}"
+                    problem_str = f"{num_rows} {num_cols}\n{cols_text}\n{rows_text}"
                     solution_str = f"{num_rows} {num_cols}\n{solution_text}"
                     
                     puzzles_ret['puzzles'][pzl_name] = {
@@ -177,3 +180,4 @@ class ThermometerCrawler(GridCrawler):
         except Exception as e:
             print(e)
         return 
+

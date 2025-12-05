@@ -64,14 +64,14 @@ class Grid(Generic[T]):
             return self._matrix[r.r][r.c]
         return self._matrix[r][c]
     
-    def get_regions(self) -> dict[T, frozenset[Position]]:
-        regions = defaultdict(set)
-        for r in range(self.num_rows):
-            for c in range(self.num_cols):
-                if self._matrix[r][c] not in regions:
-                    regions[self._matrix[r][c]] = set()
-                regions[self._matrix[r][c]].add(Position(r, c))
-        return {key: frozenset(value) for key, value in regions.items()} if regions else {}
+    # def get_regions(self) -> dict[T, frozenset[Position]]:
+    #     regions = defaultdict(set)
+    #     for r in range(self.num_rows):
+    #         for c in range(self.num_cols):
+    #             if self._matrix[r][c] not in regions:
+    #                 regions[self._matrix[r][c]] = set()
+    #             regions[self._matrix[r][c]].add(Position(r, c))
+    #     return {key: frozenset(value) for key, value in regions.items()} if regions else {}
     
     def set_value(self, position: Position, value):
         self._matrix[position.r][position.c] = value

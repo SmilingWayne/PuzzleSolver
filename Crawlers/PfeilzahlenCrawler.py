@@ -91,13 +91,8 @@ class PfeilzahlenCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic_t in all_pzls[:1]:
+            for dic in all_pzls:
                 time.sleep(0.75 + random.random())
-                dic = {
-                    "type": "class_sv",
-                    "href": "https://www.janko.at/Raetsel/Pfeilzahlen/111.a.htm",
-                    "text": "Pfeilzahlen"
-                }
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
@@ -118,7 +113,6 @@ class PfeilzahlenCrawler(GridCrawler):
                     response.encoding = 'utf-8'
                     
                     page_source = response.text
-                    print(page_source)
                     # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 

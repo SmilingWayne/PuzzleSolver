@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class ThermometerCrawler(GridCrawler):
+class SternenhimmelCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -98,16 +98,19 @@ class ThermometerCrawler(GridCrawler):
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+                        
+                        clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
+                        rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
-                        problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
+                        rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])"
+                        clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[problem\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
-                    
-                    clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
-                    rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[labels\])"
+
                     
                     target_url = f"{self.root_url}{href_}"
 
@@ -177,3 +180,4 @@ class ThermometerCrawler(GridCrawler):
         except Exception as e:
             print(e)
         return 
+

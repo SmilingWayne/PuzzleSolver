@@ -10,6 +10,10 @@ from Common.Verifier.PuzzleVerifiers.BuraitoraitoVerifier import BuraitoraitoVer
 from Common.Verifier.PuzzleVerifiers.EuleroVerifier import EuleroVerifier
 from Common.Verifier.PuzzleVerifiers.MosaicVerifier import MosaicVerifier
 from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
+from Common.Verifier.PuzzleVerifiers.NorinoriVerifier import NorinoriVerifier
+from Common.Verifier.PuzzleVerifiers.KakurasuVerifier import KakurasuVerifier
+from Common.Verifier.PuzzleVerifiers.FuzuliVerifier import FuzuliVerifier
+from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
     
@@ -25,7 +29,22 @@ class VerifierFactory:
         "Buraitoraito": BuraitoraitoVerifier,
         "Eulero": EuleroVerifier,
         "Mosaic": MosaicVerifier,
-        "Nonogram": NonogramVerifier
+        "Nonogram": NonogramVerifier, 
+        "Norinori": NorinoriVerifier, 
+        "Kakurasu": KakurasuVerifier,
+        "Fuzuli": FuzuliVerifier,
+        # Sudoku:
+        "Sudoku": SudokuVerifier,
+        "ButterflySudoku": SudokuVerifier,
+        "Clueless1Sudoku": SudokuVerifier,
+        "Clueless2Sudoku": SudokuVerifier,
+        "EvenOddSudoku": SudokuVerifier,
+        "Gattai8Sudoku": SudokuVerifier,
+        "SamuraiSudoku": SudokuVerifier,
+        "ShogunSudoku": SudokuVerifier,
+        "SoheiSudoku": SudokuVerifier,
+        "SumoSudoku": SudokuVerifier,
+        "WindmillSudoku": SudokuVerifier
     }
     
     @classmethod

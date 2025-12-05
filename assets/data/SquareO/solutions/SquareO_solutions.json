@@ -1,0 +1,486 @@
+{
+  "solutions": {
+    "1_3x3": {
+      "id": "1_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/001.a.htm",
+      "solution": "3 3\n7 13 11\n15 12 3\n9 8 1"
+    },
+    "2_3x3": {
+      "id": "2_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/002.a.htm",
+      "solution": "3 3\n13 9 11\n12 2 7\n8 3 13"
+    },
+    "3_3x3": {
+      "id": "3_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/003.a.htm",
+      "solution": "3 3\n2 7 13\n5 9 8\n12 2 6"
+    },
+    "4_3x3": {
+      "id": "4_3x3",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/004.a.htm",
+      "solution": "3 3\n9 10 4\n4 3 14\n12 1 9"
+    },
+    "5_5x5": {
+      "id": "5_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/005.a.htm",
+      "solution": "5 5\n8 1 10 6 6\n0 2 7 15 15\n2 5 9 11 13\n1 8 0 3 14\n0 0 0 1 9"
+    },
+    "6_5x5": {
+      "id": "6_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/006.a.htm",
+      "solution": "5 5\n9 10 7 12 3\n6 5 11 12 1\n9 8 3 12 2\n4 2 5 10 7\n14 5 10 5 11"
+    },
+    "7_5x5": {
+      "id": "7_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/007.a.htm",
+      "solution": "5 5\n14 4 3 13 9\n11 12 1 10 4\n3 14 4 3 14\n1 9 10 5 11\n4 2 7 14 5"
+    },
+    "8_5x5": {
+      "id": "8_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/008.a.htm",
+      "solution": "5 5\n12 2 7 13 11\n14 5 11 12 3\n9 10 5 8 3\n2 5 10 6 5\n3 12 3 13 8"
+    },
+    "9_5x5": {
+      "id": "9_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/009.a.htm",
+      "solution": "5 5\n5 9 9 11 13\n12 2 6 5 10\n12 1 11 14 5\n10 4 3 13 8\n3 12 1 10 6"
+    },
+    "10_5x5": {
+      "id": "10_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/010.a.htm",
+      "solution": "5 5\n7 14 5 11 14\n9 11 14 5 9\n6 5 9 10 4\n11 12 2 7 12\n3 12 3 13 8"
+    },
+    "11_5x5": {
+      "id": "11_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/011.a.htm",
+      "solution": "5 5\n8 2 7 12 1\n2 5 11 14 4\n5 10 5 9 10\n10 7 14 6 5\n3 13 9 9 8"
+    },
+    "12_5x5": {
+      "id": "12_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/012.a.htm",
+      "solution": "5 5\n5 9 9 10 4\n12 2 4 1 8\n12 3 14 6 6\n12 1 9 9 11\n14 4 2 4 1"
+    },
+    "13_7x7": {
+      "id": "13_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/013.a.htm",
+      "solution": "7 7\n2 5 11 15 15 14 7\n3 14 7 13 11 15 15\n5 11 15 12 3 15 13\n14 7 13 10 7 15 12\n13 11 14 7 15 15 12\n14 7 13 11 15 15 14\n11 15 12 3 13 11 15"
+    },
+    "14_7x7": {
+      "id": "14_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/014.a.htm",
+      "solution": "7 7\n8 1 8 2 5 11 12\n2 6 6 5 8 3 14\n5 11 13 10 4 1 9\n10 7 14 7 14 6 4\n1 11 13 11 13 11 12\n6 5 10 5 10 7 12\n9 10 7 14 7 13 8"
+    },
+    "15_7x7": {
+      "id": "15_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/015.a.htm",
+      "solution": "7 7\n13 9 11 12 3 13 9\n8 2 7 14 5 10 6\n2 7 13 9 8 3 13\n5 11 14 6 6 5 8\n8 1 9 9 9 10 4\n6 4 2 6 4 3 12\n13 10 7 13 8 3 14"
+    },
+    "16_7x7": {
+      "id": "16_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/016.a.htm",
+      "solution": "7 7\n11 12 2 7 13 10 7\n3 12 3 13 10 5 9\n1 10 5 10 7 14 6\n2 5 8 3 13 9 9\n5 8 2 5 10 4 2\n10 6 5 10 7 12 3\n5 9 8 1 9 8 1"
+    },
+    "17_7x7": {
+      "id": "17_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/017.a.htm",
+      "solution": "7 7\n14 4 3 12 2 7 12\n13 8 1 10 5 11 14\n10 6 4 3 14 7 13\n3 13 10 7 13 9 8\n1 8 3 13 8 2 6\n6 4 1 10 4 1 11\n9 10 4 1 10 6 7"
+    },
+    "18_7x7": {
+      "id": "18_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/018.a.htm",
+      "solution": "7 7\n11 12 2 5 10 4 1\n7 12 3 12 3 12 2\n11 12 1 8 3 12 3\n3 12 2 6 7 14 7\n5 8 1 11 13 9 11\n8 2 4 3 12 2 7\n2 5 8 1 10 5 11"
+    },
+    "19_7x7": {
+      "id": "19_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/019.a.htm",
+      "solution": "7 7\n13 10 5 9 8 1 8\n12 1 10 4 2 6 4\n8 2 7 14 7 13 8\n2 7 13 11 13 8 2\n1 11 14 5 8 2 5\n4 1 11 12 2 5 8\n14 4 3 14 7 14 4"
+    },
+    "20_7x7": {
+      "id": "20_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/020.a.htm",
+      "solution": "7 7\n13 9 10 5 11 12 1\n14 4 3 14 5 8 2\n9 10 5 11 12 2 5\n2 5 8 3 12 3 14\n7 14 6 5 10 5 11\n13 9 11 14 7 12 1\n14 6 5 9 11 14 6"
+    },
+    "21_5x5": {
+      "id": "21_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/021.a.htm",
+      "solution": "5 5\n1 9 11 12 1\n4 2 7 12 2\n12 3 13 10 7\n12 3 12 1 11\n8 3 12 2 7"
+    },
+    "22_5x5": {
+      "id": "22_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/022.a.htm",
+      "solution": "5 5\n4 2 6 5 11\n8 3 13 8 3\n6 7 12 2 5\n13 9 8 3 12\n8 2 6 7 12"
+    },
+    "23_5x5": {
+      "id": "23_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/023.a.htm",
+      "solution": "5 5\n10 6 5 10 6\n7 13 10 5 9\n13 10 5 8 0\n12 3 14 4 0\n10 7 15 12 0"
+    },
+    "24_5x5": {
+      "id": "24_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/024.a.htm",
+      "solution": "5 5\n7 12 1 11 12\n13 8 2 7 12\n8 2 7 13 8\n2 5 9 10 6\n1 10 6 5 9"
+    },
+    "25_5x5": {
+      "id": "25_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/025.a.htm",
+      "solution": "5 5\n4 1 8 1 9\n10 6 6 4 2\n5 11 13 8 1\n12 3 14 6 4\n8 3 13 9 8"
+    },
+    "26_7x7": {
+      "id": "26_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/026.a.htm",
+      "solution": "7 7\n14 5 11 13 9 11 13\n11 12 3 14 6 5 8\n5 10 5 9 11 14 6\n14 5 10 6 5 9 11\n9 8 1 11 14 4 1\n4 2 4 1 9 8 2\n12 1 8 2 6 4 3"
+    },
+    "27_7x7": {
+      "id": "27_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/027.a.htm",
+      "solution": "7 7\n1 9 11 13 10 7 13\n6 4 3 14 7 13 8\n13 10 5 9 9 10 6\n14 7 14 4 2 5 9\n9 9 11 14 7 14 4\n2 4 3 13 9 9 10\n3 12 1 8 2 6 5"
+    },
+    "28_7x7": {
+      "id": "28_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/028.a.htm",
+      "solution": "7 7\n10 7 14 5 9 8 1\n1 11 15 12 0 2 4\n2 5 9 10 4 3 14\n1 10 4 1 10 7 13\n0 1 10 6 7 13 10\n4 2 7 15 15 14 5\n8 3 13 11 13 9 10"
+    },
+    "29_7x7": {
+      "id": "29_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/029.a.htm",
+      "solution": "7 7\n11 13 9 8 3 12 1\n1 10 4 2 7 12 2\n2 7 12 1 11 12 3\n1 11 14 6 7 12 1\n4 1 11 13 9 8 2\n12 2 7 12 2 4 1\n8 3 13 8 1 10 6"
+    },
+    "30_7x7": {
+      "id": "30_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/030.a.htm",
+      "solution": "7 7\n8 3 13 9 9 11 13\n2 7 12 2 4 3 14\n7 13 10 7 12 1 11\n9 8 3 13 8 2 7\n2 4 1 10 6 7 13\n7 12 2 5 11 13 8\n9 8 1 8 3 14 4"
+    },
+    "31_5x5": {
+      "id": "31_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/031.a.htm",
+      "solution": "5 5\n1 9 11 14 7\n4 2 7 13 11\n12 1 11 12 1\n10 6 5 8 2\n1 11 12 2 5"
+    },
+    "32_5x5": {
+      "id": "32_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/032.a.htm",
+      "solution": "5 5\n2 6 6 4 2\n7 13 11 12 3\n11 14 5 10 7\n1 11 12 1 9\n2 7 14 4 2"
+    },
+    "33_5x5": {
+      "id": "33_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/033.a.htm",
+      "solution": "5 5\n3 13 9 9 10\n5 8 2 6 7\n8 2 5 9 11\n2 5 10 4 1\n5 8 3 14 6"
+    },
+    "34_5x5": {
+      "id": "34_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/034.a.htm",
+      "solution": "5 5\n9 11 13 10 7\n4 1 8 3 13\n10 6 4 3 14\n5 9 10 5 9\n14 6 5 8 2"
+    },
+    "35_5x5": {
+      "id": "35_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/035.a.htm",
+      "solution": "5 5\n12 2 7 14 5\n10 5 9 11 12\n5 8 2 5 8\n8 2 7 14 6\n4 1 11 13 9"
+    },
+    "36_7x7": {
+      "id": "36_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/036.a.htm",
+      "solution": "7 7\n4 1 8 3 12 2 6\n14 6 4 1 10 5 9\n11 13 8 2 5 8 2\n7 12 2 5 8 2 7\n13 8 1 10 6 7 13\n8 2 4 1 9 11 12\n4 3 14 4 2 5 8"
+    },
+    "37_7x7": {
+      "id": "37_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/037.a.htm",
+      "solution": "7 7\n4 3 13 8 3 13 9\n10 5 10 6 5 10 4\n7 12 3 13 10 5 10\n13 8 3 12 1 8 1\n14 6 7 14 4 2 6\n13 11 13 9 10 7 13\n10 5 10 6 5 11 14"
+    },
+    "38_7x7": {
+      "id": "38_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/038.a.htm",
+      "solution": "7 7\n11 14 7 13 9 10 5\n5 11 13 8 2 7 14\n12 3 14 6 7 13 11\n8 3 13 9 11 12 1\n2 5 10 6 5 10 6\n3 12 3 13 8 3 13\n3 14 7 14 4 3 14"
+    },
+    "39_7x7": {
+      "id": "39_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/039.a.htm",
+      "solution": "7 7\n12 1 9 10 4 1 11\n14 6 6 7 14 4 1\n9 9 9 11 13 10 4\n6 6 4 3 14 5 10\n9 11 12 3 13 8 3\n2 7 12 1 8 2 5\n1 11 14 6 4 1 8"
+    },
+    "40_7x7": {
+      "id": "40_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/040.a.htm",
+      "solution": "7 7\n14 6 4 3 13 10 5\n9 11 12 1 8 1 10\n6 5 10 6 4 2 7\n11 14 5 11 12 1 9\n5 11 12 3 14 4 2\n10 7 12 1 11 12 3\n1 9 10 6 7 12 3"
+    },
+    "41_7x7": {
+      "id": "41_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/041.a.htm",
+      "solution": "7 7\n4 2 7 13 11 12 3\n14 5 9 8 3 14 5\n11 12 2 6 5 9 10\n7 12 3 13 10 6 5\n9 8 3 12 3 13 8\n4 2 7 12 1 10 6\n10 7 13 10 6 7 13"
+    },
+    "42_7x7": {
+      "id": "42_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/042.a.htm",
+      "solution": "7 7\n5 8 3 13 10 5 9\n14 4 3 14 5 10 6\n13 10 5 9 10 5 11\n14 5 10 4 1 8 1\n11 12 3 14 4 2 4\n7 12 3 13 8 1 8\n13 8 1 8 2 6 6"
+    },
+    "43_7x7": {
+      "id": "43_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/043.a.htm",
+      "solution": "7 7\n7 14 7 13 9 10 4\n9 9 11 12 2 5 8\n6 6 7 14 7 14 6\n13 9 11 13 11 13 9\n14 6 7 14 5 10 4\n13 11 13 9 10 7 12\n8 3 12 2 5 11 14"
+    },
+    "44_7x7": {
+      "id": "44_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/044.a.htm",
+      "solution": "7 7\n14 4 2 5 10 6 6\n9 8 3 14 5 11 15\n6 6 7 13 8 1 9\n11 13 11 14 4 2 6\n7 14 7 15 14 7 13\n13 11 13 9 11 15 14\n14 5 10 6 7 15 13"
+    },
+    "45_7x7": {
+      "id": "45_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/045.a.htm",
+      "solution": "7 7\n9 9 11 13 8 1 10\n6 4 3 12 2 4 1\n13 10 7 14 7 12 2\n10 5 9 11 13 10 5\n7 14 6 7 12 3 12\n13 11 13 9 10 5 8\n10 5 10 6 7 14 4"
+    },
+    "46_7x7": {
+      "id": "46_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/046.a.htm",
+      "solution": "7 7\n7 13 10 7 14 5 8\n13 10 5 11 13 8 2\n14 7 14 5 8 2 7\n9 9 11 12 2 5 9\n4 2 5 8 1 10 6\n8 3 12 2 6 5 9\n2 5 8 1 9 8 2"
+    },
+    "47_7x7": {
+      "id": "47_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/047.a.htm",
+      "solution": "7 7\n9 8 3 14 7 12 2\n6 6 5 11 13 10 7\n13 11 14 5 8 3 13\n14 7 13 10 4 1 10\n13 9 8 1 10 6 5\n14 4 2 6 5 11 14\n11 12 3 13 10 5 9"
+    },
+    "48_7x7": {
+      "id": "48_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/048.a.htm",
+      "solution": "7 7\n12 3 14 5 9 10 6\n12 1 11 14 4 3 13\n14 6 5 9 10 5 8\n11 13 10 4 3 14 4\n1 10 7 14 5 9 10\n4 1 9 11 14 4 3\n12 2 4 3 13 8 3"
+    },
+    "49_7x7": {
+      "id": "49_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/049.a.htm",
+      "solution": "7 7\n1 10 7 12 1 9 9\n4 3 13 10 6 4 2\n14 5 10 5 11 12 1\n9 8 3 12 3 14 6\n2 4 1 8 1 11 13\n7 12 2 6 4 3 14\n13 10 5 11 14 5 11"
+    },
+    "50_7x7": {
+      "id": "50_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/050.a.htm",
+      "solution": "7 7\n5 10 5 9 11 12 2\n8 1 10 4 3 12 3\n6 4 1 10 5 8 1\n11 14 4 1 10 6 6\n1 11 14 4 3 13 9\n2 7 13 10 7 12 2\n1 11 14 5 11 14 5"
+    },
+    "51_7x7": {
+      "id": "51_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/051.a.htm",
+      "solution": "7 7\n7 12 1 9 8 3 13\n11 14 4 2 4 1 8\n7 13 10 7 14 6 6\n9 8 1 9 11 13 9\n6 4 2 4 3 12 2\n13 10 7 12 3 12 1\n8 1 11 14 5 8 2"
+    },
+    "52_7x7": {
+      "id": "52_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/052.a.htm",
+      "solution": "7 7\n7 12 2 7 14 4 1\n11 12 1 9 9 10 6\n3 14 6 4 2 5 9\n1 11 13 8 3 14 6\n6 5 10 4 1 11 13\n9 10 7 14 6 7 12\n6 5 11 13 9 11 12"
+    },
+    "53_7x7": {
+      "id": "53_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/053.a.htm",
+      "solution": "7 7\n6 6 5 9 10 4 3\n13 11 14 6 7 14 7\n12 1 11 13 9 9 9\n14 6 5 8 2 4 2\n13 9 10 6 7 14 5\n14 4 3 13 11 13 10\n11 14 5 10 5 10 5"
+    },
+    "54_7x7": {
+      "id": "54_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/054.a.htm",
+      "solution": "7 7\n12 2 4 1 9 8 2\n8 3 12 2 4 2 7\n4 1 8 3 12 1 9\n10 6 6 5 10 6 6\n1 9 9 8 3 13 11\n6 6 6 4 3 12 1\n11 13 11 14 7 14 6"
+    },
+    "55_7x7": {
+      "id": "55_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/055.a.htm",
+      "solution": "7 7\n11 13 10 7 13 11 13\n7 14 5 11 12 1 10\n11 13 10 7 12 0 3\n3 14 5 11 14 4 1\n3 15 12 3 15 14 6\n7 15 14 7 13 11 15\n9 9 9 9 8 3 15"
+    },
+    "56_7x7": {
+      "id": "56_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/056.a.htm",
+      "solution": "7 7\n4 1 11 13 11 13 8\n14 4 3 12 3 12 2\n11 14 7 12 3 14 7\n7 13 9 8 1 11 13\n11 12 2 4 2 5 8\n3 14 5 10 7 14 4\n1 11 14 7 13 11 12"
+    },
+    "57_7x7": {
+      "id": "57_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/057.a.htm",
+      "solution": "7 7\n9 10 6 5 8 3 13\n6 5 11 14 4 3 12\n13 8 3 13 8 1 10\n10 6 5 8 2 4 3\n3 13 8 2 5 10 5\n7 12 2 5 8 3 12\n9 10 5 10 4 3 14"
+    },
+    "58_7x7": {
+      "id": "58_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/058.a.htm",
+      "solution": "7 7\n9 9 9 9 9 9 10\n6 6 6 4 2 4 1\n13 11 13 10 7 14 6\n10 7 12 3 13 9 11\n7 13 10 5 10 6 7\n13 8 3 12 1 9 11\n10 6 7 14 6 6 7"
+    },
+    "59_7x7": {
+      "id": "59_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/059.a.htm",
+      "solution": "7 7\n14 5 10 7 14 5 9\n9 10 5 11 13 10 4\n2 5 8 3 12 3 12\n1 10 6 5 8 3 14\n2 7 13 8 2 5 11\n7 13 10 4 1 10 7\n9 10 5 10 6 5 11"
+    },
+    "60_7x7": {
+      "id": "60_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/060.a.htm",
+      "solution": "7 7\n7 12 1 11 13 9 11\n11 14 4 3 12 2 7\n1 9 10 7 12 1 9\n4 2 7 13 10 4 2\n12 3 13 8 3 14 7\n12 3 14 4 3 13 9\n8 1 9 8 3 12 2"
+    },
+    "61_5x5": {
+      "id": "61_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/061.a.htm",
+      "solution": "5 5\n8 3 13 11 12\n4 1 8 3 14\n10 4 2 5 9\n7 12 1 10 4\n13 10 6 5 10"
+    },
+    "62_5x5": {
+      "id": "62_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/062.a.htm",
+      "solution": "5 5\n6 5 11 14 5\n11 12 3 13 8\n1 8 1 10 4\n6 4 2 7 12\n13 10 5 9 8"
+    },
+    "63_7x7": {
+      "id": "63_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/063.a.htm",
+      "solution": "7 7\n4 2 4 1 8 2 5\n10 7 12 2 4 1 8\n5 11 14 5 10 4 2\n14 5 9 8 1 8 1\n13 10 4 2 6 6 4\n12 1 10 5 11 13 10\n10 4 1 10 7 14 7"
+    },
+    "64_7x7": {
+      "id": "64_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/064.a.htm",
+      "solution": "7 7\n12 1 11 14 7 13 11\n10 6 5 9 9 10 7\n1 11 14 6 6 7 13\n4 3 13 11 13 11 14\n8 1 10 5 8 1 9\n2 4 3 14 4 2 6\n7 14 7 13 8 3 13"
+    },
+    "65_7x7": {
+      "id": "65_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/065.a.htm",
+      "solution": "7 7\n4 2 6 6 7 12 2\n8 3 13 11 13 8 1\n2 7 12 1 8 2 6\n3 13 10 6 6 5 11\n5 10 7 13 11 12 3\n14 7 13 8 1 8 3\n9 9 8 2 6 6 5"
+    },
+    "66_7x7": {
+      "id": "66_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/066.a.htm",
+      "solution": "7 7\n3 14 6 5 8 2 4\n5 11 13 10 6 5 10\n10 7 14 5 9 10 7\n7 13 11 14 4 1 11\n9 10 5 11 12 2 7\n6 7 14 7 14 5 9\n13 9 9 11 13 8 2"
+    },
+    "67_7x7": {
+      "id": "67_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/067.a.htm",
+      "solution": "7 7\n13 9 10 7 12 2 7\n10 4 3 13 8 3 13\n3 12 1 8 2 7 14\n3 12 2 6 5 9 9\n7 14 5 11 12 2 4\n13 11 12 3 14 5 10\n10 5 10 5 11 14 5"
+    },
+    "68_7x7": {
+      "id": "68_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/068.a.htm",
+      "solution": "7 7\n6 5 10 6 7 14 7\n11 12 3 13 9 11 15\n3 14 5 8 2 7 13\n3 13 8 2 7 15 12\n5 8 0 3 13 9 10\n8 2 6 7 14 4 1\n4 3 13 11 13 8 0"
+    },
+    "69_7x7": {
+      "id": "69_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/069.a.htm",
+      "solution": "7 7\n1 11 12 2 5 11 13\n6 5 10 7 12 1 8\n11 12 1 11 14 6 4\n7 12 2 7 13 11 12\n13 8 3 13 10 5 10\n12 2 5 8 3 12 1\n14 7 14 6 5 10 4"
+    },
+    "70_7x7": {
+      "id": "70_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/070.a.htm",
+      "solution": "7 7\n12 2 5 8 2 4 2\n12 3 12 2 7 12 3\n8 3 12 3 13 10 7\n4 3 12 1 8 1 9\n10 5 10 6 6 4 2\n3 14 5 9 9 10 5\n1 11 14 6 6 7 12"
+    },
+    "71_5x5": {
+      "id": "71_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/071.a.htm",
+      "solution": "5 5\n4 3 14 5 8\n14 7 13 8 2\n13 9 8 2 7\n14 4 2 5 11\n9 10 7 12 1"
+    },
+    "72_5x5": {
+      "id": "72_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/072.a.htm",
+      "solution": "5 5\n5 8 3 15 14\n8 2 5 11 15\n4 1 10 7 15\n14 6 5 9 9\n13 11 14 6 6"
+    },
+    "73_7x7": {
+      "id": "73_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/073.a.htm",
+      "solution": "7 7\n5 10 7 13 8 1 8\n14 7 13 10 6 4 2\n11 13 10 5 11 12 1\n1 10 5 8 1 10 4\n2 5 8 2 4 1 10\n1 8 2 5 10 6 7\n6 6 5 8 1 11 13"
+    },
+    "74_7x7": {
+      "id": "74_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/074.a.htm",
+      "solution": "7 7\n3 13 11 14 5 11 13\n3 12 1 9 8 3 12\n3 12 2 6 6 7 14\n7 14 5 9 9 9 11\n11 13 10 6 6 4 1\n7 12 1 11 13 8 2\n13 8 2 5 10 4 1"
+    },
+    "75_7x7": {
+      "id": "75_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/075.a.htm",
+      "solution": "7 7\n12 3 12 2 7 12 2\n8 1 8 1 9 8 3\n6 4 2 6 6 4 3\n13 8 1 9 9 10 5\n10 6 6 6 4 3 12\n3 13 9 11 12 1 10\n1 10 6 5 8 2 5"
+    },
+    "76_7x7": {
+      "id": "76_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/076.a.htm",
+      "solution": "7 7\n10 4 1 8 2 6 6\n7 14 4 2 7 13 9\n11 13 10 5 9 10 6\n7 12 1 10 6 5 11\n13 8 2 7 13 10 5\n14 4 1 9 8 3 12\n13 10 6 6 4 3 14"
+    },
+    "77_7x7": {
+      "id": "77_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/077.a.htm",
+      "solution": "7 7\n10 5 9 10 5 11 13\n3 14 6 5 10 5 10\n7 13 11 14 7 14 7\n9 10 5 9 11 13 9\n6 5 8 2 5 8 2\n9 8 2 7 14 4 3\n6 6 5 9 9 8 3"
+    },
+    "78_7x7": {
+      "id": "78_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/078.a.htm",
+      "solution": "7 7\n9 9 11 14 5 11 13\n4 2 5 9 10 7 14\n10 7 12 2 5 11 13\n5 11 12 1 10 7 12\n14 5 10 4 3 13 10\n11 12 3 12 3 14 5\n7 14 7 12 1 9 8"
+    },
+    "79_7x7": {
+      "id": "79_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/079.a.htm",
+      "solution": "7 7\n7 13 10 5 9 9 8\n13 10 5 10 4 2 6\n8 3 12 3 12 3 13\n6 5 8 3 12 1 8\n11 14 4 1 10 6 4\n1 11 12 2 5 9 8\n6 5 8 3 14 6 4"
+    },
+    "80_7x7": {
+      "id": "80_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/SquarO/080.a.htm",
+      "solution": "7 7\n9 11 14 7 13 11 14\n2 7 13 11 12 1 9\n1 9 8 1 10 6 4\n2 4 2 4 1 11 12\n3 12 1 10 4 3 12\n3 14 6 5 10 7 12\n5 9 11 14 7 13 8"
+    }
+  },
+  "info": "",
+  "count": 80
+}

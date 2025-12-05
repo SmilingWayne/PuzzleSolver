@@ -1,0 +1,426 @@
+{
+  "puzzles": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/001.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - - -\nx - - x - -\n- - - - - x\n- - - x - -\n- - - - - -"
+    },
+    "2_7x7": {
+      "id": "2_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/002.a.htm",
+      "problem": "7 7\n- - - x - - -\n- - - - - x -\nx - - - - - -\n- - - x x x x\n- - - - - - -\n- - x - - - -\n- - - - x - -"
+    },
+    "3_8x8": {
+      "id": "3_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/003.a.htm",
+      "problem": "8 8\n- - x - - - - -\n- - - - x - - -\n- x - - x - - x\n- - x - - - - -\n- - - - - - - -\n- x - x - x - -\n- - - - - - - -\n- - x - - - - -"
+    },
+    "4_8x8": {
+      "id": "4_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/004.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- x - - - - - -\n- - - x - - x -\n- - x - - - - -\nx - - - - - - -\n- - x - - - - -\n- - - - - - x -\n- - - - x - - -"
+    },
+    "5_8x10": {
+      "id": "5_8x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/005.a.htm",
+      "problem": "8 10\n- - - - - - - - - -\n- - - - - - - - - -\n- x - - - - - - - -\n- - - - - - - - - x\n- - - - - - - - - -\n- - - - - - - - - -\n- x - - - - - - - -\n- - - - - - - - - x"
+    },
+    "6_7x22": {
+      "id": "6_7x22",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/006.a.htm",
+      "problem": "7 22\n- - - - x x - - - x - - x - - x - - - x - -\n- - - - x - - x - x - - - - - - - x - - - -\n- - x x x - - - - x - - x - - - - - - - - -\n- - - x - - - x x - - - - - x - - x x x - -\n- x - x - x - - - - - - x x - - - - - x - -\n- - - - - - - x - - - - - - - - - - - x - -\nx - - - - - - - - x - - - - - - x x x x x x"
+    },
+    "7_10x10": {
+      "id": "7_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/007.a.htm",
+      "problem": "10 10\n- - x - - - - x - -\n- - - - - - - - - -\n- - x x - x - - x -\n- - - - - - - - - -\n- x - - - x - - - -\n- - - x - - - x - -\nx - - - - x - - - -\n- - x - - - - x - -\n- - - - x - - - - -\n- - - - - - x - - -"
+    },
+    "8_10x10": {
+      "id": "8_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/008.a.htm",
+      "problem": "10 10\n- - - - x - - x - -\n- - - - - - - - - -\n- x - - - - - - - -\n- x - x x x x x - -\n- x - - - - - - - x\n- - - - - - - - - -\nx - - x x x x - x -\n- - - - - - - - - -\n- - - - - - - x - -\n- - - - x - - x - -"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/009.a.htm",
+      "problem": "10 10\nx x - - - x - - - -\n- - - - - - - x - -\n- - x - x - - - - -\n- - - - - - - - - -\n- - x - - x - x - -\n- - - - - - - - - -\n- x - x - x - - - -\n- - - - - - - - - -\n- - - - x - - - - -\nx x - - - - - x - -"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/010.a.htm",
+      "problem": "10 10\n- - - - - - - x - -\n- - - - - - - - - -\nx - - x - - - - x -\n- - - - - - - x - -\n- x - - - - x - - x\n- - x - - x - - - -\nx - - x x - - - - -\n- - - - x - - - x -\n- - - - - - x - - -\n- - - - - - - - - -"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/011.a.htm",
+      "problem": "10 10\n- - - x - - - - - x\n- - - - - - - - - -\n- - x - x - x - x -\n- - - - - - - - - -\n- - x - - - - x - -\n- - - - - - - - - -\n- x - x - x - x - -\n- - - - - - - - - x\n- - x - - - - x - -\n- - - - - x - - - -"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/012.a.htm",
+      "problem": "10 10\n- - - x - - - - - -\n- x - - - x - - - -\n- - - - - - - x - -\nx - - x - x - - - x\n- - - - - - - - - -\n- - - - - - x - - -\n- x - - - - - - - x\n- - - - x - x x - -\n- - x - - - - - - -\n- - - - - - - x - -"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/013.a.htm",
+      "problem": "10 10\nx - - - - - - - - -\n- - - - - - - - - -\n- - x - - - - - - x\n- - - - - - - - - -\n- - - - x - - - - -\n- - - - - - - - - -\n- - - - - - x - - x\n- - - - - - - - - -\n- x - - - x - - - -\n- - - - - - - - - -"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/014.a.htm",
+      "problem": "10 10\n- - - x - - - x - -\n- - - - - - - - - -\n- - x - x - x - - -\n- x - - - - - - x x\n- - - - - - - - - -\n- - x - x - - x - -\n- x - - - - - - - x\n- - - - - - x - - -\n- - x - - - - - - -\n- - - - - - - x - -"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/015.a.htm",
+      "problem": "10 10\nx - - - - - - - x x\n- - - - - - - - - -\n- - - - x - - - - -\n- - x x - - x - - -\n- - - - - - - x - -\n- - - - - - - - - -\n- - - x - - - x - -\n- - - - x - - x - -\n- - x - - - - - - -\n- - - - - - - - - x"
+    },
+    "16_12x12": {
+      "id": "16_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/016.a.htm",
+      "problem": "12 12\n- - x - - - x - - - - -\n- - - - - - - - - x - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - -\n- x - - - x - - - x - -\n- - - - - - - - - - - -"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/017.a.htm",
+      "problem": "12 12\n- - - x - - - - - - - -\n- - - - - - x - - - - -\n- - - - - - - - - - - -\n- - - - - - - - - - - x\n- - - - - - x - - - - -\n- - - - - - x - - - - -\nx - - - x - - - - - x -\n- - - - x - - - - - - -\n- - - - - - - - - - - -\n- x - - - - - - - - - -\n- - - - - - - - - x - -\n- - - - - - x - - - - -"
+    },
+    "18_13x13": {
+      "id": "18_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/018.a.htm",
+      "problem": "13 13\nx x x x - - - - - x x x x\nx x x - - - - - - - x x x\nx x - - - - x - - - - x x\nx - - - - - - - - - - - x\n- - - - - - x - - - - - -\n- - - - - x x x - - - - -\n- - x - x x x x x - x x x\n- - - - - x x x - - - - -\n- - - - - - x - - - - - -\nx - - - - - x - - - - - x\nx x - - - - x - - - - x x\nx x x - - - - - - - x x x\nx x x x - - x - - x x x x"
+    },
+    "19_13x14": {
+      "id": "19_13x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/019.a.htm",
+      "problem": "13 14\n- - - - - - - - - - - - - -\n- - - x - - - - - - - - - -\n- x x x x - - x - x - - x x\n- - - x - - - x - x - - - x\n- - - x - - - x - x - - - x\n- x x x - - x x - x x x x x\n- x x x - - - - - - - - - -\n- - - - - - - - x - - - - -\nx x x x x - - x x x x x x -\n- - - - - - - - x - - - x -\n- x x x x - - - x - - - x -\n- - - - - - - - x - - - - -\nx x x x x x x - - - - - - -"
+    },
+    "20_17x18": {
+      "id": "20_17x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/020.a.htm",
+      "problem": "17 18\n- - - x - - - - x - - - - x - - - -\n- - - - - - - - - - - - - - - - - -\n- - x x x - - - - - - - - - - x - -\n- x - - - x - - - - - - x x - - - -\n- x - - - - - x - - - x - - x - - -\n- - x - - - - - - x - x - - - - - x\nx - - x x - - x - x - x - - - - - -\n- - - - - x - x - x - - - - x - - -\n- - - - - x - x - x - - x x - - x -\nx - - - - x - x - x - - - - - - - -\n- - x x x - - x - x x x - - - - - -\n- x - - - - - - - - - - - - - x - -\n- - - - - - x - - - - x - x - - - x\n- - x - - - - - - x - - - - - - - -\n- x - - - - - x - - x - - - x - - -\n- - - - x - - - - - - - - x - - - -\nx - - - - - - - x - - x - - - - - x"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/021.a.htm",
+      "problem": "6 6\n- - x - - -\n- - - - - -\n- - x x - -\nx - x - - -\n- - - - - -\n- - - x - -"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/022.a.htm",
+      "problem": "8 8\n- - x - - - - -\n- - - - x - - -\n- - x - - - x -\nx - - - - - - -\n- - x - - - - x\n- - - - x - - -\n- - - - - - x -\n- - x - - - - -"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/023.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - - x -\n- x - - x - - -\n- - - - - - - -\n- - x - x - x x\n- - - - x - - x\n- - x - - x - -\nx - - - - - - -"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/024.a.htm",
+      "problem": "8 8\n- - x - - - - -\n- - - - - - - -\n- - - - - - x -\n- - x - - - - -\n- x - - - - - x\n- x - - x - - x\n- - - - x - - -\n- - x - - - - -"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/025.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - - -\n- x - - - - - - - -\n- - - - - - - - - x\n- - - - - x - - - -\nx - - - - x - - - -\n- - - - - - - - x -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - x - - x - - -"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/026.a.htm",
+      "problem": "10 10\nx - - - - - x - - -\n- - - - - - - - - -\n- - - - x x - x - -\n- - - - - - - - - -\n- - - x - - - - - -\nx - - x x - - x - -\nx - - - - - - x - -\n- - - - x - - - - -\n- - - - - - - - - -\n- - - - - - - x - -"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/027.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- x - - - x - - x -\n- - - x - - - - - -\n- - - - x - - x - -\n- - - - - - - - x -\n- x - - x - - - - -\n- - - - - x - x - -\n- - x - - - - - - -\n- - - - - - - - x -\nx x - - - x - - - -"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/028.a.htm",
+      "problem": "10 10\nx - - x - - x - - x\n- - - - - - - - - -\n- - - - x - - x - -\nx - - x - - x - - x\n- - - - - - - - - -\n- - x - - x - - - -\nx - - x - - x - - x\n- - - - - - - x - -\n- - - - - x - - - -\nx - - x - - - - - -"
+    },
+    "29_9x13": {
+      "id": "29_9x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/029.a.htm",
+      "problem": "9 13\n- - - - - - - - - x - - -\n- - - - - - - - - x - x -\nx - - x - - x - - x - x -\nx - - x - - x - - x - x -\nx - - x - - x - - x - x -\nx - - - - x x - - x - x -\nx x - - x - - x x x - x -\n- - - - - - - - - - - x -\n- - - - - - - - - - - - -"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/031.a.htm",
+      "problem": "10 10\nx - - - x - - - - -\n- - - - - - - - - -\n- - - - - - x - - x\nx - - - - - - - - -\n- - - - - - - - - -\n- - - - x - - x x -\nx - - x x - - - - -\n- - - - - - - - - -\n- - - - - - - x - -\n- - - - x - - - - x"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/032.a.htm",
+      "problem": "8 8\n- - x - - - - -\n- - - - x - - -\n- x - - x - - x\n- - x - - - - -\n- - - - - - - -\n- x - x - x - -\n- - - - - - - -\n- - x - - - - -"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/033.a.htm",
+      "problem": "10 10\n- - - - - x - - - -\n- - - x - - - - x -\n- - - - - - - - - -\nx - - x - - - x - -\n- - - - - - - - - -\n- - x - x - - x - -\n- - - - - - - - - x\n- - - - - - - - - -\n- - x - - - - - - -\n- - - - - x - - - -"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/034.a.htm",
+      "problem": "10 10\n- - x - - - - x - -\n- - - - - - - - - -\n- - - - - - x - - -\n- - x - - - - - - -\n- - - - - - x - - -\n- - x - - - - - - -\nx - - - - - x - - x\n- - x - - - - - - -\n- - - - - - x - - -\n- - x - - - - - - -"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/035.a.htm",
+      "problem": "10 10\n- - - - - - x - - -\n- - - - - - x - x -\n- - x - - x x - x -\n- - x - - - - - - -\nx - - - - - - - - x\n- - x - - - - x - x\n- x x - - - - - - -\n- - - - x x x - - -\n- - - - - - - x - -\nx x - - - - - x - -"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/036.a.htm",
+      "problem": "8 8\n- - x - - - - -\n- - - - - - - -\n- x - x - - x -\n- - - - - - - -\n- - x - - x - -\n- - - x - - x -\n- - - - - - - -\n- - x - - - - x"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/037.a.htm",
+      "problem": "10 10\n- - - x - - - - - -\n- - - - - - x - - -\nx - - - - - - - - x\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - - - - - - x\n- x - - - - - - - -\n- - - - - - - x - -\n- - - - - - - - - -\n- - - x - - - - - -"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/038.a.htm",
+      "problem": "10 10\nx - - - x - - - - x\n- - - - - - - - - -\n- - - - - - x - - -\nx - - - - - - - - -\n- - - - - - - - x -\n- - - - - - - - - -\n- - x - - - - - - x\n- - - - - - - - - -\n- - - - - x - - - -\nx - - - - - - - - -"
+    },
+    "39_11x10": {
+      "id": "39_11x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/039.a.htm",
+      "problem": "11 10\n- - x - - - - - - x\n- - - - - - - - - -\n- x - - - - - - x -\n- - - - - - - - - - \n- - - x - - x - - -\n- x x x x x x x x -\n- - x - - x - - - -\n- - - - - - - - - -\n- x - - - - x - - x\n- - - x - - - - - - \n- - - - - - - - - -"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/040.a.htm",
+      "problem": "10 10\n- - x - - x - - - -\n- - - - - - - - - -\n- x - - - - x - - x\n- - - - - - - - - -\nx - - - - - - - - -\n- - - - - - - - - -\n- - - - x - - - - -\n- - - x - - - - x -\n- x x - - - - - - -\n- - - - x - - - - -"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/041.a.htm",
+      "problem": "10 10\n- - x - - - - - - -\n- - x - - - - x - -\n- - - - x - - - - x\n- - x - - - - - - -\nx - - - - - - - - -\n- - x - - x x - - x\n- - x - - - - - - -\n- - - - x - - - x -\n- - - - - - - - - -\n- - x - - - - - - x"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/042.a.htm",
+      "problem": "10 10\n- - - - - x - - - -\n- - - - - - - - - -\n- - x - - - - x - -\n- - - - - - - x - -\n- - x - - - - - - -\n- - - - - x - - - -\n- - - - x - - - - x\nx - - - - - - - - -\n- - - - - - - - - -\n- - - - x - - - - -"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/043.a.htm",
+      "problem": "10 10\nx - - - - - - x - -\n- - - - - - - x - -\n- - x - - - - - - -\n- - - - - - x - x -\n- - - - - x - - - -\n- - - - - x - - - -\n- - - - - - - - - -\n- - x - - - - - - x\n- - - - - - x - - -\nx - - - - - - - - -"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/044.a.htm",
+      "problem": "10 10\n- - - - - x - - - -\n- - - - - - - - - -\n- x - - - - - - x -\n- - - - - - - - - -\n- - x - - - - - - -\n- - - - - x - - - x\nx - - x - x - - - -\n- - - - - - - - - -\n- - - - - - - - - -\nx - - x - - x - - -"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/045.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- x - - - - - -\n- - - - - - - -\n- - x - x - - x\n- x - - - - - -\n- x - - - - - -\n- - - - - - x -\n- - x - - - - -"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/046.a.htm",
+      "problem": "10 10\nx - - - - - x - - -\n- - - - - - - - - -\n- - - - - - - - - -\n- - - - x - - - - -\n- - - - - - - - x -\n- - x - x - - - - -\n- - - - - - - - - -\n- - - - x - x - - -\n- - - - - - - - x -\n- - - x - - - - - -"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/047.a.htm",
+      "problem": "10 10\n- - - - - - x - - -\n- - - - x - - - - -\n- - x - x - - x - -\nx - - - x - x x - -\nx - x - - - - - - -\n- - - - - - - - - -\n- - - - x x - x - -\n- - - - - - - x - -\n- x - - - - - - x -\n- - - - x - - - - -"
+    },
+    "48_13x13": {
+      "id": "48_13x13",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/048.a.htm",
+      "problem": "13 13\nx x x x - - - - - x x x x\nx x x - - - - - - - x x x\nx x - - - - x - - - - x x\nx - - - - - - - - - - - x\n- - - - - - x - - - - - -\n- - - - - x x x - - - - -\n- - x - x x x x x - x x x\n- - - - - x x x - - - - -\n- - - - - - x - - - - - -\nx - - - - - x - - - - - x\nx x - - - - x - - - - x x\nx x x - - - - - - - x x x\nx x x x - - x - - x x x x"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/049.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - - - -\n- x - - - - - -\n- - - - - - - x\n- - - - - - - -\n- - - - - - - -\n- - - - - - x -\nx - - - - - - -"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/051.a.htm",
+      "problem": "10 10\n# - - - # - - - - -\n- - # - - - # - - -\n- - - - # - - - # -\n- - # - - - - - - -\n- - - # - # - - - #\n- - - # - - # # - -\n# # - - # - - - # -\n- - - - - - # - # -\n- - - - # - - - # -\n- - # - - - - - - -"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/052.a.htm",
+      "problem": "10 10\n- - # - - - # - - -\n- - - - - - - - # -\n- # - - - # # - - -\n- # - - # - - - - #\n- - - - # - - - - -\n# - # # - - # - # -\n- - - - - # - - - -\n- # - # # - - - - #\n- - - - - - # - - -\n- - # - - - - - - -"
+    },
+    "53_12x12": {
+      "id": "53_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/053.a.htm",
+      "problem": "12 12\n# - - # - - # - - - - -\n- - - # - - - - - - - -\n- # - - - - - - # - - #\n- - # - # - # - - - - -\n- - # - # - - # - - # -\n- - - - - - - - # - - -\n- - - # - - # - - - - #\n- - # - - # - - - - - -\n# - - - - # - - - - # -\n- - - # - - - # - - # -\n- # - - - - - - - # - -\n- - - - - # - - - - - #"
+    },
+    "54_12x12": {
+      "id": "54_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/054.a.htm",
+      "problem": "12 12\n- - - - # - - - - - - -\n- - - - - - - - - # - -\n# - - - - # - # - - - #\n- - # - # - - - - # - -\n- - - - - - # - # - - -\n- - # # - - - - - - # -\n- - - - - - # # - # - -\n- # - - # - - - - - - #\n- - - # - - - - - - - -\n# - - # - - - - # - - -\n- - - - - - - - - # - -\n- - - # - - - # - - - #"
+    },
+    "55_12x12": {
+      "id": "55_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/055.a.htm",
+      "problem": "12 12\n- - - - - - - # - - - #\n- - - # - - - - - # - -\n# # - - - - - # # - - -\n- - - # - - - - - - - #\n- - - - - - - - - # - -\n# - - # - - # - - - - -\n- - - - - - - - # - - -\n- - - # - - # - - - # -\n- - - - # - - # - - - -\n- - # - - - - - - # - -\n- # - - - - - # - - # -\n- - - - - # - - - - - -"
+    },
+    "56_14x14": {
+      "id": "56_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/056.a.htm",
+      "problem": "14 14\n- - - # - - - # - - - - - #\n- - - - - # - - - # - - - -\n# - # - - - - - - - - # - -\n- - - - # - - # - # - - - #\n- # - # - - - - - - - # - -\n- - - - - - # - - # - - - -\n# - - # # - - # - - # - - -\n- - - - - # - # # - - - # #\n- - - # - - - - - - # - - -\n- # - - # - # # - - # - # -\n- - # - - - - - - # - - - -\n# - - - - # - - - - - # - -\n- - - # - - - - - - # - - -\n- - - - - # - - # - - - # #"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/057.a.htm",
+      "problem": "14 14\n- - - - - - - # - - # - - #\n- - - - # - - - - - # - - -\n# - - - - - # - - - - - # -\n- - - - - - - # - # - - - -\n- - # - - # - - - - - # - #\n- - - - - - # - - # - # - -\n- - - # - - - - - - - - # -\n# - - - - # - - - - # - # -\n- - # - # # - # - # - - - -\n- - - - - - - - - - - # - -\n# - - - - - # - - - - # - -\n- - - - # - - - # - - - - #\n- - # - - - - - - - # - - -\n# - - - # - - # - - - - - -"
+    },
+    "58_14x14": {
+      "id": "58_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/058.a.htm",
+      "problem": "14 14\n# - - - - - - # - - - - - #\n- - - - # - - - - # # - - #\n- - - # - - - - # - - - - -\n- - - - - - - - - - - # # -\n- - # - - - - - # - - # - -\n# - - # - - - - - - - - - #\n- - - # - # # - # - - # - -\n- # - - - - - - - - # - - -\n- - - - # - - # - - - - # -\n- - # - # - # - - - - # # -\n# - - - # - - - - - # - - -\n- - # - - - - # - - # - - #\n- - - - - # - - # - - # - -\n# - - # - - - - - - - - - -"
+    },
+    "59_17x17": {
+      "id": "59_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/059.a.htm",
+      "problem": "17 17\n# # - - - # - - - # - - - # - - -\n- - - # - - - # - - - # - - - # -\n- - - # # - - - - # # - - # - - -\n- # - - - - # - - # - - - # - # #\n- - - - - # - - # - - # - - - - #\n# - # - - - - # - - # - - - # - #\n- - # - - - # # - # - - - - - - -\n- # - - # - - - - - - # - - - # -\n- - - - - - # - # - - - - - # - -\n# - - # - - - - - - - - # # - - #\n- - # # - # - - - - - - - # - - -\n- - - - - - # - # - - # - - - # -\n- # - - # - - - - # - - # - - - -\n- - - # - - - # - # - - - - - - #\n# - - - - # # - - # - - - # - - -\n# - # - - - # - # - - # - - - # -\n# - - - # - - - # - - - - # - - -"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/060.a.htm",
+      "problem": "17 17\n# # # # - - - - - - # # # - - - #\n- - - - - - # # # - - - # - # - -\n- - # - # - - - - # # - - - - # -\n# - - - - # # # - # - - - # - - -\n- - - - - - - # - - - - # - - - #\n- # # - # - - - # - # - # - # - -\n- # # - - - # - - - - - - - - # -\n- - - - - # # # - # - # - # - - -\n# # # # - - - - - - - - - # - - #\n- - - - - - # - - # # - - # - - -\n- - # # # - - # - - - - - # - # -\n- - # - - - - - # - - # # - - - -\n- - - - # - # - # - - # # - # - #\n# - - - - - - - # - - - # - # - -\n# - # # # # - # - - # - - - # # -\n# - - - - - - - - # - - - # - - -\n# - - # - - # - - - - # - - - # #"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/061.a.htm",
+      "problem": "10 10\n- - # - - # - - - #\n- - - - - - - - - -\n- # - - # - - - # -\n- - # - - - # - - -\n- - - - # - - - - -\n- - - - - - - # - -\n- - # - - - # - - #\n- - - - # - - - - -\n- - # - - - # # - -\n# - - - # - - - - #"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/062.a.htm",
+      "problem": "10 10\n- - # - - - - - - -\n- - - - # - - - # -\n- - # # - - # - # -\n- - - - - # - - - -\n- # - # - - - - - #\n- - - # - - # - - -\n# - - - # - - - - -\n- - # - - - - - # -\n- - - - - - # - - -\n# - - # - - # - - #"
+    },
+    "63_12x12": {
+      "id": "63_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/063.a.htm",
+      "problem": "12 12\n# - - # - - - - - - - -\n- - - - - # - - # - - -\n- - - - - - - - - - # -\n- - # - - # - - # - - -\n- # - - # - - # - - - -\n- - - - - - - - - - - #\n# - - # - - - - - # - -\n- - - - - # - - # - - -\n- - # - - - # - - - - #\n- - - - # - - # - # - -\n- - # - - - - - - # # -\n# - - - - - # - - - - -"
+    },
+    "64_12x12": {
+      "id": "64_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/064.a.htm",
+      "problem": "12 12\n- - - - - - - - # - - -\n- # - - # - - - - - # -\n- - - - - - # - - # - -\n# - # - - # - - - - - #\n- - # - # - - # - - - -\n- - # - - - - - # # - -\n- - - - - - - - - - - -\n- # - - - - - - # - # -\n- - - - - # - - - - # -\n# - - # - - - - # - - -\n- - - - # - # - - - - -\n- - - - - - # - - # - -"
+    },
+    "65_12x12": {
+      "id": "65_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/065.a.htm",
+      "problem": "12 12\n- - - - # - - - # - - -\n- # - - - - # - - - # -\n- - - - - - - - - - # -\n# - - - - - # - - # - -\n- - - # - - - - - # - #\n- - - - # # - - - - - -\n- - # - - # - - # - - -\n- - - - - - - - - # - -\n# - - # - - - - - - - #\n- - - - - # # # - - - -\n- # - - - - - - # - - -\n- - - # - - # - - - - -"
+    },
+    "66_14x14": {
+      "id": "66_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/066.a.htm",
+      "problem": "14 14\n# - - - # - - - - - # - - -\n- - # - # - - - # - - - # -\n- # - - - - # - - - # # - -\n- - - # - # - - # - - # - #\n# - - - - - - - - # - - - -\n- - # - - - - - - - # - # -\n- - - - - - # # - - - - - -\n# # - - # - - - - # - - - -\n- - - # - - # - - # # - - -\n- # - - - - - - # - - - - #\n- - - - - - # - - - - # - -\n# - # - - - - # - # - - # -\n- - - - - - - - - - - - - -\n- - - - - # - - # - - - - #"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/067.a.htm",
+      "problem": "14 14\n- - - # - - - - - - - # - -\n- - - # - - - # # - - - - -\n- - - - # # - - - - # - # -\n- - - - - - - - # - - - - -\n- - # - - # # - - - - # - #\n- - # # - - - # - # - # - -\n- - - - - # - - - - - - - -\n- - # - - - - - - - - # - -\n# - - - - # - # - - - - - -\n- - - - - - - - - - - - # -\n- - - # - - # - # - - - - -\n# - - - - # - - - - # - - #\n- - # - # - - # - - - # - -\n- - - - # - - - - # - - - -"
+    },
+    "68_14x14": {
+      "id": "68_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/068.a.htm",
+      "problem": "14 14\n# - - - - - - - - - # - - -\n- - - - - - - # - - - - - -\n- - - # - # - - - # - # - #\n- - - - - - - # - - - # - -\n# # - # - - - - - - # - - -\n- - - - - - - - # - - - - #\n- - - - # - - - # - - # - -\n- - # - - # - - - - # - - -\n# - - # - - - # - - - - # #\n- - - - - - # - - # - - - -\n- # - - # - # - - - # # - -\n- - - - - - # - - - - - - -\n- - # - # - - # - # - - # -\n- - # - - - - - - # - - - -"
+    },
+    "69_17x17": {
+      "id": "69_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/069.a.htm",
+      "problem": "17 17\n# - - # - - - # # # - - # - - - #\n# - - - - # - - - # - - # - # - -\n# - # - - - - # - # - - # - # # -\n- - - - # # - - - - - - # - # - -\n- # - - # - - - # - # - # - - - #\n- - # - # - # - - - - - - # - - -\n# - # - - - - # - - - # - # - # -\n# - # - - # - - - - - # - # - # -\n# - # - - - - - - # - # - # - # -\n# - - # - - - # # - - - - - - # -\n# - - - - # # # - - # - # - # - -\n- - # - # - - - - - # - - - - - #\n- - - - # - # - # - - - - # - - -\n# - - # - - # - - # # # - - # # -\n- - - - - # # # - - - - # - # # -\n- - # - - - - - - - # - - - - - -\n# - - - # # # # # - - - - # # # #"
+    },
+    "70_17x17": {
+      "id": "70_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/070.a.htm",
+      "problem": "17 17\n- - # # # - - - # - - - - # # - -\n- - # - - - # - - - - # - - - - -\n- - - - # # # # - # - - # - - # -\n- # # # - - - - - - - - - # # - -\n- - - - - # # - - # - # - - - - #\n# - - # # - - # - - - - # # - - -\n- - - # # - - - - - # - # # - # -\n- - - - - - - - # - - - - # - # -\n# # # - - - # - - - - # - - - - -\n# # - - # - - # # # - - - # # - #\n- - - - - # - - - - - - - # # - -\n- - # # - - - - - # # # - - - # -\n- - - # # - - # - - - # - # - # -\n- # - - - # - - - # - - - - - # -\n- - # # - - - # - - - - # - # - -\n# - # # - - - # # # - - - - - - #\n# - - - - # - - - - - # - - - # #"
+    },
+    "30_17x17": {
+      "id": "30_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/030.a.htm",
+      "problem": "17 17\nx - - - - - - x - - - - - - - - -\nx - - - - - - - - - - - - - x - -\n- - - x - - - - - - - x - - - - x\n- - - - - - - x - x - x - - - - x\n- - - - - - - - - - - - - - - - -\nx - - - - x - - - - - - - x - - -\n- - - - - - - - - x - - - - - - -\n- - - x - x - - - - - - - x - - x\n- - - - - - - x - x - - - - - - -\nx x - - - x - - - - - - - x - - -\n- - - - - - - - - - - - - - - - -\n- - - - - - - x - x - x - - - - -\n- - - - - - - - - - - - - - - x -\nx - - - - - - - - x - - - - - x -\n- - - - - - - - - - - - - - - - -\n- - - - x - - - - - - - - - - - -\n- - - - - - - - - x - - - x - - -"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Rundreise/050.a.htm",
+      "problem": "17 17\nx - - - - - - x - - - - - - - - -\nx - - - - - - - - - - - - - x - -\n- - - x - - - - - - - x - - - - x\n- - - - - - - x - x - x - - - - x\n- - - - - - - - - - - - - - - - -\nx - - - - x - - - - - - - x - - -\n- - - - - - - - - x - - - - - - -\n- - - x - x - - - - - - - x - - x\n- - - - - - - x - x - - - - - - -\nx x - - - x - - - - - - - x - - -\n- - - - - - - - - - - - - - - - -\n- - - - - - - x - x - x - - - - -\n- - - - - - - - - - - - - - - x -\nx - - - - - - - - x - - - - - x -\n- - - - - - - - - - - - - - - - -\n- - - - x - - - - - - - - - - - -\n- - - - - - - - - x - - - x - - -"
+    }
+  },
+  "info": "",
+  "count": 70
+}

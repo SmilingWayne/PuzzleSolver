@@ -21,6 +21,7 @@ from RenbanCrawler import RenbanCrawler
 from EntryExitCrawler import EntryExitCrawler
 from SimpleloopCrawler import SimpleloopCrawler
 from NondangoCrawler import NondangoCrawler
+from FillominoCrawler import FillominoCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -49,7 +50,8 @@ class CrawlerFactory:
         "Renban": RenbanCrawler,
         "EntryExit": EntryExitCrawler,
         "Simpleloop": SimpleloopCrawler,
-        "Nondango": NondangoCrawler
+        "Nondango": NondangoCrawler, 
+        "Fillomino": FillominoCrawler
     }
     
     @classmethod

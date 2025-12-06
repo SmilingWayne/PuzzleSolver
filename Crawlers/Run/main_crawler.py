@@ -9,7 +9,7 @@ def get_specific_puzzle(target, data):
 
 if __name__ == "__main__":
     # Sternenhimmel
-    target = "Nondango"
+    target = "Fillomino"
     data = {
         "puzzle_name": f"{target}",
         "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",

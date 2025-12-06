@@ -9,7 +9,7 @@ def get_specific_puzzle(target, data):
 
 if __name__ == "__main__":
     # Sternenhimmel
-    target = "Fillomino"
+    target = "Tatamibari"
     data = {
         "puzzle_name": f"{target}",
         "index_url": f"https://www.janko.at/Raetsel/{target}/index.htm",
@@ -17,12 +17,12 @@ if __name__ == "__main__":
     }
     
     # # Used for ununified puzzles
-    # target = "Simpleloop"
-    # data = {
-    #     "puzzle_name": f"{target}",
-    #     "index_url": f"https://www.janko.at/Raetsel/Rundreise/index.htm",
-    #     "root_url": f"https://www.janko.at/Raetsel/Rundreise/"
-    # }
+    target = "KillerSudoku"
+    data = {
+        "puzzle_name": f"{target}",
+        "index_url": f"https://www.janko.at/Raetsel/Sudoku/Killer/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/Sudoku/Killer/"
+    }
     
     
     get_specific_puzzle(target, data)

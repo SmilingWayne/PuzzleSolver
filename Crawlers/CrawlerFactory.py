@@ -22,6 +22,11 @@ from EntryExitCrawler import EntryExitCrawler
 from SimpleloopCrawler import SimpleloopCrawler
 from NondangoCrawler import NondangoCrawler
 from FillominoCrawler import FillominoCrawler
+from YinYangCrawler import YinYangCrawler
+from YajilinCrawler import YajilinCrawler
+from TerraXCrawler import TerraXCrawler
+from TatamibariCrawler import TatamibariCrawler
+from KillerSudokuCrawler import KillerSudokuCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -51,7 +56,13 @@ class CrawlerFactory:
         "EntryExit": EntryExitCrawler,
         "Simpleloop": SimpleloopCrawler,
         "Nondango": NondangoCrawler, 
-        "Fillomino": FillominoCrawler
+        "Fillomino": FillominoCrawler,
+        "YinYang": YinYangCrawler,
+        "Yajilin": YajilinCrawler,
+        "TerraX": TerraXCrawler,
+        "Tatamibari": TatamibariCrawler,
+        "KillerSudoku": KillerSudokuCrawler
+        
     }
     
     @classmethod

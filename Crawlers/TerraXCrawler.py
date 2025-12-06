@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class KillerSudokuCrawler(GridCrawler):
+class TerraXCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -119,25 +119,6 @@ class KillerSudokuCrawler(GridCrawler):
                     problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
                     solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
 
-                    problem_text = problem_text.replace('a', '1')
-                    problem_text = problem_text.replace('b', '2')
-                    problem_text = problem_text.replace('c', '3')
-                    problem_text = problem_text.replace('d', '4')
-                    problem_text = problem_text.replace('e', '5')
-                    problem_text = problem_text.replace('f', '6')
-                    problem_text = problem_text.replace('g', '7')
-                    problem_text = problem_text.replace('h', '8')
-                    problem_text = problem_text.replace('i', '9')
-                    
-                    solution_text = solution_text.replace('A', '1')
-                    solution_text = solution_text.replace('B', '2')
-                    solution_text = solution_text.replace('C', '3')
-                    solution_text = solution_text.replace('D', '4')
-                    solution_text = solution_text.replace('E', '5')
-                    solution_text = solution_text.replace('F', '6')
-                    solution_text = solution_text.replace('G', '7')
-                    solution_text = solution_text.replace('H', '8')
-                    solution_text = solution_text.replace('I', '9')
                     rows = problem_text.split("\n")
                     matrix = [row.split() for row in rows]
 

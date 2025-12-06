@@ -13,6 +13,7 @@ from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
 from Common.Verifier.PuzzleVerifiers.NorinoriVerifier import NorinoriVerifier
 from Common.Verifier.PuzzleVerifiers.KakurasuVerifier import KakurasuVerifier
 from Common.Verifier.PuzzleVerifiers.FuzuliVerifier import FuzuliVerifier
+from Common.Verifier.PuzzleVerifiers.TilePaintVerifier import TilePaintVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -33,6 +34,7 @@ class VerifierFactory:
         "Norinori": NorinoriVerifier, 
         "Kakurasu": KakurasuVerifier,
         "Fuzuli": FuzuliVerifier,
+        "TilePaint": TilePaintVerifier,
         # Sudoku:
         "Sudoku": SudokuVerifier,
         "ButterflySudoku": SudokuVerifier,

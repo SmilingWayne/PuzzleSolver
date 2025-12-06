@@ -1,3 +1,3 @@
 from AkariCrawler import AkariCrawler
 
-MinesweeperCrawler = AkariCrawler
+YinYangCrawler = AkariCrawler

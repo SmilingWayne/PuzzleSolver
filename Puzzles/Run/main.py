@@ -33,7 +33,8 @@ if __name__ == "__main__":
         "Norinori",
         "Kakurasu",
         "Fuzuli",
-        "TilePaint"
+        "TilePaint",
+        "KillerSudoku"
         
     ]
     

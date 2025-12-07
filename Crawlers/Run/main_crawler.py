@@ -17,12 +17,17 @@ if __name__ == "__main__":
     }
     
     # # Used for ununified puzzles
-    target = "KillerSudoku"
+    target = "ABCEndView"
     data = {
         "puzzle_name": f"{target}",
-        "index_url": f"https://www.janko.at/Raetsel/Sudoku/Killer/index.htm",
-        "root_url": f"https://www.janko.at/Raetsel/Sudoku/Killer/"
+        "index_url": f"https://www.janko.at/Raetsel/Abc-End-View/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/Abc-End-View/"
     }
+    # data = {
+    #     "puzzle_name": f"{target}",
+    #     "index_url": f"https://www.janko.at/Raetsel/Eins-bis-X/index.htm",
+    #     "root_url": f"https://www.janko.at/Raetsel/Eins-bis-X/"
+    # }
     
     
     get_specific_puzzle(target, data)

@@ -1,0 +1,2166 @@
+{
+  "puzzles": {
+    "1_4x4": {
+      "id": "1_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/001.a.htm",
+      "problem": "4 4\n- - - -\n- 3 - -\n- - - 4\n- - 8 -"
+    },
+    "2_4x4": {
+      "id": "2_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/002.a.htm",
+      "problem": "4 4\n- - - -\n- - - -\n- - 2 -\n- - - 12"
+    },
+    "3_5x5": {
+      "id": "3_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/003.a.htm",
+      "problem": "5 5\n- - - - -\n9 - - - -\n- - - 8 -\n- 9 - - -\n- - - - 12"
+    },
+    "4_5x5": {
+      "id": "4_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/004.a.htm",
+      "problem": "5 5\n1 - - - -\n- 9 - - -\n- - - - 2\n- - 9 - -\n- - - 9 -"
+    },
+    "5_5x5": {
+      "id": "5_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/005.a.htm",
+      "problem": "5 5\n- - - - -\n- - 6 - -\n- - - - 6\n- 3 - - -\n- - - 4 -"
+    },
+    "6_5x5": {
+      "id": "6_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/006.a.htm",
+      "problem": "5 5\n3 - - - -\n- - - - 6\n- - - - -\n- - - 3 -\n- 0 - - -"
+    },
+    "7_5x5": {
+      "id": "7_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/007.a.htm",
+      "problem": "5 5\n- - - 6 -\n- - - - 6\n0 - - - -\n- - 12 - -\n- 12 - - -"
+    },
+    "8_6x6": {
+      "id": "8_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/008.a.htm",
+      "problem": "6 6\n- - - - - 0\n- - 2 - - -\n- - - - - -\n- - - - 3 -\n- 0 - - - -\n- - - 9 - -"
+    },
+    "9_6x6": {
+      "id": "9_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/009.a.htm",
+      "problem": "6 6\n0 - - - - -\n- 2 - - - -\n- - - - 4 -\n- - - 6 - -\n- - - - - 12\n- - 4 - - -"
+    },
+    "10_6x6": {
+      "id": "10_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/010.a.htm",
+      "problem": "6 6\n- - - - 3 -\n- - - - - -\n- 6 - - - -\n- - - 1 - -\n- - - - - -\n- - 9 - - -"
+    },
+    "11_6x6": {
+      "id": "11_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/011.a.htm",
+      "problem": "6 6\n- - - - 2 -\n- - 4 - - -\n0 - - - - -\n- - - 3 - -\n- 0 - - - -\n- - - - - 0"
+    },
+    "12_6x6": {
+      "id": "12_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/012.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - 1 -\n- - 0 - - -\n- - - 6 - -\n- - - - - 0\n- 9 - - - -"
+    },
+    "13_7x7": {
+      "id": "13_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/013.a.htm",
+      "problem": "7 7\n- - - - - 4 -\n- 8 - - - - -\n- - - - - - -\n8 - - - - - -\n- - 8 - - - -\n- - - - - - 8\n- - - 0 - - -"
+    },
+    "14_7x7": {
+      "id": "14_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/014.a.htm",
+      "problem": "7 7\n- - - - 6 - -\n- - - - - - -\n- - - - - - 12\n- - - - - 8 -\n0 - - - - - -\n- - - 2 - - -\n- - - - - - -"
+    },
+    "15_7x7": {
+      "id": "15_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/015.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - - - -\n- - - 3 - - -\n- - - - - 3 -\n- 8 - - - - -\n- - - - - - 8\n- - - - 9 - -"
+    },
+    "16_7x7": {
+      "id": "16_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/016.a.htm",
+      "problem": "7 7\n1 - - - - - -\n- - 3 - - - -\n- 3 - - - - -\n- - - 6 - - -\n- - - - - - 4\n- - - - 12 - -\n- - - - - 9 -"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/017.a.htm",
+      "problem": "8 8\n- 1 - - - - - -\n- - - - - - - 4\n- - - - - - 12 -\n- - - - - 9 - -\n- - 6 - - - - -\n- - - - 6 - - -\n1 - - - - - - -\n- - - 8 - - - -"
+    },
+    "18_8x8": {
+      "id": "18_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/018.a.htm",
+      "problem": "8 8\n- - - - 0 - - -\n- - - - - - - 12\n- - - 3 - - - -\n- - - - - - 4 -\n- 6 - - - - - -\n- - 4 - - - - -\n- - - - - 6 - -\n8 - - - - - - -"
+    },
+    "19_8x8": {
+      "id": "19_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/019.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - - - - 8 - -\n- 1 - - - - - -\n- - - - 2 - - -\n- - - - - - 2 -\n- - 6 - - - - -\n- - - - - - - 8\n- - - - - - - -"
+    },
+    "20_8x8": {
+      "id": "20_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/020.a.htm",
+      "problem": "8 8\n- - - - 6 - - -\n- 0 - - - - - -\n- - - 4 - - - -\n- - - - - 9 - -\n- - - - - - - 12\n- - 3 - - - - -\n- - - - - - 4 -\n9 - - - - - - -"
+    },
+    "21_4x4": {
+      "id": "21_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/021.a.htm",
+      "problem": "4 4\n- - - 4\n- - 4 -\n- - - -\n- - - -"
+    },
+    "22_5x5": {
+      "id": "22_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/022.a.htm",
+      "problem": "5 5\n- - - - -\n- - 4 - -\n- - - - -\n- - - 4 -\n- - - - 8"
+    },
+    "23_5x5": {
+      "id": "23_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/023.a.htm",
+      "problem": "5 5\n- - - - -\n- 2 - - -\n- - 6 - -\n- - - 12 -\n- - - - 8"
+    },
+    "24_6x6": {
+      "id": "24_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/024.a.htm",
+      "problem": "6 6\n2 - - - - -\n- - - 1 - -\n- - - - 9 -\n- 3 - - - -\n- - - - - 8\n- - - - - -"
+    },
+    "25_6x6": {
+      "id": "25_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/025.a.htm",
+      "problem": "6 6\n- - - - - -\n- - 8 - - -\n- - - - 0 -\n- 9 - - - -\n- - - - - 8\n8 - - - - -"
+    },
+    "26_6x6": {
+      "id": "26_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/026.a.htm",
+      "problem": "6 6\n2 - - - - -\n- - - 4 - -\n- - - - - 4\n- 8 - - - -\n- - 6 - - -\n- - - - - -"
+    },
+    "27_7x7": {
+      "id": "27_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/027.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - 3 - - -\n- 4 - - - - -\n- - - - - - 0\n- - - - 1 - -\n- - 2 - - - -\n- - - - - 4 -"
+    },
+    "28_7x7": {
+      "id": "28_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/028.a.htm",
+      "problem": "7 7\n- - - - - 1 -\n2 - - - - - -\n- - 6 - - - -\n- - - - 6 - -\n- - - - - - 0\n- 2 - - - - -\n- - - 8 - - -"
+    },
+    "29_8x8": {
+      "id": "29_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/029.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - - - 9 - - -\n- - - - - 12 - -\n- 3 - - - - - -\n- - - - - - 3 -\n- - 6 - - - - -\n- - - - - - - 0\n- - - 9 - - - -"
+    },
+    "30_8x8": {
+      "id": "30_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/030.a.htm",
+      "problem": "8 8\n- - - - - - 3 -\n- - 1 - - - - -\n- - - - - - - 4\n- 8 - - - - - -\n- - - - 4 - - -\n3 - - - - - - -\n- - - 12 - - - -\n- - - - - 8 - -"
+    },
+    "31_4x4": {
+      "id": "31_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/031.a.htm",
+      "problem": "4 4\n- - - -\n- - - -\n- - - 4\n0 - - -"
+    },
+    "32_5x5": {
+      "id": "32_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/032.a.htm",
+      "problem": "5 5\n- - 1 - -\n- - - - 12\n- - - 12 -\n- - - - -\n- 4 - - -"
+    },
+    "33_5x5": {
+      "id": "33_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/033.a.htm",
+      "problem": "5 5\n- - 2 - -\n- - - - -\n- - - 3 -\n- 9 - - -\n- - - - -"
+    },
+    "34_6x6": {
+      "id": "34_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/034.a.htm",
+      "problem": "6 6\n0 - - - - -\n- - - 1 - -\n- - 8 - - -\n- 6 - - - -\n- - - - 0 -\n- - - - - 4"
+    },
+    "35_6x6": {
+      "id": "35_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/035.a.htm",
+      "problem": "6 6\n- - - 3 - -\n- - - - 9 -\n0 - - - - -\n- - - - - 12\n- - 9 - - -\n- 12 - - - -"
+    },
+    "36_6x6": {
+      "id": "36_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/036.a.htm",
+      "problem": "6 6\n- 0 - - - -\n- - - 8 - -\n- - - - - -\n- - - - - 4\n9 - - - - -\n- - 12 - - -"
+    },
+    "37_7x7": {
+      "id": "37_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/037.a.htm",
+      "problem": "7 7\n- - 6 - - - -\n2 - - - - - -\n- - - - 2 - -\n- - - - - - 6\n- - - 2 - - -\n- - - - - 12 -\n- 4 - - - - -"
+    },
+    "38_7x7": {
+      "id": "38_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/038.a.htm",
+      "problem": "7 7\n- - - - - - 4\n- - - - 8 - -\n2 - - - - - -\n- - 6 - - - -\n- - - - - - -\n- - - 2 - - -\n- 8 - - - - -"
+    },
+    "39_8x8": {
+      "id": "39_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/039.a.htm",
+      "problem": "8 8\n- - - - 2 - - -\n- - - - - - 12 -\n- - - - - 8 - -\n- - 9 - - - - -\n- - - - - - - -\n- - - - - - - 12\n- - - 2 - - - -\n- 0 - - - - - -"
+    },
+    "40_8x8": {
+      "id": "40_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/040.a.htm",
+      "problem": "8 8\n- - - - 4 - - -\n- 8 - - - - - -\n- - - - - - - 12\n- - - 9 - - - -\n- - - - - 4 - -\n- - 4 - - - - -\n- - - - - - - -\n8 - - - - - - -"
+    },
+    "41_4x4": {
+      "id": "41_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/041.a.htm",
+      "problem": "4 4\n- 6 - -\n- - - 2\n8 - - -\n- - 9 -"
+    },
+    "42_5x5": {
+      "id": "42_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/042.a.htm",
+      "problem": "5 5\n- - - 4 -\n- 2 - - -\n- - 1 - -\n- - - - -\n- - - - -"
+    },
+    "43_5x5": {
+      "id": "43_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/043.a.htm",
+      "problem": "5 5\n- - 6 - -\n- 1 - - -\n- - - - -\n- - - 1 -\n- - - - -"
+    },
+    "44_6x6": {
+      "id": "44_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/044.a.htm",
+      "problem": "6 6\n- - - - - -\n2 - - - - -\n- 4 - - - -\n- - - - 8 -\n- - 9 - - -\n- - - - - 4"
+    },
+    "45_6x6": {
+      "id": "45_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/045.a.htm",
+      "problem": "6 6\n- - - - 2 -\n3 - - - - -\n- - - 12 - -\n- - - - - 2\n- - 1 - - -\n- - - - - -"
+    },
+    "46_6x6": {
+      "id": "46_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/046.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - - -\n3 - - - - -\n- - - 6 - -\n- 3 - - - -\n- - - - - 8"
+    },
+    "47_7x7": {
+      "id": "47_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/047.a.htm",
+      "problem": "7 7\n- - - - - - -\n1 - - - - - -\n- - - - - - 12\n- - - - 8 - -\n- - - 9 - - -\n- 9 - - - - -\n- - - - - 4 -"
+    },
+    "48_7x7": {
+      "id": "48_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/048.a.htm",
+      "problem": "7 7\n- - - - - 3 -\n3 - - - - - -\n- 4 - - - - -\n- - - - - - 12\n- - - - 1 - -\n- - - - - - -\n- - - - - - -"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/049.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- - - 9 - - - -\n- - - - - - 6 -\n8 - - - - - - -\n- - - - - 3 - -\n- 3 - - - - - -\n- - 4 - - - - -\n- - - - 1 - - -"
+    },
+    "50_8x8": {
+      "id": "50_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/050.a.htm",
+      "problem": "8 8\n- - - - 3 - - -\n- - - - - - - -\n- - - - - - 8 -\n- - - - - - - 0\n- 6 - - - - - -\n- - - 2 - - - -\n- - 3 - - - - -\n0 - - - - - - -"
+    },
+    "51_4x4": {
+      "id": "51_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/051.a.htm",
+      "problem": "4 4\n- - - 6\n- - 0 -\n- - - -\n- - - -"
+    },
+    "52_5x5": {
+      "id": "52_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/052.a.htm",
+      "problem": "5 5\n- - - - -\n- 2 - - -\n- - - 6 -\n- - 1 - -\n1 - - - -"
+    },
+    "53_5x5": {
+      "id": "53_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/053.a.htm",
+      "problem": "5 5\n- - - - -\n2 - - - -\n- 8 - - -\n- - - 4 -\n- - 8 - -"
+    },
+    "54_6x6": {
+      "id": "54_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/054.a.htm",
+      "problem": "6 6\n- - - - 6 -\n- 3 - - - -\n- - 6 - - -\n- - - 9 - -\n2 - - - - -\n- - - - - -"
+    },
+    "55_6x6": {
+      "id": "55_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/055.a.htm",
+      "problem": "6 6\n- - 3 - - -\n- - - - - 6\n- - - 0 - -\n- - - - 9 -\n- - - - - -\n- 8 - - - -"
+    },
+    "56_6x6": {
+      "id": "56_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/056.a.htm",
+      "problem": "6 6\n- - - - 2 -\n- - - - - 4\n- - 12 - - -\n- - - 2 - -\n- 12 - - - -\n8 - - - - -"
+    },
+    "57_7x7": {
+      "id": "57_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/057.a.htm",
+      "problem": "7 7\n- - - - - 4 -\n- - - - - - -\n- 3 - - - - -\n- - - - 2 - -\n- - 3 - - - -\n- - - 12 - - -\n8 - - - - - -"
+    },
+    "58_7x7": {
+      "id": "58_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/058.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 8 - -\n- - - - - 1 -\n9 - - - - - -\n- - - 1 - - -\n- - 4 - - - -\n- - - - - - 12"
+    },
+    "59_8x8": {
+      "id": "59_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/059.a.htm",
+      "problem": "8 8\n- - 6 - - - - -\n2 - - - - - - -\n- - - - - - - -\n- - - - 8 - - -\n- - - 9 - - - -\n- - - - - - 9 -\n- - - - - 12 - -\n- - - - - - - 0"
+    },
+    "60_8x8": {
+      "id": "60_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/060.a.htm",
+      "problem": "8 8\n- - - - 3 - - -\n- - - - - - - 0\n- - - - - 0 - -\n- - 6 - - - - -\n- - - - - - 6 -\n3 - - - - - - -\n- 8 - - - - - -\n- - - 4 - - - -"
+    },
+    "61_5x5": {
+      "id": "61_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/061.a.htm",
+      "problem": "5 5\n- 2 - - -\n- - - 6 -\n- - - - 4\n3 - - - -\n- - 0 - -"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/062.a.htm",
+      "problem": "6 6\n- - - - - -\n- 6 - - - -\n- - - 12 - -\n- - - - - 6\n- - 12 - - -\n8 - - - - -"
+    },
+    "63_6x6": {
+      "id": "63_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/063.a.htm",
+      "problem": "6 6\n- - - - 6 -\n- - - - - -\n- 2 - - - -\n8 - - - - -\n- - - 9 - -\n- - - - - 0"
+    },
+    "64_6x6": {
+      "id": "64_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/064.a.htm",
+      "problem": "6 6\n- - - 6 - -\n- - 1 - - -\n- - - - 4 -\n- - - - - -\n3 - - - - -\n- - - - - -"
+    },
+    "65_7x7": {
+      "id": "65_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/065.a.htm",
+      "problem": "7 7\n1 - - - - - -\n- - - 12 - - -\n- - - - - 1 -\n- 1 - - - - -\n- - 2 - - - -\n- - - - 0 - -\n- - - - - - -"
+    },
+    "66_7x7": {
+      "id": "66_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/066.a.htm",
+      "problem": "7 7\n- - - - 6 - -\n- - - 12 - - -\n0 - - - - - -\n- - 8 - - - -\n- - - - - 1 -\n- 4 - - - - -\n- - - - - - -"
+    },
+    "67_7x7": {
+      "id": "67_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/067.a.htm",
+      "problem": "7 7\n- - 4 - - - -\n- 1 - - - - -\n- - - - 12 - -\n- - - - - - 2\n- - - 8 - - -\n8 - - - - - -\n- - - - - 4 -"
+    },
+    "68_8x8": {
+      "id": "68_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/068.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - 9 - - - - -\n- - - - - 0 - -\n- - - 8 - - - -\n- - - - - - 12 -\n- 4 - - - - - -\n- - - - - - - 2\n- - - - 1 - - -"
+    },
+    "69_8x8": {
+      "id": "69_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/069.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - - 3 -\n- - - 6 - - - -\n- - - - 12 - - -\n- 12 - - - - - -\n- - 3 - - - - -\n- - - - - - - 8\n- - - - - 12 - -"
+    },
+    "70_8x8": {
+      "id": "70_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/070.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - - - 3 - - -\n- - - - - 1 - -\n- - - - - - 8 -\n- - - 4 - - - -\n- - 6 - - - - -\n0 - - - - - - -\n- 0 - - - - - -"
+    },
+    "71_5x5": {
+      "id": "71_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/071.a.htm",
+      "problem": "5 5\n- - - - 2\n- 1 - - -\n- - - 2 -\n- - 12 - -\n- - - - -"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/072.a.htm",
+      "problem": "6 6\n- 1 - - - -\n- - - - - -\n- - - - 1 -\n1 - - - - -\n- - 1 - - -\n- - - 9 - -"
+    },
+    "73_6x6": {
+      "id": "73_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/073.a.htm",
+      "problem": "6 6\n- - - - 2 -\n- - - - - -\n- - - 8 - -\n- - 3 - - -\n- - - - - 6\n8 - - - - -"
+    },
+    "74_6x6": {
+      "id": "74_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/074.a.htm",
+      "problem": "6 6\n- - - - - 2\n- - 3 - - -\n- - - - 8 -\n- 3 - - - -\n8 - - - - -\n- - - - - -"
+    },
+    "75_7x7": {
+      "id": "75_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/075.a.htm",
+      "problem": "7 7\n- - - 3 - - -\n3 - - - - - -\n- 8 - - - - -\n- - - - 0 - -\n- - - - - 9 -\n- - 12 - - - -\n- - - - - - 8"
+    },
+    "76_7x7": {
+      "id": "76_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/076.a.htm",
+      "problem": "7 7\n- 3 - - - - -\n- - - - - - 2\n- - - 4 - - -\n- - - - - 12 -\n- - - - 8 - -\n- - 4 - - - -\n9 - - - - - -"
+    },
+    "77_7x7": {
+      "id": "77_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/077.a.htm",
+      "problem": "7 7\n- - - - - - 0\n- 3 - - - - -\n- - 1 - - - -\n1 - - - - - -\n- - - - 2 - -\n- - - 3 - - -\n- - - - - 8 -"
+    },
+    "78_8x8": {
+      "id": "78_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/078.a.htm",
+      "problem": "8 8\n0 - - - - - - -\n- - 6 - - - - -\n- - - - - - 12 -\n- - - 12 - - - -\n- - - - - - - 0\n- - - - - 4 - -\n- - - - 8 - - -\n- 9 - - - - - -"
+    },
+    "79_8x8": {
+      "id": "79_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/079.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- - - - 9 - - -\n- - - - - 8 - -\n- - - - - - - -\n- - 0 - - - - -\n- - - - - - 4 -\n- 1 - - - - - -\n- - - 4 - - - -"
+    },
+    "80_8x8": {
+      "id": "80_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/080.a.htm",
+      "problem": "8 8\n- - - - 0 - - -\n- - 3 - - - - -\n- - - - - - 8 -\n8 - - - - - - -\n- - - - - 12 - -\n- - - 1 - - - -\n- - - - - - - 2\n- 1 - - - - - -"
+    },
+    "81_4x4": {
+      "id": "81_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/081.a.htm",
+      "problem": "4 4\n- - - 2\n- - 6 -\n- - - -\n- - - -"
+    },
+    "82_5x5": {
+      "id": "82_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/082.a.htm",
+      "problem": "5 5\n- - - - -\n- - - - -\n- - 9 - -\n- - - 6 -\n1 - - - -"
+    },
+    "83_5x5": {
+      "id": "83_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/083.a.htm",
+      "problem": "5 5\n3 - - - -\n- - 9 - -\n- - - - -\n- - - 1 -\n- - - - 8"
+    },
+    "84_6x6": {
+      "id": "84_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/084.a.htm",
+      "problem": "6 6\n- - - 0 - -\n- - - - - 6\n- - 8 - - -\n3 - - - - -\n- 12 - - - -\n- - - - 4 -"
+    },
+    "85_6x6": {
+      "id": "85_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/085.a.htm",
+      "problem": "6 6\n- - 3 - - -\n- - - 2 - -\n- - - - - 2\n- 2 - - - -\n- - - - - -\n0 - - - - -"
+    },
+    "86_7x7": {
+      "id": "86_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/086.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - - 9 -\n- - - 4 - - -\n- - - - 2 - -\n- - 0 - - - -\n- - - - - - 4\n- 4 - - - - -"
+    },
+    "87_7x7": {
+      "id": "87_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/087.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 6 - -\n- 1 - - - - -\n- - - - - - 0\n- - 1 - - - -\n- - - 3 - - -\n- - - - - - -"
+    },
+    "88_8x8": {
+      "id": "88_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/088.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - - - - 4 - -\n- 3 - - - - - -\n3 - - - - - - -\n- - - 9 - - - -\n- - 2 - - - - -\n- - - - 2 - - -\n- - - - - - 4 -"
+    },
+    "89_8x8": {
+      "id": "89_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/089.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - 8 - - - -\n- 12 - - - - - -\n- - - - - 4 - -\n- - - - - - - 4\n- - - - 12 - - -\n- - 9 - - - - -\n9 - - - - - - -"
+    },
+    "90_9x9": {
+      "id": "90_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/090.a.htm",
+      "problem": "9 9\n1 - - - - - - - -\n- - - 12 - - - - -\n- - 0 - - - - - -\n- 12 - - - - - - -\n- - - - - 8 - - -\n- - - - - - 2 - -\n- - - - - - - - 12\n- - - - 1 - - - -\n- - - - - - - 4 -"
+    },
+    "91_4x4": {
+      "id": "91_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/091.a.htm",
+      "problem": "4 4\n- 6 - -\n- - - 2\n- - 3 -\n0 - - -"
+    },
+    "92_5x5": {
+      "id": "92_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/092.a.htm",
+      "problem": "5 5\n- - - - -\n- 3 - - -\n- - 9 - -\n9 - - - -\n- - - - -"
+    },
+    "93_5x5": {
+      "id": "93_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/093.a.htm",
+      "problem": "5 5\n- - 0 - -\n- - - - 4\n- - - 8 -\n- 9 - - -\n- - - - -"
+    },
+    "94_6x6": {
+      "id": "94_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/094.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - 4 - -\n- - - - - 4\n- - 3 - - -\n- 12 - - - -\n- - - - - -"
+    },
+    "95_6x6": {
+      "id": "95_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/095.a.htm",
+      "problem": "6 6\n- 1 - - - -\n- - - 1 - -\n1 - - - - -\n- - - - 1 -\n- - - - - -\n- - - - - 12"
+    },
+    "96_7x7": {
+      "id": "96_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/096.a.htm",
+      "problem": "7 7\n- - - - 4 - -\n- - - - - - 0\n- - 3 - - - -\n- - - - - 3 -\n- - - 4 - - -\n- - - - - - -\n- 12 - - - - -"
+    },
+    "97_7x7": {
+      "id": "97_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/097.a.htm",
+      "problem": "7 7\n- - - - 3 - -\n- - - - - 4 -\n- - - - - - 4\n- - - 8 - - -\n0 - - - - - -\n- 9 - - - - -\n- - - - - - -"
+    },
+    "98_8x8": {
+      "id": "98_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/098.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - - 1 -\n- 8 - - - - - -\n- - - - 0 - - -\n- - 12 - - - - -\n- - - - - - - 0\n- - - 9 - - - -\n- - - - - 9 - -"
+    },
+    "99_8x8": {
+      "id": "99_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/099.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 1 - - - - -\n- 12 - - - - - -\n- - - - - 1 - -\n- - - 6 - - - -\n- - - - - - - 0\n- - - - 3 - - -\n0 - - - - - - -"
+    },
+    "100_9x9": {
+      "id": "100_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/100.a.htm",
+      "problem": "9 9\n- - - - - 3 - - -\n- 1 - - - - - - -\n- - - - - - 0 - -\n- - - 1 - - - - -\n8 - - - - - - - -\n- - - - - - - - 6\n- - - - 9 - - - -\n- - - - - - - 3 -\n- - 1 - - - - - -"
+    },
+    "101_4x4": {
+      "id": "101_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/101.a.htm",
+      "problem": "4 4\n- - - 6\n- - 1 -\n- - - -\n- - - -"
+    },
+    "102_5x5": {
+      "id": "102_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/102.a.htm",
+      "problem": "5 5\n- - - - 2\n- - - 6 -\n- - - - -\n- - 2 - -\n- 1 - - -"
+    },
+    "103_5x5": {
+      "id": "103_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/103.a.htm",
+      "problem": "5 5\n- - 2 - -\n- - - - -\n- 8 - - -\n- - - 6 -\n- - - - 12"
+    },
+    "104_6x6": {
+      "id": "104_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/104.a.htm",
+      "problem": "6 6\n- - - - - -\n- - 2 - - -\n- - - - 6 -\n- - - - - 6\n- 9 - - - -\n- - - 4 - -"
+    },
+    "105_6x6": {
+      "id": "105_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/105.a.htm",
+      "problem": "6 6\n- - - - - 4\n- - - 2 - -\n3 - - - - -\n- - - - 8 -\n- - 1 - - -\n- - - - - -"
+    },
+    "106_7x7": {
+      "id": "106_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/106.a.htm",
+      "problem": "7 7\n- - - - 3 - -\n- 3 - - - - -\n- - - - - - -\n- - - - - - 4\n- - 2 - - - -\n1 - - - - - -\n- - - - - 1 -"
+    },
+    "107_7x7": {
+      "id": "107_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/107.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 8 - -\n- 2 - - - - -\n- - 0 - - - -\n- - - 9 - - -\n3 - - - - - -\n- - - - - 12 -"
+    },
+    "108_8x8": {
+      "id": "108_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/108.a.htm",
+      "problem": "8 8\n- 4 - - - - - -\n- - - - - - 3 -\n- - 4 - - - - -\n- - - - - - - 4\n0 - - - - - - -\n- - - - 4 - - -\n- - - - - 1 - -\n- - - 12 - - - -"
+    },
+    "109_8x8": {
+      "id": "109_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/109.a.htm",
+      "problem": "8 8\n- 1 - - - - - -\n- - - - - 6 - -\n- - - - - - 9 -\n9 - - - - - - -\n- - 6 - - - - -\n- - - 6 - - - -\n- - - - - - - 12\n- - - - 12 - - -"
+    },
+    "110_9x9": {
+      "id": "110_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/110.a.htm",
+      "problem": "9 9\n- - - 3 - - - - -\n- - 6 - - - - - -\n8 - - - - - - - -\n- - - - - - 3 - -\n- - - - 9 - - - -\n- - - - - - - - 4\n- 9 - - - - - - -\n- - - - - 1 - - -\n- - - - - - - 1 -"
+    },
+    "111_4x4": {
+      "id": "111_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/111.a.htm",
+      "problem": "4 4\n- - - -\n- - - -\n- 3 - -\n- - 4 -"
+    },
+    "112_5x5": {
+      "id": "112_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/112.a.htm",
+      "problem": "5 5\n- - - - 6\n- - - 6 -\n- 0 - - -\n3 - - - -\n- - - - -"
+    },
+    "113_5x5": {
+      "id": "113_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/113.a.htm",
+      "problem": "5 5\n- 4 - - -\n- - 1 - -\n- - - - -\n- - - - 2\n- - - - -"
+    },
+    "114_6x6": {
+      "id": "114_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/114.a.htm",
+      "problem": "6 6\n- - - - - 4\n- 2 - - - -\n- - - 4 - -\n2 - - - - -\n- - - - 8 -\n- - 0 - - -"
+    },
+    "115_6x6": {
+      "id": "115_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/115.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - 4 - -\n- 4 - - - -\n8 - - - - -\n- - - - 1 -\n- - - - - 8"
+    },
+    "116_7x7": {
+      "id": "116_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/116.a.htm",
+      "problem": "7 7\n- - - 2 - - -\n- - 1 - - - -\n- 6 - - - - -\n- - - - 9 - -\n- - - - - - 0\n1 - - - - - -\n- - - - - 12 -"
+    },
+    "117_7x7": {
+      "id": "117_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/117.a.htm",
+      "problem": "7 7\n- - - - - 4 -\n- - 2 - - - -\n- - - - - - 2\n2 - - - - - -\n- - - 12 - - -\n- - - - 9 - -\n- 4 - - - - -"
+    },
+    "118_8x8": {
+      "id": "118_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/118.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - - - - - 8 -\n- - 12 - - - - -\n- 8 - - - - - -\n- - - - - 2 - -\n- - - 6 - - - -\n- - - - - - - -\n9 - - - - - - -"
+    },
+    "119_8x8": {
+      "id": "119_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/119.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - - - - 8 - -\n- - 4 - - - - -\n- 0 - - - - - -\n- - - 0 - - - -\n- - - - - - - 8\n- - - - 4 - - -\n- - - - - - 12 -"
+    },
+    "120_9x9": {
+      "id": "120_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/120.a.htm",
+      "problem": "9 9\n- - - - 0 - - - -\n- - - - - - - - 6\n- - - - - 8 - - -\n- - - 8 - - - - -\n- - 8 - - - - - -\n- - - - - - 4 - -\n- - - - - - - 6 -\n- 4 - - - - - - -\n9 - - - - - - - -"
+    },
+    "121_4x4": {
+      "id": "121_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/121.a.htm",
+      "problem": "4 4\n- - - 2\n- - 4 -\n- - - -\n- - - -"
+    },
+    "122_5x5": {
+      "id": "122_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/122.a.htm",
+      "problem": "5 5\n- - - - -\n- - - 3 -\n- - 12 - -\n- - - - -\n- 4 - - -"
+    },
+    "123_5x5": {
+      "id": "123_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/123.a.htm",
+      "problem": "5 5\n- 6 - - -\n8 - - - -\n- - 4 - -\n- - - - -\n- - - - -"
+    },
+    "124_6x6": {
+      "id": "124_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/124.a.htm",
+      "problem": "6 6\n- 0 - - - -\n- - - - - 4\n- - - - 12 -\n8 - - - - -\n- - 4 - - -\n- - - 9 - -"
+    },
+    "125_6x6": {
+      "id": "125_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/125.a.htm",
+      "problem": "6 6\n- - 6 - - -\n- - - - - 2\n9 - - - - -\n- 9 - - - -\n- - - 4 - -\n- - - - 9 -"
+    },
+    "126_7x7": {
+      "id": "126_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/126.a.htm",
+      "problem": "7 7\n- - - - - 6 -\n- 6 - - - - -\n- - - 1 - - -\n- - 12 - - - -\n- - - - - - 8\n- - - - 3 - -\n- - - - - - -"
+    },
+    "127_7x7": {
+      "id": "127_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/127.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 1 - -\n- - - 12 - - -\n- 8 - - - - -\n- - - - - 2 -\n- - 12 - - - -\n8 - - - - - -"
+    },
+    "128_8x8": {
+      "id": "128_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/128.a.htm",
+      "problem": "8 8\n- 0 - - - - - -\n- - - - 8 - - -\n9 - - - - - - -\n- - - 6 - - - -\n- - - - - - 9 -\n- - - - - 2 - -\n- - 3 - - - - -\n- - - - - - - 12"
+    },
+    "129_8x8": {
+      "id": "129_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/129.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 9 - - - - -\n- - - - - - 12 -\n- - - - - 3 - -\n- - - 1 - - - -\n1 - - - - - - -\n- - - - 1 - - -\n- 8 - - - - - -"
+    },
+    "130_9x9": {
+      "id": "130_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/130.a.htm",
+      "problem": "9 9\n- - - - - - - - -\n- - 8 - - - - - -\n- - - - - - - - -\n- - - 9 - - - - -\n- - - - 6 - - - -\n- - - - - - 2 - -\n- - - - - - - 3 -\n9 - - - - - - - -\n- - - - - 0 - - -"
+    },
+    "131_6x6": {
+      "id": "131_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/131.a.htm",
+      "problem": "6 6\n- 0 - - - -\n- - - - - 4\n- - - - 12 -\n8 - - - - -\n- - 4 - - -\n- - - 9 - -"
+    },
+    "132_6x6": {
+      "id": "132_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/132.a.htm",
+      "problem": "6 6\n- - 0 - - -\n- - - - - 2\n- - - 8 - -\n- 9 - - - -\n- - - - - -\n- - - - 8 -"
+    },
+    "133_7x7": {
+      "id": "133_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/133.a.htm",
+      "problem": "7 7\n- - - - - - 6\n- - 3 - - - -\n- - - - 0 - -\n- 12 - - - - -\n- - - - - 4 -\n- - - 4 - - -\n1 - - - - - -"
+    },
+    "134_7x7": {
+      "id": "134_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/134.a.htm",
+      "problem": "7 7\n- - - 1 - - -\n- - - - 9 - -\n- 3 - - - - -\n- - - - - 1 -\n- - - - - - 12\n2 - - - - - -\n- - 0 - - - -"
+    },
+    "135_7x7": {
+      "id": "135_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/135.a.htm",
+      "problem": "7 7\n- 1 - - - - -\n- - - 1 - - -\n- - - - - - -\n- - - - 1 - -\n- - 1 - - - -\n- - - - - - 6\n- - - - - - -"
+    },
+    "136_8x8": {
+      "id": "136_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/136.a.htm",
+      "problem": "8 8\n- - - - - 6 - -\n- 12 - - - - - -\n- - 1 - - - - -\n- - - 8 - - - -\n0 - - - - - - -\n- - - - - - 4 -\n- - - - 6 - - -\n- - - - - - - 12"
+    },
+    "137_8x8": {
+      "id": "137_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/137.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - 1 - -\n- - - - - - 9 -\n- - - - 1 - - -\n- - - - - - - 0\n- 1 - - - - - -\n- - - 2 - - - -\n- - - - - - - -"
+    },
+    "138_8x8": {
+      "id": "138_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/138.a.htm",
+      "problem": "8 8\n- 0 - - - - - -\n- - - - - - - 2\n- - - - - 3 - -\n- - 8 - - - - -\n- - - - 1 - - -\n- - - 2 - - - -\n- - - - - - 9 -\n- - - - - - - -"
+    },
+    "139_8x8": {
+      "id": "139_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/139.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - 12 - -\n- - - - 0 - - -\n- - - - - - 1 -\n- - 3 - - - - -\n- - - - - - - -\n- - - 6 - - - -\n- - - - - - - 8"
+    },
+    "140_9x9": {
+      "id": "140_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/140.a.htm",
+      "problem": "9 9\n- - - - - 2 - - -\n- - - - - - - 8 -\n- - 12 - - - - - -\n- - - - 1 - - - -\n- - - - - - 6 - -\n- - - - - - - - 8\n- - - 2 - - - - -\n- 4 - - - - - - -\n9 - - - - - - - -"
+    },
+    "141_6x6": {
+      "id": "141_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/141.a.htm",
+      "problem": "6 6\n- - - - 3 -\n- - - 1 - -\n- 3 - - - -\n1 - - - - -\n- - - - - -\n- - 4 - - -"
+    },
+    "142_6x6": {
+      "id": "142_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/142.a.htm",
+      "problem": "6 6\n- - - - - 4\n- - 2 - - -\n- 1 - - - -\n- - - - - -\n- - - - 8 -\n- - - 1 - -"
+    },
+    "143_7x7": {
+      "id": "143_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/143.a.htm",
+      "problem": "7 7\n- - - - - - 0\n- - - - - - -\n- 1 - - - - -\n- - - 1 - - -\n- - - - 3 - -\n2 - - - - - -\n- - - - - 8 -"
+    },
+    "144_7x7": {
+      "id": "144_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/144.a.htm",
+      "problem": "7 7\n- - 4 - - - -\n0 - - - - - -\n- - - - 3 - -\n- - - - - - 6\n- - - 8 - - -\n- 0 - - - - -\n- - - - - 9 -"
+    },
+    "145_7x7": {
+      "id": "145_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/145.a.htm",
+      "problem": "7 7\n- - - - - - 4\n- - - - - - -\n- - - - - 8 -\n3 - - - - - -\n- 0 - - - - -\n- - 4 - - - -\n- - - - 12 - -"
+    },
+    "146_7x7": {
+      "id": "146_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/146.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - - 3 -\n- - - - 8 - -\n- 8 - - - - -\n- - - - - - 8\n- - 6 - - - -\n- - - 4 - - -"
+    },
+    "147_8x8": {
+      "id": "147_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/147.a.htm",
+      "problem": "8 8\n- - 3 - - - - -\n- - - - - - 3 -\n- - - - 4 - - -\n- - - 3 - - - -\n- 3 - - - - - -\n8 - - - - - - -\n- - - - - - - 4\n- - - - - 9 - -"
+    },
+    "148_8x8": {
+      "id": "148_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/148.a.htm",
+      "problem": "8 8\n- - - - - - 2 -\n- - - - - - - -\n- - - - 4 - - -\n- - - 2 - - - -\n- 2 - - - - - -\n- - - - - - - 2\n- - - - - 2 - -\n9 - - - - - - -"
+    },
+    "149_8x8": {
+      "id": "149_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/149.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - 9 - - - - -\n- - - - - - - -\n- - - - - - 1 -\n- - - 0 - - - -\n- 4 - - - - - -\n- - - - 6 - - -\n- - - - - 4 - -"
+    },
+    "150_8x8": {
+      "id": "150_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/150.a.htm",
+      "problem": "8 8\n- - - - 1 - - -\n- - - - - - 2 -\n- 6 - - - - - -\n9 - - - - - - -\n- - 6 - - - - -\n- - - - - 9 - -\n- - - - - - - 8\n- - - 0 - - - -"
+    },
+    "151_6x6": {
+      "id": "151_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/151.a.htm",
+      "problem": "6 6\n- - 1 - - -\n3 - - - - -\n- - - 9 - -\n- - - - - -\n- 8 - - - -\n- - - - - 0"
+    },
+    "152_6x6": {
+      "id": "152_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/152.a.htm",
+      "problem": "6 6\n- - - - 2 -\n- - - - - 4\n- - - 9 - -\n- 12 - - - -\n8 - - - - -\n- - 9 - - -"
+    },
+    "153_7x7": {
+      "id": "153_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/153.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - - - 6\n- - - 1 - - -\n- - - - - 6 -\n- 0 - - - - -\n- - - - 0 - -\n- - 12 - - - -"
+    },
+    "154_7x7": {
+      "id": "154_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/154.a.htm",
+      "problem": "7 7\n- - - - - - 0\n- - - 0 - - -\n- - - - - 12 -\n- - 12 - - - -\n- 1 - - - - -\n- - - - 1 - -\n1 - - - - - -"
+    },
+    "155_7x7": {
+      "id": "155_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/155.a.htm",
+      "problem": "7 7\n- - 2 - - - -\n- - - - - - 6\n- - - 6 - - -\n- - - - - 1 -\n- 4 - - - - -\n- - - - 9 - -\n- - - - - - -"
+    },
+    "156_7x7": {
+      "id": "156_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/156.a.htm",
+      "problem": "7 7\n- - - - - - -\n2 - - - - - -\n- - - - - 3 -\n- - 1 - - - -\n- - - - 4 - -\n- - - - - - 8\n- 4 - - - - -"
+    },
+    "157_8x8": {
+      "id": "157_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/157.a.htm",
+      "problem": "8 8\n- - - - - - 3 -\n- 0 - - - - - -\n- - - - 8 - - -\n- - 1 - - - - -\n- - - - - - - 12\n- - - - - 9 - -\n- - - 8 - - - -\n9 - - - - - - -"
+    },
+    "158_8x8": {
+      "id": "158_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/158.a.htm",
+      "problem": "8 8\n- - - 1 - - - -\n- 1 - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - 1 - - - - -\n- - - - - 1 - -\n- - - - 3 - - -\n- - - - - - - 0"
+    },
+    "159_8x8": {
+      "id": "159_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/159.a.htm",
+      "problem": "8 8\n- - - - 4 - - -\n- - - - - 1 - -\n3 - - - - - - -\n- - - 9 - - - -\n- - - - - - - 2\n- 2 - - - - - -\n- - 6 - - - - -\n- - - - - - 8 -"
+    },
+    "160_8x8": {
+      "id": "160_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/160.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- 9 - - - - - -\n- - - - - - 6 -\n- - - 6 - - - -\n- - - - - 12 - -\n- - - - 12 - - -\n2 - - - - - - -\n- - 8 - - - - -"
+    },
+    "161_6x6": {
+      "id": "161_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/161.a.htm",
+      "problem": "6 6\n- 0 - - - -\n- - - - - -\n9 - - - - -\n- - - 2 - -\n- - - - - 4\n- - 0 - - -"
+    },
+    "162_7x7": {
+      "id": "162_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/162.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 1 - -\n- - 1 - - - -\n- - - - - 1 -\n2 - - - - - -\n- - - 12 - - -\n- 12 - - - - -"
+    },
+    "163_7x7": {
+      "id": "163_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/163.a.htm",
+      "problem": "7 7\n1 - - - - - -\n- - - 9 - - -\n- - - - - - -\n- - - - - 0 -\n- 2 - - - - -\n- - - - 2 - -\n- - 0 - - - -"
+    },
+    "164_7x7": {
+      "id": "164_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/164.a.htm",
+      "problem": "7 7\n- - - 4 - - -\n- 2 - - - - -\n- - - - - - 4\n- - - - 12 - -\n- - - - - 9 -\n- - 9 - - - -\n1 - - - - - -"
+    },
+    "165_7x7": {
+      "id": "165_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/165.a.htm",
+      "problem": "7 7\n3 - - - - - -\n- - - - 3 - -\n- - - - - 4 -\n- - 8 - - - -\n- 4 - - - - -\n- - - 2 - - -\n- - - - - - 12"
+    },
+    "166_8x8": {
+      "id": "166_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/166.a.htm",
+      "problem": "8 8\n- - - 0 - - - -\n- - - - - - - 0\n- - - - - - 12 -\n- 6 - - - - - -\n- - - - - 0 - -\n- - 0 - - - - -\n- - - - 3 - - -\n0 - - - - - - -"
+    },
+    "167_8x8": {
+      "id": "167_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/167.a.htm",
+      "problem": "8 8\n2 - - - - - - -\n- - - - 2 - - -\n- 12 - - - - - -\n- - - - - - - -\n- - - 4 - - - -\n- - - - - 4 - -\n- - 0 - - - - -\n- - - - - - - 4"
+    },
+    "168_8x8": {
+      "id": "168_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/168.a.htm",
+      "problem": "8 8\n- 2 - - - - - -\n- - - - - - 2 -\n- - 9 - - - - -\n- - - 4 - - - -\n3 - - - - - - -\n- - - - - - - 8\n- - - - - 3 - -\n- - - - 9 - - -"
+    },
+    "169_8x8": {
+      "id": "169_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/169.a.htm",
+      "problem": "8 8\n2 - - - - - - -\n- - 9 - - - - -\n- - - - - - 12 -\n- - - - 2 - - -\n- 3 - - - - - -\n- - - 1 - - - -\n- - - - - 9 - -\n- - - - - - - 12"
+    },
+    "170_9x9": {
+      "id": "170_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/170.a.htm",
+      "problem": "9 9\n- - - - - - 2 - -\n- - 9 - - - - - -\n- - - 1 - - - - -\n- - - - - - - 8 -\n- 4 - - - - - - -\n- - - - - - - - 8\n- - - - 9 - - - -\n- - - - - 6 - - -\n1 - - - - - - - -"
+    },
+    "171_6x6": {
+      "id": "171_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/171.a.htm",
+      "problem": "6 6\n- - - 4 - -\n- - - - - 0\n- 9 - - - -\n- - 3 - - -\n- - - - 4 -\n- - - - - -"
+    },
+    "172_7x7": {
+      "id": "172_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/172.a.htm",
+      "problem": "7 7\n- - - - 3 - -\n- - - - - - 4\n- - 12 - - - -\n- - - - - 4 -\n- 3 - - - - -\n- - - 2 - - -\n- - - - - - -"
+    },
+    "173_7x7": {
+      "id": "173_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/173.a.htm",
+      "problem": "7 7\n2 - - - - - -\n- - - - - - 0\n- 9 - - - - -\n- - 2 - - - -\n- - - - 0 - -\n- - - - - 1 -\n- - - 1 - - -"
+    },
+    "174_7x7": {
+      "id": "174_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/174.a.htm",
+      "problem": "7 7\n- - - - 4 - -\n- 3 - - - - -\n- - - - - - 8\n9 - - - - - -\n- - 2 - - - -\n- - - 9 - - -\n- - - - - 0 -"
+    },
+    "175_7x7": {
+      "id": "175_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/175.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - - 6 -\n- 6 - - - - -\n- - 2 - - - -\n- - - - - - 2\n- - - - 4 - -\n- - - 9 - - -"
+    },
+    "176_8x8": {
+      "id": "176_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/176.a.htm",
+      "problem": "8 8\n- - - 0 - - - -\n- - - - - - 2 -\n- - - - 9 - - -\n- - - - - - - 8\n- - 12 - - - - -\n- - - - - 1 - -\n- 2 - - - - - -\n9 - - - - - - -"
+    },
+    "177_8x8": {
+      "id": "177_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/177.a.htm",
+      "problem": "8 8\n- - 6 - - - - -\n- - - - 0 - - -\n- - - - - - - -\n- - - - - - 8 -\n- - - - - - - 12\n- - - - - 8 - -\n- - - 2 - - - -\n- 0 - - - - - -"
+    },
+    "178_8x8": {
+      "id": "178_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/178.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - - - 6 - - -\n- - - 8 - - - -\n- - - - - - - 4\n- 4 - - - - - -\n- - - - - - - -\n- - 6 - - - - -\n- - - - - 4 - -"
+    },
+    "179_8x8": {
+      "id": "179_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/179.a.htm",
+      "problem": "8 8\n- - - - 6 - - -\n- 8 - - - - - -\n- - - - - - 9 -\n- - 0 - - - - -\n- - - - - 12 - -\n2 - - - - - - -\n- - - 9 - - - -\n- - - - - - - 0"
+    },
+    "180_9x9": {
+      "id": "180_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/180.a.htm",
+      "problem": "9 9\n- - - - - - - - 6\n- 3 - - - - - - -\n- - - - - 3 - - -\n- - - - - - - 9 -\n- - - 4 - - - - -\n- - - - 6 - - - -\n0 - - - - - - - -\n- - - - - - 2 - -\n- - 8 - - - - - -"
+    },
+    "181_8x8": {
+      "id": "181_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/181.a.htm",
+      "problem": "8 8\n- - - - - 4 - -\n- - - 8 - - - -\n- 0 - - - - - -\n- - - - 12 - - -\n- - 8 - - - - -\n- - - - - - - 6\n2 - - - - - - -\n- - - - - - 4 -"
+    },
+    "182_8x8": {
+      "id": "182_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/182.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - 0 - - - - -\n8 - - - - - - -\n- - - 12 - - - -\n- - - - - - 8 -\n- 2 - - - - - -\n- - - - - 12 - -\n- - - - 9 - - -"
+    },
+    "183_8x8": {
+      "id": "183_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/183.a.htm",
+      "problem": "8 8\n- - - - - 1 - -\n- - - - 4 - - -\n2 - - - - - - -\n- - 2 - - - - -\n- - - 3 - - - -\n- - - - - - - 2\n- 1 - - - - - -\n- - - - - - 0 -"
+    },
+    "184_8x8": {
+      "id": "184_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/184.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n2 - - - - - - -\n- 3 - - - - - -\n- - - - - 0 - -\n- - - 2 - - - -\n- - - - - - 8 -\n- - 2 - - - - -\n- - - - 12 - - -"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/185.a.htm",
+      "problem": "8 8\n2 - - - - - - -\n- 4 - - - - - -\n- - - - - 1 - -\n- - 1 - - - - -\n- - - 4 - - - -\n- - - - - - - 4\n- - - - 4 - - -\n- - - - - - - -"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/186.a.htm",
+      "problem": "8 8\n- - - - 6 - - -\n- - - - - - 3 -\n- - 6 - - - - -\n- - - 4 - - - -\n- - - - - - - -\n0 - - - - - - -\n- - - - - 4 - -\n- 12 - - - - - -"
+    },
+    "187_8x8": {
+      "id": "187_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/187.a.htm",
+      "problem": "8 8\n- - 2 - - - - -\n- - - 3 - - - -\n- - - - - - - 6\n- 2 - - - - - -\n- - - - - - 1 -\n- - - - 1 - - -\n0 - - - - - - -\n- - - - - 0 - -"
+    },
+    "188_8x8": {
+      "id": "188_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/188.a.htm",
+      "problem": "8 8\n- - - - - 1 - -\n- - - - - - 12 -\n- - - - 12 - - -\n0 - - - - - - -\n- - 3 - - - - -\n- - - - - - - 0\n- - - 1 - - - -\n- 4 - - - - - -"
+    },
+    "189_8x8": {
+      "id": "189_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/189.a.htm",
+      "problem": "8 8\n2 - - - - - - -\n- - - - - - 1 -\n- 4 - - - - - -\n- - - - 9 - - -\n- - - - - 6 - -\n- - 3 - - - - -\n- - - - - - - 4\n- - - 9 - - - -"
+    },
+    "190_8x8": {
+      "id": "190_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/190.a.htm",
+      "problem": "8 8\n- - - 0 - - - -\n- - - - - - - 2\n- - - - 6 - - -\n3 - - - - - - -\n- 6 - - - - - -\n- - - - - 3 - -\n- - - - - - 12 -\n- - 1 - - - - -"
+    },
+    "191_8x8": {
+      "id": "191_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/191.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - - - 6\n- - 6 - - - - -\n- - - - - - 3 -\n2 - - - - - - -\n- - - - - 1 - -\n- - - 12 - - - -\n- - - - 9 - - -"
+    },
+    "192_8x8": {
+      "id": "192_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/192.a.htm",
+      "problem": "8 8\n- - - - - 0 - -\n3 - - - - - - -\n- - - - - - - 0\n- - - - - - 8 -\n- - 1 - - - - -\n- 8 - - - - - -\n- - - 2 - - - -\n- - - - 4 - - -"
+    },
+    "193_8x8": {
+      "id": "193_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/193.a.htm",
+      "problem": "8 8\n- - - 0 - - - -\n- - 3 - - - - -\n1 - - - - - - -\n- 2 - - - - - -\n- - - - - 6 - -\n- - - - - - - 2\n- - - - 8 - - -\n- - - - - - 9 -"
+    },
+    "194_8x8": {
+      "id": "194_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/194.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - 9 - -\n1 - - - - - - -\n- - - - - - 12 -\n- 4 - - - - - -\n- - - 4 - - - -\n- - 12 - - - - -\n- - - - 4 - - -"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/195.a.htm",
+      "problem": "8 8\n- - - - 0 - - -\n9 - - - - - - -\n- - - - - 9 - -\n- - - - - - - 8\n- - 0 - - - - -\n- - - 4 - - - -\n- 8 - - - - - -\n- - - - - - 0 -"
+    },
+    "196_8x8": {
+      "id": "196_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/196.a.htm",
+      "problem": "8 8\n- - 1 - - - - -\n- - - - - - - 4\n- - - 8 - - - -\n- - - - - 3 - -\n8 - - - - - - -\n- - - - - - 9 -\n- 9 - - - - - -\n- - - - 8 - - -"
+    },
+    "197_8x8": {
+      "id": "197_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/197.a.htm",
+      "problem": "8 8\n- 3 - - - - - -\n- - 4 - - - - -\n1 - - - - - - -\n- - - - - 1 - -\n- - - - 6 - - -\n- - - - - - - -\n- - - 3 - - - -\n- - - - - - 8 -"
+    },
+    "198_8x8": {
+      "id": "198_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/198.a.htm",
+      "problem": "8 8\n- - - - - 0 - -\n- - - - 3 - - -\n- - 12 - - - - -\n- 1 - - - - - -\n- - - - - - 1 -\n1 - - - - - - -\n- - - 1 - - - -\n- - - - - - - 12"
+    },
+    "199_8x8": {
+      "id": "199_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/199.a.htm",
+      "problem": "8 8\n- - 0 - - - - -\n- - - - 4 - - -\n- - - - - - - 6\n- - - - - 4 - -\n- 6 - - - - - -\n- - - 9 - - - -\n- - - - - - 4 -\n8 - - - - - - -"
+    },
+    "200_8x8": {
+      "id": "200_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/200.a.htm",
+      "problem": "8 8\n- - - 2 - - - -\n2 - - - - - - -\n- - - - - - - -\n- - - - - - 3 -\n- - - - - 1 - -\n- - - - 12 - - -\n- 2 - - - - - -\n- - - - - - - 8"
+    },
+    "201_7x7": {
+      "id": "201_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/201.a.htm",
+      "problem": "7 7\n- - - - 4 - -\n- - - 8 - - -\n9 - - - - - -\n- 8 - - - - -\n- - - - - 3 -\n- - 2 - - - -\n- - - - - - 8"
+    },
+    "202_7x7": {
+      "id": "202_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/202.a.htm",
+      "problem": "7 7\n- - - - - - 2\n- 8 - - - - -\n- - - - 6 - -\n- - 4 - - - -\n- - - - - 12 -\n0 - - - - - -\n- - - - - - -"
+    },
+    "203_8x8": {
+      "id": "203_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/203.a.htm",
+      "problem": "8 8\n- - - - - - 4 -\n- 4 - - - - - -\n- - - 6 - - - -\n- - - - - 0 - -\n- - - - 6 - - -\n- - - - - - - 2\n- - - - - - - -\n9 - - - - - - -"
+    },
+    "204_8x8": {
+      "id": "204_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/204.a.htm",
+      "problem": "8 8\n- - - - - - 0 -\n- - - - 9 - - -\n- - - - - - - -\n- - - 1 - - - -\n- - 8 - - - - -\n- - - - - - - 6\n- - - - - 9 - -\n- 9 - - - - - -"
+    },
+    "205_8x8": {
+      "id": "205_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/205.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- - - - - - - -\n- - - - - 8 - -\n- 6 - - - - - -\n- - - - - - 9 -\n- - 3 - - - - -\n- - - - 8 - - -\n0 - - - - - - -"
+    },
+    "206_8x8": {
+      "id": "206_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/206.a.htm",
+      "problem": "8 8\n- 6 - - - - - -\n- - - - - - - 2\n- - - - - - 1 -\n- - 2 - - - - -\n- - - - 4 - - -\n8 - - - - - - -\n- - - - - 9 - -\n- - - 1 - - - -"
+    },
+    "207_8x8": {
+      "id": "207_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/207.a.htm",
+      "problem": "8 8\n- - - - - - 1 -\n- 4 - - - - - -\n- - - - - - - 0\n- - - - 0 - - -\n- - - - - - - -\n- - 6 - - - - -\n- - - - - 12 - -\n- - - 4 - - - -"
+    },
+    "208_8x8": {
+      "id": "208_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/208.a.htm",
+      "problem": "8 8\n- - - - - - 2 -\n- - 2 - - - - -\n- - - - - - - 12\n- - - - - 3 - -\n3 - - - - - - -\n- - - 2 - - - -\n- 2 - - - - - -\n- - - - 0 - - -"
+    },
+    "209_9x9": {
+      "id": "209_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/209.a.htm",
+      "problem": "9 9\n1 - - - - - - - -\n- - - 9 - - - - -\n- - 0 - - - - - -\n- - - - - 0 - - -\n- - - - - - - 6 -\n- 4 - - - - - - -\n- - - - 3 - - - -\n- - - - - - - - 6\n- - - - - - 1 - -"
+    },
+    "210_9x9": {
+      "id": "210_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/210.a.htm",
+      "problem": "9 9\n- - - - - - - - -\n- 8 - - - - - - -\n2 - - - - - - - -\n- - - - - 1 - - -\n- - - - 9 - - - -\n- - 9 - - - - - -\n- - - - - - - 0 -\n- - - 1 - - - - -\n- - - - - - 9 - -"
+    },
+    "211_7x7": {
+      "id": "211_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/211.a.htm",
+      "problem": "7 7\n- - - - 0 - -\n1 - - - - - -\n- - - - - - 0\n- - - - - 12 -\n- 6 - - - - -\n- - 4 - - - -\n- - - 9 - - -"
+    },
+    "212_7x7": {
+      "id": "212_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/212.a.htm",
+      "problem": "7 7\n- - - - - - 4\n- - 2 - - - -\n9 - - - - - -\n- - - - - 2 -\n- - - - 12 - -\n- 1 - - - - -\n- - - - - - -"
+    },
+    "213_8x8": {
+      "id": "213_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/213.a.htm",
+      "problem": "8 8\n- - - - - - - -\n9 - - - - - - -\n- - - - - - 1 -\n- - 9 - - - - -\n- - - 8 - - - -\n- - - - - 6 - -\n- - - - - - - 4\n- - - - 4 - - -"
+    },
+    "214_8x8": {
+      "id": "214_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/214.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- 3 - - - - - -\n- - - - - 9 - -\n- - - - - - - 6\n- - - - 1 - - -\n- - 1 - - - - -\n2 - - - - - - -\n- - - 0 - - - -"
+    },
+    "215_8x8": {
+      "id": "215_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/215.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- - 9 - - - - -\n- - - - - - - -\n- - - - - - 1 -\n- - - - 4 - - -\n- - - - - 2 - -\n- - - 4 - - - -\n0 - - - - - - -"
+    },
+    "216_8x8": {
+      "id": "216_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/216.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 4 - - - - -\n- - - - - - - 8\n- - - - - - 4 -\n- - - - 4 - - -\n- - - 12 - - - -\n- 3 - - - - - -\n1 - - - - - - -"
+    },
+    "217_8x8": {
+      "id": "217_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/217.a.htm",
+      "problem": "8 8\n- - - - - - - 6\n- - - - 12 - - -\n- 9 - - - - - -\n- - - 2 - - - -\n- - - - - 6 - -\n1 - - - - - - -\n- - - - - - 1 -\n- - 4 - - - - -"
+    },
+    "218_8x8": {
+      "id": "218_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/218.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 9 - - - - -\n- 1 - - - - - -\n- - - - - - - 0\n9 - - - - - - -\n- - - 4 - - - -\n- - - - - 12 - -\n- - - - 12 - - -"
+    },
+    "219_9x9": {
+      "id": "219_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/219.a.htm",
+      "problem": "9 9\n- - - - - - - - 2\n- - - - - 9 - - -\n- - - - - - 12 - -\n- - 9 - - - - - -\n- - - - - - - 8 -\n- - - - 9 - - - -\n- 6 - - - - - - -\n- - - 2 - - - - -\n8 - - - - - - - -"
+    },
+    "220_9x9": {
+      "id": "220_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/220.a.htm",
+      "problem": "9 9\n- - - - - - - - 4\n- - - - 9 - - - -\n- - - - - - - 9 -\n- 1 - - - - - - -\n- - - - - - 8 - -\n- - - - - 4 - - -\n1 - - - - - - - -\n- - 1 - - - - - -\n- - - 9 - - - - -"
+    },
+    "221_5x5": {
+      "id": "221_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/221.a.htm",
+      "problem": "5 5\n- - - - 4\n- 8 - - -\n- - 6 - -\n- - - - -\n- - - 4 -"
+    },
+    "222_5x5": {
+      "id": "222_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/222.a.htm",
+      "problem": "5 5\n- 4 - - -\n- - - - -\n- - - - 0\n- - 1 - -\n- - - - -"
+    },
+    "223_6x6": {
+      "id": "223_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/223.a.htm",
+      "problem": "6 6\n- - - - - -\n- - 1 - - -\n- - - 8 - -\n1 - - - - -\n- - - - 2 -\n- - - - - 12"
+    },
+    "224_6x6": {
+      "id": "224_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/224.a.htm",
+      "problem": "6 6\n- - - - - 4\n1 - - - - -\n- - 12 - - -\n- - - - - -\n- 1 - - - -\n- - - - 9 -"
+    },
+    "225_7x7": {
+      "id": "225_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/225.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - - 12 -\n- - 2 - - - -\n2 - - - - - -\n- - - 12 - - -\n- - - - 1 - -\n- 1 - - - - -"
+    },
+    "226_7x7": {
+      "id": "226_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/226.a.htm",
+      "problem": "7 7\n- - - - - - -\n- 8 - - - - -\n- - - 8 - - -\n- - - - - - -\n- - - - 12 - -\n- - - - - 3 -\n9 - - - - - -"
+    },
+    "227_8x8": {
+      "id": "227_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/227.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - 6 - - -\n8 - - - - - - -\n- - - - - 12 - -\n- 9 - - - - - -\n- - - - - - 4 -\n- - 2 - - - - -\n- - - - - - - 4"
+    },
+    "228_8x8": {
+      "id": "228_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/228.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - 3 - -\n- - 8 - - - - -\n- - - - 4 - - -\n- 2 - - - - - -\n- - - 4 - - - -\n- - - - - - - 2\n- - - - - - 9 -"
+    },
+    "229_9x9": {
+      "id": "229_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/229.a.htm",
+      "problem": "9 9\n- - - 4 - - - - -\n- - - - - - 1 - -\n- - - - - 6 - - -\n- - - - - - - - 4\n- - - - - - - 8 -\n1 - - - - - - - -\n- - - - 4 - - - -\n- 6 - - - - - - -\n- - 4 - - - - - -"
+    },
+    "230_9x9": {
+      "id": "230_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/230.a.htm",
+      "problem": "9 9\n- - - - - - 3 - -\n- 6 - - - - - - -\n- - - - - - - 12 -\n- - 9 - - - - - -\n- - - 9 - - - - -\n- - - - - 2 - - -\n- - - - - - - - 2\n- - - - 1 - - - -\n9 - - - - - - - -"
+    },
+    "231_5x5": {
+      "id": "231_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/231.a.htm",
+      "problem": "5 5\n- - - - 4\n- - 3 - -\n2 - - - -\n- - - 9 -\n- - - - -"
+    },
+    "232_5x5": {
+      "id": "232_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/232.a.htm",
+      "problem": "5 5\n- - - - 6\n- 2 - - -\n- - - 12 -\n2 - - - -\n- - 12 - -"
+    },
+    "233_6x6": {
+      "id": "233_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/233.a.htm",
+      "problem": "6 6\n- - 4 - - -\n- - - - - -\n- - - - 8 -\n2 - - - - -\n- - - - - 8\n- - - 12 - -"
+    },
+    "234_6x6": {
+      "id": "234_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/234.a.htm",
+      "problem": "6 6\n- - - 2 - -\n- - - - - 4\n- - 2 - - -\n- 12 - - - -\n- - - - - -\n- - - - 4 -"
+    },
+    "235_7x7": {
+      "id": "235_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/235.a.htm",
+      "problem": "7 7\n- - - - - 3 -\n- - - - - - 8\n2 - - - - - -\n- - 9 - - - -\n- 1 - - - - -\n- - - - 1 - -\n- - - 4 - - -"
+    },
+    "236_7x7": {
+      "id": "236_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/236.a.htm",
+      "problem": "7 7\n- - - - - - 2\n- 2 - - - - -\n- - - - - 4 -\n- - - 6 - - -\n- - - - 4 - -\n0 - - - - - -\n- - 4 - - - -"
+    },
+    "237_8x8": {
+      "id": "237_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/237.a.htm",
+      "problem": "8 8\n- - - - 6 - - -\n- - - - - - - 0\n- 6 - - - - - -\n- - - - - 4 - -\n- - - - - - - -\n- - - - - - 3 -\n- - - 1 - - - -\n- - 12 - - - - -"
+    },
+    "238_8x8": {
+      "id": "238_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/238.a.htm",
+      "problem": "8 8\n- - - 4 - - - -\n2 - - - - - - -\n- - - - - - 6 -\n- - - - - 4 - -\n- - - - - - - 12\n- - 8 - - - - -\n- 6 - - - - - -\n- - - - 0 - - -"
+    },
+    "239_9x9": {
+      "id": "239_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/239.a.htm",
+      "problem": "9 9\n- - - - - - 2 - -\n- 3 - - - - - - -\n- - - - - 4 - - -\n- - - - - - - - 6\n- - - - - - - 0 -\n- - - 6 - - - - -\n8 - - - - - - - -\n- - - - 4 - - - -\n- - 4 - - - - - -"
+    },
+    "240_9x9": {
+      "id": "240_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/240.a.htm",
+      "problem": "9 9\n- - - - - - - - -\n- - - - 9 - - - -\n- - - - - 8 - - -\n3 - - - - - - - -\n- - - 4 - - - - -\n- - - - - - 12 - -\n- - - - - - - 9 -\n- 1 - - - - - - -\n- - - - - - - - 12"
+    },
+    "241_4x4": {
+      "id": "241_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/241.a.htm",
+      "problem": "4 4\n- - - 4\n- - 6 -\n- - - -\n- - - -"
+    },
+    "242_4x4": {
+      "id": "242_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/242.a.htm",
+      "problem": "4 4\n- - - 6\n2 - - -\n- - 12 -\n- 12 - -"
+    },
+    "243_5x5": {
+      "id": "243_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/243.a.htm",
+      "problem": "5 5\n- - - 6 -\n9 - - - -\n- - - - -\n- 9 - - -\n- - - - -"
+    },
+    "244_5x5": {
+      "id": "244_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/244.a.htm",
+      "problem": "5 5\n3 - - - -\n- 8 - - -\n- - - - 8\n- - - 2 -\n- - - - -"
+    },
+    "245_6x6": {
+      "id": "245_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/245.a.htm",
+      "problem": "6 6\n- - - - - -\n- - 2 - - -\n- - - - - -\n- - - - 3 -\n- - - 12 - -\n8 - - - - -"
+    },
+    "246_6x6": {
+      "id": "246_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/246.a.htm",
+      "problem": "6 6\n- - 3 - - -\n- - - - - -\n- - - 9 - -\n- - - - 9 -\n8 - - - - -\n- - - - - -"
+    },
+    "247_7x7": {
+      "id": "247_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/247.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - - 12 -\n- - - 2 - - -\n- 3 - - - - -\n- - 8 - - - -\n- - - - 6 - -\n- - - - - - 8"
+    },
+    "248_7x7": {
+      "id": "248_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/248.a.htm",
+      "problem": "7 7\n- - - - 4 - -\n- - 12 - - - -\n2 - - - - - -\n- 1 - - - - -\n- - - - - 4 -\n- - - 9 - - -\n- - - - - - 4"
+    },
+    "249_8x8": {
+      "id": "249_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/249.a.htm",
+      "problem": "8 8\n- - - - - - 6 -\n- 3 - - - - - -\n- - - - - - - 8\n- - - 9 - - - -\n- - - - - 9 - -\n0 - - - - - - -\n- - 6 - - - - -\n- - - - - - - -"
+    },
+    "250_8x8": {
+      "id": "250_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/250.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - 3 - - - - -\n- - - - - 1 - -\n- - - 1 - - - -\n- 9 - - - - - -\n- - - - - - 1 -\n- - - - 4 - - -\n- - - - - - - -"
+    },
+    "251_4x4": {
+      "id": "251_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/251.a.htm",
+      "problem": "4 4\n- - - -\n- - 3 -\n0 - - -\n- - - 8"
+    },
+    "252_4x4": {
+      "id": "252_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/252.a.htm",
+      "problem": "4 4\n- - 4 -\n9 - - -\n- 9 - -\n- - - 12"
+    },
+    "253_5x5": {
+      "id": "253_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/253.a.htm",
+      "problem": "5 5\n- - - 0 -\n- 2 - - -\n- - 1 - -\n- - - - -\n- - - - 4"
+    },
+    "254_5x5": {
+      "id": "254_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/254.a.htm",
+      "problem": "5 5\n- - 6 - -\n- 12 - - -\n- - - - 4\n- - - 12 -\n- - - - -"
+    },
+    "255_6x6": {
+      "id": "255_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/255.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - 4 -\n- - - - - 8\n- 12 - - - -\n- - - 3 - -\n0 - - - - -"
+    },
+    "256_6x6": {
+      "id": "256_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/256.a.htm",
+      "problem": "6 6\n- 2 - - - -\n- - - - - -\n- - - - 3 -\n- - - - - 8\n8 - - - - -\n- - 9 - - -"
+    },
+    "257_7x7": {
+      "id": "257_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/257.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - 4 - -\n- - 12 - - - -\n- 0 - - - - -\n- - - - - 1 -\n- - - 6 - - -\n- - - - - - 12"
+    },
+    "258_7x7": {
+      "id": "258_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/258.a.htm",
+      "problem": "7 7\n- - - - - - 0\n- - - - - - -\n- 3 - - - - -\n- - - 2 - - -\n- - 2 - - - -\n- - - - - 8 -\n- - - - 0 - -"
+    },
+    "259_8x8": {
+      "id": "259_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/259.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - - 3 -\n- 8 - - - - - -\n- - 4 - - - - -\n- - - - 12 - - -\n- - - - - - - 12\n- - - - - 9 - -\n8 - - - - - - -"
+    },
+    "260_8x8": {
+      "id": "260_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/260.a.htm",
+      "problem": "8 8\n- - 4 - - - - -\n3 - - - - - - -\n- - - - - - - -\n- - - 4 - - - -\n- 4 - - - - - -\n- - - - - - 8 -\n- - - - - - - 12\n- - - - - 8 - -"
+    },
+    "261_4x4": {
+      "id": "261_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/261.a.htm",
+      "problem": "4 4\n- - 0 -\n- - - -\n- - - 12\n- 9 - -"
+    },
+    "262_4x4": {
+      "id": "262_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/262.a.htm",
+      "problem": "4 4\n- - - -\n- - 12 -\n- - - -\n- - - 12"
+    },
+    "263_5x5": {
+      "id": "263_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/263.a.htm",
+      "problem": "5 5\n0 - - - -\n- - 4 - -\n- - - - -\n- - - 1 -\n- - - - -"
+    },
+    "264_5x5": {
+      "id": "264_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/264.a.htm",
+      "problem": "5 5\n2 - - - -\n- - 2 - -\n- 1 - - -\n- - - 0 -\n- - - - -"
+    },
+    "265_6x6": {
+      "id": "265_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/265.a.htm",
+      "problem": "6 6\n- - - 3 - -\n3 - - - - -\n- 9 - - - -\n- - 8 - - -\n- - - - 4 -\n- - - - - 8"
+    },
+    "266_6x6": {
+      "id": "266_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/266.a.htm",
+      "problem": "6 6\n- - - 4 - -\n- - 6 - - -\n0 - - - - -\n- 0 - - - -\n- - - - 0 -\n- - - - - 12"
+    },
+    "267_7x7": {
+      "id": "267_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/267.a.htm",
+      "problem": "7 7\n- 3 - - - - -\n- - - - - 6 -\n- - - - 1 - -\n9 - - - - - -\n- - 0 - - - -\n- - - - - - 2\n- - - 9 - - -"
+    },
+    "268_7x7": {
+      "id": "268_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/268.a.htm",
+      "problem": "7 7\n- - - - 2 - -\n- - - 1 - - -\n- - - - - 12 -\n- - - - - - 0\n- - 6 - - - -\n- - - - - - -\n- 4 - - - - -"
+    },
+    "269_8x8": {
+      "id": "269_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/269.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- - - 12 - - - -\n- 4 - - - - - -\n- - - - - 6 - -\n- - 8 - - - - -\n- - - - - - - -\n- - - - - - 1 -\n- - - - 4 - - -"
+    },
+    "270_8x8": {
+      "id": "270_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/270.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - 1 - - - - -\n- 12 - - - - - -\n- - - 4 - - - -\n- - - - - 1 - -\n9 - - - - - - -\n- - - - - - 12 -\n- - - - 4 - - -"
+    },
+    "271_6x6": {
+      "id": "271_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/271.a.htm",
+      "problem": "6 6\n- - - - 6 -\n- - - 1 - -\n- - - - - 12\n- - 12 - - -\n- 3 - - - -\n1 - - - - -"
+    },
+    "272_6x6": {
+      "id": "272_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/272.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - 6 -\n- - - - - -\n- - - 2 - -\n- 4 - - - -\n- - 9 - - -"
+    },
+    "273_7x7": {
+      "id": "273_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/273.a.htm",
+      "problem": "7 7\n- - 2 - - - -\n- - - - - 9 -\n- - - - 6 - -\n- - - - - - 0\n- - - 2 - - -\n- 3 - - - - -\n9 - - - - - -"
+    },
+    "274_7x7": {
+      "id": "274_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/274.a.htm",
+      "problem": "7 7\n- - - - - 0 -\n- - - - - - 2\n- - - - 9 - -\n- - - 1 - - -\n- 6 - - - - -\n- - 12 - - - -\n0 - - - - - -"
+    },
+    "275_7x7": {
+      "id": "275_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/275.a.htm",
+      "problem": "7 7\n- - - - - 4 -\n- - 12 - - - -\n2 - - - - - -\n- - - - 4 - -\n- - - - - - 4\n- - - 4 - - -\n- 9 - - - - -"
+    },
+    "276_7x7": {
+      "id": "276_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/276.a.htm",
+      "problem": "7 7\n- - 2 - - - -\n- - - - - 1 -\n3 - - - - - -\n- - - - - - 0\n- 3 - - - - -\n- - - - 12 - -\n- - - 12 - - -"
+    },
+    "277_8x8": {
+      "id": "277_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/277.a.htm",
+      "problem": "8 8\n- - - 4 - - - -\n- - - - - 4 - -\n- - 0 - - - - -\n2 - - - - - - -\n- 6 - - - - - -\n- - - - - - 1 -\n- - - - 9 - - -\n- - - - - - - 8"
+    },
+    "278_8x8": {
+      "id": "278_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/278.a.htm",
+      "problem": "8 8\n- - - - - 1 - -\n- - - 1 - - - -\n3 - - - - - - -\n- - - - - - 6 -\n- 2 - - - - - -\n- - - - 12 - - -\n- - 3 - - - - -\n- - - - - - - 4"
+    },
+    "279_8x8": {
+      "id": "279_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/279.a.htm",
+      "problem": "8 8\n- 0 - - - - - -\n- - - - - - 2 -\n8 - - - - - - -\n- - - 3 - - - -\n- - 4 - - - - -\n- - - - 1 - - -\n- - - - - - - 0\n- - - - - 1 - -"
+    },
+    "280_8x8": {
+      "id": "280_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/280.a.htm",
+      "problem": "8 8\n- - - - - - - 4\n- - 4 - - - - -\n- - - - - - 1 -\n2 - - - - - - -\n- - - - - 2 - -\n- - - - 1 - - -\n- 0 - - - - - -\n- - - 1 - - - -"
+    },
+    "281_6x6": {
+      "id": "281_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/281.a.htm",
+      "problem": "6 6\n- - - - - 6\n- 4 - - - -\n- - - 6 - -\n- - - - 8 -\n- - - - - -\n- - - - - -"
+    },
+    "282_6x6": {
+      "id": "282_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/282.a.htm",
+      "problem": "6 6\n- - - - 1 -\n- - 0 - - -\n- - - - - -\n- 8 - - - -\n- - - 12 - -\n9 - - - - -"
+    },
+    "283_7x7": {
+      "id": "283_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/283.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - - 8 -\n- - - - - - 2\n- 3 - - - - -\n- - - 12 - - -\n- - - - 12 - -\n- - 12 - - - -"
+    },
+    "284_7x7": {
+      "id": "284_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/284.a.htm",
+      "problem": "7 7\n- 1 - - - - -\n- - - - - - 8\n9 - - - - - -\n- - - - 6 - -\n- - 8 - - - -\n- - - 6 - - -\n- - - - - 0 -"
+    },
+    "285_7x7": {
+      "id": "285_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/285.a.htm",
+      "problem": "7 7\n- - 6 - - - -\n3 - - - - - -\n- - - 9 - - -\n- 12 - - - - -\n- - - - - - -\n- - - - - 12 -\n- - - - 8 - -"
+    },
+    "286_7x7": {
+      "id": "286_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/286.a.htm",
+      "problem": "7 7\n- 3 - - - - -\n- - - - - - 0\n- - - - 9 - -\n2 - - - - - -\n- - 6 - - - -\n- - - 4 - - -\n- - - - - 1 -"
+    },
+    "287_8x8": {
+      "id": "287_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/287.a.htm",
+      "problem": "8 8\n- - - - - - - 6\n- 4 - - - - - -\n- - - - - - - -\n- - 12 - - - - -\n- - - 9 - - - -\n- - - - - - 1 -\n- - - - - 4 - -\n- - - - - - - -"
+    },
+    "288_8x8": {
+      "id": "288_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/288.a.htm",
+      "problem": "8 8\n- - - - 2 - - -\n- - - - - - 9 -\n- - - - - - - 8\n- 8 - - - - - -\n- - - - - 8 - -\n- - 1 - - - - -\n- - - 9 - - - -\n- - - - - - - -"
+    },
+    "289_8x8": {
+      "id": "289_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/289.a.htm",
+      "problem": "8 8\n0 - - - - - - -\n- - - - - - 12 -\n- - - 4 - - - -\n- - 8 - - - - -\n- 4 - - - - - -\n- - - - - - - 4\n- - - - 2 - - -\n- - - - - 4 - -"
+    },
+    "290_8x8": {
+      "id": "290_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/290.a.htm",
+      "problem": "8 8\n- - - - 3 - - -\n- - - 1 - - - -\n0 - - - - - - -\n- - - - - 3 - -\n- - - - - - - 4\n- - 8 - - - - -\n- 6 - - - - - -\n- - - - - - 0 -"
+    },
+    "291_6x6": {
+      "id": "291_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/291.a.htm",
+      "problem": "6 6\n- - 6 - - -\n- - - - - 2\n- - - 12 - -\n- 8 - - - -\n- - - - 6 -\n0 - - - - -"
+    },
+    "292_6x6": {
+      "id": "292_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/292.a.htm",
+      "problem": "6 6\n- - - 3 - -\n- - - - - -\n- 12 - - - -\n- - - - - 8\n- - - - - -\n- - - - 8 -"
+    },
+    "293_7x7": {
+      "id": "293_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/293.a.htm",
+      "problem": "7 7\n1 - - - - - -\n- - - - - 1 -\n- - - - - - -\n- 2 - - - - -\n- - - - 6 - -\n- - - - - - 0\n- - - 8 - - -"
+    },
+    "294_7x7": {
+      "id": "294_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/294.a.htm",
+      "problem": "7 7\n- 1 - - - - -\n- - - - - 8 -\n- - 8 - - - -\n- - - 4 - - -\n8 - - - - - -\n- - - - 6 - -\n- - - - - - 8"
+    },
+    "295_7x7": {
+      "id": "295_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/295.a.htm",
+      "problem": "7 7\n0 - - - - - -\n- - - - 12 - -\n- - - 2 - - -\n- 6 - - - - -\n- - 0 - - - -\n- - - - - 4 -\n- - - - - - 0"
+    },
+    "296_7x7": {
+      "id": "296_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/296.a.htm",
+      "problem": "7 7\n- - - 4 - - -\n- 9 - - - - -\n3 - - - - - -\n- - 8 - - - -\n- - - - - 3 -\n- - - - 3 - -\n- - - - - - 0"
+    },
+    "297_7x7": {
+      "id": "297_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/297.a.htm",
+      "problem": "7 7\n- - 4 - - - -\n- - - - - 6 -\n- - - 8 - - -\n- 12 - - - - -\n- - - - - - 12\n- - - - 8 - -\n9 - - - - - -"
+    },
+    "298_7x7": {
+      "id": "298_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/298.a.htm",
+      "problem": "7 7\n- - - - - - 4\n- - - 9 - - -\n- - - - - - -\n- - - - 12 - -\n- - - - - 8 -\n- - 1 - - - -\n9 - - - - - -"
+    },
+    "299_7x7": {
+      "id": "299_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/299.a.htm",
+      "problem": "7 7\n- - - - - 1 -\n3 - - - - - -\n- - 3 - - - -\n- 1 - - - - -\n- - - - 1 - -\n- - - 2 - - -\n- - - - - - 4"
+    },
+    "300_8x8": {
+      "id": "300_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/300.a.htm",
+      "problem": "8 8\n1 - - - - - - -\n- - - - - - - -\n- - - - - - 3 -\n- 6 - - - - - -\n- - - 2 - - - -\n- - 3 - - - - -\n- - - - - - - 12\n- - - - - 9 - -"
+    },
+    "301_5x5": {
+      "id": "301_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/301.a.htm",
+      "problem": "5 5\n- 3 - - 4\n- - - - -\n9 - - - 0\n- - 12 - -\n- - - - -"
+    },
+    "302_5x5": {
+      "id": "302_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/302.a.htm",
+      "problem": "5 5\n2 - - 3 -\n- - 3 - -\n- 3 - 12 -\n- - - - -\n- - 12 - 0"
+    },
+    "303_5x5": {
+      "id": "303_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/303.a.htm",
+      "problem": "5 5\n1 - 6 - 2\n- - - - -\n3 - - 6 -\n- - - - -\n- 4 - - -"
+    },
+    "304_6x6": {
+      "id": "304_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/304.a.htm",
+      "problem": "6 6\n- - - 4 - -\n- - - - - -\n- 4 - - - -\n- - - 6 - -\n- 1 - - - 12\n- - - 9 - -"
+    },
+    "305_6x6": {
+      "id": "305_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/305.a.htm",
+      "problem": "6 6\n- - - 6 - -\n- - - - - 0\n- - - - 2 -\n- 2 - - - 6\n9 - 4 - - -\n- 9 - - - -"
+    },
+    "306_6x6": {
+      "id": "306_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/306.a.htm",
+      "problem": "6 6\n1 - - - - 2\n- - - - - -\n2 - 9 - - 8\n- - - - - -\n- - - - - 4\n- - 0 - 8 -"
+    },
+    "307_7x7": {
+      "id": "307_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/307.a.htm",
+      "problem": "7 7\n- - 6 - 2 - -\n9 - - - - - 0\n- 1 - - 12 - -\n- 1 - - - - 6\n- - - - - - -\n- 3 - 12 - - -\n- - - - - - -"
+    },
+    "308_7x7": {
+      "id": "308_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/308.a.htm",
+      "problem": "7 7\n- 0 - - 1 - -\n- - - - - 4 -\n- - - 4 - - -\n- 12 - - 0 - 0\n- 1 - - - - -\n- - 8 - - - -\n- - 1 - - - 4"
+    },
+    "309_8x8": {
+      "id": "309_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/309.a.htm",
+      "problem": "8 8\n- 4 - - - - - 2\n- 0 - - 1 - - -\n8 3 - - 6 - 0 8\n- - 12 - - - - -\n- - 0 - - 6 - -\n0 - - 3 - - - -\n0 - - - - - 12 -\n- - - - 9 - - -"
+    },
+    "310_8x8": {
+      "id": "310_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/310.a.htm",
+      "problem": "8 8\n- 0 - - 3 - - 4\n- 1 - - - - - 6\n- - 0 - - 9 - -\n- 1 - - - - - -\n- - - 9 - - - 12\n- 6 - - - - - -\n9 - 6 - 0 0 8 -\n- - - - - 0 - 0"
+    },
+    "311_5x5": {
+      "id": "311_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/311.a.htm",
+      "problem": "5 5\n- - - - 4\n- - 0 - -\n8 - - - -\n- 1 - 12 -\n- - - - -"
+    },
+    "312_5x5": {
+      "id": "312_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/312.a.htm",
+      "problem": "5 5\n2 - - 4 -\n- - - - -\n- - - - 6\n0 - - 9 -\n- - - - -"
+    },
+    "313_5x5": {
+      "id": "313_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/313.a.htm",
+      "problem": "5 5\n2 - 1 - -\n- - 4 - -\n- 12 - - 8\n9 - - - -\n- - - 12 -"
+    },
+    "314_6x6": {
+      "id": "314_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/314.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - 0 -\n- 9 - - - -\n- - 12 - 0 0\n- - - - - -\n8 - 1 - - 4"
+    },
+    "315_6x6": {
+      "id": "315_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/315.a.htm",
+      "problem": "6 6\n- - - - - -\n- - - - 1 -\n- 0 - - - -\n- - - - - -\n1 - - - 2 -\n- - - 1 - -"
+    },
+    "316_6x6": {
+      "id": "316_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/316.a.htm",
+      "problem": "6 6\n- - - - - 4\n- - 6 - - -\n- - - - 4 -\n- 9 - - - -\n- - - - - 8\n8 - 8 1 - -"
+    },
+    "317_7x7": {
+      "id": "317_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/317.a.htm",
+      "problem": "7 7\n0 - - - 6 - -\n3 - - 12 - - -\n- - - - - - -\n- - 6 - 8 - 0\n8 - - - - - -\n- 9 - - - - -\n- - - 1 - - -"
+    },
+    "318_7x7": {
+      "id": "318_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/318.a.htm",
+      "problem": "7 7\n- - - - 0 - -\n1 - - - - 0 -\n- - - - - - -\n- - 12 - 2 - 8\n0 - - - - - -\n- - - - - 12 -\n- - 4 - 8 - -"
+    },
+    "319_8x8": {
+      "id": "319_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/319.a.htm",
+      "problem": "8 8\n- 4 - 0 - - - -\n8 - - - - 3 - -\n- 1 - - 6 - 0 -\n- - - - - - - -\n0 - 0 - - - - 4\n- - 2 - - - - -\n- - - - - - - -\n- - 12 - - - - -"
+    },
+    "320_8x8": {
+      "id": "320_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/320.a.htm",
+      "problem": "8 8\n1 - - - 0 - - -\n- - 0 - 1 - - -\n- - - - - 3 - 12\n- - 3 - - - 12 -\n2 - - 9 - - - 0\n- - - - - - 0 -\n- - - - 12 - - -\n8 - - - - - - -"
+    },
+    "321_4x4": {
+      "id": "321_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/321.a.htm",
+      "problem": "4 4\n- - - 0\n- - - -\n- - 8 -\n- - - -"
+    },
+    "322_5x5": {
+      "id": "322_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/322.a.htm",
+      "problem": "5 5\n3 - - - -\n- - - - -\n- - 1 - -\n- 2 - - -\n- - - 4 -"
+    },
+    "323_5x5": {
+      "id": "323_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/323.a.htm",
+      "problem": "5 5\n- - - - -\n- - - - -\n- 1 - - -\n8 - - - -\n- - 9 - -"
+    },
+    "324_5x5": {
+      "id": "324_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/324.a.htm",
+      "problem": "5 5\n- - - - 6\n2 - - - -\n- - - 2 -\n- - - - -\n- 12 - - -"
+    },
+    "325_6x6": {
+      "id": "325_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/325.a.htm",
+      "problem": "6 6\n- - - - 4 -\n- - - - - 0\n8 - - - - -\n- - - 4 - -\n- - - - - -\n- - 4 - - -"
+    },
+    "326_6x6": {
+      "id": "326_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/326.a.htm",
+      "problem": "6 6\n- - 1 - - -\n0 - - - - -\n- - - - - 8\n- - - 9 - -\n- 9 - - - -\n- - - - 0 -"
+    },
+    "327_6x6": {
+      "id": "327_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/327.a.htm",
+      "problem": "6 6\n- - 4 - - -\n3 - - - - -\n- - - - - -\n- - - - 4 -\n- 0 - - - -\n- - - - - 8"
+    },
+    "328_7x7": {
+      "id": "328_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/328.a.htm",
+      "problem": "7 7\n1 - - - - - -\n- 2 - - - - -\n- - - - - - -\n- - 2 - - - -\n- - - 1 - - -\n- - - - - 2 -\n- - - - - - 12"
+    },
+    "329_7x7": {
+      "id": "329_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/329.a.htm",
+      "problem": "7 7\n- - - - - 6 -\n3 - - - - - -\n- - - - 8 - -\n- - - - - - 8\n- 6 - - - - -\n- - 6 - - - -\n- - - 12 - - -"
+    },
+    "330_7x7": {
+      "id": "330_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/330.a.htm",
+      "problem": "7 7\n- - - - - - -\n- 6 - - - - -\n- - - - - 4 -\n- - - 2 - - -\n9 - - - - - -\n- - 6 - - - -\n- - - - - - 0"
+    },
+    "331_5x5": {
+      "id": "331_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/331.a.htm",
+      "problem": "5 5\n- 4 - - 0\n- - - - -\n- - - 6 -\n- - - - -\n- 9 - - 12"
+    },
+    "332_5x5": {
+      "id": "332_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/332.a.htm",
+      "problem": "5 5\n3 - - 0 -\n- - - - -\n8 - - 6 -\n- - - - 6\n- - - - -"
+    },
+    "333_6x6": {
+      "id": "333_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/333.a.htm",
+      "problem": "6 6\n- - 4 - - -\n- - - - - -\n- - 3 - - 0\n0 - - - - -\n- - - 9 - -\n- - - - - -"
+    },
+    "334_6x6": {
+      "id": "334_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/334.a.htm",
+      "problem": "6 6\n3 - - - - 0\n- - - - - -\n- - 0 9 - -\n- 6 - - - -\n- - - - - 2\n- - - - 1 -"
+    },
+    "335_8x8": {
+      "id": "335_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/335.a.htm",
+      "problem": "8 8\n- - 0 - 0 1 - -\n1 - - - - - - 2\n- - 1 - 6 - - -\n- 8 - 8 - 1 - -\n0 - - - - - - -\n- - 9 - - - - 12\n- - - - - - - -\n- - 1 - - - - -"
+    },
+    "336_8x8": {
+      "id": "336_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/336.a.htm",
+      "problem": "8 8\n1 - - - - - - 0\n- 8 - 1 - - 6 0\n2 - 0 - 9 - - -\n- - - - - 9 - -\n- 1 - 4 - - - 2\n- - - 2 - 0 9 -\n- - - - - - - -\n8 - - - - - - 12"
+    },
+    "337_10x10": {
+      "id": "337_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/337.a.htm",
+      "problem": "10 10\n- - - 2 - - - - - -\n2 - - - - 4 - - - -\n- - - - - - 0 - - -\n- 8 2 - 3 - - - - -\n- - - - - - - - 8 -\n8 - - - - 6 - - 0 -\n- - - - - - - 8 - -\n- - - - 8 - - - - -\n- - - - 4 - - - - -\n1 - - - - - - - 4 -"
+    },
+    "338_10x10": {
+      "id": "338_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/338.a.htm",
+      "problem": "10 10\n1 - - - - - - - 2 -\n- 1 - - - - - - - -\n- - - 2 - - - - - -\n- - 1 - - - - 2 - -\n- - - - - - 12 - - -\n9 - - - 12 - - - - 2\n- - - - - - - - - -\n- - - 1 - - - - - 12\n- - 2 - - - - - - -\n- - - - - - - 4 - -"
+    },
+    "339_12x12": {
+      "id": "339_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/339.a.htm",
+      "problem": "12 12\n3 - - - 4 - 0 - - - - -\n- - 6 - - - - - 0 - - -\n8 - - - 1 - - 4 - 2 0 -\n- - - - 0 - - - - - 3 -\n0 - - 0 0 - 0 - 1 - - -\n- - - - 0 - - - - 9 - 12\n- - - - 6 - 2 2 - 0 8 -\n- 0 - - - - - - - - - -\n- - - 9 - - - - - 4 - -\n0 - 0 - - 8 9 - - - 4 -\n- - - - - - - - 2 - - -\n- - - - - - 0 1 - - - 0"
+    },
+    "340_12x12": {
+      "id": "340_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/340.a.htm",
+      "problem": "12 12\n- - 0 - - 3 - 4 - 0 0 2\n- 0 - - - - - - - - 1 -\n- - - - 3 - - - - - 4 8\n1 - - 4 - - - - - - - 0\n- 0 - - - - 8 3 - - - 4\n2 - - 1 - - - - 12 - - -\n- - - - 12 - 0 - - - 2 0\n- - - - - 0 - - - - - -\n9 - - - 0 - - - - 2 - -\n0 - - 2 - 1 - - 4 - 8 0\n- - 9 - 4 - - - - - - -\n- 8 - 8 - - 0 9 - - - 4"
+    },
+    "341_5x5": {
+      "id": "341_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/341.a.htm",
+      "problem": "5 5\n- 1 - - -\n- - 3 - -\n2 - - - 12\n- - 12 - -\n- 12 - - -"
+    },
+    "342_5x5": {
+      "id": "342_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/342.a.htm",
+      "problem": "5 5\n- - - - -\n- - - - -\n9 - - 12 -\n- - - - -\n- 0 - - -"
+    },
+    "343_6x6": {
+      "id": "343_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/343.a.htm",
+      "problem": "6 6\n- - 0 - - -\n- - - - 6 -\n- 3 - - - -\n- - - - - -\n- 9 - - 8 -\n- - 12 - - -"
+    },
+    "344_6x6": {
+      "id": "344_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/344.a.htm",
+      "problem": "6 6\n- - - - 4 -\n8 - - 6 - -\n- - - - - -\n- 3 - - - -\n- - - - - -\n- - - - 12 -"
+    },
+    "345_8x8": {
+      "id": "345_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/345.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - - 0 - - - 0\n9 - - - - 12 2 -\n- - - - - - - -\n1 - - 4 - - - 2\n- - 0 - - 1 - -\n- 9 - - - - - -\n- - - - 12 0 - -"
+    },
+    "346_8x8": {
+      "id": "346_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/346.a.htm",
+      "problem": "8 8\n- - 3 - 6 - - 0\n- - - - - - 4 -\n3 - - - 12 - - 2\n- - 12 - - - - -\n- - 0 0 0 - 3 -\n- - 0 - - - - -\n- 0 - - - - - -\n- - 0 0 - 9 - 12"
+    },
+    "347_10x10": {
+      "id": "347_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/347.a.htm",
+      "problem": "10 10\n- - 4 - 0 - 2 2 0 -\n- 0 - 3 - - - - 4 -\n8 0 3 - - - - - 4 -\n- - - - - 6 - - - -\n- 3 - - - - - - 4 -\n- - - - - - - - 0 -\n- - 8 - - 9 - - 6 -\n- 8 0 8 2 - 9 - - -\n- - - - - - - - - -\n- - - - - - 1 - - 12"
+    },
+    "348_10x10": {
+      "id": "348_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/348.a.htm",
+      "problem": "10 10\n2 - - - - 4 - - - -\n- - - 3 - - - - - 4\n- - 3 - - - - 6 - 0\n- - - 9 - - - - - 6\n- - - - - - - - - -\n- - 12 - 8 2 - - - -\n- 3 - - - - - - - -\n- - - - - - 8 - - -\n0 - - - 0 8 - - - -\n- - - - 0 1 - - - -"
+    },
+    "349_12x12": {
+      "id": "349_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/349.a.htm",
+      "problem": "12 12\n2 - - - - - - - - 4 - -\n- - 4 - - 0 2 0 - - - -\n- - - - - 1 - - 6 - - 2\n- 12 - - - 0 - 0 - - 2 -\n8 - - - - - 8 - - 1 - -\n- - - 2 - - - 1 - - - 12\n- 0 - - - 0 0 0 9 - - -\n- - - - 12 - - - - - 8 -\n- - - - - 2 - 3 - - - -\n- 0 - 1 - - - - - - - 4\n- 0 - - - - 1 - 4 - - 0\n1 - - 4 - 8 - 8 - - 0 -"
+    },
+    "350_12x12": {
+      "id": "350_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/350.a.htm",
+      "problem": "12 12\n- 0 2 2 - - 1 - - 4 - -\n1 - - - - - - - 8 - - -\n- - 9 - - - - 2 - - - 2\n- 1 - - - - - - 4 - - -\n2 - - - 2 - 9 - - - 4 -\n- - - - - - - - 0 - - -\n- 2 - - - - - 8 - 0 - -\n- - - - 12 - - - - - 2 -\n- - - - - 4 - - - 2 - 0\n0 - - - - - 0 - - - - -\n- - 4 - - 0 - - - - - -\n- 8 - - - - - 0 - 9 - -"
+    },
+    "351_5x5": {
+      "id": "351_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/351.a.htm",
+      "problem": "5 5\n- - - - -\n- - 6 - -\n3 - - - -\n- - - 6 -\n- - 9 - -"
+    },
+    "352_5x5": {
+      "id": "352_5x5",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/352.a.htm",
+      "problem": "5 5\n- 3 - - 0\n- - - - -\n- - - - -\n- - 0 - -\n- - - - 12"
+    },
+    "353_6x6": {
+      "id": "353_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/353.a.htm",
+      "problem": "6 6\n- - - 4 - -\n- - - - 0 -\n- 9 - - - 0\n- - - - - -\n- - 9 - - -\n- - - - 12 -"
+    },
+    "354_6x6": {
+      "id": "354_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/354.a.htm",
+      "problem": "6 6\n0 - - - 6 -\n- - - - - 0\n- - - - - -\n- - - 3 - -\n2 - - - - -\n- - - - - -"
+    },
+    "355_8x8": {
+      "id": "355_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/355.a.htm",
+      "problem": "8 8\n- 6 0 - 0 - - -\n- - 4 - - 2 - 2\n- - - - - - - -\n8 - 3 - - - 6 -\n- - - - - - - 4\n- 1 - - 6 - - -\n- - - - - - - 4\n0 - 8 - 9 - - 0"
+    },
+    "356_8x8": {
+      "id": "356_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/356.a.htm",
+      "problem": "8 8\n- 3 - - 6 - - -\n- - - 8 - - - -\n8 - - - - - - 4\n- - - 4 - 8 - -\n0 - - 1 - - 6 -\n0 - - - - - - 6\n- - - 0 - - - -\n- 0 - - - 0 - -"
+    },
+    "357_10x10": {
+      "id": "357_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/357.a.htm",
+      "problem": "10 10\n3 - - - 4 - - - - 0\n- - - - 2 - - 4 - -\n- - - 1 - - - - - 6\n- - 1 - - - 12 - - -\n- - - 0 - - - - - -\n- - - - - - - - 8 -\n- - - - 8 - - - - -\n- 3 - - - 6 - - - 8\n- - - - - - - - - -\n- - - - - - - - - 0"
+    },
+    "358_10x10": {
+      "id": "358_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/358.a.htm",
+      "problem": "10 10\n- - 1 - - - - - - -\n- - - - 0 - - - - 12\n- - - - - 3 - - 12 -\n1 - - - - - 6 - - -\n- - - - 3 - - - 0 -\n- 1 - - - - - - - -\n- - - - - - - - - -\n3 - - - 12 - 8 - 0 -\n- - - 1 - - - - - -\n- - 12 - - - - - - -"
+    },
+    "359_12x12": {
+      "id": "359_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/359.a.htm",
+      "problem": "12 12\n- 0 2 2 0 3 - - - - 4 -\n- - - - - - - 12 - - - -\n2 3 - - - - - 4 - - - 0\n- - - - - - 12 - - 0 - -\n- 8 9 - - - 4 0 - - 2 0\n- 0 0 9 - - - - 4 - - -\n- - 4 - 2 - - - - 0 - 0\n- 0 0 0 - 8 - - 3 - - 6\n8 0 - - - - - 0 - 1 - -\n- - - - - - - - - - - -\n- 0 - - - - 1 - - 6 - -\n- 0 0 - 8 - - - 9 - - 4"
+    },
+    "360_12x12": {
+      "id": "360_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Sternenhaufen/360.a.htm",
+      "problem": "12 12\n- - 4 - 2 - - 0 - - - 2\n- 1 - - - - 4 - - - - -\n- 0 0 0 - - - 0 - 1 - -\n- - - - - - - - - - - 12\n- 3 - - 12 0 - - - 2 - -\n- - - - - - - - - - - -\n- - - 3 - - - - 12 - - 0\n- 8 - - - 9 - - - - - -\n9 - - - 4 - - - - - - 0\n- - 8 - - - - 2 - - - -\n- 0 - 9 - - - - - - 12 -\n0 - - - - 0 - - 1 - - -"
+    }
+  },
+  "info": "",
+  "count": 360
+}

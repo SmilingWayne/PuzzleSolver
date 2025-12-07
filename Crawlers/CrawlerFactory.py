@@ -27,6 +27,9 @@ from YajilinCrawler import YajilinCrawler
 from TerraXCrawler import TerraXCrawler
 from TatamibariCrawler import TatamibariCrawler
 from KillerSudokuCrawler import KillerSudokuCrawler
+from MunraitoCrawler import MunraitoCrawler
+from ABCEndViewCrawler import ABCEndViewCrawler
+from OneToXCrawler import OneToXCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -61,7 +64,10 @@ class CrawlerFactory:
         "Yajilin": YajilinCrawler,
         "TerraX": TerraXCrawler,
         "Tatamibari": TatamibariCrawler,
-        "KillerSudoku": KillerSudokuCrawler
+        "KillerSudoku": KillerSudokuCrawler,
+        "Munraito": MunraitoCrawler,
+        "ABCEndView": ABCEndViewCrawler,
+        "OneToX": OneToXCrawler
         
     }
     

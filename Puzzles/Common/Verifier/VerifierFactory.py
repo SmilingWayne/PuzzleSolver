@@ -14,6 +14,8 @@ from Common.Verifier.PuzzleVerifiers.NorinoriVerifier import NorinoriVerifier
 from Common.Verifier.PuzzleVerifiers.KakurasuVerifier import KakurasuVerifier
 from Common.Verifier.PuzzleVerifiers.FuzuliVerifier import FuzuliVerifier
 from Common.Verifier.PuzzleVerifiers.TilePaintVerifier import TilePaintVerifier
+from Common.Verifier.PuzzleVerifiers.MunraitoVerifier import MunraitoVerifier
+from Common.Verifier.PuzzleVerifiers.ThermometerVerifier import ThermometerVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -47,7 +49,10 @@ class VerifierFactory:
         "SoheiSudoku": SudokuVerifier,
         "SumoSudoku": SudokuVerifier,
         "WindmillSudoku": SudokuVerifier,
-        "KillerSudoku": SudokuVerifier
+        "KillerSudoku": SudokuVerifier,
+        "JigsawSudoku": SudokuVerifier,
+        "Munraito": MunraitoVerifier,
+        "Thermometer": ThermometerVerifier
     }
     
     @classmethod

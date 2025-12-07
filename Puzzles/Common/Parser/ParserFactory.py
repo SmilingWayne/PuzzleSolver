@@ -25,6 +25,7 @@ from Common.Parser.PuzzleParsers.ShogunSudokuParser import ShogunSudokuParser
 from Common.Parser.PuzzleParsers.SoheiSudokuParser import SoheiSudokuParser
 from Common.Parser.PuzzleParsers.SumoSudokuParser import SumoSudokuParser
 from Common.Parser.PuzzleParsers.WindmillSudokuParser import WindmillSudokuParser
+from Common.Parser.PuzzleParsers.KillerSudokuParser import KillerSudokuParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -57,7 +58,8 @@ class ParserFactory:
         "ShogunSudoku": ShogunSudokuParser,
         "SoheiSudoku": SoheiSudokuParser,
         "SumoSudoku": SumoSudokuParser,
-        "WindmillSudoku": WindmillSudokuParser
+        "WindmillSudoku": WindmillSudokuParser,
+        "KillerSudoku": KillerSudokuParser
     }
     
     @classmethod

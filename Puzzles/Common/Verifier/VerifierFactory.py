@@ -46,7 +46,8 @@ class VerifierFactory:
         "ShogunSudoku": SudokuVerifier,
         "SoheiSudoku": SudokuVerifier,
         "SumoSudoku": SudokuVerifier,
-        "WindmillSudoku": SudokuVerifier
+        "WindmillSudoku": SudokuVerifier,
+        "KillerSudoku": SudokuVerifier
     }
     
     @classmethod

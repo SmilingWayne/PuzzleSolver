@@ -25,6 +25,7 @@ from ShogunSudokuSolver import ShogunSudokuSolver
 from SoheiSudokuSolver import SoheiSudokuSolver
 from SumoSudokuSolver import SumoSudokuSolver
 from WindmillSudokuSolver import WindmillSudokuSolver
+from KillerSudokuSolver import KillerSudokuSolver
 
 from typing import Dict, Any
 
@@ -48,6 +49,7 @@ class SolverFactory:
         "Kakurasu": KakurasuSolver,
         "Fuzuli": FuzuliSolver,
         "TilePaint": TilePaintSolver,
+
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,
@@ -59,7 +61,8 @@ class SolverFactory:
         "ShogunSudoku": ShogunSudokuSolver,
         "SoheiSudoku": SoheiSudokuSolver,
         "SumoSudoku": SumoSudokuSolver,
-        "WindmillSudoku": WindmillSudokuSolver
+        "WindmillSudoku": WindmillSudokuSolver,
+        "KillerSudoku": KillerSudokuSolver
     }
     
     @classmethod

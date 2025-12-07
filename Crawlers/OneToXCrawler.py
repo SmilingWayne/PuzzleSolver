@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class ABCEndViewCrawler(GridCrawler):
+class OneToXCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -91,7 +91,7 @@ class ABCEndViewCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic in all_pzls[:1]:
+            for dic in all_pzls:
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
@@ -101,12 +101,14 @@ class ABCEndViewCrawler(GridCrawler):
                         
                         clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
                         rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])"
-                        # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[areas\])"
+                        areas_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
                         rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])"
                         clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[problem\])"
-                        # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
+                        problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[areas\])"
+                        areas_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
@@ -119,30 +121,22 @@ class ABCEndViewCrawler(GridCrawler):
                     
                     page_source = response.text
 
-                    # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
-                    solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip().lower()
-
+                    problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
+                    solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
+                    areas_text = re.search(areas_pattern, page_source, re.DOTALL).group().strip()
+                    
                     cols_text = re.search(clabels, page_source, re.DOTALL).group().strip()
                     rows_text = re.search(rlabels, page_source, re.DOTALL).group().strip()
                     
-                    
-                    rows = solution_text.split("\n")
+                    rows = problem_text.split("\n")
                     matrix = [row.split() for row in rows]
 
                     num_rows = len(matrix)
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
-                    problem_text = [["-" for _ in range(int(num_cols))] for _ in range(num_rows)]
-                    alphabet = "abcdefghijklmnopqrstuvwxyz"
-                    end_char = 'a'
-                    for c in alphabet[: num_rows]:
-                        if c not in rows_text:
-                            break
-                        else:
-                            end_char = c
-                        
+                    
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols} {end_char}\n{cols_text}\n{rows_text}\n{problem_text}"
-                    solution_str = f"{num_rows} {num_cols} {end_char}\n{solution_text}"
+                    problem_str = f"{num_rows} {num_cols}\n{cols_text}\n{rows_text}\n{problem_text}\n{areas_text}"
+                    solution_str = f"{num_rows} {num_cols}\n{solution_text}"
                     
                     puzzles_ret['puzzles'][pzl_name] = {
                         "id": pzl_name, 

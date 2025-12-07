@@ -14,6 +14,8 @@ from NorinoriSolver import NorinoriSolver
 from KakurasuSolver import KakurasuSolver
 from FuzuliSolver import FuzuliSolver
 from TilePaintSolver import TilePaintSolver
+from MunraitoSolver import MunraitoSolver
+from ThermometerSolver import ThermometerSolver
 from SudokuSolver import SudokuSolver
 from ButterflySudokuSolver import ButterflySudokuSolver
 from Clueless1SudokuSolver import Clueless1SudokuSolver
@@ -26,6 +28,8 @@ from SoheiSudokuSolver import SoheiSudokuSolver
 from SumoSudokuSolver import SumoSudokuSolver
 from WindmillSudokuSolver import WindmillSudokuSolver
 from KillerSudokuSolver import KillerSudokuSolver
+from JigsawSudokuSolver import JigsawSudokuSolver
+
 
 from typing import Dict, Any
 
@@ -62,7 +66,10 @@ class SolverFactory:
         "SoheiSudoku": SoheiSudokuSolver,
         "SumoSudoku": SumoSudokuSolver,
         "WindmillSudoku": WindmillSudokuSolver,
-        "KillerSudoku": KillerSudokuSolver
+        "KillerSudoku": KillerSudokuSolver,
+        "JigsawSudoku": JigsawSudokuSolver,
+        "Munraito": MunraitoSolver,
+        "Thermometer": ThermometerSolver
     }
     
     @classmethod

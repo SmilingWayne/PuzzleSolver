@@ -34,7 +34,10 @@ if __name__ == "__main__":
         "Kakurasu",
         "Fuzuli",
         "TilePaint",
-        "KillerSudoku"
+        "KillerSudoku", # Note: some 6x6 is ambigous,
+        "JigsawSudoku",  # Note: some has diagnonal constr
+        "Munraito",
+        "Thermometer"
         
     ]
     
@@ -84,6 +87,7 @@ if __name__ == "__main__":
             else:
                 if not verifier.verify(solution_dict, sol_dict):
                     print(f"Wrong! {pz_name} {puzzle_id},")
+                    print(solution_dict['grid'])
 
                 record.append(solution_dict)
                 print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'] )

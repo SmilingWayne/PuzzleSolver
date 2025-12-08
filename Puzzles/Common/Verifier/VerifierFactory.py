@@ -16,6 +16,10 @@ from Common.Verifier.PuzzleVerifiers.FuzuliVerifier import FuzuliVerifier
 from Common.Verifier.PuzzleVerifiers.TilePaintVerifier import TilePaintVerifier
 from Common.Verifier.PuzzleVerifiers.MunraitoVerifier import MunraitoVerifier
 from Common.Verifier.PuzzleVerifiers.ThermometerVerifier import ThermometerVerifier
+from Common.Verifier.PuzzleVerifiers.Str8tVerifier import Str8tVerifier
+from Common.Verifier.PuzzleVerifiers.StarbattleVerifier import StarbattleVerifier
+from Common.Verifier.PuzzleVerifiers.SquareOVerifier import SquareOVerifier
+from Common.Verifier.PuzzleVerifiers.RenbanVerifier import RenbanVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -52,7 +56,12 @@ class VerifierFactory:
         "KillerSudoku": SudokuVerifier,
         "JigsawSudoku": SudokuVerifier,
         "Munraito": MunraitoVerifier,
-        "Thermometer": ThermometerVerifier
+        "Thermometer": ThermometerVerifier,
+        "Str8t": Str8tVerifier,
+        "Starbattle": StarbattleVerifier,
+        "SquareO": SquareOVerifier,
+        "Renban": RenbanVerifier
+        
     }
     
     @classmethod

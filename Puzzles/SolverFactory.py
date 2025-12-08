@@ -29,6 +29,10 @@ from SumoSudokuSolver import SumoSudokuSolver
 from WindmillSudokuSolver import WindmillSudokuSolver
 from KillerSudokuSolver import KillerSudokuSolver
 from JigsawSudokuSolver import JigsawSudokuSolver
+from Str8tSolver import Str8tSolver
+from StarbattleSolver import StarbattleSolver
+from SquareOSolver import SquareOSolver
+from RenbanSolver import RenbanSolver
 
 
 from typing import Dict, Any
@@ -69,7 +73,11 @@ class SolverFactory:
         "KillerSudoku": KillerSudokuSolver,
         "JigsawSudoku": JigsawSudokuSolver,
         "Munraito": MunraitoSolver,
-        "Thermometer": ThermometerSolver
+        "Thermometer": ThermometerSolver,
+        "Str8t": Str8tSolver,
+        "Starbattle": StarbattleSolver,
+        "SquareO": SquareOSolver,
+        "Renban": RenbanSolver
     }
     
     @classmethod

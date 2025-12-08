@@ -37,8 +37,11 @@ if __name__ == "__main__":
         "KillerSudoku", # Note: some 6x6 is ambigous,
         "JigsawSudoku",  # Note: some has diagnonal constr
         "Munraito",
-        "Thermometer"
-        
+        "Thermometer",
+        "Str8t",
+        "Starbattle",
+        "SquareO",
+        "Renban"
     ]
     
     record = []
@@ -83,6 +86,7 @@ if __name__ == "__main__":
             #     # If puzzle is loaded and solved successfully:
             #     # TODO: check solutions via rule_based
                 print(f"Load and solve puzzle but fail to load {pz_name} solutions, ID: {puzzle_id}")
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'])
             #     continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):

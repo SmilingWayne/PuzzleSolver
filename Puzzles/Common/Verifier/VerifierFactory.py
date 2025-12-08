@@ -20,6 +20,8 @@ from Common.Verifier.PuzzleVerifiers.Str8tVerifier import Str8tVerifier
 from Common.Verifier.PuzzleVerifiers.StarbattleVerifier import StarbattleVerifier
 from Common.Verifier.PuzzleVerifiers.SquareOVerifier import SquareOVerifier
 from Common.Verifier.PuzzleVerifiers.RenbanVerifier import RenbanVerifier
+from Common.Verifier.PuzzleVerifiers.KakuroVerifier import KakuroVerifier
+from Common.Verifier.PuzzleVerifiers.NondangoVerifier import NondangoVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -60,7 +62,9 @@ class VerifierFactory:
         "Str8t": Str8tVerifier,
         "Starbattle": StarbattleVerifier,
         "SquareO": SquareOVerifier,
-        "Renban": RenbanVerifier
+        "Renban": RenbanVerifier,
+        "Kakuro": KakuroVerifier,
+        "Nondango": NondangoVerifier
         
     }
     

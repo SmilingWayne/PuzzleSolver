@@ -9,7 +9,7 @@ from typing import Any
 import random
 import json
 
-class KakuroCrawler(GridCrawler):
+class ABCEndViewCrawler(GridCrawler):
     def __init__(self, data : dict[str, Any]):
         self._data = data 
         self.puzzle_name = self._data['puzzle_name'] 
@@ -91,20 +91,26 @@ class KakuroCrawler(GridCrawler):
         
         all_pzls = sv_puzzles + non_sv_puzzles
         if len(all_pzls) > 0:
-            for dic in all_pzls:
+            for dic in all_pzls[:1]:
                 try:
                     type_ = dic['type']
                     href_ = dic['href']
                     text_ = dic['text']
                     
                     if type_ == "class_sv":
+                        
+                        clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
+                        rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])"
                         # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
                     elif type_ == "no_class_sv":
+                        rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])"
+                        clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[problem\])"
                         # problem_pattern = r"(?<=\[problem\]\n)(.*?)(?=\[solution\])"
                         solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
                     else:
                         continue
+
                     
                     target_url = f"{self.root_url}{href_}"
 
@@ -114,18 +120,29 @@ class KakuroCrawler(GridCrawler):
                     page_source = response.text
 
                     # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
-                    solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
+                    solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip().lower()
 
+                    cols_text = re.search(clabels, page_source, re.DOTALL).group().strip()
+                    rows_text = re.search(rlabels, page_source, re.DOTALL).group().strip()
+                    
+                    
                     rows = solution_text.split("\n")
                     matrix = [row.split() for row in rows]
 
                     num_rows = len(matrix)
                     num_cols = len(matrix[0]) if num_rows > 0 else 0
-                    
-                    problem_text = self.reconstruct_puzzle(matrix)
+                    problem_text = [["-" for _ in range(int(num_cols))] for _ in range(num_rows)]
+                    alphabet = "abcdefghijklmnopqrstuvwxyz"
+                    end_char = 'a'
+                    for c in alphabet[: num_rows]:
+                        if c not in rows_text:
+                            break
+                        else:
+                            end_char = c
+                        
                     pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols}\n{problem_text}"
-                    solution_str = f"{num_rows} {num_cols}\n{solution_text}"
+                    problem_str = f"{num_rows} {num_cols} {end_char}\n{cols_text}\n{rows_text}\n{problem_text}"
+                    solution_str = f"{num_rows} {num_cols} {end_char}\n{solution_text}"
                     
                     puzzles_ret['puzzles'][pzl_name] = {
                         "id": pzl_name, 
@@ -173,42 +190,3 @@ class KakuroCrawler(GridCrawler):
             print(e)
         return 
 
-    def reconstruct_puzzle(self, matrix):
-        rows, cols = len(matrix), len(matrix[0])
-        new_mat = [["-"] * cols for _ in range(rows)]
-        for i in range(rows):
-            for j in range(cols):
-                if matrix[i][j] == "-":
-                    right, below = 0, 0
-                    if i + 1 < rows and matrix[i + 1][j] != "-":
-                        k = i + 1
-                        while k < rows:
-                            if matrix[k][j] != '-':
-                                below += int(matrix[k][j])
-                                k += 1
-                            else:
-                                break
-                            
-                    if j + 1 < cols and matrix[i][j + 1] != "-":
-                        k = j + 1
-                        while k < cols:
-                            if matrix[i][k] != '-':
-                                right += int(matrix[i][k])
-                                k += 1
-                            else:
-                                break
-                            
-                            
-                    if right > 0 and below > 0:
-                        new_mat[i][j] = f"{below},{right}"
-                    elif right > 0:
-                        new_mat[i][j] = f",{right}"
-                    elif below > 0:
-                        new_mat[i][j] = f"{below},"
-                    else:
-                        new_mat[i][j] = "-"
-                    
-                if matrix[i][j] in "123456789":
-                    new_mat[i][j] = "0"
-        
-        return "\n".join([" ".join(row) for row in new_mat])

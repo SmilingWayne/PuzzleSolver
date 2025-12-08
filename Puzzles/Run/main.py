@@ -41,7 +41,9 @@ if __name__ == "__main__":
         "Str8t",
         "Starbattle",
         "SquareO",
-        "Renban"
+        "Renban",
+        "Kakuro",
+        "Nondango"
     ]
     
     record = []

@@ -33,6 +33,8 @@ from Str8tSolver import Str8tSolver
 from StarbattleSolver import StarbattleSolver
 from SquareOSolver import SquareOSolver
 from RenbanSolver import RenbanSolver
+from KakuroSolver import KakuroSolver
+from NondangoSolver import NondangoSolver
 
 
 from typing import Dict, Any
@@ -77,7 +79,10 @@ class SolverFactory:
         "Str8t": Str8tSolver,
         "Starbattle": StarbattleSolver,
         "SquareO": SquareOSolver,
-        "Renban": RenbanSolver
+        "Renban": RenbanSolver,
+        "Kakuro": KakuroSolver,
+        "Nondango": NondangoSolver
+
     }
     
     @classmethod

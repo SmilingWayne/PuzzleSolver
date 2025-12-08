@@ -33,6 +33,8 @@ from Common.Parser.PuzzleParsers.Str8tParser import Str8tParser
 from Common.Parser.PuzzleParsers.StarbattleParser import StarbattleParser
 from Common.Parser.PuzzleParsers.SquareOParser import SquareOParser
 from Common.Parser.PuzzleParsers.RenbanParser import RenbanParser
+from Common.Parser.PuzzleParsers.KakuroParser import KakuroParser
+from Common.Parser.PuzzleParsers.NondangoParser import NondangoParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -73,7 +75,10 @@ class ParserFactory:
         "Str8t": Str8tParser,
         "Starbattle": StarbattleParser,
         "SquareO": SquareOParser,
-        "Renban": RenbanParser
+        "Renban": RenbanParser,
+        "Kakuro": KakuroParser,
+        "Nondango": NondangoParser
+        
     }
     
     @classmethod

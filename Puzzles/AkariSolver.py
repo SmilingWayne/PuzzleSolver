@@ -134,31 +134,3 @@ class AkariSolver(PuzzleSolver):
                     sol_grid[i][j] = self.grid.value(i, j)
             
         return Grid(sol_grid)
-    
-    # TODO: Compare result and check if same
-
-# if __name__ == "__main__":
-#     data = {
-#         "num_rows": 14,
-#         "num_cols": 24,
-#         "grid": [
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- x - 1 - x - - - - 0 - - x - - - - x - x - 1 -".split(" "),
-#             "- - x - - x - 0 x - x - - x - 2 1 - x - - x - -".split(" "),
-#             "- 0 - x - x - - - - 0 - - x - - - - x - x - x -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- 1 x x - - - - 1 - - - - x - - - - 2 - x x x -".split(" "),
-#             "- - - - - - - x - - - - 2 - - - - 3 - - - - - -".split(" "),
-#             "- - - - - - x - - - - 1 - - - - x - - - - - - -".split(" "),
-#             "- 0 1 0 - x - - - - x - - - - 1 - - - - x x x -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- x - x - 0 - - - - x - - x - - - - x - 1 - x -".split(" "),
-#             "- - 2 - - x - 1 1 - 1 - - 1 - 2 x - x - - x - -".split(" "),
-#             "- 1 - x - 0 - - - - x - - x - - - - x - x - 1 -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#         ]
-#     }
-    
-#     akari_solver = AkariSolver(data)
-#     solution_dict = akari_solver.solve()
-#     print(solution_dict)

@@ -17,12 +17,12 @@ if __name__ == "__main__":
     }
     
     # # Used for ununified puzzles
-    # target = "ABCEndView"
-    # data = {
-    #     "puzzle_name": f"{target}",
-    #     "index_url": f"https://www.janko.at/Raetsel/Abc-End-View/index.htm",
-    #     "root_url": f"https://www.janko.at/Raetsel/Abc-End-View/"
-    # }
+    target = "ABCEndView"
+    data = {
+        "puzzle_name": f"{target}",
+        "index_url": f"https://www.janko.at/Raetsel/Abc-End-View/index.htm",
+        "root_url": f"https://www.janko.at/Raetsel/Abc-End-View/"
+    }
     # data = {
     #     "puzzle_name": f"{target}",
     #     "index_url": f"https://www.janko.at/Raetsel/Eins-bis-X/index.htm",

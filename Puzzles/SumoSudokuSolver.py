@@ -4,8 +4,6 @@ from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
 
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
-
 import copy
 import math
 
@@ -78,10 +76,6 @@ class SumoSudokuSolver(PuzzleSolver):
                     ]
                     self.model.AddAllDifferent(cell)
 
-            
-    
-    
-    
     
     def get_solution(self):
         sol_grid = copy.deepcopy(self.grid.matrix)

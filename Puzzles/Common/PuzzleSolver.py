@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from ortools.sat.python import cp_model as cp
 from Common.Board.Grid import Grid
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
+from Common.Utils.ortools_utils import ortools_cpsat_analytics
 import time
 
 class PuzzleSolver(ABC):

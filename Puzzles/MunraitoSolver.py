@@ -3,7 +3,7 @@ from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
+# from Puzzles.Common.Utils.ortools_utils import ortools_cpsat_analytics
 import copy
 
 class MunraitoSolver(PuzzleSolver):
@@ -189,29 +189,29 @@ class MunraitoSolver(PuzzleSolver):
             else:
                 self.model.Add(beam_from_right == 0)
 
-    def solve(self) -> Dict[str, Any]:
-        self._add_constr()
-        status = self.solver.Solve(self.model)
+    # def solve(self) -> Dict[str, Any]:
+    #     self._add_constr()
+    #     status = self.solver.Solve(self.model)
         
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
+    #     solution_status = {
+    #         cp.OPTIMAL: "Optimal",
+    #         cp.FEASIBLE: "Feasible",
+    #         cp.INFEASIBLE: "Infeasible",
+    #         cp.MODEL_INVALID: "Invalid Model",
+    #         cp.UNKNOWN: "Unknown"
+    #     }
         
-        # 使用 Common.Utils.ortools_analytics 获取统计信息
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status.get(status, "Unknown")
+    #     # 使用 Common.Utils.ortools_analytics 获取统计信息
+    #     solution_dict = ortools_cpsat_analytics(self.model, self.solver)
+    #     solution_dict['status'] = solution_status.get(status, "Unknown")
         
-        solution_grid = Grid.empty() # Or keep None if no solution
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
+    #     solution_grid = Grid.empty() # Or keep None if no solution
+    #     if status in [cp.OPTIMAL, cp.FEASIBLE]:
+    #         solution_grid = self.get_solution()
             
-        solution_dict['grid'] = solution_grid
+    #     solution_dict['grid'] = solution_grid
         
-        return solution_dict
+    #     return solution_dict
     
     def get_solution(self) -> Grid:
         # 深拷贝当前 Grid 架构作为模板

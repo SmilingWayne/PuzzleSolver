@@ -3,7 +3,6 @@ from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.RegionsGrid import RegionsGrid
 from ortools.sat.python import cp_model as cp
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
 import copy
 
 class StarbattleSolver(PuzzleSolver):
@@ -77,29 +76,6 @@ class StarbattleSolver(PuzzleSolver):
                     ni, nj = i + di, j + dj
                     if 0 <= ni < self.num_rows and 0 <= nj < self.num_cols:
                         self.model.Add(self.x[i, j] + self.x[ni, nj] <= 1)
-
-    def solve(self):
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        
-        solution_grid = Grid.empty()
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-        
-        solution_dict['grid'] = solution_grid
-        return solution_dict
 
     def get_solution(self):
         # Create a blank grid for the solution

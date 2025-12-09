@@ -3,7 +3,6 @@ from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
 import copy
 
 class ThermometerSolver(PuzzleSolver):
@@ -102,28 +101,6 @@ class ThermometerSolver(PuzzleSolver):
                 # 如果 Next=1 (黑), Curr 必须=1
                 # 如果 Curr=0 (白), Next 必须=0
                 self.model.Add(self.x[r_curr, c_curr] >= self.x[r_next, c_next])
-
-    def solve(self) -> Dict[str, Any]:
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status.get(status, "Unknown")
-        
-        solution_grid = Grid.empty()
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-            
-        solution_dict['grid'] = solution_grid
-        return solution_dict
     
     def get_solution(self) -> Grid:
         # 创建一个新的网格来存储解（通常用 x 和 - 表示黑白）

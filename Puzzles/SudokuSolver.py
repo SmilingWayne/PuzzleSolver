@@ -24,8 +24,7 @@ class SudokuSolver(PuzzleSolver):
             raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
         if self.grid.num_cols != self.num_cols:
             raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
-        # if self.num_rows < 7 or self.num_cols < 7:
-        #     raise ValueError(f"Akari grid must be at least 7x7, got {self.num_rows}x{self.num_cols} instead.")
+        
         
         allowed_chars = {'-', 'x'}
 
@@ -69,30 +68,7 @@ class SudokuSolver(PuzzleSolver):
                 self.model.AddAllDifferent(cell)
             
     
-    def solve(self):
-        # TODO: 
-        # 2. What happen if running time exceed
-        
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        solution_grid = Grid.empty()
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
+    
     
     def get_solution(self):
         sol_grid = copy.deepcopy(self.grid.matrix)

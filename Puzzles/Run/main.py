@@ -96,4 +96,4 @@ if __name__ == "__main__":
                     print(solution_dict['grid'])
 
                 record.append(solution_dict)
-                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'] )
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], round(solution_dict['cpu_time'], 4), round(solution_dict['build_time'], 4) )

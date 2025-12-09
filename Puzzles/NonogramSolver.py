@@ -5,6 +5,7 @@ from Common.Board.Position import Position
 from Common.Utils.z3_analytics import z3_solver_analytics
 import z3
 import copy
+import time
 
 class NonogramSolver(PuzzleSolver):
     def __init__(self, data: dict[str, Any]):
@@ -161,7 +162,10 @@ class NonogramSolver(PuzzleSolver):
                 self.solver.add(z3.Or(is_empty, is_taken))
 
     def solve(self):
+        tic = time.perf_counter() 
         self._add_constr()
+        toc = time.perf_counter()
+        build_time = toc - tic
         num_vars = len(self._z3_vars)
         num_constrs = len(self.solver.assertions()) # 顶层约束数量
         status = self.solver.check()
@@ -184,6 +188,7 @@ class NonogramSolver(PuzzleSolver):
             "num_int_vars": num_vars, # 本算法全是用 Int 建模
             "num_bool_vars": 0,       # 没有显式创建 Bool 决策变量
             "num_constrs": num_constrs,
+            "build_time": build_time,
             # 展开 z3_solver_analytics 的结果
             **z3_analytics 
         }

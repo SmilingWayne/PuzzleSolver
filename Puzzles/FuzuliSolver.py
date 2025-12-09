@@ -126,27 +126,7 @@ class FuzuliSolver(PuzzleSolver):
                 # Sum of indicators for value v in col c must be exactly 1
                 self.model.Add(sum(self.b_val[r, c, v] for r in range(self.num_rows)) == 1)
     
-    def solve(self):
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        solution_grid = Grid.empty()
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
 
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
     
     def get_solution(self):
         """Extract the solution from the solver.
@@ -167,30 +147,7 @@ class FuzuliSolver(PuzzleSolver):
         return Grid(sol_grid)
     
     
-    def solve(self):
-        # TODO: 
-        # 2. What happen if running time exceed
-        
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        solution_grid = Grid.empty()
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
+    
     
     def get_solution(self):
         """Extract the solution from the solver.

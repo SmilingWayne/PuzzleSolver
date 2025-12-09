@@ -45,30 +45,6 @@ class SquareOSolver(PuzzleSolver):
                         self.x[i + 1, j + 1]  # Bottom-Right
                     ]
                     self.model.Add(sum(corners) == target_sum)
-
-    def solve(self):
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        
-        solution_grid = Grid.empty()
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
     
     def get_solution(self):
         # Result is an R x C grid where each cell contains the decimal value

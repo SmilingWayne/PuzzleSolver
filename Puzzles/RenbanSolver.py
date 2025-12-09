@@ -85,29 +85,6 @@ class RenbanSolver(PuzzleSolver):
                 self.model.AddMaxEquality(max_v, region_vars)
                 
                 self.model.Add(max_v - min_v == count - 1)
-
-    def solve(self):
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        
-        solution_grid = Grid.empty()
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        return solution_dict
     
     def get_solution(self):
         sol_matrix = [[0 for _ in range(self.num_cols)] for _ in range(self.num_rows)]

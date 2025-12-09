@@ -4,8 +4,6 @@ from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
 
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
-
 import copy
 
 class TennerGridSolver(PuzzleSolver):
@@ -65,9 +63,6 @@ class TennerGridSolver(PuzzleSolver):
     def _add_sum_constr(self):
         for j in range(self.num_cols):
             self.model.Add(sum(self.x[i, j] for i in range(self.num_rows - 1)) == int(self.grid[self.num_rows - 1][j]))
-        
-        
-        
     
 
     def get_solution(self):

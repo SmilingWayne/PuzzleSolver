@@ -39,11 +39,11 @@ if __name__ == "__main__":
         "Munraito",
         "Thermometer",
         "Str8t",
-        "Starbattle",
-        "SquareO",
-        "Renban",
-        "Kakuro",
-        "Nondango"
+        # "Starbattle",
+        # "SquareO",
+        # "Renban",
+        # "Kakuro",
+        # "Nondango"
     ]
     
     record = []

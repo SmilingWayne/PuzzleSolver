@@ -22,6 +22,9 @@ from Common.Verifier.PuzzleVerifiers.SquareOVerifier import SquareOVerifier
 from Common.Verifier.PuzzleVerifiers.RenbanVerifier import RenbanVerifier
 from Common.Verifier.PuzzleVerifiers.KakuroVerifier import KakuroVerifier
 from Common.Verifier.PuzzleVerifiers.NondangoVerifier import NondangoVerifier
+from Common.Verifier.PuzzleVerifiers.SimpleloopVerifier import SimpleloopVerifier
+from Common.Verifier.PuzzleVerifiers.LinesweeperVerifier import LinesweeperVerifier
+from Common.Verifier.PuzzleVerifiers.SlitherlinkVerifier import SlitherlinkVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -64,7 +67,10 @@ class VerifierFactory:
         "SquareO": SquareOVerifier,
         "Renban": RenbanVerifier,
         "Kakuro": KakuroVerifier,
-        "Nondango": NondangoVerifier
+        "Nondango": NondangoVerifier,
+        "Simpleloop": SimpleloopVerifier,
+        "Linesweeper": LinesweeperVerifier,
+        "Slitherlink": SlitherlinkVerifier
         
     }
     

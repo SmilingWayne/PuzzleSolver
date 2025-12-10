@@ -31,6 +31,7 @@ from MunraitoCrawler import MunraitoCrawler
 from ABCEndViewCrawler import ABCEndViewCrawler
 from OneToXCrawler import OneToXCrawler
 from KakuroCrawler import KakuroCrawler
+from LinesweeperCrawler import LinesweeperCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -69,7 +70,8 @@ class CrawlerFactory:
         "Munraito": MunraitoCrawler,
         "ABCEndView": ABCEndViewCrawler,
         "OneToX": OneToXCrawler,
-        "Kakuro": KakuroCrawler
+        "Kakuro": KakuroCrawler,
+        "Linesweeper": LinesweeperCrawler
         
     }
     

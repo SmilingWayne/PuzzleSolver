@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Callable
 from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
@@ -25,61 +25,108 @@ class SimpleloopSolver(PuzzleSolver):
         
         allowed_chars = {'-', 'x'}
 
-        for pos, cell in self.grid:
-            if cell not in allowed_chars:
-                raise ValueError(f"Invalid character '{cell}' at position {pos}")
+        for pos, node in self.grid:
+            if node not in allowed_chars:
+                raise ValueError(f"Invalid character '{node}' at position {pos}")
 
     def _parse_grid(self):
         pass
-        
+    
     def _add_constr(self):
-        self.x = dict()
         self.model = cp.CpModel()
         self.solver = cp.CpSolver()
-        self.cell_active = dict() # If cell is activate
-        self.cell_edges = dict()
+        self.node_active = {} 
+        circuit_arcs = [] 
+        self.arc_vars = {} 
         
-        self._create_vars()
-        # for i in range(self.num_rows):
-        #     for j in range(self.num_cols):
-        #         self.x[i, j] = self.model.NewBoolVar(name = f"x[{i}, {j}]")
+        # 1. Create variables
+        for i in range(self.num_rows):
+            for j in range(self.num_cols):
+                pos = Position(i, j)
+                # If the node is activated
+                self.node_active[pos] = self.model.NewBoolVar(f"node_activate[{pos}]")
 
-    def _create_vars(self):
-        for i in range(self.num_rows):
-            for j in range(self.num_cols):
-                start = Position(i, j)
-                self.cell_active[start] = self.model.NewBoolVar(f'cell_activate[{start}]')
-                for terminal in self.grid.get_neighbors(start, mode = "orthogonal"):
-                    if (terminal, start, 1) in self.x:
-                        self.x[(start, terminal, 1)] = self.x[(terminal, start, 1)]
-                    else:
-                        self.x[(start, terminal, 1)] = self.model.NewBoolVar(f"x[{start},{terminal},1]")
-    
-    def _add_edge_constr(self):
-        visited_cells = []
-        for i in range(self.num_rows):
-            for j in range(self.num_cols):
-                start = Position(i, j)
-                cell_edges = cp.LinearExpr.Sum([ self.x[start, terminal, 1] for terminal in self.grid.get_neighbors(start, mode = "orthogonal")])
-                # xp.Sum([self.cell_direction[(pos, direction)] for direction in Direction])
-                self.model.Add(cell_edges == 2).OnlyEnforceIf(self.cell_active[start])
-                self.model.Add(cell_edges == 0).OnlyEnforceIf(self.cell_active[start].Not())
-                if self.grid.value(i, j) == "x":
-                    self.model.Add(self.cell_active[start] == 0)
+                # Preset node status
+                char = self.grid.value(i, j)
+                if char == 'x':
+                    self.model.Add(self.node_active[pos] == 0)
                 else:
-                    visited_cells.append(start)
-        self.model.Add(sum([self.cell_active[pos] for pos in visited_cells]) == len(visited_cells))
-        # All cells without numbers must be visited.
-        # How to guarantee connection?
-        
-    
+                     self.model.Add(self.node_active[pos] == 1)
+                    #  default: all else nodes must be visited
+
+                # if not activated, self-loop must be selected
+                # elif node activated，must flow to one of its neighbors
+                circuit_arcs.append([
+                    self.grid.get_index_from_position(pos),      # u
+                    self.grid.get_index_from_position(pos),      # v (u=v)
+                    self.node_active[pos].Not()  # literal
+                ])
+
+        for i in range(self.num_rows):
+            for j in range(self.num_cols):
+                u_pos = Position(i, j)
+                u_idx = self.grid.get_index_from_position(u_pos)
+                
+                for neighbor in self.grid.get_neighbors(u_pos, mode="orthogonal"):
+                    v_pos = neighbor
+                    v_idx = self.grid.get_index_from_position(v_pos)
+                    # directed arc: u -> v
+                    arc_u_v = self.model.NewBoolVar(f"arc_{u_pos}_{v_pos}")
+                    self.arc_vars[(u_pos, v_pos)] = arc_u_v
+                    circuit_arcs.append([u_idx, v_idx, arc_u_v])
+                    # If arc (u,v) is selected, both u and v must be activated.
+                    self.model.Add(self.node_active[u_pos] == 1).OnlyEnforceIf(arc_u_v)
+                    self.model.Add(self.node_active[v_pos] == 1).OnlyEnforceIf(arc_u_v)
+
+        self.model.AddCircuit(circuit_arcs)
+        # def AddCircuit(self, arcs):
+        #     Adds a circuit constraint from a sparse list of arcs that encode the graph.
+        #     A circuit is a unique Hamiltonian path in a subgraph of the total
+        #     graph. In case a node 'i' is not in the path, then there must be a
+        #     loop arc 'i -> i' associated with a true literal. Otherwise
+        #     this constraint will fail.
+        #     Args:
+        #     arcs: a list of arcs. An arc is a tuple (source_node, destination_node,
+        #         literal). The arc is selected in the circuit if the literal is true.
+        #         Both source_node and destination_node must be integers between 0 and the
+        #         number of nodes - 1.
+        #     Returns:
+        #     An instance of the `Constraint` class.
+
     def get_solution(self):
-        sol_grid = copy.deepcopy(self.grid.matrix)
+        sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
+        
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                if self.solver.Value(self.x[i, j]) > 1e-3:
-                    sol_grid[i][j] = "o"
-                else:
-                    sol_grid[i][j] = self.grid.value(i, j)
+                curr = Position(i, j)
+                # If the node is not activated (self-looped), skip and remain '-'
+                if self.solver.Value(self.node_active[curr]) == 0:
+                    continue
+                
+                neighbors = self.grid.get_neighbors(curr, "orthogonal")
+                chs = ""
+                for neighbor in neighbors:
+                    is_connected = False
+
+                    if (curr, neighbor) in self.arc_vars:
+                        if self.solver.Value(self.arc_vars[(curr, neighbor)]) == 1:
+                            is_connected = True
+                    if (neighbor, curr) in self.arc_vars:
+                        if self.solver.Value(self.arc_vars[(neighbor, curr)]) == 1:
+                            is_connected = True
+                    
+                    if is_connected:
+                        if neighbor == curr.up:
+                            chs += "n"
+                        elif neighbor == curr.down:
+                            chs += "s"
+                        elif neighbor == curr.left:
+                            chs += "w"
+                        elif neighbor == curr.right:
+                            chs += "e"
+                
+                if len(chs) > 0:
+                    sol_grid[i][j] = chs
             
         return Grid(sol_grid)
+    

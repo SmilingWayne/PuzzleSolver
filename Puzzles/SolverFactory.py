@@ -35,6 +35,9 @@ from SquareOSolver import SquareOSolver
 from RenbanSolver import RenbanSolver
 from KakuroSolver import KakuroSolver
 from NondangoSolver import NondangoSolver
+from SimpleloopSolver import SimpleloopSolver
+from LinesweeperSolver import LinesweeperSolver
+from SlitherlinkSolver import SlitherlinkSolver
 
 
 from typing import Dict, Any
@@ -81,7 +84,10 @@ class SolverFactory:
         "SquareO": SquareOSolver,
         "Renban": RenbanSolver,
         "Kakuro": KakuroSolver,
-        "Nondango": NondangoSolver
+        "Nondango": NondangoSolver,
+        "Simpleloop": SimpleloopSolver,
+        "Linesweeper": LinesweeperSolver,
+        "Slitherlink": SlitherlinkSolver
 
     }
     

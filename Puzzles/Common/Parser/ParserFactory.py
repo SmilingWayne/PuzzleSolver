@@ -35,6 +35,9 @@ from Common.Parser.PuzzleParsers.SquareOParser import SquareOParser
 from Common.Parser.PuzzleParsers.RenbanParser import RenbanParser
 from Common.Parser.PuzzleParsers.KakuroParser import KakuroParser
 from Common.Parser.PuzzleParsers.NondangoParser import NondangoParser
+from Common.Parser.PuzzleParsers.SimpleloopParser import SimpleloopParser
+from Common.Parser.PuzzleParsers.LinesweeperParser import LinesweeperParser
+from Common.Parser.PuzzleParsers.SlitherlinkParser import SlitherlinkParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -56,7 +59,6 @@ class ParserFactory:
         "Kakurasu": KakurasuParser,
         "Fuzuli": FuzuliParser,
         "TilePaint": TilePaintParser,
-        # Sudoku (variants)
         "Sudoku": SudokuParser,
         "ButterflySudoku": ButterflySudokuParser, 
         "Clueless1Sudoku": Clueless1SudokuParser,
@@ -77,7 +79,11 @@ class ParserFactory:
         "SquareO": SquareOParser,
         "Renban": RenbanParser,
         "Kakuro": KakuroParser,
-        "Nondango": NondangoParser
+        "Nondango": NondangoParser,
+        "Simpleloop": SimpleloopParser,
+        "Linesweeper": LinesweeperParser,
+        "Slitherlink": SlitherlinkParser
+        
         
     }
     

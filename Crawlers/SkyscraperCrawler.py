@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
 from Core.core import BasePuzzleCrawler, PuzzleItem
-
+# TODO: Need to add numbers.
 class SkyscraperCrawler(BasePuzzleCrawler):
     
     def parse_index(self, html_content: str) -> List[Dict]:
@@ -69,12 +69,19 @@ class SkyscraperCrawler(BasePuzzleCrawler):
             rows_list = solution_raw.strip().split("\n")
             num_rows = len(rows_list)
             num_cols = len(rows_list[0].split()) if num_rows > 0 else 0
+            
+            # Determine max char for puzzle definition
+            end_char = '1'
+            for row in rows_list:
+                for char in row:
+                    if char.isdigit() and int(char) > int(end_char):
+                        end_char = char
             # Determine max char for puzzle definition
             
             # Create empty problem grid (Optional)
             empty_grid = "\n".join([" ".join(["-" for _ in range(num_cols)]) for _ in range(num_rows)])
             
-            header = f"{num_rows} {num_cols}"
+            header = f"{num_rows} {num_cols} {end_char}"
             problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{empty_grid}"
             solution_str = f"{header}\n{solution_raw}"
             

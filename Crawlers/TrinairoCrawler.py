@@ -1,3 +1,3 @@
 from YonmasuCrawler import YonmasuCrawler
 
-Clueless1SudokuCrawler = YonmasuCrawler
+TrinairoCrawler = YonmasuCrawler

@@ -32,6 +32,18 @@ from ABCEndViewCrawler import ABCEndViewCrawler
 from OneToXCrawler import OneToXCrawler
 from KakuroCrawler import KakuroCrawler
 from LinesweeperCrawler import LinesweeperCrawler
+from TairupeintoCrawler import TairupeintoCrawler
+from YonmasuCrawler import YonmasuCrawler
+from NumberCrossCrawler import NumberCrossCrawler
+from TrinairoCrawler import TrinairoCrawler
+from KuromasuCrawler import KuromasuCrawler
+from NumberSnakeCrawler import NumberSnakeCrawler
+from SkyscraperCrawler import SkyscraperCrawler
+from BurokkuCrawler import BurokkuCrawler
+from BosanowaCrawler import BosanowaCrawler
+from EuleroCrawler import EuleroCrawler
+from FobidoshiCrawler import FobidoshiCrawler
+from FoseruzuCrawler import FoseruzuCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -71,8 +83,18 @@ class CrawlerFactory:
         "ABCEndView": ABCEndViewCrawler,
         "OneToX": OneToXCrawler,
         "Kakuro": KakuroCrawler,
-        "Linesweeper": LinesweeperCrawler
-        
+        "Linesweeper": LinesweeperCrawler,
+        "Tairupeinto": TairupeintoCrawler, # A brand new start!!
+        "Yonmasu": YonmasuCrawler,
+        "NumberCross": NumberCrossCrawler,
+        "Trinairo": TrinairoCrawler,
+        "Kuromasu": KuromasuCrawler,
+        "NumberSnake": NumberSnakeCrawler,
+        "Skyscraper": SkyscraperCrawler,
+        "Burokku": BurokkuCrawler,
+        "Bosanowa": BosanowaCrawler,
+        "Eulero": EuleroCrawler,
+        "Fobidoshi": FobidoshiCrawler
     }
     
     @classmethod

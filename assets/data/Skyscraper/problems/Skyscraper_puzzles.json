@@ -1,0 +1,2355 @@
+{
+  "count": 470,
+  "puzzles": {
+    "01_5x5": {
+      "id": "01_5x5",
+      "problem": "5 5\n- 3 3 - -\n- 2 2 2 1\n1 4 3 2 -\n3 2 3 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/001.a.htm"
+    },
+    "02_5x5": {
+      "id": "02_5x5",
+      "problem": "5 5\n1 3 2 2 3\n3 2 2 1 2\n1 3 3 2 3\n3 2 1 3 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/002.a.htm"
+    },
+    "03_6x6": {
+      "id": "03_6x6",
+      "problem": "6 6\n4 1 2 2 3 2\n1 3 5 2 4 2\n2 3 3 4 2 1\n2 4 2 3 1 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/003.a.htm"
+    },
+    "04_7x7": {
+      "id": "04_7x7",
+      "problem": "7 7\n4 3 1 3 3 3 2\n2 2 3 5 3 1 4\n2 3 2 2 5 1 3\n2 1 3 6 3 3 2\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/004.a.htm"
+    },
+    "05_4x4": {
+      "id": "05_4x4",
+      "problem": "4 4\n- - - -\n- - - -\n1 2 3 -\n- - - -\n[problem]\n- - - -\n- - - -\n- - - -\n1 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/005.a.htm"
+    },
+    "06_4x4": {
+      "id": "06_4x4",
+      "problem": "4 4\n- - - -\n- - - -\n1 2 3 -\n- - - -\n[problem]\n- - - -\n- - - -\n- - - -\n2 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/006.a.htm"
+    },
+    "07_4x4": {
+      "id": "07_4x4",
+      "problem": "4 4\n- - - -\n- - - -\n1 2 - -\n- - - -\n[problem]\n- - - -\n- - - -\n- - - -\n3 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/007.a.htm"
+    },
+    "08_4x4": {
+      "id": "08_4x4",
+      "problem": "4 4\n- - - -\n- - - -\n3 - 3 -\n2 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/008.a.htm"
+    },
+    "09_4x4": {
+      "id": "09_4x4",
+      "problem": "4 4\n- - - -\n- - - 4\n- - - -\n- - - 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/009.a.htm"
+    },
+    "10_7x7": {
+      "id": "10_7x7",
+      "problem": "7 7\n- - - - 1 - -\n- - 5 - - - 4\n- 7 - - 6 - -\n2 - - - - - 3\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/010.a.htm"
+    },
+    "11_7x7": {
+      "id": "11_7x7",
+      "problem": "7 7\n2 3 - 4 - 5 -\n- 3 4 3 3 - -\n- 4 4 - - 4 1\n2 3 - 2 4 - -\n[problem]\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - 1 - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/011.a.htm"
+    },
+    "12_7x7": {
+      "id": "12_7x7",
+      "problem": "7 7\n1 2 - - - 2 -\n2 - 3 3 - - -\n- - - 7 4 2 -\n- 3 - - 3 6 -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/012.a.htm"
+    },
+    "13_7x7": {
+      "id": "13_7x7",
+      "problem": "7 7\n- - - - - - -\n- - - - - - -\n- - 5 7 - - 6\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/013.a.htm"
+    },
+    "14_7x7": {
+      "id": "14_7x7",
+      "problem": "7 7\n- 6 - - - - -\n- - - 5 - 6 -\n4 3 2 - - - -\n4 - - - - 7 2\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/014.a.htm"
+    },
+    "15_4x4": {
+      "id": "15_4x4",
+      "problem": "4 4\n2 2 1 2\n1 2 3 1\n2 2 3 1\n2 2 1 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/015.a.htm"
+    },
+    "16_6x6": {
+      "id": "16_6x6",
+      "problem": "6 6\n2 3 1 4 2 3\n2 2 2 1 4 2\n2 3 2 1 4 3\n2 2 2 4 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/016.a.htm"
+    },
+    "17_7x7": {
+      "id": "17_7x7",
+      "problem": "7 7\n2 1 2 3 3 1 2\n3 5 2 1 1 3 2\n2 1 3 3 2 3 3\n2 4 2 3 3 1 3\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/017.a.htm"
+    },
+    "18_5x5": {
+      "id": "18_5x5",
+      "problem": "5 5\n2 3 2 3 1\n3 1 2 1 3\n2 1 3 3 2\n1 3 2 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/018.a.htm"
+    },
+    "19_6x6": {
+      "id": "19_6x6",
+      "problem": "6 6\n3 1 1 2 1 3\n2 3 3 2 3 1\n2 2 2 2 1 2\n3 2 2 3 4 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/019.a.htm"
+    },
+    "20_7x7": {
+      "id": "20_7x7",
+      "problem": "7 7\n2 2 3 1 4 3 2\n4 1 3 5 1 3 2\n3 1 6 2 4 3 2\n3 4 1 3 2 3 2\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/020.a.htm"
+    },
+    "21_7x7": {
+      "id": "21_7x7",
+      "problem": "7 7\n2 1 5 2 3 3 2\n4 5 3 4 2 1 3\n2 5 1 4 2 5 6\n3 1 4 4 4 2 2\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/021.a.htm"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "problem": "8 8\n- - 4 5 4 2 - -\n4 5 - 4 3 - - 4\n5 - 2 3 4 - 6 5\n- 5 5 - 3 5 - 3\n[problem]\n- - - - - - - -\n- - - - - - - -\n- - - - 4 - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/022.a.htm"
+    },
+    "23_5x5": {
+      "id": "23_5x5",
+      "problem": "5 5\n- 3 2 1 -\n- - - - 1\n- 3 2 - 4\n1 2 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "problem": "8 8\n4 3 4 5 3 - 2 -\n- - 3 3 5 5 4 5\n5 2 5 5 3 4 2 -\n- 2 2 4 4 3 4 5\n[problem]\n- - - - - - - -\n- - - - - - - -\n- - 4 - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/024.a.htm"
+    },
+    "25_7x7": {
+      "id": "25_7x7",
+      "problem": "7 7\n- 3 - 4 2 4 -\n3 - 3 - 4 3 4\n- - 3 5 4 - -\n3 2 5 - - 5 4\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -\n- - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/025.a.htm"
+    },
+    "26_4x4": {
+      "id": "26_4x4",
+      "problem": "4 4\n4 - - -\n- 2 2 -\n- 2 2 1\n3 2 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/026.a.htm"
+    },
+    "27_4x4": {
+      "id": "27_4x4",
+      "problem": "4 4\n- - - -\n- 4 1 -\n- - - -\n3 4 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/027.a.htm"
+    },
+    "28_4x4": {
+      "id": "28_4x4",
+      "problem": "4 4\n- 3 2 -\n- - - -\n4 - 3 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/028.a.htm"
+    },
+    "29_4x4": {
+      "id": "29_4x4",
+      "problem": "4 4\n3 2 - 2\n- - - -\n3 2 - -\n- 2 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/029.a.htm"
+    },
+    "30_4x4": {
+      "id": "30_4x4",
+      "problem": "4 4\n- - 1 -\n- - 3 -\n3 - 3 1\n- 2 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/030.a.htm"
+    },
+    "31_5x5": {
+      "id": "31_5x5",
+      "problem": "5 5\n3 - 2 - 1\n- - - 1 4\n5 2 - 3 4\n1 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/031.a.htm"
+    },
+    "32_5x5": {
+      "id": "32_5x5",
+      "problem": "5 5\n- - 2 2 -\n1 - 2 4 3\n2 2 - - -\n3 - - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/032.a.htm"
+    },
+    "33_5x5": {
+      "id": "33_5x5",
+      "problem": "5 5\n- 2 - - -\n4 - 5 - -\n- - - - 2\n- 3 - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/033.a.htm"
+    },
+    "34_5x5": {
+      "id": "34_5x5",
+      "problem": "5 5\n5 2 - - 4\n- - - - -\n- - - - -\n2 - - 1 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/034.a.htm"
+    },
+    "35_5x5": {
+      "id": "35_5x5",
+      "problem": "5 5\n5 4 - - -\n- 2 - - -\n- - - 2 -\n- - 1 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/035.a.htm"
+    },
+    "36_5x5": {
+      "id": "36_5x5",
+      "problem": "5 5\n- 2 - - 2\n- - 3 - -\n2 2 - 1 2\n- 1 4 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/036.a.htm"
+    },
+    "37_5x5": {
+      "id": "37_5x5",
+      "problem": "5 5\n- 2 1 1 -\n- - - 4 -\n- 2 1 2 2\n- 3 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/037.a.htm"
+    },
+    "38_5x5": {
+      "id": "38_5x5",
+      "problem": "5 5\n- 2 - 1 3\n2 - 2 2 -\n4 - 1 3 -\n- - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/038.a.htm"
+    },
+    "39_5x5": {
+      "id": "39_5x5",
+      "problem": "5 5\n- - - - 1\n- 3 - 3 -\n- 2 - 2 1\n2 1 1 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/039.a.htm"
+    },
+    "40_5x5": {
+      "id": "40_5x5",
+      "problem": "5 5\n- 2 1 2 1\n1 - - 1 -\n3 3 - - -\n- 1 - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/040.a.htm"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "problem": "6 6\n2 3 2 2 1 3\n3 1 3 2 4 2\n5 1 3 2 4 2\n2 3 2 1 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/041.a.htm"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "problem": "6 6\n3 - - 2 2 -\n- - 2 2 - 4\n3 2 - - - -\n4 5 1 - - 5\n[problem]\n- - - - - -\n- - - - - -\n- 5 - - - -\n- - - - 6 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/042.a.htm"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "problem": "6 6\n- - - - 2 3\n- - - 4 - 1\n4 1 3 4 - -\n- 4 4 2 4 -\n[problem]\n- - - - - -\n- - - - - -\n- - - 3 - -\n- - - - - -\n- - 1 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/043.a.htm"
+    },
+    "44_6x6": {
+      "id": "44_6x6",
+      "problem": "6 6\n6 5 - 4 3 -\n- 2 - 2 - -\n- - 4 3 2 -\n- 1 2 - 3 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/044.a.htm"
+    },
+    "45_6x6": {
+      "id": "45_6x6",
+      "problem": "6 6\n4 4 - - 2 1\n- - - 2 3 -\n6 5 3 - 4 2\n1 - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/045.a.htm"
+    },
+    "46_6x6": {
+      "id": "46_6x6",
+      "problem": "6 6\n3 2 2 1 3 1\n2 2 2 3 1 4\n4 3 2 3 1 3\n1 2 3 2 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/046.a.htm"
+    },
+    "47_6x6": {
+      "id": "47_6x6",
+      "problem": "6 6\n4 3 2 1 3 3\n1 3 3 3 3 2\n4 3 2 2 4 1\n2 3 2 3 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/047.a.htm"
+    },
+    "48_6x6": {
+      "id": "48_6x6",
+      "problem": "6 6\n- - - 2 3 2\n- 2 3 3 - -\n2 - 2 5 4 -\n- - 2 - - 3\n[problem]\n- - - - - -\n- 3 - - - -\n- - - - - -\n- 1 - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/048.a.htm"
+    },
+    "49_6x6": {
+      "id": "49_6x6",
+      "problem": "6 6\n3 1 2 3 4 -\n2 3 - - - -\n2 2 - - - -\n5 - 4 - 6 -\n[problem]\n- - - - - -\n- - - - - -\n- - - 5 - -\n- - 1 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/049.a.htm"
+    },
+    "50_6x6": {
+      "id": "50_6x6",
+      "problem": "6 6\n- 2 - - 2 2\n5 - 1 - 4 -\n4 1 - - - 3\n2 - 2 3 - -\n[problem]\n- - - - - -\n- - 4 - - -\n- - - - - -\n- - - 3 - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/050.a.htm"
+    },
+    "51_4x4": {
+      "id": "51_4x4",
+      "problem": "4 4\n- - 3 -\n- 2 1 -\n3 2 - -\n- - 3 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/051.a.htm"
+    },
+    "52_5x5": {
+      "id": "52_5x5",
+      "problem": "5 5\n4 1 4 3 -\n1 2 1 - -\n- - - - -\n- 1 1 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/052.a.htm"
+    },
+    "53_4x4": {
+      "id": "53_4x4",
+      "problem": "4 4\n- - 1 2\n- 2 2 -\n- - - -\n- 3 3 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/053.a.htm"
+    },
+    "54_4x4": {
+      "id": "54_4x4",
+      "problem": "4 4\n- - - 3\n1 2 - 1\n- 2 - -\n1 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/054.a.htm"
+    },
+    "55_4x4": {
+      "id": "55_4x4",
+      "problem": "4 4\n3 - - 2\n1 - - -\n2 1 - -\n- 3 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/055.a.htm"
+    },
+    "56_5x5": {
+      "id": "56_5x5",
+      "problem": "5 5\n2 2 - 1 -\n- - - 2 2\n4 1 - - 3\n- - 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/056.a.htm"
+    },
+    "57_5x5": {
+      "id": "57_5x5",
+      "problem": "5 5\n4 3 2 - -\n1 - 3 3 -\n4 - - - -\n- 2 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/057.a.htm"
+    },
+    "58_5x5": {
+      "id": "58_5x5",
+      "problem": "5 5\n- 2 1 - -\n- 2 2 - 3\n- - 2 - -\n- 2 3 1 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/058.a.htm"
+    },
+    "59_5x5": {
+      "id": "59_5x5",
+      "problem": "5 5\n3 - - - 2\n1 - 3 - 3\n- - 2 - 1\n3 - 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/059.a.htm"
+    },
+    "60_5x5": {
+      "id": "60_5x5",
+      "problem": "5 5\n3 - - 1 -\n- 2 - 3 2\n4 - 2 3 1\n- 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/060.a.htm"
+    },
+    "61_5x5": {
+      "id": "61_5x5",
+      "problem": "5 5\n- - 3 3 1\n- 2 1 1 -\n3 2 - 2 -\n- - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/061.a.htm"
+    },
+    "62_5x5": {
+      "id": "62_5x5",
+      "problem": "5 5\n- 1 - - 2\n- 3 - 2 -\n- - 1 2 3\n1 - 3 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/062.a.htm"
+    },
+    "63_5x5": {
+      "id": "63_5x5",
+      "problem": "5 5\n- 1 1 - -\n- 3 - 1 -\n- 1 1 - -\n1 2 3 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/063.a.htm"
+    },
+    "64_5x5": {
+      "id": "64_5x5",
+      "problem": "5 5\n- 2 1 - -\n2 2 3 - 1\n3 - 2 3 -\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/064.a.htm"
+    },
+    "65_5x5": {
+      "id": "65_5x5",
+      "problem": "5 5\n3 1 - 1 -\n- - 2 - -\n2 - - - 1\n- 3 3 1 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/065.a.htm"
+    },
+    "66_6x6": {
+      "id": "66_6x6",
+      "problem": "6 6\n- - - 2 2 -\n- 2 - - - 1\n3 - - - 1 3\n4 2 3 5 5 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/066.a.htm"
+    },
+    "67_6x6": {
+      "id": "67_6x6",
+      "problem": "6 6\n4 - - - 2 -\n1 2 - 2 2 2\n6 - 5 4 2 -\n- - 2 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/067.a.htm"
+    },
+    "68_6x6": {
+      "id": "68_6x6",
+      "problem": "6 6\n- 1 2 3 - 2\n- 5 - - 1 3\n2 - 2 5 3 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/068.a.htm"
+    },
+    "69_6x6": {
+      "id": "69_6x6",
+      "problem": "6 6\n4 - - 4 3 5\n- 3 3 2 3 -\n- - - - 2 -\n- 3 2 - - 1\n[problem]\n- - - - - -\n- - - - - -\n- - 1 5 - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/069.a.htm"
+    },
+    "70_6x6": {
+      "id": "70_6x6",
+      "problem": "6 6\n4 - - - - -\n- 2 2 1 3 -\n5 - 2 5 - 4\n2 - - - 3 3\n[problem]\n- - - - - -\n- - - - 3 -\n- - - - - -\n- - - - - -\n- - - - 5 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/070.a.htm"
+    },
+    "71_4x4": {
+      "id": "71_4x4",
+      "problem": "4 4\n- - 2 -\n3 - - 4\n- - 2 3\n1 - 2 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/071.a.htm"
+    },
+    "72_4x4": {
+      "id": "72_4x4",
+      "problem": "4 4\n4 1 - -\n1 2 2 -\n- 3 2 -\n- - - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/072.a.htm"
+    },
+    "73_4x4": {
+      "id": "73_4x4",
+      "problem": "4 4\n- 3 - -\n- 2 - -\n- - 2 1\n- - 2 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/073.a.htm"
+    },
+    "74_4x4": {
+      "id": "74_4x4",
+      "problem": "4 4\n4 - - -\n- - 2 2\n3 - - 1\n- - 3 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/074.a.htm"
+    },
+    "75_5x5": {
+      "id": "75_5x5",
+      "problem": "5 5\n- 1 3 2 2\n2 - - 2 3\n- 2 - - -\n2 - - 3 -\n[problem]\n- - - - -\n- - - - -\n- - 4 - -\n- - - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/075.a.htm"
+    },
+    "76_5x5": {
+      "id": "76_5x5",
+      "problem": "5 5\n- 3 - - -\n- 2 2 - 2\n3 2 - 2 -\n- 2 - 3 3\n[problem]\n- - - - -\n- 1 - - -\n- - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/076.a.htm"
+    },
+    "77_5x5": {
+      "id": "77_5x5",
+      "problem": "5 5\n5 - 2 3 4\n- - - 2 2\n- - - 2 -\n4 3 - - 5\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/077.a.htm"
+    },
+    "78_5x5": {
+      "id": "78_5x5",
+      "problem": "5 5\n5 3 4 - -\n- - - 2 2\n4 3 2 2 -\n1 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/078.a.htm"
+    },
+    "79_6x6": {
+      "id": "79_6x6",
+      "problem": "6 6\n3 2 1 2 3 4\n2 2 3 2 2 1\n3 2 1 3 3 3\n4 5 5 3 2 1\n[problem]\n- - - - - -\n- - 4 - - -\n- - - - - -\n- - 1 6 5 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/079.a.htm"
+    },
+    "80_6x6": {
+      "id": "80_6x6",
+      "problem": "6 6\n6 5 - 3 1 4\n1 - - - 2 -\n- - 3 - 2 -\n- 3 2 - 3 -\n[problem]\n- - - - - -\n- - - - - -\n- - - - - -\n- - 2 1 - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/080.a.htm"
+    },
+    "81_5x5": {
+      "id": "81_5x5",
+      "problem": "5 5\n- - - 2 -\n- - - - 4\n1 4 1 - -\n- - - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/081.a.htm"
+    },
+    "82_5x5": {
+      "id": "82_5x5",
+      "problem": "5 5\n- - 3 3 -\n- - - 2 -\n- 1 - 4 -\n4 - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/082.a.htm"
+    },
+    "83_5x5": {
+      "id": "83_5x5",
+      "problem": "5 5\n4 - 2 - 3\n- 3 2 - -\n2 - - 3 -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/083.a.htm"
+    },
+    "84_5x5": {
+      "id": "84_5x5",
+      "problem": "5 5\n- 1 - - -\n1 - - 3 -\n- - 2 - 2\n1 - 1 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/084.a.htm"
+    },
+    "85_5x5": {
+      "id": "85_5x5",
+      "problem": "5 5\n- 3 - 3 -\n- - - - 3\n2 - 1 1 -\n- 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/085.a.htm"
+    },
+    "86_5x5": {
+      "id": "86_5x5",
+      "problem": "5 5\n4 3 - 2 2\n- - - - 2\n- 2 - - -\n- 1 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/086.a.htm"
+    },
+    "87_5x5": {
+      "id": "87_5x5",
+      "problem": "5 5\n4 - - - 2\n- - 3 - -\n- - 2 - -\n- 4 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/087.a.htm"
+    },
+    "88_5x5": {
+      "id": "88_5x5",
+      "problem": "5 5\n- - - - -\n- 4 2 - 2\n- - 2 - 2\n- - 1 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/088.a.htm"
+    },
+    "89_5x5": {
+      "id": "89_5x5",
+      "problem": "5 5\n- 1 4 - 2\n3 2 - - 2\n- - 1 - -\n- - 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/089.a.htm"
+    },
+    "90_5x5": {
+      "id": "90_5x5",
+      "problem": "5 5\n- - 2 3 -\n1 3 2 - -\n2 - 3 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/090.a.htm"
+    },
+    "91_5x5": {
+      "id": "91_5x5",
+      "problem": "5 5\n- 1 3 - -\n- - - - 2\n3 - - - -\n2 2 - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/091.a.htm"
+    },
+    "92_5x5": {
+      "id": "92_5x5",
+      "problem": "5 5\n- - - 4 3\n- 2 - - 2\n1 3 2 - 2\n- - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/092.a.htm"
+    },
+    "93_5x5": {
+      "id": "93_5x5",
+      "problem": "5 5\n- 1 2 - 4\n4 - 1 - -\n- - - - -\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/093.a.htm"
+    },
+    "94_5x5": {
+      "id": "94_5x5",
+      "problem": "5 5\n- - 1 - -\n- - 2 - 3\n- - - - -\n1 - - 4 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/094.a.htm"
+    },
+    "95_5x5": {
+      "id": "95_5x5",
+      "problem": "5 5\n3 1 - 3 -\n2 2 - 2 3\n- - - - 2\n- 3 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/095.a.htm"
+    },
+    "96_5x5": {
+      "id": "96_5x5",
+      "problem": "5 5\n- - 2 - -\n2 - - - 3\n3 - - - -\n- - 4 - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/096.a.htm"
+    },
+    "97_5x5": {
+      "id": "97_5x5",
+      "problem": "5 5\n- 3 - 4 -\n3 - - - -\n- - 2 1 4\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/097.a.htm"
+    },
+    "98_5x5": {
+      "id": "98_5x5",
+      "problem": "5 5\n1 - - 1 -\n- 2 - 2 -\n- 2 1 - 3\n2 2 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/098.a.htm"
+    },
+    "99_5x5": {
+      "id": "99_5x5",
+      "problem": "5 5\n- - - 4 -\n- - 4 - -\n- 1 4 - -\n- 2 - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/099.a.htm"
+    },
+    "100_5x5": {
+      "id": "100_5x5",
+      "problem": "5 5\n- - - - -\n2 - 3 - -\n3 - - 1 4\n1 - 3 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/100.a.htm"
+    },
+    "101_5x5": {
+      "id": "101_5x5",
+      "problem": "5 5\n1 3 - 3 2\n2 2 - - -\n- 2 3 - -\n- 1 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/101.a.htm"
+    },
+    "102_5x5": {
+      "id": "102_5x5",
+      "problem": "5 5\n1 - - 3 -\n3 - - 1 -\n- 3 - - -\n2 - 2 4 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/102.a.htm"
+    },
+    "103_5x5": {
+      "id": "103_5x5",
+      "problem": "5 5\n2 2 - 2 -\n- - - - 4\n- - 2 - 2\n- - 2 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/103.a.htm"
+    },
+    "104_5x5": {
+      "id": "104_5x5",
+      "problem": "5 5\n- 2 2 - 4\n- 2 - - -\n- - - 3 -\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/104.a.htm"
+    },
+    "105_5x5": {
+      "id": "105_5x5",
+      "problem": "5 5\n- - 2 4 -\n4 2 1 - -\n- - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/105.a.htm"
+    },
+    "106_5x5": {
+      "id": "106_5x5",
+      "problem": "5 5\n1 - - 2 1\n2 2 - - 3\n2 - - - -\n- - 1 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/106.a.htm"
+    },
+    "107_5x5": {
+      "id": "107_5x5",
+      "problem": "5 5\n- - 3 - 4\n3 - 1 - -\n2 2 - - -\n3 - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/107.a.htm"
+    },
+    "108_5x5": {
+      "id": "108_5x5",
+      "problem": "5 5\n- - 3 - 1\n4 2 - 3 -\n- - - - -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/108.a.htm"
+    },
+    "109_5x5": {
+      "id": "109_5x5",
+      "problem": "5 5\n- 4 - - -\n2 - - - 3\n- - 3 - 2\n4 - - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/109.a.htm"
+    },
+    "110_5x5": {
+      "id": "110_5x5",
+      "problem": "5 5\n2 - - - -\n- - - 3 2\n2 - - 3 -\n3 - - 2 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/110.a.htm"
+    },
+    "111_4x4": {
+      "id": "111_4x4",
+      "problem": "4 4\n- - - -\n- 3 4 -\n2 - 3 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/111.a.htm"
+    },
+    "112_4x4": {
+      "id": "112_4x4",
+      "problem": "4 4\n3 - 1 4\n- - - -\n- 2 - -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/112.a.htm"
+    },
+    "113_4x4": {
+      "id": "113_4x4",
+      "problem": "4 4\n1 - - -\n- - 1 -\n- 3 - -\n- - 1 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/113.a.htm"
+    },
+    "114_4x4": {
+      "id": "114_4x4",
+      "problem": "4 4\n- 2 2 1\n- - - -\n- - - -\n3 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/114.a.htm"
+    },
+    "115_5x5": {
+      "id": "115_5x5",
+      "problem": "5 5\n- 3 - 3 3\n4 - 4 3 1\n- - 3 2 -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/115.a.htm"
+    },
+    "116_5x5": {
+      "id": "116_5x5",
+      "problem": "5 5\n3 3 - - -\n1 - 2 - 3\n- - - - -\n- - 4 3 5\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/116.a.htm"
+    },
+    "117_5x5": {
+      "id": "117_5x5",
+      "problem": "5 5\n- 3 5 4 -\n- - - - -\n2 - - 3 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/117.a.htm"
+    },
+    "118_5x5": {
+      "id": "118_5x5",
+      "problem": "5 5\n- 2 - 1 -\n- - 3 4 -\n- - - 1 -\n1 2 - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/118.a.htm"
+    },
+    "119_6x6": {
+      "id": "119_6x6",
+      "problem": "6 6\n3 2 3 2 1 2\n2 3 1 4 2 2\n2 3 2 2 1 2\n2 3 4 1 5 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/119.a.htm"
+    },
+    "120_6x6": {
+      "id": "120_6x6",
+      "problem": "6 6\n2 - 3 - - -\n2 3 3 - - -\n- 2 3 2 - 2\n3 3 1 - - -\n[problem]\n- - - - - -\n- - 5 - 2 -\n- - - 5 4 -\n- - - - - -\n- - 4 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/120.a.htm"
+    },
+    "121_4x4": {
+      "id": "121_4x4",
+      "problem": "4 4\n- 3 - 4\n- - - -\n- - 2 -\n3 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/121.a.htm"
+    },
+    "122_4x4": {
+      "id": "122_4x4",
+      "problem": "4 4\n3 - - -\n- 2 - -\n- 2 - -\n3 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/122.a.htm"
+    },
+    "123_5x5": {
+      "id": "123_5x5",
+      "problem": "5 5\n- 1 5 3 4\n2 - - 2 -\n2 1 - - -\n- 3 - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/123.a.htm"
+    },
+    "124_5x5": {
+      "id": "124_5x5",
+      "problem": "5 5\n3 - - 3 4\n- - 2 - -\n- - 3 - 3\n- 3 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/124.a.htm"
+    },
+    "125_5x5": {
+      "id": "125_5x5",
+      "problem": "5 5\n- - - - -\n3 - - - -\n5 - 1 3 4\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/125.a.htm"
+    },
+    "126_5x5": {
+      "id": "126_5x5",
+      "problem": "5 5\n- - - - -\n- 3 3 - 2\n- 1 2 3 -\n4 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/126.a.htm"
+    },
+    "127_6x6": {
+      "id": "127_6x6",
+      "problem": "6 6\n2 3 1 2 2 2\n2 1 4 3 2 3\n2 3 3 3 1 2\n4 1 2 3 4 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/127.a.htm"
+    },
+    "128_6x6": {
+      "id": "128_6x6",
+      "problem": "6 6\n- 2 2 1 2 3\n2 - - 3 2 -\n4 - 1 - 3 3\n2 2 3 2 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/128.a.htm"
+    },
+    "129_6x6": {
+      "id": "129_6x6",
+      "problem": "6 6\n1 2 3 4 3 2\n3 1 3 2 2 2\n1 5 4 2 3 1\n3 1 1 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/129.a.htm"
+    },
+    "130_6x6": {
+      "id": "130_6x6",
+      "problem": "6 6\n2 1 3 2 1 3\n3 5 1 2 4 2\n2 2 1 3 2 2\n3 2 2 2 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/130.a.htm"
+    },
+    "131_5x5": {
+      "id": "131_5x5",
+      "problem": "5 5\n- 4 - - -\n- - 4 - -\n1 - - 3 -\n- - 1 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/131.a.htm"
+    },
+    "132_5x5": {
+      "id": "132_5x5",
+      "problem": "5 5\n- - - - 1\n- - - 1 -\n4 - 2 2 3\n- 4 2 1 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/132.a.htm"
+    },
+    "133_5x5": {
+      "id": "133_5x5",
+      "problem": "5 5\n- 1 - 3 -\n1 2 1 - -\n- - 3 - 2\n- - 1 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/133.a.htm"
+    },
+    "134_5x5": {
+      "id": "134_5x5",
+      "problem": "5 5\n- - - 2 4\n1 2 - - -\n- 3 - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/134.a.htm"
+    },
+    "135_5x5": {
+      "id": "135_5x5",
+      "problem": "5 5\n- 3 - - -\n- - 3 - 2\n- - 3 - -\n- 3 2 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/135.a.htm"
+    },
+    "136_5x5": {
+      "id": "136_5x5",
+      "problem": "5 5\n- 2 - - 2\n2 - - - -\n- - - 4 1\n1 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/136.a.htm"
+    },
+    "137_5x5": {
+      "id": "137_5x5",
+      "problem": "5 5\n1 4 - - -\n- - 2 1 -\n- 1 - - 3\n2 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/137.a.htm"
+    },
+    "138_5x5": {
+      "id": "138_5x5",
+      "problem": "5 5\n- 1 - - -\n- 2 - - -\n4 - - 3 2\n- 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/138.a.htm"
+    },
+    "139_5x5": {
+      "id": "139_5x5",
+      "problem": "5 5\n- - 3 - -\n- - 1 3 1\n- 2 - - -\n1 2 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/139.a.htm"
+    },
+    "140_5x5": {
+      "id": "140_5x5",
+      "problem": "5 5\n2 - - 2 3\n- - 2 - 2\n- - 2 - 2\n- 3 - 1 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/140.a.htm"
+    },
+    "141_5x5": {
+      "id": "141_5x5",
+      "problem": "5 5\n- - 1 - -\n- - 3 2 4\n4 - - 3 -\n- - - 2 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/141.a.htm"
+    },
+    "142_5x5": {
+      "id": "142_5x5",
+      "problem": "5 5\n- 3 1 - -\n2 - - - -\n3 3 - - 1\n1 - 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/142.a.htm"
+    },
+    "143_5x5": {
+      "id": "143_5x5",
+      "problem": "5 5\n3 - - - 1\n- 2 3 - 2\n2 - - - 2\n3 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/143.a.htm"
+    },
+    "144_5x5": {
+      "id": "144_5x5",
+      "problem": "5 5\n1 - 4 1 -\n- - - - -\n- 1 - 3 -\n- 2 2 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/144.a.htm"
+    },
+    "145_5x5": {
+      "id": "145_5x5",
+      "problem": "5 5\n4 - 3 - -\n- - 1 4 -\n- 3 - - 1\n- 2 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/145.a.htm"
+    },
+    "146_5x5": {
+      "id": "146_5x5",
+      "problem": "5 5\n- 2 2 3 -\n- 3 1 - -\n2 2 - - -\n1 - - 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/146.a.htm"
+    },
+    "147_5x5": {
+      "id": "147_5x5",
+      "problem": "5 5\n2 - - - 1\n1 1 - - 3\n- 2 - - -\n2 - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/147.a.htm"
+    },
+    "148_5x5": {
+      "id": "148_5x5",
+      "problem": "5 5\n1 - 2 3 -\n3 2 3 - -\n- - - 3 -\n3 2 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/148.a.htm"
+    },
+    "149_5x5": {
+      "id": "149_5x5",
+      "problem": "5 5\n1 4 3 - -\n- - - - -\n- 2 - 1 -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/149.a.htm"
+    },
+    "150_5x5": {
+      "id": "150_5x5",
+      "problem": "5 5\n- 3 - - 2\n- - - - 2\n- 3 2 2 -\n4 - 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/150.a.htm"
+    },
+    "151_5x5": {
+      "id": "151_5x5",
+      "problem": "5 5\n- - - - -\n- 1 - - -\n- 2 2 2 4\n2 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/151.a.htm"
+    },
+    "152_5x5": {
+      "id": "152_5x5",
+      "problem": "5 5\n2 - 2 4 3\n- 3 2 - -\n2 2 - 4 -\n- 2 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/152.a.htm"
+    },
+    "153_5x5": {
+      "id": "153_5x5",
+      "problem": "5 5\n1 3 - 1 2\n3 - - - -\n- - - - 1\n- 1 3 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/153.a.htm"
+    },
+    "154_5x5": {
+      "id": "154_5x5",
+      "problem": "5 5\n4 - - - 3\n- - - - -\n1 - - - -\n- - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/154.a.htm"
+    },
+    "155_5x5": {
+      "id": "155_5x5",
+      "problem": "5 5\n3 - - 1 -\n- 2 2 2 -\n- - 4 - -\n- - - 3 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/155.a.htm"
+    },
+    "156_5x5": {
+      "id": "156_5x5",
+      "problem": "5 5\n2 - 3 - 3\n2 - - - -\n- - 3 2 -\n- 3 1 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/156.a.htm"
+    },
+    "157_5x5": {
+      "id": "157_5x5",
+      "problem": "5 5\n- 1 - - 3\n- - - - 1\n3 - - 4 -\n- 3 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/157.a.htm"
+    },
+    "158_5x5": {
+      "id": "158_5x5",
+      "problem": "5 5\n2 - - - 1\n3 3 - - -\n2 - - 4 -\n- - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/158.a.htm"
+    },
+    "159_5x5": {
+      "id": "159_5x5",
+      "problem": "5 5\n- 4 - - -\n4 - - - -\n- - - - 1\n- - 2 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/159.a.htm"
+    },
+    "160_5x5": {
+      "id": "160_5x5",
+      "problem": "5 5\n- 2 2 - 3\n- - 3 - 2\n- 2 2 - 2\n- 2 - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/160.a.htm"
+    },
+    "161_4x4": {
+      "id": "161_4x4",
+      "problem": "4 4\n- 2 1 -\n- - - -\n- 4 - 2\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/161.a.htm"
+    },
+    "162_4x4": {
+      "id": "162_4x4",
+      "problem": "4 4\n3 - 3 -\n1 - - -\n3 - - -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/162.a.htm"
+    },
+    "163_5x5": {
+      "id": "163_5x5",
+      "problem": "5 5\n2 - 1 2 -\n2 1 - - 4\n3 4 - - -\n3 - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/163.a.htm"
+    },
+    "164_5x5": {
+      "id": "164_5x5",
+      "problem": "5 5\n- 3 4 - -\n- - - - -\n- 2 2 2 1\n2 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/164.a.htm"
+    },
+    "165_5x5": {
+      "id": "165_5x5",
+      "problem": "5 5\n- - - - -\n5 - 3 - 4\n- - - 3 -\n- - 2 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/165.a.htm"
+    },
+    "166_5x5": {
+      "id": "166_5x5",
+      "problem": "5 5\n2 1 2 2 2\n- - - 3 -\n- 4 4 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/166.a.htm"
+    },
+    "167_5x5": {
+      "id": "167_5x5",
+      "problem": "5 5\n2 2 - - 1\n- - - - -\n4 - 3 - 1\n- - 1 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/167.a.htm"
+    },
+    "168_5x5": {
+      "id": "168_5x5",
+      "problem": "5 5\n2 - - - -\n- - - 2 -\n4 - - 3 4\n- - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/168.a.htm"
+    },
+    "169_6x6": {
+      "id": "169_6x6",
+      "problem": "6 6\n2 3 2 3 1 3\n4 - 5 3 - -\n2 3 1 2 - 2\n2 2 3 - 1 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/169.a.htm"
+    },
+    "170_6x6": {
+      "id": "170_6x6",
+      "problem": "6 6\n2 3 2 3 1 2\n2 1 3 2 4 2\n2 1 2 3 2 1\n2 4 3 3 1 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/170.a.htm"
+    },
+    "171_4x4": {
+      "id": "171_4x4",
+      "problem": "4 4\n- - - -\n- 3 - -\n- - - 2\n1 - 2 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/171.a.htm"
+    },
+    "172_4x4": {
+      "id": "172_4x4",
+      "problem": "4 4\n- - - -\n- - - 3\n1 - - -\n- 1 - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/172.a.htm"
+    },
+    "173_5x5": {
+      "id": "173_5x5",
+      "problem": "5 5\n- - 3 2 2\n- 3 1 - -\n2 - 4 1 -\n- - - 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/173.a.htm"
+    },
+    "174_5x5": {
+      "id": "174_5x5",
+      "problem": "5 5\n- 2 - 2 -\n- - - - 3\n3 4 5 - -\n2 - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/174.a.htm"
+    },
+    "175_5x5": {
+      "id": "175_5x5",
+      "problem": "5 5\n2 - - - -\n- 2 - - -\n- 4 1 - 5\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/175.a.htm"
+    },
+    "176_5x5": {
+      "id": "176_5x5",
+      "problem": "5 5\n- 2 - 1 2\n1 - - - 1\n2 2 - 2 -\n2 - 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/176.a.htm"
+    },
+    "177_5x5": {
+      "id": "177_5x5",
+      "problem": "5 5\n- 2 4 3 -\n- 2 - - -\n- 1 - 2 -\n3 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/177.a.htm"
+    },
+    "178_5x5": {
+      "id": "178_5x5",
+      "problem": "5 5\n- 2 - 2 -\n- - 4 - -\n1 - - - -\n2 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/178.a.htm"
+    },
+    "179_6x6": {
+      "id": "179_6x6",
+      "problem": "6 6\n- 2 3 - 1 3\n4 3 2 3 5 1\n5 - 2 4 3 4\n- 3 3 - - 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/179.a.htm"
+    },
+    "180_6x6": {
+      "id": "180_6x6",
+      "problem": "6 6\n2 3 3 3 1 3\n3 2 1 3 4 3\n2 1 3 2 2 2\n2 3 1 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/180.a.htm"
+    },
+    "181_4x4": {
+      "id": "181_4x4",
+      "problem": "4 4\n1 4 - 2\n2 - - -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/181.a.htm"
+    },
+    "182_4x4": {
+      "id": "182_4x4",
+      "problem": "4 4\n- - - -\n- 1 - 3\n- - - -\n- 3 - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/182.a.htm"
+    },
+    "183_5x5": {
+      "id": "183_5x5",
+      "problem": "5 5\n3 - - - -\n- 2 - 3 1\n2 - 1 2 -\n3 - 5 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/183.a.htm"
+    },
+    "184_5x5": {
+      "id": "184_5x5",
+      "problem": "5 5\n2 - - - -\n- - 4 - 2\n2 - - 3 3\n4 - 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/184.a.htm"
+    },
+    "185_5x5": {
+      "id": "185_5x5",
+      "problem": "5 5\n- - - 3 -\n- - - - 3\n- 2 - - -\n1 - - 5 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/185.a.htm"
+    },
+    "186_5x5": {
+      "id": "186_5x5",
+      "problem": "5 5\n3 1 - - -\n- - 2 2 3\n- 1 - 2 -\n- 2 2 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/186.a.htm"
+    },
+    "187_5x5": {
+      "id": "187_5x5",
+      "problem": "5 5\n- - 3 - -\n2 - 2 3 -\n- 2 - - -\n2 - - 3 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/187.a.htm"
+    },
+    "188_5x5": {
+      "id": "188_5x5",
+      "problem": "5 5\n- - - 3 -\n- 2 - - -\n2 - 4 3 -\n- 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/188.a.htm"
+    },
+    "189_6x6": {
+      "id": "189_6x6",
+      "problem": "6 6\n- 1 2 2 3 3\n2 4 4 5 - 3\n2 2 2 - - -\n5 - 4 1 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/189.a.htm"
+    },
+    "190_6x6": {
+      "id": "190_6x6",
+      "problem": "6 6\n2 1 3 3 2 2\n3 4 1 2 2 3\n1 2 1 3 2 2\n3 1 3 2 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/190.a.htm"
+    },
+    "191_5x5": {
+      "id": "191_5x5",
+      "problem": "5 5\n- - - 2 1\n- - 2 - -\n- - 4 - 2\n- 3 - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/191.a.htm"
+    },
+    "192_5x5": {
+      "id": "192_5x5",
+      "problem": "5 5\n1 - - 2 -\n- - 3 3 1\n- - - 1 -\n4 1 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/192.a.htm"
+    },
+    "193_5x5": {
+      "id": "193_5x5",
+      "problem": "5 5\n- - - 2 3\n- - 2 1 -\n2 1 4 - -\n3 2 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/193.a.htm"
+    },
+    "194_5x5": {
+      "id": "194_5x5",
+      "problem": "5 5\n- 1 2 - -\n- - 1 1 3\n- 2 - 2 2\n- 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/194.a.htm"
+    },
+    "195_5x5": {
+      "id": "195_5x5",
+      "problem": "5 5\n- - - - -\n4 - 1 - -\n- - - - 4\n- - 3 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/195.a.htm"
+    },
+    "196_5x5": {
+      "id": "196_5x5",
+      "problem": "5 5\n1 - 2 - 4\n2 - 2 4 -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/196.a.htm"
+    },
+    "197_5x5": {
+      "id": "197_5x5",
+      "problem": "5 5\n2 - - - -\n1 - - - -\n- 4 1 2 -\n- - 2 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/197.a.htm"
+    },
+    "198_5x5": {
+      "id": "198_5x5",
+      "problem": "5 5\n- 2 4 - 1\n1 2 - 2 -\n2 3 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/198.a.htm"
+    },
+    "199_5x5": {
+      "id": "199_5x5",
+      "problem": "5 5\n- - - - 3\n2 - - 3 -\n- - 2 1 -\n- 1 2 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/199.a.htm"
+    },
+    "200_5x5": {
+      "id": "200_5x5",
+      "problem": "5 5\n- - 2 - -\n2 - - - -\n- 4 - 3 -\n- - - 2 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/200.a.htm"
+    },
+    "201_5x5": {
+      "id": "201_5x5",
+      "problem": "5 5\n- 3 1 4 -\n3 2 2 - -\n1 - - - -\n- 3 - 2 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/201.a.htm"
+    },
+    "202_5x5": {
+      "id": "202_5x5",
+      "problem": "5 5\n- 1 4 3 2\n- - - - 3\n- 3 3 - 2\n- - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/202.a.htm"
+    },
+    "203_5x5": {
+      "id": "203_5x5",
+      "problem": "5 5\n1 - - - 4\n- - 1 - -\n- - - 3 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/203.a.htm"
+    },
+    "204_5x5": {
+      "id": "204_5x5",
+      "problem": "5 5\n1 - 3 3 -\n3 - - - 1\n- 1 - - -\n- 2 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/204.a.htm"
+    },
+    "205_5x5": {
+      "id": "205_5x5",
+      "problem": "5 5\n1 - - 3 -\n2 - - - -\n- 2 3 - -\n- 1 1 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/205.a.htm"
+    },
+    "206_5x5": {
+      "id": "206_5x5",
+      "problem": "5 5\n- - 2 - -\n- - - - 3\n- - 2 - 3\n2 4 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/206.a.htm"
+    },
+    "207_5x5": {
+      "id": "207_5x5",
+      "problem": "5 5\n- - - - 2\n2 - 4 - 2\n3 - 4 - 1\n- - - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/207.a.htm"
+    },
+    "208_5x5": {
+      "id": "208_5x5",
+      "problem": "5 5\n- - - 3 -\n2 - - 1 4\n- - 3 1 2\n- - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/208.a.htm"
+    },
+    "209_5x5": {
+      "id": "209_5x5",
+      "problem": "5 5\n2 2 - - -\n- 1 - - 4\n2 1 - 2 -\n- 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/209.a.htm"
+    },
+    "210_5x5": {
+      "id": "210_5x5",
+      "problem": "5 5\n- - 1 2 1\n- 1 - - 3\n2 3 - - -\n- 2 - 2 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/210.a.htm"
+    },
+    "211_5x5": {
+      "id": "211_5x5",
+      "problem": "5 5\n3 - - - -\n- 4 - - -\n3 - - 2 4\n- - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/211.a.htm"
+    },
+    "212_5x5": {
+      "id": "212_5x5",
+      "problem": "5 5\n3 - - 2 1\n- 3 2 - -\n- - 1 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/212.a.htm"
+    },
+    "213_5x5": {
+      "id": "213_5x5",
+      "problem": "5 5\n3 - 3 - 4\n- - - - -\n- 1 - - 3\n1 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/213.a.htm"
+    },
+    "214_5x5": {
+      "id": "214_5x5",
+      "problem": "5 5\n- - 1 - -\n2 - - - -\n2 - - 2 4\n2 3 2 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/214.a.htm"
+    },
+    "215_5x5": {
+      "id": "215_5x5",
+      "problem": "5 5\n- 3 - - 3\n3 2 - - -\n1 - - 4 -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/215.a.htm"
+    },
+    "216_5x5": {
+      "id": "216_5x5",
+      "problem": "5 5\n- 3 2 1 -\n4 - - - -\n- - 1 - -\n- 2 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/216.a.htm"
+    },
+    "217_5x5": {
+      "id": "217_5x5",
+      "problem": "5 5\n- - - - -\n- - 4 3 -\n3 - - 1 -\n1 - 2 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/217.a.htm"
+    },
+    "218_5x5": {
+      "id": "218_5x5",
+      "problem": "5 5\n- 2 2 - -\n- - - 3 -\n- - - - 4\n- 4 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/218.a.htm"
+    },
+    "219_5x5": {
+      "id": "219_5x5",
+      "problem": "5 5\n- 1 - - -\n- 2 - - -\n- - - - 4\n2 - 3 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/219.a.htm"
+    },
+    "220_5x5": {
+      "id": "220_5x5",
+      "problem": "5 5\n- 1 2 - -\n- 3 - - 2\n- 2 1 - 2\n- 1 - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/220.a.htm"
+    },
+    "221_5x5": {
+      "id": "221_5x5",
+      "problem": "5 5\n- - - 1 -\n- 4 - 2 -\n3 - 3 - 2\n- - - 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/221.a.htm"
+    },
+    "222_5x5": {
+      "id": "222_5x5",
+      "problem": "5 5\n- - 4 - -\n- 2 - 4 -\n3 - - - -\n2 - 2 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/222.a.htm"
+    },
+    "223_5x5": {
+      "id": "223_5x5",
+      "problem": "5 5\n- 2 - - -\n4 - 2 - 1\n- - - - 2\n- - 1 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/223.a.htm"
+    },
+    "224_5x5": {
+      "id": "224_5x5",
+      "problem": "5 5\n- 3 - - -\n- - 4 3 1\n- 2 - 2 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/224.a.htm"
+    },
+    "225_5x5": {
+      "id": "225_5x5",
+      "problem": "5 5\n3 - 2 - -\n- - - - 3\n- - - 2 4\n2 - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/225.a.htm"
+    },
+    "226_5x5": {
+      "id": "226_5x5",
+      "problem": "5 5\n3 - - 2 -\n- 2 3 2 3\n- - - - -\n- 3 - 1 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/226.a.htm"
+    },
+    "227_5x5": {
+      "id": "227_5x5",
+      "problem": "5 5\n- - - 2 1\n- - - - 2\n- 2 - 3 3\n- - 3 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/227.a.htm"
+    },
+    "228_5x5": {
+      "id": "228_5x5",
+      "problem": "5 5\n2 - - 3 -\n1 3 - 2 -\n- - 3 - -\n4 - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/228.a.htm"
+    },
+    "229_5x5": {
+      "id": "229_5x5",
+      "problem": "5 5\n3 - 1 3 -\n- - 3 - -\n- - - 3 2\n1 - 3 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/229.a.htm"
+    },
+    "230_5x5": {
+      "id": "230_5x5",
+      "problem": "5 5\n- - - - -\n- 2 - - -\n- 3 4 - -\n- - - 4 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/230.a.htm"
+    },
+    "231_4x4": {
+      "id": "231_4x4",
+      "problem": "4 4\n- - 3 -\n- - - 2\n- - - -\n4 3 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/231.a.htm"
+    },
+    "232_4x4": {
+      "id": "232_4x4",
+      "problem": "4 4\n- 3 2 -\n- - - -\n- - - -\n2 - - 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/232.a.htm"
+    },
+    "233_5x5": {
+      "id": "233_5x5",
+      "problem": "5 5\n1 4 - - -\n- 1 2 2 3\n- - 3 - 2\n4 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/233.a.htm"
+    },
+    "234_5x5": {
+      "id": "234_5x5",
+      "problem": "5 5\n2 2 1 - 2\n- 3 - 1 2\n- 1 - - -\n3 - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/234.a.htm"
+    },
+    "235_5x5": {
+      "id": "235_5x5",
+      "problem": "5 5\n- - 1 2 -\n- - - 4 -\n- 4 5 1 -\n- - - 2 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/235.a.htm"
+    },
+    "236_5x5": {
+      "id": "236_5x5",
+      "problem": "5 5\n2 - 2 - -\n- 5 - 2 3\n- - 2 - 2\n- 5 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/236.a.htm"
+    },
+    "237_5x5": {
+      "id": "237_5x5",
+      "problem": "5 5\n5 - - 4 3\n- 2 - - -\n2 - - - -\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/237.a.htm"
+    },
+    "238_6x6": {
+      "id": "238_6x6",
+      "problem": "6 6\n3 2 1 2 2 3\n1 4 2 3 2 2\n3 2 3 4 4 1\n3 4 3 2 1 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/238.a.htm"
+    },
+    "239_6x6": {
+      "id": "239_6x6",
+      "problem": "6 6\n2 2 2 2 3 1\n3 2 4 2 1 3\n3 2 3 1 2 3\n1 2 3 4 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/239.a.htm"
+    },
+    "240_6x6": {
+      "id": "240_6x6",
+      "problem": "6 6\n4 3 - 1 5 3\n2 - 3 3 - -\n4 3 2 1 5 3\n- - 3 3 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/240.a.htm"
+    },
+    "241_4x4": {
+      "id": "241_4x4",
+      "problem": "4 4\n- 3 - -\n- - - -\n- 2 2 -\n- - - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/241.a.htm"
+    },
+    "242_4x4": {
+      "id": "242_4x4",
+      "problem": "4 4\n- - 4 -\n- 2 - -\n- - - -\n1 4 - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/242.a.htm"
+    },
+    "243_5x5": {
+      "id": "243_5x5",
+      "problem": "5 5\n- 2 1 - 4\n2 2 - - -\n3 - - - 4\n2 - 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/243.a.htm"
+    },
+    "244_5x5": {
+      "id": "244_5x5",
+      "problem": "5 5\n2 - - 4 -\n3 - 2 - 3\n- 1 - - 2\n1 5 - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/244.a.htm"
+    },
+    "245_5x5": {
+      "id": "245_5x5",
+      "problem": "5 5\n5 - 3 4 -\n1 - 2 - -\n- - - - 1\n- 4 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/245.a.htm"
+    },
+    "246_5x5": {
+      "id": "246_5x5",
+      "problem": "5 5\n2 - - - 3\n- - 3 - -\n- - 1 - 3\n3 4 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/246.a.htm"
+    },
+    "247_5x5": {
+      "id": "247_5x5",
+      "problem": "5 5\n1 - - - -\n- 2 2 - -\n- - - 5 -\n2 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/247.a.htm"
+    },
+    "248_6x6": {
+      "id": "248_6x6",
+      "problem": "6 6\n3 3 2 3 1 3\n2 1 5 4 5 3\n4 3 4 5 1 2\n2 2 3 1 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/248.a.htm"
+    },
+    "249_6x6": {
+      "id": "249_6x6",
+      "problem": "6 6\n1 - 3 - - 2\n5 2 4 1 3 5\n- 4 - 3 2 3\n2 1 2 - 3 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/249.a.htm"
+    },
+    "250_6x6": {
+      "id": "250_6x6",
+      "problem": "6 6\n2 4 - 1 3 3\n2 - 2 3 - -\n4 1 5 3 3 -\n2 - 2 2 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/250.a.htm"
+    },
+    "251_5x5": {
+      "id": "251_5x5",
+      "problem": "5 5\n- - 3 - 4\n- 1 2 2 -\n- 1 2 3 2\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/251.a.htm"
+    },
+    "252_5x5": {
+      "id": "252_5x5",
+      "problem": "5 5\n1 1 2 - -\n- - - 3 -\n1 - 2 - -\n2 - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/252.a.htm"
+    },
+    "253_5x5": {
+      "id": "253_5x5",
+      "problem": "5 5\n- - 1 - -\n- 4 4 - -\n- 2 - 3 1\n- - 1 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/253.a.htm"
+    },
+    "254_5x5": {
+      "id": "254_5x5",
+      "problem": "5 5\n2 4 3 4 -\n- 1 - - -\n- - - - -\n- - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/254.a.htm"
+    },
+    "255_5x5": {
+      "id": "255_5x5",
+      "problem": "5 5\n- - - - 1\n3 - - 4 4\n- - - - -\n- - 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/255.a.htm"
+    },
+    "256_6x6": {
+      "id": "256_6x6",
+      "problem": "6 6\n3 2 2 1 2 2\n1 5 3 2 2 4\n4 2 3 3 4 1\n3 4 1 2 2 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/256.a.htm"
+    },
+    "257_6x6": {
+      "id": "257_6x6",
+      "problem": "6 6\n2 4 4 3 2 1\n3 2 1 3 2 3\n3 1 4 2 2 3\n1 3 2 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/257.a.htm"
+    },
+    "258_6x6": {
+      "id": "258_6x6",
+      "problem": "6 6\n- 2 2 2 2 -\n- 3 4 - 5 6\n2 - 2 - 3 1\n1 2 3 4 3 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/258.a.htm"
+    },
+    "259_6x6": {
+      "id": "259_6x6",
+      "problem": "6 6\n- - 2 2 3 3\n1 4 2 3 - -\n2 3 - - 3 1\n5 3 1 4 2 5\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/259.a.htm"
+    },
+    "260_6x6": {
+      "id": "260_6x6",
+      "problem": "6 6\n1 4 4 3 2 -\n- 1 2 3 4 -\n1 4 2 - 2 2\n- 2 - 2 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/260.a.htm"
+    },
+    "261_5x5": {
+      "id": "261_5x5",
+      "problem": "5 5\n3 1 2 4 -\n2 2 - - 1\n- - - - -\n- 3 3 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/261.a.htm"
+    },
+    "262_5x5": {
+      "id": "262_5x5",
+      "problem": "5 5\n- - - 3 -\n3 4 2 1 -\n- - - - -\n4 - 3 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/262.a.htm"
+    },
+    "263_5x5": {
+      "id": "263_5x5",
+      "problem": "5 5\n- - - - -\n- 3 4 - -\n2 3 2 - -\n- - 2 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/263.a.htm"
+    },
+    "264_5x5": {
+      "id": "264_5x5",
+      "problem": "5 5\n- 1 - - -\n4 - 3 - -\n- - 3 4 -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/264.a.htm"
+    },
+    "265_5x5": {
+      "id": "265_5x5",
+      "problem": "5 5\n2 2 - - -\n- - - - -\n- - - 2 -\n- 4 - 1 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/265.a.htm"
+    },
+    "266_6x6": {
+      "id": "266_6x6",
+      "problem": "6 6\n3 3 2 2 2 1\n2 1 4 3 3 4\n5 5 3 4 1 2\n1 2 3 3 3 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/266.a.htm"
+    },
+    "267_6x6": {
+      "id": "267_6x6",
+      "problem": "6 6\n1 2 2 3 2 2\n4 4 3 3 2 1\n1 2 3 2 4 5\n2 3 3 2 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/267.a.htm"
+    },
+    "268_6x6": {
+      "id": "268_6x6",
+      "problem": "6 6\n4 - 1 3 2 4\n- 2 4 4 4 1\n3 4 3 1 2 3\n- 2 2 - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/268.a.htm"
+    },
+    "269_6x6": {
+      "id": "269_6x6",
+      "problem": "6 6\n1 4 3 - 2 -\n- 2 2 2 - 3\n1 - 4 3 2 5\n3 - 2 3 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/269.a.htm"
+    },
+    "270_6x6": {
+      "id": "270_6x6",
+      "problem": "6 6\n3 3 - - - 2\n- 2 3 5 4 4\n3 - 3 2 - 1\n2 3 1 3 4 5\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/270.a.htm"
+    },
+    "271_5x5": {
+      "id": "271_5x5",
+      "problem": "5 5\n2 3 2 1 1\n2 1 2 4 3\n2 3 2 1 2\n1 1 3 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/271.a.htm"
+    },
+    "272_5x5": {
+      "id": "272_5x5",
+      "problem": "5 5\n2 - - - 1\n3 3 - 1 2\n3 2 - 2 -\n1 2 4 2 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/272.a.htm"
+    },
+    "273_5x5": {
+      "id": "273_5x5",
+      "problem": "5 5\n3 2 - - 3\n2 - 2 3 -\n3 - - 1 2\n2 2 3 2 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/273.a.htm"
+    },
+    "274_5x5": {
+      "id": "274_5x5",
+      "problem": "5 5\n- - - - -\n1 4 - 2 2\n1 - - 3 1\n2 - - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/274.a.htm"
+    },
+    "275_5x5": {
+      "id": "275_5x5",
+      "problem": "5 5\n- 2 - - 1\n2 - - - 3\n4 2 4 - -\n1 - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/275.a.htm"
+    },
+    "276_6x6": {
+      "id": "276_6x6",
+      "problem": "6 6\n3 2 2 1 4 2\n3 4 3 2 1 2\n3 2 1 2 5 3\n2 3 5 3 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/276.a.htm"
+    },
+    "277_6x6": {
+      "id": "277_6x6",
+      "problem": "6 6\n2 3 2 - - 3\n- 2 - 2 2 2\n- - - 1 5 1\n2 2 1 5 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/277.a.htm"
+    },
+    "278_6x6": {
+      "id": "278_6x6",
+      "problem": "6 6\n2 4 1 4 3 -\n4 - - - - -\n- 3 1 2 2 4\n2 1 5 2 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/278.a.htm"
+    },
+    "279_6x6": {
+      "id": "279_6x6",
+      "problem": "6 6\n- 3 1 - 2 3\n1 3 - 2 2 3\n2 4 - - - 1\n- 2 3 - 2 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/279.a.htm"
+    },
+    "280_6x6": {
+      "id": "280_6x6",
+      "problem": "6 6\n- - - - 4 -\n2 - - - - 1\n2 - 3 4 - 3\n2 3 3 - 4 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/280.a.htm"
+    },
+    "281_5x5": {
+      "id": "281_5x5",
+      "problem": "5 5\n2 1 3 2 3\n2 3 1 2 1\n2 3 1 3 3\n3 2 2 2 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/281.a.htm"
+    },
+    "282_5x5": {
+      "id": "282_5x5",
+      "problem": "5 5\n2 3 2 1 -\n2 1 - 4 2\n2 - 3 1 2\n2 - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/282.a.htm"
+    },
+    "283_5x5": {
+      "id": "283_5x5",
+      "problem": "5 5\n- - 2 - 1\n2 1 2 2 3\n4 - 1 - 2\n1 2 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/283.a.htm"
+    },
+    "284_5x5": {
+      "id": "284_5x5",
+      "problem": "5 5\n3 1 - 2 2\n2 - 2 - -\n1 - 2 - -\n- - 2 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/284.a.htm"
+    },
+    "285_5x5": {
+      "id": "285_5x5",
+      "problem": "5 5\n- - - - -\n4 2 - - 2\n- 2 2 - 4\n- 2 1 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/285.a.htm"
+    },
+    "286_6x6": {
+      "id": "286_6x6",
+      "problem": "6 6\n2 1 2 3 2 3\n2 3 2 1 3 2\n2 4 2 1 2 4\n3 2 2 3 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/286.a.htm"
+    },
+    "287_6x6": {
+      "id": "287_6x6",
+      "problem": "6 6\n2 3 1 - - -\n3 - 3 2 1 3\n2 1 4 2 - 5\n- 4 - 2 5 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/287.a.htm"
+    },
+    "288_6x6": {
+      "id": "288_6x6",
+      "problem": "6 6\n1 - 3 - 1 2\n- - 2 - 4 -\n2 1 2 4 - 2\n2 3 3 1 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/288.a.htm"
+    },
+    "289_6x6": {
+      "id": "289_6x6",
+      "problem": "6 6\n- - 3 - 1 -\n- 2 3 - - 2\n- - - 3 - 4\n- 3 - 1 3 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/289.a.htm"
+    },
+    "290_6x6": {
+      "id": "290_6x6",
+      "problem": "6 6\n5 2 2 2 1 2\n- - - - 2 3\n- - - 2 - -\n2 1 2 4 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/290.a.htm"
+    },
+    "291_5x5": {
+      "id": "291_5x5",
+      "problem": "5 5\n3 3 - 1 3\n1 - 4 4 -\n3 2 - - -\n- - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/291.a.htm"
+    },
+    "292_5x5": {
+      "id": "292_5x5",
+      "problem": "5 5\n4 - 2 - 5\n- 2 - - 1\n- - - - 3\n4 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/292.a.htm"
+    },
+    "293_5x5": {
+      "id": "293_5x5",
+      "problem": "5 5\n- 5 4 - -\n- - - 2 -\n- 2 - - -\n- - 3 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/293.a.htm"
+    },
+    "294_5x5": {
+      "id": "294_5x5",
+      "problem": "5 5\n4 - - 1 2\n- - 2 2 -\n3 4 3 2 -\n- - - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/294.a.htm"
+    },
+    "295_5x5": {
+      "id": "295_5x5",
+      "problem": "5 5\n- - - - -\n3 2 4 - -\n- 1 - - -\n- 4 2 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/295.a.htm"
+    },
+    "296_5x5": {
+      "id": "296_5x5",
+      "problem": "5 5\n- 2 - 2 -\n- - 1 - -\n- 2 2 - -\n4 - 1 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/296.a.htm"
+    },
+    "297_5x5": {
+      "id": "297_5x5",
+      "problem": "5 5\n- - - 3 2\n- - 3 - 2\n- - 1 - -\n4 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/297.a.htm"
+    },
+    "298_5x5": {
+      "id": "298_5x5",
+      "problem": "5 5\n- 1 - - -\n4 4 - - 3\n- - 3 - -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/298.a.htm"
+    },
+    "299_6x6": {
+      "id": "299_6x6",
+      "problem": "6 6\n3 3 1 2 3 1\n1 2 4 3 3 5\n3 2 2 3 1 1\n1 2 2 2 3 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/299.a.htm"
+    },
+    "300_6x6": {
+      "id": "300_6x6",
+      "problem": "6 6\n2 3 1 2 3 2\n2 1 3 3 2 2\n2 3 3 1 3 2\n4 1 3 5 2 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/300.a.htm"
+    },
+    "301_5x5": {
+      "id": "301_5x5",
+      "problem": "5 5\n4 2 - 3 4\n- - - 3 -\n- - 2 4 -\n3 - 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/301.a.htm"
+    },
+    "302_5x5": {
+      "id": "302_5x5",
+      "problem": "5 5\n2 2 2 - 3\n- - 1 4 3\n- - 5 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/302.a.htm"
+    },
+    "303_5x5": {
+      "id": "303_5x5",
+      "problem": "5 5\n- - 4 - 5\n- - - - -\n- - - 2 2\n4 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/303.a.htm"
+    },
+    "304_5x5": {
+      "id": "304_5x5",
+      "problem": "5 5\n- 3 1 - 1\n- 2 - 1 3\n3 2 - 1 -\n- - 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/304.a.htm"
+    },
+    "305_5x5": {
+      "id": "305_5x5",
+      "problem": "5 5\n- - - 2 -\n3 2 - - 2\n- 2 - - -\n4 2 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/305.a.htm"
+    },
+    "306_5x5": {
+      "id": "306_5x5",
+      "problem": "5 5\n- - - 1 2\n- - 4 - 3\n- 3 3 - -\n2 - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/306.a.htm"
+    },
+    "307_5x5": {
+      "id": "307_5x5",
+      "problem": "5 5\n- 4 - - 3\n2 1 2 1 -\n- - 2 - -\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/307.a.htm"
+    },
+    "308_5x5": {
+      "id": "308_5x5",
+      "problem": "5 5\n1 1 - - 3\n- - - - -\n- 2 2 - -\n4 - 3 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/308.a.htm"
+    },
+    "309_5x5": {
+      "id": "309_5x5",
+      "problem": "5 5\n4 3 - 1 4\n- 2 - - -\n3 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/309.a.htm"
+    },
+    "310_6x6": {
+      "id": "310_6x6",
+      "problem": "6 6\n2 4 3 3 3 1\n3 2 1 2 3 4\n2 1 3 2 2 2\n1 4 3 2 3 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/310.a.htm"
+    },
+    "311_5x5": {
+      "id": "311_5x5",
+      "problem": "5 5\n- 3 - 3 4\n- - 2 - -\n- 3 - 2 2\n- - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/311.a.htm"
+    },
+    "312_5x5": {
+      "id": "312_5x5",
+      "problem": "5 5\n- - - - -\n3 - 4 1 -\n- - 1 3 -\n4 - 4 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/312.a.htm"
+    },
+    "313_5x5": {
+      "id": "313_5x5",
+      "problem": "5 5\n- 3 - 1 -\n1 - 2 - 1\n- 3 - 2 1\n- 2 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/313.a.htm"
+    },
+    "314_5x5": {
+      "id": "314_5x5",
+      "problem": "5 5\n- - 3 3 -\n- 2 - - 3\n1 4 1 3 -\n3 - - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/314.a.htm"
+    },
+    "315_5x5": {
+      "id": "315_5x5",
+      "problem": "5 5\n- 3 - - 1\n3 - 1 - -\n4 4 - - -\n- 1 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/315.a.htm"
+    },
+    "316_5x5": {
+      "id": "316_5x5",
+      "problem": "5 5\n1 4 - 4 -\n2 - 2 - -\n- 3 - 2 -\n- - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/316.a.htm"
+    },
+    "317_5x5": {
+      "id": "317_5x5",
+      "problem": "5 5\n- 3 4 - -\n1 - 1 - 2\n- - - 1 -\n- - - 4 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/317.a.htm"
+    },
+    "318_6x6": {
+      "id": "318_6x6",
+      "problem": "6 6\n3 2 3 1 4 4\n2 2 3 2 1 2\n3 2 2 5 1 4\n2 3 2 1 3 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/318.a.htm"
+    },
+    "319_6x6": {
+      "id": "319_6x6",
+      "problem": "6 6\n5 4 2 3 4 1\n1 2 3 3 2 3\n4 3 3 2 3 1\n1 3 3 3 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/319.a.htm"
+    },
+    "320_6x6": {
+      "id": "320_6x6",
+      "problem": "6 6\n2 1 1 3 2 4\n2 3 4 1 2 1\n2 2 3 1 2 4\n3 4 1 3 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/320.a.htm"
+    },
+    "321_5x5": {
+      "id": "321_5x5",
+      "problem": "5 5\n3 - - - 3\n2 4 4 - -\n- - 4 - -\n- 3 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/321.a.htm"
+    },
+    "322_5x5": {
+      "id": "322_5x5",
+      "problem": "5 5\n- - 3 - -\n4 - - 4 3\n2 - - - 2\n- 4 - - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/322.a.htm"
+    },
+    "323_5x5": {
+      "id": "323_5x5",
+      "problem": "5 5\n1 4 3 4 2\n- - 2 - -\n1 - - - -\n2 1 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/323.a.htm"
+    },
+    "324_5x5": {
+      "id": "324_5x5",
+      "problem": "5 5\n4 2 1 3 4\n1 - - 2 -\n- - - - 1\n3 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/324.a.htm"
+    },
+    "325_5x5": {
+      "id": "325_5x5",
+      "problem": "5 5\n- 3 1 - 2\n- 1 2 2 -\n- - - - -\n3 1 - 4 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/325.a.htm"
+    },
+    "326_5x5": {
+      "id": "326_5x5",
+      "problem": "5 5\n- - 2 - 3\n- 1 - - 1\n- - 3 - -\n2 3 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/326.a.htm"
+    },
+    "327_5x5": {
+      "id": "327_5x5",
+      "problem": "5 5\n- 2 3 4 -\n1 - - 1 -\n2 - - 2 -\n1 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/327.a.htm"
+    },
+    "328_6x6": {
+      "id": "328_6x6",
+      "problem": "6 6\n2 2 2 1 2 2\n2 3 4 3 1 3\n2 2 1 3 1 2\n2 2 3 1 4 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/328.a.htm"
+    },
+    "329_6x6": {
+      "id": "329_6x6",
+      "problem": "6 6\n3 2 2 1 2 2\n3 1 3 2 3 2\n2 2 2 1 3 2\n2 3 1 4 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/329.a.htm"
+    },
+    "330_6x6": {
+      "id": "330_6x6",
+      "problem": "6 6\n1 2 4 4 2 3\n4 3 2 1 4 2\n1 4 2 5 3 4\n3 2 3 1 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/330.a.htm"
+    },
+    "331_5x5": {
+      "id": "331_5x5",
+      "problem": "5 5\n- - - - 2\n- 2 - - -\n3 - 3 2 3\n3 - - 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/331.a.htm"
+    },
+    "332_5x5": {
+      "id": "332_5x5",
+      "problem": "5 5\n1 4 - - 5\n2 - 2 - -\n1 4 - - -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/332.a.htm"
+    },
+    "333_5x5": {
+      "id": "333_5x5",
+      "problem": "5 5\n3 4 - - -\n2 1 2 2 1\n- - - - -\n1 - - 2 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/333.a.htm"
+    },
+    "334_5x5": {
+      "id": "334_5x5",
+      "problem": "5 5\n- 3 - - 4\n1 2 - - 1\n3 - 2 2 1\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/334.a.htm"
+    },
+    "335_5x5": {
+      "id": "335_5x5",
+      "problem": "5 5\n- 2 - 1 2\n- - 4 4 1\n2 - - - -\n- - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/335.a.htm"
+    },
+    "336_5x5": {
+      "id": "336_5x5",
+      "problem": "5 5\n1 3 4 - 4\n- - - - -\n- - - - 2\n- 2 2 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/336.a.htm"
+    },
+    "337_5x5": {
+      "id": "337_5x5",
+      "problem": "5 5\n- - - 4 4\n2 - - - -\n- - 2 4 3\n3 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/337.a.htm"
+    },
+    "338_6x6": {
+      "id": "338_6x6",
+      "problem": "6 6\n4 3 5 2 1 5\n2 2 1 2 2 1\n4 3 2 1 2 5\n1 2 3 3 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/338.a.htm"
+    },
+    "339_6x6": {
+      "id": "339_6x6",
+      "problem": "6 6\n3 3 1 2 1 3\n2 1 4 3 5 3\n4 3 3 3 1 2\n2 2 2 1 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/339.a.htm"
+    },
+    "340_6x6": {
+      "id": "340_6x6",
+      "problem": "6 6\n3 2 2 2 1 2\n2 3 1 3 3 2\n4 2 3 3 1 3\n2 3 3 1 4 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/340.a.htm"
+    },
+    "341_4x4": {
+      "id": "341_4x4",
+      "problem": "4 4\n3 2 - -\n- - - -\n- - - -\n- - 3 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/341.a.htm"
+    },
+    "342_4x4": {
+      "id": "342_4x4",
+      "problem": "4 4\n2 - - -\n- 2 - -\n- - 3 3\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/342.a.htm"
+    },
+    "343_5x5": {
+      "id": "343_5x5",
+      "problem": "5 5\n3 3 4 - -\n- 2 1 - 3\n3 2 - - -\n- - - 3 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/343.a.htm"
+    },
+    "344_5x5": {
+      "id": "344_5x5",
+      "problem": "5 5\n- - 3 - 3\n4 - 2 4 -\n1 4 - - 4\n- - - 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/344.a.htm"
+    },
+    "345_5x5": {
+      "id": "345_5x5",
+      "problem": "5 5\n1 - - 2 -\n3 - 1 2 2\n- - 1 2 -\n4 - 4 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/345.a.htm"
+    },
+    "346_5x5": {
+      "id": "346_5x5",
+      "problem": "5 5\n- - 3 2 -\n3 4 2 3 1\n- 1 - - -\n- 2 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/346.a.htm"
+    },
+    "347_6x6": {
+      "id": "347_6x6",
+      "problem": "6 6\n2 2 2 3 3 1\n2 1 3 2 3 4\n3 3 3 1 3 2\n1 4 2 5 3 5\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/347.a.htm"
+    },
+    "348_6x6": {
+      "id": "348_6x6",
+      "problem": "6 6\n4 1 3 2 3 2\n1 3 2 2 2 2\n2 4 3 3 2 1\n2 2 2 1 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/348.a.htm"
+    },
+    "349_6x6": {
+      "id": "349_6x6",
+      "problem": "6 6\n3 2 1 1 3 2\n1 2 2 3 2 2\n3 2 2 2 2 1\n3 4 1 3 2 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/349.a.htm"
+    },
+    "350_6x6": {
+      "id": "350_6x6",
+      "problem": "6 6\n3 2 2 3 1 1\n2 2 1 1 4 3\n4 4 2 1 3 3\n1 1 2 2 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/350.a.htm"
+    },
+    "351_4x4": {
+      "id": "351_4x4",
+      "problem": "4 4\n3 - - -\n- 1 - -\n2 - 1 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/351.a.htm"
+    },
+    "352_4x4": {
+      "id": "352_4x4",
+      "problem": "4 4\n- - - 3\n1 - - -\n- - - -\n3 - 1 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/352.a.htm"
+    },
+    "353_5x5": {
+      "id": "353_5x5",
+      "problem": "5 5\n- - - - -\n1 - 2 5 4\n2 - - - 1\n- 1 2 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/353.a.htm"
+    },
+    "354_5x5": {
+      "id": "354_5x5",
+      "problem": "5 5\n- - 2 3 2\n- - - - -\n2 - 2 3 2\n2 - - 1 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/354.a.htm"
+    },
+    "355_5x5": {
+      "id": "355_5x5",
+      "problem": "5 5\n3 3 3 - 2\n1 - - - -\n2 2 - - 1\n- - 4 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/355.a.htm"
+    },
+    "356_5x5": {
+      "id": "356_5x5",
+      "problem": "5 5\n- 1 - - -\n- 4 3 1 2\n1 2 1 2 -\n- - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/356.a.htm"
+    },
+    "357_6x6": {
+      "id": "357_6x6",
+      "problem": "6 6\n2 2 4 1 3 2\n3 2 1 2 3 4\n3 5 1 4 2 3\n2 1 2 2 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/357.a.htm"
+    },
+    "358_6x6": {
+      "id": "358_6x6",
+      "problem": "6 6\n3 2 1 2 3 4\n2 2 2 3 1 2\n3 4 2 1 5 4\n2 3 2 2 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/358.a.htm"
+    },
+    "359_6x6": {
+      "id": "359_6x6",
+      "problem": "6 6\n3 1 2 4 2 2\n2 3 3 1 2 2\n2 4 2 1 3 2\n4 1 3 3 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/359.a.htm"
+    },
+    "360_6x6": {
+      "id": "360_6x6",
+      "problem": "6 6\n2 3 2 1 3 2\n3 2 2 4 1 3\n4 1 4 3 2 3\n2 2 1 3 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/360.a.htm"
+    },
+    "361_4x4": {
+      "id": "361_4x4",
+      "problem": "4 4\n1 - 2 -\n- - - 3\n- - - -\n- - 1 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/361.a.htm"
+    },
+    "362_4x4": {
+      "id": "362_4x4",
+      "problem": "4 4\n3 - - 3\n- - - -\n- - 2 -\n2 - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/362.a.htm"
+    },
+    "363_5x5": {
+      "id": "363_5x5",
+      "problem": "5 5\n- 2 - - 3\n- - 3 - 1\n- 1 - 3 -\n3 4 2 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/363.a.htm"
+    },
+    "364_5x5": {
+      "id": "364_5x5",
+      "problem": "5 5\n- 3 3 - 2\n- - 2 1 -\n1 5 - 3 4\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/364.a.htm"
+    },
+    "365_5x5": {
+      "id": "365_5x5",
+      "problem": "5 5\n3 2 2 - 2\n2 - - 2 -\n2 1 - - 2\n- - - 4 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/365.a.htm"
+    },
+    "366_5x5": {
+      "id": "366_5x5",
+      "problem": "5 5\n- 3 3 2 1\n4 - 1 2 -\n- - 3 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/366.a.htm"
+    },
+    "367_6x6": {
+      "id": "367_6x6",
+      "problem": "6 6\n1 4 3 4 2 4\n4 1 4 3 4 2\n1 4 3 2 3 2\n3 2 2 3 1 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/367.a.htm"
+    },
+    "368_6x6": {
+      "id": "368_6x6",
+      "problem": "6 6\n4 4 1 3 5 2\n1 2 3 3 2 3\n2 3 2 2 3 1\n2 1 3 3 2 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/368.a.htm"
+    },
+    "369_6x6": {
+      "id": "369_6x6",
+      "problem": "6 6\n2 3 2 2 3 1\n1 1 2 3 2 4\n2 2 2 3 1 1\n1 3 2 2 4 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/369.a.htm"
+    },
+    "370_6x6": {
+      "id": "370_6x6",
+      "problem": "6 6\n3 1 4 4 2 2\n2 2 2 2 1 2\n2 2 1 2 3 2\n3 1 4 4 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/370.a.htm"
+    },
+    "371_4x4": {
+      "id": "371_4x4",
+      "problem": "4 4\n- - 2 1\n- 3 - -\n- - - -\n- - - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/371.a.htm"
+    },
+    "372_4x4": {
+      "id": "372_4x4",
+      "problem": "4 4\n- - 1 2\n- - - -\n- - - -\n3 - - 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/372.a.htm"
+    },
+    "373_4x4": {
+      "id": "373_4x4",
+      "problem": "4 4\n- - - -\n3 3 - 1\n- 2 - -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/373.a.htm"
+    },
+    "374_5x5": {
+      "id": "374_5x5",
+      "problem": "5 5\n2 - 2 2 2\n- - - - 3\n- 1 - - -\n3 - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/374.a.htm"
+    },
+    "375_5x5": {
+      "id": "375_5x5",
+      "problem": "5 5\n- - - - 2\n5 1 - 3 4\n- - 2 2 -\n5 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/375.a.htm"
+    },
+    "376_5x5": {
+      "id": "376_5x5",
+      "problem": "5 5\n- - - 4 -\n- - - 1 -\n1 3 - 2 -\n4 3 - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/376.a.htm"
+    },
+    "377_5x5": {
+      "id": "377_5x5",
+      "problem": "5 5\n- 2 3 4 5\n- - 2 - -\n- 2 - - 2\n- - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/377.a.htm"
+    },
+    "378_6x6": {
+      "id": "378_6x6",
+      "problem": "6 6\n3 3 3 1 2 2\n1 2 3 5 4 4\n2 3 2 2 2 1\n3 1 2 2 3 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/378.a.htm"
+    },
+    "379_6x6": {
+      "id": "379_6x6",
+      "problem": "6 6\n2 1 2 3 2 2\n2 5 1 3 4 3\n2 3 4 3 1 2\n3 2 1 3 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/379.a.htm"
+    },
+    "380_6x6": {
+      "id": "380_6x6",
+      "problem": "6 6\n3 4 2 3 1 2\n2 2 2 3 3 1\n3 2 3 1 2 3\n2 4 3 4 3 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/380.a.htm"
+    },
+    "381_4x4": {
+      "id": "381_4x4",
+      "problem": "4 4\n- - 2 3\n- - 2 -\n- - - -\n- - - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/381.a.htm"
+    },
+    "382_4x4": {
+      "id": "382_4x4",
+      "problem": "4 4\n2 - - 3\n- 1 - -\n- - 1 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/382.a.htm"
+    },
+    "383_4x4": {
+      "id": "383_4x4",
+      "problem": "4 4\n- - - 1\n- - 3 -\n- 2 - 2\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/383.a.htm"
+    },
+    "384_5x5": {
+      "id": "384_5x5",
+      "problem": "5 5\n- - - - 2\n2 1 4 3 -\n- 5 4 - -\n- 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/384.a.htm"
+    },
+    "385_5x5": {
+      "id": "385_5x5",
+      "problem": "5 5\n- - - 2 -\n4 3 - 4 -\n1 4 - - -\n3 - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/385.a.htm"
+    },
+    "386_5x5": {
+      "id": "386_5x5",
+      "problem": "5 5\n- - - 3 -\n- - 3 2 1\n3 2 4 - -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/386.a.htm"
+    },
+    "387_5x5": {
+      "id": "387_5x5",
+      "problem": "5 5\n1 4 3 2 -\n- 2 - - 1\n- - - - 5\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/387.a.htm"
+    },
+    "388_6x6": {
+      "id": "388_6x6",
+      "problem": "6 6\n3 3 1 2 2 4\n2 1 3 2 2 2\n3 2 1 4 3 2\n4 2 2 1 3 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/388.a.htm"
+    },
+    "389_6x6": {
+      "id": "389_6x6",
+      "problem": "6 6\n3 2 2 2 1 2\n1 2 2 3 5 4\n3 4 3 3 2 1\n2 1 2 3 4 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/389.a.htm"
+    },
+    "390_6x6": {
+      "id": "390_6x6",
+      "problem": "6 6\n2 3 3 4 4 1\n3 3 4 1 2 3\n2 1 2 2 2 2\n1 6 4 5 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/390.a.htm"
+    },
+    "391_4x4": {
+      "id": "391_4x4",
+      "problem": "4 4\n- - 2 -\n- - - -\n- 1 3 3\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/391.a.htm"
+    },
+    "392_4x4": {
+      "id": "392_4x4",
+      "problem": "4 4\n- - 1 3\n- - - -\n- 3 1 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/392.a.htm"
+    },
+    "393_4x4": {
+      "id": "393_4x4",
+      "problem": "4 4\n- - - -\n3 2 - -\n- - 3 3\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/393.a.htm"
+    },
+    "394_5x5": {
+      "id": "394_5x5",
+      "problem": "5 5\n4 - - 5 -\n2 2 2 - -\n- - 2 - -\n- 4 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/394.a.htm"
+    },
+    "395_5x5": {
+      "id": "395_5x5",
+      "problem": "5 5\n4 5 - - 1\n- - - 2 -\n- 3 2 1 -\n1 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/395.a.htm"
+    },
+    "396_5x5": {
+      "id": "396_5x5",
+      "problem": "5 5\n2 2 - 2 2\n- - - 2 -\n- - 2 3 -\n- 3 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/396.a.htm"
+    },
+    "397_5x5": {
+      "id": "397_5x5",
+      "problem": "5 5\n- 2 1 2 -\n- 3 5 1 -\n2 - - - -\n- 1 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/397.a.htm"
+    },
+    "398_6x6": {
+      "id": "398_6x6",
+      "problem": "6 6\n3 3 1 2 3 4\n4 2 2 2 3 1\n3 3 1 2 2 4\n4 3 2 2 3 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/398.a.htm"
+    },
+    "399_6x6": {
+      "id": "399_6x6",
+      "problem": "6 6\n1 2 2 2 3 3\n3 3 2 4 1 2\n1 2 2 2 3 2\n5 3 1 4 4 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/399.a.htm"
+    },
+    "400_6x6": {
+      "id": "400_6x6",
+      "problem": "6 6\n3 3 1 4 2 5\n3 2 2 3 2 1\n3 3 1 4 2 4\n3 2 3 2 3 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/400.a.htm"
+    },
+    "401_4x4": {
+      "id": "401_4x4",
+      "problem": "4 4\n- - - -\n3 - - 3\n- 1 - -\n- - - 2\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/401.a.htm"
+    },
+    "402_4x4": {
+      "id": "402_4x4",
+      "problem": "4 4\n- - - -\n1 - - 1\n1 - 2 -\n- - - -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/402.a.htm"
+    },
+    "403_5x5": {
+      "id": "403_5x5",
+      "problem": "5 5\n- 4 4 - -\n- - - 2 -\n2 1 - - 2\n2 - 1 3 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/403.a.htm"
+    },
+    "404_5x5": {
+      "id": "404_5x5",
+      "problem": "5 5\n- - 2 - 1\n- - 2 2 3\n- - 2 2 -\n4 - 3 - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/404.a.htm"
+    },
+    "405_5x5": {
+      "id": "405_5x5",
+      "problem": "5 5\n- - - - -\n4 - 3 - -\n- 1 - - 3\n2 - 3 3 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/405.a.htm"
+    },
+    "406_5x5": {
+      "id": "406_5x5",
+      "problem": "5 5\n4 - - 1 4\n- - 2 - -\n- 3 2 1 -\n- 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/406.a.htm"
+    },
+    "407_5x5": {
+      "id": "407_5x5",
+      "problem": "5 5\n- 3 1 4 5\n- - 2 2 1\n- - - - 3\n3 - 3 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/407.a.htm"
+    },
+    "408_5x5": {
+      "id": "408_5x5",
+      "problem": "5 5\n4 - 2 - -\n- - 3 3 1\n- 2 2 1 2\n4 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/408.a.htm"
+    },
+    "409_5x5": {
+      "id": "409_5x5",
+      "problem": "5 5\n- 5 - 3 -\n- - - - -\n3 - 2 1 -\n- - 2 3 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/409.a.htm"
+    },
+    "410_4x4": {
+      "id": "410_4x4",
+      "problem": "4 4\n- - - -\n- - - 1\n- - 2 -\n2 - - 3\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/410.a.htm"
+    },
+    "411_4x4": {
+      "id": "411_4x4",
+      "problem": "4 4\n- - - 1\n- - 3 -\n- - - 2\n- - 3 -\n- - - -\n- - - -\n- - - -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/411.a.htm"
+    },
+    "412_5x5": {
+      "id": "412_5x5",
+      "problem": "5 5\n2 - 3 - 1\n3 1 - - -\n- 1 2 1 -\n1 4 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/412.a.htm"
+    },
+    "413_5x5": {
+      "id": "413_5x5",
+      "problem": "5 5\n- - 3 - 3\n- 3 2 3 -\n- 3 - - 4\n3 2 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/413.a.htm"
+    },
+    "414_5x5": {
+      "id": "414_5x5",
+      "problem": "5 5\n2 - - 2 -\n- - 4 - 4\n3 - - - -\n- 1 - 2 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/414.a.htm"
+    },
+    "415_5x5": {
+      "id": "415_5x5",
+      "problem": "5 5\n- - - - -\n2 4 3 - -\n- - 1 - 4\n- - 2 1 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/415.a.htm"
+    },
+    "416_5x5": {
+      "id": "416_5x5",
+      "problem": "5 5\n- 3 4 3 -\n2 - 1 3 -\n- - - - 2\n1 4 - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/416.a.htm"
+    },
+    "417_5x5": {
+      "id": "417_5x5",
+      "problem": "5 5\n- 1 - - 2\n3 4 3 2 -\n- - 1 3 -\n2 - - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/417.a.htm"
+    },
+    "418_5x5": {
+      "id": "418_5x5",
+      "problem": "5 5\n2 - - - 2\n- 4 5 1 -\n- - 1 - -\n- 4 5 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/418.a.htm"
+    },
+    "419_5x5": {
+      "id": "419_5x5",
+      "problem": "5 5\n2 2 - - -\n- 4 1 - 5\n- - - 2 -\n1 2 - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/419.a.htm"
+    },
+    "420_6x6": {
+      "id": "420_6x6",
+      "problem": "6 6\n2 4 2 1 3 3\n3 1 2 2 2 2\n3 1 2 2 3 2\n2 3 2 1 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/420.a.htm"
+    },
+    "421_5x5": {
+      "id": "421_5x5",
+      "problem": "5 5\n- 2 4 - -\n1 - 2 - -\n- - - 3 -\n- 2 1 - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/421.a.htm"
+    },
+    "422_5x5": {
+      "id": "422_5x5",
+      "problem": "5 5\n- 2 2 - 2\n- 3 - - -\n2 2 - - 2\n- - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/422.a.htm"
+    },
+    "423_5x5": {
+      "id": "423_5x5",
+      "problem": "5 5\n4 3 - - 3\n- - - - 2\n3 - - 1 1\n- - - 3 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/423.a.htm"
+    },
+    "424_5x5": {
+      "id": "424_5x5",
+      "problem": "5 5\n1 - 4 - -\n3 - 1 - 1\n- 3 - 4 -\n- - - 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/424.a.htm"
+    },
+    "425_5x5": {
+      "id": "425_5x5",
+      "problem": "5 5\n- 3 - - -\n2 - - - -\n4 1 3 - 4\n- - - 2 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/425.a.htm"
+    },
+    "426_6x6": {
+      "id": "426_6x6",
+      "problem": "6 6\n1 3 - 2 2 2\n4 - - 2 1 3\n1 3 4 2 4 5\n3 - - 3 - 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/426.a.htm"
+    },
+    "427_6x6": {
+      "id": "427_6x6",
+      "problem": "6 6\n2 5 5 1 4 3\n3 - 2 - 3 -\n2 1 4 3 2 2\n2 - - 2 3 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/427.a.htm"
+    },
+    "428_6x6": {
+      "id": "428_6x6",
+      "problem": "6 6\n3 3 2 5 1 4\n- 3 2 1 2 -\n- 2 2 - 4 -\n- 2 2 3 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/428.a.htm"
+    },
+    "429_6x6": {
+      "id": "429_6x6",
+      "problem": "6 6\n4 5 3 2 4 1\n2 1 3 3 2 3\n4 4 3 3 1 2\n1 2 3 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/429.a.htm"
+    },
+    "430_6x6": {
+      "id": "430_6x6",
+      "problem": "6 6\n2 1 4 3 4 1\n3 4 1 2 2 3\n2 3 1 3 3 3\n3 1 4 3 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/430.a.htm"
+    },
+    "431_5x5": {
+      "id": "431_5x5",
+      "problem": "5 5\n4 2 5 - 1\n2 - - - -\n- - - - -\n1 3 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/431.a.htm"
+    },
+    "432_5x5": {
+      "id": "432_5x5",
+      "problem": "5 5\n- - - 4 -\n- - 2 - -\n- 2 3 2 -\n3 2 - - 4\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/432.a.htm"
+    },
+    "433_5x5": {
+      "id": "433_5x5",
+      "problem": "5 5\n- 2 1 - -\n- 2 - 1 3\n- 4 - - 4\n- - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/433.a.htm"
+    },
+    "434_5x5": {
+      "id": "434_5x5",
+      "problem": "5 5\n2 - 2 1 -\n- 3 - - -\n4 - 2 - 4\n- - - - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/434.a.htm"
+    },
+    "435_5x5": {
+      "id": "435_5x5",
+      "problem": "5 5\n1 4 - 4 -\n- - 2 - 2\n1 - 4 - -\n- - 1 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/435.a.htm"
+    },
+    "436_6x6": {
+      "id": "436_6x6",
+      "problem": "6 6\n3 - 5 4 1 2\n3 - - 2 2 2\n- 3 1 2 4 3\n2 1 - 4 - 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/436.a.htm"
+    },
+    "437_6x6": {
+      "id": "437_6x6",
+      "problem": "6 6\n- 2 2 - 1 2\n2 - 1 - 6 4\n3 3 - 2 1 2\n2 3 1 2 3 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/437.a.htm"
+    },
+    "438_6x6": {
+      "id": "438_6x6",
+      "problem": "6 6\n1 4 4 - 2 3\n3 - 1 2 - 3\n- 5 4 2 4 3\n- 2 1 3 2 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/438.a.htm"
+    },
+    "439_6x6": {
+      "id": "439_6x6",
+      "problem": "6 6\n3 2 1 3 4 4\n2 2 2 3 1 1\n3 2 3 1 4 4\n3 4 3 4 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/439.a.htm"
+    },
+    "440_6x6": {
+      "id": "440_6x6",
+      "problem": "6 6\n2 2 2 3 1 1\n2 1 3 3 4 4\n3 3 2 3 1 2\n1 2 4 3 5 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/440.a.htm"
+    },
+    "441_5x5": {
+      "id": "441_5x5",
+      "problem": "5 5\n2 - - - 2\n3 4 - 1 2\n- 2 - - 2\n3 - - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/441.a.htm"
+    },
+    "442_5x5": {
+      "id": "442_5x5",
+      "problem": "5 5\n- 2 - 2 -\n5 - 3 - 1\n- - 3 4 -\n2 - 2 - 1\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/442.a.htm"
+    },
+    "443_5x5": {
+      "id": "443_5x5",
+      "problem": "5 5\n3 4 4 - -\n3 1 - - -\n- - - 2 2\n- 2 - 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/443.a.htm"
+    },
+    "444_5x5": {
+      "id": "444_5x5",
+      "problem": "5 5\n2 1 - - 2\n- 4 1 4 2\n3 - 1 - -\n2 - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/444.a.htm"
+    },
+    "445_5x5": {
+      "id": "445_5x5",
+      "problem": "5 5\n2 - - 2 -\n- 3 - 2 -\n3 1 - 4 4\n- - 2 1 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/445.a.htm"
+    },
+    "446_6x6": {
+      "id": "446_6x6",
+      "problem": "6 6\n3 4 1 2 2 2\n- 1 3 - 2 3\n2 3 2 1 2 -\n3 2 - - 2 -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/446.a.htm"
+    },
+    "447_6x6": {
+      "id": "447_6x6",
+      "problem": "6 6\n- 2 2 2 2 -\n6 3 2 - 4 1\n1 - 3 2 3 4\n2 2 2 3 - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/447.a.htm"
+    },
+    "448_6x6": {
+      "id": "448_6x6",
+      "problem": "6 6\n- - 4 2 1 2\n3 3 - 2 3 2\n- 2 1 2 - -\n2 3 6 5 1 4\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/448.a.htm"
+    },
+    "449_6x6": {
+      "id": "449_6x6",
+      "problem": "6 6\n1 2 3 2 2 2\n3 3 1 2 3 2\n1 2 3 1 2 2\n3 2 2 3 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/449.a.htm"
+    },
+    "450_6x6": {
+      "id": "450_6x6",
+      "problem": "6 6\n3 4 2 1 4 4\n2 1 2 2 2 2\n3 2 1 3 3 2\n2 2 2 1 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/450.a.htm"
+    },
+    "451_5x5": {
+      "id": "451_5x5",
+      "problem": "5 5\n- 2 - 5 1\n2 2 2 - 2\n3 - 2 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/451.a.htm"
+    },
+    "452_5x5": {
+      "id": "452_5x5",
+      "problem": "5 5\n4 - - 3 1\n- 3 - - 3\n- - 2 - 2\n1 - - 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/452.a.htm"
+    },
+    "453_5x5": {
+      "id": "453_5x5",
+      "problem": "5 5\n- 3 2 1 -\n- 2 - 2 -\n4 3 4 - -\n- - - 3 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/453.a.htm"
+    },
+    "454_5x5": {
+      "id": "454_5x5",
+      "problem": "5 5\n4 3 2 - -\n1 - 3 - -\n- 3 4 2 -\n- 2 - - 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/454.a.htm"
+    },
+    "455_5x5": {
+      "id": "455_5x5",
+      "problem": "5 5\n- - - 3 -\n- 3 4 - -\n3 - 4 3 -\n- 3 1 2 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/455.a.htm"
+    },
+    "456_6x6": {
+      "id": "456_6x6",
+      "problem": "6 6\n1 3 - 2 - -\n3 1 2 4 3 -\n1 3 4 2 - -\n2 2 2 2 1 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/456.a.htm"
+    },
+    "457_6x6": {
+      "id": "457_6x6",
+      "problem": "6 6\n- 3 - 4 3 -\n- 2 - - 2 3\n1 6 2 5 4 3\n2 1 2 2 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/457.a.htm"
+    },
+    "458_6x6": {
+      "id": "458_6x6",
+      "problem": "6 6\n2 - 1 2 3 4\n- 2 - - 2 1\n2 1 2 2 2 2\n- 6 3 - 2 1\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/458.a.htm"
+    },
+    "459_6x6": {
+      "id": "459_6x6",
+      "problem": "6 6\n2 2 2 2 1 2\n2 1 3 4 3 3\n3 4 4 3 1 2\n2 2 1 3 2 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/459.a.htm"
+    },
+    "460_6x6": {
+      "id": "460_6x6",
+      "problem": "6 6\n3 4 4 3 1 2\n1 2 2 2 3 2\n2 2 3 3 2 1\n2 1 3 3 3 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/460.a.htm"
+    },
+    "461_5x5": {
+      "id": "461_5x5",
+      "problem": "5 5\n3 - 2 - -\n- - - - -\n4 2 3 4 1\n1 - 3 - 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/461.a.htm"
+    },
+    "462_5x5": {
+      "id": "462_5x5",
+      "problem": "5 5\n- 3 4 4 -\n- 3 - 1 3\n- - - - 3\n2 1 - 2 -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/462.a.htm"
+    },
+    "463_5x5": {
+      "id": "463_5x5",
+      "problem": "5 5\n3 4 2 1 4\n3 - - 3 -\n- - 1 - -\n2 - 2 - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/463.a.htm"
+    },
+    "464_5x5": {
+      "id": "464_5x5",
+      "problem": "5 5\n- - - 1 4\n1 2 2 - -\n- 2 2 - 1\n- - - 1 2\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/464.a.htm"
+    },
+    "465_5x5": {
+      "id": "465_5x5",
+      "problem": "5 5\n- 2 2 - -\n- - 1 3 -\n1 - 2 - 2\n- - 1 3 3\n- - - - -\n- - - - -\n- - - - -\n- - - - -\n- - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/465.a.htm"
+    },
+    "466_6x6": {
+      "id": "466_6x6",
+      "problem": "6 6\n3 - 2 2 2 -\n1 4 2 3 - 3\n2 3 3 - 3 1\n- 1 - 2 2 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/466.a.htm"
+    },
+    "467_6x6": {
+      "id": "467_6x6",
+      "problem": "6 6\n2 1 - 2 3 3\n- 5 2 1 4 3\n2 1 3 4 - -\n3 2 - 1 - 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/467.a.htm"
+    },
+    "468_6x6": {
+      "id": "468_6x6",
+      "problem": "6 6\n3 3 - - 2 4\n2 3 1 - 2 2\n3 2 - 1 4 2\n3 2 - 3 - 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/468.a.htm"
+    },
+    "469_6x6": {
+      "id": "469_6x6",
+      "problem": "6 6\n2 1 3 3 4 3\n3 3 2 1 1 2\n2 1 4 3 3 4\n4 4 1 3 3 2\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/469.a.htm"
+    },
+    "470_6x6": {
+      "id": "470_6x6",
+      "problem": "6 6\n4 2 3 3 1 3\n2 2 1 2 2 2\n3 2 3 2 1 3\n2 2 3 1 3 3\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Wolkenkratzer/470.a.htm"
+    }
+  }
+}

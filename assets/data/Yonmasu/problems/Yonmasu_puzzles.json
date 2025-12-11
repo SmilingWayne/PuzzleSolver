@@ -1,0 +1,605 @@
+{
+  "count": 120,
+  "puzzles": {
+    "01_6x6": {
+      "id": "01_6x6",
+      "problem": "6 6\nx - x - - -\n- o - x - o\nx - - o - -\n- - - o o x\n- o x - - -\no - - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/001.a.htm"
+    },
+    "02_6x6": {
+      "id": "02_6x6",
+      "problem": "6 6\n- o - x - x\n- - - - - -\no x o - o x\nx o - - x -\n- - o - o -\nx - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/002.a.htm"
+    },
+    "03_6x6": {
+      "id": "03_6x6",
+      "problem": "6 6\no - - x - -\nx - - o - x\no - o - x -\n- x - - - o\nx o - o - x\n- - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/003.a.htm"
+    },
+    "04_6x6": {
+      "id": "04_6x6",
+      "problem": "6 6\nx - o - - o\n- x - x - -\no - o - o x\nx - - - - -\n- - x - x -\n- o - o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/004.a.htm"
+    },
+    "05_7x7": {
+      "id": "05_7x7",
+      "problem": "7 7\no x o - x - x\n- - - x - o -\n- x o - - x -\n- - o x - - -\no x - - o x -\n- - - x - o o\nx - x - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/005.a.htm"
+    },
+    "06_7x7": {
+      "id": "06_7x7",
+      "problem": "7 7\n- x o x - o -\n- o - - o - -\n- x - - - x -\n- - - x o - o\n- x - o - x -\n- - - - o - -\no o - x - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/006.a.htm"
+    },
+    "07_7x7": {
+      "id": "07_7x7",
+      "problem": "7 7\n- x - o x - x\no - - x o - -\n- x - - - - x\n- - o x o - -\nx - - - - x -\n- - o x - o -\nx o x - - x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/007.a.htm"
+    },
+    "08_7x7": {
+      "id": "08_7x7",
+      "problem": "7 7\n- x o - - x -\no - - x - - -\n- x - - - - o\n- - - x - - o\n- o o - - x -\n- - o x o - -\no x - - - x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "problem": "8 8\no - - x - o - x\n- x - - - x - -\nx - o x - - - x\n- x - o o o - -\n- - o - - - x o\nx - - - x o - x\no - x - - - x o\nx - o - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "problem": "8 8\n- o - x - x - x\nx - x - o - o -\n- - o - x - - x\nx - - - - o - -\no - - - - o - x\nx o - x - o - -\n- - - - o x - x\nx o x - x o - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/010.a.htm"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "problem": "8 8\n- x - x - x - x\no - - - o - o -\n- - o x - x - x\no x - - - o - -\n- - o - - o x o\nx o x - x - - -\n- - - - o - - -\nx - x - x o x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/011.a.htm"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "problem": "8 8\nx - x - - - - o\n- - - - o - x -\no x - - x o - x\nx - o o - x - -\n- o x o - o - x\nx - - x - - x -\n- x - o - - - o\no - - - - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/012.a.htm"
+    },
+    "13_9x9": {
+      "id": "13_9x9",
+      "problem": "9 9\nx - x - x - x - x\n- o - - o - - - o\n- x o - - x - x o\n- o x - - - - - -\n- x - - x - o x -\n- o - o - o x - o\n- x - x - o o x -\n- o - - - - - - -\nx - x o x - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/013.a.htm"
+    },
+    "14_9x9": {
+      "id": "14_9x9",
+      "problem": "9 9\nx o - x - o - o x\n- o - - x - - x -\n- - x - - - - - -\n- x - - - - - x o\n- - o o x o - - o\no x - o - o - x -\n- - - - - - x o -\n- x - - x o - - -\nx - o - o x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/014.a.htm"
+    },
+    "15_9x9": {
+      "id": "15_9x9",
+      "problem": "9 9\nx - - o - x - - x\n- o x - - o - - -\n- x - o x o x o -\nx - - - - - o - x\n- o x - x - x - -\nx - o o - o - - x\n- - x - x - - x -\n- o - o - o x o -\nx - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/015.a.htm"
+    },
+    "16_9x9": {
+      "id": "16_9x9",
+      "problem": "9 9\nx - o - - x - - x\n- - x - - - x - o\nx - - o o - - o x\n- o x - - x - - -\n- x - o x o - x -\n- - - x - - x o -\nx o o - - - o o x\n- o x - o - x - -\nx - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/016.a.htm"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "problem": "10 10\nx o - x - - - x - x\n- - - - o x - - - -\nx - - x - - - o x -\n- - o o - x - o - o\no x - - o - x - - x\nx o - x - - o - x o\n- - o - x - - o - -\n- x o o - - x - - x\n- o - - x - o - o -\nx - x - - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "problem": "10 10\nx o - - x - - o x -\n- o - x - - x - - o\n- - - - - - - - x -\nx - o x - o x o o x\no x - - - o o x - -\n- - x - o - - - x -\nx - - x - - x - o x\n- x o - o - o - - -\n- - - x o - x - - -\no x - - - x - o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "problem": "10 10\nx o - - o x o - x -\n- - - x - - - x o -\nx - - - o o - - - x\n- x o - x - x o - -\n- - - x - o - o x -\no x - - o - x - - -\n- - - x - x - - x o\nx - - o - o - - o x\no - x o - o x - - -\n- x - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/019.a.htm"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "problem": "10 10\n- - - x - o x o - x\nx - o - - - - - - -\n- o x - x - - x - x\no - - - - x o - - o\n- - o x o - - x - x\nx - x - - - x - o -\n- o - o x - - o o -\nx o x - o x - x - -\n- - - o - - o - - x\nx - - x - - x o - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "problem": "10 10\nx o - o - x o o - x\n- - x - - - - x - o\n- x o - x - x - - -\nx - - - - x - o x -\n- - - o o - x - - -\n- o - x o - - - - o\n- x - - x - - - o x\n- o - x - x - - x o\no - x - - - - x - -\nx - - o x o o - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "problem": "10 10\nx - o - - - x o - x\n- - o x o x o - - -\n- x - - x - - x o -\n- o x - - o o - - x\nx - - - - - - x - -\n- - x - o - - - o x\nx - o - - - - x - o\n- - x o - x - o x -\n- o - - x - x o - -\nx o - x - o - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "problem": "10 10\n- o - x - - x - o -\nx - - - x - o x - x\no - x - o - o - o o\n- x - - x - - - x -\nx - - - o - x - - -\no - - x - - o o - x\n- x - - - x - - x -\no - - - o - o x - o\nx - x - - x - - - x\no - - x o - x - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "problem": "10 10\nx - - - - x o - - x\no - o x o - x - - -\nx - x - - o - o - x\n- x o x o x - - o -\no - - - - - - x o -\n- - x - o o - - - -\n- - - - x o x - x -\nx o o - - - - x - x\n- - o x - - x o o -\nx - - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "problem": "10 10\n- o - - - o - x o -\nx - - - x - x - - -\n- o x - o - o - - x\nx - - x - x - x o -\n- o x - - - o - x -\n- x - o - - o x o -\no - x - x - x - - x\nx - - - o o - x - -\n- - - x - x - - o x\n- o x o - - - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "problem": "10 10\no - x - x - x - o -\n- - - - - o - - x -\n- x o - x - x - o -\n- - o - o x - x o -\nx o - x - - - - x -\n- x - o - - x o o x\no - x - x - o - - -\n- - - x - x - o x -\no x - - o - - - - -\n- - o x - x - x o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/026.a.htm"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "problem": "10 10\n- x - o x - o - - x\no - x - - x - x - o\n- x - x - - o - o -\no o - - - x - - x -\n- - - - - - x - - x\nx o - x o - o - o -\n- x - - x o - - o -\no - - o - - x - x -\no - x - x - - x - -\nx - - - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "problem": "10 10\n- x - o - x o - - x\n- - - x o - o x - o\no x - - - x - - - -\nx o - o x - x - - x\n- - x - - - o - - -\n- - o o - - - x o -\nx - o x - x - - o x\n- - - - x - - - x -\no - x - - - x - - o\nx - o - x o o - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/028.a.htm"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "problem": "10 10\nx - x - x - o - - -\n- o o - o - - - x o\n- x - - o - - x - -\nx - x - x - x - o -\n- - - x o - - - x o\no x o - - - x - o -\n- - - x - x - x - x\n- o x o - o o - x -\n- x - o - - - - o -\n- - o - - x - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/029.a.htm"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "problem": "10 10\nx o - x - x o - o -\n- - - o - - - x - x\nx o x - x o - - o -\n- - - - o - - x - x\n- x - x o - - - - -\n- - o - - - x - x o\nx - x - o - - - - o\n- - o - - x - x - x\nx - x - o - - o o -\n- o - o x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "problem": "10 10\nx - - - - - - x - x\n- - - x - x - o - o\no x - o o - - o x -\n- - o o x - x o - x\nx - x - - - - o - -\n- o - - o - - x o x\nx o - x - x o - - -\n- x - - - - - - x -\no - o - x o x o - -\nx - x - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "problem": "10 10\nx o - x o o x - x -\n- - x - - - - - - -\nx - - o - - x o x -\no x - x - x - o - o\n- - o - o o - x - -\n- - x o - - - o - o\n- - - - x - x - x -\n- x - x - o - - - x\n- - - o - o - x - o\no x - x - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "problem": "10 10\n- - x - o - x - - -\no x - - x o - - x o\n- - o - - - - x - -\nx - x o - x o - o -\n- o - x - - - x - x\nx - x - o o x - o -\no o - o x - - x - x\n- - x - - - - - o -\n- x - o o x - - x -\n- - - x - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/033.a.htm"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "problem": "10 10\nx - - - - x - o - -\n- x - o o - - x - x\no - - x - x - o - -\nx o - o o - x - x o\n- - x - - - o - - x\nx o - - - o - x o -\no x - x - - - - - x\n- - - o x - x o - -\nx - x - - - - o x -\n- - - o x - - o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/034.a.htm"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "problem": "10 10\nx - - x - o x o - x\no - - - - - - - x -\nx o - o x - - x - o\n- o - x - x - - - o\nx - - o - - o x - -\n- o x - - - - o - x\n- - - o x - x o - -\n- o x - - x - - - x\n- x - o - - - o - -\nx - - x - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "problem": "10 10\nx - o - x - - - - -\n- - x o - x - o - o\nx - o - o - - o x -\n- - x - x - x - - -\nx o - x - - - - x o\n- x - - - o x o - x\no - - x - x - x - o\n- x o - - o o - - x\no - o - x - - x - -\n- - - - - x - - o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/036.a.htm"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "problem": "10 10\n- - x - x - o o - -\nx - o o - x - - x -\n- - x - x o - o - -\nx - o x - - x o - x\n- o x - - o - - - -\n- - - - - o - x o -\nx o - x - - x - - x\no - - o - x - x o -\no x - - x - o - o x\n- - - - - x - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/037.a.htm"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "problem": "10 10\no - - - - - x o - -\n- - x o x - o x - -\nx - - o - - o - - x\n- x - x - x - x - o\no - o - - o x - - x\nx - - x - - - o o -\n- - x - x - x - x -\nx - - - o - - - - x\n- o x o - x - x o o\n- o - x - o - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "problem": "10 10\nx - - - x - x - - x\n- - x - o - o - - o\no x - - - o x - x -\nx o - x - o - - - -\n- - - - - - x o - x\nx o - x - - - - o -\n- o - - - o x - o x\no x - x - o - - x -\n- - o - - o - x - -\nx - - x - x - o o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "problem": "10 10\nx - o x - x - - - x\n- - - - o - x - o -\nx - o - - x o - x -\n- - x o - - - - o -\nx o - x - - - x - -\n- - x - o o x - o x\n- o - - - o - x o -\n- x - - x o o - - x\n- - o x - - - - - o\nx - o - x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "problem": "10 10\n- - o o - o - x - -\n- - o - - o - - o -\n- - - x - - - - x -\nx - - - - x - - o -\n- o x o o - o o - -\n- - - o - - - x - -\n- - o o x - - o o x\n- x - - o - x - - -\n- - - - - o - o - -\n- o x o - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "problem": "10 10\n- - x - - - x - o o\no - - - o - - - - -\no - o - - o - x o -\n- - - o x - - o - -\nx - - o - - x - - -\no - - x - - - - o x\no o o - o x - - - -\n- - x - - - - - o -\n- - - o - - o - o -\n- - - x - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "problem": "10 10\n- o - x - - - x - -\no - - - - x - - - -\n- x - - o - o - - o\n- o - - x o - o x -\n- o o - - - - - - -\n- o - - - - - - - o\n- x o - - x o o - o\no - - - - - o - x -\n- - - o x o - - - -\n- - x - - - x o - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "problem": "10 10\n- o - o - - - o - -\nx - - x - o - o - x\n- o - - - o - - - o\n- x - - - - - x - o\n- - - o - o - - - x\nx - - o - o - - o o\no - x o - - o - x -\n- - - - - o - - - -\nx - - o - - x - - x\n- o - - - - - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "problem": "10 10\n- - - - - - - x o -\no - o x - - o - o -\nx - - - - - o - - -\n- o x - - - x - o x\n- - - - - - o - - -\n- o o - o - - - - -\nx - - x - - o x - o\no - o - - - o o - x\n- - o - - - x o - -\no - x - - - - - - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "problem": "10 10\no - - x - o x - - -\no - - - - - - - - o\n- - x o - - - x - o\no - - - - - - - - x\no - - o - - x o o -\n- - - x o - - - - o\nx - - - o - - - o -\n- - x - o - o x o -\n- o - - - - - o - -\n- o - x o - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "problem": "10 10\n- x o - o - - o o -\no - - x - - - - - -\nx - - o - - x - o -\n- o x o o - - - - x\no - - - o - - - o -\n- - - - - o - - o -\nx - - o - - - x - -\no - - x - - - - - x\no o - - - - x - o -\n- - - o - - o - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "problem": "10 10\n- - o o - o - - - o\nx - - - - o x o - x\n- - x - - - - - - -\n- o - - - x - - - -\n- o - o - o - o x -\n- x o - - - - - o -\no o - - x - - - - -\n- o - - - - - x o -\nx - - x - o - o - x\n- o - - - - o - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "problem": "10 10\nx o - x o - - o - -\n- - o o - - x - - -\no - - - - - - - - x\no - - - - - - o - o\n- x - o - o x - - -\n- - - x o - o - x -\no - o - - - - - - -\nx - - o - - o o - o\no - o x - - - o - -\n- - - - - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "problem": "10 10\n- - - - - x - o - -\nx - - o o - - - x -\n- o - o x - o - o -\n- - - - - o x - o -\n- o - - - o - - - x\nx - o - - o - - - -\n- - - x - o - - o -\no - - - - x o - - -\n- x o - o - o o - x\n- - - - x - - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "problem": "10 10\n- - o - x o - o - -\n- - - x - - - - - -\no x o - - o o - x -\n- - x o - - - x - o\nx - o - - - x - - -\n- o - x - - - - - x\n- o x o - o o x - o\n- x - - - - - o x -\n- o - - - - x - o o\n- - o - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "problem": "10 10\n- o - x o - - - o -\n- x - o o x - - x -\n- - - - - - - x o -\no - - - - - x - - x\n- - x - o o o - - -\no o - - o - - x - o\nx o - x - - - - - -\n- - x o - - o o - -\n- x - o x - - - x -\n- o - - - - x - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "problem": "10 10\n- - - - - - - - - x\no - o x - o o - x -\n- - x - - x - - - o\no x - - o o - - - -\n- o - x o - o - - x\nx - - - - - x o - -\n- - - o - o o - x -\no - o - x - - x o -\n- x - o - o x - - o\nx - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "problem": "10 10\n- - - x - - - x - -\no - o - - o - - - -\no - x o - x o - - o\n- x - - x - - - - x\n- - - - - - x o - o\no - o x - - o - - o\nx - - - - x - o x -\no - o - x - - x - o\no - - - o - o - - o\n- - x - - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "problem": "10 10\n- x - o o - - x o -\n- - x - - - x - - x\nx o - - - o - o o -\n- - - - - x - - - -\no x - o o - - - - -\no - - - o - - - x -\n- - - - x o - o o -\n- o - - o o - - - x\nx - - x - - - x o -\n- - x o - o - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "problem": "10 10\n- x - - - - - x o -\n- o - o - x - o - x\n- o - o - - - - - -\n- x - o - o - x - -\nx - - - - - x o - o\n- - o x - o - - - x\no - x - - - - o x -\n- - - o o - o o - o\nx - o o x - - - - -\n- - x - - - - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "problem": "10 10\no - x - - - x - - x\nx - o - - - - o - -\n- - - - o - - - x -\n- - x - o x o o - o\n- - - - o - x o - -\no - o x - - - - o -\no - - - x - - x o -\no x o o - - o - - -\n- - - - - o - - - x\nx - - x - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "problem": "10 10\n- - x - - o o o - x\n- - - - - - - x - -\n- o o - - - x o - -\nx - - - x - o - x -\no - x o - o - o - -\n- - - - - - - x o o\n- x - - o x o - - x\no - - x - - - - o o\n- o x o o - - - - -\nx - - - - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "problem": "10 10\n- o - o x - - o x -\nx o - - - - - o - o\n- - - x - - - o - x\n- - x - - - o - x -\no o - o - o x - - -\n- - - x - - - - - o\n- x - - - - - x - -\nx o - o - - x - - o\no - - - o - - - - x\n- x - o - x o - - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/059.a.htm"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "problem": "10 10\nx - - x o - - o - o\n- - - - o x - - - -\no x - - o - o - - o\n- - - x - - x - - x\n- o - - - o - x - -\n- - x - - o o - - -\nx o - x - o x - - o\n- - - - - - - - x o\n- o - - x o - o - -\n- - o - o - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "problem": "10 10\no - - x - - o o - x\nx - - - - x - - x -\n- - - o - - x o o -\n- x - - - o - - - x\no o - o o - - o o -\n- - - - - - - - - -\nx o - - - - o - x -\n- - - x - o o - o -\n- x - - x - - o - x\nx o - o - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "problem": "10 10\no - - x o - o x o -\no x - - - - - - - -\n- - - - - - x - o x\n- - - - x - o o - -\n- o x - o - - - x -\n- x - - o - - x - o\no o - - - x - - o o\nx - - x - o o - - -\no - - - o - - - x -\n- - x - - - x - - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/062.a.htm"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "problem": "10 10\n- - x o - - - - - -\n- - o - x - - - o x\n- o - x - o x - o -\n- x - o - - - x - -\n- - o - o o - o - x\nx - - - o - - - - -\no - x - - o o o x -\n- - - x - - x - o -\nx o - o o x - - - -\n- - - - - - - x o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "problem": "10 10\no x - - x o - o - x\n- - - - - o - - - -\nx - - o - - o - x -\no - - x - o x - - -\no - - - - o - o o x\nx - - o o - - o o -\n- - - x - - x - - -\n- x - - - - - - - x\no - - - - - - o o -\nx - o o - x - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "problem": "10 10\n- - - - x - - - - x\n- x o - - x - - o -\n- - o - - o o x - o\n- o - - x - - o - x\n- - - o - - x - - -\no - - x - - o o - -\nx o - - o x o o o -\n- - x o - - - - - -\n- - - - x - - - x -\nx - o o - x - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "problem": "10 10\nx - o - - - - x o -\n- o o - - x - o - -\n- x - - - - - - x -\n- - o - x o o o o -\no - o - - - x - - x\nx o - x - - o - o o\n- - - - - x - - - -\n- x o - o - - - x -\n- - - - x o - - - -\n- o x - - - - o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "problem": "10 10\n- o o x - o x - - -\n- - - - - x - o - x\n- x - - - o - - o -\n- - x - o o - - x o\n- - - o - - x - - -\n- o - x - - - - - o\no x - o - o - x - -\n- - - - o o o - x -\nx o - - x - o - o -\n- - - x - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "problem": "10 10\nx - o x - - o - o -\n- - - o - - x - - -\no - x o - x o - - x\n- - o - - o - o o -\nx - - x - - - - - -\no o - - - o x o - x\n- - - o - - - - - -\nx - - - x - - x - o\no - - x - - - - - o\n- - o - - o x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "problem": "10 10\n- o x - - - - o o -\nx - - - x o - x - -\n- - - - o x - - o -\no - o x - - x - - -\n- o - o - - - o x -\no x - - - - o - - -\n- - - x o - x o o -\no - o o x - - - - -\n- - x - - x - - o x\n- - - - - - o x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/069.a.htm"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "problem": "10 10\n- - o - - o - - x -\no - - - x o - - o -\nx - - x - o - x - -\n- o - - - x - - - x\n- o - - - - x o - -\n- o - x - o - o o -\nx o - - x - - - - -\n- - x - - o x o - x\n- o o - - x - - - -\n- x - - - o - o o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/070.a.htm"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "problem": "10 10\n- - o o - - - - - o\nx - - - x - - - - x\n- x o - - - x - o -\no - o x o - - - - o\nx - - - o - o x - -\n- - x - - - - - - x\no o o - - - x - o -\n- - - x - o o - x -\nx o - o - x - - - x\n- - - - - - o o - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/071.a.htm"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "problem": "10 10\n- x - - x - - x o -\n- - o - - - o - - x\n- o - - o x - - o -\nx - o - - - x - - -\no - - o o - o x o -\n- - x - o - - - - -\no - - x - - o - - x\no - - - x - o - - -\nx o - - o - - - - -\n- - x o - x - - x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/072.a.htm"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "problem": "10 10\n- - o - - - x - - x\n- - x - - o - - - -\nx o - x o - o x - o\n- o - o x - - - - o\n- - - - - - - - x -\n- x - o o o - o - -\no - - o - x o - - -\n- - x - o - x - - x\no - - o - - o x o -\nx - - x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/073.a.htm"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "problem": "10 10\n- - x - - - x - - x\n- - - o o - - o o -\n- o - x - - - - - -\no x - - - x - o - -\n- - o o - - x - - x\nx - o x - o - o o -\n- o o - x - - - x o\n- - - - - - x o - -\no - o - - o o - - -\nx - - x - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "problem": "10 10\n- - - x - - o x - -\n- o - - o - - - x -\no - - o - x - o - o\nx o - x - - - x - -\n- x - - o - - o - o\n- o - o - - - - x -\n- o x - - o x - - x\n- - o - x - - - - -\no x - o - - - o - -\n- - x - o - x o - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/075.a.htm"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "problem": "10 10\nx - x - - x - o - -\no - o - o - - x - x\nx - o - x - x - o -\no - x - - x - o o x\no - - - o - - x - -\n- - x - - - o - o -\nx - - o x - - x - -\n- o - x - x - - - x\nx - x - - o - - - o\n- o - - x - o x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/076.a.htm"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "problem": "10 10\nx - o x - x o o - x\n- - x o - - - x - -\n- x - - x - - o - -\n- - o x o x - o - x\n- o x - - - - - - -\n- - - - o - o x - -\nx - o - x - x o - -\n- - - - o x - - x o\n- o x - o o - x - -\nx - - - x - x o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/077.a.htm"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "problem": "10 10\nx o - - x - - x - o\no - - x - x o - x -\n- - - - o - x - - -\no x - x - x - x - o\n- - - - - - - - - x\nx o - - - o - o o -\n- - x o x - x - x -\no o - x - o o - - o\n- x - o x - x o - -\n- - x - - x - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/078.a.htm"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "problem": "10 10\nx - - - x o x - o -\no - - - - - - - x -\n- x o - x - x o - o\no - - - - x - - x -\nx - o x o - - x o -\n- - x - o - x - - x\n- x - - x - - - - -\no - - x - x o o x -\no x - o o - - - - -\n- - - x - x - o o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/079.a.htm"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "problem": "10 10\no - - o x o x - - x\nx - x - - - o - x -\no - - - x - x o - o\nx - x - - - - - - -\n- o - - - o - x - x\nx - x - - - o o - -\no o - o o - o x - x\n- - - x - x - - - o\n- x - - - - - x - x\nx o - x - x - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/080.a.htm"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "problem": "10 10\n- - x - - x - o - o\n- - o - o - o - x -\n- o - x - - x - o -\n- - - - x - o x - -\nx - - o - - - - o -\no - - - - o - - o x\no - x o - x - - - o\n- - - x o - x o - -\n- x - - - o - - - -\n- - o o x - - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/081.a.htm"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "problem": "10 10\n- - o x - - x - o -\nx o - o - o - o - -\n- - - - x - - o x -\n- o x - o - - x - -\n- x - - - - o - o -\n- - - - - - - - x o\no - x - o o - x - o\n- x - - - x - - - -\n- o - o o - - o - x\n- - - x - - x - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/082.a.htm"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "problem": "10 10\n- - x - o - - x - o\no - o - - o x - - -\nx - - x - o o - - o\n- - - - x - - - x -\n- - o - o - - - - x\nx - - - - o o - o -\n- x - o o x - - o -\n- - - - - o x - - x\n- - o x o - - - o -\no - x - - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/083.a.htm"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "problem": "10 10\n- o - o - x o o - -\n- x - - - - - - - x\nx - - x - o - o o -\no - - - - x - - x -\n- - - - - - - x - -\n- o x o - o - - o -\n- x - - x - - o - o\n- o - o - o x - o x\nx - - - - - - - x -\n- o o - x - - - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/084.a.htm"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "problem": "10 10\n- - - - x - - x - -\nx o o - - - o o - x\no - o - o x - - - -\n- o x - - - - - - o\n- - - x - o o - x -\n- x - - - - x - - -\n- o o - - - - x o o\n- - - - x o o - o -\nx o - - o o - - - x\n- - x - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/085.a.htm"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "problem": "10 10\n- x - - - - x - - x\no - o o x - - x o -\nx - - - o - - - - x\n- o x - x - x - o -\nx - - - - - - o x -\n- x o - o - o o - x\n- - - x - x - x - -\nx o - - o - o - o x\n- o x - - x o - - -\nx - - x - o - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/086.a.htm"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "problem": "10 10\nx - x - x - - - x -\n- o - - - o x - - -\n- x - o x - o - x o\n- o x - - - o - - -\n- x - o o - x o - x\nx - - x - o o - x o\n- - o - - - - x - -\n- x - o - x - - x -\no - - x - - - o - -\n- x o - - x o x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/087.a.htm"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "problem": "10 10\nx - o x - - - x - x\no x - - - x - o o -\n- - o x o - - - x -\nx - - - - - x - o -\n- x - x - - - o - -\n- o - o - o x - x o\n- - - x - - - - - x\n- x - - - o x o - o\n- - - o x o - o x -\nx o x - - - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/088.a.htm"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "problem": "10 10\n- x - x - o - - o -\no - - - x o x - x -\nx - x o - - - - o -\n- x - o x - x - x -\no - x - - - - o - o\n- - o o - - - x - -\n- x - x - x - o x -\n- o o - o - o x - x\n- x - x o x - - - -\n- - - - - - x - x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/089.a.htm"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "problem": "10 10\n- o x - - - - x - x\n- - - - x - o - o -\nx o x o - - x - x -\no - - x o - o - - x\n- x - - - o - x - o\n- - x o - - - - x -\nx o - - - o x o - -\n- x - x o - - x - x\n- - - - o x o - o -\nx o x - - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/090.a.htm"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "problem": "10 10\no - x - o o - o - x\n- - - - - - x o - -\n- x - - - - - - - -\n- - o - x o o x o -\n- o - x - - - - - x\nx - - o - o x - o o\n- - x - - x - o - -\n- - o - o - - - x -\n- - - x - - - - - -\nx o o - - o - x o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/091.a.htm"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "problem": "10 10\nx - o - - x o - - -\n- - x - - - - - x -\n- o - x - - - - - o\no o - - o x - o - -\n- x - o - o - x - o\no - x - - o o - x o\n- o - - x - - - - -\n- - - - o o x - - -\no x - - - - o x - o\n- - - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/092.a.htm"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "problem": "10 10\n- - x - - x - o - o\n- o o - - - o x - -\n- x - - - o o - - -\n- o - - o x o - x -\n- o x - - - - - - x\nx - - - o - - x - -\n- x - - x - o o o -\no - o - - - - - x -\no - x - - o - o - -\n- - - - x - - x - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/093.a.htm"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "problem": "10 10\no - x - o - o o - -\n- - - x - - x - - x\n- x o - - - - o o -\n- o o - - - - o - -\nx - - x - - - - x -\n- x - o - - x o o x\n- - - - - - o - - -\n- o o o - - - - x -\nx - - x - - x - - -\n- o - o - o - x o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/094.a.htm"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "problem": "10 10\n- - - x - - - x - -\n- o - o - o - - - o\nx o - - - - x - - x\n- x o - x - - - - -\n- - x - o o o - - o\n- o - - o - o x - o\n- o - - - x - - x -\nx o - x - o o - - x\n- o - - - - - - - -\n- - x o - - x - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/095.a.htm"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "problem": "10 10\n- x - - - - - - - x\no - x o - x o x - o\n- o - o - - x - - -\n- x - - o x - o - x\nx - o x - - - x o -\n- - x o - - x - - x\nx - - - x - - o x -\n- - o x - - - - - o\n- - x - x o - x o -\nx o - o - o - - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/096.a.htm"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "problem": "10 10\no x - - x - o x o -\n- - o x - - x - - x\no - - o - - o x - -\n- - - - x - x - x -\nx o x - - - - - o o\n- - - - - - o x - x\n- x - x o x - - o -\n- o x - - - - - o -\nx o - x - o x - - -\n- - x - - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/097.a.htm"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "problem": "10 10\n- - - x - x o x - o\nx - o o - - - - - -\no - x o - - x - x -\n- x - - x - - - - -\n- o - x - - o x o x\nx - x - - o x - o -\n- o - o - x - - x o\n- x o x - - - x - -\n- - - - - - - o - x\no - x - x o x - - o",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/098.a.htm"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "problem": "10 10\nx - - x - o - x - -\n- o x - - x - - o -\nx o - - o - - - x -\n- - - o x - x o o -\n- x - - o - - x - x\nx - x - o o - o x -\n- o - x - x - - o -\n- x - o - o - - - x\n- - o - x - - x - -\no - x - - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/099.a.htm"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "problem": "10 10\no - o x - x - - x -\n- x - - o - - o - -\n- - x - - o x - o x\nx - - - x - - x o -\n- - o o - o x o x -\n- x - x - - - - o -\no - x - - x - - - x\nx - - x o - - x - -\n- - - - o - - - x -\no x - o x - x o o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/100.a.htm"
+    },
+    "101_10x10": {
+      "id": "101_10x10",
+      "problem": "10 10\no - - - x - - x - o\no - - - o o - - x -\n- x - - - - - - o -\nx - - o - - x - o x\n- o - - o - - x - -\n- - x o o - - o - -\nx - o x - - o - o x\no - - - o - - - x o\n- x - - o - - - o -\n- - x - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/101.a.htm"
+    },
+    "102_10x10": {
+      "id": "102_10x10",
+      "problem": "10 10\nx - - - - o - - - -\n- - x - - - x - o x\no o o o o - o - - o\n- x - - x o - - x -\n- - - - - - x - - -\n- - o x o - - o - -\n- x o - o x - - x -\n- o - - - - - o o -\nx - - x - - - x - -\no - o - - o - - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/102.a.htm"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "problem": "10 10\n- o o - x - o x - o\n- - - - - - - - - -\nx - - x o - x - - x\n- - - - o x - - - o\no - x - - - - o - o\n- - - - o - - x - -\no o - o x - o - - o\nx - - x - o x o - x\n- o - - o - - - o -\n- - x - - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/103.a.htm"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "problem": "10 10\n- x o - - - x - o -\no - - x o - - - - -\n- o - o - o - - x o\nx - - o - - x - - x\n- o - - - o - x o -\n- - x - - - - - - -\nx - - x o - - - o x\n- x - o - - - - - -\n- - - - - o x - o -\no o - x o - o - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/104.a.htm"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "problem": "10 10\n- o - - - o - - x -\n- o - x - - x - - o\n- x - - o o - - - -\n- - - o - x - o x -\n- - x o - - - - o x\nx - o - - - - x - -\n- x o - x - - o - o\no o - - - - - o x -\n- - o x - - x o o -\n- x - - o - - - - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/105.a.htm"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "problem": "10 10\nx - x - - - o - x -\no - - - x - - - o -\n- x - o o - x - - x\nx o - - x - - x o -\n- - x - - o - - x -\n- x o - - o - x o -\n- o x - o x - - - x\nx - - x - - o - x -\n- o - - - x - - - -\n- x - o - o o x o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/106.a.htm"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "problem": "10 10\nx - - - x - - x o -\n- x o x - - x - x -\n- - o - - o - - - -\no x o o - - x o - o\nx - - x - - - - x -\n- x - - - - x - o x\n- - o x o - - - x -\n- - o - o - - o o -\n- x - x o - x - x -\no - x - - x - - o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/107.a.htm"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "problem": "10 10\nx - - x - x - x - x\n- - o - - o - - o -\n- x - o o x - x o -\no - - x o - - o x -\nx - - - - - x - o -\n- - o x - - - - - x\n- x - o - o x - - o\n- o x - x - - - x o\n- o - o - - o - - -\nx - x - x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/108.a.htm"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "problem": "10 10\n- - - - - x - x - x\nx - - o x - o - - -\n- o - x - x - - x o\no x - - - o - o - -\n- - o x o - - x - x\nx - x o - - x o - -\n- - o - - - - o x o\no x - - x - x - - -\n- o - - - x o - - x\nx - x o x - - o - -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/109.a.htm"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "problem": "10 10\nx - x - - - - x - x\n- o - - x o - o - o\n- - x o - - x - - x\nx o - o x - - - o o\n- - x - - - x - - -\n- - o x o - - x - -\n- - o - - x - o - x\nx - - x o - - x - -\n- o - - - x o - - o\nx - x o o - - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/110.a.htm"
+    },
+    "111_10x10": {
+      "id": "111_10x10",
+      "problem": "10 10\nx - x - - - x - - x\no - - o x o o - - o\nx - x - - x - - - -\n- - o x - o - x - x\nx - - - - - o o - -\n- o - - o - o - - x\nx - x - - - x o - -\n- - - o x - o x - x\n- - - o - x - - o -\nx - o x - - o x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/111.a.htm"
+    },
+    "112_10x10": {
+      "id": "112_10x10",
+      "problem": "10 10\nx - - x o x - x - x\no - x - - - - - o -\n- - - - x - x o x -\n- o o x - - - - o x\n- o x o - - o - - -\n- - - - o - - x o -\nx o - o - - x o - -\n- x - x - x - - - -\n- o - o o - - x - o\nx - x - x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/112.a.htm"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "problem": "10 10\nx - o - - x - o x -\n- x - x - o x - o -\n- o - - - - - - x -\n- - x o - x - o - x\n- x - x - - - - - o\no - - - o - x o x -\nx o o - x - - x - -\no x - - o - - - o -\n- - - x - - x - x -\n- x - o x o - - o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/113.a.htm"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "problem": "10 10\n- x - o - x - - x o\no - - x - - o - - -\n- x - - x - - x - x\nx - x o - - - o o -\no - o - - - x - x -\n- x - x - o - - o -\n- o - - - - o x - x\nx - x o - x - - x o\n- - - o - o x - - -\no x - - x - o - x -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/114.a.htm"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "problem": "10 10\nx - x - - x - x o x\n- - - - o - o - - -\no x - - o x - - x -\n- - o o - o - x - -\no - x - - o x - o x\nx - - x - - - x o -\n- - x - - - - - - -\no x - - x o o - x -\n- o - o - - o o - -\nx - x - x - - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/115.a.htm"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "problem": "10 10\no - - x - - x - - x\nx - - o o - o - x -\n- - x - x - o x - -\n- x - - - - x - o x\n- o - - - - o o x -\no x - - o - o - - o\nx - - x - - - - x -\n- - x o - x - x - -\no x o - - - o - - x\nx - - x o - x - o -",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/116.a.htm"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "problem": "10 10\nx - x o x - - x - x\no - o - - - - - o -\n- - - x - - o o - x\n- x o - - x - - x -\nx - o - - - x o o -\no - - x - o - - - x\n- x - - x - - - x -\nx - o - - o x o - -\n- o - o - - o o - -\nx - x - - x - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/117.a.htm"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "problem": "10 10\nx - o x - x - x - -\n- - o - - - - - o x\nx - o - - x o x - o\n- o - x o - - - x -\nx - x - o - o - o -\n- - - - o - - x - x\no x - - - - x o - -\n- - x - x - - - - x\nx - o - - - o - - o\n- - x o x - x o - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/118.a.htm"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "problem": "10 10\nx o x - x - o - o -\n- - - o o - x - - -\nx - x - x - - x - -\n- - o o - x o - o x\nx - - - - - - x - -\n- - x - o - - - - x\nx o o - x o - o - -\n- - x - o x - x - x\n- o o x - - o - o -\n- - - - - x - x - x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/119.a.htm"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "problem": "10 10\nx - - o - - x - x -\n- o x o x - - o o -\nx - - - - x - o x -\n- - x - x - - - - -\no o - o - - x o - x\nx - - x - o - - - -\no - - - - x o x o -\no x - - x - o - - x\n- - - - - x - x - -\n- x o x - o - - o x",
+      "source": "https://www.janko.at/Raetsel/Yonmasu/120.a.htm"
+    }
+  }
+}

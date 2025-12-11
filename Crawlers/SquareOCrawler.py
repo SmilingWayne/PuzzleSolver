@@ -1,3 +1,3 @@
-from AkariCrawler import AkariCrawler
+from YonmasuCrawler import YonmasuCrawler
 
-SquareOCrawler = AkariCrawler
+SquareOCrawler = YonmasuCrawler

@@ -46,7 +46,8 @@ if __name__ == "__main__":
         "Nondango",
         "Simpleloop",
         "Linesweeper",
-        "Slitherlink"
+        "Slitherlink",
+
     ]
     
     record = []

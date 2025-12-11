@@ -1,0 +1,355 @@
+{
+  "count": 70,
+  "solutions": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "solution": "8 8\ns  -  - se sw  -  -  -\nns  - se nw ne sw  -  -\nns  - ns  -  - ns  -  -\nns  - ns  -  - ne ew sw\nne sw ns  - se ew ew nw\n - ns ns  - ns  -  -  -\n - ne nw  - ne ew sw  -\n -  -  -  -  -  - ne  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/001.a.htm"
+    },
+    "02_8x8": {
+      "id": "02_8x8",
+      "solution": "8 8\ne ew ew ew sw  -  -  -\n -  - se ew nw  -  -  -\n -  - ns  -  - se ew sw\nse ew nw  -  - ns se nw\nne sw  -  - se nw ns  -\n - ne ew sw ns  - ns  -\n -  -  - ne nw  - ne sw\n -  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/002.a.htm"
+    },
+    "03_8x8": {
+      "id": "03_8x8",
+      "solution": "8 8\ns  -  - se sw  -  -  -\nns  - se nw ns  -  -  -\nne ew nw  - ns  -  -  -\n - se ew sw ne sw  -  -\n - ns  - ne ew nw  -  -\n - ns  -  -  -  -  -  -\n - ns se ew sw se sw  -\n - ne nw  - ne nw ne  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "solution": "8 8\ne sw  -  -  -  - se sw\n - ne sw  - se ew nw ns\nse ew nw  - ns  -  - ns\nns  -  - se nw  -  - ns\nns  - se nw  - se ew nw\nne ew nw  -  - ne sw  -\n -  -  -  -  -  - ne sw\n -  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8\ne ew sw  -  - se ew sw\n -  - ns  -  - ne sw ns\n - se nw  -  -  - ns ns\n - ns  - se ew ew nw ns\n - ne sw ns  -  - se nw\n -  - ne nw  - se nw  -\n -  -  -  -  - ns  -  -\n -  -  -  -  - ne ew  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns  -  - se ew ew sw  -\nns  -  - ns se ew nw  -\nns  - se nw ns  -  -  -\nne sw ns  - ne ew sw  -\n - ns ns  -  - se nw  -\n - ne nw  - se nw  -  -\n -  -  -  - ne ew ew  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "solution": "8 8\ns  -  -  - se ew ew sw\nns  -  -  - ns  - se nw\nns  -  -  - ns  - ns  -\nne ew sw se nw  - ne sw\n -  - ns ns  - se ew nw\n -  - ns ns  - ne ew sw\n -  - ne nw  -  -  - ns\n -  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "solution": "8 8\ne sw  - se ew ew sw  -\n - ns  - ne sw  - ne sw\n - ne sw  - ns  -  - ns\n -  - ns se nw  -  - ns\n -  - ne nw  - se ew nw\n -  -  -  -  - ne sw  -\n -  -  -  - se ew nw  -\n -  -  -  - ne ew ew  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns  -  - se ew ew sw  -\nns  -  - ne sw se nw  -\nne sw  -  - ns ns  -  -\n - ne sw  - ns ne sw  -\n -  - ns se nw se nw  -\n -  - ns ns  - ns  -  -\n -  - ne nw  - ne ew  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "solution": "8 8\ne ew sw - - - - -\n- - ne sw - - se sw\nse ew ew nw - se nw ns\nne sw - - se nw - ns\n- ne ew sw ns - se nw\n- - - ns ns - ns -\n- - - ne nw - ne sw\n- - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/010.a.htm"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "solution": "8 8\ne ew ew ew sw  -  -  -\n -  -  - se nw  - se sw\n - se ew nw  - se nw ns\n - ne sw  -  - ns  - ns\n -  - ne sw  - ns se nw\n -  -  - ns se nw ns  -\n -  -  - ne nw  - ne sw\n -  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/011.a.htm"
+    },
+    "12_8x8": {
+      "id": "12_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nne sw se ew sw se ew sw\n - ns ns  - ns ns  - ns\n - ns ns  - ne nw  - ns\n - ns ns  -  -  - se nw\n - ne nw  - se ew nw  -\n -  -  -  - ne sw  -  -\n -  -  -  -  - ne ew  w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/012.a.htm"
+    },
+    "13_8x8": {
+      "id": "13_8x8",
+      "solution": "8 8\ne ew ew ew ew sw  -  -\n -  -  - se ew nw  -  -\n - se ew nw  -  -  -  -\n - ns se ew sw  -  -  -\n - ns ns  - ns  -  -  -\n - ne nw  - ns se ew sw\n -  -  - se nw ns  - ns\n -  -  - ne ew nw  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/013.a.htm"
+    },
+    "14_8x8": {
+      "id": "14_8x8",
+      "solution": "8 8\ns - se sw - - - -\nns - ns ns - - - -\nns - ns ne sw - - -\nne ew nw - ne ew sw -\n- - - se ew sw ns -\n- se ew nw - ne nw -\n- ne ew ew sw - - -\n- - - - ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/014.a.htm"
+    },
+    "15_8x8": {
+      "id": "15_8x8",
+      "solution": "8 8\ne ew ew sw  -  -  -  -\n -  -  - ns  - se ew sw\n - se ew nw  - ns  - ns\n - ne ew sw  - ns se nw\n -  -  - ns se nw ns  -\n -  - se nw ns  - ns  -\n -  - ne ew nw  - ne sw\n -  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/015.a.htm"
+    },
+    "16_8x8": {
+      "id": "16_8x8",
+      "solution": "8 8\ne  ew ew ew ew sw -  -\n-  -  -  -  -  ns -  -\n-  se ew ew sw ns -  -\nse nw -  -  ne nw -  -\nne ew ew sw -  -  se sw\n-  -  -  ns -  se nw ns\n-  -  -  ne sw ns -  ns\n-  -  -  -  ne nw -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/016.a.htm"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "solution": "8 8\ns  -  -  se ew sw -  -\nns -  -  ns se nw -  -\nns -  se nw ns -  -  -\nns -  ns -  ne sw -  -\nne ew nw -  -  ns -  -\n-  -  -  -  se nw -  -\n-  -  se ew nw -  se sw\n-  -  ne ew ew ew nw n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/017.a.htm"
+    },
+    "18_8x8": {
+      "id": "18_8x8",
+      "solution": "8 8\ns  -  -  se sw -  -  -\nns se ew nw ns -  -  -\nne nw -  -  ne sw -  -\n-  -  se ew ew nw -  -\n-  -  ns se ew ew ew sw\n-  -  ns ns -  -  -  ns\n-  -  ne nw -  se ew nw\n-  -  -  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/018.a.htm"
+    },
+    "19_8x8": {
+      "id": "19_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns -  -  -  se sw -  -\nne sw -  -  ns ns -  -\nse nw -  -  ns ns -  -\nne ew sw se nw ne sw -\n-  -  ns ns -  -  ns -\nse ew nw ns -  -  ne sw\nne ew ew nw -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/019.a.htm"
+    },
+    "20_8x8": {
+      "id": "20_8x8",
+      "solution": "8 8\ne  sw -  -  se ew sw -\n-  ne ew ew nw se nw -\n-  -  se ew ew nw -  -\n-  se nw -  -  -  -  -\n-  ne sw -  -  se ew sw\n-  -  ne sw se nw se nw\n-  -  -  ne nw -  ns -\n-  -  -  -  -  -  ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/020.a.htm"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "solution": "8 8\ns  -  -  se ew sw -  -\nns -  se nw -  ne sw -\nns se nw -  -  -  ne sw\nne nw -  -  -  se ew nw\n-  -  se ew ew nw -  -\n-  -  ns -  se ew ew sw\n-  -  ne ew nw -  -  ns\n-  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/021.a.htm"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "solution": "8 8\ns  -  se ew sw -  -  -\nns -  ns -  ns -  -  -\nns se nw -  ne sw -  -\nne nw -  -  -  ne sw -\n-  -  se ew ew ew nw -\n-  -  ns se ew ew sw -\n-  -  ne nw -  se nw -\n-  -  -  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns -  -  -  -  se ew sw\nne ew ew sw -  ns -  ns\n-  -  se nw -  ns -  ns\n-  se nw -  se nw -  ns\n-  ns -  -  ns -  se nw\n-  ns -  se nw -  ne sw\n-  ne ew nw -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns -  -  se sw -  -  -\nne sw -  ns ne ew sw -\nse nw -  ns -  -  ne sw\nns -  se nw -  se ew nw\nne sw ns -  se nw -  -\n-  ne nw -  ne ew sw -\n-  -  -  -  -  -  ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8\ne ew sw - se sw - -\n- - ne ew nw ns - -\n- - se ew ew nw - -\n- se nw - - - - -\n- ns - se ew ew sw -\nse nw - ns - se nw -\nne ew ew nw - ns - -\n- - - - - ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/025.a.htm"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "solution": "8 8\ne  sw -  -  -  -  -  -\n-  ns -  se ew sw -  -\nse nw -  ns -  ne sw -\nne ew ew nw -  -  ns -\n-  -  -  -  se ew nw -\n-  se ew ew nw -  -  -\n-  ns se ew ew sw -  -\n-  ne nw -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/026.a.htm"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "solution": "8 8\ne  ew sw -  se ew sw -\n-  se nw -  ns -  ns -\n-  ns -  -  ns -  ne sw\n-  ns -  se nw -  -  ns\n-  ns se nw -  se ew nw\n-  ne nw -  se nw -  -\n-  -  -  -  ne ew ew sw\n-  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/027.a.htm"
+    },
+    "28_6x6": {
+      "id": "28_6x6",
+      "solution": "6 6\ns  se ew ew sw -\nne nw se ew nw -\n-  -  ne sw -  -\n-  -  -  ne sw -\n-  -  -  se nw -\n-  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/028.a.htm"
+    },
+    "29_6x6": {
+      "id": "29_6x6",
+      "solution": "6 6\ne  ew sw -  -  -\n-  -  ns -  -  -\nse ew nw -  -  -\nns -  -  se ew sw\nns -  -  ns -  ns\nne ew ew nw -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/029.a.htm"
+    },
+    "30_6x6": {
+      "id": "30_6x6",
+      "solution": "6 6\ns - se ew ew sw\nns - ns - - ns\nns - ns - se nw\nne ew nw - ns -\n- - - - ns -\n- - - - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/030.a.htm"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "solution": "6 6\ns  -  -  -  -  -\nns -  -  -  -  -\nns se ew ew sw -\nne nw -  -  ne sw\n-  -  se ew ew nw\n-  -  ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/031.a.htm"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "solution": "6 6\ns  -  se sw se sw\nne ew nw ne nw ns\n-  -  -  -  -  ns\n-  -  -  se ew nw\n-  -  -  ns -  -\n-  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/032.a.htm"
+    },
+    "33_7x7": {
+      "id": "33_7x7",
+      "solution": "7 7\ne  ew sw -  -  -  -\n-  se nw -  -  -  -\n-  ne sw -  -  -  -\nse ew nw -  -  -  -\nns -  se sw -  -  -\nns -  ns ns -  -  -\nne ew nw ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/033.a.htm"
+    },
+    "34_7x7": {
+      "id": "34_7x7",
+      "solution": "7 7\ne  sw -  -  -  -  -\nse nw -  -  -  -  -\nne sw -  -  -  -  -\nse nw se sw -  -  -\nns se nw ns -  -  -\nns ns -  ns -  -  -\nne nw -  ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\ne  sw -  -  -  -  se sw\n-  ne sw -  -  -  ns ns\n-  se nw -  -  se nw ns\n-  ns -  se ew nw se nw\nse nw -  ns -  -  ns -\nne ew ew nw -  -  ne sw\n-  -  -  -  -  -  -  ns\n-  -  -  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/035.a.htm"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "solution": "8 8\ne  ew ew sw -  -  -  -\nse ew sw ns -  -  -  -\nns -  ns ne sw -  -  -\nne sw ne ew nw -  -  -\n-  ns -  -  -  -  -  -\nse nw -  -  -  -  -  -\nne sw -  -  se ew ew sw\n-  ne ew ew nw -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/036.a.htm"
+    },
+    "37_8x8": {
+      "id": "37_8x8",
+      "solution": "8 8\ne  sw -  -  -  se ew sw\n-  ne ew sw se nw se nw\n-  -  -  ne nw -  ne sw\n-  -  -  -  -  -  -  ns\n-  -  -  -  se sw -  ns\n-  -  -  se nw ne ew nw\n-  -  -  ne sw -  -  -\n-  -  -  -  ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/037.a.htm"
+    },
+    "38_8x8": {
+      "id": "38_8x8",
+      "solution": "8 8\ne  ew sw -  -  -  -  -\n-  -  ne sw -  -  -  -\nse ew ew nw -  -  -  -\nns -  -  -  se ew ew sw\nns -  -  se nw -  -  ns\nne sw -  ns -  -  se nw\n-  ns -  ns -  -  ne sw\n-  ne ew nw -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/038.a.htm"
+    },
+    "39_8x8": {
+      "id": "39_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns -  -  -  -  se ew sw\nns -  -  -  -  ns se nw\nne sw -  -  -  ns ns -\nse nw -  se ew nw ne sw\nns -  -  ns -  -  -  ns\nne sw -  ns -  -  -  ns\n-  ne ew nw -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/039.a.htm"
+    },
+    "40_8x8": {
+      "id": "40_8x8",
+      "solution": "8 8\ns  se sw -  -  -  -  -\nne nw ns -  -  -  -  -\n-  -  ne ew sw -  -  -\n-  se ew ew nw -  -  -\n-  ns -  -  -  -  -  -\nse nw -  se sw -  -  -\nns se sw ns ns -  -  -\nne nw ne nw ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/040.a.htm"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "solution": "6 6\ns  -  se sw -  -\nns se nw ns -  -\nns ns -  ne ew sw\nne nw -  -  -  ns\n-  -  -  -  se nw\n-  -  -  -  ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/041.a.htm"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "solution": "6 6\ne  ew sw -  -  -\nse ew nw -  -  -\nns -  -  -  -  -\nns -  se sw se sw\nne ew nw ne nw ns\n-  -  -  -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/042.a.htm"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "solution": "6 6\ns  -  se ew sw -\nns -  ns -  ns -\nne ew nw -  ne sw\n-  -  -  se ew nw\n-  -  -  ns -  -\n-  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/043.a.htm"
+    },
+    "44_7x7": {
+      "id": "44_7x7",
+      "solution": "7 7\ne  sw -  -  -  se sw\n-  ne sw -  -  ns ns\n-  -  ne ew ew nw ns\n-  -  -  -  -  se nw\n-  -  -  -  -  ne sw\n-  -  -  -  se ew nw\n-  -  -  -  ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/044.a.htm"
+    },
+    "45_7x7": {
+      "id": "45_7x7",
+      "solution": "7 7\ns  -  -  se sw -  -\nne sw se nw ns -  -\n-  ne nw -  ns -  -\n-  -  -  -  ne ew sw\n-  -  -  -  -  -  ns\n-  -  -  se ew ew nw\n-  -  -  ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/045.a.htm"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "solution": "8 8\ne  ew sw -  -  -  -  -\n-  -  ns -  -  -  -  -\nse sw ns -  -  -  -  -\nns ne nw -  -  se sw -\nne sw -  -  -  ns ne sw\n-  ne ew sw -  ne sw ns\n-  -  -  ne ew sw ns ns\n-  -  -  -  -  ne nw n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/046.a.htm"
+    },
+    "47_8x8": {
+      "id": "47_8x8",
+      "solution": "8 8\ns  -  -  -  -  -  -  -\nns -  -  -  -  -  -  -\nne sw se ew sw -  -  -\n-  ne nw se nw se sw -\n-  -  se nw -  ns ne sw\n-  -  ne sw -  ne sw ns\n-  -  -  ns -  -  ns ns\n-  -  -  ne ew ew nw n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/047.a.htm"
+    },
+    "48_8x8": {
+      "id": "48_8x8",
+      "solution": "8 8\ns  se ew sw -  -  -  -\nne nw -  ne sw -  -  -\n-  se sw -  ns -  -  -\nse nw ns se nw -  -  -\nne sw ne nw -  -  -  -\n-  ne sw -  -  -  -  -\n-  -  ns se sw -  -  -\n-  -  ne nw ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/048.a.htm"
+    },
+    "49_8x8": {
+      "id": "49_8x8",
+      "solution": "8 8\ne  sw -  -  se ew ew sw\n-  ns se ew nw se ew nw\nse nw ns -  -  ns -  -\nne ew nw -  se nw -  -\n-  -  -  -  ne ew ew sw\n-  -  -  -  -  -  se nw\n-  -  -  -  -  -  ns -\n-  -  -  -  -  -  ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/049.a.htm"
+    },
+    "50_8x8": {
+      "id": "50_8x8",
+      "solution": "8 8\ne  ew ew sw -  -  -  -\n-  se ew nw -  -  -  -\n-  ns -  -  -  -  -  -\nse nw -  -  -  se sw -\nne ew sw -  se nw ns -\n-  -  ns -  ns -  ne sw\n-  se nw -  ns -  -  ns\n-  ne ew ew nw -  -  n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/050.a.htm"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "solution": "6 6\ne sw - - - -\nse nw - - - -\nne ew sw - - -\n- se nw - - -\nse nw se ew ew sw\nne ew nw - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "solution": "8 8\ne sw se ew ew sw - -\n- ne nw - se nw - -\n- - - se nw - - -\nse ew ew nw - - - -\nne ew sw - - - - -\n- - ne sw - - se sw\n- - - ns se ew nw ns\n- - - ne nw - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/052.a.htm"
+    },
+    "53_7x7": {
+      "id": "53_7x7",
+      "solution": "7 7\ne sw - se ew sw -\n- ns - ns - ne sw\nse nw - ns - se nw\nne ew ew nw - ne sw\n- - - - - - ns\n- - - - - - ns\n- - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\ne ew ew sw - se ew sw\n- - - ne ew nw se nw\n- se ew ew sw - ns -\n- ns - - ne ew nw -\n- ne sw - - - - -\n- - ne ew ew sw - -\n- - - - - ns - -\n- - - - - ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/054.a.htm"
+    },
+    "55_6x6": {
+      "id": "55_6x6",
+      "solution": "6 6\ne ew sw se ew sw\n- - ne nw - ns\n- - - se sw ns\n- - - ns ne nw\n- - - ns - -\n- - - ne ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/055.a.htm"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "solution": "8 8\ns se sw - - se ew sw\nne nw ns - - ns - ns\n- - ne sw - ns se nw\n- - - ne ew nw ns -\n- - - - - - ne sw\n- - - - - - - ns\n- - - - se ew ew nw\n- - - - ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/056.a.htm"
+    },
+    "57_6x6": {
+      "id": "57_6x6",
+      "solution": "6 6\ns - se ew sw -\nns - ns - ns -\nns se nw se nw -\nne nw - ne sw -\n- - - - ns -\n- - - - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/057.a.htm"
+    },
+    "58_8x8": {
+      "id": "58_8x8",
+      "solution": "8 8\ns - - - - se sw -\nns - - se ew nw ns -\nns se sw ns - - ns -\nne nw ns ns - - ne sw\n- - ne nw - - se nw\n- - - - - - ns -\n- - - - se ew nw -\n- - - - ne ew ew w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/058.a.htm"
+    },
+    "59_6x6": {
+      "id": "59_6x6",
+      "solution": "6 6\ns se sw se sw -\nns ns ne nw ns -\nns ns - - ns -\nne nw - - ne sw\n- - - - - ns\n- - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/059.a.htm"
+    },
+    "60_8x8": {
+      "id": "60_8x8",
+      "solution": "8 8\ne ew ew sw - - - -\n- - se nw - - - -\nse ew nw - - - - -\nns - - - - - - -\nne sw - - - - se sw\nse nw - - - se nw ns\nns se ew sw se nw - ns\nne nw - ne nw - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "solution": "8 8\ns se ew ew sw - - -\nne nw - se nw - - -\n- - - ne ew sw - -\n- - - - se nw - -\n- - - se nw se ew sw\n- - - ns - ns se nw\n- - - ns se nw ns -\n- - - ne nw - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "solution": "8 8\ne sw - se ew ew sw -\n- ns - ns se ew nw -\n- ne ew nw ns - - -\n- - se ew nw - - -\n- - ns - - se sw -\n- - ns - se nw ns -\n- - ne ew nw - ne sw\n- - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "solution": "8 8\ns se ew ew sw - - -\nne nw se ew nw - - -\n- se nw - - - - -\n- ns - - se ew ew sw\n- ne sw se nw se ew nw\n- - ne nw - ns - -\n- - - - - ne sw -\n- - - - - - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/063.a.htm"
+    },
+    "64_9x9": {
+      "id": "64_9x9",
+      "solution": "9 9\ne sw - - se ew ew sw -\n- ns - se nw - se nw -\n- ns - ns - se nw - -\nse nw - ns - ns - - -\nne ew ew nw se nw - - -\n- - - - ns se ew sw -\n- - - - ne nw - ns -\n- - - - - - - ns -\n- - - - - - - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/064.a.htm"
+    },
+    "65_9x9": {
+      "id": "65_9x9",
+      "solution": "9 9\ns se ew ew sw - - - -\nne nw se ew nw - - - -\n- se nw - se ew sw - -\n- ns - se nw se nw - -\n- ne sw ns - ns - - -\n- - ne nw - ns se ew sw\n- - - - - ne nw - ns\n- - - - - - - - ns\n- - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/065.a.htm"
+    },
+    "66_9x9": {
+      "id": "66_9x9",
+      "solution": "9 9\ne ew sw - - - - - -\n- se nw se ew ew sw - -\n- ns se nw se ew nw - -\n- ne nw se nw - - - -\n- - se nw - - - - -\n- - ns - - - - - -\n- - ns se sw - - - -\n- - ne nw ns se ew sw -\n- - - - ne nw - ne w",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10\ne ew ew sw - - - - - -\n- se ew nw - - - - - -\n- ns - - - - - - - -\n- ns se ew sw - - - - -\n- ne nw se nw - - se ew sw\n- - - ns se sw - ns se nw\n- - - ns ns ne ew nw ns -\n- - - ne nw - - - ns -\n- - - - - - - - ne sw\n- - - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "solution": "10 10\ne ew sw - - - - - - -\n- se nw se ew sw - - - -\n- ns se nw se nw - - - -\n- ne nw - ne ew sw - - -\n- - - se ew ew nw - - -\n- - - ns - - - - - -\n- - - ns - - se ew sw -\n- - - ne sw - ns - ns -\n- - - - ne ew nw - ne sw\n- - - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "solution": "10 10\ns - - se ew sw - - - -\nne sw se nw - ne sw - - -\n- ne nw - - se nw - - -\n- - - se ew nw - - - -\n- - - ne ew ew sw - - -\n- - - - se ew nw - - -\n- - - - ns - - - - -\n- - - - ne sw - - se sw\n- - - - - ne ew sw ns ns\n- - - - - - - ne nw n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/069.a.htm"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "solution": "10 10\ns - - - - - - - - -\nns se ew ew sw - - - - -\nne nw - se nw - - - - -\n- - - ne ew sw - - - -\n- - - se ew nw - se ew sw\n- - - ne sw - se nw se nw\n- - - - ne sw ns - ne sw\n- - - - - ne nw - se nw\n- - - - - - - - ne sw\n- - - - - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Zahlenschlange/070.a.htm"
+    }
+  }
+}

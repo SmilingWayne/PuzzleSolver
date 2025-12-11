@@ -1,0 +1,1345 @@
+{
+  "count": 268,
+  "solutions": {
+    "01_10x10": {
+      "id": "01_10x10",
+      "solution": "10 10\nx x x x x x x x x -\nx x x - x x - x x -\nx x x - - x - - - -\nx x x - - x - - - -\n- - x x - - x x x x\n- - x - - - x x - -\n- - - - - - - x - -\nx x - - - - x x x -\nx x - x - - - x x x\nx x x x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "solution": "10 10\n- - x - - - - - x x\nx x x x - - - x x x\n- - - - - x x x x x\n- - - - - x x x - -\n- - - x x x x x - -\n- x x x x x x x - x\n- x x - - x x x x x\n- - x x - - x - x -\nx - x x x - x - - -\nx - x - - - x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "solution": "10 10\nx - - - - - - - - x\nx - - - - - - x x x\nx - - - - - - - - x\n- - - - x x x x x x\n- - - - - x x x x x\nx - - x x x x x - x\nx x x x x - x x - -\nx x - x x - x x - -\nx x - x x x x - - -\nx x x x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\nx x - - x x - x x x\nx x x x x x - - - x\n- - - - x x x x x x\n- x x - - - x x - x\n- x x x x x x - - -\nx - - - - x - - x x\nx x - - - - - - - -\nx x - - - x - - x -\nx x - - x x x x x x\nx x - - x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "solution": "10 10\nx x x - - - x x x -\nx x x x x - x x x -\nx x x x x - x x - -\nx x x - - - - - - x\nx x - - - - - - - x\nx x - - x x x x - x\nx x - - - - - x - -\nx - - - - x x x - -\nx x - x x x x - x x\nx x - - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "solution": "10 10\n- - - - - x x x x x\n- - x - - x - - x x\nx x x - x x x - x x\nx x x - x x x - x x\nx x x - - - x - - -\n- - - - x - x x - -\n- - - - x - - x x -\n- - x x x x x x - -\nx x x x - x - - x x\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/006.a.htm"
+    },
+    "07_10x10": {
+      "id": "07_10x10",
+      "solution": "10 10\nx x - - - x x x x x\nx x - - - - - - x x\nx - - - - x - - - x\nx - - - x x x x x x\nx - - - - - - x x x\n- - - x x x x x - x\n- - - - - x x x - x\nx x x x x x - - - x\nx x - - - x x - - -\nx x - - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\nx - - - x - - - - -\nx - - - x x - - - -\nx x x x x x x x - -\n- x x x x x - - - -\n- x x x x x - - - -\n- - - - - - x x - -\n- x x x x x x x - -\n- - - x x x x x x -\nx x - x x - - x x x\nx x x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\n- x x x x - - - - x\n- x x x x - - x x x\n- x x - - - - x x x\n- - x - - - - x x x\n- x x - - x x x x x\nx x x - - x x x x -\nx - x x x x x - - -\n- - - - - x x - - x\n- - - - - - x - x x\n- x x - - x x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/009.a.htm"
+    },
+    "10_12x12": {
+      "id": "10_12x12",
+      "solution": "12 12\n- - x x x x x - - x x -\nx - x x - - x - - - x -\nx - x x x - - - - - x -\n- - x x x x - - - x x -\n- x - - x x - x x - - -\nx x x - - x - - - - - -\nx - x x - x - - x x x x\n- - x x x - - x x x x x\nx x x - - - - x x x x x\nx x - - - - - x x x x x\nx x - - - - - x - - x x\nx x - - x x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/010.a.htm"
+    },
+    "11_12x12": {
+      "id": "11_12x12",
+      "solution": "12 12\n- - x x - - - - - - x x\n- - - x - - x x - x x -\nx - - - - x x x x - x -\nx x - - - x x x x - - -\n- - x x x x x - - - x x\n- x x x x x x x x x x x\n- x - x x - - - - x x x\nx - - - - x - x - - - x\nx - - - - x - x - - - x\nx - - - x x x - - - x x\nx x x x x x - - x - - x\nx x x x x x - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/011.a.htm"
+    },
+    "12_12x12": {
+      "id": "12_12x12",
+      "solution": "12 12\n- - - - - x x - x - - -\nx x x - x x x - x x - x\nx x - - - - - - - x x x\nx x x x - - - x x - - x\nx x x x x - - - - - - x\nx x x - x - - x - - - -\nx x x - - - x x - - x x\nx x x x - - x - - - x x\nx - - x x x x x x - x x\nx x - - - - - - x - - -\nx x - - - - - x x - x x\nx x - - - - x x x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/012.a.htm"
+    },
+    "13_12x12": {
+      "id": "13_12x12",
+      "solution": "12 12\nx x x x - - x x - x x x\nx x x x x x - - - x x x\n- - x x x x - - - - - -\n- - - - - x - - x x x -\n- - - - - x - - x x x x\n- - - - - - - - x x - x\nx x - - - - - - x x - x\nx x - - x - - - - - x x\nx x x x x x x - - - x x\nx x x x x x x - - - x x\nx - - x x - - - - - - x\nx - - x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/013.a.htm"
+    },
+    "14_12x12": {
+      "id": "14_12x12",
+      "solution": "12 12\n- - - x x - x x x x - -\nx x - - x - x x x - - x\nx - - - x x - - - - - x\nx - x - x x x - - - x x\nx x x - x x x x - - - x\nx x x - x x x - - - - -\nx x - - - x x - x x - -\nx x - - - - x - - x - -\n- - - x x x x - - x x x\nx x - - - - - - x x - x\nx x - - - - x x x x - x\n- - - - x x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/014.a.htm"
+    },
+    "15_12x12": {
+      "id": "15_12x12",
+      "solution": "12 12\n- - - - - - x x x - - x\n- - x x x x x x x x x x\nx - x x - - - x x - x x\nx - x x - x x x x - - x\n- - x - - x x x - - - x\n- x x - - - - - - x x x\n- - - - x x - - x x x x\n- - - - x x - - - x x x\n- - - x x x - x x x x x\nx x - - - - x x - - x -\nx - - - - - x x - - x -\nx - - - x x x x - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/015.a.htm"
+    },
+    "16_15x15": {
+      "id": "16_15x15",
+      "solution": "15 15\n- x x x x x x x x - x x x x -\n- x x x x x - x x - - - x x -\n- x x - - - - x - - - - - - -\n- - - - x x x x x x - - - x -\nx - - - - - - x x x x - x x x\nx x x x - - x x x x x - - x x\nx x x x - - - - - - x x - - -\n- x x x - x x - x x x x - x x\n- - - - - x x - x x x x - x x\n- - - - - x x - x x - x - - x\n- - - - - x x - - - - - - - -\nx - - x x - - - x x x - - x x\nx - x x x x x x x x x - - - x\nx - - - - - x - x x x x x x x\n- - - - - - x - - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/016.a.htm"
+    },
+    "17_15x15": {
+      "id": "17_15x15",
+      "solution": "15 15\nx - - - - - - - x x x x - - -\nx - - x x - - - x x x x x x x\n- - - x x - x - - - - - - x x\nx x - - - x x - - - x x - - -\nx x x x x x x x x x x x - - -\nx x x - - - - x x x - - - - -\n- - x - - x - x x x - - - - x\n- - - - x x - x x - - - - - x\nx x x - - - x x x - - - - - x\nx x x - - - x - - x - x x x x\n- - - x x x x x - x - x x x x\n- - x x x x x x - x - - x - -\n- x x x x - - x x x x - - x -\n- - - - x x - - x x x x x x -\n- - - - x x - x x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/017.a.htm"
+    },
+    "18_15x15": {
+      "id": "18_15x15",
+      "solution": "15 15\nx x - - - - - - x x x x - - -\nx x x x x x x x x - x x - - -\n- - x x x x x x x - x x - - x\n- - - x x - x x x - x x x x x\n- - - x x - - - - - x x x x x\n- - x - - - - - - - - x - x x\nx x x x - - - - - - - - - - x\nx x - - x - - x x - - - - - x\nx x x - x x x x x - x x - - -\n- - x - x x - - - - x x - x x\n- - x x x x - - - - x - x x x\nx x x x - x - x x - - - x x x\n- - - - - x x x - - - - x x x\nx x x - - x x - - - - x x - -\nx x x - - x - - - - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/018.a.htm"
+    },
+    "19_15x15": {
+      "id": "19_15x15",
+      "solution": "15 15\nx x x x - - - - x x x - - - x\n- - x x x - - x x x x - - x x\n- - - - x x x x x - - - - x -\nx - x x x x - - - - - - - - -\nx - - x x - - - x - - - x - -\nx - - x x x x - x - x - x x x\n- - - x - - - - - - x - - x x\nx x - - - - - - - - x x x x x\nx x x x - - - - - x x x - - x\n- x - x - - - - - x x - - x x\n- x - x x - - - - x x - x x x\nx x x x x x x - - x x - x x x\nx x x x x x - - - x x - x - -\nx x x x - - - x - x x - - - -\nx x x x - - - x - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/019.a.htm"
+    },
+    "20_15x15": {
+      "id": "20_15x15",
+      "solution": "15 15\n- - - x x x x x - - x x - - -\nx x - - x x x x - x x x x x -\n- x x x x - x x x x x x x x -\n- x - x x - - x x - x - - x x\n- - - - - - - - - - x x - x x\nx - x x x - - - - - - x - x -\nx - x - - - - - - - - - x x -\nx x - - x - - x - - - - x x -\nx x - - x - - x - - x x x x x\nx - - x x - - - - - - x x x x\nx x x - - - - - - - - - x x x\nx x x - - - x x - - - - x x -\nx x x x - - x x x x - - x - -\nx x x x - - - - x x - - - - x\nx x - - - x x x x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "solution": "10 10\nx x x - - - - - x x\nx x x x x x - - - -\nx x x x x x - x x -\nx x - - x x x - - -\n- x - - - x x x x -\n- - - - - - x x x -\n- - - - - - - x - -\nx x - x - x x - - -\nx x - x - x x x x x\nx x - - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "solution": "10 10\n- x - - - - x x x x\n- x x - - - x x x x\n- - x x - x x x x x\n- x - x - - - - - x\n- x - x x x - - - x\nx x x - x x x - - x\n- - - - - x x x - -\n- - x - - x x - - -\n- x x - x x x x - x\n- - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "solution": "10 10\nx x x x - - - - x -\nx x x x x - x x x -\n- x x - - - - - x x\n- x x - x x - - x x\n- - - - x x x x x x\n- - - - - - x x x x\n- - - - x - - x x x\n- - - - x x - - x x\nx x - - x x - - x x\n- - - - x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "solution": "10 10\n- x - - - - x x x x\n- x x - - - - x x x\n- x - - - - - x x x\nx x - x x x x x x x\nx x - x x x x x x -\nx x - - - - x x - -\nx x x x - - - x - -\n- - - - - - - x x x\nx - - - x x x - - x\nx x - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "solution": "10 10\nx x x x x - x x - -\nx x x - x - - x x -\n- - x - x - - x x -\nx x x - x x - - x x\n- - - - - - x x x -\n- - x x - - x - - -\nx x x - - - x - - -\nx x x - - x x x x x\n- - x x - - x x - -\n- - x x - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "solution": "10 10\n- - - - - x x x x x\nx x - - - x x x x x\n- x - - - - - - - -\n- x x x - - - - - -\n- - x x - x x - x x\nx x - - - x x - - x\nx x - x - x - - - x\n- x x x - - - - - x\n- x x x - - x x - x\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/026.a.htm"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "solution": "12 12\n- - x x x x x x x - - x\n- - x x x x x - x - x x\nx x x x - - - - x - - x\nx x x x - x x - x - x x\nx x x x - - - - - - x x\n- x x - - - - - - - - -\n- - - - x - - - x x - -\n- - x x x x - - x x x -\n- - x x x x - x x x - -\n- - x x x x - x x x - -\nx - - x x - - - - - - x\nx - - x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/027.a.htm"
+    },
+    "28_12x12": {
+      "id": "28_12x12",
+      "solution": "12 12\n- - - x x - - - - - x x\nx x x - - - x x - - x x\nx x - - - x x - x x x x\n- - x x - - x - - x x -\n- x x x - - x - - x x -\nx x x x x - - - - x - -\nx - x x x x - - x x - x\n- - x - - x x - x x x x\n- - x - - x x x x - x x\n- - - - x x x x - - - -\n- - - - - - - x x x - -\nx x x - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/028.a.htm"
+    },
+    "29_12x12": {
+      "id": "29_12x12",
+      "solution": "12 12\nx x x x x - - x x - x -\nx x x x x x x x x - x -\nx x - x - - - x - - x x\nx x - - - x - - - - - x\n- - x - - x x x x - - x\n- - x - - - x x x x - -\n- x x x x - - - - x - -\n- - x x - - - - - - x x\n- - x x x x x x - - x x\n- - x - - x - - - x x x\n- - - - - x x x - x x -\n- - x x x x x x - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/029.a.htm"
+    },
+    "30_12x12": {
+      "id": "30_12x12",
+      "solution": "12 12\n- - - - - - x x x - - -\nx x - - - - x x x x x x\nx x x - - x x x x x x x\nx x x - - x x x - - - x\n- x x - - x x x x - - x\n- - x - - x - x x x - x\nx - - - x x - - - x - -\nx x - - x x - - x x x -\nx x x - - x x - x x x -\n- - x x - x - - - - - -\nx x - - - x - - - x x -\nx x - - - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "solution": "10 10\nx x - - - - - x x x\nx x - - - x x x - -\nx x x - x - x x - -\n- - x - x - - - - -\n- - x - x x x - - -\n- - - - x x x x x x\nx x - x x x x - x x\nx - x x x x x - - x\nx - x x x x x x x -\nx - - - - - - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "solution": "10 10\nx x x - - - - x x x\nx x x x x - - - x x\n- - - - x - - - x x\n- - - x x - - - - -\n- - x x x - x - - -\n- - x x x x x - - -\nx x x x x - - x x x\nx x x - x - - x x x\nx x - - - x x x - -\nx - - x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "solution": "10 10\n- - - - x x x x - -\n- x x - x x x x - -\n- x x x x x x x - -\nx x - - - - x x x -\nx x x - - x x x x x\n- x x - x x - - - -\n- x x - x x x x x -\n- - - - - - - - x x\n- - - x x x - - - x\nx x - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/033.a.htm"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "solution": "10 10\nx - - x x x x x x x\nx - - x x x - x x x\n- - - x - - - x - x\n- x x x x - - x - -\n- - - x x - - x - -\n- - - - x - - x - -\n- x x - x x x x - x\n- x x x x x x x - x\n- - x x x x - - - x\n- - x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/034.a.htm"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "solution": "10 10\nx x - x - x x - - -\nx x - x - x x x x -\n- - - x x x x x x -\nx x - x - x x x - -\nx x - x - - - x - -\nx x - x x - - - - -\n- - x x x - x - - -\n- - x x x x x - - x\n- - x - - - - - x x\nx x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "solution": "10 10\nx - - - - - - - - -\nx - - x x x x x x -\nx x x x x x x x x x\n- x x - x x - x x x\n- x x - - x - - x x\n- - x - x x - - x -\nx - x - - x - - - -\nx x x - - x - - - -\nx x x - - - x x - x\n- - - x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/036.a.htm"
+    },
+    "37_12x12": {
+      "id": "37_12x12",
+      "solution": "12 12\nx x - x x x x x - - - x\nx - - x x - x x - - - x\nx x x x - - - - - - - x\nx x x - - x x - - - - -\nx x - - - x x - - x x -\nx x - - - - - - - - x x\nx x x - x - - x x x x x\nx - x x x x x - - x - x\n- - - - - x - - - x - -\nx x - x - x - x x x x -\n- - - x x x - - x x - -\n- - x x x - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/037.a.htm"
+    },
+    "38_12x12": {
+      "id": "38_12x12",
+      "solution": "12 12\n- - - - - x x x - - x x\n- x - - - x x x x - - x\n- x x x - - x x x x - x\n- x x - - x x x - x x -\n- x - - - - x - - x x -\nx x x x - - - - - - x -\nx x x x - - - - x - - x\nx x x x x - - x x - x x\nx x x x x - x x - x x x\nx x - - - - - x - - - -\nx x - - - - - x x - - -\nx x x x x - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/038.a.htm"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "solution": "12 12\n- - x - - x x x x x - x\n- x x - - x x - - - - x\n- - - - x x x - - - - x\n- - - x x - - x x x x -\n- - x x x x x x - - - -\nx x x x - x - x x - - -\nx x x x - x - - - - - -\nx - x - - x x x - x x -\nx - x - - x x x x - - -\nx x x x - - - x x - - -\nx x x x x - - x x x - -\n- - - - - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/039.a.htm"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "solution": "12 12\nx x x x x x x x x - - -\nx x x x x x - - - - x x\n- - x - - x x x - - x x\n- - x - - x x x x x x x\nx x - - - - - - - - x x\nx x x x x x - - - - x x\nx - - x x - - x x x x x\n- - x - - - - x x - - -\nx x x - - - x x x - - -\nx - x - - - - - x - - -\nx - - - x x - - x x x -\nx x - - x x - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "solution": "10 10\nx - - - - - x x x x\nx x x - x x - - - -\nx x - - x x x x - -\nx x - - x x x x x -\n- x x x - - x x - -\n- x x - - - x x - -\n- x x - - x - - - -\n- x x - - x - - x x\nx x x - x x x - x x\nx x x - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "solution": "10 10\nx x x x - - - x - x\n- x - - - - - x - x\n- x x x - - - - - x\nx x - - - - - - - x\nx x - x x x - - - x\n- - - x x x - - x x\n- - x - - - - x x x\nx x x - - - x x x x\nx x - - - x x x x x\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "solution": "10 10\n- x x - x x x x x x\n- x x - x - - x x x\n- x x x x x - x x x\n- x x - x x x - x x\n- x x - - - - - - -\n- - - x - x - - - -\nx - - x x x x - - x\nx x - - x x - - - x\nx x - - x x - - - x\nx x x x - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "solution": "10 10\n- - - x x x x - - x\nx x - - x x x - - x\nx x - - - x x - x x\n- - - - - - x x x x\n- - - x x x x x x x\nx - x x x - - - - -\nx x - x x x - - - -\n- - - x x x - x x x\nx x - - - - - x x -\nx x - - - - - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "solution": "10 10\n- x x - - x x x x x\n- x x - x x - x x -\n- - x x - - - x x -\nx - - x x - - x x -\nx x - x - - - - - -\nx x - x x - - - x x\n- x - x x - - x x x\n- - - - - - - x x x\n- - x x - - x x x x\n- - x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "solution": "10 10\n- - - x x x x x x x\nx x x x - x x x x x\nx x - - - x - - - x\nx x - - x - - - x x\n- - x x x - x x x x\n- - - - x - x x - -\nx x - - x - x x x x\nx - - - - - - - x x\nx - - - x x x x x x\nx - - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/046.a.htm"
+    },
+    "47_12x12": {
+      "id": "47_12x12",
+      "solution": "12 12\nx x x - - - - - - - x -\nx x - - x x x x x x x -\nx x x - x x x x x x x -\nx x x - x x - - - - x -\n- - - - - - - - x x x x\n- x - - - x x - x - x x\nx x - - - - x - - - x x\nx - - - x x x - - - x x\nx - - - x x x x - - - x\nx x x - - - x x x - - -\n- - - - - - x x - x x x\n- - x x x x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/047.a.htm"
+    },
+    "48_12x12": {
+      "id": "48_12x12",
+      "solution": "12 12\nx x - - - - - - - x x x\nx x x x - x x x - x x x\n- x x - - - - x - - - x\n- x - - - x - x - - - -\nx x - - - x x - - x - -\nx - - - - x x x x x - -\nx x x x - - - - - - - x\n- x x - - - - - x x x x\n- x x - - - - - - - x x\nx x x x x x x - - x x x\nx x x - x x - x - x x x\nx - - - x x - x - x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/048.a.htm"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "solution": "12 12\nx - - x x x x x x - - -\nx - - x - - - x x - - -\nx x x x x - x x x x - -\nx - - - - - - - - x x x\nx x x - - - - - - - x -\nx x - - x x x x x - x -\nx x - - x - x x - - - -\nx - - x x - x x - - - -\nx - x x x x x - - - - -\nx - x x x x - - x x x -\nx x - - - - - x x x x x\nx x - - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/049.a.htm"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "solution": "12 12\n- - - x x x x x - - x x\n- - x - x x x x - - x x\nx x x - x x x - - x - -\nx x x - x x x - - x - -\nx x - - - - x x - - - x\n- - x x x - - x - - - x\nx x - - - - - - - - x x\nx x - - - - x x - - x x\nx - - - - - x x - - x x\nx x - - - - x x x x x x\nx x - x x - - x - - - -\nx x - x x x - x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "solution": "10 10\n- x x x x - - - - -\n- - x x x - x x x x\n- - - x x - x - - -\n- x - x x - x - - -\n- x x x x - - - - x\nx x x - x x x - - x\n- - - - - x x x x x\n- x - - - - - - x -\n- x - x x x x - - -\nx x x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "solution": "10 10\n- x x x x - x x - -\n- - x x - - x x - x\n- - x x x - - - x x\n- - - x x - - - x x\nx x - - x x x - - -\nx x - x x - x - x -\nx - - - - - - x x x\nx x - - x x x - - x\nx x x - - x x - - x\nx x x - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "solution": "10 10\nx x - x x - - - x x\nx x - x x x - - x x\nx x - - x x - - x x\nx x - - - x - - - -\nx x x x - x x x x -\nx x x x x x x - - -\n- - - x x x x - - -\n- x x x x x x - - -\n- x - - - - x x - -\n- - - - - - - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "solution": "10 10\n- x x - - - - - - -\n- - x x x x x x x x\n- - - - - x x x x x\n- - - x x x x x - -\nx - x x x x x - - -\nx - - x - x x - - -\nx - - x - - x x - x\nx x x x - - x x - x\nx x - x - - x x x x\nx x - x - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\nx x - - - - - - x x\nx x x - - - - - - x\n- - - - - x - x x x\n- - - - - x - x x x\n- - - - - x - x x -\nx - x - - x x - - -\nx x x - x x x - - -\nx x x x x x x - - x\nx x x x - - - - - x\nx x x x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/055.a.htm"
+    },
+    "56_12x12": {
+      "id": "56_12x12",
+      "solution": "12 12\nx - - - x x x - x x x x\nx x - - x x x - x x x x\nx x x - - x - x x x - -\nx - x - x x - - x x - -\nx - - - - - - x x - - -\n- - - - - - - x x x - -\nx x - - - - - x x x x x\nx x x x x - - - x x x x\nx x x x - - - - - x - -\nx - - - - x x x x x - -\nx - - - - - x - - - - -\nx x x - - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/056.a.htm"
+    },
+    "57_12x12": {
+      "id": "57_12x12",
+      "solution": "12 12\nx x - - x x - - x x x x\nx x x - x x - - x x x x\nx x - - x x - - - x x -\nx x - - - - - - x x x -\nx x - - x - - - - - x -\nx x - - x - - - x x x x\nx x - - x x x x x x x x\n- - - - x x x x x x - -\nx x - - - x x - - - - -\nx - - - - - x - - - x x\n- - - x - - - - - - x x\n- - x x - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/057.a.htm"
+    },
+    "58_12x12": {
+      "id": "58_12x12",
+      "solution": "12 12\n- - - x x x x x x - - x\n- x x x x x x x - x x x\n- - - x x x x x - x x x\n- - - x - - x x - - x x\n- - x x x - - - - - - -\n- - x - x x - - - - - -\n- - - - x x - - - - x x\n- x x - - - - - x x x x\nx x x x - - - x x x - -\nx x x x x x x - - - - -\nx x x x x - - - - - - -\nx x x x - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/058.a.htm"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "solution": "12 12\nx x - - - x - - - - - x\nx x - - x x - - x x x x\nx - - - x x - x x x x x\n- x - - - x - - x x x x\n- x x - - - - - - - x x\nx x x - - - - - - - x x\n- - - - - x x x x - x x\n- x x - x x - x x - x x\n- x x - - x - x x - - x\n- x x - - x - - - x x x\nx x x - - - - - x x x x\nx x x x - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "solution": "12 12\n- - - x - x x x x x x x\n- - - x - - x x x x x x\nx x - x - x - - - - - x\nx x - x x x - x x x x -\nx x - x x x x x x - x -\n- - - x x - - x x - x x\n- - - - - - - - x x x -\n- - x x x - - x x x - -\nx - - - - - x x - - - -\nx - x x x x x - - x x -\nx - - - - x x - - - x x\nx x - - - - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "solution": "10 10\nx x - x x x x - - -\nx x - - x x - - - -\nx x - - x x - - - -\nx x - - x x x - x x\n- - - - x x - - x x\n- - - x x x x x x x\n- - - x x x - - - x\nx - x - - - - - - x\nx - x x x x - - x x\nx x x x x x x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "solution": "10 10\n- - - - x x x x x x\nx x - - x x x x x x\n- - - x - x x - - -\n- - x x - - - x - -\n- - - x - - x x - -\n- - - - - - x x x -\n- x x x x - - x x -\nx x x x - - x x - -\nx x x x x - - x x x\nx x x x x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/062.a.htm"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "solution": "10 10\n- - - - - x x x x x\n- - - x x x x x x -\nx x - x x x x x - -\n- x - - - - x - - -\n- x x x x x x - - -\nx - x x x - - - x x\nx - - - - x - x x x\nx - - - x x - - - -\nx - - x x x x - - -\nx x x x - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "solution": "10 10\nx x - - - - - x x x\n- x - - - - - - - x\n- - - - x x - - x x\n- - - - x - - - x x\n- x x x x - - - - -\n- x x x x x x x x -\nx x x - - - - x x -\nx x x x x - - x x x\nx x x x - - - - x x\nx x x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\nx x - - x - x x - -\nx x - x x - x x x -\nx x - - - - x - - -\nx x x - - - - x x -\nx x - - - - x x x -\nx - - x - - x x x -\n- - x x - - x x x -\nx x x x x - - - x -\nx x x x x x x x x x\n- - - x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/065.a.htm"
+    },
+    "66_12x12": {
+      "id": "66_12x12",
+      "solution": "12 12\n- - - x x x x x - - - x\n- - - - x - x x x x - x\n- - - - - - x x x x - -\nx x x x - - - x - x - -\nx x x - - - - - - - - -\nx x x - - - - x x x x x\nx x x x x - - - x - - -\n- - x x x - - - x x x x\n- - x x x x x - x x - -\n- - - - - x - - - x x x\n- - x x x - - x - x x x\n- - x x x - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/066.a.htm"
+    },
+    "67_12x12": {
+      "id": "67_12x12",
+      "solution": "12 12\nx x x x - - - x x x x x\nx x x x x - - x x x - -\nx - - - x x - - - - - -\n- - - - - x - - x x x x\nx x x - - - - - x x x x\nx x x - - - - - x - x x\nx x - - - x x - x - - x\n- - - - - - - - x - - x\n- - x x - x x - x - - x\nx x x - - x x - x x x x\nx x x x - - x - - - x x\nx x - - - - x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/067.a.htm"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "solution": "12 12\n- - - - x - x x x x - -\n- - x - x - - - x x x -\n- - x - - - - - - x x x\n- - x - x x x - - - x x\n- - x x x x x x x x x x\n- - x x x x x x x - - x\n- - - x x x - - x - x x\nx - x x x x x x x - - x\nx x x - - x x x x - - -\nx - - - - - x x - - - -\nx x x - - - - - - x x -\nx x x - - - x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "solution": "12 12\nx x x - - - - x x x x x\n- - x - x - - - - - - x\n- x x x x x - - - - x x\n- - - - - - x x - - x x\n- - - x - - x x - - x x\nx x x x x - - - - - x x\nx - - - x x - x x x x x\nx x x - x x - - x x x x\n- x - - x x - - x x x x\n- x - - - x x - x x x x\n- x x x - x - - - - - -\n- - x x - - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "solution": "12 12\n- x x x x - x x x x x -\n- x - - - - - x x - - -\n- - - x x - x x x x - -\n- - x x x x x x x x - -\n- - - x - - - - - x - -\n- - x x x - - - x x - -\n- - x x - x - - x x - -\nx x x x - x - - x x - -\nx x x - - - - - x - - -\n- x x - x x - - - - x x\n- x x x x x x - x x x x\nx x x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/070.a.htm"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "solution": "10 10\nx x x x - - - x x x\n- - x x x x - - x x\n- - x x x x x x x x\nx x x - - - - x x x\nx x x x x x - - x x\nx - - x x x - - x x\nx x - x x x x - - -\n- - - x - - - - - -\nx x x x - - - - - -\nx x - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/071.a.htm"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "solution": "10 10\nx x x x - - - x x x\nx x x x x x - - x x\n- - - - - x x - x x\n- - x x - - - - - x\nx x x x x - - x x x\nx - - x x - - - x -\n- - - x - - - - x -\n- - - x x - x x - -\n- x x x x - x x - -\nx x x - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/072.a.htm"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "solution": "10 10\nx x x x - x x - - -\nx x - - - x x x - -\nx x x - - - - x x x\nx x x x x - - x x x\nx - - x - - - x x x\nx - x - - - - x - -\n- - x - - - - x x -\n- - x x - - x - - x\n- - x x x - x - - x\n- - x - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/073.a.htm"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "solution": "10 10\nx x - - - x - - - -\nx x - - - x - - - -\n- - x x x - x - - -\n- x x x x - x x x x\n- x - - - x x x x x\nx x - - x - x x x x\nx - - x x - x x x x\nx x - x x x - - - x\nx - x x x - - - - x\nx - - - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "solution": "10 10\nx x x - - - - x x -\nx x - - - - x x x -\n- x - x x x x x x x\n- - x x x x x x - -\n- - x - x x x - - -\n- x x - - - x - - x\n- x x x x x x - - x\nx x - - - x x x x x\nx x - - - - x x x x\nx x - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/075.a.htm"
+    },
+    "76_12x12": {
+      "id": "76_12x12",
+      "solution": "12 12\nx x x x - - - x x - - x\nx - - x x - - x x - x x\n- - - - x - - - x x x x\n- - x x x x - - x x x x\n- - x x x x x - x x - x\nx - - - - x x x - - - -\nx x - - - - - x x x - -\n- - - - - - - x x - - -\n- - x x - - x x x x x -\nx - x x x x x x x x x -\nx x x x x x x - x x x -\nx x - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/076.a.htm"
+    },
+    "77_12x12": {
+      "id": "77_12x12",
+      "solution": "12 12\nx x - - x x - - x x x x\nx x x x - - - - x x x x\n- - - x x x x - x - - x\n- - - - - - x - - - - x\n- - x x x - - - - - - -\n- - x x x - - - - - - -\nx - x - - - - - - - - -\nx x x x x - - x x x x x\nx - - - x x x x x x x x\nx - - x x x - x x x - x\nx - - x x - - x x x - x\nx x x - - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/077.a.htm"
+    },
+    "78_12x12": {
+      "id": "78_12x12",
+      "solution": "12 12\nx x x - - x x x x x - -\nx x x x x x x x x x - -\nx - - - x x - x - x - -\nx - - - x x - x - - - x\nx x x x x x - - - - - x\n- - - - x x - - - - - x\n- x x x x - - - - - x x\nx - - - x - - - x x x x\nx x - - x x - - x x x x\n- x x x x x - - - - x x\n- - x x - x x x - - - x\n- - x x - x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/078.a.htm"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "solution": "12 12\n- - x - - x x - - - - -\nx x x - - x x - - x - -\nx x - - x x x - - x x x\nx x x - x - - - - - - x\n- - - - - - x - x - - x\n- - x x - x x - x x - -\n- - x x - - x - x x - -\nx x x x x - x x x x x -\nx x x x x - x x x x x -\nx - x x x - - - - - x -\nx - - - x x x - - - - -\nx x - - x x x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/079.a.htm"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "solution": "12 12\n- - x x x x - - x x - -\nx x x x x x - - x x x -\nx x - - - - - - x - - -\nx - - x x - - - - - x x\nx - - x x - - - - - - x\nx - - - - - - - x x - x\nx - - - - x x x x - - x\nx - x x - x x x x - - -\n- - - - - - - x x x x x\nx x x x x - - x x - - x\nx x - - x x x - x - - x\nx x x x x x x - x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/080.a.htm"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "solution": "10 10\nx x - - - x x - - x\nx x - - - - - - x x\nx x - - x x x x x x\nx x x x x x x x - -\nx x x - x x x x - -\n- - x - x x x x - -\n- - - - - - x x - -\n- x x - - x x - x x\n- x - - - x - - - -\n- - - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/081.a.htm"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "solution": "10 10\nx x - - x - - - x x\nx x x - x x - - x x\nx x x - - - - - x x\n- x x x - - - - x x\n- x x x x x x - - -\n- x x - x x - x x x\n- - - - - - - x x x\n- - - - x - - - x x\n- x - - x x x - x x\n- x - - - x x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/082.a.htm"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "solution": "10 10\nx x - - - x x - - -\nx x - - x x x x - -\n- x x x x x x - - -\n- - x x - - x x x -\n- - x - - x x - x -\nx - - - - - - - - x\nx x - - - - - - - x\nx x - - x x - - x x\nx x - - x x - x x x\nx x - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/083.a.htm"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "solution": "10 10\nx x x x x x x x - -\nx x - - x x - - - -\nx - - - - - - - - x\nx - - - - - - - - x\nx x - - x x x - - x\n- - - x x x x - - -\n- - - x - - - x x -\n- - - x x x - x x -\nx x x x - - - x x x\nx x x x - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/084.a.htm"
+    },
+    "85_12x12": {
+      "id": "85_12x12",
+      "solution": "12 12\nx x x x x x - - x x - -\nx x x x x x x - x x - -\n- - - - - x x - x - x x\nx x - - x x x - - - x x\nx x - x x - x - - x x x\nx x - - - - - x x x - -\n- - - - - x - x x x x x\n- - x x x x x x x x x x\n- - - x x - - - - - - -\nx x x - - - - - - - - -\nx - - - x x - - - - - x\nx x - - x x - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/085.a.htm"
+    },
+    "86_12x12": {
+      "id": "86_12x12",
+      "solution": "12 12\nx x x - - x x x - - - -\nx x x - - x x x - - - -\nx x - - x x x - - - - -\nx x - x x x - - - x x x\nx x - x x x - - - - x x\nx x - - x - - - x x x x\n- - - x x x x x x x x x\n- - - - - - x - - x x -\n- - - - x x x - x x - -\n- - - - x x x - - - - -\n- - - x x x - - x x - -\nx x x x x x - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/086.a.htm"
+    },
+    "87_12x12": {
+      "id": "87_12x12",
+      "solution": "12 12\nx x - - x x - - x x x -\nx x x - - - - - - x - -\n- - x - x x x x - - x -\n- - - - x - x x x x x -\nx x x - - - - x x x x -\nx x - x x - - x - - - -\nx x - - - - - x - - - -\nx x x - - - - x x - - x\nx x - - x x x x x x x x\nx - - x x - - - x x x x\nx x x x - - - - x x x x\nx x x x x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/087.a.htm"
+    },
+    "88_12x12": {
+      "id": "88_12x12",
+      "solution": "12 12\n- - x x x - - - - - x x\n- - - x x x - - - - x x\n- x - - - - - - - - - x\nx x - x x x - - - - x x\n- - - x x x x - - x x x\n- - - x x x x x - x x x\n- - - - - - - - x x x x\nx x x - - - - - - x x x\n- x x - - - - - - - x x\n- x x x - x x - - - x x\n- x x x x x - - x x - -\nx x x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/088.a.htm"
+    },
+    "89_15x15": {
+      "id": "89_15x15",
+      "solution": "15 15\nx - - x x - - x x x x - - - -\nx - - - x x - - - x x - x x -\n- - x x x x - - - - - - - - x\nx - x x - x x - - - - - x x x\nx - - - - x x - x x - - x - x\nx x x - - x x - x x x x x - x\n- - x - - x x - - - - - x - x\n- - - x x x x x x - - - x - -\nx - - x x - x - - - - - - x x\nx - - x x - - - - x x x - - x\nx - x x x x x x - - - x - - x\nx - x x x x x x - x x x - - -\nx - - - x x x - - - x x - x -\nx x - - - x x - - - x x x x -\nx x x x - x x - - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/089.a.htm"
+    },
+    "90_15x15": {
+      "id": "90_15x15",
+      "solution": "15 15\n- x x x x x x - - x - - x x x\n- x - x x x x - x x x - - - -\n- x - x x - - - - - x x - x -\n- x - - - - - - - - x x x x x\n- x x x - - - - x x - x x - -\nx x - - x - - x x x - - x - -\nx x - - x - x x x x - - x x x\nx x x - - - x - - - x x - - x\nx x x - x x x - - - - x x - x\nx - - - x x x - - - - - x - -\nx x x x - - x x - - - - x x x\n- - x x - - - x - - x x x x x\nx - - - x - - x - - x x - - x\nx x x x x - - x x x x x - - x\nx x x x x - - x - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/090.a.htm"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "solution": "10 10\nx x x x x - - - - -\nx x - - - - x - - -\n- - - x x - x - - -\nx x x x x - - x - -\nx x x x x - - x - -\nx - x x - - x x x x\n- - x x - x x x x -\nx x x - - x x x - -\nx x x - x x - - - x\n- - x - x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/091.a.htm"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "solution": "10 10\n- - - - - - - x x -\n- - - x x x x - - -\n- x x x x x - - x x\n- - - - - - - - x x\nx x x x - - - x - -\n- x - - - x x x x -\n- x x x x x x x - -\nx - x x x x x x - x\nx - - - - - x x x x\nx x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/092.a.htm"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "solution": "10 10\n- - - - - x x x x x\n- x x x - - - - - x\nx x x x - x x - - -\nx x - - - x x x x x\n- - - - x x x x x -\nx - - x x x x x x -\nx - - - - x - - - -\nx - x x - x - - x x\nx x x x - - x - x x\n- - x x - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/093.a.htm"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "solution": "10 10\n- - - - - - - - x x\nx x - x x x x x x -\nx x - x x - - - x -\nx x x x x - - - x x\nx x x x x x - - x x\n- x x - - - - - - -\n- - x x x x x - - -\n- x x x x - - x x -\n- x x - - - - x x -\n- x x - - - - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/094.a.htm"
+    },
+    "95_12x12": {
+      "id": "95_12x12",
+      "solution": "12 12\n- x x x x x x x x - - -\n- x x x x x x x x - - -\n- x - - - - - - - - - -\n- x - x - - - - - - - -\n- x x x - - x - - - x x\n- x x x x x x x - - x x\n- x x x - - - - x x x x\n- x x x - - - - - - x x\nx x x x x x x x x - - x\nx x x x - - x - - - x x\nx x x x - - x - - - - x\nx x - - - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/095.a.htm"
+    },
+    "96_12x12": {
+      "id": "96_12x12",
+      "solution": "12 12\nx x x x x - - x x x x x\nx x x x x - - x x x x x\n- - x x x - - x x x - x\n- - - - - - - x x - - x\n- - - x x - - - - - x x\n- - - x x - - - - x - -\n- - x x x x x x - x x -\n- x - - x - - - - - x -\nx x - - x - x x x x x -\nx - - - - - x x x - x -\nx - - - x x x x x - x -\nx - - x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/096.a.htm"
+    },
+    "97_12x12": {
+      "id": "97_12x12",
+      "solution": "12 12\nx - - - - x x x x x - -\nx - - - x x - - x x x x\nx - - - - - x - - - x x\nx - - - - x x x - - - -\nx x x x - x x x - x x -\nx x x - - - - x x x x -\nx x x x - - - - - x x -\n- x x - - - - - x x x x\n- - x - - x x x x x - -\n- - x - - - x x x x - -\n- - x x x - x - - x - -\n- - x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/097.a.htm"
+    },
+    "98_12x12": {
+      "id": "98_12x12",
+      "solution": "12 12\n- - - - - x x x - x x x\n- - - x - x x x - - - -\nx x x x - - - - - - - -\nx x x x x x x - - - - -\nx x x x - x x x x x - x\n- x - - - x x x x x x x\n- x x x x - - - x x x x\nx x x x x - - - - - - -\n- x x - - x x x - - x x\n- x x - - - - - - - - -\n- - x - x - - - - x x x\n- - x x x x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/098.a.htm"
+    },
+    "99_15x15": {
+      "id": "99_15x15",
+      "solution": "15 15\n- x x - - x x x - - - - x x x\n- x x x x x x x - - - - x x x\nx x x - x x x x - - - - x - x\nx x x - - - - - - - - - - - -\n- - - - - x - - - - - x x x -\n- x x x x x - - - - - x x x -\n- x x - x - - - - - - x x - -\n- - - - - - x x x - - - - - -\n- x - - - x x x - - - - x x x\nx x x x - x x x - - x - x x x\n- - - - - - x x x - x - x x x\nx x x x - - x x - - x - x x x\n- x x x x x x - - - - - - x x\n- - x x x x x - x - - - - x x\nx x x x x x x - x x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/099.a.htm"
+    },
+    "100_15x15": {
+      "id": "100_15x15",
+      "solution": "15 15\nx x x x x x x x - - - - - - -\n- - x x - - - - - x x - - x -\n- x - - - - - - - x x x - x -\nx x - - - - - - - - - - - - -\nx x - - - - x - - x x - - - x\nx x x - x x x - - x x - - - x\nx x x x x x x - - - x x x x x\nx x - - - x - x x - x x x x x\nx x x - - x - - x - - x x x x\nx x x x - - - - - x x x x x x\n- x x x x - x - - x x - - x -\n- - x x x x x x - x - - - x -\n- - - x x x x - - - x x - x -\n- - - x x x x x x - x x - x -\n- - - - - x x x x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/100.a.htm"
+    },
+    "101_10x10": {
+      "id": "101_10x10",
+      "solution": "10 10\nx x x x x x - - x x\nx - - x x x x x x x\n- - x x x x - x x x\n- - - - - - - x x x\n- - - x x - - - - x\n- - - - x x x - - x\n- - - x x x x - - -\n- x x x x - - - - -\nx x - x - - x - x -\nx x - x x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/101.a.htm"
+    },
+    "102_10x10": {
+      "id": "102_10x10",
+      "solution": "10 10\nx - x x x x x x x x\nx - x x - - x x x x\nx x x x - - x x - x\n- x x - - - - x - -\n- - - - - - - - x x\nx - - - - - - - x x\nx - - - - x - - - -\nx x x x x x - x x x\n- - x x x x - - - -\n- - x x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/102.a.htm"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "solution": "10 10\n- - x x x x - - x x\n- - - - x x - - x x\n- - - - - x x x x x\nx x x x - x x x x x\nx - x - - x x x x x\nx - - - x x x x x x\nx x x - - - - - - x\nx x x - - - x x - x\nx - - - - x x x - x\n- - - - - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/103.a.htm"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "solution": "10 10\nx x x - - - - - x x\nx x x - - x x - - x\nx x - - - x - x x x\nx x x x - - - - - -\n- - - x x - - - - -\nx x - x x x x x - -\nx x x x - x x - - -\nx - - - - x x - x x\n- - - - - x - - - x\nx x x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/104.a.htm"
+    },
+    "105_12x12": {
+      "id": "105_12x12",
+      "solution": "12 12\n- - - - - x x x - x x x\n- x x x - x x - - x x x\n- x x x - - x - - - - -\n- x x - x x - - - - - -\n- x x - x - - - - - - -\nx x x - - - - - - x x x\nx x x - - x x - - - x x\nx - - - x x x - - - - -\nx x - x x x x x x x x x\n- - - x x x x - - - - x\nx x - x x x x - - - - x\nx x x x x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/105.a.htm"
+    },
+    "106_12x12": {
+      "id": "106_12x12",
+      "solution": "12 12\nx x x x - - - - - x x -\n- - - - - x x x x x x -\nx - - - - - x x x - - -\nx x x x x - x x x - x x\nx x x x - - x x x x - x\n- - x x - - - x x x - x\nx - - - - - x x - - - -\nx - - - x x x x x x - -\nx - - x - x x x x x - -\nx x x x - - - - - - - x\n- x x - - x x - - - - x\n- - - - x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/106.a.htm"
+    },
+    "107_12x12": {
+      "id": "107_12x12",
+      "solution": "12 12\nx - x - - - - x - - x x\nx - x x x x - x x - - x\nx x x - - x x x x x x x\nx x x - - x x x x x x -\nx x x x - - - - x x - -\nx x x - - - - x - - - -\n- - x x x - - x - - - -\n- - - - x - - x - - - x\nx x - - x - x x x - - x\n- - - - - - - x - - - x\nx x x - - x x x - - x x\n- - - - x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/107.a.htm"
+    },
+    "108_12x12": {
+      "id": "108_12x12",
+      "solution": "12 12\nx x x x - x x x x x x x\nx x - x - - - x x x - x\nx x - x x - - x - - - x\n- - x x x - x x - - x x\n- - - x x - - x - - x x\nx - - x - - x x - x x x\nx x - - - - - x - x x x\nx - - - - - x x - - - -\nx x - x x - x x - - - -\n- - - - x x x - - - x x\n- - - - x x x - - - x x\n- - - - x x x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/108.a.htm"
+    },
+    "109_15x15": {
+      "id": "109_15x15",
+      "solution": "15 15\n- - x - - - - - - - - - x x x\n- x x x x - - x x x x - x x -\n- x x x - - x x x x x x x x -\nx x x x - - - x - x x x x x x\n- - x x - - x x - x - x - - x\n- x x - - x x - - x - x x - x\n- x x - - x x - - - - - - - -\n- x x - x x x x x - - x - - -\nx x - - - - x x - - - x x x x\nx - - x x x x - - - - - - - x\nx x - x x x - - - x - - - - x\nx - - x x x - - - x - - - - x\nx x - - x x - x - - - x x x x\n- - - x x - - x - - - x x x x\n- - - x x - - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/109.a.htm"
+    },
+    "110_15x15": {
+      "id": "110_15x15",
+      "solution": "15 15\nx x - - x x x - - - - - - - -\nx x x x x - - - - - - - - x x\nx x x - x - x - x x - - - x x\nx x x - - - x - x x - - - x -\nx x x - - - - - x x - x - x -\nx x x - - - - - x - - x x x x\nx x x x x x - - x x - - x x x\nx - - - - x - x x x - x x x x\nx x - - - x x x x x - x - - -\nx x - - - x x - x x x x - - x\n- - - x - - x - - - - - - x x\nx x - x - - x - x x x x - x x\n- - - - - - - - x x x x x - x\nx x - x x x x - - x - - x - -\nx - - x x - - - - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/110.a.htm"
+    },
+    "111_10x10": {
+      "id": "111_10x10",
+      "solution": "10 10\nx x x x x - - - x x\n- - - x x - - - x x\n- - - - x - - - x -\n- x - - - - - - x -\nx x x x - - x x x -\nx x x x - - - x x -\n- - x - - - x x x -\n- - - - - x x x x -\nx - - - x x x x x -\nx x x - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/111.a.htm"
+    },
+    "112_10x10": {
+      "id": "112_10x10",
+      "solution": "10 10\nx - - - x x x - - x\nx - - - - x x - - x\nx x x x x - - - - -\nx x - - x x - x - -\n- - x x x - - x - -\n- - - - - - - - x x\n- - x x x x - - x x\nx x x x x x x x x x\nx x - x - - - - x x\n- - - x - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/112.a.htm"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "solution": "10 10\n- - - - x x x - - -\n- - - - - x x - - -\n- - x x x - - - x -\n- - x x x x x x x x\nx x x x x x - - x x\nx x x - x x - - x x\nx x - - x x x x x x\n- x - - x x - x x -\n- - x - x x - - - -\n- x x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/113.a.htm"
+    },
+    "114_12x12": {
+      "id": "114_12x12",
+      "solution": "12 12\n- - x x x - - - - x x x\n- - - x x - - x x x - x\n- - - - - - - x x - - -\n- - x x x - - x x - - -\n- - x x - - - x x - - x\n- - - x x x - x x - - x\n- - - x x - - x x x x x\nx x x x x - - - x x x x\nx x x x x - - - x x x x\n- - x x x - - - - x x x\n- x x x - - x x - - x x\n- x x - - - x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/114.a.htm"
+    },
+    "115_12x12": {
+      "id": "115_12x12",
+      "solution": "12 12\n- x x - - x x x x x x x\n- - x x - x - - x x x x\n- - x x - - - x x - - -\nx x x x x - - x - x x -\nx - x - - - - x - x - -\n- - x - - - - x x x x x\n- - x - - - - - - x x x\nx x x x x x - - x x x x\nx - - - x x x - - x - x\nx x - - - - - - - x - x\nx x - x - - - - - x x x\nx x - x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/115.a.htm"
+    },
+    "116_12x12": {
+      "id": "116_12x12",
+      "solution": "12 12\n- - x x x - x x x x - -\nx - - x x - - x x - - -\nx - x x x x - - - - - -\nx - - - x x - - - - - -\nx x x - x x x x - x x x\n- - x - x x x x - x - -\n- x x - - x - - - x - -\n- x x - - - - - x x x x\nx x x x x x - - x x - x\n- x x x x x - x x x - x\n- x x x x x - x x - - -\n- - x x x x - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/116.a.htm"
+    },
+    "117_12x12": {
+      "id": "117_12x12",
+      "solution": "12 12\nx x x x x x x - - - - -\nx x x x x x x - - x - -\n- x x x - x - - x x x x\n- x x x - - - - x x x x\nx x x x x x x - x - - x\n- - - x - x x - - - x x\n- x x - - x x x x - - x\nx x x - - - - x x - - x\n- - x - - - - - x x x x\n- - - - - - - - - x x x\n- - - - - x - - - x - -\n- - - - x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/117.a.htm"
+    },
+    "118_15x15": {
+      "id": "118_15x15",
+      "solution": "15 15\n- x x - - - - x - x x x x x x\n- x x x - - x x - x x x x x x\n- x - - - - x x - - - - - x x\n- - - - x - x x x x x - - - -\n- - - - x x x x x x - - - - -\nx x - - - - - x x x - - - x x\nx x - - x x - - - - x x x x x\nx x x x x x - x x x x x x x x\n- x x x - x - - - - - - x - -\n- x x x - - - - - - x x x - -\nx x - - - - - x x - - - x x x\nx - - - - - - x - x - - x x -\nx x - - - x x x - x - - x x -\nx x x x x x - - - x - - - x -\nx x x x x - - - - - x x - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/118.a.htm"
+    },
+    "119_15x15": {
+      "id": "119_15x15",
+      "solution": "15 15\n- - x x x x x x x x - - x x -\n- - - x x x - - x x x x x x -\n- x - x x x - - x - x x x x x\nx x x - - x - - - - x x - x x\nx x - - x - - - x - x x - x x\nx x x x x - - x x x x x - - x\nx x - x x x - - x - - - - - x\nx x - - x - - x x - - x x x x\n- - - - - - x x - x x x x x x\n- - - - x - - - - x - - x x -\n- - - - x - - - - x - - - - -\n- - - - - - x - - - - - - - -\n- - - - - - x x x - - - x x x\nx x - - - - x x - - x x x x x\nx x - - x x x x x - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/119.a.htm"
+    },
+    "120_15x15": {
+      "id": "120_15x15",
+      "solution": "15 15\n- x x - - - - - - x x x x x x\n- x x x x - - x - x - x x x x\nx x x x x - x x - - - - - - x\nx x - - x - - - - - - - x x x\nx - - x x - - - - - - - x x x\nx - - x - - - - - x x x x x x\n- - - - - - x - x x x x x - x\n- - - x x - x - x x x x - - x\nx - - x x x x x x x x - - - -\nx - - x x x x x x - - - - - -\nx x - - x x x - x - - - x x x\nx - - - - - x - - - - - - - x\n- - - x x x - - - - - - - - x\n- - - x x - - x x x x x x x x\nx x x x x - - - x - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/120.a.htm"
+    },
+    "121_10x10": {
+      "id": "121_10x10",
+      "solution": "10 10\nx - - - x x x x x x\nx - - x x x x x x x\nx - - - - - - - - -\nx x - x - x x - - -\n- - - x - x x - x x\n- - - - - x x - x x\n- - - - x x - - x -\n- - x x x x - - - -\n- - x x x - - - - x\n- x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/121.a.htm"
+    },
+    "122_10x10": {
+      "id": "122_10x10",
+      "solution": "10 10\nx x x - x x x x x x\nx x - - x - x x x x\nx - - - - - - x x -\n- - - x - x - x x -\n- - x x x x - - x x\nx - - - - - - - x x\nx x - x x - - - - -\n- x x x x - - x x -\n- x x x x - - - - -\n- x x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/122.a.htm"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "solution": "10 10\nx - - - - x x - - -\nx - - - - x x x x -\nx x - - - - x x x -\nx x x x - - x x x x\nx x - - - - - - x x\n- x x x x - - - - x\n- - x x x x x x x x\n- x x - - x x - x x\nx x x x - - - - - x\nx x - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/123.a.htm"
+    },
+    "124_12x12": {
+      "id": "124_12x12",
+      "solution": "12 12\nx x x - - x x x - - x x\n- x x x x x x - - - x x\n- - - - - - - - - - x x\n- x x - - - - - - - - -\n- - - - x - - - - - x x\n- - x x x x x x x x x x\n- - - x - - x x x x x -\n- - - - - - - - x x - -\n- x x x x x x x x - - -\nx x - x x x x x x - - x\nx x - x - x x - - - x x\nx - - - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/124.a.htm"
+    },
+    "125_12x12": {
+      "id": "125_12x12",
+      "solution": "12 12\n- x x - - x - - x x - -\n- - x - - x - x x x - -\nx x x - x - - - - - x x\nx x - - x - - x - x - -\nx - - - x x x x x x x x\n- - - - - x x x x x x x\n- - x x - - x - - x - x\n- x x - - - - - x x - -\n- x x - - x - - - x x -\nx x x - - x x x x - - x\nx x x - x x - - - - x x\nx x x - x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/125.a.htm"
+    },
+    "126_12x12": {
+      "id": "126_12x12",
+      "solution": "12 12\nx x x - x x - x x - - -\n- - - - - x - x x - - -\nx - x x - - - - - - x -\nx - x x x - x x - - x -\nx x x - - - x x x - x x\nx x x - - - - - x - - x\nx - - x x x - x x - x x\nx - - x x x x - - x x x\n- - x x - - - x x x - -\n- x x x - - - - - x x x\nx x x - - - - - x x x x\nx x x - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/126.a.htm"
+    },
+    "127_12x12": {
+      "id": "127_12x12",
+      "solution": "12 12\n- - - x x - x - - - x x\nx - - x x - x x - x x x\nx - x x - - x x - x x x\n- - - - - - - x - - x x\n- - - x x x - - - - - -\n- - - x - x x - x x x x\n- - - - - - x x x x x -\nx x x - - - - x x - - -\nx x x x x x x x x x - -\nx x - x - x x x x - x x\n- - - x - x x - - - - -\n- - x x - - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/127.a.htm"
+    },
+    "128_15x15": {
+      "id": "128_15x15",
+      "solution": "15 15\nx x - - - - - - x x x x - - -\nx x x - x x x x x x x x - - -\nx x - - - - - x - - x x x - -\nx x x x x x - - - x - x x - -\nx - x x - - x - - x - - x - -\n- - - - - - x - - x - - x x x\n- - x - x x - - x x x x x x x\nx x x - x x - - - - x x x - x\nx x - - x x - - - - - x x - -\nx x - x x x - x x x - - - x -\nx x - x x - - x - - x - x x x\n- - x x - - - x - x x - x x x\n- - x x - - - - x x x x x - x\n- x x x - x x - - x - x - - x\n- x x - - x x - - x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/128.a.htm"
+    },
+    "129_15x15": {
+      "id": "129_15x15",
+      "solution": "15 15\nx x - x x x x x x x x - - - -\nx - - x x x x x x - x - - - x\n- - - x x - - - - - x x - - x\n- - - x - - - - x - x - - x x\n- - - x - - - - x x - - - x x\n- - - - x x x - x x x - - - x\nx x x x x x - - x - x x - - x\nx x - - x x x - - - x x - - x\nx x - - x x x x x x x x - - -\nx x - x - - x x x x x - - - -\n- - - x x x - - - - - - x x x\n- x x x x x - - - - - - - x x\n- - x - - x - - x - - - x x x\n- - x - - x x x x x x x x x -\n- - x x - x x x x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/129.a.htm"
+    },
+    "130_15x15": {
+      "id": "130_15x15",
+      "solution": "15 15\n- - x x x x - - x - - x x x x\n- - x x x x - x x - x x x - -\n- x x x x x - x x - x x x x x\n- - x - - x - - x - x - - - -\n- x x x x x x x x - x x - - -\n- x - - - x - - x x x x - - -\n- x x x x x - - x x - - - - -\nx x x x x x - - x x x x - - -\n- - x x - - - x x - - - x x -\n- x - - - - - x x - - - x x x\nx x x - - - - - x - - - - - -\nx x - - - - - - x - - x - x x\nx x - - - - - - - - x x - x x\nx x - - - - - - x - - x x x x\n- - - x x x x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/130.a.htm"
+    },
+    "131_10x10": {
+      "id": "131_10x10",
+      "solution": "10 10\nx x - x x x x - - x\nx x - x - x x - x x\n- - x x - x x - - -\n- - - x x - - x x -\nx - x x x x - - - -\nx - - - - - - x - x\nx x x - - - x x - x\n- - x x x x x - x x\n- x x - - - - - x x\n- x x x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/131.a.htm"
+    },
+    "132_10x10": {
+      "id": "132_10x10",
+      "solution": "10 10\n- - - - - - - x - -\n- - - x - - - x - x\nx x x x x - x x - x\nx x x x - x x x x -\nx x - - - - x x x -\n- x x x x x - - - -\n- - x - - x x - x x\nx x x - - x x - x x\n- - x - x x - - x x\n- x x - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/132.a.htm"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "solution": "10 10\nx - - x x - - x x x\nx - x x - - x x x x\nx - x x x - x x x x\nx - x - - - x - x x\nx x x - - - x - - x\nx x x - - x x - - -\n- - x - x x x - - -\n- - - - x - - - - -\n- - - x x x - x x -\n- - - x x - - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/133.a.htm"
+    },
+    "134_12x12": {
+      "id": "134_12x12",
+      "solution": "12 12\n- x x x - - - x x x x x\n- x x x - - - - - - - -\n- - x - - - x - - - - -\n- - x x - - x - - - - -\n- - x x - x x - - - - -\nx x x x - - x - - - - -\nx x - x - - x x x - - x\n- x - x - - x x - x x x\n- - x x x x x x - x x x\nx x x x - x x x - - x x\nx x x x - - - x x x x x\nx x x x - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/134.a.htm"
+    },
+    "135_12x12": {
+      "id": "135_12x12",
+      "solution": "12 12\nx x x x x - - x x - x x\nx - - - x x x x x - x x\nx - - - x x - - x - x x\nx x x - - - - x x - x x\n- x x x x - - x x x x -\n- - x - x - - - - - - -\n- x x - x - x - - - - -\n- x - - x x x x x x x -\nx x - - - - - - - x - -\nx x - x x x x - - x x x\n- - - x x x x - x - - x\n- - - x x - - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/135.a.htm"
+    },
+    "136_12x12": {
+      "id": "136_12x12",
+      "solution": "12 12\nx - - - x x - - x x x x\nx - - - - x - - - - x -\nx x x - - - - - - - x -\nx x x - x x x x x - - -\nx x x x x x x - x x - -\nx - - - - - x - x x - -\nx - - x x - x x - x x -\nx x - x - - - x - - x x\nx x - - x x - - - - x x\n- - - - x x x x x - x x\nx x x - - x - - x - - -\nx x x - x x - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/136.a.htm"
+    },
+    "137_12x12": {
+      "id": "137_12x12",
+      "solution": "12 12\nx - - - - x x x x x x x\nx - - - - - - x x x - x\n- - - x x x - x x - - x\n- x x x x - - x x x - x\n- - - - x x x - - - - x\nx x - - - x - - x x x x\n- - - x - x - - - - - x\n- x x x x x x x - - - -\n- x - - - x x x - - - -\nx x x x - x x x x x - -\nx x x - - x - - - - x x\nx - - - x x x - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/137.a.htm"
+    },
+    "138_15x15": {
+      "id": "138_15x15",
+      "solution": "15 15\n- - x x x x x x x x - - x x x\n- - x x - x x - x x - - - x -\n- - - - - - x - x - - - - x -\n- - - - - - - - x x - - x x x\n- - - - x x x - x x - - - x x\nx x x x x x x x - - - - - - -\nx x x x x - - - x - - - - x x\nx x x - - - x x x x - x x x x\n- x x - - x x x - x - x x x x\n- x x - - - - x - x - x - - x\n- - x - - - - - - - - x x - -\n- x x - x - - - x x - - - - -\n- x x - x x x x x x x x x - -\n- - - - x x - x x - - x x x x\nx x x x x x - - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/138.a.htm"
+    },
+    "139_15x15": {
+      "id": "139_15x15",
+      "solution": "15 15\n- - - - - - x x x - - - x x x\n- - - - x x x x x - - - x - -\n- x - - - - x x - - - - x - -\nx x - - - - - - - - - x x x x\n- - - x - - - - - x - - - - x\n- x x x - x x - - x x x x x x\nx x x x - x - - x - - - x x x\nx x x - - - - x x x x - x - x\n- - x x x x x - - - - x x - -\n- - - - - - x - - x x x x x -\nx x x x - x x x x x x x x x x\nx x x - - x x x - - - x x x x\nx x x - - - x - x - - x - - x\nx x - x - - - - x - - x - - x\nx x - x x x x - - - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/139.a.htm"
+    },
+    "140_15x15": {
+      "id": "140_15x15",
+      "solution": "15 15\nx x x x - - - - x - - - x x x\nx x x x - x x x x x x x x - -\nx x - - - - - x - x x - x x x\nx x - - - - x x - - - - x x -\nx - - x x - x x - - - - - - -\nx - - x x - x x x x x x x x x\nx - - - - - x - - - - - x - x\n- - x - - x x - - - - - x - x\n- - x x x x x - - - x - - - -\nx x - - - x x - - - x x x - -\nx x - - - - - - - - x x x - -\nx x x - - x x - - - x x x - -\nx x x - - - x x - - x x x x x\nx x x - x - x x x - x x - x x\n- - - x x x - - - x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/140.a.htm"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "solution": "10 10\nx x x x x x x x - x\nx x x - - - - - - x\nx x x - - x x x - -\nx x x x - x x x - -\nx - - x x x - - - -\nx - - - - - - - - -\nx - - - x - x x - -\nx - - - x - x x x x\nx x - - x x x - - x\nx x - x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/141.a.htm"
+    },
+    "142_10x10": {
+      "id": "142_10x10",
+      "solution": "10 10\nx x x x - - - x - -\nx x x x - - - x - -\n- x x x - x x x - x\n- x - x x x - - - x\n- - - - x x x x - x\nx - x x - - - x x x\nx x x - - - - x x -\nx x x - x x - x x -\nx x x - x x - x x -\n- - x - - - - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/142.a.htm"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "solution": "10 10\nx x - x x x x x x x\nx x - x - x x - - -\n- - - - - - x - - x\nx x x x - - - x x x\n- - - - x x x x x x\n- - x - - - - x x x\n- - x - - - - - x -\n- - - x x x - - x -\n- x x x x x - x - -\nx x x x - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/143.a.htm"
+    },
+    "144_12x12": {
+      "id": "144_12x12",
+      "solution": "12 12\nx - - x x x - - x x - -\nx - - x x - - x x - - -\nx x x x x x x x x - - -\nx x x x x x x - - - - -\n- x x x x - - - - - - x\n- - x - - - x - - - - x\n- x x - - - x x x - - x\n- x x x - - - x - - - x\n- x x - - - - x - - - x\n- - - x x x - x - x - -\n- x x x x x - x x x x -\n- x x x - - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/144.a.htm"
+    },
+    "145_12x12": {
+      "id": "145_12x12",
+      "solution": "12 12\n- - - - - - x x x x - -\nx x x - - x - - x x x x\nx x x x x x x x x - x x\nx x - - x - - x x - - x\nx x x - - - x x - - - x\n- - x - x x x - - - x x\n- x x - - - x - x - x x\nx x - - - x x x x - x x\nx x - x x x x - - - - x\nx - - - - - x x - - x x\n- - - - - - - x x x - -\n- - - - - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/145.a.htm"
+    },
+    "146_12x12": {
+      "id": "146_12x12",
+      "solution": "12 12\n- - - x x - - - x x - -\nx x - x x x x x - x - -\nx x x x x - x x - x x x\nx x x x x - x - - - - x\nx x x x x - - - - - x x\nx x x x x - - - - - - -\nx x - - x - - x x - - x\nx - - x - - - - - - - x\nx - - x x x - - - - - x\n- - x x x x - x - x x x\n- - x - - x - x - x x x\nx x x - - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/146.a.htm"
+    },
+    "147_12x12": {
+      "id": "147_12x12",
+      "solution": "12 12\nx - - x x x x x x x - -\nx x - x - - - x x x x -\nx - - - - - - - - - - -\nx - - - - x x x x x - -\nx - - - - x - - x x - -\nx - x x x - - x x x - x\nx - x - x x x x x - - x\nx x x - - - - - x x - -\nx x x x - - - - x x - -\nx x x - - - - - x x x x\n- - x x x x - x x - x x\n- - x - - x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/147.a.htm"
+    },
+    "148_15x15": {
+      "id": "148_15x15",
+      "solution": "15 15\nx - - x x - x x x x - - - x -\nx x - x - - x x x x x x - x -\nx x x - x x x x x x x x - x x\nx x x - - - - - - x x - - - x\nx x x - x - - - - - - - - - x\nx x x x x - x x x - - x x - -\nx x x x x - x - - - - x x - -\nx x x - - - x - x x - - x - x\nx x - - - x x - - x x x x - x\n- - - - x - - - - - - - - - -\nx x - - x x x x - - x x x - -\nx x - - - - - x - - - - - - -\nx x x x - - - x - - - - - - -\nx x x x - - x x x x x - - - -\nx x x - - - x x x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/148.a.htm"
+    },
+    "149_15x15": {
+      "id": "149_15x15",
+      "solution": "15 15\nx x - - x x x - - - - - - x x\nx x - - x x x - - x x - x x x\n- - - - x x x x x x x - x x -\nx x x - - - x x - - - - x x -\nx x x - - - - x - - - x x - -\nx x x - x x - - - - x x x - -\nx x x x x x x - - - - - x - -\nx x x x x x - - - - - - - - -\n- x x x x - - - x x x - - - -\n- - x - - - - x x x x x x x x\n- - x x - - - x - - - x x - -\n- - x x x - x x - - - x - - -\n- - - x x - x x x x - - - - -\nx - - x x x x - x x x - - x -\nx x x x x x x - x x x x - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/149.a.htm"
+    },
+    "150_15x15": {
+      "id": "150_15x15",
+      "solution": "15 15\n- - x x x - - x x x - x x x -\nx x x x x - - - - - - - - x -\nx - x x - - x - - - - - - x x\n- - - - - x x - - - x - x x x\n- x x - - - - - - - x x x x x\nx x x - - - - - - x x x x x -\n- - x x x - - x x x - x x x -\n- - x - x - x x - - - x x x x\n- - - - x - - - x - x x x - -\n- - - - - - x x x - - - - - -\n- - x x - x x x x - - x x x -\n- x x x x x x x - - - x x x -\nx x x - - x x x x x - x x x -\nx - - - x x x x x - - - x x -\nx - - - x x x x x x - - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/150.a.htm"
+    },
+    "151_10x10": {
+      "id": "151_10x10",
+      "solution": "10 10\nx x x - - - x - - -\nx x x - - - x x x -\nx x - - x x - x x -\nx x - - x x - - x x\nx - - x - x - x x x\n- - - x - - x x x x\n- - x x x x x - - x\nx x x x x - - - - -\nx x - - - - x x - -\nx x - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/151.a.htm"
+    },
+    "152_10x10": {
+      "id": "152_10x10",
+      "solution": "10 10\n- - - - - - - - x x\n- x x - x x x - - x\n- x x x - - x x x x\n- - - - - - - x - -\n- x x - - x x x - -\nx x x x - x - x x x\n- - x x x - - - - x\nx - x x x x x x - x\nx - - - x x x x - -\nx x x - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/152.a.htm"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "solution": "10 10\nx x x x x x x - - x\nx x x - - - - - x x\nx x x x x - - - x x\n- - - x - - - - x x\n- x - - - - - - x x\n- x - - - - x - x x\n- - x x x x x - - -\nx x x x - - x x x -\nx x - x x x x x - -\n- - - - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/153.a.htm"
+    },
+    "154_12x12": {
+      "id": "154_12x12",
+      "solution": "12 12\nx x x x x - - x x - x x\nx x x - x x - x x - - x\nx x - - x x - - x - - -\nx - - - x x x - x x x -\n- - x - - x x - x x x x\nx x x - - x x - x x x x\nx x x - - x x x x - - -\n- - x - - - - - - - - -\n- - - - - x - - - x x -\n- - - - x x - - x x - -\n- x x x x x - - - x x -\nx x x x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/154.a.htm"
+    },
+    "155_12x12": {
+      "id": "155_12x12",
+      "solution": "12 12\n- - - - - x x x - x - -\n- - - - - x x - - x x -\n- - - - x x x - - x x -\nx x - - x - x - - - - x\n- - - x x - - - - - x x\n- x x x - x x x - - x -\nx x x x - x x x - - x -\n- x x x x x x x - - x x\n- - - - - x x x x - - x\nx x - x x x - x - - x x\nx x - x x x - - - - x x\n- - - - x x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/155.a.htm"
+    },
+    "156_12x12": {
+      "id": "156_12x12",
+      "solution": "12 12\nx x x x - - - - x x - -\nx x x - - x - - x x - -\nx x x - - x x x x x - -\nx x x - - x x x - - - -\nx x - - - x x x - - - -\nx x - - - x x x x x - -\n- - - x x - - x x x - -\n- - - x x - - x x x - x\n- - - x x x - - - - - x\nx x - - x x - - - - - x\nx x - - x x x x x x x x\nx x - - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/156.a.htm"
+    },
+    "157_12x12": {
+      "id": "157_12x12",
+      "solution": "12 12\n- - x x x x x x x - x x\n- - x x x - x - - - x x\n- - x - x - - - x - - x\n- x - - x - x x x x - x\nx x x - - - x x x x - -\nx x x - - - x x x - - -\nx x x x x x x x x - - x\n- - x x - - - - - - - x\n- x x - - - - x x - - -\n- x - - - x - x - - x -\n- - - - x x x x - x x x\n- - - x x x x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/157.a.htm"
+    },
+    "158_15x15": {
+      "id": "158_15x15",
+      "solution": "15 15\nx x - - - - - x x x x - - - -\nx x - - - - x x x x x - - x x\nx x x x - - x - x x x x - x x\nx - - - - x x - - - x x - x -\nx - - - - x x - - - x x - - -\nx x - x x x x - - - - - - - -\nx x x x - x x x x - - - - - -\nx x x x - - x x x x - x x x x\n- x x x - x x x x x x x x - -\n- x - - - x x x - - x x x - -\nx x - - - - - x - - x x - - -\nx x x x - - - x - x x x - - -\n- - - - - x x - - x x x x x x\n- x x - - - - - - x x x x - -\n- x x - - - - - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/158.a.htm"
+    },
+    "159_15x15": {
+      "id": "159_15x15",
+      "solution": "15 15\nx x x - - - x x x x x x x x x\nx x x - x x - x x - - x - x x\n- - - x x x - x x - - - - x x\nx x - - - - - - x - - - - x -\nx x - - - - - x x - - x x x -\n- x - - x - - - - - x x x x x\n- x - - x - - - - x - - - - -\n- x x - - - - x x x - - - - x\n- - - x x - - x x x - - - x x\n- x x x x - - x x x - - - x x\n- - - - x - - - x x - - - x x\n- - - - x - x x x x - x - x x\n- x - - - - - - - - x x - x x\nx x x x x x x - x x x x x x x\nx x x x x x x - x - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/159.a.htm"
+    },
+    "160_15x15": {
+      "id": "160_15x15",
+      "solution": "15 15\n- - - x x x x - - - - x x - -\nx x - x x x x x x - - x x - -\nx x - - - - - - x x - x x - -\nx - x x x - - - - x - - x x x\n- - x - x - - - - - - x x x x\n- - x - x x - x - - x x x x x\nx x x - x x - x x x x x x x x\nx - x - - - - x - - x - - - -\nx - x x x - x x - - - - - - x\nx - x x - - - - - - - - - - x\n- - x x x x - - - - - x x x x\n- - x x - x - - - x x x - - x\n- - - x - x x x - - x x - - x\n- x x x - x x x - x x - - - x\n- x x x - - x x - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/160.a.htm"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "solution": "10 10\nx x x x x - - - x x\nx x x x x x - x x -\nx - - - - - - - x -\nx x x x x x - - - -\nx x x - x x x - - -\n- - - - - - x - - -\n- - - x x - - - - -\nx x - x x x x - - -\nx x - - - - - - - -\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/161.a.htm"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "solution": "10 10\nx x - - - - - x x x\nx x - x - - - - - x\nx x - x x - - - - x\nx x x x x - x x x -\n- - x x x - - x x -\nx - - x x - x x x -\nx x - x x x x x - -\nx x - - - - x - - -\n- - - x - - - - - -\n- - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/162.a.htm"
+    },
+    "163_10x10": {
+      "id": "163_10x10",
+      "solution": "10 10\n- - x x x - - - - x\n- - x - x - - x x x\n- x x - x - - x - -\n- x - - - - - x x x\nx x x - x x - - x x\nx x x x x x x - x -\nx x - - - - x x x -\n- - - - x x x - x -\nx x - - x x x - x x\nx x - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/163.a.htm"
+    },
+    "164_12x12": {
+      "id": "164_12x12",
+      "solution": "12 12\nx - - x x x x x x - - -\nx - - x x x - - x x x -\n- - x - - - - - x x - -\n- x x - - - x x x x - x\n- x - - - - - x x x - x\n- x x x x - - - - x - x\n- - x x x - - x - - - x\nx x - - x x x x - - - -\nx x - - x - - x - - - -\nx x - - x - - - - - x x\nx x x x x x x x x x - x\nx x x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/164.a.htm"
+    },
+    "165_12x12": {
+      "id": "165_12x12",
+      "solution": "12 12\nx x - - - x x - - - - -\nx x - - x x x x x x x -\nx x - - x x x x - x x x\nx x - x x - - - - x x x\n- - - - x - - - - - - -\n- - x - x x x x x - - x\n- x x - x x x x - - - x\n- x x - - - - - - - - x\n- x x x - - x - - x x x\n- x x - - x x x x x x -\nx - - - - - x x x x - -\nx x x x - - x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/165.a.htm"
+    },
+    "166_12x12": {
+      "id": "166_12x12",
+      "solution": "12 12\nx x - - - - x x x x x -\n- - - - - - x x x x - -\nx x x x x x x x x - x x\n- - - - x x x x x - x x\n- - - - x x x x - - - -\n- - x - - - x x - x - -\n- - x x - - x x - x x -\n- - x x - x - - - x x -\nx x - - x x - - - x - -\nx x - - x x x x - x x -\n- - x x x x x - x x x -\n- - x - - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/166.a.htm"
+    },
+    "167_12x12": {
+      "id": "167_12x12",
+      "solution": "12 12\nx x x x x x x x - - - -\nx x x - - x x - - - - -\nx x x x x x x - - x - x\n- - - - x x x x - x - x\n- - x - x x x x x x - x\n- - x - - - - - x x - -\nx - - - - - - - - - - -\nx - x x - - - - - - x x\nx - - x x x x - x x x x\nx x - x x x x - - - x -\nx x x - - x x - - - x -\nx x x x x x x - - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/167.a.htm"
+    },
+    "168_15x15": {
+      "id": "168_15x15",
+      "solution": "15 15\nx - - x x - - - x - - - x x x\nx - - x x - - - x x x - - x x\n- - - x x x x - x - x - - - -\n- - - - x x x - - - x - - - -\n- - - - x x x x x x x - x x x\nx x x - - x x - - x x x x x x\nx x x x x x x - - - - - x x x\n- - - x x x x - - - - - x x -\n- - - x - x x - - x x - - - -\nx x x - - x x - x x x x - - x\nx x x - - - x x x - - - x x x\n- - - - - - - x - - - - x x x\n- - - - x x x - - x - - x x x\n- - - x x x - - - x - - x - -\nx x - - x x - - x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/168.a.htm"
+    },
+    "169_15x15": {
+      "id": "169_15x15",
+      "solution": "15 15\n- - x x x x x - x - - - x x x\n- - - x x - - - x x - - - x x\n- - - x x x - - - - - x - x x\n- - - x x x x x x - - x - - x\n- - - x x x x x x - - x - - -\nx x - - - - - - - - - - - x x\n- x x - - x x x - - - - - x x\n- - x - - x x x - - x x - - x\n- - x - x x x x - - x x x x x\n- - - - x x x x - x x x - x x\n- - - - x x - - - - - - - x x\n- - - - - x x - x - x - - x x\nx x x x x x - - x - x - - - x\nx x x x x x - - - - x - - x x\nx x x x x x x x - - x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/169.a.htm"
+    },
+    "170_15x15": {
+      "id": "170_15x15",
+      "solution": "15 15\n- - - x x x x x - - x x x - -\nx x x x x x x - - - x x x x x\nx x x - - x - x x - x x x x x\nx x x x - - - x - - - - x - x\n- - x x - - - - - - - - x - -\n- - - - - - - - x x x x x - x\n- x x - - - x x x - - x - - x\nx x x x x - x x - - - x - - x\nx x - x - - - x x x - x x x -\nx - - x - - - x x x - x x x -\nx x x x - - - x x x - - x - -\nx x x x - - - x x x x - - - -\nx x x - x x x x x x x x x x -\n- - - - - - - - x x - - x x -\n- - - - - x x - x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/170.a.htm"
+    },
+    "171_10x10": {
+      "id": "171_10x10",
+      "solution": "10 10\nx - - - - x x x x -\nx - x x - x x x x -\nx x x x - x x x x x\n- - - x x x - - - -\nx x x x x x x - - -\nx - x x - - - - - -\n- - x x x - - - - -\n- - - - - - x x x -\n- - x - - - x x x x\n- - x - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/171.a.htm"
+    },
+    "172_10x10": {
+      "id": "172_10x10",
+      "solution": "10 10\nx x - - - - - - - -\nx x x x - - x x - -\n- - x x - - x x x x\n- - x x - - x x x x\n- - - - - - x x x x\nx x x - x x - - x x\nx x - - x x x x x x\n- - - - - x x - x x\nx x x x x - - - - x\n- - - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/172.a.htm"
+    },
+    "173_10x10": {
+      "id": "173_10x10",
+      "solution": "10 10\nx x - - - - x x - -\nx x - - - x x x - x\nx x - - - x x - x x\nx x x x x x x - - -\nx - x x x x x - - -\nx - - - x - - - - -\n- - - - x - - - x -\n- - - - - - x x x -\nx - - x x x x - - -\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/173.a.htm"
+    },
+    "174_12x12": {
+      "id": "174_12x12",
+      "solution": "12 12\nx x x - - - x x x x x x\nx x x - x x x - - x x x\nx - x - - - x - - x - -\n- - x - - - x - - x - -\n- - x x - - - - x x x x\n- - - - - - x x x x x x\n- - - - - - - - x - - x\nx x x - - x x x x - - -\nx x x x x x - - - x x -\nx x - - x x - - - - x x\nx x - - - - - - - x x x\nx - - - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/174.a.htm"
+    },
+    "175_12x12": {
+      "id": "175_12x12",
+      "solution": "12 12\nx x - - - x x - - - x x\nx x - - - x x - - - x x\nx x - - x x - x - - x x\n- - - - x - - x - - - -\n- - - - x - - x x x x x\nx - - x x x x x - x x x\nx - - x x x x x - - - x\nx x - - x x x x x x - -\nx - - - - - - - x x - -\nx - - - - - - - x x x -\nx x x - - - x x x x x x\nx - - - - x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/175.a.htm"
+    },
+    "176_12x12": {
+      "id": "176_12x12",
+      "solution": "12 12\nx x x x - - x x x x - -\nx x x x x - - x x x - -\n- - - - x x - - - x - -\n- x x x x x - x - - - -\nx x x x - - - x - - - -\nx x x x - - x x - - x x\n- - x x - - x x - - - x\nx x - x x x x - - - - -\nx x - x x x x x - - - -\nx x x x x x x x - - - -\nx x x x x x x x x x x -\n- - - - - - - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/176.a.htm"
+    },
+    "177_12x12": {
+      "id": "177_12x12",
+      "solution": "12 12\n- x x x - - x x x - - x\n- x x x - - x x x - - x\nx - x - x - - x x - - x\nx - - - x - - x x - x x\n- - - x x - x x x - - x\nx x - x x - - x x - - x\nx x x x x - x x x x x x\n- x x x x - - - x x x x\n- - - x - - - x x - - x\n- - - - - - - x x - - -\nx x - - - x x - - - - -\nx x - - x x x - - x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/177.a.htm"
+    },
+    "178_15x15": {
+      "id": "178_15x15",
+      "solution": "15 15\nx x - x x x - - x x - - x x -\nx x - - x - - - x x x - x x -\n- - - - x - x x x - - - x x -\n- - x x x x x x x x - - x x -\nx - x x x x x - - x - x x x x\nx - - x x x - - - x x x - - x\nx - - - - - - - - - x - - - x\nx x - - - - x x - - x - x x x\nx - - x x x - x - x x x - x x\n- - - x x - - x x x x - - x x\n- x - x - - - x - - - - x x -\n- x - - - - - x - - - x x - -\n- x x - - - - x x - - x x x x\n- - x x x x - - x - - x x x -\n- - - - x x - - x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/178.a.htm"
+    },
+    "179_15x15": {
+      "id": "179_15x15",
+      "solution": "15 15\nx x - - x x x - - - - - x x -\n- - - x x - - - - - - - x x -\n- x - - - - - - - - x x - - -\n- x - - x x - - - - x x - - -\n- x - - x - - - x x x - - - -\n- - - x x x - - x - - - x x x\nx x - - x x - - x x - - x - x\nx x - - - - - - x x x x x - x\nx x - - - x x - - - x x x x x\nx x - - - - x - - - x - x x x\nx x x x - - - x x x x - - - x\nx x x x - x - x - x x x - - x\nx x - x x x x x - x x x x - x\nx x - x x x x - - - - x x - -\nx x x x x x x x x x - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/179.a.htm"
+    },
+    "180_15x15": {
+      "id": "180_15x15",
+      "solution": "15 15\n- - - - x x x x x x x x - - -\n- - x x x - - - - - - x - - -\n- x x x x - - - - - x x x x x\n- x x x x - - - x x x - - x x\nx x x x x x x x x x x - x x x\nx x x - x x - x - - - - x x x\nx x - - x x - x x - - - x x x\nx x - - - - x x x x - - x x -\nx - - - - - x x x x - - - - -\n- - x x x x x - - - - - - - -\n- - - x - x x - - - - - - - -\nx x - - - - - - - x x x x - -\nx - - - - x x - - - - x x - -\nx - - x x x - - x x x x x x -\nx - - x x - - - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/180.a.htm"
+    },
+    "181_10x10": {
+      "id": "181_10x10",
+      "solution": "10 10\nx x x - - - - - x x\n- x x x - - - - - -\n- x x x - - x x x -\nx x x x - - - x x -\nx x x x x x - - - -\n- x x x x x x - - x\n- - x x x - - - - x\n- x x x x x - - - x\nx x x x - x x x x x\nx - - - - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/181.a.htm"
+    },
+    "182_10x10": {
+      "id": "182_10x10",
+      "solution": "10 10\nx x - - - - - x x -\n- - - x x x x x x -\nx - - x x x x x x -\nx - x x x - - - x -\n- - - x x - - - x x\n- - x x x - x - - -\n- - - - - - x x x x\n- - - - - - x x x x\n- x x x x x x x - x\n- x x x x x x x - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/182.a.htm"
+    },
+    "183_10x10": {
+      "id": "183_10x10",
+      "solution": "10 10\nx x x x x - - - x x\nx x x x x - - - - -\n- - - - x x x - - -\n- - - - - x x - x x\n- - - x - x x - x x\n- - x x x - - - x -\n- - x x x x x - - -\nx - - - - - - x x -\nx x x x - - - x x x\nx x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/183.a.htm"
+    },
+    "184_12x12": {
+      "id": "184_12x12",
+      "solution": "12 12\n- - - - - x x x x x - -\n- - x - x x x x - - x -\n- - x - - x x - - - x -\n- - x x - - - - - x x -\n- - x x - - x - - x x x\n- - x x x x x - - - x x\n- - - x x x x x - - x x\n- - - x x x - x - - - -\n- - x x x x - x - - - -\n- - x x - - - - - x x x\nx x x - x - x x x x x x\nx x - - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/184.a.htm"
+    },
+    "185_12x12": {
+      "id": "185_12x12",
+      "solution": "12 12\n- - x x x - - - x x - -\n- - x x - - - x x x - -\nx x x x - - x x x - - -\nx - x x x x x x x - - -\nx - - - - - x - - x x -\nx x - - - - - - x x x -\nx x x x - - x x x x x -\nx x x x x - x x x - - -\nx x - - - - - - x - - -\nx x - - - - - - - - - -\nx x - - x x x x x x x x\nx x - - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/185.a.htm"
+    },
+    "186_12x12": {
+      "id": "186_12x12",
+      "solution": "12 12\nx x x x x - - x x x x x\nx x x x x - - - x x x x\n- - x x - - x x x x - x\n- - x x - - - x x x - -\nx x x x - - - x x - - -\n- - x x x x x x x - - -\n- x x x - x - - x x - -\n- - x - - x x x x x x -\n- - x x - - - - - - - -\n- x x - - x x x - - - -\n- - - - - x - - - - - -\nx x x x x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/186.a.htm"
+    },
+    "187_12x12": {
+      "id": "187_12x12",
+      "solution": "12 12\n- x x x - - x x - - - -\n- - - - - - x x - - - -\n- x x x x - x - - - - -\nx x x x x x x - - - - -\nx x - x x - - - - x x -\n- - - x x x x - - x x -\n- x x x x x x x - - - -\n- x x x x x x x x x x x\n- - - - x x - - - x x x\n- - - - x x - x - x x x\n- x x - x x - x - x x x\n- x x - - x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/187.a.htm"
+    },
+    "188_15x15": {
+      "id": "188_15x15",
+      "solution": "15 15\nx - - x x x - - - x x x x x x\nx - - x x x x x - - x - x - x\nx - x x x x x x - - x - - - x\nx x - - - - - - - - x x - - x\nx - - - - - - - - - x - - - x\n- - - x x x - - x x x - - x x\n- - - x x x x - - x - - - x x\nx x x - - - - - - x - - - x x\nx - - - x x x x - x x - - x x\n- - x x - - - - x x - - x x x\nx x x - - - - x x - - x x - -\nx x x - x x x x x - - x x - -\n- - - - - - x x x - - x x - -\n- - - x x x x x - - x - x x x\n- x x x - - x x - x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/188.a.htm"
+    },
+    "189_15x15": {
+      "id": "189_15x15",
+      "solution": "15 15\n- - x x - - - - x x - - x x x\n- - x - - - x x x - - - x x x\nx - - - x - - - - - - x - - -\nx x x x x - - - x - x x - - -\n- - x x x - - - x - x x x x x\n- - - - x - - - - - x x x x x\n- - - x x - - x x - - - - - -\n- - - x x x x x x x - - x - -\n- - x x x x x x x x - - x - -\nx - - x x x x x x x - - - x x\nx x - x x x x - - x - - x x x\nx x - x x - x - - x - - x x x\nx x - - - - x - x x - - x x x\nx x x - - x x - x - - - x x x\nx x x x - x x - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/189.a.htm"
+    },
+    "190_15x15": {
+      "id": "190_15x15",
+      "solution": "15 15\nx x x - - x x x x x - - - x x\nx - x - x x x x x x - - - - -\nx - x - x - - - - - - x x x x\nx - x - x x x - - - - - - x x\nx x x - - x x - - x - - - x x\nx x x - - x x - - x x - x x x\n- - - - - x x - - x x - - x x\nx x x - - x x - - - x - - - x\n- - - x x x - - - - x x x - -\n- - - x x - - - x x x x - x x\n- x x x x - - - x x - x - - x\n- x x x x x - - x - - x - - -\nx x x x - - - - x - - - - - x\n- x x x - - - - x x - - - x x\n- - x x x - - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/190.a.htm"
+    },
+    "191_10x10": {
+      "id": "191_10x10",
+      "solution": "10 10\nx x - - - x x x - -\n- - - - - x x x - x\n- - - - x x x x x x\n- x - - x x x x x x\nx x - - x x - - - x\nx x - - x x - x x x\n- - - x x - - - - x\n- - - x - - - - - x\nx x - x - - - x x x\nx x x x x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/191.a.htm"
+    },
+    "192_10x10": {
+      "id": "192_10x10",
+      "solution": "10 10\n- x - - - - x x x x\n- x x - - - - - - x\n- - - - - - x - - x\nx x x x - - x x - x\nx x x x - - x x x x\nx x - - - - x - x x\nx x - - - - x - x x\n- - - x x x x - x x\nx x - x x - x - x x\n- - - x x - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/192.a.htm"
+    },
+    "193_10x10": {
+      "id": "193_10x10",
+      "solution": "10 10\n- - - - - - x x - x\n- x x x - - x - - x\nx x x x - x x - - x\nx x x x - - - x x x\n- - x x - - - x x -\n- - x x - x - - - -\n- x x x - x - - - -\n- - x - - - - x x x\nx x - - x - x x x x\nx - - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/193.a.htm"
+    },
+    "194_12x12": {
+      "id": "194_12x12",
+      "solution": "12 12\nx x x x x x x - - - x -\nx x x - - x x - - - x -\n- x x - - x x - - - x x\n- x x - x x - - - - - x\nx x - - x - - - - x x x\nx x x - x - - - x x x -\n- - - - x x x x - - - -\n- - - - - - x x - - x -\n- - x x - - x - - x x x\nx x x x - - - - - - - x\nx x - - - x x x - - x x\nx - - - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/194.a.htm"
+    },
+    "195_12x12": {
+      "id": "195_12x12",
+      "solution": "12 12\nx x x x - x x x - - - -\nx x x - - x x x - - - -\n- - x x x - - - - - - -\n- - x x x - - x - - x x\n- - x x x - x x - - - -\n- - x x x - x x x - - -\n- - - x x - x - x - - -\nx x x x x x x - x - - -\nx x - - - x x - x - - x\n- - - - - x x - x x x x\n- x x x x - - x x x x x\nx x x x x - x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/195.a.htm"
+    },
+    "196_12x12": {
+      "id": "196_12x12",
+      "solution": "12 12\nx x - - - - - - x x - -\nx x - x x x x x x x - -\nx x - x - - x x - - - -\nx x - x - - x x x - - -\n- - - x x - x - - - x x\n- - - - - - x x x - x -\nx x x - - - x - x - - -\n- x x - - - x - - - x x\n- x x x - x x - - - x x\nx x - x - x - - - - x x\n- - - x - - - - - x x x\nx x x x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/196.a.htm"
+    },
+    "197_12x12": {
+      "id": "197_12x12",
+      "solution": "12 12\nx x - - - - - x x x x x\nx x - - - - - x - - - -\nx x - - - - - - - - - -\n- - - - - - - - x x - -\n- - x x x x x - - x - -\nx - - - - x x - - - - -\nx - - - x x x - - - - -\nx x x x x x - - x - x x\nx x - - x x x x x - x x\nx x x x x - - - - - - x\nx x x x - x x x x x - x\nx x x x - x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/197.a.htm"
+    },
+    "198_15x15": {
+      "id": "198_15x15",
+      "solution": "15 15\n- - x x - - x x x x x x x x x\n- - x - - - - - x x x x x x x\nx x x - - - - - x x x - - - -\nx x - - - - - - x x - - - - -\nx x - x x x - - x - - - - - x\n- - x x - - - - - - - x x x x\nx x - - - - x x - - - x x x x\nx x - x x - x x - - - - - - -\n- - - - x x x x - x - - - x x\n- - - - x x - - x x x - x x x\nx x x x x x x - - - - - - - x\nx x - - x x x x x x - x x x x\n- x x - x x - - x x x x x x x\n- x x - - x x - x x x - - - -\n- - - x x x x - x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/198.a.htm"
+    },
+    "199_15x15": {
+      "id": "199_15x15",
+      "solution": "15 15\nx - - x x x x - - - - - - - -\nx - - - x x x x - - - - - - -\nx x - x x x x x - - - x - - x\nx x - x x - - x x x - x x x x\nx x - x x - - - - x - x x x x\nx x - - x x x - - - - - - x x\n- x - - - - - - x - - - x x x\n- x x x - x x - x x x x x x x\nx - - x - x x - - x x - x - x\nx - - - x x x x x x - - - - x\nx x - - - - x x x x - x x - x\n- - - - - x x x x - - - - - -\n- - - - - x x x x - - - - - -\n- x - x x x x x - x - - x - -\n- x - - - x x x - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/199.a.htm"
+    },
+    "200_15x15": {
+      "id": "200_15x15",
+      "solution": "15 15\n- x - - - x x x x - x x - - x\n- x x x - x - x x - x x - x x\n- - - - x - - - x - - - - - x\n- - - x x - x x x - - - x x x\n- x x - x x x x - - - - - x x\n- x x - - - - - - - x - - x x\n- x x x x x x x - - x x - - -\n- - - x - - x x x x x - - x -\n- - - x - - x x x x - - - x -\nx - x - - x x x x x - x x x -\nx x x - - - x x x - - - - x -\nx x x x - - x x x - - - - x -\nx x x x - - - - - - x - - x x\n- - - - - - x x x - x - x x x\n- x x x x x x x x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/200.a.htm"
+    },
+    "201_10x10": {
+      "id": "201_10x10",
+      "solution": "10 10\n- - x x x x - - x x\n- - x - - x x - - x\nx x x x x x x - x x\nx x - - x - - - x x\n- - - x x x - x - -\nx - - - x x - x - -\nx x - - x x x - - -\nx x x - x - x - x x\n- - - - x - x - - x\n- - - - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/201.a.htm"
+    },
+    "202_10x10": {
+      "id": "202_10x10",
+      "solution": "10 10\n- - x x x - - - - -\nx - - - x - - - - x\nx x - - - - - - - x\nx x x x x - - - - x\nx x x x x - - - - x\nx - x - - - - - x x\nx - x x - x x x x x\nx - x x x - - x x x\nx - x x - - - x x x\nx - x x x x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/202.a.htm"
+    },
+    "203_10x10": {
+      "id": "203_10x10",
+      "solution": "10 10\n- - - - x - x - - -\n- - - - x - x x - -\nx - x - x - - x - -\nx x x - x - - x - x\nx x - - x - - x x x\nx x x x x - - x x x\nx x x x x x x x x x\n- x x x x x - x - -\n- x - - - x - x x -\nx x - - - - - - x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/203.a.htm"
+    },
+    "204_12x12": {
+      "id": "204_12x12",
+      "solution": "12 12\n- - x x x x x - - x x x\nx x x x - - - - - - x -\nx - - - - - - - x - x -\nx x - - - x x x x - - -\n- - - - - x x - - - x -\n- - x x x x x - x - x x\n- - x x x x - - x x x x\n- - - - x - - x x x - -\n- - - x x x x x x x x -\nx - - - - - x x x - - x\nx x x - - x x x x - - x\nx x x - x x x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/204.a.htm"
+    },
+    "205_12x12": {
+      "id": "205_12x12",
+      "solution": "12 12\nx x x x - - x x x x x -\nx x x x - - - - - - - -\n- - - x - - - - - - x x\n- x x x - - - - x - x x\n- x x x - - - - x - - x\n- x x - - - - - x x x x\nx x - - x - - - x x x x\nx x - - x x - - x x - -\n- x - - - x - - x x - -\n- x x x x x x x x x - x\n- x x - x x x x x x - x\n- - - - x x x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/205.a.htm"
+    },
+    "206_12x12": {
+      "id": "206_12x12",
+      "solution": "12 12\nx - - - - - - - - - x x\nx x - - - x x - - x x -\nx x - x x x x x - - - -\n- x - - x x - - - x - -\n- x - - - - - - - x x x\nx x - - x - - - - - - x\nx x - - x - - x - - - -\nx - - - x - x x x x x x\nx x x - - - x x - x x x\nx - x - - - x x - x x x\nx - x x - - x x x x x -\nx x x x - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/206.a.htm"
+    },
+    "207_12x12": {
+      "id": "207_12x12",
+      "solution": "12 12\nx - - x x - - - x - x x\nx x - - x x x x x - x x\nx x - - - x x x x - x x\n- x x x x - - - x - - -\n- - x x x - - x x x - -\n- - x - x - - x x x - -\n- - - - - - - x x x x -\n- - - - - - - - x x x -\n- - - x x - - - - - x -\n- - - x - - x x x - x -\nx x x x x - x x x x x x\n- - - x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/207.a.htm"
+    },
+    "208_15x15": {
+      "id": "208_15x15",
+      "solution": "15 15\n- - - - x x x x x x - x x - -\nx x - - x x x x x x - x x - -\nx x - - x x - - - x - - - - -\nx - - x x x - - - x x - - x -\nx - - x x x x x x x - - - x -\nx - - - - - x - - - - - - x -\nx - - x x - - - - x x x x - -\nx - - x x x - - - - x x x x -\nx x x x x x x x x x x x x x -\n- x x - - - - x x x x - - - -\n- - - - - - - - x x - - x x x\nx - x x x - - x x - - - x x x\nx - - x x - - - - - x - - - -\nx - - - x x - - - x x x - - x\nx - - - x x x x - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/208.a.htm"
+    },
+    "209_15x15": {
+      "id": "209_15x15",
+      "solution": "15 15\nx x x - - x x x x x x - - - -\n- - - x - x x - - - x - - x x\n- - - x - - x - x - - - - x x\nx x x - - - x x x x - - - x x\nx x x - x - x x x x - - - x x\n- - x x x - - - x - - - - x x\n- x x - - - - - x - - - - - -\n- - - - x x - - - - x x - - -\nx x - - x x x x x - x - - x x\nx - - - - - - - - - x - - x x\nx - - x x x x x - x x - - - x\nx - - - x x x - - x x - - x x\n- - - - - x x x - x x - - x x\n- x x x - x x x x x x - - - x\n- x x x x x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/209.a.htm"
+    },
+    "210_15x15": {
+      "id": "210_15x15",
+      "solution": "15 15\n- - x x x - x x x - - x x x x\n- - x x x - x - x x x - x x x\n- - - x x - x - - x x - - - -\nx x - x x - x - - x x - - - -\nx x - x x - - - x x - - - - -\nx x - x x x - - x - - - - x x\nx x x - x x - - x x - - x x x\nx x - - x - - - - x x - - - -\n- x x - x - - - - - x - - - -\n- x x x - - - - - x x - - - x\n- x - x - - x x x x x x x x x\nx x - x - - - x x - x x x x -\nx x - x - - x x x - - - x - -\nx - - - - - x x x x - - x x x\nx x x - - - x x x x - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/210.a.htm"
+    },
+    "211_10x10": {
+      "id": "211_10x10",
+      "solution": "10 10\nx x x - - - x x x x\nx x x - - - - x x x\nx x x - - - - x x x\n- x x x x x - x x x\n- x x x x x x x - x\n- - - - - - - - - x\nx - - - - - - - - x\nx - - - x x x - - -\nx x - - x x x x - -\n- - - x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/211.a.htm"
+    },
+    "212_10x10": {
+      "id": "212_10x10",
+      "solution": "10 10\nx x x x x - - - - -\n- - x x x x - - - -\n- x x x x x - x x -\n- x x x x - - - x -\nx x x x x - x x x x\nx x x x - - - - - x\nx x - - - - - - - -\n- - x x x - - - - -\n- - - x x x - x x -\n- - - x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/212.a.htm"
+    },
+    "213_10x10": {
+      "id": "213_10x10",
+      "solution": "10 10\nx - - x x x - - - -\nx x - - - x x - - -\n- x x x x x x - - x\n- x x x - - - - - x\nx x - - - - - - - -\nx x x x x x x - - -\n- - x - x x x x x x\n- - - - x x - - x x\n- - - x x x x x x x\n- - - - x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/213.a.htm"
+    },
+    "214_12x12": {
+      "id": "214_12x12",
+      "solution": "12 12\nx x - - x x - - - - - x\n- x - - - x x x x - x x\n- x x - x x - - x - x x\nx x x - - - - x - - - x\nx x x - - x x x - - - x\n- - - - x x x x - - x x\n- - x x x x - - - - x x\n- x x x x - - - - x - x\n- - x x - - - - - x - -\n- - - x x x x x x x x x\n- - - x - - - x x x x x\n- - x x - - x x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/214.a.htm"
+    },
+    "215_12x12": {
+      "id": "215_12x12",
+      "solution": "12 12\n- - x - - - - - - x x x\nx x x - - - - - - x x x\nx x x - - - - - - x x x\nx x x x - - - - - x x x\nx x - - - - x x - - - -\nx x - - - - x x - - - x\nx x x - - - - x x x x x\nx - - - - x - - x x x -\nx - x x x x - - x x - -\nx x x x x - - - - - - -\nx x - x x - x x x x x -\nx x - - - - x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/215.a.htm"
+    },
+    "216_12x12": {
+      "id": "216_12x12",
+      "solution": "12 12\n- x x x - - - x x x - -\n- x x x - - x x x x - -\nx x - - - - x - x x - -\nx x - x - - - - x x - -\nx - - x x - - - - x - -\nx x - - - - x - - x - -\nx x x x x x x x - - - -\nx x x x x x x - - - x x\nx x - x x x - - - - - x\nx x - - x x - - x x x -\n- x x - - - - - - x - -\n- x x - - x x x x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/216.a.htm"
+    },
+    "217_12x12": {
+      "id": "217_12x12",
+      "solution": "12 12\nx x - - x - - x x - - -\nx x - - x - - x x - - -\n- - - x x x x x - - - -\n- - x x x x x x - - - x\n- - x x x x x x x x x x\n- - - x x x - x x x x -\n- - - x x - - x x x - -\n- x x - x - - x x - - -\n- x - - x - - - - - - -\nx x - - x - - - - - x x\nx x x - x x x - x x x x\n- - - - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/217.a.htm"
+    },
+    "218_15x15": {
+      "id": "218_15x15",
+      "solution": "15 15\nx x - - - - - - - x x x x - -\nx x - x x - - - - - x x - - x\nx x - x x - x - - - x x - x x\nx x - - x - x x x x x x x - -\nx x - x x - - - - - - x x - x\n- x - x x - - - x x - x x x x\n- - - - - - - - x x - x x x x\nx x x - - - x x - - - x x - -\n- x x x - - x x - - - x x - -\n- - - x - - x x - x x x - x x\n- - - - x - - - - - - - - x x\nx x - x x - - - - - - - - - x\nx x - - x - - x x x x - - x x\n- - - - x x x x x x x - x x x\n- - - - x x x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/218.a.htm"
+    },
+    "219_15x15": {
+      "id": "219_15x15",
+      "solution": "15 15\nx x x x x - - x x x x x x x x\nx x x x x - x x x x - x x x x\nx x - x - - - x x - - - x - -\nx - - x x - - - x x x - x x x\nx - - - x - - - x x x - - - -\n- - - x x x x - - - - - - x x\n- - x - - - - - - - x - - x x\n- x x - x x x x x x x - - x x\n- x x - x - - x x - - - x x x\n- - x - - x - x - - - - - x x\nx x x x x x - - - - - - - - -\nx x x x - - - - - x x x - - -\nx x - - - - x x - x x x - - -\n- - - - x - x x - x x - - x x\n- - x x x - - - - x x - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/219.a.htm"
+    },
+    "220_15x15": {
+      "id": "220_15x15",
+      "solution": "15 15\nx x x x x - - - x x x x - - -\n- - - - x x x x - - x x - - -\n- - - - - - - - - - - x x x -\nx x x x - - - - - - x x x x x\nx x x x - - - - - - - x x x x\nx x - - x x - x x x - x x x -\nx x - - - x x x x x x - - - -\nx x - - - x x x - - - - x x -\nx - x - x x x x x x x - x x -\n- - x - x - - x x x x - x x -\n- - x x x x - x x x - - x - -\n- - x x x - - - x x - x x - -\nx x x x x - - - - - - x x - -\n- - - - - - - - x x x x - - x\n- - - x x x - - x x x x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/220.a.htm"
+    },
+    "221_10x10": {
+      "id": "221_10x10",
+      "solution": "10 10\n- - - x x x - - - -\n- - x x x x - - x x\nx x - x x x x - - x\nx x - - - - - - - x\nx x x - - x - x - -\n- - x x x x - x x -\n- x x x x - x x x -\nx x - - x - - - - x\nx x - x x - x x - x\nx x - - - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/221.a.htm"
+    },
+    "222_10x10": {
+      "id": "222_10x10",
+      "solution": "10 10\nx x x - x x - x x -\n- - x - x x - x - -\n- - x x x x - - - -\nx x x x - - - - x x\n- - x x - - - - - x\n- - - - - x x x x x\nx x - - x x x x x x\nx - - - - x x x x x\nx - - - - - x x x x\nx x - - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/222.a.htm"
+    },
+    "223_10x10": {
+      "id": "223_10x10",
+      "solution": "10 10\n- - - x - - x x x x\n- - x x x x x x - -\nx x x - - - x x - -\n- x x x x - x - - -\n- x x x x - - - - -\nx x x x x - - - - -\nx - - x x - - - x x\nx - - x x - - - x x\nx x x - - - - x x x\nx x - - - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/223.a.htm"
+    },
+    "224_12x12": {
+      "id": "224_12x12",
+      "solution": "12 12\nx x x x x x x x - - - x\nx x x x x x x x x x x x\n- x x x x - x x x x x x\n- - x x - - x x x x - -\nx x x - - - - x x x - -\n- x x x x - - x - - - -\n- - - - - - - x - - - -\n- - x x - - - - - x x x\n- - - - - x x - - - - x\n- x x - - x x - - - - x\n- x x x x x x - - - - x\n- - - - - x x - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/224.a.htm"
+    },
+    "225_12x12": {
+      "id": "225_12x12",
+      "solution": "12 12\n- x x - x x x x x x x x\n- - - - x x x x - - - x\nx - - - x x - - - - x x\nx x - - - x - - - x x x\nx x x - - - - - - x x x\nx x x x x x - - - - - -\nx x - x x x x - - - x x\nx - - - - - - - - - x x\nx - x x x - - - x x - x\nx - x x - x - - x x - -\nx x x x - x - - x x x x\nx x - - - x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/225.a.htm"
+    },
+    "226_12x12": {
+      "id": "226_12x12",
+      "solution": "12 12\n- - x x x x - - x x x x\n- x x x x x x x x - - x\n- x x - - x - - - - - -\n- - x - x x x x - x x x\n- - x x x - x x - - x x\nx x - - - - - - - - x x\n- - - - - - - - - - x x\n- - - x - - - - x - - -\n- x x x x x x x x - - -\n- - x x - x - - x - x x\n- - x x - x x x x x x x\n- - - - - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/226.a.htm"
+    },
+    "227_12x12": {
+      "id": "227_12x12",
+      "solution": "12 12\nx x x x x x x - - - - -\n- x x x x - - - - x x x\n- x x x x - - x x x - -\nx x x x x x - - x x - -\nx x x x - - - - - x x -\nx x x - - x - - x x - -\nx x - - - x - - x x - -\n- - - - - - x - x - - -\n- - x - - - x - x - - -\n- x x x x x x x x - - -\nx x - - x x x x x - - -\nx - - - x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/227.a.htm"
+    },
+    "228_15x15": {
+      "id": "228_15x15",
+      "solution": "15 15\n- - x x x x - - x x x x - - x\n- - x - - - - - x - - - - - x\n- - x - - - - - - - - - - x x\n- - - - - - x x x - - - x x x\nx x x x x x - x x x x x x x x\nx - - - x x - - - x x x - - -\nx x - - x x - - - x x x - - -\nx x - - x x x x - x x - - x -\nx x - - - x - x - - - - - x x\nx - - - - - - x x x - - x x x\nx - - x - x x x - - - - - - -\nx x x x - x x x - - - x x x x\n- x x - x x x x x x x x x x x\n- - x - x x - x - - x x x x x\n- - x - - - - x x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/228.a.htm"
+    },
+    "229_15x15": {
+      "id": "229_15x15",
+      "solution": "15 15\n- - x x - x x x x - - - - - -\n- - x x - - x x x - - - - - -\n- - - - - - x x x - - - x x x\n- x x - - - - x x - - - x x x\nx x x - - x x x x - - - - x x\n- - - - - x x x x x x x x x x\nx x x - - x x - - x x x - - x\nx x - - - x x - - - x x - - x\n- - - - - - - - - - - - - x x\n- x x x - - - - - x x x x x x\n- - x x - - x - - - x x x x x\n- - - - - x x x - - x - - - x\n- x x x - x x x - x - - x - x\n- x x x x x x - - x x x x - -\nx x x x x x x x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/229.a.htm"
+    },
+    "230_15x15": {
+      "id": "230_15x15",
+      "solution": "15 15\n- - - x x x x - - - - - - - -\nx x - - x - x - - - x x x x -\nx x - - x - - - x x x x x x -\nx x x x x x - - x x x x x x x\nx x x x x x x - x x x - x x x\n- x x - - x x - - x x - x x x\n- x x - - - - - - - x - - x x\nx x x x x - x x - - x - - x x\nx x - x x - - x - - - - - x x\nx x - x - - - - - - - - - x -\nx x - x x x x - - - - - - x -\n- - - x x x x - x x - - - x -\n- - x x - x x x x x - - x x -\n- - x - - - - x x x - - x - -\n- - - - - - x x x - - x x x -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/230.a.htm"
+    },
+    "231_10x10": {
+      "id": "231_10x10",
+      "solution": "10 10\nx x x x x x x - - -\nx x x - x x - x x -\nx - - - - - - x x x\nx - - x - - - - x x\nx - - x x - - x x x\nx - - x x - x x x x\nx - - - x - - - x x\n- - - x x x - - - -\nx x x x - - - - - -\nx x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/231.a.htm"
+    },
+    "232_10x10": {
+      "id": "232_10x10",
+      "solution": "10 10\nx x x - - - - - - -\nx x x x x - x - - -\nx x x x - - x x - x\nx x x - - - - x x x\n- x - - - - - x - -\n- - x x x x x x - -\n- x x x x x - - - -\nx x x x - x x - - -\n- - - x - x x x x x\n- - - - - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/232.a.htm"
+    },
+    "233_10x10": {
+      "id": "233_10x10",
+      "solution": "10 10\nx x x - - x x - - -\nx x - - - x x - - -\nx x - - - - - x x -\nx x x x x x - x x -\nx x x x x x - - - -\n- x x x x x - - - -\n- - x - x - - x x x\n- - x - x - - x x x\n- x x - x x - - - -\n- - - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/233.a.htm"
+    },
+    "234_12x12": {
+      "id": "234_12x12",
+      "solution": "12 12\nx x x x x - - - - - x x\nx x x x x x - - x x x x\nx - x x x - - - x x x x\n- - x - - - - - x x - -\n- - - - - x x - - - - -\n- - - x - - x - - - - -\n- - x x - - - - - x x -\n- x x x x - - - - - x x\n- x x x x - x x x - x x\n- x x x x - - x x - x x\nx x x x x x - x x - - -\nx x x x x x - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/234.a.htm"
+    },
+    "235_12x12": {
+      "id": "235_12x12",
+      "solution": "12 12\nx x x x x - x x x x x x\nx x x x x - - x x x x x\nx x - - x - - - - x - x\nx x x x x x - - - - - -\n- - x x x x - - - - - -\n- - - - - - - - - - x x\n- - x - - - - x x - x x\n- - x x x x - x x - x -\n- - x x x x - - x x x -\nx x x - x - - - - - - -\nx x - - x - - - x x x -\nx x x x x - - x x - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/235.a.htm"
+    },
+    "236_12x12": {
+      "id": "236_12x12",
+      "solution": "12 12\nx x - - x x x - - x x x\nx x - x x x x x x x x x\nx x - x - - - - - - - -\n- - x x - - - - - x - -\nx x - - x x - - - x x -\nx x x x x - - - - x x -\nx - - - x - - - - - - -\nx x - - x x - x x - - -\n- - - x x x x x x - x x\n- - - - x - - - - - x x\nx x - - x x x x x - x x\nx x - - x x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/236.a.htm"
+    },
+    "237_12x12": {
+      "id": "237_12x12",
+      "solution": "12 12\nx x - - x - - - - x x -\n- - - - x x - x x x x -\n- - x - - x - x x - x x\n- x x x x - - x - - x x\nx x x - - - x x - - - x\nx - x x - - x x - - - x\n- - x x x - x x x x - -\n- - x x x - - - x x - -\n- - x x x x x x x - - x\n- - x - - - x - - - - x\nx - - x x - - x x - - x\nx x x x x - - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/237.a.htm"
+    },
+    "238_15x15": {
+      "id": "238_15x15",
+      "solution": "15 15\nx x x x x x - - - - - - - - -\nx x - - - - - - x x - - - - -\n- - - - x - x x x x x - x - -\n- - - - x - - x x x x - x x -\nx - x x x x - - x x x - x x -\nx x - - - x - x x x x - - - -\nx x - - x x - - x - - - x x x\n- x - - - x x x x x x - - - x\n- - - - - x x x x x x x - - -\n- x x x x x x x x x x x x - -\n- x x x - x x - - x x x x - -\n- - - - - - x - - x x x - - -\n- x x - - - x - x x x - - - -\nx x x x - - - x x x x - - x x\nx x - - - - - x x - - - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/238.a.htm"
+    },
+    "239_15x15": {
+      "id": "239_15x15",
+      "solution": "15 15\n- - x x x x x - - x x - - - x\n- - - x x x - - - x x - - - x\n- x x x - x - x x x x x x x x\nx x x x - - - x x - - x x x x\nx - x x x - - - x x x x x x x\nx - - - - - - - - x x x - - -\n- - - x x - - - - x x x - x x\n- x - x - - - - - - - x - x x\n- x x x - x - - - - - - - x -\n- - x x - x - - - - - x - - -\n- - - - - x x x - - - x x - -\n- - - - - x x x x x x x x - -\n- - x x - x x - - x x x x x x\nx - - - x x x x - - - x x x x\nx x - - - x x x x - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/239.a.htm"
+    },
+    "240_15x15": {
+      "id": "240_15x15",
+      "solution": "15 15\n- x x x x x x - - - - - x - -\n- - - - x x x - - - - - x - -\n- - - x x - - - - x x - - - -\n- - - x x x - - - x x - - - -\nx - - x x x x - - x x - - x x\nx x - x x x x x - - - - - - x\nx x x x - - - - - - - - - - x\nx - x x - - - - x x - - - - x\nx - x x x x x - x - - x x - -\nx - - - x - - - x - x x x x x\nx - - - - - - - x - x x x x -\nx - - - - - x x - x x x x x -\nx x - x x x x x - - - - x x x\nx x x x x x x x - - x x x x x\nx x x x x x x - - - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/240.a.htm"
+    },
+    "241_10x10": {
+      "id": "241_10x10",
+      "solution": "10 10\n- - - - - - - - - x\nx - x x - - x x - x\nx - x x - x x x - x\nx - x - - x x x x x\nx - x - - - - - x x\nx - - - - - x - x x\nx - - x x x x - x x\nx x x x x x x - - -\n- x x x x - - x x x\n- - - - x - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/241.a.htm"
+    },
+    "242_10x10": {
+      "id": "242_10x10",
+      "solution": "10 10\nx x x - - x - - x x\nx x x - - x - - x x\n- - - - - x - x x x\n- - - x - - - - - x\nx x x x - - x x - x\nx - - - - x x - - x\nx x - - x x x - - x\nx x x - - x - x - x\nx x - x - - - x x x\nx x - x - - - x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/242.a.htm"
+    },
+    "243_10x10": {
+      "id": "243_10x10",
+      "solution": "10 10\nx x x x x x - - x x\nx x x - x x - - x x\n- - - - x - - - x x\n- - - - - - - - - x\nx x - - x x - - - x\nx x - - x x x - - -\nx x - - - x x - - -\n- - x x - x x - x x\nx x x x x x x x x x\n- - - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/243.a.htm"
+    },
+    "244_12x12": {
+      "id": "244_12x12",
+      "solution": "12 12\nx x x x x x - - x x x x\nx x x x x x x x x x - -\nx x x - - x x x x x - -\nx x x - - x x x x x x -\nx x - - - x x x x x - -\n- x - - - x - - - - - -\n- - - x - x - - - - - -\n- - x x x x x x - - - -\n- - - - - x x x x - - -\nx x - - - - x x x - x -\nx x - - - x x - - - x -\nx x - - x x x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/244.a.htm"
+    },
+    "245_12x12": {
+      "id": "245_12x12",
+      "solution": "12 12\n- - - - - x - - - x x x\nx - - - x x - - - x x x\nx - x - x x x - - x x x\n- - x x x x - - x x - -\nx x x - - x x - x x - -\n- - - - x x x - - - - -\n- - - - - x x - - x x x\n- x x x - x x x - - x x\nx x x - - x x x x x - -\nx x - - - - x - - x - -\nx x x - - x x x - - - -\nx x x x - - x x - x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/245.a.htm"
+    },
+    "246_12x12": {
+      "id": "246_12x12",
+      "solution": "12 12\nx x - x x x x x x x x -\nx x - x x x - - x x x -\nx x - - - - - - x x x -\nx x - - - - - x x - - -\nx x - - - - - x x - - x\n- x - - x x - x - x - x\n- x x - - x - - - x x x\n- x x - - x - - x - - -\n- - x - - - - x x - - -\nx x - - - - - x x x - -\nx x - - - - - x x x x x\nx x - x x x - x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/246.a.htm"
+    },
+    "247_12x12": {
+      "id": "247_12x12",
+      "solution": "12 12\nx x x x x - - x x x x x\n- - - - - - - x x x x x\n- - x x x x x x x x x x\n- - - - - - - - - - - x\nx x - - - - - - - - - x\nx - - - - - - - x - - -\n- - x x x x x x x x x -\nx x - x x x x - - x x -\nx x - - - - - - - x x -\n- x - x - x x - - x - -\n- x x x - x x - x x x x\n- x x x - - x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/247.a.htm"
+    },
+    "248_15x15": {
+      "id": "248_15x15",
+      "solution": "15 15\n- x - x x - - x x x x x x x x\n- x - x x - - - x - - x x x x\n- x - x x x - - - - - x x - x\n- x - x x x - x x - x x x - x\n- - x x - - - x x - x x x - x\n- - x x - - - x x - x - - - -\nx x x x x - x x x - x x - x -\nx - - - - - x x x - - - - x x\n- - x x x - - x - - - - - - -\nx x - - x x - - - x - - - - -\nx x - - - - - x - x - - - - x\nx x - - - - x x x x - - - - x\nx x x x x - x x x - - x - - x\nx x - - - - x x x x x x - - x\nx x - - - - x x - - x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/248.a.htm"
+    },
+    "249_15x15": {
+      "id": "249_15x15",
+      "solution": "15 15\n- - - - x - - - - - - - - x x\nx x - - x x - - - - x x - x x\nx - - - x x - x x x x x - - -\nx x - x x x - - x x x x - - -\nx x x x x x x x x x x - - - x\n- x x x x x x - - - - - - x x\n- - - x x x x - - - x x x x x\n- - - - x x x - - - x x - x x\n- - - - x x x - - - x x - x x\n- x - x x x - - x - - - - - -\nx x - - - - x - x - x x x x x\nx x - - - - x - x - x x x x x\n- - - - x x x - - - - x x x x\n- x - - - x x x - - - - - - x\nx x - - x x x x - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/249.a.htm"
+    },
+    "250_15x15": {
+      "id": "250_15x15",
+      "solution": "15 15\nx x x - - - - x - - x x x x x\nx x - - - x - x - - x - - x x\n- x - - - x - x x - x - - x x\n- x x - - - - - - - x x x x x\n- x - - - x - - x x x x x x x\n- - - - - x - - x x x x x - x\nx x - - - x x - x x x - x - x\nx - - x x - x - x x - - - - -\n- - - - - - x - x x x x - - -\n- - - - - - - - - - x x x x x\n- - - x x - - x - x x x - - -\n- - x x - - - x - - - - x x -\nx x x x x x x x - x x x x x x\n- - x x x x x x x x x x - - x\n- - - - x x x x x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/250.a.htm"
+    },
+    "251_10x10": {
+      "id": "251_10x10",
+      "solution": "10 10\n- - - - x x x x x -\n- - - - x x x x x -\n- - - x x - x x x x\nx - x x x - - x x x\nx - x x x - - x - x\nx - x x x - - - - x\nx - x x - - x x - -\n- - - - - - x x - -\nx x x x - - x x - -\nx x x x - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/251.a.htm"
+    },
+    "252_10x10": {
+      "id": "252_10x10",
+      "solution": "10 10\nx x x - x x - - - -\nx x - - x - - - - -\nx x - - x - x x x x\nx x x x x x x x x x\n- x x x - - - x x x\n- - x x - x x x - -\n- - - - - - - x - -\n- x - x - - x x x x\nx x x x - - x x - x\nx x x x - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/252.a.htm"
+    },
+    "253_10x10": {
+      "id": "253_10x10",
+      "solution": "10 10\n- - x x x x x - - -\n- - x x - - - - - x\nx - - - - x x x x x\nx - - - - x x x x x\nx - - x x x x x - -\n- - - x x x x x - -\n- - - x x x x x x x\n- x - - x - - - - x\n- x x - - - - - x x\nx x x x - - - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/253.a.htm"
+    },
+    "254_12x12": {
+      "id": "254_12x12",
+      "solution": "12 12\n- - - x x x x x - - - -\n- - x x x - - x x x x x\n- - - - - - - - - - - x\n- x x x - x - - - - - x\nx x - x - x x - - - x x\nx x - - - x x x x x x x\n- - - - - x - - - x x x\n- - - - x x - - - x - x\n- - x x x x x - - x - x\n- x x - - - - x - x - x\nx x x x - - - x - - x x\nx x x x - - x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/254.a.htm"
+    },
+    "255_12x12": {
+      "id": "255_12x12",
+      "solution": "12 12\nx x x x - - x x x - - -\nx x x - - x x x x - x -\nx x - - x x x x x - x x\nx - - x x x x x - - x x\nx x - x - - - - - - x -\nx x x x x - - - - - - -\n- - - - - - - x - - - -\n- - - x - - - x x x - -\nx x - x - - - x x - - -\nx - - x - - x x x - - -\nx - - x - - x x x x x x\nx - - x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/255.a.htm"
+    },
+    "256_12x12": {
+      "id": "256_12x12",
+      "solution": "12 12\n- - - x x x x - - - - -\n- x x x x x x x - - - -\n- x x - - - x x x x x -\n- - - x - - x x - x x x\n- - x x x x x x - - - -\n- - x x x - - x - - - x\nx x x x - - - x x - - x\nx x - - x x x x x - - x\nx x - - x x - - - - - x\nx x - - x - - - - x - -\nx x x - x x x x x x - -\nx x x - x - - x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/256.a.htm"
+    },
+    "257_12x12": {
+      "id": "257_12x12",
+      "solution": "12 12\nx x x - - x x - x x - -\nx x x - - x x - - - - -\nx x x - - - x x x x x -\nx x - - x - x x x x - -\nx - - x x x x x x - - -\nx - - x x x x x - - - -\nx - - - - - x x - - x -\n- - - - - - - x x x x -\n- x - - - - - x x x - -\nx x - x x - - x x x - -\nx x x x x - - - - x - -\nx x - - x - - - x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/257.a.htm"
+    },
+    "258_15x15": {
+      "id": "258_15x15",
+      "solution": "15 15\nx x x - - x x x x x - - - x x\nx x x x - x x x - - - x x x x\nx - - x - x x x - x x x x x x\nx - - - - - - x - x - - x x x\n- - - - x x - x - x x - x x x\n- - - - x x x x - x x - - - -\n- - - - x x x x - - x - x - -\nx - - - - - - x x - - x x - x\nx - - - - - x x x - - - x x x\nx - - x x - x - - - x x x x x\nx - - - x x x - - - x x x - -\n- - x x x x x x - - - - - - x\nx x x - - - x - - - - - - - x\nx x x x x x x x - - - - - - -\nx x - - x x x - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/258.a.htm"
+    },
+    "259_15x15": {
+      "id": "259_15x15",
+      "solution": "15 15\nx x x x - - x x x x - - - x x\nx x - x - - - x - x - - - x x\n- x - x - - x x - - - x - - -\n- - x x x x x x x - - x - x x\n- x x x x x x - x - - x x x x\nx x x - - x - - x - - x - x x\n- - - x x x - - x x - - - - -\n- - - x x - - x x x x x x - -\n- - - x - - - x x x x x x - x\n- - - - - x x x x x - - - - x\n- - - - - - x x x x - - - - x\n- x x - - - x x - - - - - x x\nx x x - - - x x - - - - - x -\nx x x - - x x x x - x x x - -\nx x x - - x x x x - - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/259.a.htm"
+    },
+    "260_15x15": {
+      "id": "260_15x15",
+      "solution": "15 15\n- x x x x x - - - x x - - - -\n- x x x x x x - - x x x - x -\nx x - - - x - x - - - - - x -\nx x x - x x - x - - - x - x x\nx - - - x x - x - x x x x x x\nx x x - - - - x x - x x - - -\n- x x x - x - x - - - - x - -\n- x x - - x - - - - - x x x x\nx x x - - x x - - - - x - - x\nx x - - - x x - - - x x - - -\nx x - - - x x - - - - x x - -\nx x - - x x x - - x x x x x x\nx x - - x x x x x x - - x x -\n- - - - - x x - x x - - - - -\n- x x x - x x - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/260.a.htm"
+    },
+    "262_10x10": {
+      "id": "262_10x10",
+      "solution": "10 10\nx x x x x - - - x x\n- x x - x - - - x x\n- x x - x - - - - -\n- x x x x - - - x -\n- - - - - - x x x x\nx x - x x x x x x x\nx x - x x - - x x x\nx x - - - - - - x x\nx - - x - x - - - -\nx - - x x x - - - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/262.a.htm"
+    },
+    "263_10x10": {
+      "id": "263_10x10",
+      "solution": "10 10\nx - x x - - x - - -\nx - x - - - x - - -\nx x - - - - - - - -\nx x - - - x x - x x\nx x x x x x x - x x\nx x - - - - - - x x\n- x x x - - - - - -\n- x x x - - - - - -\nx x x x - x x x - -\nx x x x x x x x x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/263.a.htm"
+    },
+    "265_12x12": {
+      "id": "265_12x12",
+      "solution": "12 12\n- - - x x x - - x x x x\nx x - x x x - - - - x x\nx - - - x x x - - - - -\nx x - - - - x - x x - x\nx - - - - - x x x x x x\nx x x x - - - x - - x x\nx x x x - - - x - - x x\n- - x x - - - x x - - x\n- - x x - - - x x x - -\n- x - - - - x x x - - -\n- x x x x x - - x - x x\nx x - - - x - - x - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/265.a.htm"
+    },
+    "266_12x12": {
+      "id": "266_12x12",
+      "solution": "12 12\nx x - - x x - - x x - -\nx x x x - x x - - - x x\nx - x x - x x - - - x x\nx - - - - x x x x - - x\n- - x - - - - - x x - x\n- - x - - - - - x x - -\n- - - - - - x - x x x -\n- - - x - - x x x - x x\n- x x x x x x x x - - x\n- - x x x x - - - - - x\nx x - - x x - x - - x x\nx x - - - x x x x - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/266.a.htm"
+    },
+    "267_12x12": {
+      "id": "267_12x12",
+      "solution": "12 12\nx x x x x x x - - - - -\nx - x - x x x x - x x x\nx - - - x x - - - - - x\n- - - - x x x - - - - -\n- - - x - - - - - - - -\nx x x x - - x x - - - -\nx x x x x - x x - - - -\nx x x x - - - x - - x x\nx x x x x x x x - - x x\nx x x - - x x x x - x x\nx x x x - x x - x - - -\nx x - - - x x - x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/267.a.htm"
+    },
+    "268_15x15": {
+      "id": "268_15x15",
+      "solution": "15 15\nx x - x x x - - - - - - x x x\nx x - - x x - x x x - - - - x\n- - - - x x x x x x x x - - -\n- - x x x x x x x - - x x - -\n- x x x x x x x - - - - - - x\n- x x x x x x x - x - - - - x\n- x - x x x x - - x x - - - x\n- - - - x - - - x x x - - - -\nx - - - - x x x - - - x x x -\nx x - - - - x x x - - x x x -\nx x - - - - x x - - - x - - -\nx x x x x - - x x x - x - x -\n- x x x x x - x x x x - x x x\n- x x - x x - - - - - - - - x\n- - - - - - - x x - - - - - x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/268.a.htm"
+    },
+    "269_15x15": {
+      "id": "269_15x15",
+      "solution": "15 15\nx x x - - x x x x - - - x x -\n- - x x - x x - - x x - x x -\nx x x x x - - x x - - - x x -\nx x x x x - x x x - - x x x -\n- - - x - - x x - - - x x x -\n- - - x - - x x x - x x x x -\n- - x x - - x x x - - - - x -\nx - - - - - x x x x x x - - -\nx - x x x x - - - - x - - - -\nx - x x x x x - - x x x x - -\nx - x x - x - - - - x x x - -\nx x x x - x x - - - - - - - -\n- x x - - - - x x x x - - - -\n- x x x x - - - - - x - - x x\nx x x x x x - - - - x - - x x",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/269.a.htm"
+    },
+    "270_15x15": {
+      "id": "270_15x15",
+      "solution": "15 15\n- - - - - - - - - - - x x x x\n- - x x x - - - - - - - x x x\nx x - - x x x - x x x x x x x\nx - - x x x - - - - - - - - x\nx x x x x x x x - x x x x x x\nx x x x x x - x - - x x - - x\nx - - - - - - - - - x x x - x\nx - - - - - - x - - - - - - x\nx - x x x x x x - - x x x - -\nx - - x x - - x x - - x x - x\n- x - - x x - x x x x x x - x\n- x x x x - - x x x - - - x x\n- - - - - - - - x x x - - x x\n- - - - - - x x x x x - - - -\n- x x - - - - - x x x x x - -",
+      "source": "https://www.janko.at/Raetsel/Tairupeinto/270.a.htm"
+    }
+  }
+}

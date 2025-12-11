@@ -3,7 +3,7 @@ from Core.core import CrawlerConfig
 
 def main():
     # Define configuration
-    target = "Fobidoshi"
+    target = "Hitori"
     
     # NOTE:
     #   puzzle_name: The name of dataset saved to repo;
@@ -13,8 +13,8 @@ def main():
     #   Sometimes the puzzle_name is NOT equal to the puzzle name in `index_url`!
     config = CrawlerConfig(
         puzzle_name= f"{target}",
-        index_url = f"https://www.janko.at/Raetsel/Abc-End-View/index.htm",
-        base_url = f"https://www.janko.at/Raetsel/Abc-End-View/",
+        index_url = f"https://www.janko.at/Raetsel/Gokigen-Naname/index.htm",
+        base_url = f"https://www.janko.at/Raetsel/Gokigen-Naname/",
         headless = True,  # Set to False to watch the browser for debugging
         partial_test = False
         # output_dir = './data'

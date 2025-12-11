@@ -7,7 +7,7 @@ from MagneticCrawler import MagneticCrawler
 from MinesweeperCrawler import MinesweeperCrawler
 from SuguruCrawler import SuguruCrawler # problems, areas, solutions
 from Str8tCrawler import Str8tCrawler
-from KakurasuCrawler import KakurasuCrawler
+from KakurasuCrawler import KakurasuCrawler # To be added
 from FuzuliCrawler import FuzuliCrawler
 from SnakeCrawler import SnakeCrawler
 from MakaroCrawler import MakaroCrawler
@@ -44,6 +44,9 @@ from BosanowaCrawler import BosanowaCrawler
 from EuleroCrawler import EuleroCrawler
 from FobidoshiCrawler import FobidoshiCrawler
 from FoseruzuCrawler import FoseruzuCrawler
+from GokigenNanameCrawler import GokigenNanameCrawler
+from JuosanCrawler import JuosanCrawler
+from HitoriCrawler import HitoriCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -85,7 +88,7 @@ class CrawlerFactory:
         "Kakuro": KakuroCrawler,
         "Linesweeper": LinesweeperCrawler,
         "Tairupeinto": TairupeintoCrawler, # A brand new start!!
-        "Yonmasu": YonmasuCrawler,
+        "Yonmasu": YonmasuCrawler, # problem -> solutions -> moves/end
         "NumberCross": NumberCrossCrawler,
         "Trinairo": TrinairoCrawler,
         "Kuromasu": KuromasuCrawler,
@@ -94,7 +97,10 @@ class CrawlerFactory:
         "Burokku": BurokkuCrawler,
         "Bosanowa": BosanowaCrawler,
         "Eulero": EuleroCrawler,
-        "Fobidoshi": FobidoshiCrawler
+        "Fobidoshi": FobidoshiCrawler,
+        "GokigenNaname": GokigenNanameCrawler,
+        "Juosan": JuosanCrawler, # problem -> areas - > solutions -> moves/end
+        "Hitori": HitoriCrawler
     }
     
     @classmethod

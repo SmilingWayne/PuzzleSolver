@@ -3,13 +3,15 @@
 [![EN](https://img.shields.io/badge/Lang-EN-blue.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.md)
 [![CN](https://img.shields.io/badge/中文-CN-red.svg)](https://github.com/SmilingWayne/PuzzleSolver/blob/main/README.CN.md)
 
-This repo provides useful, problem-tailored solvers for some interesting **logic puzzles**. The tool used in the repo are open-source solvers like [ORtools](https://developers.google.cn/optimization?hl=zh-cn), [z3 solver](https://github.com/Z3Prover/z3) and [SCIP](https://scipopt.org).
+This repository provides **useful, efficient, and problem‑specific solvers** for a variety of **logic puzzles**. The underlying solving engines are mainly established open‑source tools such as [ortools](https://developers.google.cn/optimization) and [z3](https://github.com/Z3Prover/z3).
 
-Most other solvers of these problems are based on logical methods, instead, this repo provides solvers based on Mathematical Programming (i.e., **I**nteger **P**rogramming, **C**onstraint **P**rogramming). I utterly admire those who immediately find logic-based solutions for those problems, this repo is **NOT** aimed at replacing logic method with Computer solvers: **It's just for fun.**
+Unlike other solvers that rely on logical/deductive methods, the solvers here are primarily based on **C**onstraint **P**rogramming. While I greatly admire those who can spot purely logical solutions, this project is **not** intended to replace human reasoning with automated solving: **it’s just for fun**.
 
-**This repo also contains dataset ( 8k+ instances ) of specific puzzles ( 50+ types )**. Details can be found in table below. More dataset would be added in the future.
+The repository also includes a structured dataset (28k+ instances) covering 80+ specific and popular puzzle types (like Nonogram, Slitherlink, Akari, Fillomino, Hitori, Kakuro, Kakuro) from [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm) and [puzz.link](https://puzz.link), as detailed in the table below. More data, along with related analytics, will be added over time. 
 
-For some interesting pattern-placing puzzle like [Polyiamonds](https://puzzler.sourceforge.net/docs/polyiamonds.html) and [Polyminoes](https://puzzler.sourceforge.net/docs/polyominoes-intro.html), an interactive [webpage (PuzzleTool)](https://smilingwayne.github.io/PuzzleTools/) is provided for visualization.
+Recently (202511~?) the repo is refactored with a unified [Grid](./Puzzles/Common/Board/Grid.py) data structure and parse-solve-verify procedure. Some details are greatly inspired by similar yet more sophisticated repositories like [puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver) for 90+puzzles by Ar-Kareem and [Puzzles-Solver](https://github.com/newtomsoft/Puzzles-Solver) in action by newtomsoft. 
+
+For pattern‑placement puzzles such as [Polyiamonds](https://Polyiamondspuzzler.sourceforge.net/docs/polyiamonds.html) and [polyominoes](https://puzzler.sourceforge.net/docs/polyominoes-intro.html), an interactive [Tools](https://smilingwayne.github.io/PuzzleTools/) (for self-usage) is provided to visualize and interact with the puzzles: though I'm terribly unsatisfied about it.
 
 ## Usage 
 
@@ -46,152 +48,148 @@ gurobipy==11.0.2
 requests==2.32.3
 ```
 
-Then enjoy the puzzle solver.
+Then enjoy the puzzle solver. 
 
 
-## Catalog
+## Table of contents
 
--------
+1. [Solvers for Logic Puzzles by CS-SAT](./Puzzles/). INTERESTING and brain-burning logic puzzles (at least it's hard for impatient guys like me).
 
-### Sudoku and variants of Sudoku puzzles 
+2. [Dataset of 80+ puzzles](./assets/data/), One of the key features that distinguishes this repository from related works.
 
-1. [Ortools for diversified Sudoku-like Puzzles](./Puzzles.ipynb): 🥰 The very beginning of my repo. Most of the sudokus (and variants) are well-designed so <u>you can easily add or integrate different constraints types and solve comprehensive Sudoku grid</u>, such as **"Killer sudoku with Thermo Constraints"** or **"Anti-Knight Diagnoal Sudoku"**. A very good example can be found [here](https://cn.gridpuzzle.com/sudoku-puzzles?page=3). 
+- **Motivation**: Many puzzles available online are stored in PDF or image formats, which are not readily usable for automated solving. This repository provides easy-to-use web [crawlers](./Crawlers/) that extract puzzle data and convert it into a structured, machine-readable format.
+- **Usage**: The datasets can serve as benchmarks for evaluating and testing the performance of computer-aided solvers.
+
+A detailed list of available datasets, solvers, and crawlers is provided below.
+
+<details>
+  <summary><strong>Table of puzzles, datasets and solvers and crawlers.</strong></summary>
+
+> `S&V` means "**S**olved and **V**erified", 
+> 
+> `C?` indicates whether the crawler of the puzzle is provided. 
+> 
+> `Problem` and `Solution` means the number of instances and its answers in dataset respectively.
+>
+> `Max Size` shows the maximum scale of existing puzzles.
+>
+> Performance of solvers (solving time, number of constrs and variables would be added in the future). Some solvers are not refactored, thus they are marked as unsolved and unverified.
 
 
-### Other logic Puzzles
+| No. | Puzzle Name       | Problems  | Solutions | Max Size | **S&V?** | **C?** |
+| --- | ----------------- | --------- | --------- | -------- | -------- | ------ |
+| 1   | ABCEndView        | 607       | 607       | 8x8      | ❌        | ✅      |
+| 2   | Akari             | 970       | 970       | 100x100  | ✅        | ✅      |
+| 3   | Battleship        | -         | -         | -        | ❌        | ✅      |
+| 4   | Binairo           | 380       | 380       | 14x14    | ✅        | ✅      |
+| 5   | Bosanowa          | 38        | 38        | 11x16    | ❌        | ✅      |
+| 6   | Buraitoraito      | 101       | 100       | 15x15    | ✅        | ❌      |
+| 7   | Burokku           | 270       | 270       | 10x10    | ❌        | ✅      |
+| 8   | ButterflySudoku   | 77        | 77        | 12x12    | ✅        | ✅      |
+| 9   | Clueless1Sudoku   | 29        | 29        | 27x27    | ✅        | ✅      |
+| 10  | Clueless2Sudoku   | 40        | 40        | 27x27    | ✅        | ✅      |
+| 11  | Corral            | 419       | 419       | 25x25    | ❌        | ✅      |
+| 12  | CountryRoad       | 270       | 270       | 15x15    | ❌        | ✅      |
+| 13  | Creek             | 440       | 440       | 40x50    | ❌        | ✅      |
+| 14  | CurvingRoad       | 190       | 190       | 14x14    | ❌        | ✅      |
+| 15  | Dominos           | 580       | 579       | 10x11    | ✅        | ✅      |
+| 16  | DoubleBack        | 100       | 100       | 26x26    | ❌        | ✅      |
+| 17  | DoubleMinesweeper | -         | -         | -        | ❌        | ❌      |
+| 18  | EntryExit         | 170       | 170       | 16x16    | ❌        | ✅      |
+| 19  | Eulero            | 290       | 290       | 5x5      | ✅        | ✅      |
+| 20  | EvenOddSudoku     | 129       | 129       | 9x9      | ✅        | ✅      |
+| 21  | Fillomino         | 840       | 840       | 50x64    | ❌        | ✅      |
+| 22  | Fivecells         | -         | -         | -        | ❌        | ❌      |
+| 23  | Fobidoshi         | 250       | 250       | 12x12    | ❌        | ✅      |
+| 24  | Foseruzu          | 310       | 310       | 30x45    | ❌        | ✅      |
+| 25  | Fuzuli            | 160       | 160       | 8x8      | ✅        | ✅      |
+| 26  | Gappy             | 429       | 427       | 18x18    | ✅        | ✅      |
+| 27  | Gattai8Sudoku     | 120       | 120       | 21x33    | ✅        | ✅      |
+| 28  | GokigenNaname     | 780       | 780       | 24x36    | ❌        | ✅      |
+| 29  | GrandTour         | 350       | 350       | 15x15    | ❌        | ✅      |
+| 30  | Hakyuu            | 480       | 480       | 30x45    | ❌        | ✅      |
+| 31  | Heyawake          | 787       | 787       | 31x45    | ❌        | ✅      |
+| 32  | Hitori            | 940       | 940       | 20x20    | ❌        | ✅      |
+| 33  | JigsawSudoku      | 680       | 680       | 9x9      | ✅        | ✅      |
+| 34  | Juosan            | 80        | 80        | 30x45    | ❌        | ✅      |
+| 35  | Kakkuru           | 400       | 400       | 9x9      | ❌        | ✅      |
+| 36  | Kakurasu          | 280       | 280       | 11x11    | ✅        | ✅      |
+| 37  | Kakuro            | 999       | 999       | 31x46    | ✅        | ✅      |
+| 38  | KillerSudoku      | 810       | 810       | 9x9      | ✅        | ✅      |
+| 39  | Kuromasu          | 560       | 560       | 31x45    | ❌        | ✅      |
+| 40  | Kuroshuto         | 210       | 210       | 14x14    | ❌        | ✅      |
+| 41  | LITS              | 419       | 419       | 40x57    | ❌        | ✅      |
+| 42  | Linesweeper       | 310       | 310       | 16x16    | ✅        | ✅      |
+| 43  | Magnetic          | 439       | 439       | 12x12    | ❌        | ✅      |
+| 44  | Makaro            | 190       | 190       | 15x15    | ❌        | ✅      |
+| 45  | Maze-a-pix        | -         | -         | -        | ❌        | ❌      |
+| 46  | Minesweeper       | 360       | 360       | 14x24    | ❌        | ✅      |
+| 47  | MoonSun           | 200       | 200       | 30x45    | ❌        | ✅      |
+| 48  | Mosaic            | 165       | 104       | 118x100  | ✅        | ✅      |
+| 49  | Munraito          | 360       | 360       | 12x12    | ✅        | ✅      |
+| 50  | Nanbaboru         | 270       | 270       | 9x9      | ❌        | ✅      |
+| 51  | Nondango          | 110       | 110       | 14x14    | ✅        | ✅      |
+| 52  | Nonogram          | 2340      | 2339      | 30x40    | ✅        | ✅      |
+| 53  | Norinori          | 289       | 289       | 36x54    | ✅        | ✅      |
+| 54  | NumberCross       | 170       | 170       | 8x8      | ❌        | ✅      |
+| 55  | NumberSnake       | 70        | 70        | 10x10    | ❌        | ✅      |
+| 56  | OneToX            | 58        | 58        | 10x10    | ❌        | ✅      |
+| 57  | Patchwork         | 211       | 211       | 12x12    | ❌        | ✅      |
+| 58  | Pfeilzahlen       | 360       | 360       | 8x8      | ❌        | ✅      |
+| 59  | Pills             | 164       | 163       | 10x10    | ✅        | ✅      |
+| 60  | Polyiamond        | -         | -         | -        | ❌        | ❌      |
+| 61  | Polyminoes        | -         | -         | -        | ❌        | ❌      |
+| 62  | Renban            | 150       | 150       | 9x9      | ✅        | ✅      |
+| 63  | SamuraiSudoku     | 272       | 272       | 21x21    | ✅        | ✅      |
+| 64  | Shikaku           | 500       | 500       | 31x45    | ✅        | ✅      |
+| 65  | ShogunSudoku      | 90        | 90        | 21x45    | ✅        | ✅      |
+| 66  | Simpleloop        | 70        | 70        | 17x18    | ✅        | ✅      |
+| 67  | Skyscraper        | 470       | 470       | 8x8      | ❌        | ✅      |
+| 68  | Slitherlink       | 1176      | 1153      | 60x60    | ✅        | ✅      |
+| 69  | Snake             | 230       | 230       | 12x12    | ❌        | ✅      |
+| 70  | SoheiSudoku       | 120       | 120       | 21x21    | ✅        | ✅      |
+| 71  | SquareO           | 120       | 80        | 15x15    | ✅        | ✅      |
+| 72  | Starbattle        | 307       | 307       | 15x15    | ✅        | ✅      |
+| 73  | Sternenhimmel     | 29        | 29        | 17x17    | ❌        | ✅      |
+| 74  | Str8t             | 560       | 560       | 9x9      | ✅        | ✅      |
+| 75  | Sudoku            | 125       | 125       | 16x16    | ✅        | ✅      |
+| 76  | Suguru            | 200       | 200       | 10x10    | ❌        | ✅      |
+| 77  | SumoSudoku        | 110       | 110       | 33x33    | ✅        | ✅      |
+| 78  | Tairupeinto       | 268       | 268       | 15x15    | ❌        | ✅      |
+| 79  | Tatamibari        | 150       | 150       | 14x14    | ❌        | ✅      |
+| 80  | TennerGrid        | 375       | 374       | 6x10     | ✅        | ✅      |
+| 81  | Tent              | 706       | 706       | 30x30    | ✅        | ✅      |
+| 82  | TerraX            | 80        | 80        | 17x17    | ❌        | ✅      |
+| 83  | Thermometer       | 250       | 250       | 10x10    | ✅        | ✅      |
+| 84  | TilePaint         | 109       | 109       | 16x16    | ✅        | ❌      |
+| 85  | Trinairo          | 60        | 60        | 12x12    | ❌        | ✅      |
+| 86  | WindmillSudoku    | 150       | 150       | 21x21    | ✅        | ✅      |
+| 87  | Yajilin           | 610       | 610       | 39x57    | ❌        | ✅      |
+| 88  | YinYang           | 170       | 170       | 14x14    | ❌        | ✅      |
+| 89  | Yonmasu           | 120       | 120       | 10x10    | ❌        | ✅      |
+| 90  | monotone          | -         | -         | -        | ❌        | ❌      |
+|     | **Total**         | **28627** | **28496** | -        | -        | -      |
 
-1. [**Solvers for Logic Puzzles using CS-SAT or MILP**](./Puzzles/). More INTERESTING and brain-burning logic puzzles. Including path-finding, digit-filling and flag-placing puzzles. The puzzles that have been solved:
+</details>
+
+
+<details>
+  <summary><strong>Gallery of some puzzles (not complete!)</strong></summary>
 
 ![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081152222.png)
 
 ![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804542.png)
 
-
-
-> Table of Sudoku and its variants, with dataset. 👇
-
-|  ID   |  Sudoku & variants   |   In Chinese   | Done & Tested |                               Note                                | Dataset size | # of dataset | With Sol? |
-| :---: | :------------------: | :------------: | :-----------: | :---------------------------------------------------------------: | :----------: | :----------: | :-------: |
-|   1   |   Standard Sudoku    |    标准数独    |       ✅       |          [Rules](https://en.gridpuzzle.com/rule/sudoku)           |     9x9      |      -       |     -     |
-|   2   |    Killer Sudoku     |    杀手数独    |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/killer-sudoku)       |     9x9      |     155      |     ✅     |
-|   3   |    Jigsaw Sudoku     |    锯齿数独    |       ✅       |       [Rules](https://en.gridpuzzle.com/rule/jigsaw-sudoku)       |     9x9      |     128      |     ✅     |
-|   4   |  Consecutive Sudoku  |    连续数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/consecutive-sudoku)     |     9x9      |      -       |     -     |
-|   5   |   Sandwich Sudoku    |   三明治数独   |       ✅       |      [Rules](https://en.gridpuzzle.com/rule/sandwich-sudoku)      |     9x9      |      -       |     -     |
-|   6   |  Thermometer Sudoku  |   温度计数独   |       ✅       |      [Rules](https://www.sudoku-variants.com/thermo-sudoku)       |     9x9      |      -       |     -     |
-|   7   | Petite-Killer Sudoku |   小杀手数独   |       ✅       |  [Rules](https://sudoku-puzzles.net/little-killer-sudoku-hard/)   |     9x9      |      -       |     -     |
-|   8   |  Anti-Knight Sudoku  |    无马数独    |       ✅       |    [Rules](https://en.gridpuzzle.com/rule/anti-knight-sudoku)     |     9x9      |      -       |     -     |
-|   9   |   Anti-King Sudoku   |    无缘数独    |       ✅       |     [Rules](https://en.gridpuzzle.com/rule/anti-king-sudoku)      |     9x9      |      -       |     -     |
-|  10   | Greater-Than Sudoku  |   不等式数独   |       ✅       |   [Rules](https://sudoku-puzzles.net/greater-than-sudoku-hard/)   |     9x9      |      -       |     -     |
-|  11   |   Diagonal Sudoku    |   对角线数独   |       ✅       |        [Rules](https://en.gridpuzzle.com/diagonal-sudoku)         |     9x9      |      -       |     -     |
-|  12   |        Vudoku        |    V宫数独     |       ✅       |            [Rules](https://en.gridpuzzle.com/vsudoku)             |     9x9      |      -       |     -     |
-|  13   |     Arrow Sudoku     |    箭头数独    |       ✅       |          [Rules](https://www.sudoku-variants.com/arrow)           |     9x9      |      -       |     -     |
-|  14   |      XV Sudoku       |     XV数独     |       ✅       |         [Rules](https://en.gridpuzzle.com/rule/vx-sudoku)         |     9x9      |      -       |     -     |
-|  15   |    Window Sudoku     |    窗口数独    |       ✅       |          [Rules](https://en.gridpuzzle.com/rule/windoku)          |     9x9      |      -       |     -     |
-|  16   |    Kropki Sudoku     |   黑白点数独   |       ✅       |         [Rules](https://en.gridpuzzle.com/kropki-sudoku)          |     9x9      |      -       |     -     |
-|  17   |   Even-Odd Sudoku    |    奇偶数独    |       ✅       |      [Rules](https://en.gridpuzzle.com/rule/even-odd-sudoku)      |     9x9      |     129      |     ✅     |
-|  18   |    Samurai Sudoku    |    武士数独    |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Samurai/index.htm)   |    21x21     |     272      |     ✅     |
-|  19   |    Shogun Sudoku     |    将军数独    |       ✅       |   [Rules](https://www.janko.at/Raetsel/Sudoku/Shogun/index.htm)   |    21x45     |      90      |     ✅     |
-|  20   |     Sumo Sudoku      |    Sumo数独    |       ✅       |    [Rules](https://www.janko.at/Raetsel/Sudoku/Sumo/index.htm)    |    33x33     |     110      |     ✅     |
-|  21   |     Sohei Sudoku     |   Sohei数独    |       ✅       |   [Rules](https://www.janko.at/Raetsel/Sudoku/Sohei/index.htm)    |    21x21     |     120      |     ✅     |
-|  22   |   Clueless Sudoku2   |  无提示数独2   |       🐌       | [Rules](https://www.janko.at/Raetsel/Sudoku/Clueless-2/index.htm) |    27x27     |      40      |     ✅     |
-|  23   |   Butterfly Sudoku   |    蝴蝶数独    |       ✅       | [Rules](https://www.janko.at/Raetsel/Sudoku/Butterfly/index.htm)  |    12x12     |      77      |     ✅     |
-|  24   |   Windmill Sudoku    |    风车数独    |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Windmill/index.htm)  |    21x21     |     150      |     ✅     |
-|  25   |   Gattai-8 Sudoku    |  Gattai-8数独  |       ✅       |  [Rules](https://www.janko.at/Raetsel/Sudoku/Gattai-8/index.htm)  |    21x33     |     120      |     ✅     |
-|  26   |   Clueless Sudoku1   |  无提示数独1   |       🐌       | [Rules](https://www.janko.at/Raetsel/Sudoku/Clueless-1/index.htm) |    27x27     |      29      |     ✅     |
-|  27   |    16 x 16 Sudoku    | 16 x 16 Sudoku |       ✅       |                              Trivial                              |    16x16     |     124      |     ✅     |
-
-
-
-> Table of Other Puzzles 👇.
-
-|  ID   |                       Name of Other Puzzles                       | Chinese Translation | Solved? |                                    Note                                    |                  Dataset                  |
-| :---: | :---------------------------------------------------------------: | :-----------------: | :-----: | :------------------------------------------------------------------------: | :---------------------------------------: |
-|   1   |             [Alphadoku](./Puzzles/Alphabetoku.ipynb)              | 25 x 25 <br> Sudoku |    ✅    |                                     -                                      |  [dataset](./assets/Sudoku/16x16Sudoku/)  |
-|   2   |       [Akari](./Puzzles/Akari.ipynb) <br> (aka: light UP!)        |        照明         |    ✅    |                  [Rules](https://www.puzzle-light-up.com)                  |      [dataset](./assets/data/Akari/)      |
-|   3   |  [Cryptarithmetic](./Puzzles/Cryptarithmetic.ipynb) <br> Puzzles  |      破译密码       |    ✅    |                                     -                                      |                     -                     |
-|   4   |               [Norinori](./Puzzles/NoriNori.ipynb)                |        海苔         |    ✅    |                  [Rules](https://www.puzzle-norinori.com)                  |                 💪 Working                 |
-|   5   |   [Number Link](./Puzzles/NumberLink.ipynb)<br> (aka: Arukone)    |        数链         |    🐌    |          [Rules](https://www.janko.at/Raetsel/Arukone/index.htm)           |                 💪Working                  |
-|   6   |            [Minesweeper](./Puzzles/Minesweeper.ipynb)             |      静态扫雷       |    ✅    |        [Rules](https://www.janko.at/Raetsel/Minesweeper/index.htm)         |   [dataset](./assets/data/Minesweeper/)   |
-|   7   |   [Simple Loop](./Puzzles/SimpleLoop.ipynb) <br> (aka: Loopy~)    |      简单回路       |    ✅    |         [Rules](https://www.janko.at/Raetsel/Naoki/Purenrupu.htm)          |                     -                     |
-|   8   |            [Siltherlink](./Puzzles/SlitherLink.ipynb)             |        数回         |    ✅    |        [Rules](https://www.janko.at/Raetsel/Slitherlink/index.htm)         | [dataset](./assets/data/slitherlinkdata/) |
-|   9   |                 [Mosaic](./Puzzles/Mosaic.ipynb)                  |       马赛克        |    ✅    |        [Rules](https://www.puzzle-minesweeper.com/mosaic-5x5-easy/)        |     [dataset](./assets/data/Mosaic/)      |
-|  10   |                   [Tent](./Puzzles/Tent.ipynb)                    |        帐篷         |    ✅    |                   [Rules](https://www.puzzle-tents.com)                    |      [dataset](./assets/data/Tent/)       |
-|  11   |               [Nonogram](./Puzzles/Nonogram.ipynb)                |        数织         |    ✅    |                 [Rules](https://www.puzzle-nonograms.com)                  |    [dataset](./assets/data/Nonogram/)     |
-|  12   |                [Aquaium](./Puzzles/Aquarium.ipynb)                |        水箱         |    ✅    |                                     -                                      |                     -                     |
-|  13   |               [Kakurasu](./Puzzles/Kakurasu.ipynb)                |       方阵和        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kakurasu/index.htm)          |                 💪 Working                 |
-|  14   |             [Starbattle](./Puzzles/Starbattle.ipynb)              |        星战         |    ✅    |                                     -                                      |   [dataset](./assets/data/Starbattle/)    |
-|  15   |                               LITS                                |        LITS         |    ❌    |                                     -                                      |                     -                     |
-|  16   |              [Pentomino](./Puzzles/Pentomino.ipynb)               |       多米诺        |    ✅    |                [Rules](https://isomerdesign.com/Pentomino/)                |                     -                     |
-|  17   |                 [Suguru](./Puzzles/Suguru.ipynb)                  |       数字块        |    ✅    |           [Rules](https://puzzlegenius.org/suguru-from-scratch/)           |     [dataset](./assets/data/Suguru/)      |
-|  18   |                [Shikaku](./Puzzles/Shikaku.ipynb)                 |        直角         |    ✅    |              [Rules](https://www.puzzle-shikaku.com/?size=5)               |     [dataset](./assets/data/Shikaku/)     |
-|  19   |                 [Kakuro](./Puzzles/Kakuro.ipynb)                  |       交叉和        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Kakuro/index.htm)           |     [dataset](./assets/data/Kakuro/)      |
-|  20   |                [Binairo](./Puzzles/Binario.ipynb)                 |       二进制        |    ✅    |                  [Rules](https://www.puzzle-binairo.com)                   |     [dataset](./assets/data/Binairo/)     |
-|  21   |  [Five Cells](./Puzzles/FiveCells.ipynb) <br> (aka: Faibuseruzu)  |       五空格        |    ✅    |          [Rules](https://www.cross-plus-a.com/html/cros7fzu.htm)           |                     -                     |
-|  22   | [Fobidoshi](./Puzzles/Fobidoshi.ipynb) <br> (aka: Forbidden Four) |      禁止四连       |    ✅    |               [Rules](https://www.cross-plus-a.com/help.htm)               |                     -                     |
-|  23   |                 [Hitori](./Puzzles/Hitori.ipynb)                  |      请勿打扰       |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hitori/index.htm)           |     [dataset](./assets/data/Hitori/)      |
-|  24   |               [Monotone](./Puzzles/Monotone.ipynb)                |       单调性        |    ✅    |                                     -                                      |                     -                     |
-|  25   |                  [Creek](./Puzzles/Creek.ipynb)                   |        小溪         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Creek/index.htm)            |      [dataset](./assets/data/Creek/)      |
-|  26   |     [Patchwork](./Puzzles/Patchwork.ipynb) <br> (aka: Tatami)     |       榻榻米        |    ✅    |               [Rules](https://www.cross-plus-a.com/help.htm)               |    [dataset](./assets/data/Patchwork/)    |
-|  27   |                [Kalkulu](./Puzzles/Kalkulu.ipynb)                 |      解谜游戏       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Kalkulu/index.htm)           |                     -                     |
-|  28   |               [Heyawake](./Puzzles/Heyawake.ipynb)                |      Heyawake       |    ✅    |          [Rules](https://www.janko.at/Raetsel/Heyawake/index.htm)          |    [dataset](./assets/data/Heyawake/)     |
-|  29   |                  [Gappy](./Puzzles/Gappy.ipynb)                   |        盖比!        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)            |      [dataset](./assets/data/Gappy/)      |
-|  30   |              [GrandTour](./Puzzles/GrandTour.ipynb)               |        旅途         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Gappy/index.htm)            |    [dataset](./assets/data/GrandTour/)    |
-|  31   |         [Honeycomb](./Puzzles/Honeycomb.ipynb) <br> 1 & 2         |        蜂巢         |    ✅    |             [Rules](https://matmod.ch/lpl/HTML/honeycomb.html)             |                     -                     |
-|  32   |              [Maze-A-pix](./Puzzles/MazeAPix.ipynb)               |      迷宫绘画       |    ✅    | [Rules](https://www.conceptispuzzles.com/index.aspx?uri=puzzle/maze-a-pix) |   [dataset](./assets/data/Maze-a-pix/)    |
-|  33   |                [Dominos](./Puzzles/Dominos.ipynb)                 |     多米诺骨牌      |    ✅    |          [Rules](https://www.janko.at/Raetsel/Dominos/index.htm)           |     [dataset](./assets/data/Dominos/)     |
-|  34   |            [Thermometer](./Puzzles/Thermometer.ipynb)             |       温度计        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Thermometer/index.htm)         |   [dataset](./assets/data/Thermometer/)   |
-|  35   |                  [Pills](./Puzzles/Pills.ipynb)                   |        药丸         |    ✅    |           [Rules](https://www.janko.at/Raetsel/Pillen/index.htm)           |      [dataset](./assets/data/Pills/)      |
-|  36   |               [Magnetic](./Puzzles/Magnetic.ipynb)                |       吸铁石        |    ✅    |          [Rules](https://www.janko.at/Raetsel/Magnete/index.htm)           |    [dataset](./assets/data/Magnetic/)     |
-|  37   |                [SquareO](./Puzzles/SquareO.ipynb)                 |        方块O        |    ✅    |           [Rules](https://www.janko.at/Raetsel/SquarO/index.htm)           |     [dataset](./assets/data/SquareO/)     |
-|  38   |           [Buraitoraito](./Puzzles/Buraitoraito.ipynb)            |       照亮！        |    ✅    |             [Rules](https://gridpuzzle.com/rule/bright-light)              |  [dataset](./assets/data/Buraitoraito/)   |
-|  39   |              [Kuroshuto](./Puzzles/Kuroshuto.ipynb)               |       射手！        |    ✅    |               [Rules](https://gridpuzzle.com/rule/kuroshuto)               |    [dataset](./assets/data/Kuroshuto/)    |
-|  40   |              [TilePaint](./Puzzles/TilePaint.ipynb)               |      粉刷墙壁       |    ✅    |               [Rules](https://gridpuzzle.com/rule/tilepaint)               |    [dataset](./assets/data/TilePaint/)    |
-|  41   |    [Double<br>Minesweeper](./Puzzles/DoubleMinesweeper.ipynb)     |      双雷扫雷       |    ✅    |          [Rules](https://gridpuzzle.com/rule/minesweeper-double)           |                 💪 Working                 |
-|  42   |                  [Str8t](./Puzzles/Str8t.ipynb)                   |        街道         |    ✅    |         [Rules](https://www.janko.at/Raetsel/Straights/index.htm)          |      [dataset](./assets/data/Str8t/)      |
-|  43   |             [TennerGrid](./Puzzles/TennerGrid.ipynb)              |       网球场        |    ✅    |        [Rules](https://www.janko.at/Raetsel/Zehnergitter/index.htm)        |   [dataset](./assets/data/TennerGrid/)    |
-|  44   |          [Gokigen<br>Naname](./Puzzles/TennerGrid.ipynb)          |       划斜线        |    ✅    |       [Rules](https://www.janko.at/Raetsel/Gokigen-Naname/index.htm)       |  [dataset](./assets/data/GokigenNaname/)  |
-|  45   |                 [Hakyuu](./Puzzles/Hakyuu.ipynb)                  |       波及果        |    ✅    |           [Rules](https://www.janko.at/Raetsel/Hakyuu/index.htm)           |     [dataset](./assets/data/Hakyuu/)      |
-|  46   |             [Polyiamonds](./Puzzles/Polyiamond.ipynb)             |      多三角形       |    ✅    |       [Rules](https://puzzler.sourceforge.net/docs/polyiamonds.html)       |                     -                     |
-|  47   |             [Polyominoes](./Puzzles/Polyminoes.ipynb)             |     超级多米诺      |    ✅    |       [Rules](https://puzzler.sourceforge.net/docs/polyominoes.html)       |                     -                     |
-
-
-----
-
-### Dataset of some puzzles
-
-- **Motivation**: Many puzzle sources found online are in PDF format, which **makes it difficult to use them directly for automated solving**. For that reason, this repository also offers easy-to-use web crawlers that extract puzzle data in a structured format, rather than as images or PDF data. See [Utils](./Utils/). **Currently, we support structured data and corresponding final solutions for over 8,000 puzzles across 40+ different puzzle categories**. A detailed list of the available datasets is provided below. Please note that Sudoku datasets are already covered in a previous section and are omitted here.
-
-- **Note:** For puzzles where bulk datasets are not yet available, <u>at least one test case is provided</u> to validate the correctness of the solving algorithm. Contributions of more datasets are welcome and encouraged.
-
-- It's worth noting that some already-checked solver may also have hidden bugs or fail to consider more general input format, you can issue or PR to let me know.
-
-
-|  ID   |                  Puzzle name                  |                                   Size of puzzle                                    |                       # of puzzle                       | With Sol? |
-| :---: | :-------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------: | :-------: |
-|   1   | [SlitherLink](./assets/data/slitherlinkdata/) | 10x18 <br> 14x24 <br> 20x36 <br> 20x30 <br> 16x19 <br> 30x25 <br> 60x60 <br> Others | 220 <br> 91 <br> 58 <br>33 <br> 28 <br>9 <br> 1 <br> 44 |     ✅     |
-|   2   |        [Mosaic](./assets/data/Mosaic/)        |                       25x25 <br> 20x20 <br> 15x15 <br> Others                       |               38 <br> 50 <br> 40 <br> 26                |     ✅     |
-|   3   |         [Gappy](./assets/data/Gappy/)         |                            12x12 <br>  10x10 <br> 11x11                             |                  60   <br> 87 <br> 39                   |     ✅     |
-|   4   |        [Hitori](./assets/data/Hitori/)        |                             17x17  <br> 15x15 <br>10x10                             |                  153  <br> 96 <br> 172                  |     ✅     |
-|   5   |     [GrandTour](./assets/data/GrandTour/)     |                                     11x11 <br>                                      |                           126                           |     ✅     |
-|   6   |         [Akari](./assets/data/Akari/)         |             14x24 <br> 23 x 33 <br> 17 x 17  <br> 100x100   <br> Others             |            72 <br> 17 <br> 18 <br> 1 <br> 21            |     ✅     |
-|   7   |      [Heyawake](./assets/data/Heyawake/)      |                                 14x24  <br> Others                                  |                      272 <br> 125                       |     ✅     |
-|   8   |     [Patchwork](./assets/data/Patchwork/)     |                                 12x12    <br> 10x10                                 |                       142 <br> 69                       |     ✅     |
-|   9   |        [Kakuro](./assets/data/Kakuro/)        |                                  12x20 <br> Others                                  |                       62 <br> 230                       |     ✅     |
-|  10   |   [Thermometer](./assets/data/Thermometer/)   |                                        10x10                                        |                           83                            |     ✅     |
-|  11   |       [Dominos](./assets/data/Dominos/)       |                            7x8 <br>  10x11  <br> Others                             |                   92 <br> 40 <br> 32                    |     ✅     |
-|  12   |         [Pills](./assets/data/Pills/)         |                                        10x10                                        |                           163                           |     ✅     |
-|  13   |   [Minesweeper](./assets/data/Minesweeper/)   |                                  17x17 <br>Others                                   |                       43 <br> 50                        |     ✅     |
-|  14   |        [Suguru](./assets/data/Suguru/)        |                                   8x8 <br>Others                                    |                       54 <br> 66                        |     ✅     |
-|  15   |    [Starbattle](./assets/data/Starbattle/)    |                                  10x10 <br>Others                                   |                       126 <br> 54                       |     ✅     |
-|  16   |       [Shikaku](./assets/data/Shikaku/)       |                                  17x17 <br>Others                                   |                       81 <br> 96                        |     ✅     |
-|  17   |      [Magnetic](./assets/data/Magnetic/)      |                                        12x12                                        |                           53                            |     ✅     |
-|  18   |     [TilePaint](./assets/data/TilePaint/)     |                                  16x16 <br> Others                                  |                       50 <br> 59                        |     ✅     |
+</details>
 
 ----
 
 ## Reference
 
-- [ORtools Official](https://developers.google.cn/optimization?hl=zh-cn).
+- [ortools Official](https://developers.google.cn/optimization?hl=zh-cn).
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/).
 - [PySCIPOpt's tutorials](https://pyscipopt.readthedocs.io/en/latest/tutorials/).
 - Puzzle data source: [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm), [Puzzle](https://www.puzzle-loop.com).
+- Related repos like [puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver) and [Puzzles-Solver](https://github.com/newtomsoft/Puzzles-Solver).
+- [puzz.link](https://puzz.link) and [pzprjs](https://github.com/robx/pzprjs).
+- [Nonogram solver](https://rosettacode.org/wiki/Nonogram_solver#Python).

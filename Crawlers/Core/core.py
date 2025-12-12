@@ -138,7 +138,7 @@ class BasePuzzleCrawler(ABC):
             # (only for first 5) or `all` of links
 
             if self.config.partial_test:
-                active_links = links[: min(5, len(links))]
+                active_links = links[: min(6, len(links))]
             else:
                 active_links = links
             for i, link_info in enumerate(active_links):

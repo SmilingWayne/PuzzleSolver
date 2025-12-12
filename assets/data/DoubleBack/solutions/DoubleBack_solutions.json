@@ -1,0 +1,505 @@
+{
+  "count": 100,
+  "solutions": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "solution": "8 8\nse ew ew ew sw se ew sw\nne sw se ew nw ne sw ns\nse nw ne ew ew sw ns ns\nne sw se ew sw ne nw ns\nse nw ne sw ne sw se nw\nns se ew nw se nw ne sw\nns ns se ew nw se sw ns\nne nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/001.a.htm"
+    },
+    "02_9x9": {
+      "id": "02_9x9",
+      "solution": "9 9\nse sw se sw se sw se ew sw\nns ns ns ne nw ns ne sw ns\nns ne nw se sw ne ew nw ns\nne ew sw ns ne sw se sw ns\nse sw ns ns - ne nw ns ns\nns ne nw ne ew ew sw ne nw\nne ew sw se ew sw ne ew sw\nse ew nw ns se nw se sw ns\nne ew ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "solution": "10 10\nse ew ew sw se sw se sw se sw\nns se sw ns ns ne nw ne nw ns\nns ns ns ns ne sw se ew sw ns\nns ns ns ne ew nw ns se nw ns\nns ns ne ew ew ew nw ne ew nw\nns ns se ew ew ew ew sw se sw\nns ne nw se sw se sw ns ns ns\nne ew ew nw ns ns ne nw ns ns\nse ew ew ew nw ne ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew sw se ew ew nw\nns se sw ne sw ns ne sw se sw\nne nw ns se nw ne sw ne nw ns\nse ew nw ne ew sw ne ew sw ns\nns se sw se ew nw se sw ne nw\nns ns ns ns se ew nw ns se sw\nne nw ns ns ne ew sw ne nw ns\nse ew nw ne ew ew nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "solution": "10 10\nse ew ew sw se sw se ew ew sw\nns se ew nw ns ns ns se sw ns\nns ne sw se nw ne nw ns ns ns\nns se nw ns se sw se nw ns ns\nns ne sw ne nw ns ne sw ne nw\nns se nw se sw ns se nw se sw\nns ne sw ns ne nw ne ew nw ns\nne sw ne nw se ew sw se sw ns\nse nw se sw ne sw ns ns ns ns\nne ew nw ne ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nns se sw ns ne sw se ew ew nw\nns ns ns ne ew nw ne sw se sw\nns ns ns se sw se sw ns ns ns\nns ns ne nw ne nw ne nw ns ns\nns ne ew ew ew sw se ew nw ns\nne ew ew ew sw ns ns se ew nw\nse sw se ew nw ne nw ns se sw\nns ne nw se sw se sw ne nw ns\nne ew ew nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/006.a.htm"
+    },
+    "07_12x12": {
+      "id": "07_12x12",
+      "solution": "12 12\nse sw se sw se sw se ew ew ew ew sw\nns ne nw ne nw ns ne sw se ew ew nw\nne sw se ew ew nw se nw ne ew ew sw\nse nw ns se sw se nw se sw se sw ns\nns se nw ns ns ns se nw ne nw ns ns\nns ne ew nw ns ns ne ew ew sw ns ns\nns se ew sw ns ne ew sw se nw ne nw\nns ne sw ns ns se sw ns ne ew ew sw\nns se nw ne nw ns ns ne sw se ew nw\nns ne ew sw se nw ne sw ns ns se sw\nns se sw ne nw se sw ne nw ne nw ns\nne nw ne ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/007.a.htm"
+    },
+    "08_10x17": {
+      "id": "08_10x17",
+      "solution": "10 17\nse ew ew sw se sw se sw se sw se sw se ew ew ew sw\nne ew sw ne nw ne nw ne nw ns ns ns ns se ew sw ns\nse sw ne sw se ew ew sw se nw ns ne nw ne sw ns ns\nns ne ew nw ns se ew nw ne ew nw se sw se nw ns ns\nne sw se sw ns ns se ew sw se ew nw ne nw se nw ns\nse nw ns ne nw ns ne sw ne nw se sw se sw ne sw ns\nne ew nw se sw ns se nw se sw ns ns ns ne sw ne nw\nse sw se nw ne nw ne ew nw ns ns ns ne sw ns se sw\nns ne nw se sw se sw se sw ne nw ne ew nw ne nw ns\nne ew ew nw ne nw ne nw ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\nse sw se sw se ew ew sw se sw\nns ne nw ns ns se sw ne nw ns\nns se sw ns ne nw ne sw se nw\nne nw ns ne ew ew ew nw ne sw\nse sw ne sw se ew ew ew sw ns\nns ne sw ns ne sw se sw ne nw\nne sw ns ns se nw ns ne ew sw\nse nw ne nw ne sw ne ew sw ns\nns se sw se sw ne ew ew nw ns\nne nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/009.a.htm"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "solution": "10 10\nse ew ew sw se sw se sw se sw\nns se sw ns ns ne nw ne nw ns\nne nw ns ns ne sw se ew ew nw\nse ew nw ne sw ns ne ew ew sw\nns se ew ew nw ne sw se ew nw\nns ne sw se ew ew nw ns se sw\nne sw ns ne sw se sw ne nw ns\nse nw ne sw ns ns ne sw se nw\nns se sw ne nw ns se nw ne sw\nne nw ne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nne sw se ew ew ew sw ne nw ns\nse nw ne ew sw se nw se ew nw\nns se sw se nw ne sw ne ew sw\nne nw ne nw - - ne ew sw ns\nse ew ew sw - - se sw ns ns\nne ew sw ne sw se nw ne nw ns\nse sw ns se nw ns se ew ew nw\nns ne nw ne ew nw ne ew ew sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\nse ew ew sw se ew sw se ew sw\nns se ew nw ne sw ns ns se nw\nns ne sw se ew nw ne nw ne sw\nne sw ns ne sw se sw se ew nw\nse nw ns se nw ns ns ns se sw\nne sw ns ne sw ns ns ne nw ns\nse nw ne ew nw ns ne sw se nw\nne sw se sw se nw se nw ne sw\nse nw ns ns ns se nw se sw ns\nne ew nw ne nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\nse sw se sw se sw se ew ew sw\nns ne nw ns ns ns ne sw se nw\nne ew sw ns ns ne sw ns ne sw\nse ew nw ne nw se nw ne sw ns\nne sw se ew sw ne sw se nw ns\nse nw ne sw ns se nw ne sw ns\nne ew ew nw ns ne ew sw ns ns\nse sw se sw ne ew sw ne nw ns\nns ne nw ne ew ew nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\nse ew sw se sw se sw se ew sw\nne sw ne nw ns ns ne nw se nw\nse nw se sw ns ns se sw ne sw\nns se nw ne nw ne nw ne sw ns\nns ne ew ew ew ew ew ew nw ns\nne sw se ew ew ew ew sw se nw\nse nw ne ew sw se ew nw ne sw\nne ew sw se nw ne sw se ew nw\nse ew nw ne sw se nw ne ew sw\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\nse ew ew sw se sw se sw se sw\nns se sw ns ns ne nw ne nw ns\nns ns ns ns ne sw se ew sw ns\nns ns ns ne ew nw ns se nw ns\nns ns ne ew ew ew nw ne ew nw\nns ns se ew ew ew ew sw se sw\nns ne nw se sw se sw ns ns ns\nne ew ew nw ns ns ne nw ns ns\nse ew ew ew nw ne ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew sw se ew ew nw\nns se sw ne sw ns ne sw se sw\nne nw ns se nw ne sw ne nw ns\nse ew nw ne ew sw ne ew sw ns\nns se sw se ew nw se sw ne nw\nns ns ns ns se ew nw ns se sw\nne nw ns ns ne ew sw ne nw ns\nse ew nw ne ew ew nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/016.a.htm"
+    },
+    "17_10x18": {
+      "id": "17_10x18",
+      "solution": "10 18\nse ew ew sw se sw se sw se ew sw se sw se sw se ew sw\nns se sw ns ns ns ns ns ne sw ne nw ns ns ne nw se nw\nne nw ns ns ns ne nw ne sw ne sw se nw ns se sw ne sw\nse ew nw ne nw se ew sw ne ew nw ns se nw ns ne ew nw\nne ew ew ew sw ne sw ne sw se ew nw ns se nw se ew sw\nse ew sw - ne sw ne sw ns ne ew sw ns ne ew nw se nw\nns se nw se sw ne sw ns ns se sw ns ne ew ew sw ne sw\nns ne ew nw ne ew nw ns ns ns ns ne ew ew ew nw - ns\nns se sw se sw se sw ns ns ns ns se sw se sw se sw ns\nne nw ne nw ne nw ne nw ne nw ne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/017.a.htm"
+    },
+    "18_18x18": {
+      "id": "18_18x18",
+      "solution": "18 18\nse sw se sw se ew sw se sw se sw se ew sw se sw se sw\nns ns ns ns ne sw ne nw ne nw ne nw se nw ns ns ns ns\nns ne nw ne ew nw se ew ew ew ew sw ne ew nw ne nw ns\nne ew sw se ew ew nw se sw se sw ne ew ew sw se ew nw\nse sw ns ns se ew sw ns ns ns ne sw se sw ns ns se sw\nns ne nw ns ne sw ne nw ns ne sw ne nw ns ns ne nw ns\nne sw se nw se nw se ew nw se nw se ew nw ne sw se nw\nse nw ns se nw se nw se sw ns se nw se ew sw ns ne sw\nne sw ns ne sw ne ew nw ns ns ne sw ne sw ns ns se nw\nse nw ns se nw se sw se nw ne sw ne ew nw ns ns ne sw\nne sw ns ne sw ns ns ne ew sw ne sw se ew nw ns se nw\nse nw ne sw ns ns ne ew ew nw se nw ne sw se nw ne sw\nne ew sw ns ns ns se ew ew ew nw se sw ns ns se ew nw\nse sw ns ns ns ne nw se ew ew ew nw ne nw ns ns se sw\nns ne nw ne nw se sw ne ew ew sw se ew ew nw ne nw ns\nne sw se ew sw ns ne ew ew ew nw ns se sw se ew sw ns\nse nw ns se nw ne ew ew ew ew sw ns ns ns ne sw ns ns\nne ew nw ne ew ew ew ew ew ew nw ne nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/018.a.htm"
+    },
+    "19_14x24": {
+      "id": "19_14x24",
+      "solution": "14 24\nse ew sw se sw se sw se sw se ew sw se sw se sw se sw se ew ew sw se sw\nns se nw ns ns ns ns ns ne nw se nw ns ne nw ne nw ns ns se sw ne nw ns\nns ne ew nw ne nw ne nw se sw ne sw ne sw se ew ew nw ne nw ne sw se nw\nns se sw se sw se sw se nw ne sw ne ew nw ne ew ew ew sw se sw ns ne sw\nne nw ns ns ne nw ns ne ew sw ne sw se sw se ew ew sw ne nw ns ne sw ns\nse sw ne nw se sw ne ew ew nw se nw ns ne nw se sw ne ew sw ne ew nw ns\nns ne ew ew nw ns se ew ew ew nw se nw se sw ns ns se sw ne ew ew ew nw\nne ew sw se ew nw ne ew ew sw se nw se nw ns ns ne nw ns se ew sw se sw\nse ew nw ne sw se sw se sw ns ne ew nw se nw ne ew sw ns ne sw ne nw ns\nne sw se ew nw ns ne nw ne nw se ew sw ne sw se ew nw ns se nw se sw ns\nse nw ns se ew nw se sw se sw ne sw ne sw ns ne sw se nw ne sw ns ne nw\nne sw ne nw se sw ns ne nw ns se nw se nw ne sw ns ne ew ew nw ne ew sw\nse nw se sw ns ns ns se ew nw ne sw ns se sw ne nw se sw se sw se sw ns\nne ew nw ne nw ne nw ne ew ew ew nw ne nw ne ew ew nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/019.a.htm"
+    },
+    "20_26x26": {
+      "id": "20_26x26",
+      "solution": "26 26\nse sw se sw se sw se sw se sw se sw se sw se sw se sw se sw se ew ew ew ew sw\nns ne nw ns ns ne nw ns ns ne nw ne nw ns ns ne nw ns ns ne nw se ew ew sw ns\nne ew sw ns ns se sw ns ns se sw se sw ns ne ew sw ns ns se sw ns se sw ne nw\nse sw ns ns ne nw ns ns ns ns ne nw ne nw se sw ns ns ns ns ns ns ns ne ew sw\nns ns ns ne ew sw ns ns ns ne sw se ew sw ns ns ns ns ns ns ne nw ne ew sw ns\nns ne nw se sw ne nw ns ns se nw ne sw ns ns ne nw ns ns ns se sw se sw ns ns\nne sw se nw ne ew ew nw ns ns se sw ns ns ne ew sw ns ns ns ns ns ns ns ns ns\nse nw ne ew ew ew ew ew nw ne nw ne nw ne ew ew nw ne nw ne nw ne nw ne nw ns\nne ew ew ew ew ew ew ew sw se ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew nw\nse ew ew ew ew ew ew sw ns ne sw se sw se ew sw se ew ew ew ew ew ew sw se sw\nne ew ew sw se ew sw ns ns se nw ns ns ne sw ne nw se sw se ew ew sw ne nw ns\nse ew sw ns ns se nw ns ns ns se nw ns se nw se sw ns ns ns se sw ne sw se nw\nne sw ns ns ns ne ew nw ns ns ns se nw ne sw ns ns ns ns ns ns ne ew nw ne sw\nse nw ne nw ne ew ew sw ns ns ns ne ew sw ns ns ns ns ns ns ns se ew ew ew nw\nne ew ew ew ew ew sw ns ns ns ns se sw ns ns ns ns ns ne nw ns ns se ew ew sw\nse sw se sw se sw ns ns ns ns ne nw ns ns ne nw ns ns se ew nw ne nw se sw ns\nns ne nw ne nw ne nw ne nw ne ew ew nw ne ew ew nw ns ne ew ew ew ew nw ne nw\nne ew ew ew ew ew ew sw se ew ew ew ew ew ew ew sw ne ew ew ew ew ew ew ew sw\nse sw se sw se ew sw ns ns se sw se sw se ew sw ns se sw se ew sw se sw se nw\nns ns ns ns ne sw ne nw ns ns ne nw ns ne sw ne nw ns ne nw se nw ns ns ne sw\nns ne nw ne sw ne ew sw ns ns se sw ne sw ne ew sw ns se ew nw se nw ne sw ns\nns se ew sw ne ew ew nw ns ne nw ne sw ne sw se nw ns ns se ew nw se sw ns ns\nne nw se nw se ew ew sw ns se ew sw ne sw ns ne sw ns ns ne sw se nw ns ne nw\nse sw ns se nw se ew nw ns ne sw ne ew nw ne ew nw ns ne sw ne nw se nw se sw\nns ne nw ne sw ns se sw ns se nw se sw se sw se sw ns se nw se sw ne ew nw ns\nne ew ew ew nw ne nw ne nw ne ew nw ne nw ne nw ne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/020.a.htm"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "solution": "6 6\nse ew ew sw se sw\nns se sw ne nw ns\nns ns ns - se nw\nns ns ne sw ne sw\nns ne sw ne sw ns\nne ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/021.a.htm"
+    },
+    "22_7x7": {
+      "id": "22_7x7",
+      "solution": "7 7\nse sw se ew sw se sw\nns ne nw se nw ns ns\nns se sw ne ew nw ns\nns ns ns - se sw ns\nne nw ne sw ns ne nw\nse ew ew nw ne ew sw\nne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nns - ne sw ne sw - se ew nw\nns se ew nw - ne sw ne sw -\nns ns - se ew ew nw - ne sw\nns ns se nw se ew sw se sw ns\nns ne nw - ne sw ne nw ns ns\nns - se ew ew nw - se nw ns\nne sw ne sw - se ew nw se nw\nse nw - ne sw ne sw - ne sw\nne ew ew ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "solution": "10 10\nse ew sw se sw - se ew ew sw\nns - ne nw ne sw ne sw se nw\nne sw - se sw ne ew nw ns -\n- ne ew nw ns - se sw ne sw\nse sw - se nw se nw ns - ns\nns ne sw ne ew nw se nw - ns\nne sw ne sw - se nw se ew nw\nse nw - ne ew nw - ne ew sw\nns se sw se ew sw se sw se nw\nne nw ne nw - ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Double-Back/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew ew ew sw\nns se nw ns se sw se ew sw ns\nns ne sw ns ns ne nw se nw ns\nne sw ns ne nw se sw ns se nw\nse nw ns se ew nw ne nw ne sw\nns se nw ns se sw se ew ew nw\nns ns se nw ns ns ne ew ew sw\nns ne nw se nw ne sw se sw ns\nns se sw ne ew sw ns ns ns ns\nne nw ne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne sw se ew sw se ew sw se nw\n- ne nw - ne nw - ns ns -\nse sw se sw - se ew nw ne sw\nns ne nw ne ew nw - se sw ns\nne ew ew ew ew ew sw ns ne nw\nse sw se sw - se nw ne ew sw\nns ne nw ne sw ns se sw se nw\nne sw se sw ne nw ns ns ne sw\n- ne nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/026.a.htm"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "solution": "10 10\nse ew sw - se sw - se ew sw\nns - ne sw ns ns se nw - ns\nne sw se nw ns ne nw se ew nw\n- ns ns se nw se sw ne sw -\nse nw ns ne ew nw ne sw ne sw\nne sw ne ew ew ew ew nw se nw\n- ne ew sw se ew sw se nw -\nse ew ew nw ne sw ns ne ew sw\nns - se ew sw ns ne sw - ns\nne ew nw - ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nns se nw - ns se ew sw - ns\nns ne ew ew nw ne sw ne ew nw\nne ew ew ew ew sw ne sw - -\n- - se sw se nw - ne ew sw\nse ew nw ne nw se ew ew ew nw\nne sw se sw - ne ew ew ew sw\n- ns ns ne sw - se sw se nw\nse nw ne sw ne sw ns ns ne sw\nne ew ew nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/028.a.htm"
+    },
+    "29_14x14": {
+      "id": "29_14x14",
+      "solution": "14 14\nse ew sw se sw se ew ew ew ew ew ew ew sw\nne sw ne nw ne nw se ew ew sw se ew sw ns\nse nw se ew ew sw ne sw se nw ne sw ne nw\nne sw ns se sw ne sw ns ne ew sw ns se sw\nse nw ns ns ne sw ne nw se sw ns ne nw ns\nns se nw ne sw ne ew ew nw ns ns se ew nw\nns ns se sw ns se ew ew ew nw ns ne ew sw\nns ns ns ne nw ne ew ew ew sw ne ew sw ns\nns ne nw se sw se ew ew ew nw se sw ns ns\nns se ew nw ns ns se ew sw se nw ne nw ns\nns ns se ew nw ns ns se nw ne ew ew sw ns\nns ns ne ew ew nw ns ne ew sw se sw ns ns\nns ne sw se ew ew nw se sw ne nw ne nw ns\nne ew nw ne ew ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/029.a.htm"
+    },
+    "30_23x16": {
+      "id": "30_23x16",
+      "solution": "23 16\nse ew ew ew ew sw se ew ew sw se ew sw se ew sw\nne ew ew ew sw ne nw se ew nw ns se nw ns - ns\nse sw se sw ne sw se nw se ew nw ns se nw se nw\nns ne nw ne ew nw ne ew nw se ew nw ne sw ne sw\nns se ew sw se ew sw se sw ne ew ew sw ne sw ns\nns ns se nw ne sw ne nw ne sw se sw ne sw ns ns\nns ns ns se sw ne sw se sw ne nw ne sw ne nw ns\nns ns ne nw ne sw ne nw ne sw se sw ne ew sw ns\nns ns se ew ew nw se ew sw ns ns ne ew ew nw ns\nne nw ne ew ew ew nw se nw ns ne sw se ew sw ns\nse ew sw se sw se ew nw se nw se nw ne sw ne nw\nne sw ne nw ne nw se sw ns se nw se sw ns se sw\nse nw se ew ew sw ns ne nw ne sw ns ns ne nw ns\nne sw ne sw se nw ne sw se sw ns ns ne sw se nw\nse nw se nw ns se sw ne nw ns ns ne sw ns ne sw\nne sw ne sw ns ns ne sw se nw ne sw ns ns se nw\nse nw se nw ns ns se nw ns se sw ns ns ns ne sw\nne sw ne sw ns ns ns se nw ns ne nw ns ne ew nw\nse nw se nw ns ns ne nw se nw se ew nw se ew sw\nne sw ne sw ns ne sw se nw se nw se sw ne sw ns\nse nw se nw ne sw ns ns se nw se nw ne sw ns ns\nns - ne ew sw ns ns ns ne ew nw se sw ne nw ns\nne ew ew ew nw ne nw ne ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/030.a.htm"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "solution": "6 6\nse sw se sw se sw\nns ne nw ns ns ns\nne ew sw ne nw ns\nse sw ns se sw ns\nns ne nw ns ns ns\nne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/031.a.htm"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "solution": "6 6\nse ew ew ew ew sw\nns se ew sw se nw\nns ns se nw ne sw\nne nw ns se ew nw\nse ew nw ne ew sw\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/032.a.htm"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se ew sw se nw\nne ew sw ne sw ns ne sw\nse ew nw se nw ne ew nw\nns se sw ne sw se ew sw\nns ns ne sw ne nw se nw\nns ne sw ns se sw ne sw\nne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nne ew ew ew sw se sw ns\nse ew ew sw ne nw ns ns\nne ew sw ne ew ew nw ns\nse sw ns se ew ew sw ns\nns ne nw ne ew sw ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nne ew ew ew sw se sw ns\nse sw se sw ns ns ne nw\nns ne nw ne nw ne ew sw\nne sw se ew sw se sw ns\nse nw ns se nw ns ns ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "solution": "10 10\nse sw se ew sw se ew ew ew sw\nns ne nw - ne nw se ew ew nw\nne ew ew ew ew sw ne sw se sw\nse sw se sw se nw se nw ns ns\nns ne nw ne nw - ne ew nw ns\nns - se sw se sw se ew sw ns\nne ew nw ne nw ne nw - ns ns\nse sw - se ew sw se ew nw ns\nns ne ew nw - ne nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/036.a.htm"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew sw se sw\nns se nw ns - se ew nw ns ns\nns ne sw ne sw ne ew ew nw ns\nns - ns - ns - se ew sw ns\nne sw ne sw ne sw ns - ns ns\nse nw - ns - ne nw se nw ns\nns se ew nw se sw se nw se nw\nns ns - se nw ne nw - ne sw\nns ne ew nw se sw - se sw ns\nne ew ew ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/037.a.htm"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "solution": "10 10\nse sw se ew sw se sw se ew sw\nns ne nw - ne nw ns ne sw ns\nns se ew sw - se nw - ns ns\nne nw - ne sw ne ew ew nw ns\nse ew sw - ns - se ew sw ns\nns - ne sw ne sw ns - ns ns\nne ew sw ne sw ne nw se nw ns\nse ew nw - ne sw se nw se nw\nns - se sw - ne nw - ne sw\nne ew nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/038.a.htm"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "solution": "12 12\nse sw se sw se ew sw se ew sw se sw\nns ns ns ne nw - ns ne sw ne nw ns\nns ne nw - se ew nw - ne sw - ns\nne sw - se nw - se ew sw ne sw ns\nse nw se nw se sw ns - ns - ns ns\nns se nw se nw ne nw se nw se nw ns\nns ns se nw se sw - ns se nw - ns\nns ne nw - ns ne ew nw ne ew sw ns\nns - se sw ne sw - se sw - ns ns\nns se nw ne sw ne ew nw ne ew nw ns\nns ne sw se nw - se sw - se sw ns\nne ew nw ne ew ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/039.a.htm"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "solution": "12 12\nse ew ew ew sw se sw se ew sw se sw\nne ew sw - ne nw ns ns - ne nw ns\nse ew nw se sw - ne nw se sw - ns\nns - se nw ns se sw - ns ne ew nw\nne sw ns - ns ns ne sw ne sw se sw\nse nw ne sw ne nw - ne sw ne nw ns\nns se sw ns - se sw - ne ew sw ns\nns ns ne nw se nw ne sw - se nw ns\nns ne sw - ne ew sw ne sw ne sw ns\nne sw ne sw - se nw - ns - ns ns\nse nw - ne ew nw se sw ns se nw ns\nne ew ew ew ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se ew ew sw ns\nns se sw ns se sw ns ns\nns ns ne nw ns ns ns ns\nns ne ew ew nw ns ne nw\nne sw se ew sw ne ew sw\nse nw ns se nw se sw ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se sw se ew nw\nne sw se nw ns ne ew sw\nse nw ne sw ne ew ew nw\nne ew sw ne ew ew ew sw\nse sw ne ew sw se sw ns\nns ne ew ew nw ns ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "solution": "10 10\nse sw se ew sw se ew ew ew sw\nns ne nw - ns ne sw - se nw\nns se ew sw ne sw ne sw ne sw\nns ns - ne ew nw - ne sw ns\nns ns se ew sw - se sw ns ns\nns ne nw - ns se nw ne nw ns\nns - se sw ns ne ew sw - ns\nne sw ns ns ne ew ew nw se nw\nse nw ns ns - se sw - ne sw\nne ew nw ne ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "solution": "10 10\nse sw se ew sw se ew sw se sw\nns ns ne sw ne nw se nw ns ns\nns ns - ne sw - ns - ns ns\nns ne sw - ns se nw se nw ns\nns se nw se nw ne sw ne sw ns\nns ns - ns - se nw - ns ns\nns ne sw ne sw ne sw se nw ns\nns - ne sw ne sw ne nw - ns\nns se sw ne ew nw - se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nns - se ew sw - ne nw se nw\nne ew nw se nw se sw - ne sw\nse sw - ns - ns ne sw - ns\nns ne sw ne sw ne sw ne ew nw\nns se nw - ns se nw - se sw\nns ns - se nw ns - se nw ns\nns ne ew nw - ne sw ne sw ns\nns se sw - se sw ne ew nw ns\nne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "solution": "10 10\nse sw se ew sw se ew ew ew sw\nns ne nw - ns ne sw se ew nw\nne sw - se nw - ns ns se sw\nse nw se nw - se nw ns ns ns\nns - ne ew sw ns - ne nw ns\nne sw se ew nw ns se sw - ns\nse nw ns - se nw ns ne sw ns\nne sw ne sw ne sw ne sw ne nw\nse nw - ne ew nw - ne ew sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/046.a.htm"
+    },
+    "47_12x12": {
+      "id": "47_12x12",
+      "solution": "12 12\nse ew ew ew ew sw se ew ew ew ew sw\nne sw - se sw ne nw se ew sw - ns\nse nw se nw ne sw se nw se nw se nw\nne sw ne sw - ne nw - ns - ne sw\nse nw se nw se sw - se nw se ew nw\nns - ns - ns ne sw ns - ns se sw\nns se nw se nw se nw ns se nw ns ns\nns ns - ne sw ne sw ne nw - ns ns\nns ne sw se nw - ns - se ew nw ns\nns - ne nw se sw ne ew nw - se nw\nns se sw - ns ns se sw se sw ne sw\nne nw ne ew nw ne nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/047.a.htm"
+    },
+    "48_12x12": {
+      "id": "48_12x12",
+      "solution": "12 12\nse sw se ew sw se ew ew ew ew ew sw\nns ne nw se nw ne sw - se ew sw ns\nns - se nw - se nw se nw - ns ns\nns se nw - se nw se nw se ew nw ns\nns ns - se nw se nw se nw - se nw\nns ne ew nw se nw se nw se sw ne sw\nns se sw - ns - ne sw ns ne sw ns\nns ns ne ew nw se sw ne nw - ne nw\nns ne sw - se nw ne sw - se ew sw\nne sw ns se nw se sw ne ew nw se nw\nse nw ne nw - ns ns se sw - ne sw\nne ew ew ew ew nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/048.a.htm"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew sw se ew ew sw\nne sw se ew ew ew sw ne nw se ew nw\nse nw ns - se sw ns - se nw se sw\nne sw ne sw ns ne nw se nw se nw ns\nse nw - ns ns - se nw se nw - ns\nns se ew nw ns se nw se nw - se nw\nns ne sw - ne nw - ne ew sw ne sw\nne sw ns se sw - se ew ew nw - ns\nse nw ns ns ne sw ne sw - se sw ns\nns - ne nw - ne sw ns se nw ns ns\nns se sw - se sw ne nw ne sw ns ns\nne nw ne ew nw ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/049.a.htm"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "solution": "12 12\nse ew ew ew sw se ew ew ew ew ew sw\nns se sw - ne nw se ew sw se ew nw\nne nw ns se sw - ne sw ne nw se sw\nse ew nw ns ne ew sw ne sw se nw ns\nne sw se nw - se nw - ne nw - ns\nse nw ns - se nw se ew sw se ew nw\nns - ne sw ne sw ns - ne nw se sw\nne sw - ns - ns ne sw - se nw ns\nse nw se nw se nw - ns se nw - ns\nns se nw se nw se sw ne nw - se nw\nns ns se nw - ns ns - se sw ne sw\nne nw ne ew ew nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "solution": "8 8\nse sw se sw se ew ew sw\nns ne nw ns ne sw se nw\nne sw se nw se nw ne sw\nse nw ne ew nw se sw ns\nne ew ew ew ew nw ns ns\nse sw se ew ew sw ns ns\nns ne nw se sw ne nw ns\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ns ns ns ns ns\nns se sw ne nw ns ns ns\nne nw ne ew sw ne nw ns\nse ew sw se nw se ew nw\nne sw ns ne sw ne ew sw\nse nw ne ew nw se sw ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nne sw - ns ne sw se ew sw ns\nse nw se nw - ne nw se nw ns\nns - ns se ew sw se nw - ns\nns se nw ns - ne nw - se nw\nns ns - ne sw - se sw ne sw\nns ne sw se nw se nw ne ew nw\nns - ne nw - ne sw - se sw\nns se sw - se sw ne ew nw ns\nne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "solution": "10 10\nse ew sw se ew sw se sw se sw\nns - ne nw - ne nw ne nw ns\nne ew ew ew sw - se ew sw ns\nse sw - se nw se nw - ne nw\nns ne ew nw - ne sw se ew sw\nne ew ew ew sw se nw ns - ns\nse ew sw - ns ne sw ne sw ns\nns - ne ew nw - ns se nw ns\nns se sw - se sw ne nw - ns\nne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew ew ew sw\nns - ns ne ew sw - se sw ns\nns se nw - se nw se nw ne nw\nns ns - se nw - ne ew ew sw\nns ne sw ne sw se ew sw se nw\nne sw ns - ne nw - ns ne sw\nse nw ne sw - se sw ne sw ns\nns se sw ns se nw ns - ns ns\nns ns ns ne nw - ne ew nw ns\nne nw ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "solution": "10 10\nse sw se ew ew ew sw se ew sw\nns ne nw - se sw ne nw - ns\nns - se ew nw ne sw - se nw\nne ew nw - se sw ne sw ne sw\nse ew ew sw ns ne sw ne sw ns\nne sw - ne nw - ns - ns ns\nse nw se ew ew sw ne sw ns ns\nns - ne sw - ns - ne nw ns\nns se sw ne sw ns se sw - ns\nne nw ne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/056.a.htm"
+    },
+    "57_12x12": {
+      "id": "57_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew ew ew sw se sw\nns - se ew sw - se ew ew nw ns ns\nne sw ne sw ne sw ne ew sw - ns ns\nse nw se nw - ns - se nw se nw ns\nns se nw se ew nw se nw se nw - ns\nns ne sw ne sw se nw se nw se sw ns\nns se nw se nw ns - ns se nw ns ns\nns ns - ns - ne sw ne nw - ns ns\nns ne sw ne sw se nw - se ew nw ns\nne sw ns - ns ns se ew nw - se nw\nse nw ns se nw ne nw - se sw ne sw\nne ew nw ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/057.a.htm"
+    },
+    "58_12x12": {
+      "id": "58_12x12",
+      "solution": "12 12\nse sw se sw se sw se sw se ew ew sw\nns ne nw ne nw ne nw ns ne sw - ns\nne sw se ew ew sw se nw se nw se nw\nse nw ns se sw ne nw se nw - ne sw\nns - ne nw ne sw - ns se ew ew nw\nne sw - se sw ne sw ns ne ew ew sw\nse nw se nw ns - ns ne sw - se nw\nns - ne sw ne sw ns - ne sw ne sw\nns se ew nw - ns ne sw se nw se nw\nns ne sw - se nw - ne nw - ne sw\nns - ne sw ns se sw - se sw - ns\nne ew ew nw ne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/058.a.htm"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "solution": "12 12\nse ew ew ew ew ew sw se ew sw se sw\nne ew sw se ew ew nw ns - ne nw ns\nse ew nw ns se sw - ne sw - se nw\nns - se nw ns ne ew sw ne sw ne sw\nne sw ns - ne sw - ne sw ne sw ns\nse nw ne sw - ne sw - ns - ns ns\nns se sw ne ew sw ne sw ne ew nw ns\nns ns ne ew ew nw - ne ew sw - ns\nns ne sw - se ew sw - se nw se nw\nns - ne sw ne sw ne sw ne sw ne sw\nns se sw ne ew nw - ne ew nw - ns\nne nw ne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "solution": "12 12\nse sw se ew ew ew sw se ew sw se sw\nns ne nw - se sw ne nw se nw ns ns\nns - se sw ns ns - se nw se nw ns\nne sw ns ne nw ne sw ns - ns - ns\nse nw ne ew sw - ns ns se nw se nw\nns se sw se nw se nw ne nw - ne sw\nns ns ne nw - ne sw - se ew ew nw\nns ns - se ew sw ne ew nw - se sw\nns ne sw ne sw ne sw - se sw ns ns\nns - ne sw ne sw ne ew nw ne nw ns\nns se sw ne ew nw se sw se sw - ns\nne nw ne ew ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew sw ne nw ns\nne nw se ew nw se sw ns\nse sw ne ew sw ns ns ns\nns ne ew ew nw ns ne nw\nne sw se ew sw ne ew sw\nse nw ns se nw se sw ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "solution": "8 8\nse ew sw se ew sw se sw\nne sw ns ne sw ns ns ns\nse nw ns se nw ns ns ns\nne sw ns ne sw ne nw ns\nse nw ne ew nw se sw ns\nne sw se ew ew nw ns ns\nse nw ne ew ew sw ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/062.a.htm"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "solution": "10 10\nse sw se ew sw se ew sw se sw\nns ne nw - ns ns - ne nw ns\nne sw - se nw ns se ew sw ns\nse nw se nw - ne nw - ns ns\nns - ne ew sw - se ew nw ns\nns se sw - ne ew nw - se nw\nns ns ne sw - se ew sw ne sw\nne nw - ne sw ne sw ne ew nw\nse ew ew ew nw - ne ew ew sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "solution": "10 10\nse ew sw se ew sw se sw se sw\nns - ns ns - ne nw ne nw ns\nne sw ne nw se sw se sw - ns\nse nw - se nw ns ns ne ew nw\nns se ew nw - ne nw - se sw\nns ne ew ew ew sw - se nw ns\nne sw - se ew nw se nw se nw\nse nw se nw - se nw - ne sw\nns - ne ew ew nw - se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\nse ew sw se sw se ew sw se sw\nns - ne nw ns ns - ns ns ns\nne sw - se nw ne sw ne nw ns\nse nw se nw se ew nw - se nw\nne sw ne sw ns - se sw ne sw\nse nw - ne nw se nw ns - ns\nns se ew sw - ns - ne sw ns\nns ns - ne sw ne sw - ns ns\nns ne ew sw ns - ne sw ns ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "solution": "10 10\nse ew ew sw se ew ew sw se sw\nne ew sw ne nw - se nw ns ns\nse ew nw - se ew nw - ns ns\nne sw - se nw - se ew nw ns\nse nw se nw se sw ne sw - ns\nns - ns - ns ne sw ne sw ns\nns se nw se nw se nw - ns ns\nns ne sw ns - ne sw se nw ns\nns - ne nw se sw ne nw - ns\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/066.a.htm"
+    },
+    "67_12x12": {
+      "id": "67_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew ew ew ew ew sw\nne sw - se ew ew ew sw - se ew nw\nse nw se nw - se sw ne ew nw se sw\nns - ns - se nw ne sw - se nw ns\nne sw ne sw ne sw - ne sw ne sw ns\nse nw se nw - ne sw - ns - ns ns\nns - ne ew sw se nw se nw se nw ns\nns se sw - ne nw se nw - ns - ns\nns ns ne sw - se nw se sw ne sw ns\nns ne sw ne sw ns se nw ne ew nw ns\nns - ne sw ns ne nw se sw se sw ns\nne ew ew nw ne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/067.a.htm"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "solution": "12 12\nse sw se ew ew ew sw se ew ew ew sw\nns ne nw - se sw ne nw se ew ew nw\nns se ew sw ns ns - se nw - se sw\nns ns - ne nw ns se nw - se nw ns\nns ns se sw - ne nw se sw ns - ns\nns ne nw ne sw - se nw ne nw se nw\nne sw - se nw se nw se sw - ne sw\nse nw se nw - ne ew nw ne sw se nw\nns - ne ew ew sw - se sw ns ne sw\nns se ew sw - ne ew nw ne nw - ns\nns ne sw ns se sw se sw - se sw ns\nne ew nw ne nw ne nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew ew ew sw se sw\nne sw - se ew ew ew sw se nw ns ns\nse nw se nw se sw - ns ne ew nw ns\nne ew nw se nw ne sw ne sw - se nw\nse sw - ne ew sw ns - ne sw ne sw\nns ne sw - se nw ne sw se nw - ns\nns - ns se nw - se nw ne sw se nw\nne sw ne nw se sw ne ew ew nw ne sw\nse nw se ew nw ne ew ew ew ew sw ns\nns se nw - se sw - se ew ew nw ns\nns ne sw se nw ne ew nw se sw - ns\nne ew nw ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew sw se ew ew sw\nns - se sw se sw - ns ne sw - ns\nns se nw ne nw ns se nw - ns se nw\nns ne ew sw - ne nw se sw ns ne sw\nne ew sw ne ew sw - ns ne nw - ns\nse ew nw se sw ne sw ne sw - se nw\nns se ew nw ns - ns - ne sw ne sw\nns ne sw - ns se nw se ew nw - ns\nns se nw se nw ns - ns se ew sw ns\nns ns - ns - ne ew nw ns - ns ns\nns ne sw ns se sw se sw ne sw ns ns\nne ew nw ne nw ne nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ns ne sw se ew nw\nse nw ns se nw ne ew sw\nne sw ne nw se ew ew nw\nse nw se sw ne ew ew sw\nns se nw ns se sw se nw\nns ns se nw ns ns ne sw\nne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ns ns ne nw ne nw ns\nns ne nw se ew ew sw ns\nns se ew nw se sw ne nw\nns ne ew ew nw ne ew sw\nns se ew ew ew sw se nw\nns ne sw se ew nw ne sw\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/072.a.htm"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "solution": "10 10\nse ew sw se ew sw se ew ew sw\nne sw ne nw - ns ne ew sw ns\nse nw - se sw ne sw - ns ns\nns - se nw ns - ne ew nw ns\nns se nw - ns se sw - se nw\nne nw se sw ne nw ne sw ne sw\nse ew nw ns - se sw ns - ns\nne sw - ne ew nw ne nw se nw\nse nw se sw - se sw - ne sw\nne ew nw ne ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/073.a.htm"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "solution": "10 10\nse ew sw se ew sw se sw se sw\nns - ne nw - ne nw ne nw ns\nne ew sw - se ew ew sw - ns\nse ew nw se nw se sw ns se nw\nns - se nw se nw ne nw ne sw\nns se nw se nw se sw - se nw\nns ne sw ne ew nw ne sw ne sw\nne sw ne sw - se ew nw - ns\nse nw - ns se nw - se sw ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nne sw - ns ne sw se sw - ns\nse nw se nw - ns ns ne ew nw\nns - ne sw se nw ns - se sw\nne sw - ns ns - ne ew nw ns\nse nw se nw ns se ew sw - ns\nns - ns - ne nw - ns se nw\nne sw ne ew sw - se nw ne sw\nse nw se sw ne ew nw se sw ns\nne ew nw ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/075.a.htm"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "solution": "10 10\nse sw se ew ew ew sw se ew sw\nns ns ne ew sw - ne nw - ns\nns ne sw se nw se sw - se nw\nns - ne nw - ns ne sw ne sw\nne ew sw - se nw - ns - ns\nse ew nw se nw se ew nw se nw\nne ew ew nw - ne ew sw ne sw\nse ew sw se sw - se nw - ns\nns - ne nw ne ew nw se sw ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/076.a.htm"
+    },
+    "77_12x12": {
+      "id": "77_12x12",
+      "solution": "12 12\nse ew sw se sw se ew ew ew ew ew sw\nns - ne nw ne nw - se sw - se nw\nns se ew ew ew ew sw ns ne sw ne sw\nne nw - se ew sw ns ne sw ne sw ns\nse ew sw ne sw ne nw - ns - ne nw\nns - ne sw ne sw - se nw se ew sw\nns se sw ne sw ne sw ne sw ne sw ns\nns ns ns - ne sw ne sw ns - ns ns\nns ns ne ew sw ne sw ns ns se nw ns\nns ne sw - ns - ne nw ne nw se nw\nns - ne sw ns se sw se sw - ne sw\nne ew ew nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/077.a.htm"
+    },
+    "78_12x12": {
+      "id": "78_12x12",
+      "solution": "12 12\nse ew sw se sw se ew sw se sw se sw\nne sw ne nw ns ne sw ne nw ne nw ns\nse nw - se nw - ne ew sw - se nw\nns se ew nw - se sw - ne sw ne sw\nns ns - se ew nw ne sw - ne sw ns\nns ns se nw - se sw ne sw - ns ns\nns ne nw se ew nw ne sw ne sw ns ns\nne sw se nw - se sw ne sw ns ns ns\nse nw ns se ew nw ns - ns ne nw ns\nne sw ne nw - se nw se nw - se nw\nse nw - se sw ns se nw se sw ne sw\nne ew ew nw ne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/078.a.htm"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "solution": "12 12\nse ew ew sw se ew ew ew sw se ew sw\nne sw - ne nw se ew sw ne nw - ns\nse nw se sw - ns se nw - se ew nw\nns - ns ne ew nw ns - se nw se sw\nns se nw - se sw ne ew nw se nw ns\nns ns - se nw ne sw - se nw se nw\nns ne sw ne sw - ne ew nw - ne sw\nns se nw se nw se sw - se ew sw ns\nns ns se nw se nw ns se nw - ns ns\nns ne nw - ne sw ne nw se sw ns ns\nns - se sw - ne sw se nw ne nw ns\nne ew nw ne ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/079.a.htm"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "solution": "12 12\nse ew sw se ew sw se ew ew ew ew sw\nns - ne nw - ne nw se sw se sw ns\nne sw - se sw - se nw ne nw ne nw\nse nw se nw ne sw ne sw - se ew sw\nns se nw se ew nw - ns se nw se nw\nns ns se nw se ew sw ne nw - ne sw\nne nw ne ew nw se nw - se sw - ns\nse ew sw - se nw - se nw ne ew nw\nne sw ne sw ns - se nw se sw se sw\nse nw - ne nw se nw se nw ne nw ns\nns - se sw - ne ew nw se sw - ns\nne ew nw ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/080.a.htm"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "solution": "8 8\nse sw se sw se ew ew sw\nns ne nw ns ns se sw ns\nne ew sw ns ne nw ns ns\nse ew nw ne ew ew nw ns\nne ew sw se ew ew ew nw\nse ew nw ns se sw se sw\nns se sw ne nw ne nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/081.a.htm"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "solution": "8 8\nse sw se ew sw se ew sw\nns ns ns se nw ne sw ns\nns ne nw ne ew sw ns ns\nne sw se ew ew nw ns ns\nse nw ne ew ew ew nw ns\nne ew sw se ew ew sw ns\nse ew nw ne ew sw ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/082.a.htm"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se sw se ew sw se nw\nns ns ne nw ne nw - ns ne sw\nns ne sw - se ew ew nw - ns\nns - ne sw ns - se ew sw ns\nns se ew nw ne ew nw - ns ns\nns ne sw - se sw - se nw ns\nne sw ne ew nw ne ew nw - ns\nse nw - se sw se sw se sw ns\nne ew ew nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/083.a.htm"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew ew ew sw\nne sw ne nw - se ew sw - ns\nse nw - se sw ne sw ne ew nw\nne sw se nw ns - ne ew ew sw\nse nw ns - ne sw - se ew nw\nns - ne sw - ne ew nw se sw\nne sw - ne ew sw - se nw ns\nse nw se sw - ne ew nw - ns\nns - ns ns se sw - se sw ns\nne ew nw ne nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/084.a.htm"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "solution": "10 10\nse sw se sw se ew sw se ew sw\nns ns ns ne nw - ne nw se nw\nns ne nw - se ew sw - ne sw\nns - se sw ne sw ne ew sw ns\nne ew nw ns - ns - se nw ns\nse sw - ne sw ns se nw - ns\nns ne sw - ne nw ne ew sw ns\nne sw ne sw - se ew ew nw ns\nse nw - ne ew nw se sw - ns\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/085.a.htm"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "solution": "10 10\nse sw se ew sw se ew sw se sw\nns ne nw - ns ns - ne nw ns\nns - se sw ne nw se ew sw ns\nns se nw ns - se nw - ns ns\nne nw se nw se nw se ew nw ns\nse ew nw - ns - ne sw se nw\nns - se ew nw se sw ns ne sw\nne sw ne sw - ns ne nw - ns\nse nw - ns se nw - se sw ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/086.a.htm"
+    },
+    "87_12x12": {
+      "id": "87_12x12",
+      "solution": "12 12\nse ew sw se sw se ew sw se ew ew sw\nns - ne nw ne nw se nw ns - se nw\nne sw - se sw - ne sw ne sw ne sw\nse nw se nw ne sw se nw se nw - ns\nne sw ne sw - ne nw se nw - se nw\nse nw se nw se sw - ne ew sw ne sw\nns - ns se nw ne sw - se nw se nw\nns se nw ne ew sw ne sw ne sw ne sw\nns ns - se ew nw - ns - ns - ns\nns ne sw ns se ew sw ne sw ne sw ns\nns - ne nw ne sw ns - ne ew nw ns\nne ew ew ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/087.a.htm"
+    },
+    "88_12x12": {
+      "id": "88_12x12",
+      "solution": "12 12\nse ew ew ew sw se ew ew ew ew ew sw\nne sw - se nw ne sw - se sw - ns\nse nw se nw - se nw se nw ne ew nw\nns - ne sw se nw - ne ew ew ew sw\nne sw - ne nw - se ew sw - se nw\nse nw se sw - se nw - ne sw ne sw\nns se nw ns se nw se ew ew nw se nw\nne nw - ne nw se nw se sw - ne sw\nse ew ew sw se nw se nw ns se ew nw\nne sw - ne nw se nw se nw ne ew sw\nse nw se sw - ne sw ns se sw - ns\nne ew nw ne ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/088.a.htm"
+    },
+    "89_12x12": {
+      "id": "89_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew ew sw se ew sw\nns se sw - se ew sw - ns ne sw ns\nns ns ne sw ns - ne ew nw se nw ns\nns ns - ne nw se sw - se nw se nw\nns ns se sw - ns ns se nw - ne sw\nns ne nw ns se nw ne nw - se ew nw\nne sw - ns ne ew sw - se nw se sw\nse nw se nw se ew nw se nw - ns ns\nne sw ne sw ns - se nw se sw ns ns\nse nw - ne nw se nw se nw ne nw ns\nns - se sw - ne ew nw se sw - ns\nne ew nw ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/089.a.htm"
+    },
+    "90_12x12": {
+      "id": "90_12x12",
+      "solution": "12 12\nse sw se sw se sw se ew ew ew ew sw\nns ne nw ne nw ns ne ew ew sw - ns\nns se ew sw - ns - se ew nw se nw\nne nw - ne sw ne sw ne ew sw ne sw\nse ew sw - ne sw ns se ew nw - ns\nns se nw se sw ns ns ns - se ew nw\nns ns - ns ne nw ne nw se nw se sw\nns ne sw ne sw - se ew nw se nw ns\nne sw ne ew nw se nw - se nw se nw\nse nw se sw se nw se ew nw - ne sw\nns - ns ns ne ew nw - se sw - ns\nne ew nw ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/090.a.htm"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nns se nw ns se ew ew nw\nns ns se nw ne ew ew sw\nns ns ns se ew ew sw ns\nns ns ne nw se sw ns ns\nns ne ew sw ns ns ns ns\nns se sw ne nw ne nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/091.a.htm"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "solution": "8 8\nse sw se ew ew sw se sw\nns ns ns se ew nw ns ns\nns ns ns ne ew ew nw ns\nns ne nw se ew ew sw ns\nne ew sw ne ew sw ne nw\nse ew nw se sw ns se sw\nns se sw ns ns ne nw ns\nne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/092.a.htm"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "solution": "10 10\nse sw se ew sw se ew ew ew sw\nns ne nw - ns ne sw - se nw\nns - se sw ne sw ne sw ne sw\nne sw ns ns - ne ew nw se nw\nse nw ns ns se ew sw - ne sw\nne sw ns ne nw - ne ew sw ns\nse nw ns - se sw - se nw ns\nns - ne ew nw ne sw ne sw ns\nns se sw - se sw ne sw ns ns\nne nw ne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/093.a.htm"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ne sw se ew sw se sw ns\nns ne sw ne nw - ne nw ns ns\nns - ne sw - se ew ew nw ns\nne sw - ne sw ns se ew sw ns\nse nw se sw ne nw ns - ns ns\nne ew nw ns - se nw se nw ns\nse sw - ne sw ne sw ne sw ns\nns ne ew ew nw - ne sw ns ns\nne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/094.a.htm"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "solution": "10 10\nse sw se ew ew ew sw se ew sw\nns ne nw se ew sw ne nw - ns\nns - se nw - ne sw se sw ns\nns se nw se sw - ne nw ne nw\nns ns - ns ne sw - se ew sw\nns ne sw ne sw ne ew nw - ns\nns se nw - ne ew sw - se nw\nns ne sw se sw - ne sw ne sw\nns - ne nw ne ew ew nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/095.a.htm"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se ew ew sw se ew nw ns ns\nns ne sw - ne nw - se nw ns\nns - ne ew sw - se nw - ns\nne sw - se nw se nw - se nw\nse nw se nw - ns se sw ne sw\nns se nw se sw ne nw ns - ns\nns ns se nw ns - se nw se nw\nns ne nw - ne ew nw - ne sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/096.a.htm"
+    },
+    "97_12x12": {
+      "id": "97_12x12",
+      "solution": "12 12\nse sw se sw se sw se ew ew ew ew sw\nns ne nw ne nw ne nw se ew sw - ns\nne sw - se ew sw - ns se nw se nw\nse nw se nw - ne sw ns ns - ne sw\nns se nw - se sw ns ns ne ew ew nw\nns ns - se nw ne nw ns - se ew sw\nns ne sw ne sw - se nw se nw se nw\nne sw ne sw ne sw ne sw ne sw ne sw\nse nw - ne sw ne sw ne sw ns - ns\nne ew ew sw ns se nw - ne nw se nw\nse ew ew nw ns ns - se sw - ne sw\nne ew ew ew nw ne ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/097.a.htm"
+    },
+    "98_12x12": {
+      "id": "98_12x12",
+      "solution": "12 12\nse ew ew ew sw se ew sw se sw se sw\nns se ew sw ne nw - ns ns ne nw ns\nns ns - ne sw - se nw ns - se nw\nns ne ew sw ne sw ne sw ne sw ne sw\nne sw - ne sw ns - ne sw ne sw ns\nse nw se ew nw ne sw - ne ew nw ns\nns se nw se ew ew nw se sw - se nw\nne nw se nw se sw - ns ne sw ne sw\nse sw ne sw ns ne sw ns - ne ew nw\nns ne sw ns ns - ns ne sw se ew sw\nns - ne nw ne sw ns - ne nw - ns\nne ew ew ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/098.a.htm"
+    },
+    "99_12x12": {
+      "id": "99_12x12",
+      "solution": "12 12\nse sw se ew sw se sw se ew sw se sw\nns ne nw se nw ns ne nw se nw ns ns\nns se ew nw - ns - se nw se nw ns\nns ne sw - se nw se nw se nw - ns\nns - ns se nw se nw se nw se sw ns\nne sw ne nw se nw - ne ew nw ns ns\nse nw - se nw - se sw - se nw ns\nns se ew nw se sw ns ne sw ne sw ns\nns ne sw se nw ns ns - ns - ns ns\nns - ne nw - ne nw se nw se nw ns\nns se sw - se sw - ne ew nw - ns\nne nw ne ew nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/099.a.htm"
+    },
+    "100_12x12": {
+      "id": "100_12x12",
+      "solution": "12 12\nse ew ew ew ew sw se sw se ew ew sw\nns - se sw - ne nw ne nw se ew nw\nns se nw ne ew sw se sw - ne ew sw\nns ns se ew sw ne nw ne sw - se nw\nns ns ne sw ne ew sw - ne sw ne sw\nns ns - ne sw - ne sw - ns se nw\nns ne ew sw ne sw - ne ew nw ne sw\nns - se nw - ne sw se sw - se nw\nne ew nw se ew ew nw ns ne sw ne sw\nse sw se nw - se ew nw - ne sw ns\nns ne nw se sw ns se ew ew ew nw ns\nne ew ew nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Double-Back/100.a.htm"
+    }
+  }
+}

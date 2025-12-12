@@ -3,7 +3,7 @@ from Core.core import CrawlerConfig
 
 def main():
     # Define configuration
-    target = "Hitori"
+    target = "Foseruzu"
     
     # NOTE:
     #   puzzle_name: The name of dataset saved to repo;
@@ -13,22 +13,22 @@ def main():
     #   Sometimes the puzzle_name is NOT equal to the puzzle name in `index_url`!
     config = CrawlerConfig(
         puzzle_name= f"{target}",
-        index_url = f"https://www.janko.at/Raetsel/Gokigen-Naname/index.htm",
-        base_url = f"https://www.janko.at/Raetsel/Gokigen-Naname/",
+        index_url = f"https://www.janko.at/Raetsel/{target}/index.htm",
+        base_url = f"https://www.janko.at/Raetsel/{target}/",
         headless = True,  # Set to False to watch the browser for debugging
         partial_test = False
         # output_dir = './data'
     )
     
-    config = CrawlerConfig(
-        puzzle_name= f"{target}",
-        index_url = f"https://www.janko.at/Raetsel/{target}/index.htm",
-        base_url = f"https://www.janko.at/Raetsel/{target}/",
-        headless = True,  # Set to False to watch the browser for debugging
-        partial_test = False # If you wanna check instead of accessing full data, set to True
-        # output_dir = './data'
-    )
-
+    # config = CrawlerConfig(
+    #     puzzle_name= f"{target}",
+    #     index_url = f"https://www.janko.at/Raetsel/Moonsun/index.htm",
+    #     base_url = f"https://www.janko.at/Raetsel/Moonsun/",
+    #     headless = True,  # Set to False to watch the browser for debugging
+    #     partial_test = False # If you wanna check instead of accessing full data, set to True
+    #     # output_dir = './data'
+    # )
+  
     # Instantiate and run
     crawler = CrawlerFactory.get_crawler(target, config)
     crawler.run()

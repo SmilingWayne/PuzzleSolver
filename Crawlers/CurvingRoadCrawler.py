@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
 from Core.core import BasePuzzleCrawler, PuzzleItem
 
-class ThermometerCrawler(BasePuzzleCrawler):
+class CurvingRoadCrawler(BasePuzzleCrawler):
     
     def parse_index(self, html_content: str) -> List[Dict]:
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -37,44 +37,44 @@ class ThermometerCrawler(BasePuzzleCrawler):
         # Define Regex patterns based on type
         if link_type == "class_sv":
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[labels\])",
-                'grids': r"(?<=\[labels\]\n)(.*?)(?=\[solution\])",
+                # 'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                # 'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
+                # 'grids': r"(?<=\[problem\]\n)(.*?)(?=\[areas\])",
                 # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
             }
         else:
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[labels\])",
-                'grids': r"(?<=\[labels\]\n)(.*?)(?=\[solution\])",
+                # 'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                # 'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
+                # 'grids': r"(?<=\[problem\]\n)(.*?)(?=\[areas\])",
                 # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
             }
 
         try:
-            cols_match = re.search(patterns['cols'], html_content, re.DOTALL)
-            rows_match = re.search(patterns['rows'], html_content, re.DOTALL)
-            grids_match = re.search(patterns['grids'], html_content, re.DOTALL)
+            # grids_match = re.search(patterns['grids'], html_content, re.DOTALL)
+            # areas_match = re.search(patterns['areas'], html_content, re.DOTALL)
             sol_match = re.search(patterns['sol'], html_content, re.DOTALL)
 
-            if not all([grids_match, cols_match, rows_match, sol_match]):
+            if not all([sol_match]):
                 self.logger.warning(f"Regex mismatch for {text}")
                 return None
 
             # Process data
-            cols_raw = cols_match.group().strip().lower()
-            rows_raw = rows_match.group().strip()
-            grids_raw = grids_match.group().strip()
-            solution_raw = sol_match.group().strip()
+            solution_raw = sol_match.group().strip().lower()
+            grids_raw = solution_raw
+            grids_raw = grids_raw.replace("x", "-")
+            
             
             rows_list = solution_raw.strip().split("\n")
             num_rows = len(rows_list)
             num_cols = len(rows_list[0].split()) if num_rows > 0 else 0
 
             
+            
             header = f"{num_rows} {num_cols}"
-            problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{grids_raw}"
+            problem_str = f"{header}\n{grids_raw}"
             solution_str = f"{header}\n{solution_raw}"
             
             puzzle_id = f"{text}_{num_rows}x{num_cols}"

@@ -47,6 +47,12 @@ from FoseruzuCrawler import FoseruzuCrawler
 from GokigenNanameCrawler import GokigenNanameCrawler
 from JuosanCrawler import JuosanCrawler
 from HitoriCrawler import HitoriCrawler
+from CountryRoadCrawler import CountryRoadCrawler
+from DoubleBackCrawler import DoubleBackCrawler
+from CurvingRoadCrawler import CurvingRoadCrawler
+from MoonSunCrawler import MoonSunCrawler
+from MasyuCrawler import MasyuCrawler
+from CorralCrawler import CorralCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -100,7 +106,14 @@ class CrawlerFactory:
         "Fobidoshi": FobidoshiCrawler,
         "GokigenNaname": GokigenNanameCrawler,
         "Juosan": JuosanCrawler, # problem -> areas - > solutions -> moves/end
-        "Hitori": HitoriCrawler
+        "Hitori": HitoriCrawler,
+        "CountryRoad": CountryRoadCrawler,
+        "DoubleBack": DoubleBackCrawler,
+        "CurvingRoad": CurvingRoadCrawler,
+        "MoonSun": MoonSunCrawler,
+        "Masyu": MasyuCrawler,
+        "Corral": CorralCrawler,
+        "Foseruzu": FoseruzuCrawler
     }
     
     @classmethod

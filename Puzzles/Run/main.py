@@ -32,8 +32,22 @@ if __name__ == "__main__":
         "WindmillSudoku", 
         "Norinori",
         "Kakurasu",
-        "Fuzuli"
-        
+        "Fuzuli",
+        "TilePaint",
+        "KillerSudoku", # Note: some 6x6 is ambigous,
+        "JigsawSudoku",  # Note: some has diagnonal constr
+        "Munraito",
+        "Thermometer",
+        "Str8t",
+        "Starbattle",
+        "SquareO",
+        "Renban",
+        "Kakuro",
+        "Nondango",
+        "Simpleloop",
+        "Linesweeper",
+        "Slitherlink",
+
     ]
     
     record = []
@@ -78,10 +92,13 @@ if __name__ == "__main__":
             #     # If puzzle is loaded and solved successfully:
             #     # TODO: check solutions via rule_based
                 print(f"Load and solve puzzle but fail to load {pz_name} solutions, ID: {puzzle_id}")
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'])
             #     continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):
                     print(f"Wrong! {pz_name} {puzzle_id},")
+                    # print(solution_dict['grid'], solution_dict['status'])
 
                 record.append(solution_dict)
-                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'] )
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], round(solution_dict['cpu_time'], 4), round(solution_dict['build_time'], 4) )
+                # print(solution_dict['grid'])

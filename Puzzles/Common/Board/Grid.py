@@ -125,7 +125,7 @@ class Grid(Generic[T]):
 
     def neighbor_down_right(self, position: Position) -> Position:
         return position.down_right if position.down_right in self else None  # check if wall is not between position and position.down_right ?
-
+    
     def get_neighbors(self, position: Position, mode = "orthogonal"):
         if mode == 'diagonal_only':
             return {self.neighbor_up_left(position), self.neighbor_up_right(position), self.neighbor_down_left(position), self.neighbor_down_right(position)} - {None}

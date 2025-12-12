@@ -1,0 +1,955 @@
+{
+  "count": 190,
+  "solutions": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "solution": "8 8\no - x - o - x o\nx - o x - - - -\no - x o x - o x\n- - - - - x - -\n- x o x - o x -\nx o x o - x - o\n- - - x - o - x\no x o - - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/001.a.htm"
+    },
+    "02_8x8": {
+      "id": "02_8x8",
+      "solution": "8 8\nx o x o - - x o\n- - - x - - - -\no x - o - x o x\nx o x - x o x o\n- - - - - - - -\n- - - x o x o x\no x - o x - - -\nx o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/002.a.htm"
+    },
+    "03_8x8": {
+      "id": "03_8x8",
+      "solution": "8 8\no - - x - o x -\n- x - o - x o -\nx o - x - o x -\no x - o x - - -\n- - x - - x o x\nx - o x o - x o\no - x - - - - -\nx - o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "solution": "8 8\nx o - x - o - x\n- x - o - x - o\no - x - x o - x\nx - - - - x - o\no - - x o - x -\nx - - o x - o x\n- - - x o - x -\no x - o x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8\no x o - x o - x\n- - x - o x - o\nx o - - x o x -\n- - - x - - - -\n- - x o - x o x\no x o x - o x -\n- - - - - x - o\nx o x - - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "solution": "8 8\nx - o x - - - o\no - x o - x - x\nx - o x - o x o\no - x - - x - -\nx - - o x - o x\n- - - x o - x -\no - x - x - o -\nx - o - - - x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "solution": "8 8\nx - o - - x - o\no - x - x o - x\nx - o x o x - o\n- - - - - - - -\n- - x o x o - x\no x o x - x - o\nx - - - - - - x\no - x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "solution": "8 8\no x - o x - - -\n- - - x o - x o\nx o - - x - - x\no x - - - x - o\n- - x - o - - x\nx - o - x - - -\n- - x - o - x o\no x o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "solution": "8 8\nx o x - o x - o\n- - - - x o - x\n- x o x o x - -\no - x - - - - -\n- - - - x o x o\nx - o x o x - x\no - x - - - - -\nx - o - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "solution": "8 8\n- x - o - x o -\n- o - x - o x -\n- x - o x - - -\n- o x - - x o x\nx - - x o - x o\n- - x o x - - -\no x - - - - - x\nx o - x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\no x - o x - o x o -\n- - - x - - x o x -\nx o x o - x - - - -\n- - - - x o - x - x\no x o x - - x - - o\n- - - - - x o - x -\nx o x o x - x - - x\n- - - - - - - x o -\no x - x o x - o x -\nx - o - x o - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\no x o - x - o x - o\n- - x - o - x o - x\nx - o - x - - - - -\no - x - o x o x - o\nx - - - x o x o - x\no - x - - - - x - -\n- x o - x - x o - x\nx o x - o x o x - -\n- - - - x - - - x o\no x - - o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\nx - o x o - x o - x\no - x - x - o x - o\nx - - o - - x - - x\no - x - - - - - x o\nx - o x - x o x - -\n- - x - - o x o - x\no x o - - x o x - -\nx o x - - - - - x o\n- - - x - o x - - -\no x - o - x - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\no - x o x - o x - -\n- - - - - - x - o x\nx - o x - x o - x o\no - x o x o x - - -\n- - - - - - - x - -\nx - o x o x - o x -\no x - - x o - x - -\n- - x - o x - - o x\nx - o - x o - x - -\no - x - - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\nx o - x o - - x - o\no x - o x - x o - x\n- - - x - - - - x o\n- - x - o x o x - -\nx - o x - - x o - x\no - x o x - o x - o\n- - - - - - x o - x\n- x o x - - - - - -\n- - x o - x o x - o\nx o - x - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\nx - - - o x - o - x\no - x - x o x - x o\nx - o x - - - - - -\no - x - - x o x o x\nx - - o x o x - - -\n- - - x - - - - x o\no x - o x - x - o x\nx o - x - x o x - -\n- x - - - - - - x o\n- o - x o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/016.a.htm"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "solution": "10 10\nx o - x - - o x - o\no x - o x - - - - -\n- - - x o - x o - x\nx o - - x - o x - o\no x - - o - x o - x\n- - x - x - o x - -\nx - o x - - x - - o\no - x - o x - - - x\nx - o - x o - x - -\no - x - - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "solution": "10 10\no - x o x o - x o x\nx - - - - - - - - -\no x o x - x - o x o\n- - x o x o - x - x\nx - - - - x - - - o\no - x - x o - x - -\nx - o x o x - o - x\no x - - - - - x - o\n- - - - x o x o - x\nx o x - - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "solution": "10 10\no x o - x - o x o -\n- - - - - - x o x -\nx o x - o x - - - -\no x o - x o - x o x\n- - - - - x - o x o\nx o x - - o x - - -\n- x o x - x o x o x\n- - - - - - - - - -\no - x o x - x o x -\nx - o x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/019.a.htm"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "solution": "10 10\no - x - o - x o x -\nx - o - x - - - - -\no x - - - x o x o x\n- - - x - o x - x o\nx o x o x - - - - -\n- - - - - x o x o x\no x o x - o x - - -\nx o x o - x o - x -\n- - - - x - - x - o\n- x o x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "solution": "10 10\no - - - x o - x - o\nx - x - o x - - - -\no x o - x - x o - x\n- - x - - - - x - o\nx - o - x o x o - x\no - x - o x - - x o\nx - - - x o - x - -\no x o x - - x o - x\n- - - - - - - - - -\nx o x o - x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "solution": "10 10\nx - o x - o x - - -\no - x o - x o - - x\nx - - - - - x - x o\no x o x - - - - - -\n- - x o - x o x o x\nx o - x - o x - x o\n- x - - x - - - - -\no - x - o x o - - x\nx - o - x - - x - o\no - x - o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "solution": "10 10\no x o - x - o x - o\n- - - x o - x - - x\nx o x o x - - x - o\n- - - - - x - o - x\no x - - x o x - - -\nx - o x - - - - x o\no - x o - x o x o x\nx - o x - - - - - -\n- - - - - - x o x o\no - x o x o - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "solution": "10 10\no x - o x o - x - o\n- - - - - - x o x -\nx o - x o x - - - -\n- x - o x - - x o x\no - - x - - - o x o\n- x - o x - - x - -\nx o - x o - x o - x\no x - - - x o x - -\n- - x - - - - - x o\nx - o - x o x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "solution": "10 10\nx o x o - x - o x o\n- - - x - o - x - -\no x o - - x - o - x\n- - x - x o - x - o\nx - o x - x - - - x\no - x - o - x o x o\n- x - - x - - - - -\nx o - x o x o x - -\n- - - - - - x o - x\no x - o x - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/025.a.htm"
+    },
+    "26_12x12": {
+      "id": "26_12x12",
+      "solution": "12 12\no x o - x - o x o - x o\n- - x - o - x - - - - -\nx o - - x - o x - x o x\no x - x o - x - - - x -\n- - x o x - - o x - - o\nx - - - - - - x o x - x\no - x - - - x - - - - -\nx - o x - x o - x o x o\no - x - - o x - o x - -\nx - o x - x o - x - - x\n- - x o x o x - o x - o\no x - - - - - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/026.a.htm"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "solution": "12 12\no x o - x o x o x - - o\n- - x - - - - - - - - x\nx o - - - x o x o - x o\no x - x - o x o x - - -\n- - x o x - - - - x o x\n- - - - - x o x - o x o\nx o - x - o x o - x - -\no x - o x - - - x o - x\n- - - x o x - x o x - -\nx o x - - - - - - - - -\n- - - - x o x - x o x o\no x - - o x o - - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/027.a.htm"
+    },
+    "28_12x12": {
+      "id": "28_12x12",
+      "solution": "12 12\nx o - x o - x - o x - o\no x - - x - o - x o - x\n- - x o - x - x o x - o\n- x o x - - - - - - - x\n- - - - - - x o x o x -\nx o x o x - o x - x o -\no x - x o - x o - - x -\n- - - - - x o x - x o -\nx o x - - - - - - - - x\no x o - x o x - x o x -\n- - x - o x - o - x - o\nx - o - x o - x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/028.a.htm"
+    },
+    "29_12x12": {
+      "id": "29_12x12",
+      "solution": "12 12\nx - o - x - - - o x o x\n- - x - o - x - - - - -\no x - - x - o x - - x o\nx o - x - - x - x o - x\n- - x - o x - - o x - o\n- x o - x o - - x - - x\nx o x - - - x - o x - -\n- - - x o x o - x o x o\no x - o x o x - - - - x\nx - - x - - - - - x - o\no - x - o x - - x o - x\nx - o - x - - - o x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/029.a.htm"
+    },
+    "30_12x12": {
+      "id": "30_12x12",
+      "solution": "12 12\n- - - x o - - x o x o x\no x o - x - - - - - - -\nx o x - - x - o x - x o\n- - - - x o - x - - o x\no x o x - - x o - x - -\nx - - - - x o x - o x o\no - x o x - - - - x o x\nx - o x - - x o x - - -\n- - x - o x o x - o x -\no x - - - - - - - x - o\nx - o - x o x - x o - x\no - x - o x - - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "solution": "10 10\nx - o x o - x - - o\n- - x - - x o x - x\no x o - x - - - - -\n- - x - o - x o x o\nx o - - x - o x o x\no x - x o x - - - -\n- - - - - - x o x -\n- - x o x o - x - -\nx - o x - - - - x o\no - x o - x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "solution": "10 10\no x o - x - - o x o\n- - x - o x - - - -\n- - - - x o - x - -\nx o x - o x - o x -\no x o - x o - x - -\n- - - x - - x - o x\nx - - - - x o - x -\no - x o x o x - - -\nx - o x - - - - x o\no - x - o x - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "solution": "10 10\nx o x o - x - o x o\n- - - - x o x - - -\no x - - - - - - - x\nx o - x o x o x - o\n- - x o x - x o - x\no x - - - - - x - o\nx - o x o x - - - x\no x - - x o - x - -\n- - x - o x - o x o\nx - o - x o - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/033.a.htm"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "solution": "10 10\nx - o x o - x - o x\no - x o x - o - x o\nx - - - - - x - - -\no - - x o x o - - x\n- x - o x o x - - o\nx o - x - - - - - x\n- - x o - x o x - o\no x o x - o x o x -\nx - - - - x - - - -\no - x o x o - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/034.a.htm"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "solution": "10 10\nx o x o - x - o - x\n- - - - - - - x - o\no x o x - o x o - x\nx o x o - x - - x o\n- - - - x o x - - -\no x o x - - - - - x\nx o x - o x o x - o\n- - - - x o x o x -\n- x o x - - - - - -\no - x - o x - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/035.a.htm"
+    },
+    "36_12x12": {
+      "id": "36_12x12",
+      "solution": "12 12\nx - - o - x - o x - o x\no - x - x o - x o - x o\nx - o x o x - - - x - -\n- - x - - - - - x o - x\no x o - x o x o - x - o\n- - - x o x o x - - - x\nx - - - - - - - x o x o\no - x o x o x - o x - -\nx - o x o x - x - - - x\no x - - - - - - x o x o\n- - - - - - x o - x - -\nx o x o x - o x - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/036.a.htm"
+    },
+    "37_12x12": {
+      "id": "37_12x12",
+      "solution": "12 12\no - x - o - x - o - - x\nx - o - x - o x - x - o\no - x - - - x o x o - x\nx - o x o x - - - x - o\n- - x o x - - x - o - x\no x - - - - x o - x - -\n- - - - x - o x - - x o\n- x o x o - x o - x o x\nx o x o x - o x - - - -\n- - - - - - - - x o x o\no x o x - - x - o x - -\n- - x - o x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/037.a.htm"
+    },
+    "38_12x12": {
+      "id": "38_12x12",
+      "solution": "12 12\nx o x o x - o - x - - o\n- - - - - - x - o x - -\no x - x o x - - x o - x\nx - - - x o - - - x - o\no x o - - x - - x o - x\n- - - - x o - x o x - o\nx o x - o x - - - - - x\no x o - x - x o x - - -\n- - x - - - o x - - x o\nx - o x - - x o x o - x\n- - - - - x - - - x - o\no - x o x o - x o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/038.a.htm"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "solution": "12 12\nx - - o - x - o x - o -\no - x - - - - x - - x -\nx - o x - o x - o x o -\n- - x - - x - - x o x -\no x o - x - o x - - - -\nx - x - o - x - - - - -\no - - - x - - x o x o x\n- x - - o x o - x o x o\nx o - x - - x - - - - -\no x - o x - o x o x - -\n- - - - - x - - x o - x\nx o - x - o x o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/039.a.htm"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "solution": "12 12\no - x o x - o x - o - x\n- - - - - - x - - x - o\nx - o x o x - o x o - x\no - x o x o x - - x - -\nx - - - - - - x o - x o\no - - x o x - - x - o x\nx - x o x o - x o - x -\n- - - - - x - - x - - -\no x o x - o x - - - x o\nx o x o - x - x o x - x\n- - - x - - o - x - - -\no x - o - - x - - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "solution": "10 10\nx o - x - - o x - -\no x - - - - x o - x\n- - x o - x o x - o\nx - - x - - - - - -\no x o - x o x o - x\n- - x - o x o x - o\nx - o x - - - - - -\n- - - - x o x o - x\no - x o - x - x - o\nx - o x - - o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "solution": "10 10\nx o - x o x o x - o\no x - - - - - - - -\n- - x o x - x o - x\n- - - - - - - x - o\nx o x - x o x o - x\no x o x - x o x - o\n- - - - - - - - - -\nx o x - o - x o - x\no x - - x - o x - o\n- - - x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "solution": "10 10\no - - x o - x o x o\nx - x o x - - - - -\n- - - - - - - - - x\no x o x - x o x - o\nx - - - x o x o - x\no x - - - - - x - -\n- - - x o x - o x -\nx o x - x o - x o x\no x o - - x - - - -\n- - - x - o - - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "solution": "10 10\no x o x - o - x - o\n- - - - - x - o x -\n- - x - - o x - - -\nx - o x - x o x o x\no - x o x - - - x o\nx - - - - - x - - -\no - - x - - o x o x\n- x - o x - x o x o\nx o - x o x - - - -\n- - - - - - - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "solution": "10 10\n- o - x - o - x - -\n- x - o - x - o x o\n- o x - x o - x - -\n- x o x o x - - - -\nx - - - - - x o - x\no - x o x o - x - o\n- x o x o x - - - -\n- - - - - - x o - x\nx o x o x - - x - o\n- - - x - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/045.a.htm"
+    },
+    "46_12x12": {
+      "id": "46_12x12",
+      "solution": "12 12\no x - - o x - o - x o -\n- - - - x - - - x o x -\nx o - x - o x - - - - -\n- - x o - x o x o x - -\no x o x - - - - x - o x\n- - - - x o x - o - x o\nx o x o - x o - x - - -\no x - - x o x - - x o x\n- - - - - - - x o - x -\nx - o x o x - - x - - -\n- - x o x o x - o - x o\no x - - - - - - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/046.a.htm"
+    },
+    "47_12x12": {
+      "id": "47_12x12",
+      "solution": "12 12\nx o - x o x o x - o x o\no x - - - - - - - x - -\n- - x o x o x - x o - x\nx - o x o x - - o x - o\n- - - - - - - x - - - -\no - x o x - - o x o - x\nx - o x - x - x o x - -\n- - x - - o x - - - x o\no - - - - x o - x o - x\nx - x - - - x - - - x o\no x o - x - o - x - - -\n- - - x o - x - o x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/047.a.htm"
+    },
+    "48_12x12": {
+      "id": "48_12x12",
+      "solution": "12 12\n- - - x - o x o x - - o\no x o - x - - - - - - x\n- - x - o x - x o x - o\nx o - x - - x o x o - x\n- - x o x - - - - - - -\no x - - - x o x o x - o\nx o x - - - - - x - - x\n- - - x o x - x o x - o\no x - o x o x - - - - x\nx - x - - - - - x - - -\n- - - - - x o x - o x -\no x o x - o x o - x o -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/048.a.htm"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "solution": "12 12\nx o - - x - - - o x o x\no x - x o - x - - - - -\n- - - - - x o x - - x o\nx o x o x - - - x o - x\n- - - x o - x - o x - -\n- - - - - x o - x - x o\no x - o x o x - - - - x\nx o - x - - - - x o x o\n- - x o - x o x o x - -\no x o x - o x - - - - x\n- - - - x - - - - x - o\nx o x - o x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/049.a.htm"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "solution": "12 12\nx o - x - o - x - o - x\no x - o - x - - - x - o\n- - - x - o x o x - - x\nx o x o x - - x o - x o\n- - - - - x o - x - - -\no x - x - o x - o x o x\nx - - o x - - x - - x o\no - x - - x - o x - - -\nx - o x o - - x o x o x\n- - x - x - x - - - - -\no x - - o x o - x o x -\nx o - x - - - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "solution": "10 10\n- x o x o - x o - x\n- - - - x - o x - -\nx o x o - x - - x o\no x o x - o x - - -\n- - - - x - - - - x\nx o x - - - x o x o\n- - - x o x - - - -\no x o - x o - x - -\n- - x - - x - o - x\nx - o x o - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "solution": "10 10\no - x o x - o x - o\n- - - - - - x o - x\nx - o x - - o x - -\n- - x o - x - - - -\no x o x - o x - x o\nx - - - - x o x o x\no - x o x - - - - -\n- x - - - - x o x -\nx o - x - - - x - -\n- - x o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "solution": "10 10\no - - x o x - - o x\nx - - - - - - - x o\no - x o x o x - - -\nx - o x - - - x o x\n- - x - - x o - x -\no x - o x o x - - o\nx o - x - - - x - x\n- x - - o x - o x o\no - x - x o - x - -\nx - o - - x - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "solution": "10 10\n- o x - o - x o x o\n- x o - x - - - - -\n- o x - - x o x - x\nx - - x - o x - - o\no x - - - x o - - x\n- - x o x o x - - -\nx o - x - - - - x o\no x - - - x o x - -\n- - x - - o x o - x\nx - o - x - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\no - x o x - - o x o\nx - - - - - - x - -\no x - x o x - o - x\n- - - - x o - x - o\nx o x o - x - - - x\no x o x - - x o x o\n- - - - x o - x - -\nx o x - - x - - o x\n- - - x - o - x - -\no x - o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/055.a.htm"
+    },
+    "56_12x12": {
+      "id": "56_12x12",
+      "solution": "12 12\no x o x - o x - o x - o\n- - - - - x - - - - - -\n- - x o x - o - x o - x\nx - o x o - x - o x - -\no - x - - x - - - - x o\nx - - o x o - - x - o x\no x - - - x - x o - x -\n- - - x o - x o x - o -\nx o x o x - - - - x - x\n- - - - - x o x - o x o\no x o x - o x - - - - -\n- - x o - x o - - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/056.a.htm"
+    },
+    "57_12x12": {
+      "id": "57_12x12",
+      "solution": "12 12\no - x o x - o - x - - -\n- - - - - - - x - o x o\nx - o x o x - - - x - x\n- - x - - - x o x - - -\no x o - x - o x o - x o\nx o x - o - x o x - - x\n- - - - x - - - - - x o\no x - - - x o x - - - -\nx - o x - o x o - x o x\no - x o - x o x - o x o\nx - o x - - - - x - - -\n- - x o - - x - o x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/057.a.htm"
+    },
+    "58_12x12": {
+      "id": "58_12x12",
+      "solution": "12 12\no - x - o x o - x - - o\nx - o x - - x - - - - x\no - x o x - o x o x - o\nx - - - - - - - - - - -\n- - - x o - x o x o x -\no x - - x - o x - x o x\nx - o x - - x - - - - -\no - x o - x o - x o x o\nx - - x - o x - o x o x\n- - x o - x - - x - - -\no x o x - - x - o - x -\n- - - - x o - - x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/058.a.htm"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "solution": "12 12\nx o x o - x o x o x - o\n- - - x - - - - - - - x\no x - o x o x - - x - o\nx o - x o x o - x o x -\no x - - - - x - - - - -\n- - - - x - - x o x o x\nx o x o - x - o x - - -\no x o x - o x - - - x o\n- - - - - - - - x o - x\n- - x o - x o x - - - -\nx - o x - o x o - x - o\no - x o - x - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "solution": "12 12\nx - o x - o x - o x - o\no - x o - x - - x - - x\nx - o x - - o x o - x -\no - x o - - x o x - o -\n- - - - - x - - - - x -\nx - o x - o x - x - o x\n- - x - x - - x o - x o\no x - - o x o - x - - -\nx o - x - - x - o x o x\n- - x o x - o x - - - -\no x - - - - - - - - x o\nx o - x o - x o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "solution": "10 10\no - - x o - x o - x\n- x - o x - - x - o\nx o - x o - x - - x\n- - - - - x o - x -\no x - o x o x - o -\nx - - x - - - - x -\no - x - o x - - o x\nx - o - x o - - x o\n- - x - o x - - - -\no x o - x o - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "solution": "10 10\no x - o x o - - - x\n- - - x o x - x - o\n- - x - - - x o - x\nx - o - x - - x - -\no x - x - o x o - x\n- - x o - x - - x o\nx - - x - o x - - -\no x o - - x o x - x\n- - - x - - - - - -\nx o x o - - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/062.a.htm"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "solution": "10 10\nx - o x - o x - o x\no - x o - x - - x o\nx - o x - o - x - -\no x - - - x - - - x\n- - x o x - - o x o\nx - o x o - - x - -\n- - x o x - - o - x\n- - - - - x - - x o\no x o x - o - x - -\n- - x o - x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "solution": "10 10\nx o x o x - o x - o\n- - - - - - x - - x\n- x o x o x - o x o\no - x - x o - x - -\nx - - - o x - - o x\no - x - x - x - - -\nx - o x - - o x - -\n- - x o - - x o x -\n- x - - - x - - - -\n- o - x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\no x o - x o - x o x\n- - - x o x - - - -\nx o x - - - - - x o\n- - - - x o x - o x\no x o x - x o - x -\n- - x o - - x - - o\nx - o x - - - x - x\n- - - - x - - o x o\n- - x - o - x - - -\no x o - x - o x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/065.a.htm"
+    },
+    "66_12x12": {
+      "id": "66_12x12",
+      "solution": "12 12\no x o - x o x o x - o -\n- - x - - - - - - - x -\nx o - x o x - x o x - -\n- - - - x - - o x o - x\no x - - - - - x o x - o\nx o x o x - - - - - x -\n- - - x o - x o x - o x\no x - o x - - x o x - -\nx o - x o - x - - - x o\n- - - - x - - o x - o x\no x - o - x - x o - x -\nx o - x - o - - x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/066.a.htm"
+    },
+    "67_12x12": {
+      "id": "67_12x12",
+      "solution": "12 12\n- o - - x - - o x - o x\n- x - - o x - x o - x o\nx o - - x o - - x - - -\n- - - x - - - x o - - x\no x - o - x - o x - - -\nx o - x - o x - - - x o\n- x - o x - - x o x o x\no - - x o x o - x - - -\n- x - - - - x - - - x o\nx o - - x o - x o x o x\no x - - - x - o x - - -\n- - - x - o x - - - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/067.a.htm"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "solution": "12 12\no x o - x o - x - o x o\n- - x - o x - o x - - -\n- - - - x - - x o x o x\nx o - x o - x - - - - -\n- x - o x - - o x o x -\no - - x - - x - - x o -\n- x - o x - o x - - x -\n- - - x o - x - - - o x\nx o x - - x o - - x - -\n- - - - x o x - x o x o\no x o x - - - - - - - x\n- - x o - x o x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "solution": "12 12\nx o - x o - - x o - x -\no x - - x - - o x - o -\n- - - x o - - x o - x -\nx - - o x - - - - x o x\no - x - - - x o x - - -\nx - o x o x - - - - x o\n- - - - x - - x o x o x\no - x - o x o - x - - -\n- x o - x - x - - - x -\nx o x - - - o x o x - o\n- - - - - x - - x o - x\no x o x - o x - o x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "solution": "12 12\nx - o x - o x - o x o x\no x - - - x - - x - - -\n- - - - x o - x - o x o\nx o x - - - x o - x - x\n- - - x o x o x - - - o\no x - o x - - - - - x -\nx o - x - o x o x - o x\no x - o - x o x o - x o\n- - - - x - - - - - - -\nx o - x o - x o x - - x\n- x - o x - o x - x - o\no - - x o - x - o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "solution": "8 8\no x o - x - - -\n- - - x - o x o\nx - x o - x o x\n- - - - - - - -\no x o x - - x o\n- - x o - x o x\nx - o x - - - -\no - x - - - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "solution": "8 8\n- - - - - x o x\nx o - x - - - -\n- - x o x - x o\no x - - - - - x\nx - o x o x - o\n- - x o x - - x\no x - - - - - -\nx - o x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/072.a.htm"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "solution": "10 10\nx o - - x o - x - o\n- - x - o x - - - -\no x - - x o x o - x\nx o - x - - - x - o\no x - - - x - o - x\n- - x o x o - x - o\nx - - - - x - - x -\no x o x - o x - o x\n- - - - - x o - x -\nx o x o - - x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/073.a.htm"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "solution": "10 10\no x o - x - o x o x\n- - x - - - - - - -\nx o - x o x - - x o\no x - o x o x - o x\n- - x - - - - - x o\nx - o x - - - x - -\no - x - - x - o - x\n- x o x o - - x - o\n- - - - - - x o - x\nx o x o x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "solution": "10 10\nx - o x - o x - o -\n- - x o - x o - x -\no x - x - - x - o x\n- - - - - x o - x o\nx o x o x - x - - -\n- - - x o - - x o x\no x o - x - - - - -\n- - x - - - x o x o\nx - o x - - o x - -\no - x o - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/075.a.htm"
+    },
+    "76_12x12": {
+      "id": "76_12x12",
+      "solution": "12 12\nx o - - x - o x o - x o\no x - - - - x - x - - -\n- - x - o x - - o x o x\nx - - - x o - x - - - -\no x o - - x - o x o x -\n- - x - - - x - - x - o\nx o - - x - o x - o - x\no x - x o - x o - x - o\n- - x o x - o x - - x -\n- - - - - - x o - x o x\nx - o x - x - - - - - -\no - x - - o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/076.a.htm"
+    },
+    "77_12x12": {
+      "id": "77_12x12",
+      "solution": "12 12\nx o - x o x o - x o x o\no x - - - - x - - - - -\n- - x o x o - x o x o x\n- x o x o x - o x - - -\n- - - - - - - x o - x o\nx o x - x o x - x - - -\no x - - o x - o - - - x\n- - - x - - - x - x - o\nx - - - - x - o x o - x\no - x o x o - x o x - o\nx - o x - - - - - - x -\no - x - o x - o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/077.a.htm"
+    },
+    "78_12x12": {
+      "id": "78_12x12",
+      "solution": "12 12\no - x - o - x o - x - o\n- - - - x - o x - - - x\nx - o x o - x - - o x o\n- - x - x - o x - - - -\no x o - - - x o - x o x\nx o x - x - - - x o x o\n- - - x o x o x - - - -\no x - - - - - - - x - -\n- - - - - - x o x o - x\nx o x o x - - x - x - o\n- - - x - o x - - o - x\no x o - - x o - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/078.a.htm"
+    },
+    "79_14x14": {
+      "id": "79_14x14",
+      "solution": "14 14\no x o - - x - o x - - - - -\n- - - - x o - x o x o - x o\nx o x - o x - - - - x - o x\n- x o - x o - x - - - - x o\no - x - o x - o x - o x - -\nx - o x - - - x o - x o - x\no - x o x o x - x - - x - o\n- x - - - x o - - x - o - x\n- - - x - - x - - o x - - -\nx o x - o x o - x - - - x o\no x o x - - x - o x o x - -\n- - - - - - - - x o x o - x\nx - x o x - o x - - - - - -\no - - x o - x o - x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/079.a.htm"
+    },
+    "80_14x14": {
+      "id": "80_14x14",
+      "solution": "14 14\no x o x - o x - o - - x - o\n- - - - - x o - x - x o - x\nx o x o - - x - o x o x - o\no x o x - - - - - - - - - -\n- - - - x - o - x o x o - x\nx o x - o x - x o x o x - -\no x o - x - - - - - - - x o\n- - x - - - - - x o x - o x\nx - o - x o x - o x o - x o\n- - x - o x o - x o x - - -\no x - - x - x - - - - - - x\nx - o x - o - x o x o x - o\no - x o - x - - - - x - - x\nx - o x - o x o x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/080.a.htm"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "solution": "8 8\nx o - x - o - x\n- - x o - x - -\no x o x - o x o\n- - - - - x - -\nx o x o x - - x\no x - x o - x o\n- - - - - - - -\nx o x o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/081.a.htm"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "solution": "8 8\nx o - x o - x o\no x - o x - - -\n- - - - - - - x\n- - - x o - x o\nx o x o x - - -\n- - - - - x o x\n- x o x o - x o\no - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/082.a.htm"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "solution": "10 10\no - x - o - x o x o\n- x o - x - - - - -\n- - - x o x o x - -\nx o x - - - x o - x\no x o - x - - x - -\n- - - x o - x o x o\nx o x o x - - - - -\n- - - - - x o x - -\n- x o x - - x o - x\no - x - o - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/083.a.htm"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "solution": "10 10\nx - o x o x - o x o\no - x - - - - x - -\n- - - - x o x - - -\nx - o x - x o - x -\no - x - o - x - o x\n- - - - - - - - - -\nx - o x - x o - x o\no - x o x o x - - x\nx - - - - - - x o -\no - - x o x - o x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/084.a.htm"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "solution": "10 10\no x o x - o x - - -\n- - - - - x - o x o\nx - - - - - x - - x\no - x o x - o x - o\nx - - x o - x o - x\no x - o x - - - - -\n- - - - - x o x - o\nx o - x - - x o - x\n- x - o x o - x - o\n- o - x - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/085.a.htm"
+    },
+    "86_12x12": {
+      "id": "86_12x12",
+      "solution": "12 12\no x o x - o x - o x o x\n- - - - - x o - x - - -\nx o x o - - x - - - x o\n- - - x - x o - x o - x\no x - o x o x - - x - o\nx - - - - - - - x o - x\no - - x o x - - o x - -\n- x - o x - x - x - - o\nx o - x - - o x - - - x\n- - x o - - x o - x - -\no x o x - - o x - o x o\n- - - - - - x o - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/086.a.htm"
+    },
+    "87_12x12": {
+      "id": "87_12x12",
+      "solution": "12 12\no x - o x - - o x - - -\n- - - x o - x - - - x o\nx o - - x - o x o x - -\no x - x o - x o x o - x\n- - - - x - - - - x - o\nx o x o - x o x o - x -\n- - - x - - - - - x o x\no x - o x o x - - - - -\n- - x - - x o - x o x -\nx - o x - - x - o x - -\n- - x - o x - - - - x o\no x o - x o - - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/087.a.htm"
+    },
+    "88_12x12": {
+      "id": "88_12x12",
+      "solution": "12 12\nx - o - x - o x o - x -\no - x - - - x o x - - -\nx - o x o x - - - x o x\n- - x - x o - x - - - -\n- - - - - x - - - - x o\no x o x - o - - x o - x\nx - x o - x - - o x - o\no - - x - - x - x - - -\nx - x o x - o x o - x -\n- - - - - - x o x - o x\no x o x - - - - - x - -\n- - x - o x o x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/088.a.htm"
+    },
+    "89_14x14": {
+      "id": "89_14x14",
+      "solution": "14 14\no - x o - x o - x - o x o x\n- - - x - o x - - - x - - -\nx - o - - x - - o x o - x o\no - x - x o - x - - x - o x\n- x o x o x - - - - - - x -\n- - - - - - x o x o - x - o\nx o x - x o - x o x - o x -\n- x o x o x - - - - - x - -\n- - - - - - x o x o x - o x\no - x - - - - - - x o - x o\nx - - o x - o x - - - - - -\no - - x o - x o x o x - o x\n- x - o x - - - - x o - x -\nx o - x - - o x - o x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/089.a.htm"
+    },
+    "90_14x14": {
+      "id": "90_14x14",
+      "solution": "14 14\no x - - o x - o x - o x - o\n- - - - x o - x - - x o - x\nx o x - - x - - o x o x - -\n- x o - x o - x - - - - - -\n- - x - o x - - x o x o x -\no x o x - - x o - x o x o x\n- - - - x - o x - - - - - -\nx o x o - - x o - x - - x o\n- x - - x - o x - o x o - x\no - - x o - x - - - - - - -\n- x - o x - - o - x o x - o\nx o - x o - x - x o x o - x\n- x - o x - - - - - - x - -\n- o - x - - o x o x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/090.a.htm"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "solution": "8 8\no - x o x o - x\n- - - - - - x o\nx - o x - - - -\n- - x o - x o x\no x o x - - - -\nx - - - x o x -\no - x - - x - o\nx - o x o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/091.a.htm"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "solution": "8 8\nx o x - o - x o\n- - - - x - - -\n- x o x o - - x\no - x o x - - o\n- - - - - x - x\nx - o x - o x o\no - x o - x - -\nx - o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/092.a.htm"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "solution": "10 10\no - x o x o x - o x\nx - - - - - - - x o\no - - x o x o x - -\n- x - o x - x - - -\n- - - x - - o - x -\nx o - - x - - x o x\n- - x - o - x - - -\no x o x - x o - x o\nx - - - - - - - - x\no - x o x o x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/093.a.htm"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "solution": "10 10\n- - x o - x o x o x\no x o x - - - - - -\n- - - - x o x o x -\nx o x o - x - x - -\no x o x - - o - x o\n- - - - - - x - - -\nx o x o - x - - o x\n- - - - x o x - x o\n- x o x - - - - - -\no - x o - x o x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/094.a.htm"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "solution": "10 10\no - x - - o x - - o\nx - o - - x o - x -\n- - x - - o x - o x\no x o - - x o x - -\nx - - - x - - - - -\no x - x o - x o x o\n- - - - - - - x o x\nx o x o x - - - - -\n- - - x o - x o x o\no x - o x - o x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/095.a.htm"
+    },
+    "96_12x12": {
+      "id": "96_12x12",
+      "solution": "12 12\no x o - - x o - x o - x\n- - x - - - - x o x - o\nx o - - x o x - - - - x\n- - x - o x - o x - x o\no x - - x o - x - - - -\nx - o x o x - - x o x -\no x - - - - x o - x - -\n- - x o x - - - x - o x\nx - o x o - - x o - x o\no - x - - x - o x - - -\nx - - - - - - x o - x -\no - x o x o - - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/096.a.htm"
+    },
+    "97_12x12": {
+      "id": "97_12x12",
+      "solution": "12 12\nx o - x - o x o - x o x\n- x - - - x - - - - - -\no - - x - - o x - o x o\n- x - o x - x o - x o x\nx o - x o - - x - - - -\n- x - o x - - - x o x o\no - - x o - x - o x - -\nx - - - x - - - x - - x\no - x o - x o x - o x o\nx - o x - o x o x - - -\n- - x - - x - - - - - x\no x o - x o - x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/097.a.htm"
+    },
+    "98_12x12": {
+      "id": "98_12x12",
+      "solution": "12 12\n- o - x - o x - o x o x\n- x - - - x o - x - - -\nx o - x - o x - o - x o\no x - - - x o x - - - x\n- - - - - - - - - x - o\nx o x o x - x o x o - x\no x - x o x - x o x - -\n- - - - - - - - - - - -\nx - x o x o x - x o x o\n- - - - - x o x - - - x\no x o x - - - - - x - o\n- - x o - - x o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/098.a.htm"
+    },
+    "99_14x14": {
+      "id": "99_14x14",
+      "solution": "14 14\n- - - x - o x - o - x - o x\no x - o - x - - x - o - x -\nx o - x - - o x o - x - - -\no x - - x - x - - x o - x o\n- - x - o x o - x - - - - x\n- - - - x o x - o x - x o -\nx - o x - - - - x o x o x -\no - x o - x o x - - - - - -\nx - o x - - x o - x o x o x\n- - x o x o - x - - x o x o\no x - - - - x o x - - - - -\nx o - x - - - - - x o x o x\no x - o - x o x - o x - - -\n- - - x - o x o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/099.a.htm"
+    },
+    "100_14x14": {
+      "id": "100_14x14",
+      "solution": "14 14\nx o x - o x - - x - o x - o\n- - - - x - o x o - x o - x\no x - - - - x o x - o x - -\nx - o x o x - - - - - - - -\no - x o x o x - - - x o x -\nx - - - - - - x o x - x o -\n- - - x o x - o x - - - - x\no x - - x o - x - - x o x -\nx - o x o x - o x o - x - o\no - x - - - - - - - x - - -\nx - o x - - - x o x o - - x\n- - x - x o x o x - - x - o\no x - - - - - - - - x o - x\nx o - x o x o x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/100.a.htm"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "solution": "8 8\nx - o - x - - o\no - x - o x - x\n- x - - - - - -\nx o - - x o x o\n- - x - o x - -\no x - - x o - x\nx - o x - x - o\no - x o - - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/101.a.htm"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "solution": "8 8\nx o x o x - o x\n- - - - - - x -\no x - x o x - o\nx - - o x o - x\no - - x o x - o\n- - x - - - - x\nx - o - x - - -\no - x - - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/102.a.htm"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "solution": "10 10\no - x - - x - o - x\nx - o x o - - x - o\no - x - - - x o - x\n- x - o x - o x - o\n- - - x o - x - - x\nx o x o x - o x - -\n- - - - - x - - x o\n- x o x - o x - o x\no - x o - x o - x -\nx - o x - o x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/103.a.htm"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "solution": "10 10\nx o - x o - x - - -\no x - - x - - - x o\n- - x - o x - - o x\nx - o - x o - x - -\no - x - - x - o x -\nx - - - - - - x - -\no - - x o - x o - x\nx - - o x - o x - o\n- - - x o - x - - x\no x - o x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/104.a.htm"
+    },
+    "105_12x12": {
+      "id": "105_12x12",
+      "solution": "12 12\no - x - - o - x - o - x\nx - o x - - x o - x - -\no - x o x - - - x o x o\nx - - - - x o x - - - -\n- - - - - - x o - x o x\no x o x - - - - - - - -\nx - x o x o x - x o x o\n- - - - - - - x o x - x\no x - x o x - - - - - -\nx o - - x o - - x o x o\n- - x - o x - - o x - -\no x o - x o - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/105.a.htm"
+    },
+    "106_12x12": {
+      "id": "106_12x12",
+      "solution": "12 12\nx - o - x - o x o - x o\no x - x o - x o x - - -\n- - - - - x - - - - - x\nx o x - - - - x o x - o\n- x o - x o x - x o - x\no - x - o x - o - x - o\nx - o x - - - x - - - x\no x - - x o x o - x - -\n- - x - o x o x - o x -\nx o - - x - - - - x - -\no x - - o - x - x - o -\n- - - - x - o x o - x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/106.a.htm"
+    },
+    "107_12x12": {
+      "id": "107_12x12",
+      "solution": "12 12\nx o - x - - o x - o - x\no x - o - - x o - x - -\n- - - x - x - - x o x o\nx o x - - o x - - - - x\n- x o - x - - - - x - o\no - x - o x o x - o x -\nx - o - x o x o - x o x\n- - x - - - - x - - - -\no - - x o x o - x o x o\nx - - o x o x - - - - x\no - x - - - - x o x - o\nx - o x - x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/107.a.htm"
+    },
+    "108_14x14": {
+      "id": "108_14x14",
+      "solution": "14 14\n- - - - x - o x o - - x - o\n- x o x o - x - - - x o - x\n- o x o x - - o x - o x - -\n- - - - - x - x o - x - - -\n- x o x - o x - - x o - x o\nx o x o - x o - x o x - o x\n- - - x - - x - - - - x - -\no x - o x - o x o x - o x -\nx o - x o - x o x o x - - -\no x - - x - - - - - - - x o\n- - x - o x o x - x o x - -\nx o - - x o x o - - x o - x\n- - x - - - - - x - o x - o\no x o - - x o x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/108.a.htm"
+    },
+    "109_14x14": {
+      "id": "109_14x14",
+      "solution": "14 14\nx o x - o x o x - o x - - o\n- - - - - - - - - x o - x -\no x o x - - x o x o x - o x\nx o x o x - o x - - - - x -\n- - - - - - x o - x o x - o\n- - - x o x - - x o x o x -\no x - o x - o x - - - - - -\nx o - x o - x o - x o x o x\no x - o x - - x - o x - x o\n- - - x - - - - - x - - - -\nx - - - o x o x - o x o - x\no - x - x o x o - x o x - o\nx - o x - - - - - - - - - x\no - x o - x o x - o x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/109.a.htm"
+    },
+    "110_14x14": {
+      "id": "110_14x14",
+      "solution": "14 14\no - x o x o - x - - o x - -\nx - - - - x - o - - x o x o\no - - x - o - x - - - - - -\nx - x o - x - o x - o x o x\n- - - x - - - x o - x - - -\no x o - x o x - x - - - x o\nx - - - - x o - - x o x - -\no - x - o - x - - o x o x -\n- x o - x - o x - - - - - -\nx o x - - - x o x - - x o x\n- - - x o x - - - x o - x o\no x - - x o - x - o x - - -\nx - o - - x - o - x - - - x\no - x - - o - x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/110.a.htm"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "solution": "8 8\nx o - x - o - x\no x - o - x - o\n- - - x - o x -\n- - x - - x o x\nx - o x - - - -\no - x - - - x -\n- x - o x - o -\nx o - x o - x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/111.a.htm"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "solution": "8 8\nx - o - x - - o\no - x - - - - x\nx - - x o x - -\no x o - x - x o\n- - - x - o - x\nx o x o - x - -\n- - - x - o x -\no x o - - x o -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/112.a.htm"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "solution": "10 10\nx - o x o x - o x o\no - x - - - - x - -\nx - o - x o x o - x\no x - x - - - x - o\n- - x o - x - - - x\nx - o x - o x - - -\n- - - - - x o - x o\no - x o x o x - - x\nx - o x - - - x - o\no - x - o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/113.a.htm"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "solution": "10 10\no - x - o - x - - -\nx - o - x - - - x o\no - x - - x o x - -\n- - - x o - x o - x\n- x o - x - - x - -\nx o x - o x o - x o\n- - - - - - x - o x\no x o x - x o x - -\nx - - - - - - - x o\no - x o x o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/114.a.htm"
+    },
+    "115_12x12": {
+      "id": "115_12x12",
+      "solution": "12 12\n- o - x - - o - x o x o\n- x - o x - x - - - - -\nx o - x o - - x o x - x\no x - - x - - o x - - o\n- - x - o - - x o - - x\n- - - - x - x o x - - o\nx - o x - - - - - x - x\no - x o - x o x - o x -\nx - o x - o x o - x o -\no x - - x - - x - - x -\n- - x - o x - o x - o -\nx o - - x o - x o - x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/115.a.htm"
+    },
+    "116_12x12": {
+      "id": "116_12x12",
+      "solution": "12 12\no - x - o - - x o - x o\nx - o - x - - o x - - -\n- - - x o - x - - - - x\n- - x o x - o x o x - -\no x - - - x - - - - x o\nx - - x - o x o x - o x\no x o - - x o x o - x o\n- - - - x - - - x - - -\nx o x - o x - x o - - x\n- - - x - - - - - x - o\no x - o x - - - x o - x\nx o - x - o x o - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/116.a.htm"
+    },
+    "117_12x12": {
+      "id": "117_12x12",
+      "solution": "12 12\nx o - x o - x o x o - x\n- x - o x - - - - - x o\no - x - - x o x - - - -\nx - o x - - - - - x o x\no - x - - - x o x - x o\n- - - x o x - - - - - -\n- x o - x - o x - o x -\nx o x - o - x - - - - x\n- - - - - x o - - x o -\no x o - x o x - - o x -\nx - - x - - - - - x o -\no - x o - x o x - o x -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/117.a.htm"
+    },
+    "118_14x14": {
+      "id": "118_14x14",
+      "solution": "14 14\no - x o - x o - x - - x - o\nx - - x - o x - o x o - - x\n- - - - - x o x - - - x - o\no x o x - - - - - - x o - x\nx o x o - - x o x o - x - -\n- - - x - x - - - x - o x o\no x o - x o - x o - - x o x\nx - - x o x - o x - - - - -\no x - - - - - x o - x - x o\n- - - - x o x o x - - - - x\nx o x - o x - - - - x o x o\n- x o - x - - x o x - - - -\no - x - o x - - x - o x - x\nx - o - x - o x o - x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/118.a.htm"
+    },
+    "119_14x14": {
+      "id": "119_14x14",
+      "solution": "14 14\nx o - x o - x o x o x - o x\no x - o x - - - - - - - x o\n- - - x o - - x o x o x - -\n- x - o x - - o x - - - - x\nx o - x - x - x o - x o x o\n- x - - - - - - x - o x - -\n- o - - x o x o - - x o - x\nx - x - o x o x - - - x - -\n- x o - x - - - - x o - x o\n- - - x o - x o x - x - - -\no x - - - x o x - o - x o x\nx o x o x - - - - x - - - -\n- - - x o - x o x - - o x -\no x - - - - - x o - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/119.a.htm"
+    },
+    "120_14x14": {
+      "id": "120_14x14",
+      "solution": "14 14\nx - o x - o x - - o x - o -\no - x o - x o - x - - - x -\nx - o x - - x - o x o x - -\n- - x o x o - - x o x o - x\no x - - - x - x - - - x - o\n- - - x - o x o - x - o - x\nx o x o - x o x - o - x - o\n- - - x - - - - - x - - - -\n- x - o x o x - - - x o x -\no - - x o x o - x - o x o x\n- - x - - - x - - - x - - -\nx - o - x - o x - - - o x o\no - x - - - x o - x - x - -\nx - o x o - - x - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/120.a.htm"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "solution": "8 8\no x o - x - o x\n- - - - - - x o\nx o x - o x - -\n- x o x - - - x\n- - - - - x - o\no - x o x o - x\nx - o x - - - -\no - x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/121.a.htm"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "solution": "8 8\no - x o x o - x\nx - - - - x - -\n- - - x - o x o\no x o - x - - -\n- - x - - x o x\nx o - x o - x -\n- x - o x - - -\no - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/122.a.htm"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "solution": "10 10\n- - x o - x o x - o\no x o x - - - - - x\n- - - - x o x - x o\nx - x o - x - - - -\no x o x - - - o x -\n- - - - - x - x - -\n- - - x - o x - o x\nx o x o - x o - x -\no x o x - o x - - -\n- - - - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/123.a.htm"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "solution": "10 10\nx - o x - - o x o x\no - x o - - x - - -\nx - o x - x o - x o\no x - - - - - x - -\n- - x o x - x o - x\nx o - x - - - x - o\n- x - o x o x - - x\no - - x - x o - x o\nx - - - - - - - - -\no - x o x o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/124.a.htm"
+    },
+    "125_12x12": {
+      "id": "125_12x12",
+      "solution": "12 12\no - - - x - - - o x - -\nx - x - o - x - x o x o\no x o - x - o x - - - -\n- - - x o - x - o x - x\nx o x o x - o - x o x o\n- - - - - - - - - - - -\n- x o x o x - x o x - x\no - x - x o x o x - o -\n- x - - - - - - - - x -\nx o x o - x o x - x o x\n- - - x - o x - - - - -\no x - o - x o - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/125.a.htm"
+    },
+    "126_12x12": {
+      "id": "126_12x12",
+      "solution": "12 12\n- - - x o - x - - x - o\no x - o x - - o x o x -\nx o - x - - x - - - - -\no x - - - - - - - x o x\n- - x - o x o x - o x -\nx - o x - - x o - x - -\no x - - - x o x - o x o\n- - x o x - - - x - - -\nx o - x - - x - o x - x\no x - - o x o - x - - -\n- - x - - - x - o - x o\nx - o - x - o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/126.a.htm"
+    },
+    "127_12x12": {
+      "id": "127_12x12",
+      "solution": "12 12\nx o x o - x - o - x - o\n- - - - x o - x - o - x\no x o x - - x o - x - -\n- - x o - x o x - - - -\nx - o x - - - - x o x o\no x - - x o x - o x - -\n- - x - o x o - x - o x\nx - o x - - x - o x - -\n- - x o x - o x - - x o\n- - - - - - x o x - - x\no x o x - - - - - x - o\n- - x o - x o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/127.a.htm"
+    },
+    "128_14x14": {
+      "id": "128_14x14",
+      "solution": "14 14\no - x - o x o - - x - - o x\nx - o - x - - - x o - x - -\no - x - o - x - - - x o x o\n- x o - x - o x o x - - - -\nx o x - - - x o x - - x o x\n- - - x o x - - - x - o x -\n- x - o x - o x - o - x - -\no - - x o - x o - x - o x o\nx - - - - x - - x o - x - -\no - x o x o - x - x - - - -\nx - o x o x - o - - x o - x\n- - x - - - - x - x o x - -\no x o - x o x - - - - - x o\n- - x - o x o - x o x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/128.a.htm"
+    },
+    "129_14x14": {
+      "id": "129_14x14",
+      "solution": "14 14\nx o - x o x - o x o - x - o\no x - - - - - x - x - o - x\n- - - - x - - - - o x - x o\nx o x - o - - x - x - - - -\no x o - x - x o - - - x o x\n- - - x o x o x - x - o x o\nx o x - - - - - x o - x - -\n- x o - x - x o - x - o - x\no - x - - o - x - o - x - -\nx - - x - - x o - x - - x o\no x - o - x o x - - x - o x\n- - - x - - - - - x o - x o\nx - - o x - x o x - - - - -\no - - x o - - x o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/129.a.htm"
+    },
+    "130_14x14": {
+      "id": "130_14x14",
+      "solution": "14 14\no - x - o - x o - x - o - x\nx - o x - x o x - - - x - o\no x - - - - - - x o x o - x\n- - x o x o x - o x o x - o\nx - o x - x - - x - - - - x\no - x - - - o x - - - - - -\nx - o - x - x o - - x o x o\n- - x - o x o x - x o x o x\no x - - - - - - - - - - - -\nx o - x - - x o x o x - x o\no x - o x o - x o x o - - x\n- - - x o x - - - - - x - o\nx - - - - - x o x - x o - x\no - x o x o - x o - - x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/130.a.htm"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "solution": "8 8\n- o x - o x - o\n- x o - x o - x\n- - x - o x - o\nx o - - x o - x\no x - - - - - -\n- - x - - x - o\nx - o - x o - x\n- - x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/131.a.htm"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "solution": "8 8\n- - - - x o - x\no x - - o x - -\nx o - x - - x o\no x - - - - - -\n- - x o x o x -\nx - - - - x o x\no - x - - - - -\nx - o x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/132.a.htm"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "solution": "10 10\nx o - x o - x o - x\no x - o x - - - x o\n- - - x o - x - - -\nx - - - x - o x - -\no - x o - - x o - x\nx - - x - - o x - -\no - x o - x - - x o\nx - o x - o x o - x\n- - x - - x - x - o\no x o - x o - - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/133.a.htm"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "solution": "10 10\nx - o - - x o - x o\n- - x - - - - - - -\no x o - x o x - o x\nx - x - o x o - x o\n- - - - x - x - - -\no x o x - - o - - x\nx o x o - x - x - o\n- - - - x o x o - x\no x o x - - - x - o\n- - x o - x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/134.a.htm"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "solution": "10 10\nx o x o - x - o - x\n- - - - x o - x - o\no x o x - - x o - x\nx - - - - x o x - -\n- - x o x - - - x o\no x o x - o x o - x\n- - - - - x o x - o\nx o x - x - - - - -\n- - - x o - x o - x\no x o - x - o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/135.a.htm"
+    },
+    "136_12x12": {
+      "id": "136_12x12",
+      "solution": "12 12\n- o - x - - o - x - - o\n- x - o x - - x o - x -\nx o - x o - x o x - o x\no x - - - - - - - - x -\n- - x o x - o x o x - o\nx o - x - - x - x o - x\n- - x o - x o - - x - -\no x o x - o x - - o x o\n- - - - - - - x - - - -\nx o x o - x - o - x o x\n- - - x - o x - x - - -\no x o - x - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/136.a.htm"
+    },
+    "137_12x12": {
+      "id": "137_12x12",
+      "solution": "12 12\nx o - x - - x o x - o -\n- x - o x - - - - - x -\no - - x - x o x o x - -\n- - x - o - x - x o - x\nx - o x - - - - - - x o\no - x o x - x o x - - -\nx - - - - x o x - x o x\no x o x - - - - - - - -\n- - - - x o x - x o x o\nx - x o - x - - o x o x\no x o x - o - x - - - -\n- - - - - x - o x - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/137.a.htm"
+    },
+    "138_12x12": {
+      "id": "138_12x12",
+      "solution": "12 12\nx - o - x - - o x - - o\n- - x - o - - x o - x -\no x o x - x - o x - - -\nx - - - x o x - - x o x\no - x - - - - - - - - -\nx - - x o x o x - o x o\n- - - - x - x o - x o x\no x o x - o - x - - - -\nx o x o x - x - - o x o\n- - - - - - - - - x o x\n- - - x o x o x - - - -\no x - o x - - - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/138.a.htm"
+    },
+    "139_14x14": {
+      "id": "139_14x14",
+      "solution": "14 14\no x - x o x o x - o - x o x\n- - - - - - - - - x - - - -\nx o x o x - x o x o - - x o\no x o x - - o x - - x - o x\n- - - - - - x o - x - - - -\nx o x o x - o x - - o x - -\no x - x o - x - x - x o x o\n- - - - x - - - o x - - - -\nx o x - o - x - x - o x o x\n- - - - x - o x o - x o x o\no x o x - - x o x - - - - -\nx o x o - x - - - x o x o x\n- - - x - o - x o - x o x o\no x o - - x - o x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/139.a.htm"
+    },
+    "140_14x14": {
+      "id": "140_14x14",
+      "solution": "14 14\nx o - x o x - x o - x - o x\no x - - - - - - - x o - x -\n- - - - x o x o x - - x - o\nx o x o - x o x o - x o - x\no x o x - - - - - x o x - o\n- - - - x o x o x - - - - x\nx o x - - - - x o - x - - -\n- x - o - x - - - x o - x o\no - - x - o x - - - x - o x\nx - x o - x o - x o - x - -\no x o x - o x - o x - o x -\n- - - - - x o - x o - x - o\nx - x o x - x - o x - - x -\no - - x o - - - x - - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/140.a.htm"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "solution": "8 8\no x o x - o x o\n- - - - - x - -\nx o x - x o x -\no x - - - - - -\n- - x o - x o x\n- - - x - o x o\nx - o - - x - -\no - x - - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/141.a.htm"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "solution": "8 8\no - - x - o x o\n- x - o - x - -\nx o - x - o x -\n- x - o x - - -\n- - - x o x o x\no - x - - - - -\nx - o - x - x o\no - x - - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/142.a.htm"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "solution": "10 10\nx - o x o - - x o -\no - x - - x - o x -\nx - o - x - - x o -\no x - x - o x - - x\n- - x o - x - - - -\nx - o x - - o - x o\n- - - - - - x - o x\no - x o - x o - x o\nx - o x - o x - - -\no - x o - x - - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/143.a.htm"
+    },
+    "144_10x10": {
+      "id": "144_10x10",
+      "solution": "10 10\nx - - o x o - x - -\no - x - - - x o x o\nx - o x - - - - - -\no - x - o x o x - -\n- x o - x o x - o x\nx o x - - - - - x -\n- - - x o x o x - o\no x o - x - - - - x\nx - x - o - x o x o\no - - - x - - - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/144.a.htm"
+    },
+    "145_10x10": {
+      "id": "145_10x10",
+      "solution": "10 10\no x o x - - - x - o\n- - - - - x - o - x\n- - x o x o x - - -\nx o - x - - - x - o\no x - - o x - o x -\n- - - - x o - x o x\nx o x - - x - - - -\no x o x - o x - - -\n- - - - - x o - x o\nx o x o - - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/145.a.htm"
+    },
+    "146_12x12": {
+      "id": "146_12x12",
+      "solution": "12 12\nx - o x - o - x - o x o\no x - - - x - o - x - -\n- - x o x o - x - o - x\nx o - x - - x o - x - o\no x - - o x o x - - - x\n- - - x - - - - x o x o\nx - - - - - x - - x - -\no - x o x - o x - o - x\nx - o x o - x o - x - -\no - x - - - - x - - x o\n- x - o x - - o x o - x\nx o - x o - x - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/146.a.htm"
+    },
+    "147_12x12": {
+      "id": "147_12x12",
+      "solution": "12 12\n- - - x o - - x o x - o\no x o - x - - - - - - -\nx o x - o - x o x o x -\n- - - x - x o x o x - -\no x - o x - - - - - - -\nx o - x o - x o x - o x\no x - o x - o x o - x o\n- - - x o - x - - - - -\nx - - - - x o - x - o x\no - x o x - - x o x - -\nx - o x - o x - - - - -\no - x - - x o - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/147.a.htm"
+    },
+    "148_12x12": {
+      "id": "148_12x12",
+      "solution": "12 12\n- - - x - o x - - o x o\no x o - x - - - - x - -\nx o x - - x o - x o - x\n- - - x - o x - o x - o\no x - - - x - - x - - x\nx o x o x - o x - o x o\n- - - - - - x o - x - -\no x - x o x o x - o - x\n- - - - - - - - x - - -\nx o x o x - x - o x - o\n- - - x - o - x - - - x\no x - o - x - o x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/148.a.htm"
+    },
+    "149_14x14": {
+      "id": "149_14x14",
+      "solution": "14 14\nx o x o - x - o x o x - o x\n- - - x - o - x - - - - x o\no x - o x - x o - x o x - -\nx o - x - - - - x o x - - x\no x - - o x o x - - - x - o\n- - - - - - x o - x - o - x\nx o - x - - - - x o - x - o\n- - x o x o - x - - x o - x\no x - - - - x o - x - - - -\nx o - x o x o x - o x - x o\no x - - x - - - - x o x - x\n- - x - o x - - - - - - - -\nx - o - x o x o x - - - x o\no - x - - - - x o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/149.a.htm"
+    },
+    "150_14x14": {
+      "id": "150_14x14",
+      "solution": "14 14\n- x o - x o x o x - o x o x\n- o x - - - - - - - x - - -\nx - - x o x - x o - - - x o\no x - o x o - - x - x - o x\n- - - x o x - x o x o - x o\nx - - - - - - - - - x - - -\no - x - x o x o x - o x o x\nx - o x - - - x o - x - - -\no - x - - - x o x - - o x o\nx - o x o x - - - - - x - x\n- - x o x o - x o - x - - o\no x - - - x - o x - o - x -\nx - o x - - - x o - x - o x\no - x - o x - o x - o x - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/150.a.htm"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "solution": "8 8\nx o - - x o - x\no x - - o x - o\n- - x - - - - x\nx - o - x o x o\n- - x - - - - -\no - - x o x o x\n- x - o x - - -\nx o - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/151.a.htm"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "solution": "8 8\nx o x - o x - o\n- - - - x o - x\no x o x - - - -\n- - x o - x - -\nx - o x - o x o\n- - - - x - - x\no - x - - x - o\nx - o x o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/152.a.htm"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "solution": "10 10\nx - o x - o x o x -\no - x o x - - - - -\nx - - - - - - x o x\n- - - x o x o - x o\no x - o x - - x - -\nx o - x o - x o - x\n- x - o x - - x - o\n- - - x - - - - - x\no - x - o x o x - o\nx - o x - - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/153.a.htm"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "solution": "10 10\no x o - x o - x - o\n- - x - o x - - - x\nx o - x - - - x - o\no x - o x - x o - x\n- - - x o x o x - -\n- - - - - - - - - -\nx o x - x o x - x o\no x o - - x o x o x\n- - x - - - - - - -\nx - o - x o x - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/154.a.htm"
+    },
+    "155_10x10": {
+      "id": "155_10x10",
+      "solution": "10 10\nx - o x o - x - o x\no - x - x - o x - -\nx - - - - - x o x -\no - - x o x - - - -\n- x - o x o - x - -\nx o - x o x - - x o\n- - x - - - x o - x\n- x o - x o - x - -\no - x - o x - o - x\nx - o - x o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/155.a.htm"
+    },
+    "156_12x12": {
+      "id": "156_12x12",
+      "solution": "12 12\no x o - x - - o x o x -\n- - - x o - x - - - - -\nx o x - x - - - - x o x\n- - - - - x o x o - x o\no x o x - o x - - x - -\n- - x - - x o - x o - x\n- x o x - - x - - x - o\n- - - - x o - x o - - x\nx o x - o x - o x - - o\no x o - x - - x o x - x\n- - x - o x - - - - - -\nx o - - x o - - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/156.a.htm"
+    },
+    "157_12x12": {
+      "id": "157_12x12",
+      "solution": "12 12\nx o x - o - x o x - o x\n- - - - x - - - - - x o\n- x o x - - o x o x - -\n- - x o - x - - - - - x\no x o x - - - - x o x o\nx - - - x o x - o x - -\no - x o - x o - x - - x\nx - o x - - - x - - - o\n- - x - - o x o - x - x\no x o - - x - - x o x o\nx - - x - o - x - - - -\no - x o - x - o - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/157.a.htm"
+    },
+    "158_12x12": {
+      "id": "158_12x12",
+      "solution": "12 12\no x o - x o x - o x - o\n- - x - - - - - - - - -\nx o - x o x o - x o - x\n- x - o x o x - - x - -\no - x - - - - x o - x o\nx - o x o x - - - x o x\no x - - x - o x - - - -\n- - x - o - x o x - x o\nx o - x - x - - - - - -\no x - o x o - x o x o x\n- - - - - - x - - - - -\nx o - x o x o - x o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/158.a.htm"
+    },
+    "159_14x14": {
+      "id": "159_14x14",
+      "solution": "14 14\no x o - x - - o x o - x - -\n- - - x o - x - - - x o x o\nx o x o x - o x o x - - - -\n- - - - - - x o x - o x - -\no x - - - - - - - - x o - x\nx - o x o x - - x - o x - o\n- - x - x o - x o - x o - x\no x - - o x - o x - - x - o\nx o - - x o - x o x o - x -\no x - - - - x - - - - x o x\n- - - x o x o - x o x - - -\nx o x o x - - x o x o - x o\no x - - - - - - - - - - - x\n- - - x o - x o x o x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/159.a.htm"
+    },
+    "160_14x14": {
+      "id": "160_14x14",
+      "solution": "14 14\no x o - x - o x o x - - - -\n- - x - o - x - - - x o x o\nx o - x - x o - x - - - - x\n- x - - - - x - o x o x - o\no - x o x o - x - - x o - x\nx - o x o x - - - x o x - -\n- - x - - - x o x - - - - -\nx - o x - - - x o - x o x o\no - x - - x o - x - o x - x\nx - - o x o x - - - x - - o\no - x - - - - x o x o - x -\n- x o x o x - o x o x - o x\n- - - - x o - x - - - - - -\nx o x - o x - o - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/160.a.htm"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "solution": "10 10\nx o x o x - - o - x\n- - - - - - - x - -\no x - x o x - o x o\nx - - o x - - x o x\n- - - x - o x - - -\no x - o - x o - x o\nx o - x - o x - - x\no x - - x - - - x o\n- - x - o x - - - -\nx - o - x - o x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/161.a.htm"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "solution": "10 10\no - x o - x o - x o\nx - - - x o x - - -\no - x - - - - x o x\nx - o x o x - - - -\n- - x - x o - - x o\no x - - o x - - o x\nx o - - x o - - x o\n- - - x - - - x - -\no x - o - x - o - x\nx o - x - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/162.a.htm"
+    },
+    "163_12x12": {
+      "id": "163_12x12",
+      "solution": "12 12\nx o - x - - x - o x o x\no x - o x o - x - - - -\n- - - x o x - - x o x o\nx - - - - - - x o x - -\no - x o x o x - - - - x\nx - o x o x - - - x - o\no - x - - - - - x o - x\nx - - - - x o x - - x o\n- - - - x o x o x - - -\no x o x - - - - - x o x\n- - x o - x o x - - - -\nx - o x - o x o - - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/163.a.htm"
+    },
+    "164_12x12": {
+      "id": "164_12x12",
+      "solution": "12 12\nx o - x - o x - o - x o\no x - - - x o - x - - -\n- - - - - - x - - x o x\nx o x o x - o x - o x o\no x - x o - x - - x - -\n- - - - - x - o x o - x\nx - - o x o - x - x - -\no - x - - x - o - - - x\nx - o x o - x - - x - o\n- - - - x - - - x o x -\no - x - o x o x - - - -\nx - o x - - x o - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/164.a.htm"
+    },
+    "165_12x12": {
+      "id": "165_12x12",
+      "solution": "12 12\nx - o - x o x o x - o x\no - x - - - - - - - x o\nx - o x - x o x o x - -\n- - x o x - - - - - - -\no x - - - - x o x - o x\nx - o x - - o x o - x o\no - x o - - x o x - - -\n- - - x - x - - - x o x\n- x - o x o - x - - - -\nx o - x o x - - - - x -\n- - x - - - - x o x - o\no x o - x - - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/165.a.htm"
+    },
+    "166_12x12": {
+      "id": "166_12x12",
+      "solution": "12 12\no x o - - x o - x o - x\n- - - x - o x - - x - -\nx o x o - x o - x o x o\no x - - x o x - - - - -\n- - - - - - - x o x o x\nx - o x o x - - - - - -\no - x - - - - - x o x o\n- x o - x o x - o x o x\nx o x - - x o x - - - -\n- - - - - - - - x o x o\no x - x o - x - o x - -\nx - o - x - o - x - o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/166.a.htm"
+    },
+    "167_14x14": {
+      "id": "167_14x14",
+      "solution": "14 14\nx o - x - o x o x - o x - o\no x - o - x - - - - x o - x\n- - - x - o - x o x o x - -\nx o x o - x - o x - - - - -\n- x o x - - - x o - x o x o\n- - - - x - - o x - o x - x\no - x - o - x - - - x - - o\nx - - - x - o x - x o - x -\no x o x - - x - o - x - o x\n- - x o - x o - x - - - x -\n- - - - x o x - o x o x - o\nx - o x - - - - x o x o - x\no - x o - x - - - - - x - o\nx - o x - - o x o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/167.a.htm"
+    },
+    "168_14x14": {
+      "id": "168_14x14",
+      "solution": "14 14\no - x o x o x - o x o x - o\nx - - - - - - - x - - - - x\no x o x - x o x - o x - - -\n- - - - - - x o - x o - x o\nx o x o x - o x - o x - o x\no x o x - - x o - x o x - -\n- - - - - - - - x - - - x o\nx o x o - x o x o - x - o x\n- - - x - o x - - x - - x -\no x o - - x o - x o - x o -\n- - - x - o x - o x - - - x\nx o x o - x - - - - x o x o\n- - - x - - - - x o - x - -\no x - o x o x - o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/168.a.htm"
+    },
+    "169_14x14": {
+      "id": "169_14x14",
+      "solution": "14 14\nx - - o x o x - o - x - o x\no - x - - - - - x - o x - -\nx - o x - x o x - - x o x o\n- - x o - - x o - x - - - -\no x - x - - o x - - - x o x\nx o - - x - - - x o x - - -\no x - x o x - - - x - - x o\n- - - - - - x o x - - - o x\n- - x o x - o x o - x - - -\nx - o x - - - - - x o - x o\no - x - o - x o x o x - o x\nx - o x - x o x - - - - x o\n- - x o x - - - - x - - - -\no x - - - - x o x o - x o x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/169.a.htm"
+    },
+    "170_14x14": {
+      "id": "170_14x14",
+      "solution": "14 14\nx o x o x - o - x o - x o -\n- - - - - - x - o x - o x -\n- x o x o x - - x o - x o -\n- - x - - - - - - - x - - x\no x - o x o x - - x o - x -\nx o - x o x o x - o x - - -\n- - x - - - - - - x o - x o\no x o - x - x o x o x - o x\nx o x - - - - - - - - - - -\n- - - x o x o x - x o - x o\n- - - - x o x o - - x - o x\no x o x - - - x - - o x - -\nx - - - - x - o - x - - x o\no - x o x o - x - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/170.a.htm"
+    },
+    "171_10x10": {
+      "id": "171_10x10",
+      "solution": "10 10\n- - - - - - - - - -\no x o x - - x o x o\nx o x o - x o x o x\n- - - x - - - - - -\n- x - o x o x - - -\no - x - - - - - x o\nx - - - - x o x o x\no x o x - - - - - -\n- - - - x o x - x o\nx o x - o x - o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/171.a.htm"
+    },
+    "172_10x10": {
+      "id": "172_10x10",
+      "solution": "10 10\no x - - o x o x - o\n- - - - x - - - - x\nx o x - o x - x - o\n- - - - x o x o x -\no x o x - - - - - -\n- - x o - x o x o x\nx o - x - o x - x o\n- - - - x - - - - -\no x - - - - - - - x\nx o - x o x o x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/172.a.htm"
+    },
+    "173_12x12": {
+      "id": "173_12x12",
+      "solution": "12 12\no x o - x - - - x o x o\n- - x - - o x - - - - -\n- - - - - x o x o x - -\n- x o x - - - - x o - x\nx o x o x - x o - x - -\n- - - - - - - x - o x o\no x o x - o x o - x - x\nx o x o - x o x - - - o\n- - - - x - - - - x - -\n- - - x o - x - x o - x\no x - o x - - - - x - o\nx o - x o - x o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/173.a.htm"
+    },
+    "174_12x12": {
+      "id": "174_12x12",
+      "solution": "12 12\no x o - - x o - - x - o\n- - - x - o x - - o - x\nx - x o - x o - x - x o\no x - - x - x - o x - -\n- - - x o - - - x o - x\nx - - - - - x - o x - o\no x - o x - o - x o - x\n- - - x o - x - - - - -\nx o x o x - o x - x - o\n- x - - - - x o x o - x\n- o - x o x - - - x - o\n- x - o x - - x o - - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/174.a.htm"
+    },
+    "175_12x12": {
+      "id": "175_12x12",
+      "solution": "12 12\no - - x o - x o - - x o\n- x - o x - - x - - - -\nx o - x - x o - - x o x\n- - - - - - - x - o x o\no x - o x o x - - x - -\nx - - x - x o - x o - x\n- o x - o - x - o x - o\n- x o - x - - - x - - x\n- - x - o x o x - o x o\n- o - x - - x o - x - -\n- x - - x o - x - o - x\n- o x o - x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/175.a.htm"
+    },
+    "176_12x12": {
+      "id": "176_12x12",
+      "solution": "12 12\n- - - x o - x o x o - x\no x o - x - - - - x - o\nx o x - o x - - x o - x\n- - - - x o - x o x - -\no x o - - x - - - - - -\nx - - x - o x o x - x o\no - x o - x o x - o - x\n- x o x - - - - - x - o\n- - - - x - x - - - x -\nx o x - o x - o x - o x\n- - - x - - - x o - x -\no x - o x o - - x - - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/176.a.htm"
+    },
+    "177_14x14": {
+      "id": "177_14x14",
+      "solution": "14 14\no x o - x o x - o x - o - x\n- - - - - - - - x o - x - -\nx o x - o x - - o x - o x o\no x o - x o - x - - - x - x\n- - x - o x - - - - x - - o\nx - o x - - x o x - o x - x\no - x o x - o x o x - - - -\nx - - - - x - - - - x o x o\no - x - x o x o x - o x o x\nx - o x - - - - - x - - - -\n- - x o - x o x - o x - x o\n- - - - x o x o - x o - - x\no x o x - - - - x - - x - o\n- - x o - x o x o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/177.a.htm"
+    },
+    "178_14x14": {
+      "id": "178_14x14",
+      "solution": "14 14\no - x - o x o - x - - x - o\nx - o - x o x - o x o - - x\no - x - - - - - x o x - - -\nx - o x o x - x - - - x - o\n- - x o x - - o - x - - - x\no x - - - x - x - o x o x -\n- - - x - o x o - x o x o -\nx - o - - x o x - - - - x -\n- - x - - - - - x o x - o -\no x o - x o x o - x o - x -\nx o x - o x - - x o x - - -\n- - - - x o x - - - - x o x\no x o x - - - - - x - o x o\n- - x o - x o x o - x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/178.a.htm"
+    },
+    "179_14x14": {
+      "id": "179_14x14",
+      "solution": "14 14\n- - - - x - o x - o x o - x\no x o x - - x - - x - x - o\n- - x o - x - o x o - - - x\nx - o x - o - x - - - x - -\no x - - - x - o - x - o x o\n- - - x - o x - x o - x o x\n- - x o - x - - - x - - - -\nx - o x - - o x - o x o x -\no x - - x - x - - x o x - o\n- - x - o x - o x - - - x -\nx - o - x o - x - o x - o x\no - x - - x - o - x o - x -\nx - o - x o - x - o x - - -\no - x - o x - - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/179.a.htm"
+    },
+    "180_14x14": {
+      "id": "180_14x14",
+      "solution": "14 14\no - x o - x - o x o - x o x\nx - - - x o - x - x - - - -\no x o x - - x - - o - - x o\n- - - - - x o - x - x - o x\nx o x - - - - x o x o - x -\no x - o x o x - - - x - - o\n- - - x o x o x - - - - - x\nx o x - - - - - - x o - x o\no x o - x o x o x - x - - -\n- - - x - - - x - o - x o x\nx - x o - x - o - x - o x o\no - - x - - x - x o - x - -\nx - - o x - o x - x - o - x\no - - x o - x o - - - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/180.a.htm"
+    },
+    "181_10x10": {
+      "id": "181_10x10",
+      "solution": "10 10\no x o x - - o x - o\n- - - - - - x o - x\nx o x o x - o x - -\no x - x o - x o - x\n- - - - - x - x - o\nx o x - - - - - - -\no x o - x o x o - x\n- - x - o x o x - -\nx - o - x - - - x o\no - x - o - x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/181.a.htm"
+    },
+    "182_10x10": {
+      "id": "182_10x10",
+      "solution": "10 10\no - x - o x o - x o\n- x o x - - x - - -\n- - - - - x o x o x\nx o x o x - - - - -\n- - - x o - x o x -\no x - - - - - x - -\n- - x o x - o - x o\nx o - x o - x - o x\no x - - x - - - x o\n- - - x o - x - - -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/182.a.htm"
+    },
+    "183_12x12": {
+      "id": "183_12x12",
+      "solution": "12 12\no - - x o x - o x o - x\nx - - - - - - - - - x o\no x - o x o - x o x - -\n- - - x - x - o x o - x\nx o x o - - - x o x - -\no x o x - x - - - - - -\n- - - - x o - x - - x o\nx o x - - - x o x - o x\n- - - x o x - - - - x o\no x o - x o x - - x - -\n- - x - - - - x - o - x\nx - o x o x - o - x - o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/183.a.htm"
+    },
+    "184_12x12": {
+      "id": "184_12x12",
+      "solution": "12 12\no - x o - x - - o x - o\nx - o x - o x - x o - x\no - x - - x o - - x - -\n- x o x - - - - x - - -\n- - - - x o x - o - x -\nx o x - o x o - x - o x\no x o x - - x - - x - -\n- - - - x - o x - o x o\nx o x - o - x o - x o x\n- - - x - - - x - - - -\no x - o x - - - - - x o\nx o - x o - x o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/184.a.htm"
+    },
+    "185_12x12": {
+      "id": "185_12x12",
+      "solution": "12 12\no x o - x o - x o x o x\n- - x - o x - - - - - -\n- - - - x - - - - - x o\nx o - x o - x o x - o x\no x - o x - o x o - x o\n- - x - - - x o x - - -\nx - o x o x - - - - - x\no - x - x o - x o x - -\nx - - - o x - o x - x o\n- - - x - - - x - - o x\no x - o x o - - x - - -\nx o - x - - x - o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/185.a.htm"
+    },
+    "186_12x12": {
+      "id": "186_12x12",
+      "solution": "12 12\nx - o x o - x - o - - x\no - x - - x o x - x - o\nx - o x - - - - x o - x\no x - - x o x - o x - -\n- - - x o x o - x - - o\nx - - - - - x - o x - x\no - x o x - o x - - - -\nx - o x o x - - x o x o\n- - - - - - x o - x - -\no - x o x o - x - - o x\nx - o x - x - o x - - -\no - x o - - - x o - x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/186.a.htm"
+    },
+    "187_14x14": {
+      "id": "187_14x14",
+      "solution": "14 14\no - x o x o - x - o - x o x\n- - - - - x - o x - - - - -\n- x o x o - x - - - x o x o\nx o x o x - - x o x - - - x\n- - - - - x o - x o - x - o\no x - x o - x - - - x o - x\nx o - - x - - x o x o x - -\no x - x - - o - x - - - x o\n- - x o - - x - - - x - - -\nx - o x - - o x o x - - o x\no - x o - x - - x o - x - -\nx - - - x o x o - x - - - -\no - x - - - - x - - x o x -\nx - o x o x - o x o - x o -",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/187.a.htm"
+    },
+    "188_14x14": {
+      "id": "188_14x14",
+      "solution": "14 14\nx - o x - o x - - o x o x -\no - x o - x o - x - - - - -\n- x o x - o x - - x o x o x\n- - - - x - - x - o x - x o\nx o x - o x - o - x - - - -\n- x o - x o - x - - o x o x\no - x - o x - o x - x o x o\nx - o - x o x - - - - - - -\n- - - - - - - x o x o x - x\no x - x o x - o x o x - - o\nx o x o x - x - - - - x - -\n- - - - - - - - - x - o - x\no x o x - x o x - o - x - -\n- - x - o - x o - x - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/188.a.htm"
+    },
+    "189_14x14": {
+      "id": "189_14x14",
+      "solution": "14 14\nx o x o x - o x - - o x - o\n- - - - - - x o - - x o - x\n- x o x - - o x - - - - x o\no - x o - x - - - x o x - -\nx - o x - o x - - o x - o x\no - x - - x - - - x o - x -\n- x - o x o - x - o x - - o\nx o - x o x - o - x - - x -\n- - x - - - - x - - x - o x\no x o - x o - - x o - - x o\nx - - x - - x - o x - - - -\no - x o - x o - x o - x o x\nx - o x - o x - o x - - - -\n- - x o - x o - x - - o x o",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/189.a.htm"
+    },
+    "190_14x14": {
+      "id": "190_14x14",
+      "solution": "14 14\no x o x - o x o - x - o - x\n- - - - - x - - x o - x - -\nx o x - - o - x - - x o x o\no x o - x - x o - x - - - x\n- - x - o x o x - - o x - o\nx - o - x - - - - - x o - x\no - x - o - x o x - o x - -\nx - - - x - o x o x - - x o\no x o x - - x - - - x o - x\n- - x o - x - o x o - x - o\n- - - - x o - x o x - - - -\nx o - x o x - - - - x o - x\n- - - - - - x o x - - x - o\no x - o x o - x - o x o - x",
+      "source": "https://www.janko.at/Raetsel/Curving-Road/190.a.htm"
+    }
+  }
+}

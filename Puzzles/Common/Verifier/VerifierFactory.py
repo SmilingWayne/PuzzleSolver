@@ -13,6 +13,18 @@ from Common.Verifier.PuzzleVerifiers.NonogramVerifier import NonogramVerifier
 from Common.Verifier.PuzzleVerifiers.NorinoriVerifier import NorinoriVerifier
 from Common.Verifier.PuzzleVerifiers.KakurasuVerifier import KakurasuVerifier
 from Common.Verifier.PuzzleVerifiers.FuzuliVerifier import FuzuliVerifier
+from Common.Verifier.PuzzleVerifiers.TilePaintVerifier import TilePaintVerifier
+from Common.Verifier.PuzzleVerifiers.MunraitoVerifier import MunraitoVerifier
+from Common.Verifier.PuzzleVerifiers.ThermometerVerifier import ThermometerVerifier
+from Common.Verifier.PuzzleVerifiers.Str8tVerifier import Str8tVerifier
+from Common.Verifier.PuzzleVerifiers.StarbattleVerifier import StarbattleVerifier
+from Common.Verifier.PuzzleVerifiers.SquareOVerifier import SquareOVerifier
+from Common.Verifier.PuzzleVerifiers.RenbanVerifier import RenbanVerifier
+from Common.Verifier.PuzzleVerifiers.KakuroVerifier import KakuroVerifier
+from Common.Verifier.PuzzleVerifiers.NondangoVerifier import NondangoVerifier
+from Common.Verifier.PuzzleVerifiers.SimpleloopVerifier import SimpleloopVerifier
+from Common.Verifier.PuzzleVerifiers.LinesweeperVerifier import LinesweeperVerifier
+from Common.Verifier.PuzzleVerifiers.SlitherlinkVerifier import SlitherlinkVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
 
 class VerifierFactory:
@@ -33,6 +45,7 @@ class VerifierFactory:
         "Norinori": NorinoriVerifier, 
         "Kakurasu": KakurasuVerifier,
         "Fuzuli": FuzuliVerifier,
+        "TilePaint": TilePaintVerifier,
         # Sudoku:
         "Sudoku": SudokuVerifier,
         "ButterflySudoku": SudokuVerifier,
@@ -44,7 +57,21 @@ class VerifierFactory:
         "ShogunSudoku": SudokuVerifier,
         "SoheiSudoku": SudokuVerifier,
         "SumoSudoku": SudokuVerifier,
-        "WindmillSudoku": SudokuVerifier
+        "WindmillSudoku": SudokuVerifier,
+        "KillerSudoku": SudokuVerifier,
+        "JigsawSudoku": SudokuVerifier,
+        "Munraito": MunraitoVerifier,
+        "Thermometer": ThermometerVerifier,
+        "Str8t": Str8tVerifier,
+        "Starbattle": StarbattleVerifier,
+        "SquareO": SquareOVerifier,
+        "Renban": RenbanVerifier,
+        "Kakuro": KakuroVerifier,
+        "Nondango": NondangoVerifier,
+        "Simpleloop": SimpleloopVerifier,
+        "Linesweeper": LinesweeperVerifier,
+        "Slitherlink": SlitherlinkVerifier
+        
     }
     
     @classmethod

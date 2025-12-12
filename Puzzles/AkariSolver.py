@@ -4,8 +4,6 @@ from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
 
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
-
 import copy
 
 class AkariSolver(PuzzleSolver):
@@ -24,8 +22,7 @@ class AkariSolver(PuzzleSolver):
             raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
         if self.grid.num_cols != self.num_cols:
             raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
-        # if self.num_rows < 7 or self.num_cols < 7:
-        #     raise ValueError(f"Akari grid must be at least 7x7, got {self.num_rows}x{self.num_cols} instead.")
+        
         
         allowed_chars = {'-', 'x', '0', '1', '2', '3', '4'}
 
@@ -99,30 +96,7 @@ class AkariSolver(PuzzleSolver):
                     line_of_sight.add(Position(i, j))
                     self.model.Add(sum(self.x[pos.r, pos.c] for pos in line_of_sight) >= 1)
     
-    def solve(self):
-        # TODO: 
-        # 2. What happen if running time exceed
-        
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        solution_grid = Grid.empty()
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
+    
     
     def get_solution(self):
         sol_grid = copy.deepcopy(self.grid.matrix)
@@ -134,31 +108,3 @@ class AkariSolver(PuzzleSolver):
                     sol_grid[i][j] = self.grid.value(i, j)
             
         return Grid(sol_grid)
-    
-    # TODO: Compare result and check if same
-
-# if __name__ == "__main__":
-#     data = {
-#         "num_rows": 14,
-#         "num_cols": 24,
-#         "grid": [
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- x - 1 - x - - - - 0 - - x - - - - x - x - 1 -".split(" "),
-#             "- - x - - x - 0 x - x - - x - 2 1 - x - - x - -".split(" "),
-#             "- 0 - x - x - - - - 0 - - x - - - - x - x - x -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- 1 x x - - - - 1 - - - - x - - - - 2 - x x x -".split(" "),
-#             "- - - - - - - x - - - - 2 - - - - 3 - - - - - -".split(" "),
-#             "- - - - - - x - - - - 1 - - - - x - - - - - - -".split(" "),
-#             "- 0 1 0 - x - - - - x - - - - 1 - - - - x x x -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#             "- x - x - 0 - - - - x - - x - - - - x - 1 - x -".split(" "),
-#             "- - 2 - - x - 1 1 - 1 - - 1 - 2 x - x - - x - -".split(" "),
-#             "- 1 - x - 0 - - - - x - - x - - - - x - x - 1 -".split(" "),
-#             "- - - - - - - - - - - - - - - - - - - - - - - -".split(" "),
-#         ]
-#     }
-    
-#     akari_solver = AkariSolver(data)
-#     solution_dict = akari_solver.solve()
-#     print(solution_dict)

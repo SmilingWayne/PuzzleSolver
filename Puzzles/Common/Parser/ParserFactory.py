@@ -13,6 +13,7 @@ from Common.Parser.PuzzleParsers.NonogramParser import NonogramParser
 from Common.Parser.PuzzleParsers.NorinoriParser import NorinoriParser
 from Common.Parser.PuzzleParsers.KakurasuParser import KakurasuParser
 from Common.Parser.PuzzleParsers.FuzuliParser import FuzuliParser
+from Common.Parser.PuzzleParsers.TilePaintParser import TilePaintParser
 from Common.Parser.PuzzleParsers.SudokuParser import SudokuParser
 from Common.Parser.PuzzleParsers.ButterflySudokuParser import ButterflySudokuParser
 from Common.Parser.PuzzleParsers.Clueless1SudokuParser import Clueless1SudokuParser
@@ -24,6 +25,19 @@ from Common.Parser.PuzzleParsers.ShogunSudokuParser import ShogunSudokuParser
 from Common.Parser.PuzzleParsers.SoheiSudokuParser import SoheiSudokuParser
 from Common.Parser.PuzzleParsers.SumoSudokuParser import SumoSudokuParser
 from Common.Parser.PuzzleParsers.WindmillSudokuParser import WindmillSudokuParser
+from Common.Parser.PuzzleParsers.KillerSudokuParser import KillerSudokuParser
+from Common.Parser.PuzzleParsers.JigsawSudokuParser import JigsawSudokuParser
+from Common.Parser.PuzzleParsers.MunraitoParser import MunraitoParser
+from Common.Parser.PuzzleParsers.ThermometerParser import ThermometerParser
+from Common.Parser.PuzzleParsers.Str8tParser import Str8tParser
+from Common.Parser.PuzzleParsers.StarbattleParser import StarbattleParser
+from Common.Parser.PuzzleParsers.SquareOParser import SquareOParser
+from Common.Parser.PuzzleParsers.RenbanParser import RenbanParser
+from Common.Parser.PuzzleParsers.KakuroParser import KakuroParser
+from Common.Parser.PuzzleParsers.NondangoParser import NondangoParser
+from Common.Parser.PuzzleParsers.SimpleloopParser import SimpleloopParser
+from Common.Parser.PuzzleParsers.LinesweeperParser import LinesweeperParser
+from Common.Parser.PuzzleParsers.SlitherlinkParser import SlitherlinkParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -44,7 +58,7 @@ class ParserFactory:
         "Norinori": NorinoriParser,
         "Kakurasu": KakurasuParser,
         "Fuzuli": FuzuliParser,
-        # Sudoku (variants)
+        "TilePaint": TilePaintParser,
         "Sudoku": SudokuParser,
         "ButterflySudoku": ButterflySudokuParser, 
         "Clueless1Sudoku": Clueless1SudokuParser,
@@ -55,7 +69,22 @@ class ParserFactory:
         "ShogunSudoku": ShogunSudokuParser,
         "SoheiSudoku": SoheiSudokuParser,
         "SumoSudoku": SumoSudokuParser,
-        "WindmillSudoku": WindmillSudokuParser
+        "WindmillSudoku": WindmillSudokuParser,
+        "KillerSudoku": KillerSudokuParser,
+        "JigsawSudoku": JigsawSudokuParser,
+        "Munraito": MunraitoParser,
+        "Thermometer": ThermometerParser,
+        "Str8t": Str8tParser,
+        "Starbattle": StarbattleParser,
+        "SquareO": SquareOParser,
+        "Renban": RenbanParser,
+        "Kakuro": KakuroParser,
+        "Nondango": NondangoParser,
+        "Simpleloop": SimpleloopParser,
+        "Linesweeper": LinesweeperParser,
+        "Slitherlink": SlitherlinkParser
+        
+        
     }
     
     @classmethod

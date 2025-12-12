@@ -1,0 +1,906 @@
+{
+  "puzzles": {
+    "1_8x8": {
+      "id": "1_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/001.a.htm",
+      "problem": "8 8\ns - - - - - - -\n- - s - - v - v\n- - - - - - - s\n- v - s - - v -\n- h - - h - - -\n- - - - v - s -\n- - - h - - h v\nv - h - - s - h"
+    },
+    "2_8x8": {
+      "id": "2_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/002.a.htm",
+      "problem": "8 8\n- s - s v h - -\n- - - - - s - s\n- - - - - - - -\n- - - - v v h -\n- - - h - h - s\n- - v - - - h -\ns - - - h h - -\n- - h - - - h s"
+    },
+    "3_8x8": {
+      "id": "3_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/003.a.htm",
+      "problem": "8 8\nh - - - - - h -\n- - - h - - - v\n- h - - - - - -\n- - - s - h - -\n- s - h - - - -\n- - - - - - - h\nv - v h - v - -\n- v - s - h v v"
+    },
+    "4_10x10": {
+      "id": "4_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/004.a.htm",
+      "problem": "10 10\n- s - - - - - s - -\n- - - - - - s - s -\n- - - - - - - - - s\n- - - - - - - - - -\n- - h - h - s - - s\nh - h - - - v v v s\n- - - - v v - - - -\nh - - - - - s s - -\nv s h - - - - - - -\n- - - h v s - s h -"
+    },
+    "5_10x10": {
+      "id": "5_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/005.a.htm",
+      "problem": "10 10\n- - s - s - h - - -\nv - - v - - - - - s\n- v - - - v - - - h\n- s v s - - - h v v\n- s - v v - - - - -\nh - - - - h - v - s\nh - s - - - v - - -\n- h - - s - s - - v\n- - - h - h - - - -\n- s v s h - s s - s"
+    },
+    "6_10x10": {
+      "id": "6_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/006.a.htm",
+      "problem": "10 10\n- s s - h - h s - h\nv - - - - h - h - -\nh - - s - s - h - -\n- - - - v - - - s s\n- - - - h - - - - -\nh - - - - h - - - v\n- - - h - - s - - h\n- s - - - - h - s -\ns - - - h s s s - -\nh - - h - - h - - -"
+    },
+    "7_10x10": {
+      "id": "7_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/007.a.htm",
+      "problem": "10 10\n- - - v h - - - - -\ns - - - v s - - h v\n- h - - - s - - - -\nv - - s - v - - h -\n- v - h - - - v - -\n- - - s - s v - - s\nh - s - - - s - - v\nv s - - s - s - - -\n- - h - - - - - v -\n- s - h - h - v s -"
+    },
+    "8_10x10": {
+      "id": "8_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/008.a.htm",
+      "problem": "10 10\n- - - h - - - - h v\n- s - - - s - h - -\n- - h - h - - s v -\n- - - - - s v - - s\nh - - - - - s - - h\n- - - - - - v v h -\ns - - - h - - - - v\n- - - h - - s s - -\n- - - - v - h - - -\n- h - s - v - - h s"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/009.a.htm",
+      "problem": "10 10\nv - - h v - - h - s\n- - - - - - - h - -\n- s - - - s v - - v\nh - s - - v - - v -\n- - - s - - - - - v\n- - s - - - - v h -\n- - - - s s - h - v\nh - - - - - h - v -\ns h - - - - h - - v\n- h - s v - h h - -"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/010.a.htm",
+      "problem": "10 10\n- s - s - - - - s -\n- v - - - - s - - v\nv - - v - - - v - -\nv - - - - - - - v s\n- s - - - - - - h -\n- h v - - v - - - h\n- - - h h - - v s -\ns - - - h h - - - -\n- - - v h - - - - -\nv v - - - - - - - -"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/011.a.htm",
+      "problem": "10 10\n- - h - - v - s - s\nh - - - h - v v - -\n- - - h s - - - - h\n- s s - - - - - h -\ns h - - - - h h - v\n- - s - h - - - - h\n- - h - - - - - h -\n- v h - - s s - s -\nh - - h - h - - - -\n- - h - h - - - - s"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/012.a.htm",
+      "problem": "10 10\ns - - h h - v h - v\n- h - - - - - - v -\n- s - - - v s - - s\n- - - - v - - - - h\nv h - v s - s v - v\n- - - h - - - h - -\nv s - h h - - - v -\n- - - - - - s v s v\n- h - - - v - - - h\nh - h - - h - h - -"
+    },
+    "13_12x12": {
+      "id": "13_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/013.a.htm",
+      "problem": "12 12\n- s s - - - - h - - - -\n- - s - - h - - - s - s\ns - h - v - v - - - v -\n- h s - - - - - v - s v\n- s - - s - - - - - v -\nv s - - - - - s - v - -\n- - - h - - - - - v - v\n- - h - - v - v - - - v\n- - - - - - - - - - v -\nv - - s - - - - v v - -\nv - - h - - - - v - - h\n- h - h - - s - - - h s"
+    },
+    "14_12x12": {
+      "id": "14_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/014.a.htm",
+      "problem": "12 12\nh - - h - - - - - - h v\nv s - h s - - - - - - -\n- - h s - - - - - - - -\n- - - h - - s - s - v -\ns s s s - v - - - - - v\n- - h - v - v - v - - s\n- - - - - - - - - - - h\n- - - - - h v v - v - -\n- v - v s s - - - v - -\n- h - - - - - v - - - v\n- h - h - - - - v - - -\n- h h - s v s - s - s s"
+    },
+    "15_12x12": {
+      "id": "15_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/015.a.htm",
+      "problem": "12 12\n- - h - h v v - - s v -\n- - h - s - - v v v - -\n- - - - - - v - - - - v\ns v v - - - - - - - - s\ns - - v v - - - h - s -\n- - - h - s s - v - - -\nh - - - - - - - - v - h\n- s - - - - s - h - - v\n- - - h - - - - - h s -\n- - - - h - h h - - - -\n- - - h - - - - h s - -\ns - h s h - - s s - - s"
+    },
+    "16_12x12": {
+      "id": "16_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/016.a.htm",
+      "problem": "12 12\ns - s s - - - - - - s s\n- - - h - - - v - - s -\n- - - - - s - - - v - -\n- h - - - h s - - - - -\n- - s - h - - - s - v -\n- - - - - - - - - - - v\n- v - h - h - - - s - -\n- - - - v - - - h - - v\n- - - - - - h - - s h -\n- - - h - - - s - h - -\nv - h - - - - - - - - v\n- - h - h - s s - - h s"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/017.a.htm",
+      "problem": "12 12\n- - - h - - - h v v s -\ns - s s v s v - - - - -\n- h - - - - - - - - - s\ns - - - - - h - s v - v\ns - - - - - - v - - - -\ns - - s - h - v - v - -\nv - - - - - - - v - - -\n- - - - - - s - - h - -\n- - - s - s - - - h - v\n- - v v - h - - - h - -\n- h - - - h v - h - - h\ns - - h - h - - h h - -"
+    },
+    "18_12x12": {
+      "id": "18_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/018.a.htm",
+      "problem": "12 12\n- - - - - s h - v - v s\nv - - - h - - - - - - -\nh - h - - - - - v v - -\nh - - - h - - - - s - -\nh - - - - - - v - - - v\n- - h - v s - - - - - s\n- - - - - - - - - s - s\nh - h - - - - - v h - -\n- - - - h - h - - s - -\ns h - - - h s - - - - v\n- - h h - - h v - v - s\n- - - s - - - - h - - -"
+    },
+    "19_14x14": {
+      "id": "19_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/019.a.htm",
+      "problem": "14 14\nv - s - - - - s - - - v - h\n- - - - - h - s - - - - - -\n- - h - - - - - - v - - - v\n- - - - v - s v s - - - v s\n- s - - - - v - v - s s - v\nv - - - - v - - - v - h - -\nv - - - - - - - - - - - s -\n- v - s - v v v - - h - - h\n- - - - - v - - s v h - - -\ns - v - h - s - s - v - - -\n- v s - - - - - - h - h - -\nv - - - s - - h - - - - v v\ns - - h - - s - - s - s - -\n- h - s s s - - v - - s - -"
+    },
+    "20_14x14": {
+      "id": "20_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/020.a.htm",
+      "problem": "14 14\ns s - h - s - - h - s s v -\n- - h - - - v v - - s - - -\ns s s h - - v - v - - - - v\n- h - - - - - - v - s s v s\nh - h - - s - - - v - - - s\n- - - - - s - - - h - - s -\n- - - - v - - h s s v - - -\n- - - - - h - - - - - - h v\n- v - - - s - - h - - - - -\nv h - h - - - s v - - - s -\nv - - h - - - - - h - - - -\n- - - - - - v v - - - h v s\n- - s - s - h - - - - - - h\ns - h - - v - h - h s s s s"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/021.a.htm",
+      "problem": "8 8\ns - s - - - h v\n- - - - h - - -\nh - - s - v v -\n- h h - v - - -\n- - - - h v - h\ns - h h - - - v\nh - - - h - h -\ns - h h - - h -"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/022.a.htm",
+      "problem": "8 8\nh - - v - h - v\nv s s - v - v -\n- - - - - v s -\n- - - - - - - h\nv v - v - - s -\n- h - - v - h -\ns - h - - - h -\n- h h - h - - v"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/023.a.htm",
+      "problem": "10 10\n- - s v s - - - h v\nv - - - - v - v s -\n- - - - - - v - - -\n- - - - - - - h - -\n- - h - - - h - v s\n- v - h - - s h - -\n- - - s - - - - h s\n- s - - h - - h - h\nv - - - - - - h - -\ns - s h - - s h - v"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/024.a.htm",
+      "problem": "10 10\ns - - h v - s s - v\n- - - s - - - v v -\ns - - s - v - - - -\n- - - - - - - - v v\n- - s v - s - - - s\n- - v - h - - v - h\n- v - h - - v h - -\ns - - h - s - - - h\ns - - s - - - - h -\n- - - - - s - h s v"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/025.a.htm",
+      "problem": "10 10\ns - s v h - - s - -\nv - - - - s - - - v\n- - - - v - - - - -\nv - - - - v h - - -\n- - - s - v - - - s\n- v - - - - - - - -\ns - s - - - - - - h\n- - - - - h - s - s\n- v v - h - - - - s\n- - - - - h - h - -"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/026.a.htm",
+      "problem": "10 10\ns - - - v - - - - h\n- - - - - - - - - -\ns s v - - - - - - -\n- - h - v s s - - -\ns h - - - s - - - -\n- - - v - v - - - -\n- - h - - - v v h -\n- - - h - v - - - h\nv - - v - - - - - v\ns - s - v s - - h -"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/027.a.htm",
+      "problem": "10 10\n- - - s - - - - - -\n- - - - v - - - s -\n- - - - - - - - h v\n- - - - - - - v s -\n- - - - - - s - v -\n- s - - - - - - - -\n- s s - - v - s s -\n- - v - - - s - h -\nh - - v - h - - - v\ns - - h v - - h - h"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/028.a.htm",
+      "problem": "10 10\ns v - - - h - v s v\ns - s - - v - - - -\n- - s - s - - - v -\n- - - s - h - - - s\n- - - h - s - - - s\nv - - - - - - - v -\n- - - - - - h - - -\n- v - - - h - h - -\nh - - - - h - - - v\n- h - s s - - - - -"
+    },
+    "29_12x12": {
+      "id": "29_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/029.a.htm",
+      "problem": "12 12\n- - - - s - - - h h - -\n- - - - - - - - - - - v\n- - h - - - h s - - v -\ns - s s - - - - - v s -\n- - - h - - v - - - - -\n- h - - - - - - v - - v\ns - s h - s - v v v v -\n- v - - - h - - - - v -\n- - h s v s - s - s - v\nv h - - - s - h - - - v\n- - v h - - v - h - - -\ns - - h - h - - - h h -"
+    },
+    "30_12x12": {
+      "id": "30_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/030.a.htm",
+      "problem": "12 12\n- - - - h s - - - v h -\n- - s - - h h - - - - -\n- - - s - - - - - h - -\nh - - h - - h - - - - -\n- - - s - h - v - h v v\n- - - s - s - - - - - -\ns - - - - - - - v - - v\nv - - - s v - - - - - h\n- h - - - h - s - - s -\n- - - - s s - - h - - v\n- - - - - h - - - - v -\ns - - - - - h s - s - -"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/031.a.htm",
+      "problem": "8 8\n- - - - s - - s\n- - - h - - v -\nh - - - - - - v\n- - - h - - v v\n- - - - v - - -\nv s - - h v - v\nh - - - - h - -\n- - h h - s - s"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/032.a.htm",
+      "problem": "8 8\n- h - - - h - -\n- - - v - s - s\n- - - - - v - -\n- - s s s - v v\n- - - - h - - s\n- - - v - - - -\n- v - - - s - s\n- h v - - - - h"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/033.a.htm",
+      "problem": "10 10\ns - h s - - - - v -\nv - - - h - - - - -\n- - - s - - h - - v\n- - h - - - h - s v\ns h - h - - - - - -\n- - - h - h s - v -\n- - - - s h - v - -\n- - - h - - h - v -\n- - h - - - - - - h\n- s h - s s h - - -"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/034.a.htm",
+      "problem": "10 10\n- - - - s - - h - s\nv s - - - h s s - -\n- - - v - - - - - h\n- - s v - s h - - v\n- - - - - - - - - -\n- - - - - - - - - s\ns - v - - h - - - -\nv s - - - h v s v v\n- - - - s - - - - -\ns - - - - - s v - h"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/035.a.htm",
+      "problem": "10 10\n- - h - - - - s s v\n- h s - s - - - - -\ns - - - - v - - v -\n- - s - - - v - - -\n- - - - - - - h s -\n- - - - h - h v - -\n- v s - h - v - - -\n- - - - h - - - v -\ns - s h - h - v s -\ns - - h h - - - - v"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/036.a.htm",
+      "problem": "10 10\n- - - - s h - h - -\n- - - - - - h - - v\n- - - - - s - - - s\n- - s - - - - s - v\n- v - - - s - - - -\n- - - s - - - v v -\n- - - h - - v - - v\ns - v - - h - s v -\n- - h - - v - - - -\ns - h h - - s h - -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/037.a.htm",
+      "problem": "10 10\n- - - - - h - - - v\n- - v - - - - v s -\n- - s v - s - - s -\n- v - h - h v - h -\n- h - - - - - - h -\n- - h - - - s - - h\ns - - - - - - h - v\n- - - - h - h - s -\n- s h - - - - - h -\nv - - - h s v s s -"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/038.a.htm",
+      "problem": "10 10\n- h s - s s v v - -\n- - s - - - - - v v\nv - - - h - s - - -\nh - h - - v - - - s\nv - - - v - s - - s\n- h - - s - s v - -\n- s - - - - - - - -\ns - - h - - - v v -\n- - - - - - - - - -\nh - - - h h - s - -"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/039.a.htm",
+      "problem": "12 12\nv - - s - - s - h v - h\n- - s - - v - h - - - s\n- - - - s - - - - s - -\n- - - - s - - - v s v v\n- - h - h - v - - - - v\nv s - - - - h - - v v -\n- - h - - h - v v - - s\n- - - - - v - - h v - h\n- - - - - - - - - - - h\n- - - - - - - - - s h -\n- - h - - - - - s h - -\n- - - - - s - - - h s s"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/040.a.htm",
+      "problem": "12 12\nv - - - - - h - - s - -\n- - - - - v - - - - v -\nv - - v - s - - h - - -\n- - v s v - - - v s v v\n- s - - - - - s - - - s\n- s - s - - - - - v h -\n- - - - - h - - - h - v\n- h - v v h - v s - s -\n- - h - - - - - - - s -\nv - s h - - - s - - - h\n- - h - s - - - - - - h\ns - - - - - - h h - h -"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/041.a.htm",
+      "problem": "8 8\n- v v - h s - -\n- - - s - - - v\n- - - v - - - -\n- s - - - v v -\n- - - s - - - -\ns - - - h s v -\ns - - h - - - h\n- - s - h - - s"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/042.a.htm",
+      "problem": "8 8\nh - - - - - s -\nv v s - s - v -\n- - s - - - - -\nh - - - - - h v\n- h - - - v h -\nh - - v s - s v\n- - h - - h - -\ns - - - - - - h"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/043.a.htm",
+      "problem": "10 10\ns s - h - - - - - -\n- - - - - s v v - -\n- - - - - - - - - -\ns - - v - - - - - -\n- - - h v - - - s -\nh - - - - - - - - -\n- - - s - s - v s s\ns s - - - h v - - v\n- h - - - v - - - -\nh - - s - - - h - -"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/044.a.htm",
+      "problem": "10 10\n- h - - - h - - h s\n- - - - - - v - - h\ns - - - - - h - - -\nh - - - - - - - - v\n- s s - s - - - - s\n- h - - h - v v - -\n- - - - s - - v - v\nv - h - - - s - - s\n- - - - h - - - - s\ns h - s s s - - - s"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/045.a.htm",
+      "problem": "10 10\nv s - - s - - s - -\n- v - s - - - - s -\ns - - - - - - - - h\n- - - - - h v v h -\ns - - v v v - - - v\n- - - - - - - - s -\n- - - - - h - s - -\n- - s - - - - h v v\n- h - - - - h - - -\nv - h - v h - v s -"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/046.a.htm",
+      "problem": "10 10\n- h - h - - - h - -\n- - - - - s - - - -\nv - v - - - s s - h\n- - - - - h - - - s\nv - - - h - h - - h\n- - - - - h v - - -\nh - - - h - - - - v\n- - - - - s - - v -\nh - h - - - - v s -\ns - h - h h - - - v"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/047.a.htm",
+      "problem": "10 10\n- - - - h - h - - v\nv - - - - - s - - -\n- s - - h - - - - -\nv v - - h - - - - v\n- - v h - v - h h -\n- h - - - h - - h s\n- - - h - h h - s -\nh - - - - - - - - -\n- - - h h - s - h -\nh - s - - - h - - h"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/048.a.htm",
+      "problem": "10 10\n- v - s - - - - - -\n- - v v - v - - - v\n- - s - - - s - - -\ns - - - v - h - - v\nv - - - - v s - v v\n- s - - - s - - - -\nv - - h - - h - v -\n- - - - - - - - - -\n- - - - s h - - - -\n- - - - - - - - s -"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/049.a.htm",
+      "problem": "12 12\nh - - - s - - - - v s s\n- - s - - - - - - - - h\nv - s - - - v - - - h v\n- - - - - h - - - - h -\n- s - - - - - - - - s -\n- - h - s v - - h - - -\nv h - - - - - h s h - v\n- - s h - - - - - - - -\n- - v - - s - - h v v s\nv - - - v - - s - - - -\n- h - - - - - - - s - s\nh - - s h - - s - h - -"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/050.a.htm",
+      "problem": "12 12\n- - - s - - - v - - h -\n- v - - - h - - s h - -\n- - h - - v - - v - - -\n- - - - - - v - - s - v\ns s - - h - - s - v v -\n- - - h h - - - - - - v\n- - - - - h - - s - - -\n- - - - s - - - - h - v\n- - s h - s - - h s - -\nv - - h - - - s - h v -\n- - - - - s - - - - - -\n- h - s v h - s - - - h"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/051.a.htm",
+      "problem": "8 8\ns s v s - - h s\n- h - - - - - -\n- - - - h - - -\nv - - v - - - v\n- v v v - - - -\n- s - - v - - -\nh - - - - - v s\nh - s - v s h -"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/052.a.htm",
+      "problem": "8 8\n- - v - - s s -\n- s - s - h - v\nv - - v - h - s\n- - - - - - - -\n- - - - v v - -\nv - - - v - - v\n- s - v - - v v\n- h h - - h - -"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/053.a.htm",
+      "problem": "10 10\n- - - - s h - s - h\n- h - - s - - - h s\n- - - - - - - h - -\ns - - - h h - v s v\n- - h - h - v - v -\nh - - - - h - - - -\n- - - - s - - - - h\n- - - - - s - - s s\n- - - - - s - - - h\nv - - - h h - h - s"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/054.a.htm",
+      "problem": "10 10\n- - - - h - - - - -\n- - s - - - - - v -\n- - - - v - - h - v\n- - - - - - s - h -\n- - h - - h - - h s\nh - - - - - - - - -\ns s s - - - - s - v\n- - h - h - - - - -\ns - - - h - - s - v\nh - - - - v - - v -"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/055.a.htm",
+      "problem": "10 10\nv h - - - - - s - -\n- - - - - - - v - -\n- - - - - - - - - v\ns v - - - - s - v v\n- - - s - h - v s -\n- - - - - s v - - -\nv - - h v s - h - -\nh - - - h - - - s -\ns v - - - h - h - -\ns - - - h - h - - s"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/056.a.htm",
+      "problem": "10 10\ns s - - h - - h - v\n- - h - s - - - - -\n- - - - - - s s s -\ns - h - - - - - - -\n- h - - - - - - - h\n- - - - h - - v - h\n- - - - s v v - s -\nv - h - - - - - - -\n- - - h - - v - - -\n- - - - - s h - - -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/057.a.htm",
+      "problem": "10 10\nh - - - - h - - s s\ns - h - - - - - - -\ns v - - - v - - - v\ns - - - - - - s - -\n- - - - v - - - - s\nv - v - h s - - - -\n- h - - s - - - - v\ns h - s - - - - - -\nh - s - - s - - h v\ns - h - - h v - - h"
+    },
+    "58_12x12": {
+      "id": "58_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/058.a.htm",
+      "problem": "12 12\n- v - - h - - v - - v -\n- - v - v - - - - v - -\n- - - - - s - - - - - -\nv v - - - - - v - - h -\n- - - - - h - s - - s v\nv h - - - - - - - - - -\nh - - - - s h - - - v -\n- - - - s - - - - - - s\ns - - s - - - - - - - h\n- - - - - - - - - v - h\n- - - - h - s - - - h s\n- - - - h - h - v - - h"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/059.a.htm",
+      "problem": "12 12\nh - - - s - - - s - h -\n- - - - s - - v - - - -\n- v - - s - - - h - - s\n- - - - - - - - s - h v\n- - - - - v - - - - s -\n- - - - - - - - h - - -\n- - - - - v s h - s - v\n- - h - v - - - - - v -\n- - - - - - - h - - - -\ns - - - h v - - h - h v\nv - - - - - - - - h h -\n- v - - h - s v h - - s"
+    },
+    "60_14x14": {
+      "id": "60_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/060.a.htm",
+      "problem": "14 14\nv s h - h - - s s - - - - v\n- - h - - h - - s - - - h -\n- s - h - - - - - v - s - -\nh - - h - - - - - - - s - s\n- - - - h h - - v - - v - s\n- s - - - - - v - h - - v -\ns h - - v - s s - s - h - -\n- - h - - s - - - h - s v -\ns s - - h - - s - v - h - v\n- h - - h - - - - - s - - -\nv - - - - s v - - - - - s v\n- - - - - - - - - - h - - h\n- - - s - - h - - - - - h -\nv s s h - s h - s v - - h v"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/061.a.htm",
+      "problem": "8 8\n- - - - h - - v\nv h - - - - - -\nh - - - - - s -\nh - - - - - h v\n- - v - - - - -\n- s h - - s - -\nh - - h - - - s\n- - h - h - v s"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/062.a.htm",
+      "problem": "8 8\ns - - - - - - s\n- - - - - - s s\nv - - - - - - -\nv - - - - - - -\n- v - - h v - -\n- - - - h - - v\n- s s s v - - -\nv - - h - - v v"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/063.a.htm",
+      "problem": "10 10\n- - - s - - h - - -\n- - - - v s h - v v\ns - - v - - - - - h\n- - - - - s - h - s\n- - - h - - - s - -\ns h - - - - h - - v\ns - - - - h - - s -\nh - s - - - h - - h\n- - - - - v - h - -\n- s - - - h - s s v"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/064.a.htm",
+      "problem": "10 10\n- - - - - s s h - v\n- s - - - - s - - -\n- - - - s - - - - -\n- - - - - - - - - v\nv - - - - s - - - h\n- h - - - - - s h -\n- - s s - h - h - v\ns v - - - - h h - -\n- - - - h - h - - s\n- - - h - h h - - -"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/065.a.htm",
+      "problem": "10 10\ns - - h - s - v - -\ns - v - - h - - s -\ns - - h - v - h - -\nh - - - - - v - - h\n- - - - - - h v s -\n- s - h h - - - - v\nh - - - h - - v - h\n- - - s s - v - h -\n- - - h - - v - s -\ns - h h - - - - - -"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/066.a.htm",
+      "problem": "10 10\n- h v v v s - - h -\ns v - - - s v v - s\ns - - - - v - - - -\n- - h - v - - v - -\nh - - - - - - - - s\ns - h h - - v - - s\n- - - - - - h - v -\ns - s - - - v v - -\n- - - - - - - h - -\ns - - h - - - s s v"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/067.a.htm",
+      "problem": "10 10\n- v h - - - v - - h\n- - - - - h - v - s\n- - v s - v - v - v\n- h - - - - s - v -\n- v v - - - - - - -\n- - - v - - - - - h\n- - - - v - - s - -\n- - s - s - - - - v\n- - - v - - - - - -\n- - - - v h - - s -"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/068.a.htm",
+      "problem": "12 12\n- - s - - h v - - - - s\n- - - - - - - - - - - -\nv - - - - - - - - s - -\nv v - - - - - v - - s v\n- s - - - s - s - s v -\n- s - - h - - - - s - s\ns - - s - h - - - - - -\n- s - - h - h v v v v -\n- - s - - - - h - v - v\n- - - h v - - - h - - v\n- - - h - s s - - - - -\n- h h - - - - - v - - s"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/069.a.htm",
+      "problem": "12 12\n- - - h - h - v - - - v\nv - - - s - - - - s - -\n- h - h - - - - s - - v\n- - h s - - - - v v v -\n- - h - - - - s - - v -\n- - - - - s - - - - - -\n- - - - - - - - - - s -\n- - - - - v v - v v - -\ns - - - - - v v - - s -\ns - - h v - - - h v v s\n- - s - - h - - - - - -\n- h - - s - h s v - h v"
+    },
+    "70_14x14": {
+      "id": "70_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/070.a.htm",
+      "problem": "14 14\nh - - s - s - - h - - - - -\n- - - v - v v s - - - - - v\ns - s - - - - v h - - - s v\n- - s - v - - - s s - - - -\nh - - - h - - - - - s - v -\n- - v - - - s - v - - s - s\n- s - s - - - h - - - - - -\nh - - - - - - - h - v - s -\n- - - - v - - - - - - - s v\ns s s h - - - - h - v v - h\n- - - - - h - s h - - - - v\n- - - - - h - h - - - h s -\n- - - s - - - - - - s - - h\n- - - - - s - - h h - - s s"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/071.a.htm",
+      "problem": "8 8\nh - h - - h - -\n- - h - - - - h\n- h - s - s v -\n- v v - v - - -\nv - - - - - - -\ns - v - - v h -\n- - h - h - - -\nh - h - - - s v"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/072.a.htm",
+      "problem": "8 8\n- s s - - - s v\nv h - - h - v -\n- s - - v v - s\n- - v - - - - -\n- - - - - - - s\ns - - - - - - h\n- - - - h v - h\nv - - h h - - s"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/073.a.htm",
+      "problem": "10 10\ns s - h - - - - - -\n- - s v s v s - - v\n- - - - - v - - - -\n- - - s - - v - h -\n- h - - - - - v v v\n- - - - s s - - - -\nv - - - h - - - h -\n- h - - h - h - - v\nh - - - - v - - v s\ns - h - - - v v - h"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/074.a.htm",
+      "problem": "10 10\ns - - - - - - - v v\ns v v - s - h - - -\nv - - - - - v - h -\n- - s v - - - h - s\n- - - - - - - s - -\nv - s - - - - - - -\n- - - - h - - - v -\n- - s - s s v - - -\n- - h - h - - - - h\nv - h - s s - h h -"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/075.a.htm",
+      "problem": "10 10\ns s - - h - - - - -\n- - h - h - - v s -\nh - - - - v h - - -\n- - - - - - - h s s\n- s - h v h - - - h\n- h - h - - h - h -\nv - - - - - h h - v\nh - - - - s s - v -\n- - - - - - - - - s\n- - h h - - - - - -"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/076.a.htm",
+      "problem": "10 10\nh - - - - - - - - -\n- - s - - - - - v v\ns - s - - - - - - -\nh - - - s - - v - v\n- s - - - - h - v -\nv - - - - h - - h -\n- v - - - h - - s v\ns - - h - - - h - -\n- - s s h - - - - s\ns - - - h h - h - -"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/077.a.htm",
+      "problem": "10 10\n- h - - s - - v h -\nv - h v s - - - - -\n- - - - h - - - - v\ns h - - h - - - v -\n- - h - - s s - - h\n- - - - - - - - s v\ns - - - h s - - - -\n- - v s s - - v v -\n- - - h - - s - - h\ns s - - - h - - - h"
+    },
+    "78_12x12": {
+      "id": "78_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/078.a.htm",
+      "problem": "12 12\n- - - - - h - v h - - v\n- - s - - - - - h - - -\n- - - - - - - - s - - -\n- - h - - - - - - v - -\n- - h - - s - - h - s s\n- - - - s - - - v - - s\nh - h - - s - - - - - h\nv - h - - - s - - - - -\n- - h - v v - h h - - h\n- h s h - - - - h - - -\n- - - - - h h - - - - s\nh - - h h - - h - s h -"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/079.a.htm",
+      "problem": "12 12\n- - - - - - - h - v - h\n- - - - - - - - - - - -\n- - - - v - - - - s - v\n- - s - - - - - s - - -\n- v - h - - - - - - - -\n- - - h - - v - s h - -\n- - - - v - - - v - - -\n- - v - v - - s - - - h\ns - - - - v - - h - s -\n- - - - s - v - - - v -\nh - - - - h - s h - - -\n- - - v - - - h - - h v"
+    },
+    "80_14x14": {
+      "id": "80_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/080.a.htm",
+      "problem": "14 14\n- v s v s - - - h - - - - v\nv - - - - - - s v v - - - -\nh - v - - - s s - s - v v -\n- - - - - - - s - s - - - -\nh - - v s s h - - - - h - s\ns s - - - h - - - - - h - v\n- - v - - - v v - s s - s -\n- v - h - - - - - - v - - -\n- - - - - - - v - s - - v -\n- - s - - - - v v - h v - -\n- - - - - v s - - v h - s -\n- - - - - - - - - - s - - h\nv v - s - h v v v - - s h -\n- h - - h - h - - s - - - h"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/081.a.htm",
+      "problem": "8 8\n- s - h - - s -\nv - v - - s - -\n- v v - - - - -\n- s - - v - - -\n- - - v - s - -\n- - s s v - h v\n- - - s - - - -\n- - - - h - - h"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/082.a.htm",
+      "problem": "8 8\n- v - - - s - v\n- - - - - - - -\n- - - - - - v -\n- - - - - s - s\n- - - - - - - -\n- v - s - - - -\nv - - h v - s -\n- - - - - - - h"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/083.a.htm",
+      "problem": "10 10\n- - h - s h - - v -\n- v s - h - s - - v\n- - - - - - - - h -\n- s - - h - - - - s\n- - - - - - - h - s\nv - - h h - - s h -\n- - - h - h - - - s\n- - - h - - h - h -\ns - - v h - - - - h\n- - - - - - - s h -"
+    },
+    "84_10x10": {
+      "id": "84_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/084.a.htm",
+      "problem": "10 10\nh - - s v - s - - h\n- - - - - - - h s -\n- - h - - v h - - v\ns s - h - - h v - -\n- - h - - - - - - -\nv h - - - - - s - v\n- - - - - - - - v v\n- - - - - s - - h -\ns v - s - - - h - h\n- - - h - h - - h -"
+    },
+    "85_10x10": {
+      "id": "85_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/085.a.htm",
+      "problem": "10 10\ns - h s - s - - - v\nh - - - - - v v v -\ns s - - - v h - - -\n- - - v - - s v s s\n- - s - - - s - v -\n- - - - v - v - - -\n- - - - - - - s - -\n- - - - h - - - - -\n- - - - - - - s h -\n- v h - h - - h - -"
+    },
+    "86_12x12": {
+      "id": "86_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/086.a.htm",
+      "problem": "12 12\n- v - - - - v - - h s -\n- - - - h - - - - - s -\n- - - - - h - s - - - -\nh - - - s v - v - - - -\nv h - h - - - - - - - v\n- s - s v - v - - - s v\n- s - - - - v - - - - -\nh - - - s - - - - - - -\n- v - - - - - h - s - s\n- - - - - h - - h s h -\n- - - - - - - - - - - h\n- - - s s s s - s - h -"
+    },
+    "87_12x12": {
+      "id": "87_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/087.a.htm",
+      "problem": "12 12\n- - - h - v - s - - - h\nv s - h s - v - - - - -\n- - - - - - - - h - - v\ns - - s - v v - - - h -\n- - - v - - - - - - v -\n- - - - v h - - - - - -\n- s v - h - - - - - - v\ns - - h s - h - - - v s\n- s - - - - - s - v - -\n- - - - h - - - - - s -\n- - - h s - - - - - h -\n- - h - h v - h h - - h"
+    },
+    "88_12x12": {
+      "id": "88_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/088.a.htm",
+      "problem": "12 12\nh - s v v h - - - s s -\n- h - - - h - - s - - v\nv h - - - s - - - - - v\n- s - - - s v - - - - -\n- - - h - - - - - - - s\n- - - s v - - - - - - -\nh - - - - v - - - - - v\nv - - - - - - - - s - -\n- - - - - v - - - h - -\n- - - v v h - s - - h v\n- h - - - - s - - v - -\nh - v h - - h - - - - s"
+    },
+    "89_14x14": {
+      "id": "89_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/089.a.htm",
+      "problem": "14 14\ns - - - h - s v s - h - - -\ns - - - s v s - h - - s - -\ns v - v v - - - - - v - - -\ns - - - - - v - - - v - - s\n- - - s - - s - - - - - v -\n- h - v v - - - v - - - v -\ns s - - - - - s - - h - - -\n- - - - v - - - s s - - s -\n- - - v h - - - - - - v - -\nv - - h - - - - - - - - - v\n- s - h - - s s s - - v - s\n- - v h - - - h - - - - - s\n- - - - h - - s s - h s v s\ns s - - h h - - - - - h - -"
+    },
+    "90_14x14": {
+      "id": "90_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/090.a.htm",
+      "problem": "14 14\n- v - h - s v s - - s v - s\n- - - - - - - s - v s - - s\n- s - - - h - h - - s - - v\nv v - h - - - s - - - - - -\ns - - s s - - h - s h - - -\n- - - - - h s s - - - - - -\n- - h - - - - - - s - s - -\n- - - - s s - h - - - v - -\nv - s v - - h h - - s - s -\nh - h - - - - - - - s - - -\n- - - - - - v - - - - h v v\n- - - - - - s v s v s - - -\n- - s s s - - - h - - - v -\n- v - - - h s s - h - - - -"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/091.a.htm",
+      "problem": "8 8\n- v h - - - s -\n- - - s s - v v\nv - - - - - - s\n- - v h - - - -\nh - - - h - - s\n- h - s - - - -\n- h v - - - v v\n- - - h s - - -"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/092.a.htm",
+      "problem": "8 8\n- - - - v - - h\n- - - h - h - v\n- - - - - h - -\nv - - - - - v -\n- - s - - - s v\n- h - - v v - h\nh - s - - h - s\n- - h - - - - s"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/093.a.htm",
+      "problem": "10 10\n- - - - - s s - - -\n- - - s - h - - - h\n- - - s h - h - s -\nv - - h - - - - h v\n- - - - s v - - - -\n- - - - s - h - - s\n- - h - s - - v h -\nv - - - - h - - - s\n- - - h - - v - - v\nh - - s - - - h v -"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/094.a.htm",
+      "problem": "10 10\n- - s - - - - - - -\n- - - - - - - h - -\nv - h s - - - - h v\n- - v - - - - - h -\n- - - - - - - - - h\nv v - h v - - - v v\n- - - s - - - h - -\n- - - v - - h - - s\n- s - - s - s - - h\nh - s - - - h - h -"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/095.a.htm",
+      "problem": "10 10\nh - - - - - - v - -\n- - h - - s - - v -\ns - - - h v - - s -\n- - h v v - - - - -\nv s s - - - v - - -\n- - - - s - - - s -\n- - h - s - v - s v\n- - h - - v - v - -\ns - - - s - - - - s\ns s - s - - v v h -"
+    },
+    "96_12x12": {
+      "id": "96_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/096.a.htm",
+      "problem": "12 12\n- - h - s s - - - s - -\n- - v s - - - - v - - s\nv - - - - h - - - - - h\nv - - - - - s - - - - s\n- s - - s - s - v - - s\n- - - - h - - - - - v v\nv - - - h - h - h v - -\n- s s - - - h - - h v v\n- - - - - s - h - v - -\n- - - - - - - - - - - -\ns - - - - - - s v - - -\n- - - - s - - - h s - -"
+    },
+    "97_12x12": {
+      "id": "97_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/097.a.htm",
+      "problem": "12 12\nh - h - - - - - - h - v\n- - - - - - h - - v s -\ns - - - - - - - - - - -\n- h - v - h - - - - - s\n- - - - - v s v - v v -\ns - - - - - - - v - - v\n- - - - - s s - - v v v\ns s - - h - - - - - s -\n- - h - s - h - s - - -\n- - h - h - - - - - v -\n- - - - - - - h v - s v\n- - - h v - - - h - - s"
+    },
+    "98_12x12": {
+      "id": "98_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/098.a.htm",
+      "problem": "12 12\ns h - v - - - - h - v -\n- - s - - - - - - h - v\n- - s - - - - h - v - -\n- v - - - - s - s - - -\ns - - - s h - - - h - -\n- - - v - s - - - - h s\nv h - - - - - s - - - -\n- s s - - - - - - - - -\n- - v - - - - - - - - s\n- - - - - - - s - - - -\n- - - v - - h - - - h v\n- s - - h h - - - - s -"
+    },
+    "99_14x14": {
+      "id": "99_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/099.a.htm",
+      "problem": "14 14\n- - h - - v - s v - - - h -\n- v - - - - - - - s - s s s\nv - - - s - v v - - - - s -\ns - - s s - - - - - - - - -\n- - - - s - v - - - - v s s\n- - - h - - v - s v v - - v\nv s - h - h - v - - - h - -\nh - - - - - h - - s - s - -\n- - - - - - - - - - - s - -\n- s - - v s v - h v v - - s\n- h v - - - - v h - - s - v\n- - - - - h s - h - - s - -\n- s - - h - - - - - h - - -\nv s - h s s s - v - h - s -"
+    },
+    "100_14x14": {
+      "id": "100_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/100.a.htm",
+      "problem": "14 14\n- - - s - s - s - - v h - s\n- h - v - s - - - - - h - -\n- h - - v v - - - - - - - s\n- h v - h - - - - - - v - -\ns - - - h - - - - v - - h s\n- - - s v - - - - - - - - -\n- - h s - s s - - - - - - -\nh - - - - - - h h - - - - -\n- - - - s h - - - - s - - -\n- - h - - - - - - - s - h s\ns h - - h - s - - - h - - -\nh - v - - h - v h - s - h -\nv v - - v s - h - h - - s v\n- - s v - - - - - h s - - h"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/101.a.htm",
+      "problem": "8 8\n- v - v v v - h\n- - - - - - - -\n- s - - - s - v\n- s v - - - v -\nv - - - h - - s\n- s - h - - - -\n- - s - - - - h\ns - - h h - s s"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/102.a.htm",
+      "problem": "8 8\n- h - s - - s -\n- v - - - - - -\n- - - h v v - s\nv h - - h - v v\nh - - - v - - -\n- - - h - - - -\n- h s h - s - -\ns - - h - - h v"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/103.a.htm",
+      "problem": "10 10\n- - h - s - - v - h\ns s - - - s - - - h\n- h - - - - v - - s\n- - v - h - - - v -\n- v - - - - h - - -\n- - h h - - v - v -\n- - - h - - - h - v\nv - h s s - - h - -\nh - - - - s - - - -\nh - - - s - - s h -"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/104.a.htm",
+      "problem": "10 10\n- - - - h v - - s v\n- - - - - - - - - -\nh - - - v - - s - -\ns - - - h - - s v s\n- - - - - - v v - s\n- - - - v - s - - h\n- - - - s - - - - -\n- - - s - - h - - v\nh - - s - - - - v -\n- - - h v h - - - -"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/105.a.htm",
+      "problem": "10 10\n- - v s v s - h - v\ns - - v - - h - - -\n- - - - - - s - - -\nh - - - h - - - s -\n- h h - h - s - - -\ns - - - h - - - s -\n- h - - - s h - - v\n- s - - h - - - v -\n- - - - h h - s - s\nv - h h - - - - - s"
+    },
+    "106_12x12": {
+      "id": "106_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/106.a.htm",
+      "problem": "12 12\nh - - - - - - - - - - -\ns - - - s - v - v h - -\n- - - - - - - v h - - -\nh - - s - - - - - - s -\n- s h - v s s - - h - -\n- - - - - h - - - - - -\n- v v - h s - - - - - v\n- - h - - - v v s - - -\n- - - - v s - - - v s v\n- - - v - h - - v - - -\nh - - - - - - - - s v v\n- - - h v - - - - - h -"
+    },
+    "107_12x12": {
+      "id": "107_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/107.a.htm",
+      "problem": "12 12\n- - h v s - s s h - - h\nv - v - - - - - - - - h\n- - - - - - - - v - h -\n- - s - v h - - - v v s\nh - - - - - h - - - - -\n- - - v - v s s - v - v\n- - - - - - - - - h - -\n- s h - - - - - - v - v\ns h - - - h - s - - - -\nh - - - s - - s - - s v\n- - h - h v - v - - - -\nv - - - - h v - h - v -"
+    },
+    "108_12x12": {
+      "id": "108_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/108.a.htm",
+      "problem": "12 12\n- h - - - - - - h - - -\n- s - - - - - v - - - v\n- - s - - - - v - - - -\nh - - - - v - - v - - s\n- - - v h - s - - - - -\nh - - - h - - - h - - -\n- - - - - - - - - v s -\n- - - - - - - v - h - -\n- - s - - - s - v h - v\n- v - - - - - - h - - -\nv - - - h s s v v - h s\n- - v s - - - h - s h -"
+    },
+    "109_14x14": {
+      "id": "109_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/109.a.htm",
+      "problem": "14 14\n- - s - - - s - - h - s s -\n- s v - - h - - - - - - s -\n- s - - h v - - - - - h - v\nv s - v v - - v v - v - v -\n- - - - - - - - - v - v - -\n- - - - s - - - v s v v - s\ns - - - - h - s h - - - - -\n- - - - - - - h - v - s - s\nh - - v s - - - s - h - - s\n- - - - - - - v - - h h - -\n- v - v - - h - - - - - h s\n- - - - - - - - - - s - h -\n- s - - - - - - h - - h - -\n- - v - - - s s s - h s s -"
+    },
+    "110_14x14": {
+      "id": "110_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/110.a.htm",
+      "problem": "14 14\ns v - s - h - h - - - - - -\nv - - - - s v - - - s - - -\n- h - s - - v - - - v s - -\nh - h - - s - - - v - - v s\nh - - - - - h - - - - - - s\n- - - - v s - v - h - - - -\ns h - - - v - - - - v s - v\n- s s - h - - h - - - s - -\n- - - - h - - - - h - v v s\nv - - v s s v s - - - - - -\n- - - - - - h - v - h - - -\n- - - - s - h - h v - s - v\nh - - - - h - - - h v - - -\n- - - s s s - - h s - v s s"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/111.a.htm",
+      "problem": "8 8\n- - h h - - v -\n- - - v h - - -\nh - v - h - - -\nv s - - - - - -\n- v - v - - - s\n- - - - - - - -\nh - - h - - - -\nh - - - s - - h"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/112.a.htm",
+      "problem": "8 8\n- - s - - - - s\nv - - h - - - -\ns v - - - - - -\n- - v - - - - h\n- h - - - - - -\n- h - - s - v v\nv h - - h - - -\nh - - - h - h v"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/113.a.htm",
+      "problem": "10 10\n- h - - v - - - - -\n- h - - - - v - h -\n- - - - - - - - - h\ns s v - - s s v - s\n- - - - - - - - v v\ns - s - h - - - s -\n- - - - - h - - - v\ns s - - - - - - - -\nh - h - - h - - - -\ns - - h h - - s s -"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/114.a.htm",
+      "problem": "10 10\ns - s - - - - - h v\ns - - - s v - - - -\n- - v - - - - v - -\n- - - - v s - s - -\nv v - h - s v v v s\n- v - h - - - - - -\n- - - - - - s - - -\ns - - h - - h - v -\n- h - - - - v - - -\n- - - h - - - s - s"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/115.a.htm",
+      "problem": "10 10\n- - - - s - - v - -\n- - h v - - - - - -\nv v h - - v - v - v\n- - v - - - - - v -\nv - - v v - h - - s\n- - h - - - v - - -\n- - - - - h - - - -\ns - h - - s - - - -\ns - h - - - - v - -\nh - s - s s - - - h"
+    },
+    "116_12x12": {
+      "id": "116_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/116.a.htm",
+      "problem": "12 12\n- - - - - - - h - h v -\n- - - h - - - - - v - -\ns - - - v - - - v - - v\n- - - - - - - v - - - -\n- - h - - - - - s - - v\n- - - v - h - - - - v -\n- - - - h s s s - s - h\n- - h h - - - - - - - s\n- - - - - - - - h - - s\n- - - - - - - - v - - -\n- h - - - - - - - - h -\ns - - - h v v - h - - h"
+    },
+    "117_12x12": {
+      "id": "117_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/117.a.htm",
+      "problem": "12 12\nh - - - - - - - - v - h\n- - v s - - - s - - - v\n- v v - - - - - - v - -\n- - - h - - v s - - - -\n- h - - s - - s v - - -\ns - - - h - - - - - h v\n- - - - - - - h - - - -\n- v - - - - - - - s - -\n- - - - - s - h - - - v\n- - - h - - - s v - h -\n- h - - - - - s - h - -\n- h - - - s h - - s s -"
+    },
+    "118_12x12": {
+      "id": "118_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/118.a.htm",
+      "problem": "12 12\nv - - s - - - - - - s v\n- s - v - s - - - - s -\n- s - - v - - - - v v -\n- v v - - - - - - - - v\n- - s - h - - s s v - -\nh - - - - s - - - - - -\n- - - - h - v - - - - s\nv v - - h - - - v - h v\nh - - - h - h - - - - -\n- - - - s s - - - - - h\n- - - - - - - v - - - -\n- h - - h - - h h - - -"
+    },
+    "119_14x14": {
+      "id": "119_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/119.a.htm",
+      "problem": "14 14\n- s - s - - - - h - v s v s\nv - - s - - - - - - - - - v\n- - - s - - - - - - - v - -\nv v - s - s v s - - s - v s\nh - v - - s - v s - - - - v\n- - - v v v - - s - s - - -\n- - h - v - - s - - s - - -\n- h - - - h - - - h - v v -\n- - - - - h s s - h - h - -\n- - - - - h - - - - - s s -\nh - - - v s s - s v - h - -\n- - - - - - - - - - s - v s\n- - s v - - - - - - - v - -\ns - h - - - s - - - h - s v"
+    },
+    "120_14x14": {
+      "id": "120_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/120.a.htm",
+      "problem": "14 14\n- - - - - s - - - - s - - -\n- - - v - s - - - h v - v -\ns - - - - h - - v - - v - -\n- - h - - - - - - - - - v s\ns - - - - - - s - v - - - -\ns - - - h h - - - v - v - v\nh - s - h - - v - - - h - s\ns h - - - - - - - - - s - s\n- - s h - s s - - - s - v s\n- s - - - h - h - - s v - -\ns - - - h h - - h - - - - -\n- - - - - v - - - h - - - v\n- - - - - - - h s - - v v -\n- - - h - - s - h s - h - v"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/121.a.htm",
+      "problem": "8 8\n- - - - - - v -\ns - - - - h - -\ns - - - h - - -\n- - - - h s - -\nv - s - - - h -\n- - s v v s - s\nv - h - - v - -\n- h - - s - h -"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/122.a.htm",
+      "problem": "8 8\n- - h - - s - -\ns - h v s - - -\n- - h - - - - -\ns - h - - h - v\nh - v - - - s -\n- h - - - s - -\ns s - h - - - s\nh - - - h s - h"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/123.a.htm",
+      "problem": "10 10\n- h v - - - - - - v\n- h - v s - - - h -\n- h - - h - - s - s\n- s - - - - - - - -\nv - - - s - v - - h\n- - s h - - v - h -\n- s - - h s - - - -\n- - - - - - - v - v\nh - - - - s - - - -\ns - - - - h - h v s"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/124.a.htm",
+      "problem": "10 10\nv - v s - s v - - s\n- - - - - - - - v -\n- - - - h v - v - v\n- - - - - - - - - -\ns s v - v s s - - -\nh - - - - - - s s -\n- - - v h - - - - -\nv s - h - - - - s -\n- - s - - - h - - v\ns - - v v h - s h -"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/125.a.htm",
+      "problem": "10 10\n- - - - s s s - - s\n- - v - - - - - - s\n- - - - s - - v - -\n- - - - - v - - h -\nv - - - - h h - s -\nh - s - h - - - - v\n- - h - - - - h h -\nh - - - v - - - s -\n- h - h - - - - - v\nh - - s - - - - - h"
+    },
+    "126_12x12": {
+      "id": "126_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/126.a.htm",
+      "problem": "12 12\ns - - - s - s - - - - s\n- - - v - - - - - v - -\n- - - - v - - - - v v -\ns s - - - - - - - - v -\n- - - - - - v - - - - -\n- - - s - - - - s v - v\n- - v - - - - s s - - -\nv - - - h - h - - - - v\n- - s - - h v - - s - v\n- - - s - - - - s s - -\n- - - - - - - - s - - -\n- h - - s v - - - - - h"
+    },
+    "127_12x12": {
+      "id": "127_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/127.a.htm",
+      "problem": "12 12\ns - - - - s - - h - - h\n- - - - - s - v s - - -\nv - - s - - - - h - - -\n- - s s - v - s - s - s\n- - s - - v - - - - - -\nv - - - - - v h - - - v\n- - - h - - - - - h s -\n- s - s h - - h - v - -\nh - - - - v - - - - - h\nv - - - - - s - - h - -\n- - - h - - h - s - - -\nh - s - h - h - - h - -"
+    },
+    "128_12x12": {
+      "id": "128_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/128.a.htm",
+      "problem": "12 12\n- h - - - - - s - h v s\n- - s - - - - - - - - v\ns - - - s - v s v - - -\nh - v - - - - v - - - s\n- - - - v v - - - v h -\n- - - - - - s - - s - -\n- - - - - - - - - - - -\n- - - s - - - - - h - v\n- - - - - v - v - - - -\ns - - - - s - - s s - h\n- - - - - - h - - h - v\n- - - - v - h - - h s -"
+    },
+    "129_14x14": {
+      "id": "129_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/129.a.htm",
+      "problem": "14 14\n- - - - - - - s s s - - - s\n- - - s - - - - - h - - h -\ns - - - - - - - s - - h - v\nh - s - - - - v - - - - s -\nv - - h - s - h - - v - - v\n- v s s v - h v - - - - s -\n- - - - h - s - v s v - h -\n- - - - - - - h - s - v h -\n- - - v s s - - h - - - - -\n- - s - h - v h - - - - - v\n- - - s s - h - - - h s h -\ns - - - - - - s - - - - - h\n- - - - - - - h - s - s - -\n- h - - s - - s s - - s v v"
+    },
+    "130_14x14": {
+      "id": "130_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/130.a.htm",
+      "problem": "14 14\n- - - - h v - v - v - - - s\n- - - - v - v - - - - h - -\n- - - h - - s - - - - - h -\n- - - - - - v - s - h h - v\n- - - - v s - - - - - - - h\n- - - - - v - - - - v s s -\nv - - - - - s v - v - - v -\nv s h - - h - - - - s - - v\n- s - - - - s s s - - - - -\nv - - - h - - h - - - - - s\n- s - - h - h - s s - - h -\nh - - s h - - - - h v - h -\n- - - - h s - h s - h - s v\n- s s s - - h h - - s - - h"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/131.a.htm",
+      "problem": "8 8\nv - - - v h - v\n- - - - - - s -\n- v - v - - - -\n- - s v - - - s\n- - - - s v v v\nh - - - - - h -\n- - h - h h - -\n- - - h h - - s"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/132.a.htm",
+      "problem": "8 8\n- s - v - h s -\nv - - - - - - -\nv - - - - - v s\n- - - - - - - -\n- - - - - v - -\n- - - - - - - v\n- s s h - - v -\n- - - - - - - h"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/133.a.htm",
+      "problem": "10 10\ns - - - s h - - - v\ns - - - s - - - - -\ns - - s - - - - - -\n- - - h v - - - v v\ns - - s - - - - - s\n- - s s - s - - - -\n- s s - - - - s - -\nv - - - - - - s - -\n- - - - h - v - - v\n- h s - - h h - h -"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/134.a.htm",
+      "problem": "10 10\nh - - - - h - - v -\n- h v - v - - h - -\nh - - - h - - - - -\nv h - - - h - - - -\n- - - - - - - s h -\ns - - - - - - - - v\n- - - - - s - - s -\n- - v - v h - - - -\nv h - - - - s - s -\nh - s - h - - - s -"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/135.a.htm",
+      "problem": "10 10\n- v h - - s - - s -\n- - - - - - - v - v\n- - - - - v - - v -\n- - v - v s - - - -\n- - s - v - - - h -\n- - h - - - - - - v\n- - - - - - - v - -\ns - - - - v - s - -\n- - - s s - - - - -\nh - - - - h v - h -"
+    },
+    "136_12x12": {
+      "id": "136_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/136.a.htm",
+      "problem": "12 12\nv v - - v s - - - h v s\n- - s - - - - - h s - -\n- s - - - - - - - - - -\n- - - - - - - v - - - -\ns - - - v - s - - v s v\n- - - - - - s - - - - -\n- - - - - h - - v s - s\nh - - - h - - v - - - v\n- - - - - - - - - v - -\nv - h - s - - v - v - -\n- - h - - - - - - - - -\nh - s - - - - - s - - h"
+    },
+    "137_12x12": {
+      "id": "137_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/137.a.htm",
+      "problem": "12 12\n- - - h - - - v v h - v\nv s s - h - - - - - - -\n- - - - - - - - h v v -\ns - - - h - v - h - v -\n- - - - - - - - s - - s\n- - - - v - - v s - - -\ns - v - h v - s - - v v\n- - - - - - h - - - - s\n- - h s - - - h - - - -\n- - - - - - - - - - s -\nh - - - v - - h - - - -\ns s - h - - s s - - - -"
+    },
+    "138_12x12": {
+      "id": "138_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/138.a.htm",
+      "problem": "12 12\ns - - - - - - h - - - -\n- - - - - - - - - - - s\n- - - - v - - v s v - v\n- - - - - - - - - s - -\ns - v s - s v s - - v -\nh - - - - - h - - - - h\ns - - - - - h s - - - -\n- - - - - v s - - - - s\n- - s - - - - - h v - v\nv - - - - h - s s - v -\nh - - h s - h - - - s -\n- - h - - - h - - s - -"
+    },
+    "139_14x14": {
+      "id": "139_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/139.a.htm",
+      "problem": "14 14\n- - s s - s - - - - h - - -\nv - s - - - h - - - - - - s\n- - h - v - - - - - - - h v\n- h - - - v - v - - h s - -\nv - s s - v - - - - - - - s\ns - h - - - v - s h - - v s\ns v - h - - - - - - h v v -\n- - - - h v v v - h v - - -\ns - h h - - - - - h - v - -\nh - - - h s - - - - - - s -\n- h - - - s - v - h - v - -\n- - - - - - - - - - s - s s\ns - s - h - - - h - - - - h\ns v h - - - s - h - - h s s"
+    },
+    "140_14x14": {
+      "id": "140_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/140.a.htm",
+      "problem": "14 14\n- - - - s - - h v h - - - s\n- - - - - - h v - - h - h -\n- s - - v - s - - - - - h -\n- - - - - - s - v - - h - s\n- s - h - - - - h - v - s -\n- - - - - h - - v - - - - -\n- - - s - h v - - - v - - -\nv v - - s - - - - v - s - -\n- - s - - - - s - - - v - s\n- v h - - - - - h - - - - v\ns - - - - - - - - h s - v -\n- - - - s s - s s v - - - -\n- h - - s - - - - - - - - h\n- h s s - - - - h - s h - -"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/141.a.htm",
+      "problem": "8 8\nh - s - h h - s\n- - - - - - - h\n- - - - s v s -\n- - - - v - - -\n- s - - - - - v\ns - - - - v - -\n- - - - h - - v\nh - - s h - - -"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/142.a.htm",
+      "problem": "8 8\nv v - - - - - -\n- - v - - h - v\ns - - v - - - -\n- s - s - - h v\n- - - - - - s -\n- - h - - - - -\n- h - - - - s -\nh - - v - - - s"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/143.a.htm",
+      "problem": "10 10\n- - v - - h - - - s\n- - - - - h - h v -\n- - - - - - - s - -\n- h - h - - - - - -\nv s - - - h v - - -\n- - - - - s - v h -\nv h - - - - - - - -\n- - h - v - s - - v\nv - - - h - - v - -\n- s - - - h - h v v"
+    },
+    "144_10x10": {
+      "id": "144_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/144.a.htm",
+      "problem": "10 10\nv - v - v - v h - v\n- - - - - - - - - -\n- - - - - - - - v v\n- s s v - - s v - -\nv - - - h - - v v -\n- - - - - h - - - s\n- - - - - - - - - -\n- - s h - - - - - s\ns s - h - s - - v v\n- - - h - h - - h -"
+    },
+    "145_10x10": {
+      "id": "145_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/145.a.htm",
+      "problem": "10 10\n- s - - - - v h - s\n- - - - s - - s - -\n- - - - h - - s - -\n- - - - v s - s - v\nv h - s - - - h - -\n- s - - - - - - v s\n- - - - - - h - - s\ns v s - - - - - - -\n- - - h h - s s - s\n- - - h - - h - - s"
+    },
+    "146_12x12": {
+      "id": "146_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/146.a.htm",
+      "problem": "12 12\nv - - s - - - - - h - -\n- - - - - h - v - - - -\n- - - s - - - - - v h -\nv - - - - - - s - - - h\n- - - - - - - - - - s v\n- - - - - - s - h - v -\n- - h h - - - - - h - v\ns - - h - - - h - h - -\n- - h - s - s - - - - -\ns - s - h - - - - v - h\n- - - h v - - - v - s -\ns s h - - v - - - h - -"
+    },
+    "147_12x12": {
+      "id": "147_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/147.a.htm",
+      "problem": "12 12\n- - - - h - - - v h - v\n- s - h s - - - - - - -\nh - - h - - - - s - - -\ns - h - - - v - - v - -\ns - - - v - - s - - v -\n- - - - - s - s - - s -\n- - - - - - - - v - v -\n- - h - s - h - - s - -\n- h h - - - s - - - - -\n- - - h - - h - - s s s\nh - - - - s s - - - h -\ns - - - - - h - h - - s"
+    },
+    "148_12x12": {
+      "id": "148_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/148.a.htm",
+      "problem": "12 12\n- - - - - - v - v - - s\ns - - s - - - - - - s s\ns s - - - - - - h - - -\n- - h h - - - - s - - s\nh - - - - - s - h v s s\n- - h s - h - - h - - -\n- s - - - s - - h v s -\n- - - - h - - - h - - -\nh - - - - - - - s - - -\n- - - - - - - v s - - s\n- h - s s - - s - - - -\nv s - - - h - h - - - s"
+    },
+    "149_14x14": {
+      "id": "149_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/149.a.htm",
+      "problem": "14 14\ns h - h - - - s - h v - s -\n- s s - - - - - - - - - s -\n- - - - h - - - s - - - s -\nh - - s s - - - s - - - - v\ns s - - - v - v - - - v - s\n- v - - - s - v - - - v v -\n- - v - - s - - v - h - - -\n- - - - - v - s - - - - - v\n- - s s v - v - s h - - v s\n- - - - - h - - - - v - - -\n- s - - h - h - - v - v - -\n- - - - s h - s - s - - v -\n- - - - - - - - - - s - v v\ns s s s - h - - s - - h - s"
+    },
+    "150_14x14": {
+      "id": "150_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Tatamibari/150.a.htm",
+      "problem": "14 14\nh - - s - v s s - - s - - h\n- - - - - - - - v - s - - h\ns v - v - - - v s v s - - s\n- - - - s - - - - h - - v -\nv - - s - v s - - - s v s v\n- - - - - - - - v - - - - -\n- v - - - - - - - s - - s -\n- - - h - - - - - h - - - -\n- - s s s - - - - h - - s -\ns h - - - v - h - - - - s -\n- - - s - - h - s s v - v v\n- v - v - h - - - - - s - -\n- - - - - v s - h - - - - s\n- - - - - - h - s s s v - s"
+    }
+  },
+  "info": "",
+  "count": 150
+}

@@ -13,6 +13,9 @@ from NonogramSolver import NonogramSolver
 from NorinoriSolver import NorinoriSolver
 from KakurasuSolver import KakurasuSolver
 from FuzuliSolver import FuzuliSolver
+from TilePaintSolver import TilePaintSolver
+from MunraitoSolver import MunraitoSolver
+from ThermometerSolver import ThermometerSolver
 from SudokuSolver import SudokuSolver
 from ButterflySudokuSolver import ButterflySudokuSolver
 from Clueless1SudokuSolver import Clueless1SudokuSolver
@@ -24,6 +27,18 @@ from ShogunSudokuSolver import ShogunSudokuSolver
 from SoheiSudokuSolver import SoheiSudokuSolver
 from SumoSudokuSolver import SumoSudokuSolver
 from WindmillSudokuSolver import WindmillSudokuSolver
+from KillerSudokuSolver import KillerSudokuSolver
+from JigsawSudokuSolver import JigsawSudokuSolver
+from Str8tSolver import Str8tSolver
+from StarbattleSolver import StarbattleSolver
+from SquareOSolver import SquareOSolver
+from RenbanSolver import RenbanSolver
+from KakuroSolver import KakuroSolver
+from NondangoSolver import NondangoSolver
+from SimpleloopSolver import SimpleloopSolver
+from LinesweeperSolver import LinesweeperSolver
+from SlitherlinkSolver import SlitherlinkSolver
+
 
 from typing import Dict, Any
 
@@ -46,6 +61,8 @@ class SolverFactory:
         "Norinori": NorinoriSolver,
         "Kakurasu": KakurasuSolver,
         "Fuzuli": FuzuliSolver,
+        "TilePaint": TilePaintSolver,
+
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,
@@ -57,7 +74,21 @@ class SolverFactory:
         "ShogunSudoku": ShogunSudokuSolver,
         "SoheiSudoku": SoheiSudokuSolver,
         "SumoSudoku": SumoSudokuSolver,
-        "WindmillSudoku": WindmillSudokuSolver
+        "WindmillSudoku": WindmillSudokuSolver,
+        "KillerSudoku": KillerSudokuSolver,
+        "JigsawSudoku": JigsawSudokuSolver,
+        "Munraito": MunraitoSolver,
+        "Thermometer": ThermometerSolver,
+        "Str8t": Str8tSolver,
+        "Starbattle": StarbattleSolver,
+        "SquareO": SquareOSolver,
+        "Renban": RenbanSolver,
+        "Kakuro": KakuroSolver,
+        "Nondango": NondangoSolver,
+        "Simpleloop": SimpleloopSolver,
+        "Linesweeper": LinesweeperSolver,
+        "Slitherlink": SlitherlinkSolver
+
     }
     
     @classmethod

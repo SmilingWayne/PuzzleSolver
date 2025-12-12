@@ -1,0 +1,195 @@
+{
+  "count": 38,
+  "puzzles": {
+    "01_5x6": {
+      "id": "01_5x6",
+      "problem": "5 6\n. . . . - -\n. - - - 3 -\n- - 3 . . .\n- . - - - .\n- . . . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/001.a.htm"
+    },
+    "02_8x9": {
+      "id": "02_8x9",
+      "problem": "8 9\n. . . . . - . . .\n. . . - - 8 - - .\n. - - - . . . - .\n8 13 - 13 . 3 . 3 .\n- . - - - - 4 - .\n- . 6 - - - - - .\n- - . . - - . - -\n. . . 1 - 2 - . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/002.a.htm"
+    },
+    "03_4x6": {
+      "id": "03_4x6",
+      "problem": "4 6\n. . . 2 . . \n. . . - 5 .\n. . . - - .\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/003.a.htm"
+    },
+    "04_4x8": {
+      "id": "04_4x8",
+      "problem": "4 8\n. . . 2 . . . .\n. . . - 5 . . .\n. . . - - . . .\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/004.a.htm"
+    },
+    "05_4x8": {
+      "id": "05_4x8",
+      "problem": "4 8\n2 . . - . - . .\n- - 5 - - - - -\n- - - . - . - .\n3 . . . - . - .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/005.a.htm"
+    },
+    "06_6x6": {
+      "id": "06_6x6",
+      "problem": "6 6\n- . . . . .\n- . . . . .\n1 - . - . -\n- - - - . -\n- - . - - -\n. - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/006.a.htm"
+    },
+    "07_4x5": {
+      "id": "07_4x5",
+      "problem": "4 5\n3 - 9 - -\n- - - - - \n. - . - 3\n. 2 - - .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/007.a.htm"
+    },
+    "08_3x5": {
+      "id": "08_3x5",
+      "problem": "3 5\n. 5 - - - \n. - 5 - -\n- - - 7 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/008.a.htm"
+    },
+    "09_4x6": {
+      "id": "09_4x6",
+      "problem": "4 6\n. . 3 - - .\n. . - - - .\n3 - - - 3 .\n. 5 - - - 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/009.a.htm"
+    },
+    "10_4x6": {
+      "id": "10_4x6",
+      "problem": "4 6\n- 7 - - 5 -\n5 - - 5 - -\n- 11 - . . .\n. . - . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/010.a.htm"
+    },
+    "11_4x4": {
+      "id": "11_4x4",
+      "problem": "4 4\n- - 5 -\n- 5 - 4\n. . 4 -\n- - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/011.a.htm"
+    },
+    "12_4x7": {
+      "id": "12_4x7",
+      "problem": "4 7\n. - . - . . .\n. - . - - - .\n- - - 7 - . 1\n. . - . - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/012.a.htm"
+    },
+    "13_5x4": {
+      "id": "13_5x4",
+      "problem": "5 4\n. - - - \n. . 10 .\n10 - - - \n- 10 . -\n- . . -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/013.a.htm"
+    },
+    "14_4x7": {
+      "id": "14_4x7",
+      "problem": "4 7\n- . - - . . .\n- 10 - . . . .\n- . - - - . -\n- . 7 - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/014.a.htm"
+    },
+    "15_6x5": {
+      "id": "15_6x5",
+      "problem": "6 5\n- - - - -\n. . 10 . .\n6 - - - 6\n- - - - .\n. . - 6 .\n. - - . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/015.a.htm"
+    },
+    "16_4x5": {
+      "id": "16_4x5",
+      "problem": "4 5\n- - 3 - -\n- 2 - . .\n- - - . .\n- - . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/016.a.htm"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "problem": "8 8\n. . - - - 6 - -\n. . - - - - - 2\n- - - - - - - -\n- . . - 7 . . -\n- . . - - . . .\n- . . - . . . .\n- - 1 - . . . .\n- - - - . . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/017.a.htm"
+    },
+    "18_7x12": {
+      "id": "18_7x12",
+      "problem": "7 12\n- - - - - - - - - - - -\n7 - - . . - - - . - - -\n- - - . . - - . . - - -\n- . . . - 16 - . . 20 12 -\n- 10 . . - - - . - - . -\n- 18 . - - - . 4 - - - -\n- 20 - - - - - . - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/018.a.htm"
+    },
+    "19_7x8": {
+      "id": "19_7x8",
+      "problem": "7 8\n- - - - - - - 6 \n- 12 - - - . . -\n- - - . . . . . \n12 - - - - - - -\n- - . - - - - 12\n11 . . - - 25 - - \n6 - - - 14 20 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/019.a.htm"
+    },
+    "20_10x16": {
+      "id": "20_10x16",
+      "problem": "10 16\n. . . - - 3 - - - 3 - 4 - - 1 .\n. . . . . . . - - . 3 - . - . .\n. - - . - 1 - - - - - - . - - -\n- - - - - . - . - - - - . - - .\n- . - - - 5 - . - - - 2 . - - -\n- - - . . - - 2 3 3 . - - - 5 -\n3 . - - - - - - - - - - - . 4 -\n- . - - . 3 3 2 - - . . - - - -\n- . . - - - - . 4 - 6 - - - . -\n. . 1 - - - - - 6 4 5 - - - . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/020.a.htm"
+    },
+    "21_11x12": {
+      "id": "21_11x12",
+      "problem": "11 12\n. . . 8 - - - - 5 - 4 .\n. . 8 - - . 7 - - - 3 .\n7 - - - - - 9 . . - - .\n6 - . - - - . . - - 5 -\n8 - - - - - - . 6 5 . -\n5 - 8 - - - - . - - . -\n. . - - - - - - - - - .\n. 6 5 - - - 7 . . . . . \n. - - - - - - . . . . .\n5 - - - 7 7 5 . . . . .\n4 - - . . . . . . . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/021.a.htm"
+    },
+    "22_8x13": {
+      "id": "22_8x13",
+      "problem": "8 13\n. . . . . . 6 . - - - - 1\n. . . . . . - . - - 3 . .\n19 - - - - - - . - - . . . \n- - - - - - - - - - . . .\n- - - - . 13 10 . - - - . .\n- . 16 - - - . . - - . . .\n. . - - - - 13 10 - 8 . . . \n. . - - 16 - - 8 - 7 . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/022.a.htm"
+    },
+    "23_11x16": {
+      "id": "23_11x16",
+      "problem": "11 16\n. . . . . . . . - . . - . . - -\n. . . . . . . . - 7 . 6 . . 5 -\n- - - 12 - - 19 13 - 9 . - - - 4 .\n. . . 9 15 - - - - 12 . 6 - - . .\n- - - - - - - - - - . - - - - 5\n- 5 5 . - - - - - - . - - - - 5\n- - . - - - - - 10 11 - - - 10 . . \n- . . - . 12 15 . - 9 - - - . . .\n- - . - - - - . - . - 9 7 . . .\n. . . . - - - - - - - . . . . .\n. . . . 10 8 9 8 . 7 - - - - - 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/023.a.htm"
+    },
+    "24_10x8": {
+      "id": "24_10x8",
+      "problem": "10 8\n. . 2 - - - - 4\n- 2 - - - - - -\n. . . - - - - - \n. - - 4 . - - .\n. - - - - 7 - .\n. - - . - - . . \n2 3 - - 6 4 - .\n- - . - - - - .\n2 - - . - 3 - .\n1 - - - - . - 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/024.a.htm"
+    },
+    "25_7x13": {
+      "id": "25_7x13",
+      "problem": "7 13\n. . . . . . 1 1 - . . . .\n- 2 . - - . - - - - . . . \n- 2 - - 4 - 3 - . - - - .\n- - - - 3 - . - - 2 - - .\n1 . - - - - 2 - - . - - -\n- - - - - . - - - - - - -\n. - . . . - - - - - 4 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/025.a.htm"
+    },
+    "26_10x14": {
+      "id": "26_10x14",
+      "problem": "10 14\n2 - . . . . . . . . . . . .\n3 - - - - - - - - - 3 - - -\n. . 6 - - - - - - - - - - -\n. . 5 - - - - - 4 - - - - 4\n. . - - . . - - 6 - - - - .\n. . - - - 2 - - - . - - 3 .\n. . - - - - - - - . . - - 4\n. . - - - . 2 - - - - - . -\n. . 3 - 2 - . . . 2 2 . . 2\n. . 2 - 2 - 1 - - - . . - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/026.a.htm"
+    },
+    "27_7x5": {
+      "id": "27_7x5",
+      "problem": "7 5\n1 - 3 - 3\n. . . - - \n. 5 - - 5\n. 7 - - -\n. - - - 5\n. - - . -\n. 5 - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/027.a.htm"
+    },
+    "28_9x11": {
+      "id": "28_9x11",
+      "problem": "9 11\n. - - - 3 - . 1 . 2 -\n- - 4 - . - - - - - 2\n- 2 . - - - 3 . - - .\n2 . 3 - - 3 2 - - - - \n- . - - - - - - 4 - 4\n. . 4 - - . . 4 5 - -\n2 - - . - - - - - - -\n. . - 5 - - - - - . -\n. . 5 - - . - 7 - - 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/028.a.htm"
+    },
+    "29_10x11": {
+      "id": "29_10x11",
+      "problem": "10 11\n. . . . . . . . - - 6\n. . . . . 6 - 5 - . -\n. . . . 6 - - - - - -\n. . . 6 - - - 5 - 5 .\n. . 6 - - - . - . - -\n5 - - - 7 - . - 6 - 5\n5 6 - - . 7 13 - - - .\n- - . - 7 - - - 5 - -\n- - . - - . - . - . -\n- - 5 - - . - - - - .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/029.a.htm"
+    },
+    "30_8x9": {
+      "id": "30_8x9",
+      "problem": "8 9\n. - . 3 2 . . . .\n. - . - - - - . . \n- 2 - - - . 3 . .\n- - . - - - - - .\n- . 7 - - - - - -\n- - - - - - - - -\n. - . . . . . - -\n. . . . . . . - .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/030.a.htm"
+    },
+    "32_10x8": {
+      "id": "32_10x8",
+      "problem": "10 8\n. . 2 - - - - 4\n- 2 - - - - - - \n. . . - - - - -\n. - - 4 . - - .\n. - - - - 7 - .\n. - - . - - . .\n2 3 - - 6 4 - .\n- - . - - - - .\n2 - - . - 3 - .\n1 - - - - . - 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/032.a.htm"
+    },
+    "33_11x12": {
+      "id": "33_11x12",
+      "problem": "11 12\n. . . 8 - - - - 5 - 4 .\n. . 8 - - . 7 - - - 3 .\n7 - - - - - 9 . . - - .\n6 - . - - - . . - - 5 -\n8 - - - - - - . 6 5 . -\n5 - 8 - - - - . - - . -\n. . - - - - - - - - - .\n. 6 5 - - - 7 . . . . .\n. - - - - - - . . . . .\n5 - - - 7 7 5 . . . . .\n4 - - . . . . . . . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/033.a.htm"
+    },
+    "35_11x16": {
+      "id": "35_11x16",
+      "problem": "11 16\n. . . . . . . . - . . - . . - -\n. . . . . . . . - 7 . 6 . . 5 -\n. . . 12 - - 19 13 - 9 . - - - 4 .\n. . . 9 15 - - - - 12 . 6 - - . . \n- - - - - - - - - - . - - - - 5\n- 5 5 . - - - - - - . - - - - 5\n- - . - - - - - 10 11 - - - 10 . .\n- . . - . 12 15 . - 9 - - - . . .\n- - . - - - - . - . - 9 7 . . . \n. . . . - - - - - - - . . . . . \n. . . . 10 8 9 8 . 7 - - - - - 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/035.a.htm"
+    },
+    "36_4x4": {
+      "id": "36_4x4",
+      "problem": "4 4\n- 1 - - \n- . . - \n- . . - \n- 1 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/036.a.htm"
+    },
+    "37_5x5": {
+      "id": "37_5x5",
+      "problem": "5 5\n. . - . - \n. . - 2 - \n- - - - - \n. - - . - \n. 3 2 . -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/037.a.htm"
+    },
+    "38_10x8": {
+      "id": "38_10x8",
+      "problem": "10 8\n. . . . . - . . \n. . 10 13 - - - - \n. . - - - . . - \n- 16 13 - 10 - . 3 \n. - - - . . . . \n- 8 . - - . . . \n- - . 6 - . . . \n- - . . . . . . \n- . . . . . . . \n1 . . . . . . .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/038.a.htm"
+    },
+    "39_4x8": {
+      "id": "39_4x8",
+      "problem": "4 8\n- - . 12 . - - - \n- - . - 23 - . . \n. 12 - - . - - - \n- - 23 - . - . -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/039.a.htm"
+    },
+    "40_3x5": {
+      "id": "40_3x5",
+      "problem": "3 5\n. - - - - \n2 - 2 - - \n- . . - .",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/040.a.htm"
+    }
+  }
+}

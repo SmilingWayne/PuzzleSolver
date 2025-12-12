@@ -1,0 +1,1355 @@
+{
+  "count": 270,
+  "solutions": {
+    "01_5x5": {
+      "id": "01_5x5",
+      "solution": "5 5\n1 2 3 3 3\n1 2 2 2 3\n1 1 1 2 3\n4 4 4 4 5\n4 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/001.a.htm"
+    },
+    "02_5x5": {
+      "id": "02_5x5",
+      "solution": "5 5\n1 2 3 3 3\n1 2 2 2 3\n1 1 1 2 3\n4 4 4 5 5\n4 4 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/002.a.htm"
+    },
+    "03_6x6": {
+      "id": "03_6x6",
+      "solution": "6 6\n1 1 1 1 4 6\n1 1 4 4 4 6\n2 2 2 4 4 6\n2 3 3 3 6 6\n2 3 5 5 6 5\n2 3 3 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/003.a.htm"
+    },
+    "04_5x5": {
+      "id": "04_5x5",
+      "solution": "5 5\n1 2 2 2 2\n1 3 4 4 2\n1 3 5 4 4\n1 3 5 5 4\n1 3 3 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/004.a.htm"
+    },
+    "05_5x5": {
+      "id": "05_5x5",
+      "solution": "5 5\n1 1 2 2 2\n1 2 2 3 3\n1 1 4 3 3\n5 5 4 4 3\n5 5 5 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/005.a.htm"
+    },
+    "06_5x5": {
+      "id": "06_5x5",
+      "solution": "5 5\n1 1 2 2 3\n4 1 1 2 3\n4 5 1 2 3\n4 5 5 2 3\n4 4 5 5 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/006.a.htm"
+    },
+    "07_5x5": {
+      "id": "07_5x5",
+      "solution": "5 5\n1 2 2 2 2\n1 1 3 4 2\n5 1 3 4 4\n5 1 3 3 4\n5 5 5 3 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/007.a.htm"
+    },
+    "08_6x6": {
+      "id": "08_6x6",
+      "solution": "6 6\n1 1 5 5 5 6\n2 1 1 1 5 6\n2 3 3 1 5 6\n2 3 3 3 5 6\n2 2 3 4 6 6\n2 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/008.a.htm"
+    },
+    "09_5x5": {
+      "id": "09_5x5",
+      "solution": "5 5\n1 1 2 2 2\n1 1 2 2 3\n1 4 4 4 3\n4 4 5 3 3\n5 5 5 5 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/009.a.htm"
+    },
+    "10_6x6": {
+      "id": "10_6x6",
+      "solution": "6 6\n1 4 4 4 4 4\n1 1 5 5 4 6\n2 1 5 5 5 6\n2 1 1 5 6 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/010.a.htm"
+    },
+    "11_5x5": {
+      "id": "11_5x5",
+      "solution": "5 5\n1 1 2 2 3\n4 1 1 2 3\n4 1 2 2 3\n4 4 5 3 3\n4 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/011.a.htm"
+    },
+    "12_6x6": {
+      "id": "12_6x6",
+      "solution": "6 6\n1 2 4 4 4 6\n1 2 2 4 4 6\n1 3 2 2 4 6\n1 3 2 5 6 6\n1 3 3 5 6 5\n1 3 3 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/012.a.htm"
+    },
+    "13_5x5": {
+      "id": "13_5x5",
+      "solution": "5 5\n1 2 2 3 3\n1 2 3 3 4\n1 2 2 3 4\n1 1 5 4 4\n5 5 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/013.a.htm"
+    },
+    "14_5x5": {
+      "id": "14_5x5",
+      "solution": "5 5\n1 1 1 2 2\n3 1 1 2 2\n3 3 3 3 2\n4 4 5 5 5\n4 4 4 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/014.a.htm"
+    },
+    "15_5x5": {
+      "id": "15_5x5",
+      "solution": "5 5\n1 2 2 2 2\n1 3 3 4 2\n1 1 3 4 4\n5 1 3 3 4\n5 5 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/015.a.htm"
+    },
+    "16_5x5": {
+      "id": "16_5x5",
+      "solution": "5 5\n1 2 2 2 2\n1 2 3 3 3\n1 1 3 3 4\n5 1 5 4 4\n5 5 5 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/016.a.htm"
+    },
+    "17_6x6": {
+      "id": "17_6x6",
+      "solution": "6 6\n1 1 1 5 5 5\n2 2 1 3 3 5\n2 1 1 3 6 5\n2 3 3 3 6 5\n2 4 4 4 6 6\n2 4 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/017.a.htm"
+    },
+    "18_5x5": {
+      "id": "18_5x5",
+      "solution": "5 5\n1 1 2 3 3\n1 2 2 2 3\n1 1 2 3 3\n4 4 4 4 4\n5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/018.a.htm"
+    },
+    "19_5x5": {
+      "id": "19_5x5",
+      "solution": "5 5\n1 1 2 2 2\n1 1 3 4 2\n1 3 3 4 2\n3 3 5 4 4\n5 5 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/019.a.htm"
+    },
+    "20_5x5": {
+      "id": "20_5x5",
+      "solution": "5 5\n1 1 1 1 2\n3 3 1 2 2\n4 3 3 2 5\n4 4 3 2 5\n4 4 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/020.a.htm"
+    },
+    "21_5x5": {
+      "id": "21_5x5",
+      "solution": "5 5\n1 1 1 2 3\n4 4 1 2 3\n5 4 1 2 3\n5 4 4 2 3\n5 5 5 2 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/021.a.htm"
+    },
+    "22_5x5": {
+      "id": "22_5x5",
+      "solution": "5 5\n1 1 1 2 2\n1 1 2 2 2\n3 3 4 4 4\n5 3 3 3 4\n5 5 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/022.a.htm"
+    },
+    "23_6x6": {
+      "id": "23_6x6",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 5 5 5 5\n3 2 2 2 5 5\n3 3 2 6 6 6\n3 3 3 4 4 6\n4 4 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/023.a.htm"
+    },
+    "24_6x6": {
+      "id": "24_6x6",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 2 6\n2 3 3 6 6 6\n3 3 6 6 4 4\n3 4 4 4 4 5\n3 5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/024.a.htm"
+    },
+    "25_5x5": {
+      "id": "25_5x5",
+      "solution": "5 5\n1 1 1 1 2\n3 3 1 2 2\n3 3 2 2 4\n5 3 5 4 4\n5 5 5 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/025.a.htm"
+    },
+    "26_5x5": {
+      "id": "26_5x5",
+      "solution": "5 5\n1 1 2 2 3\n1 1 2 2 3\n1 4 4 2 3\n4 4 5 3 3\n4 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/026.a.htm"
+    },
+    "27_5x5": {
+      "id": "27_5x5",
+      "solution": "5 5\n1 1 1 2 2\n1 1 2 2 2\n3 3 4 5 5\n3 4 4 5 5\n3 3 4 4 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/027.a.htm"
+    },
+    "28_5x5": {
+      "id": "28_5x5",
+      "solution": "5 5\n1 1 1 1 1\n2 2 2 2 2\n3 3 4 4 4\n3 5 5 5 4\n3 3 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/028.a.htm"
+    },
+    "29_5x5": {
+      "id": "29_5x5",
+      "solution": "5 5\n1 2 2 3 3\n1 2 2 2 3\n1 1 4 3 3\n1 5 4 4 4\n5 5 5 5 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/029.a.htm"
+    },
+    "30_5x5": {
+      "id": "30_5x5",
+      "solution": "5 5\n1 1 2 2 3\n1 2 2 2 3\n1 1 4 3 3\n5 5 4 4 3\n5 5 5 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/030.a.htm"
+    },
+    "31_6x6": {
+      "id": "31_6x6",
+      "solution": "6 6\n1 2 2 2 3 3\n1 2 2 3 3 4\n1 2 3 3 4 4\n1 1 5 5 6 4\n1 5 5 6 6 4\n5 5 6 6 6 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/031.a.htm"
+    },
+    "32_6x6": {
+      "id": "32_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n3 1 1 2 4 4\n3 1 2 2 4 4\n3 3 5 5 6 4\n3 3 5 6 6 4\n5 5 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/032.a.htm"
+    },
+    "33_6x6": {
+      "id": "33_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n3 1 2 2 4 2\n3 1 1 4 4 4\n3 3 3 5 6 4\n3 5 5 5 6 4\n5 5 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/033.a.htm"
+    },
+    "34_6x6": {
+      "id": "34_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n1 1 1 2 2 2\n3 3 3 3 3 3\n4 4 4 4 4 4\n5 5 5 6 6 6\n5 5 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/034.a.htm"
+    },
+    "35_6x6": {
+      "id": "35_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n1 3 1 2 4 2\n1 3 4 4 4 2\n3 3 4 5 5 5\n3 6 4 5 6 5\n3 6 6 6 6 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/035.a.htm"
+    },
+    "36_6x6": {
+      "id": "36_6x6",
+      "solution": "6 6\n1 1 1 1 2 2\n1 1 3 2 2 2\n4 4 3 3 2 5\n4 6 3 3 3 5\n4 6 6 6 5 5\n4 4 6 6 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/036.a.htm"
+    },
+    "37_6x6": {
+      "id": "37_6x6",
+      "solution": "6 6\n1 1 1 1 2 3\n4 5 1 1 2 3\n4 5 5 2 2 3\n4 5 5 2 3 3\n4 5 6 2 3 6\n4 4 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/037.a.htm"
+    },
+    "38_6x6": {
+      "id": "38_6x6",
+      "solution": "6 6\n1 1 1 1 2 2\n3 1 1 2 2 2\n3 3 3 3 3 2\n4 4 4 4 4 5\n4 6 6 5 5 5\n6 6 6 6 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/038.a.htm"
+    },
+    "39_6x6": {
+      "id": "39_6x6",
+      "solution": "6 6\n1 1 2 2 2 3\n1 2 2 3 2 3\n1 1 1 3 3 3\n4 4 4 4 4 5\n4 6 6 5 5 5\n6 6 6 6 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/039.a.htm"
+    },
+    "40_6x6": {
+      "id": "40_6x6",
+      "solution": "6 6\n1 1 1 1 2 3\n1 4 2 1 2 3\n4 4 2 2 2 3\n5 4 4 6 3 3\n5 4 5 6 3 6\n5 5 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/040.a.htm"
+    },
+    "41_6x6": {
+      "id": "41_6x6",
+      "solution": "6 6\n1 2 2 3 4 4\n1 1 2 3 4 4\n1 1 2 3 4 4\n1 2 2 3 3 3\n5 6 6 6 6 6\n5 5 5 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/041.a.htm"
+    },
+    "42_6x6": {
+      "id": "42_6x6",
+      "solution": "6 6\n1 1 2 2 3 3\n4 1 1 2 2 3\n4 1 5 2 2 3\n4 1 5 6 3 3\n4 5 5 6 6 6\n4 4 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/042.a.htm"
+    },
+    "43_6x6": {
+      "id": "43_6x6",
+      "solution": "6 6\n1 1 1 1 2 2\n3 1 1 4 2 2\n3 3 4 4 5 2\n3 3 4 4 5 2\n3 6 4 6 5 5\n6 6 6 6 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/043.a.htm"
+    },
+    "44_6x6": {
+      "id": "44_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n3 1 1 1 2 2\n3 3 4 4 4 2\n3 3 4 4 5 5\n3 6 4 6 5 5\n6 6 6 6 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/044.a.htm"
+    },
+    "45_6x6": {
+      "id": "45_6x6",
+      "solution": "6 6\n1 1 2 2 3 3\n1 1 1 2 2 3\n1 4 2 2 3 3\n4 4 5 5 3 6\n4 5 5 6 6 6\n4 4 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/045.a.htm"
+    },
+    "46_4x4": {
+      "id": "46_4x4",
+      "solution": "4 4\n1 4 4 3\n1 1 4 3\n2 1 4 3\n2 2 2 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/046.a.htm"
+    },
+    "47_4x4": {
+      "id": "47_4x4",
+      "solution": "4 4\n1 1 4 4\n2 1 1 4\n2 2 2 4\n3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/047.a.htm"
+    },
+    "48_6x6": {
+      "id": "48_6x6",
+      "solution": "6 6\n1 1 1 1 1 5\n2 2 1 6 6 5\n2 6 6 6 5 5\n2 6 4 4 4 5\n2 2 3 3 4 5\n3 3 3 3 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/048.a.htm"
+    },
+    "49_6x6": {
+      "id": "49_6x6",
+      "solution": "6 6\n3 2 2 2 2 1\n3 2 5 5 2 1\n3 3 5 4 1 1\n3 5 5 4 1 1\n3 5 6 4 4 4\n6 6 6 6 6 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/049.a.htm"
+    },
+    "50_6x6": {
+      "id": "50_6x6",
+      "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 5 5\n1 2 4 5 6 5\n1 2 2 5 6 6\n2 2 2 3 3 6\n3 3 3 3 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/050.a.htm"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "solution": "6 6\n1 3 3 3 3 3\n1 3 4 4 4 6\n1 4 4 5 5 6\n1 4 2 2 5 6\n1 1 2 5 5 6\n2 2 2 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/051.a.htm"
+    },
+    "52_6x6": {
+      "id": "52_6x6",
+      "solution": "6 6\n1 1 1 2 2 2\n4 4 1 1 2 2\n4 4 4 1 2 3\n4 5 6 3 3 3\n5 5 6 6 3 3\n5 5 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/052.a.htm"
+    },
+    "53_6x6": {
+      "id": "53_6x6",
+      "solution": "6 6\n1 6 6 6 5 5\n1 6 6 5 5 5\n1 1 6 4 4 5\n2 1 1 3 4 4\n2 2 2 3 3 4\n2 2 3 3 3 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\n1 3 4 4 4 7 7 7\n1 3 4 3 4 4 7 7\n1 3 3 3 3 4 7 7\n1 1 1 3 6 4 7 8\n1 2 5 6 6 8 8 8\n1 2 5 5 6 8 6 8\n2 2 2 5 6 6 6 8\n2 2 2 5 5 5 5 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/054.a.htm"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "solution": "8 8\n1 1 1 1 2 5 5 6\n1 1 2 2 2 5 5 6\n1 1 2 2 2 5 6 6\n4 4 2 5 5 5 7 6\n4 4 3 3 3 8 7 6\n4 4 3 3 8 8 7 6\n4 3 3 8 8 8 7 6\n4 3 8 8 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/055.a.htm"
+    },
+    "56_8x8": {
+      "id": "56_8x8",
+      "solution": "8 8\n1 1 1 5 5 7 7 7\n1 2 1 5 5 5 7 8\n2 2 1 1 5 5 7 8\n2 3 1 6 6 5 7 8\n2 3 4 4 6 6 7 8\n2 3 4 4 4 6 7 8\n2 3 4 4 4 6 8 8\n2 3 3 3 3 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/056.a.htm"
+    },
+    "57_8x8": {
+      "id": "57_8x8",
+      "solution": "8 8\n1 1 4 4 4 4 4 4\n1 4 4 6 6 6 6 6\n1 1 1 1 8 8 8 6\n2 2 1 7 8 8 8 6\n2 2 2 7 7 8 8 6\n3 2 2 2 7 7 7 7\n3 3 3 3 3 3 5 7\n3 5 5 5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/057.a.htm"
+    },
+    "58_9x9": {
+      "id": "58_9x9",
+      "solution": "9 9\n1 1 1 6 6 6 6 6 6\n4 4 1 1 1 1 1 6 3\n4 4 4 1 2 2 6 6 3\n4 4 5 5 2 2 3 3 3\n4 4 5 5 5 2 3 7 7\n5 5 5 2 2 2 3 3 7\n5 9 9 2 8 7 3 7 7\n9 9 9 8 8 7 7 7 8\n9 9 9 9 8 8 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/058.a.htm"
+    },
+    "59_9x9": {
+      "id": "59_9x9",
+      "solution": "9 9\n1 1 1 1 7 7 7 9 9\n2 2 2 1 1 7 7 7 9\n2 3 2 2 1 1 7 7 9\n2 3 3 2 1 5 7 9 9\n2 3 5 5 5 5 9 9 8\n3 3 3 5 5 5 9 8 8\n3 4 6 6 5 8 8 8 8\n3 4 4 6 6 6 6 6 8\n4 4 4 4 4 4 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/059.a.htm"
+    },
+    "60_9x9": {
+      "id": "60_9x9",
+      "solution": "9 9\n1 3 3 3 3 6 6 8 8\n1 3 3 3 3 6 8 8 8\n1 1 3 6 6 6 8 8 8\n2 1 1 6 6 5 5 9 8\n2 1 5 5 6 5 9 9 9\n2 1 5 5 5 5 7 7 9\n2 1 2 4 4 4 4 7 9\n2 2 2 4 7 4 7 7 9\n2 4 4 4 7 7 7 9 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/060.a.htm"
+    },
+    "61_4x4": {
+      "id": "61_4x4",
+      "solution": "4 4\n1 1 3 3\n2 1 3 4\n2 1 3 4\n2 2 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/061.a.htm"
+    },
+    "62_6x6": {
+      "id": "62_6x6",
+      "solution": "6 6\n1 1 4 4 4 4\n1 1 4 5 5 5\n1 2 4 5 6 5\n1 2 2 5 6 6\n2 2 2 3 3 6\n3 3 3 3 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/062.a.htm"
+    },
+    "63_6x6": {
+      "id": "63_6x6",
+      "solution": "6 6\n1 1 1 5 5 5\n2 2 1 1 5 5\n2 2 2 1 5 6\n2 3 4 6 6 6\n3 3 4 4 6 6\n3 3 3 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/063.a.htm"
+    },
+    "64_6x6": {
+      "id": "64_6x6",
+      "solution": "6 6\n1 3 3 3 5 5\n1 3 3 5 5 5\n1 1 3 6 6 5\n2 1 1 4 6 6\n2 2 2 4 4 6\n2 2 4 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/064.a.htm"
+    },
+    "65_6x6": {
+      "id": "65_6x6",
+      "solution": "6 6\n1 1 1 5 5 6\n2 2 1 1 5 6\n2 4 4 1 5 6\n2 2 4 5 5 6\n2 4 4 4 6 6\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/065.a.htm"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "solution": "8 8\n1 1 1 1 4 7 7 7\n2 1 4 4 4 4 7 8\n2 1 4 4 4 7 7 8\n2 1 3 3 5 7 8 8\n2 1 3 5 5 7 6 8\n2 2 3 5 5 5 6 8\n2 2 3 5 6 5 6 8\n3 3 3 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/066.a.htm"
+    },
+    "67_8x8": {
+      "id": "67_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 4\n1 1 4 6 6 6 6 6\n1 1 1 1 1 8 8 6\n2 2 2 5 5 5 8 6\n2 2 5 5 5 5 8 6\n3 2 2 3 5 7 8 8\n3 2 3 3 7 7 8 8\n3 3 3 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/067.a.htm"
+    },
+    "68_8x8": {
+      "id": "68_8x8",
+      "solution": "8 8\n1 3 3 3 4 6 6 8 \n1 3 4 3 4 6 8 8 \n1 3 4 3 4 6 7 8 \n1 3 4 4 4 6 7 8 \n1 1 2 2 2 6 7 8 \n1 2 2 5 6 6 7 8 \n1 2 5 5 5 5 7 8 \n2 2 5 5 5 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/068.a.htm"
+    },
+    "69_9x9": {
+      "id": "69_9x9",
+      "solution": "9 9\n1 4 4 4 4 5 5 5 8\n1 4 5 5 5 5 8 8 8\n1 4 4 5 6 5 9 8 8\n1 1 4 4 6 6 9 9 8\n2 1 1 1 6 6 6 9 8\n2 2 1 6 6 6 7 9 8\n2 2 2 2 3 3 7 9 9\n3 2 2 3 3 7 7 9 9\n3 3 3 3 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/069.a.htm"
+    },
+    "70_9x9": {
+      "id": "70_9x9",
+      "solution": "9 9\n1 1 1 5 5 5 5 5 5\n1 2 1 1 1 1 1 5 8\n2 2 2 2 6 6 5 5 8\n2 3 3 6 6 6 8 8 8\n2 2 3 6 6 6 8 9 9\n2 3 3 7 6 8 8 9 9\n3 3 4 7 7 8 9 9 9\n3 4 4 4 7 7 7 7 9\n3 4 4 4 4 4 7 7 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/070.a.htm"
+    },
+    "71_4x4": {
+      "id": "71_4x4",
+      "solution": "4 4\n1 1 3 3\n1 1 4 3\n2 2 4 3\n2 2 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/071.a.htm"
+    },
+    "72_6x6": {
+      "id": "72_6x6",
+      "solution": "6 6\n1 4 4 4 4 6\n1 4 5 4 5 6\n1 1 5 5 5 6\n2 1 1 2 5 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/072.a.htm"
+    },
+    "73_6x6": {
+      "id": "73_6x6",
+      "solution": "6 6\n1 1 4 4 4 6\n2 1 1 1 4 6\n2 3 3 1 4 6\n2 3 5 5 4 6\n2 3 3 5 6 6\n2 2 3 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/073.a.htm"
+    },
+    "74_6x6": {
+      "id": "74_6x6",
+      "solution": "6 6\n1 4 4 4 4 4\n1 1 5 5 5 4\n2 1 5 6 5 5\n2 1 1 6 6 6\n2 2 2 2 3 6\n3 3 3 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/074.a.htm"
+    },
+    "75_6x6": {
+      "id": "75_6x6",
+      "solution": "6 6\n1 2 2 5 6 6\n1 3 2 5 5 6\n1 3 2 2 5 6\n1 3 4 2 5 6\n1 3 4 4 5 6\n1 3 3 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/075.a.htm"
+    },
+    "76_8x8": {
+      "id": "76_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 7\n1 1 5 5 7 7 5 7\n1 1 1 6 6 7 7 7\n2 2 1 6 6 6 6 7\n3 2 2 2 8 8 6 6\n3 2 3 2 2 8 8 8\n3 3 3 3 4 4 4 8\n3 4 4 4 4 4 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/076.a.htm"
+    },
+    "77_8x8": {
+      "id": "77_8x8",
+      "solution": "8 8\n1 1 1 1 4 6 6 8\n2 1 4 4 4 6 8 8\n2 1 4 4 6 6 6 8\n2 1 4 6 6 5 7 8\n2 1 4 3 3 5 7 8\n2 2 2 3 5 5 7 8\n2 3 3 3 5 7 7 8\n3 3 5 5 5 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/077.a.htm"
+    },
+    "78_8x8": {
+      "id": "78_8x8",
+      "solution": "8 8\n1 5 5 5 5 5 5 8\n1 1 1 1 1 5 8 8\n1 2 2 2 2 5 8 6\n1 2 2 3 8 8 8 6\n2 2 3 3 8 6 6 6\n3 3 3 6 6 6 7 7\n3 4 3 7 7 7 7 7\n4 4 4 4 4 4 4 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/078.a.htm"
+    },
+    "79_9x9": {
+      "id": "79_9x9",
+      "solution": "9 9\n1 1 3 3 3 3 6 6 6\n1 3 3 6 3 6 6 9 9\n1 1 3 6 6 6 9 9 9\n2 1 3 5 5 8 8 9 9\n2 1 5 5 5 5 8 8 9\n2 1 5 5 5 4 4 8 9\n2 1 2 4 4 4 7 8 8\n2 2 2 4 7 7 7 8 8\n2 4 4 4 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/079.a.htm"
+    },
+    "80_9x9": {
+      "id": "80_9x9",
+      "solution": "9 9\n1 4 4 7 7 7 9 9 9\n1 1 4 4 4 7 7 9 9\n1 1 1 1 4 4 7 7 9\n1 2 2 6 6 4 7 7 9\n1 2 6 6 6 4 6 9 9\n2 2 2 2 6 6 6 8 8\n2 5 5 5 8 8 8 8 8\n2 3 3 5 5 5 5 5 8\n3 3 3 3 3 3 3 5 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/080.a.htm"
+    },
+    "81_4x4": {
+      "id": "81_4x4",
+      "solution": "4 4\n1 1 4 4\n1 1 4 4\n2 3 3 3\n2 2 2 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/081.a.htm"
+    },
+    "82_6x6": {
+      "id": "82_6x6",
+      "solution": "6 6\n1 1 1 1 1 6\n1 2 2 2 2 6\n2 2 3 3 6 6\n3 3 3 6 6 5\n3 5 5 5 5 5\n4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/082.a.htm"
+    },
+    "83_6x6": {
+      "id": "83_6x6",
+      "solution": "6 6\n1 1 3 4 4 6\n1 3 3 4 5 6\n1 3 4 4 5 6\n1 3 4 2 5 6\n1 3 2 2 5 6\n2 2 2 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/083.a.htm"
+    },
+    "84_6x6": {
+      "id": "84_6x6",
+      "solution": "6 6\n1 1 1 1 1 6\n2 2 3 3 1 6\n2 3 3 6 6 6\n2 3 5 6 5 5\n2 3 5 5 5 4\n2 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/084.a.htm"
+    },
+    "85_6x6": {
+      "id": "85_6x6",
+      "solution": "6 6\n1 1 1 1 6 6 \n1 1 2 2 2 6 \n2 2 2 3 6 6 \n3 3 3 3 6 5 \n3 5 5 5 5 5 \n4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/085.a.htm"
+    },
+    "86_8x8": {
+      "id": "86_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 7 7\n2 2 2 1 7 7 7 7\n3 3 2 1 8 8 7 7\n3 2 2 2 5 8 8 8\n3 3 2 5 5 5 5 8\n4 3 3 3 6 6 5 8\n4 4 4 4 6 5 5 8\n4 4 4 6 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/086.a.htm"
+    },
+    "87_8x8": {
+      "id": "87_8x8",
+      "solution": "8 8\n1 1 1 5 5 7 7 8\n2 2 1 5 5 7 7 8\n2 2 1 5 5 5 7 8\n2 3 1 6 6 5 7 8\n2 3 1 4 6 7 7 8\n2 3 1 4 6 6 6 8\n2 3 4 4 4 4 6 8\n3 3 3 3 4 4 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/087.a.htm"
+    },
+    "88_8x8": {
+      "id": "88_8x8",
+      "solution": "8 8\n1 5 5 5 5 5 5 6\n1 5 5 6 6 6 6 6\n1 1 1 1 1 1 8 6\n2 2 2 7 8 8 8 6\n2 2 2 7 7 7 8 8\n3 3 2 2 3 7 8 8\n3 3 3 3 3 7 7 7\n4 4 4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/088.a.htm"
+    },
+    "89_9x9": {
+      "id": "89_9x9",
+      "solution": "9 9\n1 1 1 1 1 5 5 5 9\n2 1 1 5 5 5 8 9 9\n2 2 1 5 6 5 8 9 9\n3 2 1 6 6 5 8 8 9\n3 2 2 6 6 6 7 8 9\n3 3 2 2 2 6 7 8 9\n4 3 3 3 6 6 7 8 9\n4 4 3 3 4 7 7 8 8\n4 4 4 4 4 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/089.a.htm"
+    },
+    "90_9x9": {
+      "id": "90_9x9",
+      "solution": "9 9\n1 1 3 3 7 7 7 7 7\n1 1 1 3 7 7 7 7 9\n1 3 3 3 3 3 3 9 9\n1 1 5 5 5 5 9 9 9\n1 2 2 2 5 5 5 9 8\n2 2 4 6 6 5 5 9 8\n2 4 4 6 6 8 8 9 8\n2 2 4 4 6 6 8 8 8\n2 4 4 4 4 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/090.a.htm"
+    },
+    "91_4x4": {
+      "id": "91_4x4",
+      "solution": "4 4\n1 3 3 3\n1 1 1 3\n2 2 2 4\n2 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/091.a.htm"
+    },
+    "92_6x6": {
+      "id": "92_6x6",
+      "solution": "6 6\n1 1 4 4 4 6 \n1 1 1 4 4 6 \n1 2 2 2 4 6 \n2 2 5 5 5 6 \n2 3 5 3 5 6 \n3 3 3 3 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/092.a.htm"
+    },
+    "93_6x6": {
+      "id": "93_6x6",
+      "solution": "6 6\n1 2 2 4 4 4\n1 2 4 4 5 6\n1 2 4 3 5 6\n1 2 3 3 5 6\n1 2 3 5 5 6\n1 3 3 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/093.a.htm"
+    },
+    "94_6x6": {
+      "id": "94_6x6",
+      "solution": "6 6\n1 1 1 5 5 6\n2 3 1 1 5 6\n2 3 4 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/094.a.htm"
+    },
+    "95_6x6": {
+      "id": "95_6x6",
+      "solution": "6 6\n1 4 4 4 4 4\n1 5 5 5 5 4\n1 1 6 6 5 5\n2 1 1 6 6 6\n2 2 2 2 2 6\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/095.a.htm"
+    },
+    "96_8x8": {
+      "id": "96_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 7\n1 1 1 1 4 4 7 7\n1 1 2 1 7 7 7 5\n2 2 2 2 7 7 5 5\n2 2 5 5 5 5 5 8\n2 3 3 3 8 8 8 8\n3 3 6 6 8 6 6 8\n3 3 3 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/096.a.htm"
+    },
+    "97_8x8": {
+      "id": "97_8x8",
+      "solution": "8 8\n1 3 3 5 5 7 7 7 \n1 3 3 3 5 7 8 7 \n1 3 3 5 5 7 8 8 \n1 1 3 5 4 7 7 8 \n1 1 1 5 4 4 6 8 \n2 2 2 5 4 6 6 8 \n2 2 2 4 4 6 6 8 \n2 2 4 4 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/097.a.htm"
+    },
+    "98_8x8": {
+      "id": "98_8x8",
+      "solution": "8 8\n1 1 1 5 6 6 6 6\n1 1 1 5 5 5 6 8\n2 2 1 1 5 6 6 8\n2 2 4 4 5 5 6 8\n2 3 4 4 7 5 8 8\n2 3 3 4 7 7 8 8\n2 2 3 4 4 7 8 7\n3 3 3 3 4 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/098.a.htm"
+    },
+    "99_9x9": {
+      "id": "99_9x9",
+      "solution": "9 9\n1 1 1 1 1 6 6 6 6\n1 1 2 1 6 6 8 6 8\n2 1 2 5 6 8 8 8 8\n2 2 2 5 6 9 9 8 8\n3 3 2 5 5 9 9 9 8\n3 3 2 5 5 5 7 9 9\n3 3 2 4 5 5 7 7 9\n3 3 4 4 4 4 4 7 9\n3 4 4 4 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/099.a.htm"
+    },
+    "100_9x9": {
+      "id": "100_9x9",
+      "solution": "9 9\n1 1 1 1 6 6 6 6 6\n2 2 2 1 1 1 6 6 9\n2 3 3 5 1 6 6 9 9\n2 2 3 5 1 5 9 9 8\n2 3 3 5 5 5 5 9 8\n2 3 4 5 7 5 9 9 8\n2 3 4 4 7 7 7 9 8\n3 3 4 4 7 8 8 8 8\n4 4 4 4 7 7 7 7 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/100.a.htm"
+    },
+    "101_4x4": {
+      "id": "101_4x4",
+      "solution": "4 4\n1 1 1 4\n1 2 2 4\n2 2 4 4\n3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/101.a.htm"
+    },
+    "102_6x6": {
+      "id": "102_6x6",
+      "solution": "6 6\n1 1 2 4 4 6\n1 1 2 4 5 6\n1 2 2 4 5 6\n1 2 4 4 5 6\n3 2 3 3 5 6\n3 3 3 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/102.a.htm"
+    },
+    "103_6x6": {
+      "id": "103_6x6",
+      "solution": "6 6\n1 1 1 5 6 6\n2 3 1 5 5 6\n2 3 1 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/103.a.htm"
+    },
+    "104_6x6": {
+      "id": "104_6x6",
+      "solution": "6 6\n1 4 4 4 4 4\n1 5 5 5 5 4\n1 1 1 6 5 5\n2 2 1 6 6 6\n3 2 2 2 2 6\n3 3 3 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/104.a.htm"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 8\n1 1 1 6 6 4 4 8\n2 2 1 6 6 6 7 8\n2 2 1 1 6 6 7 8\n2 2 1 5 6 7 7 8\n2 3 3 5 5 7 7 8\n2 3 5 5 5 5 7 8\n3 3 3 3 3 5 7 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/105.a.htm"
+    },
+    "106_8x8": {
+      "id": "106_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 5 5 5 8 8 8\n2 1 1 1 1 8 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 4 4 6 6 7 7\n2 2 6 6 6 6 6 6\n3 3 3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/106.a.htm"
+    },
+    "107_8x8": {
+      "id": "107_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 5 5 5 8 8 8\n2 1 1 1 1 8 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 4 4 6 6 7 7\n2 2 6 6 6 6 6 6\n3 3 3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/107.a.htm"
+    },
+    "108_9x9": {
+      "id": "108_9x9",
+      "solution": "9 9\n1 3 3 3 3 3 3 5 8\n1 3 5 3 5 5 5 5 8\n1 3 5 5 5 8 8 8 8\n1 1 6 6 6 6 8 8 8\n2 1 1 1 6 9 9 9 9\n2 1 2 6 6 6 9 7 9\n2 2 2 4 6 4 9 7 9\n2 2 4 4 4 4 4 7 9\n2 4 4 7 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/108.a.htm"
+    },
+    "109_9x9": {
+      "id": "109_9x9",
+      "solution": "9 9\n1 1 1 6 6 6 6 6 6\n2 1 1 1 1 5 6 6 8\n2 2 2 1 1 5 6 8 8\n2 2 2 3 5 5 8 8 9\n2 3 3 3 5 7 8 9 9\n2 3 5 5 5 7 8 9 9\n3 3 5 7 7 7 8 8 9\n3 4 4 4 4 7 7 9 9\n3 4 4 4 4 4 7 7 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/109.a.htm"
+    },
+    "110_9x9": {
+      "id": "110_9x9",
+      "solution": "9 9\n1 3 3 3 3 3 6 6 6\n1 1 3 3 6 6 6 9 9\n1 1 3 3 6 4 4 9 9\n2 1 1 6 6 4 8 9 9\n2 1 1 4 4 4 8 9 9\n2 4 4 4 8 8 8 8 9\n2 2 2 5 5 5 5 8 8\n2 2 5 5 7 7 5 7 8\n2 5 5 7 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/110.a.htm"
+    },
+    "111_4x4": {
+      "id": "111_4x4",
+      "solution": "4 4\n1 2 2 2\n1 2 3 3\n1 3 3 4\n1 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/111.a.htm"
+    },
+    "112_6x6": {
+      "id": "112_6x6",
+      "solution": "6 6\n1 1 2 4 4 6\n1 1 2 4 5 6\n1 2 2 4 5 6\n1 2 4 4 5 6\n3 2 3 3 5 6\n3 3 3 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/112.a.htm"
+    },
+    "113_6x6": {
+      "id": "113_6x6",
+      "solution": "6 6\n1 1 1 1 3 3\n1 1 2 2 2 3\n2 2 2 4 3 3\n4 4 4 4 3 5\n4 5 5 5 5 5\n6 6 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/113.a.htm"
+    },
+    "114_6x6": {
+      "id": "114_6x6",
+      "solution": "6 6\n1 1 4 4 4 6\n1 1 1 4 4 6\n1 2 2 2 4 6\n2 2 5 5 5 6\n2 3 5 3 5 6\n3 3 3 3 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/114.a.htm"
+    },
+    "115_6x6": {
+      "id": "115_6x6",
+      "solution": "6 6\n1 1 4 4 4 6 \n1 1 1 4 4 6 \n1 2 2 2 4 6 \n2 2 5 5 5 6 \n2 3 5 3 5 6 \n3 3 3 3 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/115.a.htm"
+    },
+    "116_8x8": {
+      "id": "116_8x8",
+      "solution": "8 8\n1 1 1 7 8 8 8 6\n2 2 1 7 8 6 6 6\n2 2 1 7 8 8 6 5\n2 2 1 7 7 8 6 5\n2 3 1 1 7 8 6 5\n2 3 4 4 7 7 6 5\n3 3 3 4 5 5 5 5\n3 3 3 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/116.a.htm"
+    },
+    "117_8x8": {
+      "id": "117_8x8",
+      "solution": "8 8\n1 1 1 1 1 8 8 8 \n2 2 2 1 1 8 8 8 \n2 2 2 2 1 8 8 6 \n3 2 3 3 3 3 6 6 \n3 3 3 6 6 6 6 7 \n4 4 4 4 6 7 7 7 \n4 5 5 4 7 7 7 7 \n4 4 5 5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/117.a.htm"
+    },
+    "118_8x8": {
+      "id": "118_8x8",
+      "solution": "8 8\n1 3 4 4 6 6 6 6 \n1 3 3 4 4 6 6 6 \n1 1 3 3 4 4 6 8 \n1 2 3 3 3 4 4 8 \n1 2 5 5 7 8 8 8 \n1 2 2 5 7 7 8 8 \n1 2 5 5 5 7 8 7 \n2 2 2 5 5 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/118.a.htm"
+    },
+    "119_9x9": {
+      "id": "119_9x9",
+      "solution": "9 9\n1 3 3 6 6 6 8 8 8 \n1 1 3 3 6 6 6 6 8 \n1 1 5 3 3 3 6 6 8 \n1 1 5 5 5 3 3 8 8 \n1 1 2 5 5 5 9 8 9 \n2 2 2 5 7 7 9 8 9 \n2 2 4 5 7 7 9 9 9 \n2 4 4 4 4 7 7 9 9 \n2 2 4 4 4 4 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/119.a.htm"
+    },
+    "120_9x9": {
+      "id": "120_9x9",
+      "solution": "9 9\n1 1 1 1 2 2 2 2 2\n1 8 8 1 1 1 2 2 3\n8 8 8 8 7 1 2 2 3\n8 8 7 7 7 7 7 3 3\n8 9 9 7 5 5 3 3 4\n9 9 6 7 7 5 3 4 4\n9 6 6 5 5 5 3 3 4\n9 6 6 6 6 5 4 4 4\n9 9 9 6 6 5 5 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/120.a.htm"
+    },
+    "121_4x4": {
+      "id": "121_4x4",
+      "solution": "4 4\n1 1 1 1\n4 4 3 2\n4 3 3 2\n4 3 2 2",
+      "source": "https://www.janko.at/Raetsel/Burokku/121.a.htm"
+    },
+    "122_6x6": {
+      "id": "122_6x6",
+      "solution": "6 6\n1 1 1 2 2 3\n1 1 2 2 6 3\n5 1 2 2 6 3\n5 5 6 6 6 3\n5 5 5 6 4 3\n4 4 4 4 4 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/122.a.htm"
+    },
+    "123_6x6": {
+      "id": "123_6x6",
+      "solution": "6 6\n1 1 5 5 5 4\n1 1 1 5 5 4\n1 2 2 6 5 4\n2 2 2 6 6 4\n2 6 6 6 4 4\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/123.a.htm"
+    },
+    "124_6x6": {
+      "id": "124_6x6",
+      "solution": "6 6\n1 1 2 2 5 5\n1 2 2 2 5 5\n1 1 3 2 5 6\n1 3 3 4 5 6\n3 3 4 4 4 6\n3 4 4 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/124.a.htm"
+    },
+    "125_6x6": {
+      "id": "125_6x6",
+      "solution": "6 6\n5 5 5 5 6 6\n5 4 5 6 6 3\n4 4 6 6 3 3\n4 4 4 3 3 2\n1 1 1 1 3 2\n1 1 2 2 2 2",
+      "source": "https://www.janko.at/Raetsel/Burokku/125.a.htm"
+    },
+    "126_8x8": {
+      "id": "126_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 1 8\n2 2 1 8 8 8 8 8\n3 2 2 2 7 8 7 8\n3 3 2 2 7 7 7 7\n4 3 3 2 6 6 7 7\n4 4 3 3 5 6 6 6\n4 4 4 3 5 5 5 6\n4 4 5 5 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/126.a.htm"
+    },
+    "127_8x8": {
+      "id": "127_8x8",
+      "solution": "8 8\n1 4 5 5 6 6 6 6\n1 4 4 5 5 6 6 6\n1 1 4 4 5 5 6 7\n1 2 4 4 4 5 5 7\n1 2 3 3 8 7 7 7\n1 2 2 3 8 8 7 7\n1 2 3 3 3 8 7 8\n2 2 2 3 3 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/127.a.htm"
+    },
+    "128_8x8": {
+      "id": "128_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 1 6 \n2 2 1 6 6 6 6 6 \n3 2 2 2 7 6 7 6 \n3 3 2 2 7 7 7 7 \n4 3 3 2 8 8 7 7 \n4 4 3 3 5 8 8 8 \n4 4 4 3 5 5 5 8 \n4 4 5 5 5 5 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/128.a.htm"
+    },
+    "129_9x9": {
+      "id": "129_9x9",
+      "solution": "9 9\n1 2 2 2 8 8 8 9 9\n1 1 1 2 8 8 8 8 9\n1 3 3 2 2 8 8 9 9\n1 1 3 3 2 7 7 9 9\n1 1 3 2 2 7 9 9 6\n3 3 3 7 7 7 7 6 6\n3 4 4 7 7 5 6 6 6\n4 4 5 5 5 5 6 6 6\n4 4 4 4 4 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/129.a.htm"
+    },
+    "130_9x9": {
+      "id": "130_9x9",
+      "solution": "9 9\n1 1 1 1 1 3 3 9 9\n2 1 3 1 1 3 9 9 9\n2 1 3 3 3 3 9 8 9\n2 2 2 3 2 4 4 8 9\n5 5 2 2 2 4 4 8 9\n5 5 5 4 4 4 8 8 8\n5 5 5 4 6 4 7 7 8\n6 5 6 6 6 7 7 7 8\n6 6 6 6 7 7 7 7 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/130.a.htm"
+    },
+    "131_4x4": {
+      "id": "131_4x4",
+      "solution": "4 4\n1 1 1 1\n3 3 2 2\n3 4 2 2\n3 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/131.a.htm"
+    },
+    "132_6x6": {
+      "id": "132_6x6",
+      "solution": "6 6\n1 1 1 2 2 3\n1 1 2 2 6 3\n5 1 2 2 6 3\n5 5 6 6 6 3\n5 5 5 6 4 3\n4 4 4 4 4 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/132.a.htm"
+    },
+    "133_6x6": {
+      "id": "133_6x6",
+      "solution": "6 6\n1 1 5 5 5 4\n1 1 1 5 5 4\n1 2 2 6 5 4\n2 2 2 6 6 4\n2 6 6 6 4 4\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/133.a.htm"
+    },
+    "134_6x6": {
+      "id": "134_6x6",
+      "solution": "6 6\n1 1 5 5 5 5\n1 5 5 6 6 6\n1 1 4 6 6 6\n2 1 4 4 4 4\n2 2 2 2 2 4\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/134.a.htm"
+    },
+    "135_6x6": {
+      "id": "135_6x6",
+      "solution": "6 6\n1 1 1 2 2 6\n1 4 1 1 2 6\n4 4 3 3 2 6\n4 5 5 3 2 6\n4 5 5 3 2 6\n4 5 5 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/135.a.htm"
+    },
+    "136_8x8": {
+      "id": "136_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 1 8\n2 2 1 8 8 8 8 8\n3 2 2 2 7 8 7 8\n3 3 2 2 7 7 7 7\n4 3 3 2 6 6 7 7\n4 4 3 3 5 6 6 6\n4 4 4 3 5 5 5 6\n4 4 5 5 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/136.a.htm"
+    },
+    "137_8x8": {
+      "id": "137_8x8",
+      "solution": "8 8\n1 4 5 5 6 6 6 6\n1 4 4 5 5 6 6 6\n1 1 4 4 5 5 6 7\n1 2 4 4 4 5 5 7\n1 2 3 3 8 7 7 7\n1 2 2 3 8 8 7 7\n1 2 3 3 3 8 7 8\n2 2 2 3 3 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/137.a.htm"
+    },
+    "138_8x8": {
+      "id": "138_8x8",
+      "solution": "8 8\n1 1 1 5 6 6 6 8 \n2 2 1 5 6 8 8 8 \n2 2 1 5 6 6 8 7 \n2 2 1 5 5 6 8 7 \n2 3 1 1 5 6 8 7 \n2 3 4 4 5 5 8 7 \n3 3 3 4 7 7 7 7 \n3 3 3 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/138.a.htm"
+    },
+    "139_9x9": {
+      "id": "139_9x9",
+      "solution": "9 9\n1 2 2 2 9 9 9 9 9\n1 1 1 2 2 2 9 9 9\n1 1 3 3 2 2 9 8 8\n1 1 3 3 3 2 8 8 8\n1 5 5 4 3 8 8 8 7\n5 5 4 4 3 3 3 8 7\n5 6 6 4 4 4 7 7 7\n5 5 6 4 4 4 6 7 7\n5 5 6 6 6 6 6 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/139.a.htm"
+    },
+    "140_9x9": {
+      "id": "140_9x9",
+      "solution": "9 9\n1 1 1 1 1 6 6 6 6\n2 1 1 1 6 6 9 6 6\n2 1 5 5 6 7 9 9 9\n2 2 5 5 7 7 7 7 9\n3 2 2 5 5 5 7 7 9\n3 2 2 2 4 5 7 7 9\n3 3 3 4 4 5 8 9 9\n3 3 4 4 4 4 8 8 8\n3 3 4 4 8 8 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/140.a.htm"
+    },
+    "141_4x4": {
+      "id": "141_4x4",
+      "solution": "4 4\n1 2 2 2\n1 2 3 3\n1 3 3 4\n1 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/141.a.htm"
+    },
+    "142_4x4": {
+      "id": "142_4x4",
+      "solution": "4 4\n1 1 1 1\n2 2 3 4\n2 3 3 4\n2 3 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/142.a.htm"
+    },
+    "143_6x6": {
+      "id": "143_6x6",
+      "solution": "6 6\n1 1 1 4 4 6\n1 1 4 4 6 6\n2 1 4 5 5 6\n2 2 4 5 6 6\n2 2 2 5 5 5\n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/143.a.htm"
+    },
+    "144_6x6": {
+      "id": "144_6x6",
+      "solution": "6 6\n1 1 3 3 6 6\n1 3 3 3 6 6\n1 1 2 3 6 5\n1 2 2 4 6 5\n2 2 4 4 4 5\n2 4 4 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/144.a.htm"
+    },
+    "145_6x6": {
+      "id": "145_6x6",
+      "solution": "6 6\n1 1 1 1 4 4\n1 2 1 4 4 6\n2 2 4 4 6 6\n2 2 2 6 6 5\n3 3 3 3 6 5\n3 3 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/145.a.htm"
+    },
+    "146_6x6": {
+      "id": "146_6x6",
+      "solution": "6 6\n1 1 1 5 5 6\n1 2 1 1 5 6\n2 2 4 4 5 6\n2 3 3 4 5 6\n2 3 3 4 5 6\n2 3 3 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/146.a.htm"
+    },
+    "147_8x8": {
+      "id": "147_8x8",
+      "solution": "8 8\n1 5 5 5 5 5 7 7\n1 5 5 5 7 7 7 7\n1 1 1 1 1 8 7 7\n2 2 2 2 1 8 8 8\n3 3 3 2 2 2 6 8\n3 4 3 3 3 2 6 8\n3 4 4 4 4 4 6 8\n4 4 6 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/147.a.htm"
+    },
+    "148_8x8": {
+      "id": "148_8x8",
+      "solution": "8 8\n1 1 1 4 4 4 4 8\n1 1 4 4 4 4 7 8\n2 1 3 3 7 7 7 8\n2 1 3 5 5 5 7 8\n2 1 3 6 5 5 7 8\n2 2 3 6 5 5 7 8\n2 2 3 6 6 5 7 8\n2 3 3 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/148.a.htm"
+    },
+    "149_8x8": {
+      "id": "149_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 5\n1 1 1 1 1 5 5 6\n1 2 6 6 6 6 6 6\n2 2 6 7 8 8 8 8\n2 2 4 7 7 7 8 8\n2 2 4 7 7 7 7 8\n2 4 4 4 4 4 4 8\n3 3 3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/149.a.htm"
+    },
+    "150_9x9": {
+      "id": "150_9x9",
+      "solution": "9 9\n1 1 1 1 1 6 6 6 6\n2 1 1 1 1 6 6 9 6\n2 2 5 5 6 6 9 9 9\n3 2 2 5 5 5 5 9 9\n3 3 2 5 5 8 8 9 9\n3 3 2 2 5 8 8 8 9\n4 3 3 2 7 7 7 8 8\n4 3 3 4 4 4 7 7 8\n4 4 4 4 7 7 7 7 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/150.a.htm"
+    },
+    "151_4x4": {
+      "id": "151_4x4",
+      "solution": "4 4\n1 1 1 4\n2 1 4 4\n2 2 3 4\n2 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/151.a.htm"
+    },
+    "152_6x6": {
+      "id": "152_6x6",
+      "solution": "6 6\n1 2 2 4 4 4\n1 2 4 4 5 6\n1 2 4 3 5 6\n1 2 3 3 5 6\n1 2 3 5 5 6\n1 3 3 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/152.a.htm"
+    },
+    "153_6x6": {
+      "id": "153_6x6",
+      "solution": "6 6\n1 1 1 3 5 6\n1 1 3 3 5 6\n2 1 3 5 5 6\n2 3 3 5 4 6\n2 2 4 5 4 6\n2 2 4 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/153.a.htm"
+    },
+    "154_6x6": {
+      "id": "154_6x6",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 2 6\n2 3 3 6 6 6\n3 3 6 6 4 4\n3 4 4 4 4 5\n3 5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/154.a.htm"
+    },
+    "155_6x6": {
+      "id": "155_6x6",
+      "solution": "6 6\n1 1 5 5 5 5\n1 1 1 2 5 5\n1 2 2 2 6 6\n2 2 3 3 3 6\n3 3 3 6 6 6\n4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/155.a.htm"
+    },
+    "156_6x6": {
+      "id": "156_6x6",
+      "solution": "6 6\n1 1 1 5 5 6\n2 1 1 1 5 6\n2 3 4 4 5 6\n2 3 3 4 5 6\n2 3 3 4 5 6\n2 2 3 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/156.a.htm"
+    },
+    "157_8x8": {
+      "id": "157_8x8",
+      "solution": "8 8\n1 1 1 5 5 5 5 8\n2 1 1 5 8 8 5 8\n2 1 5 5 7 8 8 8\n2 1 1 7 7 7 7 8\n2 2 6 6 6 6 7 7\n3 2 2 2 3 6 6 7\n3 3 3 3 3 3 6 6\n4 4 4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/157.a.htm"
+    },
+    "158_8x8": {
+      "id": "158_8x8",
+      "solution": "8 8\n1 3 3 3 3 7 7 7\n1 3 4 4 4 7 8 8\n1 3 3 4 7 7 7 8\n1 1 3 4 4 6 7 8\n1 1 4 4 6 6 6 8\n2 1 2 6 6 6 5 8\n2 2 2 2 6 5 5 8\n2 2 5 5 5 5 5 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/158.a.htm"
+    },
+    "159_8x8": {
+      "id": "159_8x8",
+      "solution": "8 8\n1 4 4 4 4 7 7 8\n1 1 1 1 4 4 7 8\n1 1 2 1 6 4 7 8\n2 2 2 5 6 4 7 8\n2 3 5 5 6 7 7 8\n2 3 3 5 6 6 7 8\n2 2 3 5 5 6 6 8\n3 3 3 3 5 5 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/159.a.htm"
+    },
+    "160_9x9": {
+      "id": "160_9x9",
+      "solution": "9 9\n1 4 4 4 7 7 7 7 7\n1 4 4 4 4 4 7 7 7\n1 1 1 6 6 4 7 8 9\n1 1 2 2 6 6 6 8 9\n1 1 2 2 6 8 8 8 9\n2 2 2 2 6 8 8 8 9\n2 3 5 5 6 6 9 8 9\n3 3 3 5 5 5 9 9 9\n3 3 3 3 3 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/160.a.htm"
+    },
+    "161_6x6": {
+      "id": "161_6x6",
+      "solution": "6 6\n1 1 1 1 4 4 \n1 1 4 4 4 5 \n2 2 2 4 5 5 \n2 3 5 5 5 6 \n2 3 3 6 6 6 \n2 3 3 3 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/161.a.htm"
+    },
+    "162_6x6": {
+      "id": "162_6x6",
+      "solution": "6 6\n1 4 4 4 4 4 \n1 1 5 5 5 4 \n1 1 6 5 5 5 \n2 1 6 6 6 6 \n2 2 2 2 2 6 \n3 3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/162.a.htm"
+    },
+    "163_6x6": {
+      "id": "163_6x6",
+      "solution": "6 6\n1 1 4 4 4 4 \n1 1 4 5 5 5 \n1 2 4 3 5 5 \n1 2 2 3 6 5 \n2 2 3 3 6 6 \n2 3 3 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/163.a.htm"
+    },
+    "164_6x6": {
+      "id": "164_6x6",
+      "solution": "6 6\n1 2 2 5 5 5 \n1 3 2 5 6 6 \n1 3 2 5 5 6 \n1 3 2 2 6 6 \n1 3 4 4 6 4 \n1 3 3 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/164.a.htm"
+    },
+    "165_8x8": {
+      "id": "165_8x8",
+      "solution": "8 8\n1 1 1 1 1 7 7 7 \n2 2 2 1 1 1 7 7 \n2 4 2 2 4 7 7 8 \n2 4 4 4 4 6 7 8 \n2 4 3 4 6 6 6 8 \n3 3 3 6 6 6 8 8 \n3 5 3 3 6 8 8 8 \n3 5 5 5 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/165.a.htm"
+    },
+    "166_8x8": {
+      "id": "166_8x8",
+      "solution": "8 8\n1 1 1 4 4 4 6 6 \n1 1 1 4 6 6 6 8 \n2 1 4 4 6 8 8 8 \n2 1 4 4 6 6 7 8 \n2 2 2 3 3 5 7 8 \n2 2 3 3 5 5 7 8 \n2 3 3 5 5 5 7 8 \n3 3 5 5 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/166.a.htm"
+    },
+    "167_8x8": {
+      "id": "167_8x8",
+      "solution": "8 8\n1 1 1 6 6 6 6 6\n1 1 1 6 6 5 5 7\n2 2 1 1 6 5 5 7\n3 2 5 5 5 5 7 7\n3 2 2 2 2 7 7 7\n3 3 3 3 2 8 8 7\n4 3 3 4 4 8 8 8\n4 4 4 4 4 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/167.a.htm"
+    },
+    "168_9x9": {
+      "id": "168_9x9",
+      "solution": "9 9\n1 4 4 4 4 4 4 4 4 \n1 5 5 5 5 5 8 4 8 \n1 1 5 5 5 7 8 8 8 \n1 1 2 5 7 7 7 8 9 \n1 2 2 6 6 7 7 8 9 \n1 2 2 3 6 7 7 8 9 \n1 2 2 3 6 7 9 8 9 \n2 2 3 3 6 6 9 9 9 \n3 3 3 3 3 6 6 6 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/168.a.htm"
+    },
+    "169_9x9": {
+      "id": "169_9x9",
+      "solution": "9 9\n1 1 1 1 1 1 5 5 9 \n2 1 5 5 5 1 5 9 9 \n2 1 6 6 5 5 5 9 9 \n2 2 2 6 6 8 8 9 9 \n3 3 2 2 6 8 8 8 9 \n3 2 2 6 6 4 7 8 9 \n3 3 3 6 6 4 7 8 8 \n3 3 4 4 4 4 7 7 8 \n3 4 4 4 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/169.a.htm"
+    },
+    "170_9x9": {
+      "id": "170_9x9",
+      "solution": "9 9\n1 1 1 6 6 6 6 6 6 \n2 2 1 1 1 1 1 6 8 \n2 2 2 2 7 1 6 6 8 \n2 3 3 3 7 8 8 8 8 \n2 2 3 3 7 7 7 8 9 \n3 3 3 7 7 7 8 8 9 \n3 5 5 5 7 9 9 9 9 \n4 4 4 5 5 5 5 9 9 \n4 4 4 4 4 4 5 5 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/170.a.htm"
+    },
+    "171_6x6": {
+      "id": "171_6x6",
+      "solution": "6 6\n1 1 1 1 1 1 \n2 4 4 4 4 4 \n2 2 2 2 6 4 \n3 3 3 2 6 6 \n3 5 3 5 5 6 \n3 5 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/171.a.htm"
+    },
+    "172_6x6": {
+      "id": "172_6x6",
+      "solution": "6 6\n1 1 1 5 6 6 \n1 1 4 5 5 6 \n1 2 4 5 5 6 \n2 2 4 4 5 6 \n2 3 3 4 4 6 \n2 2 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/172.a.htm"
+    },
+    "173_6x6": {
+      "id": "173_6x6",
+      "solution": "6 6\n1 1 1 1 5 5 \n2 1 3 1 5 6 \n2 2 3 3 5 6 \n2 3 3 5 5 6 \n2 3 4 6 6 6 \n2 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/173.a.htm"
+    },
+    "174_6x6": {
+      "id": "174_6x6",
+      "solution": "6 6\n1 1 1 5 5 5 \n1 1 5 5 6 5 \n1 4 4 4 6 6 \n2 2 2 4 4 6 \n3 2 2 2 4 6 \n3 3 3 3 3 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/174.a.htm"
+    },
+    "175_8x8": {
+      "id": "175_8x8",
+      "solution": "8 8\n1 1 4 4 4 7 7 7 \n2 1 1 1 4 4 7 7 \n2 3 1 1 1 4 7 8 \n2 3 5 5 4 4 7 8 \n2 3 3 5 6 6 7 8 \n2 3 5 5 6 8 8 8 \n2 3 3 5 6 6 8 8 \n2 2 3 5 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/175.a.htm"
+    },
+    "176_8x8": {
+      "id": "176_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 6 \n2 1 5 6 6 6 6 6 \n2 1 5 5 7 7 7 6 \n2 1 1 1 7 7 7 6 \n2 2 2 1 8 8 7 7 \n3 3 2 2 8 8 8 8 \n3 3 3 3 3 3 4 8 \n4 4 4 4 4 4 4 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/176.a.htm"
+    },
+    "177_8x8": {
+      "id": "177_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 4 \n1 1 5 5 5 5 5 4 \n2 1 1 7 5 7 5 5 \n2 1 1 7 7 7 7 7 \n2 2 1 2 8 8 8 7 \n3 2 2 2 8 6 8 8 \n3 3 3 3 3 6 6 8 \n3 3 6 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/177.a.htm"
+    },
+    "178_9x9": {
+      "id": "178_9x9",
+      "solution": "9 9\n1 3 3 3 3 3 6 6 6 \n1 1 3 6 6 6 6 9 6 \n1 1 3 3 5 9 9 9 6 \n2 1 1 3 5 5 5 9 9 \n2 1 1 5 5 5 9 9 9 \n2 2 5 5 7 7 7 7 7 \n2 2 4 7 7 4 4 8 7 \n2 2 4 4 4 4 8 8 7 \n2 4 4 8 8 8 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/178.a.htm"
+    },
+    "179_9x9": {
+      "id": "179_9x9",
+      "solution": "9 9\n1 1 4 4 7 7 7 7 7 \n1 1 1 4 7 4 4 7 8 \n1 1 1 4 4 4 7 7 8 \n1 2 2 4 5 5 8 8 8 \n2 2 5 5 5 8 8 9 9 \n2 3 5 5 5 5 8 8 9 \n2 3 3 6 6 9 9 9 9 \n2 3 3 3 6 6 9 6 9 \n2 2 3 3 3 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/179.a.htm"
+    },
+    "180_9x9": {
+      "id": "180_9x9",
+      "solution": "9 9\n1 1 1 1 7 7 7 9 9 \n2 2 2 1 1 7 7 7 9 \n2 2 2 2 1 1 7 7 9 \n2 2 3 5 1 5 5 7 9 \n3 3 3 5 5 5 9 9 9 \n3 4 5 5 5 8 9 8 8 \n3 4 4 6 6 8 8 8 8 \n3 4 4 4 6 6 8 8 6 \n3 3 4 4 4 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/180.a.htm"
+    },
+    "181_6x6": {
+      "id": "181_6x6",
+      "solution": "6 6\n1 3 3 3 3 3 \n1 1 3 4 4 6 \n1 4 4 4 6 6 \n1 1 4 2 5 6 \n2 2 2 2 5 6 \n2 5 5 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/181.a.htm"
+    },
+    "182_6x6": {
+      "id": "182_6x6",
+      "solution": "6 6\n1 1 4 4 4 4 \n1 1 4 5 4 6 \n2 1 1 5 6 6 \n2 2 2 5 5 6 \n3 3 2 2 5 6 \n3 3 3 3 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/182.a.htm"
+    },
+    "183_6x6": {
+      "id": "183_6x6",
+      "solution": "6 6\n1 2 2 2 2 2 \n1 2 3 3 5 5 \n1 3 3 5 5 6 \n1 3 5 5 6 6 \n1 3 4 4 4 6 \n1 4 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/183.a.htm"
+    },
+    "184_6x6": {
+      "id": "184_6x6",
+      "solution": "6 6\n1 1 1 1 1 1 \n2 2 3 3 3 6 \n2 3 3 4 6 6 \n2 3 4 4 6 6 \n2 4 4 5 6 5 \n2 4 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/184.a.htm"
+    },
+    "185_8x8": {
+      "id": "185_8x8",
+      "solution": "8 8\n1 4 4 4 4 7 7 8 \n1 1 1 1 4 7 7 8 \n2 2 2 1 4 4 7 8 \n2 3 2 1 1 4 7 8 \n2 3 5 5 6 6 7 8 \n2 3 5 5 6 6 7 8 \n2 3 5 5 5 6 8 8 \n3 3 3 3 5 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/185.a.htm"
+    },
+    "186_8x8": {
+      "id": "186_8x8",
+      "solution": "8 8\n1 3 3 3 3 3 3 6 \n1 3 3 6 6 6 6 6 \n1 1 1 1 7 7 7 6 \n2 2 4 1 7 7 7 6 \n2 4 4 1 8 8 7 7 \n2 4 4 4 4 8 8 8 \n2 2 2 4 5 8 5 8 \n2 5 5 5 5 5 5 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/186.a.htm"
+    },
+    "187_8x8": {
+      "id": "187_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 5 \n1 1 1 5 8 8 5 8 \n1 1 2 2 2 8 8 8 \n1 2 2 3 2 8 6 6 \n2 2 3 3 6 8 6 7 \n3 3 3 6 6 6 6 7 \n3 4 4 7 7 7 7 7 \n3 4 4 4 4 4 4 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/187.a.htm"
+    },
+    "188_9x9": {
+      "id": "188_9x9",
+      "solution": "9 9\n1 4 4 4 7 7 7 7 8 \n1 1 1 4 4 4 7 7 8 \n1 1 1 5 4 4 7 7 8 \n1 1 2 5 5 4 7 8 8 \n2 2 2 2 5 8 8 8 9 \n2 2 5 5 5 5 5 8 9 \n2 3 6 6 6 9 9 9 9 \n2 3 3 3 6 6 9 9 9 \n3 3 3 3 3 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/188.a.htm"
+    },
+    "189_9x9": {
+      "id": "189_9x9",
+      "solution": "9 9\n1 3 3 6 6 6 6 6 6 \n1 3 3 3 3 3 6 6 8 \n1 1 1 1 1 3 3 6 8 \n1 2 5 5 8 8 8 8 8 \n1 2 2 5 8 5 8 9 9 \n2 2 5 5 5 5 5 9 9 \n2 2 4 7 7 7 9 9 9 \n2 4 4 7 7 7 7 7 9 \n2 4 4 4 4 4 4 7 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/189.a.htm"
+    },
+    "190_9x9": {
+      "id": "190_9x9",
+      "solution": "9 9\n1 1 3 3 5 5 5 5 5 \n1 3 3 5 5 5 8 8 5 \n1 3 3 6 6 8 8 8 8 \n1 3 3 3 6 6 6 8 8 \n1 1 1 6 6 4 9 9 8 \n2 1 2 6 6 4 9 9 9 \n2 2 2 2 4 4 7 7 9 \n2 2 4 4 4 7 7 7 9 \n2 4 4 7 7 7 7 9 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/190.a.htm"
+    },
+    "191_5x5": {
+      "id": "191_5x5",
+      "solution": "5 5\n1 1 1 1 1\n2 2 2 2 5\n3 3 3 2 5\n4 4 3 3 5\n4 4 4 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/191.a.htm"
+    },
+    "192_6x6": {
+      "id": "192_6x6",
+      "solution": "6 6\n1 4 4 8 8 8\n1 1 4 9 9 9\n2 5 5 5 12 12\n2 6 7 7 7 12\n2 6 6 10 10 10\n3 3 3 11 11 11",
+      "source": "https://www.janko.at/Raetsel/Burokku/192.a.htm"
+    },
+    "193_6x6": {
+      "id": "193_6x6",
+      "solution": "6 6\n1 5 5 5 5 5\n1 1 1 1 1 5\n2 2 2 2 6 6\n2 2 3 3 3 6\n3 3 3 4 4 6\n4 4 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/193.a.htm"
+    },
+    "194_7x7": {
+      "id": "194_7x7",
+      "solution": "7 7\n1 1 1 1 6 6 6\n2 1 1 1 6 4 6\n2 2 4 4 4 4 6\n3 2 4 4 5 5 6\n3 2 5 5 5 7 7\n3 2 2 5 5 7 7\n3 3 3 3 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/194.a.htm"
+    },
+    "195_8x8": {
+      "id": "195_8x8",
+      "solution": "8 8\n1 1 7 7 7 12 12 12\n2 1 1 9 7 13 13 12\n2 2 2 9 9 14 13 16\n3 3 3 3 9 14 13 16\n4 4 4 4 11 14 14 16\n5 6 8 8 11 11 11 16\n5 6 6 8 8 15 15 15\n5 5 6 10 10 10 10 15",
+      "source": "https://www.janko.at/Raetsel/Burokku/195.a.htm"
+    },
+    "196_8x8": {
+      "id": "196_8x8",
+      "solution": "8 8\n1 4 4 9 9 13 13 13\n1 1 4 4 9 9 15 13\n2 1 8 8 8 8 15 15\n2 5 5 5 11 11 16 15\n2 2 6 5 11 11 16 16\n3 6 6 6 10 10 16 14\n3 7 7 10 10 14 14 14\n3 3 7 7 12 12 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/196.a.htm"
+    },
+    "197_8x8": {
+      "id": "197_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 4\n1 1 1 1 1 8 8 4\n1 1 2 2 2 2 8 8\n2 2 2 6 6 2 8 8\n3 5 5 6 6 6 8 7\n3 3 5 6 6 6 8 7\n3 3 5 5 7 7 7 7\n3 3 3 5 5 5 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/197.a.htm"
+    },
+    "198_8x8": {
+      "id": "198_8x8",
+      "solution": "8 8\n1 4 4 4 6 6 6 6\n1 1 1 4 4 6 6 6\n2 5 1 1 4 4 6 8\n2 5 5 1 1 4 8 8\n2 2 5 5 5 8 8 8\n3 2 2 5 5 8 8 7\n3 3 2 2 7 7 7 7\n3 3 3 3 3 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/198.a.htm"
+    },
+    "199_9x9": {
+      "id": "199_9x9",
+      "solution": "9 9\n1 1 1 1 1 1 1 9 9\n2 1 1 6 6 6 6 6 9\n2 5 5 5 6 6 6 6 9\n2 2 2 5 5 5 5 9 9\n3 3 2 7 7 7 5 9 9\n4 3 2 2 7 7 5 9 8\n4 3 3 2 7 7 8 8 8\n4 3 3 3 3 7 7 8 8\n4 4 4 4 4 4 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/199.a.htm"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "solution": "10 10\n1 1 1 9 9 9 15 15 15 15\n2 1 1 7 11 9 9 18 18 15\n2 2 7 7 11 11 11 11 18 18\n3 2 7 7 12 12 12 19 19 18\n3 2 8 8 13 13 12 12 19 19\n3 6 6 8 8 13 13 16 16 19\n3 3 6 6 8 10 13 16 20 20\n4 4 4 6 10 10 16 16 17 20\n5 4 4 10 10 14 14 14 17 20\n5 5 5 5 14 14 17 17 17 20",
+      "source": "https://www.janko.at/Raetsel/Burokku/200.a.htm"
+    },
+    "201_6x6": {
+      "id": "201_6x6",
+      "solution": "6 6\n1 1 1 1 5 5\n2 2 1 1 5 5\n2 2 2 5 5 6\n3 3 2 4 4 6\n3 3 4 4 6 6\n3 3 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/201.a.htm"
+    },
+    "202_6x6": {
+      "id": "202_6x6",
+      "solution": "6 6\n1 1 1 1 6 6\n2 3 3 1 6 6\n2 3 3 1 4 6\n2 3 4 4 4 6\n2 3 5 4 4 5\n2 2 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/202.a.htm"
+    },
+    "203_7x7": {
+      "id": "203_7x7",
+      "solution": "7 7\n1 1 1 1 1 5 5\n2 1 1 5 5 5 7\n2 2 2 5 5 7 7\n3 3 2 4 4 7 7\n3 2 2 4 4 7 7\n3 4 4 4 6 6 6\n3 3 3 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/203.a.htm"
+    },
+    "204_7x7": {
+      "id": "204_7x7",
+      "solution": "7 7\n1 3 3 3 3 3 7\n1 4 4 4 4 3 7\n1 1 1 4 4 3 7\n2 5 1 5 4 7 7\n2 5 1 5 6 7 7\n2 5 5 5 6 6 6\n2 2 2 2 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/204.a.htm"
+    },
+    "205_8x8": {
+      "id": "205_8x8",
+      "solution": "8 8\n1 4 7 7 7 7 13 13\n1 4 4 4 11 11 14 13\n1 5 8 8 8 11 14 13\n1 5 9 9 8 11 14 15\n2 5 5 9 12 12 14 15\n2 2 2 9 12 12 15 15\n3 6 6 6 6 10 16 16\n3 3 3 10 10 10 16 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/205.a.htm"
+    },
+    "206_8x8": {
+      "id": "206_8x8",
+      "solution": "8 8\n1 1 7 8 8 13 13 13\n2 1 7 8 8 12 12 13\n2 1 7 7 12 12 16 16\n2 5 5 5 9 9 16 16\n2 5 3 9 9 14 14 14\n3 3 3 10 10 10 10 14\n4 6 6 6 6 15 15 15\n4 4 4 11 11 11 11 15",
+      "source": "https://www.janko.at/Raetsel/Burokku/206.a.htm"
+    },
+    "207_8x8": {
+      "id": "207_8x8",
+      "solution": "8 8\n1 1 1 5 5 5 5 5\n2 1 1 6 6 5 5 5\n2 1 1 6 6 6 6 6\n2 2 1 4 7 7 7 6\n2 2 4 4 3 7 7 8\n2 4 4 4 3 7 7 8\n2 4 4 3 3 8 7 8\n3 3 3 3 8 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/207.a.htm"
+    },
+    "208_8x8": {
+      "id": "208_8x8",
+      "solution": "8 8\n1 1 1 1 6 6 6 6\n1 1 1 1 6 5 7 6\n2 2 5 6 6 5 7 7\n2 2 5 5 5 5 7 7\n2 2 5 4 4 7 7 7\n2 4 4 4 4 8 8 8\n2 3 3 4 4 8 8 8\n3 3 3 3 3 3 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/208.a.htm"
+    },
+    "209_10x10": {
+      "id": "209_10x10",
+      "solution": "10 10\n1 1 1 9 9 12 12 12 19 19\n2 2 1 1 9 13 12 12 19 19\n3 2 2 10 9 13 16 16 16 19\n3 3 2 10 9 13 13 17 16 16\n4 3 7 10 10 10 13 17 17 20\n4 3 7 7 7 7 17 17 14 20\n4 4 4 11 11 14 14 14 14 20\n5 6 6 11 11 11 15 15 20 20\n5 5 6 6 6 15 15 15 18 18\n5 5 8 8 8 8 8 18 18 18",
+      "source": "https://www.janko.at/Raetsel/Burokku/209.a.htm"
+    },
+    "210_10x10": {
+      "id": "210_10x10",
+      "solution": "10 10\n1 5 7 7 7 7 15 15 19 19\n1 5 5 9 9 7 15 15 19 19\n1 1 5 9 9 9 15 13 13 19\n2 1 5 8 8 13 13 13 17 17\n2 6 8 8 8 14 14 17 17 17\n2 6 6 10 10 10 14 14 18 18\n2 2 6 6 11 10 10 14 18 20\n3 3 3 11 11 11 16 18 18 20\n4 4 3 3 12 11 16 16 20 20\n4 4 4 12 12 12 12 16 16 20",
+      "source": "https://www.janko.at/Raetsel/Burokku/210.a.htm"
+    },
+    "211_6x6": {
+      "id": "211_6x6",
+      "solution": "6 6\n1 1 3 3 3 6\n1 1 3 3 3 6\n1 1 4 4 6 6\n2 2 5 4 6 6\n2 2 5 4 4 4\n2 2 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/211.a.htm"
+    },
+    "212_6x6": {
+      "id": "212_6x6",
+      "solution": "6 6\n1 3 3 3 3 3\n1 4 5 5 5 3\n1 4 5 5 5 6\n1 4 4 4 4 6\n1 1 2 2 2 6\n2 2 2 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/212.a.htm"
+    },
+    "213_7x7": {
+      "id": "213_7x7",
+      "solution": "7 7\n1 3 3 6 6 6 6\n1 3 3 3 3 6 6\n1 1 5 5 3 6 7\n1 1 5 5 5 5 7\n1 4 5 4 4 7 7\n2 4 4 4 4 7 7\n2 2 2 2 2 2 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/213.a.htm"
+    },
+    "214_7x7": {
+      "id": "214_7x7",
+      "solution": "7 7\n1 1 1 6 6 6 6\n1 1 1 5 5 5 6\n2 2 1 5 7 7 6\n2 2 2 5 3 7 6\n2 2 5 5 3 7 7\n3 3 3 3 3 4 7\n4 4 4 4 4 4 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/214.a.htm"
+    },
+    "215_8x8": {
+      "id": "215_8x8",
+      "solution": "8 8\n1 1 1 8 8 12 14 14\n2 5 1 8 8 12 14 14\n2 5 5 5 10 12 12 16\n2 2 7 7 10 10 10 16\n3 6 6 7 11 11 15 16\n3 3 6 7 11 11 15 16\n4 3 6 9 9 13 15 15\n4 4 4 9 9 13 13 13",
+      "source": "https://www.janko.at/Raetsel/Burokku/215.a.htm"
+    },
+    "216_8x8": {
+      "id": "216_8x8",
+      "solution": "8 8\n1 1 6 6 6 6 13 13\n2 1 1 9 9 13 13 16\n2 2 7 7 9 9 14 16\n3 2 7 7 11 11 14 16\n3 5 5 5 11 11 14 16\n3 4 8 5 10 10 14 15\n3 4 8 10 10 12 12 15\n4 4 8 8 12 12 15 15",
+      "source": "https://www.janko.at/Raetsel/Burokku/216.a.htm"
+    },
+    "217_8x8": {
+      "id": "217_8x8",
+      "solution": "8 8\n1 1 1 1 7 7 7 7\n2 1 1 1 1 4 6 7\n2 4 4 4 4 4 6 7\n2 4 4 6 6 6 6 7\n2 2 5 5 5 6 6 7\n3 2 5 3 5 5 8 8\n3 2 2 3 5 5 8 8\n3 3 3 3 8 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/217.a.htm"
+    },
+    "218_8x8": {
+      "id": "218_8x8",
+      "solution": "8 8\n1 2 4 4 4 4 8 8\n1 2 5 4 4 4 4 8\n1 2 5 5 5 8 8 8\n1 2 5 5 5 8 8 6\n1 2 5 6 6 6 6 6\n1 2 6 6 3 3 7 7\n1 2 2 3 3 3 7 7\n1 3 3 3 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/218.a.htm"
+    },
+    "219_10x10": {
+      "id": "219_10x10",
+      "solution": "10 10\n1 5 6 6 6 6 6 17 17 17\n1 5 7 7 7 7 7 12 17 17\n1 5 5 5 12 12 12 12 19 19\n1 1 8 8 8 14 14 14 14 19\n2 2 8 8 13 14 13 18 20 19\n3 2 2 2 13 13 13 18 20 19\n3 3 9 9 9 9 9 18 20 20\n3 3 10 10 10 10 10 18 18 20\n4 4 4 11 11 15 16 16 16 16\n4 4 11 11 11 15 15 15 15 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/219.a.htm"
+    },
+    "220_10x10": {
+      "id": "220_10x10",
+      "solution": "10 10\n1 1 1 10 10 10 10 10 18 18\n2 1 1 8 8 8 16 16 16 18\n2 2 8 8 13 13 13 16 16 18\n2 2 5 5 5 14 13 13 19 18\n3 5 5 11 11 14 14 14 19 19\n3 6 9 9 11 11 11 14 17 19\n3 6 6 9 9 9 12 17 17 19\n3 6 6 12 12 12 12 17 17 20\n3 7 7 7 7 7 15 15 20 20\n4 4 4 4 4 15 15 15 20 20",
+      "source": "https://www.janko.at/Raetsel/Burokku/220.a.htm"
+    },
+    "221_5x5": {
+      "id": "221_5x5",
+      "solution": "5 5\n1 1 1 4 4\n2 2 1 4 4\n2 2 1 4 5\n2 3 3 5 5\n3 3 3 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/221.a.htm"
+    },
+    "222_5x5": {
+      "id": "222_5x5",
+      "solution": "5 5\n1 1 1 4 4\n2 1 1 4 5\n2 3 4 4 5\n2 3 3 5 5\n2 2 3 3 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/222.a.htm"
+    },
+    "223_6x6": {
+      "id": "223_6x6",
+      "solution": "6 6\n1 1 5 5 10 10\n2 1 6 5 9 10\n2 2 6 9 9 11\n3 4 6 7 11 11\n3 4 7 7 12 12\n3 4 8 8 8 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/223.a.htm"
+    },
+    "224_6x6": {
+      "id": "224_6x6",
+      "solution": "6 6\n1 1 1 6 9 9\n2 2 6 6 10 9\n3 2 5 8 10 10\n3 5 5 8 11 11\n3 4 7 8 12 11\n4 4 7 7 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/224.a.htm"
+    },
+    "225_6x6": {
+      "id": "225_6x6",
+      "solution": "6 6\n1 1 5 5 5 5\n2 1 1 1 1 5\n2 4 4 4 4 5\n2 2 3 3 4 6\n2 2 3 6 4 6\n3 3 3 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/225.a.htm"
+    },
+    "226_6x6": {
+      "id": "226_6x6",
+      "solution": "6 6\n1 1 4 4 4 4\n2 1 1 5 5 4\n2 1 1 5 6 4\n2 2 5 5 6 6\n2 2 5 3 3 6\n3 3 3 3 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/226.a.htm"
+    },
+    "227_8x8": {
+      "id": "227_8x8",
+      "solution": "8 8\n1 5 6 6 12 12 12 12\n1 5 5 6 6 14 14 14\n1 1 5 8 8 8 8 14\n2 2 2 2 13 13 15 15\n3 3 7 9 9 13 15 15\n4 3 7 9 9 13 16 16\n4 3 7 10 10 10 10 16\n4 4 7 11 11 11 11 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/227.a.htm"
+    },
+    "228_8x8": {
+      "id": "228_8x8",
+      "solution": "8 8\n1 1 7 7 7 7 16 16\n2 1 1 5 10 10 10 16\n2 5 5 5 8 12 10 16\n2 6 8 8 8 12 12 12\n2 6 6 6 11 13 13 13\n3 3 3 9 11 14 14 13\n4 4 3 9 11 14 14 15\n4 4 9 9 11 15 15 15",
+      "source": "https://www.janko.at/Raetsel/Burokku/228.a.htm"
+    },
+    "229_8x8": {
+      "id": "229_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 5\n2 1 1 1 1 1 1 5\n2 4 6 6 6 8 8 5\n2 4 4 4 6 6 8 8\n2 4 4 4 4 6 8 8\n2 2 2 2 6 6 8 8\n3 3 3 3 7 7 7 7\n3 3 3 3 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/229.a.htm"
+    },
+    "230_8x8": {
+      "id": "230_8x8",
+      "solution": "8 8\n1 4 4 4 4 4 4 4\n1 4 1 7 7 7 7 7\n1 1 1 2 2 7 7 7\n2 1 1 2 5 5 5 8\n2 2 2 2 5 8 8 8\n3 5 5 5 5 8 8 6\n3 3 3 3 3 8 8 6\n3 3 6 6 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/230.a.htm"
+    },
+    "231_5x5": {
+      "id": "231_5x5",
+      "solution": "5 5\n1 1 5 5 5\n2 1 1 1 5\n2 4 4 4 5\n2 2 2 4 4\n3 3 3 3 3",
+      "source": "https://www.janko.at/Raetsel/Burokku/231.a.htm"
+    },
+    "232_5x5": {
+      "id": "232_5x5",
+      "solution": "5 5\n1 1 3 5 5\n2 1 3 5 5\n2 1 3 5 4\n2 1 3 3 4\n2 2 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/232.a.htm"
+    },
+    "233_6x6": {
+      "id": "233_6x6",
+      "solution": "6 6\n1 1 1 7 7 7\n2 2 2 8 8 12\n3 3 3 9 8 12\n4 4 4 9 11 12\n5 5 5 9 11 11\n6 6 6 10 10 10",
+      "source": "https://www.janko.at/Raetsel/Burokku/233.a.htm"
+    },
+    "234_6x6": {
+      "id": "234_6x6",
+      "solution": "6 6\n1 1 6 8 8 8\n2 1 6 6 11 11\n2 5 5 9 9 11\n2 3 5 7 9 12\n3 3 7 7 10 12\n4 4 4 10 10 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/234.a.htm"
+    },
+    "235_6x6": {
+      "id": "235_6x6",
+      "solution": "6 6\n1 2 2 2 2 5\n1 3 2 2 5 5\n1 3 5 5 5 6\n1 3 3 3 3 6\n1 4 4 6 6 6\n1 4 4 4 4 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/235.a.htm"
+    },
+    "236_6x6": {
+      "id": "236_6x6",
+      "solution": "6 6\n1 4 4 4 4 4\n1 1 1 1 1 4\n2 2 2 2 6 6\n3 5 2 2 6 6\n3 5 5 5 5 6\n3 3 3 3 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/236.a.htm"
+    },
+    "237_8x8": {
+      "id": "237_8x8",
+      "solution": "8 8\n1 5 7 7 7 12 12 16\n1 5 5 9 7 12 12 16\n1 1 5 9 9 9 13 16\n2 2 8 8 8 8 13 16\n3 2 2 10 10 13 13 14\n3 6 6 6 10 14 14 14\n3 3 4 6 10 15 15 15\n4 4 4 11 11 11 11 15",
+      "source": "https://www.janko.at/Raetsel/Burokku/237.a.htm"
+    },
+    "238_8x8": {
+      "id": "238_8x8",
+      "solution": "8 8\n1 1 6 6 6 6 14 14\n1 1 2 9 9 13 14 14\n2 2 2 9 9 13 15 16\n3 3 7 7 10 13 15 16\n4 3 3 7 10 13 15 16\n4 4 8 7 10 10 15 16\n5 4 8 8 11 11 11 11\n5 5 5 8 12 12 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/238.a.htm"
+    },
+    "239_8x8": {
+      "id": "239_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 7 7\n2 1 1 4 4 7 7 7\n2 2 4 4 4 4 7 7\n3 2 5 5 5 4 8 7\n3 2 2 2 5 4 8 8\n3 3 6 2 5 8 8 8\n3 3 6 6 5 5 5 8\n3 3 6 6 6 6 6 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/239.a.htm"
+    },
+    "240_8x8": {
+      "id": "240_8x8",
+      "solution": "8 8\n1 1 1 5 5 7 7 7\n2 2 1 5 5 7 7 7\n2 2 1 5 7 7 8 8\n2 2 1 5 5 6 8 8\n2 1 1 6 5 6 8 8\n2 3 3 6 6 6 8 4\n3 3 3 3 6 6 8 4\n3 3 4 4 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/240.a.htm"
+    },
+    "241_5x5": {
+      "id": "241_5x5",
+      "solution": "5 5\n1 2 2 2 5\n1 3 2 2 5\n1 3 5 5 5\n1 3 3 3 4\n1 4 4 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/241.a.htm"
+    },
+    "242_5x5": {
+      "id": "242_5x5",
+      "solution": "5 5\n1 3 3 3 5\n1 1 3 3 5\n2 1 4 5 5\n2 1 4 4 5\n2 2 2 4 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/242.a.htm"
+    },
+    "243_6x6": {
+      "id": "243_6x6",
+      "solution": "6 6\n1 4 4 8 10 10\n1 1 4 8 8 10\n2 2 7 7 7 11\n3 2 5 9 11 11\n3 5 5 9 9 12\n3 6 6 6 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/243.a.htm"
+    },
+    "244_6x6": {
+      "id": "244_6x6",
+      "solution": "6 6\n1 4 4 4 10 10\n1 1 7 7 7 10\n2 5 8 8 11 12\n2 5 5 8 11 12\n2 6 6 6 11 12\n3 3 3 9 9 9",
+      "source": "https://www.janko.at/Raetsel/Burokku/244.a.htm"
+    },
+    "245_6x6": {
+      "id": "245_6x6",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 2 2 5 5\n2 2 5 5 5 5\n3 3 3 3 6 6\n4 3 3 4 6 6\n4 4 4 4 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/245.a.htm"
+    },
+    "246_6x6": {
+      "id": "246_6x6",
+      "solution": "6 6\n1 1 1 1 1 1\n2 2 2 5 5 5\n3 3 2 5 5 5\n3 3 2 2 6 6\n3 3 4 4 4 6\n4 4 4 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/246.a.htm"
+    },
+    "247_8x8": {
+      "id": "247_8x8",
+      "solution": "8 8\n1 3 3 3 3 13 13 13\n1 4 7 9 10 10 15 13\n1 4 7 9 10 10 15 15\n1 4 7 9 9 14 14 15\n2 4 7 5 11 11 14 14\n2 5 5 5 8 11 16 16\n2 6 8 8 8 11 12 16\n2 6 6 6 12 12 12 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/247.a.htm"
+    },
+    "248_8x8": {
+      "id": "248_8x8",
+      "solution": "8 8\n1 1 6 8 8 11 14 14\n2 1 6 8 8 11 14 14\n2 1 6 6 11 11 15 15\n2 5 7 7 7 12 12 15\n2 5 5 9 7 12 12 15\n3 3 5 9 9 9 16 16\n4 3 3 10 10 13 13 16\n4 4 4 10 10 13 13 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/248.a.htm"
+    },
+    "249_8x8": {
+      "id": "249_8x8",
+      "solution": "8 8\n1 1 1 1 1 7 8 8\n2 4 4 1 1 7 7 8\n2 4 4 1 7 7 7 8\n2 4 4 4 4 7 7 8\n2 2 2 6 6 6 6 8\n3 2 2 5 5 5 6 8\n3 3 3 3 3 5 6 8\n3 3 5 5 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/249.a.htm"
+    },
+    "250_8x8": {
+      "id": "250_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 7 7\n1 1 5 5 5 5 5 7\n2 5 5 2 3 7 7 7\n2 5 2 2 3 6 6 7\n2 2 2 3 3 6 8 7\n3 3 3 3 6 6 8 8\n4 4 6 6 6 8 8 8\n4 4 4 4 4 4 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/250.a.htm"
+    },
+    "251_5x5": {
+      "id": "251_5x5",
+      "solution": "5 5\n1 3 3 5 5\n1 1 3 5 5\n1 1 3 3 5\n2 4 4 4 4\n2 2 2 2 4",
+      "source": "https://www.janko.at/Raetsel/Burokku/251.a.htm"
+    },
+    "252_6x6": {
+      "id": "252_6x6",
+      "solution": "6 6\n1 3 4 5 5 5\n1 3 4 4 5 5\n1 3 4 4 4 5\n1 3 3 2 6 6\n1 1 3 2 6 6\n2 2 2 2 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/252.a.htm"
+    },
+    "253_6x6": {
+      "id": "253_6x6",
+      "solution": "6 6\n1 1 3 3 3 3\n2 1 3 3 6 6\n2 1 4 4 6 6\n2 1 5 4 4 6\n2 1 5 4 4 6\n2 2 5 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/253.a.htm"
+    },
+    "254_6x6": {
+      "id": "254_6x6",
+      "solution": "6 6\n1 1 1 1 6 6\n2 3 1 1 6 6\n2 3 4 4 6 6\n2 3 4 4 5 5\n2 3 3 4 4 5\n2 2 3 5 5 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/254.a.htm"
+    },
+    "255_8x8": {
+      "id": "255_8x8",
+      "solution": "8 8\n1 4 7 7 7 7 15 15\n1 4 4 4 12 12 15 15\n1 1 8 8 8 12 12 14\n2 5 5 5 8 14 14 14\n2 2 6 5 13 13 13 13\n3 2 6 10 10 10 10 16\n3 6 6 11 11 11 11 16\n3 3 9 9 9 9 16 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/255.a.htm"
+    },
+    "256_8x8": {
+      "id": "256_8x8",
+      "solution": "8 8\n1 1 7 7 10 13 13 13\n1 1 7 7 10 10 10 13\n2 5 5 8 11 11 11 15\n2 6 5 8 8 8 11 15\n2 6 5 9 9 14 15 15\n2 6 6 9 9 14 14 14\n3 3 3 3 12 12 16 16\n4 4 4 4 12 12 16 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/256.a.htm"
+    },
+    "257_8x8": {
+      "id": "257_8x8",
+      "solution": "8 8\n1 1 7 7 10 13 15 15\n1 1 7 7 10 13 13 15\n2 2 2 2 10 10 13 15\n3 5 5 5 5 11 11 16\n3 6 6 6 11 11 16 16\n3 3 8 6 9 9 16 14\n4 4 8 9 9 14 14 14\n4 4 8 8 12 12 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/257.a.htm"
+    },
+    "258_8x8": {
+      "id": "258_8x8",
+      "solution": "8 8\n1 1 1 1 7 7 7 7\n2 2 1 1 5 5 5 7\n2 2 1 1 5 5 5 7\n2 2 4 5 5 8 7 7\n2 2 4 4 8 8 8 8\n3 3 4 4 4 8 8 8\n3 3 3 6 4 4 6 6\n3 3 3 6 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/258.a.htm"
+    },
+    "259_8x8": {
+      "id": "259_8x8",
+      "solution": "8 8\n1 1 1 1 1 8 8 8\n2 2 1 1 1 8 8 8\n3 2 2 2 2 2 2 8\n3 3 3 7 7 7 7 8\n3 3 5 5 5 5 7 7\n3 3 4 4 4 5 5 7\n4 4 4 6 6 5 5 7\n4 4 6 6 6 6 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/259.a.htm"
+    },
+    "260_8x8": {
+      "id": "260_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 6 6\n1 1 6 6 6 6 6 6\n2 5 5 5 5 5 7 7\n2 5 2 3 3 5 7 7\n2 5 2 3 7 7 7 7\n2 2 2 3 4 4 8 8\n3 3 3 3 4 8 8 8\n4 4 4 4 4 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/260.a.htm"
+    },
+    "261_5x5": {
+      "id": "261_5x5",
+      "solution": "5 5\n1 1 1 3 5\n1 1 3 3 5\n2 3 3 4 5\n2 2 4 4 5\n2 2 4 4 5",
+      "source": "https://www.janko.at/Raetsel/Burokku/261.a.htm"
+    },
+    "262_6x6": {
+      "id": "262_6x6",
+      "solution": "6 6\n1 3 4 4 4 4\n1 3 3 4 4 6\n1 1 3 3 3 6\n1 1 2 5 5 6\n2 2 2 5 5 6\n2 2 5 5 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/262.a.htm"
+    },
+    "263_6x6": {
+      "id": "263_6x6",
+      "solution": "6 6\n1 3 4 4 4 6\n1 3 3 3 4 6\n1 3 3 5 4 6\n1 2 2 5 4 6\n1 1 2 5 5 6\n2 2 2 5 5 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/263.a.htm"
+    },
+    "264_6x6": {
+      "id": "264_6x6",
+      "solution": "6 6\n1 1 1 5 5 5\n1 1 1 5 5 5\n2 3 4 4 4 4\n2 3 3 6 4 4\n2 2 3 6 6 6\n2 2 3 3 6 6",
+      "source": "https://www.janko.at/Raetsel/Burokku/264.a.htm"
+    },
+    "265_8x8": {
+      "id": "265_8x8",
+      "solution": "8 8\n1 4 7 8 8 8 15 15\n1 4 7 7 7 8 15 15\n1 4 4 9 9 9 9 16\n1 5 5 10 10 13 13 16\n2 5 5 6 10 10 13 16\n2 6 6 6 12 12 13 16\n2 2 3 11 11 12 12 14\n3 3 3 11 11 14 14 14",
+      "source": "https://www.janko.at/Raetsel/Burokku/265.a.htm"
+    },
+    "266_8x8": {
+      "id": "266_8x8",
+      "solution": "8 8\n1 3 3 6 11 14 14 14\n1 3 3 6 11 11 11 14\n1 4 6 6 12 12 12 12\n1 4 7 7 7 7 15 15\n2 4 8 9 9 9 9 15\n2 4 8 8 13 13 13 15\n2 5 5 8 13 10 16 16\n2 5 5 10 10 10 16 16",
+      "source": "https://www.janko.at/Raetsel/Burokku/266.a.htm"
+    },
+    "267_8x8": {
+      "id": "267_8x8",
+      "solution": "8 8\n1 1 1 1 11 11 11 16\n2 2 7 8 8 13 11 16\n2 2 7 7 8 13 14 16\n3 6 6 7 8 13 14 16\n3 6 6 9 9 13 14 14\n3 3 4 9 9 10 15 15\n4 4 4 10 10 10 15 15\n5 5 5 5 12 12 12 12",
+      "source": "https://www.janko.at/Raetsel/Burokku/267.a.htm"
+    },
+    "268_8x8": {
+      "id": "268_8x8",
+      "solution": "8 8\n1 1 1 1 1 1 8 8\n2 2 2 6 1 1 8 8\n2 2 2 6 6 6 6 8\n2 2 5 6 6 5 8 8\n3 3 5 6 5 5 4 8\n3 3 5 5 5 4 4 7\n3 4 4 4 4 4 7 7\n3 3 3 7 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/268.a.htm"
+    },
+    "269_8x8": {
+      "id": "269_8x8",
+      "solution": "8 8\n1 4 4 4 6 6 6 6\n1 1 4 4 7 7 7 6\n2 1 4 4 4 5 7 6\n2 1 1 1 1 5 7 6\n2 2 2 5 5 5 7 6\n3 2 2 5 8 8 7 8\n3 2 5 5 3 8 7 8\n3 3 3 3 3 8 8 8",
+      "source": "https://www.janko.at/Raetsel/Burokku/269.a.htm"
+    },
+    "270_8x8": {
+      "id": "270_8x8",
+      "solution": "8 8\n1 1 5 5 5 5 5 8\n2 1 1 1 1 1 5 8\n2 2 2 2 2 1 5 8\n3 3 3 6 2 6 5 8\n3 3 3 6 2 6 6 8\n4 3 3 6 6 6 8 8\n4 4 4 7 7 7 7 8\n4 4 4 4 7 7 7 7",
+      "source": "https://www.janko.at/Raetsel/Burokku/270.a.htm"
+    }
+  }
+}

@@ -3564,11 +3564,11 @@
       "source": "",
       "solution": "10 10\n- - - - x - - x - - \n- x x - x - x x x - \n- x x x x - - - x x \n- x - x x x x - x - \n- - - - x x x x x - \n- x - - x - x x x - \nx x x - x - - - x x \n- x x x x x x - - - \n- - x - - x x x x - \n- - x - - x - - - -"
     },
-    "30_7x6": {
-      "id": "30_7x6",
+    "30_6x6": {
+      "id": "30_6x6",
       "difficulty": 0,
       "source": "",
-      "solution": "7 6\n- x - x - - \nx x - x - - \n- x x x x x \n- - - x - - \n- x x x - - \nx x - x x x"
+      "solution": "6 6\n- x - x - - \nx x - x - - \n- x x x x x \n- - - x - - \n- x x x - - \nx x - x x x"
     },
     "467_10x18": {
       "id": "467_10x18",

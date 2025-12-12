@@ -1,0 +1,195 @@
+{
+  "count": 38,
+  "solutions": {
+    "01_5x6": {
+      "id": "01_5x6",
+      "solution": "5 6\n- - - - 3 6\n- 3 3 6 3 3\n6 6 3 - - -\n12 - 3 6 3 -\n6 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/001.a.htm"
+    },
+    "02_8x9": {
+      "id": "02_8x9",
+      "solution": "8 9\n- - - - - 4 - - -\n- - - 13 7 8 5 3 -\n- 9 14 20 - - - 2 -\n8 13 17 13 - 3 - 3 -\n5 - 11 11 6 6 4 5 -\n3 - 6 7 5 5 3 3 -\n2 1 - - 3 3 - 2 1\n- - - 1 2 2 1 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/002.a.htm"
+    },
+    "03_4x6": {
+      "id": "03_4x6",
+      "solution": "4 6\n- - - 2 - -\n- - - 4 5 -\n- - - 5 9 -\n1 2 3 5 8 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/003.a.htm"
+    },
+    "04_4x8": {
+      "id": "04_4x8",
+      "solution": "4 8\n- - - 2 - - - -\n- - - 4 5 - - -\n- - - 5 9 - - -\n5 10 5 5 10 6 4 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/004.a.htm"
+    },
+    "05_4x8": {
+      "id": "05_4x8",
+      "solution": "4 8\n2 - - 4 - 7 - -\n4 4 5 8 9 14 12 6\n6 7 4 - 6 - 8 -\n3 - - - 3 - 4 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/005.a.htm"
+    },
+    "06_6x6": {
+      "id": "06_6x6",
+      "solution": "6 6\n1 - - - - -\n2 - - - - -\n1 1 - 2 - 1\n1 2 2 4 - 2\n1 2 - 4 4 3\n- 3 5 8 7 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/006.a.htm"
+    },
+    "07_4x5": {
+      "id": "07_4x5",
+      "solution": "4 5\n3 6 9 7 4\n3 6 5 5 3\n- 4 - 6 3\n- 2 2 4 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/007.a.htm"
+    },
+    "08_3x5": {
+      "id": "08_3x5",
+      "solution": "3 5\n- 5 4 6 3\n- 9 5 5 3\n4 8 5 7 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/008.a.htm"
+    },
+    "09_4x6": {
+      "id": "09_4x6",
+      "solution": "4 6\n- - 3 3 2 -\n- - 6 5 3 -\n3 6 8 5 3 -\n- 5 9 5 4 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/009.a.htm"
+    },
+    "10_4x6": {
+      "id": "10_4x6",
+      "solution": "4 6\n4 7 10 6 5 3\n5 8 7 5 7 4\n6 11 8 - - -\n- - 4 - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/010.a.htm"
+    },
+    "11_4x4": {
+      "id": "11_4x4",
+      "solution": "4 4\n4 7 5 3\n3 5 6 4\n- - 4 3\n1 2 3 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/011.a.htm"
+    },
+    "12_4x7": {
+      "id": "12_4x7",
+      "solution": "4 7\n- 4 - 5 - - -\n- 8 - 10 12 6 -\n6 12 10 7 8 - 1\n- - 5 - 5 3 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/012.a.htm"
+    },
+    "13_5x4": {
+      "id": "13_5x4",
+      "solution": "5 4\n- 5 10 5\n- - 10 -\n10 18 20 12\n8 10 - 8\n4 - - 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/013.a.htm"
+    },
+    "14_4x7": {
+      "id": "14_4x7",
+      "solution": "4 7\n6 - 12 6 - - -\n12 10 18 - - - -\n8 - 14 11 7 - 2\n4 - 7 7 10 6 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/014.a.htm"
+    },
+    "15_6x5": {
+      "id": "15_6x5",
+      "solution": "6 5\n5 10 15 10 5\n- - 10 - -\n6 11 15 12 6\n5 9 12 9 -\n- - 9 6 -\n- 3 6 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/015.a.htm"
+    },
+    "16_4x5": {
+      "id": "16_4x5",
+      "solution": "4 5\n1 2 3 2 1\n1 2 2 - -\n1 1 1 - -\n2 1 - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/016.a.htm"
+    },
+    "17_8x8": {
+      "id": "17_8x8",
+      "solution": "8 8\n- - 4 5 9 6 4 2\n- - 7 5 7 5 4 2\n2 3 5 4 6 4 3 2\n1 - - 4 7 - - 1\n1 - - 3 4 - - -\n2 - - 2 - - - -\n1 1 1 1 - - - -\n1 2 2 1 - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/017.a.htm"
+    },
+    "18_7x12": {
+      "id": "18_7x12",
+      "solution": "7 12\n4 5 4 4 8 12 12 20 16 28 24 12\n7 8 7 - - 20 16 12 - 16 16 12\n4 5 4 - - 12 12 - - 12 12 20\n4 - - - 8 16 20 - - 20 12 16\n8 10 - - 8 16 12 - 8 16 - 8\n10 18 - 8 8 12 - 4 8 12 12 8\n10 20 12 16 12 16 8 - 8 16 20 12",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/018.a.htm"
+    },
+    "19_7x8": {
+      "id": "19_7x8",
+      "solution": "7 8\n7 7 9 8 6 3 3 6\n14 12 15 13 7 - - 3\n9 10 11 - - - - -\n12 16 17 27 21 13 12 8\n17 11 - 16 14 17 19 12\n11 - - 13 16 25 22 13\n6 7 13 20 14 20 29 16",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/019.a.htm"
+    },
+    "20_10x16": {
+      "id": "20_10x16",
+      "solution": "10 16\n- - - 3 6 3 3 6 4 3 5 4 2 2 1 -\n- - - - - - - 5 3 - 3 3 - 3 - -\n- 6 3 - 1 1 2 3 3 3 4 5 - 5 6 3\n3 3 3 2 2 - 2 - 6 5 3 3 - 3 4 -\n6 - 5 3 3 5 4 - 4 5 3 2 - 3 3 3\n3 3 6 - - 3 3 2 3 3 - 2 4 6 5 6\n3 - 4 4 2 2 2 2 4 4 2 2 4 - 4 4\n6 - 2 2 - 3 3 2 3 3 - - 6 10 7 6\n3 - - 2 4 5 4 - 4 5 6 10 6 7 - 3\n- - 1 2 3 4 6 4 6 4 5 8 5 4 - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/020.a.htm"
+    },
+    "21_11x12": {
+      "id": "21_11x12",
+      "solution": "11 12\n- - - 8 10 5 5 8 5 7 4 -\n- - 8 14 13 - 7 10 5 5 3 -\n7 13 10 15 22 16 9 - - 4 3 -\n6 9 - 13 22 13 - - 4 6 5 3\n8 11 9 15 18 14 9 - 6 5 - 2\n5 7 8 11 11 10 13 - 9 8 - 1\n- - 5 7 8 8 7 7 14 12 6 -\n- 6 5 7 12 13 7 - - - - -\n- 11 7 7 10 12 8 - - - - -\n5 9 8 11 7 7 5 - - - - -\n4 7 5 - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/021.a.htm"
+    },
+    "22_8x13": {
+      "id": "22_8x13",
+      "solution": "8 13\n- - - - - - 6 - 3 5 3 2 1\n- - - - - - 12 - 4 6 3 - -\n19 38 50 32 22 29 18 - 5 6 - - -\n19 31 30 28 17 18 17 9 8 11 - - -\n26 20 23 17 - 13 10 - 9 8 4 - -\n13 - 16 17 30 18 - - 16 8 - - -\n- - 24 20 25 19 13 10 15 8 - - -\n- - 12 12 16 13 9 8 13 7 - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/022.a.htm"
+    },
+    "23_11x16": {
+      "id": "23_11x16",
+      "solution": "11 16\n- - - - - - - - 6 - - 3 - - 3 2\n- - - - - - - - 12 7 - 6 - - 5 3\n12 24 12 12 21 27 19 13 13 9 - 9 6 7 4 -\n- - - 9 15 14 14 20 21 12 - 6 8 10 - -\n5 6 10 9 17 14 17 14 18 12 - 7 10 15 10 5\n9 5 5 - 13 22 25 13 13 18 - 10 10 15 10 5\n10 5 - 7 13 20 23 13 10 11 10 17 15 10 - -\n6 - - 8 - 12 15 - 13 9 12 16 12 - - -\n4 2 - 15 23 13 11 - 7 - 9 9 7 - - -\n- - - - 18 13 16 15 8 8 15 - - - - -\n- - - - 10 8 9 8 - 7 13 8 5 3 2 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/023.a.htm"
+    },
+    "24_10x8": {
+      "id": "24_10x8",
+      "solution": "10 8\n- - 2 3 4 5 8 4\n1 2 3 4 6 6 7 4\n- - - 4 8 10 9 5\n- 3 4 4 - 7 11 -\n- 5 7 8 11 7 6 -\n- 4 6 - 7 5 - -\n2 3 3 3 6 4 3 -\n3 2 - 3 6 4 5 -\n2 2 1 - 5 3 3 -\n1 1 1 2 3 - 2 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/024.a.htm"
+    },
+    "25_7x13": {
+      "id": "25_7x13",
+      "solution": "7 13\n- - - - - - 1 1 1 - - - -\n4 2 - 2 2 - 2 2 2 1 - - -\n2 2 3 4 4 5 3 3 - 1 1 1 -\n2 3 4 5 3 3 - 5 3 2 2 2 -\n1 - 3 4 3 2 2 4 3 - 3 3 2\n1 2 2 3 2 - 2 4 5 4 5 4 3\n- 1 - - - 1 2 3 4 6 4 3 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/025.a.htm"
+    },
+    "26_10x14": {
+      "id": "26_10x14",
+      "solution": "10 14\n2 3 - - - - - - - - - - - -\n3 5 4 3 5 4 7 9 6 5 3 4 3 3\n- - 6 3 3 4 5 5 4 3 3 6 5 6\n- - 5 3 3 6 7 5 4 3 3 6 6 4\n- - 7 4 - - 5 7 6 5 3 3 3 -\n- - 5 4 2 2 4 5 4 - 2 3 3 -\n- - 3 3 2 2 4 4 3 - - 5 6 4\n- - 2 2 3 - 2 2 2 3 4 3 - 2\n- - 3 2 2 1 - - - 2 2 - - 2\n- - 2 3 2 1 1 2 1 1 - - 2 4",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/026.a.htm"
+    },
+    "27_7x5": {
+      "id": "27_7x5",
+      "solution": "7 5\n1 2 3 5 3\n- - - 6 4\n- 5 8 9 5\n- 7 12 10 5\n- 7 11 8 5\n- 10 8 - 3\n- 5 5 3 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/027.a.htm"
+    },
+    "28_9x11": {
+      "id": "28_9x11",
+      "solution": "9 11\n- 3 6 5 3 2 - 1 - 2 4\n2 3 4 3 - 3 2 2 3 2 2\n3 2 - 3 5 4 3 - 2 3 -\n2 - 3 4 3 3 2 2 2 2 2\n1 - 5 3 3 2 2 4 4 3 4\n- - 4 3 5 - - 4 5 3 3\n2 4 6 - 6 10 6 7 6 4 5\n- - 8 5 5 8 5 5 4 - 3\n- - 5 7 4 - 4 7 5 3 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/028.a.htm"
+    },
+    "29_10x11": {
+      "id": "29_10x11",
+      "solution": "10 11\n- - - - - - - - 3 3 6\n- - - - - 6 9 5 6 - 3\n- - - - 6 9 7 5 8 6 3\n- - - 6 9 10 6 5 9 5 -\n- - 6 9 11 14 - 5 - 5 10\n5 10 9 10 7 7 - 10 6 5 5\n5 6 5 5 - 7 13 9 7 9 -\n9 6 - 5 7 6 10 7 5 6 4\n7 9 - 8 11 - 10 - 5 - 2\n4 5 5 10 7 - 20 10 10 5 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/029.a.htm"
+    },
+    "30_8x9": {
+      "id": "30_8x9",
+      "solution": "8 9\n- 2 - 3 2 - - - -\n- 4 - 5 3 3 6 - -\n2 2 2 4 3 - 3 - -\n4 2 - 4 5 3 3 3 -\n4 - 7 7 5 4 6 6 5\n8 12 14 9 7 4 5 8 9\n- 6 - - - - - 6 5\n- - - - - - - 3 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/030.a.htm"
+    },
+    "32_10x8": {
+      "id": "32_10x8",
+      "solution": "10 8\n- - 2 3 4 5 8 4\n1 2 3 4 6 6 7 4\n- - - 4 8 10 9 5\n- 3 4 4 - 7 11 -\n- 5 7 8 11 7 6 -\n- 4 6 - 7 5 - -\n2 3 3 3 6 4 3 -\n3 2 - 3 6 4 5 -\n2 2 1 - 5 3 3 -\n1 1 1 2 3 - 2 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/032.a.htm"
+    },
+    "33_11x12": {
+      "id": "33_11x12",
+      "solution": "11 12\n- - - 8 10 5 5 8 5 7 4 -\n- - 8 14 13 - 7 10 5 5 3 -\n7 13 10 15 22 16 9 - - 4 3 -\n6 9 - 13 22 13 - - 4 6 5 3\n8 11 9 15 18 14 9 - 6 5 - 2\n5 7 8 11 11 10 13 - 9 8 - 1\n- - 5 7 8 8 7 7 14 12 6 -\n- 6 5 7 12 13 7 - - - - -\n- 11 7 7 10 12 8 - - - - -\n5 9 8 11 7 7 5 - - - - -\n4 7 5 - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/033.a.htm"
+    },
+    "35_11x16": {
+      "id": "35_11x16",
+      "solution": "11 16\n- - - - - - - - 6 - - 3 - - 3 2\n- - - - - - - - 12 7 - 6 - - 5 3\n- - - 12 21 27 19 13 13 9 - 9 6 7 4 -\n- - - 9 15 14 14 20 21 12 - 6 8 10 - -\n5 6 10 9 17 14 17 14 18 12 - 7 10 15 10 5\n9 5 5 - 13 22 25 13 13 18 - 10 10 15 10 5\n10 5 - 7 13 20 23 13 10 11 10 17 15 10 - -\n6 - - 8 - 12 15 - 13 9 12 16 12 - - -\n4 2 - 15 23 13 11 - 7 - 9 9 7 - - -\n- - - - 18 13 16 15 8 8 15 - - - - -\n- - - - 10 8 9 8 - 7 13 8 5 3 2 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/035.a.htm"
+    },
+    "36_4x4": {
+      "id": "36_4x4",
+      "solution": "4 4\n2 1 1 2\n1 - - 1\n1 - - 1\n2 1 1 2",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/036.a.htm"
+    },
+    "37_5x5": {
+      "id": "37_5x5",
+      "solution": "5 5\n- - 1 - 1\n- - 2 2 2\n2 4 3 4 3\n- 5 3 - 2\n- 3 2 - 1",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/037.a.htm"
+    },
+    "38_10x8": {
+      "id": "38_10x8",
+      "solution": "10 8\n- - - - - 12 - -\n- - 10 13 21 24 15 9\n- - 17 11 11 - - 6\n8 16 13 14 10 5 - 3\n- 11 8 8 - - - -\n4 8 - 10 6 - - -\n4 7 - 6 4 - - -\n3 4 - - - - - -\n2 - - - - - - -\n1 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/038.a.htm"
+    },
+    "39_4x8": {
+      "id": "39_4x8",
+      "solution": "4 8\n4 6 - 12 - 27 18 9\n6 10 - 24 23 45 - -\n- 12 12 13 - 50 30 20\n11 22 23 12 - 25 - 10",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/039.a.htm"
+    },
+    "40_3x5": {
+      "id": "40_3x5",
+      "solution": "3 5\n- 2 3 2 1\n2 3 2 2 1\n1 - - 1 -",
+      "source": "https://www.janko.at/Raetsel/Bosanowa/040.a.htm"
+    }
+  }
+}

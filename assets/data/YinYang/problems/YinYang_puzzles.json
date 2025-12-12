@@ -1,0 +1,1026 @@
+{
+  "puzzles": {
+    "1_6x6": {
+      "id": "1_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/001.a.htm",
+      "problem": "6 6\nw b - - - -\n- - - w - -\n- - b - b -\nw - w - - -\n- - - w - -\n- - w - b -"
+    },
+    "2_6x6": {
+      "id": "2_6x6",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/002.a.htm",
+      "problem": "6 6\n- - w b - -\nw - - - - -\n- w - b w b\n- - - - - -\n- - b - w -\n- - - - - w"
+    },
+    "3_8x8": {
+      "id": "3_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/003.a.htm",
+      "problem": "8 8\n- - - - w - w b\n- - w - - - w b\n- - - b - b w -\n- w w - b - w -\n- - - - - - b -\nw w b b b w - b\nw - - - - - w -\nw - w - - w - b"
+    },
+    "4_8x8": {
+      "id": "4_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/004.a.htm",
+      "problem": "8 8\n- b - - - b - b\n- - - b w - w -\nb w - b - - b w\n- - - w b - w -\n- w - w - b b w\n- w - w b - - -\n- - w - w - w -\nb - b - - - - w"
+    },
+    "5_8x8": {
+      "id": "5_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/005.a.htm",
+      "problem": "8 8\nw - - - - w w -\n- w - w - - b -\n- w - b - b - -\n- w b w - w b -\n- b - - b - - -\n- - b b - b - -\n- w - - - w - -\n- b - w - - - -"
+    },
+    "6_8x8": {
+      "id": "6_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/006.a.htm",
+      "problem": "8 8\n- w - - b - - w\n- - - - w - w -\n- w - b b - b -\n- - - - w - - -\nw b b b - w - -\n- - - b - - w -\n- b w b - b - -\n- - - - - - - -"
+    },
+    "7_8x8": {
+      "id": "7_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/007.a.htm",
+      "problem": "8 8\n- - - - - - - b\n- b - w - - w -\n- w - w w - b -\n- - - - b - w -\n- - b b - - w -\n- - - - - - b -\n- w - w w w - -\nw - - - - - - -"
+    },
+    "8_8x8": {
+      "id": "8_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/008.a.htm",
+      "problem": "8 8\n- - - - - - - w\nw - b - - - - -\n- - w w - w b -\n- w b - w - - -\n- - - - w - w -\n- b - b - w - -\n- - - b - b w -\n- - - - - - - -"
+    },
+    "9_8x8": {
+      "id": "9_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/009.a.htm",
+      "problem": "8 8\n- - - - - - - w\n- - b - - - w -\n- w - - b - - -\n- w - b - - w -\nw - - b - - - -\n- w - - - w - -\n- - - w - w - -\n- - - - - - - -"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/011.a.htm",
+      "problem": "10 10\nb b - - - - - - - -\n- - w w - w - w - -\n- b w - - - - - w -\nw - b b w - b b w -\n- - w b - - - - b -\n- - - - b b - b - -\n- - b - w - b w - -\nw b b - b w - b - -\nw - w - w - - w w -\nb b - - - - b - b b"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/012.a.htm",
+      "problem": "10 10\nw - w - w - w - w -\nb - b - - b b - - -\n- - w w - - - - w w\n- - - b - w - w - -\nb b b - w - w - b -\n- - - - b - - - - b\n- b - w - - - b - -\nb - - - b w b b b b\nb w b - - - w w - -\n- - - b - - b - b -"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/013.a.htm",
+      "problem": "10 10\n- - - - w w w w - b\n- b w - w - - - - b\n- - - b w - b - b -\nw w - - - - - b w -\nw - - b w b - b w -\n- w - b w b - b w b\n- - b - w b - b w -\n- w - b w - - b - -\nw - - - w - w - - b\n- - w - - - - w - b"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/014.a.htm",
+      "problem": "10 10\n- - - - - - - w - b\n- - b b b - w b w -\n- - - - - b b - - -\n- - b - w - - b w -\n- - b w - - b - w -\n- - b - b - w b w -\n- w - b w b w b w -\n- - - - - - - - w -\n- w w w w w - w - -\nw b b - - b - - - b"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/015.a.htm",
+      "problem": "10 10\n- - - - - - w - - -\n- w w b - - - w b -\n- - - w - - b - - -\n- w - b w - b - b -\n- - w - - w b - b -\n- w - - b - - b - -\n- w - - w w - w w -\n- w - - w - - - - -\n- - - w w b - b - b\n- - - - b - - - - -"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/016.a.htm",
+      "problem": "10 10\nw - - - - - - - - -\n- - w - w b w b - -\n- - w - - - - - - -\n- - w - w - b b b -\n- b - w w w w w - -\n- - w - - - - - - -\n- w - w w w - w - -\n- - - - - b - b - b\n- b b - - b - b - -\n- - - b - - - - - -"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/017.a.htm",
+      "problem": "12 12\nw b - b - b b - b - - -\n- b - b w b - b - - - -\n- - - - w - - b - w w -\nw w - w - w - - w b b -\n- - w - b - b b w - - -\n- - w - - b - b b - w -\n- - b - b - w w - b - -\nw w - w w - w - - b b b\n- - w - - - w w w - - b\n- - w w - b w b w - b -\n- - w - - b - - - - w -\nw b b b b b b b - b - -"
+    },
+    "18_12x12": {
+      "id": "18_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/018.a.htm",
+      "problem": "12 12\nw - - - - - - w w - - w\nw b - - w - w b w b w -\n- - b b b b w b w - w -\nw b - - - b - - w - w -\nw - - b - b w b w - w b\n- b b b b - b - - - w b\n- w - - - w w b - w - -\nw - b b b b b - w - w -\n- w w w - w - b w - - b\n- b b - w - - - - - b -\n- - w b - w w w w - w b\nb - - - - - b - - - - b"
+    },
+    "19_12x12": {
+      "id": "19_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/019.a.htm",
+      "problem": "12 12\nb - b - - - b - - - - -\nw w w w - - - - - w - b\n- - - - - b b b - b - -\n- w w w - - - b - b - -\n- - - b b b b - - b - -\n- w - - - - - - b - - -\n- - - b b - w w - b w -\n- w w w - b - - - b - -\n- - - - - - b - b - w -\n- - w - w - - - - - b -\nw - w - w - w - w - - b\n- - - - w - - - - - w b"
+    },
+    "20_12x12": {
+      "id": "20_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/020.a.htm",
+      "problem": "12 12\n- - - - - - - - - b - w\n- - - - b - b - b - b -\n- w w - b - w - - - b -\n- - - - - - - - w - b -\n- b b b b b - b - w b -\n- - - - - - - - - - b -\n- b b - b b b w b - b -\n- - - - b - - b - - w -\n- b b - b w w - - - - -\n- - w - - - - b w - b -\nb - - w - b - b - w - -\n- - - - b - - - - - - w"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/021.a.htm",
+      "problem": "8 8\nw - - - - - - b\n- w w - w w w w\n- - b - - - - -\n- b - b w w w w\n- - - b b - - w\n- b b b - b - -\n- - w - - - - -\n- - w - - w - w"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/022.a.htm",
+      "problem": "8 8\n- - - - - w - b\n- b - - - - - b\nw - b b b b - -\n- - w - - b - b\n- - b - b - b -\n- b - b - b - -\n- - - b - b - b\n- w - - - - - w"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/023.a.htm",
+      "problem": "10 10\nw - w - w - - - w -\n- w - - b b - - - -\n- - - - b - w b - -\n- w b b - - - - b -\nw - - - w b b - - w\n- - w - - b - b - -\n- - b b - w - b - w\n- b - b - - - b - -\n- - - - b - b - b -\n- - w - w - - - - -"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/024.a.htm",
+      "problem": "10 10\nw w - - - - - w w -\n- w - w - - b - - -\n- w - b - - - b - -\n- - - - - b - w b -\n- w b - b - - - - -\n- w b b - b b b - -\n- - w - w w w w w w\n- - b - b b - - - -\n- w - - - - b w - -\nb w - w - - - - - -"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/025.a.htm",
+      "problem": "10 10\n- - w - - - - - - -\n- - - - - w b w b -\n- w - w - - - - - -\n- b - b w b - b - -\nw - - - - b - - - -\n- w b - b b - - b -\n- - - b - - - b b -\n- w b - b w - b - -\n- w b - - b - - b -\nw - - - - - - - - -"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/026.a.htm",
+      "problem": "10 10\n- - - - - - - b - -\n- w - w w b - - - -\n- w - - w - b w - -\n- - w w - - b - - -\n- - - w - b - w - -\n- - w - b - - w - b\n- b - w b w b w - -\n- w - - - - w - - b\n- w b w b w - b b -\n- - - b - - - - - w"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/027.a.htm",
+      "problem": "12 12\nw b - - - b - b - - b -\nw - w b - - w - w b w -\n- b w - w w - - - - - -\nw - w b b w - - w - b -\n- b w - w - w w - - w -\nw b w - b w - b b - b b\nw - w - w - w w - w - -\n- - w b w b b - - - - -\n- - w - w - - - b - b -\n- w w w - w w - - w - -\n- - - - w - w b - b - -\nb - b - b - - b - - - b"
+    },
+    "28_12x12": {
+      "id": "28_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/028.a.htm",
+      "problem": "12 12\nw - - b - - b - - - - b\n- w w w - w - - b - w -\n- - - - - w - b b - b w\nw - b w - w b - - - - w\n- - - w b w b w - b w -\nw w w - w - - - b - - w\n- b w - - - b b - - w -\n- - w w w w w - - b - -\n- - b b - - b - b - w -\nw - b - - w b w - - b -\n- b - w - w - w - w b -\n- w w w w w - w - - - -"
+    },
+    "29_12x12": {
+      "id": "29_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/029.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - -\nb - - - b - b - - w b -\n- w b - b - b - - b - -\n- - - b - b - - b w - -\n- - b - b - - b - b - -\n- b - w - w - - - - - -\n- - - - b - - b - w b w\n- w - b - - b w - b - -\n- - w - - - b - - w - -\n- - w w b b - b - b b -\n- - w - - - b - - w - -\nb - - - - - - - - - - -"
+    },
+    "30_12x12": {
+      "id": "30_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/030.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - b\n- - - - b - - - - b b -\n- w w w w - w - b - - -\n- - - - - - w b - w - -\n- w w w w - - - - w - -\n- - b - - w b - w - - b\nw - - - b w b - w - - -\n- - w - - - - b - w b -\n- w - w w w - - b - - -\n- - - b - - w - - - b -\n- b - b w b - - b - w -\nw b - - - - - - - - - -"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/031.a.htm",
+      "problem": "8 8\nw - - - w b - b\n- - w - - - w -\n- - - b b b - w\n- w - b - - - w\nw b - - b - - -\n- w - b - - w -\n- b - b w - b -\n- - - - - - - -"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/032.a.htm",
+      "problem": "8 8\nb - - - - - w -\n- b w - - w - -\n- - - w b - b -\n- b - b - - w -\n- - b w - b b -\n- - - - b - - -\n- w - w - b - -\nw - - - - - - -"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/033.a.htm",
+      "problem": "10 10\nw - b b - - - - - -\n- - w - w - b - - -\n- - - w - - b - w b\n- - - b - w b - - w\n- - b w - b - b - -\nw - b - - b - w w -\n- - b - - b - - - -\n- - b - b - b - w -\n- b - - b - - - b -\n- - - - - - - - - -"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/034.a.htm",
+      "problem": "10 10\n- w - - - w w - - -\n- b w - - - - w b -\n- - - b w b w - - -\n- - b - b - - w - -\n- b - - w - w - - -\nw b - - b - - w b -\n- - b - - w - - - -\n- - w w - - w b b w\nw - w - w b - w - -\nb - - - - - - - - b"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/035.a.htm",
+      "problem": "10 10\nb - - - - - - - - b\nw - b - - - w - - -\n- - b - - - b - b -\n- - - - b - - b w -\n- w w w b - w - - -\n- - - - - - - - b -\n- w - b w - w b - -\n- - - - b b - - w -\n- b w - - - w - - -\n- - - - w - - - - -"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/036.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - b w - w - - - -\n- w - - - - w b - -\n- - - b - w - - - w\n- w - w - - - - - -\n- b - - - w b - w -\n- b w - - - w - w -\n- - - w w - - - b -\nw - w - b - w - - -\n- - - - - - - - - w"
+    },
+    "37_12x12": {
+      "id": "37_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/037.a.htm",
+      "problem": "12 12\nw - b - - - b - - - - w\n- w w w w - - b - w w -\n- - - - w - b - b - b -\n- w - b b b w - b - w -\n- - w - - b b - b - b w\nw - - - w - - - b - w w\n- w - b w - w - - b - w\n- - w w - - w b - w - -\n- - w - b - w - - - b w\nw - - - - - - - b b b w\n- - w - w - b w b - - w\n- w - w - - w - - w - w"
+    },
+    "38_12x12": {
+      "id": "38_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/038.a.htm",
+      "problem": "12 12\n- - w - - - w w - - - w\n- b - w - w - - b w - -\n- - b - b - w w b - - -\n- - b - w - - w b - w -\n- - b w - w - w b b - w\nw - - w - w - w - w w -\nw w - - b - - w - b - -\n- - b - b - b w - - - w\n- w b - b - b - - w w -\n- - b - b b - b b - - -\nw - - b - w - w - - w w\nw b - - - - b - - b - b"
+    },
+    "39_12x12": {
+      "id": "39_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/039.a.htm",
+      "problem": "12 12\nb - - - - - - - - w - -\n- b - w - - - - b - b -\n- w - w w w w w w w - -\n- b - w - - - - b b - -\nb - w - w w w - - - b -\n- - - w - w - - b b - -\n- - w w - - w - - - b -\n- - - w - - w b - b - b\nb - w - w - - b - w - -\n- - b - b - - b - - - -\n- - b w - b - b - b w -\n- - - - - - - - - - - -"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/040.a.htm",
+      "problem": "12 12\n- w - - - - - - - - - -\n- - - b w - w b - b - -\n- b b - - - w - w w w -\n- - - b b - - - - - - -\n- w - - w - - w w w w -\n- b - - b - w - - - - -\n- w b - w - - - w w w -\n- - - - - b w - - - - -\n- w b - b w - - w w w -\n- - - b - - w - - - b -\n- w w w - w w w w w w -\nw - - - - - - - - - - w"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/041.a.htm",
+      "problem": "10 10\n- - - - - w - - - -\n- - w - w - - w - -\n- w - w - w b - - -\n- w - w - - b - w -\n- - - b - b - b - -\n- b - w b - b - - w\n- - b - b - - b b -\n- w b - b w b - - -\nb - - - - - - w - -\nw w - - - - - - - -"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/042.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- w - - w - - b - -\n- - w - - w - - - -\n- - w w - b - - b -\n- - b - - w - w - -\nb b - - - b - b b -\n- - w - - - - - - -\n- - b w w b - b b -\n- w w - - - w w - -\n- - - - b - - - - -"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/043.a.htm",
+      "problem": "10 10\n- - - - w w - - - w\n- b - - w - w - - -\n- - b - - - b - b -\n- w w w - w - w - -\n- b b - - - w - w -\n- - - - b b - - - -\n- - b - - b - w - -\n- w - w - - w - b -\n- b - - w - - - - -\n- - - - - w - b - -"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/044.a.htm",
+      "problem": "10 10\n- - - w - - - - - w\nw - - - - b - b - -\n- - b b b - b - b -\nw - - - w - - - w -\n- - b b b b - w - -\n- w w w w - b - - -\n- - - - - - - b b -\n- w - b - w b - - -\nw - - b w - - - w -\n- - - - w - - - - b"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/045.a.htm",
+      "problem": "10 10\nw b - - - - - - - -\n- b - b - - w - - -\n- - - - - w - w w -\n- - w - w - b b - -\n- - w - w - - w - -\n- w - w - w - - - -\n- b - b b - - w - b\n- b - w - b - w - -\n- b - b - - b w - -\nb - - - - b - - - -"
+    },
+    "46_12x12": {
+      "id": "46_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/046.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - -\n- b - - - w - w - - - -\nb - - b - w b - w - b -\n- - - w - - - - - w - -\n- w - - - b w - b w - -\nb b - - b - - w b w - w\n- - - b w - - w b w - -\n- b b - - b b - - w - -\n- - - w - - w b - - - -\n- b - b - - - - b w b -\n- - - w b w b w - - - w\n- - - - - - - - - - - b"
+    },
+    "47_12x12": {
+      "id": "47_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/047.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - w - w - w - - - -\n- w - w - w - w - b - -\n- - - b - w - - b w - -\n- w - w w - b - - b - w\n- - - - - w - b b - w -\nw - b b - w - - - - - -\n- - b - w - b - w w w -\n- b - - - - - b - b - -\n- - b w - w - - - - - -\nb - - - - w b w - w b -\n- - b - w - - - - - - -"
+    },
+    "48_12x12": {
+      "id": "48_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/048.a.htm",
+      "problem": "12 12\n- - - - - - - - - b - -\n- - w - b - b - - - - -\n- - w - b - - w - - b -\n- w - - - w - w - - - -\n- - - w - - - - - w - b\n- - w w w b b b b - - -\n- - - - - w - w - b b -\n- w w w - - - - - - - -\n- b - - w b b b b b b -\nb - - w - - - - - w - -\n- b - - w b b - - - - -\nw - - - - - - b - - b -"
+    },
+    "49_12x12": {
+      "id": "49_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/049.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - - b - b w - b - -\nb - w w - - - - - - w b\n- - - w - w b - w b - -\n- - w - - w - - w - b -\n- b - w - w - w - - w -\n- - - - - w - w - b b -\n- b - w - w - w b - - -\n- - - w - w - w b w - -\n- - w - w w w - - - - -\n- - - w - - - w b b b b\n- b - - - w - - - - w w"
+    },
+    "50_12x12": {
+      "id": "50_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/050.a.htm",
+      "problem": "12 12\nb - - b - - - - - - - -\nw - b - b - - - b - - -\n- - - - b - w w - - w -\n- w w - - - - b - - - -\n- - - b b b - - b b - -\n- w - - - - b - - b - b\n- - - b - b - w - - - -\nw - b - b - b - - b w -\n- - b - b - b - b - - -\n- - - w - - - - b - - -\n- b w - - w b w - w - w\n- - - - - - - - - - - -"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/051.a.htm",
+      "problem": "10 10\nw - - - - - - - - w\n- - b - b - w - - b\nb - w - - - w - b -\n- - b - w - b - - -\n- - w - b - w - - -\n- b b - - - - b b -\n- - - - - b - - - -\n- - w w w - - b b -\n- - - - - b w - - -\n- - - b - - - - - -"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/052.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- b b - w - b w - -\n- - - b w - w - - -\n- b b - w - b - - -\n- w w - w b - w w -\n- - b - - - - - - -\n- - - - b w w w w -\n- b b b - b - - - -\n- - - w - w b w w w\nb - - - - - - - - b"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/053.a.htm",
+      "problem": "10 10\nw - - - b - - - - b\n- - b - w - w w w w\n- w - b - - - - - -\n- - w - b - w w w -\n- - - - w w - - - -\n- w w - b - b - - -\n- - - b - b - - b -\n- w w - - b - b w -\n- - - - w - - - - -\n- - - - - - - - - -"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/054.a.htm",
+      "problem": "10 10\n- - - - - - - b - w\n- w - - b - - - b -\n- b - w b - b b b -\n- - - - - w - - b -\n- b b b - b - w - -\nb - - - - - b - - w\n- - b w - - - b - -\n- b - - w - w w - -\n- - - w w - - - - -\n- - - - - - - - - -"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/055.a.htm",
+      "problem": "10 10\n- b - - - - - b - w\n- w b w b - b - b -\n- - - - - - - - w -\n- - w - w - w w - -\n- b - - b - - - - -\n- - - b - - b - b -\n- w w - w - b - b -\n- w - w - w b - b -\n- - - - - - b - b -\n- - - - b - - b - w"
+    },
+    "56_12x12": {
+      "id": "56_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/056.a.htm",
+      "problem": "12 12\n- w - - - - - - - w - b\nw b w - w - - - w - - b\n- - - b w b w b w - b -\n- w w - w - - - - - - -\n- - - - - - b w - w - -\n- - b - - - - b - b w -\n- w w w w - - b - w - -\n- - - - b b b b b - w -\n- w w - b - - b - b w -\n- - b - - - - - - - w -\nw - - b - b w - w b w -\n- - - - - - - - - - w b"
+    },
+    "57_12x12": {
+      "id": "57_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/057.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - - b - w - b - - -\n- w w - - - w - - - b -\n- - - - - b w - w - - -\n- b b - b - w - b b b -\n- - - - - - - - - - - -\n- b - w b b - b b b b -\n- w w - w - b - - - - -\n- - w - b w b w - b b -\nb - - w - - - - - - - -\n- b - b - b b b b b b b\nb - - - - - - - - - - w"
+    },
+    "58_12x12": {
+      "id": "58_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/058.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - w\nw b - w - w - b - - - b\n- - w w - - - w - w - -\n- b - w - - w - w - - -\n- - w - w - w - - w w -\n- w - w - - w b w - - -\n- b - - - w - - - w w -\n- - - - - b - b w - - -\n- b b - b w - b - - w -\n- - - - - - - - - w - -\nb w b - w b w b - w - -\n- - - - - - - - - - - -"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/059.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - b\nb b b - - - w - - - b -\n- - b - w w - w - - - -\n- - - - - - w b - b w -\n- w b w b - - - b - b -\n- b - - - - w - w w - -\n- - - - w w - b - - - -\n- b b - - w - - - - b -\n- - - w w - - b - w w -\n- - b - - w - - w - w -\nb - b - b - - b - - w -\n- - - - - - - - - - - -"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/060.a.htm",
+      "problem": "12 12\nw - - - - b - - w - - -\n- w - - - - - - b w b -\n- - b - - b - - w - - -\n- - w b w - b - - w - -\n- b - - - b - b - - - -\n- w - - b - b - b w - -\n- - - w - - - - - - w -\n- w - w - w - w - b - -\n- - - w - - w - b w - -\nw - b w - w - b - b - -\n- - - w - w - - - - - -\n- - - - - - - - - - w -"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/061.a.htm",
+      "problem": "10 10\n- - - - - - - - - b\n- b - b w b - w b -\n- w w - - w - w - -\n- - - - - b - b - -\n- w - b - - b - w b\n- - b - b b - - w -\n- - w - - - b - - -\n- - b b b b - b b b\n- - - - - - w - - -\nw - b - - - - - - b"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/063.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\nw - b - b b - w - -\n- - b - - - - - w b\n- - - - w - b - - -\n- w w b w - b - b -\n- - - - - - b - - -\n- - w - - b - - b -\n- - - w - - - b - -\n- - w b b w - b - -\n- - - - - - - - - b"
+    },
+    "66_12x12": {
+      "id": "66_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/066.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - w\n- - b w - - - b - b b b\nb - w - w w - - - - - -\n- b b w - - w w - w - -\n- - - - - w - w - - - -\n- b b b - w - b w - - b\n- w - w - - - b - w - -\n- - w - - w - - b - b -\n- w - b - - w - w - w -\n- b - - b - - - - - b -\n- w w - b - b w b - - -\n- - - - - - - - - - - -"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/068.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - b\n- - b w - - b - - - b -\n- w w - w w w - w - w -\n- b - w - - - - w - b -\n- - - - w - w w w - - -\n- b b - b w - - - - b b\n- - w - b - - w - w w -\n- - - w - - - b - - - -\n- w w - w b - b - b b -\n- b b - - - - b - w - -\n- - - - b - - b - - - -\n- b - - - - - - - - b -"
+    },
+    "73_10x10": {
+      "id": "73_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/073.a.htm",
+      "problem": "10 10\n- - - - - - - w - b\n- - - w b b w - - b\n- w - - - w - b - -\n- b - b - b w b - b\n- w w - - - - - - -\n- - - - w w - b w -\n- w w w - - b - b -\n- b b - - b w b - -\n- - - - w - - - w -\n- - w - - - - - w b"
+    },
+    "75_12x12": {
+      "id": "75_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/075.a.htm",
+      "problem": "12 12\n- - - - - - - - w - b b\n- - w - w - w - - w - -\n- - w - w b w b - - - b\n- b - - - - - - - b - b\nw w - - w w - b - b - -\nw b - w - - b b b - w -\n- - w - w - - - - b - -\n- w - - - - b b b - b -\n- w w w w w w w w - w -\n- w - - - - - - - - w -\n- - w w w w w w w w - -\n- - - - - - - - - - b -"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/082.a.htm",
+      "problem": "10 10\nw - - - - - - - - w\n- - - b - w - - b -\nb - w - w - w w - -\n- b b - b - - - - b\n- w - - - b - - b -\n- b - w - - - w - -\n- w w - w b w - b -\n- - - - - - - - - -\n- w b w b - w b w -\n- - - - - - - - - -"
+    },
+    "84_12x12": {
+      "id": "84_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/084.a.htm",
+      "problem": "12 12\nb - - - - - - b - - - b\n- b - - w - b b - - - -\n- w - w w - w - - w w -\n- b - - w - b b b b b -\n- - - w - - - w b - - -\n- b - b w - b b - w - -\n- w - - - w - - b - - -\n- - w - w - - w b - b -\n- - w w - - w - - - - -\n- w - - - w b w b b b -\n- w b w b - - - - - - -\n- - - - - - b - - - b -"
+    },
+    "86_12x12": {
+      "id": "86_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/086.a.htm",
+      "problem": "12 12\nb - w - - - - - - - w -\n- w - - - w - w - - - -\n- - b - b - - w - b b -\n- - b - b - b w b - - -\n- w b - - b - w - b - -\n- - b - b - w w b - - -\n- - b - - - - - - b - -\n- - b - b w w w - b - -\n- b - b - b - - w - - -\n- - - - b - b - - b - -\n- w - w b - b - w b - w\nb - w - - - - - - - - -"
+    },
+    "87_12x12": {
+      "id": "87_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/087.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\nw - - w - w - - w - - -\n- - b w - - - b w b - -\n- - - w - b - - w - b -\nw w - w - - w w - - w -\n- w - w - w - - - - b -\n- - - - b - b - b - w -\n- - - w - b - b b - - -\nw w - b - - b - b - w -\n- - b - - w - - - - - -\n- - - b - w - w b w - -\n- - - - - - - - - - - -"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/091.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- b w - w - w b - -\n- - - - w - - b - w\n- w w - - w - b - -\n- - - - w b - - w -\n- w w b - w - b - -\n- - - - b b - b - w\n- - w - - - w - - -\n- w w - w w - w w w\nw - - - - - - - - b"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/092.a.htm",
+      "problem": "10 10\n- - w - - - - b - -\n- - b - w b w - w -\n- w w - w b - - b -\n- - - - - - b b - -\n- w w - w - - b - b\n- - b - - w - b - -\n- b - b w - b b - -\n- - - - w - - - w -\n- - w - w - w w - -\n- - - - w - w - - -"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/093.a.htm",
+      "problem": "10 10\n- - b w - - - - - -\n- - - w - w b w b -\n- - b - - - - - - -\n- w b - b - b w w -\n- - - b - b - - - -\n- - b - - - - w w -\n- w b - w w - b - -\n- b - b - w - - - -\n- w - - - - w - w -\n- - - - b - - - - w"
+    },
+    "100_14x14": {
+      "id": "100_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/100.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - w\nw - w b w b w - w - - b w -\n- - - - w - - - w - - - w -\n- w w - - - w - - w - w w -\n- - - - w w w - - b - - - -\n- b - - b b b - - - - b - b\n- w b - w w - b - b - b - -\n- - - - - - - b - b - b - b\n- w - - b - b b b - - b - -\n- - - - - b - - - b b - b -\n- b b - b - w b - - - - - -\n- b - - b - - - b w - - w -\n- - - w - - b b - - w - w -\n- - - - - - - - - - - - - w"
+    },
+    "102_12x12": {
+      "id": "102_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/102.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - w\n- w - w - w w w w w w -\n- - w - - - - - - - - -\n- - b - - w - w w w w -\nw - - w - - w w - - - -\n- w w w b w - - - w w -\n- - - - - - - b - - - -\n- w - w - w - b - - w -\n- b - - - b w - - - - -\n- b b - - b - w - b b -\n- - w b - b - w - - - -\n- - - - - - - - - - w -"
+    },
+    "103_12x12": {
+      "id": "103_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/103.a.htm",
+      "problem": "12 12\nb w - - - - - - - - - -\n- w - w - - - w - - - -\n- b - b - b - w - w w -\nb w - w - - - b - b - -\n- w - - w - b - b - - -\n- - w - b - b - - - b -\n- b - b b - b b b b - -\n- w b - - - - - - - b -\n- - - b b - b b - - w -\n- - b - w b - - b - - -\n- - - w - - b - - w b -\nb w - - - - - - - - - -"
+    },
+    "104_12x12": {
+      "id": "104_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/104.a.htm",
+      "problem": "12 12\nb - - - - - - - - - - b\nw w - w b - - b w - b -\n- - - b - w - - b - - -\n- w w w b - b - - b - -\n- - - - - - b w - w - -\nw - - w b - - b - b - -\n- - w - - - - - b - - -\n- w - - b w b w - b - -\n- - - - w - - w b - - -\n- w - b - - - w - b - w\n- - - - - w - w b w - -\n- - - - - - - - - - - -"
+    },
+    "112_12x12": {
+      "id": "112_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/112.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - w\n- - b w - b w - w - w -\n- - b w b - - - w - w -\n- b - - b - w - w - w -\n- w w - b - - - w - w -\nw - b b - w - b w - w -\n- - - - b w b - - - w -\n- b - - - - - - - - w -\n- - b - - w w w w - - -\n- w w - w - - - - - b -\n- - - - w b w - w - - -\n- w - - - - - - - - - w"
+    },
+    "113_12x12": {
+      "id": "113_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/113.a.htm",
+      "problem": "12 12\nw - - - - - - - - w - -\nb - b - - - w b - - - -\n- - b - b - - - w w w -\n- - b - b w b - - - - -\n- - b - b - - - - w w -\n- - b - - - w - w - - -\n- - b - b - - - w b - -\n- b - b - b b - - - - -\n- - - w b - - b - w w w\n- w - w - - - b - - - -\n- w - w b w b w - w - -\nb - w - - - - - - - - -"
+    },
+    "114_12x12": {
+      "id": "114_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/114.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - w - - b - b - w w -\n- - - b - b - b w - - -\n- w - b - b - b - w - -\n- - - b b - b - - - - -\n- w - - - - - b - b w -\n- - b b b b b - - b - -\n- w - - - - - b - b - -\n- b - w - b b - b - b -\n- - - - b - - b w b - -\n- b w - w - w - - - w -\n- - - w - - w - b - - -"
+    },
+    "116_14x14": {
+      "id": "116_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/116.a.htm",
+      "problem": "14 14\n- - - - - - - - w - - - w b\n- b w - w - w - - - w - w -\n- b - - w b w b - b w - w -\n- - w b - - - - b - w - w -\n- w - w - - w - - - b - w -\n- - w - - w w w - w w - - -\n- - - b - - - - - - - b b -\n- w - w b - w w w w - b - -\n- - - b - w - b - - - - - -\n- w - w w - - - - w - w - -\n- - - w - - b - w - - - w -\n- w - w - w - w b b - - - -\n- - - w - w - w - - - b w -\n- - - - - - - - - w - - - w"
+    },
+    "117_14x14": {
+      "id": "117_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/117.a.htm",
+      "problem": "14 14\nb - - - - - - - - - w - - w\n- b b b b - - b w b - b - -\n- - - - - b - w - w - w w -\n- b b - w - b b b b - b b -\n- - - - w b - - - w - - - b\n- b w - w - - w - b - b b -\n- - - w w w - - b - - - - -\n- b b b - - b - b w b w b -\n- - - w - b - - b w - - - -\n- b b - w b - b - w - b - -\n- - - - - b - - b - w - - -\n- w b w - - b - b - - w - b\n- - b - w b w - b - b w - -\n- b - - - - - - - - - - - -"
+    },
+    "118_14x14": {
+      "id": "118_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/118.a.htm",
+      "problem": "14 14\n- - - - - - - b - - - - - -\nb - b - b - - - - b - w - -\n- - b - - - w - b - b - w -\n- - b - - b - b - - b - w -\n- b - - w b - b - b - - w -\n- w b - - - - b - w - b - -\n- - - b - b - - - w - b - -\n- w b - b - - - w - - b - b\n- - - - b - w - w - b - - -\n- - b - - - - w - b - - - -\nw - b b b - b b - - w - w -\n- - b - - b - - - - w - w -\n- - - - w - b b w - w - w -\n- - - - - - - - - - - - - w"
+    },
+    "121_12x12": {
+      "id": "121_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/121.a.htm",
+      "problem": "12 12\n- - - - - - - - - w - -\n- - - - w - b w - - - -\n- w w - - - b - w - w -\n- - b - b - b w - - - -\nw - w b - - - b - w w w\n- - b - b - w - - - - -\nw - - - b w - w b - w -\n- - b b - w - w - b - w\nw - w - b - - - b - - -\n- w - - - b - b b - w -\n- w w - - b - - - - w -\n- - - - - - - - b - - -"
+    },
+    "122_12x12": {
+      "id": "122_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/122.a.htm",
+      "problem": "12 12\n- b - - - - - - - - - -\n- - - b - b - - b - w -\n- b - b - - - - w - b -\n- w - b - - - w - - - -\n- - w b - b b b - w - b\n- - - - w - - - b - - -\nb b - b w - b - - b b -\n- w - b - w - - w - - b\n- - - b - - w w - - b -\n- b - b - b w - - - w -\n- b - b - b - b w b w -\nw - b - - - - - - - - -"
+    },
+    "127_14x14": {
+      "id": "127_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/127.a.htm",
+      "problem": "14 14\n- - - - - w - - - w - - - -\n- b - - - - - b w b - w - -\n- w - b w - b - - - w b w -\n- - - - - - - b w b w - w -\n- - w b b - b - b - w - w -\n- w - - b - - b w w - - w -\nw - b - - b b - w - w b w -\n- - - b - - - b w - - - - -\n- - b - - b b - - - b - w -\n- w - b - - - b - w w - b -\n- b - b w - b - w - - - - -\n- w - b - - b - - w w - - -\n- - b - - b - b w - - - w -\n- - - - - - - - - - - - - w"
+    },
+    "138_12x12": {
+      "id": "138_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/138.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - -\n- b w w - - - w - b - -\n- - w - - w - w - - w -\n- w - w w w w - - b - -\n- - b - - - - b - - w -\n- w w - w - b - b - - -\n- b - b - w - - b w - -\n- - w - - w - w - - w -\n- - - w - w - w - b b -\n- w - w - - w - w - - b\n- - - w - w - b b - b -\n- - w - - - - - - - - w"
+    },
+    "140_14x14": {
+      "id": "140_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/140.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- - - - b - b - b w - b w -\n- - w - b - b - b - - - - -\n- b b - b - w - - w - b b -\n- - w - - - b b b - - - - -\n- b - w w b - - - - b - w -\n- - - b - - b b - w - - b -\n- - w - w - - - - - w - - -\n- b b - b b b b b w - b b -\n- - - - b - w - w - - - w -\nb b b b - - - - - w - b b -\n- - - - b w b - b - w - - -\nb b b - - w - b - w b - b b\nw - - - - - - - - - - - - w"
+    },
+    "142_10x10": {
+      "id": "142_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/142.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - w - w - - w - -\n- - w - w - w - - -\n- - - - - - - w - -\n- w w w - - b w - -\n- - b - b b - - - -\n- - - b - - - - - -\n- - b b - b - w - -\nw - - - b - - - w -\nb - - - - - - - - w"
+    },
+    "145_12x12": {
+      "id": "145_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/145.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - w\n- - - - w - - - w - w -\n- w - b w b w b w - w -\n- - - - - - b - - - w -\nw w - b w w w - b - w -\n- - w w - - - - - b w -\n- - - - b b b b b - w -\n- w w - - - - - - b w -\n- - - b b b b - - b - -\n- w - - b - b b - - - -\n- - b w - - b - b - w -\n- - - - - - - - - - - w"
+    },
+    "148_12x12": {
+      "id": "148_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/148.a.htm",
+      "problem": "12 12\n- - - - - - w - - - - -\nb - w w - b w - w - - w\n- w - w b - - - - b - -\n- - - - b - b - - b - -\n- - - b - b - - b - - -\n- - b - b w b - - b b -\n- b b - - - - - b - - -\n- - w - w - b w - b b -\n- w - b b - - w - - b -\n- w - - - w - w w - - -\n- w - w - w b - b w b -\nb w - - - - - - - - - -"
+    },
+    "152_10x10": {
+      "id": "152_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/152.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - w - - - - -\n- w - b - - b w w -\n- - b - - - - - - -\n- - - b - b - - w -\n- - b - - - b - - -\n- w - - b b - - b -\n- - - - - - b b - -\nw w - - - b - - - -\nb - - - - - - b - w"
+    },
+    "155_12x12": {
+      "id": "155_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/155.a.htm",
+      "problem": "12 12\nw - b - - - - - - - - w\n- - - b - - w - - b - -\n- b b - b - b - b - b -\n- w - b - - w b - b w -\n- - - - - b - - - - - -\n- w - b b - w - w - w -\n- - - - - b - w - b - -\n- - w b - - - - - b - w\n- w - - b b - w - - - -\n- - - - w - - w - w w -\n- b w - w - w - - b - -\n- - - - - - - - - - - -"
+    },
+    "160_14x14": {
+      "id": "160_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/160.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- w - b - b - b - b w - w -\n- b - b - b - - - - b - b -\n- w - w - - - w w - b - - -\n- - - w - b - w - - b w - -\n- - w - b w b w w - b - - -\n- b b b - - - - - - - - b -\n- - - - - - b - w - w w - -\n- - b b b b b w - - - - - b\n- b - - b - - - w - b w - w\n- w w w - b b - b b - - w -\n- w - - - - - - - - b w - -\n- - - - b - b - b w - - b -\n- - - - - - - - - b - w - -"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/010.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - b - - -\nb - - - - - - -\n- - - - - b - -\n- - b - - - - -\n- - b b - b - -\n- b - b - - - -\n- - - - - - - -"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/062.a.htm",
+      "problem": "10 10\nb w - - - - - - - -\n- w b - - w b w b -\n- w b b - - - - - -\n- - w w - w w w w -\n- - - b - b - - b -\n- w b - - - - w w -\n- b - b b - b - - -\n- w - - - - - - w -\n- - w - w b w - - -\nb - - - - - - - - -"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/064.a.htm",
+      "problem": "10 10\n- - - - - w - w - b\n- b w - - - - - - -\n- b - b b - w b w -\n- - w - - - b - b -\nw - - w - w - - - -\n- w - - - - - b w -\n- w w w w w - - b -\n- w - - b b b - w -\n- w w - - - - w - -\n- - - - - - - - - -"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/065.a.htm",
+      "problem": "10 10\nw - - w - - - - - b\n- - - - - - - b - -\n- b b - b - - - b -\n- - - - b - b - - -\n- - - b b - - b - -\n- - b - - - - b - b\n- - - w b w - - - -\nw - b w - - - b - -\n- - - w - - w - - -\n- - - - - - - - w b"
+    },
+    "67_12x12": {
+      "id": "67_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/067.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - b\nb b b - - - - b w - b -\n- - - - w w w w - b - -\n- b - - - - - - - - w -\n- - - w w - w w - b b -\n- - w - - - b - - - - -\n- b b - b - b w - - b -\n- - - - b - - - - w - -\n- b b - b - w b - b b -\n- - - - - - - b - - - -\nb w b - w b w b - b - -\n- - - - - - - - - - - -"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/069.a.htm",
+      "problem": "12 12\n- b - - - - - - - - - b\n- - - - w - b w - w w w\n- w b - w - - b - - - -\n- - b - - - b - - w w -\n- b - - b b - b - - - -\n- - - b - - b - - w w -\n- b - - - b - b b - - -\n- w - w - - - b - - w -\n- - - - w - b - - b - -\n- - b - w - w - b - - -\nw - b - w - b w b b b -\n- - - - - - - - - - - -"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/070.a.htm",
+      "problem": "12 12\n- b - - - - - - - - b -\n- - - b w - b - - - - -\n- - w - - - w w - w - b\n- w - w w - - - - - - -\n- - - - - w b b - w - -\n- w w w w - - b - - w -\n- - - - - w - - w - - -\n- - - - w - - - - w - -\n- b w - - - w - w b - b\n- w - w w w - w - - - -\n- - - - b - b - - w - b\nw - w - - - - - w - - w"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/071.a.htm",
+      "problem": "10 10\nb - - - - - - - - -\nb - w b w - b w - -\n- - w - - - - b - w\n- - b - - w w b - -\n- w b w - - - - b -\n- w - b - b - - b -\n- w b - b w - w - -\n- w b - b b - b b -\n- w - - - - b - - -\nw - - - - - - - - -"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/072.a.htm",
+      "problem": "10 10\n- - - b - - - - - -\n- b b - w - w b w -\n- - - - w - - - - -\n- b w - - w - b w -\n- - b - b b b - b -\n- b - w - w - - w -\n- b w b w b w - b -\n- b - - - - - w w -\n- - b - b b - - - -\n- - - - - b - - - -"
+    },
+    "74_12x12": {
+      "id": "74_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/074.a.htm",
+      "problem": "12 12\n- - - - b - - - - - - -\n- - b - - b - b - b w -\n- b w - - - - b - - - -\n- - - b b b b - - b b -\n- w - w - - - b - - - -\n- - - - b - b - w - b -\n- w b - b - w w w - - -\n- - - - b - - - - - b -\n- b w - - b - b b - - -\n- b - - - b - - - - w -\n- b - b - b - b - b - -\nb - - - - - - - - - - -"
+    },
+    "76_12x12": {
+      "id": "76_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/076.a.htm",
+      "problem": "12 12\n- - - - w - - - - - - -\n- - - - - w - - - w b -\n- - w b b w b - b b - -\n- - - - - - - b - - - -\n- w - b w b - - w - w -\n- - - - - - b w b w - -\n- - b - b - - - - - b -\nb - b - b - b - b - w -\n- b - b - b - b - - - -\n- w w - - - b - b w w -\n- - - w w w - w - - - -\n- - - - - - - - - b - b"
+    },
+    "77_12x12": {
+      "id": "77_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/077.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\nw - w - - b - w - - w -\n- - w b - - - - - - w -\n- - - - - - b w b w w -\n- w w b w b - - - b - -\n- - - - - - b - b - - -\n- w - b b b b b - - w -\n- b - - - - - - b - - -\n- w w - w b - b - b b -\n- - b - - - b - b - - -\n- - - b - w b - - - w -\n- - - - - - - - w - - b"
+    },
+    "78_14x14": {
+      "id": "78_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/078.a.htm",
+      "problem": "14 14\nb - - - - - - b - - - - - -\n- - - - w b - - - w - - - -\nw - w b - w - w - b - w b -\n- b - w - b - b - - - w - -\n- w - - - - w - w - w - - -\nw - w w - w - b - w - w w -\n- - - - w - - w - - - - - -\n- b b - w - w - w w - w - -\n- - - - w - w - - - w - w -\n- - w - - - w b - b w - b -\n- w - b - b - w - - - - - -\n- - - b - b w b - w b - b -\n- b - b - b - - w - b - - -\nw b - - - b - - - - - - - -"
+    },
+    "79_14x14": {
+      "id": "79_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/079.a.htm",
+      "problem": "14 14\nw b - - - - - - - - w - - -\n- - - b - b - w w - - - - -\n- b b - - w - - w - - b b -\n- - - - b - - - - - b - - -\n- w w b w - - w - - - b b -\n- - - - b - w - - - b - - -\n- w w - - w w - w - - b - -\n- - - - w - - - w - w w w -\n- - b - - - w - b - - - - -\n- w - w w - w - w w w w w -\n- - - - - b - w - - - b - -\n- b b - w - - b - w b w - -\n- - - - - w b - - w - b - w\n- w - - - - - - - - - - - -"
+    },
+    "80_14x14": {
+      "id": "80_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/080.a.htm",
+      "problem": "14 14\n- - - - - b - - - - w - - -\nb w - - b - - - b - - - - -\n- - b w - b b b b b - b b -\n- - - b - - - - - - - w - -\n- - - - b - w b - - b b - -\n- - - - - - b - b - - - - -\n- w - b b - - b - - b b b -\n- b - - - b - b w - - - - -\n- - b - - b - - b - b b - -\n- b - b - b - b - b - - - -\n- - b - - - - b - - - b b -\n- b - - w - w - - w - - - -\n- - w - w - w - w - b w b -\n- - - - - - - - - - - - - -"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/081.a.htm",
+      "problem": "10 10\nb - - - - - - - - -\n- - b - w - - b w -\n- b - - - w - - - -\n- w - w b - - b w -\n- - - - - b b - - -\n- w - b - b - b - -\n- - - - - b - b - -\n- - b w - b - b - b\n- b - b - - - - - b\n- - - - - - - w - b"
+    },
+    "83_10x10": {
+      "id": "83_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/083.a.htm",
+      "problem": "10 10\nw - - - - - - - - -\nw - w b - - w b - -\n- - - - - w - - - -\nb - b b b - - w b -\n- - - w - b - - - -\n- b - - - b - w b -\n- - w b - b - - - -\n- - w b - b - w b -\n- w - b - b - - - -\n- - - - - - - - - -"
+    },
+    "85_12x12": {
+      "id": "85_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/085.a.htm",
+      "problem": "12 12\nb - - b - - - - - - - -\n- b - - - b - b - - w -\n- - w w - b - b w - b -\n- - b - w - - - - w - -\n- b - - - - - - - - - -\n- b - w b w b w b - b -\n- - - - - w - - - w w -\n- w - b - w - b w - - -\n- - - w - - b - - b w -\n- b - b - - - b - w - -\n- b - - b - - b - b - -\nw - b - - - - - - - - -"
+    },
+    "88_14x14": {
+      "id": "88_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/088.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - w -\n- - w - w - b w - w - - - -\n- w - w - - b - - - - w w -\n- b - b - b - b b w - - - -\n- - b - - w - - - - w w w -\n- w - b b - b b - - - - - -\nb - - w w b - - w - b w b -\n- w - - w - b - - - w - w -\nw b - - - - - w - w - w b -\n- - - - - - w - - - - - - -\n- b - w - - b - w w w w w -\n- - b w - b b b - b - - - -\n- - - w - - - - - - - w - -\n- - - - - w - w - w - - - -"
+    },
+    "89_14x14": {
+      "id": "89_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/089.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - w\n- - w b w b - w - w - - w -\n- - - - - - w - - - - w - -\n- w - - b - - w - b - b - -\n- b - w w - b - - b - w - b\n- - - - - b - b b - - - - -\n- w w w - - - b - - - b - -\n- - - - w - b - b b b - b -\n- w w - w - w - b - - - w -\n- - - - - - b - - b b - - -\n- w - b w b - b - b - - w -\n- - b - w b - b - b w - w -\n- - w - w - - b - - w - w -\n- - - - - - - - - - - - w b"
+    },
+    "90_14x14": {
+      "id": "90_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/090.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - w b\n- - b - b - - - - w b - - -\n- w w - w - w w - - w w - -\n- - - - - - - w - - - b b -\n- - b b b b b - w w - - w -\n- - b - - - - w - w b w - -\n- w - - w - b w - - b - - b\n- b - b b - - b - - b w - -\n- b - w - b w - b b - - - -\n- b w - - - - - - - - b b -\n- b w b w b b b - w - - - -\n- b - - - - - - - b - b b -\n- b b - b b b - - b w - w -\n- - - - - - - b - - - - - -"
+    },
+    "94_12x12": {
+      "id": "94_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/094.a.htm",
+      "problem": "12 12\nw - - - b - - - b - - b\n- - b b - b w - - - w -\n- b - b - b w - - w - -\n- b - - w - - w - - - -\n- b b - w - b - w w - -\n- - w w - - - b - - - -\n- - - - w - b - b - b -\n- - w - - - w b - - w -\n- w - w - - b - - b b -\n- b w - - w w w - w - -\n- - - - w - - - - - w -\n- - w - - - - b - - - -"
+    },
+    "95_12x12": {
+      "id": "95_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/095.a.htm",
+      "problem": "12 12\nw - - - - b - - - - - w\n- w - b - - - w b - w -\n- - - - - b - b - - - -\n- w - w b w - - b w - -\n- b - b - b b w - - w -\n- b b - - - - - b b - -\n- - - - - - - b - b - -\n- w - w b w - - w - b -\n- b - w b w - b - - - -\n- - - - - - - - - b b -\n- b b w b - b - - - - -\n- - - - - - - - - - - -"
+    },
+    "96_12x12": {
+      "id": "96_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/096.a.htm",
+      "problem": "12 12\n- - - - - - - - - - w b\nw - w - w b - - w b w -\n- - - - - - b b - - - -\n- w w w - - - - b - - -\n- - - - b - b - w - b -\n- w w - - b - b - b - -\n- - - - w b - b - b - -\n- w b w - b - - - b w -\n- - - - w b - b b - - -\n- w b - - b - - - b w -\n- b - b w - b - b - - -\n- - - - - - - - - - - b"
+    },
+    "97_12x12": {
+      "id": "97_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/097.a.htm",
+      "problem": "12 12\nw - - - b - - - - - - -\n- - b - b - - b - b - b\n- - - - b - b - - b - -\n- b w - b - b - - w w -\n- b - b b - - b w - - -\n- b - - - - - b - w w -\n- - b w - b - b w - b -\n- b - - - - b - - - - -\n- b - - b b - - b b b b\n- b - - - w w - w w - -\n- - w - w - b - b - - w\n- - - - - - - - - - w -"
+    },
+    "98_14x14": {
+      "id": "98_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/098.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - w - b\nw - - - - - w - w - - - w -\n- - b b b b w - - b w b w -\n- b - - - - - - - - b - w -\n- w w - - w - w b w w w - -\n- - - w - w - - - - - - w -\n- - b - - w w b - w - - - -\n- b - - b - - - b - w - b -\n- - - b - - w - - - w b - -\n- b - - - w - - w w - - - -\n- w - w - - b - b - - w w -\n- - - - w b - b w - b - w -\n- - w - w - - - - - - - w -\n- - - - - - - - - - - - w b"
+    },
+    "99_14x14": {
+      "id": "99_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/099.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- w - - b - b w w b w - w -\n- - w b - - - - - b w - b -\n- - - b - w w b - b - - w -\n- - w - b b - - - b - b b -\n- w - b - - b - w b - b - -\n- b - b - b - b - - - - - -\n- w - b - - w - - b b b b -\n- b - b w - - - w - - - - -\n- - - b w - - w - w - b - -\n- - w - - - w w - - - b b -\n- - - b w - - - - b - - - b\nb b b - - w b b - - - b b -\nw - - - - - - - - - - - - w"
+    },
+    "101_12x12": {
+      "id": "101_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/101.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- w - b - b - - - w - -\n- b - b - - - b - b b b\n- - - b - w b - - - - -\nb - w b - b - - b b b -\n- - - - w w w - w - - -\n- b - w - - - - - w b -\n- - - b - w w - b - - -\n- b - - w - - w b - - -\nb - w b - w - - w w w -\n- - w - b b b b b - - -\nw - - - - - - - - b - -"
+    },
+    "105_12x12": {
+      "id": "105_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/105.a.htm",
+      "problem": "12 12\n- - - - b - - - - - - -\n- - b - - b - b - b - -\n- - b - b - - - b - b -\n- - - - b - w - b - b -\n- b - - b b - - b - b -\n- - - - - - b - b - b -\n- - w - w - - - - - b -\n- b - - - w - w - w b -\n- - - - w - w - w - - -\n- b - w - w - w - w b -\n- - - - - - - - - - b -\n- - - - - - - - - - b w"
+    },
+    "106_14x14": {
+      "id": "106_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/106.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - w\n- b b - - w b - b - b - w -\n- - - b b - - b - - - b - -\n- b - - - - w - - w - - b -\n- b - w - b - - b w - b - -\nw - - - b - w b b w - - - -\n- - b b - - - - - - - b - b\n- w - w - b w b b b b b - w\n- - - - - - w - - b - - - -\n- - b - w - w - - w - b w -\n- w - b w - w - b - w - - -\n- - b - w - w b - b w - w -\n- - - - w - w b - b w b - -\n- - w - - - - - - - - - - w"
+    },
+    "107_14x14": {
+      "id": "107_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/107.a.htm",
+      "problem": "14 14\nb - - - - w - - - - - - - -\n- b - - w b w - - - - b b -\n- - w - - - - - w b - b w -\n- b - - - w - - b - b - - -\n- - b - - - - w w w w w w -\n- - - b b - b b b b - - - -\n- w b - b - - - - - - w w -\n- - - - b b b - b b b b b -\n- - w - b - - b - - - - - -\n- b b w - - b - w - b - b -\n- - - b - w - b b b - b - -\n- - - - - - - - - - b - - -\n- w - w - - w - w - b b b -\nw - - - - - - - - - - - - -"
+    },
+    "108_14x14": {
+      "id": "108_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/108.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - b - w\n- - w - b - - b - - b - b -\n- b - w b - b - - w b - b -\n- - - - - - - b w - b - b -\n- b b b b - - - w - b - - -\n- - - - - - b - w - - - - -\n- b - b - b w - w - w - - -\n- - - w - b - - w - - - - -\n- w b - w - - w - w - w b -\n- - - w - w - w - b - - w -\n- - w - - w b - - - b - - -\n- - w w b - - - w - b - b -\n- w - - b - w b - - b - b -\n- - - - - - - - - - - - b w"
+    },
+    "109_14x14": {
+      "id": "109_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/109.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- - w b - w b - - w b - b -\n- b - - w - w - b - - b b -\n- - b - - w - - w - w w w -\n- w w w - w - b - - b - b -\n- b b - - - - w b - w - w -\n- - - b - - b - - b - - - -\n- - b - w - - w b - b - w -\n- w w w - b - - b - b b b -\nw - b - b b - b - - - - b -\n- - - b - - - - - b b - - -\n- b b - - w w - b - - b b -\n- - w - w - w b - - w - w -\nb - - - - - - - - - - - - b"
+    },
+    "110_14x14": {
+      "id": "110_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/110.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - b\n- - w - w - - - b b - b - -\n- - - - - - b - b - - b - -\n- - b - b b - b - b b - - -\n- w w - - - - - - - b - - -\n- - - - b b b b b - - - b -\n- w w - - - - - - b - b - -\n- - b - b b b b b - - - - -\n- - - b - - - - - b w - w -\n- - b - w - b b b - w - - w\n- - - - w - b - - b w - - -\n- - b - b - - - - - w b - -\n- - - - - - - - w - w - - -\n- - - - - - - - - - - - - -"
+    },
+    "111_12x12": {
+      "id": "111_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/111.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - -\n- w - - b w - w - - b -\n- b - b - b - - b - b -\n- - - b - - b - w - w -\n- - b - w - - w - - - -\n- - - w - - w - w w w -\n- - b - - b b - - - - -\n- b - w b - - - w w w -\n- - - - - - b - - - b -\n- - - b - b - b w b - -\n- w - b - b - - w - b -\nw - - - - - - - - - - -"
+    },
+    "115_12x12": {
+      "id": "115_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/115.a.htm",
+      "problem": "12 12\nb - - - - - - - - - - -\n- w w w - - - w - b - -\nw - b - - w - - - - - -\n- - b - - b - w - b - -\n- - - - w - - - b - - -\n- - - - - - b - - b - -\n- w - w w w - - - b - -\n- - b - - - - - b - - -\n- - - b w - w - - - - -\n- - b - w - w - w - w -\n- - - - w - w - - w w -\n- - - - - - - - w - - -"
+    },
+    "119_14x14": {
+      "id": "119_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/119.a.htm",
+      "problem": "14 14\n- - w - - - - - - - - - - b\n- - - - - - w - w - - b - -\n- b b b w b - - b b - b - -\n- - b - - - b - - b - b - b\nw - b - w - - - - b - b - -\n- - - b - - b b b - - b - -\n- - b - b b - w - - b w - b\n- - - b - b w - - b - - - -\n- - b - - - - w - - - b - -\n- w w w w w w b - b b - b -\n- - b - - - - - b b - b - -\n- - - b w - b - - - - b - -\n- - b - w - w - w b w b w -\n- w - - - - - - - - - - - b"
+    },
+    "120_14x14": {
+      "id": "120_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/120.a.htm",
+      "problem": "14 14\n- - - - - - - - - w - - - -\n- - b - w w - w w - - w - -\n- - - - - w - - - - - - - -\n- - w w - - - - w w w w w -\n- - - - w - w b - - - - - -\n- - - - - - - w - b - w w -\n- w - - - w - - - - - - - -\n- - - - b - - w - b - w w -\n- w - - - - - - - - - - - -\n- - - - b - w - - w - w w -\n- w - - - - w - w - - - - -\n- w b - - - w - - w b - w -\n- w - - w - w - w - - - - -\nb - w - - - - - - - - - - -"
+    },
+    "123_12x12": {
+      "id": "123_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/123.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- b - w - - - w b - b -\n- - b w b - b w - b - -\n- b - w b - - w - w w -\n- - b - - - w - - b - -\n- - b - w - w - - - b -\n- w - - - - w - b - - -\n- b - w w - - w - b - -\n- - - - - w - w - w w -\n- - b - - b - b - b b -\nw - - b w w - w b - - -\nb - - - - - - - b - b w"
+    },
+    "124_12x12": {
+      "id": "124_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/124.a.htm",
+      "problem": "12 12\nb - - - - - - - b - - -\n- - - b w b w - - - - -\n- - b - - - b - b - w -\n- b - b - b - b - - w -\n- w - b - b w - b b - -\n- - b - - - - - - - - -\n- - - b b - - w - b w -\n- b b - - - w b - w - -\n- - - - b b - - - b - -\n- w w w - - b - b - b -\n- - - - - w - - - - - -\n- - - - - - - w - - - -"
+    },
+    "125_12x12": {
+      "id": "125_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/125.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - w - - - - - w - -\n- w - - - - - b - b - -\n- - - - - - - - - - - -\n- - w b b - - - w - b -\n- - - - - - b b - b - -\n- - b - - b - - b - - -\n- - - b - - - w - - - -\n- - b - - - - - w b - -\n- - - b - w b - w - - w\nw - b - - - w w w - - -\nb - - - - - - - - - - b"
+    },
+    "126_14x14": {
+      "id": "126_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/126.a.htm",
+      "problem": "14 14\nb - - - - - - - - - - - - b\nw - b w - b w w - b - - w -\n- - - - - - - - w - b - - w\n- w b w b w w - - b w w w -\n- - - - - - - w b - - - - -\n- w - w b - w - - - w w w -\n- b - w - - b - w - - - - -\n- w - - - b - b w - w - w -\n- - - w - - - b w - w - - -\n- w w - - b - b w - - w w -\n- - - - - b - - - - b - - -\n- b b - b - b b - - b - w -\n- - - - w - w b - w b b - -\n- - w - - - - - - - - - - -"
+    },
+    "128_14x14": {
+      "id": "128_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/128.a.htm",
+      "problem": "14 14\nb - - - - w - - - - - - - -\n- - b w - - w b - b w b - -\n- b - w - - - b - b - - w -\n- - - - - w - - b - b - - -\n- w - b - - b - - - w - b -\nw w - w - b - b - w - - w -\n- - b - - w b - - b - - - -\n- - - b - - - - w - - w w -\n- - - b b b b - b b b - - -\n- - b - - b - b - - b - w -\n- - b - w b - - b - b w - -\n- w - - - - - - b - - - - -\n- b - w b - - w - - - w b -\n- - - - - - - - - - - - - -"
+    },
+    "129_14x14": {
+      "id": "129_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/129.a.htm",
+      "problem": "14 14\n- w - - - - - - - - - - - w\n- - - w - b w - - - w - - -\n- - b - - b - - - w - b - b\n- - b w - b - w - w - - w -\nw - b - - b - - - w b - w -\n- - - - w - - - b w - b - -\n- w w - - b w - w - b w - -\n- b - - - - - w - w - - w -\n- w - b - - b w - w b w - -\n- b - - b b - - - w - - w -\n- w - - - - b - w - b - - -\nw - b - b - - b b b - - w -\n- - - b - - b - - - w - w -\nb - - - - - - - - - - - - -"
+    },
+    "130_14x14": {
+      "id": "130_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/130.a.htm",
+      "problem": "14 14\nb - - - - - - - - - - b - w\n- w w w w w - b - - - - - -\nw - - - - - - - - b - - b -\n- w w w w w w w - - b b - -\n- - - - - - - - - w b - - -\n- w - w - w w - b w - b - -\n- - w - - - - - - - - b - -\n- - - - b - - - b w - - - -\n- w w - - b w - - w - - - -\n- - - - b - - w - - w - w -\n- w w - - b w - - - b - - -\n- - - - b - w - - - - - w -\n- - w - - - w - w - w - - -\n- - - - - - - - - - - - - -"
+    },
+    "131_10x10": {
+      "id": "131_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/131.a.htm",
+      "problem": "10 10\n- - - - - - - - - b\n- - b - - - - - - -\n- - - b - - - b b -\n- w b - b b - - w -\n- - b - b - b - - -\n- - b - - - - b - -\n- - - - w - b - w -\n- b - b - - - b - -\n- - b - - - - - - -\nb - - - - - - - - -"
+    },
+    "132_10x10": {
+      "id": "132_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/132.a.htm",
+      "problem": "10 10\nb - - - w - - - - -\n- - b - - - - - - -\n- - - b b w - b - -\n- - - - - b - - - -\n- - w - b - - b - -\n- w - - - - w w w -\n- - w - - - - - - -\n- - b - - w - w - -\n- - - b - - w - w w\n- - - - - - - - - b"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/133.a.htm",
+      "problem": "10 10\n- - - - - - - - - b\n- - - - w - - b - -\n- w - w - b - b - -\n- - - - w b - b - -\n- w w - w b - b - -\n- - - - - - b - b -\n- w - b w b - b - -\n- - - - w - - - - -\n- - w - w - w - w -\n- - - - - - - - - w"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/134.a.htm",
+      "problem": "10 10\n- - - - - - - - - b\n- - w - w - - b - -\n- - b - w b - b - -\n- - b - - b - b - -\n- - - - - - - b - -\n- w w w - - b - b -\n- - - b - - - b - -\n- w - - - - - b - -\n- - b w - w - - - -\n- - - - - - - - - b"
+    },
+    "135_12x12": {
+      "id": "135_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/135.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - w\n- - b - b - w - - - - -\n- w w - w - - w - b w -\n- - - w - w b - - w - -\nb - w - - w - - w - b -\n- - w - - - w - - w - -\n- w - w - w w - - b w -\n- - - - - - w - b - - -\n- w - b b - - w - b w -\n- - w - w - b - - w - -\n- - - - b - - b w - - -\nb - b - - - - - - - - -"
+    },
+    "136_12x12": {
+      "id": "136_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/136.a.htm",
+      "problem": "12 12\nw - - - - - - - - - w -\n- - - - b b - - - - - -\n- - w - - - b w w w w -\n- w - w - w - - - - - -\n- - - - w - w w w - b -\n- - w - - - w - - - w -\n- b b - b - - - w w - -\n- - w - - b - - - - - -\n- - - w - - b b - b - -\n- w w - b - - w - - - -\n- w - - b - - - w - b -\n- - - - - - b - - b - w"
+    },
+    "137_12x12": {
+      "id": "137_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/137.a.htm",
+      "problem": "12 12\n- - - - b - - - b - w -\n- w w - - - b - - - - -\n- - - w - w - - - - w -\n- - w - w - w w w w - -\n- - - b - b - - - - - -\n- w - - b - - w w w w -\n- - w w b b - b - - - -\n- - - - - - w - - w w -\n- b - - w - - - w - - -\n- - w w - - w - b w - w\n- w - - - w - w - w - -\n- - - - - - - - - - - b"
+    },
+    "139_14x14": {
+      "id": "139_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/139.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - w - b\n- - b - - w - w - - - - - -\n- w w - w - - - - b - b w -\n- - b - b b - - - b - b - -\n- - - b - - - - b - w - b -\n- b - - - - b b w - b - - -\n- - b b b - - - - b - w - b\n- w - - b - - w w - b - - -\n- - - b - b - b - - - b w -\n- - b - b - - w b - w b - -\n- - - - b w b b - - w - w -\n- w - w - - - - - - b - w -\n- - - w - w b w b - w b - -\n- - - - - - - - - - - - - b"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/141.a.htm",
+      "problem": "10 10\n- - - w - - - - - -\n- - - - - - w - - -\n- - b - - w - - w -\n- w w - b - - - - -\n- - - - - w b - b -\n- - b - w - - b - -\n- - - w - - - - - -\n- - b - w - w b - b\n- - - w - - w - - -\n- - - - - - - - - w"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/143.a.htm",
+      "problem": "10 10\nw - - - - - - - - -\n- - b b b b b b - -\nb - w - - - - w b -\n- - - - b b b b - b\n- - b - - w w - - -\n- - - - w b - - b -\n- b - - - - w - - -\n- - - - - w - - b -\n- - b - - - b - - -\n- - - - - - - - - -"
+    },
+    "144_10x10": {
+      "id": "144_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/144.a.htm",
+      "problem": "10 10\n- - - - - - - - - w\n- - - w - - w - b -\n- - w - - w - - - -\n- - w - - - w w - -\n- - - - w - - b - -\n- - - - b - b - b -\n- - w - - b - - b -\n- - - - - - - - b -\n- b w - b b b b - -\nb - - - - - - - - -"
+    },
+    "146_12x12": {
+      "id": "146_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/146.a.htm",
+      "problem": "12 12\n- - - w - - - - - - - -\n- - - - - w - b w - - -\n- w b b - - w - w - w -\n- - - - - - - - - - b -\n- w w - w - w - - w w -\n- - - w - - - - - w - -\n- - b - - b b b - - b -\nw - - - - - - - b - w -\n- - w b - - w - b - - -\nb - b - - w - - - w - -\n- w w - - w - b - w w w\n- - - - - - - - - - - b"
+    },
+    "147_12x12": {
+      "id": "147_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/147.a.htm",
+      "problem": "12 12\nw - - - - - - - - - - -\n- w - w - w b - - w b -\n- w b w - - - b - - - -\n- w - - - - w - w w w -\n- w b - w w - - - b - -\n- w b b - b - - b - - -\n- w b - b - - b - - - -\n- - - - - - b - - b w -\nb w - b b - - - w - b -\n- w - - b - b - - b - -\nb w - w b - - b - - b -\nb w - - - w - - - - - -"
+    },
+    "149_14x14": {
+      "id": "149_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/149.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - w b\n- b w b - b w b w - w - - -\n- - - - b - - - - - - - b -\n- w - w - w - b - w w - - -\n- - - b - - - w - - - w w -\n- b - - b - b b b b - w - -\n- w b - - - - - - - b - w -\n- - - w - b b b b b - b b -\n- - w - - - b - w w - w - -\nw - b - b - - w - - w - w -\n- - - b w - w - w - - - w -\n- b b - w - w - - - w - - -\n- - - - - w - w w w w w w -\nb - - - - b - - - - - - - -"
+    },
+    "150_14x14": {
+      "id": "150_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/150.a.htm",
+      "problem": "14 14\n- - w - - w - - - - - - w b\n- - - - - - - - w - w - - -\n- b b - b - b - - - w - b -\n- - - - - - w - b b - b - -\nw - b b - b - - - b b - - -\n- - w - b - b - - b - b - b\n- w - - - w - - w - - b - -\n- - - b - w - - - - b - w -\nw w w - w - - b b b w b - -\n- - - w - w - - - b - b - -\nw - - b b - - - b - - b - -\n- w w - - - w - w - - b w -\n- - - - w - w - w - w - - -\n- - - - - - - - - - - w - b"
+    },
+    "151_10x10": {
+      "id": "151_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/151.a.htm",
+      "problem": "10 10\nb - - - - - - - - b\n- w w w - - - b - -\nw - - - - w - - b -\n- w - - b - - - - -\n- - - - - - - - - -\n- - w - - - w - w -\n- w - w - w - - - -\n- - - - - - w b - -\n- - w - - - w - - -\n- - - - - - - - - -"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/153.a.htm",
+      "problem": "10 10\nw - - - - - - - b w\n- - b w - - - - - -\n- - - - b b b b - -\n- - - b w - - - - -\n- - - - b - b b - -\n- - b - - b - - - -\n- - - b - - - b - -\n- w - - - - b - - -\n- - - w - - - w - -\n- - - - - - - - - -"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/154.a.htm",
+      "problem": "10 10\n- - - - - - - b - w\n- - w - - b - - b -\n- - - w - - w - - -\n- - w - - - - w - -\n- b - w - w - - - -\n- - - - w - - w - -\n- b - - - w - w - -\n- - w w w - - - - -\n- - - - - - w - - -\nb - w - - - - - - -"
+    },
+    "156_12x12": {
+      "id": "156_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/156.a.htm",
+      "problem": "12 12\nw - b - - - - - - - b -\n- - - w - w b - w - - -\n- b - b - b b b b b - b\n- - b w - - w - w w - w\n- - - w - w b - - - - -\n- w w - w - - b w - w -\n- b b b - - - - - - - -\n- - - - b w b - - b b -\n- b w - b - - - b - - -\n- - b - w - - b - b b w\n- - w - w - - - b - - -\n- - - - - - w - - - - -"
+    },
+    "157_12x12": {
+      "id": "157_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/157.a.htm",
+      "problem": "12 12\nw - b - - - - - - - - -\n- b - b - b - b - - - -\n- b - b - - - b w b w -\n- - - b - w - - - w - -\n- - w b - - b - b b b -\n- - w b - - - b - w - -\n- - w b - w - - - b b -\nw - w - - b b b - - - -\n- w - - - - w - b w w -\n- b - w b w - - w - - -\n- b - - - w - w - w w -\nw - - - - - - - - - - -"
+    },
+    "158_12x12": {
+      "id": "158_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/158.a.htm",
+      "problem": "12 12\nw - - - - - - - - w - w\n- w - w b w - w - - - -\n- w - - - - - w b - w -\n- w - b b b - - - - b -\n- w b - - - - - - w w -\n- w - b - w - b w - - -\n- - - w - b - w - - w w\n- w - - w - - b - - - -\nb w - w - - - - b w w -\n- w - w - w - - - b - -\n- w - w - w - w - - - w\nb w - - - - - w - - - -"
+    },
+    "159_14x14": {
+      "id": "159_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/159.a.htm",
+      "problem": "14 14\nb - - - - - - - - - - b - w\nw w w w w - b - w - w - - -\n- - - - - - - - - w - - b -\n- w w w w - - b - b - b - -\n- - - b b b - - - - b - - -\n- w - - - - b - b - - - b -\n- b b - b b - b - b - w b -\n- - w b - b - b - - - b - -\n- b b - - - - - b - b - w -\n- - - - w - b - w - w - - -\n- b b b - - w - w - w - - -\n- w - - b - - - - - b - w -\n- - - w - b w b w - - - b -\n- w - - - - - - - - - - - -"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/161.a.htm",
+      "problem": "10 10\n- - - - - - - - w b\n- - - w - - - - - -\n- - b - - b - b - -\n- - - w - - - - - -\n- - b - - - b - - -\n- - - b w - - b - -\n- w w - - - b - - -\n- - - - - w - - w -\n- w w w - - b - - -\nw - - - - - - - - -"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/162.a.htm",
+      "problem": "10 10\nw - b - - - - - - -\n- - - - - - - - - -\n- - w - w - w - b -\n- w - - - w - w - -\n- - - w - - - - - -\n- - - - w - w - w -\n- - w - - - - - - -\n- - - w - w b w - -\n- b - - - - - - - -\nw - - - - b - - - -"
+    },
+    "163_10x10": {
+      "id": "163_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/163.a.htm",
+      "problem": "10 10\n- - - - - - - - - w\n- - b b - - - w - b\n- b - - - w - - - -\n- - b b - - w - - -\nw - w w w w - w - -\nb - b b b b - b b -\n- - w - - - - w - -\n- w - w - - w - - -\n- - - - b - - w - -\n- - - - - - - - - -"
+    },
+    "164_10x10": {
+      "id": "164_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/164.a.htm",
+      "problem": "10 10\nw - - - - - - - - -\nb - - - - w b - - -\n- - - b - - - b b -\n- b - w - w - - - -\n- - - b - - w - w -\n- - b - - - - - - -\n- - b - b - w w w -\n- - b - - b - - - -\n- - b - - - - w - -\nb - - - - - - - - -"
+    },
+    "165_12x12": {
+      "id": "165_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/165.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - w - w - w - - - -\n- w - - - w - w - b - -\n- - - - b w - w - w w -\n- - b - b w - w - - - -\n- - - b - - - w - - w -\n- w - - w - w - - - - -\n- - - w - w - - - b - -\n- w - - - - b - b - - -\n- - - b - b - b - b b -\nw - - - - - - b - - - -\nb - - - - - - - - - - b"
+    },
+    "166_12x12": {
+      "id": "166_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/166.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - - - w - - w - - -\n- - b - b - w - - - w -\n- b - - - - - - - - - -\n- - - b - - b - - b - -\nb - b b - - b - - - - -\n- - - - b - b - b - - -\n- - b b - - b - - b - -\n- - - - b - b - b - - -\n- w - - - b - - - - - w\n- - - b - - - - - b - -\n- - - - - - - - - - - b"
+    },
+    "167_12x12": {
+      "id": "167_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/167.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - - - w - - w - w - -\n- w w - - b - - - w - -\n- - - - - - - - - - - -\n- w w - - - w - w w w -\n- - - w - - - w - b - -\n- w - - b - b w b - - -\n- - - - b - - - - b - -\n- - b - b - b - w w w -\n- - - b - b - b - - - w\nw - b - - - - - - w w -\nb - - - - - - - - - - b"
+    },
+    "168_14x14": {
+      "id": "168_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/168.a.htm",
+      "problem": "14 14\nb - - - - - - - - - - - - b\n- w - - w - w b w b - w - -\nw - b b b - - b - - b b - w\n- - w - - b - b w b - - - -\n- - b - b - b - - - b b - -\n- - - b - b - b - b - b w -\n- b b b - - - b - b - - - -\n- - - b - - b - w b - b w -\n- w w - - b - b - - - - - -\n- - - - b - - - b - w w w -\n- w w - b w w b - - - - b -\n- - b b - - - b w - b - - -\n- - - - - b - - w - w - b -\n- - - w - - - - - - - - - -"
+    },
+    "169_14x14": {
+      "id": "169_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/169.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- b - - w - b w b w - w - -\n- w - b w - w - - w - b - -\n- - - - - - b w - w b - - -\n- w w - w - - - - w - b b -\n- - - w - w b b - w b - - -\nw - b - - - - b - - b - b -\n- - - b - w b - - - b b - -\n- - - - b - - b - - b - - -\n- b b b - b - - - w - b - -\n- - - - b - b - b w - w w -\n- - b - b - b - b w b b - -\n- - - - - w - - - w - - b -\n- w - w - - b w - - - - - -"
+    },
+    "170_14x14": {
+      "id": "170_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Yin-Yang/170.a.htm",
+      "problem": "14 14\nb - w - - - - - - - - - - -\n- - - - b - b - b - - b - -\n- - b - b - b - b - b w - -\n- w b - b - b - b - - b - -\n- - b - - b - - - b - - - -\n- w - b b b - w b - w - w -\n- b - - - w - b b - - - b -\n- - - w - b - - b - w w w -\n- - b b - - - - b - - - - -\n- - w w - w - w - w w w w -\n- w - b - w - w - - - - b -\n- w b - b w - w - w b - w -\n- w - - - w - w - w - - - -\nb - w - - - - - - - - w - -"
+    }
+  },
+  "info": "",
+  "count": 170
+}

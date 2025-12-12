@@ -7,7 +7,7 @@ from MagneticCrawler import MagneticCrawler
 from MinesweeperCrawler import MinesweeperCrawler
 from SuguruCrawler import SuguruCrawler # problems, areas, solutions
 from Str8tCrawler import Str8tCrawler
-from KakurasuCrawler import KakurasuCrawler
+from KakurasuCrawler import KakurasuCrawler # To be added
 from FuzuliCrawler import FuzuliCrawler
 from SnakeCrawler import SnakeCrawler
 from MakaroCrawler import MakaroCrawler
@@ -21,6 +21,38 @@ from RenbanCrawler import RenbanCrawler
 from EntryExitCrawler import EntryExitCrawler
 from SimpleloopCrawler import SimpleloopCrawler
 from NondangoCrawler import NondangoCrawler
+from FillominoCrawler import FillominoCrawler
+from YinYangCrawler import YinYangCrawler
+from YajilinCrawler import YajilinCrawler
+from TerraXCrawler import TerraXCrawler
+from TatamibariCrawler import TatamibariCrawler
+from KillerSudokuCrawler import KillerSudokuCrawler
+from MunraitoCrawler import MunraitoCrawler
+from ABCEndViewCrawler import ABCEndViewCrawler
+from OneToXCrawler import OneToXCrawler
+from KakuroCrawler import KakuroCrawler
+from LinesweeperCrawler import LinesweeperCrawler
+from TairupeintoCrawler import TairupeintoCrawler
+from YonmasuCrawler import YonmasuCrawler
+from NumberCrossCrawler import NumberCrossCrawler
+from TrinairoCrawler import TrinairoCrawler
+from KuromasuCrawler import KuromasuCrawler
+from NumberSnakeCrawler import NumberSnakeCrawler
+from SkyscraperCrawler import SkyscraperCrawler
+from BurokkuCrawler import BurokkuCrawler
+from BosanowaCrawler import BosanowaCrawler
+from EuleroCrawler import EuleroCrawler
+from FobidoshiCrawler import FobidoshiCrawler
+from FoseruzuCrawler import FoseruzuCrawler
+from GokigenNanameCrawler import GokigenNanameCrawler
+from JuosanCrawler import JuosanCrawler
+from HitoriCrawler import HitoriCrawler
+from CountryRoadCrawler import CountryRoadCrawler
+from DoubleBackCrawler import DoubleBackCrawler
+from CurvingRoadCrawler import CurvingRoadCrawler
+from MoonSunCrawler import MoonSunCrawler
+from MasyuCrawler import MasyuCrawler
+from CorralCrawler import CorralCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -49,7 +81,39 @@ class CrawlerFactory:
         "Renban": RenbanCrawler,
         "EntryExit": EntryExitCrawler,
         "Simpleloop": SimpleloopCrawler,
-        "Nondango": NondangoCrawler
+        "Nondango": NondangoCrawler, 
+        "Fillomino": FillominoCrawler,
+        "YinYang": YinYangCrawler,
+        "Yajilin": YajilinCrawler,
+        "TerraX": TerraXCrawler,
+        "Tatamibari": TatamibariCrawler,
+        "KillerSudoku": KillerSudokuCrawler,
+        "Munraito": MunraitoCrawler,
+        "ABCEndView": ABCEndViewCrawler,
+        "OneToX": OneToXCrawler,
+        "Kakuro": KakuroCrawler,
+        "Linesweeper": LinesweeperCrawler,
+        "Tairupeinto": TairupeintoCrawler, # A brand new start!!
+        "Yonmasu": YonmasuCrawler, # problem -> solutions -> moves/end
+        "NumberCross": NumberCrossCrawler,
+        "Trinairo": TrinairoCrawler,
+        "Kuromasu": KuromasuCrawler,
+        "NumberSnake": NumberSnakeCrawler,
+        "Skyscraper": SkyscraperCrawler,
+        "Burokku": BurokkuCrawler,
+        "Bosanowa": BosanowaCrawler,
+        "Eulero": EuleroCrawler,
+        "Fobidoshi": FobidoshiCrawler,
+        "GokigenNaname": GokigenNanameCrawler,
+        "Juosan": JuosanCrawler, # problem -> areas - > solutions -> moves/end
+        "Hitori": HitoriCrawler,
+        "CountryRoad": CountryRoadCrawler,
+        "DoubleBack": DoubleBackCrawler,
+        "CurvingRoad": CurvingRoadCrawler,
+        "MoonSun": MoonSunCrawler,
+        "Masyu": MasyuCrawler,
+        "Corral": CorralCrawler,
+        "Foseruzu": FoseruzuCrawler
     }
     
     @classmethod

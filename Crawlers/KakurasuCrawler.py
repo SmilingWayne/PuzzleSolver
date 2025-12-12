@@ -1,183 +1,92 @@
-import requests 
 import re
-import time
-from GridCrawler import GridCrawler
-from Utils.index_url_filter import filter_and_classify_results
-from Config import CrawlerConfig
 from bs4 import BeautifulSoup
-from typing import Any
-import random
-import json
+from typing import List, Dict, Optional
+from Core.core import BasePuzzleCrawler, PuzzleItem
 
-class KakurasuCrawler(GridCrawler):
-    def __init__(self, data : dict[str, Any]):
-        self._data = data 
-        self.puzzle_name = self._data['puzzle_name'] 
-        # to avoid duplication
-        self.index_url = self._data['index_url']
-        self.root_url = self._data['root_url']
-        self.saved_url_p = f"../assets/data/{self.puzzle_name}/problems/"
-        self.saved_url_s = f"../assets/data/{self.puzzle_name}/solutions/"
-        # to save index_url
+class KakurasuCrawler(BasePuzzleCrawler):
     
-    def get_puzzle_indexes(self):
-        url = self.index_url
-        headers = CrawlerConfig.headers
-        try:
-            response = requests.get(url, headers = headers)
-            response.raise_for_status()  
+    def parse_index(self, html_content: str) -> List[Dict]:
+        soup = BeautifulSoup(html_content, 'html.parser')
+        container = soup.find('div', id='index-1')
+        
+        if not container:
+            self.logger.warning("Index container #index-1 not found.")
+            return []
+
+        results = []
+        for link in container.find_all('a'):
+            href = link.get('href')
+            text = link.get_text(strip=True)
             
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            index_1_div = soup.find('div', id='index-1')
-            
-            if not index_1_div:
-                print("Unable to find div with 'index-1'")
-                return None
-            
-            results = []
-            
-            sv_links = index_1_div.find_all('a', class_='sv')
-            for link in sv_links:
-                text = link.get_text(strip=True)
-                href = link.get('href', '')
+            if href and text:
+                # Custom logic to classify links as you did before
+                link_type = 'class_sv' if 'sv' in link.get('class', []) else 'other'
                 results.append({
-                    'type': 'class_sv',
-                    'text': text,
-                    'href': href
+                    'href': self.config.base_url + href if not href.startswith('http') else href, 
+                    'text': text, 
+                    'type': link_type
                 })
-            
-            other_links = index_1_div.find_all('a')
-            for link in other_links:
-                if 'sv' in link.get('class', []):
-                    continue
-                    
-                text = link.get_text(strip=True)
-                href = link.get('href', '')
-                results.append({
-                    'type': 'no_class_sv',
-                    'text': text,
-                    'href': href
-                })
-            
-            ret = filter_and_classify_results(results)
-            return ret
-            
-        except requests.RequestException as e:
-            print(f"Error for request: {e}")
-            return None
-        except Exception as e:
-            print(f"Error for request: {e}")
-            return None
-    
-    def get_puzzles_from_batch(self, puzzle_info):
-        if not puzzle_info:
-            print("Unable to get class_sv, batch failed.")
-            return None
-        sv_puzzles = puzzle_info['class_sv']
-        non_sv_puzzles = puzzle_info['other']
         
-        puzzles_ret = dict()
-        puzzles_ret['puzzles'] = dict()
-        puzzles_ret['info'] = ""
-        puzzles_ret['count'] = 0
-        
-        solutions_ret = dict()
-        solutions_ret['solutions'] = dict()
-        solutions_ret['info'] = ""
-        solutions_ret['count'] = 0
-        
-        headers = CrawlerConfig.headers
-        
-        all_pzls = sv_puzzles + non_sv_puzzles
-        if len(all_pzls) > 0:
-            for dic in all_pzls[300: ]:
-                try:
-                    type_ = dic['type']
-                    href_ = dic['href']
-                    text_ = dic['text']
-                    
-                    if type_ == "class_sv":
-                        
-                        # problem_pattern = r"(?<=\[areas\]\n)(.*?)(?=\[solution\])"
-                        solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
-                    elif type_ == "no_class_sv":
+        # You can add your `filter_and_classify_results` logic here if needed
+        return results
 
-                        # problem_pattern = r"(?<=\[labels\]\n)(.*?)(?=\[solution\])"
-                        solution_pattern = r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
-                    else:
-                        continue
-                    
-                    clabels = r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])"
-                    rlabels = r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])"
-                    
-                    target_url = f"{self.root_url}{href_}"
+    def parse_puzzle_detail(self, html_content: str, metadata: Dict) -> Optional[PuzzleItem]:
+        text = metadata.get('text', 'unknown')
+        link_type = metadata.get('type')
 
-                    response = requests.get(target_url, headers = headers)     
-                    response.encoding = 'utf-8'
-                    
-                    page_source = response.text
-
-                    # problem_text = re.search(problem_pattern, page_source, re.DOTALL).group().strip()
-                    solution_text = re.search(solution_pattern, page_source, re.DOTALL).group().strip()
-
-                    cols_text = re.search(clabels, page_source, re.DOTALL).group().strip()
-                    rows_text = re.search(rlabels, page_source, re.DOTALL).group().strip()
-                    
-                    rows = solution_text.split("\n")
-                    matrix = [row.split() for row in rows]
-
-                    num_rows = len(matrix)
-                    num_cols = len(matrix[0]) if num_rows > 0 else 0
-                    
-
-                    pzl_name = f"{text_}_{num_rows}x{num_cols}"
-                    problem_str = f"{num_rows} {num_cols}\n{cols_text}\n{rows_text}"
-                    solution_str = f"{num_rows} {num_cols}\n{solution_text}"
-                    
-                    puzzles_ret['puzzles'][pzl_name] = {
-                        "id": pzl_name, 
-                        "difficult": 0,
-                        "source": target_url,
-                        "problem": problem_str
-                    }
-                    puzzles_ret['count'] += 1
-                    solutions_ret['solutions'][pzl_name] = {
-                        "id": pzl_name, 
-                        "difficult": 0,
-                        "source": target_url,
-                        "solution": solution_str
-                    }
-                    solutions_ret['count'] += 1
-                    print(f"Complete {pzl_name}, {self.puzzle_name}.")
-                except Exception as e:
-                    print(f"Exception {e}")
-                    continue
-                time.sleep(0.75 + random.random())
-            
+        # Define Regex patterns based on type
+        if link_type == "class_sv":
+            patterns = {
+                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
+                # 'grids': r"(?<=\[problem\]\n)(.*?)(?=\[areas\])",
+                # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+                'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
+            }
         else:
-            print("The puzzle list is empty!")
-            return None
-        
-        return {
-            "puzzles" :puzzles_ret, 
-            "solutions": solutions_ret
-        }
+            patterns = {
+                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
+                # 'grids': r"(?<=\[problem\]\n)(.*?)(?=\[areas\])",
+                # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+                'sol': r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
+            }
 
-    def save_puzzles_to_folder(self, puzzle_info):
-        if not puzzle_info:
-            print("Error!")
-            return 
-        puzzles_ret = puzzle_info['puzzles']
-        solutions_ret = puzzle_info['solutions']
         try:
-            with open(f"{self.saved_url_p}{self.puzzle_name}_puzzles.json", 'w', encoding='utf-8') as f:
-                json.dump(puzzles_ret, f, indent=2, ensure_ascii=False)
-                print(f"Convert {self.puzzle_name} successfully, all {puzzles_ret['count']}.")
-            with open(f"{self.saved_url_s}{self.puzzle_name}_solutions.json", 'w', encoding='utf-8') as f:
-                json.dump(solutions_ret, f, indent=2, ensure_ascii=False)
-                print(f"Convert {self.puzzle_name} successfully, all {solutions_ret['count']}.")
-        except Exception as e:
-            print(e)
-        return 
+            cols_match = re.search(patterns['cols'], html_content, re.DOTALL)
+            rows_match = re.search(patterns['rows'], html_content, re.DOTALL)
+            sol_match = re.search(patterns['sol'], html_content, re.DOTALL)
 
+            if not all([cols_match, rows_match, sol_match]):
+                self.logger.warning(f"Regex mismatch for {text}")
+                return None
+
+            # Process data
+            cols_raw = cols_match.group().strip().lower()
+            rows_raw = rows_match.group().strip()
+            solution_raw = sol_match.group().strip()
+            
+            rows_list = solution_raw.strip().split("\n")
+            num_rows = len(rows_list)
+            num_cols = len(rows_list[0].split()) if num_rows > 0 else 0
+
+            
+            empty_grid = "\n".join([" ".join(["-" for _ in range(num_cols)]) for _ in range(num_rows)])
+            header = f"{num_rows} {num_cols}"
+            problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{empty_grid}"
+            solution_str = f"{header}\n{solution_raw}"
+            
+            puzzle_id = f"{text}_{num_rows}x{num_cols}"
+
+            return PuzzleItem(
+                id=puzzle_id,
+                difficulty=0, # Placeholder
+                source_url=metadata.get('href', ''),
+                problem=problem_str,
+                solution=solution_str,
+                metadata=metadata
+            )
+
+        except Exception as e:
+            self.logger.error(f"Error parsing detail for {text}: {e}")
+            return None

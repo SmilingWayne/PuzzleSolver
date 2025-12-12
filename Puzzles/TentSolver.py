@@ -3,9 +3,6 @@ from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from ortools.sat.python import cp_model as cp
-
-from Common.Utils.ortools_analytics import ortools_cpsat_analytics
-
 import copy
 
 class TentSolver(PuzzleSolver):
@@ -68,27 +65,6 @@ class TentSolver(PuzzleSolver):
         for i in range(self.num_rows - 1):
             for j in range(self.num_cols - 1):
                 self.model.Add( sum(self.y[i, j]) + sum(self.y[i + 1, j]) + sum(self.y[i, j + 1]) + sum(self.y[i + 1, j + 1]) <= 1)
-    
-    def solve(self):
-        solution_dict = dict()
-        self._add_constr()
-        status = self.solver.Solve(self.model)
-        solution_grid = Grid.empty()
-        solution_status = {
-            cp.OPTIMAL: "Optimal",
-            cp.FEASIBLE: "Feasible",
-            cp.INFEASIBLE: "Infeasible",
-            cp.MODEL_INVALID: "Invalid Model",
-            cp.UNKNOWN: "Unknown"
-        }
-        solution_dict = ortools_cpsat_analytics(self.model, self.solver)
-        solution_dict['status'] = solution_status[status]
-        if status in [cp.OPTIMAL, cp.FEASIBLE]:
-            solution_grid = self.get_solution()
-
-        solution_dict['grid'] = solution_grid
-        
-        return solution_dict
     
     def get_solution(self):
         sol_grid = copy.deepcopy(self.grid.matrix)

@@ -124,541 +124,541 @@
       "id": "21_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/021.a.htm",
-      "solution": "8 8\nw w b w b w - -\n- - b w b b w w\nb - w - w - w b\nw b w b w b - w\nw b - - b w b -\nb w w - b - b w\nw w b b w w - b\n- b w w b b - -"
+      "solution": "8 8\no o x o x o - -\n- - x o x x o o\nx - o - o - o x\no x o x o x - o\no x - - x o x -\nx o o - x - x o\no o x x o o - x\n- x o o x x - -"
     },
     "22_8x8": {
       "id": "22_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/022.a.htm",
-      "solution": "8 8\nb - - - b - w -\n- b w b w b - -\n- - - - w - w b\n- - w w b b - -\nw b - - w w b b\nb - - - b b - -\nb b - - w b w -\n- - - - - - - b"
+      "solution": "8 8\nx - - - x - o -\n- x o x o x - -\n- - - - o - o x\n- - o o x x - -\no x - - o o x x\nx - - - x x - -\nx x - - o x o -\n- - - - - - - x"
     },
     "23_10x10": {
       "id": "23_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/023.a.htm",
-      "solution": "10 10\nb w b b - - w b b w\nw b - - w b b w b b\nw b - w b - w w - w\n- - b w b - b b w b\nb - w - - b - - w b\n- b w b w - w b b w\nb - - w - b b w - b\nw - b w b w - - - w\nb b w - w b b w b -\n- - b - b - w b - b"
+      "solution": "10 10\nx o x x - - o x x o\no x - - o x x o x x\no x - o x - o o - o\n- - x o x - x x o x\nx - o - - x - - o x\n- x o x o - o x x o\nx - - o - x x o - x\no - x o x o - - - o\nx x o - o x x o x -\n- - x - x - o x - x"
     },
     "24_10x10": {
       "id": "24_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/024.a.htm",
-      "solution": "10 10\n- - - - b w - b - -\n- b - - w b w w - -\n- - - - - b - b - -\nb - - - b w w b b w\n- - - w - - b w w -\n- - w b b w - b - b\nw - - b - - - b - -\nb b w - - - w - w b\n- - b - - w b b - -\n- b - - b b - - b -"
+      "solution": "10 10\n- - - - x o - x - -\n- x - - o x o o - -\n- - - - - x - x - -\nx - - - x o o x x o\n- - - o - - x o o -\n- - o x x o - x - x\no - - x - - - x - -\nx x o - - - o - o x\n- - x - - o x x - -\n- x - - x x - - x -"
     },
     "25_10x10": {
       "id": "25_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/025.a.htm",
-      "solution": "10 10\nb - w - w b w b w b\n- - - b w b b - b -\n- b w w b - b - - w\nb w - w b - w - - -\nb w b - - - w w - -\nw b - b w b - w b -\n- w - - w w b b - b\n- - b w - w - w w b\n- w - b b - b b - w\nb b w b w b - - - b"
+      "solution": "10 10\nx - o - o x o x o x\n- - - x o x x - x -\n- x o o x - x - - o\nx o - o x - o - - -\nx o x - - - o o - -\no x - x o x - o x -\n- o - - o o x x - x\n- - x o - o - o o x\n- o - x x - x x - o\nx x o x o x - - - x"
     },
     "26_10x10": {
       "id": "26_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/026.a.htm",
-      "solution": "10 10\n- w - - w b b - b -\nb b - - - - w - - b\n- w b b - w w b - w\n- - w - - b b w w -\nw b - b w w - - b w\n- - w w b - w - w w\n- - b w b w w b - b\nb b w b - b b w b w\nw - w w - w - w b w\nb w b w - - b b w -"
+      "solution": "10 10\n- o - - o x x - x -\nx x - - - - o - - x\n- o x x - o o x - o\n- - o - - x x o o -\no x - x o o - - x o\n- - o o x - o - o o\n- - x o x o o x - x\nx x o x - x x o x o\no - o o - o - o x o\nx o x o - - x x o -"
     },
     "27_10x10": {
       "id": "27_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/027.a.htm",
-      "solution": "10 10\n- - - - w b - b - b\nb - w b - - - b w -\n- - b b - w b w - b\nw - - w w - b w - w\nw - b - w w - b b -\nb b w b b - - b w -\n- w - b w w - w b w\n- b w - b w b - w w\n- b w b - - b - b b\n- - - - w w - - - -"
+      "solution": "10 10\n- - - - o x - x - x\nx - o x - - - x o -\n- - x x - o x o - x\no - - o o - x o - o\no - x - o o - x x -\nx x o x x - - x o -\n- o - x o o - o x o\n- x o - x o x - o o\n- x o x - - x - x x\n- - - - o o - - - -"
     },
     "28_10x10": {
       "id": "28_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/028.a.htm",
-      "solution": "10 10\nb - b - w w b - b -\n- w w b b w - - - -\nb - w - w - - w - -\n- w - b - b b - - b\nb - b b w b - - - -\n- - w w - w b - - b\nw b - - b - - w - b\n- - - b w b - - b w\nb - - - b - - w b -\n- - - - - w - - - -"
+      "solution": "10 10\nx - x - o o x - x -\n- o o x x o - - - -\nx - o - o - - o - -\n- o - x - x x - - x\nx - x x o x - - - -\n- - o o - o x - - x\no x - - x - - o - x\n- - - x o x - - x o\nx - - - x - - o x -\n- - - - - o - - - -"
     },
     "29_14x14": {
       "id": "29_14x14",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/029.a.htm",
-      "solution": "14 14\nb - b - - b w - b w - b - -\nw - b w w - - w w b b w w -\n- b - w b b w b - - w w b b\n- w b b w b b w w - b b - w\nb w - w w - w - b w w - b -\nb - - b - - - b w b b w w -\n- - w b - b w b - - w w b b\nb b - - b b - - w b - b w w\n- - w w - w b w - b w w b -\n- w w b b w - w b w - b - w\nb - b w - b - - b b w w - b\nw - w b - - - b w - w - b w\nw b w b w w - b - - b w w b\n- w b w b b - w b b w - b w"
+      "solution": "14 14\nx - x - - x o - x o - x - -\no - x o o - - o o x x o o -\n- x - o x x o x - - o o x x\n- o x x o x x o o - x x - o\nx o - o o - o - x o o - x -\nx - - x - - - x o x x o o -\n- - o x - x o x - - o o x x\nx x - - x x - - o x - x o o\n- - o o - o x o - x o o x -\n- o o x x o - o x o - x - o\nx - x o - x - - x x o o - x\no - o x - - - x o - o - x o\no x o x o o - x - - x o o x\n- o x o x x - o x x o - x o"
     },
     "30_14x14": {
       "id": "30_14x14",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/030.a.htm",
-      "solution": "14 14\nw b - - b w w - - b w b w w\nb - w w b - b w b w w b - -\nw w b - - b - w - w b w w b\nb b w b w - - - b - b w b -\nw w b b w w b w - b - - - -\n- w b w - w b w w - w b w -\nb - - b w b - b b - - - - b\nb w - - w b w - - w b b - w\nw b b w b w b w - w - w - w\n- - - w b - b w b b w w b b\nb b - - - b w b w - w b b w\nw w b b w b - w w b - w w b\n- - w - w - - b b w b b - w\n- b - b - b w w - w b w - b"
+      "solution": "14 14\no x - - x o o - - x o x o o\nx - o o x - x o x o o x - -\no o x - - x - o - o x o o x\nx x o x o - - - x - x o x -\no o x x o o x o - x - - - -\n- o x o - o x o o - o x o -\nx - - x o x - x x - - - - x\nx o - - o x o - - o x x - o\no x x o x o x o - o - o - o\n- - - o x - x o x x o o x x\nx x - - - x o x o - o x x o\no o x x o x - o o x - o o x\n- - o - o - - x x o x x - o\n- x - x - x o o - o x o - x"
     },
     "31_8x8": {
       "id": "31_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/031.a.htm",
-      "solution": "8 8\nb - w w b w w b\nw w b b w b b w\nb - w - w - w -\nw b w b - b w w\n- b - b w b - -\nw w b w b w - w\n- w - - b w b w\nb b - b w - w b"
+      "solution": "8 8\nx - o o x o o x\no o x x o x x o\nx - o - o - o -\no x o x - x o o\n- x - x o x - -\no o x o x o - o\n- o - - x o x o\nx x - x o - o x"
     },
     "32_8x8": {
       "id": "32_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/032.a.htm",
-      "solution": "8 8\n- - b w - w b b\nb w b - b w b -\nb b w - w - w -\n- - - b w b b -\n- - - w b - b -\nb w - - b w w -\n- - b - w b - -\n- - b b - - w b"
+      "solution": "8 8\n- - x o - o x x\nx o x - x o x -\nx x o - o - o -\n- - - x o x x -\n- - - o x - x -\nx o - - x o o -\n- - x - o x - -\n- - x x - - o x"
     },
     "33_10x10": {
       "id": "33_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/033.a.htm",
-      "solution": "10 10\nw w - - w - b - - w\nw w b w w - - w b w\nb - b - b w b w b -\nw b w w b b - b w b\nw - w b - w w - w -\n- b - w b b w b b -\nb w b - - w b - b -\nw w b w b w w - w w\n- b w b w - b b w b\nw b w b w - - b b -"
+      "solution": "10 10\no o - - o - x - - o\no o x o o - - o x o\nx - x - x o x o x -\no x o o x x - x o x\no - o x - o o - o -\n- x - o x x o x x -\nx o x - - o x - x -\no o x o x o o - o o\n- x o x o - x x o x\no x o x o - - x x -"
     },
     "34_10x10": {
       "id": "34_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/034.a.htm",
-      "solution": "10 10\nb - - - - b - b b w\n- - - w w - w w b b\nw b b - b b - b w w\nb b w w - w w b - -\nw w b b w b w - w -\nb - w - w b b - b b\nw - w b - w w - b -\n- w b w w b b w w b\n- - b - b w - w - b\nb - w - - w - b b w"
+      "solution": "10 10\nx - - - - x - x x o\n- - - o o - o o x x\no x x - x x - x o o\nx x o o - o o x - -\no o x x o x o - o -\nx - o - o x x - x x\no - o x - o o - x -\n- o x o o x x o o x\n- - x - x o - o - x\nx - o - - o - x x o"
     },
     "35_10x10": {
       "id": "35_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/035.a.htm",
-      "solution": "10 10\nb - b - - - b - b -\n- - - w b w - w w -\nb w - - b - - - b -\nw - b - w - - - b b\n- b w b - - - - w w\nw - b - w b b w b w\nb w b w b - - w - -\nw w - w - w b - b b\n- - b b w - b w - -\n- w w b - b w - b -"
+      "solution": "10 10\nx - x - - - x - x -\n- - - o x o - o o -\nx o - - x - - - x -\no - x - o - - - x x\n- x o x - - - - o o\no - x - o x x o x o\nx o x o x - - o - -\no o - o - o x - x x\n- - x x o - x o - -\n- o o x - x o - x -"
     },
     "36_10x10": {
       "id": "36_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/036.a.htm",
-      "solution": "10 10\nb w w b - b w b w b\nb - b w w - b w b -\nw w - b b w b - - w\n- w w - w - - w b b\n- - - b - w w b w w\nb - - w b b - w w b\nb - - w b w - b - b\nw b b - w w - b b w\n- b - - w b b w b w\n- - w b b w - - w -"
+      "solution": "10 10\nx o o x - x o x o x\nx - x o o - x o x -\no o - x x o x - - o\n- o o - o - - o x x\n- - - x - o o x o o\nx - - o x x - o o x\nx - - o x o - x - x\no x x - o o - x x o\n- x - - o x x o x o\n- - o x x o - - o -"
     },
     "37_10x10": {
       "id": "37_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/037.a.htm",
-      "solution": "10 10\n- b - - w - - - w b\n- b w b b - w b b w\n- - w - w - b w w b\n- - b b - - b - - w\n- w b - w b w b w b\nb - w b - - w b w -\nb - b - w w b - b b\nw w - w b - b w w -\nb - - w - w w b b w\n- b - - w b b - w b"
+      "solution": "10 10\n- x - - o - - - o x\n- x o x x - o x x o\n- - o - o - x o o x\n- - x x - - x - - o\n- o x - o x o x o x\nx - o x - - o x o -\nx - x - o o x - x x\no o - o x - x o o -\nx - - o - o o x x o\n- x - - o x x - o x"
     },
     "38_10x10": {
       "id": "38_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/038.a.htm",
-      "solution": "10 10\nw b - b w w b w w b\nb - w w - - b - b w\nw w b b w b w w b -\nb b w b - - w b w w\nw - b - w b - w w b\nb w - - b w b - b b\nw w - w - - - w w -\nw b b w b w w b - b\nb b w b b - b w w -\n- - - w w - b b - b"
+      "solution": "10 10\no x - x o o x o o x\nx - o o - - x - x o\no o x x o x o o x -\nx x o x - - o x o o\no - x - o x - o o x\nx o - - x o x - x x\no o - o - - - o o -\no x x o x o o x - x\nx x o x x - x o o -\n- - - o o - x x - x"
     },
     "39_12x12": {
       "id": "39_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/039.a.htm",
-      "solution": "12 12\nb w b w w - b b w w - -\n- w b w b - w w - b - b\nb b - b w - b b w - w -\nw - w b - - w w - b b w\nb w b w w b - - - - w -\n- w b w - b w b w b w -\nb b - b - - b w b w b b\n- w - w w - b w - w - w\nw b b - w b w b w b w -\n- w - w - b w - w b w b\nb - - b w w b b - - - w\n- - - b - b w w b w - b"
+      "solution": "12 12\nx o x o o - x x o o - -\n- o x o x - o o - x - x\nx x - x o - x x o - o -\no - o x - - o o - x x o\nx o x o o x - - - - o -\n- o x o - x o x o x o -\nx x - x - - x o x o x x\n- o - o o - x o - o - o\no x x - o x o x o x o -\n- o - o - x o - o x o x\nx - - x o o x x - - - o\n- - - x - x o o x o - x"
     },
     "40_12x12": {
       "id": "40_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/040.a.htm",
-      "solution": "12 12\nb - - b w w b - b b w b\n- w - w b b w - - - b w\n- b b w - w w b w - b w\n- - w - - w - b - b - b\n- - b - - b w w - - b w\nw - b w w b w b - w b w\nw - w - w - - - - w - -\nb b w w - - b w w b w b\n- - b b - - b b w w - -\n- w w - w - w b - - - b\nb - b - - b - - w - - -\n- - - - b - b - b - - b"
+      "solution": "12 12\nx - - x o o x - x x o x\n- o - o x x o - - - x o\n- x x o - o o x o - x o\n- - o - - o - x - x - x\n- - x - - x o o - - x o\no - x o o x o x - o x o\no - o - o - - - - o - -\nx x o o - - x o o x o x\n- - x x - - x x o o - -\n- o o - o - o x - - - x\nx - x - - x - - o - - -\n- - - - x - x - x - - x"
     },
     "41_8x8": {
       "id": "41_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/041.a.htm",
-      "solution": "8 8\nb - b - - - b w\n- b w - b w - -\nw - w b w b w b\nb b - b b w w -\n- - w w b w b -\n- b - - - - w b\n- b - - b w b b\nb w - - b w - w"
+      "solution": "8 8\nx - x - - - x o\n- x o - x o - -\no - o x o x o x\nx x - x x o o -\n- - o o x o x -\n- x - - - - o x\n- x - - x o x x\nx o - - x o - o"
     },
     "42_8x8": {
       "id": "42_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/042.a.htm",
-      "solution": "8 8\n- - - - - w - -\n- - b - w b w b\nb - - b - b w -\n- - - - w w b b\n- b - - b b - -\n- b - b - - w -\n- w w - - - - b\n- - b - - - - -"
+      "solution": "8 8\n- - - - - o - -\n- - x - o x o x\nx - - x - x o -\n- - - - o o x x\n- x - - x x - -\n- x - x - - o -\n- o o - - - - x\n- - x - - - - -"
     },
     "43_10x10": {
       "id": "43_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/043.a.htm",
-      "solution": "10 10\n- b w - b b - b w b\nb - w b w w - - b -\n- b - w b - b w b -\nb - - - b w w - w -\nw - b - - b - - b -\n- b - w b - w w b -\n- w b - b - b - - b\nb - b - w - - - w -\n- w - b - - - b - -\n- b b w w - b b - -"
+      "solution": "10 10\n- x o - x x - x o x\nx - o x o o - - x -\n- x - o x - x o x -\nx - - - x o o - o -\no - x - - x - - x -\n- x - o x - o o x -\n- o x - x - x - - x\nx - x - o - - - o -\n- o - x - - - x - -\n- x x o o - x x - -"
     },
     "44_10x10": {
       "id": "44_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/044.a.htm",
-      "solution": "10 10\nb w b w w - b - - w\n- w b w w b w b w b\n- b - b - - w - w -\nw b w b - b - w b w\nb - - w w - - - b b\nw - - - b b w b w b\nb - b - b - w - b -\n- w - - - - b w w -\nb b w w b w w - b b\n- - b b w - w w - -"
+      "solution": "10 10\nx o x o o - x - - o\n- o x o o x o x o x\n- x - x - - o - o -\no x o x - x - o x o\nx - - o o - - - x x\no - - - x x o x o x\nx - x - x - o - x -\n- o - - - - x o o -\nx x o o x o o - x x\n- - x x o - o o - -"
     },
     "45_10x10": {
       "id": "45_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/045.a.htm",
-      "solution": "10 10\n- b - b b w b w b -\n- b - w - w w - w w\n- w b w b b w b b -\n- b - - - w b b w w\n- w w b b - w w - -\nb w b - w w b - b -\n- - w b b w b w b -\n- - b b w b - b w b\nb w w - w - w - w -\nw w - w - w b - - b"
+      "solution": "10 10\n- x - x x o x o x -\n- x - o - o o - o o\n- o x o x x o x x -\n- x - - - o x x o o\n- o o x x - o o - -\nx o x - o o x - x -\n- - o x x o x o x -\n- - x x o x - x o x\nx o o - o - o - o -\no o - o - o x - - x"
     },
     "46_10x10": {
       "id": "46_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/046.a.htm",
-      "solution": "10 10\nw w - b b - w w b w\n- b b w w b b w - -\n- - b - b - w - b w\nw - w - w - w b - w\nb - b - w b - w w b\nw - w b b w w b - w\nw b b - w b b w w b\nb w w b w - w - b -\nw w b b - b w - b b\nb - w w - w b w w -"
+      "solution": "10 10\no o - x x - o o x o\n- x x o o x x o - -\n- - x - x - o - x o\no - o - o - o x - o\nx - x - o x - o o x\no - o x x o o x - o\no x x - o x x o o x\nx o o x o - o - x -\no o x x - x o - x x\nx - o o - o x o o -"
     },
     "47_10x10": {
       "id": "47_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/047.a.htm",
-      "solution": "10 10\nb w - - b - - - w b\nw b w b w - b b - b\n- b w b b w b - w w\n- - - w - - - - b -\nb w b - b - - b w b\n- w - - - b - b w -\n- b - b b - w w - b\n- b - w - w b b w w\nb - w - - b w w - b\n- - - b - w b b - w"
+      "solution": "10 10\nx o - - x - - - o x\no x o x o - x x - x\n- x o x x o x - o o\n- - - o - - - - x -\nx o x - x - - x o x\n- o - - - x - x o -\n- x - x x - o o - x\n- x - o - o x x o o\nx - o - - x o o - x\n- - - x - o x x - o"
     },
     "48_10x10": {
       "id": "48_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/048.a.htm",
-      "solution": "10 10\nb - - - - - - w b w\nw - - b - - - - b w\n- b - b w b w b w b\nw - w w - - - - b -\n- b - w - b w w b w\n- w w b - w b - w w\nw b b w b w w - w b\n- w - w - - b b - w\nw w b - - - b b w b\nw b - b - w w - - -"
+      "solution": "10 10\nx - - - - - - o x o\no - - x - - - - x o\n- x - x o x o x o x\no - o o - - - - x -\n- x - o - x o o x o\n- o o x - o x - o o\no x x o x o o - o x\n- o - o - - x x - o\no o x - - - x x o x\no x - x - o o - - -"
     },
     "49_12x12": {
       "id": "49_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/049.a.htm",
-      "solution": "12 12\n- w - b - w - b - - b -\n- b b w b - - - - - - -\n- w w b b w b w b - - w\nb - w - w - - - w - - b\nb - - - - b - b w b w b\n- - - - - - w w b w w -\n- - b - - - b w - w b w\n- b w - b - - - b - b w\nw - - b - w - w b w w b\n- - - - b - b - w b - -\n- b b w - - b - - b w -\nb - w b b w - - - - - b"
+      "solution": "12 12\n- o - x - o - x - - x -\n- x x o x - - - - - - -\n- o o x x o x o x - - o\nx - o - o - - - o - - x\nx - - - - x - x o x o x\n- - - - - - o o x o o -\n- - x - - - x o - o x o\n- x o - x - - - x - x o\no - - x - o - o x o o x\n- - - - x - x - o x - -\n- x x o - - x - - x o -\nx - o x x o - - - - - x"
     },
     "50_12x12": {
       "id": "50_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/050.a.htm",
-      "solution": "12 12\nb - - - - b - - w b b w\nb w b w - w b - - - - b\n- - b w b - b - - - - -\nb w - - - w - b - b - -\nw w - b - b b w w - b -\n- b w - - w - - b - - w\n- b - b - - w - - - b -\nb w - b - - w - - - w -\nw b b w w b b w - w b b\nw - w w b - - w b - b w\n- b - - b b - b w w - b\n- - b b w - - - w b w -"
+      "solution": "12 12\nx - - - - x - - o x x o\nx o x o - o x - - - - x\n- - x o x - x - - - - -\nx o - - - o - x - x - -\no o - x - x x o o - x -\n- x o - - o - - x - - o\n- x - x - - o - - - x -\nx o - x - - o - - - o -\no x x o o x x o - o x x\no - o o x - - o x - x o\n- x - - x x - x o o - x\n- - x x o - - - o x o -"
     },
     "51_8x8": {
       "id": "51_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/051.a.htm",
-      "solution": "8 8\nw - - b - - b -\nw w b w w - w w\nb - - b b w w -\nw w - w - - b w\n- b w b w b - w\nw b w b w b - b\nw w - w b w - w\nb w b - - w - w"
+      "solution": "8 8\no - - x - - x -\no o x o o - o o\nx - - x x o o -\no o - o - - x o\n- x o x o x - o\no x o x o x - x\no o - o x o - o\nx o x - - o - o"
     },
     "52_8x8": {
       "id": "52_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/052.a.htm",
-      "solution": "8 8\n- b w b - - - b\nw b b w - w - -\nb w - - b - b -\nw w - b - w - -\n- b w w b - - b\nb - w b - w w b\n- b - w w b - w\n- b w - b - b b"
+      "solution": "8 8\n- x o x - - - x\no x x o - o - -\nx o - - x - x -\no o - x - o - -\n- x o o x - - x\nx - o x - o o x\n- x - o o x - o\n- x o - x - x x"
     },
     "53_10x10": {
       "id": "53_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/053.a.htm",
-      "solution": "10 10\n- b b w b w b b - -\nb - - w w b w w - b\n- w w b w b w b b w\n- b b - b - b w w -\n- - - w - w b - b w\n- - b w b - w b b w\nb w b b w - - b w b\nb - - w w b w - b -\n- w b b - b w w b w\n- b - w - - - b - -"
+      "solution": "10 10\n- x x o x o x x - -\nx - - o o x o o - x\n- o o x o x o x x o\n- x x - x - x o o -\n- - - o - o x - x o\n- - x o x - o x x o\nx o x x o - - x o x\nx - - o o x o - x -\n- o x x - x o o x o\n- x - o - - - x - -"
     },
     "54_10x10": {
       "id": "54_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/054.a.htm",
-      "solution": "10 10\nb - - - b b w - - -\nb - - w b w b - - b\n- - - w - w b w - b\nb b w - b - w - w w\nw b - b w b - b b -\n- - w w b - w b - -\n- w - w - w - - - -\nb - b b - b b w b b\nw - - - - - - w - -\nb - - w - - - b b -"
+      "solution": "10 10\nx - - - x x o - - -\nx - - o x o x - - x\n- - - o - o x o - x\nx x o - x - o - o o\no x - x o x - x x -\n- - o o x - o x - -\n- o - o - o - - - -\nx - x x - x x o x x\no - - - - - - o - -\nx - - o - - - x x -"
     },
     "55_10x10": {
       "id": "55_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/055.a.htm",
-      "solution": "10 10\nb w - - w w - - b w\nb w b - - b - w w b\n- b w b w b - b w w\nw - w b - w b w b b\nb - - - b w b w w -\nw w - w w - w b - b\nb - b b - b w b w b\n- b - w b w b - w w\nw b w - b - w w b w\n- - b - - w b b w b"
+      "solution": "10 10\nx o - - o o - - x o\nx o x - - x - o o x\n- x o x o x - x o o\no - o x - o x o x x\nx - - - x o x o o -\no o - o o - o x - x\nx - x x - x o x o x\n- x - o x o x - o o\no x o - x - o o x o\n- - x - - o x x o x"
     },
     "56_10x10": {
       "id": "56_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/056.a.htm",
-      "solution": "10 10\n- - w b w b w - w -\nb w b w b w - - b w\nb - b w - w b w w -\n- w w b w b w b w -\n- - - b - - w b - b\nw w b w w b b w - w\nw w b w - w - - - w\nb b - - b w b w b b\nw w - w - - w b w w\nb - w w - b w b - b"
+      "solution": "10 10\n- - o x o x o - o -\nx o x o x o - - x o\nx - x o - o x o o -\n- o o x o x o x o -\n- - - x - - o x - x\no o x o o x x o - o\no o x o - o - - - o\nx x - - x o x o x x\no o - o - - o x o o\nx - o o - x o x - x"
     },
     "57_10x10": {
       "id": "57_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/057.a.htm",
-      "solution": "10 10\nw w b w b w b - b b\nb w w b - w b w w -\nw b - b w - w w b w\nb b w - w b b - - -\n- w - w b b w b - w\nb w b - - - w b - b\n- b - w w b b w w -\nw w - b b w - w b b\nb b - w w b - b w w\n- w w b w b w - w b"
+      "solution": "10 10\no o x o x o x - x x\nx o o x - o x o o -\no x - x o - o o x o\nx x o - o x x - - -\n- o - o x x o x - o\nx o x - - - o x - x\n- x - o o x x o o -\no o - x x o - o x x\nx x - o o x - x o o\n- o o x o x o - o x"
     },
     "59_12x12": {
       "id": "59_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/059.a.htm",
-      "solution": "12 12\n- - - b - - b w w b b w\nb - w - w - b w b w b b\n- b b - - b - - b b - w\n- - - w - w b b w - w -\nb - w b b - w w b b w b\n- b - b b w - - w - - -\nb b w w - w - b b - b b\nw w b - b b w - b b - -\n- b - w w - b - w - w -\nw b - w b b w w - - - -\n- w - - w w b - b b w b\nb w b b - b - w - - - -"
+      "solution": "12 12\n- - - x - - x o o x x o\nx - o - o - x o x o x x\n- x x - - x - - x x - o\n- - - o - o x x o - o -\nx - o x x - o o x x o x\n- x - x x o - - o - - -\nx x o o - o - x x - x x\no o x - x x o - x x - -\n- x - o o - x - o - o -\no x - o x x o o - - - -\n- o - - o o x - x x o x\nx o x x - x - o - - - -"
     },
     "62_8x8": {
       "id": "62_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/062.a.htm",
-      "solution": "8 8\n- - w w b - - -\nw w b w - w - w\nb w w - b - b -\nw b b - - b w b\nw - - w w - w b\nb b w b w - - w\nw - w b - b w b\n- b b w w b b -"
+      "solution": "8 8\n- - o o x - - -\no o x o - o - o\nx o o - x - x -\no x x - - x o x\no - - o o - o x\nx x o x o - - o\no - o x - x o x\n- x x o o x x -"
     },
     "63_10x10": {
       "id": "63_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/063.a.htm",
-      "solution": "10 10\nb - w - - w b b - w\nw b b w b - b w b b\nb w w b b w w b w -\nw - - w w - - b w b\nw b - b - b w w - w\nb - w b w b b w b w\nw w - w w - w - - b\nb w b b - b - - w b\nw b - w w b w b - w\nw b w w b w w - - b"
+      "solution": "10 10\nx - o - - o x x - o\no x x o x - x o x x\nx o o x x o o x o -\no - - o o - - x o x\no x - x - x o o - o\nx - o x o x x o x o\no o - o o - o - - x\nx o x x - x - - o x\no x - o o x o x - o\no x o o x o o - - x"
     },
     "65_10x10": {
       "id": "65_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/065.a.htm",
-      "solution": "10 10\nw - - w w b w - w -\nb w b b w w - b - b\nw b b w b - b w b -\nw w - - - - b w - w\n- b b w b - w b b w\nb w - w - b - w w -\n- - b - - b w - b b\n- b w b w - - b w w\nw b w w - b - w - -\nb w - b - w b b - -"
+      "solution": "10 10\no - - o o x o - o -\nx o x x o o - x - x\no x x o x - x o x -\no o - - - - x o - o\n- x x o x - o x x o\nx o - o - x - o o -\n- - x - - x o - x x\n- x o x o - - x o o\no x o o - x - o - -\nx o - x - o x x - -"
     },
     "66_10x10": {
       "id": "66_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/066.a.htm",
-      "solution": "10 10\n- - b b - b - b - b\n- b b w w - w - - b\n- w w - w w b w - -\n- b b w - - - b b w\n- w - b - b - w - b\nw b - - w - b - - -\n- - - - - - - w - -\nb w b - b w w - - w\n- b - - w b b - b -\n- b w b b - - b - b"
+      "solution": "10 10\n- - x x - x - x - x\n- x x o o - o - - x\n- o o - o o x o - -\n- x x o - - - x x o\n- o - x - x - o - x\no x - - o - x - - -\n- - - - - - - o - -\nx o x - x o o - - o\n- x - - o x x - x -\n- x o x x - - x - x"
     },
     "72_8x8": {
       "id": "72_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/072.a.htm",
-      "solution": "8 8\n- b - - w - - b\n- - - b b w w -\nb - w - w - b b\n- w b b - w b -\nb - b w b - - b\nw - - b w w - -\n- - - - w b - -\n- b - b - - b -"
+      "solution": "8 8\n- x - - o - - x\n- - - x x o o -\nx - o - o - x x\n- o x x - o x -\nx - x o x - - x\no - - x o o - -\n- - - - o x - -\n- x - x - - x -"
     },
     "75_10x10": {
       "id": "75_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/075.a.htm",
-      "solution": "10 10\nw w - - - b - b - -\nb b w b w b b - w b\n- - w b - w - w w b\n- b - w b - b w b -\n- w w - b w - - b -\n- - b b - w b - w -\n- b w - b - b w b b\nw b - b b w - w - -\n- w w - w - b b - -\nb - b - - b - - - b"
+      "solution": "10 10\no o - - - x - x - -\nx x o x o x x - o x\n- - o x - o - o o x\n- x - o x - x o x -\n- o o - x o - - x -\n- - x x - o x - o -\n- x o - x - x o x x\no x - x x o - o - -\n- o o - o - x x - -\nx - x - - x - - - x"
     },
     "78_10x10": {
       "id": "78_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/078.a.htm",
-      "solution": "10 10\n- b w - b - - w - w\nw b - b w - b w b -\nb - w w b - w b w b\nw w b w b - w - w b\nb w w - - w - - b -\n- - b - b b w - w -\nb w - w - w b - - w\nw b w w b w - w - w\nw - w b b - w w b b\n- - - w w b w b w w"
+      "solution": "10 10\n- x o - x - - o - o\no x - x o - x o x -\nx - o o x - o x o x\no o x o x - o - o x\nx o o - - o - - x -\n- - x - x x o - o -\nx o - o - o x - - o\no x o o x o - o - o\no - o x x - o o x x\n- - - o o x o x o o"
     },
     "79_12x12": {
       "id": "79_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/079.a.htm",
-      "solution": "12 12\nb b - w b b - - b - b b\nw - - - w w b - - b - -\nb w - - b - w - w - w w\nb - b w w b b - b w b b\n- - - b b - w b - b b w\nb w b - w b w - w - w w\nw w b b - b - b - b b -\nw b w b w - w - b w w -\n- b b - w - b w b w b b\nb - w w b - - - - b w w\n- - b w w b w - w - w b\nb - w - b - w b w b - w"
+      "solution": "12 12\nx x - o x x - - x - x x\no - - - o o x - - x - -\nx o - - x - o - o - o o\nx - x o o x x - x o x x\n- - - x x - o x - x x o\nx o x - o x o - o - o o\no o x x - x - x - x x -\no x o x o - o - x o o -\n- x x - o - x o x o x x\nx - o o x - - - - x o o\n- - x o o x o - o - o x\nx - o - x - o x o x - o"
     },
     "80_12x12": {
       "id": "80_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/080.a.htm",
-      "solution": "12 12\nb - - b b - b - b - w -\nb w - w - - - - - b w b\nw w b b - - w w b - - b\nb b - w b b - - b w b w\nw - w b w w b w - w w b\n- b w w - b - - w b - -\nb w b w - b b - b b w -\n- b - - b - - w - w b -\nw b w w b w b - - b - w\nb w b - w w - w - - - -\nb w b - b b w - b w b b\nw - w b - - b - - - - -"
+      "solution": "12 12\nx - - x x - x - x - o -\nx o - o - - - - - x o x\no o x x - - o o x - - x\nx x - o x x - - x o x o\no - o x o o x o - o o x\n- x o o - x - - o x - -\nx o x o - x x - x x o -\n- x - - x - - o - o x -\no x o o x o x - - x - o\nx o x - o o - o - - - -\nx o x - x x o - x o x x\no - o x - - x - - - - -"
     },
     "81_8x8": {
       "id": "81_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/081.a.htm",
-      "solution": "8 8\n- b - w - - - -\n- - w b b - - -\n- b - - w b b -\n- - w - - - w -\nb - - - - - b -\nb - - b w b - -\nw b w - - - - -\n- b w b b w b b"
+      "solution": "8 8\n- x - o - - - -\n- - o x x - - -\n- x - - o x x -\n- - o - - - o -\nx - - - - - x -\nx - - x o x - -\no x o - - - - -\n- x o x x o x x"
     },
     "86_10x10": {
       "id": "86_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/086.a.htm",
-      "solution": "10 10\nw w - - - b w - - -\nb - b - w b - b b -\nw - w b - - w w b w\nw b - - w b b - - w\nb w w - w b b - - b\nw - b b - - w w - b\n- b w w - b - b - w\n- - b - b w b - - b\n- b - w - - - - - -\n- - - - b b w - b -"
+      "solution": "10 10\no o - - - x o - - -\nx - x - o x - x x -\no - o x - - o o x o\no x - - o x x - - o\nx o o - o x x - - x\no - x x - - o o - x\n- x o o - x - x - o\n- - x - x o x - - x\n- x - o - - - - - -\n- - - - x x o - x -"
     },
     "58_10x10": {
       "id": "58_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/058.a.htm",
-      "solution": "10 10\n- - b w b b w - - b\n- w - - - w b w - -\nb - b w b w - w - w\nw - w b w b - b b -\n- b w b - - w - - -\nw - - w b w b w b w\nb - w w b - b w - -\nb - w - - w w b b w\nw - - - w - b w w -\nb - w b w - w b b -"
+      "solution": "10 10\n- - x o x x o - - x\n- o - - - o x o - -\nx - x o x o - o - o\no - o x o x - x x -\n- x o x - - o - - -\no - - o x o x o x o\nx - o o x - x o - -\nx - o - - o o x x o\no - - - o - x o o -\nx - o x o - o x x -"
     },
     "60_12x12": {
       "id": "60_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/060.a.htm",
-      "solution": "12 12\nw w - w - - - w w b w b\n- - b w - w b b - b w -\n- w w b - - w w b w b b\n- b w b w b w - b w - w\n- b b - w b b w - b b w\n- - w w - - w w - w w -\n- w b b - - - b b - b -\nb - w - - w - w b w w b\n- b - - b - b w w - b -\nb - w w - w b b w - w -\n- w b b w w - w - b - b\n- - b - b - - - b - - -"
+      "solution": "12 12\no o - o - - - o o x o x\n- - x o - o x x - x o -\n- o o x - - o o x o x x\n- x o x o x o - x o - o\n- x x - o x x o - x x o\n- - o o - - o o - o o -\n- o x x - - - x x - x -\nx - o - - o - o x o o x\n- x - - x - x o o - x -\nx - o o - o x x o - o -\n- o x x o o - o - x - x\n- - x - x - - - x - - -"
     },
     "61_8x8": {
       "id": "61_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/061.a.htm",
-      "solution": "8 8\nw w b w - - - -\n- - - b - b - b\nb w w b w b w -\n- b - - w - w b\nw b w b b - b w\n- w b w - w w b\nb w b w b b w -\nb - w - w w - b"
+      "solution": "8 8\no o x o - - - -\n- - - x - x - x\nx o o x o x o -\n- x - - o - o x\no x o x x - x o\n- o x o - o o x\nx o x o x x o -\nx - o - o o - x"
     },
     "64_10x10": {
       "id": "64_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/064.a.htm",
-      "solution": "10 10\nb w b w w - b w b -\n- - w w b w w b - b\n- b - b w b - w - -\nb - - - - b w b - w\n- w - - w - b w w -\nb - b b w - w - b -\n- - b w - b w - w b\n- w - - b w b b w -\nb - b w - - w w b -\n- - w b b w b b w w"
+      "solution": "10 10\nx o x o o - x o x -\n- - o o x o o x - x\n- x - x o x - o - -\nx - - - - x o x - o\n- o - - o - x o o -\nx - x x o - o - x -\n- - x o - x o - o x\n- o - - x o x x o -\nx - x o - - o o x -\n- - o x x o x x o o"
     },
     "67_10x10": {
       "id": "67_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/067.a.htm",
-      "solution": "10 10\nw b w w b b w w - b\n- w b - w - - w b -\n- w b w w - b - - -\nw - - b - b w - b -\nb w w b w b w w b w\nw w b - w w b - - -\nb - w w b w - w - w\n- w b b w - b - - -\nb b w - w - w w b b\nw b w b b w - w b -"
+      "solution": "10 10\no x o o x x o o - x\n- o x - o - - o x -\n- o x o o - x - - -\no - - x - x o - x -\nx o o x o x o o x o\no o x - o o x - - -\nx - o o x o - o - o\n- o x x o - x - - -\nx x o - o - o o x x\no x o x x o - o x -"
     },
     "68_10x10": {
       "id": "68_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/068.a.htm",
-      "solution": "10 10\nw b w b b w b w w b\nb w w - w b w b b w\n- w b b w b w - w w\nb - - - b w b b w b\nb - - w b w b - - b\nw w b w w - w b w -\nw - w b w b w b w w\nb b w b - - b - b b\nw b b - w w b - w w\nb w - w b b w - b -"
+      "solution": "10 10\no x o x x o x o o x\nx o o - o x o x x o\n- o x x o x o - o o\nx - - - x o x x o x\nx - - o x o x - - x\no o x o o - o x o -\no - o x o x o x o o\nx x o x - - x - x x\no x x - o o x - o o\nx o - o x x o - x -"
     },
     "69_12x12": {
       "id": "69_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/069.a.htm",
-      "solution": "12 12\n- b b w w b b w - - b w\nb w - b - w b - - - b -\n- w b - - b - - b b w -\nw - b b w - w - w - w b\nb w w - w b w b b w - b\nb b - w - - b w - - b -\n- b - w b w b w b - b w\nw - w - w b w b b w w -\n- b w b - - w - w - b w\nb - b b w b - - b w - w\nb w - w b - w w b w b -\n- w b w b w b w w b b -"
+      "solution": "12 12\n- x x o o x x o - - x o\nx o - x - o x - - - x -\n- o x - - x - - x x o -\no - x x o - o - o - o x\nx o o - o x o x x o - x\nx x - o - - x o - - x -\n- x - o x o x o x - x o\no - o - o x o x x o o -\n- x o x - - o - o - x o\nx - x x o x - - x o - o\nx o - o x - o o x o x -\n- o x o x o x o o x x -"
     },
     "70_12x12": {
       "id": "70_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/070.a.htm",
-      "solution": "12 12\n- b - w w - b - w b - b\nb w b - b w w b w b - w\n- w - w w b b w - w b w\n- b b - b w - b b w b -\nb w b w b w - w - b - w\n- b w - w b w b - w w b\nw b w b w - w b w b b -\n- w - b - b b - - w b b\nb - b w b - - b b w - w\n- - w - b w - w - - b -\n- b - b - w b b - - b -\nb w - - w b - - - - w b"
+      "solution": "12 12\n- x - o o - x - o x - x\nx o x - x o o x o x - o\n- o - o o x x o - o x o\n- x x - x o - x x o x -\nx o x o x o - o - x - o\n- x o - o x o x - o o x\no x o x o - o x o x x -\n- o - x - x x - - o x x\nx - x o x - - x x o - o\n- - o - x o - o - - x -\n- x - x - o x x - - x -\nx o - - o x - - - - o x"
     },
     "71_8x8": {
       "id": "71_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/071.a.htm",
-      "solution": "8 8\n- - b w b w b -\nw - - - - w - -\nb b w - w b w b\n- w b b - - b b\nb - - w b w - w\nb b w - b - - -\n- b - b - - - -\n- w w - b - b -"
+      "solution": "8 8\n- - x o x o x -\no - - - - o - -\nx x o - o x o x\n- o x x - - x x\nx - - o x o - o\nx x o - x - - -\n- x - x - - - -\n- o o - x - x -"
     },
     "73_10x10": {
       "id": "73_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/073.a.htm",
-      "solution": "10 10\n- - b w b - b w - b\n- b - b - w w b b w\n- w w b w - b - w -\nb - b - w - - - - -\nb w w b b w - w w b\nw - w - - w b - w b\n- b b - - b w w b -\nb w - - w - - - b -\nw b b w b w b b w -\n- - - - b w - b - b"
+      "solution": "10 10\n- - x o x - x o - x\n- x - x - o o x x o\n- o o x o - x - o -\nx - x - o - - - - -\nx o o x x o - o o x\no - o - - o x - o x\n- x x - - x o o x -\nx o - - o - - - x -\no x x o x o x x o -\n- - - - x o - x - x"
     },
     "74_10x10": {
       "id": "74_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/074.a.htm",
-      "solution": "10 10\nw - - b w - - b - -\nb b w w b b w b b -\n- w b b - - - w - -\nb - - w w - b - - w\nw - w b w - - w b -\n- b b w b b - b w b\nw w - - b w w b b -\nb b w - w w b w - w\n- - b b - - - w b b\n- - - w b - w b w -"
+      "solution": "10 10\no - - x o - - x - -\nx x o o x x o x x -\n- o x x - - - o - -\nx - - o o - x - - o\no - o x o - - o x -\n- x x o x x - x o x\no o - - x o o x x -\nx x o - o o x o - o\n- - x x - - - o x x\n- - - o x - o x o -"
     },
     "76_10x10": {
       "id": "76_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/076.a.htm",
-      "solution": "10 10\nw - b - - w w b w b\nw b - w - - b w w -\n- w w - b w - - b w\nw b - w w - w w - b\nb w w - b b w b w -\n- - b w w b b w w -\nb - - w b w - w - -\n- w b - b w b b w w\nw w b b w b w w b b\nw b w - w w - b w w"
+      "solution": "10 10\no - x - - o o x o x\no x - o - - x o o -\n- o o - x o - - x o\no x - o o - o o - x\nx o o - x x o x o -\n- - x o o x x o o -\nx - - o x o - o - -\n- o x - x o x x o o\no o x x o x o o x x\no x o - o o - x o o"
     },
     "77_10x10": {
       "id": "77_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/077.a.htm",
-      "solution": "10 10\nw b w b w b w w - b\nb b w b w - w b w -\n- w - w - - b b w b\nb - b w b - - - - w\n- w b b w - w - b -\n- - w - w - - w w b\n- w w b b w b b - w\nb - b w w - b b w b\nw - w b b w w - w b\nw b w b w w b w b w"
+      "solution": "10 10\no x o x o x o o - x\nx x o x o - o x o -\n- o - o - - x x o x\nx - x o x - - - - o\n- o x x o - o - x -\n- - o - o - - o o x\n- o o x x o x x - o\nx - x o o - x x o x\no - o x x o o - o x\no x o x o o x o x o"
     },
     "82_8x8": {
       "id": "82_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/082.a.htm",
-      "solution": "8 8\n- b - b w w b -\nw b w w b b w -\n- - - b - w w b\nb - - - - - b -\n- b w - - w - b\n- - w b - - w -\nw b b w b - - b\nb w - - b w b -"
+      "solution": "8 8\n- x - x o o x -\no x o o x x o -\n- - - x - o o x\nx - - - - - x -\n- x o - - o - x\n- - o x - - o -\no x x o x - - x\nx o - - x o x -"
     },
     "83_10x10": {
       "id": "83_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/083.a.htm",
-      "solution": "10 10\nw w - b b w w b - w\nw b b w w - b w w b\nb w w - - - w b - b\n- - b w w b - b w -\nw w b - b b w w b -\n- b w w - w b - b w\nw b - - - - w - w b\nb w w b w - w b b w\n- b - w - b - - b -\nb - - - - - b - w -"
+      "solution": "10 10\no o - x x o o x - o\no x x o o - x o o x\nx o o - - - o x - x\n- - x o o x - x o -\no o x - x x o o x -\n- x o o - o x - x o\no x - - - - o - o x\nx o o x o - o x x o\n- x - o - x - - x -\nx - - - - - x - o -"
     },
     "84_10x10": {
       "id": "84_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/084.a.htm",
-      "solution": "10 10\nw w b w b w b w w b\n- - b w - - - b w w\nw b w b - b w - - b\nw - w b w w - - w b\n- - b w - w b w b w\n- w b w b b - - b -\nb w w b w - w b w b\nw b w - w b w b b w\n- b - b b - b - w w\nw - w w - w w - b b"
+      "solution": "10 10\no o x o x o x o o x\n- - x o - - - x o o\no x o x - x o - - x\no - o x o o - - o x\n- - x o - o x o x o\n- o x o x x - - x -\nx o o x o - o x o x\no x o - o x o x x o\n- x - x x - x - o o\no - o o - o o - x x"
     },
     "85_10x10": {
       "id": "85_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/085.a.htm",
-      "solution": "10 10\nb - w b - - w w b -\nb - - b - - b - b b\nw b w w b w b w w b\n- w w b - w - b - w\n- b - w - - w b w b\nb w b w b b w - b -\nw b b - w - b - b w\n- - w b w b b w w b\n- b - b - w w b b w\nb - - w w b - - w b"
+      "solution": "10 10\nx - o x - - o o x -\nx - - x - - x - x x\no x o o x o x o o x\n- o o x - o - x - o\n- x - o - - o x o x\nx o x o x x o - x -\no x x - o - x - x o\n- - o x o x x o o x\n- x - x - o o x x o\nx - - o o x - - o x"
     },
     "87_10x10": {
       "id": "87_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/087.a.htm",
-      "solution": "10 10\nb b w b w - b - - -\n- w b w w b - - b -\n- - b - - b w w - b\n- b w b - - b - b -\nw b b w w b - w b -\n- w w - - - w - w w\n- b b w w b - w b b\n- b w - b - b b - -\n- - - - - w w - b b\n- b - b - - - - - w"
+      "solution": "10 10\nx x o x o - x - - -\n- o x o o x - - x -\n- - x - - x o o - x\n- x o x - - x - x -\no x x o o x - o x -\n- o o - - - o - o o\n- x x o o x - o x x\n- x o - x - x x - -\n- - - - - o o - x x\n- x - x - - - - - o"
     },
     "88_10x10": {
       "id": "88_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/088.a.htm",
-      "solution": "10 10\nb w w b w - - - w -\nw w b w w b w w b w\n- - - - b w b - b w\nw - w w b w - w w -\nw b - b w - w b w w\nb w w b w b - - b -\nw w b w - - w - w w\nb - b w - - b b w b\nw b w b w - b - b w\n- - - - w - - w - -"
+      "solution": "10 10\nx o o x o - - - o -\no o x o o x o o x o\n- - - - x o x - x o\no - o o x o - o o -\no x - x o - o x o o\nx o o x o x - - x -\no o x o - - o - o o\nx - x o - - x x o x\no x o x o - x - x o\n- - - - o - - o - -"
     },
     "89_12x12": {
       "id": "89_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/089.a.htm",
-      "solution": "12 12\nb - w b w w b - b - w b\n- w b w b - b w w b - -\nb w b b - w w b b w - b\nw b - w w b w - w w - -\n- w - b w w - b - b w b\nw b - w - b b w - w b -\nb w b w - - - b - w - w\nw w b - b w w b w - - b\n- b w b w b w - - b - -\nw b - b w - - b w - b b\nw w - w b w b b w - w w\n- w b - b w - w - b - b"
+      "solution": "12 12\nx - o x o o x - x - o x\n- o x o x - x o o x - -\nx o x x - o o x x o - x\no x - o o x o - o o - -\n- o - x o o - x - x o x\no x - o - x x o - o x -\nx o x o - - - x - o - o\no o x - x o o x o - - x\n- x o x o x o - - x - -\no x - x o - - x o - x x\no o - o x o x x o - o o\n- o x - x o - o - x - x"
     },
     "90_12x12": {
       "id": "90_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/090.a.htm",
-      "solution": "12 12\n- w b b w b - b w b - -\nb - - w - - - - b - b -\n- b - - b b - - w w - w\n- w - w b w b b - b - b\n- b b - - b w - w w - b\n- - b w - b w b b - w w\nw - w - - w - b w b b -\n- b w b b - w - w w - b\nw w - b w b - b - w b b\n- b w w b - w b b - - -\nb w b - - w b w w - - -\n- b b w b w - b b w b -"
+      "solution": "12 12\n- o x x o x - x o x - -\nx - - o - - - - x - x -\n- x - - x x - - o o - o\n- o - o x o x x - x - x\n- x x - - x o - o o - x\n- - x o - x o x x - o o\no - o - - o - x o x x -\n- x o x x - o - o o - x\no o - x o x - x - o x x\n- x o o x - o x x - - -\nx o x - - o x o o - - -\n- x x o x o - x x o x -"
     },
     "91_8x8": {
       "id": "91_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/091.a.htm",
-      "solution": "8 8\nb - - w b - - -\n- - b - b w b -\n- w - w w b b -\n- b - b w b w -\n- b - - - - b -\nb w b b w w b w\n- - - - b b w w\n- - - b w - b b"
+      "solution": "8 8\nx - - o x - - -\n- - x - x o x -\n- o - o o x x -\n- x - x o x o -\n- x - - - - x -\nx o x x o o x o\n- - - - x x o o\n- - - x o - x x"
     },
     "92_8x8": {
       "id": "92_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/092.a.htm",
-      "solution": "8 8\nw b b w - - b w\n- w w b b w b w\nb - b - w b w b\nb w - b w b w -\n- - - - - w b w\nb w b w b - b -\n- b b w - w w b\nw b w b - - b -"
+      "solution": "8 8\no x x o - - x o\n- o o x x o x o\nx - x - o x o x\nx o - x o x o -\n- - - - - o x o\nx o x o x - x -\n- x x o - o o x\no x o x - - x -"
     },
     "93_10x10": {
       "id": "93_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/093.a.htm",
-      "solution": "10 10\nb w - b b - - - - b\nw - b - w b w - b -\nb w w b - - w w b -\nw b b w w - b w - -\nb w w b b w b - b w\nw b - - - - - - b -\nb b w - w b - b w -\nw w b - - b w - b b\n- b - - w w b - - w\nw b b w b b - w b b"
+      "solution": "10 10\nx o - x x - - - - x\no - x - o x o - x -\nx o o x - - o o x -\no x x o o - x o - -\nx o o x x o x - x o\no x - - - - - - x -\nx x o - o x - x o -\no o x - - x o - x x\n- x - - o o x - - o\no x x o x x - o x x"
     },
     "94_10x10": {
       "id": "94_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/094.a.htm",
-      "solution": "10 10\n- b w - b w b b w w\nw - w w b - w w b b\nw b b w - w b b w w\n- w w - b w w b b -\nw b b w w b b - w w\nw - b - b w - w - b\n- b w w b w b w - b\nw w b b w b b - - w\nb - w - w - w w - -\nb - w b b w - b b -"
+      "solution": "10 10\n- x o - x o x x o o\no - o o x - o o x x\no x x o - o x x o o\n- o o - x o o x x -\no x x o o x x - o o\no - x - x o - o - x\n- x o o x o x o - x\no o x x o x x - - o\nx - o - o - o o - -\nx - o x x o - x x -"
     },
     "95_10x10": {
       "id": "95_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/095.a.htm",
-      "solution": "10 10\n- b w b w b - w - b\nw b b - w b b w b -\nw w b w b w b - - -\n- - - - b b - w b -\nb w w b w - - w - b\nw - - b b w b b - w\nb - - w b w b w b b\nb - - b w - w b w w\n- - - b - b - b w -\n- - b w b - w - b -"
+      "solution": "10 10\n- x o x o x - o - x\no x x - o x x o x -\no o x o x o x - - -\n- - - - x x - o x -\nx o o x o - - o - x\no - - x x o x x - o\nx - - o x o x o x x\nx - - x o - o x o o\n- - - x - x - x o -\n- - x o x - o - x -"
     },
     "96_10x10": {
       "id": "96_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/096.a.htm",
-      "solution": "10 10\nw b b - w - w - w -\nw - w w b b w b - b\nb w b - b - b w b b\n- w b - w - b - - w\nw b w w b b w w - -\nw b - b w - b w b b\nb - w b w - w - - -\nw - - - - b w b w -\n- b w b w b - - b -\nb w b b - - - - b w"
+      "solution": "10 10\no x x - o - o - o -\no - o o x x o x - x\nx o x - x - x o x x\n- o x - o - x - - o\no x o o x x o o - -\no x - x o - x o x x\nx - o x o - o - - -\no - - - - x o x o -\n- x o x o x - - x -\nx o x x - - - - x o"
     },
     "97_10x10": {
       "id": "97_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/097.a.htm",
-      "solution": "10 10\nw - - - b w b w b -\n- b b w b w - b b w\nb w b - w b w w - -\n- w - - b b - b w w\nw b - - b - w w - b\n- b - - w w - b w w\n- - b w b b w w - b\n- - - - b w b - b w\nb b - w - b b w b b\n- - - - w b w b w -"
+      "solution": "10 10\no - - - x o x o x -\n- x x o x o - x x o\nx o x - o x o o - -\n- o - - x x - x o o\no x - - x - o o - x\n- x - - o o - x o o\n- - x o x x o o - x\n- - - - x o x - x o\nx x - o - x x o x x\n- - - - o x o x o -"
     },
     "98_10x10": {
       "id": "98_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/098.a.htm",
-      "solution": "10 10\nw b w b w - w w b w\nw b - w w - b w b -\nb w b w b - w b - b\nw b b - w b w b w w\nw - w b b - - w w b\n- b b w w b - - b w\nb w w b b - w w b -\nw b b - w b w b w w\nb w w - w b - w w b\nw w b w - w - - b w"
+      "solution": "10 10\no x o x o - o o x o\no x - o o - x o x -\nx o x o x - o x - x\no x x - o x o x o o\no - o x x - - o o x\n- x x o o x - - x o\nx o o x x - o o x -\no x x - o x o x o o\nx o o - o x - o o x\no o x o - o - - x o"
     },
     "99_12x12": {
       "id": "99_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/099.a.htm",
-      "solution": "12 12\nw b w - b - w w b b w b\nw b w - w b w - w - w -\n- w b w w b - w w - - -\nb w b - b w b - b w w b\nw - w w - w b w w b b w\nw b - - b b - - b w w b\nb w b w w - w w b b - w\n- w b - - w w b w b w w\nb b w w b - - w w - w b\n- w w b w w b w b b - w\n- b - w w - - b - - w w\nb - b - - w - w w b - -"
+      "solution": "12 12\no x o - x - o o x x o x\no x o - o x o - o - o -\n- o x o o x - o o - - -\nx o x - x o x - x o o x\no - o o - o x o o x x o\no x - - x x - - x o o x\nx o x o o - o o x x - o\n- o x - - o o x o x o o\nx x o o x - - o o - o x\n- o o x o o x o x x - o\n- x - o o - - x - - o o\nx - x - - o - o o x - -"
     },
     "100_12x12": {
       "id": "100_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/100.a.htm",
-      "solution": "12 12\n- - b - w - w w - - b -\n- w b - w - w b b w w -\nb - w b - b - w - b - -\n- b - - w - b - b w w -\nb w w b - w b - - - - b\n- - - w b b - - - w w -\n- - w b - w - - - b b w\n- b - w - - - w - w b b\n- b - b - - b - b b w -\n- w w b - b w b - - - b\nw b b - - w - - w - w b\nb - w w b b - - b b - -"
+      "solution": "12 12\n- - x - o - o o - - x -\n- o x - o - o x x o o -\nx - o x - x - o - x - -\n- x - - o - x - x o o -\nx o o x - o x - - - - x\n- - - o x x - - - o o -\n- - o x - o - - - x x o\n- x - o - - - o - o x x\n- x - x - - x - x x o -\n- o o x - x o x - - - x\no x x - - o - - o - o x\nx - o o x x - - x x - -"
     },
     "101_8x8": {
       "id": "101_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/101.a.htm",
-      "solution": "8 8\nw w b w w - b -\nb b - - b w w -\nw b w - w b b w\nw - w - w b - b\nb w b w - w b -\n- w b w b w b w\nb b w b w - w w\nw b w - w b w b"
+      "solution": "8 8\no o x o o - x -\nx x - - x o o -\no x o - o x x o\no - o - o x - x\nx o x o - o x -\n- o x o x o x o\nx x o x o - o o\no x o - o x o x"
     },
     "102_8x8": {
       "id": "102_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/102.a.htm",
-      "solution": "8 8\nb - - - b - w -\n- - b w w b b -\n- - w w b - w -\nw b b - w w b -\nb w w - b - w -\nw b b w - w b -\n- w w b b - b -\n- b - w - - - -"
+      "solution": "8 8\nx - - - x - o -\n- - x o o x x -\n- - o o x - o -\no x x - o o x -\nx o o - x - o -\no x x o - o x -\n- o o x x - x -\n- x - o - - - -"
     },
     "103_10x10": {
       "id": "103_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/103.a.htm",
-      "solution": "10 10\n- - - - - - w - - b\nb - b - - b b w w -\nb - - - b - b - b -\nw w b - w w - - b w\n- b w b - b b - - w\nw b b - w b w w b -\n- w w - - w b b w w\nw w b - b b - w w -\nb b - w w b - - - b\n- w b b - - w - - b"
+      "solution": "10 10\n- - - - - - o - - x\nx - x - - x x o o -\nx - - - x - x - x -\no o x - o o - - x o\n- x o x - x x - - o\no x x - o x o o x -\n- o o - - o x x o o\no o x - x x - o o -\nx x - o o x - - - x\n- o x x - - o - - x"
     },
     "104_10x10": {
       "id": "104_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/104.a.htm",
-      "solution": "10 10\nb w b - w w b b - b\nw b w w - b w - w b\nw - - b - w w b w w\n- - b w b - b w b -\n- w - w b w - w b w\nw w b b w - b - - b\nw - w - w b w b b w\nb b w - - b w w - b\nw w b w b w b b - b\nb b w w b b - w - -"
+      "solution": "10 10\nx o x - o o x x - x\no x o o - x o - o x\no - - x - o o x o o\n- - x o x - x o x -\n- o - o x o - o x o\no o x x o - x - - x\no - o - o x o x x o\nx x o - - x o o - x\no o x o x o x x - x\nx x o o x x - o - -"
     },
     "105_10x10": {
       "id": "105_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/105.a.htm",
-      "solution": "10 10\n- b - b - - b b - -\nb w w - - - b - - -\nw w - - - w w - - -\n- - b w w b w b - b\nb w w b b w b - b -\nb - - - - w - - - w\n- b - b w b - b b -\n- b w - - - - w - w\n- w b - - - - - b -\n- - - w b - - - - b"
+      "solution": "10 10\n- x - x - - x x - -\nx o o - - - x - - -\no o - - - o o - - -\n- - x o o x o x - x\nx o o x x o x - x -\nx - - - - o - - - o\n- x - x o x - x x -\n- x o - - - - o - o\n- o x - - - - - x -\n- - - o x - - - - x"
     },
     "106_10x10": {
       "id": "106_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/106.a.htm",
-      "solution": "10 10\nw b b - - - w - b -\nb w w b b w b w - -\nw b b w - w b b - b\nb w w - b b w - w b\n- b - b w - - - - w\nw w - w - b b w b -\nb - b b w - w b w b\n- b w b - b w b - -\nw - w - - w - w w b\n- b b w b b w b b -"
+      "solution": "10 10\no x x - - - o - x -\nx o o x x o x o - -\no x x o - o x x - x\nx o o - x x o - o x\n- x - x o - - - - o\no o - o - x x o x -\nx - x x o - o x o x\n- x o x - x o x - -\no - o - - o - o o x\n- x x o x x o x x -"
     },
     "107_10x10": {
       "id": "107_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/107.a.htm",
-      "solution": "10 10\nw b b - - w w b b w\nb - w - w b b w w b\nw w - b b w w b b w\n- - - w w b b w - w\nb w w b w w - - - -\n- b - - - - b - b b\n- b - - w b - w w -\nb w b b w - w - b -\n- b - w b - b b w -\nw - - w - w w b b -"
+      "solution": "10 10\no x x - - o o x x o\nx - o - o x x o o x\no o - x x o o x x o\n- - - o o x x o - o\nx o o x o o - - - -\n- x - - - - x - x x\n- x - - o x - o o -\nx o x x o - o - x -\n- x - o x - x x o -\no - - o - o o x x -"
     },
     "108_10x10": {
       "id": "108_10x10",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/108.a.htm",
-      "solution": "10 10\n- w w - b b w - - -\n- w b w - - b b w b\nb b w - - w w - w b\nw - w b b - b - b w\n- b - w - w - w - w\nw - w b b w b - b b\n- - - w b b w b w w\nb - - w - w w - w -\nb b w b b w - b b w\n- - w b - b - w w b"
+      "solution": "10 10\n- o o - x x o - - -\n- o x o - - x x o x\nx x o - - o o - o x\no - o x x - x - x o\n- x - o - o - o - o\no - o x x o x - x x\n- - - o x x o x o o\nx - - o - o o - o -\nx x o x x o - x x o\n- - o x - x - o o x"
     },
     "109_12x12": {
       "id": "109_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/109.a.htm",
-      "solution": "12 12\nw - w w b - w - - w b w\nb w b - - b - - b w w b\nb w - w - w - w w b - b\nw - w w b w b - b - w w\nw b - b - b b w w b b w\n- w w b w w - w b b w b\n- - b w w - b - w - - w\nb w - - b - - b - - b -\nw - - - b w w b w b b -\n- b w b w - b w w - w -\nb b w - b - - b b - - b\n- w b w - w - b w - b -"
+      "solution": "12 12\no - o o x - o - - o x o\nx o x - - x - - x o o x\nx o - o - o - o o x - x\no - o o x o x - x - o o\no x - x - x x o o x x o\n- o o x o o - o x x o x\n- - x o o - x - o - - o\nx o - - x - - x - - x -\no - - - x o o x o x x -\n- x o x o - x o o - o -\nx x o - x - - x x - - x\n- o x o - o - x o - x -"
     },
     "110_12x12": {
       "id": "110_12x12",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Nondango/110.a.htm",
-      "solution": "12 12\nb - - w w b w b - b b -\nw b - - - - w - - - - b\nw b w b - w b w w - b w\n- - w w b b - b b w w b\nb w b b - w - w w b - b\n- - w - b b - b w w - -\n- b w - - w - w b - - -\n- b - - - - - w b w - b\nb w - - - - b - - b - b\n- - - - b - b w - w - -\n- - - b - b w w b - - w\n- b w - w - - b b - b -"
+      "solution": "12 12\nx - - o o x o x - x x -\no x - - - - o - - - - x\no x o x - o x o o - x o\n- - o o x x - x x o o x\nx o x x - o - o o x - x\n- - o - x x - x o o - -\n- x o - - o - o x - - -\n- x - - - - - o x o - x\nx o - - - - x - - x - x\n- - - - x - x o - o - -\n- - - x - x o o x - - o\n- x o - o - - x x - x -"
     }
   },
   "info": "",

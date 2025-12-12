@@ -1,0 +1,1005 @@
+{
+  "count": 200,
+  "solutions": {
+    "01_10x10": {
+      "id": "01_10x10",
+      "solution": "10 10\nse sw se ew ew sw - se ew sw\nns ns ne ew sw ne ew nw - ns\nns ne sw - ne ew sw se ew nw\nne sw ns - se ew nw ns - -\nse nw ne sw ns - - ne ew sw\nne sw - ns ne sw - - - ns\n- ns - ns - ns se ew ew nw\nse nw - ne ew nw ne ew ew sw\nns - - - se ew sw se ew nw\nne ew ew ew nw - ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "solution": "10 10\n- se ew ew ew ew ew sw - -\n- ns - - - - - ns - -\n- ns - se sw - - ne ew sw\n- ns - ns ns se ew ew sw ns\n- ne ew nw ns ns - se nw ns\nse ew ew ew nw ne sw ns - ns\nne sw - - - - ns ne ew nw\n- ns se sw - se nw se sw -\nse nw ns ne sw ne ew nw ns -\nne ew nw - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns - se sw - se ew ew sw ns\nne ew nw ns se nw - se nw ns\n- - se nw ns se sw ns - ns\n- se nw se nw ns ns ns se nw\n- ne sw ne sw ns ne nw ne sw\n- - ns - ns ne sw - - ns\n- - ne ew nw - ns - se nw\n- - - - se ew nw - ns -\n- - - - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\n- se ew sw - se sw se sw -\nse nw - ne ew nw ns ns ns -\nns - - - - se nw ns ns -\nns se sw - - ns - ns ne sw\nne nw ne ew sw ne ew nw - ns\nse ew sw - ns se sw - se nw\nne sw ne ew nw ns ne sw ns -\nse nw - - - ns - ns ns -\nne ew sw se sw ne sw ns ne sw\n- - ne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "solution": "10 10\n- - se ew sw se sw se ew sw\n- se nw - ne nw ns ns - ns\n- ne ew sw - se nw ns se nw\nse sw - ns - ne sw ns ns -\nns ns - ns - se nw ns ne sw\nns ns - ns - ns - ns - ns\nns ne ew nw - ne ew nw se nw\nns se sw - - - se sw ne sw\nns ns ne ew ew sw ns ns - ns\nne nw - - - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "solution": "10 10\n- - - - - se ew ew ew sw\n- - - - - ne sw - - ns\n- - se ew sw - ns se ew nw\n- se nw - ne ew nw ns - -\n- ns - - - - se nw - -\n- ns - - - - ns - - -\n- ns - - - se nw - - -\nse nw se ew sw ne ew ew sw -\nns - ns - ne ew sw - ns -\nne ew nw - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/006.a.htm"
+    },
+    "07_10x10": {
+      "id": "07_10x10",
+      "solution": "10 10\nse sw se ew sw - - - se sw\nns ns ns - ne ew sw - ns ns\nns ns ne ew ew sw ne ew nw ns\nns ne ew ew sw ne sw se ew nw\nns - - se nw se nw ns - -\nns - - ns - ns - ne sw -\nne ew sw ns - ne sw se nw -\nse ew nw ne ew ew nw ns - -\nns - se sw - - - ne sw -\nne ew nw ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\n- ns se ew ew ew ew sw - ns\n- ne nw - se ew ew nw - ns\nse ew ew ew nw se ew sw - ns\nns se sw - se nw se nw se nw\nns ns ne ew nw se nw se nw -\nns ne sw se ew nw se nw se sw\nns - ns ne ew ew nw - ns ns\nns - ne ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\nse ew ew ew sw - se sw se sw\nns - - - ne ew nw ns ns ns\nne ew ew sw se sw se nw ns ns\n- se sw ne nw ns ne ew nw ns\n- ns ne sw - ns se ew ew nw\n- ne sw ns - ns ns - - -\n- se nw ne ew nw ns - se sw\n- ns se sw se ew nw - ns ns\n- ne nw ns ne ew ew ew nw ns\n- - - ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/009.a.htm"
+    },
+    "10_15x15": {
+      "id": "10_15x15",
+      "solution": "15 15\nse ew ew sw - se ew ew sw se ew sw - se sw\nns - - ns se nw - - ns ns - ne ew nw ns\nne sw se nw ns - - se nw ne sw - - se nw\n- ns ne ew nw se ew nw - - ns se ew nw -\nse nw se ew sw ns - - - - ns ns - se sw\nns - ns - ns ns se sw se ew nw ne ew nw ns\nne ew nw se nw ne nw ns ns - se sw se ew nw\nse ew sw ne ew sw - ns ne ew nw ns ns - -\nne sw ne sw - ns - ns se ew ew nw ne ew sw\n- ns - ne ew nw se nw ne sw - - se ew nw\n- ne ew sw - - ne sw - ns se ew nw - -\n- - - ns - - - ne ew nw ne sw - - -\n- se ew nw se ew sw - se ew sw ne sw - -\nse nw se ew nw - ns - ns - ns - ne sw -\nne ew nw - - - ne ew nw - ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\nse ew sw - se ew ew ew sw -\nns - ns - ns se ew sw ne sw\nns - ne sw ne nw - ns - ns\nne sw - ns - se ew nw - ns\n- ne sw ns - ns - - - ns\nse ew nw ne sw ne sw - se nw\nns - - - ne ew nw - ne sw\nns - - - - - - - - ns\nns - - - se ew sw - - ns\nne ew ew ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\n- se ew sw - se sw - se sw\n- ns - ns - ns ne ew nw ns\n- ns - ns - ns - - - ns\nse nw - ns - ns - - - ns\nns - - ne ew nw - se ew nw\nne ew sw - se ew sw ns - -\n- - ns se nw - ns ne ew sw\nse ew nw ns - se nw - - ns\nne ew sw ne sw ne ew ew ew nw\n- - ne ew nw - - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\nse sw se ew sw se ew sw - -\nns ns ne sw ns ns - ne ew sw\nns ne sw ns ne nw se sw - ns\nns - ns ne sw se nw ne ew nw\nns - ns - ns ns - se ew sw\nne sw ne ew nw ne ew nw - ns\n- ns - se sw - - se ew nw\nse nw se nw ns - se nw - -\nns se nw - ne sw ne sw - -\nne nw - - - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\n- se ew ew sw - se ew sw -\nse nw - - ns - ns - ns -\nns - se sw ne ew nw se nw -\nns se nw ns - - - ne ew sw\nns ns se nw - - - - se nw\nns ns ne ew ew sw - se nw -\nne nw - se sw ne sw ne ew sw\n- - se nw ne ew nw - - ns\n- se nw se ew ew sw - se nw\n- ne ew nw - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\nse ew sw se sw - - - se sw\nns - ne nw ns se ew ew nw ns\nne ew sw se nw ne sw - - ns\nse ew nw ne sw se nw - - ns\nns - se ew nw ns - - - ns\nns - ns - - ne sw - - ns\nns - ns - se ew nw - - ns\nns - ne ew nw se sw - - ns\nns - se sw - ns ne sw - ns\nne ew nw ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\nse ew ew sw - se ew ew sw -\nns - - ne sw ns - - ns -\nne ew sw - ne nw - - ns -\nse sw ns - se ew ew sw ne sw\nns ne nw - ns - - ns - ns\nne ew sw - ns se ew nw se nw\n- - ne ew nw ne sw se nw -\n- - se ew sw - ns ns se sw\nse ew nw - ne ew nw ne nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/016.a.htm"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "solution": "10 10\nse ew sw - se ew sw - - -\nns - ne ew nw - ns se sw -\nne sw - - - - ne nw ne sw\n- ne sw - se ew sw - - ns\n- - ns - ns - ns se ew nw\nse ew nw se nw se nw ns - -\nns - - ns - ns - ne ew sw\nne ew sw ns - ne sw - se nw\n- - ns ne sw - ns - ns -\n- - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "solution": "10 10\n- se sw - se ew ew ew sw -\n- ns ns - ne sw - - ns -\nse nw ne ew sw ne ew sw ns -\nns - - - ne sw - ns ns -\nne ew sw - - ne ew nw ns -\n- - ne ew ew ew sw - ne sw\n- - - - se sw ne sw - ns\nse ew sw - ns ne ew nw - ns\nns - ne ew nw - - - se nw\nne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "solution": "10 10\n- se ew sw se ew sw - se sw\nse nw - ns ne sw ne ew nw ns\nns - se nw - ne sw - se nw\nns se nw - - - ns - ns -\nns ne ew ew sw - ns - ne sw\nne ew ew sw ns - ns - - ns\n- - - ns ne ew nw - - ns\nse ew ew nw se ew sw - se nw\nns - se ew nw - ns - ns -\nne ew nw - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/019.a.htm"
+    },
+    "20_15x15": {
+      "id": "20_15x15",
+      "solution": "15 15\nse ew sw se sw - - - se sw - se ew ew sw\nns - ne nw ns - se sw ns ne ew nw se ew nw\nne ew sw - ne ew nw ne nw se ew ew nw se sw\n- - ns - se sw - - - ne ew sw se nw ns\n- - ns se nw ns se ew sw - - ns ns - ns\n- - ne nw - ns ns - ns se ew nw ns - ns\nse ew sw - se nw ns - ns ne sw se nw se nw\nns - ns - ns - ns - ne ew nw ns - ns -\nns - ne ew nw - ns - - se ew nw - ns -\nns - - - - se nw - se nw - se ew nw -\nns se ew ew sw ns se ew nw - - ns - se sw\nns ns - - ns ne nw se ew ew ew nw - ns ns\nns ne sw se nw - - ns se ew sw se ew nw ns\nne ew nw ns - - - ne nw - ne nw - - ns\n- - - ne ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "solution": "10 10\nse sw - se ew sw - se ew sw\nns ne ew nw - ne ew nw se nw\nne ew ew ew sw se ew ew nw -\n- - - - ns ne ew ew sw -\n- se sw se nw - - - ns -\nse nw ns ne sw se ew ew nw -\nns - ns - ns ne sw - - -\nns - ne ew nw - ne ew ew sw\nns - se sw - - se ew ew nw\nne ew nw ne ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "solution": "10 10\nse ew ew ew sw - - se sw -\nns - se sw ne ew ew nw ne sw\nne ew nw ns se ew ew ew sw ns\nse ew ew nw ne ew ew sw ns ns\nns - - se ew ew sw ns ne nw\nns se ew nw se ew nw ne ew sw\nns ns se ew nw se ew sw - ns\nne nw ns - se nw - ne ew nw\n- - ns - ne ew ew ew ew sw\n- - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "solution": "10 10\nse ew ew sw se ew sw se sw -\nne ew sw ns ns se nw ns ns -\n- se nw ns ns ne ew nw ne sw\nse nw se nw ns - se ew sw ns\nns - ns - ns - ns - ne nw\nns - ns se nw - ne sw - -\nns - ne nw - - - ne sw -\nne ew sw - se ew sw - ns -\n- - ns - ns - ns se nw -\n- - ne ew nw - ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "solution": "10 10\n- se ew sw - - se ew ew sw\nse nw - ne sw se nw - - ns\nns - - - ns ns se ew ew nw\nne sw - se nw ns ns se ew sw\nse nw - ne ew nw ne nw - ns\nns - - - - - se sw - ns\nns se ew ew ew ew nw ns - ns\nne nw - - - se ew nw - ns\n- se ew ew ew nw se sw - ns\n- ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/024.a.htm"
+    },
+    "25_21x10": {
+      "id": "25_21x10",
+      "solution": "21 10\n- - se ew ew sw - se ew sw\n- - ns - - ns - ne sw ns\nse sw ne sw - ne ew ew nw ns\nns ne ew nw - - se sw - ns\nns - - - se ew nw ne ew nw\nne sw - - ns - - - se sw\n- ne sw - ne ew ew sw ns ns\nse sw ns - se ew sw ns ns ns\nns ne nw - ns - ns ne nw ns\nne ew ew ew nw - ne ew ew nw\n[solution]\n- - se ew ew sw - se ew sw\n- - ns - - ns - ne sw ns\nse sw ne sw - ne ew ew nw ns\nns ne ew nw - - se sw - ns\nns - - - se ew nw ne ew nw\nne sw - - ns - - - se sw\n- ne sw - ne ew ew sw ns ns\nse sw ns - se ew sw ns ns ns\nns ne nw - ns - ns ne nw ns\nne ew ew ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "solution": "10 10\nse ew sw - - - - se ew sw\nns - ns - - - - ns - ns\nns - ns - se sw se nw se nw\nns - ns - ns ne nw - ns -\nne sw ne sw ns - - - ns -\n- ne sw ne nw se ew sw ns -\nse ew nw - - ns - ne nw -\nns - - se sw ne ew ew ew sw\nns se ew nw ns se ew ew sw ns\nne nw - - ne nw - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/026.a.htm"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "solution": "10 10\n- - - - - se ew sw - -\n- - se ew sw ns - ne sw -\n- - ne sw ns ne sw se nw -\nse sw - ns ns - ns ns - -\nns ne ew nw ne ew nw ne ew sw\nne ew ew sw - - - - - ns\nse ew sw ns - - - se ew nw\nns - ne nw - - - ns - -\nne sw se ew sw se sw ne ew sw\n- ne nw - ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/027.a.htm"
+    },
+    "28_15x15": {
+      "id": "28_15x15",
+      "solution": "15 15\nse ew sw se ew sw - - se ew sw - - - -\nns - ns ns - ns - - ns se nw se sw - -\nne sw ne nw se nw se ew nw ne ew nw ns - -\n- ne sw se nw se nw - - se ew ew nw - -\nse ew nw ns - ns - - - ns - se ew ew sw\nne sw - ne ew nw - - - ne ew nw - se nw\n- ns - - se ew ew sw se ew ew ew sw ns -\nse nw se ew nw - - ns ne sw - - ns ne sw\nns - ns - - - - ne ew nw - se nw - ns\nns - ns - - - - - - - - ns se ew nw\nns - ns - - se sw - se ew sw ne nw - -\nne sw ne sw - ns ns se nw - ne ew ew sw -\nse nw - ne ew nw ne nw - - - se sw ns -\nns - se ew sw - - - - - - ns ne nw -\nne ew nw - ne ew ew ew ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/028.a.htm"
+    },
+    "29_13x17": {
+      "id": "29_13x17",
+      "solution": "13 17\n- se ew ew ew ew sw - se ew sw - - se sw - -\nse nw - - - - ne sw ns - ns - - ns ne ew sw\nns - se ew ew ew ew nw ns - ne sw - ne sw - ns\nns - ne sw - se sw - ne sw - ne sw - ns se nw\nns - - ne ew nw ne ew sw ns - se nw - ns ns -\nns se sw - - - - - ne nw se nw - - ns ns -\nne nw ns - - se sw se ew sw ns - - se nw ns -\n- - ns - - ns ne nw - ne nw - se nw - ne sw\n- - ns - - ns se ew sw - - - ns - - - ns\nse ew nw - - ne nw - ne ew sw - ns - se ew nw\nns - se sw - - - - - - ne ew nw se nw - -\nne ew nw ns se ew sw - - - - se sw ne ew sw -\n- - - ne nw - ne ew ew ew ew nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/029.a.htm"
+    },
+    "30_13x17": {
+      "id": "30_13x17",
+      "solution": "13 17\n- se ew sw - - - - se ew ew ew sw - se ew sw\n- ns - ns - - se sw ne ew sw - ns - ns - ns\nse nw - ne sw se nw ne sw - ns - ne ew nw - ns\nns - se sw ns ne sw - ns - ns se ew sw se ew nw\nne ew nw ns ns - ns - ne ew nw ne sw ns ns - -\nse ew ew nw ne ew nw se ew sw - - ns ns ns - -\nns - - - - se ew nw - ne ew ew nw ns ne ew sw\nns - - - - ns - - - - - - se nw - - ns\nns - - se ew nw - - se sw se ew nw - - se nw\nne sw - ne sw - - - ns ne nw - - - - ns -\n- ne ew sw ne sw se ew nw se ew sw se ew sw ne sw\n- - - ns - ns ne ew ew nw - ns ns - ns - ns\n- - - ne ew nw - - - - - ne nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "solution": "10 10\n- se sw - se sw - se ew sw\nse nw ne ew nw ne ew nw se nw\nns - se sw - se ew sw ne sw\nns se nw ns - ns - ne ew nw\nne nw se nw - ne ew sw se sw\nse ew nw se sw se sw ne nw ns\nne sw se nw ne nw ne sw se nw\nse nw ne ew ew sw se nw ne sw\nne ew ew sw - ns ns se sw ns\n- - - ne ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "solution": "10 10\nse sw se sw - se sw se sw -\nns ne nw ns se nw ne nw ne sw\nne sw - ns ns - se sw - ns\n- ns se nw ns se nw ns se nw\nse nw ne ew nw ne sw ns ne sw\nne sw - se ew sw ns ne sw ns\n- ns se nw - ns ne sw ne nw\nse nw ne ew sw ne sw ne ew sw\nne sw - - ne sw ns - se nw\n- ne ew ew ew nw ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "solution": "10 10\n- - - se ew sw - se sw -\n- se ew nw - ne ew nw ne sw\nse nw - se sw se ew sw - ns\nns se ew nw ne nw se nw - ns\nne nw - - - se nw se ew nw\n- se ew sw - ns se nw se sw\nse nw se nw se nw ns se nw ns\nns - ne sw ns - ne nw se nw\nns se sw ne nw - - - ne sw\nne nw ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/033.a.htm"
+    },
+    "34_12x12": {
+      "id": "34_12x12",
+      "solution": "12 12\n- se ew sw - se sw se sw se sw -\nse nw - ne ew nw ne nw ne nw ne sw\nns - se ew sw - - se ew sw - ns\nns - ns - ne ew ew nw - ne sw ns\nns - ne sw - se ew ew sw se nw ns\nne ew sw ne ew nw - se nw ns - ns\nse sw ns se ew ew sw ns - ns se nw\nns ne nw ne sw se nw ns - ns ns -\nns - - se nw ns - ns - ns ne sw\nns - - ns se nw - ns se nw se nw\nns se sw ns ns se sw ns ns - ne sw\nne nw ne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/034.a.htm"
+    },
+    "35_12x12": {
+      "id": "35_12x12",
+      "solution": "12 12\nse ew sw se ew ew sw se sw se ew sw\nns - ne nw se sw ne nw ne nw se nw\nne sw - - ns ne ew ew sw - ne sw\n- ns se ew nw se sw - ne sw se nw\nse nw ne ew sw ns ns se ew nw ne sw\nne sw se sw ne nw ns ne ew sw - ns\nse nw ns ne ew ew nw se sw ns se nw\nne sw ne sw - - se nw ne nw ns -\nse nw se nw - - ne ew ew sw ne sw\nne sw ne ew ew ew sw se ew nw - ns\nse nw - se ew ew nw ns se ew sw ns\nne ew ew nw - - - ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/035.a.htm"
+    },
+    "36_12x12": {
+      "id": "36_12x12",
+      "solution": "12 12\n- se ew sw - se ew sw - se sw -\n- ns se nw se nw - ne ew nw ne sw\n- ns ns - ne sw - - se sw - ns\n- ns ne ew ew nw se ew nw ns se nw\nse nw - se sw - ns - - ne nw -\nne sw se nw ne ew nw - se sw - -\n- ns ne ew ew ew ew ew nw ne ew sw\nse nw - se ew sw - - - - se nw\nns - se nw - ne ew ew ew sw ne sw\nne sw ne ew ew ew ew sw - ns - ns\nse nw se ew sw - - ne sw ne ew nw\nne ew nw - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/036.a.htm"
+    },
+    "37_14x14": {
+      "id": "37_14x14",
+      "solution": "14 14\nse sw se sw - se ew sw se sw - se ew sw\nns ne nw ne ew nw - ne nw ne ew nw - ns\nne sw se sw se sw se sw se ew sw - se nw\n- ns ns ne nw ne nw ne nw - ne sw ne sw\nse nw ns - se ew sw - - se ew nw se nw\nns - ne ew nw - ne ew sw ns se sw ne sw\nne sw - - - se ew ew nw ne nw ne ew nw\n- ne ew sw - ns - se ew ew ew ew sw -\nse ew ew nw se nw se nw - se sw - ne sw\nne sw - - ns - ne sw - ns ne ew ew nw\n- ns - se nw se ew nw - ns - se ew sw\nse nw - ne ew nw se ew sw ne ew nw - ns\nne sw se ew sw - ns se nw - se ew sw ns\n- ne nw - ne ew nw ne ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/037.a.htm"
+    },
+    "38_14x14": {
+      "id": "38_14x14",
+      "solution": "14 14\nse ew ew sw se sw se sw se sw - se sw -\nns se sw ne nw ne nw ns ns ne ew nw ne sw\nne nw ne sw - - - ns ne ew ew sw - ns\n- se ew nw - se sw ns - - - ns se nw\n- ns - se sw ns ne nw - - se nw ns -\nse nw se nw ne nw - se ew ew nw - ne sw\nns - ne ew ew sw - ne sw - se ew ew nw\nns se ew ew sw ns - - ns - ne ew sw -\nne nw se ew nw ne ew sw ne ew sw - ne sw\n- - ns - - se ew nw - - ns - se nw\nse ew nw - - ne sw se sw se nw - ns -\nne sw se ew ew sw ne nw ne nw - - ns -\nse nw ne ew sw ns se ew sw - se sw ns -\nne ew ew ew nw ne nw - ne ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/038.a.htm"
+    },
+    "39_17x17": {
+      "id": "39_17x17",
+      "solution": "17 17\nse ew sw - - - se ew sw - se ew ew ew ew sw -\nns - ne ew ew sw ne sw ns se nw - se sw - ne sw\nne ew sw - se nw - ns ns ns - se nw ne sw - ns\nse ew nw - ns se ew nw ne nw - ns se sw ns se nw\nne sw - se nw ne ew sw - se ew nw ns ne nw ns -\n- ns - ne ew sw - ne ew nw - - ns - - ne sw\nse nw - se sw ne ew ew ew ew sw - ne ew sw se nw\nne ew ew nw ne ew ew sw - - ns - - se nw ns -\nse ew sw - se ew sw ns se ew nw se ew nw - ne sw\nns - ne sw ns - ns ns ne sw - ns - se ew ew nw\nne sw - ns ns se nw ns - ns - ne sw ne sw - -\n- ns - ne nw ns - ns se nw se ew nw - ne ew sw\n- ns - se ew nw - ns ns - ns se ew ew sw - ns\n- ns - ns se sw - ns ne ew nw ns se sw ns se nw\nse nw - ne nw ne ew nw - - - ne nw ns ns ne sw\nns - se ew sw - se ew ew ew ew sw - ns ne ew nw\nne ew nw - ne ew nw - - - - ne ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/039.a.htm"
+    },
+    "40_17x17": {
+      "id": "40_17x17",
+      "solution": "17 17\nse sw - se sw - se ew sw se sw - se ew sw - -\nns ne sw ns ne ew nw - ne nw ne sw ns se nw se sw\nns - ns ns se sw se ew sw - se nw ns ne ew nw ns\nne sw ne nw ns ns ns - ne ew nw - ne sw - - ns\n- ns se ew nw ne nw se sw - - se ew nw se ew nw\nse nw ne ew ew ew ew nw ns se ew nw - - ne ew sw\nns - se sw - - - - ne nw - - se ew sw - ns\nns se nw ns se ew sw se ew ew ew sw ns - ne sw ns\nne nw - ne nw - ne nw - - - ne nw - se nw ns\n- se ew ew ew ew sw se ew sw se sw se sw ns - ns\nse nw se ew ew sw ne nw - ne nw ne nw ne nw se nw\nns - ne ew sw ne sw se sw se sw - se sw - ne sw\nne ew sw - ns - ne nw ns ns ne ew nw ne ew sw ns\n- - ne sw ne sw - - ne nw se ew sw - se nw ns\n- se ew nw - ne ew sw se ew nw - ne ew nw se nw\nse nw - se ew sw - ns ne sw - se ew sw - ne sw\nne ew ew nw - ne ew nw - ne ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "solution": "10 10\n- se ew sw - - se ew sw -\nse nw - ne sw se nw - ne sw\nns - se sw ns ne ew sw - ns\nne ew nw ns ne sw - ns - ns\n- se ew nw - ne ew nw se nw\n- ne ew ew sw - se ew nw -\nse ew ew ew nw - ne ew ew sw\nns - - - se ew sw - - ns\nne sw - - ns - ne ew sw ns\n- ne ew ew nw - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "solution": "10 10\n- se sw - se ew ew ew sw -\nse nw ne ew nw se sw - ne sw\nns - se sw - ns ne sw se nw\nne sw ns ne sw ns - ns ne sw\n- ns ns - ns ns - ne ew nw\nse nw ne sw ne nw se ew sw -\nne sw - ns se ew nw - ns -\n- ns - ne nw - - se nw -\nse nw - - se ew sw ne ew sw\nne ew ew ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/042.a.htm"
+    },
+    "43_12x12": {
+      "id": "43_12x12",
+      "solution": "12 12\n- se sw - - - se ew sw - - -\n- ns ne ew sw - ns - ne ew ew sw\n- ns se sw ne sw ne sw - - se nw\n- ne nw ns - ne ew nw se sw ns -\nse ew ew nw - se ew ew nw ns ne sw\nne ew ew sw - ne ew sw - ns - ns\nse sw - ns se ew sw ns - ne sw ns\nns ne ew nw ne sw ne nw se ew nw ns\nns - se ew ew nw se sw ns - se nw\nns - ns - se ew nw ne nw - ns -\nne sw ne sw ne sw - se ew sw ne sw\n- ne ew nw - ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/043.a.htm"
+    },
+    "44_12x12": {
+      "id": "44_12x12",
+      "solution": "12 12\n- se ew ew sw - se sw - se sw -\nse nw - - ne ew nw ns - ns ne sw\nne ew sw se sw se ew nw - ns - ns\n- - ns ns ne nw se sw se nw se nw\n- - ns ne ew sw ns ne nw - ne sw\nse sw ne sw - ns ns - - se sw ns\nns ne sw ns - ne nw se sw ns ne nw\nne sw ne nw se ew ew nw ne nw - -\nse nw se ew nw se ew sw - se ew sw\nne sw ne ew ew nw - ne ew nw - ns\nse nw se sw se sw se ew sw - se nw\nne ew nw ne nw ne nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/044.a.htm"
+    },
+    "45_12x12": {
+      "id": "45_12x12",
+      "solution": "12 12\nse sw - se ew sw se ew ew ew sw -\nns ne ew nw - ns ne ew sw - ne sw\nne sw - se ew nw - - ns - se nw\n- ns se nw - se ew sw ns - ns -\nse nw ns se sw ne sw ne nw se nw -\nns - ne nw ne ew nw se ew nw - -\nne sw - se ew sw - ne sw se ew sw\n- ns - ns - ne ew sw ne nw - ns\n- ne sw ns se sw - ne ew sw se nw\nse ew nw ne nw ns - se ew nw ns -\nns - se ew sw ns - ns se sw ne sw\nne ew nw - ne nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/045.a.htm"
+    },
+    "46_14x14": {
+      "id": "46_14x14",
+      "solution": "14 14\nse ew sw - - se ew sw se sw se sw se sw\nne sw ne sw se nw - ne nw ne nw ne nw ns\nse nw - ns ne sw se ew ew ew sw - - ns\nns se sw ne ew nw ne sw - - ns - se nw\nne nw ns - se ew sw ns se sw ne ew nw -\nse ew nw se nw - ns ne nw ne sw se ew sw\nne sw - ne ew sw ns se sw se nw ns se nw\n- ns - se sw ns ne nw ne nw se nw ne sw\nse nw - ns ne nw se ew ew sw ne sw se nw\nns se sw ne sw - ns se ew nw se nw ne sw\nne nw ne sw ns se nw ns se sw ns se sw ns\n- se ew nw ne nw - ne nw ne nw ns ns ns\nse nw - se sw se sw se ew sw - ns ns ns\nne ew ew nw ne nw ne nw - ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/046.a.htm"
+    },
+    "47_14x14": {
+      "id": "47_14x14",
+      "solution": "14 14\n- se sw - se ew sw - se sw - - - -\n- ns ne ew nw - ns - ns ne ew ew ew sw\n- ns se ew sw - ns - ns - se sw - ns\nse nw ne sw ns - ns - ns - ns ns se nw\nns - se nw ns - ne ew nw - ns ne nw -\nne ew nw - ne ew ew ew sw - ne sw se sw\n- se sw se ew ew ew sw ns se ew nw ns ns\n- ns ne nw - - se nw ns ne ew ew nw ns\nse nw - se ew sw ne ew nw - se sw se nw\nns - se nw - ne ew sw se ew nw ns ns -\nne sw ns se ew sw se nw ne sw - ns ne sw\n- ns ne nw - ns ns - se nw se nw - ns\nse nw se sw se nw ne sw ns se nw - se nw\nne ew nw ne nw - - ne nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/047.a.htm"
+    },
+    "48_14x14": {
+      "id": "48_14x14",
+      "solution": "14 14\n- se ew ew sw - - se ew ew ew ew sw -\n- ns - - ns se sw ne ew ew sw - ne sw\n- ns - - ne nw ne ew sw - ne sw - ns\nse nw se ew sw se sw - ne sw - ns se nw\nns - ne sw ns ns ne sw - ns se nw ns -\nne ew ew nw ne nw - ns - ne nw - ne sw\nse ew ew sw - - - ne ew ew sw se sw ns\nne sw - ne ew ew sw - se ew nw ns ne nw\n- ns se ew sw - ne ew nw - - ne ew sw\nse nw ne sw ne sw - se ew ew sw - se nw\nns - se nw - ns se nw - - ne sw ns -\nns - ns se sw ns ne ew ew sw - ns ns -\nne sw ne nw ns ns - se sw ns se nw ns -\n- ne ew ew nw ne ew nw ne nw ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/048.a.htm"
+    },
+    "49_17x17": {
+      "id": "49_17x17",
+      "solution": "17 17\nse ew sw - - - se ew sw - - - se sw se ew sw\nns - ns - se ew nw - ne ew sw - ns ne nw se nw\nne sw ne ew nw - se ew ew ew nw se nw - - ne sw\n- ns se ew ew ew nw - se ew ew nw se ew sw - ns\nse nw ne sw - se ew ew nw - - - ns se nw se nw\nns - se nw se nw - se ew ew ew ew nw ns - ns -\nne sw ne sw ne sw se nw - se ew ew sw ne sw ne sw\n- ns se nw se nw ns - se nw - - ns - ne ew nw\nse nw ne ew nw - ne sw ne sw - - ne ew ew ew sw\nns - se ew ew ew ew nw se nw se ew ew ew sw - ns\nns - ne sw - se ew sw ne sw ne ew sw se nw se nw\nne ew sw ne ew nw - ns - ns se ew nw ns - ns -\nse ew nw - se ew ew nw se nw ns - - ne sw ne sw\nns - - se nw - se ew nw - ns se ew sw ns - ns\nns - - ne ew ew nw - se ew nw ns - ne nw - ns\nne sw se ew sw - se ew nw - se nw se ew sw se nw\n- ne nw - ne ew nw - - - ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/049.a.htm"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "solution": "17 17\n- - se ew sw - - - se ew sw se sw se sw se sw\nse ew nw - ne ew ew sw ne sw ne nw ne nw ne nw ns\nns - se sw - se sw ne sw ne ew ew sw se sw se nw\nns - ns ns - ns ns - ne sw se sw ne nw ns ne sw\nne sw ns ne sw ns ne sw se nw ns ns - se nw se nw\n- ne nw - ne nw - ns ns se nw ne sw ns - ne sw\nse ew ew ew sw - se nw ns ne sw - ns ne sw - ns\nne ew sw se nw - ne sw ne sw ns se nw - ns se nw\nse sw ns ne ew ew ew nw - ne nw ns se sw ns ns -\nns ne nw - - se sw - se sw se nw ns ne nw ne sw\nne sw - se ew nw ns - ns ns ns se nw - - se nw\nse nw se nw - se nw - ns ne nw ne sw se sw ne sw\nns - ns - - ns se sw ne sw se sw ne nw ns se nw\nne sw ne ew sw ne nw ne sw ns ns ne ew ew nw ns -\n- ns - se nw se ew ew nw ne nw - - - - ne sw\nse nw - ne sw ne ew ew sw - se sw se sw se sw ns\nne ew ew ew nw - - - ne ew nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "solution": "10 10\nse ew sw se ew sw - se sw -\nne sw ns ns - ne ew nw ns -\nse nw ne nw - - - - ne sw\nns - se ew ew sw se ew ew nw\nne sw ne sw se nw ns - - -\n- ne ew nw ns - ne ew sw -\nse sw - se nw se sw - ns -\nns ne ew nw - ns ns - ne sw\nns - se ew sw ns ne ew ew nw\nne ew nw - ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "solution": "10 10\nse sw se sw - se ew sw se sw\nns ns ns ne ew nw - ne nw ns\nns ne nw se ew ew ew sw se nw\nne sw - ns se sw se nw ne sw\n- ns - ns ns ne nw - se nw\n- ne sw ns ne sw se ew nw -\nse ew nw ne sw ns ns se ew sw\nne sw - se nw ns ne nw - ns\nse nw - ns se nw se sw se nw\nne ew ew nw ne ew nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/052.a.htm"
+    },
+    "53_12x12": {
+      "id": "53_12x12",
+      "solution": "12 12\nse ew sw se sw se sw se ew ew sw -\nne sw ne nw ne nw ns ne sw - ne sw\nse nw se sw se sw ne sw ns - se nw\nne sw ns ne nw ne ew nw ns - ns -\nse nw ne sw - se ew ew nw se nw -\nne sw - ns - ne ew sw - ns se sw\n- ns se nw se ew sw ns - ne nw ns\nse nw ns - ne sw ns ne ew sw se nw\nns - ns se ew nw ne sw - ns ne sw\nns - ne nw - - - ne ew nw - ns\nne sw se sw se sw se sw se sw se nw\n- ne nw ne nw ne nw ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/053.a.htm"
+    },
+    "54_12x12": {
+      "id": "54_12x12",
+      "solution": "12 12\n- se sw se sw - se ew ew ew sw -\n- ns ne nw ne sw ne sw - - ne sw\n- ns se sw - ns - ns se sw se nw\nse nw ns ne sw ne ew nw ns ns ns -\nns - ne sw ns - - se nw ns ne sw\nne ew sw ns ne ew sw ns - ns - ns\n- - ns ne ew sw ns ne sw ne ew nw\nse ew nw se ew nw ns - ns se sw -\nns - se nw se sw ne ew nw ns ne sw\nns - ne ew nw ne ew ew ew nw - ns\nne sw - - se ew sw - - - se nw\n- ne ew ew nw - ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/054.a.htm"
+    },
+    "55_12x12": {
+      "id": "55_12x12",
+      "solution": "12 12\nse ew sw - se sw - - - se ew sw\nns - ne ew nw ns se ew ew nw - ns\nne sw se sw se nw ne sw se sw se nw\nse nw ns ns ne ew sw ne nw ns ne sw\nne ew nw ne sw se nw se sw ns se nw\nse sw se sw ns ns - ns ne nw ne sw\nns ne nw ns ns ne sw ne ew sw se nw\nns - se nw ns - ne ew sw ns ns -\nne sw ne ew nw se ew sw ns ns ne sw\n- ns - - se nw se nw ne nw - ns\n- ns se sw ns se nw - se ew sw ns\n- ne nw ne nw ne ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/055.a.htm"
+    },
+    "56_14x14": {
+      "id": "56_14x14",
+      "solution": "14 14\nse sw - se ew sw - - - se ew sw - -\nns ne ew nw - ne ew ew ew nw - ne ew sw\nns - se ew sw - se ew ew sw se sw - ns\nns - ns - ne ew nw se ew nw ns ns se nw\nns - ns - - se sw ns - - ns ne nw -\nns se nw - - ns ne nw - se nw - se sw\nne nw - se sw ns se ew ew nw - se nw ns\n- se ew nw ne nw ns - se ew sw ns - ns\nse nw - - - - ne ew nw - ns ne sw ns\nns - se ew ew ew ew ew sw - ns se nw ns\nne sw ne ew ew ew sw - ns - ns ns se nw\n- ns - - - - ne sw ns - ne nw ne sw\n- ns - se ew sw se nw ns se ew ew ew nw\n- ne ew nw - ne nw - ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/056.a.htm"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "solution": "14 14\n- se ew sw - se ew ew ew ew ew ew sw -\nse nw - ns se nw - se ew ew sw - ne sw\nns - se nw ne sw se nw - - ne sw se nw\nne sw ne sw se nw ne sw se sw - ns ne sw\n- ns se nw ne sw - ns ns ns se nw se nw\nse nw ne ew sw ns se nw ns ns ns - ne sw\nns se sw - ns ns ns - ns ne nw se sw ns\nne nw ns - ne nw ne sw ns - se nw ne nw\nse ew nw se ew sw - ns ne ew nw se ew sw\nne sw se nw - ne ew nw - se sw ns se nw\nse nw ne ew ew ew sw - - ns ns ns ne sw\nne sw - - - - ns se ew nw ne nw se nw\nse nw - se ew sw ne nw se sw se sw ne sw\nne ew ew nw - ne ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/057.a.htm"
+    },
+    "58_14x14": {
+      "id": "58_14x14",
+      "solution": "14 14\nse ew ew ew ew sw - se sw - se ew ew sw\nne ew sw - - ne sw ns ne ew nw - se nw\n- - ns - - - ns ne ew ew ew sw ns -\nse ew nw se ew sw ne sw - - - ns ns -\nne sw - ne sw ns - ne ew ew ew nw ns -\n- ne ew sw ns ne ew ew ew ew sw - ns -\nse sw - ns ne ew sw - - - ns - ne sw\nns ne sw ne ew sw ne sw se ew nw se sw ns\nns - ns - - ns - ns ne sw - ns ne nw\nne sw ns - - ns se nw se nw - ns - -\n- ns ne sw se nw ns se nw se ew nw - -\n- ns - ne nw - ns ne sw ne ew ew ew sw\n- ne sw - se sw ne sw ne ew ew sw - ns\n- - ne ew nw ne ew nw - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/058.a.htm"
+    },
+    "59_17x17": {
+      "id": "59_17x17",
+      "solution": "17 17\n- se ew sw - se ew sw - - se ew sw - se sw -\n- ns - ne ew nw - ne sw - ns - ne ew nw ns -\n- ns se ew ew ew ew ew nw se nw - - - - ns -\nse nw ne ew sw - - - se nw - se ew ew sw ne sw\nns - se ew nw se sw - ne sw - ne sw - ns - ns\nne sw ns - se nw ns - se nw - - ns - ns se nw\nse nw ns - ne sw ne sw ns - se ew nw - ns ns -\nne sw ns - se nw - ne nw - ne sw - - ne nw -\n- ns ne ew nw - se ew ew sw - ne ew ew ew ew sw\nse nw - se ew ew nw - - ne sw se sw - - se nw\nne ew ew nw - se ew sw se ew nw ns ne sw - ns -\n- se sw - se nw - ns ns se ew nw - ns - ne sw\n- ns ns - ne sw - ne nw ns - se sw ne sw - ns\n- ns ne sw - ns - se ew nw - ns ns - ns se nw\nse nw - ne ew nw - ns - se ew nw ne ew nw ns -\nns - se ew sw - se nw se nw - - se ew sw ne sw\nne ew nw - ne ew nw - ne ew ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/059.a.htm"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "solution": "17 17\n- se ew sw - - - - - se sw se sw se sw se sw\nse nw - ne ew ew ew sw se nw ne nw ne nw ne nw ns\nne sw se ew sw - - ns ns - se ew sw - se ew nw\nse nw ne sw ns - se nw ns se nw - ne ew nw - -\nne ew sw ns ne ew nw - ns ne ew ew sw - se ew sw\nse ew nw ns - - - se nw - - - ne ew nw se nw\nns - - ns - se ew nw se ew ew sw se sw - ne sw\nns - - ne sw ne sw - ns - se nw ns ns - se nw\nne sw se sw ne sw ne sw ne sw ne ew nw ns - ne sw\n- ne nw ne sw ne ew nw - ns se ew sw ne sw se nw\n- - - se nw se ew sw - ne nw se nw - ns ne sw\nse ew sw ne ew nw se nw - - - ne sw se nw se nw\nns - ns - - - ne ew sw se ew ew nw ne sw ns -\nne sw ne sw - se ew sw ne nw - se ew sw ns ne sw\n- ns - ne ew nw - ne ew ew ew nw - ne nw - ns\nse nw se sw se ew sw - se sw - se ew sw - se nw\nne ew nw ne nw - ne ew nw ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "solution": "10 10\n- - se ew ew sw se ew sw -\nse sw ne sw se nw ns - ne sw\nns ne ew nw ne sw ne sw se nw\nne ew sw se sw ns se nw ns -\nse sw ns ns ne nw ne sw ne sw\nns ne nw ns se ew ew nw - ns\nne sw se nw ns se ew sw - ns\n- ns ne ew nw ns se nw - ns\nse nw - se sw ns ne sw se nw\nne ew ew nw ne nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "solution": "10 10\n- - - - - se sw se sw -\nse ew ew sw se nw ne nw ns -\nns - - ns ns - se sw ns -\nns - - ns ne ew nw ns ne sw\nns se sw ns se ew ew nw - ns\nne nw ns ns ne sw - - se nw\nse ew nw ns - ne ew sw ns -\nne sw - ne ew ew ew nw ns -\nse nw se sw se ew sw - ns -\nne ew nw ne nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/062.a.htm"
+    },
+    "63_12x12": {
+      "id": "63_12x12",
+      "solution": "12 12\nse sw - se sw se sw - se ew sw -\nns ne ew nw ns ns ne ew nw - ne sw\nne ew sw - ne nw se sw se sw - ns\nse ew nw - - se nw ns ns ne ew nw\nns - se ew sw ne sw ne nw se ew sw\nns - ne sw ne ew nw se ew nw se nw\nns se sw ne ew ew sw ns - - ns -\nne nw ns se ew ew nw ne ew sw ne sw\nse ew nw ne sw - se ew sw ns - ns\nns - - - ne ew nw - ne nw se nw\nne sw - se ew sw - se ew sw ne sw\n- ne ew nw - ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/063.a.htm"
+    },
+    "64_12x12": {
+      "id": "64_12x12",
+      "solution": "12 12\n- se sw - se sw - se sw se sw -\nse nw ne sw ns ne sw ns ne nw ns -\nne sw - ns ns - ns ne ew sw ns -\nse nw - ne nw - ns se ew nw ne sw\nne sw se ew sw - ns ne ew sw - ns\n- ne nw - ne sw ne ew ew nw se nw\nse ew sw se ew nw - se sw - ne sw\nns - ne nw se ew sw ns ne sw - ns\nne sw se ew nw - ne nw - ns se nw\n- ns ne ew ew sw - se sw ns ns -\nse nw se sw - ns - ns ne nw ne sw\nne ew nw ne ew nw - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/064.a.htm"
+    },
+    "65_12x12": {
+      "id": "65_12x12",
+      "solution": "12 12\nse sw se ew ew ew sw - se sw se sw\nns ne nw se sw - ne sw ns ne nw ns\nne sw se nw ne sw se nw ne sw se nw\nse nw ns - se nw ne sw se nw ns -\nns se nw - ne sw - ns ne sw ne sw\nns ne ew sw se nw se nw - ns - ns\nne ew sw ns ne ew nw se ew nw se nw\nse ew nw ns se ew sw ne ew sw ns -\nns - se nw ns se nw - - ns ne sw\nns - ne ew nw ne ew ew ew nw - ns\nns se ew sw - se sw - se ew sw ns\nne nw - ne ew nw ne ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/065.a.htm"
+    },
+    "66_14x14": {
+      "id": "66_14x14",
+      "solution": "14 14\n- se ew sw - se ew sw - se ew sw se sw\nse nw - ne ew nw - ne ew nw - ne nw ns\nns - se sw - se ew sw - se sw - se nw\nne sw ns ne ew nw - ne ew nw ns - ns -\n- ns ne sw - - se sw - se nw - ne sw\n- ns - ns se ew nw ns - ns - se ew nw\n- ne sw ne nw se ew nw se nw - ns se sw\nse sw ne ew sw ns - - ns se sw ne nw ns\nns ns - se nw ns se sw ne nw ns - se nw\nns ne sw ne ew nw ns ns - - ne sw ne sw\nns - ns se sw - ns ne sw - se nw se nw\nne sw ne nw ne ew nw - ne ew nw - ne sw\n- ns - se ew sw - se sw - se ew sw ns\n- ne ew nw - ne ew nw ne ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/066.a.htm"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "solution": "14 14\nse sw se sw se sw - se sw - se ew sw -\nns ne nw ne nw ne ew nw ne ew nw - ne sw\nne sw - se ew ew sw - se sw se sw - ns\n- ns se nw - - ns - ns ne nw ns se nw\nse nw ne sw - - ne ew nw se ew nw ns -\nns - se nw se ew ew ew ew nw se sw ne sw\nns - ns - ns - - - - - ns ne ew nw\nns se nw - ne ew sw se ew ew nw - se sw\nne nw se sw se ew nw ne ew ew ew ew nw ns\nse ew nw ne nw se ew sw se sw se sw - ns\nne ew sw - se nw se nw ns ne nw ne sw ns\n- - ne sw ne sw ns - ne ew sw - ns ns\nse ew ew nw - ns ne ew sw - ns - ns ns\nne ew ew ew ew nw - - ne ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/067.a.htm"
+    },
+    "68_14x14": {
+      "id": "68_14x14",
+      "solution": "14 14\n- se ew sw - se ew sw se ew ew ew sw -\nse nw - ns - ns se nw ns - - - ne sw\nns - - ne ew nw ne ew nw - - se ew nw\nne sw se ew sw se ew sw - se sw ne ew sw\n- ns ns - ne nw se nw - ns ne sw - ns\nse nw ne sw - - ne ew ew nw - ns se nw\nne sw - ns - se ew ew ew ew ew nw ns -\nse nw - ns - ns - se sw se sw - ne sw\nne sw - ne sw ne sw ns ne nw ne sw - ns\nse nw se ew nw - ne nw - - - ns se nw\nne sw ns - se sw - se sw se sw ns ns -\n- ns ne ew nw ns se nw ne nw ne nw ne sw\nse nw - se ew nw ns - se sw se sw - ns\nne ew ew nw - - ne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/068.a.htm"
+    },
+    "69_17x17": {
+      "id": "69_17x17",
+      "solution": "17 17\n- se ew ew sw - se sw - se ew ew sw - se sw -\nse nw - - ne ew nw ns se nw - - ns - ns ns -\nne sw - - se sw se nw ns - - - ne sw ns ns -\nse nw - se nw ns ns - ne ew ew ew sw ne nw ne sw\nne ew sw ns - ns ne sw - se sw se nw se sw - ns\n- se nw ns se nw - ne ew nw ns ne ew nw ns se nw\n- ns - ns ns - se ew sw - ne sw - se nw ne sw\nse nw se nw ns se nw - ne sw - ne ew nw - se nw\nns - ns - ns ns - se sw ne sw - se ew ew nw -\nne sw ne sw ns ne ew nw ne sw ne ew nw - - se sw\n- ns - ns ns - - se sw ne ew ew sw - se nw ns\nse nw se nw ns - se nw ne sw se ew nw - ns - ns\nns - ns - ne sw ns - se nw ns - - se nw se nw\nne sw ne sw - ne nw se nw - ns - - ne sw ns -\n- ns - ne ew sw - ns - - ne ew ew ew nw ns -\nse nw - - se nw - ns - se ew ew ew sw - ns -\nne ew ew ew nw - - ne ew nw - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/069.a.htm"
+    },
+    "70_17x17": {
+      "id": "70_17x17",
+      "solution": "17 17\nse ew sw se sw se sw se ew sw - se sw - se sw -\nne sw ne nw ne nw ne nw - ne sw ns ne ew nw ne sw\nse nw se ew sw - - - se ew nw ne sw se sw - ns\nns - ns - ne ew ew sw ns - se ew nw ns ns se nw\nne sw ns se ew sw se nw ne ew nw - - ns ne nw -\n- ne nw ne sw ns ne sw se sw se ew sw ne sw - -\nse ew sw - ns ne sw ns ns ne nw - ns se nw se sw\nne sw ne ew nw se nw ne nw se ew sw ns ns - ns ns\nse nw se sw - ns se ew sw ns - ne nw ne sw ns ns\nne ew nw ne sw ne nw - ns ne ew ew ew sw ne nw ns\n- se ew sw ns - se sw ne ew ew sw - ne sw se nw\nse nw - ne nw - ns ne sw - - ne ew sw ns ne sw\nns - se ew ew sw ne sw ns - se ew ew nw ns se nw\nne sw ne ew sw ns - ns ne sw ne ew sw - ns ne sw\n- ns - se nw ns - ne sw ne sw - ne ew nw se nw\n- ne sw ne sw ne sw - ne sw ne ew sw se sw ne sw\n- - ne ew nw - ne ew ew nw - - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/070.a.htm"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "solution": "10 10\n- se ew ew sw - - se ew sw\nse nw - - ns - se nw - ns\nne sw - - ne sw ne sw se nw\n- ns se sw - ns se nw ns -\nse nw ns ne sw ns ne sw ne sw\nne ew nw - ns ns se nw - ns\n- - - se nw ns ne sw - ns\nse ew ew nw - ne ew nw - ns\nns - se ew ew sw - se sw ns\nne ew nw - - ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/071.a.htm"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "solution": "10 10\n- - - se ew sw - se sw -\n- se ew nw - ns se nw ns -\nse nw se ew ew nw ns - ne sw\nns - ne ew sw - ne sw - ns\nne sw - - ne ew ew nw se nw\n- ne ew ew sw - - - ns -\nse ew sw - ne ew ew sw ne sw\nns - ne ew ew ew ew nw - ns\nne ew sw - se sw se ew sw ns\n- - ne ew nw ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/072.a.htm"
+    },
+    "73_12x12": {
+      "id": "73_12x12",
+      "solution": "12 12\nse ew ew sw - se ew ew sw - se sw\nne sw - ns - ne sw - ne ew nw ns\nse nw se nw se ew nw se ew sw - ns\nne sw ne sw ns - se nw - ne ew nw\n- ns se nw ne sw ne ew ew ew sw -\nse nw ne ew ew nw - se ew ew nw -\nns - se sw se ew sw ne ew ew ew sw\nne ew nw ns ns - ne ew ew sw - ns\nse sw se nw ns se ew ew ew nw - ns\nns ne nw se nw ns - - se sw - ns\nns se sw ns se nw se sw ns ns se nw\nne nw ne nw ne ew nw ne nw ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/073.a.htm"
+    },
+    "74_12x12": {
+      "id": "74_12x12",
+      "solution": "12 12\nse ew sw se sw se sw se sw se ew sw\nns se nw ns ne nw ne nw ne nw se nw\nns ne ew nw se sw se ew sw - ns -\nns - - se nw ne nw - ne sw ne sw\nne sw - ns - se ew sw - ns - ns\n- ns se nw - ns se nw se nw se nw\nse nw ne ew ew nw ne sw ns - ns -\nne sw se ew ew sw se nw ne sw ne sw\n- ns ne ew sw ne nw se sw ns - ns\n- ne sw - ns - - ns ne nw se nw\nse ew nw se nw se ew nw - - ne sw\nne ew ew nw - ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/074.a.htm"
+    },
+    "75_12x12": {
+      "id": "75_12x12",
+      "solution": "12 12\n- - - se ew sw - se sw - se sw\nse ew ew nw - ne ew nw ne ew nw ns\nns - se sw se ew ew sw - - - ns\nns - ns ne nw - - ns se sw se nw\nns - ne ew ew sw - ne nw ne nw -\nne sw se sw - ns se ew sw - se sw\n- ns ns ne sw ne nw - ne ew nw ns\nse nw ne sw ne ew ew ew sw - se nw\nne ew sw ns se ew sw - ne sw ne sw\n- - ns ne nw se nw se ew nw se nw\nse ew nw - - ns se nw se sw ne sw\nne ew ew ew ew nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/075.a.htm"
+    },
+    "76_14x14": {
+      "id": "76_14x14",
+      "solution": "14 14\nse ew sw - - - se ew sw se ew ew sw -\nns - ne ew ew ew nw se nw ns - - ne sw\nne ew ew sw - - - ns se nw se sw - ns\nse ew sw ne ew sw - ne nw se nw ne sw ns\nne sw ns - - ne sw se sw ns se ew nw ns\nse nw ne ew ew ew nw ns ne nw ns se ew nw\nne sw - se ew ew sw ne ew sw ne nw se sw\n- ne ew nw se sw ns se sw ne sw se nw ns\nse sw - se nw ns ns ns ne sw ns ns - ns\nns ne ew nw se nw ns ne sw ns ne nw se nw\nns - se ew nw se nw se nw ne ew sw ns -\nne sw ne ew ew nw - ns se ew ew nw ne sw\nse nw se sw se sw se nw ns - se ew ew nw\nne ew nw ne nw ne nw - ne ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/076.a.htm"
+    },
+    "77_14x14": {
+      "id": "77_14x14",
+      "solution": "14 14\n- - - se ew sw se sw - se ew ew sw -\nse ew ew nw - ne nw ns - ns - - ne sw\nne sw se ew ew sw se nw - ns - - se nw\nse nw ns - - ns ne ew sw ne ew sw ns -\nns se nw se sw ne sw - ns - - ns ne sw\nne nw se nw ne ew nw se nw - - ns se nw\n- - ns se ew sw - ne ew sw se nw ns -\n- - ne nw - ne ew sw - ne nw - ne sw\nse ew sw se sw se ew nw se sw se sw - ns\nns - ne nw ns ns - - ns ne nw ne ew nw\nne sw - - ns ne ew sw ne ew sw - - -\n- ns - - ne ew sw ne sw - ne ew ew sw\nse nw - se ew sw ne ew nw se ew sw - ns\nne ew ew nw - ne ew ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/077.a.htm"
+    },
+    "78_14x14": {
+      "id": "78_14x14",
+      "solution": "14 14\n- se ew sw - - - se sw se sw se ew sw\nse nw - ne ew sw se nw ne nw ns ne sw ns\nne sw se sw se nw ns - se ew nw - ns ns\n- ns ns ne nw se nw se nw se ew ew nw ns\nse nw ne ew sw ne sw ne sw ne ew sw - ns\nns - se sw ne sw ns se nw - se nw - ns\nns se nw ne sw ns ns ns se sw ns - - ns\nne nw se sw ns ne nw ne nw ne nw se ew nw\nse ew nw ne nw se sw se sw se sw ne ew sw\nne ew ew sw se nw ns ns ne nw ne sw - ns\n- se sw ns ne sw ns ns se ew sw ns se nw\nse nw ne nw se nw ns ns ns - ne nw ns -\nne sw - - ne sw ns ns ne sw se sw ne sw\n- ne ew ew ew nw ne nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/078.a.htm"
+    },
+    "79_17x17": {
+      "id": "79_17x17",
+      "solution": "17 17\n- se sw - se ew sw - - - se sw - - - se sw\nse nw ne ew nw - ne ew sw - ns ns se sw se nw ns\nne sw - se ew ew ew sw ne ew nw ne nw ns ns - ns\nse nw se nw - - - ns - se ew sw - ne nw se nw\nne sw ne ew sw - - ne sw ns - ne ew ew sw ne sw\nse nw se ew nw se sw - ns ne ew sw se ew nw se nw\nne sw ne ew ew nw ne sw ne sw - ns ns - - ns -\nse nw se ew sw - - ns - ne ew nw ne ew sw ne sw\nne ew nw - ne ew ew nw - - - - se ew nw - ns\n- se ew ew ew sw - se ew sw se ew nw - se sw ns\n- ns - se ew nw - ns - ns ns - - se nw ne nw\nse nw se nw - se sw ne sw ns ne sw - ne sw se sw\nns - ne sw - ns ns - ns ns - ns se sw ne nw ns\nne sw - ne ew nw ns - ns ne sw ne nw ne sw se nw\nse nw - - - - ne sw ne sw ne ew ew ew nw ns -\nne ew ew ew sw se sw ne ew nw se ew sw - - ne sw\n- - - - ne nw ne ew ew ew nw - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/079.a.htm"
+    },
+    "80_17x17": {
+      "id": "80_17x17",
+      "solution": "17 17\n- se ew ew ew sw - se ew sw - se sw se ew sw -\nse nw - - - ne ew nw - ns se nw ne nw - ne sw\nne sw se ew ew sw - se ew nw ns - se ew sw - ns\n- ns ne sw - ne ew nw se ew nw se nw - ne ew nw\nse nw se nw - - se sw ne sw - ne ew sw se sw -\nns - ns - se ew nw ns - ne ew sw - ns ns ns -\nns se nw - ne sw - ne sw se sw ns - ne nw ns -\nns ne sw - - ns se sw ne nw ne nw - - se nw -\nns - ne ew ew nw ns ne sw - - - se ew nw se sw\nne sw se ew sw - ns - ne ew sw se nw - se nw ns\n- ns ns - ne sw ne ew sw - ns ne ew ew nw se nw\nse nw ne sw - ns - - ns se nw - se sw - ne sw\nne sw - ns - ne sw - ns ne ew ew nw ne sw se nw\n- ns - ns se sw ne ew nw - se ew sw - ns ne sw\nse nw - ne nw ns - - se ew nw - ne ew nw se nw\nns - se ew sw ne ew sw ne sw - se sw se sw ne sw\nne ew nw - ne ew ew nw - ne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/080.a.htm"
+    },
+    "81_10x10": {
+      "id": "81_10x10",
+      "solution": "10 10\nse sw se sw se ew ew ew sw -\nns ne nw ne nw se sw - ne sw\nns se sw - - ns ne sw - ns\nne nw ns se ew nw se nw se nw\nse ew nw ne sw - ne ew nw -\nne sw se ew nw - - se ew sw\n- ns ns - se sw - ns - ns\nse nw ne ew nw ne ew nw - ns\nns - se ew sw - se ew sw ns\nne ew nw - ne ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/081.a.htm"
+    },
+    "82_10x10": {
+      "id": "82_10x10",
+      "solution": "10 10\n- - - se ew sw - se ew sw\n- se ew nw - ne ew nw - ns\nse nw se sw se ew sw - se nw\nns - ns ns ns - ns - ne sw\nns se nw ns ne sw ne sw - ns\nns ns - ns - ns - ne ew nw\nne nw se nw - ne sw se ew sw\n- - ns se sw - ne nw - ns\nse ew nw ns ns se ew ew ew nw\nne ew ew nw ne nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/082.a.htm"
+    },
+    "83_12x12": {
+      "id": "83_12x12",
+      "solution": "12 12\nse sw se sw se sw se sw - se sw -\nns ne nw ns ns ne nw ne ew nw ne sw\nne sw - ns ne ew ew sw - - se nw\n- ns se nw se sw - ne sw - ne sw\nse nw ns - ns ne sw se nw - se nw\nns - ne sw ne sw ns ns se ew nw -\nns se sw ns se nw ne nw ns se ew sw\nns ns ne nw ne ew ew sw ne nw se nw\nns ns - - se ew sw ne ew sw ne sw\nns ne ew ew nw - ne ew ew nw se nw\nns - se sw se ew sw - - - ne sw\nne ew nw ne nw - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/083.a.htm"
+    },
+    "84_12x12": {
+      "id": "84_12x12",
+      "solution": "12 12\n- se sw se sw se sw - - se ew sw\n- ns ne nw ne nw ns - se nw - ns\n- ns se ew sw - ne sw ns - se nw\nse nw ns - ne ew sw ns ne sw ns -\nns - ne sw se ew nw ns - ns ns -\nne ew ew nw ns - - ne ew nw ns -\n- se ew ew nw - - - se sw ns -\nse nw - se ew ew ew ew nw ns ns -\nns - se nw - se ew sw - ns ne sw\nne sw ne ew sw ns - ne ew nw - ns\n- ns se sw ns ne ew sw - se sw ns\n- ne nw ne nw - - ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/084.a.htm"
+    },
+    "85_12x12": {
+      "id": "85_12x12",
+      "solution": "12 12\n- se ew sw - se sw - se ew sw -\n- ns - ne ew nw ns - ns - ne sw\nse nw - - - - ne sw ne sw - ns\nne sw se ew ew ew sw ne ew nw - ns\n- ns ne sw se sw ne ew ew ew sw ns\nse nw se nw ns ns - - se ew nw ns\nns - ns se nw ns se sw ns - se nw\nns - ne nw - ns ns ns ne sw ns -\nns - se ew ew nw ns ns - ns ne sw\nne sw ne ew sw - ns ne ew nw - ns\n- ne ew sw ns - ne sw - se sw ns\n- - - ne nw - - ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/085.a.htm"
+    },
+    "86_14x14": {
+      "id": "86_14x14",
+      "solution": "14 14\nse sw se ew sw se sw se ew sw - se ew sw\nns ns ns - ns ns ns ne sw ne ew nw - ns\nns ns ne sw ne nw ne ew nw - se ew ew nw\nns ns - ns se ew sw - - - ns se ew sw\nns ne ew nw ns se nw se ew sw ne nw - ns\nne ew ew ew nw ns - ns - ne ew sw se nw\nse ew sw - - ne sw ne sw - - ne nw -\nns - ne ew ew ew nw - ne ew ew ew ew sw\nne sw - se sw se sw se sw se ew sw - ns\nse nw se nw ne nw ns ns ns ns - ns - ns\nne sw ns - se sw ne nw ns ne sw ne sw ns\nse nw ne ew nw ne ew sw ne sw ns - ns ns\nns se sw se sw se sw ne sw ns ne sw ne nw\nne nw ne nw ne nw ne ew nw ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/086.a.htm"
+    },
+    "87_14x14": {
+      "id": "87_14x14",
+      "solution": "14 14\n- se ew sw - se ew sw - - se ew sw -\nse nw - ne ew nw se nw se ew nw - ne sw\nns - se ew sw - ne ew nw - se sw - ns\nns - ns - ne sw - - se ew nw ns se nw\nns - ns - se nw - - ns - se nw ns -\nns - ns - ns - se ew nw - ns - ne sw\nns - ne sw ne sw ns - se ew nw se ew nw\nns se ew nw - ns ns - ne ew ew nw - -\nns ns - - se nw ns se ew sw - se ew sw\nns ns - - ne ew nw ns - ne ew nw - ns\nns ne ew sw - - - ns se ew sw - se nw\nns se sw ne ew ew ew nw ns - ns - ns -\nne nw ns - se ew sw - ns se nw - ne sw\n- - ne ew nw - ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/087.a.htm"
+    },
+    "88_14x14": {
+      "id": "88_14x14",
+      "solution": "14 14\n- - - se ew sw - - - - - se ew sw\nse ew ew nw - ne ew sw se ew ew nw - ns\nne ew ew ew ew sw - ns ns - - - se nw\nse sw - - - ne sw ns ne sw se ew nw -\nns ns - - se ew nw ns - ns ne sw - -\nns ne ew sw ne ew sw ne ew nw - ns se sw\nns - - ns - se nw - se ew sw ne nw ns\nne ew sw ne ew nw - se nw - ne sw se nw\n- se nw se ew ew sw ns - se ew nw ne sw\n- ns - ns se sw ne nw se nw - - se nw\nse nw - ns ns ne ew sw ns - se sw ns -\nne ew sw ne nw - - ns ne sw ns ns ne sw\n- se nw se ew sw - ns - ne nw ns - ns\n- ne ew nw - ne ew nw - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/088.a.htm"
+    },
+    "89_17x17": {
+      "id": "89_17x17",
+      "solution": "17 17\nse ew sw se ew sw - - se ew sw se sw - se sw -\nne sw ne nw se nw - se nw - ne nw ns se nw ne sw\nse nw - - ne sw - ns se ew sw se nw ns - - ns\nns se ew ew ew nw - ns ne sw ne nw se nw - - ns\nns ne ew ew sw se sw ns se nw se sw ne sw se ew nw\nne sw - - ns ns ne nw ns - ns ne ew nw ne sw -\n- ns - - ne nw - - ne sw ns - se ew sw ns -\nse nw se sw - se ew sw - ns ne sw ns se nw ns -\nns - ns ne sw ns - ne sw ns - ne nw ne sw ne sw\nns se nw - ns ne sw - ns ne ew ew ew ew nw - ns\nne nw - - ne sw ne sw ne sw - - - se ew ew nw\n- se ew ew sw ns se nw - ns se ew sw ns - se sw\nse nw se ew nw ns ne sw - ns ne sw ns ne ew nw ns\nns - ne sw - ns - ns - ns - ns ne ew sw - ns\nne sw - ne ew nw - ne sw ne sw ne sw se nw se nw\nse nw - se ew sw se sw ns - ne ew nw ns - ns -\nne ew ew nw - ne nw ne nw - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/089.a.htm"
+    },
+    "90_17x17": {
+      "id": "90_17x17",
+      "solution": "17 17\n- se sw se ew sw - se ew sw se ew sw - se ew sw\nse nw ns ns - ne ew nw - ns ne sw ne ew nw - ns\nns - ne nw se ew sw - se nw - ne sw - - se nw\nne sw - se nw - ne sw ne ew sw se nw se sw ne sw\n- ns - ns se sw se nw se ew nw ne ew nw ns se nw\nse nw - ne nw ns ns se nw se sw - se ew nw ns -\nne ew ew sw se nw ns ne ew nw ns - ns - se nw -\nse sw se nw ns - ns - se sw ne sw ns se nw se sw\nns ne nw se nw - ne ew nw ns - ne nw ns se nw ns\nne ew ew nw se ew ew ew ew nw se ew sw ne nw - ns\nse ew sw - ns se ew sw se ew nw - ns se sw se nw\nns - ne ew nw ns - ns ne ew sw - ne nw ne nw -\nne sw - se ew nw - ne sw - ne sw se sw se ew sw\n- ns se nw - se sw - ne ew sw ne nw ns ns - ns\nse nw ne ew ew nw ne ew sw - ns - - ne nw se nw\nne sw - se ew ew ew ew nw se nw se ew sw - ns -\n- ne ew nw - - - - - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/090.a.htm"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nne sw ns - ns se ew ew sw ns\n- ns ns se nw ne ew sw ns ns\nse nw ns ns - - - ns ns ns\nns - ns ne sw se sw ns ns ns\nns - ne ew nw ns ns ns ns ns\nns - se ew ew nw ns ns ns ns\nns - ne ew ew sw ns ns ns ns\nne ew ew ew sw ns ne nw ns ns\n- - - - ne nw - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/091.a.htm"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "solution": "10 10\nse ew ew sw - - - - se sw\nne sw - ns - se sw - ns ns\n- ne sw ne ew nw ns - ns ns\nse ew nw se ew ew nw - ns ns\nns - - ne ew sw - - ns ns\nns se sw - - ns - - ns ns\nns ns ne ew sw ne ew sw ns ns\nns ne sw - ns - - ne nw ns\nns se nw - ne ew sw - se nw\nne nw - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/092.a.htm"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "solution": "10 10\nse ew ew ew sw - se ew ew sw\nns - - - ns - ns - - ns\nne ew sw - ne sw ns - se nw\nse ew nw se ew nw ns - ns -\nns - - ne sw - ns - ns -\nne ew sw - ne ew nw - ne sw\n- - ns - - - - - - ns\n- se nw - se ew sw - - ns\n- ns se ew nw - ns - - ns\n- ne nw - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/093.a.htm"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "solution": "10 10\nse ew ew sw - - - - - -\nns - se nw - - - - se sw\nne sw ne sw - - - se nw ns\nse nw - ne sw - - ns se nw\nns - - - ne sw se nw ns -\nne ew sw - - ne nw se nw -\n- - ne sw - - - ns - -\n- - - ns - - - ne ew sw\n- - se nw se sw - - - ns\n- - ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/094.a.htm"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "solution": "10 10\nse ew sw se ew sw - se ew sw\nns se nw ns - ns se nw - ns\nns ns - ne sw ne nw - se nw\nns ne sw - ns - se ew nw -\nns - ne ew nw - ne sw - -\nne sw - - - - - ne ew sw\n- ne sw - se ew sw - se nw\nse ew nw - ns - ns - ne sw\nne sw - - ns se nw - - ns\n- ne ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/095.a.htm"
+    },
+    "96_13x13": {
+      "id": "96_13x13",
+      "solution": "13 13\nse ew ew sw - - - - se ew ew sw -\nns - - ns se ew ew sw ns - - ns -\nns - - ns ns - - ns ns - - ns -\nne sw se nw ns - - ns ne sw se nw -\nse nw ne sw ne sw se nw se nw ns - -\nns - - ne ew nw ne ew nw - ne ew sw\nne sw se ew sw - se ew sw - - - ns\nse nw ne sw ne ew nw - ns se sw - ns\nns - - ns se ew ew sw ns ns ne ew nw\nns - - ns ns - - ne nw ne ew ew sw\nne sw se nw ns - - se sw - - - ns\n- ne nw - ne ew ew nw ne sw - - ns\n- - - - - - - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/096.a.htm"
+    },
+    "97_15x15": {
+      "id": "97_15x15",
+      "solution": "15 15\n- - - se ew ew sw - - - se ew ew ew sw\n- se sw ne ew sw ne ew ew sw ne sw - - ns\nse nw ns - - ns - se sw ne sw ne ew sw ns\nns - ne sw - ns - ns ns - ns - se nw ns\nne sw - ne ew nw - ns ns - ne ew nw - ns\n- ns - - - - se nw ns - - - - - ns\n- ns - - se ew nw - ne ew ew sw - se nw\n- ns - - ne sw se sw - se ew nw - ns -\nse nw - - - ne nw ns - ns - - - ns -\nns se ew ew sw - se nw - ne ew ew ew nw -\nne nw - se nw - ns - - - se ew ew ew sw\n- - - ns - - ns - se sw ne ew sw - ns\n- - se nw - - ne ew nw ne sw - ns se nw\n- - ne sw - - se ew sw - ne ew nw ns -\n- - - ne ew ew nw - ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/097.a.htm"
+    },
+    "98_15x15": {
+      "id": "98_15x15",
+      "solution": "15 15\nse ew ew ew ew ew ew ew ew ew ew sw - se sw\nns se ew ew ew ew ew ew ew sw - ns se nw ns\nns ns - - se ew ew ew ew nw - ns ne sw ns\nns ne ew sw ns se sw - - - se nw se nw ns\nns - - ns ns ns ne sw - - ne ew nw - ns\nne sw - ns ns ns - ne ew ew ew sw - - ns\nse nw - ns ns ne sw - - - - ns - se nw\nns - - ns ns - ne ew sw - - ns - ns -\nne ew ew nw ne ew ew ew nw - - ns - ne sw\n- - - se ew sw - - se ew sw ns - - ns\n- se sw ne sw ns - se nw - ns ns - - ns\nse nw ns - ns ne ew nw - se nw ns - - ns\nne sw ne ew nw se ew ew ew nw - ns - se nw\n- ns - - - ne ew ew ew ew ew nw - ns -\n- ne ew ew ew ew ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/098.a.htm"
+    },
+    "99_25x40": {
+      "id": "99_25x40",
+      "solution": "25 40\nse ew sw - - - - se ew sw - se ew ew ew ew ew sw - - - - - se ew ew ew sw - - - se ew sw - se ew ew ew sw\nne sw ne ew sw - - ns - ns se nw - - - se ew nw - - se ew sw ne sw - - ne sw se ew nw se nw - ne sw - - ns\n- ns - - ne ew ew nw se nw ns - - - - ns - se sw - ns se nw - ne sw - - ne nw - - ns se ew sw ne sw se nw\n- ne sw - - - - - ns - ns - se ew sw ne ew nw ne ew nw ne sw - - ne sw - - - - - ne nw - ne sw ns ns -\nse ew nw - - se sw - ne ew nw - ns - ne sw - - - - - - ns - - - ne ew sw - se ew ew ew sw - ne nw ns -\nns - - se ew nw ne sw - - - - ne sw - ns - - se ew sw - ne ew ew sw - - ns se nw - - - ns - se sw ne sw\nne sw - ns - - se nw - se ew sw - ns - ns - - ne sw ne sw - - - ne sw - ne nw se ew ew ew nw - ns ns - ns\n- ns - ns - se nw - - ns - ne ew nw - ne sw - - ne sw ns - se sw - ne sw - se nw - - - - se nw ns - ns\n- ne sw ns - ne sw - se nw se ew sw se sw - ne ew sw - ns ns - ns ne ew ew nw - ns - - se ew ew nw - ne sw ns\n- - ns ne sw - ns - ns - ns - ne nw ne sw - - ne ew nw ne ew nw - - - - - ns - se nw - - se sw - ne nw\n- se nw - ns - ns - ns - ns se ew sw - ne ew sw - - - - - - se ew sw - se nw - ns - - se nw ne sw - -\nse nw - se nw - ns - ne sw ne nw - ne sw - - ne sw - se ew sw se nw - ne sw ns - se nw - - ne sw - ne sw -\nns - - ns - se nw - - ne ew ew sw - ns - se ew nw - ne sw ne nw - - - ne nw - ne ew sw - - ne ew sw ns -\nns - se nw - ne sw - - - - - ns se nw se nw - - - se nw - - se ew sw - - - - - ne ew ew sw - ns ne sw\nns - ne sw - - ne ew ew sw - - ne nw - ne ew sw se sw ns se ew sw ns - ns - - - - - se ew sw ne sw ns se nw\nne sw - ns - se sw - - ne ew ew sw - - - - ne nw ne nw ns - ne nw - ne sw - - se ew nw - ns - ne nw ns -\n- ns - ns - ns ne ew sw - - se nw - se ew sw - se ew sw ne sw - - - - ns - - ns - se ew nw se ew sw ns -\nse nw - ne ew nw - se nw - - ns - se nw se nw - ns - ne ew nw se ew sw - ne sw se nw - ne sw se nw - ns ns -\nne sw - se ew ew ew nw se sw - ne ew nw - ne sw - ne sw - se ew nw - ne sw - ne nw - se sw ne nw se ew nw ns -\n- ne ew nw - - - - ns ns se ew sw - - - ne sw - ne ew nw - - - se nw - - - - ns ns - se nw - - ne sw\nse sw se ew sw se ew ew nw ne nw - ns - se ew ew nw - - - se ew ew sw ne ew sw - - se nw ne ew nw - se sw - ns\nns ne nw - ne nw - - - - - - ns - ns - - se ew sw - ns - - ns - - ne sw - ns - - - - se nw ne sw ns\nns - - se sw - - se sw se sw - ne ew nw - se nw - ns - ns - se nw - - se nw - ns - - - - ns - - ns ns\nns - se nw ns - - ns ne nw ne sw - se sw se nw - se nw - ns - ns - se ew nw - - ne sw - - se nw - - ns ns\nne ew nw - ne ew ew nw - - - ne ew nw ne nw - - ne ew ew nw - ne ew nw - - - - - ne ew ew nw - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/099.a.htm"
+    },
+    "100_15x20": {
+      "id": "100_15x20",
+      "solution": "15 20\nse ew ew sw - se ew ew ew sw - se ew sw - - - - - -\nns - se nw se nw - - - ns - ns - ns se ew ew ew sw -\nns se nw - ne sw se ew ew nw se nw - ne nw - - - ns -\nns ns - - - ns ns - - - ne sw - - se ew ew ew nw -\nns ne sw - se nw ne ew ew sw - ns - - ns - - - se sw\nns - ne ew nw - - - - ne ew nw se sw ne ew ew ew nw ns\nns - - se ew ew ew ew ew sw - - ns ne ew ew sw - - ns\nns - se nw - - se ew ew nw - - ns - - - ns - se nw\nne ew nw - se ew nw - - - - - ns se ew ew nw - ne sw\n- se sw - ne sw - se ew ew ew ew nw ns - se ew sw - ns\nse nw ns - se nw - ns - - - - se nw se nw - ne sw ns\nns - ns - ns - - ne ew ew sw - ns - ns - - - ns ns\nns se nw - ne sw se ew ew sw ne sw ne sw ne sw - - ne nw\nns ne ew ew ew nw ns - - ns - ns - ns - ne ew sw - -\nne ew ew ew ew ew nw - - ne ew nw - ne ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/100.a.htm"
+    },
+    "101_10x10": {
+      "id": "101_10x10",
+      "solution": "10 10\nse ew sw se sw - se ew ew sw\nns se nw ns ne sw ns - - ns\nns ne ew nw - ns ns se sw ns\nns - se sw se nw ns ns ns ns\nne ew nw ns ne ew nw ns ns ns\nse ew ew nw se ew ew nw ne nw\nns - - - ne ew ew ew sw -\nns - se sw - se ew sw ne sw\nns se nw ns - ns - ns - ns\nne nw - ne ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/101.a.htm"
+    },
+    "102_10x10": {
+      "id": "102_10x10",
+      "solution": "10 10\n- - - - - se ew sw - -\n- - - - - ne sw ne sw -\n- - - - - - ne sw ne sw\n- - - - - - - ns - ns\n- - - - - - se nw - ns\nse sw - - - - ns - - ns\nns ne sw - se ew nw - se nw\nne sw ne ew nw - - - ns -\n- ne sw - - - se ew nw -\n- - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/102.a.htm"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "solution": "10 10\n- se sw - - - - - se sw\n- ns ns se sw se ew ew nw ns\nse nw ns ns ns ne sw - - ns\nns - ne nw ns - ns - se nw\nns - se ew nw se nw - ne sw\nne sw ns - se nw se ew ew nw\nse nw ns - ne sw ns se ew sw\nns - ne sw se nw ne nw - ns\nns se sw ne nw - - - se nw\nne nw ne ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/103.a.htm"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "solution": "10 10\n- se ew sw - - - se ew sw\n- ns - ne ew sw - ns - ns\n- ne sw - - ne sw ns se nw\n- - ne sw - - ns ns ns -\nse ew ew nw - - ne nw ns -\nne ew ew ew sw - - - ne sw\n- - se ew nw - - - - ns\nse ew nw - - - - - se nw\nne sw - - se sw - - ns -\n- ne ew ew nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/104.a.htm"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "solution": "10 10\n- - se ew ew sw se ew sw -\n- - ne sw - ne nw - ne sw\nse sw - ns - - se sw - ns\nns ne ew nw se ew nw ne ew nw\nns - - se nw - - se ew sw\nns - - ne ew ew ew nw - ns\nne sw - - - - - - se nw\nse nw - se sw - - - ne sw\nns - se nw ne ew ew sw - ns\nne ew nw - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/105.a.htm"
+    },
+    "106_13x13": {
+      "id": "106_13x13",
+      "solution": "13 13\n- se sw - se sw - se ew ew ew ew sw\nse nw ns - ns ns - ns - se ew ew nw\nns - ne ew nw ne ew nw - ns - - -\nne ew sw - - se ew sw se nw - - -\n- - ns se ew nw - ns ns - se sw -\nse ew nw ns se ew ew nw ne ew nw ns -\nns - - ns ns - - - - - - ns -\nne ew sw ns ne ew ew ew ew sw se nw -\n- - ns ne ew sw se ew sw ns ne ew sw\nse ew nw - - ns ns - ns ns - - ns\nns - se ew ew nw ns - ns ns - - ns\nne ew nw - se ew nw - ne nw - se nw\n- - - - ne ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/106.a.htm"
+    },
+    "107_15x15": {
+      "id": "107_15x15",
+      "solution": "15 15\nse ew ew ew ew ew ew sw se ew sw se ew ew sw\nne ew sw se ew ew sw ne nw se nw ne ew sw ns\nse sw ne nw se sw ne sw se nw se sw se nw ns\nns ns - se nw ne sw ns ns se nw ns ne sw ns\nns ns se nw se sw ne nw ne nw se nw se nw ns\nns ns ne ew nw ns se ew ew sw ns se nw se nw\nns ne ew sw - ns ne ew sw ns ne nw se nw -\nns - se nw se nw se ew nw ne sw se nw se sw\nns se nw se nw se nw se sw se nw ne ew nw ns\nns ns se nw se nw se nw ne nw - - se ew nw\nns ns ne sw ns se nw se sw se sw se nw se sw\nns ne sw ne nw ns se nw ne nw ns ne ew nw ns\nns se nw se ew nw ns se ew sw ns - - se nw\nns ne ew nw se sw ns ns - ne nw se sw ne sw\nne ew ew ew nw ne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/107.a.htm"
+    },
+    "108_16x16": {
+      "id": "108_16x16",
+      "solution": "16 16\nse ew ew sw - - - se ew ew ew sw - se ew sw\nne sw - ne sw - se nw - - - ne ew nw - ns\n- ns - - ne ew nw - se ew sw - - se ew nw\n- ns se sw - - se ew nw - ns - - ne sw -\n- ne nw ns - se nw - - se nw se ew sw ne sw\nse sw - ns se nw - se sw ne ew nw se nw - ns\nns ne ew nw ns se ew nw ns - - se nw - se nw\nns - - se nw ns - se nw - - ne sw - ns -\nne ew sw ns se nw - ns - se sw - ns - ne sw\n- - ns ns ns - - ne ew nw ns - ne sw - ns\n- se nw ns ns - - se ew sw ne sw - ns - ns\nse nw - ns ne ew ew nw - ns - ne ew nw se nw\nns - - ne ew ew sw - - ne ew ew sw - ns -\nns - - - - - ne ew sw - se ew nw - ns -\nne sw - se ew sw - - ns se nw - - se nw -\n- ne ew nw - ne ew ew nw ne ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/108.a.htm"
+    },
+    "109_15x24": {
+      "id": "109_15x24",
+      "solution": "15 24\n- - se ew ew sw se ew sw - - se ew sw se ew sw - se ew ew ew sw -\n- - ns - se nw ns - ne sw - ns - ne nw - ns - ns - - - ns -\nse sw ns se nw - ns - - ne ew nw - - - se nw - ne ew ew sw ne sw\nns ne nw ns - - ne ew ew sw - se ew sw - ne ew ew ew ew sw ne sw ns\nns - - ne ew sw - - - ns - ns - ne sw - - se ew sw ne sw ns ns\nne ew sw - - ne sw - se nw se nw - - ne ew ew nw - ns - ne nw ns\n- se nw se ew sw ne ew nw - ns - se ew sw - - - - ne sw se ew nw\nse nw - ns - ne ew sw - se nw - ns - ne ew sw - - - ns ne ew sw\nns - - ne ew sw - ne ew nw - - ne sw - - ns - se ew nw - - ns\nne ew ew sw - ne sw - - se ew sw - ne sw - ne ew nw se ew sw - ns\n- - - ne sw - ns - - ne sw ne sw - ne ew sw - se nw - ne ew nw\nse ew sw - ns - ns - se sw ns - ne ew sw - ns - ns - se ew ew sw\nns - ne ew nw - ne ew nw ns ne sw - - ne ew nw - ne ew nw - - ns\nne sw - - - se ew sw - ns - ns - se ew sw - - se ew ew ew sw ns\n- ne ew ew ew nw - ne ew nw - ne ew nw - ne ew ew nw - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/109.a.htm"
+    },
+    "110_15x25": {
+      "id": "110_15x25",
+      "solution": "15 25\nse sw - se ew sw - se ew sw - se ew ew sw - se ew sw - - se ew sw -\nns ne ew nw - ns - ns - ns - ns - - ns - ns - ns - - ns - ne sw\nne sw - - - ns - ne sw ne ew nw - se nw se nw se nw - se nw - - ns\n- ne ew sw - ne sw - ns - se sw - ns se nw - ns - se nw - - - ns\n- - se nw - - ns - ne ew nw ns se nw ne ew sw ne ew nw - se ew ew nw\nse sw ns se ew ew nw - se sw - ns ns - se sw ns - se ew ew nw - - -\nns ne nw ne sw - - se nw ne ew nw ne ew nw ns ns - ne ew sw - se ew sw\nns - - - ne ew ew nw - se sw - se sw - ne nw - - - ne ew nw - ns\nne ew ew sw se ew sw se ew nw ns - ns ns - - - - se ew sw - - se nw\nse ew ew nw ns se nw ns - se nw - ns ns - se sw - ne sw ne sw - ne sw\nns - se ew nw ne ew nw - ne sw se nw ne ew nw ne ew sw ns se nw - - ns\nne sw ns - se ew ew sw - - ns ns - se ew sw - - ne nw ns - - - ns\nse nw ne sw ns - - ne ew sw ns ne ew nw se nw - se ew ew nw - se ew nw\nns - - ne nw - - se ew nw ne sw - - ns - - ns - - - - ns - -\nne ew ew ew ew ew ew nw - - - ne ew ew nw - - ne ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/110.a.htm"
+    },
+    "111_10x10": {
+      "id": "111_10x10",
+      "solution": "10 10\nse ew ew ew ew ew sw - - -\nns - - - - - ne sw se sw\nne sw - se ew ew sw ne nw ns\n- ns - ne ew sw ns - - ns\n- ne ew sw - ns ns - - ns\nse ew ew nw - ns ns se sw ns\nns - se ew ew nw ne nw ns ns\nns - ns se ew sw - - ns ns\nns - ns ns - ne ew ew nw ns\nne ew nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/111.a.htm"
+    },
+    "112_10x10": {
+      "id": "112_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns - - - - - - - - ns\nne ew ew ew ew ew sw se ew nw\n- - - - - - ns ne ew sw\nse sw - se sw - ns - - ns\nns ne ew nw ns - ns se ew nw\nns - - - ne ew nw ne ew sw\nns se ew sw se ew sw - - ns\nns ns - ns ns - ns se ew nw\nne nw - ne nw - ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/112.a.htm"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "solution": "10 10\n- se ew ew ew ew ew ew ew sw\nse nw - se ew ew sw - - ns\nns - - ns se sw ns - - ns\nne sw - ns ns ne nw - se nw\n- ne ew nw ne ew sw - ns -\nse sw - - - - ns se nw -\nns ne sw - se ew nw ns - -\nns - ne ew nw - - ne sw -\nns - - - se sw - - ne sw\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/113.a.htm"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "solution": "10 10\nse ew ew sw - se ew sw - -\nns - - ns - ns - ns se sw\nne ew sw ne ew nw - ne nw ns\n- - ns se sw - se sw - ns\nse ew nw ns ne sw ns ns - ns\nne ew ew nw - ne nw ns - ns\n- - - - - - - ns - ns\n- - - se sw - se nw se nw\n- - se nw ne ew nw - ne sw\n- - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/114.a.htm"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "solution": "10 10\nse ew ew ew sw se sw se ew sw\nne ew ew sw ne nw ns ns se nw\nse ew sw ne sw se nw ns ne sw\nne sw ne ew nw ne ew nw se nw\nse nw se ew ew ew ew sw ne sw\nne sw ne ew sw se sw ne sw ns\nse nw se sw ns ns ne ew nw ns\nne ew nw ns ns ne ew sw se nw\nse ew ew nw ne sw se nw ne sw\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/115.a.htm"
+    },
+    "116_15x15": {
+      "id": "116_15x15",
+      "solution": "15 15\n- se ew ew ew ew ew ew sw - - - se sw -\n- ns - se ew ew sw - ns - se ew nw ns -\n- ns - ns - - ns - ns - ns - se nw -\nse nw - ns - se nw - ne ew nw - ns - -\nns - - ns - ns - - - - - - ne ew sw\nns se sw ns - ne ew ew ew ew sw - - - ns\nns ns ns ne sw - - se ew ew nw - - - ns\nns ns ns - ne ew sw ne sw - se ew sw - ns\nns ns ne ew ew sw ns - ns - ns - ne ew nw\nns ne sw - - ne nw - ns - ne sw - - -\nne sw ns - se ew sw - ne sw - ne ew ew sw\n- ns ns - ns - ns - - ne ew sw - - ns\nse nw ns - ns - ne sw se ew ew nw - - ns\nns - ne ew nw - - ns ne sw - - se ew nw\nne ew ew ew ew ew ew nw - ne ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/116.a.htm"
+    },
+    "117_15x18": {
+      "id": "117_15x18",
+      "solution": "15 18\nse ew ew ew sw se ew sw - - - se ew sw se ew sw -\nns - - - ns ns - ns - - - ns - ne nw - ne sw\nne ew sw se nw ns - ne sw - - ne ew sw se sw - ns\n- - ns ne sw ns - - ne ew sw - - ns ns ne ew nw\n- - ns - ns ne ew ew sw - ne ew ew nw ns - se sw\nse ew nw - ns - - - ne ew ew sw - - ne sw ns ns\nns - - se nw se ew sw - - - ns se sw - ne nw ns\nns - - ns - ns - ne ew ew ew nw ns ne sw - se nw\nns - se nw - ne sw - - se sw - ne sw ne ew nw -\nns - ns - - - ns se ew nw ns - se nw se ew sw -\nne sw ne ew ew ew nw ns - - ne sw ns - ns - ns -\n- ns se ew sw - se nw - - - ns ne ew nw - ns -\nse nw ns - ns - ne sw se ew ew nw - - - - ne sw\nns - ns - ns - se nw ns - - se ew sw se sw - ns\nne ew nw - ne ew nw - ne ew ew nw - ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/117.a.htm"
+    },
+    "118_15x15": {
+      "id": "118_15x15",
+      "solution": "15 15\n- se ew ew sw - - - se sw - - se sw -\n- ns - se nw se sw - ns ns - se nw ne sw\nse nw - ne ew nw ne ew nw ne ew nw - - ns\nns se ew sw - - - se ew ew sw - - - ns\nne nw - ne sw se sw ns - se nw - se ew nw\nse ew sw - ne nw ns ns - ns se sw ns se sw\nns - ne ew sw se nw ns - ne nw ns ne nw ns\nne ew ew sw ne nw se nw - - - ne ew ew nw\n- - - ns - - ns - - - - - - - -\n- se sw ne sw - ns - se ew ew ew sw - -\n- ns ne sw ne sw ne ew nw se ew sw ne ew sw\nse nw se nw - ns - - se nw - ns - - ns\nns - ns se ew nw - - ns se sw ne ew ew nw\nns - ne nw se ew sw - ne nw ne ew ew sw -\nne ew ew ew nw - ne ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/118.a.htm"
+    },
+    "119_15x15": {
+      "id": "119_15x15",
+      "solution": "15 15\nse ew ew ew ew ew sw - se ew ew ew ew sw -\nns - - - - - ns - ne ew sw - - ns -\nns se ew sw - - ne ew sw - ne ew sw ne sw\nns ns - ns - - - - ns - - - ns - ns\nns ne sw ne ew ew ew sw ne ew ew ew nw - ns\nns - ne sw - - - ne ew ew ew ew sw - ns\nne ew sw ne sw - se ew ew sw - - ns - ns\n- - ns - ns - ne ew sw ne ew sw ne sw ns\nse sw ne ew nw - - - ns - - ns - ns ns\nns ne sw - - - - - ne ew sw ne ew nw ns\nns - ns - se sw - - - - ns - - - ns\nne sw ne ew nw ne ew sw - - ne ew sw - ns\n- ns - - - - - ns - se sw - ns - ns\nse nw - - se ew sw ne ew nw ne ew nw - ns\nne ew ew ew nw - ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/119.a.htm"
+    },
+    "120_20x36": {
+      "id": "120_20x36",
+      "solution": "20 36\n- se ew ew sw - - se ew sw - se ew ew ew sw - - - se ew sw se sw se ew ew ew ew sw - - - se ew sw\nse nw - - ns - - ne sw ne ew nw se ew ew nw - - se nw - ns ns ne nw - - se ew nw se sw se nw - ns\nns - - - ne sw - - ns - - se nw se ew sw - - ne sw se nw ne ew ew sw - ns - se nw ne nw - se nw\nne ew sw - se nw - - ns - - ne sw ns - ne sw se sw ns ns - - - - ne sw ns - ne sw - - se nw -\n- - ne sw ne ew sw - ns - se sw ns ne sw - ns ns ne nw ne sw - - - - ns ns - - ne sw - ne ew sw\n- - - ne ew sw ne ew nw - ns ne nw - ne sw ns ne sw - - ns - - - se nw ne sw - - ne sw - - ns\n- - - - se nw se ew sw - ne sw - - - ns ns - ns - - ne ew ew ew nw se ew nw - - se nw se ew nw\n- - - - ne ew nw - ns - - ns - - - ns ns se nw - - - - - - - ne ew sw - - ne sw ne ew sw\n- - - - - - se ew nw se ew nw - - - ns ns ne ew ew sw - - - se ew sw - ne sw - - ns - - ns\nse sw - - - se nw se ew nw - - - - - ns ne sw - se nw se ew ew nw se nw se sw ne sw se nw - - ns\nns ns - se sw ns - ne sw - - - - se ew nw - ns - ns se nw - - - ne ew nw ns - ne nw - - - ns\nns ne sw ns ns ne sw se nw - - se sw ns - se ew nw - ne nw - - - - - - - ns - - - - - - ns\nne sw ne nw ne ew nw ne ew ew ew nw ne nw - ne ew sw - - se ew sw - - - - - ns - - - - - se nw\n- ne sw - se ew ew ew sw - se ew ew ew sw - - ne sw - ns se nw se sw se ew ew nw - - - - se nw -\nse ew nw - ns - - - ns - ns - - - ne ew ew sw ne ew nw ne ew nw ne nw se ew sw - - - - ne ew sw\nns - - - ne ew sw - ns - ne sw - - - - - ns se ew sw se sw - - - ne sw ns se ew ew ew ew sw ns\nne sw - - - - ne sw ns se ew nw - - - - - ns ne sw ne nw ns - - - - ns ne nw - se ew sw ns ns\n- ns se ew sw - - ns ns ns se ew sw - - - - ne ew nw se ew nw - - - - ns se ew ew nw - ne nw ns\n- ns ns - ne ew ew nw ns ne nw se nw - - - se ew ew ew nw - - - se ew ew nw ns - - - - - - ns\n- ne nw - - - - - ne ew ew nw - - - - ne ew ew ew ew ew ew ew nw - - - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/120.a.htm"
+    },
+    "121_10x10": {
+      "id": "121_10x10",
+      "solution": "10 10\n- - se ew sw - - - se sw\nse ew nw - ne ew ew ew nw ns\nne ew sw - - - se ew ew nw\n- - ne ew sw se nw - - -\nse ew sw - ns ns - - se sw\nns - ne ew nw ne ew ew nw ns\nne ew ew ew sw - - - se nw\nse ew sw - ns - - se nw -\nns - ne ew nw - - ne ew sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/121.a.htm"
+    },
+    "122_10x10": {
+      "id": "122_10x10",
+      "solution": "10 10\n- se ew ew ew ew ew ew sw -\n- ns se ew ew sw se sw ne sw\nse nw ns se ew nw ns ne ew nw\nns - ns ns se ew nw se ew sw\nne ew nw ns ns se ew nw - ns\nse ew ew nw ns ns se ew sw ns\nns se ew ew nw ns ns se nw ns\nns ne ew ew sw ns ns ne sw ns\nne sw - - ne nw ns se nw ns\n- ne ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/122.a.htm"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "solution": "10 10\n- - se ew ew sw - - - -\n- - ns se ew nw - - - -\nse ew nw ne sw - - - - -\nne ew ew sw ne ew sw se ew sw\nse ew sw ns - - ne nw - ns\nns - ns ne ew sw - - - ns\nns - ne ew sw ns - - - ns\nns - - - ns ne sw - se nw\nns - - - ne ew nw - ns -\nne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/123.a.htm"
+    },
+    "124_12x12": {
+      "id": "124_12x12",
+      "solution": "12 12\nse sw - - - - - se ew ew sw -\nns ns - se ew ew sw ns - - ne sw\nns ns se nw - - ns ns - - - ns\nns ns ns - - se nw ns - - - ns\nns ne nw - - ne ew nw - - se nw\nne sw - se ew sw - - se ew nw -\n- ne ew nw - ne sw - ne sw - -\n- - se sw se ew nw se ew nw - -\n- se nw ne nw - - ne sw - se sw\nse nw - - - se sw - ne ew nw ns\nne ew sw - se nw ne sw - - - ns\n- - ne ew nw - - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/124.a.htm"
+    },
+    "125_12x12": {
+      "id": "125_12x12",
+      "solution": "12 12\n- - - - se ew ew ew ew ew ew sw\nse ew ew sw ne ew sw - - - - ns\nns - - ns - - ns - - - - ns\nns - - ns - - ne ew ew ew sw ns\nns - - ne sw - - - - - ns ns\nns se sw - ne sw - - se sw ns ns\nns ns ne ew ew nw - - ns ne nw ns\nns ne sw - - - - - ns - se nw\nns - ns - - - se ew nw se nw -\nns - ne ew ew ew nw - - ne ew sw\nns - - - - - - - - - - ns\nne ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/125.a.htm"
+    },
+    "126_12x12": {
+      "id": "126_12x12",
+      "solution": "12 12\nse ew ew sw - - - - se ew ew sw\nns - se nw - - - - ne ew sw ns\nne sw ns - - - - - - - ns ns\n- ns ne ew sw - se sw se sw ns ns\nse nw - - ns se nw ns ns ne nw ns\nns - - - ns ne sw ns ne ew sw ns\nne sw - se nw se nw ne ew ew nw ns\n- ne sw ne ew nw - - - - - ns\n- - ns - - - - - - - se nw\nse ew nw se ew ew sw - - - ne sw\nns - se nw - se nw - se sw - ns\nne ew nw - - ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/126.a.htm"
+    },
+    "127_15x15": {
+      "id": "127_15x15",
+      "solution": "15 15\n- se sw - - - se ew sw - - se ew sw -\n- ns ne ew sw se nw - ne ew ew nw - ne sw\nse nw - - ns ns - se ew ew ew sw - - ns\nne sw - - ns ne ew nw - - se nw - - ns\nse nw - - ne ew ew ew sw - ns - - - ns\nne ew ew ew sw - se sw ne sw ne ew sw se nw\n- - - se nw - ns ns - ne sw - ns ns -\n- - - ns - - ns ne sw - ne ew nw ne sw\nse ew sw ne ew sw ne sw ns se ew sw - se nw\nne sw ne ew sw ns - ns ns ns - ns - ns -\nse nw - - ns ne ew nw ns ns - ne ew nw -\nns - se sw ne ew ew ew nw ns - - se ew sw\nns - ns ns - se ew sw - ne ew ew nw - ns\nns - ns ne sw ns - ns - se ew sw se ew nw\nne ew nw - ne nw - ne ew nw - ne nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/127.a.htm"
+    },
+    "128_15x15": {
+      "id": "128_15x15",
+      "solution": "15 15\n- - - - - se ew ew sw - se sw se ew sw\n- - se ew ew nw - - ne ew nw ns ns se nw\nse ew nw - - - - - se ew ew nw ns ns -\nns se ew ew ew sw - - ns - - - ns ne sw\nns ns - - - ne ew sw ne ew sw se nw - ns\nne nw se sw - - - ns - - ne nw se ew nw\n- se nw ns - se ew nw - - - se nw - -\n- ns - ns - ns - se ew ew ew nw se sw -\n- ns - ne sw ns - ne sw - - - ns ne sw\n- ns - se nw ns - - ne ew sw se nw - ns\n- ne sw ne sw ns - - - - ne nw - - ns\n- se nw - ne nw - - - - se ew sw - ns\nse nw - se ew sw se sw se ew nw se nw - ns\nne ew ew nw se nw ns ne nw - - ns - - ns\n- - - - ne ew nw - - - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/128.a.htm"
+    },
+    "129_15x15": {
+      "id": "129_15x15",
+      "solution": "15 15\n- se ew sw - se ew sw - - se ew sw - -\n- ns - ns - ns - ne sw - ns - ns - -\nse nw - ne sw ns - - ns - ne sw ns - -\nns - - - ns ns - se nw - se nw ns - -\nne ew sw se nw ns - ne ew ew nw - ne ew sw\n- - ns ns - ne ew sw - - - - - - ns\n- - ns ne sw - - ns - se sw - - se nw\n- se nw - ns - - ns - ns ne ew sw ns -\n- ns - - ne ew ew nw - ns - - ns ns -\nse nw se ew ew ew ew ew ew nw se ew nw ns -\nns - ne sw - - - - - se nw - - ne sw\nns - se nw - - - se ew nw - - se sw ns\nns - ns - - - - ns - se ew ew nw ns ns\nns - ns - - - - ns - ns - - - ns ns\nne ew nw - - - - ne ew nw - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/129.a.htm"
+    },
+    "130_18x18": {
+      "id": "130_18x18",
+      "solution": "18 18\nse ew ew sw - - - - - - se ew ew ew ew ew sw -\nns - - ns se ew sw - - - ns - - - - - ns -\nns - - ns ns - ns - - - ns - - - - - ne sw\nns - - ns ns - ns - - - ns - - - - - - ns\nns - - ne nw - ns - - - ns - se ew ew ew ew nw\nns - - - - - ns - - - ns - ns - - - - -\nns - - - - - ns - - - ns - ns - - - - -\nne ew ew ew sw - ns - - - ns - ne ew ew ew sw -\n- - - - ns - ne ew ew ew nw - - - - - ns -\n- - - - ns - se ew ew ew ew ew ew ew ew ew nw -\n- - - - ns - ns - - - - - - - - - - -\n- - - - ns - ns - - - - - - - - se ew sw\nse ew ew ew nw - ne ew ew ew ew ew ew ew ew nw - ns\nns - - - - - - - - - - - - - - - se nw\nns - - - - - - - - - - - - - - - ns -\nns - - se ew ew ew ew ew ew ew sw - - - - ns -\nns - - ns - - - - - - - ns - - - - ns -\nne ew ew nw - - - - - - - ne ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/130.a.htm"
+    },
+    "131_15x18": {
+      "id": "131_15x18",
+      "solution": "15 18\nse ew ew sw se sw - - - se sw - - se ew ew ew sw\nns - - ne nw ns - - se nw ns - - ne ew sw - ns\nns - - - - ns - se nw - ns - - - - ns - ns\nne ew sw - - ne ew nw - - ns - se ew ew nw - ns\n- - ne sw - - - - - - ne sw ns - - - - ns\n- - - ns - se ew ew sw - - ne nw - - - - ns\n- se ew nw - ns - - ns - - - - - - - - ns\n- ns - - - ne ew sw ne ew ew ew ew ew sw - - ns\n- ne ew ew sw - - ns - - - - - - ns - - ns\n- - - - ns - - ne sw - - - - - ns - - ns\n- se sw - ns se ew ew nw - - - - - ns se ew nw\n- ns ne ew nw ns - - - - - se ew ew nw ns - -\nse nw - - - ne ew sw - se ew nw - - - ns - -\nns - - - - - se nw - ns - se sw - - ne sw -\nne ew ew ew ew ew nw - - ne ew nw ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/131.a.htm"
+    },
+    "132_10x10": {
+      "id": "132_10x10",
+      "solution": "10 10\n- - se ew ew sw - - - -\nse sw ns - - ns se sw - -\nns ns ns - - ne nw ns - -\nns ne nw - - - - ne sw -\nne sw - - - - - se nw -\n- ne ew sw - - - ns se sw\n- - - ne ew sw - ne nw ns\n- - - se ew nw - - - ns\n- se ew nw - - - - - ns\n- ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/132.a.htm"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "solution": "10 10\n- - se ew sw - - - - -\n- se nw - ns - - se ew sw\n- ne sw - ne sw se nw - ns\n- - ne ew sw ne nw - - ns\n- - - - ne sw - se ew nw\nse ew sw - se nw se nw - -\nns - ne ew nw - ne sw - -\nne sw - - - - - ne ew sw\n- ne ew ew ew sw - - - ns\n- - - - - ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/133.a.htm"
+    },
+    "134_12x12": {
+      "id": "134_12x12",
+      "solution": "12 12\nse ew ew sw se ew ew sw - se ew sw\nns - - ns ne ew sw ns - ns - ns\nne sw - ne ew sw ns ne ew nw se nw\nse nw - - - ns ne ew sw se nw -\nns se ew sw - ne sw - ns ne ew sw\nne nw - ns se ew nw - ne ew sw ns\n- - se nw ne sw - - se ew nw ns\n- - ns - - ne ew ew nw se ew nw\n- - ne ew ew sw - se ew nw - -\nse ew ew sw - ns - ne ew ew ew sw\nne ew sw ne ew nw - se ew ew ew nw\n- - ne ew ew ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/134.a.htm"
+    },
+    "135_13x13": {
+      "id": "135_13x13",
+      "solution": "13 13\nse ew sw - se sw - - se ew ew ew sw\nns - ns - ns ne ew ew nw - - - ns\nne sw ns - ns - - se ew ew ew sw ns\nse nw ns se nw - - ne ew sw - ns ns\nns - ns ne sw - se ew sw ne sw ns ns\nne sw ns - ns se nw - ne ew nw ns ns\n- ns ns se nw ns se ew sw - - ne nw\n- ns ne nw - ne nw - ns - se sw -\n- ne sw - - - - - ne ew nw ne sw\n- se nw - - se ew sw - - - - ns\n- ns - se sw ns se nw se ew ew sw ns\n- ns se nw ns ns ns - ns - - ns ns\n- ne nw - ne nw ne ew nw - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/135.a.htm"
+    },
+    "136_13x13": {
+      "id": "136_13x13",
+      "solution": "13 13\n- - - se sw - se ew ew ew ew ew sw\nse sw - ns ns - ne ew ew ew sw - ns\nns ns - ns ne sw se ew ew sw ns - ns\nns ne ew nw - ns ns - - ns ne sw ns\nns - - - - ns ns - - ne ew nw ns\nns se ew ew ew nw ne ew ew ew ew sw ns\nns ne ew ew ew sw se ew ew ew ew nw ns\nns se ew sw - ns ns se ew sw - - ns\nne nw - ne sw ns ns ns - ne sw - ns\nse ew sw - ns ns ns ne sw - ne ew nw\nns - ne ew nw ns ns - ne ew ew sw -\nne sw - - - ne nw se ew sw - ns -\n- ne ew ew ew ew ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/136.a.htm"
+    },
+    "137_15x15": {
+      "id": "137_15x15",
+      "solution": "15 15\n- se ew sw - - se ew sw - - se ew sw -\nse nw - ne sw - ns - ns - se nw - ne sw\nns - - - ne sw ns - ne ew nw - - - ns\nne ew sw - - ne nw - - - - - - se nw\n- se nw - - - - - - - - - - ne sw\n- ns - - - - - - - - - - - - ns\nse nw - - - - - - - - - - - se nw\nns - - - - - - - - - - - - ne sw\nns se sw - - - - - - - - - se ew nw\nne nw ne sw - - - - - - - se nw - -\n- - se nw - - - - - - - ns - se sw\n- se nw - - - - - - - - ns se nw ns\nse nw - se ew sw - se ew sw - ne nw - ns\nns - se nw - ne sw ns - ns - se sw - ns\nne ew nw - - - ne nw - ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/137.a.htm"
+    },
+    "138_15x15": {
+      "id": "138_15x15",
+      "solution": "15 15\n- - se ew ew ew ew sw se ew ew ew ew ew sw\n- se nw - - - - ne nw - se ew sw - ns\nse nw - - se ew sw - - - ns - ne ew nw\nns - se ew nw - ne ew ew sw ne sw - se sw\nns - ne sw - - se sw - ns - ns se nw ns\nne sw - ne sw se nw ns - ne sw ne nw - ns\n- ns - se nw ns - ne sw - ns - - - ns\n- ne ew nw - ne sw - ne ew nw se ew sw ns\nse sw - se sw - ns - se ew ew nw - ns ns\nns ns - ns ne ew nw - ns se ew sw - ne nw\nns ne ew nw - se sw - ne nw - ne sw - -\nns - se ew ew nw ns - - se sw - ns se sw\nns - ne sw - - ne sw - ns ns - ne nw ns\nns - - ns - se ew nw se nw ne sw - - ns\nne ew ew nw - ne ew ew nw - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/138.a.htm"
+    },
+    "139_15x15": {
+      "id": "139_15x15",
+      "solution": "15 15\nse ew ew ew ew ew ew ew ew ew ew sw - - -\nne ew ew sw se ew sw se ew sw - ns - - -\n- - - ne nw - ne nw - ns - ns - - -\nse ew ew ew ew sw se ew ew nw - ns se ew sw\nns - - - se nw ne sw - - - ns ne sw ns\nne ew sw - ns - - ne ew sw - ns - ns ns\n- - ns - ns se sw - - ns - ne ew nw ns\nse ew nw - ne nw ne ew ew nw - - - se nw\nns - - - se ew sw - se sw - - se nw -\nne ew ew ew nw - ne ew nw ns se sw ne ew sw\n- - - se ew ew ew ew ew nw ns ne sw - ns\nse ew ew nw - - - - - - ns - ne ew nw\nns - se sw - - se ew sw - ne sw - se sw\nns - ns ne sw se nw - ne sw - ne ew nw ns\nne ew nw - ne nw - - - ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/139.a.htm"
+    },
+    "140_19x27": {
+      "id": "140_19x27",
+      "solution": "19 27\nse ew ew ew sw se ew ew ew ew ew ew sw se sw - - - - - - - - se ew ew sw\nns se sw - ns ns - - - - - - ns ns ne ew ew sw - - se ew ew nw - - ns\nns ns ns - ne nw - se ew ew sw - ns ns se sw - ns - - ns se ew sw - - ns\nns ns ns - - - - ne ew sw ns - ne nw ns ns - ne ew ew nw ns se nw - - ns\nne nw ns - - - se ew ew nw ns - - - ns ns - - - se ew nw ns se sw - ns\n- - ns - - - ns - - - ne sw - - ns ne ew ew ew nw se ew nw ns ns - ns\n- - ne ew ew ew nw - - - se nw - - ne ew ew sw - - ne ew ew nw ns - ns\n- - - se ew sw - - se sw ns - - - - - - ns se ew ew ew ew ew nw - ns\n- se ew nw - ns se ew nw ns ns - - - - se ew nw ne ew sw - - - - - ns\nse nw - - - ns ns - se nw ns se ew ew ew nw - - - - ne sw se ew ew ew nw\nns se sw - - ns ns - ns se nw ns - - - se ew ew sw se ew nw ne ew ew ew sw\nns ns ns - - ns ns - ne nw - ns - - se nw - - ns ne ew sw - - - - ns\nns ns ns - - ns ns - - - - ns - - ns se sw - ne ew sw ne ew ew sw - ns\nns ns ns se sw ne nw - - - - ne sw - ns ns ns - - - ns - - - ns se nw\nns ns ne nw ne ew sw - - - - - ne ew nw ns ne ew sw - ne ew ew sw ns ns -\nns ne sw - - - ns - se sw - - - - - ns se ew nw se ew sw - ns ns ns -\nns - ne ew ew sw ns - ns ne sw - - - - ns ne ew ew nw - ns - ns ns ne sw\nns se ew ew ew nw ne sw ne sw ne ew ew ew sw ns - - - - - ne ew nw ne ew nw\nne nw - - - - - ne ew nw - - - - ne nw - - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/140.a.htm"
+    },
+    "141_10x10": {
+      "id": "141_10x10",
+      "solution": "10 10\n- se ew ew ew sw - - - -\nse nw se ew ew nw - se ew sw\nns - ne ew ew ew sw ns - ns\nne sw se ew ew sw ns ns - ns\n- ne nw se ew nw ns ns - ns\nse ew ew nw se ew nw ns - ns\nne sw - - ne ew ew nw - ns\n- ne ew ew ew ew ew sw - ns\nse ew ew ew ew ew ew nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/141.a.htm"
+    },
+    "142_10x10": {
+      "id": "142_10x10",
+      "solution": "10 10\n- - - se ew ew ew ew sw -\n- - - ne sw - - - ne sw\nse ew ew ew nw - - - - ns\nns - - - - se sw - - ns\nne sw - - se nw ns - se nw\n- ne sw se nw - ns se nw -\n- - ns ns - - ne nw - -\nse ew nw ne sw - - - - -\nns - - - ne ew ew ew sw -\nne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/142.a.htm"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se sw - - - - ns\nns ns ne nw ns se ew ew ew nw\nns ne ew ew nw ns - - - -\nne sw se sw - ne ew sw se sw\nse nw ns ns se ew sw ne nw ns\nns - ns ns ne sw ns se ew nw\nne ew nw ns - ns ns ns se sw\nse ew ew nw - ns ns ne nw ns\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/143.a.htm"
+    },
+    "144_14x14": {
+      "id": "144_14x14",
+      "solution": "14 14\n- - se ew sw - se ew sw - - se ew sw\nse sw ne sw ne sw ne sw ne sw se nw se nw\nns ne ew nw - ne sw ns - ne nw se nw -\nne sw - se ew sw ns ne sw - se nw se sw\nse nw - ne sw ne nw se nw - ns se nw ns\nne sw - - ne sw - ns - - ne nw se nw\n- ne ew ew sw ne ew nw se sw - - ne sw\nse sw - - ne sw - - ns ns - - se nw\nns ne ew sw - ne sw - ns ne sw se nw -\nns - se nw se sw ne sw ne sw ne nw - -\nne sw ne sw ns ne ew nw - ne ew ew ew sw\n- ne sw ne nw - - se ew sw - - - ns\n- se nw se sw - se nw - ne ew ew sw ns\n- ne ew nw ne ew nw - - - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/144.a.htm"
+    },
+    "145_14x14": {
+      "id": "145_14x14",
+      "solution": "14 14\n- - - - se ew sw se ew ew ew ew ew sw\n- - - se nw - ne nw - - - - - ns\n- - - ns - se sw - - - - se sw ns\nse sw - ne sw ns ne sw - - - ns ns ns\nns ns - - ne nw - ns - - se nw ns ns\nns ne ew ew sw - - ns - - ns - ne nw\nne sw - se nw - - ns - - ns - - -\n- ns - ns - - - ne sw - ne ew ew sw\nse nw - ns se ew ew ew nw - - - - ns\nns - se nw ns - - se ew sw - - - ns\nns - ne ew nw - - ne sw ne sw - - ns\nns - - - - - - - ns - ns - se nw\nne ew sw - se ew ew sw ns - ne sw ne sw\n- - ne ew nw - - ne nw - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/145.a.htm"
+    },
+    "146_14x14": {
+      "id": "146_14x14",
+      "solution": "14 14\nse ew ew ew ew ew sw se sw se ew ew ew sw\nns se ew ew ew sw ns ns ns ns se sw se nw\nns ns se ew sw ns ns ns ne nw ns ns ne sw\nns ne nw se nw ns ns ne ew ew nw ne sw ns\nne ew ew nw se nw ns se ew ew ew sw ns ns\nse ew ew sw ns se nw ns se ew sw ns ns ns\nns se sw ns ns ne ew nw ne sw ns ns ns ns\nns ns ns ns ne ew ew ew ew nw ns ne nw ns\nns ns ns ne ew ew ew ew ew sw ne sw se nw\nns ns ns se sw se ew ew ew nw se nw ne sw\nns ns ne nw ns ns se ew ew sw ns se ew nw\nns ns se sw ne nw ns se sw ns ns ns se sw\nns ne nw ne ew ew nw ns ns ne nw ne nw ns\nne ew ew ew ew ew ew nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/146.a.htm"
+    },
+    "147_16x16": {
+      "id": "147_16x16",
+      "solution": "16 16\n- se sw - - se sw - - - se ew ew ew sw -\n- ns ns - - ns ns - se sw ns - - - ne sw\n- ns ne ew ew nw ne ew nw ns ns - - - - ns\n- ns - - - - se ew sw ns ns - - - se nw\n- ns se sw se ew nw - ne nw ne ew sw - ns -\n- ne nw ns ne sw - se ew sw se ew nw - ne sw\n- - se nw - ne sw ns - ne nw - - - - ns\n- - ns - - - ns ns - - - - - se ew nw\n- se nw - - - ne nw se ew sw - se nw - -\n- ns se ew sw - - - ns - ns - ns se ew sw\n- ns ns - ne sw - se nw - ns - ne nw - ns\n- ne nw - - ns se nw - - ns - - - - ns\n- - - se ew nw ns - - - ne sw - - se nw\n- se ew nw - - ns se sw - - ns - se nw -\n- ne ew ew ew sw ne nw ns - - ns - ns - -\n- - - - - ne ew ew nw - - ne ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/147.a.htm"
+    },
+    "148_16x16": {
+      "id": "148_16x16",
+      "solution": "16 16\nse ew ew ew ew sw - - - - - - - - se sw\nns se sw - - ne ew ew ew ew sw - se ew nw ns\nne nw ne ew sw - se sw - - ne ew nw se ew nw\n- - - - ne ew nw ns - - - se ew nw se sw\n- - - - - se ew nw - - - ne sw - ns ns\n- - - - - ns - - - - - - ns se nw ns\n- - - se ew nw se ew sw - - - ne nw - ns\nse ew ew nw - - ns - ne sw se ew sw - - ns\nns - - se sw - ne ew sw ne nw - ns - - ns\nne sw - ns ns - - se nw - se ew nw - - ns\n- ns - ns ne ew sw ns - - ns - - - - ns\n- ne ew nw - - ns ns se ew nw - - se ew nw\n- - - - - - ne nw ne sw - - se nw - -\nse ew ew ew ew sw - - - ne sw - ne sw - -\nns - - - - ne ew ew ew ew nw - - ns - -\nne ew ew ew ew ew ew ew ew ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/148.a.htm"
+    },
+    "149_16x16": {
+      "id": "149_16x16",
+      "solution": "16 16\n- se ew sw - - se ew ew ew sw - - se ew sw\n- ns - ne ew sw ne sw - - ne ew ew nw - ns\nse nw - - se nw - ne sw - - - - se ew nw\nns - - - ns - - - ns - se ew ew nw - -\nne sw - se nw - - se nw - ns - - se ew sw\n- ns - ns - - se nw - - ns se ew nw - ns\n- ne sw ne ew ew nw - - - ne nw - - se nw\n- - ns - - - - - se ew sw - - - ns -\nse ew nw - - se ew sw ns - ns se ew sw ne sw\nns - - - se nw - ne nw - ne nw - ns - ns\nne sw - - ne ew sw - - - se ew ew nw se nw\n- ne sw - - - ns se ew ew nw - - se nw -\n- - ns - se ew nw ne sw - - - - ne sw -\nse ew nw - ns - - se nw - se sw - - ne sw\nns - - - ne sw - ne sw - ns ne sw - - ns\nne ew ew ew ew nw - - ne ew nw - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/149.a.htm"
+    },
+    "150_25x40": {
+      "id": "150_25x40",
+      "solution": "25 40\n- se ew ew sw se sw - se ew ew sw - se sw - - - - - - - - se ew ew ew ew ew ew ew sw - se ew sw se sw - -\n- ns - - ne nw ns - ns - - ne sw ns ne ew sw se ew sw - - - ne sw - - - se ew ew nw se nw - ne nw ns - -\nse nw - - - se nw - ne sw - - ne nw - se nw ne sw ns - - se sw ns - - - ns - - - ns se sw - - ne ew sw\nns - - - se nw - - - ne sw - se sw se nw - - ns ne ew ew nw ne nw - - se nw - - - ne nw ns - - - se nw\nne sw - - ns se ew ew sw - ns - ns ne nw - - - ne sw - - - - - - - ns se sw - - - - ns - - - ns -\nse nw - - ns ne ew sw ns - ns se nw - - se ew ew ew nw - - se sw - - - ne nw ns - se ew ew nw se ew sw ne sw\nne ew sw se nw - - ns ns - ns ne ew ew ew nw - - - - - se nw ns - - se ew ew nw - ne ew ew ew nw se nw - ns\n- - ns ne ew ew ew nw ns - ne ew ew ew ew ew sw se sw - se nw se nw se sw ns - - - se ew ew sw - - ns - se nw\nse sw ns - se ew sw - ne sw - - - - - - ne nw ns - ns - ne ew nw ns ns - se ew nw - - ne sw - ns - ne sw\nns ne nw - ns - ne ew ew nw - - se ew ew ew sw - ns se nw - - se sw ns ne sw ne sw - - - - ne ew nw se sw ns\nne ew sw - ne sw - - - se ew sw ns - - - ns - ns ns - - se nw ne nw - ns - ne ew ew sw - - - - ns ne nw\n- - ns - - ns - - - ne sw ne nw - - se nw - ne nw - se nw - - - - ne sw - - se nw - - - se nw - -\n- se nw - - ne ew sw - se nw - se sw se nw - - - - se nw se ew sw se ew sw ns - - ne sw - se ew nw - - -\nse nw - - - se ew nw - ns - - ns ns ne ew sw - - - ns se nw - ns ns - ns ne ew sw - ne sw ne ew ew sw - -\nne sw - - - ne ew sw - ne ew ew nw ns - - ne sw - se nw ns - - ne nw - ne ew sw ns - - ns - - - ne ew sw\n- ns - se ew sw - ns - - - se ew nw - se sw ne sw ns - ne ew ew sw - - - - ne nw - se nw - se ew sw - ns\nse nw - ne sw ne ew nw - - - ns se ew ew nw ne ew nw ns - se ew sw ne ew ew sw - - - - ns - se nw - ne ew nw\nns se ew sw ne ew ew ew ew ew ew nw ne ew ew sw - - se nw - ns - ns - - - ne ew sw - - ns - ns - - - - -\nns ns - ne ew ew sw - - - - - - - - ns - - ns - - ns - ne sw - se sw - ns - - ne sw ne ew ew sw - -\nns ne ew sw - - ne ew ew sw - - - - - ne sw - ns - se nw - - ns - ns ns - ne ew sw - ns - - - ns - -\nns - - ns - se ew sw - ne sw se ew ew ew sw ns se nw se nw - - - ns se nw ne sw - se nw - ns - - - ne sw -\nns - - ne ew nw - ne sw - ns ns - - se nw ne nw se nw - - - se nw ns - - ns - ne ew sw ns - - - se nw -\nns se sw - - - - - ns - ns ns - - ns - - - ne ew ew ew sw ne ew nw - - ns - - - ne nw se ew ew nw - -\nne nw ne sw - - - - ne sw ne nw - - ns - se sw - se ew sw ne ew ew ew ew sw ne sw - - - - ne sw - - - -\n- - - ne ew ew ew ew ew nw - - - - ne ew nw ne ew nw - ne ew ew ew ew ew nw - ne ew ew ew ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/150.a.htm"
+    },
+    "151_15x18": {
+      "id": "151_15x18",
+      "solution": "15 18\nse ew sw - - - - - se sw se ew ew ew ew sw - -\nns se nw - - se ew sw ns ne nw - - - - ne sw -\nns ne ew ew ew nw - ns ne sw - se ew ew ew ew nw -\nns - - - - - - ne sw ns - ne ew sw - - - -\nne sw - - se ew sw - ns ne sw - - ne ew sw - -\n- ns - - ne sw ne ew nw - ns - se ew ew nw - -\n- ne sw - - ns - - - - ne sw ns se ew ew ew sw\n- - ns - - ns - - se ew sw ns ne nw - - - ns\n- - ne sw - ne ew ew nw - ns ne sw - - se ew nw\n- - - ns - - - se ew ew nw - ns - se nw - -\n- - - ns - - - ne ew sw - - ne sw ns - - -\nse ew ew nw - - - - - ne ew sw - ns ne ew ew sw\nne sw se ew ew sw - se sw - - ns - ns - - - ns\n- ne nw - - ns - ns ne sw - ne ew nw - se ew nw\n- - - - - ne ew nw - ne ew ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/151.a.htm"
+    },
+    "152_16x20": {
+      "id": "152_16x20",
+      "solution": "16 20\nse ew sw - - - se ew sw - se ew sw - - se ew sw - -\nns - ne sw - - ns - ne ew nw - ns - - ns - ne sw -\nns - - ns se ew nw - se ew ew ew nw se ew nw - - ns -\nne ew sw ne nw - - - ns - - - - ns se sw - se nw -\n- - ns - - - - - ne ew ew ew ew nw ns ne ew nw - -\n- se nw - se ew sw - - - - - - se nw - - se ew sw\n- ns se sw ns - ns - - - - - - ne sw - - ns - ns\n- ns ns ne nw - ne ew sw - - se ew ew nw - - ns - ns\n- ns ns - - se ew ew nw - - ns se sw - - se nw - ns\n- ns ns - - ne sw - - - - ne nw ns se ew nw - - ns\n- ne nw - - se nw - - - - - - ns ns - - - - ns\n- se ew sw - ne ew sw - - - - - ns ns - - - se nw\n- ns - ne ew ew ew nw - - se sw - ne nw - - - ns -\n- ne ew ew sw - - - - - ns ne ew sw - - - - ns -\n- - - se nw - - - se ew nw - se nw - - se ew nw -\n- - - ne ew ew ew ew nw - - - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/152.a.htm"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "solution": "10 10\nse ew sw - - se ew ew ew sw\nns - ns - - ns se ew sw ns\nne sw ne ew sw ns ns - ns ns\nse nw - - ne nw ns - ns ns\nns se ew sw - - ns - ne nw\nne nw - ns se sw ne sw - -\n- - - ns ns ne ew nw - -\nse sw - ns ne ew ew ew sw -\nns ne ew nw - - - - ns -\nne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/153.a.htm"
+    },
+    "154_17x17": {
+      "id": "154_17x17",
+      "solution": "17 17\nse sw - se ew ew ew ew ew ew ew ew ew sw - se sw\nns ne ew nw - - se ew sw se ew sw - ne ew nw ns\nne ew sw - se sw ns se nw ns - ne sw - se ew nw\n- - ne ew nw ns ns ns - ne sw - ne ew nw - -\n- se ew sw - ns ns ne ew sw ne sw - se sw se sw\nse nw - ne ew nw ne sw - ns - ne ew nw ne nw ns\nne ew sw - se sw - ne sw ne sw - se ew sw - ns\nse ew nw se nw ne ew ew nw - ne ew nw - ne ew nw\nne sw - ns - se sw - se ew sw - se sw - se sw\nse nw se nw se nw ns - ns - ne ew nw ne sw ns ns\nns - ne ew nw - ne ew nw se ew ew ew sw ne nw ns\nns se ew sw - se ew sw - ne ew sw - ns - se nw\nne nw - ne ew nw - ns se ew sw ns - ne ew nw -\nse ew sw - se ew sw ns ns - ne nw se ew sw - -\nns - ne ew nw - ne nw ne ew ew ew nw - ne ew sw\nne sw - se sw se ew sw - se ew ew sw se ew sw ns\n- ne ew nw ne nw - ne ew nw - - ne nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/154.a.htm"
+    },
+    "155_17x26": {
+      "id": "155_17x26",
+      "solution": "17 26\n- se ew sw - se ew sw - se ew sw - se ew sw - - - - - - se sw - -\n- ns - ns - ns - ns se nw - ns - ns - ne sw - se ew ew ew nw ne ew sw\n- ns - ns - ns - ns ns - - ns - ne sw - ns se nw - - - - - - ns\n- ns - ns - ns - ns ns se ew nw - - ns se nw ns - se ew sw se ew ew nw\n- ns - ns - ns - ne nw ne sw - se ew nw ns - ns - ns - ns ns - - -\n- ns - ns - ns - - - se nw se nw - - ne sw ns - ns - ns ne ew sw -\nse nw - ne ew nw - - - ns - ns se ew sw - ns ns - ns - ne sw - ns -\nne ew ew ew sw - - - - ne ew nw ns - ne ew nw ns - ne ew sw ne ew nw -\n- - se ew nw - se ew sw - - - ne ew ew ew ew nw - - - ne ew sw - -\n- - ne sw - - ns - ns se ew ew ew sw - - - - - - se ew sw ne sw -\n- - - ne sw - ne sw ns ns se ew sw ns - se sw - - - ns - ns - ns -\nse ew sw - ne sw - ns ns ne nw - ns ne ew nw ns - se sw ne sw ne sw ne sw\nns - ns - - ns - ns ns - - se nw - se ew nw se nw ns - ns - ns - ns\nns se nw - se nw - ns ns - - ns - se nw - - ns se nw se nw se nw se nw\nns ns - se nw - se nw ne sw se nw se nw - se ew nw ns - ns - ns - ns -\nns ne ew nw - se nw - - ne nw - ns se sw ne sw - ns - ns - ns - ns -\nne ew ew ew ew nw - - - - - - ne nw ne ew nw - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/155.a.htm"
+    },
+    "156_9x36": {
+      "id": "156_9x36",
+      "solution": "9 36\nse ew ew ew ew ew ew ew ew ew ew sw se ew ew ew ew ew ew ew ew ew ew ew sw se ew ew ew ew ew ew ew ew ew sw\nns se sw - - se ew ew ew ew sw ns ns - - - se ew ew ew sw se ew sw ns ns se ew sw - se ew sw - se nw\nne nw ns - se nw - se sw - ns ne nw - - - ns se ew ew nw ns se nw ns ne nw - ne ew nw - ne sw ne sw\nse ew nw se nw - - ns ns - ne ew ew ew ew ew nw ns se ew sw ns ns - ne ew ew ew sw - se ew sw ns - ns\nne ew ew nw se sw - ns ne sw - - se ew ew sw - ns ns se nw ns ne ew ew ew ew sw ne ew nw - ns ns se nw\n- - - se nw ns - ns - ns - se nw - - ns - ne nw ns - ne ew sw - - se nw se ew ew ew nw ns ns -\n- se ew nw - ns - ns - ne ew nw se sw - ns - - - ns - - se nw se sw ns - ns - - - - ns ne sw\nse nw - - - ne ew nw - - - - ns ne sw ne ew ew ew nw - - ns - ns ne nw - ne ew ew ew ew nw - ns\nne ew ew ew ew ew ew ew ew ew ew ew nw - ne ew ew ew ew ew ew ew nw - ne ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/156.a.htm"
+    },
+    "157_16x24": {
+      "id": "157_16x24",
+      "solution": "16 24\nse sw se ew sw - - se ew sw se sw se sw se sw se sw se sw se sw se sw\nns ns ns - ne ew sw ns - ns ns ne nw ne nw ne nw ne nw ne nw ne nw ns\nns ns ns se sw - ne nw se nw ns se sw se sw se sw se sw se sw se sw ns\nns ns ns ns ne ew sw - ns - ns ns ne nw ne nw ne nw ne nw ne nw ns ns\nns ne nw ns - - ne sw ns - ns ne ew ew ew ew ew ew ew sw se ew nw ns\nns - - ne ew sw - ne nw - ns - se ew sw - se ew sw ns ns se ew nw\nns - se sw - ns se ew ew ew nw - ns - ns - ns - ns ns ns ns se sw\nns se nw ne sw ns ne sw - se sw - ns - ne ew nw - ne nw ne nw ns ns\nne nw - - ns ns - ne ew nw ns se nw - se sw - - - - se sw ns ns\n- se ew ew nw ns - se ew sw ns ns se sw ns ne ew sw - se nw ne nw ns\nse nw se ew sw ne ew nw - ns ns ne nw ne nw - - ne ew nw - - se nw\nne ew nw se nw se ew ew sw ne nw se ew sw - se ew ew ew sw - - ne sw\n- - - ns - ns - - ns - se nw - ns - ne ew sw - ne ew sw - ns\n- se ew nw - ne ew sw ns - ns - se nw - - - ne sw - se nw se nw\n- ns - - - - - ns ne sw ns se nw - se ew sw - ns - ns - ns -\n- ne ew ew ew ew ew nw - ne nw ne ew ew nw - ne ew nw - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/157.a.htm"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "solution": "10 10\n- se ew ew sw se ew sw - -\nse nw - - ns ns - ne ew sw\nns se ew sw ne nw - se ew nw\nne nw se nw se ew sw ne sw -\nse ew nw - ns se nw se nw -\nns - - se nw ne sw ns se sw\nns se ew nw - se nw ns ns ns\nns ne sw - se nw se nw ns ns\nne sw ns se nw - ne ew nw ns\n- ne nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/158.a.htm"
+    },
+    "159_17x17": {
+      "id": "159_17x17",
+      "solution": "17 17\n- se ew ew sw - - se ew ew sw - - - - se sw\nse nw se sw ne sw - ns se sw ne sw - - se nw ns\nns se nw ne sw ns - ns ns ne sw ns - - ns se nw\nns ns - - ns ns - ns ns - ns ns - - ns ns -\nns ns - - ne nw - ns ns - ns ne sw se nw ns -\nns ns - - - - - ns ns - ne sw ns ns se nw -\nns ne sw - - - - ns ns - - ns ne nw ns - -\nne sw ne sw - - - ns ns - - ne sw se nw - -\n- ne sw ne sw - - ns ns - - se nw ne sw - -\n- - ne sw ne sw - ns ns - - ns se sw ns - -\n- - - ne sw ns - ns ns - se nw ns ns ne sw -\nse sw - - ns ns - ns ns - ns se nw ne sw ns -\nns ns - - ns ns - ns ns - ns ns - - ns ns -\nns ns - - ns ns - ns ns - ns ns - - ns ns -\nns ne sw se nw ne sw ns ns se nw ns - - ns ne sw\nne sw ne nw se sw ne nw ns ns se nw - - ne sw ns\n- ne ew ew nw ne ew ew nw ne nw - - - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/159.a.htm"
+    },
+    "160_20x28": {
+      "id": "160_20x28",
+      "solution": "20 28\nse ew sw se ew sw - se sw - - - se ew sw - se ew sw - se ew ew ew ew sw - -\nne sw ne nw - ns - ns ns se sw - ne sw ne sw ns - ne sw ns - - - - ns - -\n- ne sw - - ne ew nw ne nw ne ew ew nw - ne nw - - ns ns - - - - ns se sw\nse sw ne sw - - se ew ew sw se sw se sw - - se ew sw ne nw - - - - ns ns ns\nns ne sw ns - se nw - - ne nw ns ns ne sw se nw se nw - - - - - - ns ns ns\nns - ns ns - ne ew sw - - - ns ne sw ne nw se nw - se sw - - - - ns ns ns\nns - ns ns se ew ew nw - - - ne sw ne sw - ne ew ew nw ns - se ew ew nw ns ns\nns - ns ns ns - se sw se sw - - ne sw ns - - - - se nw se nw - se ew nw ns\nns - ns ns ns - ns ne nw ne sw - - ns ne ew sw - - ne ew nw se sw ns se ew nw\nns - ns ns ne ew nw - - - ns se ew nw - - ns - - se sw - ns ns ns ne sw -\nns - ns ne ew ew ew ew ew ew nw ns - - se sw ne sw se nw ne ew nw ns ns - ns -\nns - ns - - - se sw se ew sw ns se ew nw ns se nw ns - se ew ew nw ns se nw -\nns - ne ew ew sw ns ne nw - ne nw ns - se nw ns - ne sw ns se ew ew nw ns - -\nns - - - - ne nw se ew sw - se nw - ns - ne ew sw ns ns ne ew sw - ne ew sw\nne ew sw - se ew sw ne sw ne ew nw - - ns - - - ne nw ns - - ns - se ew nw\n- - ne ew nw - ns - ns - - - se ew nw - - - - - ns - se nw - ne sw -\nse ew sw - - se nw se nw se sw se nw - - - - se sw - ne sw ne ew sw - ne sw\nns - ne ew ew nw se nw se nw ne nw se ew sw - se nw ne ew sw ns - - ns - - ns\nne sw - - se ew nw - ne sw - se nw se nw se nw - - - ns ne ew ew nw - - ns\n- ne ew ew nw - - - - ne ew nw - ne ew nw - - - - ne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/160.a.htm"
+    },
+    "161_10x10": {
+      "id": "161_10x10",
+      "solution": "10 10\n- se sw - - - - - - -\nse nw ne sw - - - - - -\nne sw - ns se ew sw se ew sw\n- ns - ns ns - ns ns - ns\n- ns - ne nw - ne nw - ns\n- ns - - - - - - - ns\n- ns - - - - - - - ns\n- ns - - - - - - - ns\n- ns se sw se ew sw se sw ns\n- ne nw ne nw - ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/161.a.htm"
+    },
+    "162_10x10": {
+      "id": "162_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns - - - - - - - - ns\nns - se ew sw - - se sw ns\nns - ns - ns se ew nw ne nw\nne ew nw se nw ne sw - - -\n- - - ns - - ns se ew sw\nse sw - ne sw se nw ns - ns\nns ns - - ns ns - ns - ns\nns ne ew ew nw ne ew nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/162.a.htm"
+    },
+    "163_10x10": {
+      "id": "163_10x10",
+      "solution": "10 10\n- se ew ew ew sw - - - -\n- ne ew sw - ne sw - - -\n- - se nw - - ne sw - -\n- - ne sw se ew sw ne ew sw\nse sw - ns ns - ns - - ns\nns ne sw ne nw - ns - - ns\nns - ns - se ew nw - - ns\nns - ne ew nw - se sw se nw\nns se ew sw se sw ns ne nw -\nne nw - ne nw ne nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/163.a.htm"
+    },
+    "164_15x15": {
+      "id": "164_15x15",
+      "solution": "15 15\nse ew ew ew sw - - se ew sw - se ew ew sw\nns - - - ns - - ns - ns - ns - - ns\nns - se ew nw - - ns - ne ew nw - - ns\nns - ns - - - - ns - - - - se ew nw\nns - ns - - se ew nw se ew ew ew nw - -\nns - ne ew ew nw - - ns - - se ew ew sw\nns - - - - - - - ns - - ns - - ns\nne ew ew ew ew ew sw - ne ew ew nw - - ns\n- - - - - - ns - se ew sw - - - ns\nse ew ew sw - - ns - ns - ns - - - ns\nns - - ns - - ns - ns - ne ew sw - ns\nns - - ne ew ew nw - ne ew sw - ns - ns\nne ew sw - - se ew sw - - ns - ns - ns\n- - ns - - ns - ns - - ns - ne ew nw\n- - ne ew ew nw - ne ew ew nw - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/164.a.htm"
+    },
+    "165_10x10": {
+      "id": "165_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew ew ew sw\nns - ns ns - - se ew sw ns\nns - ns ne sw - ne sw ns ns\nns - ne sw ne ew ew nw ns ns\nns - - ne ew ew ew ew nw ns\nns - - se ew sw - - se nw\nns se sw ne sw ne sw - ns -\nns ns ne ew nw - ne sw ne sw\nns ne ew ew ew ew sw ne sw ns\nne ew ew ew ew ew nw - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/165.a.htm"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "solution": "10 10\n- - - se ew sw - - - -\n- se sw ne sw ne sw - - -\nse nw ne ew nw - ns se sw -\nns - - - - - ns ns ns -\nne sw - - - se nw ns ns -\nse nw - - - ne ew nw ne sw\nns - - - se sw - - - ns\nne sw - se nw ne ew ew ew nw\n- ne sw ns - - - - - -\n- - ne nw - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/166.a.htm"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "solution": "10 10\n- - se sw - se sw se sw -\nse sw ns ne ew nw ns ns ne sw\nns ne nw - - - ns ns - ns\nns - - - se sw ns ns - ns\nns - se ew nw ns ne nw se nw\nns - ns - - ns - - ne sw\nns - ns - - ns - - - ns\nns - ne sw se nw - se sw ns\nne sw - ns ns - - ns ns ns\n- ne ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/167.a.htm"
+    },
+    "168_22x32": {
+      "id": "168_22x32",
+      "solution": "22 32\nse ew ew sw - se ew ew ew sw - - - - - - se ew ew ew ew ew ew sw - se ew ew ew sw - -\nns - se nw - ne sw - - ns - - - se ew ew nw - - se ew ew sw ne ew nw - se ew nw - -\nns - ne ew ew ew nw - - ne sw - se nw - - - - se nw - - ne ew ew sw - ne ew ew ew sw\nns se ew ew ew sw - - - - ns - ns se ew ew sw se nw - - - se ew ew nw - - - - se nw\nns ne ew sw - ne ew sw - - ns - ne nw - - ns ne ew ew sw - ne sw - - - - - - ne sw\nne ew ew nw - - - ns - - ne sw - se sw - ne sw - - ns - - ne sw - - - - se sw ns\nse ew ew ew ew sw - ne ew sw se nw se nw ns se ew nw - - ns - - se nw - se sw se nw ns ns\nne ew ew sw - ns - - - ns ne ew nw - ne nw - se ew sw ne sw - ns se sw ns ne nw se nw ns\n- - - ns - ne sw - - ns - - - - - - - ns - ns - ns - ne nw ne nw - se nw - ns\n- - - ns se sw ne sw se nw - - - se ew sw se nw - ns - ne ew sw - se ew ew nw - se nw\nse sw - ns ns ns - ns ns - - se sw ne sw ne nw - - ns - se ew nw - ne ew sw - - ns -\nns ne sw ns ns ne ew nw ns - se nw ne ew nw se sw - - ns - ne sw - - se ew nw - - ns -\nns - ne nw ne ew ew ew nw - ns se sw - se nw ne sw se nw se ew nw - - ne ew ew sw se nw -\nne ew sw se ew sw - se ew ew nw ns ns se nw se sw ns ns - ns - - - se ew sw - ns ns - -\nse ew nw ne sw ns - ns - - - ns ne nw - ns ne nw ns - ne sw - - ns - ns - ns ns se sw\nne ew ew sw ns ne ew nw - - se nw - - - ns - se nw - - ns - se nw - ne ew nw ns ns ns\n- - - ns ne ew ew ew sw - ne ew sw - - ne sw ns - - - ns - ns - se ew sw - ne nw ns\nse sw se nw - - se sw ne sw - - ns - - - ns ns - se ew nw se nw - ns se nw - - - ns\nns ne nw - - - ns ns se nw - - ns - - - ne nw - ns - - ne ew sw ns ns - - - - ns\nns - - se sw - ns ns ns - - se nw - - - - se ew nw - - - se nw ns ns - - se ew nw\nne sw - ns ne ew nw ns ns - - ns - se sw - se nw - - - - - ns - ns ns - se nw - -\n- ne ew nw - - - ne nw - - ne ew nw ne ew nw - - - - - - ne ew nw ne ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/168.a.htm"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "solution": "10 10\n- se ew ew ew ew sw - se sw\nse nw - - - se nw se nw ns\nns - se ew sw ns - ns - ns\nne ew nw - ns ne ew nw - ns\n- - - se nw - - - se nw\nse sw - ns - - se sw ns -\nns ne ew nw se ew nw ns ne sw\nns - - - ne sw - ns - ns\nne ew sw - - ns - ne sw ns\n- - ne ew ew nw - - ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/169.a.htm"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "solution": "10 10\n- - - - - - - - - -\n- se ew ew ew ew ew ew sw -\n- ne sw - - se ew sw ns -\n- - ns - se nw - ne nw -\n- se nw - ns - se ew sw -\n- ns - - ne ew nw - ns -\n- ne ew sw - - - - ns -\n- se ew nw - se ew sw ns -\n- ne ew ew ew nw - ne nw -\n- - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/170.a.htm"
+    },
+    "171_16x26": {
+      "id": "171_16x26",
+      "solution": "16 26\nse sw se sw - se ew ew ew sw - se ew ew ew ew ew ew ew ew ew ew ew ew ew sw\nns ne nw ns - ns - - - ne ew nw se ew ew ew ew sw - - - - - - - ns\nns - - ne sw ne sw - se ew ew ew nw - - - se nw - - se sw - se ew nw\nns - - se nw - ns se nw se ew sw - - - se nw - se sw ns ns - ne ew sw\nne sw - ne ew sw ns ns - ne sw ne ew ew ew nw - se nw ne nw ns - - - ns\n- ns - - se nw ne nw - - ne sw - - se ew ew nw se sw - ns - se ew nw\n- ns - se nw - - - - - - ne sw - ns - se sw ns ne ew nw se nw - -\nse nw se nw se ew ew sw - - se sw ns - ns - ns ne nw - - se nw - - -\nns se nw - ns - - ns - - ns ne nw - ns - ns - - - - ns - - - -\nns ne ew ew nw se ew nw se ew nw se ew ew nw se nw se ew sw se nw se ew sw -\nns - - se ew nw se ew nw - - ne ew ew sw ns se nw se nw ne ew nw - ne sw\nne sw - ns - - ne ew ew ew sw - - - ns ne nw se nw - se ew ew ew sw ns\n- ns - ns - - se ew ew sw ns se ew ew nw - - ne ew sw ne sw - - ne nw\n- ne sw ns - - ns se sw ne nw ns se ew sw - - - se nw - ns se ew ew sw\nse ew nw ne ew ew nw ns ne sw - ne nw se nw - se ew nw - - ne nw se sw ns\nne ew ew ew ew ew ew nw - ne ew ew ew nw - - ne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/171.a.htm"
+    },
+    "172_10x10": {
+      "id": "172_10x10",
+      "solution": "10 10\n- se ew sw se ew ew ew ew sw\nse nw se nw ns - - - - ns\nne sw ne ew nw - se sw - ns\nse nw - se ew sw ns ne ew nw\nne ew sw ns se nw ns se ew sw\n- se nw ns ne ew nw ns - ns\nse nw - ne ew ew ew nw - ns\nns se ew sw se sw se ew sw ns\nns ns se nw ns ns ns se nw ns\nne nw ne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/172.a.htm"
+    },
+    "173_10x10": {
+      "id": "173_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew ew ew ew sw ns\nns ne ew ew ew ew ew sw ns ns\nns se ew ew ew ew sw ns ns ns\nns ns se sw se sw ns ns ns ns\nns ns ns ns ns ns ns ns ns ns\nns ns ns ne nw ns ns ns ns ns\nns ns ne ew sw ns ne nw ne nw\nns ne ew ew nw ne ew ew ew sw\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/173.a.htm"
+    },
+    "174_15x15": {
+      "id": "174_15x15",
+      "solution": "15 15\n- se ew ew ew ew ew ew ew ew ew sw - - -\nse nw se ew sw - - - - - se nw se ew sw\nns se nw - ne ew ew ew ew ew nw - ns - ns\nns ne ew ew ew ew ew ew ew ew sw - ne sw ns\nne ew sw - se ew ew ew ew ew nw - se nw ns\nse ew nw - ne ew ew ew ew ew ew ew nw - ns\nns se ew sw se ew ew ew ew ew ew sw - se nw\nns ns - ne nw - - - - - - ne sw ne sw\nns ns se sw se ew ew ew ew ew ew ew nw se nw\nns ns ns ne nw - - - - - - se ew nw -\nns ns ns - se ew ew ew ew ew ew nw - se sw\nns ns ns se nw - - - - - se ew ew nw ns\nns ns ne nw se ew ew ew ew ew nw se ew ew nw\nns ne ew ew nw - - - - - - ne sw - -\nne ew ew ew ew ew ew ew ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/174.a.htm"
+    },
+    "175_10x10": {
+      "id": "175_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nne sw - - se ew ew sw - ns\n- ns - - ns - - ns se nw\n- ns - se nw se ew nw ns -\n- ne ew nw - ns - - ne sw\n- - - - - ns se sw - ns\nse sw - se ew nw ns ns se nw\nns ns - ns - se nw ns ns -\nns ne ew nw - ns - ns ne sw\nne ew ew ew ew nw - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/175.a.htm"
+    },
+    "176_10x10": {
+      "id": "176_10x10",
+      "solution": "10 10\nse ew ew sw - - - - - -\nns - - ns - - se ew ew sw\nne sw - ne ew ew nw - se nw\n- ns - se ew sw - - ne sw\n- ne ew nw - ns - - - ns\n- - se ew ew nw - - - ns\n- - ns - - se ew sw se nw\n- - ns - - ne sw ns ns -\nse ew nw se ew sw ns ne nw -\nne ew ew nw - ne nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/176.a.htm"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "solution": "10 10\n- se ew ew sw - - - se sw\n- ne ew sw ns se sw - ns ns\nse ew ew nw ne nw ne ew nw ns\nns se sw - - - se sw se nw\nns ns ne ew ew ew nw ns ns -\nne nw - - - - - ns ns -\n- - - se ew ew sw ns ne sw\nse ew sw ne sw - ns ns - ns\nns - ne ew nw - ne nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/177.a.htm"
+    },
+    "178_10x10": {
+      "id": "178_10x10",
+      "solution": "10 10\n- - - - - - se ew ew sw\n- - - - - - ns - - ns\n- - se ew ew ew nw - - ns\n- - ne ew sw - - - - ns\n- se ew sw ns - - se ew nw\nse nw - ne nw - - ne ew sw\nns - - - - - - se ew nw\nns - - - - - - ns - -\nne ew sw - - - se nw - -\n- - ne ew ew ew nw - - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/178.a.htm"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "solution": "10 10\n- - - se ew sw - se ew sw\n- - - ne sw ne ew nw - ns\n- se ew sw ns - - - - ns\n- ne sw ne nw - - - - ns\nse sw ne sw - - - se ew nw\nns ne ew nw - - - ne sw -\nns - se sw - - - se nw -\nns se nw ns - - - ne sw -\nne nw - ne ew ew ew sw ne sw\n- - - - - - - ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/179.a.htm"
+    },
+    "180_30x45": {
+      "id": "180_30x45",
+      "solution": "30 45\nse sw - se ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew ew sw - - se ew ew ew ew sw - - se sw -\nns ne ew nw se ew ew sw - - - - se ew ew ew sw - - se sw - se sw - - se sw se ew sw ne sw - ne sw - - - ne sw - ns ne sw\nne ew ew ew nw - - ns se ew sw se nw - - se nw - se nw ne ew nw ne sw - ns ne nw se nw se nw - - ne sw - - - ne sw ne sw ns\nse ew sw - se ew ew nw ns se nw ns se sw - ns - - ne ew sw - - - ne sw ns - se nw - ns - se ew ew nw - se sw - ne ew nw ns\nns - ne sw ns - - se nw ns - ns ns ne sw ns - - - se nw - - - - ne nw - ne ew sw ne sw ne sw - - - ns ne ew sw - se nw\nns - - ne nw - - ns - ne ew nw ne sw ns ne sw - - ne ew ew sw - - - - se ew ew nw - ne ew nw - se sw ns - - ns - ns -\nns - se ew ew ew ew nw - - - - - ns ne ew nw - - - - - ne ew sw - - ne ew ew ew sw - - se ew nw ns ns se ew nw se nw -\nns se nw - - - - se ew ew sw - - ne sw - - - - - - - se sw ns - se ew ew sw se nw - se nw - se nw ns ns - se nw - -\nne nw - - - se ew nw se sw ne ew sw se nw - - - - - - se nw ns ns - ns - - ne nw - - ns se sw ne sw ns ns se nw se sw -\n- - se ew sw ns - - ns ne sw - ns ns - - - - se ew sw ne sw ne nw - ns - se ew ew sw - ne nw ns - ne nw ns ns - ns ns -\n- se nw - ne nw - - ns - ns - ne nw - - - - ne sw ns se nw - - - ne sw ns - - ns se ew sw ne sw - - ns ne ew nw ns -\n- ne ew ew sw - - se nw se nw - - - - - - se sw ns ns ne sw - - - se nw ne sw - ns ne sw ne ew nw - - ne sw - - ne sw\nse ew ew sw ne ew ew nw - ns - - - - - - - ns ne nw ne sw ns - - - ns se sw ne sw ns - ne sw - - - - - ns - se ew nw\nns - - ne sw - se ew ew nw - se sw - se ew sw ne ew ew sw ne nw - - se nw ns ne sw ns ne sw - ns se ew ew ew ew nw se nw - -\nns - se sw ns - ns - se sw - ns ne sw ns - ne ew ew ew nw - - se sw ne sw ne sw ns ns - ne ew nw ne ew ew sw - se nw - - -\nne ew nw ns ne sw ne ew nw ne sw ns se nw ns - se ew sw se ew ew ew nw ns - ne sw ns ns ne ew sw - - - - - ns - ne ew ew sw -\n- - - ne sw ne ew ew ew ew nw ns ne ew nw - ne sw ne nw se sw - - ns se sw ns ns ns - - ns - se ew sw - ne ew sw se sw ne sw\n- - - se nw - - - - - - ne sw - - - - ns - - ns ns - - ns ns ne nw ns ne sw se nw - ne sw ne sw - - ns ns ne sw ns\n- - - ne sw - - - se ew sw - ne sw - - - ns se ew nw ne ew sw ne nw se ew nw - ne nw - se ew nw - ne ew ew nw ne sw ns ns\nse ew ew ew nw - - - ne sw ns se ew nw - - - ne nw se ew sw - ne ew ew nw - se sw se ew sw ns - se ew ew ew ew sw - ns ne nw\nns - - - se sw - se sw ns ne nw - - se ew sw - - ne sw ns se ew sw - - se nw ns ne sw ns ne ew nw - - - - ns - ne ew sw\nns - - - ns ne sw ns ne nw se sw se ew nw - ne ew ew sw ns ns ne sw ne ew sw ne sw ns - ns ne sw - - - se sw - ns - - - ns\nns se ew ew nw - ns ne ew ew nw ns ne sw - - se sw se nw ns ne ew nw - - ne ew nw ns se nw - ns - se sw ns ne ew nw - - - ns\nns ne ew sw - - ne sw - - se nw - ne ew sw ns ne nw se nw - - - - - - - - ne nw - - ne ew nw ne nw - se ew sw - - ns\nns - - ne sw - se nw - - ne ew sw - se nw ns - - ns - - - - - - se sw - se ew ew sw - - - - - - ne sw ne ew ew nw\nns se ew ew nw - ns se sw - se ew nw - ns - ns - - ns - - se sw - se nw ne sw ns - - ne ew ew ew sw - - - ne ew sw - -\nns ns - - - - ns ns ne ew nw - - - ns - ne ew sw ns - - ns ns se nw - se nw ns se sw - se ew ew nw - - se sw - ne ew sw\nns ne ew ew sw - ne nw - - - - se ew nw - - - ne nw - - ns ns ne sw - ns - ns ns ne ew nw - - se ew sw ns ne ew sw - ns\nns - - - ne sw - - - - se ew nw se sw - - - - se ew sw ns ns - ns - ns - ns ns - - - se sw ns - ne nw - se nw se nw\nne ew ew ew ew nw - - - - ne ew ew nw ne ew ew ew ew nw - ne nw ne ew nw - ne ew nw ne ew ew ew nw ne nw - - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/180.a.htm"
+    },
+    "181_15x15": {
+      "id": "181_15x15",
+      "solution": "15 15\n- - - - se ew ew ew ew ew ew sw - se sw\n- se ew ew nw se ew ew ew sw - ne sw ns ns\n- ns se ew sw ns se ew sw ne sw - ne nw ns\n- ne nw - ns ns ns - ns se nw - - - ns\nse ew ew sw ns ne nw se nw ns - se ew sw ns\nns - - ns ne sw se nw se nw - ne sw ns ns\nne sw se nw - ne nw se nw - - - ns ne nw\n- ns ne sw - se ew nw se sw - - ne ew sw\nse nw - ne ew nw - se nw ne ew ew sw - ns\nns - se ew ew ew sw ns se ew ew sw ne ew nw\nns se nw - - - ns ns ns - se nw se sw -\nns ns - - - - ns ns ne sw ns - ns ns -\nne nw - - - se nw ne ew nw ne ew nw ns -\n- - - - - ns - - - - - - - ns -\n- - - - - ne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/181.a.htm"
+    },
+    "182_12x25": {
+      "id": "182_12x25",
+      "solution": "12 25\nse sw se sw se ew sw - - - - - se ew ew ew ew ew ew ew ew ew ew sw -\nns ne nw ns ne sw ne ew sw - se sw ns se ew ew sw - - se ew ew sw ns -\nne sw - ns se nw - - ns se nw ns ns ns se sw ns - - ns se sw ne nw -\n- ns - ns ns - - - ns ns se nw ns ns ns ns ne sw - ne nw ns - - -\nse nw - ns ne sw - - ns ns ns se nw ns ns ne sw ne ew ew sw ns - - -\nns - - ns - ns - se nw ns ne nw se nw ne sw ns se ew ew nw ns se ew sw\nns se sw ne ew nw - ns se nw se sw ne ew sw ns ns ns - - - ne nw - ns\nns ns ne sw - - - ne nw se nw ne ew sw ne nw ns ne ew ew sw - se sw ns\nns ns - ne ew ew sw se sw ns se ew sw ne ew sw ne ew ew sw ne sw ns ne nw\nns ns se ew ew sw ne nw ne nw ne sw ne ew sw ne ew ew ew nw - ns ne sw -\nns ne nw se sw ne ew ew ew ew sw ns se sw ne ew ew ew ew ew ew nw - ne sw\nne ew ew nw ne ew ew ew ew ew nw ne nw ne ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/182.a.htm"
+    },
+    "183_12x25": {
+      "id": "183_12x25",
+      "solution": "12 25\n- - se sw se ew ew sw - se sw - se ew ew ew ew ew ew ew sw - - - -\n- - ns ns ns - - ne ew nw ne ew nw se ew sw - - - - ns se ew sw -\n- - ns ns ne sw se sw - - - - - ns - ns - - - se nw ns - ns -\nse ew nw ne ew nw ns ns - se ew sw - ns - ne sw - - ns - ns - ne sw\nns - - - - - ns ne ew nw - ns - ne sw - ne ew sw ns - ne ew sw ns\nns - - se sw - ne sw - - - ne ew ew nw - - - ns ns - - - ns ns\nns - - ns ns - - ne ew ew ew ew ew ew sw se sw - ne nw - se ew nw ns\nns se ew nw ns se ew sw se ew sw - se sw ne nw ns se ew ew ew nw se ew nw\nns ns se sw ns ne sw ne nw - ns se nw ns - - ns ns se sw - se nw - -\nns ne nw ns ne ew nw se ew ew nw ns - ns se sw ne nw ns ne sw ne ew sw -\nne ew ew nw - - - ne ew ew sw ne sw ns ns ne sw - ne sw ns - - ns -\n- - - - - - - - - - ne ew nw ne nw - ne ew ew nw ne ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/183.a.htm"
+    },
+    "184_10x10": {
+      "id": "184_10x10",
+      "solution": "10 10\nse ew ew sw se ew ew ew ew sw\nne sw - ne nw se ew ew sw ns\nse nw se sw se nw - se nw ns\nne ew nw ns ns se ew nw se nw\nse ew ew nw ns ns se sw ns -\nne ew ew sw ns ne nw ns ne sw\nse sw se nw ne ew sw ne sw ns\nns ne nw se ew sw ns - ns ns\nns - - ns se nw ns se nw ns\nne ew ew nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/184.a.htm"
+    },
+    "185_15x15": {
+      "id": "185_15x15",
+      "solution": "15 15\n- - se sw - se ew ew ew sw se ew sw - -\nse ew nw ne ew nw se sw - ne nw - ne ew sw\nns - - se sw - ns ne ew sw - - - - ns\nne sw se nw ne ew nw - - ne ew sw se ew nw\n- ns ns se ew ew sw - se sw - ns ne sw -\n- ne nw ns - - ns - ns ne sw ns - ns -\n- - se nw - - ns se nw - ne nw - ns -\nse ew nw se sw se nw ns se sw - - - ns -\nns se ew nw ns ns - ne nw ns se ew ew nw -\nne nw se ew nw ne ew sw se nw ne ew sw - -\n- se nw - - - se nw ns se ew sw ne ew sw\nse nw se sw - se nw se nw ns - ne sw - ns\nns - ns ns - ns se nw - ns - - ns se nw\nns se nw ne sw ne nw se sw ne sw - ns ns -\nne nw - - ne ew ew nw ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/185.a.htm"
+    },
+    "186_15x15": {
+      "id": "186_15x15",
+      "solution": "15 15\n- - se sw - se ew ew ew sw se ew sw - -\nse ew nw ne ew nw se sw - ne nw - ne ew sw\nns - - se sw - ns ne ew sw - - - - ns\nne sw se nw ne ew nw - - ne ew sw se ew nw\n- ns ns se ew ew sw - se sw - ns ne sw -\n- ne nw ns - - ns - ns ne sw ns - ns -\n- - se nw - - ns se nw - ne nw - ns -\nse ew nw se sw se nw ns se sw - - - ns -\nns se ew nw ns ns - ne nw ns se ew ew nw -\nne nw se ew nw ne ew sw se nw ne ew sw - -\n- se nw - - - se nw ns se ew sw ne ew sw\nse nw se sw - se nw se nw ns - ne sw - ns\nns - ns ns - ns se nw - ns - - ns se nw\nns se nw ne sw ne nw se sw ne sw - ns ns -\nne nw - - ne ew ew nw ne ew nw - ne nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/186.a.htm"
+    },
+    "187_15x15": {
+      "id": "187_15x15",
+      "solution": "15 15\nse ew sw se sw - - se sw - - - - se sw\nns se nw ns ns - - ns ns se ew sw - ns ns\nns ne ew nw ne ew sw ns ns ne sw ns - ns ns\nne ew ew ew ew sw ne nw ne ew nw ne ew nw ns\n- se ew sw se nw - - - - - - se ew nw\n- ns se nw ns - - - - - se sw ne ew sw\n- ns ne ew nw - se ew ew ew nw ns - se nw\n- ne sw se ew sw ns se ew sw - ns se nw -\nse sw ns ns - ns ns ne sw ns - ns ns se sw\nns ne nw ns se nw ne ew nw ne sw ns ne nw ns\nns - - ns ne ew ew ew ew ew nw ns - se nw\nne ew sw ns - - se ew sw se sw ns - ns -\nse sw ns ns - - ns se nw ns ne nw - ns -\nns ne nw ns - se nw ne ew nw - - - ns -\nne ew ew nw - ne ew ew ew ew ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/187.a.htm"
+    },
+    "188_15x19": {
+      "id": "188_15x19",
+      "solution": "15 19\n- se ew ew ew sw se sw - - - - - - se ew ew ew sw\n- ns - - - ne nw ns - - - - - - ne sw - - ns\nse nw se ew sw - - ne sw se ew sw se sw - ns - - ns\nne sw ns se nw - - - ne nw se nw ns ns - ns - - ns\n- ne nw ne ew ew ew sw - - ne ew nw ne ew nw se ew nw\n- - - - - - - ne sw - - - - - - - ne sw -\nse ew sw - se ew sw - ns - se ew ew sw se sw - ns -\nns - ne sw ns se nw se nw - ns - se nw ns ne sw ne sw\nne sw - ne nw ne ew nw - - ne sw ne ew nw - ne ew nw\n- ne sw - - - - - - se sw ns - - - - - - -\nse ew nw se sw - se ew sw ns ns ne sw se ew sw se sw -\nns - - ns ne sw ns se nw ns ns - ne nw se nw ns ne sw\nns - - ns - ne nw ne ew nw ns - se sw ne ew nw - ns\nns - - ne sw - - - - - ns - ns ns - - - se nw\nne ew ew ew nw - - - - - ne ew nw ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/188.a.htm"
+    },
+    "189_10x10": {
+      "id": "189_10x10",
+      "solution": "10 10\n- se sw se sw se ew ew ew sw\nse nw ns ns ns ne ew ew sw ns\nns se nw ns ne ew ew ew nw ns\nns ns - ne sw se ew sw se nw\nns ne ew ew nw ne sw ns ns -\nns - se ew sw se nw ns ne sw\nns se nw - ne nw - ne sw ns\nns ns se sw se ew ew sw ns ns\nns ne nw ns ne ew sw ne nw ns\nne ew ew nw - - ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/189.a.htm"
+    },
+    "190_10x10": {
+      "id": "190_10x10",
+      "solution": "10 10\n- - - - - - se ew ew sw\n- - - - se sw ne sw - ns\n- se sw se nw ne sw ns - ns\nse nw ne nw se sw ns ns - ns\nns - - se nw ne nw ne sw ns\nne ew sw ne sw se ew sw ns ns\n- se nw se nw ne sw ne nw ns\n- ns se nw se sw ne sw - ns\n- ns ne ew nw ne ew nw - ns\n- ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/190.a.htm"
+    },
+    "191_10x10": {
+      "id": "191_10x10",
+      "solution": "10 10\nse ew sw - se ew ew ew ew sw\nns - ns - ns - se ew sw ns\nns - ne ew nw se nw - ns ns\nne sw - - se nw - - ns ns\nse nw - - ne sw se ew nw ns\nns se sw se sw ns ns se ew nw\nne nw ns ns ns ns ns ne sw -\n- - ns ns ns ns ne ew nw -\n- - ns ns ns ne ew ew sw -\n- - ne nw ne ew ew ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/191.a.htm"
+    },
+    "192_10x10": {
+      "id": "192_10x10",
+      "solution": "10 10\n- - se ew ew ew ew ew sw -\n- - ns se ew ew ew sw ns -\n- - ns ne ew ew sw ns ns -\n- - ns se ew ew nw ns ns -\n- - ns ne ew ew sw ns ns -\n- - ns se ew ew nw ns ns -\n- - ns ns - - - ns ns -\n- se nw ns - - - ns ns -\nse nw se nw - - se nw ns -\nne ew nw - - - ne ew nw -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/192.a.htm"
+    },
+    "193_15x15": {
+      "id": "193_15x15",
+      "solution": "15 15\n- - - - se sw - - se ew ew ew ew sw -\n- - - - ns ns - se nw - - - se nw -\n- - - - ns ne sw ne sw - - - ne sw -\n- se ew ew nw - ne sw ns - - - - ns -\n- ns se sw - - - ns ns se ew sw - ne sw\n- ne nw ns - - - ne nw ne sw ns se sw ns\n- - se nw - - - - se ew nw ne nw ne nw\n- - ne sw se ew sw - ns se ew sw - - -\nse ew ew nw ns se nw - ne nw - ns - - -\nns - - - ns ns - - - - - ns - - -\nns se ew ew nw ns - - - - - ns se ew sw\nne nw - se ew nw - - - - - ne nw - ns\n- - - ns se ew ew ew ew ew ew sw - - ns\n- - - ne nw - - se ew ew ew nw se ew nw\n- - - - - - - ne ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/193.a.htm"
+    },
+    "194_15x15": {
+      "id": "194_15x15",
+      "solution": "15 15\nse ew ew sw - se ew ew ew sw - - - - -\nns - - ns se nw - - - ns - - se sw -\nns - - ns ns - - - - ns - - ns ne sw\nns - - ne nw - - - - ne ew ew nw - ns\nns - - - - - - - - - - - - - ns\nne ew ew ew ew ew sw se ew sw - se ew ew nw\n- - - se ew sw ne nw - ns - ns - - -\nse ew ew nw - ne ew ew ew nw - ne sw - -\nns - - - - - - - - - - se nw - -\nne ew sw - se sw - - - - - ns se sw -\n- se nw - ns ne ew ew ew ew ew nw ns ns -\n- ns - - ns - - - se ew ew ew nw ne sw\n- ns - - ne ew ew ew nw - - - - - ns\n- ns - - - - - - - - - - - - ns\n- ne ew ew ew ew ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/194.a.htm"
+    },
+    "195_15x20": {
+      "id": "195_15x20",
+      "solution": "15 20\nse ew ew ew sw - - se ew ew ew ew sw se ew ew ew ew ew sw\nns - - se nw se ew nw - - se sw ns ne sw - - - se nw\nns - - ne ew nw - - se sw ns ne nw - ns - - - ns -\nne sw - se sw - - - ns ne nw - se sw ns - se sw ns -\n- ns - ns ns - - - ne ew ew ew nw ne nw - ns ne nw -\n- ns - ns ne ew sw - - - - - - - se ew nw - - -\n- ne sw ns - se nw - - - - se ew ew nw - - - - -\n- - ne nw se nw - - se ew ew nw se ew ew ew ew ew ew sw\nse ew sw - ns - - - ns se sw - ns - - - - - - ns\nne sw ne ew nw - - - ne nw ne ew nw se ew sw - - - ns\n- ns - - se sw - - - - - se sw ns - ns - se ew nw\n- ns se ew nw ns - - - se sw ns ne nw - ne sw ns - -\n- ne nw - se nw se sw - ns ne nw - - se ew nw ns se sw\n- - - - ns - ns ns - ne ew sw - se nw - - ne nw ns\n- - - - ne ew nw ne ew ew ew nw - ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/195.a.htm"
+    },
+    "196_10x10": {
+      "id": "196_10x10",
+      "solution": "10 10\nse ew ew ew sw se ew ew ew sw\nns se ew sw ns ns se ew sw ns\nns ns - ne nw ns ns se nw ns\nns ne ew sw - ne nw ns - ns\nns se sw ns se ew sw ns se nw\nns ns ns ns ne sw ns ns ne sw\nns ns ns ne ew nw ns ns se nw\nns ns ne ew ew ew nw ns ne sw\nns ne ew ew ew ew ew nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/196.a.htm"
+    },
+    "197_15x15": {
+      "id": "197_15x15",
+      "solution": "15 15\n- se sw se ew sw se ew sw se ew sw - se sw\nse nw ns ns - ne nw - ns ns - ne ew nw ns\nns - ns ne sw - - se nw ne sw - - - ns\nns se nw - ne ew sw ne ew sw ne sw - se nw\nns ns se ew sw - ns - se nw - ns - ne sw\nns ne nw - ne ew nw - ns - se nw - - ns\nns - - se ew sw - - ns - ne sw se ew nw\nne sw - ns - ne sw se nw - - ns ns - -\n- ns - ne sw - ne nw - - se nw ns - -\nse nw se ew nw se ew sw se ew nw se nw - -\nns - ns - se nw - ns ns - - ns - se sw\nne sw ne ew nw - se nw ne ew sw ne ew nw ns\nse nw se ew sw - ns - - - ns - se ew nw\nns - ns - ns - ne ew ew ew nw - ns - -\nne ew nw - ne ew ew ew ew ew ew ew nw - -",
+      "source": "https://www.janko.at/Raetsel/Moonsun/197.a.htm"
+    },
+    "198_23x33": {
+      "id": "198_23x33",
+      "solution": "23 33\nse ew ew sw - - - se ew ew sw - se ew sw - se ew ew sw - - se ew sw - - - - se ew ew sw\nns - - ns - - - ne ew sw ne sw ns - ne ew nw - - ns - - ne sw ne ew sw - - ns - - ns\nns - - ns - - se ew sw ne sw ne nw se ew ew sw - - ne ew sw - ns - - ns - - ns - - ns\nne sw se nw - se nw - ne sw ns - - ns - - ns - - - se nw se nw - - ns - - ne ew sw ns\n- ns ns - se nw - - - ne nw - se nw - - ne ew ew ew nw - ne sw - - ns - - - - ns ns\nse nw ns - ne sw - - - - se sw ns se sw - se sw - - - - - ns - - ns - - - - ns ns\nne sw ne ew sw ne sw - se ew nw ne nw ns ne ew nw ns se sw - - - ns - - ns - - - - ns ns\nse nw - se nw se nw - ne sw - - se nw se ew sw ns ns ne ew sw - ns - - ne ew sw - - ns ns\nne ew sw ne ew nw - - - ne ew ew nw se nw - ne nw ns - se nw - ns - - - - ns - se nw ns\n- - ns - se sw - se ew sw - - - ns - se ew ew nw - ne ew sw ne ew sw - se nw se nw - ns\n- - ns se nw ns - ns - ne ew sw se nw se nw se ew ew sw - - ns - - ns - ns - ns - - ns\n- - ns ns - ne ew nw se ew ew nw ne ew nw - ne ew sw ne sw - ns - - ns - ne ew nw - se nw\n- se nw ne ew sw se ew nw se sw - - - se sw - - ns - ns - ne ew sw ne sw - - - se nw -\nse nw - - - ns ne ew ew nw ne sw - - ns ne ew sw ns - ns - - - ne sw ne ew sw - ns - -\nns - - - - ns - - - - - ns - - ns se sw ne nw - ns - - - - ne ew ew nw se nw - -\nne sw - se ew nw se ew ew sw - ns - - ns ns ns - - - ne sw - - - - - - - ns se ew sw\n- ns - ne sw - ne sw - ne sw ne ew sw ne nw ns - - - - ne ew ew ew sw - - - ne nw - ns\nse nw - - ne sw se nw - se nw - se nw - - ns - se sw - - - - - ne ew ew ew sw - - ns\nns se ew ew sw ne nw se ew nw - - ns - se sw ne sw ns ne sw - - se ew ew ew sw se nw se ew nw\nns ne ew sw ns - se nw - - - - ne sw ns ne ew nw ne sw ne ew ew nw - - - ne nw - ne ew sw\nns - - ns ne sw ne ew sw - - se ew nw ne sw - - - ne ew sw - se ew sw - - se sw - - ns\nns - - ns - ns - - ne sw - ne sw - - ne ew sw - - - ns se nw - ne sw - ns ns - - ns\nne ew ew nw - ne ew ew ew nw - - ne ew ew ew ew nw - - - ne nw - - - ne ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/198.a.htm"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "solution": "10 10\n- - se ew sw se ew ew sw -\n- - ne sw ns ne ew sw ne sw\nse ew ew nw ns se ew nw - ns\nns se sw - ne nw - - - ns\nns ns ne ew ew ew ew ew sw ns\nns ne ew ew ew sw - - ns ns\nns - - se ew nw - - ns ns\nns - se nw - - se ew nw ns\nne sw ne ew sw se nw - - ns\n- ne ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/199.a.htm"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "solution": "10 10\nse ew ew ew sw se ew sw - -\nns se ew ew nw ns se nw se sw\nns ns - - - ns ns se nw ns\nns ne ew ew sw ns ns ns - ns\nne sw - - ne nw ne nw - ns\n- ne ew sw - - - - se nw\n- - - ne ew sw se sw ns -\nse ew sw - - ne nw ns ne sw\nns - ne ew ew ew ew nw - ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Moonsun/200.a.htm"
+    }
+  }
+}

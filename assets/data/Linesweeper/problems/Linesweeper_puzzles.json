@@ -1,0 +1,1866 @@
+{
+  "puzzles": {
+    "1_4x4": {
+      "id": "1_4x4",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/001.a.htm",
+      "problem": "4 4\n- - - -\n- - - -\n- 1 - -\n- - - -"
+    },
+    "2_7x7": {
+      "id": "2_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/002.a.htm",
+      "problem": "7 7\n- - - - - - -\n- - - - - - 3\n- - 4 - - - -\n3 - - - - - 3\n- - 7 - 6 - -\n- - - - - - -\n- 3 - 3 - 2 -"
+    },
+    "3_7x7": {
+      "id": "3_7x7",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/003.a.htm",
+      "problem": "7 7\n- - - - - - 3\n- 6 5 - 7 - -\n- 6 - - - - -\n- - - - 8 - -\n- - 8 - - - 5\n- - - - 8 - -\n3 - - - - - -"
+    },
+    "4_8x8": {
+      "id": "4_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/004.a.htm",
+      "problem": "8 8\n- 1 - - - - - 1\n1 - - - - - - -\n2 - - - 2 - - -\n- - - 1 - 2 - -\n- - - - 2 - - -\n2 - - - - - - -\n1 - - - - - 2 -\n- 1 - - - 1 - -"
+    },
+    "5_9x9": {
+      "id": "5_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/005.a.htm",
+      "problem": "9 9\n3 - - 5 - - - - -\n- - - - - - - - -\n- - - - - - - - -\n- - - 2 - 2 - - -\n- - - - - - - 8 -\n- - - 2 - 2 - - -\n- 7 - - - - - - -\n- - - - - - - - -\n- - - - - - - - -"
+    },
+    "6_9x9": {
+      "id": "6_9x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/006.a.htm",
+      "problem": "9 9\n- - - - - - - - -\n- - - 4 - 2 - - -\n- - - - - - - - -\n- 7 - - - - - 2 -\n- - - - 1 - - - -\n- 5 - - - - - 4 -\n- - - - - - - - -\n- - - 5 - 7 - - -\n- - - - - - - - -"
+    },
+    "7_8x8": {
+      "id": "7_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/007.a.htm",
+      "problem": "8 8\n3 - - - - - - 0\n- - - - - - - -\n- - - 1 3 - - -\n- - 0 - - 2 - -\n- - 1 - - 1 - -\n- - - 2 2 - - -\n- - - - - - - -\n2 - - - - - - 1"
+    },
+    "8_10x10": {
+      "id": "8_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/008.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 6 - - - - 6 - -\n- - - - - 5 - - - -\n- - - - - - - - - -\n- - 3 - 4 - 7 - 5 -\n- - - - - - 6 - - -\n- - - - - - - - 4 -\n- - - 2 - - 5 - - -\n- - - - - - - 6 - -\n- - - 4 - - - - - 2"
+    },
+    "9_10x10": {
+      "id": "9_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/009.a.htm",
+      "problem": "10 10\n1 - - - - - - - - 3\n- - - - - - - - - -\n- - - - - - - - - -\n1 - - - 1 - 1 - - -\n- - 1 - - - - - - -\n- - - - - - 1 - - -\n- - - 1 - 1 - - - -\n- - - - - - - - - -\n- 8 - - - - - - - -\n- - - - - - - - - 1"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/010.a.htm",
+      "problem": "10 10\n- - - - - 3 - - - -\n- 6 - - - - - - 6 -\n- - 3 - - - - 3 - -\n- - - 0 - - 0 - - -\n3 - - - 0 0 - - - 4\n- - - - 2 2 - - - -\n- - - 5 - - 4 - - -\n- - 4 - - - - 4 - -\n- 5 - - - - - - 6 -\n- - - - 4 - - - - -"
+    },
+    "11_12x12": {
+      "id": "11_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/011.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - 3\n- 3 - - 6 6 6 - 4 4 - -\n- 3 - - - - - - - - 5 -\n- - - - - - - - - - 5 -\n- - - - 1 - 1 - - - - -\n- 0 - - - - - - - 6 6 -\n0 - - - 1 - 1 - - - - -\n- - - - - - - - - - - -\n1 - - - - - - - - - - 0\n- - - - 6 6 6 - - - - 0\n- - - - - - - - - - 0 -\n1 2 - - 3 3 3 - - - - -"
+    },
+    "12_4x11": {
+      "id": "12_4x11",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/012.a.htm",
+      "problem": "4 11\n- 2 - 2 - - - 1 - - -\n- - - - - - - - - - -\n- - - - 8 - - - - - 3\n- - - - - - - - - - -"
+    },
+    "13_6x9": {
+      "id": "13_6x9",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/013.a.htm",
+      "problem": "6 9\n- - - - - - - - -\n- - - - - - 5 - -\n- 3 - - 0 - - - -\n- - - - 0 - - - -\n- - - - - - - 7 -\n3 - - - - - - - -"
+    },
+    "14_6x10": {
+      "id": "14_6x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/014.a.htm",
+      "problem": "6 10\n- - - - - - - - - -\n- - 7 5 - - - 6 7 -\n3 - - - - - - - - -\n- 2 - - - - - - - -\n- - 1 4 - - - 0 - -\n- - - - - - - - - -"
+    },
+    "15_7x12": {
+      "id": "15_7x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/015.a.htm",
+      "problem": "7 12\n- - - - - - - - - - - -\n- 4 - - - - - - - - - -\n- - - - - 8 - - - - - -\n- 8 - - - - - - 0 - - -\n- - - - - - - - - 4 - -\n- - - 4 - - - - - - 4 -\n1 - - - 2 - - - - - - -"
+    },
+    "16_8x10": {
+      "id": "16_8x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/016.a.htm",
+      "problem": "8 10\n- - - 4 - - - - - -\n- 7 - - - - 2 - 2 -\n- - - - - - - - - -\n- - - 2 - - - - - -\n1 - - - - - 6 - - -\n- - - - - - - - - -\n- 1 - 4 - - - - 8 -\n- - - - - - 3 - - -"
+    },
+    "17_9x10": {
+      "id": "17_9x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/017.a.htm",
+      "problem": "9 10\n- - - - - - - - - -\n- 3 - - 7 - - - - 2\n- - - - - - - - - -\n- - 8 - 8 - - 7 - -\n- - - - - - - - 7 -\n- - - - 8 - 6 - - -\n- - - - - - - - - -\n- - 4 - 3 - - - - -\n- - - - - - - 2 - -"
+    },
+    "18_10x12": {
+      "id": "18_10x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/018.a.htm",
+      "problem": "10 12\n- - - - - - 4 - - - - -\n- 2 - - - - - - - - 6 -\n- - 2 - - - - - - 6 - -\n- - - - - - - - - - - -\n- - - - 6 - - 6 - - 8 -\n- 4 - - 6 - - 6 - - - -\n- - - - - - - - - - - -\n- - 7 - - - - - - 4 - -\n- 7 - - - - - - - - 4 -\n- - - - - 5 - - - - - -"
+    },
+    "19_10x18": {
+      "id": "19_10x18",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/019.a.htm",
+      "problem": "10 18\n2 - - - - - - - - 0 - - - - - - - -\n- - - - 6 - 7 - - - - - - - - - 0 -\n- 8 - - - - - - 5 - - - - - 2 - - -\n- - - - - - - - - - - - - - - - - -\n4 - 8 - 3 - - - 7 - 5 - - - - 5 - -\n- - - - - - - - - - - - - 8 - - - 3\n- - 8 - - - - - 5 - - - - - - - - -\n- - - - 4 3 - - - - - - - - - - - -\n- - - - - - - - 7 - 7 - - 0 - - 3 -\n2 - - - - - - - - - - - - - - - - -"
+    },
+    "20_16x16": {
+      "id": "20_16x16",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/020.a.htm",
+      "problem": "16 16\n3 - - 5 - - - - - - - - 2 - - 3\n- - - - - - - 3 3 - - - - - - -\n- - - - - - - 2 3 - - - - - - -\n4 - - 5 - - - - - - - 6 7 - - 3\n- - - - 1 - - 0 - - - - - - - -\n- - - - - - - - - - - 5 5 - - -\n- - 7 - - - - - - - - 5 5 - - -\n4 - - - 5 - - 1 - - - - - - - 4\n4 - - - - - - - 5 - - 3 - - - 4\n- - - 1 1 - - - - - - - - 3 - -\n- - - 1 1 - - - - - - - - - - -\n- - - - - - - - 4 - - 2 - - - -\n5 - - 6 - - - - - - - - 0 - - 4\n- - - - - - - 1 1 - - - - - - -\n- - - - - - - 2 2 - - - - - - -\n3 - - 5 - - - - - - - - 5 - - 3"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/021.a.htm",
+      "problem": "8 8\n- - 5 - - - - -\n- - - - - - - -\n- - - 6 - - 6 4\n- - - - - - - -\n- - 7 - - - - -\n- - - - - - 8 -\n- - - - - - - -\n- 3 - 1 2 - - -"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/022.a.htm",
+      "problem": "8 8\n- - - - - - - -\n3 - - 7 - - - -\n- - - - - - - 5\n- - - - 6 - - -\n- 7 - - - - 8 -\n- 5 - - - - - -\n- - - 7 - 5 - -\n- - - - - - - -"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/023.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n4 - 6 - - - - -\n- - - - - 7 - 3\n- - - - - - - -\n5 - - 7 - - - -\n- - - - 7 - 8 -\n- - 8 - - - - -\n- - - - - - - 2"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/024.a.htm",
+      "problem": "8 8\n- - 5 - - - - -\n- - - - 7 - - -\n- - - - 6 - - 5\n- 3 - - - - - -\n- 2 - - - - 7 -\n- - - - - - - -\n- - - - - - - -\n2 - - - 4 - 2 -"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/025.a.htm",
+      "problem": "8 8\n- - - - - - - 3\n- - - - 7 7 - -\n- - 7 - - - - -\n- - - - - - - -\n- - - - 5 - - -\n- - 5 - 6 - - -\n- - - - - - - -\n- - - 5 - - - 3"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/026.a.htm",
+      "problem": "10 10\n- - - - - - - 3 - -\n- 6 - 5 - - - - - -\n- - 4 - - - - - 7 -\n- - - - 7 7 - 7 - -\n- - - - - - - - - -\n4 - - - 8 - - - - -\n- - - - - - - - - 5\n- 7 - 8 - - - - - -\n- - - - - - 6 6 7 -\n- - - - 5 - - - - -"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/027.a.htm",
+      "problem": "10 10\n- 3 - - - 3 - - - -\n- - - - - - - - - 3\n- 8 - - - - - - - -\n- - - 7 - - - 5 - -\n3 5 - - - - - - 6 -\n- - - - - - 7 - 7 -\n4 - - - - - - - - -\n- - - 4 - - - 7 - 5\n- - - - - - - 7 - -\n- 3 - - - 3 - - - -"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/028.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - 7 - - - -\n- - 4 - 4 - - 8 - -\n- - 5 - - - - - - 5\n- - - - - 5 - 5 - -\n- 8 - - - - - - - -\n- - - - 7 - - 5 - 5\n- - 8 - - - - - - -\n- - - - - - - - - -\n- 3 4 - - - 5 - - 3"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/029.a.htm",
+      "problem": "10 10\n- - 3 - - - - - - -\n- - - - - - - - 8 -\n- - - - 8 - - - - -\n- - 7 - - - - - - -\n- - - - - - 8 - - 2\n- 8 - 6 - - - - - -\n- - - - 4 5 - 7 7 -\n- - - - 4 4 - - - -\n- 6 - - - 5 - - - -\n- - - - - - - - 4 -"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/030.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n3 - - 6 - - 4 - - -\n- - - - - - 4 - 6 -\n- - - 7 - - - - - -\n- 2 - - - - - - - -\n- - - - - 3 - - 7 -\n- - 4 - - - - - - -\n- - - - - 5 4 - - 4\n- 8 - - - - - - - -\n- - - - - - - - - -"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/031.a.htm",
+      "problem": "8 8\n- - 4 - - - - -\n- - 7 - - - 7 -\n- - - - 7 - - -\n- - - - - - - -\n- - 6 - - - - -\n- 7 - - - - - 5\n- - - 7 - 8 - -\n- - - - - - - -"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/032.a.htm",
+      "problem": "8 8\n3 - - - 5 - - -\n- - - - - - 7 -\n- - - - - - - -\n- - - - - - - 3\n5 - - - 4 - 6 -\n- - - 5 - - - -\n- - - - - 7 - -\n3 - - - - - - 3"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/033.a.htm",
+      "problem": "8 8\n- - - - - - - 3\n- - - - - - - -\n5 - 8 - - - 7 -\n- - - - - - - -\n- 7 - 8 - 8 - -\n- - - - - - - -\n- - - 8 - - - -\n- 4 - - - 4 - -"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/034.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 5 - - - 8 -\n- 6 - 6 - - - -\n- - - - - - - -\n- - 6 - - 5 - -\n- - - - - - - -\n- 7 - - - 4 - -\n- - - - - - - -"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/035.a.htm",
+      "problem": "8 8\n- - 5 - - - - -\n- - - - 5 - - 3\n- - - - - - - -\n- - 7 - - - - -\n- - - - 4 - - -\n- - 6 - 5 - - 2\n- - - - - - - -\n- 3 - - - - - 2"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/036.a.htm",
+      "problem": "10 10\n- 3 4 - - 3 - - - 3\n- - - - - - 6 - - -\n- - - - - - - - - -\n- - - 5 - 7 - 7 - -\n- 7 - - - - - - - -\n- - - - 5 - - 5 6 -\n5 - - - - - 6 - - -\n- - 5 - - - 6 - - 4\n- - 5 - - - - - - -\n- - - - - 5 - - - -"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/037.a.htm",
+      "problem": "10 10\n- - - - - - 4 - - -\n- - - - - - - - 8 -\n- - 7 - - 6 - - - -\n- - - 6 6 - - - - -\n- - - - - - 6 - - -\n- - - 5 - - 6 - 6 -\n- - 4 - - - 7 - - -\n- - - - 7 - - - 8 -\n- - - - - - - - - -\n- 2 - 2 - 4 - - - 3"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/038.a.htm",
+      "problem": "10 10\n2 - - - - - - - - -\n- - - - 7 - - - 6 -\n- - - - - - - - 5 -\n- 3 3 - - - - - 5 -\n- 5 5 - 7 - - - 7 -\n- - - - - - 7 - - -\n- - - 5 - - 5 - - -\n- - 5 5 - - - - - 5\n- 7 - - - - - - - -\n- - - 5 - - 5 - - -"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/039.a.htm",
+      "problem": "10 10\n- - 4 - - - 5 - - -\n- - - - - - - - 8 -\n- - - 6 - 6 - - - -\n- - 5 - - 5 5 - - 5\n- - - 4 - - 6 - - -\n- - - 5 - - - - - -\n5 - - - - - - - - -\n- - 8 - - - 8 - 7 -\n- - - - 8 - - - - -\n- - 5 - - - - - - 3"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/040.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - 7 - 6 - - - 3\n- 5 - - - - - 7 - -\n- - 2 5 - - - - - -\n- 4 - - - 6 6 - - -\n- - 4 - - - - - - 5\n- - 6 - - 5 - 7 - -\n- - 7 - - - - - 7 -\n- - - - - - - - - -\n3 - - - - - - 5 - -"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/041.a.htm",
+      "problem": "8 8\n- - 4 3 - 3 - -\n- - - - - - - -\n- 7 - 7 - - 8 -\n- - - - - - - -\n- - - - - - - -\n4 6 - - 5 - 6 -\n- - - - 6 - - -\n- - - - - - - -"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/042.a.htm",
+      "problem": "8 8\n- - - 4 - - - -\n- - - - - - - 3\n3 - - - 5 - - -\n- - - 2 - - 6 -\n- - - - - - - -\n- - 5 - 5 - - -\n3 - - - - - - 4\n- - - 4 4 - - -"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/043.a.htm",
+      "problem": "8 8\n- - - 5 - - - -\n- 7 - - - - 6 -\n- - 7 - - 6 - -\n5 - - - - - - -\n- - - - - 7 - -\n- - - - 7 - - -\n4 - - - - - 8 -\n- - - - - - - -"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/044.a.htm",
+      "problem": "8 8\n- - - 5 - - - -\n- 8 - - - 6 - -\n- - - - - - - -\n- - 4 - - 5 - -\n- 3 - - - 4 - -\n- - - - - - - -\n- 8 - - - - - -\n- - - 4 - 4 - -"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/045.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n4 - - 5 - - 3 2 - -\n- - - - 5 - - - - -\n- - - - - - - 5 - -\n- - 6 - - 7 - 7 - -\n- - - - - - - - - -\n- 6 5 6 - - - 7 - -\n- - 5 - - 8 - - - -\n4 - - - - - - 6 6 -\n- - - - - - - - - -"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/046.a.htm",
+      "problem": "10 10\n3 - - - 4 - - - - -\n- - 7 - - - - - - 4\n- - - 7 - - - 7 - -\n4 - - - - - - - 6 -\n- - 7 - - - 7 - 6 -\n- - - - - 6 - - - -\n- - - - - 7 - 7 - -\n- - - 7 - - - - - -\n- - - - 7 - 7 - - -\n- - 5 - - - 4 - - 3"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/047.a.htm",
+      "problem": "10 10\n- - - - - - - 5 - -\n- - 6 7 - - - - - -\n- - - - - - - 5 7 -\n- - - - - - 5 - - -\n3 - - - 6 - - - - 5\n- - 6 - - - - - - -\n- - 4 3 - - 6 - - -\n5 - - 4 5 - - 7 - -\n- - - - - - - - - -\n- - - - - - - - - -"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/048.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - - 5 - -\n4 - - 7 - 3 - - - -\n3 - - - - - 6 - - -\n- - - - 5 - - - - 5\n- - - 6 - - - - - -\n- - - - - - - - 6 -\n3 - 7 - - - - - - -\n- - - - 5 2 - - - -\n- - - - - - - - - 2"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/049.a.htm",
+      "problem": "10 10\n- 3 - 4 - - - - - -\n- - - - - 6 - 6 - -\n- - 6 - - - - - - -\n- - - 4 - - - - 6 -\n- - - - - - - 7 - -\n- 7 - - 7 - - - - -\n- - - - - - 8 - 8 -\n- - - - - - - - - -\n- 7 - - 3 - - 7 - 4\n- - - - - - - - - -"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/050.a.htm",
+      "problem": "10 10\n3 - - - - - - - - -\n- - - - 7 5 - 6 - 3\n- 8 - - - - - - - -\n- - - - - - - - - 4\n5 - 7 7 - - - 6 - -\n- - - - - - - 5 6 -\n- 7 - - - 6 - - - -\n- 7 - - 7 - - - - 5\n- - - - - - - - - -\n3 - - 5 - - 5 - - -"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/051.a.htm",
+      "problem": "8 8\n- - - - - - - -\n4 - - 5 - - 8 -\n- - - 7 - - - -\n- 7 - - - - 6 -\n- - - - - - - -\n5 - 6 - - - - -\n- - - - - - 8 -\n- - - - 3 - - -"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/052.a.htm",
+      "problem": "8 8\n- - 5 - - - - -\n- - - - - 7 - -\n- - 8 - - - - -\n- - - - - - - 3\n- - - - - - - 3\n4 - 6 5 - - - -\n- - - - - - 8 -\n2 - - - - - - -"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/053.a.htm",
+      "problem": "8 8\n3 - - - 4 - - -\n- - 7 - - - - 3\n- - - - - - - -\n- - - - 4 - - -\n- - - - - 5 - 3\n5 - - - - - - -\n- - - - - - - 3\n- - - 5 - - - -"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/054.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- 7 - 6 - - - -\n- - - - - - - -\n3 5 - - - - 5 2\n- - - - 5 - - -\n- - - - - - - -\n- - 6 - - - 8 -\n2 - - - - - - -"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/055.a.htm",
+      "problem": "8 8\n- - - 5 - - - -\n- - - - - - - 2\n- - 5 - - - - -\n- - - - - - - 2\n3 - - - - 5 - -\n- - - - 5 4 - -\n- - - - - - - -\n3 - - - 5 - - -"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/056.a.htm",
+      "problem": "10 10\n- 2 - - - 2 - - - -\n- - 6 - - - 5 - - -\n- - - - - - - - 8 -\n- - 6 6 - - 6 - - -\n- - 6 - - 6 - - - 5\n- - - - - - - - - -\n- 7 - - - 5 7 - - -\n- - - - - - - - 7 -\n- 8 - - 5 - - - - -\n- - - - - - - 4 - -"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/057.a.htm",
+      "problem": "10 10\n- - - 5 - - - 4 - -\n- - - - - 8 - - - -\n5 - 7 7 - - - - - -\n- - - - - 8 - - - 3\n- 8 - - - - - 7 5 3\n- - - - 8 - - - - -\n5 - - - - - - 7 - -\n- - 4 - - - - 7 - -\n- - - - - - - - - -\n3 - - - - 5 - - 4 -"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/058.a.htm",
+      "problem": "10 10\n- - - - - - 2 - - -\n3 - 6 6 - 4 - - - -\n- - - - - - - - - 5\n3 - - - - - - 5 - -\n- - - - - 6 - - 6 -\n- 8 - 7 - - - - - -\n- - - 7 - - - 7 - -\n5 - - - - - - - - 4\n- - 7 - - - - - - -\n- - - - - - - - - 2"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/059.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 6 - 6 - - - - 3\n- 4 3 - - 7 - - - -\n- - - 5 - - - 5 - 3\n- - - - - - - 4 - -\n- - 8 - - - - 3 - -\n4 - - - 8 - - - - -\n- - - - - - 5 - - -\n2 - - - - 7 - - - -\n- 2 - - - - - 5 - -"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/060.a.htm",
+      "problem": "10 10\n- - 5 - - - - - - -\n- - - - 7 - - 8 - -\n- - 8 - - 7 - - - 5\n- - - - - - - - - -\n- - - - 6 - - - - -\n- - - - - - - - - 5\n5 - - 5 - - 7 - - -\n- - - - 6 - - 6 - -\n- 7 - - - - - - - -\n- - - 5 - - 4 3 - 2"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/061.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - 7 - 8 -\n4 7 - - - - - -\n- - - - 7 - - -\n- - - - 7 - - -\n- - - - - - 8 -\n- 7 - - - - - -\n- - - - 2 - - 3"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/062.a.htm",
+      "problem": "8 8\n- - - - - 4 - -\n- - - 7 - - - -\n5 - - - - - - -\n- - - - - 5 - 5\n- 6 - - - 4 - -\n- - - - 6 - - -\n- - - - - - - -\n- - 4 - - 5 - -"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/063.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 5 - - - 7 -\n- 5 - - - - - -\n- - 6 - 7 - 6 -\n- - - - - - - -\n- - - - 7 - - -\n- 7 - - - - 8 -\n- - - - - - - -"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/064.a.htm",
+      "problem": "8 8\n- - 4 - - - - 3\n- - - - 6 - - -\n- - - - - - - -\n- 8 - - - - 5 -\n- - - - - - - -\n5 - - - - 8 - -\n- - - 8 - - - -\n- - - - - 5 - -"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/065.a.htm",
+      "problem": "8 8\n- 4 - - - 5 - -\n- - - 8 - - - -\n- - - - - - - -\n- - - 7 - - - -\n- 7 - - 7 - 7 -\n- - - - - - 6 -\n- - 8 - - - - -\n- - - - 5 - - -"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/066.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - - 6 - -\n5 - - - 7 6 4 - - 5\n- - 6 - - - - - - -\n- - 3 - - - - - 7 -\n- 5 4 5 - - - - - -\n- - - - - 6 - - 6 4\n4 - - 8 - 6 - - - -\n- - - - - - - - - -\n- - - - 5 - - - - 3"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/067.a.htm",
+      "problem": "10 10\n- - - - 4 - - 3 - -\n- 8 - - - - - - - -\n- - - - - 6 - 5 - -\n5 - 8 - - - - 5 - 5\n- - - - - - - - - -\n- - - - - 7 - - - -\n- - 7 - - - - 8 - 4\n- 7 - - 6 - - - - 3\n- - - - - - - - - -\n3 - - 2 2 - - - 2 -"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/068.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - 8 - - - 8 -\n- 5 - - - - - - - -\n- 6 6 - - - - 8 - -\n- - - - 6 - - - - 5\n- - - - - - - 6 - -\n3 5 6 - - - - 4 - -\n- - - - 5 - - 3 - -\n- - 6 - - 5 - 5 - -\n- - - - - - - - - -"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/069.a.htm",
+      "problem": "10 10\n- 3 - 3 - - 5 - - -\n- - - - - - - - - -\n- - - 7 - - - - - 3\n5 - - - - - 8 - - 3\n- - 8 - - - - - - -\n- - - - - 5 - - - -\n5 - - 8 - 6 6 - 6 -\n- - - - - - - - - -\n- 8 - - - - - - 7 -\n- - - 5 - - 5 - - -"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/070.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - 6 - - -\n- 6 - - 7 - - - - -\n- 6 - - 6 - - - 6 -\n- - 6 - - - - 5 - -\n- - - 6 - - - 6 - -\n- - - 4 - - 7 - - -\n- 7 - - 6 - - - - 5\n- - - - - - - 8 - -\n- - - 5 - - - - - -"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/071.a.htm",
+      "problem": "8 8\n- - - 5 - - - -\n- 8 - - - 7 - -\n- - - - 5 - - 5\n- 7 - - - - - -\n- - - - - - 7 -\n- - - 6 - - - -\n- - 5 - - - - -\n- - - - 5 - - 3"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/072.a.htm",
+      "problem": "8 8\n- - - 4 - - - -\n- - - - - - 8 -\n- - 5 5 - - - -\n- - 5 - - - - 4\n- - 5 - - 6 - -\n- - - - - - - -\n- - - - - - - -\n3 - - 5 - - - 3"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/073.a.htm",
+      "problem": "8 8\n- 3 - 4 - - - -\n- - - - - 8 - -\n- 7 6 - - - - 4\n- - - - - - - -\n- - - - - - - 4\n4 6 - - - 7 - -\n- - - 8 - - - -\n- - - - - 5 - -"
+    },
+    "75_8x8": {
+      "id": "75_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/075.a.htm",
+      "problem": "8 8\n- - 4 - - - - -\n- - 7 - - 6 6 -\n- - - - - - 6 -\n- - - - - - - -\n5 - - - 8 - - -\n- - - - - - - -\n- 8 - - - - - -\n- - - 4 - - - 3"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/076.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - 2\n- - - - - 5 - - - -\n4 - - - - - 5 7 - 4\n- - - 6 - - - - - -\n- - - - - 7 - - 8 -\n- - - - - - - - - -\n- - 5 - - - 5 - - 5\n- 5 - - - 5 - 5 - -\n- - 6 - - 6 - - - -\n- - - - - - - - - -"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/077.a.htm",
+      "problem": "10 10\n- - - 5 - - - 4 - -\n- - - - - 8 - - - -\n4 - 8 - - - - - - -\n- - - - 7 - - 7 - -\n- 8 - - - - 6 - - 3\n- - - - - 6 - - - 3\n- - 7 - 7 - - 7 - -\n4 6 - - - - - - - -\n- - - - - - - 7 - -\n- - - - - - - - - -"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/078.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - 7 7 - - -\n- 8 - 7 - - - - - 5\n- - - - - 5 - 8 - -\n- - 8 - - - - - - -\n- - - - - 3 - - 6 -\n- - - 4 3 - - - - 3\n- - 5 - - - - 5 - -\n- - - - - - 5 - - -\n- - - 4 - - - - - -"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/079.a.htm",
+      "problem": "10 10\n- - - - - 3 - - - -\n- - - 8 - - - - - -\n5 - - - - - - - - 3\n- - 8 - 6 - - - - -\n- - - - 5 - 7 - - 2\n- - 7 - 5 - - 7 - -\n- - - - - - - - - -\n- - 7 - - - 8 - - -\n- - - - - - - - - 3\n- 4 - - 5 - - - - -"
+    },
+    "80_10x10": {
+      "id": "80_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/080.a.htm",
+      "problem": "10 10\n3 - - - - - 5 - - 3\n- - - - - - - - - -\n- 7 - - 7 - - - - -\n- - 4 - - - - 6 - 4\n4 - - - - - - - - -\n- - - - - - - 5 - -\n- - - - 4 3 - - - -\n4 - - - - 3 - - 6 -\n- - 8 - - - - - - -\n- - - - 5 - - - - 3"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/081.a.htm",
+      "problem": "8 8\n- 3 - - - - - 3\n- - - - - 7 - -\n- 8 - - - - - -\n- - - - - - - -\n- - - - - - - 5\n5 - - - 7 - - -\n- - - 6 - - - -\n- - - - - - - 2"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/082.a.htm",
+      "problem": "8 8\n- - 2 - - - - -\n- - - - - 6 7 -\n3 - - - - - - -\n- - - - - 8 - -\n- - - - - - - -\n5 - - 6 - - - -\n- - - - - - - -\n- - - 2 - - - 3"
+    },
+    "83_8x8": {
+      "id": "83_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/083.a.htm",
+      "problem": "8 8\n- - - - - - - 2\n- 6 5 - - - - -\n- - - - - 6 - -\n- - 6 - - - - -\n- - - - - - 5 -\n3 - 6 - - - - -\n- - - - - - 6 -\n- - - - 5 - - -"
+    },
+    "84_8x8": {
+      "id": "84_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/084.a.htm",
+      "problem": "8 8\n- - - - - 4 - -\n- - - - - - - -\n5 - 7 6 - - - -\n- - - - - - - 4\n- - - 7 7 - - -\n4 7 - - - - 8 -\n- - - - - - - -\n- - - - 5 - - -"
+    },
+    "85_8x8": {
+      "id": "85_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/085.a.htm",
+      "problem": "8 8\n3 - - - - - - 3\n- - - - - 7 - -\n- - - 8 - - 7 -\n5 - - - - - - -\n- - 6 - - - - -\n- 7 - - - - - 4\n- - - - - 7 - 3\n- - 5 - - - - -"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/086.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - 2\n- 8 - - - 6 - - - -\n- - - - - - - - - 2\n4 - - - 7 - 6 - 4 -\n- - - - - - 5 - - -\n- - - - - 5 - - - -\n- 4 - 3 4 - - - 7 -\n- 3 1 2 5 - - - - -\n- - 4 - - - - - 7 -\n- - - - 4 - 3 - - -"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/087.a.htm",
+      "problem": "10 10\n- - - - 4 - - - - -\n3 - 7 - 7 - - - 8 -\n- - 5 - - - 7 - - -\n- - - 6 - - 6 - - -\n- - - - - - - 7 - -\n3 - - 7 - - - - - 5\n- - - - 7 - - 8 - -\n- - 5 - - - - - - -\n- 6 - 6 - - - 8 - -\n- - - - - - - - - -"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/088.a.htm",
+      "problem": "10 10\n- 3 4 - - - - - - -\n- - - - - 6 5 5 - -\n- - - - - 5 - - - -\n- - 7 - - - - - 7 -\n- - - 7 - - - - - -\n- - - - - - 4 - - -\n4 - - - 6 - - - - -\n- - 8 - - - - - - -\n3 - - - - 8 - 7 - -\n- - - 5 - - - 4 - -"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/089.a.htm",
+      "problem": "10 10\n2 - 4 - - - - - - -\n- - - - - - - 6 - -\n- 8 - 8 - 6 - - - -\n- - - - - - - - - -\n- - - 5 - - 7 - - 4\n- 4 - - - - - - - -\n- - - - 8 - - - - -\n- - - - - - - 4 - -\n- - - 5 - 6 - - - -\n3 - - - - - - 5 - -"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/090.a.htm",
+      "problem": "10 10\n- - - - 4 - - - 4 -\n- 7 - - 5 - 6 - - -\n- - - 5 - - 4 - - -\n- 5 - - - - 4 - - 4\n- - 4 - - - - 5 - -\n- - - - - 7 - - - -\n- - - 6 - - - - - 4\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 5 - - 3 - 3 -"
+    },
+    "91_10x10": {
+      "id": "91_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/091.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - 7 - - 7 - - -\n- 4 - 6 - - - - 7 -\n2 - - - 6 - - - - -\n- - - - - 6 5 - - 5\n- 7 - - - - - - - -\n- - - - - 8 - - - -\n5 - - 5 - - - 6 - -\n- - 6 - - - - - - -\n- - - - 5 - - 4 - 2"
+    },
+    "92_10x10": {
+      "id": "92_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/092.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n3 - - - - - - - - -\n- - - - 6 - 4 - - 4\n- 6 - - - - 4 - - -\n- - - - - - - - 8 -\n- 8 - - - - 5 - - -\n- - - - 3 - 2 - - -\n- - - - - 3 4 5 - -\n- - 7 - - - - - - -\n- - - - - 3 - - - 2"
+    },
+    "93_10x10": {
+      "id": "93_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/093.a.htm",
+      "problem": "10 10\n3 - - - - - - - - 3\n- - - - - - 7 6 - -\n- - 3 - - - - - 6 -\n- - 2 - - - 7 - - -\n5 - - 5 - - - - - -\n- - - - - - - 7 - -\n- - - - - 5 - - - -\n- - 7 - - 5 - - - -\n- - - - - - 6 5 - -\n- - 4 - - - - - - -"
+    },
+    "94_10x10": {
+      "id": "94_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/094.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n3 - 8 - - - - 7 - 3\n- - - - - 6 - - - -\n- - - - - - - - 2 1\n2 - - 5 7 - - - - 2\n- - - - - - - - - -\n- - - - - - - - - -\n- - - 3 3 4 - 2 - -\n4 - - - 4 - - - - -\n- - - - - - 5 - - -"
+    },
+    "95_10x10": {
+      "id": "95_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/095.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- 7 - - - - - - 8 -\n- - 6 - - - 8 - - -\n- - - - - - - - - 5\n- 8 - 8 - - - 6 - -\n- - - - - - - - 7 -\n- - - - 7 - 8 - - -\n5 - - - 7 - - - 7 4\n- - 8 - - - 8 - - -\n- - - - 5 - - - - -"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/096.a.htm",
+      "problem": "10 10\n- - - - - - 3 - - -\n- 5 - 6 - - - - - 3\n- - 2 - - 6 - - - -\n- - - - - - - - - 2\n- - 2 - - - - - - 3\n- - - 4 - - - 6 - -\n- - - - - - - - - -\n4 - - 4 - - - - 8 -\n- - - - - - - - - -\n- - 4 - - - 5 - - -"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/097.a.htm",
+      "problem": "10 10\n- - 5 - - - - 5 - -\n- - - - - 7 - - - -\n- - 5 - - - - 8 - -\n- - 3 - - 7 - - - -\n- - 4 - - - 7 - - -\n- - - - - - - - - -\n- - - - - - - 6 - -\n- - 5 - - 4 4 - - 4\n- 6 - - 5 - 5 - - -\n- - - - - - - - - -"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/098.a.htm",
+      "problem": "10 10\n- - - - 4 - - - - -\n- - - - - - - - - -\n- - 4 - - - 3 - 5 -\n- - 3 - 7 - - - - -\n- 3 3 - - - 5 5 - -\n- 4 - - - - - - - -\n- - - 5 - - 5 - - -\n5 - - - - - 4 6 - -\n- - - - - - - - - -\n- - - - 3 - - - - -"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/099.a.htm",
+      "problem": "10 10\n- - - - 3 - - - - -\n3 - - - - - 6 - 6 -\n- - 5 - - - - - - -\n- - - - - 6 - - - 5\n- - - - - 4 5 - - -\n- - - 3 - - - - - -\n- - - - - - - 5 - -\n- - - - - - 6 6 - 4\n- - 8 - - - - - - -\n- - - - - - 3 - - -"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/100.a.htm",
+      "problem": "10 10\n- - - - - - - - - 2\n- - 8 - - 5 - - - -\n3 - - - 6 - - - - -\n3 - - - - - - - 7 -\n- - - - - - 5 - - -\n- - 5 - - 4 - - 7 -\n- - - 5 - 6 - - 5 -\n- 7 - 5 - - - 6 - -\n- - - - 5 - - - - -\n- - - - - - - - - 2"
+    },
+    "101_10x10": {
+      "id": "101_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/101.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - - 8 - 3\n- 7 - 5 - - - - - -\n- - - - - - - - - 2\n2 - - - - - 5 - - -\n- - - - 8 - - - - 3\n- - 6 - - - 2 - - -\n- - - - - 5 3 - - 3\n- - 6 6 - - - - - -\n- - - - - - - - - -"
+    },
+    "102_10x10": {
+      "id": "102_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/102.a.htm",
+      "problem": "10 10\n- - 5 - - - - - - -\n- - - - - 7 - - 8 -\n- 8 - - - - 7 - - -\n- - - - 8 - - - - -\n4 - - - - - - - 6 4\n- - - 8 - - - - - -\n- 8 - - - 6 6 - 7 -\n- - - - - - 6 - - -\n- - 7 - 8 - - - 7 -\n- - 4 - - - - - - -"
+    },
+    "103_10x10": {
+      "id": "103_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/103.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n3 - 5 - - - - - - 3\n- - - 4 - 7 7 - - -\n- - 5 - - - - - - -\n- - - - - - 5 5 - -\n- - - - - - 4 - - 5\n- - 7 - 7 - - 6 - -\n- - - - - - - - - -\n- 7 - 7 - 8 - - - -\n- - - 4 - - - 5 - -"
+    },
+    "104_10x10": {
+      "id": "104_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/104.a.htm",
+      "problem": "10 10\n- - 4 - - - - 5 - -\n- - 7 - 7 7 - - - -\n- - - - - - - - 7 -\n- - - - 6 5 - - 6 -\n5 - 8 - - - - - 7 -\n- - - - 6 - - - - -\n- 7 - 7 - - - - 7 -\n- 5 - - - 8 - - - -\n- - - 7 - - - 7 - -\n- - - - - - - - - -"
+    },
+    "105_10x10": {
+      "id": "105_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/105.a.htm",
+      "problem": "10 10\n3 - - - 5 - - - - 2\n- - 7 - - - 8 - - -\n- - - 7 - - - - - 4\n- - - - - - - 8 - -\n- - - 7 - - - - - -\n- - - - - - - 7 5 -\n- - 3 6 - - - - - -\n- 4 - - - - - 8 - -\n- 6 - - - 8 - - - -\n- - - 5 - - - - - 3"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/106.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - - - 8 -\n- 8 - - 6 6 7 - - -\n- - - - - - - - - 5\n- - - - - 8 - 6 - -\n- - 8 - - - - - - -\n4 - - - 8 - 7 - - -\n- - 8 - - - - - - -\n- - - - - 8 - 7 - -\n- 2 - 4 - - - 4 - -"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/107.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - 5 - - -\n4 7 - - 6 4 - - - 5\n- - - - - - - - - -\n- 8 - - - 8 - - 8 -\n- - - - - - - - - -\n5 - - - 4 - - - - -\n- - - - - 4 - - 8 -\n- 8 - 7 - 7 - - - -\n- - - - - - - 5 - -"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/108.a.htm",
+      "problem": "10 10\n- - - - 4 - - - - -\n- - - - 7 - - - 7 -\n- 7 - - - - 7 - - -\n- - - - 7 - - - - -\n- - - - - - 8 - - -\n- 6 - - 8 - - - - -\n- - 5 - - - 8 - 7 -\n5 - - 5 - - - - - -\n- - - - - - - 7 7 -\n- - - 5 - - - - - -"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/109.a.htm",
+      "problem": "10 10\n- 3 - - - - - - - -\n- - - - - 7 - - 6 -\n- - - 7 - - - - - -\n- - - - - - - - - -\n0 - - - 8 - 7 - - -\n1 2 - - - - - 6 - -\n- - - - - - - - 6 -\n- - - - - - 3 - - -\n- - 7 - - 4 - 5 - -\n2 - - - - - - - - -"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/110.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- 7 - - - - - 7 - -\n- - - - - 6 - - 6 -\n5 - - - - - - - 7 -\n- - 8 - - - - - - -\n- - - - 5 5 - - - 5\n- - - 3 - - - - - -\n- - 2 2 - - - 7 7 -\n- 6 - - - - - - - -\n- - - - - - 5 - - 3"
+    },
+    "111_10x10": {
+      "id": "111_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/111.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 5 - - - 4 - 6 -\n- 4 - - - - - - - -\n- - - - 5 - - - - -\n- - 5 - - - - 4 - -\n- - - - - - - - 6 -\n- - - - - - - - 7 -\n- 5 - - 7 - 5 - - -\n- - - - 7 - - - 3 -\n- 2 - - - - - - - -"
+    },
+    "112_10x10": {
+      "id": "112_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/112.a.htm",
+      "problem": "10 10\n- - 5 - - - 4 - - -\n- - - - 5 - - - - -\n- - 7 - - - 7 - - 4\n- - - - - - - - - -\n- 5 - 5 - - - 5 - -\n- - - - - - - - - -\n- - - - 5 - - - - -\n- - 8 - - - - - - 4\n- - - - - 6 - 6 - -\n2 - - 5 - - - - - -"
+    },
+    "113_10x10": {
+      "id": "113_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/113.a.htm",
+      "problem": "10 10\n- 3 - 2 - - - - - 2\n- - - - - - 8 - - -\n- - 8 - - - - - 8 -\n5 - - - - - 8 - - -\n- - - 7 - - - - - 4\n- - - - - - - - - -\n- 6 - - - - - - - -\n- - - - 2 3 - - 6 -\n- - 6 - - 3 5 - - -\n2 - - - - - - - - -"
+    },
+    "114_10x10": {
+      "id": "114_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/114.a.htm",
+      "problem": "10 10\n- - - - 4 - - - - -\n- - - - 6 - 8 - - -\n- - - 6 - - - - 6 4\n- - - - - - - - - -\n- 8 - - - - - 6 - -\n- - - 7 - - 7 - - -\n5 - - - 7 - - - 7 -\n- - 7 - - - - - 6 -\n- 7 - - - - - 7 - -\n- - - - 3 - - - - -"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/115.a.htm",
+      "problem": "10 10\n- 3 - - - - - 5 - -\n- - - - - - - - - -\n- 8 - - 7 - - 5 - -\n- - - 7 - - - - - 5\n- - - - - - - - - -\n- - - - - - - - - -\n- 7 - - - 4 6 - - 5\n- 5 - - 4 - - - - -\n- - - - 6 - 7 6 - -\n- - - - - - - - - -"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/116.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 3 - - - - 6 6 - -\n- 4 - - - - - 5 - 5\n- - - - 5 - - - - -\n- - 8 - - - - - - -\n- - - - 6 - - - 5 -\n- - - 7 - - 8 - 7 -\n5 - - - - - - - - -\n- - - - - 8 - - - -\n- - - 5 - - - 3 - -"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/117.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - 3\n- - - - - - - - - -\n4 - - 7 - - - 5 - -\n- - 7 - - - - - - -\n2 - - - 6 - - - - -\n- - - - - 6 - - 7 -\n2 - 6 - - - - 5 - -\n- - - - 7 - 5 - - -\n- 8 - - - - - - 7 -\n- - - - - - 5 - - -"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/118.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - 3\n- - - - - - - - - -\n- - 8 - 8 - - - 6 -\n5 - - - - - 6 - - -\n- - - - - 6 - - - -\n- 8 - 8 - - - 4 3 -\n- - - - - 8 - - 3 -\n- - - - - - - - - -\n- - - 7 - - - - - -\n3 - - 4 - - - 4 - -"
+    },
+    "119_10x10": {
+      "id": "119_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/119.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n3 - - - - 8 - - 7 -\n- - - - - - - 7 - -\n- - - 5 - - - - - 5\n- - - 6 - 5 - - - -\n3 - 6 - - 5 - - - -\n- - - - - - - 8 - -\n- - 7 - - - - - - 5\n- - - - - - - - - -\n3 - - - - 3 - - - -"
+    },
+    "120_10x10": {
+      "id": "120_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/120.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 7 - 7 - 6 - 8 -\n- - - - 6 - 6 - - -\n- 7 6 - - - - - - 5\n- - - - - - - - - -\n5 - - 8 - - - - - -\n- - - - - - - - - 4\n- - 3 - 4 - - 6 - -\n- - - - - 6 - - - -\n- - - - - - - - - -"
+    },
+    "121_10x10": {
+      "id": "121_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/121.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - 5 - 6 -\n- 5 5 - - - - 5 - -\n- - - - - - - - - -\n- - - 7 - - 8 - - -\n4 - - - 6 - - - 8 -\n- - - - - 7 - - - -\n- - 4 4 - - - 8 - -\n- - - 4 - 7 - - - -\n- - - - - - - 5 - -"
+    },
+    "122_10x10": {
+      "id": "122_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/122.a.htm",
+      "problem": "10 10\n- - - 5 - - 5 - - 3\n- - - - - - - - - -\n- 6 5 6 - - - 7 - -\n- - - - - 7 - - - -\n5 - - - - - 7 - - 5\n- - - 7 - - - - - -\n- - - - - 6 - 5 7 -\n- 7 - - - - - - - -\n- - 6 - - - - - - -\n3 - - - - - - 5 - -"
+    },
+    "123_10x10": {
+      "id": "123_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/123.a.htm",
+      "problem": "10 10\n- - - 3 - - - - 2 -\n- 7 - - - - 8 - - -\n- - 7 - - - - - - -\n- - - - - 8 - - - 3\n- - 8 - - - - - - -\n- - - - 6 - 5 - - 2\n- - 6 - - 5 - - - 3\n- 6 - - - - - - - -\n- - - - - - 7 - - -\n- - 4 - - - - - - 3"
+    },
+    "124_10x10": {
+      "id": "124_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/124.a.htm",
+      "problem": "10 10\n- 3 - - - - - - - -\n- - - - - 6 5 - 6 -\n- - - - - - - 4 - -\n- 6 - 7 - - - - - 5\n- - - - - - - - - -\n- 3 - - - - - - - -\n- - 3 - - - - 5 - 2\n- - - - - - - - - 2\n0 - - 8 - - 7 - - -\n- - - - - - - - - -"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/125.a.htm",
+      "problem": "10 10\n3 - - - 4 - 3 - 2 -\n- - - - - - - - - -\n- - - 5 - - - 7 - -\n- - - - - 7 - - - -\n- - 5 - 7 - - - - -\n- - 5 - - - - 7 - -\n- - 3 - - - - - - -\n- - - - 3 - 5 - - 3\n- - - - - - - - - -\n- 3 - 4 - - - 3 - -"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/126.a.htm",
+      "problem": "10 10\n3 - - - 4 - - 2 - -\n- - 8 - - - - 5 - -\n- - - - 8 - - - - -\n- - 6 - - - - - - -\n1 - - - - - 7 - 6 3\n- - - - - - 6 - - -\n- - - - - - - - - -\n- - 5 - - 7 - - - -\n- - 7 - - - - - 8 -\n3 - - - 4 - - - - -"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/127.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 5 - - - - 6 6 7 -\n- - - - - - - - - -\n- 6 - - - 5 - - - -\n- - - - - 5 - - - 2\n4 5 - 6 - - - - - 2\n- - 5 - - - - - - -\n- - - - - - 5 4 - -\n- 7 - - 7 - - - - -\n- - - - - - - - - 3"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/128.a.htm",
+      "problem": "10 10\n- - 5 - - - - - 3 -\n- - - - 7 - 6 - - -\n- - - 7 - - - - 7 -\n5 - - - - 7 - - - -\n- - - - - - - - - 3\n- - - 7 - - 6 - 6 -\n- - - - - - 5 - - -\n4 - 7 - - - - - - -\n- - 7 - - - - 7 - -\n2 - - - - 5 - - - 3"
+    },
+    "129_10x10": {
+      "id": "129_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/129.a.htm",
+      "problem": "10 10\n- 3 4 - - - - - - -\n- - - - - - - - - -\n- - 5 5 - - 8 - - 3\n- - - 6 - - - - - 2\n- 7 - - - - - 8 - -\n- - - - - - - - - -\n- 6 - - 8 - 8 - - -\n- 6 6 - - - - - 8 -\n- - - - - 7 - - - -\n- - 5 - - - - - - 3"
+    },
+    "130_10x10": {
+      "id": "130_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/130.a.htm",
+      "problem": "10 10\n- 4 - - - - - 5 - -\n- - - - - - - - - -\n- - - 4 - - - 5 6 -\n- - - - - - - - 6 -\n- - 6 - - - 6 - - -\n- - - - 4 - - 5 - -\n- - - - - - - - 4 -\n5 - - - - 8 - - - -\n- - - 8 - - - 8 - -\n- - - - - 5 - - - 2"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/131.a.htm",
+      "problem": "8 8\n- - - - 5 - - 3\n- - 7 - - - - -\n4 - 7 - - - - -\n- - - - 8 - 7 -\n2 - - - - - - -\n3 6 - - - - - -\n- - - 6 6 - - -\n- - - - - - - 2"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/132.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 8 - - - - -\n2 - - - 6 5 - -\n- 5 - - - - - 5\n- - - - - 7 - -\n- 8 - - - - - -\n- - - - - - - -\n- - 4 - - 4 3 -"
+    },
+    "133_10x10": {
+      "id": "133_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/133.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- - - 8 - - - - - -\n- 7 - - - - 3 - - 4\n- - - - 7 5 3 - - -\n- 8 - - - - - - - 3\n- - - 7 - - - 7 - -\n- - - 7 - - - - - -\n- 8 - - - - 7 - 8 -\n- - - - - - - - - -\n- 3 4 - - 4 - - - -"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/135.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 6 6 5 - 3 - 5 -\n- - - - - - - - - -\n4 - - 7 - - - - - -\n- - - - 7 - 7 - - 5\n- - - - - - - - - -\n- 5 - - - - 8 - 8 -\n- - - 6 5 - - - - -\n- - - - - - - - - -\n2 - - - - - - 3 - -"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/136.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - -\n- - 3 - 6 - - - - -\n- - - - - - - 8 - -\n- - - - - - - - - 5\n2 - - 5 7 - - - - -\n- 2 - - - - 6 - - -\n2 - - - - 5 - - 4 -\n- - 7 - - - - - 4 -\n3 - 7 - - - - - - -\n- - - - 5 - - - - -"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/137.a.htm",
+      "problem": "10 10\n- - - - - - - 5 - -\n- - - - - - - - - -\n2 - - - 7 - - - - -\n- - - - - - 5 6 - -\n- 8 - - - 6 - - - -\n- - - - 6 - - - - 3\n- 6 - - - - - - - -\n- - - - 3 - - - 7 -\n3 - - 4 - 6 - - - -\n- - - - - - - - - 3"
+    },
+    "139_10x10": {
+      "id": "139_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/139.a.htm",
+      "problem": "10 10\n- - - - 2 - - - - -\n- - 8 - - 5 - - 6 -\n5 - - - - - - - - -\n- - - - - - 5 5 - -\n- 7 - - - - - 6 - -\n- - 7 - - - - - - 3\n- - - - 8 - 6 - - -\n- 7 - - - - - 5 - -\n- 7 - - - 7 - - 7 -\n- - - - - - - - - -"
+    },
+    "140_10x10": {
+      "id": "140_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/140.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 8 - - - - - - - 3\n- - - 7 - - 5 - - -\n5 - - - 6 - - - - 3\n- - 6 - - - 4 4 - -\n- - - - - - - - - 4\n- - - - - 6 - - - -\n- - - - - - 6 - - -\n- - - 5 - - 6 - - -\n3 - - - - - - - - 3"
+    },
+    "141_8x8": {
+      "id": "141_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/141.a.htm",
+      "problem": "8 8\n3 - - - 2 - - -\n- - - - - - - -\n- - - 4 - - 8 -\n- - - 5 - - - -\n- - - - - - 7 -\n- 8 - - - - - -\n- - - - - - - -\n- - 4 3 - - - 3"
+    },
+    "142_8x8": {
+      "id": "142_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/142.a.htm",
+      "problem": "8 8\n- - - - - 5 - -\n- - - - - - - -\n4 - - - - 7 - -\n- - 7 - - - - 5\n3 - - - 6 7 - -\n4 - - - - - - -\n- - - - - - 7 -\n- - - - - - - -"
+    },
+    "143_10x10": {
+      "id": "143_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/143.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n3 - 5 4 - - - - - 3\n- - 5 - - - - - - -\n4 - - - - - - 6 5 -\n- - - - - 5 - - - -\n- - - - - - 6 - 8 -\n- - - - - - - - - -\n5 - 8 - - 6 - 7 - 5\n- - - - - - - - - -\n- - - 4 - 3 - - - -"
+    },
+    "144_10x10": {
+      "id": "144_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/144.a.htm",
+      "problem": "10 10\n- 3 - - - - - - - 3\n- - - - 7 - - - - -\n- - - - - - - 6 - -\n5 - - - - 6 - - 5 -\n- - 8 - - - 6 - 7 -\n- - - - - - - - - -\n- - 6 - - 6 - - - -\n- - 5 5 - 5 - - - 5\n- - - 4 - - - 6 - -\n- - - - - - - - - -"
+    },
+    "145_10x10": {
+      "id": "145_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/145.a.htm",
+      "problem": "10 10\n- - 3 - - - 5 - - -\n- - 6 - 8 - - - - -\n- - - - - - 8 - - 5\n- - - - 6 - - - - -\n- - 8 - 5 - - - - -\n- - - - - - - 6 - -\n3 - - - - - 3 4 - 5\n- - - - - - - - - -\n- - - - 7 - - - 7 -\n- 3 - - - - - - - -"
+    },
+    "146_10x10": {
+      "id": "146_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/146.a.htm",
+      "problem": "10 10\n- - - - - - 4 - 3 -\n- - - - - - - - - -\n5 - - 8 - - - - 6 -\n- - - - - - 7 - - -\n- 6 6 - 8 - - - 5 -\n- - - - - - 7 - 6 -\n4 - - 5 - - - - 6 -\n- - - - - - - - 6 -\n- - - - - - 7 - - -\n2 - - - 3 - - - - -"
+    },
+    "147_10x10": {
+      "id": "147_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/147.a.htm",
+      "problem": "10 10\n3 - - - 5 - - - - -\n- - 8 - - - - - - -\n- - - - - - - - 6 -\n4 - - - 4 - - - - -\n- - - 2 - - - 5 - -\n- - 4 - - 5 - - - -\n- - - - - - - - - -\n- - 5 - - - 6 4 5 -\n- - - - - - - - 5 -\n- - 4 - - 4 - - - -"
+    },
+    "148_10x10": {
+      "id": "148_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/148.a.htm",
+      "problem": "10 10\n3 - - 4 - - 4 - - 3\n- - - - - - 7 - - -\n- 8 - - - - - - 7 -\n- - - - 8 - - - - -\n5 - 8 - - - 7 - - 5\n- - - - - - - - - -\n- - - - - - - - 8 -\n- - 8 - - - 7 - - -\n- - - - 8 - - 6 - -\n- - 5 - - - - 4 - -"
+    },
+    "149_10x10": {
+      "id": "149_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/149.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- - - - - - - - 7 -\n5 - 5 - - - 6 - - -\n- - 7 - - - 7 - 7 4\n- - - - - - - - - -\n4 - 7 - - 6 - - - -\n- - - - - - 5 - - -\n- 8 - 8 - - - - 8 -\n- - - - - - - - - -\n- - - - - - - 5 - -"
+    },
+    "150_10x10": {
+      "id": "150_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/150.a.htm",
+      "problem": "10 10\n- - 4 - - 4 - - - -\n- - - - - - - 7 - -\n- - - 5 - - 6 - - -\n- - 6 - 5 - - - - -\n5 - - - - - - - 5 -\n- - - 7 - - - - 5 -\n- - - - - 7 - - - -\n- 7 6 - - - 6 - - -\n- - - - - - - 7 - -\n- - 4 - 3 - - - - 3"
+    },
+    "151_8x8": {
+      "id": "151_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/151.a.htm",
+      "problem": "8 8\n3 - - - - - - -\n- - 7 - - 6 - -\n- - - - - - 7 -\n- - - - - - - -\n2 - - - - - - -\n- - - - 3 - - -\n- 8 - - - - - -\n- - - - - 2 - -"
+    },
+    "152_8x8": {
+      "id": "152_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/152.a.htm",
+      "problem": "8 8\n3 - - - 5 - - -\n- - - - - - - -\n- - - - - 7 - -\n- - - 8 - - - 5\n4 7 - - - - - -\n- - - 7 - - 7 -\n- - - - - 7 - -\n3 - - - - - - -"
+    },
+    "153_10x10": {
+      "id": "153_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/153.a.htm",
+      "problem": "10 10\n- - 5 - - - - - - -\n- - - - - 5 - 4 - -\n- - - 6 - - 4 - 6 -\n- 6 5 - - - - - - -\n- - - - - - - 8 - -\n- 7 - 7 - 7 - - - -\n- - - - - - 7 - 7 4\n- 7 - - 7 - - - - -\n- - - - - - - 8 - -\n- - - - - - - - - 3"
+    },
+    "154_10x10": {
+      "id": "154_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/154.a.htm",
+      "problem": "10 10\n- - - 2 - - 3 - - -\n- - - - - - - - 7 -\n- 5 - - - - - - - -\n- 5 - 3 - - - 5 - 4\n- - 3 - - - 5 - - -\n- - - - - - - - - -\n- - - 4 - - - 6 - 3\n- - - 5 - - - - - -\n- 6 - - - 7 - - - -\n- - - 5 - - - - - 2"
+    },
+    "155_10x10": {
+      "id": "155_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/155.a.htm",
+      "problem": "10 10\n2 - 4 - - - - - - -\n- - - - - - - - 7 -\n- - 6 - - - 6 - - -\n- - - - - - - - - -\n- - 8 - 7 7 - - 4 -\n- - - - - - - - - 2\n- - - - - - - - - -\n- - - - 6 - - 5 7 -\n- 7 - - - - - - - -\n- - - 3 - - - 3 - -"
+    },
+    "156_10x10": {
+      "id": "156_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/156.a.htm",
+      "problem": "10 10\n- - - 4 - - - - - 2\n- 7 - 7 - - - - - -\n- - - - - - 6 - - -\n- - 5 4 4 - - - 7 -\n- - - - - - - - - -\n- - - - - - - - 7 -\n- - 6 - 8 - - 6 - -\n- - - - - - - 4 - -\n- - - - - 7 - 5 6 -\n- 3 4 - - - - - - -"
+    },
+    "157_10x10": {
+      "id": "157_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/157.a.htm",
+      "problem": "10 10\n3 - - - - - - - - -\n- - 7 - 5 4 - - - -\n- - - - - - - 7 - -\n5 - - - - - - - - -\n- - - - - 5 4 - - -\n- - - 6 - - - - - 5\n- 6 - - - - 5 - - -\n- - 5 - - - - - - -\n- - - - - 4 4 - - -\n- 3 - - 2 - - - 3 -"
+    },
+    "158_10x10": {
+      "id": "158_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/158.a.htm",
+      "problem": "10 10\n3 - - - 5 - - - 4 -\n- - - - - - - - - -\n- 8 - - - - - 3 - -\n- - - - 7 - - - - -\n5 - - - - - - 4 - -\n- - - 7 - - - 5 5 -\n- - - - - 7 - 5 - -\n4 - - - - - - - - 5\n- - - 8 - - - - - -\n- - - - - 5 - - - -"
+    },
+    "159_10x10": {
+      "id": "159_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/159.a.htm",
+      "problem": "10 10\n- - - - - - - 5 - -\n- - 8 - - 8 - - - -\n5 - - - - - - - - -\n- - 7 - - 8 - 7 7 -\n- - - 7 - - - - - -\n- 8 - - - 7 - - - -\n- - - - - - - - - -\n5 - 7 5 - - 8 - 8 -\n- - - - - - - - - -\n- - - 5 - - - 5 - -"
+    },
+    "160_10x10": {
+      "id": "160_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/160.a.htm",
+      "problem": "10 10\n- - - - - 2 - - - -\n- - - - 3 - - 8 - -\n- 7 - - 5 - - - - 4\n- - - - - - - - - -\n- - 6 - 7 - - - 8 -\n- 7 - - - - 7 - - -\n- - - - - - - - - 4\n- - - 3 - 4 - - - -\n- - 5 - - - - - - -\n3 - - - - - - 4 - -"
+    },
+    "161_8x8": {
+      "id": "161_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/161.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - - - - - 7 -\n- - 7 - - - - -\n- - - - 6 - - -\n- - - - - 6 4 -\n5 - 7 - - - - -\n- - - - - 8 - -\n- - - - - - - 2"
+    },
+    "162_8x8": {
+      "id": "162_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/162.a.htm",
+      "problem": "8 8\n- - - - - 5 - -\n4 - 7 6 - - - -\n- - - - - - - -\n- - - - - 7 - -\n- - - - - - - -\n4 - 8 - 8 - - -\n- - - - - - 8 -\n2 - - - - - - -"
+    },
+    "163_10x10": {
+      "id": "163_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/163.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- 8 - - - - - 8 - -\n- - - - - - - - - 4\n4 - - 8 - - - - - -\n- - - - - 7 - - 7 -\n- 6 6 - 6 - - 6 - -\n- - 5 - - - 7 - - 5\n4 - - - - - - - - -\n- - - - - - - - - -\n- 2 - - - - 4 - 3 -"
+    },
+    "164_10x10": {
+      "id": "164_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/164.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- 7 - - - - - - - -\n- - - - - - 5 - - 4\n- 6 6 - - 6 - - - -\n- - - - 6 - - - - 4\n5 - - - 7 - 8 - - -\n- - - - - - - - 6 -\n- - - - - 7 - 5 - -\n- 7 7 - - 5 - - 6 -\n- - - - - - - - - -"
+    },
+    "165_10x10": {
+      "id": "165_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/165.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - 4 - - 6 - -\n3 - - 3 - - - - 7 -\n- - - - - - - - - -\n- - - 8 - - - 5 - -\n- - - - - - - 5 4 -\n4 - 6 - - - - 5 - -\n- - - - - - 7 - - -\n- - - - 7 - - - - -\n- 3 4 - - - - - - 3"
+    },
+    "167_10x10": {
+      "id": "167_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/167.a.htm",
+      "problem": "10 10\n- - - - 5 - - - 4 -\n- 7 - - - - - - - -\n- - - - - - - - - -\n- - 7 - 7 - - - - -\n3 - - - - - - 8 - -\n- - - 8 - 5 - - - -\n- 8 - - - - - - - -\n- - - - 5 3 - 4 - 4\n- - 6 - - - - - - -\n- - - - - - - - - -"
+    },
+    "168_10x10": {
+      "id": "168_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/168.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - -\n- - - - - - - - 8 -\n5 - 6 - 8 - - - - -\n- - 4 - - - - - - -\n- - - - 6 - - - 6 4\n- - - - 6 - 7 - - -\n- - - - - - - - 8 -\n- - - 7 - 7 - - - -\n- - - - - 7 - 7 - -\n- - 5 - - - - - - -"
+    },
+    "169_10x10": {
+      "id": "169_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/169.a.htm",
+      "problem": "10 10\n- - 5 - - - - 4 3 -\n- - - - - - - - - -\n- 6 - 6 - - 6 - - -\n- - - - - 5 - - - 4\n- - - - - - - - - -\n5 - - - 8 - 8 - 8 -\n- - 7 - - - - - - -\n- 7 - - - - - 7 - -\n- - - - - 8 - - 7 -\n- - 5 - - - - - - -"
+    },
+    "170_10x10": {
+      "id": "170_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/170.a.htm",
+      "problem": "10 10\n- - 4 - 3 - - - - 2\n- - - - - - - 7 - -\n- - 7 - - - - 7 - -\n- - 7 - - 6 - - - -\n- - - - - - 6 - - -\n4 7 - - 8 - - - - -\n- - - - - - - - 6 4\n- - - - - - 8 - - -\n- - - - - - - - 8 -\n- - 5 - - - 5 - - -"
+    },
+    "171_10x10": {
+      "id": "171_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/171.a.htm",
+      "problem": "10 10\n- - - - 3 3 - - - 3\n3 - 8 - - 5 - - - -\n4 - - - - - - - - -\n- - 8 - 6 - - - - 5\n- - - - 6 4 - 5 - -\n- 5 5 - - - 2 3 - -\n- 4 4 - 8 - 5 5 - 4\n- - - - - - - - - -\n- - - 6 - 8 - 5 2 1\n2 - 2 3 - - - 2 - -"
+    },
+    "172_10x10": {
+      "id": "172_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/172.a.htm",
+      "problem": "10 10\n- - - - 4 - - - - -\n- - - - - - - - - -\n- 7 - - - - 5 5 - 5\n- 5 - - 4 - - - - -\n- 4 - - - 2 - - - -\n- 4 - - - - - - - -\n- - 4 - - - - - 7 -\n- - - 4 - - - - - -\n- 7 - - 6 - - 4 - -\n- - - - - - - - - -"
+    },
+    "173_10x10": {
+      "id": "173_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/173.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - 3\n- 7 - - - - - - - -\n- 7 - - - 8 - - - -\n- - - 8 - - - - 6 -\n- - - - - - 6 6 - -\n- - 7 - - 7 - - - -\n- - - 7 - - - - - 3\n- 8 - - - - 8 - - -\n- - - - 8 - - - 8 -\n- - 5 - - - 5 - - -"
+    },
+    "174_10x10": {
+      "id": "174_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/174.a.htm",
+      "problem": "10 10\n- - - 3 - - - - - -\n- - - - - - - 5 5 -\n3 - - - - 5 - - 3 -\n- - 5 - - - - - - -\n- - - 5 - 7 - - - -\n- - - - - - - 8 - -\n5 - - - - - - - - -\n- - - 2 4 - - 6 - -\n- 6 - - 4 - - - - -\n- - - - - - 4 - - 2"
+    },
+    "176_10x10": {
+      "id": "176_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/176.a.htm",
+      "problem": "10 10\n3 - - - - - - 4 - -\n- - - 7 - - - 6 - -\n- - - - - - 7 - - -\n2 4 - - 7 - - - - -\n2 - - - - - - - - -\n- - - 6 - - 8 - - -\n- 7 - - - - - - - 5\n- - - - - - - - - -\n- - 7 - - - 5 5 6 -\n- - 4 - - - - - - -"
+    },
+    "177_10x10": {
+      "id": "177_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/177.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n4 - - - - - - - 7 -\n- - 4 - 5 7 - - 7 -\n- - - - - - - - - -\n- - - - - - - - 5 -\n- - - 6 6 - - - - -\n- - 6 - - - - - - -\n3 5 - - - - - - - -\n- - - - - 8 - 7 - -\n- - - - - - - 4 - -"
+    },
+    "178_10x10": {
+      "id": "178_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/178.a.htm",
+      "problem": "10 10\n- - - - 5 - - - - 2\n3 - 8 - - - - - - -\n4 - - - - - 4 - - -\n- - 8 - - 3 4 - - 3\n- - - - - 3 4 - - -\n- - - - - 6 - - - -\n- - - - - - - - - -\n4 7 - 6 - - 7 - - -\n- - - 6 - - - - - -\n- - - - - 5 - - - 3"
+    },
+    "179_10x10": {
+      "id": "179_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/179.a.htm",
+      "problem": "10 10\n- - 5 - - 5 - - 4 -\n- - - - - - - - - -\n- - - 6 - - - - - -\n- 8 - - - - 7 - - -\n- - - - - - - - - -\n- - - - - 6 - - 4 2\n5 - - - - - 6 - - -\n- - 8 - - - 6 - - 2\n- - - - - - - - - -\n- - 5 - - 5 - - - 2"
+    },
+    "180_10x10": {
+      "id": "180_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/180.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - -\n- - - - - - - - 7 -\n- - 7 - - - - - - -\n- - - - - - 8 - 7 -\n- 8 - 5 - - - - - -\n- - - 5 - - - - - -\n- - 7 - - 6 - - 6 -\n4 - - - - - - - 7 -\n- - - - 6 - 7 - - -\n2 - - - - - 4 - - 3"
+    },
+    "181_10x10": {
+      "id": "181_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/181.a.htm",
+      "problem": "10 10\n- 3 - 4 - - 2 - - -\n- - - - - - - - - 2\n- - 5 6 - - - - - -\n- - 4 - - - - - 7 -\n5 - - - - - - 7 - -\n- - - - 7 - - - - -\n- - - - - - 8 - - -\n- - 5 4 - - - - 8 -\n- - - - - - - - - -\n2 - - - 4 - - 3 - 2"
+    },
+    "182_10x10": {
+      "id": "182_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/182.a.htm",
+      "problem": "10 10\n- - - - 5 - - - - -\n3 - - - - - - - - -\n- - 4 - - - - 5 5 -\n- - - 3 - 7 - - 5 -\n- 5 - - - - 7 - - -\n- - 3 - - - - - - -\n5 - - - - 7 - 7 - -\n- - - - 7 - - - - 5\n- - - - - - - - - -\n2 - 4 - - - - - - -"
+    },
+    "184_10x10": {
+      "id": "184_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/184.a.htm",
+      "problem": "10 10\n2 - - - 5 - - - - -\n- - - - - - 7 - - -\n- - - 7 - - 6 - 5 -\n3 - 7 - - - - - 4 2\n- - - - - - - - - -\n4 - - - - - 7 - - -\n- - - - - - - - - -\n- - - - 7 - - 5 5 -\n- 8 - - - 7 - - - -\n- - - 5 - - - - - -"
+    },
+    "185_10x10": {
+      "id": "185_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/185.a.htm",
+      "problem": "10 10\n- - 4 - - - - - - -\n- - - - - 7 - - - -\n- 7 - - - - - - - 5\n- - - - 6 - 5 5 - -\n- - - 6 6 - 6 - - -\n- - - - - - - - - -\n- 5 - 4 6 - - - - -\n- - - 2 - - - - - -\n- 5 - - - - - 7 - -\n- - - - - 4 - - - 3"
+    },
+    "186_10x10": {
+      "id": "186_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/186.a.htm",
+      "problem": "10 10\n- - 3 4 - - - - - -\n- - - - - 7 - - - -\n- 6 - - - - - - 6 -\n- - - - - - - - 6 -\n- - 1 0 - - - - - -\n- - - - - - 4 3 - -\n4 - 5 - - - - - - -\n- - - - 8 - - 6 - 5\n3 - - - - - - - - -\n- - - - - - - - - -"
+    },
+    "187_10x10": {
+      "id": "187_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/187.a.htm",
+      "problem": "10 10\n- - - - - - - - - 2\n- 8 - - - - 3 - - -\n- - - - - 4 - 4 - -\n3 - - 5 - - - - - -\n- - - - - 7 - - 7 -\n- - - - - 6 - - - -\n3 - - - - 6 - - 7 -\n- - - 7 - - - - - -\n3 - 7 - - - - - - -\n- - - - 5 - - - - 3"
+    },
+    "189_10x10": {
+      "id": "189_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/189.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n3 - 7 5 - 5 - - 7 -\n- - - - 5 - - - - -\n- 5 - - - - - - - 5\n- - - - - - - 8 - -\n- - - - 6 - - - - -\n- - - - - - - 7 - -\n5 - - - - 7 - 7 - -\n- - - 8 - - - - - -\n- - - - - 3 - 3 - 2"
+    },
+    "190_10x10": {
+      "id": "190_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/190.a.htm",
+      "problem": "10 10\n- 3 - 1 - - - - 3 -\n- - - - 4 - - - - -\n- - - - - - - - 6 -\n- - - 7 - - - - - -\n- - - 7 - 7 - - - -\n- 7 - - - - 7 - 7 -\n- - - - 5 - - - 6 -\n- - 6 - - - - - 5 -\n- - - - - - - - - -\n- - 4 - - 4 - - - -"
+    },
+    "191_10x10": {
+      "id": "191_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/191.a.htm",
+      "problem": "10 10\n- - - - - - 4 - - 2\n- 4 - - 8 - - - - -\n- - - - - - - - 8 -\n- - 7 - - 7 - - - -\n- - - - 7 - - 8 - -\n- - - - - - - - - -\n3 - - - 6 - - - - 4\n- - - 6 - - 7 - - -\n3 - 7 - - - - - 8 -\n- - - - - 3 - - - -"
+    },
+    "192_10x10": {
+      "id": "192_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/192.a.htm",
+      "problem": "10 10\n- - - - - - 2 - - 3\n- - - - - 3 - - - -\n5 - 4 - - - - - - -\n- - - - - 4 - - 6 -\n- - - - - 4 - 7 - -\n- 7 - - - - - - - 5\n- - - - 4 4 - - - -\n- - - - - - - - 8 -\n- - - - 8 - - - - -\n- 2 - - - - 5 - - -"
+    },
+    "193_10x10": {
+      "id": "193_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/193.a.htm",
+      "problem": "10 10\n- 3 - 4 - - - 4 - -\n- - - - - - - 5 - -\n- - - - - - 3 - - -\n5 - 7 - - - 4 - - -\n- - 5 - - - - - - -\n- 5 4 - - - 8 - - -\n- - 4 - - - - - - 5\n5 - - 2 - - - 7 - -\n- - - 5 - - - - - -\n- - - - - - 5 - - -"
+    },
+    "194_10x10": {
+      "id": "194_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/194.a.htm",
+      "problem": "10 10\n3 - - - - - 2 - 2 -\n- - 6 - 7 - - - - -\n- - - - - - - - - -\n- 6 - - - - - 8 - -\n- 6 - 8 - - - - - -\n- - - - - - - - 2 -\n- - - - - - - 5 - -\n- - 5 - - 6 - - - -\n- 6 - - - - - - 7 -\n- - - 4 - 4 - - - -"
+    },
+    "197_10x10": {
+      "id": "197_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/197.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- - - - - - - - - -\n- - 7 - - 7 5 - - 5\n- - - 6 - - - - - -\n- - - - - - - - 8 -\n5 - - - - 5 - - - -\n- - - - - 5 - - - 5\n- 6 6 - 7 - - - - -\n- 6 - - - - 7 - - -\n- - - - - - - - 4 -"
+    },
+    "199_10x10": {
+      "id": "199_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/199.a.htm",
+      "problem": "10 10\n- - - - - - - 5 - -\n- - 4 3 - - - - - -\n- - - 3 - - - - - -\n5 - - - - - 8 - - -\n- - - - 5 - - - - 2\n- 8 - - - - 7 - - -\n- - - - - - - - - -\n4 - 6 - 6 - - 5 7 -\n- - - - - - - - - -\n- - - - - - - 5 - -"
+    },
+    "200_10x10": {
+      "id": "200_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/200.a.htm",
+      "problem": "10 10\n- - - - 4 - - 4 - -\n- - 6 - - - - - - -\n- - - - 7 - 5 - 6 -\n- - - - - - - - - -\n5 - - 5 - 2 - - - 5\n- - - - 4 - - - - -\n- - - - - - - 4 - -\n- - - - - 5 - - - -\n- - 7 - - - - - 5 -\n3 - - - - - - - - -"
+    },
+    "201_10x10": {
+      "id": "201_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/201.a.htm",
+      "problem": "10 10\n- - - - - - - 0 - -\n- 8 - - - 2 - - - -\n- - - 8 - 3 - - - -\n- - - - - - - - - -\n- - - - - - 5 - - 5\n- 7 - 7 - - - - - -\n- - - - - - - - - -\n- - 2 5 - - 3 - - 4\n- - 3 - - - - 6 - -\n- - - - - - - - - -"
+    },
+    "202_10x10": {
+      "id": "202_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/202.a.htm",
+      "problem": "10 10\n- - - 4 - 4 - - - -\n- - - - - - - 7 - -\n- 7 - - - - - - - 4\n- - 5 - - - 3 - - -\n- - 4 - - - - 4 - -\n- - - - - - - - - -\n- - 2 - - - - - 6 4\n- 5 - - - - - - - -\n- - - - 6 - - - 8 -\n- - 4 - - - 5 - - -"
+    },
+    "203_10x10": {
+      "id": "203_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/203.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 6 - 5 7 - - - - -\n- - - - - - 6 - - 3\n5 - - - - - 6 - 6 3\n- - - 6 - - - - - -\n- 7 - 6 - 5 - 5 - -\n- - - - - - - - - -\n- - - - 4 - - - - -\n- - - - - - - - - -\n3 - - - - 2 - 4 - -"
+    },
+    "204_10x10": {
+      "id": "204_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/204.a.htm",
+      "problem": "10 10\n- - - - - - 4 - - -\n- - 8 - - - 7 - 8 -\n3 - - - 8 - - - - -\n- 6 - - - - 7 6 - -\n- - - - - - - - 7 -\n- - 4 - 6 - - - - -\n- - - - - - - - - 5\n- - - 7 - 6 - 7 - -\n- - 6 - - - - - - -\n- - - - - - - - - 3"
+    },
+    "205_10x10": {
+      "id": "205_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/205.a.htm",
+      "problem": "10 10\n3 - - - - - 5 - - -\n- - 7 - - - - - 8 -\n- 7 - - - - 7 - - -\n- - - - 8 - 7 - 6 -\n4 - - - - - - - - -\n- - 6 - - - - - - 2\n- - - - - - - - - -\n4 - - - 4 - - - - -\n- - 7 5 6 - - - 8 -\n- - - - - - 5 - - -"
+    },
+    "206_10x10": {
+      "id": "206_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/206.a.htm",
+      "problem": "10 10\n- - - - - - - - - 2\n- - - - 5 - - - - -\n4 - - 2 - - - 8 - -\n- - - - - - - - - 5\n- 6 4 - - 4 - - - -\n- - - - - - - - 8 -\n4 - 5 5 - - - - - -\n- - - - - - - - - 4\n- 8 - - - - 5 6 - -\n- - - - - - - - - -"
+    },
+    "207_10x10": {
+      "id": "207_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/207.a.htm",
+      "problem": "10 10\n- - 5 - - - - - - -\n- - - - - 6 - 7 - 4\n- - 8 - - 7 - 7 - -\n5 - - - - - - - - -\n- - - - - 6 - - - -\n- 8 - - 6 - - - - 5\n- - - - - - - - - -\n5 - - 8 - 8 - - 5 -\n- - - - - - - - - -\n- - - - 5 - - - - 3"
+    },
+    "208_10x10": {
+      "id": "208_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/208.a.htm",
+      "problem": "10 10\n3 - - - 5 - - - - -\n- - 7 - - - 6 - - -\n- - - - - 7 - - - 4\n- - 7 - - - - - - 3\n- - - - - - - - - -\n3 - 7 - - - - 8 - -\n3 - - - 8 - - - - -\n- - 6 - - - 8 - 8 -\n- - 6 - 7 - - - - -\n3 - - - - - - - - -"
+    },
+    "210_10x10": {
+      "id": "210_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/210.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n4 - - - - - - - 7 -\n- - - - 7 - - 5 - -\n- 8 - - 6 - - - - -\n- - - - - - - - - -\n- - - 8 - - - - 7 -\n5 - - - - - - - - -\n- - - - - - 6 - 5 -\n- 8 - - - - - - - -\n- - - 4 - - 5 - - -"
+    },
+    "211_10x10": {
+      "id": "211_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/211.a.htm",
+      "problem": "10 10\n3 - - - 4 - - - - -\n- - - - 7 - - - 8 -\n- - 6 - - - - - - -\n5 - - - - 7 - - - 4\n- - 7 - 7 - - - - -\n- - - - - - - - - -\n4 - - 8 - - 6 - - 5\n- - - - - - - 6 - -\n- 8 - - - - - - - -\n- - - 5 - - 5 - - -"
+    },
+    "212_10x10": {
+      "id": "212_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/212.a.htm",
+      "problem": "10 10\n- - - 3 - - - - - -\n- 8 - - - 5 - - - -\n- - - - - - - - 6 -\n- 4 - - - 4 3 2 - -\n- 4 - - - - 3 2 - -\n- - - - - - - - - -\n- - - - - 8 - - - -\n- - 4 - - - - - - -\n- 6 - - - - - 5 - -\n- - - 5 - - - - - 3"
+    },
+    "214_10x10": {
+      "id": "214_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/214.a.htm",
+      "problem": "10 10\n- - - - - - 4 3 - -\n- - - - - - - - - -\n2 - - - - - - 7 - -\n- 4 - - 6 - - 7 - 5\n- - - - 7 - - - - -\n- - 7 - - - 8 - 7 -\n5 - - 4 - - - - - -\n- - - - - 6 - - 6 -\n- - 6 5 - - - - - -\n- - - - - - - - - 3"
+    },
+    "215_10x10": {
+      "id": "215_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/215.a.htm",
+      "problem": "10 10\n- - - - - - - - - 3\n- 6 - - - - - 7 - -\n- - 5 - - 6 - - - -\n- - - - - - - - 7 -\n- - - 8 - - 4 - - -\n- 6 - - - 5 5 6 - -\n- - 4 - - - - - - -\n- - - 5 - - 7 - - -\n- - - - - - - 5 - -\n- - 5 - - - - - - -"
+    },
+    "216_10x10": {
+      "id": "216_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/216.a.htm",
+      "problem": "10 10\n- - 5 - - 4 - - - -\n- - - - - - - 6 - -\n- 7 5 - - - - - - -\n- - - - - - - 3 4 -\n- - - - - 5 4 - - -\n- - - - - 4 - - - 5\n5 - - - 4 - - 7 - -\n- - 5 - - 6 - - - -\n- - - - - - - - - -\n- - - - - - - - - -"
+    },
+    "217_10x10": {
+      "id": "217_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/217.a.htm",
+      "problem": "10 10\n3 - - - - - - - - 2\n- - 6 6 6 - - 8 - -\n- - - - - 7 - - - 4\n- - - - - - - 7 - -\n- 7 - - - - - - - -\n- - - - - - - - - -\n- - 6 - - - 7 6 - -\n4 - - - - - - - 7 -\n- - 5 5 - - 7 - - -\n2 - - - - - - - - 3"
+    },
+    "218_10x10": {
+      "id": "218_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/218.a.htm",
+      "problem": "10 10\n- - 5 - - - - - 4 -\n- - - - 6 - 6 - - -\n- - - - - 4 - - 7 -\n- - 6 - - - - - - -\n- 7 - - - - - - 6 -\n- - - - 6 6 - - - -\n- - 8 - - 6 - 7 - -\n- - - - - - - - - -\n2 - 5 - - - 7 - - -\n- - - - - - - - - 3"
+    },
+    "219_10x10": {
+      "id": "219_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/219.a.htm",
+      "problem": "10 10\n- - 3 - - - - - - -\n- - 5 - - 4 - - - -\n- - - - - - 1 - - -\n- - - - - 3 0 - - 3\n- 6 - - - - - - - -\n- - 2 - - - - - - -\n- - - - - 4 - - - -\n- - - - - - 4 - - -\n- - - - - - - - 6 -\n3 - - - 2 - - - - -"
+    },
+    "221_10x10": {
+      "id": "221_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/221.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 5 - - - 5 3 - -\n- 6 - 5 - - 5 - - -\n- - - - - - - - 6 -\n- - - - - - 8 - - -\n- - 8 - - - - - - 5\n5 - - - 6 7 - - - -\n- - - - - - - - 7 -\n- 8 - - - - - 6 - -\n- - - - 5 - - - - 3"
+    },
+    "222_10x10": {
+      "id": "222_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/222.a.htm",
+      "problem": "10 10\n- - - 2 - - - - - -\n- 8 - - - - - 8 - 3\n- - - - 6 - - - - -\n5 - 8 - - - 8 - - 4\n- - - - - - - - - -\n- - - 8 - - 7 - - -\n- - - - - - - 6 - -\n5 - - 7 - - - - 5 3\n- - 7 - - - 8 - - -\n- - - - 5 - - - - -"
+    },
+    "223_10x10": {
+      "id": "223_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/223.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - 2\n- - - - - - - - - -\n- - - - 8 - - 6 - 4\n5 - - - - - - 5 - -\n- - 7 - 8 - - - 6 -\n- 7 - - - - 6 - - -\n- - - - - 5 - - - 4\n- - - 6 5 - - - - -\n- 7 - - - - - - 8 -\n- - - 5 - - - - - -"
+    },
+    "226_10x10": {
+      "id": "226_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/226.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n4 - 7 6 7 - - - - 3\n- - - - - - 7 - - -\n- - - - 7 - - - - 3\n- - - - - - 8 - - -\n5 - 5 - - - - - - -\n- - 2 - - - - 4 - -\n- 5 - - - - - 4 - -\n- - - - - 5 - - - -\n- - - 4 - 3 - - - -"
+    },
+    "227_10x10": {
+      "id": "227_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/227.a.htm",
+      "problem": "10 10\n- - - - 5 - - - - -\n- - 7 - - - 7 - - -\n- - - - - 7 - - - 3\n- - - - - - - - - 3\n5 - - - 5 - - - - -\n- - 7 - - 5 - - - -\n- 6 - - 5 - - 8 - 5\n- - - - - - - - - -\n- - - - - 8 - - 8 -\n- - 5 - - - - - - -"
+    },
+    "228_10x10": {
+      "id": "228_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/228.a.htm",
+      "problem": "10 10\n- - - 4 - - - - - 3\n- 8 - 7 - - - 7 - -\n- - - - - 8 - - 7 -\n5 - 7 - - - - - - -\n- - - - - - - 7 - -\n- - - 5 - - 6 - - -\n- - 6 - - 6 - - - -\n- - - - - - - - - -\n- 8 - - - 8 - - 7 -\n- - - 5 - - - - - -"
+    },
+    "229_10x10": {
+      "id": "229_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/229.a.htm",
+      "problem": "10 10\n- - - - - - - - - 3\n- 7 - 4 - - - 7 - -\n- - - - 4 - 5 - - -\n4 - - - - - 6 - - -\n- - - - - - - - - -\n3 4 - - - - 8 - 7 -\n- - - - 8 - - - - -\n- - - - - - - 6 - -\n- - 8 - - - - 6 - -\n- - - - 5 - - - - -"
+    },
+    "232_10x10": {
+      "id": "232_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/232.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n- - - - - - - - - -\n5 - 6 - - - 8 - 7 -\n- - - 5 - - - - - -\n- - - - - - - - - -\n- - - 7 - - 5 - - 2\n- - - - - - - 4 - -\n- 8 - 7 - 7 - - - -\n- - - - - - 6 6 - -\n- - - 3 - - - - - -"
+    },
+    "233_10x10": {
+      "id": "233_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/233.a.htm",
+      "problem": "10 10\n- - - - 3 - - - - -\n- - 7 - 6 - - 7 7 -\n- - - - - - - - - -\n- 7 - 8 - 8 - - - -\n- - - - - - - - - 4\n- - 7 - - 6 - - - -\n- - 7 - - - 7 - - 4\n- - - - - - - - - -\n- - - - 7 - 6 7 - -\n- - 5 - - - - - - 3"
+    },
+    "235_10x10": {
+      "id": "235_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/235.a.htm",
+      "problem": "10 10\n- - - - - 4 - 3 - -\n3 - 6 - - - - - - -\n4 - 6 - - 6 - - - -\n- - - - - - 5 - - 4\n- - - - - 6 - - - -\n- 4 5 - - - - - - -\n- 4 - - - - - - 8 -\n- - - - 5 5 - - - -\n- - - - - - - - - 2\n3 - - - 5 - - - - -"
+    },
+    "237_10x10": {
+      "id": "237_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/237.a.htm",
+      "problem": "10 10\n- - - - - 3 - - - 3\n- - - - - - - - - -\n- 6 - - 8 - - - 8 -\n- - 7 - - - - - - -\n- - - - 6 - 4 - - 3\n- - - - - 5 - - - -\n5 - - - - - - 6 - -\n- - - - - 6 3 - - 4\n- - 8 - - - - - - -\n- - - - - - - - - -"
+    },
+    "238_10x10": {
+      "id": "238_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/238.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n2 - - 7 - - - - - -\n4 - - - 6 - - 8 - -\n- - - - - - - - - -\n- - - 7 - - - - - -\n- - - - 5 - - 7 - -\n4 7 - - - - - 5 - 5\n- - - - - - 6 5 - -\n- 8 - - - - - - - -\n- - - 4 - - 4 - - -"
+    },
+    "239_10x10": {
+      "id": "239_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/239.a.htm",
+      "problem": "10 10\n- - - 5 - - - 4 - -\n- - - - - - - - - -\n5 - - - - 4 - - 6 -\n- - - - - - - - - -\n- - - 3 - - 8 - 7 -\n- 5 - - - - - - - -\n- - - - - 8 - - - -\n- - - 4 - - - - 7 -\n- - - - - - 6 - - -\n- - 5 - - - - - 3 -"
+    },
+    "240_10x10": {
+      "id": "240_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/240.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- - 7 - - - - - - -\n5 - - - 5 - - 8 - -\n- - - - 6 6 - - - -\n- 7 - - - - - 7 - -\n- - - 6 - 8 - 6 - -\n5 - 6 - - - - 7 - -\n- - - - - - - - - -\n- - - - - 8 - 7 - -\n- - 3 - - - - 4 - -"
+    },
+    "241_10x10": {
+      "id": "241_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/241.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - 3\n3 - - - - - - - - -\n- - - - 7 - - - - -\n- - 6 - - - - - 6 -\n- 5 - - 8 - 7 - - -\n- - - - - - - - - 2\n- - - - - - - - 6 -\n- 8 - 7 - - 5 - - -\n- - - - - - - - 7 -\n- - - - - 3 - - - -"
+    },
+    "242_10x10": {
+      "id": "242_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/242.a.htm",
+      "problem": "10 10\n- - - - 4 - 2 - 2 -\n- - - - - - - - - -\n2 - - - 8 - - 7 - -\n- 1 - - - - - - - -\n- - - - - - - - - -\n- - - - - - 4 - - -\n- - 5 - - - 4 - 6 -\n- - - 3 - 2 4 - - -\n- - - - - - - - - 3\n0 - - - - - - - - -"
+    },
+    "244_10x10": {
+      "id": "244_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/244.a.htm",
+      "problem": "10 10\n- - - - 3 - - - - 3\n3 - 7 - - - - 8 - -\n- - - - 6 - - - - -\n3 - - - - 5 5 - - -\n- - - - - - 5 - - -\n3 - 7 - 8 - - - - -\n- - - - - - - 7 - -\n- - - - - 8 - - - -\n- - - - - - - - - -\n- 3 - 4 - - - - 2 1"
+    },
+    "245_10x10": {
+      "id": "245_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/245.a.htm",
+      "problem": "10 10\n- - 2 - - - - - - -\n- - - - 5 - - - - 2\n- 7 - - - - - - - -\n- - - - 7 - - 4 - 2\n- - - - - - - - - -\n- 6 - - - - - - - -\n3 - - - - - - - - 4\n- - - - - 5 - 5 - -\n- - - - 7 - - - - -\n- 3 - - - - 4 - - -"
+    },
+    "246_10x10": {
+      "id": "246_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/246.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - 3\n- - - - 7 - - - - -\n- - 8 - - 6 - - - -\n5 - - - - - - 5 - -\n- - 8 - - - - - - -\n- - - - 7 6 - - - -\n3 - - - - - - 8 - -\n- - - - - 8 - - - -\n3 - 7 - - - - 8 - -\n- - - - 5 - - - - -"
+    },
+    "248_10x10": {
+      "id": "248_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/248.a.htm",
+      "problem": "10 10\n- - 4 - - - - - - -\n- - - - 6 5 - 7 - -\n- - - - 6 - - - - 5\n- - - - - - 7 - - -\n5 - - - - 6 - - 7 -\n- - 7 - - - - - - -\n- - - 6 - - - - - 5\n5 - - 6 - - 5 - - -\n- - - - - 5 - - 7 -\n- - - - - - - - - -"
+    },
+    "249_10x10": {
+      "id": "249_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/249.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - 6 5 5 - - 7 -\n- 6 - 6 - - - - - -\n- - - - - - - - - -\n3 - 8 - - - - 8 - -\n- - - - - - - - - 5\n- 6 - - - 6 - 8 - -\n- - - 6 - - - - - -\n- - 7 - - - - - - -\n- - - - 5 - - 4 - -"
+    },
+    "250_10x10": {
+      "id": "250_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/250.a.htm",
+      "problem": "10 10\n- - - - 5 - - - - -\n- - - - - - - - - -\n- 3 - - - 7 - 7 - -\n- - 2 - - - - - - -\n- - - - - - - - - -\n- - - 5 4 - - 7 - -\n- - 5 4 - - - 7 - -\n- - - - - 8 - - - -\n- 8 - - - - - - - -\n- - - 3 - - 4 - - 3"
+    },
+    "251_10x10": {
+      "id": "251_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/251.a.htm",
+      "problem": "10 10\n3 - - - 5 - - - - -\n- - - - - - - - 7 -\n- - - - - - - 7 - -\n- - 7 - - - - - - -\n5 - - - - - 7 - - -\n- - - - - - - - 8 -\n- - - 8 - 7 - - - -\n- - - - - - 7 - - 5\n- - - - - - - - - -\n2 - 4 - - - - - - -"
+    },
+    "252_10x10": {
+      "id": "252_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/252.a.htm",
+      "problem": "10 10\n- - - - - - 4 - - 3\n- - - - - - 6 - - -\n4 7 - - - - - - - -\n- - - 7 - - - 8 - -\n- - - - - - - - - -\n- - - 7 - - 7 - - 5\n- - 7 - - - - 7 - -\n- - - - - - - - - -\n- 8 - 7 - - - - - -\n- - - - - - 5 - - 3"
+    },
+    "254_10x10": {
+      "id": "254_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/254.a.htm",
+      "problem": "10 10\n- - - 5 - - - - - -\n3 - - - - - - - - -\n- - 7 - - - 8 - 7 -\n- - - - - - - - - -\n- 6 - - - - - - - 4\n- - - 7 6 - - - - -\n- - - - - - 5 - - -\n- - 7 - - 5 - - - 3\n- - - - 5 - - - - 2\n- - 5 - - - - - - -"
+    },
+    "256_12x12": {
+      "id": "256_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/256.a.htm",
+      "problem": "12 12\n- - - - - - - - 3 4 - -\n4 - 5 - - - - - - - - -\n- - - - - 7 - 7 - - - -\n- - - - - 6 - - - - - -\n5 - - 5 - - - - - - - 2\n- - - - - - - - - - 1 -\n- - - - - - - - - - - -\n- 8 - 8 - - 4 - - - - -\n- - - - - 3 - - 8 - - -\n4 - - 5 - - - - - - 6 -\n- - 6 - - - 6 - - - 7 -\n- - - - - - - - - - - -"
+    },
+    "261_10x10": {
+      "id": "261_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/261.a.htm",
+      "problem": "10 10\n3 - - - - - 3 - - 3\n- - - - - - - - - -\n- - - - 7 - - - 7 -\n5 - 5 - - - - - - -\n- - - - - - - 8 - -\n- 6 - - - - - - - 5\n- - - 8 - 6 - - - -\n- - - - - - 5 - - -\n- - - - - - - - - -\n3 - - - 3 2 - 4 - -"
+    },
+    "263_10x10": {
+      "id": "263_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/263.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - - 7 -\n- 4 - - 4 - - 5 - -\n- - - - - - - - - -\n- - 5 - - 7 - 6 - -\n- - - 6 - - - - - 3\n4 - - - - - - - - -\n- - - - - - - - - -\n- 8 - - 0 - - 7 - -\n- - - - - - - - - 3"
+    },
+    "264_10x10": {
+      "id": "264_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/264.a.htm",
+      "problem": "10 10\n- - - - 5 - - 5 - -\n- 8 - - - - - - - -\n- - - - - 5 - - 6 -\n5 - - - - - - - - -\n- - 7 - - 6 - - - -\n- - - 6 - - - - - -\n- - - - - - - - 8 -\n- 8 - - - - 4 - - -\n- - - - - - - - - -\n- - - 5 - - - - 2 -"
+    },
+    "266_12x12": {
+      "id": "266_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/266.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n0 - - 7 - - 3 - - 6 - -\n- - - - - - - - - - 6 -\n- - - - 4 6 5 - - - - -\n- - - - - - - 6 - - - -\n- - 6 - - - - - - - - 3\n- 7 - - - - - - - - - 3\n- - - - - - - - 4 - - -\n- - - - - - 8 - - - - -\n- - - 3 - - - - 5 - 5 -\n- - - - - - 8 - - - - -\n3 - - - 2 - - - - - - 3"
+    },
+    "269_14x14": {
+      "id": "269_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/269.a.htm",
+      "problem": "14 14\n- - - - 5 - - - - - - - - -\n- - 6 - - - - - - - - 6 - -\n5 - - - 5 - - 3 - 6 - - - -\n- - - - - - - - - 6 - - - -\n- - - 8 - - - - - - 7 - - 5\n- - - - - 6 - - - - - - - -\n- 5 7 - 7 - - - - - - - 8 -\n3 - - - - - - 6 - - - - - -\n- - - - - - - - 6 - - 8 - -\n- 8 - - - - 7 - - 6 - - - -\n- - - - - - - 5 - - - - 7 -\n- - 8 - 7 - - - - - - - - -\n2 - - - 5 - - - - - - - - -\n- - - - - - - 5 - - - 5 - -"
+    },
+    "271_10x10": {
+      "id": "271_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/271.a.htm",
+      "problem": "10 10\n- - - 5 - - - 2 - -\n- - - - - - 3 - - -\n- 7 - - - - - - - -\n- - - 4 - - - - - -\n- - - 7 - - - 6 - -\n- 8 - - - - - - - 5\n- - - 6 - - - - - -\n5 - - - - - - 5 - -\n- - - - - - - - 6 -\n- - - 4 - - 5 - - -"
+    },
+    "272_10x10": {
+      "id": "272_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/272.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - 7 - - - - - 3\n- - - - - - - 7 - -\n- - - 8 - 7 - - - -\n- - - - - - - - 5 -\n5 - - - - 7 - 6 - -\n- - - - - - - - - -\n- - - 8 - - - - - 5\n- - - - - 7 - 8 - -\n3 - - - - - - - - -"
+    },
+    "274_10x10": {
+      "id": "274_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/274.a.htm",
+      "problem": "10 10\n- - - - - - - - - 3\n- - - - - - 6 - - -\n- 7 - - - - 6 - - -\n- - 5 - - - - 7 - -\n- - - - - - - - - -\n- - - 3 - 6 6 - - -\n3 - - - - - - - - -\n- - 5 - - - - 7 - -\n- - 6 - - - - - - -\n2 - - - - 3 - - - 1"
+    },
+    "281_10x10": {
+      "id": "281_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/281.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - 3\n- - 3 - - - - - - -\n- - - - - - - - - -\n- - 7 - 6 - - 8 - 5\n- - - - 7 - - - - -\n- - - - - - - - - -\n- - - 7 - - - - - -\n4 - - 7 - - - - 6 -\n- - - - - - 6 - - -\n- - 4 - - 3 - - - 3"
+    },
+    "282_10x10": {
+      "id": "282_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/282.a.htm",
+      "problem": "10 10\n- - - - - - - - 4 -\n4 - - - 6 - - - - -\n- - - - 6 - - - - -\n- 7 - - - 5 - - - 5\n- - 7 - - - - - - -\n- - - - - - - - - -\n- - - 7 - - 6 6 - -\n- 7 - - - - - - 6 -\n- - - 6 - - - - - -\n- - - - - - 5 - - -"
+    },
+    "283_10x10": {
+      "id": "283_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/283.a.htm",
+      "problem": "10 10\n- - - - - 2 3 - - -\n3 - - - - - 5 - - -\n4 - - 6 - - - - 8 -\n- - - - 4 - - - - -\n- - - - - - - 8 - -\n- - - - - - - - - -\n4 - - - 8 - - 6 - -\n- - 5 - - - - - - 5\n3 - - - - - - - - -\n- - - - - 4 - - - -"
+    },
+    "284_10x10": {
+      "id": "284_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/284.a.htm",
+      "problem": "10 10\n- - - - - - - 5 - -\n- - - - 8 - - - - -\n4 7 - - - - - - - -\n- - - - - - - 8 - -\n- - - - 7 - - - - -\n- - 7 - - - - - - 5\n5 - - 6 - - - - - -\n- - - - - - - 5 6 -\n- - 7 - - - - - - -\n- - - - - 5 - - - 3"
+    },
+    "292_10x10": {
+      "id": "292_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/292.a.htm",
+      "problem": "10 10\n2 - - 3 - - - - - -\n- - - - - 7 7 - - -\n- - - - - - - - - 5\n- - 8 - - - - - - -\n- - - - 6 6 - - - -\n- - - - - - - - 6 -\n5 - - - - 8 - - - -\n- - - 7 - - - - - -\n- - - - - - - 8 - -\n- - 4 - 4 - - - - -"
+    },
+    "298_12x12": {
+      "id": "298_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/298.a.htm",
+      "problem": "12 12\n3 - - - - 4 - - - 3 - -\n- - - 6 - - - - - - - -\n- - - - 7 - - - - - - 4\n- - - - - - - 7 - - - -\n- - - 7 - - - - 7 - - -\n- 8 - - - - 6 - - - 6 -\n- - - - - - - 6 - - 4 -\n- - - 6 5 - - - - - - -\n- 5 - - - - - 8 - 5 - -\n- - - 6 - 7 - - - - - -\n- - - - - - - - - - - -\n2 - - - - - 4 - 3 - 2 -"
+    },
+    "301_10x10": {
+      "id": "301_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/301.a.htm",
+      "problem": "10 10\n- 3 4 - - - - - - -\n- - - - - 8 - - 7 -\n- - - - - - - 7 - -\n5 - - - - - - - - -\n- - - - - - 8 - - -\n- - 8 - 8 - - - - -\n- - - - - - - - - -\n- - - 8 - 7 - - 6 4\n- 8 - - - - 7 - - -\n- - - - - - - - - -"
+    },
+    "302_10x10": {
+      "id": "302_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/302.a.htm",
+      "problem": "10 10\n- - - - - 5 - - - -\n- - - - - - - - - -\n- - 2 - - - - 5 - -\n- - 4 - - 2 - - - -\n5 - - - - - - 7 - 3\n- - - - - 2 - - - 3\n- 6 - 2 - - - - - -\n- - - - - - - - 6 -\n- - - - - - 6 - - -\n- - 3 - - - - - - -"
+    },
+    "304_12x12": {
+      "id": "304_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/304.a.htm",
+      "problem": "12 12\n- 4 - - - - - - - - - -\n- - - - 6 - - - - 6 - -\n- - - - - - - 7 - - - -\n5 - - - - 7 - - - - 6 4\n- - - 7 - - - - - - - -\n- - - - - 4 - - - 7 - -\n- 5 - - - - - - - - - -\n- - - 7 - - - 8 - - - 5\n- - - - - - - - - - - -\n5 - - 8 - - - 8 - - - -\n- - - - - - - - - 7 7 -\n- - - - - - - - - - - -"
+    },
+    "306_12x12": {
+      "id": "306_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/306.a.htm",
+      "problem": "12 12\n- - - - - - - 5 - - - -\n- - - 6 - - - - - - 5 -\n4 - - - - 3 - - - 5 - -\n- - 7 - - - 3 - - - - -\n- - - - - - - - - - 5 -\n- - 7 - - - - 8 - - - -\n- - - - - - - - - - - -\n- - - - 4 - - 6 4 - - -\n- - 6 - - - - 4 - - - 4\n- - - 5 - - - 6 - - - -\n- - - - - - - - - 7 - -\n- - 4 - 4 - - - - - - -"
+    },
+    "307_12x12": {
+      "id": "307_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/307.a.htm",
+      "problem": "12 12\n- - - - - - 3 - - - - -\n- - - - - - - - - 6 - -\n- 8 - 8 - - 8 - - - - -\n- - - - - - - - - 5 - -\n- - - 6 - - - 4 4 - - -\n- - - - - 5 - - - - - -\n- 7 - - - - - - - - - -\n- - - - - - 6 5 - - 7 -\n- 7 7 - - - - - - - - -\n- - - - - - - - - - - 5\n- - - - 7 - - - 8 - - -\n- - 4 - - - 5 - - - - -"
+    },
+    "309_14x14": {
+      "id": "309_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/309.a.htm",
+      "problem": "14 14\n- - 5 - - - - - - - - - 3 -\n- - - - 7 - - 6 - - 6 - - -\n- - - - - - - - - - - - - -\n- - - 8 - - - - 5 - 7 - - -\n- - - - - 8 - 6 - - - - - 5\n5 - - 8 - - - - - 7 - 7 - -\n- - - - - - - - - - - - - -\n- - - 8 - - - - - - - - 5 -\n- 6 - - - - 8 - 5 - - - - -\n3 - - - - - - - - 6 - - - -\n- - 6 - - 7 6 - - - - 5 - -\n- - - - - - - - - - - 5 - -\n- - - - - - - - 7 - - - - -\n3 - - - - - 5 - - - 5 - - -"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/074.a.htm",
+      "problem": "8 8\n- - - - - - - -\n- - 6 - - - - -\n- - - 6 - - - 5\n- - - - - 7 - -\n- - - - - - - -\n- - 4 - - 8 - -\n- - 6 - - - - -\n3 - - - - - - -"
+    },
+    "134_10x10": {
+      "id": "134_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/134.a.htm",
+      "problem": "10 10\n- 3 - - - - - 4 - -\n- - - 6 - - - - - -\n- - - - - 5 - 6 7 -\n- - 8 - - - - - - -\n- - - - - - - 7 - -\n- - - - - 8 - 7 - -\n5 - 7 - - - - - - 5\n- - - - 8 - 7 6 - -\n- 7 - - - - - - 7 -\n- - - 5 - - - - - -"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/138.a.htm",
+      "problem": "10 10\n- 3 - - - - 4 - - -\n- - - - 6 - 7 - - -\n- - - - - - - - 5 -\n- 4 - - - - 6 - 6 -\n- - - - 6 - - - - -\n- - - - - - - - - -\n- - - - - 6 - 6 - -\n- 5 - - - - - 4 - -\n- - - - 6 - - - 5 -\n3 - - - - - - - - -"
+    },
+    "166_10x10": {
+      "id": "166_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/166.a.htm",
+      "problem": "10 10\n- - - - - - 5 - - -\n- 6 - - 7 - - - 7 -\n- - 6 - - - - - - -\n- - - - - - - 4 - -\n- 6 - - 5 - - 5 - -\n- - - - - - - - - -\n- 5 - - - - - 4 - -\n- 4 - - 5 - 4 - - -\n- - - - - - - - - 2\n- - - - - 4 - - - -"
+    },
+    "175_10x10": {
+      "id": "175_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/175.a.htm",
+      "problem": "10 10\n- - 4 - - - - - - -\n- - - - - 6 - - 7 -\n- 6 - - - - - 5 - -\n- - - - 8 - - 4 - -\n- - - - - - - 3 - -\n- - 3 4 - - - 4 - -\n- 5 3 - - - - - - 4\n- - - - - - - - - -\n- - - - 7 - - - - -\n- - 4 - - - 4 - 2 -"
+    },
+    "183_10x10": {
+      "id": "183_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/183.a.htm",
+      "problem": "10 10\n- - - - - - 3 3 - -\n- - 6 6 - - 6 - - -\n- - - - - - - - 7 -\n- - - - - 6 - 5 - -\n- - 5 4 - - - - - 5\n5 - - - - - - - - -\n- - - 6 - - - 4 - -\n- - - - - 5 - - 6 -\n- - 6 6 - - - - - -\n- - - - - - - 5 - -"
+    },
+    "188_10x10": {
+      "id": "188_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/188.a.htm",
+      "problem": "10 10\n- - - 2 - - 4 - - -\n- - 3 - - - - - - 3\n- - - - - - - - - -\n- - - - 5 - 7 - - -\n- 6 - - - - - - - -\n- - - 5 - 8 - - 8 -\n- 7 - 7 - - - - - -\n- - - - - 6 - - 6 -\n- 8 - - - - - - - -\n- - - - - - - - - 2"
+    },
+    "195_10x10": {
+      "id": "195_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/195.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - - 6 - -\n- 4 - - 5 - - - 6 -\n- - - - - - 7 - - -\n- - - - 5 - - - - -\n- 5 - - 5 - - 5 - -\n- 4 - - - - - - - 4\n- - - - 5 - - - - -\n3 - - 5 - - - - 8 -\n- - - - - - 5 - - -"
+    },
+    "196_10x10": {
+      "id": "196_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/196.a.htm",
+      "problem": "10 10\n- - - - - - - - - 3\n3 - 5 - - 4 - - - -\n4 - - - - - - - - -\n- - - - - - - 7 - -\n- 7 - - - - - - - -\n- - - - 4 - - 5 - 3\n- - - 4 - - - - - -\n4 - - - - - - - - 4\n- - 8 - - - 7 - - -\n- - - - 5 - - - - -"
+    },
+    "198_10x10": {
+      "id": "198_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/198.a.htm",
+      "problem": "10 10\n- 3 - 3 4 - - - - -\n- - - - - - - 6 7 -\n- - - 5 5 - - - - -\n- - - - - - - - 6 -\n1 - - - - - 7 - - -\n2 - - 6 - - - - - 3\n- - - - - - - - - -\n- - - - 6 5 - - - 4\n- - 5 - - - 6 - - -\n- - - - 5 - - - - -"
+    },
+    "209_10x10": {
+      "id": "209_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/209.a.htm",
+      "problem": "10 10\n3 - - - - - - - - -\n- - - - 5 - - - - -\n- - - - - - - - 5 3\n- - 6 - 6 - - - - -\n- 5 - - - - - 6 - 3\n- - - - - - - - - -\n- - - - - - 6 - - -\n- 4 3 6 - - - 6 7 -\n- 6 - - - - - - - -\n- - - - - 4 - - 4 -"
+    },
+    "213_10x10": {
+      "id": "213_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/213.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - 6 7 - - - 7 - -\n- - - - - - - - - 3\n- - - 6 - - - 7 - -\n1 - - - - 4 - - - -\n- - - - - - - - 6 -\n- - 8 - - - - - - -\n- - - - - - 6 - 7 -\n- 8 - - - - - - - -\n- - - 2 - 2 - - - -"
+    },
+    "220_10x10": {
+      "id": "220_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/220.a.htm",
+      "problem": "10 10\n- 2 4 - - - - - 2 -\n- - - - - 7 - - - 2\n- - - - - - - - - -\n4 - - - 7 - - - - 3\n- - 5 - - - - - - -\n- - - - 6 - - 5 - -\n- - - - - - - - 5 -\n- - 4 - - 5 - - - -\n- - - - - - - 7 - -\n- - - - 3 - - - - 3"
+    },
+    "224_10x10": {
+      "id": "224_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/224.a.htm",
+      "problem": "10 10\n- - - 2 - - - - - -\n3 - - - 3 - - 7 - 3\n- - - - - - - - - 2\n- - - - - 4 - - - -\n- - - - - 4 - - - -\n- 8 - 7 - - - - - 4\n- - - - - - - 4 - -\n- - 5 - 4 - - - - -\n3 - - - - - - - - -\n- - - - - - - - - 3"
+    },
+    "225_10x10": {
+      "id": "225_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/225.a.htm",
+      "problem": "10 10\n- - - 4 - 2 - 2 - -\n- - - - - - - - - -\n- 6 - - - - - - - -\n- 6 - - 6 - - 7 - 4\n- - - - - - - - - -\n- - - 4 - 7 - - 6 -\n- - 4 - - - - - 5 -\n- 7 - - - - - 4 - -\n- - - - - 7 - - - -\n- - - 5 - - - - - -"
+    },
+    "230_10x10": {
+      "id": "230_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/230.a.htm",
+      "problem": "10 10\n- 2 - - - - - - - 3\n- - - - - - - - - -\n- 4 - - 3 - - 5 - -\n- - - - - 2 - - - -\n- - - 4 - - - - - -\n4 - 5 - - - 7 - 6 -\n- - - - - - - - - -\n- - - 7 - - - - 6 -\n- - - - - - - - 7 -\n- 3 - - 3 - 3 - - -"
+    },
+    "231_10x10": {
+      "id": "231_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/231.a.htm",
+      "problem": "10 10\n3 - - - - - - - - 3\n- - 6 - - - - 8 - -\n- - - - - 7 - - - -\n- 6 - - - - - 8 - -\n- - - - 5 5 - - - 5\n- - - - - - - - - -\n5 - - 8 - - - - - -\n- - - - - - - - 5 -\n- - 8 - - - - 5 - -\n3 - - - - 3 - - - 3"
+    },
+    "234_10x10": {
+      "id": "234_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/234.a.htm",
+      "problem": "10 10\n- - 5 - - - - - - 1\n- - - - - 7 - - - -\n- 8 - 7 - - - 6 - -\n- - - - - - - - - 4\n- - - - - - 6 - - -\n- - - - - - - - 6 -\n2 - - 6 - 7 - - - -\n- - 6 - - - - - 7 -\n2 - - - 8 - - - - -\n- - - - - - - - 3 -"
+    },
+    "236_10x10": {
+      "id": "236_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/236.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 7 - - 6 - - - - -\n- 5 - - - 7 - - 6 -\n- - - - - - - 6 - -\n- - - - - - - - - -\n5 - - 7 - 5 - - - 5\n- - - - - - - 4 - -\n- - - - - - - - 6 -\n- - 7 - 5 4 - - - -\n- - - - - - - 4 - -"
+    },
+    "243_10x10": {
+      "id": "243_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/243.a.htm",
+      "problem": "10 10\n- - - 4 - - - - - 3\n- 7 - - - - - - - -\n- - - - - - 5 5 - -\n- - - - 7 - - 5 - 4\n- - 3 - - - - 6 - -\n- 2 - - - - - - - -\n- - - - 7 - 5 - - 3\n- - - - - - - - - -\n- - - - - - - - - -\n- 3 4 - - - 4 - 2 -"
+    },
+    "247_10x10": {
+      "id": "247_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/247.a.htm",
+      "problem": "10 10\n3 - - 3 - - - - - -\n- - - - - - - - 3 -\n- 6 - - - - 6 - 4 -\n- - 6 - - - 6 - - -\n- - - - - - - - - -\n3 - - 4 - - - - - -\n- - - 4 - - 6 - 7 -\n- - - - - - - - 7 -\n- - 7 - - - - - - -\n3 - - - 5 - - 5 - -"
+    },
+    "253_10x10": {
+      "id": "253_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/253.a.htm",
+      "problem": "10 10\n- - - - 3 - - 4 - -\n- - - - - - - - - -\n- 8 - 5 - - - - - -\n- - - - 5 - - 5 6 -\n- - 8 - - - - - - -\n- - - - - - - - - -\n- 7 - - - 6 5 4 - -\n- - - - - - - - - -\n- - 6 - 7 - - - - -\n- - - - - - - 4 - -"
+    },
+    "255_12x12": {
+      "id": "255_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/255.a.htm",
+      "problem": "12 12\n- 4 - - 5 - - - - - 2 -\n- - - - - - - - - - - -\n- 7 7 - - - - 6 - - - -\n- - - - - 7 - - - 5 - -\n- - - - - - - 6 - 5 - -\n- - 7 - - - - - - - - -\n- - - - 6 - 7 - - - - 5\n- - - - - - - - - 8 - -\n5 - - 6 5 - - 6 - - - -\n- - - - - - - - - - - -\n- - - 6 - 7 - - - 7 - -\n- 3 - - - - - - - - - -"
+    },
+    "257_12x12": {
+      "id": "257_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/257.a.htm",
+      "problem": "12 12\n- - - - - 4 - - - - - 2\n- 8 - - - - - - - - - -\n- - - - 5 - 7 6 - - - 4\n- 7 - 5 - - - - - - - -\n- - - - - - - - - - - -\n- 7 - - - - - 6 5 - - -\n- - - - - - - - - 5 - -\n- - 7 - - - 6 - - - - 4\n3 - - - 8 - - - - - - -\n- - - - - - - 4 - - 6 -\n- - 6 - 7 - - - 6 - - -\n- - - - 4 - - - - - - -"
+    },
+    "258_14x14": {
+      "id": "258_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/258.a.htm",
+      "problem": "14 14\n- - - - - - - - - - - - - -\n- - - - - - - - 5 - - 5 - -\n- 8 - 8 - 8 - - - - 6 - - -\n- - - - - - - 2 - - - - - -\n- - 5 - - - 6 - - 4 7 - - -\n- - 3 - 5 - - - - - - - - -\n- - - - - - - - - - - - - 3\n- - - - - - - - 6 - - - - -\n5 - 6 - 5 - - - - - 6 - - -\n- - - - - - - - 8 - - - 6 -\n- - - - - - - - - - - - - -\n3 6 - - 7 - - 5 5 - 4 - - 5\n- - - - - - - - - - - - - -\n- - - - - - 5 - - - - - - -"
+    },
+    "259_14x14": {
+      "id": "259_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/259.a.htm",
+      "problem": "14 14\n- - - - - - 3 - 3 - - 4 - -\n- 7 - - - - - - - - - - - -\n- - - 3 - - - - 6 - - - - -\n4 - - - - - 3 - - - - 7 - -\n- - - - - - 5 - - - - - - -\n- - 8 - - - - - - - - - - -\n- - - - - - - - 5 - 8 - 8 -\n- 3 - - - 5 - - - - - - - -\n- - - - - - - - - 4 - - - -\n- - - 7 - 6 - - - - 3 - - -\n- - - - - - - - - - - 5 - 3\n- 5 - - - - - 4 - 7 - - - -\n- - - - - - - 5 - - - - - -\n- - - - 2 - - - - - - - 3 -"
+    },
+    "260_14x14": {
+      "id": "260_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/260.a.htm",
+      "problem": "14 14\n- - 5 - - 4 - - - - - - - -\n- - - - - - - - - 8 - - - -\n- - 7 - - - - 7 - - - - 5 -\n5 - - - 7 - - - - 7 - - - -\n- - - - - - - - - - - - 7 -\n- 6 - - - - - - 8 - 6 - - -\n- - - - 8 - 6 - - - - - - 5\n- - 7 - - - - - - - 6 - - -\n- 6 - - - - 5 - - - - - - -\n- - - - - 7 - - - - - 5 - -\n- 6 - - - - - - - - 5 - - -\n- 5 - - - 7 - - 6 - - 5 - -\n- - - - - - - - - - - - 7 -\n- - - - 5 - - 4 - - - - - -"
+    },
+    "262_10x10": {
+      "id": "262_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/262.a.htm",
+      "problem": "10 10\n- 3 - - - - 4 - - 3\n- - - - 8 - - - - -\n- - - - - - - - - -\n- - - - - 6 6 - - -\n- - 5 5 - - - - - 3\n- - - 5 - - - - - -\n- 7 - 6 - - - 4 - -\n- - - - - - 3 1 - -\n- - - - 5 - - - - -\n3 - - - - - - - - -"
+    },
+    "265_12x12": {
+      "id": "265_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/265.a.htm",
+      "problem": "12 12\n- - - - - - - - 3 4 - -\n- - - - - - - - - - - -\n3 - - - - - - - - - - -\n- - - - - 2 - - 6 - - 4\n- 7 - - 3 - 3 - - - - -\n- 6 - - - - - - - - - 3\n- - - 3 - - - - 4 - - -\n- - - - - - - - 2 - - 3\n- 5 - - - - - 3 - - - -\n- - - - - - - - - - - -\n3 - - 5 - 5 - - - - 7 -\n- - - - - - - - 3 - - -"
+    },
+    "267_12x12": {
+      "id": "267_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/267.a.htm",
+      "problem": "12 12\n- - - - - - 5 - - - - 3\n- - - - - - - - - - - -\n- - - - - 5 - - 7 - - -\n2 4 - - - 4 5 - - - - -\n2 - - - - - - - - - - -\n- - - - 2 - - - - - - -\n- - 4 - - - - - 3 - - 5\n- - - - - 7 - - - - - -\n- 6 - 8 - - - - - - 4 -\n- - - - - 4 - - - - - -\n- - - - - - 4 - - - - -\n- 3 - - - - - - 4 - - 2"
+    },
+    "268_14x14": {
+      "id": "268_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/268.a.htm",
+      "problem": "14 14\n3 - - - - - - 5 - - - 4 3 -\n- - - - 8 - - - - - - - - -\n- - - - - - - - 7 - - - - -\n- - 5 - - 7 - - - - - - 7 -\n- - - - 5 - - - - - 7 - 6 -\n- - - - - - - - - 6 - - - -\n5 - - - 5 - - 7 - - - 7 - -\n- - - - - 7 - - - - - - - -\n- - - - - - - - - - - - - -\n- 7 - - 8 - 8 - 7 - - 6 - -\n- - - - - - - - - - 6 - - 5\n- - - - 6 6 - 7 - - - - - -\n- - - - - - - - - 7 - - - -\n- - 5 - - - - - - - - 5 - -"
+    },
+    "270_14x14": {
+      "id": "270_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/270.a.htm",
+      "problem": "14 14\n- - - - 5 - - - - - - - - -\n3 - - - - - - - 6 - 5 - - -\n- - - - - 6 - - - - - - - 4\n3 - - 3 - - - 3 - - - 4 - -\n- - - - - - - - 5 - - - 6 -\n- - 6 - - - - - - - - - - -\n3 - - - - - - - - - - - 7 -\n- - - - - - - - - - 8 - - -\n- - 6 - - 7 - - 6 - - - 8 -\n- - - - - - - - - - - - - -\n- 7 - 8 - 8 - - - - - - - 4\n- - - - - - - - 6 - - - - -\n- 6 - - - - 8 - - - - 8 - -\n- - - - 4 - - - 3 - - - - 3"
+    },
+    "273_10x10": {
+      "id": "273_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/273.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- - - - - - 7 - - -\n- 2 - - 4 - - - 6 -\n- - - - - - - 6 - -\n2 - - - - - - - - -\n- - - - 4 - 8 - - -\n- - - 5 - - - - - 4\n- 6 - 5 - - - - - -\n- - - - - 7 - - - -\n- - - - - - - - 2 -"
+    },
+    "275_12x12": {
+      "id": "275_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/275.a.htm",
+      "problem": "12 12\n2 - - - - - - 4 - - - -\n- - 6 - - - - - - - - -\n- - - 4 - 7 - - - - 6 -\n- 5 - - - - - 4 - - - -\n- - 6 - - - - - - - - -\n4 - - - - - - - - - - 5\n- - - 4 - - - 5 - 6 - -\n4 - - - - - - 6 - - - -\n- - - - - - - - - - 6 -\n- - - - 8 - - - - - 6 -\n- - 7 - - - - 5 - - - -\n3 - - - - - 2 3 - - - -"
+    },
+    "276_12x12": {
+      "id": "276_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/276.a.htm",
+      "problem": "12 12\n- - - - 3 - - - - - - -\n- - - - - - 8 - 7 - - -\n5 - - 5 - - - - - - 6 -\n- - - - - - - - - - - -\n- - - - - - - 7 - - - -\n- - - - - 6 6 - - - 7 -\n- 6 - - - - - - - - - -\n- - 7 - - - 6 - - - 6 -\n- - - - - - - - - - - -\n- - - - 8 - - - - - - 3\n- - 6 - - - - - 6 - - 2\n- - 3 - 4 - - - 3 - - -"
+    },
+    "277_12x12": {
+      "id": "277_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/277.a.htm",
+      "problem": "12 12\n2 - - - - - - - - - - -\n- - - - - - - 4 - - 8 -\n4 - 8 - 7 - - 5 - - - -\n- - - - - - - 6 - - - -\n- - - 8 - - - - - - - -\n- - - - - - - - 5 - 8 -\n5 - - - 8 - - - - - - -\n- - - - - - - - - - - -\n- 8 - - - 3 - 5 - - - -\n- - - - 6 - - - - - - -\n- - 6 - - - - - - - 8 -\n- - - - - 4 - - 5 - - -"
+    },
+    "278_12x12": {
+      "id": "278_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/278.a.htm",
+      "problem": "12 12\n- 2 - - - - - - - 3 - -\n- - - 8 - 7 - - - - - 1\n2 - - - - - - - 6 - - -\n- - - - - - 6 - - - - -\n- - - 8 - - 6 - - - - -\n- - - - - - - - - 4 5 -\n- - 8 - - - 7 - - 3 - -\n- - - - - - - - - - - -\n- - - 5 - - - - - 5 - -\n- - - - - - - - - - - 4\n- 4 - - - 6 - - 6 - - -\n- - - - 3 - - - - - - 2"
+    },
+    "279_14x14": {
+      "id": "279_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/279.a.htm",
+      "problem": "14 14\n- - - - 2 - - - - 5 - - - -\n- 7 - - - - - - - - - - - -\n- - - - - - 6 - - 6 - - - 5\n3 - - - - - - 7 - 5 - - - -\n- - - - 7 - - - - - - - - -\n- - 5 - - - - - - - - - 7 -\n- - - - - - - 6 - - - - - -\n- 7 - - - - - - - 5 - - - -\n- - - 6 - - - 5 - - 2 - - -\n- - - - - - - 5 - - 3 - - 5\n- - 5 - - - - - - - - - - -\n- - - - 3 - - - - 5 - - - -\n2 - - - - - - 5 5 - - - - -\n- - - 4 - - - - - - - 4 - 2"
+    },
+    "280_14x14": {
+      "id": "280_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/280.a.htm",
+      "problem": "14 14\n3 - - - 5 - - - - 3 - - - 3\n- - - - - - - - 6 - - 6 - -\n- - - 5 - 4 - - - - - - - -\n2 - - - - - - - 8 - - - - -\n- - - - - - - - - - 8 - - -\n- - - - - - - - 8 - - - - 4\n2 - - 6 - 7 - - - - - 8 - -\n- - - - - - - - - - - - - -\n- 8 - 7 - - - - - - - 7 - -\n- - - - - - - - 8 - - - - -\n- - 6 - - - 5 - - - - - - 2\n- - - 6 - - - - - 4 - - - -\n- - - - - - - - 5 - - - - -\n- - 5 - - - 2 - - - - 3 - -"
+    },
+    "285_12x12": {
+      "id": "285_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/285.a.htm",
+      "problem": "12 12\n- - - - - 4 - - 3 - - -\n- 8 - - - - - - - - 8 -\n- - - - - 7 - - - - - -\n- - 7 - - - - - - - - 4\n- - 6 - - 7 - - - 5 - -\n3 - - - - - - - - 5 - -\n- - - 5 - 7 - - - 5 - 4\n- - - - - - - - - - - -\n- 6 - - 5 - - - - - - -\n- 6 - - - - - - 2 - - -\n- - - - - - - 5 - - 6 -\n- 4 - - 4 - - - - - - -"
+    },
+    "286_12x12": {
+      "id": "286_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/286.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- 8 - - - - - - - 6 - -\n- - - 6 - - 4 - 6 - - -\n- - 7 - - 5 - - - - - -\n- - - - - - - - - - 2 -\n- 8 - - - 6 6 - - 6 - -\n- - - 6 - - - - - - - -\n- - - - - - - 6 - - 6 -\n- - - 3 - - - - - 4 - -\n- - 5 4 - - - - 5 - - -\n3 - - - - - - - - - - -\n1 - - - - 5 - - - - - 1"
+    },
+    "287_12x12": {
+      "id": "287_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/287.a.htm",
+      "problem": "12 12\n2 - - - - 4 - - - 0 - -\n- - - - - - - - 1 - - -\n- - 4 - - - - - - - - -\n- 4 - - - 5 - - - - - -\n- - - - - - - - - 5 - -\n- - - 8 - - - - - - - 4\n4 - - - - - - - 6 - - -\n- - - 8 - - 8 - - - - 2\n- 7 - - - - - - - - - -\n- - - - - 5 - 5 - - - -\n- - - - - - - - - - - 3\n- - 3 - - - - 5 - - - -"
+    },
+    "288_12x12": {
+      "id": "288_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/288.a.htm",
+      "problem": "12 12\n- - - - 5 - - - - - - -\n3 - - - - - - - - - - -\n- - 4 - - - - - - 5 - 4\n- - - - - - - 6 - - - -\n- - - - - 7 - - - 7 - -\n- 7 - - - - - - - - - 4\n- - 7 - - - - - 7 - - -\n- - - - - - 5 - - - 6 -\n- - 7 - - - - - - 5 - -\n2 - - - 7 - - 5 - - - 5\n- - 8 - - - - - - - - -\n- - - - 4 - - - - - - -"
+    },
+    "289_14x14": {
+      "id": "289_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/289.a.htm",
+      "problem": "14 14\n- - 5 - - - - - - - - 5 - -\n- - - - - - - - - - - - - -\n- - - - - 8 - - 7 - - 6 - -\n- - - 7 - - - 7 - - - - - -\n- - 7 - - - - - - - - - - -\n5 - - - 8 - - - - - - - 6 -\n- - - - - - 8 - 8 - - 7 - -\n- 7 - - 7 - - - - - - - - -\n- - - - - - - - - - 7 - 8 -\n- - - - - - - - - - - - - -\n- - - - 5 - - - - - 5 6 - -\n3 - - - - 6 7 - 7 - - 5 - -\n2 - - 7 - - - - - - - - - -\n- - - - - - - - - - 5 - - -"
+    },
+    "290_14x14": {
+      "id": "290_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/290.a.htm",
+      "problem": "14 14\n- - - - - - - 5 - - - - - -\n- - 5 6 6 - - - - - 8 - - 3\n- - - - - - 6 - - - - - - -\n- - - - - - - - - - - 8 - -\n- - - - - - - - - - - - - -\n5 - - 7 - - 4 - - 6 - 7 - -\n- - - - - - - - - - - - - -\n- - - - - 4 - 8 - - - - - 3\n- 8 - - - - - - - - - - - -\n- - - - - - - - 7 - - - 8 -\n5 - - 7 - - - - - 7 - - - -\n- - - - - 7 - - - - - - - -\n- - 6 - - - 6 - 6 - - - - -\n- - - - 5 - - - - - - 5 - -"
+    },
+    "291_10x10": {
+      "id": "291_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/291.a.htm",
+      "problem": "10 10\n- - 4 - - - - - - -\n- - - - 7 - - - 8 -\n- 7 - - - - - - - -\n- - - 8 - - - 8 - -\n- - - - - 7 - - - 5\n3 - - - - 7 - - - -\n- - 7 - - - - - - -\n- - - - - - - - 7 -\n- 8 - - - - 6 - - -\n- - - - 3 - - - - -"
+    },
+    "293_10x10": {
+      "id": "293_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/293.a.htm",
+      "problem": "10 10\n- - - 4 - - 4 - - -\n- 8 - - - - - - - -\n- - - - - - 4 - 6 -\n- - - - - - - - - -\n3 5 5 - - - - - - -\n- - - - - - 8 - - -\n- - - - - - - - 5 -\n- 4 - - 2 - - - - -\n- - - - - 5 - 4 - -\n- - - - - - - - - -"
+    },
+    "294_10x10": {
+      "id": "294_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/294.a.htm",
+      "problem": "10 10\n- - 3 - - - - - - -\n- - - - - 5 4 - - -\n- - - - - - 4 - - 4\n- 7 - - - - - - - -\n- - - - - 6 - - - -\n- - 5 - - - - 8 - -\n5 - - - - - - - - -\n- - 6 - 7 - - 6 - -\n- - - - - - - - 7 -\n3 - - - - - 4 - - -"
+    },
+    "295_12x12": {
+      "id": "295_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/295.a.htm",
+      "problem": "12 12\n- - - - - 5 - - - 4 - 2\n3 - 7 - - - - - - - - -\n- - - - - - - - - 8 - -\n3 - - 7 - - - 7 - - - -\n- - - - - - - - - - - -\n- - - - 4 4 - - - - - 5\n4 - 7 - - - - - - 7 - -\n- - 6 - - 5 - - 7 - - -\n- - - - - - - - - - - -\n- - - 7 - - - - 7 5 - -\n- - - - - - - - - - - -\n3 - - - - 5 - - - 5 - -"
+    },
+    "296_12x12": {
+      "id": "296_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/296.a.htm",
+      "problem": "12 12\n- - - - - - - - - - - -\n- - 5 7 - - - 5 - 3 - -\n- 6 - - - - - 4 - - - -\n- - - 7 - 7 - - - - - -\n- - - - - - - - - 6 - -\n- - 6 - - - - 7 - - - -\n- 7 - - - - - - - - - -\n- - - - - - 8 - - 2 - -\n- - 6 - - - - - - 0 - -\n- - - - - 6 - - - - - -\n- - 8 - - - 7 - - - - -\n2 - - - - - - - - - 3 -"
+    },
+    "297_12x12": {
+      "id": "297_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/297.a.htm",
+      "problem": "12 12\n2 - 2 - - - - - - - - -\n- - - - - 7 - 7 - - - -\n- - - - - - - - - 5 - 5\n- 6 - - - - - - - - - -\n- - 5 - 6 4 - - - - - -\n- - - - - - - - - 5 - -\n- - - - - - - - - - - 4\n- 6 - 7 - - 4 - 2 - - -\n- - - - - - 3 - 2 - - 3\n- - 5 6 - 4 - - - - - -\n- - - - - - - - - - - 3\n3 - - - - - - 4 - - - -"
+    },
+    "299_14x14": {
+      "id": "299_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/299.a.htm",
+      "problem": "14 14\n3 - - - 3 - - - - - 5 - - -\n- - - - - - - - 8 - - - - -\n- - 6 - - 2 - - - - - 6 - -\n- - - - - - - - - 6 - - - 3\n- - 5 - 5 - - 4 - 5 - - 6 -\n- - - - - - - - - - - - - -\n5 - - 4 - 5 - - - - - - - -\n- - - - 3 - - - 5 4 - - - -\n- 6 - - - - - - - - - - - 5\n- - - - - - - 6 - 5 - - - -\n- - - - - - - - - - - - - -\n- 5 - - 6 - - - - - - - - 4\n- - 6 - - - 8 - - - - 5 - -\n- - - - 4 - - - 4 - - - - -"
+    },
+    "300_14x14": {
+      "id": "300_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/300.a.htm",
+      "problem": "14 14\n3 - - - 5 - - - - - - - - 3\n- - - - - - - - 3 - - - - -\n- - - 7 - - - - - - - 6 - -\n- - - - - - - 4 - - - 5 - -\n- - - - - - - - - 5 3 - - -\n3 - 6 - - - - - - - - - - -\n- - - - 7 - 8 - - - 3 - - 2\n- - 6 - - - - - - - - - - -\n- - - - 7 - - 8 - - 6 - - -\n- - - - - - - - - - - - - -\n- - 7 5 - - - - - - - - - -\n- - - - 3 - - 5 - - 5 - - -\n- - - - - - - 7 - - - - 8 -\n3 - - - 2 - - - - - - - - -"
+    },
+    "303_10x10": {
+      "id": "303_10x10",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/303.a.htm",
+      "problem": "10 10\n- - - - - - - - - -\n- 8 - - - - - - 8 -\n- - - - 4 - 6 - - -\n- - 7 - - - - - - -\n- - - - - - - 6 - -\n- - - - 4 - - - - -\n5 - - - - - 5 - 6 -\n- - 6 - - - - - - -\n- 7 - - - - 5 - - 3\n- - - - - - - - - -"
+    },
+    "305_12x12": {
+      "id": "305_12x12",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/305.a.htm",
+      "problem": "12 12\n- - - - - - - 5 - - - -\n- - 7 - - - - - - - - -\n- 7 - - - - - - - 8 - -\n- - - - - - 4 - - - - -\n- - - 8 - - - - - - - -\n- - - - - 8 - - 7 - - 5\n- 7 - - - - - - - - - -\n- - 6 - 6 - - 8 - 6 - -\n- - - - - - - - - - - -\n- - - 7 - - 7 - 8 - - -\n3 - - 6 - - - - - - 7 -\n- - - - - - - - - - - -"
+    },
+    "308_14x14": {
+      "id": "308_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/308.a.htm",
+      "problem": "14 14\n- 3 - - - - - - - - - - - 2\n- - - - - - 7 - - - 7 - - -\n- 7 - - 5 - - - - - - 5 - -\n- - 5 - - - - - - - - - - -\n- - - - - - - 7 - - - - 5 -\n- - - - - - - - - 5 - - - -\n- 5 - - 3 - - 8 - - - - - -\n- - - - - - - - - 4 - 5 - -\n- - - 6 - 6 - - - - - - - -\n- 6 - - - - - - - - - - 7 -\n- - - - - - - - - 8 - - - -\n- - - 7 - - - 8 - - - - - 4\n- - - - - - - - - - - - - -\n- 3 - 3 - - 5 - - - 5 - - -"
+    },
+    "310_14x14": {
+      "id": "310_14x14",
+      "difficult": 0,
+      "source": "https://www.janko.at/Raetsel/Linesweeper/310.a.htm",
+      "problem": "14 14\n- - - - - - - - - 5 - - - -\n- - - - 7 - 5 - - - - - - 3\n- 8 - - - - 5 - - 4 - - - -\n- - - - - - - - - - - - 6 3\n- - - - - - - - - - - - - -\n5 - - 3 3 - - 7 - - - - - -\n- - - - - - 6 - - 8 - - - -\n- 8 - - - - - - - - - 7 - -\n- - - - - - - - - - 7 - - 4\n- - - - 5 - - - - - - - - -\n5 - - - 3 - - 5 - - - - - -\n- - - 4 - - - 4 4 - - - - 4\n- - - - - 6 - - - - 8 - - -\n- 3 - - - - - - - - - - - -"
+    }
+  },
+  "info": "",
+  "count": 310
+}

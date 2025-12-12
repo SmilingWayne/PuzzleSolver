@@ -478,103 +478,103 @@
       "id": "81_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/081.a.htm",
-      "solution": "6 6\nE A D C F B\nA C B E D F\nB D F A C E\nF E C D B A\nC F A B E D\nD B E F A C"
+      "solution": "6 6\n5 1 4 3 6 2\n1 3 2 5 4 6\n2 4 6 1 3 5\n6 5 3 4 2 1\n3 6 1 2 5 4\n4 2 5 6 1 3"
     },
     "82_6x6": {
       "id": "82_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/082.a.htm",
-      "solution": "6 6\nB C D F E A\nF B C E A D\nA D E B F C\nE A F D C B\nC F B A D E\nD E A C B F"
+      "solution": "6 6\n2 3 4 6 5 1\n6 2 3 5 1 4\n1 4 5 2 6 3\n5 1 6 4 3 2\n3 6 2 1 4 5\n4 5 1 3 2 6"
     },
     "83_7x7": {
       "id": "83_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/083.a.htm",
-      "solution": "7 7\nB A D G E F C\nC F E A D B G\nG E C B F D A\nA D F C B G E\nF B G E A C D\nD G A F C E B\nE C B D G A F"
+      "solution": "7 7\n2 1 4 7 5 6 3\n3 6 5 1 4 2 7\n7 5 3 2 6 4 1\n1 4 6 3 2 7 5\n6 2 7 5 1 3 4\n4 7 1 6 3 5 2\n5 3 2 4 7 1 6"
     },
     "84_7x7": {
       "id": "84_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/084.a.htm",
-      "solution": "7 7\nA D F C G E B\nB G E F C A D\nD E C G B F A\nF A D B E C G\nG C B A F D E\nE F G D A B C\nC B A E D G F"
+      "solution": "7 7\n1 4 6 3 7 5 2\n2 7 5 6 3 1 4\n4 5 3 7 2 6 1\n6 1 4 2 5 3 7\n7 3 2 1 6 4 5\n5 6 7 4 1 2 3\n3 2 1 5 4 7 6"
     },
     "85_7x7": {
       "id": "85_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/085.a.htm",
-      "solution": "7 7\nG C B D A F E\nA D G F E C B\nE F A B C D G\nC B F E G A D\nB G D A F E C\nD A E C B G F\nF E C G D B A"
+      "solution": "7 7\n7 3 2 4 1 6 5\n1 4 7 6 5 3 2\n5 6 1 2 3 4 7\n3 2 6 5 7 1 4\n2 7 4 1 6 5 3\n4 1 5 3 2 7 6\n6 5 3 7 4 2 1"
     },
     "86_7x7": {
       "id": "86_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/086.a.htm",
-      "solution": "7 7\nB A F D C G E\nD F C G E A B\nG D E C A B F\nF E A B G D C\nA C B F D E G\nE B G A F C D\nC G D E B F A"
+      "solution": "7 7\n2 1 6 4 3 7 5\n4 6 3 7 5 1 2\n7 4 5 3 1 2 6\n6 5 1 2 7 4 3\n1 3 2 6 4 5 7\n5 2 7 1 6 3 4\n3 7 4 5 2 6 1"
     },
     "87_7x7": {
       "id": "87_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/087.a.htm",
-      "solution": "7 7\nB G A E D F C\nA B G F E C D\nF D E C G A B\nG F B A C D E\nD A C G B E F\nC E D B F G A\nE C F D A B G"
+      "solution": "7 7\n2 7 1 5 4 6 3\n1 2 7 6 5 3 4\n6 4 5 3 7 1 2\n7 6 2 1 3 4 5\n4 1 3 7 2 5 6\n3 5 4 2 6 7 1\n5 3 6 4 1 2 7"
     },
     "88_8x8": {
       "id": "88_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/088.a.htm",
-      "solution": "8 8\nE C A B G H F D\nH F B C D G E A\nG D E H A F B C\nC H G E F D A B\nB A F D C E H G\nA B D F E C G H\nF G C A H B D E\nD E H G B A C F"
+      "solution": "8 8\n5 3 1 2 7 8 6 4\n8 6 2 3 4 7 5 1\n7 4 5 8 1 6 2 3\n3 8 7 5 6 4 1 2\n2 1 6 4 3 5 8 7\n1 2 4 6 5 3 7 8\n6 7 3 1 8 2 4 5\n4 5 8 7 2 1 3 6"
     },
     "89_8x8": {
       "id": "89_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/089.a.htm",
-      "solution": "8 8\nE B F C G H D A\nF E G B D C A H\nC F A D B E H G\nD C H E F A G B\nA D B H E G C F\nB A E G H D F C\nH G C F A B E D\nG H D A C F B E"
+      "solution": "8 8\n5 2 6 3 7 8 4 1\n6 5 7 2 4 3 1 8\n3 6 1 4 2 5 8 7\n4 3 8 5 6 1 7 2\n1 4 2 8 5 7 3 6\n2 1 5 7 8 4 6 3\n8 7 3 6 1 2 5 4\n7 8 4 1 3 6 2 5"
     },
     "90_8x8": {
       "id": "90_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/090.a.htm",
-      "solution": "8 8\nC F A H D G B E\nG D B E F A C H\nH C E B G D A F\nB E D C A F H G\nF A H G B E D C\nD G C F H B E A\nA H G D E C F B\nE B F A C H G D"
+      "solution": "8 8\n3 6 1 8 4 7 2 5\n7 4 2 5 6 1 3 8\n8 3 5 2 7 4 1 6\n2 5 4 3 1 6 8 7\n6 1 8 7 2 5 4 3\n4 7 3 6 8 2 5 1\n1 8 7 4 5 3 6 2\n5 2 6 1 3 8 7 4"
     },
     "91_8x8": {
       "id": "91_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/091.a.htm",
-      "solution": "8 8\nC H B F A G E D\nF B E C D H A G\nE D A H G C B F\nD G H A B E F C\nG A D E C F H B\nA E G D F B C H\nB C F G H A D E\nH F C B E D G A"
+      "solution": "8 8\n3 8 2 6 1 7 5 4\n6 2 5 3 4 8 1 7\n5 4 1 8 7 3 2 6\n4 7 8 1 2 5 6 3\n7 1 4 5 3 6 8 2\n1 5 7 4 6 2 3 8\n2 3 6 7 8 1 4 5\n8 6 3 2 5 4 7 1"
     },
     "92_8x8": {
       "id": "92_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/092.a.htm",
-      "solution": "8 8\nH D F B C E G A\nE A C G H D F B\nB H G F A C E D\nC G A E B F D H\nG F D A E H B C\nF B H C D G A E\nA C E D F B H G\nD E B H G A C F"
+      "solution": "8 8\n8 4 6 2 3 5 7 1\n5 1 3 7 8 4 6 2\n2 8 7 6 1 3 5 4\n3 7 1 5 2 6 4 8\n7 6 4 1 5 8 2 3\n6 2 8 3 4 7 1 5\n1 3 5 4 6 2 8 7\n4 5 2 8 7 1 3 6"
     },
     "93_9x9": {
       "id": "93_9x9",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/093.a.htm",
-      "solution": "9 9\nH D E B G I C F A\nC E I A F B G H D\nB H A C I E D G F\nD F G I A H B C E\nE G D F B C I A H\nA C F G E D H B I\nI B H E C F A D G\nG I B D H A F E C\nF A C H D G E I B"
+      "solution": "9 9\n8 4 5 2 7 9 3 6 1\n3 5 9 1 6 2 7 8 4\n2 8 1 3 9 5 4 7 6\n4 6 7 9 1 8 2 3 5\n5 7 4 6 2 3 9 1 8\n1 3 6 7 5 4 8 2 9\n9 2 8 5 3 6 1 4 7\n7 9 2 4 8 1 6 5 3\n6 1 3 8 4 7 5 9 2"
     },
     "94_9x9": {
       "id": "94_9x9",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/094.a.htm",
-      "solution": "9 9\nA B G I F H D C E\nD F E A C B I H G\nH I C G D E B A F\nE H D B A F G I C\nB G F C H I E D A\nI C A E G D F B H\nG A I F B C H E D\nF D B H E A C G I\nC E H D I G A F B"
+      "solution": "9 9\n1 2 7 9 6 8 4 3 5\n4 6 5 1 3 2 9 8 7\n8 9 3 7 4 5 2 1 6\n5 8 4 2 1 6 7 9 3\n2 7 6 3 8 9 5 4 1\n9 3 1 5 7 4 6 2 8\n7 1 9 6 2 3 8 5 4\n6 4 2 8 5 1 3 7 9\n3 5 8 4 9 7 1 6 2"
     },
     "95_9x9": {
       "id": "95_9x9",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/095.a.htm",
-      "solution": "9 9\nA I G D C E F H B\nD F C H B A G E I\nH G E B I F A D C\nG A H F D I C B E\nB E F A G C D I H\nC D A E H B I F G\nI B D G F H E C A\nE H I C A D B G F\nF C B I E G H A D"
+      "solution": "9 9\n1 9 7 4 3 5 6 8 2\n4 6 3 8 2 1 7 5 9\n8 7 5 2 9 6 1 4 3\n7 1 8 6 4 9 3 2 5\n2 5 6 1 7 3 4 9 8\n3 4 1 5 8 2 9 6 7\n9 2 4 7 6 8 5 3 1\n5 8 9 3 1 4 2 7 6\n6 3 2 9 5 7 8 1 4"
     },
     "96_9x9": {
       "id": "96_9x9",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/096.a.htm",
-      "solution": "9 9\nG B D C E A I F H\nC E F G I H B D A\nA I H D B C F E G\nF D B I H E G A C\nH C E A G F D I B\nI G A H C D E B F\nD F I B A G C H E\nE A C F D B H G I\nB H G E F I A C D"
+      "solution": "9 9\n7 2 4 3 5 1 9 6 8\n3 5 6 7 9 8 2 4 1\n1 9 8 4 2 3 6 5 7\n6 4 2 9 8 5 7 1 3\n8 3 5 1 7 6 4 9 2\n9 7 1 8 3 4 5 2 6\n4 6 9 2 1 7 3 8 5\n5 1 3 6 4 2 8 7 9\n2 8 7 5 6 9 1 3 4"
     },
     "97_9x9": {
       "id": "97_9x9",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/097.a.htm",
-      "solution": "9 9\nG A C B I H E D F\nH C B F D A G E I\nI E H D F B A C G\nE D F A G I H B C\nA I G C E F D H B\nC G E H B D F I A\nB F I G H E C A D\nF B D E A C I G H\nD H A I C G B F E"
+      "solution": "9 9\n7 1 3 2 9 8 5 4 6\n8 3 2 6 4 1 7 5 9\n9 5 8 4 6 2 1 3 7\n5 4 6 1 7 9 8 2 3\n1 9 7 3 5 6 4 8 2\n3 7 5 8 2 4 6 9 1\n2 6 9 7 8 5 3 1 4\n6 2 4 5 1 3 9 7 8\n4 8 1 9 3 7 2 6 5"
     },
     "98_6x6": {
       "id": "98_6x6",
@@ -718,481 +718,481 @@
       "id": "121_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/121.a.htm",
-      "solution": "5 5\nA C D E B\nE D C B A\nB E A D C\nC B E A D\nD A B C E"
+      "solution": "5 5\n1 3 4 5 2\n5 4 3 2 1\n2 5 1 4 3\n3 2 5 1 4\n4 1 2 3 5"
     },
     "122_5x5": {
       "id": "122_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/122.a.htm",
-      "solution": "5 5\nE B D A C\nC D A B E\nA E B C D\nB C E D A\nD A C E B"
+      "solution": "5 5\n5 2 4 1 3\n3 4 1 2 5\n1 5 2 3 4\n2 3 5 4 1\n4 1 3 5 2"
     },
     "123_5x5": {
       "id": "123_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/123.a.htm",
-      "solution": "5 5\nA E D C B\nB D C E A\nE A B D C\nC B E A D\nD C A B E"
+      "solution": "5 5\n1 5 4 3 2\n2 4 3 5 1\n5 1 2 4 3\n3 2 5 1 4\n4 3 1 2 5"
     },
     "124_5x5": {
       "id": "124_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/124.a.htm",
-      "solution": "5 5\nA E D B C\nC B A E D\nB C E D A\nD A B C E\nE D C A B"
+      "solution": "5 5\n1 5 4 2 3\n3 2 1 5 4\n2 3 5 4 1\n4 1 2 3 5\n5 4 3 1 2"
     },
     "125_5x5": {
       "id": "125_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/125.a.htm",
-      "solution": "5 5\nB D A C E\nD E C B A\nA C D E B\nC B E A D\nE A B D C"
+      "solution": "5 5\n2 4 1 3 5\n4 5 3 2 1\n1 3 4 5 2\n3 2 5 1 4\n5 1 2 4 3"
     },
     "126_5x5": {
       "id": "126_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/126.a.htm",
-      "solution": "5 5\nE B D C A\nC E A D B\nA D E B C\nD C B A E\nB A C E D"
+      "solution": "5 5\n5 2 4 3 1\n3 5 1 4 2\n1 4 5 2 3\n4 3 2 1 5\n2 1 3 5 4"
     },
     "127_5x5": {
       "id": "127_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/127.a.htm",
-      "solution": "5 5\nA C E B D\nD A B C E\nB D C E A\nC E A D B\nE B D A C"
+      "solution": "5 5\n1 3 5 2 4\n4 1 2 3 5\n2 4 3 5 1\n3 5 1 4 2\n5 2 4 1 3"
     },
     "128_5x5": {
       "id": "128_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/128.a.htm",
-      "solution": "5 5\nB E A D C\nE D C A B\nA C E B D\nC B D E A\nD A B C E"
+      "solution": "5 5\n2 5 1 4 3\n5 4 3 1 2\n1 3 5 2 4\n3 2 4 5 1\n4 1 2 3 5"
     },
     "129_5x5": {
       "id": "129_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/129.a.htm",
-      "solution": "5 5\nA C D E B\nB D A C E\nE A B D C\nD E C B A\nC B E A D"
+      "solution": "5 5\n1 3 4 5 2\n2 4 1 3 5\n5 1 2 4 3\n4 5 3 2 1\n3 2 5 1 4"
     },
     "130_5x5": {
       "id": "130_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/130.a.htm",
-      "solution": "5 5\nA D E B C\nC E B D A\nD A C E B\nB C D A E\nE B A C D"
+      "solution": "5 5\n1 4 5 2 3\n3 5 2 4 1\n4 1 3 5 2\n2 3 4 1 5\n5 2 1 3 4"
     },
     "131_6x6": {
       "id": "131_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/131.a.htm",
-      "solution": "6 6\nF B A C D E\nE C D A B F\nA D F E C B\nB F E D A C\nC A B F E D\nD E C B F A"
+      "solution": "6 6\n6 2 1 3 4 5\n5 3 4 1 2 6\n1 4 6 5 3 2\n2 6 5 4 1 3\n3 1 2 6 5 4\n4 5 3 2 6 1"
     },
     "132_6x6": {
       "id": "132_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/132.a.htm",
-      "solution": "6 6\nD E C B F A\nF A B C E D\nE C F D A B\nC B A F D E\nA F D E B C\nB D E A C F"
+      "solution": "6 6\n4 5 3 2 6 1\n6 1 2 3 5 4\n5 3 6 4 1 2\n3 2 1 6 4 5\n1 6 4 5 2 3\n2 4 5 1 3 6"
     },
     "133_6x6": {
       "id": "133_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/133.a.htm",
-      "solution": "6 6\nD C A F E B\nB F E D A C\nA E F C B D\nC B D E F A\nF A C B D E\nE D B A C F"
+      "solution": "6 6\n4 3 1 6 5 2\n2 6 5 4 1 3\n1 5 6 3 2 4\n3 2 4 5 6 1\n6 1 3 2 4 5\n5 4 2 1 3 6"
     },
     "134_6x6": {
       "id": "134_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/134.a.htm",
-      "solution": "6 6\nC F B D A E\nD C A E B F\nF E C B D A\nE B F A C D\nB A D F E C\nA D E C F B"
+      "solution": "6 6\n3 6 2 4 1 5\n4 3 1 5 2 6\n6 5 3 2 4 1\n5 2 6 1 3 4\n2 1 4 6 5 3\n1 4 5 3 6 2"
     },
     "135_6x6": {
       "id": "135_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/135.a.htm",
-      "solution": "6 6\nC F B D A E\nA C E F D B\nE A C B F D\nB D F A E C\nF B D E C A\nD E A C B F"
+      "solution": "6 6\n3 6 2 4 1 5\n1 3 5 6 4 2\n5 1 3 2 6 4\n2 4 6 1 5 3\n6 2 4 5 3 1\n4 5 1 3 2 6"
     },
     "136_7x7": {
       "id": "136_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/136.a.htm",
-      "solution": "7 7\nB C D G A F E\nA E B C G D F\nF A C E B G D\nC F E B D A G\nE G F D C B A\nG D A F E C B\nD B G A F E C"
+      "solution": "7 7\n2 3 4 7 1 6 5\n1 5 2 3 7 4 6\n6 1 3 5 2 7 4\n3 6 5 2 4 1 7\n5 7 6 4 3 2 1\n7 4 1 6 5 3 2\n4 2 7 1 6 5 3"
     },
     "137_7x7": {
       "id": "137_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/137.a.htm",
-      "solution": "7 7\nB C D F A E G\nA G B C F D E\nE B G A D C F\nF E C G B A D\nG D A E C F B\nC F E D G B A\nD A F B E G C"
+      "solution": "7 7\n2 3 4 6 1 5 7\n1 7 2 3 6 4 5\n5 2 7 1 4 3 6\n6 5 3 7 2 1 4\n7 4 1 5 3 6 2\n3 6 5 4 7 2 1\n4 1 6 2 5 7 3"
     },
     "138_7x7": {
       "id": "138_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/138.a.htm",
-      "solution": "7 7\nE C A B G F D\nG E F D A B C\nF G B C E D A\nB F C A D G E\nD B G E C A F\nC A D F B E G\nA D E G F C B"
+      "solution": "7 7\n5 3 1 2 7 6 4\n7 5 6 4 1 2 3\n6 7 2 3 5 4 1\n2 6 3 1 4 7 5\n4 2 7 5 3 1 6\n3 1 4 6 2 5 7\n1 4 5 7 6 3 2"
     },
     "139_7x7": {
       "id": "139_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/139.a.htm",
-      "solution": "7 7\nB E A F D C G\nE A C G F D B\nG F B D C A E\nC G E A B F D\nD B G C A E F\nF C D B E G A\nA D F E G B C"
+      "solution": "7 7\n2 5 1 6 4 3 7\n5 1 3 7 6 4 2\n7 6 2 4 3 1 5\n3 7 5 1 2 6 4\n4 2 7 3 1 5 6\n6 3 4 2 5 7 1\n1 4 6 5 7 2 3"
     },
     "140_7x7": {
       "id": "140_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/140.a.htm",
-      "solution": "7 7\nD E A C G F B\nG B F E A C D\nA G E B C D F\nE F C G D B A\nF C D A B E G\nC A B D F G E\nB D G F E A C"
+      "solution": "7 7\n4 5 1 3 7 6 2\n7 2 6 5 1 3 4\n1 7 5 2 3 4 6\n5 6 3 7 4 2 1\n6 3 4 1 2 5 7\n3 1 2 4 6 7 5\n2 4 7 6 5 1 3"
     },
     "141_5x5": {
       "id": "141_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/141.a.htm",
-      "solution": "5 5\nA C B E D\nD E C B A\nB D A C E\nE B D A C\nC A E D B"
+      "solution": "5 5\n1 3 2 5 4\n4 5 3 2 1\n2 4 1 3 5\n5 2 4 1 3\n3 1 5 4 2"
     },
     "142_5x5": {
       "id": "142_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/142.a.htm",
-      "solution": "5 5\nA E B C D\nD C A B E\nB D C E A\nC A E D B\nE B D A C"
+      "solution": "5 5\n1 5 2 3 4\n4 3 1 2 5\n2 4 3 5 1\n3 1 5 4 2\n5 2 4 1 3"
     },
     "143_5x5": {
       "id": "143_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/143.a.htm",
-      "solution": "5 5\nA C D E B\nE B A C D\nB A E D C\nD E C B A\nC D B A E"
+      "solution": "5 5\n1 3 4 5 2\n5 2 1 3 4\n2 1 5 4 3\n4 5 3 2 1\n3 4 2 1 5"
     },
     "144_5x5": {
       "id": "144_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/144.a.htm",
-      "solution": "5 5\nA C D E B\nE A B D C\nB D A C E\nD E C B A\nC B E A D"
+      "solution": "5 5\n1 3 4 5 2\n5 1 2 4 3\n2 4 1 3 5\n4 5 3 2 1\n3 2 5 1 4"
     },
     "145_5x5": {
       "id": "145_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/145.a.htm",
-      "solution": "5 5\nA D B E C\nD E C B A\nC A E D B\nB C D A E\nE B A C D"
+      "solution": "5 5\n1 4 2 5 3\n4 5 3 2 1\n3 1 5 4 2\n2 3 4 1 5\n5 2 1 3 4"
     },
     "146_6x6": {
       "id": "146_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/146.a.htm",
-      "solution": "6 6\nD A C E F B\nF B E C A D\nB C D F E A\nA D F B C E\nE F A D B C\nC E B A D F"
+      "solution": "6 6\n4 1 3 5 6 2\n6 2 5 3 1 4\n2 3 4 6 5 1\n1 4 6 2 3 5\n5 6 1 4 2 3\n3 5 2 1 4 6"
     },
     "147_6x6": {
       "id": "147_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/147.a.htm",
-      "solution": "6 6\nB A E D F C\nF D C E A B\nD C F B E A\nA F B C D E\nE B A F C D\nC E D A B F"
+      "solution": "6 6\n2 1 5 4 6 3\n6 4 3 5 1 2\n4 3 6 2 5 1\n1 6 2 3 4 5\n5 2 1 6 3 4\n3 5 4 1 2 6"
     },
     "148_6x6": {
       "id": "148_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/148.a.htm",
-      "solution": "6 6\nC A F B E D\nD B E C F A\nE F B D A C\nA C D F B E\nF E C A D B\nB D A E C F"
+      "solution": "6 6\n3 1 6 2 5 4\n4 2 5 3 6 1\n5 6 2 4 1 3\n1 3 4 6 2 5\n6 5 3 1 4 2\n2 4 1 5 3 6"
     },
     "149_6x6": {
       "id": "149_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/149.a.htm",
-      "solution": "6 6\nC E A B D F\nD B F E A C\nF A B D C E\nE F C A B D\nA D E C F B\nB C D F E A"
+      "solution": "6 6\n3 5 1 2 4 6\n4 2 6 5 1 3\n6 1 2 4 3 5\n5 6 3 1 2 4\n1 4 5 3 6 2\n2 3 4 6 5 1"
     },
     "150_6x6": {
       "id": "150_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/150.a.htm",
-      "solution": "6 6\nB D E C A F\nD B A F C E\nA F D E B C\nF E C A D B\nE C B D F A\nC A F B E D"
+      "solution": "6 6\n2 4 5 3 1 6\n4 2 1 6 3 5\n1 6 4 5 2 3\n6 5 3 1 4 2\n5 3 2 4 6 1\n3 1 6 2 5 4"
     },
     "151_6x6": {
       "id": "151_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/151.a.htm",
-      "solution": "6 6\nD C B E A F\nC F A D B E\nF E C B D A\nE B F A C D\nB A D F E C\nA D E C F B"
+      "solution": "6 6\n4 3 2 5 1 6\n3 6 1 4 2 5\n6 5 3 2 4 1\n5 2 6 1 3 4\n2 1 4 6 5 3\n1 4 5 3 6 2"
     },
     "152_6x6": {
       "id": "152_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/152.a.htm",
-      "solution": "6 6\nB A C E F D\nC E F D A B\nF D B C E A\nA F D B C E\nE B A F D C\nD C E A B F"
+      "solution": "6 6\n2 1 3 5 6 4\n3 5 6 4 1 2\n6 4 2 3 5 1\n1 6 4 2 3 5\n5 2 1 6 4 3\n4 3 5 1 2 6"
     },
     "153_6x6": {
       "id": "153_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/153.a.htm",
-      "solution": "6 6\nD E C F A B\nF A B C E D\nE C A B D F\nC B D A F E\nA D F E B C\nB F E D C A"
+      "solution": "6 6\n4 5 3 6 1 2\n6 1 2 3 5 4\n5 3 1 2 4 6\n3 2 4 1 6 5\n1 4 6 5 2 3\n2 6 5 4 3 1"
     },
     "154_6x6": {
       "id": "154_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/154.a.htm",
-      "solution": "6 6\nF B A C D E\nC E F D A B\nD A B E C F\nE F C A B D\nA D E B F C\nB C D F E A"
+      "solution": "6 6\n6 2 1 3 4 5\n3 5 6 4 1 2\n4 1 2 5 3 6\n5 6 3 1 2 4\n1 4 5 2 6 3\n2 3 4 6 5 1"
     },
     "155_6x6": {
       "id": "155_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/155.a.htm",
-      "solution": "6 6\nD A C F B E\nB D A E C F\nE B F C A D\nA F E B D C\nF C D A E B\nC E B D F A"
+      "solution": "6 6\n4 1 3 6 2 5\n2 4 1 5 3 6\n5 2 6 3 1 4\n1 6 5 2 4 3\n6 3 4 1 5 2\n3 5 2 4 6 1"
     },
     "156_8x8": {
       "id": "156_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/156.a.htm",
-      "solution": "8 8\nG A C F H D B E\nB C D E F H G A\nE B F H D G A C\nF H B G E A C D\nH E A D C B F G\nD G E C A F H B\nA D H B G C E F\nC F G A B E D H"
+      "solution": "8 8\n7 1 3 6 8 4 2 5\n2 3 4 5 6 8 7 1\n5 2 6 8 4 7 1 3\n6 8 2 7 5 1 3 4\n8 5 1 4 3 2 6 7\n4 7 5 3 1 6 8 2\n1 4 8 2 7 3 5 6\n3 6 7 1 2 5 4 8"
     },
     "157_8x8": {
       "id": "157_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/157.a.htm",
-      "solution": "8 8\nB F C A G H D E\nE B A H D G C F\nD A H E C F B G\nH G F D A B E C\nA H G C B E F D\nG C E B F D A H\nC E D F H A G B\nF D B G E C H A"
+      "solution": "8 8\n2 6 3 1 7 8 4 5\n5 2 1 8 4 7 3 6\n4 1 8 5 3 6 2 7\n8 7 6 4 1 2 5 3\n1 8 7 3 2 5 6 4\n7 3 5 2 6 4 1 8\n3 5 4 6 8 1 7 2\n6 4 2 7 5 3 8 1"
     },
     "158_8x8": {
       "id": "158_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/158.a.htm",
-      "solution": "8 8\nH C G A E B D F\nC D A E F G B H\nD B H F G A C E\nE G F D B H A C\nG F C H A D E B\nF A E B H C G D\nA H B C D E F G\nB E D G C F H A"
+      "solution": "8 8\n8 3 7 1 5 2 4 6\n3 4 1 5 6 7 2 8\n4 2 8 6 7 1 3 5\n5 7 6 4 2 8 1 3\n7 6 3 8 1 4 5 2\n6 1 5 2 8 3 7 4\n1 8 2 3 4 5 6 7\n2 5 4 7 3 6 8 1"
     },
     "159_8x8": {
       "id": "159_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/159.a.htm",
-      "solution": "8 8\nH B A G F D C E\nF H B D C A E G\nG E F A B C D H\nC G E H A F B D\nD F H C E G A B\nE D C B G H F A\nB A D F H E G C\nA C G E D B H F"
+      "solution": "8 8\n8 2 1 7 6 4 3 5\n6 8 2 4 3 1 5 7\n7 5 6 1 2 3 4 8\n3 7 5 8 1 6 2 4\n4 6 8 3 5 7 1 2\n5 4 3 2 7 8 6 1\n2 1 4 6 8 5 7 3\n1 3 7 5 4 2 8 6"
     },
     "160_8x8": {
       "id": "160_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/160.a.htm",
-      "solution": "8 8\nH B D A C E F G\nC D G E A F H B\nG A E B F C D H\nB F H D G A E C\nF G B H E D C A\nE H C F B G A D\nD E A C H B G F\nA C F G D H B E"
+      "solution": "8 8\n8 2 4 1 3 5 6 7\n3 4 7 5 1 6 8 2\n7 1 5 2 6 3 4 8\n2 6 8 4 7 1 5 3\n6 7 2 8 5 4 3 1\n5 8 3 6 2 7 1 4\n4 5 1 3 8 2 7 6\n1 3 6 7 4 8 2 5"
     },
     "161_5x5": {
       "id": "161_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/161.a.htm",
-      "solution": "5 5\nE B D C A\nD C B A E\nB A C E D\nC E A D B\nA D E B C"
+      "solution": "5 5\n5 2 4 3 1\n4 3 2 1 5\n2 1 3 5 4\n3 5 1 4 2\n1 4 5 2 3"
     },
     "162_5x5": {
       "id": "162_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/162.a.htm",
-      "solution": "5 5\nC D A B E\nE B D A C\nD A C E B\nA E B C D\nB C E D A"
+      "solution": "5 5\n3 4 1 2 5\n5 2 4 1 3\n4 1 3 5 2\n1 5 2 3 4\n2 3 5 4 1"
     },
     "163_5x5": {
       "id": "163_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/163.a.htm",
-      "solution": "5 5\nA D B E C\nC A E D B\nE B D C A\nD C A B E\nB E C A D"
+      "solution": "5 5\n1 4 2 5 3\n3 1 5 4 2\n5 2 4 3 1\n4 3 1 2 5\n2 5 3 1 4"
     },
     "164_5x5": {
       "id": "164_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/164.a.htm",
-      "solution": "5 5\nC D B A E\nA E D B C\nB C E D A\nD A C E B\nE B A C D"
+      "solution": "5 5\n3 4 2 1 5\n1 5 4 2 3\n2 3 5 4 1\n4 1 3 5 2\n5 2 1 3 4"
     },
     "165_5x5": {
       "id": "165_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/165.a.htm",
-      "solution": "5 5\nB A D C E\nE D C B A\nA C B E D\nC E A D B\nD B E A C"
+      "solution": "5 5\n2 1 4 3 5\n5 4 3 2 1\n1 3 2 5 4\n3 5 1 4 2\n4 2 5 1 3"
     },
     "166_6x6": {
       "id": "166_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/166.a.htm",
-      "solution": "6 6\nB A D E C F\nC B A F D E\nE C F D A B\nA F E C B D\nF D B A E C\nD E C B F A"
+      "solution": "6 6\n2 1 4 5 3 6\n3 2 1 6 4 5\n5 3 6 4 1 2\n1 6 5 3 2 4\n6 4 2 1 5 3\n4 5 3 2 6 1"
     },
     "167_6x6": {
       "id": "167_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/167.a.htm",
-      "solution": "6 6\nC A E D F B\nD B F E A C\nB F D C E A\nA C B F D E\nE D A B C F\nF E C A B D"
+      "solution": "6 6\n3 1 5 4 6 2\n4 2 6 5 1 3\n2 6 4 3 5 1\n1 3 2 6 4 5\n5 4 1 2 3 6\n6 5 3 1 2 4"
     },
     "168_6x6": {
       "id": "168_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/168.a.htm",
-      "solution": "6 6\nD A B F E C\nC F E D B A\nE B F C A D\nA C D B F E\nF E C A D B\nB D A E C F"
+      "solution": "6 6\n4 1 2 6 5 3\n3 6 5 4 2 1\n5 2 6 3 1 4\n1 3 4 2 6 5\n6 5 3 1 4 2\n2 4 1 5 3 6"
     },
     "169_6x6": {
       "id": "169_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/169.a.htm",
-      "solution": "6 6\nA E B F D C\nC F E D B A\nD B F A C E\nF D A C E B\nB C D E A F\nE A C B F D"
+      "solution": "6 6\n1 5 2 6 4 3\n3 6 5 4 2 1\n4 2 6 1 3 5\n6 4 1 3 5 2\n2 3 4 5 1 6\n5 1 3 2 6 4"
     },
     "170_6x6": {
       "id": "170_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/170.a.htm",
-      "solution": "6 6\nA D E F C B\nB F A C E D\nC E F D B A\nF B D E A C\nD A C B F E\nE C B A D F"
+      "solution": "6 6\n1 4 5 6 3 2\n2 6 1 3 5 4\n3 5 6 4 2 1\n6 2 4 5 1 3\n4 1 3 2 6 5\n5 3 2 1 4 6"
     },
     "171_7x7": {
       "id": "171_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/171.a.htm",
-      "solution": "7 7\nB C D F A E G\nA G B C F D E\nE B G A D C F\nF E C G B A D\nG F E D C B A\nC D A E G F B\nD A F B E G C"
+      "solution": "7 7\n2 3 4 6 1 5 7\n1 7 2 3 6 4 5\n5 2 7 1 4 3 6\n6 5 3 7 2 1 4\n7 6 5 4 3 2 1\n3 4 1 5 7 6 2\n4 1 6 2 5 7 3"
     },
     "172_7x7": {
       "id": "172_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/172.a.htm",
-      "solution": "7 7\nD C A F E G B\nC A B E G F D\nE F G D B A C\nF B E G C D A\nG E C A D B F\nA G D B F C E\nB D F C A E G"
+      "solution": "7 7\n4 3 1 6 5 7 2\n3 1 2 5 7 6 4\n5 6 7 4 2 1 3\n6 2 5 7 3 4 1\n7 5 3 1 4 2 6\n1 7 4 2 6 3 5\n2 4 6 3 1 5 7"
     },
     "173_7x7": {
       "id": "173_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/173.a.htm",
-      "solution": "7 7\nB C D F A E G\nA G B C F D E\nE B A G D C F\nF E G D B A C\nG D E A C F B\nD F C E G B A\nC A F B E G D"
+      "solution": "7 7\n2 3 4 6 1 5 7\n1 7 2 3 6 4 5\n5 2 1 7 4 3 6\n6 5 7 4 2 1 3\n7 4 5 1 3 6 2\n4 6 3 5 7 2 1\n3 1 6 2 5 7 4"
     },
     "174_7x7": {
       "id": "174_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/174.a.htm",
-      "solution": "7 7\nF A C G D E B\nB E A C G F D\nE B D A C G F\nD F G B E C A\nG C F D A B E\nC D B E F A G\nA G E F B D C"
+      "solution": "7 7\n6 1 3 7 4 5 2\n2 5 1 3 7 6 4\n5 2 4 1 3 7 6\n4 6 7 2 5 3 1\n7 3 6 4 1 2 5\n3 4 2 5 6 1 7\n1 7 5 6 2 4 3"
     },
     "175_7x7": {
       "id": "175_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/175.a.htm",
-      "solution": "7 7\nD C B E G F A\nE B A G F D C\nF E G D A C B\nG A C F D B E\nC G F B E A D\nB F D A C E G\nA D E C B G F"
+      "solution": "7 7\n4 3 2 5 7 6 1\n5 2 1 7 6 4 3\n6 5 7 4 1 3 2\n7 1 3 6 4 2 5\n3 7 6 2 5 1 4\n2 6 4 1 3 5 7\n1 4 5 3 2 7 6"
     },
     "176_8x8": {
       "id": "176_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/176.a.htm",
-      "solution": "8 8\nH B D C A E F G\nE C G A D F H B\nD E B F G C A H\nA G H B C D E F\nF H C G B A D E\nG A F H E B C D\nC F E D H G B A\nB D A E F H G C"
+      "solution": "8 8\n8 2 4 3 1 5 6 7\n5 3 7 1 4 6 8 2\n4 5 2 6 7 3 1 8\n1 7 8 2 3 4 5 6\n6 8 3 7 2 1 4 5\n7 1 6 8 5 2 3 4\n3 6 5 4 8 7 2 1\n2 4 1 5 6 8 7 3"
     },
     "177_8x8": {
       "id": "177_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/177.a.htm",
-      "solution": "8 8\nA C D E F G H B\nG D C A H E B F\nB H A G D F E C\nF E G C A B D H\nE A F H B C G D\nD B E F G H C A\nC F H B E D A G\nH G B D C A F E"
+      "solution": "8 8\n1 3 4 5 6 7 8 2\n7 4 3 1 8 5 2 6\n2 8 1 7 4 6 5 3\n6 5 7 3 1 2 4 8\n5 1 6 8 2 3 7 4\n4 2 5 6 7 8 3 1\n3 6 8 2 5 4 1 7\n8 7 2 4 3 1 6 5"
     },
     "178_8x8": {
       "id": "178_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/178.a.htm",
-      "solution": "8 8\nB F C A H D E G\nG D E C F A B H\nE B H G A C F D\nD C F H E G A B\nF H A D G B C E\nH A G E B F D C\nA G D B C E H F\nC E B F D H G A"
+      "solution": "8 8\n2 6 3 1 8 4 5 7\n7 4 5 3 6 1 2 8\n5 2 8 7 1 3 6 4\n4 3 6 8 5 7 1 2\n6 8 1 4 7 2 3 5\n8 1 7 5 2 6 4 3\n1 7 4 2 3 5 8 6\n3 5 2 6 4 8 7 1"
     },
     "179_8x8": {
       "id": "179_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/179.a.htm",
-      "solution": "8 8\nB C F A D H G E\nA E H C B D F G\nC F G H E B D A\nH D E G C F A B\nE A D F G C B H\nF G C B H A E D\nG H B D A E C F\nD B A E F G H C"
+      "solution": "8 8\n2 3 6 1 4 8 7 5\n1 5 8 3 2 4 6 7\n3 6 7 8 5 2 4 1\n8 4 5 7 3 6 1 2\n5 1 4 6 7 3 2 8\n6 7 3 2 8 1 5 4\n7 8 2 4 1 5 3 6\n4 2 1 5 6 7 8 3"
     },
     "180_8x8": {
       "id": "180_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/180.a.htm",
-      "solution": "8 8\nG B E F H A C D\nH F A C B D G E\nC G F A E H D B\nE C H D A B F G\nD A C H G E B F\nA H D B F G E C\nF E B G D C A H\nB D G E C F H A"
+      "solution": "8 8\n7 2 5 6 8 1 3 4\n8 6 1 3 2 4 7 5\n3 7 6 1 5 8 4 2\n5 3 8 4 1 2 6 7\n4 1 3 8 7 5 2 6\n1 8 4 2 6 7 5 3\n6 5 2 7 4 3 1 8\n2 4 7 5 3 6 8 1"
     },
     "181_5x5": {
       "id": "181_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/181.a.htm",
-      "solution": "5 5\nE B D C A\nC D A B E\nB A E D C\nD E C A B\nA C B E D"
+      "solution": "5 5\n5 2 4 3 1\n3 4 1 2 5\n2 1 5 4 3\n4 5 3 1 2\n1 3 2 5 4"
     },
     "182_5x5": {
       "id": "182_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/182.a.htm",
-      "solution": "5 5\nE D C A B\nA E D B C\nB C E D A\nC B A E D\nD A B C E"
+      "solution": "5 5\n5 4 3 1 2\n1 5 4 2 3\n2 3 5 4 1\n3 2 1 5 4\n4 1 2 3 5"
     },
     "183_5x5": {
       "id": "183_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/183.a.htm",
-      "solution": "5 5\nB E C A D\nD C A B E\nE B D C A\nC A E D B\nA D B E C"
+      "solution": "5 5\n2 5 3 1 4\n4 3 1 2 5\n5 2 4 3 1\n3 1 5 4 2\n1 4 2 5 3"
     },
     "184_5x5": {
       "id": "184_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/184.a.htm",
-      "solution": "5 5\nA C D E B\nE A C B D\nB D A C E\nD B E A C\nC E B D A"
+      "solution": "5 5\n1 3 4 5 2\n5 1 3 2 4\n2 4 1 3 5\n4 2 5 1 3\n3 5 2 4 1"
     },
     "185_5x5": {
       "id": "185_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/185.a.htm",
-      "solution": "5 5\nB D C E A\nA E D B C\nC A E D B\nD C B A E\nE B A C D"
+      "solution": "5 5\n2 4 3 5 1\n1 5 4 2 3\n3 1 5 4 2\n4 3 2 1 5\n5 2 1 3 4"
     },
     "186_5x5": {
       "id": "186_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/186.a.htm",
-      "solution": "5 5\nB D C E A\nE C A D B\nD A B C E\nC B E A D\nA E D B C"
+      "solution": "5 5\n2 4 3 5 1\n5 3 1 4 2\n4 1 2 3 5\n3 2 5 1 4\n1 5 4 2 3"
     },
     "187_5x5": {
       "id": "187_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/187.a.htm",
-      "solution": "5 5\nD A C E B\nB C E D A\nA E B C D\nC D A B E\nE B D A C"
+      "solution": "5 5\n4 1 3 5 2\n2 3 5 4 1\n1 5 2 3 4\n3 4 1 2 5\n5 2 4 1 3"
     },
     "188_5x5": {
       "id": "188_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/188.a.htm",
-      "solution": "5 5\nE A B D C\nD E C B A\nC B E A D\nB D A C E\nA C D E B"
+      "solution": "5 5\n5 1 2 4 3\n4 5 3 2 1\n3 2 5 1 4\n2 4 1 3 5\n1 3 4 5 2"
     },
     "189_5x5": {
       "id": "189_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/189.a.htm",
-      "solution": "5 5\nE C B D A\nA E D C B\nB A C E D\nC D A B E\nD B E A C"
+      "solution": "5 5\n5 3 2 4 1\n1 5 4 3 2\n2 1 3 5 4\n3 4 1 2 5\n4 2 5 1 3"
     },
     "190_5x5": {
       "id": "190_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/190.a.htm",
-      "solution": "5 5\nE B D A C\nC E A D B\nB D C E A\nD A B C E\nA C E B D"
+      "solution": "5 5\n5 2 4 1 3\n3 5 1 4 2\n2 4 3 5 1\n4 1 2 3 5\n1 3 5 2 4"
     },
     "191_6x6": {
       "id": "191_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/191.a.htm",
-      "solution": "6 6\nD F A C E B\nB D E A C F\nE B D F A C\nA C F E B D\nF A C B D E\nC E B D F A"
+      "solution": "6 6\n4 6 1 3 5 2\n2 4 5 1 3 6\n5 2 4 6 1 3\n1 3 6 5 2 4\n6 1 3 2 4 5\n3 5 2 4 6 1"
     },
     "192_6x6": {
       "id": "192_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/192.a.htm",
-      "solution": "6 6\nE B A F D C\nC A D E B F\nB D C A F E\nF C E D A B\nD F B C E A\nA E F B C D"
+      "solution": "6 6\n5 2 1 6 4 3\n3 1 4 5 2 6\n2 4 3 1 6 5\n6 3 5 4 1 2\n4 6 2 3 5 1\n1 5 6 2 3 4"
     },
     "193_6x6": {
       "id": "193_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/193.a.htm",
-      "solution": "6 6\nC D B F E A\nA F D E C B\nE A C B F D\nB C F D A E\nF B E A D C\nD E A C B F"
+      "solution": "6 6\n3 4 2 6 5 1\n1 6 4 5 3 2\n5 1 3 2 6 4\n2 3 6 4 1 5\n6 2 5 1 4 3\n4 5 1 3 2 6"
     },
     "194_6x6": {
       "id": "194_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/194.a.htm",
-      "solution": "6 6\nF B A E D C\nC A D F E B\nB D C A F E\nE C F D B A\nD E B C A F\nA F E B C D"
+      "solution": "6 6\n6 2 1 5 4 3\n3 1 4 6 5 2\n2 4 3 1 6 5\n5 3 6 4 2 1\n4 5 2 3 1 6\n1 6 5 2 3 4"
     },
     "195_6x6": {
       "id": "195_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/195.a.htm",
-      "solution": "6 6\nD C A F E B\nB F E D C A\nA E B C F D\nE B F A D C\nC A D E B F\nF D C B A E"
+      "solution": "6 6\n4 3 1 6 5 2\n2 6 5 4 3 1\n1 5 2 3 6 4\n5 2 6 1 4 3\n3 1 4 5 2 6\n6 4 3 2 1 5"
     },
     "196_6x6": {
       "id": "196_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/196.a.htm",
-      "solution": "6 6\nA C F E D B\nB F E D A C\nC D B F E A\nE A C B F D\nD E A C B F\nF B D A C E"
+      "solution": "6 6\n1 3 6 5 4 2\n2 6 5 4 1 3\n3 4 2 6 5 1\n5 1 3 2 6 4\n4 5 1 3 2 6\n6 2 4 1 3 5"
     },
     "197_6x6": {
       "id": "197_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/197.a.htm",
-      "solution": "6 6\nE B F C A D\nC F D A E B\nA C B F D E\nD E A B C F\nB D C E F A\nF A E D B C"
+      "solution": "6 6\n5 2 6 3 1 4\n3 6 4 1 5 2\n1 3 2 6 4 5\n4 5 1 2 3 6\n2 4 3 5 6 1\n6 1 5 4 2 3"
     },
     "198_6x6": {
       "id": "198_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/198.a.htm",
-      "solution": "6 6\nA C E F D B\nB E D A C F\nF D C E B A\nD B A C F E\nE F B D A C\nC A F B E D"
+      "solution": "6 6\n1 3 5 6 4 2\n2 5 4 1 3 6\n6 4 3 5 2 1\n4 2 1 3 6 5\n5 6 2 4 1 3\n3 1 6 2 5 4"
     },
     "199_6x6": {
       "id": "199_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/199.a.htm",
-      "solution": "6 6\nB C D F E A\nE F C B A D\nD B E A F C\nA E F C D B\nC D A E B F\nF A B D C E"
+      "solution": "6 6\n2 3 4 6 5 1\n5 6 3 2 1 4\n4 2 5 1 6 3\n1 5 6 3 4 2\n3 4 1 5 2 6\n6 1 2 4 3 5"
     },
     "200_6x6": {
       "id": "200_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Sudoku/Chaos/200.a.htm",
-      "solution": "6 6\nA F E C B D\nE D B A C F\nD C A F E B\nB E F D A C\nC B D E F A\nF A C B D E"
+      "solution": "6 6\n1 6 5 3 2 4\n5 4 2 1 3 6\n4 3 1 6 5 2\n2 5 6 4 1 3\n3 2 4 5 6 1\n6 1 3 2 4 5"
     },
     "201_5x5": {
       "id": "201_5x5",

@@ -1,0 +1,405 @@
+{
+  "count": 80,
+  "solutions": {
+    "01_10x10": {
+      "id": "01_10x10",
+      "solution": "10 10\nv h v v h v h h h h\nv h v v h v h h v v\nv v h v v h v v h h\nv h v v h h v h h h\nv v h v h v h h v v\nv h h h v h h v v h\nh v v h h h v h h v\nh h h v h v v h h v\nv h v h v v h v v h\nv v h h h v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "solution": "10 10\nv h v h h v v h v v\nv h v v h h h h v v\nh v v h v h v v h h\nv v h h h v h v v h\nh h v v h v v h v v\nh h h h v v h v v h\nv v h h h v v h v h\nh h v v h v v h v v\nv v h h v v h v v h\nv v h h h h h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "solution": "10 10\nh v v h h v v h h v\nh v v h v v h v h h\nv h h v h v h v v h\nv h v h h v v h h v\nv v h h v h v v h h\nh h h v h v v h v v\nh h v h v h h h h h\nv v h h v v h v h h\nv h v v h h v h v v\nh h h h h h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\nv v h h h h v h h v\nv h v v h h v h h v\nh h h h v v h v v h\nv v h h v v h v v h\nh h v v h v v h v v\nh h v h v h h h v v\nv v h h h h h v h v\nv h v v h v v h v v\nh h h v v h v v h h\nh v h h v h h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "solution": "10 10\nh v v h h h h v v h\nh h v h h v v h h v\nv h h v v h v h h h\nh v h h h v h v v h\nh h v v h h v h h v\nv h h h v h h h h h\nh v v h v v h v v h\nh h h v h h v v h v\nv h h v h h v v h h\nh v v h v v h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "solution": "10 10\nv v h h v v h v h v\nv h h v h v v h v v\nv h v v h v v h v v\nh v v h v v h v v h\nh v v h v v h h h h\nv h h v h h v h h v\nh h h v h h h v v h\nh v v h v v h v h v\nv h h v h h v h h h\nh h h h h h h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/006.a.htm"
+    },
+    "07_10x10": {
+      "id": "07_10x10",
+      "solution": "10 10\nv h h h h v v h h h\nv v h v v h h v h h\nv h v v h v h h v v\nh v v h h h v v h h\nv v h v v h h v v h\nh h h h h v v h v v\nh h v h v v h v h h\nv v h v h h h v v h\nh v v h v h v h v v\nh v v h h v v h v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\nv h v h h v v h v v\nv v h v h v v h v v\nv h h h v v h v h h\nv h v v h v h h v v\nh v h h v h v h v v\nv h v h h v h v h v\nh h h v v h v h v h\nh v h h h h h v v h\nv h v v h v v h v v\nh h h v v h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\nv v h v h v v h h v\nv v h v h h h v v h\nh h v h v v h v v h\nh v v h h v v h v v\nv h v v h v v h h h\nh h h v v h v v h h\nv v h h h h h h v v\nh h v h h v h h v h\nh v h v v h v v h v\nv h h h v h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/009.a.htm"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "solution": "10 10\nv h h h h h v v h v\nv v h v v h h h v v\nv h v v h v h v v h\nh v h h h h v v h h\nh h h h v v h h v v\nv h v v h h v v h h\nh v h h v v h h h h\nh h h v v h h h v v\nv h v v h h v v h h\nv v h h h v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\nh h h h v h h v h h\nv h v v h v v h v v\nv v h h h v v h v h\nh h h h v v h v v h\nv h v v h v v h h v\nv v h v v h h v h h\nh h v h h h h h v v\nv h v v h v v h v v\nv v h h v h h v v h\nh h h h h h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\nh h h h h v v h v h\nh v v h h h v v h v\nv v h v v h v v h v\nv v h h h v v h v v\nv h v v h h h v v h\nv v h v v h v h v v\nv h v v h v h v v h\nv v h h v h v h v v\nh h h h h h h h h v\nh h v v h v h v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\nv h v h v h v v h h\nv h v v h h v v h h\nv v h v h v v h v v\nv v h h v v h v v h\nh v v h v v h v v h\nv v h v v h v h v v\nh v v h v v h h v v\nv h v h h v h v h v\nv h v v h v v h v v\nh v v h v v h v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\nh h v h h h v h h h\nh v v h v h v v h h\nv h v v h v v h v v\nh v v h h h v v h v\nh v v h v h v v h v\nv h v v h v v h v v\nv v h h v h v v h v\nh v h v h v h v v h\nh v v h h h h v h h\nv v h h v h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/014.a.htm"
+    },
+    "15_15x15": {
+      "id": "15_15x15",
+      "solution": "15 15\nh v h v v h h h v h v h v v h\nv h h v h h v h h v v h v v h\nh v v h h v h v h h v v h v v\nh h h h v v h h v h h h v h h\nv h v v h v v h v v h h h h h\nv v h v v h h v v h v v h v v\nv v h v h v h v v h h v v h v\nv h v h v h v v h v h v h v v\nh v h h v v h v v h v v h v v\nv v h v v h v h v v h v v h v\nh v v h v v h v v h v h v v h\nh v v h v v h h v v h v v h v\nv h v v h h v v h v v h v h v\nh h v h v h h v v h h h h v v\nv v h h v v h h h h h v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/015.a.htm"
+    },
+    "16_15x15": {
+      "id": "16_15x15",
+      "solution": "15 15\nv v h v v h v h v v h h v v h\nv h v v h v h v h h h h v v h\nv h v v h v h h v h v v h v v\nv v h v v h v v h v v h v v h\nh v v h v v h v v h v v h v v\nv h v h v v h v h v v h h v v\nv h h v v h v v h h h h v h h\nv v h h h v h v v h v v h v v\nv h v h h v v h v v h h h h h\nv h h v v h h h h v h h v h h\nh v v h v v h v h h v v h v v\nh h h h h h v h v h v v h v v\nv v h v v h v v h v h h v h h\nv h v h h v v h h h h h h h h\nh h h h h h h h v h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/016.a.htm"
+    },
+    "17_30x45": {
+      "id": "17_30x45",
+      "solution": "30 45\nv h h v v h h h h v h v h h v v h v v h v v h v v h h h h h h h v v h v v h v v h v h h v\nv v h h h v v h h v h v v h h v v h h v v h h v v h h v v h h v v h h h h h h h h v h h v\nv h v v h v h v v h v v h v h h v v h v v h v v h v v h h v v h v h v v h v v h v h v v h\nh v v h v v h v v h v v h v v h h v v h v v h h v v h h h h h v h v h h v h v v h h v h v\nh v h v h v v h v v h h v v h v h v h v v h v h v v h v v h h h v h h h h v v h v v h v v\nv h v v h v h v v h v h v v h h v v h v v h v v h v v h h v v h h h v v h h h h h h h h v\nh h v h v h v v h h v v h v v h h h v v h v h v v h v h h v h v h v h h v v h v v h v h v\nh v v h v h v v h v h v v h h v h h h v v h v h h h h v v h v h v v h h v h v h h v h v v\nv h v v h v h h v v h v v h h h v v h h h h h h v v h v v h h v v h v v h h v h h v h v v\nh v v h h v h v v h v h h v v h h v v h h v h v v h v v h v v h h v v h h v h v v h v v h\nh h v h v h v h v h h v h v h v v h h v v h v v h v v h v h h h h h h h v h v h v v h v v\nv v h v v h h h h v v h v v h v v h v h v h v v h h v v h h h v v h v v h h v h v v h v v\nv v h h h v h v h v h h v h v v h v h h v v h h v v h v h v v h v v h h h v h v h h v h v\nh h v h h v v h v v h v h v v h v h v v h v v h v v h v v h h h h h h h v v h h v h h h v\nv v h v v h v v h v v h h h v h h h v h v v h v v h v v h h h v h h v v h v v h h v h v h\nv h v v h h v h h v v h v h h v h v v h v v h h v h v v h v v h v v h h v v h v v h v v h\nh h h h h v h h v h v v h v v h v v h v h h v v h v v h v v h h v h h h h v h v v h h v v\nh v h h v v h v h h h v h v v h v v h h v v h h h h v h v v h v v h v v h v v h v v h v h\nv h v v h v v h v v h v v h v v h v v h h h h h v v h v h v v h v v h v v h h v v h v v h\nh h h h v v h v v h v h v h h h h h h v h h v v h h h h v v h v v h v h v v h v v h h v v\nh v h h h h v v h h h h v v h h v h h h v v h v v h v h v v h v v h v v h v v h h v h h h\nv h v v h h v v h v h v h h v v h v v h h v h v h v h v h h v h h v v h v v h v v h v v h\nh h h h v v h v v h v v h h v h h h h v v h v v h h h v h h h v h h v v h v v h h h h v v\nh v h h h h v v h h h h v v h h v v h h h h v h v h v h v v h h v h v h v v h v h v v h v\nv h v v h h v v h v v h h h h v h h v v h v h v h v v h h h v h h v h h v v h h v v h v v\nh h h h v v h v v h v v h h v h v v h v v h h h v v h v h h h v h h h v h h v h h v h v v\nh v h h h h v h h h h h v v h h h h h h h h v h v h h h v v h h v h v v h v h v h h v h v\nv h v v h v v h v v h v v h v v h v v h v v h v v h v v h h v h v v h h v v h h v v h h v\nv v h h v h v v h h v h h v h v v h h v v h v h v v h v v h v v h h h v v h v v h h h v v\nv v h h h h v v h h h h h v v h h h h v v h v h v h h h v v h v h h v h v h v v h h v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/017.a.htm"
+    },
+    "18_12x25": {
+      "id": "18_12x25",
+      "solution": "12 25\nv v h h v v h v h v h v v h h h h h h h h v v h v\nv h v v h v v h v v h v v h v v h v h h v v h v v\nh h v h v h h h h v v h v v h v v h v v h h h v v\nh v v h v v h v v h v v h v h v h h v h h v v h h\nv h h v v h v h h h h h h h v h v v h h v v h v v\nh v v h v h v v h v v h v v h h h h h v h v h v v\nh v h h h v v h v v h v v h v v h v v h v h v v h\nv h v v h h v v h v v h v v h h v h v h h v h v v\nh h h h v h h v v h v v h v v h v v h v v h v h v\nh v h h h v h v h h v v h h h v v h v h h v v h v\nv h v v h h v h v v h v v h h v v h h v v h v v h\nh h v h v h h h h h h h h v v h v v h h h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/018.a.htm"
+    },
+    "19_16x16": {
+      "id": "19_16x16",
+      "solution": "16 16\nh h h v h h h h h h h h v h v v\nh v h v v h v h h v h v v h v v\nv h v h v v h v v h v h v v h v\nv h h h h h h h h v h h v h v v\nv v h v v h v h h h h v v h v v\nh v v h v v h v v h v v h v h h\nv h h v h h v v h v v h v h h h\nv v h h v h v h v v h v v h v v\nh h v h h v h v h v h v h v h h\nv h h v h h v h h h v v h h v v\nv v h v v h h v v h h v v h v v\nv h v v h v h h h v h h v v h h\nv h v v h h v h h h v h h h h v\nh v v h v v h v v h v v h v v h\nv h v v h v v h v v h v v h v v\nh h h h h h v h v h v v h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/019.a.htm"
+    },
+    "20_15x24": {
+      "id": "20_15x24",
+      "solution": "15 24\nh h h v v h h v v h h h h v v h h h h h h h h v\nv h h v v h v v h h v h h h h v v h v h v h h v\nh v v h v v h v h v h v v h v v h v h v h v v h\nh v v h v v h v v h v v h v v h h v v h v h h v\nv h v v h v v h v h v v h v v h v v h h v v h v\nv v h v h v h v h v v h v v h v v h h v v h v v\nv h h v v h h h v v h h h h h h v h v h v h v v\nv h v v h h v h h h v v h v v h v v h h v v h v\nv v h h h v h v h v h h v v h v h h h v v h v v\nv h h v v h h v v h v v h v v h h h v h v h v v\nv h v v h v v h v h h h v v h h v v h v h v v h\nh v h h h v h v h v h h h h h v h h h v v h v v\nh h h h v v h h h h v v h h v v h v v h h v v h\nv h v v h h v h v v h h v v h h v h h v h v v h\nv v h h h h h v v h h h h h h h h h h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "solution": "10 10\nh h h h h v v h v v\nh v v h h v v h h v\nv v h v v h v v h v\nv v h h h v v h v h\nh v v h h v h h v h\nv h h v v h v v h v\nv h h v h h v v h h\nh v v h h v h h v v\nv h h h v v h v h v\nv h h v h v v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "solution": "10 10\nh v h h h h h h v v\nv h v v h v v h v v\nh h v h v v h v h h\nh v h h v h v h h h\nv v h v v h h h v v\nv h v v h v h v h h\nh v h h h h v h v v\nh v v h v v h h h v\nv v h v h v h v h v\nh h h v h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/022.a.htm"
+    },
+    "23_10x10": {
+      "id": "23_10x10",
+      "solution": "10 10\nh h v h h v v h h v\nh h h v v h v v h v\nv v h h h h v h v v\nh h v h h v h v v h\nv v h v v h h v v h\nh h v h h h v v h v\nh h v h h v h v v h\nv v h v v h h h v v\nh h v h h h v v h h\nh h h h h v h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/023.a.htm"
+    },
+    "24_10x10": {
+      "id": "24_10x10",
+      "solution": "10 10\nv v h v h h v v h h\nh h h h h v v h h h\nh h v h v h h h v v\nv v h v v h v v h v\nv h v v h v v h v v\nh h v v h v v h v v\nh v v h v v h v v h\nv v h v v h v h h v\nv v h v v h v v h v\nh v v h v v h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "solution": "10 10\nh v v h h h h v h h\nv h h v v h h v v h\nv h v v h v v h h v\nh v h v v h h v v h\nv h h v h v h h h h\nh v v h h h v h h v\nh v h h v v h v v h\nv h h v h v h v v h\nh v v h h v v h v v\nv h h h v h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "solution": "10 10\nv h v v h v v h v v\nv h v h h h v h h h\nh v h v v h h v h v\nh v v h v v h h v v\nv v h h h v v h v v\nh h v v h v h v v h\nv v h v v h v h h v\nh h h v v h v v h v\nh v v h h v v h v v\nv v h h h v h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/026.a.htm"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "solution": "12 12\nh h v v h h v v h v v h\nv v h v v h h h v h h v\nv h v v h v h h h h h h\nv v h v v h v v h v v h\nh h h v v h v h v v h v\nh h v h v v h h v v h v\nv v h h v h v v h v v h\nv h h v v h h h h h h v\nh v v h v v h v v h h h\nh h h h v h v v h v v h\nv h v v h v h h v v h v\nh v h h h h h h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10\nv v h v h v v h v v\nv h h v v h v v h v\nv h v v h h h v h v\nv v h v h v h v v h\nv v h v v h v v h v\nh v v h v h h h v v\nh v h v h v h v v h\nv h v h h v v h h h\nh h h h v h h h h v\nh v h v v h h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/028.a.htm"
+    },
+    "29_15x15": {
+      "id": "29_15x15",
+      "solution": "15 15\nh h h h h v h h v h v v h h h\nh h v h v v h v h v v h v v h\nv v h v h v v h v v h v v h v\nv v h v h v v h v h v v h v v\nh h v h v v h v v h v v h v v\nh v v h v v h h v v h h v h h\nv h h v h h v h h v v h h v v\nh v h h h v h v v h h v h h v\nv h v h v v h v h v v h v v h\nv h v v h h v v h v v h v v h\nh v h v v h h h v h v v h v v\nv h h h h v h v v h v h h v v\nh v v h h h v h h v h h v h v\nh v h v v h h h h h v v h h v\nv v h v h v h v v h h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/029.a.htm"
+    },
+    "30_25x40": {
+      "id": "30_25x40",
+      "solution": "25 40\nh v v h h h h h h v h h h h h h v h v v h v v h v v h h h h v v h h v h v v h v\nv v h v h h v h h h h h v h h v v h v v h h h v h h v v h h h h v v h v v h v v\nh v v h v v h v v h v v h v v h h v h h v h h h h h h h v v h h v v h v v h v v\nh v v h v h h h h v h v v h v v h h v v h v v h v v h h h h v v h v v h v v h v\nv h v v h v v h h h h h h v h v v h h v v h h v h h v v h h h h v v h v h v v h\nv h v h h v h v v h v h h v v h v v h v v h h h h h v h v v h h v v h v v h h h\nv v h v v h h h v v h v v h h h v h v v h v v h v v h v v h v v h h v v h h h v\nh v v h v h v h v v h h h h h v h h v h v h h v h h v v h v h v v h v v h v v h\nh v v h v v h v v h v v h v v h h v v h v v h v v h h h h h h v h v h v v h h v\nv h v v h h h h h v h v v h h v v h v v h h v v h v v h v h v h v h h h h h v v\nv v h v v h v h v v h v v h v h v v h h v v h v v h v v h v h h h h v h v v h v\nh h h h v v h v h v v h v v h h v v h v v h v v h v v h v h v v h v h v v h v v\nh v v h v v h v h v v h v h h v h h v h v h h v v h v v h v v h v h h v v h v v\nv h v v h v v h v v h v h h v v h v v h h v h v h v h h v h v v h h v h v v h v\nh h v h v v h v v h h h h v v h v v h v h v v h h v v h h v v h h v h v v h v v\nh v v h h h h h h h v h v v h v v h v h v h h h v v h v h h h v v h h v v h v v\nv h v v h v v h h v h v v h v h h v h v v h h v h h v h v v h v v h v v h v h h\nh h v h v v h v v h v v h h v v h h h h h v v h v h h h v h v v h v v h h h h h\nv v h h v v h h h h v v h v h v v h v v h h v h v v h v v h v v h v v h v h v v\nv h v v h v v h v v h h v v h h v v h v v h v v h v v h v v h v v h v v h v h h\nv h h v v h h v v h h h h v v h v h v v h v h h v h v v h h h h h v v h h h h h\nv v h v h h v h h h v v h v h v v h v v h h h h v h v v h h v h h v h v v h v v\nv h v v h v v h v v h h v v h h v v h v v h v v h v v h v v h v v h v h h v h h\nv h h v v h v v h h h h h v v h h h v h v v h v v h v v h h h h h v h h h h h h\nv v h h h h h h h h v v h v h v h h h v v h h h h v h h h h v h h h h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "solution": "10 10\nv h v v h v v h h h\nv v h v v h v v h v\nv h h h v h h h v v\nh v v h v v h v h v\nh v h v v h v v h v\nv v h h h h h v v h\nv h v v h v v h v h\nh v v h v h v v h v\nh h h h v v h h h h\nv h h v h h h h v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "solution": "10 10\nh h v h h h h h v v\nh h h h h v v h v v\nv v h v v h v v h v\nh h v v h h h h v v\nh h h v h v v h v v\nv v h v v h v v h h\nh v v h h h v h h h\nh v v h v v h h v v\nv v h v v h v v h h\nv v h h h h v v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "solution": "10 10\nv h v h h h h v h h\nv h v v h v v h h h\nv v h v v h h h v v\nh v v h v h h v h h\nv h v v h v v h v v\nv h v h v v h v v h\nv v h h v v h v v h\nh h h v v h v h h v\nh h v h v h v v h h\nv v h v h v v h v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/033.a.htm"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "solution": "10 10\nv v h h v h v v h v\nv h v h v v h v h v\nv h v v h h h h v v\nh v v h v h v h v h\nh v v h v v h v v h\nv h h v v h v h v v\nh v v h v h h h h h\nh v v h v v h v v h\nv h h v v h v v h v\nh h h h h h h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/034.a.htm"
+    },
+    "35_10x10": {
+      "id": "35_10x10",
+      "solution": "10 10\nh h h v v h v h h h\nv h h v h v v h v v\nh v v h h h v v h v\nv v h v v h v v h h\nv h h h h v h h v v\nv h v v h h h h v v\nv v h v v h v v h h\nv h v v h v v h h v\nv h v h v h h v v h\nh v v h h h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "solution": "10 10\nv h v v h h v v h h\nv h v v h h h h h h\nv v h h v v h h v v\nv h v h v h v v h v\nv h h v v h v v h v\nv v h h v v h v v h\nh h v h v v h h v h\nv h v v h v v h v v\nh v v h v v h v v h\nh h v v h h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/036.a.htm"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "solution": "10 10\nh v v h h h v h v v\nv h v v h v v h v v\nh v v h v v h v v h\nh v v h v v h h h h\nv v h v v h v v h v\nh h h h h h h h v v\nh v v h h v v h v v\nv v h v v h v v h v\nh v v h h v h v v h\nh v v h h v v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/037.a.htm"
+    },
+    "38_10x18": {
+      "id": "38_10x18",
+      "solution": "10 18\nh h h h v v h h v v h v h v h v h v\nh v v h v h v h h v v h h h h h v v\nv v h v v h h v v h h v v h v v h v\nh v v h v v h v h v h v h v h h h v\nv h h h h h v h v h v v h h v h v h\nh h v v h v h h v v h v v h h v v h\nv v h v v h h v v h h h h v h v h v\nh v h h v h v v h v v h v h v v h v\nh v v h v v h h v h v v h h h v v h\nv h h v v h h h h v h h v v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10\nv h h h h v h v h h\nv h v h h v h h h h\nv v h v v h v h v v\nv v h h v h v v h v\nv h v v h v h v h v\nh h h h h h v h v v\nv v h h v v h h v v\nh h v v h v h v h h\nv v h v v h v v h v\nv h v v h v h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "solution": "10 10\nh v v h v v h h v v\nh h v v h h v v h h\nv h v v h v v h h h\nv v h v v h h h v v\nv h h v v h v v h v\nh v v h v v h h v v\nv h v h h h h h v v\nh v h v v h v v h v\nh v v h v v h h v v\nv h h v v h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "solution": "10 10\nv h v v h v h h v h\nv h h v v h v v h v\nv v h v v h v v h v\nh h v h v v h v v h\nv v h v h v v h h v\nv v h v v h h h h h\nh v v h h h h v v h\nh h v v h v v h v v\nv v h h v h v h h h\nv v h v h h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "solution": "10 10\nh v v h v h h h v h\nv v h v h v h h h v\nh h h v v h v v h v\nv h v v h h v h v v\nh v v h h v h v h v\nh h h v v h h v v h\nv v h v v h v v h v\nh h v v h v h v h v\nv v h v v h v h v v\nv v h v h h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "solution": "10 10\nh h v h v h h v v h\nh h v v h h v h h h\nv v h h h v v h h v\nv h v h v v h v v h\nv h h v h v h h h h\nv v h h h v v h h v\nh v v h v v h v v h\nh h h v v h h h h h\nv v h h v h v v h v\nh v v h h v h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "solution": "10 10\nv h h v h v v h h v\nh v v h v h h v v h\nh v v h v h h v v h\nv h h v h v v h v v\nv h h v v h v h h h\nh v v h h h h v v h\nh h v h v v h h v v\nv h v v h h v h h v\nv v h h v v h v v h\nh h v h v v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/044.a.htm"
+    },
+    "45_10x10": {
+      "id": "45_10x10",
+      "solution": "10 10\nh v h h v v h v h h\nh h v h v v h v v h\nv h h v h h v v h v\nh v v h h v v h h h\nh h v h v v h h v v\nv v h v h h v v h h\nh h h v v h v v h h\nh h v v h v h h v v\nv v h v h h h h h h\nh h h v v h v v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "solution": "10 10\nv h h v v h v h h v\nv h h v v h v v h h\nh v v h v v h v v h\nv h v v h v h v h v\nh v v h v h v v h v\nh h v v h h h v v h\nv v h v h v v h h h\nv v h v v h v h v v\nh h v v h v h v h h\nh h v v h v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "solution": "10 10\nv h h v v h v h h v\nv v h v v h h v v h\nh v v h h v v h h h\nh h h v v h v v h v\nv v h v h v v h v v\nv h v v h v v h h v\nh v v h v v h v h v\nh h v h h v v h v h\nv h h v v h v v h v\nv v h h v h h h h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "solution": "10 10\nv v h v v h h h h v\nv v h v v h v v h v\nv h v v h v v h v v\nv h v v h v h h h h\nh v v h v v h v h h\nh h h v h v v h v v\nv h v v h v v h h v\nv v h v v h h v v h\nv v h v h h h h h v\nh v v h h v v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10\nv h v h h h h h h h\nv v h v v h v v h v\nv h v v h v v h v v\nh h v v h v v h h v\nh v v h v v h v h v\nv v h v h h h h v v\nh h v h h h v h v v\nh h v h v v h v v h\nv v h v h h h h h h\nh h h h v h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10\nv v h v v h v h h v\nv v h v v h v h h h\nh v v h v v h v v h\nh v v h h h h h h v\nv v h v h v v h v h\nv h v h v h h v h v\nv h v h h h h h v v\nv v h v h v v h v v\nh v v h v h h v v h\nh h h h h h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/050.a.htm"
+    },
+    "51_6x6": {
+      "id": "51_6x6",
+      "solution": "6 6\nh h h h h v\nv h v h h v\nh v h v v h\nh h h v h h\nv h v h v v\nv v h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "solution": "10 10\nh h h v v h v v h v\nv h h v v h v v h v\nh v v h v v h v v h\nh h h v h h h v v h\nv h h h v h v v h v\nh v v h v v h v v h\nh h v v h h h h h h\nv h v h h v v h v v\nh v v h v v h v h v\nv h v v h v h h h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "solution": "10 10\nh v v h v v h v h h\nh v h h h h v v h v\nv h v v h h h v v h\nv v h h v v h h h v\nv h v v h h v h h v\nv h v h v v h v v h\nh v v h v v h v v h\nh h h v v h v v h v\nv v h v v h v h v h\nh v v h v v h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "solution": "10 10\nh h h h h h h h v v\nh h v h h v h h v v\nv v h v v h v v h v\nv v h h h h v h v v\nv h v v h v v h v v\nv v h v v h v v h v\nh h v v h h h h v v\nh h v v h v h h v v\nv v h h v h v v h v\nv v h h h h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\nh h h h v v h v h h\nv h v h h v v h v v\nv v h v h h v h h v\nh v h h v h h v v h\nh v v h h v v h v v\nv h v v h h v h h v\nv v h h v v h v v h\nv v h v h h h h v h\nh h v v h h v h h v\nh h v h v v h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "solution": "10 10\nh h h h v v h v v h\nv h v v h h v h v h\nh v h h h h v h v v\nv h v h v v h v v h\nh h v v h h v v h h\nh v v h v v h v h v\nv h h v h h h v v h\nv v h h h h v h v v\nv h v h v v h h v v\nv h h v v h v v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "solution": "10 10\nh h h h v v h h v v\nv h v v h h h v v h\nv v h h h h v h v v\nv v h h v v h h v v\nv h v v h h v v h v\nh v v h v v h h v v\nh h h v h h h v v h\nv h h h h h v v h h\nh v v h v v h h h v\nh h h v h h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "solution": "10 10\nv h v v h v h h v h\nv h h v v h v v h v\nv v h v v h v v h v\nh h v h v v h v v h\nv v h v h v v h h v\nv v h v v h h h h h\nh v v h h h h v v h\nh h v v h v v h v v\nv v h h v h v h h h\nv v h v h h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "solution": "10 10\nh h h v h v v h v v\nh h v h h v h v v h\nv v h h v v h v h h\nv h h v v h v h h v\nh h v h h h v h v v\nh v h v h v h v v h\nv v h v v h v h h v\nv h v v h h h v v h\nv v h h v v h h v h\nv v h h h h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/059.a.htm"
+    },
+    "60_6x6": {
+      "id": "60_6x6",
+      "solution": "6 6\nv v h h h h\nv h v v h h\nv h v h v v\nh v v h v h\nv h h v v h\nh h h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "solution": "10 10\nv h v v h h h h v h\nv v h h v v h v h h\nh h v v h v v h h v\nh h v v h v h v v h\nv v h h v v h h h v\nh v h v v h v h h h\nh v v h v h h v v h\nv v h v h v v h v v\nh h h v v h h h h h\nh h v h v h h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "solution": "10 10\nh v h h v h h v v h\nv h h h v h h v v h\nv h v v h v v h h v\nh v v h v v h v h h\nv v h h h v v h v v\nh v h v h h v v h v\nh v v h v h h h h h\nv v h h v v h h v v\nv h v v h h v v h v\nv v h h h h v v h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/062.a.htm"
+    },
+    "63_10x10": {
+      "id": "63_10x10",
+      "solution": "10 10\nh h h v v h v v h h\nv h v v h v h h v v\nv v h v v h v h h h\nh h h h v h h v h h\nh h v v h v v h v v\nv v h h h h h h v v\nh v v h v h h v h h\nv h v v h v v h v v\nv h v h h v v h v v\nv v h h v v h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "solution": "10 10\nh h h v h v v h v v\nh v v h h v v h v v\nv h h v v h v v h v\nh h v v h h v h h v\nh v v h v v h h v v\nv h v h v v h v h v\nv v h v h v v h v h\nv h h h v h h v v h\nh h v v h v v h h v\nh v v h h v v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\nv h h v v h h h v v\nv v h h h v h h v v\nv h v v h h v v h h\nh v v h v v h h v v\nh v v h h h h h h h\nv h v v h h v v h h\nh h v h v v h h v v\nh v v h h h v h v v\nv v h v h h v v h v\nh v v h v v h h h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "solution": "10 10\nv h v v h v h v v h\nv v h v v h h v v h\nh v h v h v v h v v\nh v v h h h h v v h\nv v h h v v h h h h\nv h h v h h v v h v\nh v v h h h h h v v\nv v h h v v h h v v\nv v h v h h v v h v\nh v v h v h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10\nv h v v h v v h v v\nh v v h h v v h v v\nv h h h v v h v v h\nv h h v v h v h h h\nh v v h v h v h v v\nv h v h v v h v h v\nh h h v v h h h h v\nv v h v v h v h v v\nh h v v h v h v v h\nh h h v h h h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "solution": "10 10\nh v v h h h v v h v\nh h h v h v v h v v\nv v h v v h v h v v\nv h v v h h v v h v\nh h v h h v h h v v\nh v v h v h v h v v\nv v h v v h v v h h\nv v h h h v v h h h\nh h v v h v h h v v\nh h h v v h v v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "solution": "10 10\nv h h v v h v v h v\nh h h v v h v v h v\nh v v h h v h v v h\nv h h v v h v h h h\nv h h v v h v v h v\nh v v h v v h v v h\nh h v h v v h h h h\nv v h v v h v h h v\nh h v v h v h v v h\nh h v v h v v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/069.a.htm"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "solution": "10 10\nv v h v h h v v h h\nv v h h v h h v h h\nh h v v h v h h v v\nv v h h h v v h h h\nv v h h v h v v h h\nv h v v h h h h v v\nv v h h h v v h h v\nv v h v v h h v v h\nv h v h v h h v v h\nv h h h h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/070.a.htm"
+    },
+    "71_25x40": {
+      "id": "71_25x40",
+      "solution": "25 40\nh v v h v v h h v h h v h v v h h h h v h h v v h h h v h h h h v h h v v h v v\nh h h h v h h h h v v h v v h v v h h v v h h h h v h h v v h v h v v h v v h v\nv v h v h h v v h h h h h v v h h v v h h v h v v h v v h v v h h h v v h h v v\nv h v v h v h v v h h v h h v v h h h v v h v h v v h h v v h h v h v v h v h h\nv v h v v h h h h v v h v v h h v v h h h h h v h v v h v v h v h v v h v h v v\nv h v v h v v h h h h h v h h h h h v h h v v h h h h v h v v h h h v h h h v v\nh h h h v v h v v h v v h h v v h h h v v h v h v h h v h h h h v v h v h v v h\nv v h v v h v h h v v h h v v h v v h v v h v v h v v h v h v v h v h h v h h v\nv h v v h h h v v h v h v h v v h v v h v v h v h h v v h v h h v h v v h h h v\nh v v h v v h v v h h v h h v h v h v v h h h h v h v v h h h h v h v v h v v h\nv h v v h h v h v v h h h v h h v h h h h v v h h v h v v h v v h v v h v h h v\nh h h h h h v v h h v h v h h v h v v h v h v v h v v h h v v h h v v h h h v v\nv v h h v v h h v v h v h v v h h h h v h v h h v v h h h h h h v h v v h v h v\nv h v v h v h v h h h h h v h v v h h v v h h h v v h v v h v v h h v h v h h v\nh h v v h v v h h h v h v v h h h v v h h h v v h v v h h v v h h v v h h v v h\nh v v h v v h h v v h v v h v h h h v v h v v h v v h h h h h h v h v v h h h v\nv v h v h v h v v h v h h v h v v h v h v h h v v h h v v h h v v h h h v h h v\nv h v v h v v h h h h v h h h h h v v h v v h h v h v v h v v h v v h h h v v h\nv v h h v h v h h v h h v h v h h h h v v h v h v v h v h h h h v h v v h v v h\nh v h v v h h v v h v h v v h v v h v h h h v v h v v h v v h v h h h v v h v v\nh h v h h v h h h h h v h v v h h v h v h v h h v v h v v h v h h v h v h h v h\nv h h v h v v h v v h v h h h h h v h v v h v h v v h v h v h v v h v v h v v h\nv v h v v h h v h h v h v v h v v h v v h v h v v h v v h h v v h v v h v v h v\nh h v h h h v v h v h v h h v v h h v h v h h h h v v h v h v v h v v h v h v v\nh h h h v v h v v h h v h h h h h v h h h h v h h v v h v v h v v h v v h h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/071.a.htm"
+    },
+    "72_16x24": {
+      "id": "72_16x24",
+      "solution": "16 24\nh v v h v h h h h h h v v h h v h h h h h h v v\nh h v v h v h h v h h h h h h h v h v h h v v h\nv h v v h h v v h v v h h v v h h v h v v h v v\nv v h v v h v v h v h v v h h v h v h v h v v h\nh v h v h v h v v h v v h v v h v h v v h v v h\nv h v h h h h v h v v h h h h h h v h h v v h v\nv h h h v h v v h h h h v v h v v h h v v h v v\nv v h v h v h h v v h v h h v v h v v h v v h v\nh v v h v h v h h v v h v v h h h h v h v h h h\nh h h v h h h v h v v h h h h v v h v v h v v h\nv h h h v v h h v h v v h h v h v v h h v v h v\nh v v h v h v h h v v h v v h v v h h h h h h v\nv h v v h h h v v h v h h h h v v h v v h h v v\nh v v h v v h h h v h v h v v h v v h h v v h v\nh h v v h h v h v v h h v v h v v h v v h v h v\nv v h h h h v v h v v h h h h h v h h h h v v h",
+      "source": "https://www.janko.at/Raetsel/Juosan/072.a.htm"
+    },
+    "73_12x24": {
+      "id": "73_12x24",
+      "solution": "12 24\nv h h h h v h v v h h h h v h h h h h h h v v h\nv h v h h h h h h h v v h h h h v v h v h h v v\nv v h v v h v v h v h v v h v v h v v h v h v v\nv v h h v v h v v h h h v v h h v h v v h v h v\nv h v h v v h v v h v h v h h h h h v v h h v v\nv v h v v h v v h v h v h h v v h v h h v h h v\nh v v h v v h v v h h h v v h h v h v v h v v h\nh v v h v v h v v h v v h v v h v h v v h h h h\nv h h v h h v h v v h h h h h v h v v h v h h v\nv h v h h v v h v v h v v h h h h v v h h v v h\nv v h h v h v v h v v h h v v h v v h v v h h h\nv v h v h h v h h v h h h h h v h v h h h h h v",
+      "source": "https://www.janko.at/Raetsel/Juosan/073.a.htm"
+    },
+    "74_12x25": {
+      "id": "74_12x25",
+      "solution": "12 25\nh v v h v v h v h v v h v v h v h v v h v v h h h\nv h h v h v v h v v h v v h h v v h v v h v v h h\nv h h v h v v h v v h v v h v h h v h h h h h v v\nh v v h v v h v h v v h v v h h h h v h v v h h h\nv h v v h v v h v v h h v v h v v h h v v h v h v\nv h v v h v v h v v h v v h v v h v h v v h h v v\nh v h v v h v v h v v h v h v v h h v v h v v h v\nv h v v h v v h h h h v h v v h v v h v v h h v v\nh h v h h v v h v v h h v v h v v h v v h v v h h\nh v v h v h v v h h v v h v v h v v h v v h v h h\nv h v v h h h h h h h h h v h v v h v v h v h v v\nh h v h h v h h v v h h v h h h v v h v h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/074.a.htm"
+    },
+    "75_15x20": {
+      "id": "75_15x20",
+      "solution": "15 20\nv h h h h h h h v v h v v h h h h h h h\nv h v h h v h h v h v v h v v h v v h v\nv v h v v h v v h h h h h h v v h v v h\nv v h v v h v h v v h h v v h v h v h h\nh v v h v v h v v h v v h v h v v h v v\nv v h v v h v h v h h h h h v v h h h v\nv v h v v h h h v v h v v h v v h v v h\nh v v h v v h v v h v v h v v h v h h h\nh h h v h h v h v v h v v h v h v h h v\nv v h h h h v h v h h h v v h v h v v h\nh h v h v v h v h h v v h h v h v v h h\nv v h v h h v v h v h h h h h h h h v v\nv v h h h h h h v v h h v v h v h h v v\nh h v h v v h h h h v v h v v h v v h v\nh h h v v h v v h h v v h v h h v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/075.a.htm"
+    },
+    "76_16x16": {
+      "id": "76_16x16",
+      "solution": "16 16\nh h h h h h h v v h h h h h h h\nv h v v h v h v v h v v h v v h\nv v h v v h v v h v h h v v h v\nv h v v h v v h v v h h v h v v\nv h v v h v h v v h v v h h v v\nh v v h v h h h h v v h v v h v\nv h v v h v v h v v h v v h v v\nv h v v h v h v v h v h h h h h\nh v v h v v h v v h v v h v h h\nv v h v v h v h v v h h v h v v\nv v h h h v h h h h v h h v h h\nh v v h v v h v h h h v h h h h\nh h h v h v v h v v h v v h v v\nv h v h h h h v v h v h h v h h\nv v h v v h v h v v h v v h v v\nv h h v h v v h v v h v v h v v",
+      "source": "https://www.janko.at/Raetsel/Juosan/076.a.htm"
+    },
+    "77_26x39": {
+      "id": "77_26x39",
+      "solution": "26 39\nh v v h h h v h v h v v h h v h h v h h h h h v v h h h h v h h h v v h h h v\nh v v h v v h h h h v v h h h v v h h v v h h h h v h h v v h h v h h v h h v\nv h h v h h h v h v v h v v h v v h v h h v v h v h v v h h v v h h h h v v h\nv v h v h h v h v v h v h v v h h v h v v h h v h h h h h v h h h v v h h h v\nh v v h v v h v v h h h h v v h h h h v v h v v h v h h v v h h v v h v h h v\nv h v v h h h v v h v h v v h v v h v h h v h h v h v v h h v v h h h h v v h\nv v h v h h v h v v h v h h h v h v v h h h h h h h v v h h v v h v v h h h v\nh h h h v v h h h v h h h h v h v v h v v h v v h v v h v v h v v h h v v h v\nh h v h h h h v h h v h v v h h v v h h v v h h v h v h v v h v v h h h h v h\nv v h v h v v h v h h v h h h v v h v h v v h h h h h v h h v v h v v h h v h\nh h h h v h h v h v h h h h v h v v h v h h v v h v v h v v h v v h h v v h v\nh h v h h h v v h h v h v v h h v h h h h h h v v h h v h v v h v h h v h h v\nv v h v h v h v v h v v h h v v h v v h v v h v h h h v v h h v h v v h h v v\nh v v h v v h h v v h v h h v h h h h v v h v v h v v h h h h h v v h h v h v\nh v v h h v v h v v h h v v h h v h h v v h v h v v h v h v v h h h v v h v v\nv v h v h v h v v h v v h h v v h v v h h v v h v h h v v h v v h h v h v v h\nh v h h v h h v h v v h v v h v h h h h v h v v h h v v h v v h v v h h v v h\nh v v h h v v h h h v h v v h v v h h v v h v v h v h h h h v h h v h v h h v\nv h v v h v v h v h v v h h v v h v v h h v v h v h h h v h v v h h v h v h v\nh v v h v h v v h v h h h h h v h h v h h v h v v h v v h v h v v h v v h v v\nh v v h h h h v h h h h v v h v v h h v v h v h v v h h h h v v h v v h v v h\nv h v v h v h v v h v v h v v h h v h v v h v h v v h h v v h v v h v h v v h\nh h h h v h v v h v h h v h h v h h v h v v h v v h v v h h v h h v h v h h v\nh v h h h h h v v h v v h h h v v h v h h h v v h h v v h h v v h v v h v h v\nv h v v h v v h v v h v h v v h h v h v v h v v h v v h v v h v v h h h h v h\nh h h h v h h v v h h h v h h h h h h v h v h v v h h h h h h h h h h v h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/077.a.htm"
+    },
+    "78_15x15": {
+      "id": "78_15x15",
+      "solution": "15 15\nh h h v v h v v h v h h h h v\nv h h v v h h h h v v h v h v\nh v v h v v h h v h v v h v v\nh h h h v h v v h v v h v h v\nv h h v h h h h h v v h h v v\nh v v h h v h h v v h v h v v\nh v v h v h v v h v v h v v h\nv h v v h h h h h v h v v h v\nv h v h h v h v v h v h h v v\nv v h v v h v h h h h h h v v\nv h v h v v h h v v h v v h v\nv v h h v v h v v h v v h v v\nv h h v h v v h v v h v v h v\nh v v h h h h v v h v v h v v\nh h h h v h h h v h h h h h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/078.a.htm"
+    },
+    "79_27x38": {
+      "id": "79_27x38",
+      "solution": "27 38\nv v h h h h v v h h h h v v h h h h h h h h v v h v v h v v h h h v v h v v\nv h v h v v h h h h v v h v v h v v h v h h h h v v h h h h h h v v h v v h\nv h v v h h h h v v h h v v h v v h v h v v h h v v h v h h v v h v v h h h\nh v v h v h v v h h h h v h v v h h h v v h v v h v v h v v h h h v v h v v\nv v h v h v h h h h v v h v v h v v h v v h v h v h v h h h h h v v h v h v\nh h h v v h v h v v h h v h v v h h v v h v v h v h h v v h v v h h v h v h\nv h v v h v h v h h h h v v h v v h v h v h v v h v v h v v h h h h h h h h\nh v h h h h h v v h v v h v v h v v h h v v h v h v v h v h v h v v h v h v\nv h v h v h v v h v h h h v v h v h h v v h h h v h h v v h v v h h v h v h\nh h v v h v h v h h h h v h h v v h v h h h v v h v v h h v v h h h h h h h\nh v v h v v h v v h v v h v v h v v h h h v h v v h v v h v v h v v h v h v\nv h v h h h v v h v v h v v h v v h h v v h h v v h v h v h v v h v v h v v\nv v h v h h v v h v v h h h v v h h v h h v v h h v h h h v v h v v h v v h\nv v h h v v h v v h v v h h h h h v v h v h h h h h h v v h v h v v h v v h\nh h v h h h h h h h v h v v h v v h h v h v h v v h v v h h v v h v v h v v\nh h h v h h v h h v h v v h v h h h h h h h v v h v h v h v v h v v h v h v\nv v h h v v h v v h h v v h h v h v v h v v h v v h h v v h v v h v v h v v\nh v v h h h h v h v v h v v h v v h h v v h v v h h v v h v v h v v h v h v\nv h v v h v v h v v h v v h v v h v v h h v v h h v h h h h v v h h h v h h\nv v h h v h h v h h h h h v v h v v h v v h v h v v h v v h v h v h v h v v\nv v h h h h h h v h v h h v v h v h v h h v h v h h v v h v v h v v h h h h\nv h v v h v v h h v h v v h h v h h h h h h v v h v h h h h v v h h h v h h\nv v h h v h h v h h h h h v v h v v h v v h h v v h v h v h v h h h v h v v\nh h h h h v v h v h v h h h h h h h v v h v v h v v h v h v v h v v h v h h\nh h v v h h h h v v h v v h v v h v h h h h h v v h v v h v h v v h h h h h\nv v h v v h h v h h h v h v v h v v h h v v h v v h h h v h h v v h v h v v\nh h h h h v v h h h v h h h h h h h v v h v v h h v h h h h v h v v h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/079.a.htm"
+    },
+    "80_28x38": {
+      "id": "80_28x38",
+      "solution": "28 38\nh h v v h h v v h v h h h h v h h h h h h h h h h h h v h h h v h h v v h h\nh h v v h v h h h h h h v h h h v h v v h v v h v v h h h v v h h h h h v v\nv v h v v h h h v h v v h v h v h v h h v h h v v h v h v v h h v v h h h h\nv v h v v h v v h v v h v h v v h h h h h h h v v h h v h v h v v h v v h h\nh h v v h v v h h h v v h v h h v h v v h v v h v v h h h v v h h v v h v v\nh h h v v h h h v h h h h h h h h v v h v v h v v h v h v h v v h v v h v v\nv v h v v h v v h v h h v h v v h h v h v v h v v h h v h v v h v v h v v h\nv h v h v v h v v h v v h v h v v h v v h v v h h v h h h h v h h v h v h v\nv h h v v h h v v h v v h v v h v v h v h h h h h v v h v v h v v h v h h h\nv v h h v h v v h v v h v v h v v h v h v h h v v h h v h h h h h h h h v h\nv h v h v v h h h v v h v v h v v h h v h v v h h h h h h h v h h v h v h v\nv v h v v h h h v v h v h h v h h v v h v h h h h v v h v v h v v h v v h h\nv v h v v h v v h h v v h v v h v h h h h h h v v h h v h v h v h v h v v h\nv h v h v v h h h h v h v v h v v h h v h v v h v h v v h v v h v h v v h v\nv v h v v h v h v v h v h h h h h v v h v h h v h v h v v h v v h v h v v h\nh h h v h v h v v h v v h v v h v h v h h h h h h h h v v h v v h v h v v h\nv h v h h h v h h v h v v h v v h h v v h v v h v h v h v v h v v h v v h v\nv v h h v h h h v h v v h v v h h v v h v h v v h v h v h v v h v v h v v h\nv h v v h v h v v h v v h v v h v v h v h v h h h h v h h h h v h v v h h h\nv v h v v h v v h v h v v h v v h v v h v v h h v v h v v h v v h h v v h v\nh v v h v h h h h v v h v v h h v v h h h h v v h v v h v v h v v h h v v h\nv h v v h v v h v v h v v h v h v v h v h v v h v v h v v h v v h v h v h h\nv v h h h h h v h v v h h h h v v h v h v h h h h h v h v h h v v h v v h v\nh h v h v h h h h v v h v v h v v h h v v h h v v h v v h v v h v v h v v h\nh h h v h v v h v v h v h v v h v v h h h v v h v v h v h h h v v h v v h h\nv v h h h v h v h v v h v v h h v h v h h h h h v h h h v h h v v h v v h v\nh h v h v v h v h v v h v v h v v h h v v h h v v h v v h v v h h v h v v h\nh h h v v h v h v v h v h v v h v v h h h v v h v v h v h h h h h h h v h h",
+      "source": "https://www.janko.at/Raetsel/Juosan/080.a.htm"
+    }
+  }
+}

@@ -30,6 +30,9 @@ from Common.Verifier.PuzzleVerifiers.PfeilzahlenVerifier import PfeilzahlenVerif
 from Common.Verifier.PuzzleVerifiers.MinesweeperVerifier import MinesweeperVerifier
 from Common.Verifier.PuzzleVerifiers.OneToXVerifier import OneToXVerifier
 from Common.Verifier.PuzzleVerifiers.MagneticVerifier import MagneticVerifier
+from Common.Verifier.PuzzleVerifiers.BosanowaVerifier import BosanowaVerifier
+from Common.Verifier.PuzzleVerifiers.SuguruVerifier import SuguruVerifier
+from Common.Verifier.PuzzleVerifiers.GrandTourVerifier import GrandTourVerifier
 
 class VerifierFactory:
     
@@ -78,7 +81,10 @@ class VerifierFactory:
         "Pfeilzahlen": PfeilzahlenVerifier,
         "Minesweeper": MinesweeperVerifier,
         "OneToX": OneToXVerifier,
-        "Magnetic": MagneticVerifier
+        "Magnetic": MagneticVerifier,
+        "Bosanowa": BosanowaVerifier,
+        "Suguru": SuguruVerifier, 
+        "GrandTour": GrandTourVerifier
         
     }
     

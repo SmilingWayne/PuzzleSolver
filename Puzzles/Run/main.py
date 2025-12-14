@@ -51,7 +51,10 @@ if __name__ == "__main__":
         "Minesweeper",
         "OneToX",
         "Shikaku",
-        "Magnetic"
+        "Magnetic",
+        "Bosanowa",
+        "Suguru",
+        "GrandTour"
 
     ]
     
@@ -103,12 +106,14 @@ if __name__ == "__main__":
             else:
                 if not verifier.verify(solution_dict, sol_dict):
                     print(f"Wrong! {pz_name} {puzzle_id},")
-                    print(solution_dict['grid'], "\n====\n", sol_dict['grid'])
+                    # print(solution_dict['grid'], "\n====\n", sol_dict['grid'])
 
                 record.append(solution_dict)
                 print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], round(solution_dict['cpu_time'], 4), round(solution_dict['build_time'], 4) )
                 # print(solution_dict['grid'])
-                # if puzzle_id == "60_10x10":
-                #     print(solution_dict['grid'])
-                #     print("===")
-                #     print(sol_dict['grid'])
+                # if puzzle_id == "11_9x9":
+                    # print(solution_dict['grid'])
+                    # print("===")
+                    # print(sol_dict['grid'])
+            # if puzzle_id == "11_9x9":
+            #     break

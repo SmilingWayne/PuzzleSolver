@@ -6,7 +6,7 @@ from Common.Board.Direction import Direction
 from ortools.sat.python import cp_model as cp
 import copy
 
-class SlitherlinkSolver(PuzzleSolver):
+class GrandTourSolver(PuzzleSolver):
     def __init__(self, data: dict[str, Any]):
         self._data = data
         self.num_rows: int = self._data['num_rows']
@@ -14,7 +14,6 @@ class SlitherlinkSolver(PuzzleSolver):
         self.num_grid: Grid[str] = Grid(self._data['grid'])
         # The number grid, m * n
         self.grid: Grid[str] = Grid([["-" for _ in range(self.num_cols + 1)] for _ in range(self.num_rows + 1)])
-        # The actual grid, (m + 1) * (n + 1)
     
     def _add_constr(self):
         self.model = cp.CpModel()
@@ -22,7 +21,11 @@ class SlitherlinkSolver(PuzzleSolver):
         self.node_active = {} 
         self.circuit_arcs = [] 
         self.arc_vars = {} 
-        
+        self._add_circuit_constr()
+        self._add_prefill_constr()
+
+    
+    def _add_circuit_constr(self):
         # 1. Create variables
         for i in range(self.num_rows + 1):
             for j in range(self.num_cols + 1):
@@ -37,6 +40,9 @@ class SlitherlinkSolver(PuzzleSolver):
                     self.grid.get_index_from_position(pos),      # v (u=v)
                     self.node_active[pos].Not()  # literal
                 ])
+                self.model.Add(self.node_active[pos] == 1)
+                
+                
         
         for i in range(self.num_rows + 1):
             for j in range(self.num_cols + 1):
@@ -55,18 +61,30 @@ class SlitherlinkSolver(PuzzleSolver):
                     self.model.Add(self.node_active[v_pos] == 1).OnlyEnforceIf(arc_u_v)
 
         self.model.AddCircuit(self.circuit_arcs)
-        
+    
+    
+    def _add_prefill_constr(self):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 val = self.num_grid.value(i, j)
+                
                 if val.isdigit():
                     number = int(val)
-                    top_edge   = cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i, j + 1)))
-                    left_edge  = cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i + 1, j)))
-                    down_edge  = cp.LinearExpr.Sum(self._get_edge(Position(i + 1, j), Position(i + 1, j + 1)))
-                    right_edge = cp.LinearExpr.Sum(self._get_edge(Position(i, j + 1), Position(i + 1, j + 1)))
-                    self.model.Add(top_edge + down_edge + left_edge + right_edge == number)
-
+                    RIGHT_MASK = 0b0001  # 1
+                    DOWN_MASK  = 0b0010  # 2
+                    LEFT_MASK  = 0b0100  # 4
+                    UP_MASK    = 0b1000  # 8
+                    
+                    if number & UP_MASK != 0:
+                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i, j + 1))) == 1)
+                    if number & LEFT_MASK != 0:
+                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i + 1, j))) == 1)
+                    if number & DOWN_MASK != 0:
+                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i + 1, j), Position(i + 1, j + 1))) == 1)
+                    if number & RIGHT_MASK != 0:
+                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j + 1), Position(i + 1, j + 1))) == 1) 
+                    
+        
                 
     def _get_edge(self, u: Position, v: Position):
         vars_list = []
@@ -84,7 +102,6 @@ class SlitherlinkSolver(PuzzleSolver):
         
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                curr = Position(i, j)
                 # If the node is not activated (self-looped), skip and remain '-'
 
                 top_edge   = self._get_edge(Position(i, j), Position(i, j + 1))

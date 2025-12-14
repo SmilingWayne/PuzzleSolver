@@ -42,6 +42,9 @@ from Common.Parser.PuzzleParsers.PfeilzahlenParser import PfeilzahlenParser
 from Common.Parser.PuzzleParsers.MinesweeperParser import MinesweeperParser
 from Common.Parser.PuzzleParsers.OneToXParser import OneToXParser
 from Common.Parser.PuzzleParsers.MagneticParser import MagneticParser
+from Common.Parser.PuzzleParsers.BosanowaParser import BosanowaParser
+from Common.Parser.PuzzleParsers.SuguruParser import SuguruParser
+from Common.Parser.PuzzleParsers.GrandTourParser import GrandTourParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -90,7 +93,10 @@ class ParserFactory:
         "Pfeilzahlen": PfeilzahlenParser,
         "Minesweeper": MinesweeperParser,
         "OneToX": OneToXParser,
-        "Magnetic": MagneticParser
+        "Magnetic": MagneticParser, 
+        "Bosanowa": BosanowaParser,
+        "Suguru": SuguruParser,
+        "GrandTour": GrandTourParser,
         
     }
     

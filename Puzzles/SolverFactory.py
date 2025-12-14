@@ -42,6 +42,9 @@ from PfeilzahlenSolver import PfeilzahlenSolver
 from MinesweeperSolver import MinesweeperSolver
 from OneToXSolver import OneToXSolver
 from MagneticSolver import MagneticSolver
+from BosanowaSolver import BosanowaSolver
+from SuguruSolver import SuguruSolver
+from GrandTourSolver import GrandTourSolver
 
 from typing import Dict, Any
 
@@ -94,7 +97,10 @@ class SolverFactory:
         "Pfeilzahlen": PfeilzahlenSolver,
         "Minesweeper": MinesweeperSolver,
         "OneToX": OneToXSolver,
-        "Magnetic": MagneticSolver
+        "Magnetic": MagneticSolver, 
+        "Bosanowa": BosanowaSolver,
+        "Suguru": SuguruSolver,
+        "GrandTour": GrandTourSolver,
 
     }
     

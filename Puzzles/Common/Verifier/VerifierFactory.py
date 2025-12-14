@@ -26,6 +26,10 @@ from Common.Verifier.PuzzleVerifiers.SimpleloopVerifier import SimpleloopVerifie
 from Common.Verifier.PuzzleVerifiers.LinesweeperVerifier import LinesweeperVerifier
 from Common.Verifier.PuzzleVerifiers.SlitherlinkVerifier import SlitherlinkVerifier
 from Common.Verifier.PuzzleVerifiers.SudokuVerifier import SudokuVerifier
+from Common.Verifier.PuzzleVerifiers.PfeilzahlenVerifier import PfeilzahlenVerifier
+from Common.Verifier.PuzzleVerifiers.MinesweeperVerifier import MinesweeperVerifier
+from Common.Verifier.PuzzleVerifiers.OneToXVerifier import OneToXVerifier
+from Common.Verifier.PuzzleVerifiers.MagneticVerifier import MagneticVerifier
 
 class VerifierFactory:
     
@@ -70,7 +74,11 @@ class VerifierFactory:
         "Nondango": NondangoVerifier,
         "Simpleloop": SimpleloopVerifier,
         "Linesweeper": LinesweeperVerifier,
-        "Slitherlink": SlitherlinkVerifier
+        "Slitherlink": SlitherlinkVerifier,
+        "Pfeilzahlen": PfeilzahlenVerifier,
+        "Minesweeper": MinesweeperVerifier,
+        "OneToX": OneToXVerifier,
+        "Magnetic": MagneticVerifier
         
     }
     

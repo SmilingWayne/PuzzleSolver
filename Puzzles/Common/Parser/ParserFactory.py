@@ -38,6 +38,10 @@ from Common.Parser.PuzzleParsers.NondangoParser import NondangoParser
 from Common.Parser.PuzzleParsers.SimpleloopParser import SimpleloopParser
 from Common.Parser.PuzzleParsers.LinesweeperParser import LinesweeperParser
 from Common.Parser.PuzzleParsers.SlitherlinkParser import SlitherlinkParser
+from Common.Parser.PuzzleParsers.PfeilzahlenParser import PfeilzahlenParser
+from Common.Parser.PuzzleParsers.MinesweeperParser import MinesweeperParser
+from Common.Parser.PuzzleParsers.OneToXParser import OneToXParser
+from Common.Parser.PuzzleParsers.MagneticParser import MagneticParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -82,8 +86,11 @@ class ParserFactory:
         "Nondango": NondangoParser,
         "Simpleloop": SimpleloopParser,
         "Linesweeper": LinesweeperParser,
-        "Slitherlink": SlitherlinkParser
-        
+        "Slitherlink": SlitherlinkParser,
+        "Pfeilzahlen": PfeilzahlenParser,
+        "Minesweeper": MinesweeperParser,
+        "OneToX": OneToXParser,
+        "Magnetic": MagneticParser
         
     }
     

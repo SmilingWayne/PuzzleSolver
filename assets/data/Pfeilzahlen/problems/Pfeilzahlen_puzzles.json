@@ -1656,11 +1656,11 @@
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/216.a.htm",
       "problem": "4 4\n3 4 7 3\n2 2 5 4\n3 1 3 6\n2 1 5 2"
     },
-    "218_11x4": {
-      "id": "218_11x4",
+    "218_4x4": {
+      "id": "218_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/218.a.htm",
-      "problem": "11 4\n1 2 2 1\n4 4 2 3\n3 3 2 2\n3 3 3 2\nne nw ne nw\n\ns s se sw\n1 2 2 1\n4 4 2 3\n3 3 2 2\n3 3 3 2"
+      "problem": "4 4\n1 2 2 1\n4 4 2 3\n3 3 2 2\n3 3 3 2"
     },
     "219_4x4": {
       "id": "219_4x4",

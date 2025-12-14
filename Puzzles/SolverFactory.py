@@ -38,7 +38,10 @@ from NondangoSolver import NondangoSolver
 from SimpleloopSolver import SimpleloopSolver
 from LinesweeperSolver import LinesweeperSolver
 from SlitherlinkSolver import SlitherlinkSolver
-
+from PfeilzahlenSolver import PfeilzahlenSolver
+from MinesweeperSolver import MinesweeperSolver
+from OneToXSolver import OneToXSolver
+from MagneticSolver import MagneticSolver
 
 from typing import Dict, Any
 
@@ -87,7 +90,11 @@ class SolverFactory:
         "Nondango": NondangoSolver,
         "Simpleloop": SimpleloopSolver,
         "Linesweeper": LinesweeperSolver,
-        "Slitherlink": SlitherlinkSolver
+        "Slitherlink": SlitherlinkSolver,
+        "Pfeilzahlen": PfeilzahlenSolver,
+        "Minesweeper": MinesweeperSolver,
+        "OneToX": OneToXSolver,
+        "Magnetic": MagneticSolver
 
     }
     

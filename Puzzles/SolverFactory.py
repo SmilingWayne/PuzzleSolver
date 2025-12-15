@@ -45,6 +45,9 @@ from MagneticSolver import MagneticSolver
 from BosanowaSolver import BosanowaSolver
 from SuguruSolver import SuguruSolver
 from GrandTourSolver import GrandTourSolver
+from HitoriSolver import HitoriSolver
+from EntryExitSolver import EntryExitSolver
+from DoubleBackSolver import DoubleBackSolver
 
 from typing import Dict, Any
 
@@ -101,6 +104,10 @@ class SolverFactory:
         "Bosanowa": BosanowaSolver,
         "Suguru": SuguruSolver,
         "GrandTour": GrandTourSolver,
+        "Hitori": HitoriSolver,
+        "EntryExit": EntryExitSolver,
+        "DoubleBack": DoubleBackSolver,
+
 
     }
     

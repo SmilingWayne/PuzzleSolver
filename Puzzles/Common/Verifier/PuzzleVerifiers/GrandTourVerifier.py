@@ -42,7 +42,7 @@ class GrandTourVerifier(BasePuzzleVerifier):
 
         grid3 = Grid(grid3)
         res = all(grid1.value(position) == grid3.value(position) for position, value in grid1 if value.isdigit())
-
+        
         return res
 
                     

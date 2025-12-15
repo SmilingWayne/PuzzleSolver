@@ -3,6 +3,7 @@ from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
 from Common.Board.Direction import Direction
+from Common.Utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 import copy
 
@@ -13,92 +14,104 @@ class SlitherlinkSolver(PuzzleSolver):
         self.num_cols: int  = self._data['num_cols']
         self.num_grid: Grid[str] = Grid(self._data['grid'])
         # The number grid, m * n
-        self.grid: Grid[str] = Grid([["-" for _ in range(self.num_cols + 1)] for _ in range(self.num_rows + 1)])
-        # The actual grid, (m + 1) * (n + 1)
-    
+
     def _add_constr(self):
         self.model = cp.CpModel()
         self.solver = cp.CpSolver()
-        self.node_active = {} 
-        self.circuit_arcs = [] 
+        self._add_vars()
+        self._add_number_constr()
+        
+    def _add_vars(self):
+        # ==========================================
+        # 1. Variables (Undirected Edges)
+        # ==========================================
         self.arc_vars = {} 
         
-        # 1. Create variables
+        # all possible edges (Corner Nodes)
+        all_nodes = []
         for i in range(self.num_rows + 1):
             for j in range(self.num_cols + 1):
-                pos = Position(i, j)
-                # If the node is activated
-                self.node_active[pos] = self.model.NewBoolVar(f"node_activate[{pos}]")
-
-                # if not activated, self-loop must be selected
-                # elif node activated，must flow to one of its neighbors
-                self.circuit_arcs.append([
-                    self.grid.get_index_from_position(pos),      # u
-                    self.grid.get_index_from_position(pos),      # v (u=v)
-                    self.node_active[pos].Not()  # literal
-                ])
+                all_nodes.append(Position(i, j))
         
+        # tuple(sorted(u, v)), ensure no direction
         for i in range(self.num_rows + 1):
             for j in range(self.num_cols + 1):
-                u_pos = Position(i, j)
-                u_idx = self.grid.get_index_from_position(u_pos)
+                u = Position(i, j)
                 
-                for neighbor in self.grid.get_neighbors(u_pos, mode="orthogonal"):
-                    v_pos = neighbor
-                    v_idx = self.grid.get_index_from_position(v_pos)
-                    # directed arc: u -> v
-                    arc_u_v = self.model.NewBoolVar(f"arc_{u_pos}_{v_pos}")
-                    self.arc_vars[(u_pos, v_pos)] = arc_u_v
-                    self.circuit_arcs.append([u_idx, v_idx, arc_u_v])
-                    # If arc (u,v) is selected, both u and v must be activated.
-                    self.model.Add(self.node_active[u_pos] == 1).OnlyEnforceIf(arc_u_v)
-                    self.model.Add(self.node_active[v_pos] == 1).OnlyEnforceIf(arc_u_v)
+                # (Right Neighbor)
+                if j < self.num_cols:
+                    v = Position(i, j + 1)
+                    self.arc_vars[(u, v)] = self.model.NewBoolVar(f"edge_{u}_{v}")
+                
+                # (Down Neighbor)
+                if i < self.num_rows:
+                    v = Position(i + 1, j)
+                    self.arc_vars[(u, v)] = self.model.NewBoolVar(f"edge_{u}_{v}")
 
-        self.model.AddCircuit(self.circuit_arcs)
+        # ==========================================
+        # 2. General circuit constraint (The "Magic" Function)
+        # ==========================================
+        # replace graph construction, self-loop process and index transformation
+        # 
+        # ensure: all selected edges to form a unique simple loop
         
+        self.node_active = add_circuit_constraint_from_undirected(
+            self.model, 
+            all_nodes, 
+            self.arc_vars
+        )
+
+    def _add_number_constr(self):
+        # ==========================================
+        # 3. Number Constraints
+        # ==========================================
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 val = self.num_grid.value(i, j)
                 if val.isdigit():
                     number = int(val)
-                    top_edge   = cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i, j + 1)))
-                    left_edge  = cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i + 1, j)))
-                    down_edge  = cp.LinearExpr.Sum(self._get_edge(Position(i + 1, j), Position(i + 1, j + 1)))
-                    right_edge = cp.LinearExpr.Sum(self._get_edge(Position(i, j + 1), Position(i + 1, j + 1)))
-                    self.model.Add(top_edge + down_edge + left_edge + right_edge == number)
+                    
+                    # Get (four) edges surrounding the cell
+                    # Force it to be sorted by pre-define `sorted` keys
 
-                
-    def _get_edge(self, u: Position, v: Position):
-        vars_list = []
-        if (u, v) in self.arc_vars:
-            vars_list.append(self.arc_vars[(u, v)])
-        if (v, u) in self.arc_vars:
-            vars_list.append(self.arc_vars[(v, u)])
-        if not vars_list:
-            return [] 
-        return vars_list
+                    p_ul = Position(i, j)         # Up-Left
+                    p_ur = Position(i, j + 1)     # Up-Right
+                    p_dl = Position(i + 1, j)     # Down-Left
+                    p_dr = Position(i + 1, j + 1) # Down-Right
+                    
+                    edges = [
+                        self.arc_vars.get((p_ul, p_ur)), # Top
+                        self.arc_vars.get((p_ul, p_dl)), # Left
+                        self.arc_vars.get((p_dl, p_dr)), # Down
+                        self.arc_vars.get((p_ur, p_dr)), # Right
+                    ]
+                    # must ensure sorted: from large to low.
+                    # Follow: Top-Left to Bottom-Right
+                    
+                    self.model.Add(sum(e for e in edges if e is not None) == number)
 
-    
     def get_solution(self):
         sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                curr = Position(i, j)
-                # If the node is not activated (self-looped), skip and remain '-'
-
-                top_edge   = self._get_edge(Position(i, j), Position(i, j + 1))
-                left_edge  = self._get_edge(Position(i, j), Position(i + 1, j))
-                down_edge  = self._get_edge(Position(i + 1, j), Position(i + 1, j + 1))
-                right_edge = self._get_edge(Position(i, j + 1), Position(i + 1, j + 1))
+                p_ul = Position(i, j)
+                p_ur = Position(i, j + 1)
+                p_dl = Position(i + 1, j)
+                p_dr = Position(i + 1, j + 1)
                 
+                top = self.arc_vars.get((p_ul, p_ur))
+                left = self.arc_vars.get((p_ul, p_dl))
+                down = self.arc_vars.get((p_dl, p_dr))
+                right = self.arc_vars.get((p_ur, p_dr))
+
                 grid_score = 0
-                for edges, score in zip([top_edge, left_edge, down_edge, right_edge], [8, 4, 2, 1]):
-                    for edge in edges:
-                        if self.solver.Value(edge) > 1e-3:
-                            grid_score += score
-                            break
+                edges_list = [top, left, down, right]
+                scores = [8, 4, 2, 1]
+                
+                for edge, score in zip(edges_list, scores):
+                    if edge is not None and self.solver.Value(edge) > 0.5:
+                        grid_score += score
                 if grid_score > 0:
                     sol_grid[i][j] = str(grid_score)
         return Grid(sol_grid)
-    

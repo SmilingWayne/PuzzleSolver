@@ -2,9 +2,8 @@ from typing import Any, Callable
 from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
-from Common.Board.Direction import Direction
+from Common.Utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
-import copy
 
 class GrandTourSolver(PuzzleSolver):
     def __init__(self, data: dict[str, Any]):
@@ -12,57 +11,50 @@ class GrandTourSolver(PuzzleSolver):
         self.num_rows: int = self._data['num_rows']
         self.num_cols: int  = self._data['num_cols']
         self.num_grid: Grid[str] = Grid(self._data['grid'])
-        # The number grid, m * n
-        self.grid: Grid[str] = Grid([["-" for _ in range(self.num_cols + 1)] for _ in range(self.num_rows + 1)])
     
     def _add_constr(self):
         self.model = cp.CpModel()
         self.solver = cp.CpSolver()
-        self.node_active = {} 
-        self.circuit_arcs = [] 
-        self.arc_vars = {} 
-        self._add_circuit_constr()
+        self._add_vars()
+        self._add_all_visited_constr()
         self._add_prefill_constr()
-
-    
-    def _add_circuit_constr(self):
-        # 1. Create variables
-        for i in range(self.num_rows + 1):
-            for j in range(self.num_cols + 1):
-                pos = Position(i, j)
-                # If the node is activated
-                self.node_active[pos] = self.model.NewBoolVar(f"node_activate[{pos}]")
-
-                # if not activated, self-loop must be selected
-                # elif node activated，must flow to one of its neighbors
-                self.circuit_arcs.append([
-                    self.grid.get_index_from_position(pos),      # u
-                    self.grid.get_index_from_position(pos),      # v (u=v)
-                    self.node_active[pos].Not()  # literal
-                ])
-                self.model.Add(self.node_active[pos] == 1)
-                
-                
         
+    
+    def _add_vars(self):
+        self.arc_vars = {} 
+        
+        # all possible edges (Corner Nodes)
+        all_nodes = []
         for i in range(self.num_rows + 1):
             for j in range(self.num_cols + 1):
-                u_pos = Position(i, j)
-                u_idx = self.grid.get_index_from_position(u_pos)
+                all_nodes.append(Position(i, j))
+        
+        # tuple(sorted(u, v)), ensure no direction
+        for i in range(self.num_rows + 1):
+            for j in range(self.num_cols + 1):
+                u = Position(i, j)
                 
-                for neighbor in self.grid.get_neighbors(u_pos, mode="orthogonal"):
-                    v_pos = neighbor
-                    v_idx = self.grid.get_index_from_position(v_pos)
-                    # directed arc: u -> v
-                    arc_u_v = self.model.NewBoolVar(f"arc_{u_pos}_{v_pos}")
-                    self.arc_vars[(u_pos, v_pos)] = arc_u_v
-                    self.circuit_arcs.append([u_idx, v_idx, arc_u_v])
-                    # If arc (u,v) is selected, both u and v must be activated.
-                    self.model.Add(self.node_active[u_pos] == 1).OnlyEnforceIf(arc_u_v)
-                    self.model.Add(self.node_active[v_pos] == 1).OnlyEnforceIf(arc_u_v)
+                # (Right Neighbor)
+                if j < self.num_cols:
+                    v = Position(i, j + 1)
+                    self.arc_vars[(u, v)] = self.model.NewBoolVar(f"edge_{u}_{v}")
+                
+                # (Down Neighbor)
+                if i < self.num_rows:
+                    v = Position(i + 1, j)
+                    self.arc_vars[(u, v)] = self.model.NewBoolVar(f"edge_{u}_{v}")
+        
+        self.node_active = add_circuit_constraint_from_undirected(
+            self.model, 
+            all_nodes, 
+            self.arc_vars
+        )
 
-        self.model.AddCircuit(self.circuit_arcs)
-    
-    
+    def _add_all_visited_constr(self):
+        for i in range(self.num_rows + 1):
+            for j in range(self.num_cols + 1):
+                self.model.Add(self.node_active[Position(i, j)] == 1)
+                
     def _add_prefill_constr(self):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
@@ -76,26 +68,13 @@ class GrandTourSolver(PuzzleSolver):
                     UP_MASK    = 0b1000  # 8
                     
                     if number & UP_MASK != 0:
-                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i, j + 1))) == 1)
+                        self.model.Add(self.arc_vars[Position(i, j), Position(i, j + 1)] == 1)
                     if number & LEFT_MASK != 0:
-                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j), Position(i + 1, j))) == 1)
+                        self.model.Add(self.arc_vars[Position(i, j), Position(i + 1, j)] == 1)
                     if number & DOWN_MASK != 0:
-                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i + 1, j), Position(i + 1, j + 1))) == 1)
+                        self.model.Add(self.arc_vars[Position(i + 1, j), Position(i + 1, j + 1)] == 1)
                     if number & RIGHT_MASK != 0:
-                        self.model.Add(cp.LinearExpr.Sum(self._get_edge(Position(i, j + 1), Position(i + 1, j + 1))) == 1) 
-                    
-        
-                
-    def _get_edge(self, u: Position, v: Position):
-        vars_list = []
-        if (u, v) in self.arc_vars:
-            vars_list.append(self.arc_vars[(u, v)])
-        if (v, u) in self.arc_vars:
-            vars_list.append(self.arc_vars[(v, u)])
-        if not vars_list:
-            return [] 
-        return vars_list
-
+                        self.model.Add(self.arc_vars[Position(i, j + 1), Position(i + 1, j + 1)] == 1)
     
     def get_solution(self):
         sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
@@ -104,18 +83,17 @@ class GrandTourSolver(PuzzleSolver):
             for j in range(self.num_cols):
                 # If the node is not activated (self-looped), skip and remain '-'
 
-                top_edge   = self._get_edge(Position(i, j), Position(i, j + 1))
-                left_edge  = self._get_edge(Position(i, j), Position(i + 1, j))
-                down_edge  = self._get_edge(Position(i + 1, j), Position(i + 1, j + 1))
-                right_edge = self._get_edge(Position(i, j + 1), Position(i + 1, j + 1))
+                top_edge   = self.arc_vars[(Position(i, j), Position(i, j + 1))]
+                left_edge  = self.arc_vars[(Position(i, j), Position(i + 1, j))]
+                down_edge  = self.arc_vars[(Position(i + 1, j), Position(i + 1, j + 1))]
+                right_edge = self.arc_vars[(Position(i, j + 1), Position(i + 1, j + 1))]
                 
                 grid_score = 0
-                for edges, score in zip([top_edge, left_edge, down_edge, right_edge], [8, 4, 2, 1]):
-                    for edge in edges:
-                        if self.solver.Value(edge) > 1e-3:
-                            grid_score += score
-                            break
+                for edge, score in zip([top_edge, left_edge, down_edge, right_edge], [8, 4, 2, 1]):
+                    if self.solver.Value(edge) > 1e-3:
+                        grid_score += score
+
                 if grid_score > 0:
                     sol_grid[i][j] = str(grid_score)
         return Grid(sol_grid)
-    
+

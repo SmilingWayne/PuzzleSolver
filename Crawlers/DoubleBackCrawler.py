@@ -73,7 +73,7 @@ class DoubleBackCrawler(BasePuzzleCrawler):
             
             
             header = f"{num_rows} {num_cols}"
-            problem_str = f"{header}\n\n{areas_raw}"
+            problem_str = f"{header}\n{areas_raw}"
             solution_str = f"{header}\n{solution_raw}"
             
             puzzle_id = f"{text}_{num_rows}x{num_cols}"

@@ -996,9 +996,9 @@
       "solution": "10 10\nse ew ew ew ew sw se ew ew sw\nne sw se sw - ne nw - se nw\nse nw ns ne sw - se ew nw -\nne ew nw - ns - ns se ew sw\n- - se ew nw se nw ns - ns\n- - ne sw - ne ew nw - ns\nse ew ew nw se sw - se ew nw\nne sw - - ns ne sw ne sw -\n- ne sw se nw se nw - ne sw\n- - ne nw - ne ew ew ew nw",
       "source": "https://www.janko.at/Raetsel/Country-Road/199.a.htm"
     },
-    "200_11x10": {
-      "id": "200_11x10",
-      "solution": "11 10\nse sw se sw - - se ew ew sw\nns ne nw ns - se nw - se nw\nns - se nw se nw - se nw -\nns - ns - ne ew sw ne ew sw\nne sw ns se sw - ne sw - ns\n- ns ne nw ns - - ns - ns\n- ns - se nw se ew nw se nw\n- ns - ne ew nw - - ne sw\nse nw se sw - - se ew sw ns\nne ew nw ne ew ew nw - ne nw\n[end]",
+    "200_10x10": {
+      "id": "200_10x10",
+      "solution": "10 10\nse sw se sw - - se ew ew sw\nns ne nw ns - se nw - se nw\nns - se nw se nw - se nw -\nns - ns - ne ew sw ne ew sw\nne sw ns se sw - ne sw - ns\n- ns ne nw ns - - ns - ns\n- ns - se nw se ew nw se nw\n- ns - ne ew nw - - ne sw\nse nw se sw - - se ew sw ns\nne ew nw ne ew ew nw - ne nw",
       "source": "https://www.janko.at/Raetsel/Country-Road/200.a.htm"
     },
     "201_8x8": {

@@ -36,6 +36,7 @@ from Common.Verifier.PuzzleVerifiers.GrandTourVerifier import GrandTourVerifier
 from Common.Verifier.PuzzleVerifiers.HitoriVerifier import HitoriVerifier
 from Common.Verifier.PuzzleVerifiers.EntryExitVerifier import EntryExitVerifier
 from Common.Verifier.PuzzleVerifiers.DoubleBackVerifier import DoubleBackVerifier
+from Common.Verifier.PuzzleVerifiers.CountryRoadVerifier import CountryRoadVerifier
 
 class VerifierFactory:
     
@@ -90,7 +91,8 @@ class VerifierFactory:
         "GrandTour": GrandTourVerifier,
         "Hitori": HitoriVerifier,
         "EntryExit": EntryExitVerifier,
-        "DoubleBack": DoubleBackVerifier
+        "DoubleBack": DoubleBackVerifier,
+        "CountryRoad": CountryRoadVerifier
 
         
     }

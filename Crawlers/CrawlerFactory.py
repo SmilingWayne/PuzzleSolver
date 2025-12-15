@@ -53,6 +53,9 @@ from CurvingRoadCrawler import CurvingRoadCrawler
 from MoonSunCrawler import MoonSunCrawler
 from MasyuCrawler import MasyuCrawler
 from CorralCrawler import CorralCrawler
+from DiffNeighborsCrawler import DiffNeighborsCrawler
+from DetourCrawler import DetourCrawler
+from HidokuCrawler import HidokuCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -113,7 +116,10 @@ class CrawlerFactory:
         "MoonSun": MoonSunCrawler,
         "Masyu": MasyuCrawler,
         "Corral": CorralCrawler,
-        "Foseruzu": FoseruzuCrawler
+        "Foseruzu": FoseruzuCrawler,
+        "DiffNeighbors": DiffNeighborsCrawler,
+        "Detour": DetourCrawler,
+        "Hidoku": HidokuCrawler,
     }
     
     @classmethod

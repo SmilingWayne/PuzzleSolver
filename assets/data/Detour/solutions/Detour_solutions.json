@@ -1,0 +1,405 @@
+{
+  "count": 80,
+  "solutions": {
+    "01_4x4": {
+      "id": "01_4x4",
+      "solution": "4 4\nse ew ew sw\nns se ew nw\nns ne ew sw\nne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/001.a.htm"
+    },
+    "02_7x6": {
+      "id": "02_7x6",
+      "solution": "7 6\nse ew sw se ew sw\nne sw ne nw se nw\nse nw se sw ne sw\nns se nw ns se nw\nns ns se nw ne sw\nns ns ns se sw ns\nne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/002.a.htm"
+    },
+    "03_8x8": {
+      "id": "03_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew sw ns ns\nns ns ne ew sw ne nw ns\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nne sw se ew ew ew ew nw\nse nw ne ew ew sw se sw\nns se ew ew sw ns ns ns\nns ne ew sw ns ns ns ns\nns se sw ns ns ne nw ns\nne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nns se nw ns se ew sw ns\nns ne sw ns ne sw ne nw\nne sw ns ne sw ns se sw\nse nw ns se nw ne nw ns\nne sw ns ne ew ew sw ns\nse nw ne ew ew ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ns ne sw se sw ns\nse nw ns se nw ns ns ns\nne sw ns ns se nw ns ns\nse nw ns ns ns se nw ns\nne sw ne nw ns ne sw ns\nse nw se sw ns se nw ns\nne ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew sw se sw ns\nns ne ew sw ne nw ns ns\nne sw se nw se ew nw ns\nse nw ne sw ne sw se nw\nns se ew nw se nw ne sw\nns ne sw se nw se sw ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\nse ew sw se sw se sw se ew sw\nne sw ne nw ne nw ne nw se nw\nse nw se sw se sw se sw ne sw\nne ew nw ne nw ns ns ne sw ns\nse ew ew ew sw ns ne sw ns ns\nns se ew ew nw ne ew nw ns ns\nns ns se ew ew ew ew ew nw ns\nns ne nw se ew ew ew ew sw ns\nns se sw ns se ew ew ew nw ns\nne nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/008.a.htm"
+    },
+    "09_3x6": {
+      "id": "09_3x6",
+      "solution": "3 6\nse ew ew sw se sw\nns se sw ne nw ns\nne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/009.a.htm"
+    },
+    "10_5x6": {
+      "id": "10_5x6",
+      "solution": "5 6\nse sw se sw se sw\nns ne nw ne nw ns\nne sw se sw se nw\nse nw ns ns ne sw\nne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/010.a.htm"
+    },
+    "11_8x8": {
+      "id": "11_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns se sw se ew ew sw ns\nne nw ne nw se sw ns ns\nse sw se sw ns ne nw ns\nns ne nw ns ne sw se nw\nns se sw ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/011.a.htm"
+    },
+    "12_6x6": {
+      "id": "12_6x6",
+      "solution": "6 6\nse ew sw se ew sw\nne sw ns ns se nw\nse nw ne nw ne sw\nns se ew ew ew nw\nns ne ew ew ew sw\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/012.a.htm"
+    },
+    "13_8x8": {
+      "id": "13_8x8",
+      "solution": "8 8\nse sw se ew ew ew ew sw\nns ne nw se ew ew ew nw\nne sw se nw se sw se sw\nse nw ne ew nw ne nw ns\nne sw se ew ew ew ew nw\nse nw ne sw se sw se sw\nns se sw ne nw ne nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/013.a.htm"
+    },
+    "14_8x8": {
+      "id": "14_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew sw ns\nse nw se sw ne sw ns ns\nns se nw ne sw ns ns ns\nne nw se sw ne nw ns ns\nse sw ns ns se sw ns ns\nns ne nw ne nw ne nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\nse ew sw se ew sw se sw se sw\nne sw ns ne sw ns ns ne nw ns\nse nw ne ew nw ns ns se sw ns\nns se sw se ew nw ns ns ns ns\nne nw ns ne ew ew nw ns ns ns\nse sw ne sw se sw se nw ns ns\nns ne ew nw ns ne nw se nw ns\nns se ew sw ns se sw ns se nw\nns ne sw ns ne nw ns ns ne sw\nne ew nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\nse ew sw se ew ew ew sw se sw\nne sw ne nw se ew sw ne nw ns\nse nw se sw ne sw ne ew ew nw\nne sw ns ns se nw se ew ew sw\nse nw ns ns ne sw ns se ew nw\nne sw ns ne sw ns ns ns se sw\nse nw ne sw ne nw ns ns ns ns\nns se ew nw se ew nw ne nw ns\nns ne ew ew nw se sw se sw ns\nne ew ew ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/016.a.htm"
+    },
+    "17_9x14": {
+      "id": "17_9x14",
+      "solution": "9 14\nse sw se ew ew ew sw se sw se ew ew ew sw\nns ns ne ew ew sw ne nw ne nw se ew sw ns\nns ns se sw se nw se sw se sw ne sw ne nw\nns ns ns ns ne sw ns ns ns ns se nw se sw\nns ns ns ns se nw ns ns ns ns ne ew nw ns\nns ne nw ns ne ew nw ns ns ne ew ew ew nw\nns se sw ne ew sw se nw ne sw se ew ew sw\nns ns ns se sw ne nw se sw ne nw se sw ns\nne nw ne nw ne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ne nw se ew ew ew ew sw ns\nne sw se nw se ew ew sw ns ns\nse nw ne sw ne sw se nw ne nw\nns se ew nw se nw ne sw se sw\nns ne ew sw ne ew sw ns ns ns\nns se sw ne ew sw ns ns ns ns\nns ns ns se sw ne nw ns ns ns\nns ns ns ns ns se sw ne nw ns\nne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se sw se ew ew sw se sw ns\nne nw ne nw se sw ne nw ns ns\nse ew sw se nw ne ew sw ns ns\nne sw ns ne sw se ew nw ns ns\nse nw ne ew nw ne sw se nw ns\nns se ew ew ew ew nw ns se nw\nns ne ew sw se sw se nw ne sw\nns se sw ne nw ne nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/019.a.htm"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "solution": "10 10\nse sw se sw se ew ew ew ew sw\nns ne nw ns ne ew ew sw se nw\nns se sw ne ew ew ew nw ne sw\nne nw ns se sw se ew sw se nw\nse ew nw ns ns ns se nw ne sw\nns se sw ns ns ns ne sw se nw\nne nw ne nw ns ne sw ns ne sw\nse ew ew sw ns se nw ns se nw\nns se sw ne nw ne sw ns ne sw\nne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/020.a.htm"
+    },
+    "21_4x4": {
+      "id": "21_4x4",
+      "solution": "4 4\nse ew ew sw\nns se ew nw\nns ne ew sw\nne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/021.a.htm"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "solution": "6 6\nse ew ew ew ew sw\nne ew ew ew sw ns\nse ew ew ew nw ns\nns se ew ew ew nw\nns ne ew ew ew sw\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/022.a.htm"
+    },
+    "23_6x6": {
+      "id": "23_6x6",
+      "solution": "6 6\nse sw se ew ew sw\nns ne nw se ew nw\nns se sw ne ew sw\nns ns ne ew sw ns\nns ns se ew nw ns\nne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/023.a.htm"
+    },
+    "24_6x6": {
+      "id": "24_6x6",
+      "solution": "6 6\nse sw se ew ew sw\nns ns ne ew sw ns\nns ne ew ew nw ns\nne ew ew ew sw ns\nse ew ew ew nw ns\nne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew sw ns ns\nns ns ne ew sw ne nw ns\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/025.a.htm"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ne nw ne nw ns\nns se sw se ew ew sw ns\nne nw ne nw se sw ns ns\nse sw se sw ns ne nw ns\nns ne nw ns ne sw se nw\nns se sw ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/026.a.htm"
+    },
+    "27_8x8": {
+      "id": "27_8x8",
+      "solution": "8 8\nse ew sw se ew sw se sw\nns se nw ne sw ne nw ns\nns ns se sw ne sw se nw\nns ns ns ns se nw ne sw\nns ns ns ns ns se sw ns\nns ns ns ns ne nw ns ns\nns ne nw ne ew ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/027.a.htm"
+    },
+    "28_7x8": {
+      "id": "28_7x8",
+      "solution": "7 8\nse ew sw se sw se ew sw\nne sw ne nw ne nw se nw\nse nw se sw se sw ne sw\nne sw ns ne nw ns se nw\nse nw ne sw se nw ne sw\nns se sw ns ns se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/028.a.htm"
+    },
+    "29_8x8": {
+      "id": "29_8x8",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se ew nw ne ew sw ns\nns ns se sw se sw ns ns\nns ns ns ns ns ns ns ns\nns ns ns ne nw ns ns ns\nns ns ne sw se nw ns ns\nns ne ew nw ne ew nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/029.a.htm"
+    },
+    "30_13x12": {
+      "id": "30_13x12",
+      "solution": "13 12\nse sw se sw se ew ew ew ew sw se sw\nns ne nw ne nw se ew ew sw ne nw ns\nne sw se ew ew nw se sw ns se ew nw\nse nw ne ew sw se nw ne nw ne ew sw\nne sw se ew nw ne ew ew ew ew ew nw\nse nw ne ew ew ew ew ew sw se ew sw\nne ew ew ew sw se ew ew nw ns se nw\nse sw se sw ns ne ew ew sw ns ne sw\nns ne nw ns ns se ew sw ns ns se nw\nns se ew nw ns ns se nw ns ns ne sw\nns ne ew sw ns ns ne ew nw ns se nw\nns se sw ne nw ne ew ew ew nw ne sw\nne nw ne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/030.a.htm"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se sw ns ne ew sw ns\nns ns ne nw se ew nw ns\nns ne sw se nw se ew nw\nns se nw ne sw ne ew sw\nns ns se sw ne sw se nw\nns ne nw ne ew nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/031.a.htm"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nns se nw ns se ew ew nw\nns ne sw ns ne sw se sw\nns se nw ns se nw ns ns\nns ne ew nw ns se nw ns\nne sw se sw ns ns se nw\nse nw ns ns ne nw ne sw\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/032.a.htm"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se ew ew ew ew sw ns\nns ns se ew ew sw ne nw\nns ns ns se ew nw se sw\nns ns ns ne sw se nw ns\nns ns ne sw ne nw se nw\nns ne ew nw se sw ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8\nse ew sw se sw se ew sw\nne sw ne nw ne nw se nw\nse nw se sw se sw ne sw\nne sw ns ns ns ns se nw\nse nw ns ns ns ns ne sw\nne ew nw ne nw ns se nw\nse ew ew ew ew nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nne ew ew ew sw ns ns ns\nse ew ew ew nw ns ns ns\nns se sw se sw ns ns ns\nns ns ne nw ne nw ns ns\nns ne ew ew ew ew nw ns\nns se sw se sw se sw ns\nne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/035.a.htm"
+    },
+    "36_8x8": {
+      "id": "36_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ns ns ne nw ns ns ns\nns ne nw se sw ns ns ns\nne ew sw ns ns ne nw ns\nse sw ns ns ns se ew nw\nns ne nw ns ne nw se sw\nns se sw ne ew ew nw ns\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/036.a.htm"
+    },
+    "37_8x8": {
+      "id": "37_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se sw se ew sw ns\nse nw ns ns ne sw ns ns\nns se nw ne ew nw ne nw\nns ne ew ew ew ew ew sw\nne ew ew sw se sw se nw\nse ew ew nw ns ns ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/037.a.htm"
+    },
+    "38_9x10": {
+      "id": "38_9x10",
+      "solution": "9 10\nse ew ew sw se ew sw se ew sw\nne sw se nw ne sw ne nw se nw\nse nw ne sw se nw se sw ne sw\nne sw se nw ns se nw ns se nw\nse nw ne sw ne nw se nw ne sw\nne sw se nw se sw ne sw se nw\nse nw ne ew nw ne ew nw ne sw\nns se sw se sw se sw se sw ns\nne nw ne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se sw se ew ew sw se sw ns\nne nw ne nw se sw ne nw ns ns\nse ew sw se nw ne ew sw ns ns\nne sw ns ne sw se ew nw ns ns\nse nw ne ew nw ne sw se nw ns\nns se ew ew ew ew nw ns se nw\nns ne ew sw se sw se nw ne sw\nns se sw ne nw ne nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/039.a.htm"
+    },
+    "40_12x12": {
+      "id": "40_12x12",
+      "solution": "12 12\nse ew ew sw se ew sw se sw se ew sw\nne sw se nw ne sw ne nw ne nw se nw\nse nw ns se sw ne ew sw se sw ne sw\nne sw ne nw ne sw se nw ns ne sw ns\nse nw se ew sw ns ne sw ne sw ne nw\nne sw ne sw ne nw se nw se nw se sw\nse nw se nw se sw ne sw ne ew nw ns\nns se nw se nw ne sw ns se sw se nw\nns ne sw ne sw se nw ne nw ns ne sw\nne sw ne ew nw ne ew ew ew nw se nw\nse nw se sw se sw se sw se sw ne sw\nne ew nw ne nw ne nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "solution": "8 8\nse sw se sw se ew ew sw\nns ne nw ne nw se sw ns\nns se ew ew sw ns ns ns\nns ne ew sw ne nw ns ns\nne ew sw ne sw se nw ns\nse sw ne sw ns ne sw ns\nns ne ew nw ne sw ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nns se ew nw ne ew sw ns\nns ne sw se sw se nw ns\nne sw ns ns ns ns se nw\nse nw ns ns ns ns ne sw\nne sw ns ns ns ns se nw\nse nw ne nw ne nw ne sw\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/042.a.htm"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "solution": "8 8\nse ew ew sw se ew ew sw\nne sw se nw ns se sw ns\nse nw ns se nw ns ns ns\nne sw ns ne sw ns ns ns\nse nw ne ew nw ns ns ns\nne sw se ew sw ns ne nw\nse nw ne sw ns ne ew sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nne ew sw se sw ne nw ns\nse ew nw ns ne ew ew nw\nne sw se nw se ew ew sw\nse nw ns se nw se sw ns\nne sw ne nw se nw ns ns\nse nw se sw ne sw ns ns\nne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/044.a.htm"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "solution": "8 8\nse ew ew ew sw se ew sw\nne sw se ew nw ns se nw\nse nw ne ew ew nw ne sw\nns se ew ew ew ew sw ns\nne nw se ew ew ew nw ns\nse sw ns se ew ew sw ns\nns ne nw ne sw se nw ns\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/045.a.htm"
+    },
+    "46_8x8": {
+      "id": "46_8x8",
+      "solution": "8 8\nse sw se sw se sw se sw\nns ne nw ns ns ne nw ns\nns se sw ns ns se sw ns\nns ns ns ns ns ns ns ns\nns ns ne nw ne nw ns ns\nns ns se sw se sw ns ns\nns ne nw ne nw ne nw ns\nne ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "solution": "10 10\nse sw se sw se sw se ew ew sw\nns ns ns ns ns ns ne ew sw ns\nns ns ns ns ns ne ew ew nw ns\nns ns ns ns ns se ew ew ew nw\nns ne nw ns ns ne ew ew ew sw\nns se sw ns ne ew sw se ew nw\nns ns ns ns se ew nw ne ew sw\nns ns ns ne nw se sw se ew nw\nns ns ns se sw ns ns ne ew sw\nne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew sw se sw\nns se ew ew ew ew sw ns ns ns\nns ns se ew ew ew nw ns ns ns\nns ns ns se ew ew sw ns ns ns\nns ns ne nw se ew nw ns ns ns\nns ns se sw ne sw se nw ns ns\nns ns ns ne ew nw ne sw ns ns\nns ns ne ew ew ew ew nw ns ns\nns ne ew ew ew ew ew ew nw ns\nne ew ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10\nse ew ew sw se ew sw se ew sw\nne ew sw ne nw se nw ne sw ns\nse ew nw se ew nw se ew nw ns\nne sw se nw se sw ns se ew nw\nse nw ne sw ns ne nw ne ew sw\nns se sw ns ns se ew ew ew nw\nne nw ns ne nw ne ew ew ew sw\nse sw ns se ew ew ew ew sw ns\nns ne nw ne ew ew sw se nw ns\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10\nse ew sw se ew ew sw se ew sw\nne sw ne nw se ew nw ns se nw\nse nw se sw ne ew ew nw ne sw\nne ew nw ne ew ew ew ew sw ns\nse ew ew ew sw se ew ew nw ns\nns se sw se nw ne sw se sw ns\nns ns ns ne ew sw ne nw ns ns\nns ns ns se ew nw se ew nw ns\nns ns ns ne ew ew nw se sw ns\nne nw ne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne ew ew ew ew sw se nw\nse sw se ew sw ns ne sw\nns ns ne sw ns ns se nw\nns ne ew nw ne nw ne sw\nne sw se ew sw se sw ns\nse nw ne sw ns ns ns ns\nne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne sw se ew ew ew ew nw\nse nw ns se ew ew ew sw\nns se nw ns se ew sw ns\nns ns se nw ne sw ns ns\nns ne nw se ew nw ns ns\nns se sw ne sw se nw ns\nne nw ne ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nne ew sw se ew sw se nw\nse ew nw ns se nw ne sw\nns se ew nw ns se sw ns\nne nw se ew nw ns ns ns\nse sw ne ew sw ns ns ns\nns ne ew ew nw ns ns ns\nne ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\nse ew ew sw se sw se sw\nns se sw ne nw ne nw ns\nne nw ns se ew ew ew nw\nse sw ns ne ew sw se sw\nns ne nw se sw ne nw ns\nne sw se nw ne sw se nw\nse nw ne sw se nw ne sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\nse ew ew ew ew ew sw se ew sw\nne sw se ew ew ew nw ne sw ns\nse nw ne ew ew sw se sw ns ns\nne sw se ew sw ne nw ne nw ns\nse nw ne sw ns se sw se sw ns\nns se ew nw ns ns ne nw ns ns\nns ne sw se nw ne sw se nw ns\nns se nw ns se ew nw ne sw ns\nns ns se nw ne ew sw se nw ns\nne nw ne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "solution": "10 10\nse ew ew ew ew ew ew ew ew sw\nns se ew ew ew sw se ew sw ns\nns ns se sw se nw ns se nw ns\nns ne nw ns ns se nw ne sw ns\nns se ew nw ns ns se ew nw ns\nne nw se ew nw ns ne ew ew nw\nse ew nw se sw ne ew ew ew sw\nne sw se nw ne sw se ew sw ns\nse nw ne sw se nw ne sw ns ns\nne ew ew nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew sw se sw\nns ns ne ew sw se sw ne nw ns\nns ne ew ew nw ns ne ew sw ns\nne ew sw se sw ne ew sw ne nw\nse ew nw ns ns se ew nw se sw\nns se sw ns ne nw se ew nw ns\nns ns ns ne sw se nw se sw ns\nne nw ne sw ne nw se nw ne nw\nse ew ew nw se sw ne ew ew sw\nne ew ew ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se sw se ew sw se nw\nns ns ns ns ns ne sw ns ne sw\nns ns ne nw ns se nw ne sw ns\nns ns se sw ne nw se sw ns ns\nns ne nw ns se ew nw ns ns ns\nne ew sw ne nw se sw ne nw ns\nse ew nw se sw ns ns se sw ns\nns se sw ns ns ns ns ns ns ns\nne nw ne nw ne nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/058.a.htm"
+    },
+    "59_12x12": {
+      "id": "59_12x12",
+      "solution": "12 12\nse ew ew ew ew ew ew ew sw se ew sw\nne ew sw se sw se ew sw ns ns se nw\nse ew nw ns ne nw se nw ne nw ne sw\nns se ew nw se sw ne sw se ew sw ns\nns ns se ew nw ne ew nw ns se nw ns\nne nw ne ew sw se ew ew nw ne sw ns\nse ew ew ew nw ne ew sw se sw ne nw\nne ew ew ew sw se sw ns ns ne ew sw\nse ew ew sw ns ns ns ne nw se sw ns\nns se sw ne nw ns ne sw se nw ns ns\nns ns ns se sw ne sw ns ne sw ns ns\nne nw ne nw ne ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "solution": "12 12\nse sw se ew ew ew ew ew ew ew ew sw\nns ne nw se sw se ew ew ew sw se nw\nns se ew nw ne nw se sw se nw ne sw\nns ne sw se ew sw ns ns ns se ew nw\nne ew nw ns se nw ns ne nw ne ew sw\nse sw se nw ne sw ne ew sw se sw ns\nns ne nw se sw ne ew ew nw ns ne nw\nne sw se nw ne ew ew ew ew nw se sw\nse nw ne ew ew ew ew ew ew ew nw ns\nns se sw se sw se ew ew sw se sw ns\nns ns ns ns ns ne ew sw ns ns ns ns\nne nw ne nw ne ew ew nw ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "solution": "8 8\nse sw se ew sw se ew sw\nns ns ns se nw ne sw ns\nns ne nw ns se sw ns ns\nns se sw ns ns ne nw ns\nns ns ns ne nw se ew nw\nns ns ne sw se nw se sw\nns ne sw ns ne ew nw ns\nne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew ew nw\nse nw se sw ne ew ew sw\nne sw ns ne ew sw se nw\nse nw ne sw se nw ne sw\nne ew sw ns ne sw se nw\nse ew nw ns se nw ne sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "solution": "8 8\nse ew ew ew ew ew ew sw\nns se sw se ew sw se nw\nns ns ne nw se nw ne sw\nns ns se sw ne ew sw ns\nns ns ns ne ew ew nw ns\nns ns ne ew sw se ew nw\nns ne ew sw ns ne ew sw\nne ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/063.a.htm"
+    },
+    "64_10x10": {
+      "id": "64_10x10",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se sw se ew nw ns ne nw ns\nns ns ns ns se sw ns se ew nw\nns ns ns ns ns ne nw ns se sw\nns ns ns ne nw se sw ns ns ns\nns ns ne sw se nw ne nw ns ns\nne nw se nw ne ew sw se nw ns\nse sw ne ew ew sw ne nw se nw\nns ne ew ew ew nw se sw ne sw\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\nse ew sw se sw se ew ew ew sw\nne sw ne nw ns ne sw se sw ns\nse nw se ew nw se nw ns ne nw\nne sw ne ew sw ne sw ne ew sw\nse nw se sw ne ew nw se ew nw\nns se nw ns se ew sw ne ew sw\nns ns se nw ne sw ns se sw ns\nns ns ne ew sw ns ns ns ne nw\nns ne ew sw ns ns ns ne ew sw\nne ew ew nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "solution": "10 10\nse ew ew ew sw se ew ew ew sw\nns se ew sw ns ne sw se sw ns\nne nw se nw ne sw ns ns ns ns\nse ew nw se ew nw ns ns ne nw\nne sw se nw se ew nw ne ew sw\nse nw ne sw ns se sw se sw ns\nns se sw ne nw ns ne nw ns ns\nne nw ne sw se nw se ew nw ns\nse ew ew nw ns se nw se sw ns\nne ew ew ew nw ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10\nse ew sw se ew ew sw se ew sw\nne sw ne nw se sw ns ne sw ns\nse nw se ew nw ns ne ew nw ns\nns se nw se sw ne sw se ew nw\nne nw se nw ns se nw ne ew sw\nse ew nw se nw ne ew ew sw ns\nns se sw ns se ew sw se nw ns\nne nw ns ns ne sw ne nw se nw\nse ew nw ne ew nw se sw ne sw\nne ew ew ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/067.a.htm"
+    },
+    "68_12x12": {
+      "id": "68_12x12",
+      "solution": "12 12\nse ew sw se sw se ew sw se ew ew sw\nne sw ns ns ns ne sw ns ns se ew nw\nse nw ns ns ne ew nw ns ns ne ew sw\nns se nw ns se ew sw ne nw se ew nw\nns ne ew nw ns se nw se sw ns se sw\nne ew ew sw ns ne ew nw ne nw ns ns\nse ew ew nw ne ew ew ew sw se nw ns\nne sw se ew sw se ew sw ns ns se nw\nse nw ne sw ne nw se nw ne nw ne sw\nns se ew nw se sw ns se ew ew sw ns\nns ns se ew nw ne nw ns se ew nw ns\nne nw ne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "solution": "12 12\nse ew ew sw se ew ew ew ew sw se sw\nns se ew nw ne ew sw se sw ne nw ns\nns ne ew ew sw se nw ns ns se ew nw\nns se ew sw ns ne sw ns ns ne ew sw\nne nw se nw ns se nw ns ne ew ew nw\nse ew nw se nw ns se nw se sw se sw\nns se sw ne sw ns ne sw ns ne nw ns\nne nw ne sw ns ns se nw ne sw se nw\nse ew ew nw ns ns ne sw se nw ne sw\nns se ew sw ns ne sw ne nw se ew nw\nns ne sw ns ne ew nw se sw ne ew sw\nne ew nw ne ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "solution": "12 12\nse sw se ew ew ew sw se ew ew ew sw\nns ne nw se sw se nw ns se ew sw ns\nns se ew nw ns ne sw ns ne sw ne nw\nne nw se ew nw se nw ne sw ne ew sw\nse ew nw se ew nw se ew nw se sw ns\nns se sw ne ew ew nw se ew nw ne nw\nne nw ns se ew ew sw ne sw se ew sw\nse ew nw ns se sw ne sw ne nw se nw\nns se sw ns ns ne sw ne ew sw ne sw\nns ns ns ns ne sw ns se ew nw se nw\nns ns ns ne sw ns ne nw se sw ne sw\nne nw ne ew nw ne ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "solution": "8 8\nse ew sw se ew ew ew sw\nne sw ne nw se ew sw ns\nse nw se sw ne sw ne nw\nns se nw ne sw ne ew sw\nns ne ew sw ns se sw ns\nns se ew nw ne nw ns ns\nns ne ew ew sw se nw ns\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "solution": "8 8\nse ew ew sw se sw se sw\nne sw se nw ns ns ns ns\nse nw ne ew nw ns ns ns\nns se sw se sw ns ns ns\nns ns ne nw ns ne nw ns\nns ns se sw ne sw se nw\nns ns ns ne ew nw ne sw\nne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/072.a.htm"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "solution": "8 8\nse ew ew ew ew sw se sw\nns se ew ew ew nw ns ns\nns ns se ew ew ew nw ns\nns ne nw se ew ew ew nw\nns se sw ne ew ew ew sw\nns ns ne ew sw se sw ns\nns ns se ew nw ns ns ns\nne nw ne ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/073.a.htm"
+    },
+    "74_10x10": {
+      "id": "74_10x10",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew ew sw ns ns ne nw ns\nns ns se sw ns ne nw se sw ns\nne nw ns ns ns se ew nw ne nw\nse ew nw ns ns ns se ew ew sw\nns se sw ne nw ne nw se ew nw\nne nw ne sw se ew sw ne ew sw\nse ew ew nw ne sw ne ew ew nw\nns se sw se sw ne ew ew ew sw\nne nw ne nw ne ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "solution": "10 10\nse sw se sw se ew ew ew ew sw\nns ne nw ns ne ew sw se sw ns\nne ew sw ns se ew nw ns ne nw\nse ew nw ns ns se sw ne ew sw\nne ew sw ne nw ns ne ew sw ns\nse sw ne sw se nw se ew nw ns\nns ne sw ne nw se nw se ew nw\nne sw ne ew sw ne sw ne ew sw\nse nw se sw ne ew nw se sw ns\nne ew nw ne ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Detour/075.a.htm"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "solution": "10 10\nse ew ew ew ew sw se sw se sw\nns se ew sw se nw ns ne nw ns\nne nw se nw ne sw ns se sw ns\nse ew nw se ew nw ns ns ne nw\nns se sw ne ew ew nw ns se sw\nns ns ne sw se ew sw ns ns ns\nns ns se nw ns se nw ne nw ns\nns ns ne sw ns ne ew sw se nw\nns ns se nw ns se ew nw ne sw\nne nw ne ew nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/076.a.htm"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew ew sw\nns ns ns se ew ew ew ew ew nw\nns ne nw ns se sw se ew ew sw\nne ew sw ns ns ns ns se sw ns\nse sw ns ne nw ne nw ns ne nw\nns ns ne sw se ew sw ne ew sw\nns ne sw ns ne sw ns se ew nw\nne sw ns ne sw ns ns ns se sw\nse nw ne ew nw ns ns ne nw ns\nne ew ew ew ew nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/077.a.htm"
+    },
+    "78_12x12": {
+      "id": "78_12x12",
+      "solution": "12 12\nse sw se ew sw se ew ew ew ew ew sw\nns ne nw se nw ns se sw se sw se nw\nns se sw ns se nw ns ne nw ns ne sw\nne nw ns ns ne sw ne ew sw ne sw ns\nse ew nw ns se nw se sw ne sw ne nw\nns se ew nw ne sw ns ne ew nw se sw\nns ne sw se sw ns ne ew ew sw ns ns\nne sw ne nw ns ns se ew sw ne nw ns\nse nw se sw ne nw ns se nw se sw ns\nne sw ns ns se sw ns ns se nw ne nw\nse nw ns ns ns ns ns ns ne ew ew sw\nne ew nw ne nw ne nw ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/078.a.htm"
+    },
+    "79_12x12": {
+      "id": "79_12x12",
+      "solution": "12 12\nse ew sw se ew ew ew sw se sw se sw\nne sw ns ne sw se ew nw ns ne nw ns\nse nw ns se nw ns se sw ne ew sw ns\nns se nw ns se nw ns ne sw se nw ns\nns ns se nw ne sw ne sw ns ne sw ns\nns ns ne ew sw ns se nw ne ew nw ns\nns ns se ew nw ne nw se ew ew ew nw\nns ne nw se sw se sw ne ew ew ew sw\nns se sw ns ns ns ns se ew ew ew nw\nns ns ns ns ns ns ns ne ew sw se sw\nns ns ns ns ns ns ns se sw ne nw ns\nne nw ne nw ne nw ne nw ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/079.a.htm"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "solution": "12 12\nse ew ew ew ew ew sw se ew sw se sw\nne ew ew sw se sw ns ne sw ne nw ns\nse ew sw ne nw ns ne sw ns se ew nw\nne sw ne ew ew nw se nw ns ne ew sw\nse nw se ew sw se nw se nw se sw ns\nns se nw se nw ne sw ns se nw ns ns\nns ns se nw se sw ne nw ne sw ne nw\nne nw ne ew nw ns se sw se nw se sw\nse ew ew ew sw ns ns ns ne ew nw ns\nne sw se sw ns ns ns ns se ew sw ns\nse nw ns ns ne nw ns ns ns se nw ns\nne ew nw ne ew ew nw ne nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Detour/080.a.htm"
+    }
+  }
+}

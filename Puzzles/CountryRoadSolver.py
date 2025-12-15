@@ -20,6 +20,8 @@ class CountryRoadSolver(PuzzleSolver):
         self.solver = cp.CpSolver()
         self._add_vars()
         self._add_region_constr()
+        self._add_region_active_constr()
+        self._add_adjacent_cell_unvisited_constr()
         
         
     def _add_vars(self):
@@ -49,11 +51,9 @@ class CountryRoadSolver(PuzzleSolver):
         
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                if self.region_grid.value(i, j) not in "@#x":
-                    self.model.Add(self.node_active[Position(i, j)] == 1)
-                else:
+                if self.region_grid.value(i, j) in "@#x":
                     self.model.Add(self.node_active[Position(i, j)] == 0)
-                # All node must be visited, except those marked `not visited` with @#x
+
     
     def _add_region_constr(self):
         
@@ -63,17 +63,17 @@ class CountryRoadSolver(PuzzleSolver):
     
     def _add_region_active_constr(self):
         for i in range(self.num_rows):
-            for j in range(self.num_col):
+            for j in range(self.num_cols):
                 if self.grid.value(i, j).isdigit():
                     region_id = self.region_grid.pos_to_regions[i, j]
                     self.model.Add(sum(self.node_active[cell] for cell in self.region_grid.regions[region_id]) == int(self.grid.value(i, j)))
     
-    def _add_adjacent_cell_constr(self):
+    def _add_adjacent_cell_unvisited_constr(self):
         for region_id, borders in self.region_grid.region_borders.items():
             if region_id not in "@#x":
-                # TODO:
-                pass
-        pass
+                for (u, v) in borders:
+                    if self.region_grid.value(v) not in "@#x" and self.region_grid.value(u) not in "@#x":
+                        self.model.Add(self.node_active[u] + self.node_active[v] >= 1)
     
     def get_solution(self):
         sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]

@@ -57,7 +57,8 @@ if __name__ == "__main__":
         "GrandTour",
         "Hitori",
         "EntryExit",
-        "DoubleBack"
+        "DoubleBack",
+        "CountryRoad"
 
     ]
     

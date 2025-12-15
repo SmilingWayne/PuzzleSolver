@@ -48,6 +48,7 @@ from Common.Parser.PuzzleParsers.GrandTourParser import GrandTourParser
 from Common.Parser.PuzzleParsers.HitoriParser import HitoriParser
 from Common.Parser.PuzzleParsers.EntryExitParser import EntryExitParser
 from Common.Parser.PuzzleParsers.DoubleBackParser import DoubleBackParser
+from Common.Parser.PuzzleParsers.CountryRoadParser import CountryRoadParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -103,6 +104,7 @@ class ParserFactory:
         "Hitori": HitoriParser,
         "EntryExit": EntryExitParser,
         "DoubleBack": DoubleBackParser,
+        "CountryRoad": CountryRoadParser,
         
     }
     

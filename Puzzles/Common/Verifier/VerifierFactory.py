@@ -33,6 +33,9 @@ from Common.Verifier.PuzzleVerifiers.MagneticVerifier import MagneticVerifier
 from Common.Verifier.PuzzleVerifiers.BosanowaVerifier import BosanowaVerifier
 from Common.Verifier.PuzzleVerifiers.SuguruVerifier import SuguruVerifier
 from Common.Verifier.PuzzleVerifiers.GrandTourVerifier import GrandTourVerifier
+from Common.Verifier.PuzzleVerifiers.HitoriVerifier import HitoriVerifier
+from Common.Verifier.PuzzleVerifiers.EntryExitVerifier import EntryExitVerifier
+from Common.Verifier.PuzzleVerifiers.DoubleBackVerifier import DoubleBackVerifier
 
 class VerifierFactory:
     
@@ -84,7 +87,11 @@ class VerifierFactory:
         "Magnetic": MagneticVerifier,
         "Bosanowa": BosanowaVerifier,
         "Suguru": SuguruVerifier, 
-        "GrandTour": GrandTourVerifier
+        "GrandTour": GrandTourVerifier,
+        "Hitori": HitoriVerifier,
+        "EntryExit": EntryExitVerifier,
+        "DoubleBack": DoubleBackVerifier
+
         
     }
     

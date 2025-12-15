@@ -396,9 +396,9 @@
       "solution": "8 8\n- - x - - x - -\nx - - x - - - x\n- x - - - - x -\n- - x - - x - -\nx - - - - - - -\n- - - x - - - x\nx - - - x - x -\n- - - x - - - -",
       "source": "https://www.janko.at/Raetsel/Hitori/079.a.htm"
     },
-    "80_9x8": {
-      "id": "80_9x8",
-      "solution": "9 8\n- - x - - - x -\n- x - x - x - -\n- - - - - - x -\n- - - x - x - -\nx - x - x - - -\n- - - - - x - x\n- - - x - - - -\nx - x - - x - x\nunit 30",
+    "80_8x8": {
+      "id": "80_8x8",
+      "solution": "8 8\n- - x - - - x -\n- x - x - x - -\n- - - - - - x -\n- - - x - x - -\nx - x - x - - -\n- - - - - x - x\n- - - x - - - -\nx - x - - x - x",
       "source": "https://www.janko.at/Raetsel/Hitori/080.a.htm"
     },
     "81_8x8": {
@@ -421,9 +421,9 @@
       "solution": "8 8\nx - - x - x - -\n- - x - - - - x\nx - - x - x - -\n- x - - x - x -\n- - - x - - - -\nx - x - - x - -\n- - - - x - - x\n- x - - - x - -",
       "source": "https://www.janko.at/Raetsel/Hitori/084.a.htm"
     },
-    "85_18x17": {
-      "id": "85_18x17",
-      "solution": "18 17\n- - - - x - x - - x - - x - - x -\nx - x - - - - - x - x - - - x - -\n- - - x - x - x - - - - - x - x -\n- x - - x - x - - - x - x - - - -\nx - x - - - - x - x - x - - x - x\n- - - x - x - - - - - - - x - - -\nx - x - - - - - x - - x - - x - x\n- - - - x - x - - x - - x - - x -\n- x - x - x - x - - - x - - x - -\n- - x - - - - - x - x - x - - - -\nx - - - - x - x - - - - - x - x -\n- - x - - - x - x - - - x - - - x\n- x - x - x - - - x - x - x - x -\n- - - - x - - x - - x - - - - - -\nx - x - - - x - - x - - x - x - x\n- x - - x - - - x - - x - x - x -\n- - - x - - x - - x - - - - - - -\nunit 30",
+    "85_17x17": {
+      "id": "85_17x17",
+      "solution": "18 17\n- - - - x - x - - x - - x - - x -\nx - x - - - - - x - x - - - x - -\n- - - x - x - x - - - - - x - x -\n- x - - x - x - - - x - x - - - -\nx - x - - - - x - x - x - - x - x\n- - - x - x - - - - - - - x - - -\nx - x - - - - - x - - x - - x - x\n- - - - x - x - - x - - x - - x -\n- x - x - x - x - - - x - - x - -\n- - x - - - - - x - x - x - - - -\nx - - - - x - x - - - - - x - x -\n- - x - - - x - x - - - x - - - x\n- x - x - x - - - x - x - x - x -\n- - - - x - - x - - x - - - - - -\nx - x - - - x - - x - - x - x - x\n- x - - x - - - x - - x - x - x -\n- - - x - - x - - x - - - - - - -",
       "source": "https://www.janko.at/Raetsel/Hitori/085.a.htm"
     },
     "86_17x17": {

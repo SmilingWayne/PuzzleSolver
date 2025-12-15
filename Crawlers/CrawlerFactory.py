@@ -108,7 +108,7 @@ class CrawlerFactory:
         "Juosan": JuosanCrawler, # problem -> areas - > solutions -> moves/end
         "Hitori": HitoriCrawler,
         "CountryRoad": CountryRoadCrawler,
-        "DoubleBack": DoubleBackCrawler,
+        "DoubleBack": DoubleBackCrawler, # Fix typo.
         "CurvingRoad": CurvingRoadCrawler,
         "MoonSun": MoonSunCrawler,
         "Masyu": MasyuCrawler,

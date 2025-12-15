@@ -1,4 +1,4 @@
-from typing import Any, Callable
+from typing import Any, Dict, List, Tuple, Hashable, Callable
 from ortools.sat.python import cp_model as cp
 from ortools.sat import cp_model_pb2
 from Common.Board.Position import Position
@@ -55,6 +55,52 @@ def ortools_and_constr(model: cp.CpModel, target: cp.IntVar, vars: list[cp.IntVa
 #             "max_neighbor_height": max_neighbor_height,
 #         }
 #     return all_new_vars
+
+
+
+def add_circuit_constraint_from_undirected(
+    model: cp.CpModel,
+    nodes: List[Hashable],
+    undirected_edges: Dict[Tuple[Hashable, Hashable], cp.IntVar]
+) -> Dict[Hashable, cp.IntVar]:
+
+    node_to_index = {node: i for i, node in enumerate(nodes)}
+    circuit_arcs = []
+    node_active = {node: model.NewBoolVar(f"active_{node}") for node in nodes}
+
+    for node in nodes:
+        idx = node_to_index[node]
+        self_loop_lit = node_active[node].Not()
+        circuit_arcs.append([idx, idx, self_loop_lit])
+        
+    for (u, v), edge_var in undirected_edges.items():
+        if u not in node_to_index or v not in node_to_index:
+            continue # ignore edges that are not in graph
+            
+        u_idx = node_to_index[u]
+        v_idx = node_to_index[v]
+        
+        arc_u_v = model.NewBoolVar(f"arc_{u}->{v}")
+        arc_v_u = model.NewBoolVar(f"arc_{v}->{u}")
+        
+        circuit_arcs.append([u_idx, v_idx, arc_u_v])
+        circuit_arcs.append([v_idx, u_idx, arc_v_u])
+        
+        
+        model.AddImplication(arc_u_v, edge_var)
+        model.AddImplication(arc_v_u, edge_var)
+        model.AddBoolOr([arc_u_v, arc_v_u]).OnlyEnforceIf(edge_var)
+        
+        model.AddImplication(arc_u_v, arc_v_u.Not())
+        model.AddImplication(arc_u_v, node_active[u])
+        model.AddImplication(arc_u_v, node_active[v])
+        
+        model.AddImplication(arc_v_u, node_active[u])
+        model.AddImplication(arc_v_u, node_active[v])
+    if circuit_arcs:
+        model.AddCircuit(circuit_arcs)
+        
+    return node_active
 
 def ortools_force_connected_component(model: cp.CpModel, variables: dict[Any, cp.IntVar], is_neighbor: Callable[[Any, Any], bool]):
     vars = variables

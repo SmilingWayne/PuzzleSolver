@@ -45,6 +45,9 @@ from Common.Parser.PuzzleParsers.MagneticParser import MagneticParser
 from Common.Parser.PuzzleParsers.BosanowaParser import BosanowaParser
 from Common.Parser.PuzzleParsers.SuguruParser import SuguruParser
 from Common.Parser.PuzzleParsers.GrandTourParser import GrandTourParser
+from Common.Parser.PuzzleParsers.HitoriParser import HitoriParser
+from Common.Parser.PuzzleParsers.EntryExitParser import EntryExitParser
+from Common.Parser.PuzzleParsers.DoubleBackParser import DoubleBackParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -97,6 +100,9 @@ class ParserFactory:
         "Bosanowa": BosanowaParser,
         "Suguru": SuguruParser,
         "GrandTour": GrandTourParser,
+        "Hitori": HitoriParser,
+        "EntryExit": EntryExitParser,
+        "DoubleBack": DoubleBackParser,
         
     }
     

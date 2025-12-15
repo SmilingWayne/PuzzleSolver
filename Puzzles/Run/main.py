@@ -54,12 +54,17 @@ if __name__ == "__main__":
         "Magnetic",
         "Bosanowa",
         "Suguru",
-        "GrandTour"
+        "GrandTour",
+        "Hitori",
+        "EntryExit",
+        "DoubleBack"
 
     ]
     
+    import time
     record = []
     for pz_name in puzzle_names[-1: ]:
+        tic = time.perf_counter()
         pzl_dir = get_asset_path(f"data/{pz_name}/problems/{pz_name}_puzzles.json")
         sol_dir = get_asset_path(f"data/{pz_name}/solutions/{pz_name}_solutions.json")
 
@@ -115,5 +120,9 @@ if __name__ == "__main__":
                     # print(solution_dict['grid'])
                     # print("===")
                     # print(sol_dict['grid'])
-            # if puzzle_id == "11_9x9":
-            #     break
+            # if puzzle_id == "100_12x12":
+            #     print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
+            #     # break
+            # break
+        toc = time.perf_counter()
+        print("Time:", (toc-tic), "s")

@@ -48,6 +48,7 @@ from GrandTourSolver import GrandTourSolver
 from HitoriSolver import HitoriSolver
 from EntryExitSolver import EntryExitSolver
 from DoubleBackSolver import DoubleBackSolver
+from CountryRoadSolver import CountryRoadSolver
 
 from typing import Dict, Any
 
@@ -107,6 +108,7 @@ class SolverFactory:
         "Hitori": HitoriSolver,
         "EntryExit": EntryExitSolver,
         "DoubleBack": DoubleBackSolver,
+        "CountryRoad": CountryRoadSolver,
 
 
     }

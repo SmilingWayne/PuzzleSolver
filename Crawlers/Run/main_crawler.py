@@ -3,7 +3,7 @@ from Core.core import CrawlerConfig
 
 def main():
     # Define configuration
-    target = "Hidoku"
+    target = "Shugaku"
     
     # NOTE:
     #   puzzle_name: The name of dataset saved to repo;

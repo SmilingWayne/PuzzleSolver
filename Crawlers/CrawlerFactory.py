@@ -56,6 +56,9 @@ from CorralCrawler import CorralCrawler
 from DiffNeighborsCrawler import DiffNeighborsCrawler
 from DetourCrawler import DetourCrawler
 from HidokuCrawler import HidokuCrawler
+from HakoiriCrawler import HakoiriCrawler
+from ShugakuCrawler import ShugakuCrawler
+from ShimaguniCrawler import ShimaguniCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -120,6 +123,9 @@ class CrawlerFactory:
         "DiffNeighbors": DiffNeighborsCrawler,
         "Detour": DetourCrawler,
         "Hidoku": HidokuCrawler,
+        "Hakoiri": HakoiriCrawler,
+        "Shugaku": ShugakuCrawler,
+        "Shimaguni": ShimaguniCrawler,
     }
     
     @classmethod

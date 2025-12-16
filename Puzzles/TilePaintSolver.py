@@ -66,13 +66,6 @@ class TilePaintSolver(PuzzleSolver):
         for k, v in self.regions_grid.regions.items():
             if self.solver.Value(self.x[k]) > 1e-3:
                 for pos in v:
-                    sol_grid[pos.r][pos.c] = "#"
-                
-        # for i in range(self.num_rows):
-        #     for j in range(self.num_cols):
-        #         if self.solver.Value(self.x[i, j]) > 1e-3:
-        #             sol_grid[i][j] = "o"
-        #         else:
-        #             sol_grid[i][j] = self.grid.value(i, j)
+                    sol_grid[pos.r][pos.c] = "x"
             
         return Grid(sol_grid)

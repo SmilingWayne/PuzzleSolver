@@ -1,0 +1,705 @@
+{
+  "count": 140,
+  "solutions": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "solution": "8 8\nc s c s t - t s\nt - t - c s - c\nc s - s - - - t\n- t c t - - s c\n- - - s - c - t\n- - t c t s - c\n- - s - - - - t\ns c t c s t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/001.a.htm"
+    },
+    "02_8x8": {
+      "id": "02_8x8",
+      "solution": "8 8\ns c s t - c t c\nt - - c s - s -\n- s t - t c t c\nc - c s - s - s\nt s - t c t - t\nc - - s - s c -\nt s t - c - t -\n- - c s t s c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/002.a.htm"
+    },
+    "03_17x8": {
+      "id": "03_17x8",
+      "solution": "17 8\nt s - - c t - -\nc - - s - s c -\ns - t c t - t s\nt c s - s c - c\ns - t c - t s t\nt c - - s c - c\n- s - - - - s t\nc t c s t - - -\n[solution]\nt s - - c t - -\nc - - s - s c -\ns - t c t - t s\nt c s - s c - c\ns - t c - t s t\nt c - - s c - c\n- s - - - - s t\nc t c s t - - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "solution": "8 8\ns - - - s - s -\nt - - t c t c -\nc s c s - - - s\n- t - t c t c t\ns c s - s - s -\nt - t c t c t c\nc - - s - s - s\nt s c - c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "solution": "8 8\nt - s t s t s c\nc - - - c - - t\ns t c s t s c -\nc - - - c - t s\nt s - s t s c -\n- c t c - - - -\nt - s - - c - c\ns c t c s t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/005.a.htm"
+    },
+    "06_9x8": {
+      "id": "06_9x8",
+      "solution": "9 8\ns t s t - c t s\n- c - c - s - c\nt - t s - t - t\nc s c - - c - c\nt - - t - s - s\nc s - s c t c -\n- t c t - s - s\n- s - s c t c t\n[end]",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/006.a.htm"
+    },
+    "07_10x10": {
+      "id": "07_10x10",
+      "solution": "10 10\n- - t s - - - t - t\n- s c - c t c s c s\nc - t s - s - t - -\nt s c - c - c s c s\nc - t s t s - t - t\ns - - c - c - - s c\nc t - - s t - - - t\ns - - t c - - t c s\nc t c - - s c s - t\ns - s t c t - t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\ns t s t c t c s c s\nc - c - s - - - t -\ns t s t c t s c s c\nc - c - s - - t - t\ns t - t c t s c s c\n- - s - s - - t - t\n- c t c t c - c - c\n- - - s - s t s t s\n- c - - t c - c - c\nt s t c s - s t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\ns t c t c t s c - c\nc - s - s - - t - s\nt - t c - c - s - t\ns - - s - t - - c s\nc - - t c s - t - t\nt s c - - t c s c s\nc - - - s - - t - t\nt s t c t c s - s c\n- c - - s - t c - t\ns t s c t c s - s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/009.a.htm"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "solution": "10 10\nc t - c s t c t s c\ns - s t - - s - - t\nt - c - c - c t c s\nc s - s t s - s - t\nt - t c - c - t c s\ns c s - t - - - - t\n- t - c s c s c s c\n- s - t - t - t - -\nc t c s - - c s c s\n- s - t c s - t - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\nc t s c - t s t - -\ns - - - s c - c - s\nt c s t - t s t - t\n- - - c s c - c s c\ns c s t - t s t - t\nt - - - c - c - s c\ns c t - t s t - t -\nt - s c - c - c s c\ns c - t - t s - t -\nt - s c s - c - c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\nc - t s t s c s t s\nt s c - c - t - - c\nc - - s t s - s - t\ns - t c - c - t c s\nt - s - s - s - - t\nc - - c t c t c s c\nt s t - - s - - - t\nc - c s t - c t c s\nt s t - c s - s - t\nc - c s - t c t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\n- s t c t c s - s c\nt c - - s - t c - t\ns - s t c - s - - s\nc t c - s t c t c t\ns - s t c - - - - s\nc t c - s t c s c t\ns - - - c - - t - s\nt c s - t s c - c t\ns - t - c - t s - s\nt - c s t s c - t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\nt c s - c s t s c t\ns - t - t - c - - s\nc - c - s - t - t c\ns t s - - c - c s -\nc - c - t s t - t -\nt s t s c - c s c s\nc - c - t s t - t -\nt s t s - c - s c s\n- c - c t s - - - t\nt s t s - c t c s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "solution": "10 10\nt s c - c s - t s -\nc - t s t - c - c t\nt s - c - s t s - s\nc - t s t c - c t c\nt s c - - s t - - s\nc - t s t - c s c t\ns - c - c - - - - s\nc t s t - s c s c t\ns - - c - t - t - -\nt c s t s c - c s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "solution": "10 10\nt c - s t - - - t c\n- s t c - c t - - s\nc - - s - s - s c t\nt s c t c t c t - s\nc - - s - s - s - -\ns t - c t c - t - c\n- c - - s - s - s t\ns t s t c t c t c -\nc - c - s - s - - s\ns t s t c - c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/016.a.htm"
+    },
+    "17_12x12": {
+      "id": "17_12x12",
+      "solution": "12 12\nt c t - - - - - - c - -\ns - s c - - s c s t - -\nt - - t s c - t - c s -\ns c - c - t s c s - t -\n- t s - - c - - - - c -\ns - - c s - t s t - s t\nc - t - t c - - c - - c\nt - s c - s - s t - - t\ns c t - t c t c - s - c\nt - s c - s - s t c t s\ns c t - t c t - - - - c\nt - s c s - s - - c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/017.a.htm"
+    },
+    "18_12x12": {
+      "id": "18_12x12",
+      "solution": "12 12\n- - t - - t c s c s t c\nt s c s c s - t - - - s\n- - t - - - - c - t c t\n- c - s - t - - s - - s\ns t - c - s - t c t c t\n- c s t - t c s - s - s\n- - - c s - - - - c - t\nc s t - t c - t s t - c\nt - c - s - s c - c s -\ns - s t c t - - - - t -\nt - c - - s - - - - s -\nc s t s c t c s c t c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/018.a.htm"
+    },
+    "19_12x12": {
+      "id": "19_12x12",
+      "solution": "12 12\ns - s t c t c s - - - t\nc t c - s - - t - t s c\ns - s - - t s c s c - -\nt - t c s c - - - t s t\nc - - - t - - c - - - c\nt s c - - - - t s c t -\nc - - t s c s - - - s c\ns t s c - t - t s c t -\n- c - t - s - c - - s -\ns t s - - c - s - - c -\nc - c - t s t c - - t -\nt s t - c - - - t s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/019.a.htm"
+    },
+    "20_12x12": {
+      "id": "20_12x12",
+      "solution": "12 12\n- s c s c t c - - s - t\n- t - t - - s - c t c s\n- c s - - c - - s - - t\ns t - - s t s t c - s c\n- c - t - - c - - - - -\nt s - c - - t - c s - t\nc - t s t s c s - t c s\ns - c - c - - t - - - t\nc t s - s t c - - c s c\ns - c t c - s - s - t -\n- - s - s - t c t c s -\nt c t - t c - - s - t -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/020.a.htm"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "solution": "8 8\nt c - s t c s c\ns - t c - - - t\nt c s - t - c s\ns - t c s - - -\nc - - - - t - s\nt s t s c s c t\nc - c - - - - -\ns t s t c t s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/021.a.htm"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "solution": "8 8\nc s t c t - s c\nt - - s - c t -\ns c t c t s - s\nt - s - - c - t\nc - c t s t s c\ns t s - c - - t\nc - c - t s - s\nt s t s c - - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "solution": "8 8\nt c s c t - s c\ns - t - s c - t\nc - c - - t - s\nt s t s c s c t\nc - c - - t - s\ns t s t c s c t\nc - c - - - - s\nt s t s - - t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "solution": "8 8\nt s t s c s t c\nc - c - t - - s\n- s t - c s t c\n- c - - t - - -\ns t s c s - - s\nc - - t - t c t\nt - c s c s - s\nc s t - t - - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8\nt s - c t s c t\nc - t s - - - s\nt s c - c - t c\nc - - - t s - s\ns t s - c - t c\n- - c t s - s -\n- - s - - t - t\nc t c t s c s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "solution": "10 10\nt s - t c s c t - t\nc - c s - t - - s c\ns t - t - c s c t -\nc - s c s - t - - c\nt - - - - - c s t s\nc s t s t s t - c -\nt - c - c - c s t s\nc - s t s - - - - c\ns - - - - t c s - s\nt c s t c s - t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/026.a.htm"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "solution": "10 10\n- s - - c t c t s c\nt c - - s - s - - t\ns - t c t c - t c s\nt c s - - s - s - t\ns - t c t c t c - s\nt c s - s - s - t c\ns - t c t c t c s -\nt c s - s - - - t c\ns - - t c t c s - s\nc t c s - s - t c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10\nc s c s c t c s t c\nt - t - - s - - - s\ns c s - t c - t c t\nt - t c - s - s - s\ns - - s - - c t - c\nc t - t c t s - s t\ns - - s - - c t c -\nt c t - c - - - s t\ns - s - s - t c - c\nc - t c t c s - s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/028.a.htm"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "solution": "10 10\nc s c t - - t c t s\n- t - - c s - s - c\n- s c s - t - t - t\nc t - t - c - c - s\ns - s c - s - - - c\nt - t - t c t s t s\nc - s - - s - c - c\ns - t c t c t s t s\nc - - - - s - - - c\nt s c s - t c - t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/029.a.htm"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "solution": "10 10\n- - - c t s c t - -\nt s t s - - - s - -\nc - c - t c - c - t\n- t s - s - s t s c\ns c - c t c - c - t\nt - t - s - t s - s\ns - s - c - - c t c\nc t c t s t - s - s\n- s - - c - c t - t\nc t c s t s - s c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/030.a.htm"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "solution": "8 8\ns t - s t c t c\nc - c - - - s -\ns - t - s c t c\nt c s - t - - s\ns - t c - s t c\nt c - s t - - s\n- s - - - c t c\nc t c s t s - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/031.a.htm"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "solution": "8 8\nt - - c t c s c\ns - s - s - - t\nt - c t c t - s\nc s - s - s c t\n- t c t c t - s\nc s - s - s c t\n- t c t - - - s\nc s - s c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/032.a.htm"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "solution": "8 8\n- s c t - c - t\n- t - - s t s c\ns c s t - c - t\n- t - c s t s c\ns c - t - c - t\nt - s c s - s c\nc - - t - t - t\nt s c s c s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8\nc s t s t s c s\nt - c - c - - t\n- - t s t s - s\nc - - c - c - c\nt s t s - t - t\nc - - c - c - s\nt - s - s - - c\ns c t - c t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\nc s t c t s t s\nt - - s - - c -\ns - c - c t - -\nc t s - s - s c\ns - c - c - - t\nt - - t s t - c\ns c s - - c s t\nt - t c s t - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "solution": "10 10\ns - s c s c t c t s\nt c t - t - - s - c\n- s - c s - t c - t\nt c - - t c - s - s\ns - t s - - - t c t\nt - c - c t c s - s\nc s t s - s - t - c\nt - c - t c - c s t\ns - t - s - s t - c\nc - s c - t c - - s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/036.a.htm"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "solution": "10 10\nc t c s c t c - - -\n- s - t - s - t c t\nc t c - - c - s - s\ns - s t s t - - t c\nt - - c - - c s - s\nc s t s - s - t c t\nt - - c t c - - s -\ns c t - s - - c t c\nt - - c t c t s - s\nc s - s - s - - - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/037.a.htm"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "solution": "10 10\n- - t c t - t c t c\ns - s - s - - s - s\nc t c t c t c - c t\ns - - s - s - t - s\nc - t c - c - s - c\nt s - s t s t c t s\nc - c - - c - s - c\ns - s t - t - c - t\nt - c - c s - t - s\n- s t s t - c s c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10\ns - s t c - - s c t\nc t c - s t c t - s\ns - s - - - s - - t\nt c t c - c t c - s\ns - - s t s - s - c\nc t c - - c t c t s\ns - s t - s - - - c\nt - c - c t c t - t\nc s t - - s - - - s\nt - c s c - t s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "solution": "10 10\nt - c s c t - s - s\ns - - - - s c t c t\nc - - t c t - s - s\nt s c s - - c t c t\nc - - t c t s - - s\ns t c - s - c t c t\nc - s - t - s - - s\ns - t c s c t - t c\nt c s - t - s c s -\ns - t c s c t - t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "solution": "8 8\nc - s - s t c t\ns - c t c - - s\nt - - - s - t c\nc s t c t c - s\nt - - s - s t c\ns c t c t - - s\nt - s - s - - c\ns c t c t c s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "solution": "8 8\nc t - s c s c s\ns - c t - t - t\nt - - s c - c s\ns c - t - - t -\n- t s - s c s c\ns c - c t - t -\nt - - - s c s -\nc s t c t - t -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/042.a.htm"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "solution": "8 8\nc t c t - c s t\ns - s - s t - c\nt c - c - c - s\ns - s t s t - c\nc t c - c - s t\n- s - t s t - c\nt c - c - c - s\n- s t s t s - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "solution": "8 8\nc t - s c s - t\n- s - t - t c s\nc t c s c s - t\ns - - - t - c -\nt c t c s - s t\ns - s - t c - c\nc - t - - s - t\nt s c s c t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/044.a.htm"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "solution": "8 8\nc s - t s c s c\nt - - c - t - t\nc s t s - s c -\nt - - c - - t s\nc s t - t s - c\nt - c s c - t s\n- - - t - - - c\ns t c s - c s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "solution": "10 10\nc s t s c s t s c s\nt - c - t - c - - t\nc s t s c s - t c s\nt - c - t - c s - -\ns - - - c - - - - c\nc t c t s t s t s t\ns - s - - c - c - c\nt c t c s t s t s t\n- s - - - c - c - c\n- t c t - s t s t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "solution": "10 10\n- t - - c s t s t s\nc s c s t - c - c -\nt - t - c s - t - t\nc s c s - t c s c s\nt - t - c s - t - t\ns - c - - t c s - c\nc t s t c - - - t s\ns - c - s t s c - c\nt - t - - c - - t s\nc s c s t s t s c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "solution": "10 10\nt s t c t s - s t s\nc - - - - c t c - c\ns t s t s - s - - s\nc - c - c t c t c t\ns t s t - - s - s -\nc - c - c t c t c t\ns t s t s - - s - s\nc - - c - c t c t c\nt - - t s - s - - -\ns c s - - t c t s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10\ns t c t c s - t c s\n- - - s - t c - - t\n- t c t c - s t s c\ns - - s - t - c - -\nc t - - - c - s t c\ns - - - t s t c - s\nt c - s - c - s t c\n- s - c t s t c - s\n- c t s - c - s t c\nt s - c t s t c - s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10\n- - t c t c t c t c\n- s - s - s - s - -\nt c t c - t c t - s\ns - s - s - s - - t\nc t - - t - c - - c\n- s c s c - s t - s\nc t - t - t - c - t\n- s - c s c s - s c\nt c - t - - - t - t\ns - - c s t c s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "solution": "8 8\nc t s t c t - t\ns - c - - s c s\nc - s t c t - t\ns t c - - s - s\nc - - s - c t c\nt s - c t s - -\n- c t s - c - c\nt s - c t s t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "solution": "8 8\ns t c t c s t -\nc - - s - - c s\n- s t c - s - -\nt c - s t c t -\ns - t c - - s -\nt c s - t c t -\ns - t c - - - -\nc - - s t c s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "solution": "8 8\ns c t c s t - t\nt - s - - c - s\nc - t c t s - c\nt s - s - c t s\n- c - c t s - c\ns - t s - c t s\nc - c - t s - c\nt s t s - c - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\nt - t c s c s c\ns c s - - t - t\nt - t - - s c s\nc s c s c t - t\n- t - t - s - s\ns c s c - c t c\nt - - t - - - s\ns - c s c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/054.a.htm"
+    },
+    "55_10x10": {
+      "id": "55_10x10",
+      "solution": "10 10\nt c t c s t s t s t\ns - s - - c - c - c\nc t c - - t - s t s\ns - s t s c - c - c\nt c - - - - t - s t\n- - s t s c s c - c\nt - c - - t - t - s\nc s t s c s c s c t\n- - c - t - t - - s\nt s t s c s c - c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "solution": "10 10\nt s - t c s c s t c\nc - - s - t - - - s\ns - c t - c - t - t\nc t s - s t s c - c\ns - c t c - - t - s\nt - - s - s c s c t\ns c t c t - - - - s\nt - s - s c t c - t\nc - t c t - - s - c\ns - - s - c t c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "solution": "10 10\ns c t s t s c s c s\nt - - c - - - t - t\nc - s t s t s c - c\ns t - c - c - t s t\nc - s t s t - - - c\nt - c - c - c s t -\ns - s - t - t - c s\nc t c - s c - s - t\ns - s - - t - c - c\nt c t c s c s t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "solution": "10 10\nc - c t - - s c s c\ns - s - s t - t - t\nt - t c - c - c s c\nc s - s t s - t - t\nt - c - c - c s - c\ns - s t s - t - t s\nt - c - c - c s - -\nc s t s t s t - c t\nt - c - - c - - s -\nc s - t s t s c t -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "solution": "10 10\ns - - c t s t s - c\nt c - s - c - c - s\n- s t c - - s t - t\nt c - s t c - - c s\ns - - c - s - t - t\nc t - t - t - c s c\ns - s c s c - t - t\nt c t - t - s c - s\ns - s c s c t - - c\nt c - - t - s c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/059.a.htm"
+    },
+    "60_12x12": {
+      "id": "60_12x12",
+      "solution": "12 12\n- - s c t c t - - s t c\n- - - - - s - c t c - -\n- t c s c t - s - s t s\n- s - t - s c t - c - c\n- t - - c t - s - t - s\nc s c s - s c t - s c t\n- - - - - t - s c t - -\n- t s c s - c - - s c t\n- c - - - t s t c t - s\n- t s t s c - - s - c t\ns c - c - - s t c t - s\nt - - - - t c - - s c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "solution": "8 8\nc t c t - s c s\ns - - s c t - t\nc t c - - - s c\ns - s t s c - t\nc t - c - t - s\n- s - t - s c t\nt - c s c - - s\nc s t - t s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "solution": "8 8\nt s c s c s t s\nc - t - t - c -\ns - s - - s t -\nt c - t c - c -\ns - s - s t s t\nt c t c - c - c\ns - s - t s t s\nt c t c - c - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "solution": "8 8\ns t c t - t c s\nc - - s c s - t\ns t - t - - c -\n- c s c - s t s\nt - t - - c - c\ns c s - - s - t\n- t - t - t - c\n- c s c s c s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/063.a.htm"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "solution": "8 8\nc t s - c t s c\ns - - t s - - t\nt c - - - - - s\n- s t c t c t c\nt c - - - s - -\n- s t s c t c s\nc - c - - - - t\ns t s t c s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "solution": "10 10\nt s t c t s t - - c\nc - - - - - c s - s\nt - - s c - - t c t\nc s c t - s - s - -\n- t - s c t c - t c\ns - c t - s - s - s\nc t s - c t c t c t\ns - c t s - s - s -\nc t s - c t - - c t\ns - c t - s c t - s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "solution": "10 10\nt - c s - s c s - t\nc s t - c t - t c s\nt - c s - s c s - t\n- s - t c t - t - c\nc t c - s - s c - s\ns - s t c t - t - t\n- t c - s - - c s c\nc s - t c t s t - t\n- - c s - - - c - s\nc s t - c s t s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10\ns - - - c s t c t s\nt c - s t - - s - c\ns - t c - - - - t s\nc - - s t c s c - c\nt s - c - - t - t -\n- c t s t c - s c s\n- s - c - s - t - t\nt c t s t c - c s c\n- s - c - s - t - t\nt c t s - t c s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "solution": "10 10\nc s - c t c - s t c\nt - t s - s - - - s\ns - - c - t c - c t\nc t - t - - s t - s\ns - c - s t c - c t\nc t s - c - s t - s\ns - - t - t - c - c\nt - c s c s - t - s\nc s t - t - - s - c\nt - c s c s t c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "solution": "10 10\ns t s t s - s - - t\n- c - c - c t c s c\nt s - - - - s - t -\nc - t s t - c - c s\ns - - - c s t s t -\nc - t s t - c - c -\nt - c - c - t - t s\nc - s t s - s c - c\ns t c - - c - t - t\nc - s t s t s c - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "solution": "12 12\nc - - t c s - t c t c t\nt - - s - - - s - s - s\ns c t c t s c t - c t -\nt - s - - - - - - s - -\nc - - - s - c - c t - -\ns t s c t - t s - s c t\nc - - - s - c - c t - s\n- s c t c t s - - s c -\n- t - - s - c - c - t -\n- c s - t - t s t s - -\ns - t - - - - c - c - c\nt c s c s c s t - t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "solution": "8 8\nc s c s t s t c\nt - - - - c - s\ns c t c t s t c\nt - s - - c - s\n- c - c s t - t\ns t s t - - c s\nc - c - c t - t\nt - s t s - c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "solution": "8 8\nc s c s c t s t\nt - t - - - c -\ns - s c s t - t\nc - t - - c s c\nt s c s t - t -\nc - t - c s c s\nt s - - t - t -\n- c t s c s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/072.a.htm"
+    },
+    "73_8x8": {
+      "id": "73_8x8",
+      "solution": "8 8\nt c s t c t s c\ns - - - s - - -\nt c - c t c s t\n- s - s - - - c\nc t c - c - - -\ns - s t s t s t\nt - c - c - - c\nc s t s t - t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/073.a.htm"
+    },
+    "74_8x8": {
+      "id": "74_8x8",
+      "solution": "8 8\ns c t c t - - s\nt - s - s c - t\nc - c t - t s c\n- t s - c - - t\nc - c t s - c s\ns - s - c t - t\nc - t - - s - s\nt s c s c t - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/074.a.htm"
+    },
+    "75_10x10": {
+      "id": "75_10x10",
+      "solution": "10 10\n- t c - s t s t s -\n- s - - c - c - c -\nt c t s t s t - s t\ns - - c - c - c - c\n- c s t - t s t s -\ns t - c s c - c - c\nc - - t - t s t s t\nt s c s - - - - - c\nc - t - c - t - t s\nt s c s t s c s c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/075.a.htm"
+    },
+    "76_10x10": {
+      "id": "76_10x10",
+      "solution": "10 10\nc t s - s t c - s t\ns - c t c - s t - c\nc t s - s - - c s t\ns - c t c t s t - c\nc t - - s - - c - s\ns - c t c t - s - t\nc t - s - s c t c s\ns - - c - t - s - t\nc - t s - s - c - s\nt s c - t c t - t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/076.a.htm"
+    },
+    "77_10x10": {
+      "id": "77_10x10",
+      "solution": "10 10\ns t s t c t c s t c\nc - c - - s - - - s\n- - t s c - - c t c\nt s - - t s t s - s\n- c t - c - - - c t\nt s - - s t c - s -\n- c t - c - s t - c\n- - s - t - c - - s\nc - c - s - s t - c\ns t s t c t - c s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/077.a.htm"
+    },
+    "78_10x10": {
+      "id": "78_10x10",
+      "solution": "10 10\ns c t c t s c s t -\nt - - s - - - - c s\nc - t c t c s t - t\nt s - - s - - c - s\nc - - c - c t s t c\ns t s t - s - - - s\nc - c - c t c s c t\ns t s t s - - t - s\nc - - c - c - c - c\nt - - s t s - t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/078.a.htm"
+    },
+    "79_10x10": {
+      "id": "79_10x10",
+      "solution": "10 10\nt c t c t c s - s t\ns - s - s - t c - c\nc - c - t c - s - t\ns - t s - s - t c s\nc - - c t c - s - t\nt s t s - s t c - c\nc - - c - c - s - t\nt s t - - s - t c s\nc - - s c t c s - t\ns t c t - s - t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/079.a.htm"
+    },
+    "80_12x12": {
+      "id": "80_12x12",
+      "solution": "12 12\nt c t c - s - t - - - -\n- s - s - t c s c t c t\nt c t c - s - - - s - s\ns - s - - c t c t - - c\nc t - t - s - - - - t s\ns - s c - t c s - s c -\nt c t - - - - t - t - -\ns - s c t c s - c s c -\nc - - - s - t - t - - -\nt - - - c - - c s c s t\ns c s - - t s t - - - c\nt - t c s c - - c s t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/080.a.htm"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "solution": "8 8\n- s - s t c s c\n- c t c - - t -\nt s - s t c - -\nc - t c - s t c\nt - s - - c - -\ns - c t s t s t\nc t - - c - c -\ns - c s t s t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/081.a.htm"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "solution": "8 8\nt c t s - c t s\n- s - - - s - c\nc t c s c - - t\n- s - t - t c s\nc t - s c s - t\n- s c t - t c s\n- t - s - s - t\nc s c t c t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/082.a.htm"
+    },
+    "83_8x8": {
+      "id": "83_8x8",
+      "solution": "8 8\nc s t s t - c s\n- - c - c s - t\ns t s t - - c s\nc - c - c t - t\nt s t s - s - s\n- c - c t c t c\nt s t - - s - s\nc - c s t c - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/083.a.htm"
+    },
+    "84_8x8": {
+      "id": "84_8x8",
+      "solution": "8 8\ns t - c t c t s\nc - s - s - - c\ns t c t - t s t\nc - - s c - - c\nt s c - t s t s\n- - t s c - c -\nc - c - - s t s\nt s t s t c - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/084.a.htm"
+    },
+    "85_8x8": {
+      "id": "85_8x8",
+      "solution": "8 8\nt c s t - s c t\ns - - c - t - s\nc - t s - c - t\nt s c - t s - c\nc - t s c - - s\nt s c - t s c t\n- - t - c - - s\n- s c - s t c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/085.a.htm"
+    },
+    "86_10x10": {
+      "id": "86_10x10",
+      "solution": "10 10\nc t c t s c s - s c\n- s - - - t - t - t\n- t c s - c - c - s\n- - - t - - t s - t\ns c s c s c - c - s\nt - t - t - s t - c\nc - s - s c - c s t\ns t c t - t s t - c\nc - - s - c - c - s\ns - t c t s t s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/086.a.htm"
+    },
+    "87_10x10": {
+      "id": "87_10x10",
+      "solution": "10 10\nc s c t - s t s - t\nt - - s - c - c - c\nc - c t - t - - s t\nt - - s c s c t - c\ns - c t - t - s - s\nt - - s - s c - c t\nc s c t - t - t - s\n- t - s c s c s c t\nc - - t - t - t - -\ns t s c s - s c s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/087.a.htm"
+    },
+    "88_10x10": {
+      "id": "88_10x10",
+      "solution": "10 10\nt s - t c t - - s c\nc - c - - s - c t -\ns - t s t c t s - s\nt - c - - s - c t c\ns - s t c - - s - s\nc t c - s t c t c t\ns - s t c - s - s -\nc t c - s t c t c t\ns - s t c - s - - -\nt c - - s t c t s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/088.a.htm"
+    },
+    "89_10x10": {
+      "id": "89_10x10",
+      "solution": "10 10\ns c t s - c s c s t\nt - - c t - t - - c\nc s - s - s c s t s\nt - t c t - t - - c\nc s - s - s - c t s\n- - t c t c t s - c\nt c s - - s - c - s\ns - t c t c t s t c\nt - - s - s - c - -\nc s c t - c t s t -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/089.a.htm"
+    },
+    "90_10x10": {
+      "id": "90_10x10",
+      "solution": "10 10\nt c t c t s c t c s\ns - - s - - - s - t\nt c t c - t - c - s\ns - s - s c s t - c\nc - - t - t - c s t\ns t s c - c - t - c\n- c - t - s - s - s\ns t - s c t c t c -\nc - - t - - s - s -\nt s - c s t c t c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/090.a.htm"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "solution": "8 8\nt s c s t c - -\nc - t - - s t s\n- - s c t - - c\n- - t - s c s t\ns c s c - t - c\nt - t - s c s t\nc s c - t - - -\nt - - s c s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/091.a.htm"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "solution": "8 8\ns c s c s - t c\nt - t - t - - s\nc s c - c s c t\nt - t s - t - s\nc s c - c s - c\nt - t s - t - -\ns c - c - c s t\n- t s t s t - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/092.a.htm"
+    },
+    "93_8x8": {
+      "id": "93_8x8",
+      "solution": "8 8\n- t - c s c s c\n- s - t - t - -\n- t c s - s c t\nc s - - c t - s\nt - c t - s c t\ns - - s c t - s\n- t - t - s - t\nc s c s c t c -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/093.a.htm"
+    },
+    "94_8x8": {
+      "id": "94_8x8",
+      "solution": "8 8\ns - s c t c t c\nt c t - s - - s\ns - s - c t c t\nc t - t s - s -\n- - c - c t c t\nc s t s - - - s\nt - c - c s t c\nc s t s t - - s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/094.a.htm"
+    },
+    "95_8x8": {
+      "id": "95_8x8",
+      "solution": "8 8\nc s t s c s t s\nt - c - t - c -\ns - t - c s t -\nt c s - t - - c\ns - - - - c s t\nc t s c s t - c\ns - - t - c s t\nt c s c s t - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/095.a.htm"
+    },
+    "96_10x10": {
+      "id": "96_10x10",
+      "solution": "10 10\nc s t - c s t s t c\nt - c s t - c - - -\nc s t - - s t s t c\n- - c s t c - c - s\nt s t - - - t s t c\nc - - s c - c - - s\nt s c t - s - s c t\nc - - s c t c t - s\nt - - t - - s - c t\ns c s c s t c t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/096.a.htm"
+    },
+    "97_10x10": {
+      "id": "97_10x10",
+      "solution": "10 10\nc s t s t s c t c t\nt - c - c - - s - s\nc s - s t s t c t c\nt - - c - c - - - s\nc s t s t s t c t c\nt - c - c - - s - s\ns - s t s t - c - t\nc t - c - c - - s c\n- - s - - t s - - t\ns t c t s c - t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/097.a.htm"
+    },
+    "98_10x10": {
+      "id": "98_10x10",
+      "solution": "10 10\nt s c s c t s t c t\n- - - t - - c - - s\nt s c s - - t - - t\nc - - t c - c s - s\n- t s - s - t - - c\ns c - c t c s c s -\nt - s - s - t - t c\ns c t c t c s c - s\nt - - - - - - - - t\nc - - s t s c t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/098.a.htm"
+    },
+    "99_10x10": {
+      "id": "99_10x10",
+      "solution": "10 10\nt c t c s - s c s c\ns - s - - - - t - t\nc t c t c t - s c s\ns - - s - s c t - t\nc t c t c t - s - c\ns - s - s - c t - s\nt c t c t - s - - c\ns - - s - c t c s t\nt - c - - - s - - c\nc s t s t c t - t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/099.a.htm"
+    },
+    "100_10x10": {
+      "id": "100_10x10",
+      "solution": "10 10\nt c s c s c s c s t\ns - - t - t - t - c\nc t - s c s - c s t\n- s c t - t - t - c\nc t - - s - c s - s\ns - s c t - t - c t\nt c t - - s - s - s\ns - s c t c t c t c\nc - t - - s - s - s\nt s c s c t c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/100.a.htm"
+    },
+    "101_8x8": {
+      "id": "101_8x8",
+      "solution": "8 8\ns - - - s t s c\nc t c t - c - -\ns - - s - t - s\nt - c - c s c t\nc s t s t - - s\nt - - c - - c t\nc - s t s t s -\ns t c - c - c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/101.a.htm"
+    },
+    "102_8x8": {
+      "id": "102_8x8",
+      "solution": "8 8\nc s c t s t s -\n- t - - c - c t\nc s c - t s - s\nt - t s c - t c\ns c - - t - s -\n- t s c s c - t\nc - - t - t - s\nt s c s c s c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/102.a.htm"
+    },
+    "103_8x8": {
+      "id": "103_8x8",
+      "solution": "8 8\nc t s t s t s t\n- - c - c - c -\n- t s t - s t s\ns c - c - - - c\nt - s - t c t s\ns c t c s - - c\n- - s - t - s t\nc t c - s - - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/103.a.htm"
+    },
+    "104_8x8": {
+      "id": "104_8x8",
+      "solution": "8 8\ns t c t c s c t\nc - s - - t - -\n- - c - - s c -\nc t s - - - t s\ns - - t s c - c\nt - - - - t s t\ns c s c - c - c\n- t - t s - s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/104.a.htm"
+    },
+    "105_8x8": {
+      "id": "105_8x8",
+      "solution": "8 8\nt c t s - c t s\ns - - c t s - c\nt - s - - c t s\ns c t c s - - c\nt - s - t c t s\nc - c - s - - c\ns - - - c - t s\nt c t s t - - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/105.a.htm"
+    },
+    "106_10x10": {
+      "id": "106_10x10",
+      "solution": "10 10\nc s - t c t - c t s\nt - c s - s - s - c\ns - t - t c t c - s\nt c s c - - s - - t\ns - - t s c - t c s\nt c - c - t - - - -\ns - s t - c s - - t\nc t - c s t - - - s\ns - - t - - - - t c\nc t s c s c t c s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/106.a.htm"
+    },
+    "107_10x10": {
+      "id": "107_10x10",
+      "solution": "10 10\ns c t s c s c t - -\nt - - - - t - s c t\ns c - t - s - t - s\n- t s c - c - c - -\ns c - t s - t s t s\nt - s c - c - c - c\nc - - t - s t s - t\nt - - s c - c - c s\nc - t - t - - - t -\nt s c s c s t - s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/107.a.htm"
+    },
+    "108_10x10": {
+      "id": "108_10x10",
+      "solution": "10 10\ns t - s t c t s c t\nc - c - - s - - - s\nt s t - t c t c - c\nc - c - s - s - - t\ns - s t c t c t c s\nc t c - s - s - - -\ns - s - t c t - c s\nt c t c - s - s t -\ns - s - - t - c - c\nc t c t s c s t s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/108.a.htm"
+    },
+    "109_10x10": {
+      "id": "109_10x10",
+      "solution": "10 10\nt s t s t c s c s t\n- c - c - - - t - c\n- t s - - t c s - s\nc - - t c s - t - c\nt s c s - t c - - s\nc - t - c s - s - -\nt s - s t - c t c s\n- c t - c - s - - t\ns - s - s - t c s c\nt c t c t c s - - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/109.a.htm"
+    },
+    "110_10x10": {
+      "id": "110_10x10",
+      "solution": "10 10\ns t c s c t c t - s\n- - - t - - - s c t\nc t s - - c - - - s\ns - - - s t s c - c\nc t s - - - - t - t\ns - c t c t c s c s\nc t - - s - - - t -\ns - s c t - t s c s\nt c t - - c - - - -\ns - s c t s t c t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/110.a.htm"
+    },
+    "111_8x8": {
+      "id": "111_8x8",
+      "solution": "8 8\ns - - - t s c -\nc - t s c - t s\nt s c - t s - c\nc - t - c - - t\ns - c - s t c s\nc t s t c - - t\n- - c - s t s c\ns t s - - c - t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/111.a.htm"
+    },
+    "112_8x8": {
+      "id": "112_8x8",
+      "solution": "8 8\nt c s - - t - s\ns - t c - s - c\nt c - s t c - s\n- s t c - s - t\nt c - s - t - c\ns - t c - c s t\nt - s - - - - c\nc - c t s c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/112.a.htm"
+    },
+    "113_8x8": {
+      "id": "113_8x8",
+      "solution": "8 8\nt - t c s t s t\ns c s - - c - c\nt - - c s t - -\ns c s t - c s c\n- t - c s - - t\nc - s t - t s c\ns t c - s c - t\nc - s t - t s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/113.a.htm"
+    },
+    "114_8x8": {
+      "id": "114_8x8",
+      "solution": "8 8\n- t s t c s c t\n- c - - - t - s\ns - t c s c - c\nt c s - - t s t\ns - t - - - c -\nc - c s c - t s\ns - t - t - c -\nt c s c s - s t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/114.a.htm"
+    },
+    "115_10x10": {
+      "id": "115_10x10",
+      "solution": "10 10\n- c t s t s - c t s\nt s - - c - t s - c\nc - c t - s - c t s\ns t s - c t - s - c\nc - c t - s - t - t\nt - s - c t c s c s\ns c t - s - - t - t\nt - s c t c s c s c\ns - - - - - t - - -\nc t s c t s c s t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/115.a.htm"
+    },
+    "116_10x10": {
+      "id": "116_10x10",
+      "solution": "10 10\nt s t s t s c s c t\nc - c - c - t - - s\nt - t s t - c s t c\nc - c - c s t - - s\ns - s t - - - c - t\nc t - c s c s t s c\ns - s t - t - c - t\nt - c - s c - t - s\n- s - t - t - s c -\nc t c s c s c - t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/116.a.htm"
+    },
+    "117_10x10": {
+      "id": "117_10x10",
+      "solution": "10 10\nt c t c t c s - - t\ns - s - s - t c - s\nc t - c t c s - t c\n- s - s - - t c - s\n- c t c t c - s t c\nt s - s - s t c - s\nc - t c t - - s t c\ns - - s - c t c - s\n- c - - - s - s - t\ns t s t c t c t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/117.a.htm"
+    },
+    "118_10x10": {
+      "id": "118_10x10",
+      "solution": "10 10\nc t s - s t - s c t\ns - c t c - c t - s\nt - s - s t s - c -\n- c - - - c - - s t\nt s t c s t s t - c\n- c - - - c - c - s\nt - t s t - - s - t\nc s c - c s c t c s\n- t - s - t - s - t\n- s c t c s c t - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/118.a.htm"
+    },
+    "119_12x12": {
+      "id": "119_12x12",
+      "solution": "12 12\nt c t c s t c - s t c -\ns - - - - - s t c - s -\nc - - - t c - - - - c t\ns t s c s - t - s - s -\n- c - t - - s c t - t -\nt s - - s c - - s c s -\n- c t c t - - t - t - -\n- s - - - c s c - s - t\n- c t c s t - t - c - c\ns - s - - c s - - t s t\nt c t - t - t c - c - c\ns - s c s c - s - t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/119.a.htm"
+    },
+    "120_12x12": {
+      "id": "120_12x12",
+      "solution": "12 12\nt - s t - t s c s t c t\ns c - c - c - - - - s -\n- t s t - s - t c t c -\ns c - c - - - s - s - s\nt - t s t - - - t c t c\nc - c - c - s - s - s -\ns t s t s t c t c t - -\n- c - - - - - s - s c -\n- s t s - c - t - - - t\nt c - c t s - c - - - c\ns - - s - - t - - c t s\nc - - c t c s c t s - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/120.a.htm"
+    },
+    "121_8x8": {
+      "id": "121_8x8",
+      "solution": "8 8\nt s t c s - - t\n- c - - t c s c\ns - t c s - t -\nt c s - t - c s\ns - t c - s - -\nt c - s t c - t\ns - - - - s - c\nc t s c - c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/121.a.htm"
+    },
+    "122_8x8": {
+      "id": "122_8x8",
+      "solution": "8 8\ns t s t c - c t\nc - c - - - - s\nt - t s t s - t\ns - - c - c - c\nc t s t s - s t\ns - c - c t c -\nc - s - s - - -\ns t c t c t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/122.a.htm"
+    },
+    "123_8x8": {
+      "id": "123_8x8",
+      "solution": "8 8\ns c s - - - c t\nt - t - c t - s\ns - s - s - - c\nt c t c t c s t\n- - - s - - - c\ns t c t c s t s\nc - s - - - - c\ns t c t c t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/123.a.htm"
+    },
+    "124_8x8": {
+      "id": "124_8x8",
+      "solution": "8 8\nc - c - c - - s\nt - t s t s t c\ns - - c - c - s\nc t - s - t - t\n- s c t - - c s\nt - - s c s - t\ns c t - t - - s\nt - s c s c t c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/124.a.htm"
+    },
+    "125_10x10": {
+      "id": "125_10x10",
+      "solution": "10 10\nc s - c - c s t c s\nt - - t s t - - - t\ns c s c - c s t - -\n- t - t - t - c s c\nc s c s c s - - - t\nt - t - t - c s c s\ns c s c s - - t - t\n- t - - t - c s c s\nc - - - s - - t - t\nt s c t c t s - s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/125.a.htm"
+    },
+    "126_10x10": {
+      "id": "126_10x10",
+      "solution": "10 10\nt s c t c s t c - s\nc - - s - - - s t c\nt s t c - c t c - s\n- - - s t s - s - -\nt s t - c - t c t c\nc - c s - - s - s -\ns t - t c t c t c t\n- c s - s - s - s -\ns t - t c - - - c t\nc - c s - t c t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/126.a.htm"
+    },
+    "127_10x10": {
+      "id": "127_10x10",
+      "solution": "10 10\nc t c s c t s t s -\n- s - t - - c - - c\n- c - c s - t - t s\ns t s t - c s c - c\nc - c - - t - t - t\nt s t s - s c s c s\nc - - c t - t - t -\ns t s - - s c - s c\n- c - - - t - t - t\nt s t c s c - s c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/127.a.htm"
+    },
+    "128_10x10": {
+      "id": "128_10x10",
+      "solution": "10 10\nt c s - s - - s t c\ns - t c t c t - - s\nc - - - - s - s c t\nt s c s - c t - - s\nc - t - t - s c t c\nt s c s c - t - - s\nc - - t - s c s c t\ns t s c - t - t - -\nc - - - - s - c - c\nt - c s t c t s t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/128.a.htm"
+    },
+    "129_12x12": {
+      "id": "129_12x12",
+      "solution": "12 12\nt - t s c s t - - - - t\nc - c - - - c s t - - c\ns - s - c - t - c s t s\nt - t - t - - - - - c -\ns c s - s c s c s t s -\nt - - - - - t - - c - c\nc s t - - s c - - s t s\nt - - - c t - t - - - c\ns - c s - s - s - - t -\nc - - t c t c t - s c -\n- s - s - s - s c t - s\nc t c t c t c t - s c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/129.a.htm"
+    },
+    "130_12x12": {
+      "id": "130_12x12",
+      "solution": "12 12\nt - t c - s - - - t s t\ns c s - - c t c s c - c\n- - t c s - - - - t - -\n- s - - t - - c s c s c\nt c t s c s - t - - t -\ns - - - - t c s - s c s\nt c t c s - - t c t - t\ns - s - t c - s - - - s\n- c t c s - - c - - - c\nt s - - - - s t - - s t\nc - c - c t - - s t c -\ns t s t - s c t c - - -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/130.a.htm"
+    },
+    "131_8x8": {
+      "id": "131_8x8",
+      "solution": "8 8\ns t c s c t - s\nc - - t - s c t\nt s c s c - - s\nc - t - t - - c\nt s c s c s - t\nc - t - t - c s\ns - s c s - - t\nt c - t - t s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/131.a.htm"
+    },
+    "132_8x8": {
+      "id": "132_8x8",
+      "solution": "8 8\nt c t c s c s t\ns - s - - t - c\nc - t - c s - s\nt s c - - t c t\nc - - - - s - s\nt - s c t c t c\ns c t - - - s -\n- - s - s t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/132.a.htm"
+    },
+    "133_8x8": {
+      "id": "133_8x8",
+      "solution": "8 8\nt c s c t - c -\ns - - - s - t s\nt - c t c - - c\ns - s - - t s t\nt c t c s c - c\n- - s - t - - s\nc - t - c s - t\nt s c s - t c s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/133.a.htm"
+    },
+    "134_8x8": {
+      "id": "134_8x8",
+      "solution": "8 8\nt s - c - s - -\nc - t s - c t c\nt s c - t - - s\nc - t s c s c t\nt s c - - t - s\nc - t s c s - c\nt - - - - t - t\ns - s t c s - c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/134.a.htm"
+    },
+    "135_10x10": {
+      "id": "135_10x10",
+      "solution": "10 10\ns c s - - s t c s t\nt - t c t c - - - c\n- c s - - s - c t s\ns t - c t c t s - c\n- c s - s - - - - t\ns - - t c t c t c s\nc t s - - - s - - t\ns - c t s t c t - s\nc - - - c - s - - c\nt s c t s t c t s -",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/135.a.htm"
+    },
+    "136_10x10": {
+      "id": "136_10x10",
+      "solution": "10 10\nt s t c t c - - - s\nc - - - s - - s c t\ns t c t c t c t - s\n- - - s - s - s c t\nc s c t c t c t - -\n- t - - s - - s c s\ns - s c t - t - - t\nc - t - s c s c - s\nt - - c - - - t - t\nc s t s t c s c s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/136.a.htm"
+    },
+    "137_10x10": {
+      "id": "137_10x10",
+      "solution": "10 10\nc t c t s c t c - s\ns - s - - - s - t c\nc - - c s t c - s -\n- t - t - - - t c t\ns c - s c s c s - s\n- t - t - t - t c t\nc s c - c s c s - s\nt - t s t - t - t c\ns c - - c - - s - s\n- t s - - s c t c t",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/137.a.htm"
+    },
+    "138_10x10": {
+      "id": "138_10x10",
+      "solution": "10 10\ns t c t c - s t c s\nc - s - s t - - - t\nt - t c - c - c s c\ns c s - s - s t - t\nt - t - c t - - c s\nc s c s - s c - - t\n- - - t - t - s c s\ns t c s c s c t - t\nc - - - t - - s - c\nt s t c s c t c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/138.a.htm"
+    },
+    "139_12x12": {
+      "id": "139_12x12",
+      "solution": "12 12\nt c - - - c - t - - - -\ns - - c s t - s - - t -\nc t s t - - c t c s c s\ns - - - c t - s - - - t\nt c s t - s - - t - - c\ns - - c - t - - c - - s\nc t s t s c s t s t - t\ns - - c - t - c - c s c\nt c - t s c - s - - t -\ns - s c - t - c - s c s\nc - - - - s - s - - t -\n- t s t c t c - t c s c",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/139.a.htm"
+    },
+    "140_12x12": {
+      "id": "140_12x12",
+      "solution": "12 12\n- c s c s t s t - - s t\n- t - - - c - c - c - c\nc s - s t s - - t s t s\nt - t c - c t s - c - -\ns c - s t s - c - t - c\nt - t - - c - s - s - t\nc - s - - t - - - t c s\ns - c t c s c t c s - t\n- t s - - t - - - t c -\n- - c - s c s c s - s t\nc t s t - - - - - - - c\n- - - - - - s c t c t s",
+      "source": "https://www.janko.at/Raetsel/Hakoiri/140.a.htm"
+    }
+  }
+}

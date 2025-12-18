@@ -128,7 +128,7 @@ A detailed list of available datasets, solvers, and crawlers is provided below.
 | 48  | Magnetic          | 439       | 439       | 12x12    | ✅       | ✅        |
 | 49  | Makaro            | 190       | 190       | 15x15    | ❌       | ✅        |
 | 50  | MarginSudoku      | 149       | 149       | 9x9      | ❌       | ✅        |
-| 51  | Masyu             | 828       | 828       | 40x58    | ❌       | ✅        |
+| 51  | Masyu             | 828       | 828       | 40x58    | ✅       | ✅        |
 | 52  | Maze-a-pix        | -         | -         | -        | ❌       | ❌        |
 | 53  | Minesweeper       | 360       | 360       | 14x24    | ✅       | ✅        |
 | 54  | MoonSun           | 200       | 200       | 30x45    | ❌       | ✅        |

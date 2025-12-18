@@ -39,6 +39,8 @@ from Common.Verifier.PuzzleVerifiers.DoubleBackVerifier import DoubleBackVerifie
 from Common.Verifier.PuzzleVerifiers.CountryRoadVerifier import CountryRoadVerifier
 from Common.Verifier.PuzzleVerifiers.YajilinVerifier import YajilinVerifier
 from Common.Verifier.PuzzleVerifiers.TerraXVerifier import TerraXVerifier
+from Common.Verifier.PuzzleVerifiers.DetourVerifier import DetourVerifier
+from Common.Verifier.PuzzleVerifiers.MasyuVerifier import MasyuVerifier
 
 class VerifierFactory:
     
@@ -96,7 +98,9 @@ class VerifierFactory:
         "DoubleBack": DoubleBackVerifier,
         "CountryRoad": CountryRoadVerifier,
         "Yajilin": YajilinVerifier,
-        "TerraX": TerraXVerifier
+        "TerraX": TerraXVerifier,
+        "Detour": DetourVerifier,
+        "Masyu": MasyuVerifier
 
         
     }

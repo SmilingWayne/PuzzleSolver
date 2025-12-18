@@ -51,6 +51,8 @@ from DoubleBackSolver import DoubleBackSolver
 from CountryRoadSolver import CountryRoadSolver
 from YajilinSolver import YajilinSolver
 from TerraXSolver import TerraXSolver
+from DetourSolver import DetourSolver
+from MasyuSolver import MasyuSolver
 
 from typing import Dict, Any
 
@@ -112,8 +114,9 @@ class SolverFactory:
         "DoubleBack": DoubleBackSolver,
         "CountryRoad": CountryRoadSolver,
         "Yajilin": YajilinSolver,
-        "TerraX": TerraXSolver
-
+        "TerraX": TerraXSolver,
+        "Detour": DetourSolver,
+        "Masyu": MasyuSolver
 
     }
     

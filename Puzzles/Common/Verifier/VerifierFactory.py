@@ -37,6 +37,8 @@ from Common.Verifier.PuzzleVerifiers.HitoriVerifier import HitoriVerifier
 from Common.Verifier.PuzzleVerifiers.EntryExitVerifier import EntryExitVerifier
 from Common.Verifier.PuzzleVerifiers.DoubleBackVerifier import DoubleBackVerifier
 from Common.Verifier.PuzzleVerifiers.CountryRoadVerifier import CountryRoadVerifier
+from Common.Verifier.PuzzleVerifiers.YajilinVerifier import YajilinVerifier
+from Common.Verifier.PuzzleVerifiers.TerraXVerifier import TerraXVerifier
 
 class VerifierFactory:
     
@@ -92,7 +94,9 @@ class VerifierFactory:
         "Hitori": HitoriVerifier,
         "EntryExit": EntryExitVerifier,
         "DoubleBack": DoubleBackVerifier,
-        "CountryRoad": CountryRoadVerifier
+        "CountryRoad": CountryRoadVerifier,
+        "Yajilin": YajilinVerifier,
+        "TerraX": TerraXVerifier
 
         
     }

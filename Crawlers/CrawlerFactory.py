@@ -59,6 +59,11 @@ from HidokuCrawler import HidokuCrawler
 from HakoiriCrawler import HakoiriCrawler
 from ShugakuCrawler import ShugakuCrawler
 from ShimaguniCrawler import ShimaguniCrawler
+from ShingokiCrawler import ShingokiCrawler
+from ShirokuroCrawler import ShirokuroCrawler
+from RegionalYajilinCrawler import RegionalYajilinCrawler
+from ConsecutiveSudokuCrawler import ConsecutiveSudokuCrawler
+from MarginSudokuCrawler import MarginSudokuCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -126,6 +131,11 @@ class CrawlerFactory:
         "Hakoiri": HakoiriCrawler,
         "Shugaku": ShugakuCrawler,
         "Shimaguni": ShimaguniCrawler,
+        "Shingoki": ShingokiCrawler,
+        "Shirokuro": ShirokuroCrawler,
+        "RegionalYajilin": RegionalYajilinCrawler,
+        "ConsecutiveSudoku": ConsecutiveSudokuCrawler,
+        "MarginSudoku": MarginSudokuCrawler
     }
     
     @classmethod

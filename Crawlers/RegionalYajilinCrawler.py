@@ -1,0 +1,3 @@
+from JuosanCrawler import JuosanCrawler
+
+RegionalYajilinCrawler = JuosanCrawler

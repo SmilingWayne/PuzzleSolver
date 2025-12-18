@@ -49,6 +49,8 @@ from Common.Parser.PuzzleParsers.HitoriParser import HitoriParser
 from Common.Parser.PuzzleParsers.EntryExitParser import EntryExitParser
 from Common.Parser.PuzzleParsers.DoubleBackParser import DoubleBackParser
 from Common.Parser.PuzzleParsers.CountryRoadParser import CountryRoadParser
+from Common.Parser.PuzzleParsers.YajilinParser import YajilinParser
+from Common.Parser.PuzzleParsers.TerraXParser import TerraXParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -105,6 +107,8 @@ class ParserFactory:
         "EntryExit": EntryExitParser,
         "DoubleBack": DoubleBackParser,
         "CountryRoad": CountryRoadParser,
+        "Yajilin": YajilinParser,
+        "TerraX": TerraXParser
         
     }
     

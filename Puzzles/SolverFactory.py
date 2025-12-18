@@ -49,6 +49,8 @@ from HitoriSolver import HitoriSolver
 from EntryExitSolver import EntryExitSolver
 from DoubleBackSolver import DoubleBackSolver
 from CountryRoadSolver import CountryRoadSolver
+from YajilinSolver import YajilinSolver
+from TerraXSolver import TerraXSolver
 
 from typing import Dict, Any
 
@@ -109,6 +111,8 @@ class SolverFactory:
         "EntryExit": EntryExitSolver,
         "DoubleBack": DoubleBackSolver,
         "CountryRoad": CountryRoadSolver,
+        "Yajilin": YajilinSolver,
+        "TerraX": TerraXSolver
 
 
     }

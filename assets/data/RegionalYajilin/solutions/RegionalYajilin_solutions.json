@@ -1,0 +1,355 @@
+{
+  "count": 70,
+  "solutions": {
+    "01_8x8": {
+      "id": "01_8x8",
+      "solution": "8 8\nx se ew ew ew ew ew sw\nse nw se ew ew sw x ns\nns x ne sw x ne sw ns\nne sw x ne sw x ns ns\nx ne ew sw ne sw ne nw\nse sw x ns x ne sw x\nns ne ew nw se sw ne sw\nne ew ew ew nw ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "solution": "10 10\nse ew sw x se ew ew ew ew sw\nns x ne ew nw x se ew sw ns\nns se sw x se ew nw x ne nw\nns ns ne ew nw x se ew sw x\nns ne sw x se ew nw x ne sw\nns se nw se nw x se ew sw ns\nns ns se nw se ew nw x ne nw\nns ne nw x ns x se ew sw x\nns x se sw ne ew nw x ne sw\nne ew nw ne ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/002.a.htm"
+    },
+    "03_7x13": {
+      "id": "03_7x13",
+      "solution": "7 13\nse ew sw x se ew ew sw x se ew sw x\nne sw ne sw ne sw x ne ew nw x ne sw\nse nw se nw x ne ew sw x se ew sw ns\nns x ns x se sw x ne ew nw x ns ns\nne sw ne ew nw ne ew sw x se ew nw ns\nse nw x se ew sw x ne ew nw x se nw\nne ew ew nw x ne ew ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\nse sw se ew ew ew ew ew sw x\nns ne nw x se ew sw x ne sw\nne sw x se nw x ne ew sw ns\nx ne ew nw se ew sw x ns ns\nse sw x se nw x ne ew nw ns\nns ne ew nw x se sw x se nw\nne sw x se ew nw ne ew nw x\nse nw se nw x se sw x se sw\nne sw ne ew ew nw ne ew nw ns\nx ne ew ew ew ew ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/004.a.htm"
+    },
+    "05_6x6": {
+      "id": "05_6x6",
+      "solution": "6 6\nse ew sw x se sw\nns x ns se nw ns\nne sw ne nw x ns\nx ns x se sw ns\nse nw se nw ns ns\nne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/005.a.htm"
+    },
+    "06_10x10": {
+      "id": "06_10x10",
+      "solution": "10 10\nx se ew sw se ew sw x se sw\nse nw x ne nw se nw se nw ns\nns x se sw x ns x ns x ns\nne sw ns ne sw ne ew nw se nw\nx ne nw x ne sw x se nw x\nse sw x se ew nw se nw se sw\nns ns se nw x se nw x ns ns\nns ne nw x se nw se ew nw ns\nns x se sw ne ew nw x se nw\nne ew nw ne ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/006.a.htm"
+    },
+    "07_10x18": {
+      "id": "07_10x18",
+      "solution": "10 18\nse ew sw se ew sw x se ew ew ew ew sw x se ew ew sw\nne sw ne nw se nw se nw se ew sw se nw se nw x se nw\nx ns x se nw se nw x ns x ns ns x ns x se nw x\nse nw se nw x ns x se nw se nw ns se nw se nw se sw\nns se nw x se nw se nw x ns x ne nw x ns x ns ns\nns ns x se nw x ne ew sw ne sw x se sw ns se nw ns\nns ne ew nw x se ew ew nw x ne ew nw ns ne nw x ns\nne sw x se sw ne ew sw x se sw x se nw x se sw ns\nse nw se nw ns x se nw se nw ne ew nw x se nw ns ns\nne ew nw x ne ew nw x ne ew ew ew ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/007.a.htm"
+    },
+    "08_10x10": {
+      "id": "08_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ne ew sw x ns\nne sw ne ew sw x se nw se nw\nx ns x se nw se nw x ns x\nse nw se nw x ne ew sw ne sw\nns x ns se ew sw se nw x ns\nne sw ne nw x ne nw se sw ns\nse nw x se ew sw se nw ns ns\nne ew ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/008.a.htm"
+    },
+    "09_10x10": {
+      "id": "09_10x10",
+      "solution": "10 10\nse ew sw se ew sw x se ew sw\nns x ne nw x ne sw ne sw ns\nne sw x se sw x ne sw ns ns\nse nw se nw ne sw x ne nw ns\nns x ne sw x ne sw x se nw\nne sw x ne sw x ne sw ne sw\nse nw se ew nw se ew nw se nw\nns x ne sw x ne sw x ne sw\nne sw x ne ew sw ne sw x ns\nx ne ew ew ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/009.a.htm"
+    },
+    "10_10x10": {
+      "id": "10_10x10",
+      "solution": "10 10\nse ew ew sw x se ew ew ew sw\nne sw x ne sw ne sw x se nw\nx ns se ew nw x ne sw ns x\nse nw ns x se ew sw ns ne sw\nns x ne ew nw x ne nw x ns\nne ew sw x se ew sw x se nw\nx se nw se nw x ne sw ne sw\nse nw x ns x se ew nw x ns\nns se sw ne sw ne sw x se nw\nne nw ne ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "solution": "10 10\nse ew sw x se sw x se ew sw\nns se nw se nw ne sw ns x ns\nns ns x ne sw x ne nw se nw\nns ne sw x ne sw x se nw x\nne sw ne ew sw ne sw ne ew sw\nx ne sw x ns se nw x se nw\nse sw ne sw ne nw x se nw x\nns ns x ns x se sw ne ew sw\nns ne ew nw se nw ns x se nw\nne ew ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ne ew sw x ns\nne sw ne ew ew ew ew nw se nw\nse nw x se ew sw x se nw x\nns se ew nw x ne ew nw se sw\nns ns x se ew sw x se nw ns\nns ne ew nw x ne ew nw x ns\nne sw x se ew sw x se sw ns\nx ne ew nw x ne ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ns se nw x ne ew nw ns\nns x ne nw x se ew sw x ns\nne sw x se sw ne sw ne sw ns\nse nw se nw ns x ns x ns ns\nns x ns x ns se nw se nw ns\nne sw ne sw ne nw se nw se nw\nx ns x ne sw x ns x ns x\nse nw se sw ne sw ne sw ne sw\nne ew nw ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "solution": "10 10\nse ew sw x se sw x se ew sw\nns x ne sw ns ne sw ns x ns\nne sw x ne nw x ne nw se nw\nx ne ew sw se sw x se nw x\nse sw x ne nw ne sw ns se sw\nns ne sw x se sw ns ne nw ns\nns x ne sw ns ne nw x se nw\nne sw x ne nw x se sw ns x\nse nw se sw x se nw ns ne sw\nne ew nw ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/014.a.htm"
+    },
+    "15_10x18": {
+      "id": "15_10x18",
+      "solution": "10 18\nx se ew ew ew ew sw x se ew sw x se ew sw x se sw\nse nw x se ew sw ne ew nw x ne ew nw x ne sw ns ns\nns x se nw x ns x se ew sw x se ew sw x ne nw ns\nns se nw x se nw se nw x ne sw ne sw ne sw x se nw\nns ns x se nw se nw se ew sw ne sw ne sw ne sw ns x\nns ne sw ne ew nw se nw se nw x ne sw ns x ns ne sw\nne sw ne sw x se nw x ns x se sw ne nw se nw se nw\nx ns x ne ew nw x se nw se nw ns x se nw x ne sw\nse nw se ew sw x se nw se nw x ne ew nw x se sw ns\nne ew nw x ne ew nw x ne ew ew ew ew ew ew nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/015.a.htm"
+    },
+    "16_8x8": {
+      "id": "16_8x8",
+      "solution": "8 8\nse ew sw x se ew ew sw\nns x ne sw ne sw x ns\nne sw x ns x ns se nw\nse nw se nw se nw ns x\nns x ns x ns x ne sw\nne sw ne sw ne sw x ns\nse nw x ne ew nw se nw\nne ew ew ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/016.a.htm"
+    },
+    "17_10x11": {
+      "id": "17_10x11",
+      "solution": "10 11\nse ew ew sw se ew sw x se ew sw\nne ew sw ne nw se nw se nw se nw\nx se nw x se nw se nw se nw x\nse nw x se nw x ns x ne ew sw\nns x se nw se sw ne sw x se nw\nne sw ns x ns ns x ne sw ns x\nx ns ne sw ns ne sw x ns ne sw\nse nw x ne nw x ne ew nw x ns\nns se ew sw x se sw se ew sw ns\nne nw x ne ew nw ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "solution": "10 10\nse ew sw se ew ew sw x se sw\nns x ne nw x se nw se nw ns\nne sw x se ew nw x ne sw ns\nse nw se nw x se sw x ns ns\nns x ns x se nw ne ew nw ns\nne sw ne sw ne ew sw x se nw\nse nw se nw x se nw se nw x\nns x ne ew ew nw x ne ew sw\nns se sw x se ew sw x se nw\nne nw ne ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/018.a.htm"
+    },
+    "19_10x10": {
+      "id": "19_10x10",
+      "solution": "10 10\nse sw se ew sw x se sw se sw\nns ne nw x ne sw ns ne nw ns\nns x se sw x ne nw x se nw\nne sw ns ne sw x se ew nw x\nx ne nw x ne sw ns x se sw\nse sw x se sw ns ne ew nw ns\nns ne sw ns ne nw x se ew nw\nns x ne nw x se sw ne sw x\nns se sw x se nw ns x ne sw\nne nw ne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/019.a.htm"
+    },
+    "20_10x10": {
+      "id": "20_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw se ew nw se nw x ne sw\nns x ne sw x ns x se ew nw\nne sw x ne sw ne sw ne sw x\nx ne sw x ns x ns x ne sw\nse ew nw se nw se nw se ew nw\nne sw x ns x ne sw ne sw x\nx ne sw ne ew ew nw x ne sw\nse ew nw x se ew sw se sw ns\nne ew ew ew nw x ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/020.a.htm"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ns se nw x ne sw\nne sw ne nw se sw se nw\nx ns x se nw ns ns x\nse nw se nw x ns ne sw\nns x ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/021.a.htm"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ns se nw x ne sw\nns x ne nw se sw se nw\nne sw x se nw ns ns x\nx ns se nw x ns ne sw\nse nw ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw se nw\nx ns ne sw x ns ns x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw x se nw\nx ns ne sw ne sw ns x\nse nw x ns x ns ne sw\nne sw se nw se nw x ns\nx ne nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/024.a.htm"
+    },
+    "25_8x8": {
+      "id": "25_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw se sw se nw\nne nw x ne nw ns ns x\nx se ew sw x ns ne sw\nse nw x ne ew nw x ns\nns se ew sw se ew sw ns\nne nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/025.a.htm"
+    },
+    "26_8x8": {
+      "id": "26_8x8",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw x ns\nx ns ne sw x ns se nw\nse nw x ne sw ns ns x\nns x se sw ne nw ne sw\nne sw ns ne sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/026.a.htm"
+    },
+    "27_10x10": {
+      "id": "27_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew ew sw\nse nw x se nw se nw x se nw\nns x se nw x ns x se nw x\nne sw ne ew sw ne sw ne ew sw\nx ne sw x ne ew nw x se nw\nse sw ne sw x se ew sw ns x\nns ne sw ns se nw x ns ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/027.a.htm"
+    },
+    "28_10x10": {
+      "id": "28_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ns se sw x ns\nne sw ne ew ew nw ns ne sw ns\nx ne ew sw x se nw x ne nw\nse sw x ne sw ns se ew sw x\nns ne sw x ns ne nw x ne sw\nns x ne ew nw x se sw x ns\nne sw x se ew sw ns ne sw ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/028.a.htm"
+    },
+    "29_10x10": {
+      "id": "29_10x10",
+      "solution": "10 10\nx se ew ew sw x se ew sw x\nse nw x se nw se nw x ne sw\nns x se nw x ns se sw x ns\nne sw ns x se nw ns ne sw ns\nx ns ne ew nw x ns x ne nw\nse nw x se ew sw ne ew sw x\nne ew sw ne sw ne ew sw ne sw\nse ew nw x ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/029.a.htm"
+    },
+    "30_10x10": {
+      "id": "30_10x10",
+      "solution": "10 10\nx se ew sw x se sw x se sw\nse nw x ne ew nw ns se nw ns\nns x se ew sw x ne nw x ns\nns se nw se nw se sw x se nw\nne nw x ne ew nw ns se nw x\nx se ew sw x se nw ns se sw\nse nw x ne sw ns x ne nw ns\nns x se sw ne nw se sw x ns\nne sw ns ns x se nw ns se nw\nx ne nw ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/030.a.htm"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nne sw ne ew nw x ne sw\nx ne ew sw x se sw ns\nse sw x ne sw ns ne nw\nns ne sw x ns ne sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/031.a.htm"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "solution": "8 8\nse ew ew sw x se ew sw\nne sw x ne sw ns x ns\nx ne ew sw ne nw se nw\nse sw x ne sw x ns x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw se ew sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/032.a.htm"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "solution": "8 8\nx se ew ew sw x se sw\nse nw x se nw se nw ns\nns x se nw x ns x ns\nne sw ns x se nw se nw\nx ns ns se nw x ns x\nse nw ne nw se sw ne sw\nne sw x se nw ns x ns\nx ne ew nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne ew sw x ne nw x ns\nx se nw se sw x se nw\nse nw se nw ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/034.a.htm"
+    },
+    "35_8x8": {
+      "id": "35_8x8",
+      "solution": "8 8\nse sw x se ew ew sw x\nns ne sw ne sw x ne sw\nne sw ns x ne sw se nw\nx ns ne sw x ns ns x\nse nw x ne sw ns ne sw\nns x se sw ne nw x ns\nne sw ns ne sw se sw ns\nx ne nw x ne nw ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/035.a.htm"
+    },
+    "36_10x10": {
+      "id": "36_10x10",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ne sw ns ne ew nw x ne sw\nns x ne nw x se ew sw x ns\nne sw x se sw ns x ne sw ns\nx ne ew nw ns ne sw x ne nw\nse sw x se nw x ne ew sw x\nns ne sw ns se ew ew sw ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/036.a.htm"
+    },
+    "37_10x10": {
+      "id": "37_10x10",
+      "solution": "10 10\nse ew sw se sw x se ew sw x\nns x ne nw ne ew nw x ne sw\nne sw x se ew sw x se ew nw\nx ne ew nw x ne sw ne sw x\nse sw x se sw x ns x ne sw\nns ns se nw ns se nw se ew nw\nns ne nw x ne nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/037.a.htm"
+    },
+    "38_10x10": {
+      "id": "38_10x10",
+      "solution": "10 10\nse ew ew ew sw x se ew ew sw\nne ew sw x ne ew nw x se nw\nx se nw se ew sw x se nw x\nse nw se nw x ne sw ne ew sw\nns x ne ew sw x ns x se nw\nne sw x se nw se nw se nw x\nx ns se nw se nw x ne ew sw\nse nw ns x ns x se sw x ns\nns x ne sw ne sw ns ns se nw\nne ew ew nw x ne nw ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/038.a.htm"
+    },
+    "39_10x10": {
+      "id": "39_10x10",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ns se nw ns se nw x ne sw\nns ne nw x ne nw se sw x ns\nns x se ew sw x ns ns se nw\nne sw ns x ne sw ns ne nw x\nx ns ne sw x ne nw x se sw\nse nw x ne ew sw x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw x se ew sw ns\nx ne nw x ne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/039.a.htm"
+    },
+    "40_10x10": {
+      "id": "40_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew ew sw\nse nw x ne ew nw x se ew nw\nns x se ew ew ew sw ne sw x\nns se nw x se ew nw x ne sw\nns ns x se nw x se sw x ns\nne nw se nw x se nw ns se nw\nx se nw x se nw x ns ns x\nse nw x se nw x se nw ne sw\nns x se nw se ew nw x se nw\nne ew nw x ne ew ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "solution": "8 8\nse ew ew sw x se ew sw\nne sw x ne ew nw x ns\nx ne ew sw x se ew nw\nse sw x ne sw ne sw x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "solution": "8 8\nse ew sw x se ew ew sw\nns x ne sw ne sw x ns\nne sw x ns x ns se nw\nx ns se nw se nw ns x\nse nw ns x ne sw ne sw\nns x ne ew ew nw x ns\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/042.a.htm"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ne sw ns x ne sw ns\nse sw ns ne sw x ne nw\nns ne nw x ne ew sw x\nns x se ew sw x ne sw\nne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne ew sw x ne nw x ns\nx se nw se sw x se nw\nse nw x ns ne sw ns x\nns x se nw x ns ne sw\nns se nw se ew nw x ns\nne nw x ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/044.a.htm"
+    },
+    "45_8x8": {
+      "id": "45_8x8",
+      "solution": "8 8\nx se sw x se ew ew sw\nse nw ne sw ne sw x ns\nns x se nw x ns se nw\nne sw ns x se nw ns x\nx ns ns se nw x ne sw\nse nw ne nw se sw x ns\nne sw x se nw ns se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/045.a.htm"
+    },
+    "46_10x10": {
+      "id": "46_10x10",
+      "solution": "10 10\nse ew ew ew sw x se ew sw x\nne sw x se nw se nw x ne sw\nx ne sw ne ew nw x se ew nw\nse ew nw x se ew sw ne sw x\nne sw x se nw x ns x ne sw\nx ne ew nw x se nw se ew nw\nse sw x se ew nw x ne sw x\nns ne ew nw x se sw x ne sw\nns x se ew sw ns ne sw x ns\nne ew nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/046.a.htm"
+    },
+    "47_10x10": {
+      "id": "47_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne sw x ns se nw\nne nw x ns x ne sw ns ns x\nx se sw ne sw x ns ns ne sw\nse nw ns x ne sw ne nw x ns\nns x ne ew ew nw x se sw ns\nne sw x se ew sw se nw ns ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/047.a.htm"
+    },
+    "48_10x10": {
+      "id": "48_10x10",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ns se nw x ne sw ns ns\nns x ne nw se sw x ne nw ns\nne ew sw x ns ne ew sw x ns\nse ew nw se nw x se nw se nw\nne sw x ns x se nw x ns x\nx ne sw ne sw ne ew sw ne sw\nse ew nw x ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/048.a.htm"
+    },
+    "49_10x10": {
+      "id": "49_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw x se ew sw ns\nx ne nw x ne ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/049.a.htm"
+    },
+    "50_10x10": {
+      "id": "50_10x10",
+      "solution": "10 10\nx se ew sw se sw x se sw x\nse nw x ne nw ne ew nw ne sw\nns x se sw x se ew sw x ns\nns se nw ns se nw se nw se nw\nne nw x ne nw x ns x ne sw\nx se ew sw x se nw se ew nw\nse nw x ne ew nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw x se ew nw\nne nw x ne sw ne sw x\nx se sw se nw x ne sw\nse nw ne nw se sw x ns\nne sw x se nw ns se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "solution": "8 8\nx se ew sw se ew sw x\nse nw x ne nw x ne sw\nns x se sw x se ew nw\nne sw ns ne sw ne sw x\nx ns ns x ne sw ne sw\nse nw ne sw x ns x ns\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nne sw ne ew nw x ne sw\nx ne ew sw x se ew nw\nse sw x ne sw ne sw x\nns ne sw x ne sw ne sw\nns x ne ew ew nw x ns\nne sw se ew sw x se nw\nx ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/053.a.htm"
+    },
+    "54_8x8": {
+      "id": "54_8x8",
+      "solution": "8 8\nse ew ew sw x se sw x\nns x se nw se nw ne sw\nne sw ne ew nw x se nw\nx ns x se ew sw ns x\nse nw se nw x ns ne sw\nns x ns x se nw x ns\nns se nw se nw x se nw\nne nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/054.a.htm"
+    },
+    "55_8x8": {
+      "id": "55_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nns se ew sw se sw x ns\nne nw x ne nw ns se nw\nx se sw x se nw ns x\nse nw ne ew nw x ne sw\nne sw x se ew sw se nw\nx ne ew nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/055.a.htm"
+    },
+    "56_10x10": {
+      "id": "56_10x10",
+      "solution": "10 10\nx se sw x se sw x se sw x\nse nw ne sw ns ne sw ns ne sw\nne sw x ne nw x ne nw x ns\nx ne sw x se ew sw x se nw\nse ew nw se nw x ne ew nw x\nne sw x ne ew sw x se ew sw\nx ne ew sw x ne ew nw x ns\nse ew ew nw se sw x se sw ns\nne sw x se nw ns se nw ns ns\nx ne ew nw x ne nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/056.a.htm"
+    },
+    "57_10x10": {
+      "id": "57_10x10",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ne ew nw x ne sw ns ns\nns x se ew ew sw x ne nw ns\nne sw ns x se nw se sw x ns\nx ne nw se nw x ns ns se nw\nse sw x ns x se nw ns ns x\nns ne sw ns se nw x ns ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/057.a.htm"
+    },
+    "58_10x10": {
+      "id": "58_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ns se ew sw x se nw\nx ne nw ne nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/058.a.htm"
+    },
+    "59_10x10": {
+      "id": "59_10x10",
+      "solution": "10 10\nx se sw x se ew sw x se sw\nse nw ne ew nw x ne sw ns ns\nns x se ew ew sw x ne nw ns\nne sw ne sw x ne ew sw x ns\nx ns x ne ew sw x ns se nw\nse nw se sw se nw se nw ns x\nne sw ns ne nw x ne sw ne sw\nx ns ne sw x se ew nw x ns\nse nw x ne sw ne sw x se nw\nne ew ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/059.a.htm"
+    },
+    "60_10x10": {
+      "id": "60_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne sw x ns se nw\nne nw x ns x ne ew nw ns x\nx se ew nw se ew sw x ne sw\nse nw x se nw x ne sw x ns\nns x se nw x se ew nw se nw\nne sw ne ew sw ne sw x ne sw\nx ne ew ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ns se nw se nw se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "solution": "8 8\nx se ew sw x se sw x\nse nw x ne sw ns ne sw\nne sw se sw ne nw x ns\nx ns ns ne sw x se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw x ne sw ne sw ns\nx ne ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "solution": "8 8\nse ew sw x se ew ew sw\nne sw ne ew nw x se nw\nx ne sw x se ew nw x\nse ew nw se nw x se sw\nne sw x ns x se nw ns\nx ne sw ne ew nw x ns\nse ew nw x se ew sw ns\nne ew ew ew nw x ne nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/063.a.htm"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "solution": "8 8\nse ew ew ew sw x se sw\nns x se ew nw se nw ns\nne sw ne sw x ns x ns\nx ns x ne ew nw se nw\nse nw se ew sw x ns x\nns x ns x ne sw ne sw\nns se nw se ew nw x ns\nne nw x ne ew ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/064.a.htm"
+    },
+    "65_8x8": {
+      "id": "65_8x8",
+      "solution": "8 8\nse ew sw x se ew sw x\nns x ne ew nw x ne sw\nne sw x se ew sw x ns\nx ns se nw se nw se nw\nse nw ns x ne sw ns x\nns x ne sw x ns ne sw\nne sw se nw se nw x ns\nx ne nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/065.a.htm"
+    },
+    "66_8x8": {
+      "id": "66_8x8",
+      "solution": "8 8\nx se sw x se ew sw x\nse nw ne ew nw x ne sw\nns x se ew ew sw x ns\nne sw ne sw x ne sw ns\nx ne sw ne sw x ne nw\nse ew nw x ne ew sw x\nns x se ew sw x ne sw\nne ew nw x ne ew ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "solution": "10 10\nx se ew sw x se sw se sw x\nse nw x ne ew nw ns ns ne sw\nns x se ew sw x ne nw x ns\nns se nw x ns se sw x se nw\nne nw x se nw ns ne ew nw x\nx se ew nw x ne sw x se sw\nse nw se ew ew sw ns se nw ns\nns x ne sw x ns ne nw x ns\nne sw x ne sw ne sw x se nw\nx ne ew ew nw x ne ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "solution": "10 10\nx se ew sw x se ew ew sw x\nse nw x ne sw ne sw x ne sw\nns x se sw ns x ne sw x ns\nns se nw ns ne ew ew nw se nw\nne nw x ne sw x se ew nw x\nx se ew sw ns se nw x se sw\nse nw x ne nw ns x se nw ns\nns x se sw x ne ew nw x ns\nne sw ns ne sw se ew sw se nw\nx ne nw x ne nw x ne nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/068.a.htm"
+    },
+    "69_10x10": {
+      "id": "69_10x10",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ns se nw ns se nw x ne sw\nns ne nw x ne nw x se ew nw\nns x se ew sw se sw ne sw x\nne ew nw x ne nw ns x ne sw\nx se ew sw x se nw se ew nw\nse nw x ne ew nw x ne sw x\nns x se sw x se sw x ne sw\nne sw ns ne sw ns ne sw x ns\nx ne nw x ne nw x ne ew nw",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/069.a.htm"
+    },
+    "70_10x10": {
+      "id": "70_10x10",
+      "solution": "10 10\nse sw x se sw x se ew sw x\nns ne sw ns ne ew nw x ne sw\nns x ne nw x se ew sw x ns\nne sw x se sw ns x ne sw ns\nx ne ew nw ns ne sw x ne nw\nse sw x se nw x ne ew sw x\nns ne sw ns se ew ew sw ne sw\nns x ne nw ns x se nw x ns\nne sw x se nw se nw x se nw\nx ne ew nw x ne ew ew nw x",
+      "source": "https://www.janko.at/Raetsel/Yajilin-Regional/070.a.htm"
+    }
+  }
+}

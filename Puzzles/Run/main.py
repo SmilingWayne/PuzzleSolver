@@ -59,7 +59,9 @@ if __name__ == "__main__":
         "EntryExit",
         "DoubleBack",
         "CountryRoad",
-        "TilePaint"
+        "TilePaint",
+        "Yajilin",
+        "TerraX"
 
     ]
     
@@ -122,9 +124,9 @@ if __name__ == "__main__":
                     # print(solution_dict['grid'])
                     # print("===")
                     # print(sol_dict['grid'])
-            # if puzzle_id == "e7rv7_15x15":
+            # if puzzle_id == "62_8x8":
             #     print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
-                # break
+            #     break
             # break
         toc = time.perf_counter()
         print("Time:", (toc-tic), "s")

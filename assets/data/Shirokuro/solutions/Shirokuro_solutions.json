@@ -1,0 +1,555 @@
+{
+  "count": 110,
+  "solutions": {
+    "01_10x10": {
+      "id": "01_10x10",
+      "solution": "10 10\ne ew w s e ew w - s -\ne ew w n - e w s ns -\ne w s e ew w s n ns s\ns - n - - - n - n ns\nns e w s e w s s - n\nn s - n - - ns n e w\ns ns s s - s n e ew w\nns ns ns n - ns - - e w\nn n n e w ns e ew ew w\ne ew ew ew w n - e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "solution": "10 10\n- e ew w - - s - e w\ns e w e ew w ns - - -\nns - s e w s n - e w\nns s ns - - n - s - -\nns n ns - - s s ns s s\nns s n - - ns n ns n ns\nns ns e ew w ns s ns s ns\nns n s - - ns ns ns n n\nns - n - - ns n ns e w\nn - e ew w n - n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "solution": "10 10\n- - e ew ew w s e ew w\n- e ew ew w - ns - - -\ne ew w - - s ns - e w\ne w - - s n ns - s -\ns - e w ns - ns s ns -\nn e ew w n - ns ns ns s\n- s s - - - ns ns n n\n- ns n e ew w ns n s -\n- n e ew w - ns s ns s\n- e w e w - n n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "solution": "10 10\ns - e ew w - - s e w\nn s - s e w - n - s\ns n s ns - e ew ew w ns\nn - n ns e ew ew w s n\ne ew w n - - e w ns -\n- e w - s - - s n -\ns e ew w ns - - ns s -\nn - s - n - s n n -\ns - n - s - n e ew w\nn - e w n e w e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "solution": "10 10\ne ew w s s e ew ew ew w\ne w s ns ns s e ew w -\n- s ns n n ns - e ew w\ns n ns - s n s s e w\nns - n s n s n ns - -\nns e w ns s ns s ns s s\nns s - ns ns ns ns ns ns ns\nns ns s n n n n ns ns n\nns ns n e ew ew w ns n -\nn n e w e ew w n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/005.a.htm"
+    },
+    "06_12x12": {
+      "id": "06_12x12",
+      "solution": "12 12\n- s - s - e ew w e ew ew w\n- ns s n - e ew ew w - - -\ns ns n e ew w - e w s - -\nn n e ew w e ew w - ns e w\ne ew w e w s - s - n - -\ns e w s - n s ns - - s s\nns s - ns e w n n - s ns ns\nn ns s ns - e ew ew w ns ns ns\n- n n n - - - - - n ns ns\n- - - - e ew ew ew ew w ns ns\ne ew ew w - e ew ew w - ns ns\n- - e ew ew w - - e w n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/006.a.htm"
+    },
+    "07_12x12": {
+      "id": "07_12x12",
+      "solution": "12 12\n- s - e ew w e ew ew w s s\n- n - - - - e w - s ns n\ne w - s e ew w e w ns ns -\n- s - ns e ew ew w - n ns -\n- ns - n - - s - e w ns -\n- ns e ew ew w n s - - ns s\n- n - s e ew w ns - - ns ns\ns - s n s - - n s - n n\nns - n - n e w s ns - e w\nn e w s e ew w ns ns e w s\ne ew w n - e w n ns - - n\ne w e ew ew w - - n - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/007.a.htm"
+    },
+    "08_12x12": {
+      "id": "08_12x12",
+      "solution": "12 12\n- - e w e ew ew w - s - -\ns e ew w - - - - s ns e w\nn - - e w - e w ns n - s\n- e ew w e w - - n - s n\n- s - e w s e w e w ns -\n- n s - - n - - - - ns -\ne w n - e ew ew w s s n s\ne ew w s e w - s ns n - ns\n- - - ns s s s ns ns s - ns\ns e w n n ns n ns n n - n\nn - e w s ns s n - e ew w\n- e ew w n n n e ew ew w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/008.a.htm"
+    },
+    "09_12x12": {
+      "id": "09_12x12",
+      "solution": "12 12\ne ew ew ew ew ew ew ew ew ew ew w\n- s e ew w - e ew ew w s -\n- ns s - e ew ew w - - n -\n- n n - s e w e ew ew w s\n- - e w n e ew ew w - - ns\n- s s e ew ew w e ew w s n\n- n ns e ew w s - - - n -\n- - ns - - s ns s s e w -\ne w ns - s n ns ns n - - -\ns - ns s ns s n n e ew w -\nns s ns ns ns n - - - - e w\nn n n n n - - e ew w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/009.a.htm"
+    },
+    "10_12x12": {
+      "id": "10_12x12",
+      "solution": "12 12\ne w - e w s - e ew ew w s\ne ew ew w - n e w s - - n\n- e ew ew w - s s n - - -\n- - e w e w ns n s - - -\n- - e ew w - n s ns - e w\ne w - e ew ew w n ns e ew w\n- e ew ew w - - s n - e w\ne w - e ew w - ns - s - s\n- s s - s s - ns - ns s ns\n- n ns s n ns - n s ns ns n\ne w n ns s n - s ns ns ns -\n- e w n n - - n n n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/010.a.htm"
+    },
+    "11_14x14": {
+      "id": "11_14x14",
+      "solution": "14 14\ns - e ew w - - - e w - - - -\nn s e ew w s - s - e ew ew w s\ns n - - s n s ns - s s s - n\nns s - - n s ns n - ns ns n s s\nns n s - - ns ns s - ns ns - ns n\nn - n e w ns n n - ns n s n s\ns - s - - ns - s - n s ns s ns\nns - n - - ns s ns - s ns ns ns n\nn - e w - ns ns n - ns n ns n -\ns s - s - ns ns - - n s ns e w\nn ns s n s ns ns e ew w n ns - -\n- n n - n ns ns - e ew w ns e w\ne ew w - - ns ns e w s - ns - s\n- - e ew w n n - - n - n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/011.a.htm"
+    },
+    "12_14x14": {
+      "id": "12_14x14",
+      "solution": "14 14\n- - s e ew w - e w - s s - s\n- s n e w s - - s s ns ns s n\ns ns e ew w ns - s ns n ns n ns s\nns ns - e w n - n ns - n - n ns\nn n - - - - - - n e w - - n\ns s - e ew w - - e w - - - s\nn ns e ew w e w - - - - - - n\n- ns e ew w e ew ew ew ew ew ew ew w\ns ns s - - - s - - - e ew ew w\nns ns n - s - n e ew w - - e w\nn n e w ns e ew w e ew w e ew w\ne ew ew w n e ew ew ew ew ew ew ew w\n- - - e w - s - - - s - - -\ne w e w e w n e ew w n - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/012.a.htm"
+    },
+    "13_14x14": {
+      "id": "13_14x14",
+      "solution": "14 14\ns e ew w - - - e w s s e ew w\nns e w e ew w - - - ns n s s s\nn - e ew w s - - - ns - ns ns n\ns - e w s n - s - n - ns n -\nn s - - n - - ns - - - n - -\ns n s e ew ew w ns - e ew ew w -\nn s ns s - - - n s - - s - -\n- n ns ns e ew ew w ns s - n - -\n- - n n - e ew w n n - e w -\n- - - e ew ew ew ew ew ew ew ew ew w\n- e w e ew ew ew w s s - e w -\ns - - e ew w e w ns ns e ew ew w\nns - e w e ew ew w n n - e ew w\nn e w - - e w e ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/013.a.htm"
+    },
+    "14_14x14": {
+      "id": "14_14x14",
+      "solution": "14 14\n- s - - - s e ew w - e ew ew w\ns n - e w n - e ew w e ew w -\nn - - - - s s s s - e ew ew w\ns - e w s ns ns ns ns e ew w s s\nns - s - n ns ns n n - - s n ns\nns - n s - n n e ew ew w n - n\nn - - ns e w s e ew w s - - -\n- - s ns - s ns e ew w n - - -\n- s n n - ns ns - e w e ew w -\ns n e ew w ns n s - e w s e w\nn - - - - n - ns s - - n - -\ne w - e ew w - n n - - - - -\n- e ew ew ew ew ew ew ew ew ew ew ew w\ne ew w e ew w e ew ew ew w e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/014.a.htm"
+    },
+    "15_14x14": {
+      "id": "15_14x14",
+      "solution": "14 14\n- - s e ew w e w - s s s - s\ns s ns s e w s e w ns n ns s ns\nn ns n ns - - ns s - n - ns n n\ns ns s n s - n ns - - s n e w\nns n n - n e w n - - ns s - s\nn s s - - - e ew w s n ns - ns\n- ns ns e ew w - - - ns - ns s ns\n- ns ns e ew w - - - n - n n n\ns n ns - - e ew w - e w e ew w\nns s ns - e w e ew w - - e w s\nns ns ns - - - - e w s e w s ns\nn n ns s e w e ew w n - - n n\ne w ns ns e ew ew ew ew ew ew ew ew w\n- - n n e w e w e w - e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/015.a.htm"
+    },
+    "16_17x17": {
+      "id": "16_17x17",
+      "solution": "17 17\ne ew ew ew ew ew ew w - e ew w e ew ew w -\n- e w s e ew w - s - e ew w - e ew w\ns - s ns s - - - n e w e ew ew w - -\nn s n n n - - - e ew w - e ew w e w\n- ns e ew ew ew ew ew ew ew ew ew ew ew ew ew w\ns ns - - e ew w e w e ew ew w e ew ew w\nn ns e ew ew w e ew ew w - - - - - - -\n- n - e ew w e w s - e ew ew ew ew ew w\n- e ew ew w s - - ns - e ew ew ew w s -\n- e ew w - n - s ns s e ew ew w s ns -\ns s - - s e w n n n - - - - ns ns s\nn ns e w n - - s - - - s s - n n ns\ns n - e ew w s ns e ew w ns ns e ew w n\nn s - e ew w n n - - - ns ns - - s -\n- n s - - e w - e ew w n n - - ns -\n- s ns - - - - e w s - e w - - n -\n- n n - - - - - - n e ew w e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/016.a.htm"
+    },
+    "17_17x17": {
+      "id": "17_17x17",
+      "solution": "17 17\n- e w e ew w s s - e ew w - - s - -\ns - s - - - ns ns e ew w e ew w n e w\nns - n e ew w ns n - e w s - e ew ew w\nn - - s e w n e ew ew w n e ew ew w -\ns - - n e ew w - - - - - - e ew w -\nns - - e ew ew w s e ew ew w e ew ew ew w\nns - e ew ew w s ns - s - s e ew w - -\nns s - - e w ns n - ns s ns e ew ew ew w\nns ns s e ew w n e w n n n - e ew w -\nn ns n - e ew ew ew w - e w e ew ew ew w\ns n e w - - e ew ew w s e w - - e w\nns - s - e w s - - - n - - - - - -\nns - n - - - ns - s e w e w s - - -\nns e ew w - - ns - n e ew ew w ns - - s\nns - - - e w n e w - e ew w n s - ns\nns - - - - e ew ew ew ew ew w - - ns - n\nn - e ew w - e ew w e ew w e w n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/017.a.htm"
+    },
+    "18_17x17": {
+      "id": "18_17x17",
+      "solution": "17 17\ne ew w e ew ew ew ew ew ew w - e w e ew w\n- s - - - e w s e ew w - - e w e w\n- ns - e w s - n - s e ew ew ew ew ew w\n- n e ew w ns - - - n e ew w e ew ew w\ne w e w - ns - e ew w s e ew w e w s\n- e ew w - ns - e ew w n - - e w - n\n- - - s - ns - e w e w s - - - e w\ne ew w ns - ns s - e w - ns s e ew ew w\ne ew w n - ns ns e ew ew w n ns - - s -\n- s - s - ns n - e ew w s n s s n -\n- n s ns - ns - s - s - ns s n ns s -\n- s ns ns - ns - ns - n - ns ns s ns ns -\n- n n ns s ns - n - s - n n ns n ns -\ne ew w ns ns n e ew w ns - - - n - ns s\ns - - ns n e w e w ns s - e w s ns ns\nn - - n - - e ew w ns ns - s - n ns ns\n- - - - - - - e w n n - n e w n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/018.a.htm"
+    },
+    "19_17x17": {
+      "id": "19_17x17",
+      "solution": "17 17\n- s s - - s s - s - - s e ew ew w -\n- ns ns - - n ns - n - - ns - s e ew w\ns n n - - s n - s - - n s n - - -\nn - s s - ns e w ns e ew w ns - - e w\ne w ns ns - ns s - n - e w ns s - s -\n- - n n - ns n e w e w - n n - ns s\n- - e w - ns s - - e ew w - e w ns ns\ne w - s s ns ns e w e ew ew ew w s ns n\n- e w ns ns ns n - s - e ew w - n n -\ne w - n ns ns e w ns s s e ew ew ew ew w\ns - s - n n s - n n ns s - e ew w s\nns s n s e w n e w - n n - e ew w n\nn n - n - s s - e ew w e ew ew w e w\n- e ew ew w ns ns e ew ew w - e ew ew w -\ne ew ew w s n ns - e ew ew w - - s s s\n- - e w n s n e ew ew ew w - s ns n ns\ne w e ew w n e ew ew ew ew ew w n n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/019.a.htm"
+    },
+    "20_17x17": {
+      "id": "20_17x17",
+      "solution": "17 17\ne w - - - - e w - s s - - - - s s\ns e w e w e ew ew w ns ns e ew w - n ns\nns - e w e ew w - s ns ns - - - e w n\nns s e ew w e ew w ns n ns s s s - e w\nn ns - e w s s s ns - ns ns ns n - - -\n- n - - s ns n ns n s ns ns n - e ew w\ns e ew w ns ns s ns - ns ns ns e ew w e w\nns - e w ns n n ns - n ns ns - e w - -\nn e ew w n s - n e w ns ns e ew ew ew w\ne ew w e w ns s s - s ns ns s s - - s\n- - - - s n ns ns - n ns ns n ns s s n\ns e ew w n - ns n - s ns ns s n n ns s\nn - - - s s ns e w ns n ns ns e w n ns\ne ew ew w ns n ns - - n s ns n - - s ns\n- - - - ns s ns e ew w ns ns e w - ns n\ns e ew w ns ns ns e ew w ns ns s - s ns s\nn - - - n n n - - - n n n - n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "solution": "10 10\ne w s - s - - e w -\n- s ns - ns - - - - s\n- n n s n e ew ew w n\ns e w ns e ew w e ew w\nn - s ns e ew ew w e w\n- - n n - - - e ew w\ns - - - s s s s - -\nns e w - ns n ns ns e w\nns e ew w n - n n - -\nn e w e ew w - - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "solution": "10 10\ne ew ew w s - s - - s\n- - - s n - ns e w n\n- e w ns s s ns - e w\n- - - n ns ns n e ew w\ns s - s ns ns e w - -\nns ns s ns n ns - e ew w\nn ns ns ns s ns - s - s\ns n ns ns ns ns - n - ns\nns - ns ns ns ns - e w ns\nn - n n n n - - - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/022.a.htm"
+    },
+    "23_12x12": {
+      "id": "23_12x12",
+      "solution": "12 12\ne ew ew w s - - e ew w - -\ne ew ew w n s e w - - - s\ns e ew ew w n - - s - - ns\nns s e ew w e ew w n - - ns\nns n - - s e ew w e w s n\nns s e w ns - s - - s n -\nns ns s - n - ns - s n e w\nns ns ns e w - ns s n e ew w\nns n n s e w ns n e w s s\nn - - ns - - ns - - - n ns\ns e w n - - ns - e ew w ns\nn - - e w - n - - - - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/023.a.htm"
+    },
+    "24_12x12": {
+      "id": "24_12x12",
+      "solution": "12 12\ns - - - e w e ew w e w -\nns - e ew ew w - s - s e w\nn s - e ew w - ns s ns - s\ns n - e ew ew w n ns ns - ns\nns s e ew ew w - - ns n - ns\nn ns - - e ew ew w ns - s n\n- ns - - s - s - ns s n -\ns ns - - n - ns s ns ns s -\nns ns e ew ew w n n ns ns ns -\nns ns - e ew w - - ns n n s\nn ns - - - e ew w ns s - ns\n- n - e w e w - n n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/024.a.htm"
+    },
+    "25_14x14": {
+      "id": "25_14x14",
+      "solution": "14 14\n- e w - s e w e w - e ew ew w\n- - s - n - e ew ew ew w s - -\ne w ns e ew ew ew ew ew ew w ns - s\n- s n e ew w e ew w e w n - n\ns n e w - - - - e ew w - e w\nns s - s - s e ew w s e w - s\nn ns s ns - n s - - n - e w n\n- ns ns n - - n e w e w e ew w\n- n n s e w e ew ew w - - - s\ns s - n - - e ew ew w e w s ns\nn ns e ew w e ew w - - s - ns n\n- ns e w - s s s s - ns s n -\ns n - - - ns ns n ns - n ns s -\nn - - - - n n - n - - n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/025.a.htm"
+    },
+    "26_14x14": {
+      "id": "26_14x14",
+      "solution": "14 14\n- - s - e ew w e ew ew w - s -\ne w n - - - e ew w - - - n -\ne ew w - e ew w s e w - e w s\n- s - e ew w s n - e ew w s ns\ns ns e w - s ns e ew ew w s n ns\nn ns s e w n ns - - s - ns s n\ns n n - s - ns - s n s n n -\nns e ew w ns s ns s ns - ns e ew w\nn s - - n n ns n ns - n - - -\n- ns e ew w s n - n e ew w s -\n- n s - - n - e ew w - s ns -\ne w n s e w - - e w s n n -\n- e w n - e w e w - n - e w\ne w e ew ew w - e ew w e w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/026.a.htm"
+    },
+    "27_14x14": {
+      "id": "27_14x14",
+      "solution": "14 14\ns - s - e ew w e w e w - e w\nns s n - s s e w - - e w s -\nn n s - ns ns e ew ew w - - ns s\n- - ns - n n - e w e ew w n ns\n- - n s e ew ew w - - e ew w n\ne ew w ns s e ew ew w s s - - s\ns - s n n - - e w ns n s - n\nn s n - s - e ew w n - ns - -\n- ns - - n e w s - e w n - -\ns ns e ew w s - n - e ew ew ew w\nns n - s - n e ew w s - s e w\nns - - n s - - e w ns - ns - -\nns - - s ns e ew ew w n - n - s\nn e w n n - - - e ew ew w - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/027.a.htm"
+    },
+    "28_17x17": {
+      "id": "28_17x17",
+      "solution": "17 17\n- - e w s - - s - e ew ew w e ew ew w\ns e ew w ns - s ns - - - - s e w s -\nns - - - n - n n e ew w - ns s - ns -\nn - e w e w e ew ew ew ew w n n - n -\ns s e ew w - e ew ew ew ew ew ew ew ew ew w\nn ns e ew ew ew w - - - e ew ew w e w -\n- n e ew ew w e w s - e ew ew ew ew w s\n- s - e w e ew w ns - - - - - - - ns\ns ns s s e ew ew w ns - e ew ew w - - n\nn ns n ns - e w s n s - - - - e w s\ns n s n - - s ns s ns s s s - - - ns\nn - n s - - ns n ns n ns ns ns - s s n\n- - s n e w n s n - ns n ns - ns ns -\n- - ns - e ew w n s - n - n - ns ns s\ne w ns - e ew ew w n e ew w s - n ns ns\n- s ns e ew ew w - s - - - ns s - n ns\n- n n - e ew ew w n - - - n n e w n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/028.a.htm"
+    },
+    "29_17x17": {
+      "id": "29_17x17",
+      "solution": "17 17\ne w - - - - s e ew w s - - e ew w -\ns e ew w s - ns s - - n - - s e ew w\nn e w - n - n ns e ew ew w - ns e ew w\ns - s e ew ew w n e ew w - - ns - e w\nns - ns e ew w s - - - e ew w n e ew w\nn - ns - e w n - s s - e ew ew w s -\ne w ns s - s e w ns ns e w - - - n -\ns - ns ns - ns s - ns ns s - - - - e w\nn - n n - n n - n n n e ew ew w - -\ne ew w e ew ew ew ew ew ew ew ew ew ew ew ew w\ns - - - - - - - - - - - - e ew w -\nn e w e ew w e ew ew w e ew ew ew ew ew w\ns - s - - s - s e w - - e w s s -\nns s ns s s ns s ns - - e ew ew w ns ns -\nn n ns n ns ns ns n s - - - - - n n -\ns - n - ns ns ns - n - e w - e ew w s\nn e ew w n n n e w e ew ew ew ew w - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/029.a.htm"
+    },
+    "30_17x17": {
+      "id": "30_17x17",
+      "solution": "17 17\n- s - - e w - s - - - s e ew ew ew w\ns ns - - - s s ns e ew w n s s s - -\nns ns - - - n ns n s - - s n ns ns - s\nn n - e w s ns - n s - n s ns n s ns\ns e ew ew w n n - - n e w n n - n ns\nns - - e ew ew w - - e ew ew ew ew ew w n\nns - s s e w e ew w s - - - - e w s\nn s ns n - s e ew w ns - - - - - - n\n- ns ns - s ns e w - ns e ew ew w - s -\n- n ns - n n e ew w ns s - e ew w n -\ne w n e ew w - e w ns ns e ew ew ew ew w\n- - s - - s s - - ns ns - - e w e w\ns - ns s - n ns e w ns n - e ew w s -\nns s ns ns e w n - - ns - - - - s ns -\nn ns n ns - - e ew w ns e ew ew w n n -\n- ns s n e ew ew ew w ns e ew ew ew ew ew w\n- n n - e ew ew w - n - - - - - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "solution": "10 10\ns s - e w e ew w s -\nns ns e w e ew w - ns -\nn ns - s - - e w ns -\n- ns s ns e w - - n -\n- ns n ns s - - e ew w\n- ns - n n - s - - -\ns n - - - s n s - -\nn e ew ew w n - n e w\n- e ew ew ew ew ew ew w s\ne ew ew ew ew ew ew ew w n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "solution": "10 10\ns - - - e ew w e ew w\nn e ew w e ew ew ew ew w\n- s e ew ew w e w e w\ns n e w s e w - s -\nn - - s n - e w n -\ns - - n e ew w - e w\nns - e w e ew w e w -\nn - e ew w - - e ew w\n- e w - - - - - s -\ne ew ew w e ew ew w n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/032.a.htm"
+    },
+    "33_12x12": {
+      "id": "33_12x12",
+      "solution": "12 12\ns - e ew w - s s e ew w -\nns s - - e w ns ns - e ew w\nn n - s - s n ns - - e w\ns s - n - ns s n e ew w -\nns ns s - - n n - s - e w\nns ns n - - - e w n e w -\nn n - e ew ew w - e ew w -\ne ew ew ew ew ew ew ew ew ew ew w\n- s s e w e w - e ew ew w\n- ns ns e ew w e w - s e w\ns ns n s e ew w e w n s -\nn n - n - - e ew ew w n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/033.a.htm"
+    },
+    "34_12x12": {
+      "id": "34_12x12",
+      "solution": "12 12\n- s e ew w s e ew w e w -\n- n e w - n - s - e ew w\ne ew w e ew ew w ns e ew w -\ns e ew w s e w n - - s s\nns - - - n e ew ew ew w n ns\nn - - - e ew ew w e w s ns\ne ew ew w s - e ew ew w n ns\ne ew w s ns - e ew w s - ns\ns e w n n - - - s n - ns\nn e ew w e ew w s n s s ns\ns e w e ew w - n s ns ns ns\nn - - e w - e w n n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/034.a.htm"
+    },
+    "35_14x14": {
+      "id": "35_14x14",
+      "solution": "14 14\n- - - s - s - s - - s - - -\ne w s ns - ns - ns - - ns s e w\ns - n n s n - ns - s n n - s\nns e ew w ns s s n - ns - - s ns\nn e ew w ns n ns e w ns - s n n\n- e ew w n - n - - n - n e w\ns - e ew ew ew ew ew ew ew ew ew ew w\nns e w - - e w - s e w - e w\nns - e ew ew w e w n - e w - -\nn s s - - s e ew ew w e ew ew w\ns ns n e w n s s - - - s s -\nns ns - s e w ns n s s - n ns -\nn n - n - - ns s ns ns - s ns -\n- - - e ew w n n n n - n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/035.a.htm"
+    },
+    "36_14x14": {
+      "id": "36_14x14",
+      "solution": "14 14\ne w - e ew ew ew ew ew ew ew w s s\ne ew w - e ew w - - - e w n ns\n- - e ew w e w - - s s s - n\ne ew ew w e ew ew w - n ns ns - -\n- s s - - e w s e w ns n - -\n- ns ns - - - - ns s s n s s -\ns ns n e w s s n ns ns - ns ns s\nns n s - s n ns - ns n s n ns n\nns - n - ns s ns s n - ns - n s\nn - s - n ns n n s - n - - ns\ne w n e w ns s s ns e ew ew w n\ns e w - - n ns n n e ew w - s\nns - - e ew w n e ew ew w - - n\nn - - e ew ew ew ew ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/036.a.htm"
+    },
+    "37_14x14": {
+      "id": "37_14x14",
+      "solution": "14 14\n- - e w s - - s - - e w s -\ns - s - ns s - ns e w s - ns s\nns s ns s n ns - ns s - n - n n\nns ns ns n - ns s n ns - e w e w\nn ns n - - ns n - ns - s - - s\n- n - - s ns s s ns - n - s ns\n- - - s ns ns ns ns ns s s - ns ns\n- - s n n ns ns ns ns ns n - n n\ns - ns e w n n ns ns n e ew ew w\nns s n e ew ew w ns ns - - - - -\nns ns e ew w - s ns ns s - s - -\nn ns - e ew w ns ns ns ns - n - -\n- ns e ew ew w n ns ns ns - - s -\n- n - e ew ew w n n n e w n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/037.a.htm"
+    },
+    "38_17x17": {
+      "id": "38_17x17",
+      "solution": "17 17\ne w e w - - s s - e w e w - s e w\ne ew ew ew w s ns ns - - e ew w s ns - -\n- e ew w - ns n n s - s e w n n - s\ns e w s - ns - - ns s ns - - e w - n\nns - - ns s ns e w ns ns ns - - - - - s\nns s s n n n - - ns ns ns - s e ew w ns\nn n ns s e w s - n ns n - ns - - - ns\ns s n n - s n - - ns e w n s - - n\nns ns s s - ns e ew w n e ew w n s - s\nns ns n ns - ns s - e ew ew w - - n s ns\nns ns - ns - n ns e ew w - e ew ew w n ns\nn ns - n - s n - - e ew w s - s - ns\ns ns - - s ns s - - e ew w ns - ns s ns\nns ns e w n n n - - - - - ns - ns ns ns\nn n - e ew ew w - - e ew w n - ns ns ns\n- s e w - - s e w e ew ew ew w ns n n\n- n - e w - n - - - - - - - n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/038.a.htm"
+    },
+    "39_17x17": {
+      "id": "39_17x17",
+      "solution": "17 17\ne ew ew ew ew w s - - - - - - s s - s\ne w s - - - ns - e ew ew ew w ns ns s n\ns - n - - s ns - e ew ew ew w ns n ns -\nn - - - s ns ns s s - - - - ns - ns -\ne ew ew w ns n ns ns ns s - e w ns - n -\n- - - - ns - n ns n ns s - - ns s s s\ne ew w - n - s ns s n ns - s ns ns ns n\n- e w e ew w ns ns n - n - n ns n ns -\n- - - - - s ns ns e ew ew w - ns s ns s\n- e w s - n ns ns - e ew ew w ns ns ns ns\ns - - ns - s ns ns - e ew w - ns ns ns n\nns - - ns - n n n - s s e w ns n ns s\nns - - n s e ew ew w ns ns - s ns - n ns\nns e ew w n e ew w - n ns - n ns s - ns\nns - - e w - e w e w ns s s ns n s ns\nns - - - e ew ew w - - ns n ns ns - n n\nn - - e w e ew ew ew w n - n n - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/039.a.htm"
+    },
+    "40_17x17": {
+      "id": "40_17x17",
+      "solution": "17 17\n- - - e w s - s - - s e ew ew w - -\ne w - - - n - ns e w ns - s e ew ew w\ne ew ew w - s s ns s - ns - ns - e w s\ns - - s s n ns ns ns - n - n - - - ns\nns - - n ns s ns ns n e ew w s - - s ns\nns s - s ns n n ns e w s - ns - - ns n\nn ns - ns ns e w ns - s n - n - - ns s\n- n s n ns - s n - ns e ew ew w s ns ns\ns - ns s ns s ns e w ns e w s - ns n n\nn s n n n n n - - ns s s n s ns e w\ns n e w e w s s s ns ns ns - n ns s -\nn e w e w s ns ns n ns n ns - s n n -\n- - - - - ns ns ns - ns - n - n e w s\n- e ew ew w ns ns ns s ns - e w e w - ns\n- - s - s ns ns ns n n e ew ew w - - n\n- s ns - ns ns n n e ew ew w e ew w e w\n- n n - n n e w - - - e w - - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "solution": "10 10\ns e ew ew ew ew ew ew ew w\nns s - - - s e w s s\nns ns - s - n - - ns ns\nn n - ns e ew ew w ns ns\ne ew w ns - e w - n n\ne w - ns - e ew ew w -\n- - - n - - e w e w\ne ew ew w - - - - - -\ne w e ew w s - e ew w\ne ew ew w - n - e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "solution": "10 10\n- - s e w e ew ew w -\ne w n e ew ew w - e w\n- - e w s e w s - -\n- e ew w ns - - ns - s\ne ew w - n - - ns - n\ns - e ew ew w - ns s s\nn e ew ew w - - ns ns ns\ne ew w - e w s ns ns ns\n- s e ew w - ns ns n n\n- n - - - - n n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/042.a.htm"
+    },
+    "43_12x12": {
+      "id": "43_12x12",
+      "solution": "12 12\ne ew ew ew ew ew w s e ew w -\n- - - s e ew w ns s - - -\ns - - n - e w ns n - e w\nn - e ew w - - n - - - s\ns - - s - e ew w e ew w n\nns e w n e ew w - - - e w\nn e ew w s s s e ew w s s\ne ew w - ns ns ns e ew w n ns\n- s - - n n n - s - s ns\n- n e ew w e ew w n - n n\ne w - - - e w e w e w -\n- - e w - - - e ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/043.a.htm"
+    },
+    "44_12x12": {
+      "id": "44_12x12",
+      "solution": "12 12\n- s e w s e w - e w - s\n- ns - s n - - e w - s ns\n- n - ns e ew ew w - - ns n\n- e w ns s - - - s - n s\ne ew w ns ns e ew w ns - - ns\ns - - ns ns - - - ns - s ns\nn s s n ns - s - n s n n\ns ns ns s ns s ns - s ns - s\nns n n ns ns ns n - ns n s ns\nn e w ns ns n s - n - n ns\n- s - n ns s ns e w - - n\n- n e w n n n - - e w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/044.a.htm"
+    },
+    "45_14x14": {
+      "id": "45_14x14",
+      "solution": "14 14\n- e ew w - e w s - e w - s s\n- e w e w - s ns s - s s ns ns\n- s - - - - ns ns ns - ns ns n n\n- n e w - - n n n - n n e w\n- e ew ew ew ew ew ew ew ew ew ew ew w\n- - e ew ew w - e w e ew w - s\n- - - e ew ew w s - - - s - ns\ns e ew w e ew w n e w s ns - n\nns - - - - e w e w - n n e w\nn - e ew w e ew ew w e w s - s\n- s - - s e ew ew ew ew w n - ns\ns n s - n - - s - e ew ew w n\nns s ns - s - - n s e ew w - -\nn n n - n e ew w n - - - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/045.a.htm"
+    },
+    "46_14x14": {
+      "id": "46_14x14",
+      "solution": "14 14\ns - - s e ew w e ew w - - e w\nns - - n - - e ew w e w e ew w\nns e ew ew w e ew w e ew ew ew ew w\nn - - - e w - - - e w e w s\ne ew w - s s e ew ew w - s - ns\n- e ew w ns n - s - s - ns s ns\ns e ew w n - s n - ns s ns ns n\nns - - e ew w n e w ns n n n -\nns e w e w e w s - n e ew w -\nn s s - e ew w ns - e ew ew w -\ns ns n e ew w s ns e w s e ew w\nns n - s s - ns n s - ns - e w\nns - - ns n - ns - ns - n - s -\nn - - n e w n - n e ew w n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/046.a.htm"
+    },
+    "47_14x14": {
+      "id": "47_14x14",
+      "solution": "14 14\n- e ew w - e w s s s - e ew w\ne w e w e ew w n ns ns s - s -\ns e w e w - - - ns n n - ns s\nn - e ew ew w - s n e ew w ns n\ne w e w e ew w n - s e w n -\ns e w e ew ew w e w n e ew ew w\nns - e ew w - e w e ew ew ew ew w\nns e w s e ew w e ew w e w e w\nns s - ns e w s e ew ew w e ew w\nns n s ns - s n e w e ew w - s\nns s ns n s ns e w e ew w - s n\nns ns ns - n n e ew w e ew w n -\nns ns n s e ew ew w e ew ew w e w\nn n - n - e w e ew ew w e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/047.a.htm"
+    },
+    "48_17x17": {
+      "id": "48_17x17",
+      "solution": "17 17\n- - s - - - s - - e w s s e ew w -\ne w n e ew w ns s - - - ns ns s e w -\n- - e w e w ns ns - e w ns ns n - s -\n- s e ew w - n n - - - n n - - n -\n- ns - - - e ew ew w e ew w - - e ew w\ns n - - e ew ew ew ew ew ew ew ew ew ew ew w\nn - e ew ew w s s e ew ew w e ew ew ew w\n- s s e w - ns ns - e w - - - e ew w\n- ns ns e ew w ns ns e w - - e ew w s -\n- ns ns - - s ns n s - s e ew w s ns -\n- n n - - ns n s n - ns e w s ns ns s\ne ew w - - ns - n s s n - - n ns ns ns\n- - e ew w n - s n ns e ew ew w n ns ns\n- - - e ew w s ns s n s - - - s ns n\ns s - - - - n n ns - ns - - s ns ns s\nns ns - - e ew ew w ns - ns - - ns n ns ns\nn n e w e ew ew w n - n e w n - n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/048.a.htm"
+    },
+    "49_17x17": {
+      "id": "49_17x17",
+      "solution": "17 17\n- - - e ew ew ew ew ew ew w s e w s e w\ns - e w s s - - e ew w n - - ns s -\nn s - - n ns - s - s s e ew w ns n s\ns ns - - - n s ns s n ns - s - ns s ns\nn ns e ew ew w n ns n s ns s ns - ns n n\ns n - s e ew w n - n n n ns s n s s\nns - - n e w e ew ew w s - ns n - ns n\nns e ew ew w - s s - - n - n - s n -\nn - - - - - n ns - - e ew ew w ns s s\ne ew ew ew ew ew w n - e w - - - n ns ns\ns - - s - e w - - e ew w e ew w n ns\nn e w ns - - - e ew w s e w e ew w ns\ne ew w n - e ew w - - ns s s e ew w ns\ne w e ew ew w - - - - ns ns n s - - ns\ns - - e ew ew w - - s n n s ns - - ns\nns - - - - - - - - ns - - ns n - - ns\nn - - e ew w - e w n e w n e ew w n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/049.a.htm"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "solution": "17 17\n- s - - e ew ew ew ew ew ew ew ew ew ew ew w\ns ns - - e ew ew w e ew w - s s - e w\nns ns e ew ew w - - e w - s n ns e ew w\nns ns - e ew ew w - - - - ns - n - - -\nn n - - e ew ew ew ew w s n e w - - -\ns e ew ew w - - - e w n e ew ew ew ew w\nns - s e w - e ew ew ew ew ew w - e ew w\nn - ns - s e ew w e ew w e w e ew ew w\n- s n s ns - - - - e ew w - e w - s\ns ns - ns ns - - e ew ew w - e ew ew w ns\nns ns - n n - - e w e ew ew w - s - n\nns n - - s e ew ew w s - e w s ns - -\nns - e w n - e ew w ns e ew w n n - -\nn e ew ew w e ew ew w ns e w - - s - -\ne w e ew w e ew w - n - s - - ns - s\ns - - - e ew w s - - - n s - ns - n\nn e w e ew ew w n - - - - n - n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "solution": "10 10\n- e ew ew w - - e ew w\ns - - - s s - e ew w\nns - - s n ns e ew ew w\nn e w ns s n s - e w\ne ew w ns n - n e ew w\ne w s n s e ew ew w -\n- s n - ns e ew ew w -\n- n - - n - - e ew w\ns - e ew ew ew ew ew ew w\nn - - - - e w - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "solution": "10 10\ne w e ew w e w - e w\ns - e w e ew w e w -\nn e w e ew w s - e w\ns s e w e w n s - -\nn ns s - s e w ns s -\ns n n - n - - ns n -\nn e ew ew w - s ns e w\ne w - e ew w ns ns - -\ns - e ew w s n ns - s\nn e w e w n - n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/052.a.htm"
+    },
+    "53_12x12": {
+      "id": "53_12x12",
+      "solution": "12 12\n- e ew ew ew ew ew ew ew ew ew w\n- - - - - - s e ew ew w s\n- - - s s s n - - s s ns\n- - s ns ns ns s - - ns n ns\n- - ns n n n n - - n s n\n- - ns s e w - e w s n -\ns s n n - e ew ew w ns s -\nns n - e ew ew w s s ns ns -\nn e ew ew w s - n ns n n s\ne ew w - - ns - s n - s ns\n- e w e w n - ns e w ns ns\ne w e ew w - - n - - n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/053.a.htm"
+    },
+    "54_12x12": {
+      "id": "54_12x12",
+      "solution": "12 12\n- e w e w e ew ew w s - -\n- e ew w e w e ew w ns s s\ne w - e ew ew w e w n ns ns\ne ew w - - s e ew ew w ns n\ns - - - s n - - - - n s\nn - e w n - - - e ew w n\ne ew w s - s e ew ew ew ew w\ne w s n - n - - - e w -\ns - n - e ew w e w e ew w\nns e ew ew ew ew ew ew ew ew ew w\nns e ew ew w e w e w s e w\nn - - e w - e ew w n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/054.a.htm"
+    },
+    "55_14x14": {
+      "id": "55_14x14",
+      "solution": "14 14\n- - s - - - s - e ew w - - s\ns s ns e ew w n e ew ew w - - n\nn ns n e ew ew ew ew ew ew ew ew ew w\ns ns s e ew ew w - - s - e ew w\nns n ns - e w e ew w ns - e ew w\nn - ns e w - - - - n e ew w s\ns - n - - e w e w - - - - n\nn - e ew w e ew ew w - e ew w -\n- s - e ew w - - - - - e ew w\ns ns e ew ew ew ew ew ew ew ew ew ew w\nns ns - s - e w - - s - s - -\nn n s n e ew w - - n - ns e w\n- s n e ew ew w - s - s n - -\n- n e w e ew ew w n - n e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/055.a.htm"
+    },
+    "56_14x14": {
+      "id": "56_14x14",
+      "solution": "14 14\n- s s - - e w s s e ew w e w\n- ns ns s s - - n ns - s e ew w\ns ns ns ns n - e w n - ns - e w\nns ns ns ns e ew ew ew ew w ns s - s\nn ns ns n - - - e w s ns ns - n\ns ns n s - e ew w s n ns n e w\nns n s n - - - - n - ns e w s\nns s ns - e ew w e ew w ns - s n\nn n n - s e ew ew w s ns - ns -\ne ew ew w ns s e ew w n n - n s\n- e ew w ns ns - - - e ew ew w ns\ne ew ew w ns n e ew ew w e w s ns\n- - e w ns - - - - e ew w n n\n- e ew w n - - e ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/056.a.htm"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "solution": "14 14\ne ew w s - - - - s e w e ew w\n- - - ns e ew w s ns s e w e w\n- - - n s - - n n ns - e ew w\n- - e w ns - - s - ns - - - s\n- s - - n s s n - n - - - ns\n- ns s s s ns n - - e ew ew w ns\n- n ns ns ns n e ew w - s e w n\ns - n n n - e ew ew w n e ew w\nns - e ew ew ew ew ew ew ew ew ew ew w\nns - e w e ew w - e ew w - - -\nn e ew ew w e ew w e w e ew ew w\n- e w - e ew ew ew ew ew ew ew ew w\n- e ew ew w - - - e w - s - -\ne w e ew w e ew w - - - n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/057.a.htm"
+    },
+    "58_17x17": {
+      "id": "58_17x17",
+      "solution": "17 17\n- s - - - - - s e ew w s - - e w -\ns n - s e ew w ns - e w ns s s - - -\nns s - n - - - ns e ew w ns ns n e ew w\nn ns e ew w s - n - e w n n s - e w\ns n e ew w n e ew w - - s - n e ew w\nn - - - - e ew w - - - ns e ew ew ew w\ne ew ew w s e ew w - - - n - - - e w\ne w s - n - - e ew ew ew ew ew ew ew ew w\ns - n e ew w e ew ew w - - e ew ew w -\nns s - - - e ew w e ew w e ew w s - s\nn ns - s e w - - s - s e ew w n - n\n- n - n e ew w - ns - ns - - - - - s\ne ew ew ew ew w - - n - ns - s s - - n\n- e ew ew ew ew ew ew w - n s ns n s e w\n- - - - s e w e ew w s n ns s n - -\ne ew w - n - e ew ew w ns - ns n e ew w\n- e w e ew ew ew ew ew w n - n e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/058.a.htm"
+    },
+    "59_17x17": {
+      "id": "59_17x17",
+      "solution": "17 17\ns - s - - s - s e ew ew w - - e ew w\nns - n e w ns - n e ew ew ew ew ew ew w -\nns e ew w - n e ew ew w s - - e ew ew w\nns s e ew ew w - - - - ns - - - s - -\nns n e ew ew ew w - s - n e ew w n e w\nns s - - e ew w s n - - - - e ew w -\nns n e w e w s ns e ew ew ew ew ew ew ew w\nn s - e w - ns n e ew w - e ew ew w s\ns ns - s - - n - - - - e w e ew w ns\nn ns s n - e ew w s - - - s - e w n\n- ns ns - e ew ew w n e ew w ns s - - -\ns ns n s e ew ew ew ew w - - ns ns e ew w\nns ns - ns - - - - - - - - n n - - -\nns n s ns - e ew ew w e ew w e w s - -\nn s ns n e ew ew ew ew w e w s - ns e w\ns ns n s - e w - s - - - ns s ns s -\nn n - n - - e w n - - - n n n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/059.a.htm"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "solution": "17 17\n- - e ew w e ew ew w - e w e w e ew w\ne ew w s - - s s e ew ew w e ew ew w -\n- e w n - - ns n - - s - - - e w -\ne w - s e w n e ew w ns e ew ew w - -\ns - - ns - s - s e w n e ew w - e w\nns - - ns s ns - ns s e ew ew w s e ew w\nns - s ns ns n - n n s - e w ns - - -\nn - n n n e ew ew w n e w - n - - -\ne w s e w s - - e w e ew ew ew ew ew w\n- s ns - s ns - e ew w s - e w - - s\ns ns n - n n - - - - ns s - e ew w ns\nn ns s - e w - - e w n ns - - s - ns\n- n n - - e ew w e ew w n - - n - n\ne ew w e ew ew ew ew ew ew ew ew ew ew ew ew w\n- - - - s - s - - s e ew ew ew ew ew w\ne w - - ns s n e w ns e ew w - - e w\n- e ew w n n - - - n e ew w e ew w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "solution": "10 10\n- e ew w e ew w e w -\ns e ew ew ew ew ew ew ew w\nns - e ew w e ew ew w s\nn - - - - - - - - n\ne ew w s - e ew ew ew w\ns - - n - s e ew w -\nns s - e w ns - - - -\nns ns - - - n e ew ew w\nns n e ew w - - e ew w\nn - e w e ew w e w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "solution": "10 10\ne w e w - s s e w -\n- - s - - ns n - e w\ns - n e w ns e ew w s\nn e ew w - n - - - n\ns e w - s s s - - -\nn - s s n ns n e ew w\n- - ns n - n s - e w\ns - ns e ew w n e w -\nn - n - e ew w e ew w\n- e w e w e ew ew w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/062.a.htm"
+    },
+    "63_12x12": {
+      "id": "63_12x12",
+      "solution": "12 12\ne ew ew w - - - - e w - s\ne w e w - e w - - - - ns\ne ew w - - s e ew ew w - ns\ne w - - - ns - - s s - n\n- e ew ew w n s - n ns s -\ne w s e ew w n e w n ns s\ns - n - - e w e ew w n ns\nn - - - e ew w s - e w ns\ns - e ew ew w - n e w s n\nn s e w - - e ew ew w ns -\n- n - e ew w - e ew w n -\n- e ew ew ew ew ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/063.a.htm"
+    },
+    "64_12x12": {
+      "id": "64_12x12",
+      "solution": "12 12\ns - e w e ew w s - - s -\nns e w e ew ew w n s - ns s\nn - s s - e w - n - n ns\n- s ns n e w e w s - s n\n- n n e ew ew w s ns s n s\n- e ew ew w - - ns ns n s ns\n- - - s - e w n n - ns ns\ne ew w n e ew ew ew ew w n n\ns e ew w s - - s e w e w\nn - e w n e w ns - e w s\ns - - e ew w s ns - - - ns\nn - e w - - n n e w - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/064.a.htm"
+    },
+    "65_14x14": {
+      "id": "65_14x14",
+      "solution": "14 14\n- - e ew ew w s e w e ew w - -\n- e ew ew w - n - e ew w s - s\ns e ew ew w s - - e w - n - ns\nn e w - s n - - s e ew w s ns\n- e ew w ns e w - n - s - ns n\ne w - - n - e w s s ns - n s\n- - - - e ew w - ns ns ns - - n\ne ew w e w s - - n ns ns e ew w\n- - - - s ns - - s ns ns - e w\ne ew ew w ns ns - s ns ns ns e w -\ns - - s ns n - ns ns ns ns e ew w\nns - - n n - s n ns ns ns s e w\nns - e w - s ns - ns ns ns ns - s\nn - - e w n n - n n n n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/065.a.htm"
+    },
+    "66_14x14": {
+      "id": "66_14x14",
+      "solution": "14 14\ne ew ew w e w - - - - e w s -\ns - s s s - s - e w s - n s\nns - n ns n s n e ew w ns s - n\nns - - n - ns e w e w ns ns - -\nn e w s - n e ew w s n n - -\ne w s ns e ew w - - n - e ew w\n- s ns n - - e ew ew ew ew ew ew w\n- ns n e w s - - - s - - e w\ns n - s s ns e w s n - e ew w\nns s - ns n ns - - n s e ew w s\nn n - ns - n - e w n - e w ns\ne ew w n - - e ew ew w e w - ns\n- s e ew w - - - e ew w s - n\n- n e ew w - - e ew ew w n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/066.a.htm"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "solution": "14 14\ns s e w e w - e w - - - s -\nns n - - e ew w s s s - - ns -\nns e ew ew w - - ns ns ns - - n s\nns e w e ew w - ns n ns e w - n\nns e ew w - - - n s n - - s -\nns - e w - - s s ns s - - n s\nns s - - - - ns n n n s - - n\nns n - - e w ns e ew w n - e w\nns e ew w - - n - e ew ew ew ew w\nns e w - e ew ew ew ew w e w - -\nns e ew ew w s e ew ew ew ew ew w s\nns e w e w n e w - - e ew w ns\nns e ew ew w - - s e w - s - n\nn - - - - e w n e ew w n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/067.a.htm"
+    },
+    "68_17x17": {
+      "id": "68_17x17",
+      "solution": "17 17\ns s - - - - - e ew ew w - e ew w - -\nn ns - - s - - e ew ew ew w - e ew ew w\n- ns - - ns e ew w - e ew w e w e ew w\n- n s s n s s e ew w s - e ew w - -\ns - ns ns - ns ns - - - ns s - s s e w\nns - ns ns - n ns e w - ns n - ns ns s -\nn s ns ns - - n - e w n s s ns ns ns s\ns ns n ns - - - e ew w s ns ns ns n ns n\nns ns s n e ew ew w - s ns ns n ns - ns -\nns n n e ew ew w - - ns n n - ns s ns -\nns e ew ew ew w - - - n s - s ns ns ns -\nns - - e w - - - e w ns - ns ns n n -\nn - - - - e ew ew w - n - ns ns e ew w\n- e w - - e ew w e ew ew w n ns - e w\n- s s - - - - e ew w e ew w ns s - s\n- ns ns - - - e ew ew w e w s ns ns s ns\n- n n - e ew w e ew ew w - n n n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/068.a.htm"
+    },
+    "69_17x17": {
+      "id": "69_17x17",
+      "solution": "17 17\n- - e ew ew w - - - e ew w s - e ew w\n- e ew ew ew w - - e ew w - ns - s - -\ne w s - - e ew ew w s s - ns s ns e w\n- s n e w e w e w ns n s ns n n - -\n- n - e ew w e w - n s ns ns s e ew w\n- e ew w e ew ew w - - n n n n - - -\n- - e ew w e ew ew w e ew ew ew ew ew ew w\n- - - e w s - - - s s s - e ew w s\ne ew ew w s ns - - - ns ns ns s e ew w ns\ns - - - ns n e ew w ns ns ns n - - s n\nn e ew w ns s e ew w n ns n e w - ns s\ns - - - n ns s - - - n e w e w ns ns\nns s e ew w ns ns s e ew ew w e w s ns ns\nns n e ew w ns n n - e w e ew w ns ns n\nns s s e w ns - - - - s - - s n n -\nn ns n - - n - - - - n - - ns s e w\n- n e ew w - e w - - - - - n n - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/069.a.htm"
+    },
+    "70_17x17": {
+      "id": "70_17x17",
+      "solution": "17 17\ne ew w e ew ew w - - s - e ew ew w s -\ns s - s - s s - s ns e w - - s ns s\nn ns s ns s ns n - ns n s - - - ns ns n\n- ns ns n n n e w ns - n e ew w n ns -\n- n ns - - s - - ns e w - - - s ns -\ns - ns - - ns s - ns - s e ew w ns n s\nn s ns - - n ns s ns - n - - - n - n\n- n ns e ew w n n n - e ew w - e ew w\ns s n - - s s e ew ew w e w e w e w\nns ns e w - ns ns - s - - e ew w - - s\nns n e ew w ns ns s n - e w e ew ew w ns\nn - - e w ns n ns s - - - e w - - ns\n- - e ew w n - n ns s - - - e ew w n\ne ew ew w e w - s n n e ew ew w - s s\ns - - e ew ew w ns - s - e ew w s ns ns\nn - s e w s - ns - n e ew w - n ns ns\n- - n - - n - n - e ew w - - - n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/070.a.htm"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "solution": "10 10\n- s e ew w - e w e w\ns ns e w s - - e ew w\nn ns s - ns - - - e w\n- n ns s ns - - s s s\ns - ns n n - s ns n ns\nns s n e ew w n n - ns\nn ns s - - - - s - n\ns ns ns - - - - ns s -\nn n ns s e ew w ns n -\n- - n n - e w n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/071.a.htm"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "solution": "10 10\n- e ew w e ew ew ew ew w\n- s - - - - - s s -\ns ns e ew ew w s ns n -\nn n e ew ew w n ns e w\n- - - s - - s n - -\ne ew w ns - s ns s - s\n- s - ns s n n n - ns\n- n - ns ns e ew ew w n\n- e w ns n - - s - -\ne ew w n e ew w n e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/072.a.htm"
+    },
+    "73_12x12": {
+      "id": "73_12x12",
+      "solution": "12 12\n- e w e w - e ew ew w - s\ne ew w s - e ew w e w - n\n- - - ns e w s - - e ew w\n- s - ns - s ns e ew w - s\n- n s n s n n s s - s n\ne w ns s n e w ns ns s ns s\n- - ns n s - - n n ns ns ns\n- - n - n e ew ew w ns ns n\n- - s - s - - s - n ns s\n- - n - ns - s ns - s ns ns\n- e ew w n - n n - n n n\n- e w e ew ew ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/073.a.htm"
+    },
+    "74_12x12": {
+      "id": "74_12x12",
+      "solution": "12 12\n- e w s e ew ew w - e ew w\n- - - ns e ew w s s - s -\ns - - n e ew w ns ns s n s\nns e ew w s - - n n n s n\nns s - - n s - e ew w ns -\nn ns - - - ns - e w s n -\ns n e ew w n e ew w ns - -\nns - e ew ew w - e w ns - -\nn e w - - e ew w s n e w\ne w e ew ew w e w ns e w s\ne ew ew w e w - - ns s - ns\n- e w e ew w e w n n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/074.a.htm"
+    },
+    "75_14x14": {
+      "id": "75_14x14",
+      "solution": "14 14\n- e ew w s - e w s - - e ew w\ne ew w - n e w - ns e ew w - s\n- - e w e ew ew w ns s e w - n\n- - e ew ew w - - ns ns - - e w\ns - s - - s - - ns n - - s -\nn - ns - - ns e w ns - s - n -\ne w n e w ns s - n - n e ew w\ns s - s - n n - e w e w - -\nns n s n - e ew ew w - e ew ew w\nn s n e ew ew w s e ew w s s -\ns ns e ew ew w - ns e ew w ns n s\nns n - - - e w n e ew w ns s n\nn - e ew w - e ew w s - n ns s\n- - - - e w e ew w n - - n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/075.a.htm"
+    },
+    "76_14x14": {
+      "id": "76_14x14",
+      "solution": "14 14\ns - e ew ew w - - e ew ew w s -\nns s s s - e ew w - - - s ns s\nns ns ns n - s - - e w - ns ns ns\nn ns ns s - ns e w e ew w ns ns ns\n- n n ns s n - - s - - ns ns ns\ns - - ns ns e ew w ns - - ns ns ns\nn - - n n - - - n - - n n n\ns - e ew ew ew ew ew ew ew ew ew ew w\nn e ew ew ew w e ew w e ew w - s\n- - - e w e w s - e ew ew w n\n- e ew w s - - n - - - - - -\ns s e w n - e w - - - - - -\nns ns s - e ew ew ew ew ew ew ew ew w\nn n n e ew ew w e ew w - - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/076.a.htm"
+    },
+    "77_14x14": {
+      "id": "77_14x14",
+      "solution": "14 14\ns - - - - s s s e w - e ew w\nns e ew w s ns n ns - - e ew w s\nn e w s ns ns - n - s e w - n\n- - - ns ns n - e w ns - e ew w\n- e w ns n e ew w s ns e ew w -\ne w - n - e w - ns n e ew ew w\n- e ew w - - s - n - e ew w -\n- e w - e w ns e ew ew w e ew w\n- - - s s s ns s - e ew w s -\ns - - ns ns ns n ns - e ew w ns -\nns s - n n ns - ns e ew ew w n -\nn ns - e w n s ns - - - e w -\ns ns s - e w n ns - - e ew w s\nn n n e ew ew w n - - - - - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/077.a.htm"
+    },
+    "78_17x17": {
+      "id": "78_17x17",
+      "solution": "17 17\ns - s s e w e w e w - e ew ew w s -\nn - ns ns - - - e w - e ew ew ew w ns -\ne w ns ns - e ew ew w - s - s - - ns s\ns - ns ns e w - e ew w n s n - s ns ns\nns s ns n - s e ew ew ew w n e w ns ns n\nn n ns s - n - - s - e ew ew w ns ns -\ne w n ns - - - - ns e ew w s - ns n -\n- e w ns s - e w ns e w s n - ns s -\n- - - n n s - - n - - n e w n ns s\ns e ew ew w n - e ew w - e ew ew w ns n\nn e ew ew w s - - s s s - - e w n s\ne ew w s s ns - - ns ns n e w s - - ns\n- - - n ns n - - n ns - - - ns e w n\ne w - s ns e ew w - n - - s ns - s -\n- s - ns n - s - - e ew w ns n s ns -\ns n - ns - - n - - e w - ns - n ns s\nn - - n e w e w - e ew w n e w n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/078.a.htm"
+    },
+    "79_17x17": {
+      "id": "79_17x17",
+      "solution": "17 17\ne w s - - e ew ew w s - s s - - - s\n- - ns - - - e w s ns s n ns s e w n\n- s n - - e ew w ns ns n - n ns e ew w\ns n e ew w - e w ns ns e w - n - e w\nns e ew w - - s s n ns - - e w e ew w\nns s s - s s ns n - ns s - - - - e w\nns ns ns - n ns n - - n n e w - - - -\nns ns n - s n e ew ew ew ew ew ew w e ew w\nn n s - ns - e ew w e w - e w - - -\n- - n - n - s - s - e ew w s - - -\n- s e ew ew w n - n - - - - ns e ew w\ns ns - s - - s - s e ew ew w n e ew w\nns n - ns s - ns s ns s e w s e w - s\nns e w ns ns - ns n ns ns s - ns s - - ns\nn s - n ns - ns - ns n ns s n ns s s n\ns ns - - n s n - ns s n ns - ns ns n s\nn n - - - n e w n n - n - n n - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/079.a.htm"
+    },
+    "80_17x17": {
+      "id": "80_17x17",
+      "solution": "17 17\n- s - e ew ew ew w e ew ew ew ew w - - s\ns ns - - - - - e w - - e w - - - n\nn n e ew w e ew ew ew ew ew ew ew ew ew ew w\ns e ew ew w s - s e w e ew w - - e w\nns e ew ew w ns s ns e ew w s - e w - -\nns - - e w n ns n e ew w ns - - - e w\nn - s - - s n - - s - ns s - s - -\n- - n - - n - s - ns s ns ns s n - s\ne ew ew w e ew w n s n ns ns n ns - s ns\n- s - - - s - s n - n ns - ns - n ns\n- ns - - s ns s ns - e w ns - ns - - ns\n- n - s ns n n ns - - s ns s ns s s ns\ne w s ns ns e w n - s ns ns ns ns ns ns ns\n- - ns n n - e ew w ns ns ns ns ns ns n n\n- s ns e w e ew ew w n n ns n n n e w\ns ns n - s - - - e w - ns e ew ew ew w\nn n - - n e ew ew ew ew w n - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/080.a.htm"
+    },
+    "81_14x14": {
+      "id": "81_14x14",
+      "solution": "14 14\ne ew ew w - - - e w e ew ew w -\n- s - - e ew w s - e w s s s\n- ns e ew w s - ns - - s ns ns n\n- n - - s ns - ns e w n n n s\n- - e w ns ns - n e ew w e w ns\n- e ew w n ns e ew ew w - - s ns\ne w e ew w ns - e w e w s ns n\ne ew w s s ns e w e ew w ns ns s\ns s - ns ns ns - - - - - n n n\nns n s n ns ns - - - e ew w - -\nn s ns s n ns e ew ew w e w - -\n- ns n ns - ns - - e w e ew ew w\ns n s ns - ns e w s - e ew w -\nn - n n - n - - n - - e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/081.a.htm"
+    },
+    "82_14x14": {
+      "id": "82_14x14",
+      "solution": "14 14\ne ew ew w - - - e w - e ew ew w\ne ew ew ew ew ew ew ew ew ew ew ew ew w\ns e ew w - - - s - - e w - -\nns - e ew w - - ns e ew ew w e w\nns - e w - - - ns - s - e ew w\nn e w - - - - n - n - - - -\n- - - e w e w - - e w e ew w\n- e ew ew w - - - e ew ew w s -\ne w e w e ew ew w - e ew w ns s\n- e w e ew w s e w s s s n n\ns s - - s s ns - s n ns ns s -\nn ns - s ns ns n s n - ns ns n s\n- ns - ns ns n - n - - n n - n\n- n - n n e ew ew ew ew w e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/082.a.htm"
+    },
+    "83_14x14": {
+      "id": "83_14x14",
+      "solution": "14 14\ne w - e ew w - e ew ew w - - -\ne ew w s e ew ew w e ew w e ew w\n- s s ns s e ew w e w s - e w\ns ns n n ns s e w - - n e w -\nns ns - - n ns - e ew ew w s - -\nns ns e w - n e ew w - - n - s\nns ns e ew ew w - e w e w s - n\nns ns s - - - - e ew ew w n e w\nns ns ns - e w - e w s - e ew w\nns ns n s - e w - - ns s s - s\nns ns s n e w e w s n ns ns - n\nns ns n e w e w s ns - n n e w\nns ns s - - - - n n e ew w s -\nn n n - - - - - e w - - n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/083.a.htm"
+    },
+    "84_14x14": {
+      "id": "84_14x14",
+      "solution": "14 14\ne w s - e ew w s - e ew w - -\n- s ns s - s - n s e ew ew ew w\ns n n n - ns - s n e w e ew w\nn e ew ew w n - n - - - - e w\n- s - e w - - - - e ew ew w s\n- n - s s - - - e ew w - - ns\ne ew w n ns - - e w s - s - n\ne ew ew w n - e ew w ns - ns e w\n- - e ew w e ew w - n s n s s\n- e ew w - e w e ew w ns - ns n\n- e w s e ew ew w s s ns - n s\n- - - ns - s - - n ns n e w n\ns - - n s ns s e w n - e ew w\nn - e w n n n - - e ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/084.a.htm"
+    },
+    "85_14x14": {
+      "id": "85_14x14",
+      "solution": "14 14\ns e w - - e ew ew w - e w s -\nn e ew ew w - e ew ew w s s n -\ne w e w s e w s s s n ns s -\n- - - - ns - - ns ns n - n ns -\ns - s - n - - n ns s - - n -\nn s n - - s - - n n - e ew w\n- n e w s ns e w e w e w s s\ns - s - ns n - - - e w s ns n\nns s ns - ns e ew w s s - ns n -\nn ns ns s n - s - ns ns s ns - s\ns ns n n e w n - n ns n n s ns\nn n e ew ew w - e w n e w n n\ne w - - - - - s - e ew ew w -\n- e w - - - - n - e ew w e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/085.a.htm"
+    },
+    "86_17x17": {
+      "id": "86_17x17",
+      "solution": "17 17\ns e ew ew ew ew w e w - s s - s - s -\nns s s - - e w e ew w ns n s n - ns s\nns ns ns e ew w e w - s n s ns - - ns n\nn n ns e w e ew w s n - ns ns - - ns -\ns s n s e ew w s ns s - ns ns - - n -\nns n - ns - - s ns n ns - n n - - s -\nns - - ns s - n ns - ns - e w - s ns -\nns - s n n - s n s ns e ew ew w n ns -\nns - n e ew w ns - n ns s - - s - n s\nns - e ew ew w ns e w ns ns e w n - - n\nns s - - - - n - - ns n e ew w - - s\nns ns - - e w e ew w n e w e w s - n\nns ns - - - - - e ew ew ew w - s ns - -\nns n - - e ew ew w e w s - - ns ns - s\nns s - e ew ew w s - - ns s - ns ns s ns\nns ns e ew w - - ns - - n ns s n ns ns n\nn n - e w e w n - e w n n - n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/086.a.htm"
+    },
+    "87_17x17": {
+      "id": "87_17x17",
+      "solution": "17 17\n- e w - - e ew ew w s - - - - - e w\n- s s e w e ew w s ns - e w - - s -\n- ns ns s s - e w ns n - - s e w ns -\ns n n ns n e ew w ns - - - n - - ns -\nns e w n - - - - ns - e ew ew w - ns -\nns - e w s e w s ns - e ew ew ew w ns s\nns e w - n - s ns ns e ew w e w - ns n\nn s e ew w - n ns ns - - - s - - n s\ns ns - s - s s ns ns - s s ns e ew w n\nns ns - ns - n ns ns ns - n ns n s - - -\nn n - ns - s n ns ns e w ns - n e ew w\n- e w n - ns s ns ns - s n e ew w s s\n- - - - - n n n ns - ns e ew ew w ns ns\n- e ew ew ew ew ew w ns s ns s - - - ns n\n- - - e ew ew w - n n n n e w - n s\n- - - - - e w s e ew ew ew ew ew w - n\ne ew ew ew ew ew w n - - e ew w e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/087.a.htm"
+    },
+    "88_17x17": {
+      "id": "88_17x17",
+      "solution": "17 17\ns e w e ew ew ew ew w s - e w s s - -\nn - - s e ew w - s ns s - s ns n - s\n- s - n - s s s ns ns ns - ns n - - n\n- n - s - n ns n n ns n s ns - s - -\ne w s ns - s n e w n - ns n s n e w\ns - ns n - n - e ew w - ns - n s s -\nn - ns e ew ew ew ew ew ew w n e w ns n -\ne w n - - - e ew ew w - e ew w ns s -\ns e ew w - - - e w - e ew ew w n ns -\nns - e ew ew ew w s s - e w s - s ns s\nns s e ew ew w - n ns e w - n - n n n\nn n e ew w s - - n e ew ew ew ew ew ew w\ne ew w - - n - - e ew w e ew w e ew w\n- s - e w - - - s - e ew w s - s -\n- ns - - - - - - n - e w - ns - ns s\ns n - e w - - e w s e ew w n s ns ns\nn - - - - - - - - n e ew ew w n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/088.a.htm"
+    },
+    "89_17x17": {
+      "id": "89_17x17",
+      "solution": "17 17\ne w - s e ew ew ew ew ew w e ew ew w e w\n- - - ns e ew ew ew w - s s - - - s -\ne w - ns e ew ew w s - ns n e ew w ns -\ne ew w n - e ew w ns s n - - - - n -\n- s s - - - - s ns ns e ew ew ew ew ew w\ns ns n e ew w - n ns n - - - e w - -\nns ns - - s - - - ns s s - s e ew w -\nns ns - - ns e ew w ns ns n - ns e w - -\nns ns s - ns - e w n ns s - ns - - e w\nn ns n - n e ew w - ns n s ns - - - -\n- n e ew w - e ew w ns s ns n - - - -\n- e ew ew w e ew ew w ns n ns s - e ew w\ns e w e ew w e w - n - n n - - - -\nn e ew ew ew ew ew ew ew ew ew ew ew ew ew ew w\ns - s - e w e ew ew w e ew ew ew ew ew w\nns - n s - - e w - - e ew w e w s -\nn e w n e w - e ew w - - - - - n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/089.a.htm"
+    },
+    "90_17x17": {
+      "id": "90_17x17",
+      "solution": "17 17\ns s - s - s s - - - - e ew w e w -\nns ns s n s ns ns - - - e w e w s e w\nns ns ns - ns n ns - e ew ew ew ew w n - -\nn ns ns - ns - ns e w - s - - - - - -\n- n n s n - ns e ew w ns - e w - s -\ns - - ns - - ns s - - ns e ew ew w ns -\nn - s n - - n n - - n s - - - n -\ns - ns e ew ew ew ew ew ew w n e ew ew w s\nn - n e ew ew ew ew ew ew ew ew ew ew ew w ns\n- s - - - - e ew ew w s e ew ew w s ns\n- ns e w e ew ew w - s ns - e ew w ns ns\ns ns - s - e ew ew w n n e w s s ns n\nn ns - ns e ew w - - - e ew w ns ns ns -\n- ns - ns - - - - e w s s s ns ns ns -\ns ns - ns - s e w - s ns ns ns ns n ns -\nn ns - ns s ns s - - n n ns n ns s ns -\n- n - n n n n e ew w - n - n n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/090.a.htm"
+    },
+    "91_14x14": {
+      "id": "91_14x14",
+      "solution": "14 14\ne w e w s - e ew w - e w e w\ns e ew w n - s - - - - e ew w\nn e ew ew w - n e ew ew w - e w\ne w e ew ew ew ew ew ew ew ew ew ew w\n- s - e ew ew w e ew ew w - s -\n- ns s - e w - s s e w s n -\ns ns ns s e ew w ns n - - ns s -\nns n n n - s - ns - - - n n -\nn - - e w ns - n - - e w - -\ne ew ew w - ns s - - e w e ew w\ne w - e w ns n - e w - e ew w\n- - - - - ns e ew ew ew ew ew ew w\n- - e w s ns - - - e w - e w\ne ew ew w n n - - - - e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/091.a.htm"
+    },
+    "92_14x14": {
+      "id": "92_14x14",
+      "solution": "14 14\ne w - e ew ew w - - e ew ew w -\n- e ew ew ew ew ew ew ew w e ew w -\n- - - - - - - - - - e w e w\ne ew w - - e ew ew ew ew w s - -\n- e ew ew w e w - s - s ns - s\ns - - e ew w s - ns s ns n - n\nn e ew ew w s ns s ns ns ns s - s\ns - - s - ns ns ns ns n n n s n\nns e w n s n ns n n e ew w n s\nns - s - ns s ns s s - - - - ns\nns - n - ns ns ns ns ns s - - - ns\nn s - - n n ns ns n n e ew w n\ns ns e ew w s ns n e ew w - e w\nn n - - - n n - - - e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/092.a.htm"
+    },
+    "93_14x14": {
+      "id": "93_14x14",
+      "solution": "14 14\ne ew ew w e w - - s e ew w - s\n- s - - - e ew w ns - e w - ns\ns n s - - - - s ns - - e w n\nn s ns s - - s ns n s e w e w\n- n n ns s - ns ns s ns e ew w s\ne ew w ns n - n n n n e w s n\ns - - n - - e ew w s s - n s\nns s - - - s - - - ns ns - - ns\nns ns s - - ns s e w n n - s ns\nn n n s - n ns s e ew ew w n n\ns - s ns s - ns ns s - e ew w s\nns - ns ns ns - n ns n - s - - ns\nns - n n n - - n - s ns - - n\nn e ew ew w e ew ew w n n - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/093.a.htm"
+    },
+    "94_14x14": {
+      "id": "94_14x14",
+      "solution": "14 14\ns - - s - e ew ew w s e ew w -\nns - - ns e w e ew w n s - e w\nns s s ns - e w e ew w n e w -\nn ns n n e ew w - e ew w e ew w\ns n e ew w s s e ew w e ew ew w\nn e ew w s n ns e ew ew w - e w\n- s - - n s ns - - s e ew w s\ns n e w - ns n - - ns e w - n\nn e ew w - n e ew w n e ew w s\n- s s s s e w e ew ew w - - n\n- n ns n ns s s e ew w e ew ew w\ne w n - n ns n e w e ew ew w -\ns e ew ew w n - s - e w e ew w\nn - - e ew ew w n - - e w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/094.a.htm"
+    },
+    "95_14x14": {
+      "id": "95_14x14",
+      "solution": "14 14\ne ew ew w - - e ew ew ew ew ew w s\ne ew ew ew ew ew ew ew w s s - - ns\n- s s - - s - s - ns ns s - n\ns ns ns - - n - ns - n n n - s\nns ns ns - e ew w n e w e ew w n\nn n n s - e ew ew w s s s s -\ns - - ns s e ew w s n ns ns n -\nn - - n ns - - - n - ns n - s\n- e ew w n s - e w - n - s ns\n- - e w s ns e ew ew w - - n n\n- s - - ns ns e ew ew ew ew ew ew w\n- n e w ns n - e ew ew w - - -\ne ew ew w n e w - - - e ew w -\n- - e ew ew w - - - e ew ew w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/095.a.htm"
+    },
+    "96_17x17": {
+      "id": "96_17x17",
+      "solution": "17 17\ne ew w - - - e ew w e ew ew w - e ew w\ns - - s - - s - e ew ew w e w s - -\nns - - n - - n s s e ew ew ew w ns - -\nns e ew ew w s - ns n - e ew w - n - -\nns e ew w - n - n - s - - - s e ew w\nns e ew ew ew ew w - - n - - - ns s - -\nn e ew w e ew w e w e ew w s n ns e w\n- s e ew ew w - s e ew ew w n s n - -\n- ns - e ew ew w n - - - e w n e w -\ns n e w e ew ew ew w s e w e ew ew ew w\nn e ew ew w - - e w ns s - s - - - -\n- e ew w - s e ew w n ns s ns - - e w\ne ew ew ew w n s s s - ns ns n s e ew w\n- - - - e w ns ns ns - ns ns - n - - -\ne ew ew w - - n n ns s ns ns e w - - s\ne w e w - e ew w n n n ns - e ew w ns\ne ew ew ew ew ew w - - - - n - - - - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/096.a.htm"
+    },
+    "97_17x17": {
+      "id": "97_17x17",
+      "solution": "17 17\n- - - - e ew w - e ew ew w s s e ew w\ns e w e w e w e w e ew w ns ns - s s\nn e ew w e w e ew ew w - - n ns - ns ns\ne ew w s e ew ew w - - - - s n s ns n\ns - - n s e w s e ew w - ns - ns ns -\nns e w s ns s - ns - s e w n - n ns s\nns - - ns n ns - n - n - s e w s n n\nns e w n s n s s s e w ns s - ns e w\nns s e w ns s ns ns n s - n ns s n s -\nn ns s s ns n ns ns - ns - s ns ns s ns -\n- n ns ns ns - ns ns s ns - ns ns n n n s\ne w ns ns n - ns ns ns ns - ns n e ew w n\ns - ns n e w ns n ns n - ns - e ew ew w\nns s ns s - - ns - n - - ns s - s s -\nns n ns ns s - ns s e ew w ns ns s ns ns -\nns s ns ns ns s ns ns - s - ns n ns n n -\nn n n n n n n n - n - n - n - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/097.a.htm"
+    },
+    "98_17x17": {
+      "id": "98_17x17",
+      "solution": "17 17\ne ew w e w e ew w e ew w s e ew w s -\ns - e ew w - s e ew ew w n - s - n -\nns s - e ew w n e w - - - - n e ew w\nn n - e ew ew w e ew ew w - e ew ew w -\ne w e ew w s e ew ew w - s - - e ew w\n- - - - - n s e ew ew w ns e ew ew ew w\n- s - s - s ns - - - - n e ew ew w -\n- ns s n - ns ns - e w e ew ew ew ew ew w\ns n ns s - ns ns s - s s - s - - e w\nn - n ns s n ns n s ns n s ns e w - -\ne ew w n ns - n s n ns s n ns e ew w -\ns - - - ns - s n - ns n - n - - - -\nns e ew w n - ns e w ns - e ew ew ew w -\nn s - e w - n - - ns s s - e w - -\n- n - - e ew ew w s ns ns ns - - - - -\ne ew ew ew w - - - ns n ns ns - - e ew w\ne ew ew w - e w - n - n n e w - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/098.a.htm"
+    },
+    "99_17x17": {
+      "id": "99_17x17",
+      "solution": "17 17\ns - s e w s - s - - - s e ew ew w s\nn - ns s - ns - ns - e w ns - - - - ns\ns s n ns s n - n - - s n - s e w ns\nn ns - ns n s e ew ew w ns - - ns s - ns\ns n - ns s n s e w - n - - ns ns - ns\nns s - n n s n e ew ew ew ew w ns ns s n\nn ns e ew w n s s - - - e w ns n ns -\n- n - e ew w ns ns e w s - - n s ns -\ne ew ew ew w - n ns - - n e ew w n n s\ns s - - - - - n s - - s - s e w ns\nns ns s e ew w s s ns - - ns - ns s s n\nns n ns - - s ns n n - - ns - n ns ns -\nn s ns s - ns n - e w s ns - - n n s\ns ns n ns - n - s - - ns n - s s s ns\nns n - n e ew w n - - ns - s ns ns ns ns\nns - s - s - - - - - ns s n n n n ns\nn - n - n - e ew ew w n n - e w - n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/099.a.htm"
+    },
+    "100_17x17": {
+      "id": "100_17x17",
+      "solution": "17 17\ne ew ew w - - - - - s - e ew w e w -\ne ew ew ew w e ew ew w ns e w - s s s -\n- - - - - - e w - n - - - n ns ns -\ne ew w - e ew w e ew w e ew ew w ns ns s\n- - s e w - s - e w - - e w n ns n\n- - ns s e w n e ew ew ew ew ew ew w n s\ns s ns n s e ew ew ew ew ew w e ew ew w n\nn ns ns - n s e ew w s e ew ew w s e w\n- ns ns - - ns e w - n - - - s ns - -\n- n ns - - ns s - e ew w - - n n e w\ns s ns - - n n e ew ew ew ew ew ew ew ew w\nns n ns s - - - s - e ew w - s e ew w\nn s ns n e ew w ns - - e w s ns s - -\n- ns ns s - s s n e ew ew w n ns n - -\n- n ns ns - ns ns e ew ew w - s ns - - -\ns - ns ns s ns ns s e ew ew w ns n - - -\nn - n n n n n n - - - - n e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/100.a.htm"
+    },
+    "101_14x14": {
+      "id": "101_14x14",
+      "solution": "14 14\ne w - e ew w e ew w e w s - -\n- s s s - - e ew ew w s ns e w\n- ns ns ns e ew ew w - s n n s -\ns n n n - s - - s n e w n -\nns e ew ew w n - - ns e ew ew w -\nn e ew ew w s - - n - s e ew w\ns s - - s ns s - - s n e ew w\nns n s - ns n n s s n - e w s\nns - n s ns e w ns ns e ew ew w ns\nns e w n n - - n ns - - s - n\nns e ew ew w e ew w n - - ns s -\nns - - - s - - - s - - ns ns -\nns - - - n s e w ns - s n n -\nn - e ew w n - - n - n - e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/101.a.htm"
+    },
+    "102_14x14": {
+      "id": "102_14x14",
+      "solution": "14 14\ne ew w s e w s e w e w - - -\n- - - ns s s ns s s - s s - s\n- e w ns n ns ns ns ns s ns n - ns\n- - - n s ns ns n ns n n - - ns\n- - e w ns n ns - ns e ew ew w n\n- e w - ns - ns - n s - - s -\ns - - s n - ns e w ns e w n -\nns s - n e w ns s - ns e ew ew w\nn ns e w - s ns ns - n e ew ew w\ns ns - - - n ns n - e w - - -\nns n e ew ew w ns e ew ew w e ew w\nns - e w e w ns - s - - e w -\nn - s e ew w ns - n - e ew w -\ne w n - - - n - e ew ew w e w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/102.a.htm"
+    },
+    "103_14x14": {
+      "id": "103_14x14",
+      "solution": "14 14\ne ew ew w e w - - e ew w e w -\n- - - e ew ew ew ew ew ew ew ew ew w\n- s e ew ew w s - s s s e ew w\n- n - s e w n - ns ns n - - -\n- - s ns - - s s ns ns e ew ew w\n- - n ns - - ns ns n n - e ew w\ns - s n e w ns n e ew w - e w\nn - ns e ew w n s - e ew ew w -\ns - ns s - e w n - e ew ew w -\nns s n n s e ew w e w s - s -\nn ns - - ns - - e w - ns s n -\n- ns - - n - - - - - ns ns s -\n- n e ew w - e ew ew w n n n -\n- e ew ew w - e ew w e w e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/103.a.htm"
+    },
+    "104_14x14": {
+      "id": "104_14x14",
+      "solution": "14 14\n- s - - - - e ew ew ew ew ew ew w\n- ns s e w s - - e w - - - -\ns n ns s - ns - - s e w - s -\nn - ns ns - n - - n - - - ns s\n- - n n - - - - e ew ew w n ns\ne ew ew w s s e ew ew ew ew w s ns\ne w s - ns ns s e ew w - - ns n\ns - n - ns n n e w s - - n s\nns - - - n - - - - n e ew w ns\nns s e ew ew w e ew ew ew ew w s ns\nns ns - - e ew ew w e w s - ns ns\nns n - - e w - - - - ns - ns ns\nns e ew ew ew ew ew ew w s ns s ns ns\nn e w e ew ew w e w n n n n n",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/104.a.htm"
+    },
+    "105_14x14": {
+      "id": "105_14x14",
+      "solution": "14 14\n- s e ew w - e w - e ew w s -\ns ns s - - e w - s - s - n -\nn n n - e w e w n - n - e w\ns - - s s - s - s - e w - -\nn - - ns ns s n - n s - - - s\ne ew w n ns n - - - ns - e w n\ne ew ew w n e ew ew w n e ew w -\ns e w e w e ew w e ew ew w - s\nns s - - - e ew ew w s - e w ns\nns ns - - e w e ew w ns s - - n\nn n - - s - s - s n ns - e w\n- e ew w n s ns s ns s n s - -\n- e ew w s ns n ns n n s ns s -\ne w - - n n - n e w n n n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/105.a.htm"
+    },
+    "106_17x17": {
+      "id": "106_17x17",
+      "solution": "17 17\n- e ew w - e ew ew w e w s - s e w -\n- e ew ew ew ew w e w s - ns - n e ew w\ns - - e ew w e ew w n s n - - - e w\nns s s s - - e ew ew w ns e w e ew ew w\nn n ns ns s s e ew ew w n - - s e w s\n- - ns n ns n e ew w e ew ew w ns s - n\ns s n s n s - e w s - s - ns n - -\nns n s n s ns s - - n - ns - n e w s\nn s ns s ns n ns e ew ew w ns e ew w s ns\ns ns ns n n - n e ew w s n - s - ns n\nns n n e ew w s s - - ns - - n - ns s\nn - e ew w s ns ns e w n e ew ew w ns ns\ns e ew w - n ns ns e ew ew w e w - n ns\nns - - e w - n n e w - e w - s s n\nns - - - e w e ew w s e w e w ns ns s\nn e w e ew ew ew ew w n - e ew w n n n\n- e ew ew ew ew ew ew ew ew ew ew ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/106.a.htm"
+    },
+    "107_17x17": {
+      "id": "107_17x17",
+      "solution": "17 17\ne ew ew ew ew w s - - - e ew ew w - e w\n- - e w e w ns - e ew ew w e ew ew w -\ne w e ew w - ns s e ew ew ew ew ew w e w\ns - e w s - n ns s - s - - e ew w -\nn - - - ns - - ns ns - n e ew ew w e w\ns - s - n e w ns ns s e ew w e ew ew w\nn - ns e ew ew w n n n - e w s - e w\ns - ns - e ew ew ew ew ew ew ew w n e ew w\nns s n e w - e w - - - - - s s - -\nns n - - - - - - e ew ew w s n ns - -\nn s - - - e ew ew ew w e w ns s ns s -\n- ns s e ew w - - - e ew w n n n n s\n- n ns s - e ew w - - e w s e w - ns\n- s n n s - s - - - - - n - - - n\ns n - - n s n e ew ew ew ew ew w e ew w\nns e ew ew w ns - - e ew ew w - - - s -\nn e ew w - n - - - e ew w e w - n -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/107.a.htm"
+    },
+    "108_17x17": {
+      "id": "108_17x17",
+      "solution": "17 17\ns e w s - - - - - - - e ew ew ew w -\nns - - ns - e ew ew ew w s - s - s e w\nn s - ns s e w - - - n - ns - n - -\ns n - ns ns - e ew w e w s ns e ew w -\nns s - ns ns e ew ew ew w - ns n - e ew w\nn n - n ns s s - - e w n - e ew w -\ns - s - ns ns ns - e ew ew ew ew w - - s\nns s ns s n ns n - - e ew w e ew ew w n\nn ns ns n - n e ew ew ew ew ew ew w e ew w\n- n n e w - e w - s s e ew w - e w\ns - s - e ew w s - ns n - - - - - -\nns s ns s - s s n - ns - e w e w - -\nn n ns ns - n ns - - n - e ew ew w - -\ne w n ns e w ns - - e w s e ew ew ew w\ne ew w ns s - ns e ew ew w n - - e ew w\ne ew w ns n s n - e w e ew ew ew ew ew w\n- - - n - n - - e ew w - - e ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/108.a.htm"
+    },
+    "109_17x17": {
+      "id": "109_17x17",
+      "solution": "17 17\ne ew w s s s s - - - e w e w e ew w\n- e w ns ns n ns e ew ew w e ew ew w - -\ne w - n n - n - e ew w e ew w s s s\n- - s e ew w s e ew ew ew w s s ns ns ns\ns - n - - s ns - - - - - ns n n ns n\nns e ew w - n ns - - e ew w n - - n s\nn - - e ew w n s e ew ew ew ew w - s ns\ne ew ew ew w - - ns s s - - s e w ns ns\ne w e w s e w ns ns n - - n - - n n\n- e ew w n - - n ns e ew ew w - e ew w\ne w e w e ew ew w n s e ew ew ew ew ew w\n- s - - - - e ew w n - e ew ew ew w -\n- n - s e ew ew ew ew ew ew ew ew w e ew w\ne ew w ns - s - e ew w - e ew ew w e w\ns - - n s ns - e ew ew ew ew ew ew ew ew w\nn e w - n n s - e ew ew ew ew ew ew w -\ne ew w e ew w n e ew ew w e ew ew ew ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/109.a.htm"
+    },
+    "110_17x17": {
+      "id": "110_17x17",
+      "solution": "17 17\ns - - - - s e ew w e w - e ew w e w\nn - s - - n e w e w - - e w - - -\ne w ns - e ew w s - - e w - - e w s\ns s ns e ew w - n - - e ew w s - - n\nns ns n - e w e ew ew w s s - ns s e w\nn ns - - - s e ew ew w ns n s ns n s -\ns n - - s ns - e w - n - n n s ns s\nns s - s ns ns s s e w s - s - ns n ns\nns ns - n ns n ns n s s n - n s n s ns\nn ns s s ns s n - ns n e w s ns s ns ns\n- n n ns ns ns s - n s - - n n n n ns\ne ew w n ns ns ns - s ns e w e ew ew w ns\ns e w s ns n ns - n ns s - s - e w ns\nn - - n n s n e w n n s ns e ew w n\ns e ew ew w n e ew w e w n ns - - e w\nn e ew ew ew ew ew w - e ew w n s - - -\ne w e w - - - - e ew w - - n e ew w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/110.a.htm"
+    }
+  }
+}

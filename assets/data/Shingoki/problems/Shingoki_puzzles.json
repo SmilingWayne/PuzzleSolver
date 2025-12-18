@@ -1,0 +1,505 @@
+{
+  "count": 100,
+  "puzzles": {
+    "01_6x6": {
+      "id": "01_6x6",
+      "problem": "6 6\n- - - - - -\n- - b4 - - -\n- - - - - -\n- - b4 - b5 -\n- - - - - -\nb3 - - b2 - b6",
+      "source": "https://www.janko.at/Raetsel/Shingoki/001.a.htm"
+    },
+    "02_6x6": {
+      "id": "02_6x6",
+      "problem": "6 6\n- w2 - b3 - -\n- - - - b2 -\n- - - - - b2\nb2 - w2 - - -\nb2 - - - - -\n- w5 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/002.a.htm"
+    },
+    "03_6x6": {
+      "id": "03_6x6",
+      "problem": "6 6\n- w5 - - - -\n- - - - - w5\nw5 - - - - -\n- - - w3 w4 -\n- b4 - - - -\n- - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/003.a.htm"
+    },
+    "04_6x6": {
+      "id": "04_6x6",
+      "problem": "6 6\n- - - - w2 -\n- - - b2 b2 -\n- w2 b4 b4 - b2\n- - - - - -\n- - - - - b2\n- b2 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "problem": "8 8\nb3 - b5 b4 b2 - - -\n- b3 - - - - - b2\n- - - - - b6 - -\n- - - - - - w2 -\nb3 - - - - - - b2\n- - - - - - - -\nw2 - - - b2 - - b2\n- b2 - b2 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "problem": "8 8\n- - b5 b6 - - - -\n- - - - - - - -\n- - - - w3 - - b2\n- b3 - - - - b2 -\n- - - b2 b4 - - -\n- w2 - - w2 - w2 -\n- - - - - w4 - -\n- w7 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "problem": "8 8\nb4 - - - - - - -\n- - - - - - - b7\n- - - - w2 - - -\nw4 - - b4 - - - -\n- w3 - - - - w4 -\n- b7 - - - - - -\n- - - w2 - - - -\n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "problem": "8 8\n- - - - - - - -\n- - - w2 - - b2 -\nb2 - w2 - - - - b5\n- - - - - b3 - -\n- - - b4 - - - b2\n- b3 - - - b3 - -\nb2 - - b2 b2 - b2 -\n- w2 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/008.a.htm"
+    },
+    "09_11x11": {
+      "id": "09_11x11",
+      "problem": "11 11\nb3 - - - b4 - - - - - -\n- - - w2 - - - b3 - b2 -\n- b2 - - b4 - b3 - b4 - b2\nb2 - - - - - - - - w2 -\n- - - - - b4 b2 - - - b4\nb2 - b2 - - - b3 - - b3 w2\n- b2 - - w2 - - - - - -\n- - - - - - - b2 - b2 -\nb2 - - b2 - w3 w2 - w2 - -\n- - b5 w2 - - - - w2 - -\nb8 - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/009.a.htm"
+    },
+    "10_11x11": {
+      "id": "10_11x11",
+      "problem": "11 11\n- - - - - - - - - b7 -\n- b2 - - - - - - - - b6\n- b3 - - b2 - b2 - - - -\n- - - - - b5 - - - w4 -\n- - - w3 b4 - - - b2 - -\n- - - - w4 - - - - - -\n- b3 - - - b2 b3 - - - -\n- - - - - - b2 w2 - b2 b4\n- - - - - - - - b4 - -\n- - - - - b3 b2 - - - -\nb10 - - - - w4 - - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/010.a.htm"
+    },
+    "11_11x11": {
+      "id": "11_11x11",
+      "problem": "11 11\n- - - - - - - - - w2 -\nw3 w2 - - - b3 - w2 - - b2\n- - - - - - - - - - -\nb5 - - w2 - w2 - - - w2 -\n- - b2 - - - b3 - - w2 b8\n- b2 - - - - - - b2 b4 -\nb3 - - w3 - - - b3 - - -\n- b2 w3 - w2 - b3 - w2 - -\nb2 - - - - - b3 w3 - - -\n- - - - - - b2 - - - -\nb3 w2 - - b2 - - b4 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/011.a.htm"
+    },
+    "12_11x11": {
+      "id": "12_11x11",
+      "problem": "11 11\n- b4 - - - - - - - b2 -\n- - - - - w2 - - - b2 -\n- b2 - w2 b2 - - b2 - - -\n- - - - - b2 - - - - -\nb4 b2 - - b6 - b5 - - - -\n- - b2 - - w4 w4 - w6 - -\n- - - - - - - - - w8 -\n- w3 - b5 - - - - - - -\n- - b3 - - - - b5 - - w9\nw3 w2 - - - b3 - - - - -\n- - - - b2 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/012.a.htm"
+    },
+    "13_11x11": {
+      "id": "13_11x11",
+      "problem": "11 11\n- - b2 - - - w4 - - - -\nw3 b2 - - - b3 - - b2 - -\n- - - - - - - - b3 - -\n- b2 w2 - - - - - - - b4\nb8 - - w3 - - b3 w4 - w2 -\n- b4 - - w3 - - - - b2 -\n- - - w3 - - b2 b2 b2 - -\n- - - b3 b2 - b2 b2 - - b3\n- - - - - - - - - - -\n- - - - - - - w2 - - b2\n- - - w2 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/013.a.htm"
+    },
+    "14_11x11": {
+      "id": "14_11x11",
+      "problem": "11 11\n- - - - - - - - - - -\nb3 w2 - - - - - - w8 - -\n- - - - - - - b2 - - -\n- - w2 w3 - - - b2 - - -\n- - - - - - w2 - - - -\n- - b3 - b5 - - - - - -\nb3 - - b3 - - - - - - -\nb4 - - - - - - - - - -\n- b5 - - - - w5 - - - -\n- - - - w2 b4 - w5 - - b11\n- - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/014.a.htm"
+    },
+    "15_16x16": {
+      "id": "15_16x16",
+      "problem": "16 16\nb6 - - w5 - - - b6 - - - - b7 b4 - -\n- - b4 - b4 - - - - - w3 - w2 - - b2\nb3 b2 - - w2 - - b3 - - - b3 - b3 - -\n- - - - - - - - b3 - - w3 - - - -\nb3 - - - b2 - - - - b3 - - - - - -\nb7 - - b4 b4 - - - w3 - - - w6 - w4 -\n- b5 - w3 - b4 - w6 - w2 - w4 - - - -\nw4 - - - - - - - - - - - - - - b2\n- - b3 - - - - - b4 - - w4 - - - -\n- b6 - - b4 - - - - - - - - - - -\n- - b4 - - b2 - - - - - - - w11 b3 -\n- - - - - - - - - - w2 w2 - - - b2\n- - - b2 - - - w3 - b5 - - - - - -\n- - w3 - - w3 - - - - - - - - b3 -\n- - b4 - b2 - - w2 - b2 - - - - - b2\n- - w4 - - - w4 - - - - b4 w3 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/015.a.htm"
+    },
+    "16_16x16": {
+      "id": "16_16x16",
+      "problem": "16 16\n- - - - - - - b3 - - - - - - - b7\n- - - w6 - b4 - - b6 - - - - - - -\n- b3 - - w4 - - - - - - b5 - - w3 -\n- - - - - - - - - - - - - - - -\n- w3 - - - - - - b3 - - - - b5 - -\n- - w6 - b3 - b2 - b2 - b4 b4 - - - b5\n- - - - - - - - - - - - - - - -\n- - - - b5 - - - - - - - - - - -\n- - - - - - - - b3 - - - w5 - - -\n- - - - w3 - w9 - b5 - - - - - - -\nw9 - - - - - - - - - - w5 - w4 - -\n- b5 - - w2 w4 - - - - - - - - - b2\n- - - - - - - - - - b6 - - - - -\n- b3 - - - - - - b5 b7 - w2 - b5 w2 -\n- b3 - - - b2 - - - - w3 - - w2 - -\nb10 - - - w2 - - - - w4 - w4 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/016.a.htm"
+    },
+    "17_16x16": {
+      "id": "17_16x16",
+      "problem": "16 16\n- b12 - - - - - - - - - - - b2 - -\n- b2 - - b7 b5 - - - - - b5 - - - -\n- b2 - b2 - - b2 - w4 - - - - w3 - -\n- - - - - w3 - - - - - - - - w3 -\n- - - - - - - - - w4 - - - w5 - -\n- - - - - - - - - - b2 - - - - -\nb2 - - - - w2 - - - b5 - b2 - b2 - b2\n- - w3 - - b3 w2 b2 - - b2 b4 - - - -\nw5 - - - - - - w3 - - - - - b6 b2 b2\n- b2 - w5 w3 - - - - - - b5 w2 - - b2\n- - - - b4 - w3 - - - - - - - - -\n- - b2 - w2 - - - - - - b2 - - b2 -\n- w2 - - - - - - - - - - - - - -\n- w3 - b4 - - - w3 - - - b2 b2 - b2 -\n- - - b2 b7 - - w5 - - - - - w2 - w2\n- b2 - - w7 - - - - - - b2 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/017.a.htm"
+    },
+    "18_16x16": {
+      "id": "18_16x16",
+      "problem": "16 16\n- b9 - - - - - - - - - - - - - b5\n- - - - - - w7 - - - - b2 - - - b3\n- b3 - - - - - - - w6 - b2 - - - -\n- - b3 b3 - b7 - - - w5 - - - - - b3\n- - b2 - w3 - b2 - - b2 b2 - - - - -\nb4 - - - - b3 - w2 - - b3 - b5 - b2 b4\n- - - w4 - - b3 - b4 - - - - - - -\n- - - b3 - w3 - - - - - w2 - - - -\n- b2 - - w2 - b5 - - - - - - b2 - -\nw2 - - - - - - - - - - - - - - b2\n- b5 - - - w2 - - b7 - - - - w6 b2 -\n- - - w2 - - - w3 - b6 - - w6 - - -\n- - - - - - - - - - - - - - - -\n- - b4 b3 - - - - - - - - - - - -\n- - b2 - w3 b6 - - - - - - - - - b2\n- - - - - - - - - - - b3 - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/018.a.htm"
+    },
+    "19_16x16": {
+      "id": "19_16x16",
+      "problem": "16 16\n- - - w2 - - - b3 - - b2 b3 - - - -\n- - - b3 - - w2 - - - - - - - - -\n- - - - - - - - b3 - b2 - b2 - - w5\n- - - - w2 - - - - - b6 w3 - - - -\n- - - - - - - - - - - - - - - -\nw6 b6 - - - - w4 - - - - - w3 - - -\n- - - - - b2 - - - b4 w3 - - - - -\n- - - - - - - w2 - - b5 - b6 - b3 -\n- - - w4 - - - - w2 - - - - - - w2\n- b3 - - - - - - - - - - - w3 - -\n- - w3 - b7 - - - b4 - b5 - - - - -\n- - - - - w5 w6 - - - - b3 - b5 - -\n- - w3 w3 - - - - - - - - - - - -\nb7 b3 - - - - - w5 - w2 - - - - - -\n- - - - w3 - - - - - - b2 - b3 - b2\n- b3 - - - - - - - - - b4 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/019.a.htm"
+    },
+    "20_16x16": {
+      "id": "20_16x16",
+      "problem": "16 16\n- - - - - - w5 - - - - - - - b2 -\nw2 - - - w3 - - - - - w2 - w3 - - -\n- b3 - - - - - - w2 - - - - b3 - w3\n- - b2 - - b3 - w2 - b3 - - - - b3 -\n- - - w3 - - - - - w2 b4 - w2 b4 - -\nb3 - - - - - - - b4 - b2 - - - - -\n- w3 - - - b3 - - - b2 - b2 - - b5 -\n- - - b3 - w2 - - - b3 - b2 - - - -\n- - b5 - - - b3 b4 - - - b2 - - - -\nb2 - - - - - - b2 - b3 - - b2 - - -\n- b2 - b3 - - w3 - - - - - - - b6 w6\n- - - - - w4 - - - - - - w4 - b3 -\nb4 - - - - - - - b3 - - - - - - -\n- - - - b6 - - - w2 - - w3 - - - -\n- - - - - - - - - - b5 - - - - -\n- - - - - - - - - w2 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/020.a.htm"
+    },
+    "21_8x8": {
+      "id": "21_8x8",
+      "problem": "8 8\n- - w7 - - - - -\n- - - - - b6 - -\n- - - b3 b2 - - -\n- - b5 - - - - b2\n- - w3 - - - - -\nb2 b2 w3 - - - - -\nb2 b2 - w2 - w2 - w3\n- - - - w4 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/021.a.htm"
+    },
+    "22_8x8": {
+      "id": "22_8x8",
+      "problem": "8 8\nb4 - b2 - - b2 - -\n- - - b2 - - - -\nw3 b2 - - - - b3 -\n- - b2 - - - - -\nb3 - - b2 - - - -\n- - b2 - w2 b2 - -\nb2 - - - b4 - - -\n- - - - - - w4 b11",
+      "source": "https://www.janko.at/Raetsel/Shingoki/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "problem": "8 8\n- - - - - - - -\nb2 - - b2 - - - -\n- - w2 - w6 - b2 -\n- b3 b2 - - w6 - -\n- - b2 - - - b2 -\n- - - - - - b2 -\n- - w2 - - - - b2\nb5 b2 - - - - - b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "problem": "8 8\n- - w4 - b6 - b2 -\n- - - - - - - w2\n- - w2 - - - - -\n- - - - - b3 w2 -\nb2 - w2 - - - - -\n- - - b3 - - - b2\nw2 - - - - - - -\n- - - b3 - b3 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/024.a.htm"
+    },
+    "25_11x11": {
+      "id": "25_11x11",
+      "problem": "11 11\n- w3 - - b4 - - b6 - - -\n- - b3 - - b2 b4 - - - -\n- - b3 - - b3 - - - - w4\n- - - - - b2 - - - b4 -\n- - - - - - - b6 - - -\n- - - - b4 b2 - - w6 - -\n- - - - - b4 - - - b3 -\n- b3 - - b3 - - - - - b2\nb3 - - - - - - - - - -\n- w2 - - - b2 - - - b2 -\n- w3 - - - - b2 - b7 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/025.a.htm"
+    },
+    "26_11x11": {
+      "id": "26_11x11",
+      "problem": "11 11\n- - - b2 - - - - b3 - b5\n- - - - w2 w2 - - w2 - w4\n- - - - b3 - - - - - -\n- - - - b4 - - - - - -\nb5 - b2 - w2 - - - - - -\n- b4 - - - - - - b4 - -\nb6 - w5 - - - w3 - - - b3\n- - - - b5 b3 - - - - -\nb5 - - - - - - - - b2 w3\n- - - w2 - b4 - - - - -\n- - - - - - - - b5 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/026.a.htm"
+    },
+    "27_11x11": {
+      "id": "27_11x11",
+      "problem": "11 11\n- - - - w2 - - - - - -\n- - - - b2 - b3 - - - -\n- w3 w4 b3 - b4 - - - - w6\n- - - - b4 - - - - b3 -\n- - - - - - - - w2 - -\n- b5 - - - - - - - - -\n- - - - - b3 w3 - w2 - -\nw4 b3 - - - b2 - - - w3 -\n- b2 w3 - - - b7 - - - -\n- - - - - - - - - - b6\n- - - - b2 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/027.a.htm"
+    },
+    "28_11x11": {
+      "id": "28_11x11",
+      "problem": "11 11\n- - b2 - b4 - - - b7 - b3\n- - - - b3 b2 - - - - -\n- b3 - - - - - - - - -\n- - - - - - b3 - - - b2\n- b4 - - - - - w3 - - -\n- - b3 - - - - w3 - - w3\n- - - - b4 - - - - - -\n- - - b5 - - - w2 - b3 -\nw4 - - - - - - - w3 - -\n- b3 b2 - - - w2 - - - -\n- w3 - - - - - b4 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/028.a.htm"
+    },
+    "29_16x16": {
+      "id": "29_16x16",
+      "problem": "16 16\n- - w4 - - b3 - - b2 - - b6 - - - b5\n- - - - - - - b2 - b2 - - - - - -\n- - - b4 - - b3 - - - - b3 b4 - - -\nb2 - b3 - - - - - - - - b4 b4 - - w7\n- - - - - - b4 - b3 - - w3 - - - -\n- - - w4 - - - - - - w4 - - - - -\nw3 - - - b5 - b2 - - - - - - - - -\n- w3 - - w2 b2 - - - b6 - - - - - -\n- - - - - w2 - b3 - - - b2 - - - -\n- - b2 - b5 - w3 - b2 - - - - - b7 -\n- - b4 - - - b2 - w2 - - - w2 b7 w2 -\n- w4 - b5 - w2 - - - - - - - - - -\n- - - - - - b4 b2 - b3 w5 - w2 - - b2\nw7 b5 - - b2 - - - - - b6 - - - - -\n- - - - b2 - - - b2 b2 - - w2 - b2 -\nb8 - - - - - - - - - - - - - w5 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/029.a.htm"
+    },
+    "30_16x16": {
+      "id": "30_16x16",
+      "problem": "16 16\n- - b2 - - - w5 - - b6 - w5 - - - -\n- - - - - - - - b4 - - - - w3 - -\n- - - b2 - - b2 - - b4 - - - - w2 -\n- b2 - w2 - - - w3 - - - b2 - - - w4\n- b2 - - - b2 - - - - - - - - b2 -\n- - w2 - - b3 - - - w3 - - w3 w3 - -\n- - - - - b2 w3 - - - - - - - - -\n- - - - b3 - - - b3 - - - - w4 - -\nw4 w3 w2 b2 - - - b5 - - - - - - - -\nb5 - - - - - b4 - b2 b3 - b2 b2 - - -\n- - - b2 - - - - - - - b4 b2 b3 - b2\n- - - - w2 - - - w2 b2 - - - - - -\nb2 - - w4 - - - - b3 - w4 - - w2 w3 -\nb2 - w2 - b2 - - b5 - - - - - - - b3\n- - - w2 - - b2 - - - - - - - - -\nb6 - - w5 - - - - w2 b3 - b2 b2 - - b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/030.a.htm"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "problem": "8 8\n- - - - - b3 - -\n- - - w2 - w2 - -\nb4 w3 - - - - - -\n- - - - - - - -\nb3 - - - - - - -\nb4 - - w3 - - b6 -\n- - - - w3 - - w7\n- - - b4 b4 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/031.a.htm"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "problem": "8 8\nb3 b2 - - - - w2 b3\n- - - w2 - b2 - -\n- - - - - b2 - -\nb2 - b2 - w3 b3 - -\nb3 - - - - b2 - -\n- w3 - - - - - -\n- b3 - - b3 - - -\n- - - - - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/032.a.htm"
+    },
+    "33_8x8": {
+      "id": "33_8x8",
+      "problem": "8 8\n- - - b2 - - - -\n- - w3 - - w5 - w7\n- - - - b4 - - -\nw4 - - - - - - -\n- - - - - - - -\n- - - - - - - -\n- b3 b6 - - - - -\n- - - - w7 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/033.a.htm"
+    },
+    "34_8x8": {
+      "id": "34_8x8",
+      "problem": "8 8\n- - - w3 - - - b3\n- - - - - - - -\n- - w2 - w4 - - -\n- b2 b5 - - - - -\n- - - - b5 b2 - -\nb5 - - - - - - -\n- b2 - - b2 - b2 -\n- - b2 b2 - - - b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/034.a.htm"
+    },
+    "35_11x11": {
+      "id": "35_11x11",
+      "problem": "11 11\n- - - - - b5 b5 - w3 - -\n- b2 - - b3 - - b3 b2 - -\n- - b3 - - - - - - w2 -\nb3 - - w3 b3 - - b4 - - -\nb4 - - - - - - w2 - - b2\n- - - - - b5 - - b2 - -\n- - - b2 - - b3 - b2 w2 -\n- - - - - - - - - - b4\n- - - - b5 - - - - b3 -\nw5 - - - - b3 w2 - w2 - -\n- b2 - - - b2 b3 - - - b4",
+      "source": "https://www.janko.at/Raetsel/Shingoki/035.a.htm"
+    },
+    "36_11x11": {
+      "id": "36_11x11",
+      "problem": "11 11\n- - - b5 - w6 - - - - -\nw3 b2 - - - b3 - - - - -\n- b2 - - w4 w2 - - - - -\n- - - - - - w2 b4 b3 - -\n- - - - b5 b3 - - b2 - -\nw2 b2 - - b3 - - - - - w4\n- - w3 b4 w2 - w2 - - b2 -\nb4 - - - - - - - - - -\nw3 - - - b2 - - - - w2 -\n- - - b3 - b2 - b3 - - w3\n- - - - w8 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/036.a.htm"
+    },
+    "37_11x11": {
+      "id": "37_11x11",
+      "problem": "11 11\n- - b2 - - - - - b3 - -\n- b2 - - - w2 - b2 - - -\n- - - b4 w4 - - b2 - - b5\n- - - w2 - - - - - - -\nb4 w3 - - - - b2 - - - w4\n- - - - - b3 b4 w2 - b3 -\n- - - - b3 - - b3 - b3 -\n- - w2 - - - - - - - -\nw4 - - - - - - - b3 - -\n- - - b2 - - - - - - -\n- - - - b3 b4 w3 - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/037.a.htm"
+    },
+    "38_11x11": {
+      "id": "38_11x11",
+      "problem": "11 11\n- - - - b4 - - - - b4 -\nb2 - - - - - - b2 - b2 -\n- - - - b4 b3 - - - - -\nb8 - - b6 - b2 - - - - -\n- b7 - - w3 - b2 w2 b2 - -\n- - - - - - - - - - -\n- - - - - - - - - b2 -\n- - - - - - w2 - - - b2\n- - - - b3 - - - - - b2\n- - - - - - - b4 - - -\n- - b7 - - b2 - - - b4 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/038.a.htm"
+    },
+    "39_16x16": {
+      "id": "39_16x16",
+      "problem": "16 16\n- - - - - - w5 - b6 - - b3 - - w3 b4\n- - w2 - - - - - - - - b2 - - b2 -\nb3 - - - - - b3 b4 w3 - - - - b2 - -\n- - - - - b2 b4 - - - - - - b2 - -\nw3 - - w3 w2 - - - b9 w5 - b3 w2 - - -\nw3 - - b4 - - b4 - - - w5 - w3 - - -\n- - - - - - - - - - - - - - - w3\n- - w3 - - - w3 - - - - - - - - -\n- b2 - - b4 - - w4 - - - w4 b2 - - -\n- - - b2 - - - - - - - - - - - -\n- b2 - - - - b2 - - b2 - b2 b3 w2 - w3\n- - - - b3 - - - - - w2 - w3 - - -\n- - - - b4 - - - - b2 - - w2 b5 - -\n- - w6 b6 - - - - b3 b3 - b3 - - - -\n- b3 - - - - b2 - - - - w5 - - - -\n- - w4 - - - - - - - - - b8 - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/039.a.htm"
+    },
+    "40_16x16": {
+      "id": "40_16x16",
+      "problem": "16 16\n- - - - - - w7 - b8 b3 - - - - - -\n- - - - b7 - - w7 - - - - w3 b2 - -\n- - - b4 - - - - - - - - - - - -\n- - - - - - w9 - - - - - - - - -\n- - - w3 - - - - - - - w6 - - b3 -\n- - - - - - - - - - - - b2 - - b6\n- w6 - - b2 b6 - - - w5 w7 - - - - -\n- - - w2 - b2 - - - - - - - - - -\nb6 - b2 - - - - - - b7 - w2 - - b2 w2\n- - - - - - - - - - - - w2 - - -\n- w4 - - - b4 - - - - - - w2 - - -\n- - - - - - - - - - - b3 b2 - - -\nw5 - - - - - - - b7 - - - - - w2 -\n- - - b5 w3 - - - b2 - b2 - b2 - - -\nb3 - - - - b3 - - - - - b3 - b2 b2 b2\nb4 - - - - - w5 - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "problem": "8 8\nb3 - b3 - - b3 - -\nb2 - - w3 - - b2 -\n- - - - - - - -\n- - b2 - b2 - - -\nb4 - - - - b4 - -\n- - - - - - - -\n- b5 - - b5 - b2 -\n- - - - - b7 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "problem": "8 8\nb3 - - - - - w4 -\n- - - - b3 - - -\n- - b3 - - - - -\n- - - - - - b4 -\n- - - - b2 b4 b4 -\nw5 - - - - - - -\n- b2 - b2 b2 - - -\n- w2 - b3 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/042.a.htm"
+    },
+    "43_8x8": {
+      "id": "43_8x8",
+      "problem": "8 8\n- b2 - - b6 - b2 -\nb2 - - - - - - -\nb3 - - - - - w2 -\n- - - - - - - -\n- - - - - b3 - -\nb2 - b3 - - b2 - -\n- b2 - - - - - -\n- w2 - b2 - b3 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/043.a.htm"
+    },
+    "44_8x8": {
+      "id": "44_8x8",
+      "problem": "8 8\n- b2 - - b4 - - -\n- - - - - - - w2\n- b2 w4 - b2 - - -\nb2 b2 - - b4 - - -\n- - - - - - - b2\n- - - b2 - - - -\n- - - - - - w4 -\n- b2 - - w5 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/044.a.htm"
+    },
+    "45_11x11": {
+      "id": "45_11x11",
+      "problem": "11 11\n- - - - - - - - - b2 -\n- - - - b2 - - - w4 - w3\n- - w3 - - - - - w3 - -\n- - - - - - - - - - -\n- - b3 w2 b4 b3 b3 - - - -\n- - - - b3 - - w2 - - -\n- w6 - - - b4 - - - - w6\n- - - w2 - - b2 - - - -\n- - w3 - - - b2 - - - -\n- b7 - w6 - - - - w5 w5 -\n- - w8 - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/045.a.htm"
+    },
+    "46_11x11": {
+      "id": "46_11x11",
+      "problem": "11 11\n- b2 - - - - - - - b9 -\nw7 - - - - b2 - - - - -\n- - - w4 - - - - - - -\n- - w3 - - - - - - - -\n- - - - b2 - - - - - -\n- - - - - - w7 - - - -\n- b7 - - - - - - - - -\n- w3 - - - w6 - - b8 - -\n- w2 - - - - - - - - -\n- - - - - - - - b3 - b10\n- b4 - - - b2 b2 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/046.a.htm"
+    },
+    "47_11x11": {
+      "id": "47_11x11",
+      "problem": "11 11\n- - b3 - b2 - - - - - b10\n- - - - - - b4 - - - -\n- w2 - w2 - - - - - - -\n- - - - w2 - - - - b3 -\nb2 - - b3 - b3 b2 - - b3 -\n- - - - - w2 - - b3 - -\n- b2 - - - - b6 - - w2 -\n- - - - - b4 - b2 - - b2\n- - - - - - - - - - -\n- - b4 - - - - - b2 - b2\nb5 - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/047.a.htm"
+    },
+    "48_11x11": {
+      "id": "48_11x11",
+      "problem": "11 11\n- - - w4 - - - - b3 - -\n- - - - b3 - b2 - - - -\nb4 - - b2 - w3 - b2 - b2 -\n- - - - b2 - - w3 - - w3\n- b2 - - - - w4 - - - -\n- - - b4 - - - - - - -\n- - - - - - - - - b3 -\n- b3 - - - - - w4 - - -\n- - w3 - - b4 b4 - - w2 -\n- - - b2 - - - - w4 - -\n- - - b4 - b2 - - - w2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/048.a.htm"
+    },
+    "49_16x16": {
+      "id": "49_16x16",
+      "problem": "16 16\n- - w3 - - - - b2 b3 - - b3 w2 - - -\n- - - - - - - - - - - - - b2 b3 -\n- - - b2 - - b2 b2 - - w5 - - - - -\nw6 b2 b2 - b2 - - - - - - - - w2 - -\n- - - - - - - - - - - - b4 - b3 -\n- w3 - - - - - - - - - - - - - -\n- - b2 - - - - - - - - - - - - -\n- - - w2 b4 - - - - - - - - - - -\n- - - - - b3 - - - - - - - - b3 -\n- - w5 - - - w5 w6 b6 b10 w4 - - - - b7\n- - w5 - - - - - - w2 - b5 - - w2 -\n- - - - - b5 - - - - - - - - - b4\nb4 - - b2 b3 - - - - b3 - - w3 b2 - w3\n- - w3 - - - - w2 b2 - - - - - - -\n- b3 b5 - b4 - w2 - - w2 - - - - w2 -\n- - - - - w11 - - - - - b12 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/049.a.htm"
+    },
+    "50_16x16": {
+      "id": "50_16x16",
+      "problem": "16 16\n- - - b9 - - - w8 - - - - - - w2 -\n- - w2 - - - - - - w2 b6 - b2 - b4 -\n- - - - b4 - b2 - b2 - - - - b3 - -\nw4 - b3 - - - - b2 - - - w5 - - - -\n- b3 - - b2 w2 - - - b4 - - - - - -\n- - - - b5 - - - b5 - - - - w2 - w6\n- - - b4 w4 b4 b4 w2 - - - - - - - -\n- - - w2 - - - - - - w5 - - - - -\n- w3 - - - - - - - w2 - - - - w3 -\n- - - - - - - - - - - - - - - -\n- - w2 - - - - - b5 - b2 b2 w2 - - -\n- w3 - w3 - b4 - - - b2 - - - w2 - -\n- - - w4 - - b2 - w4 - w3 b5 - - b2 -\n- - - - - - w4 - - - - - b2 - - b2\nb2 - b2 - b3 - - b2 - - - w3 - - - b2\n- - - - b5 - b2 - - - w2 - - - w2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "problem": "8 8\n- - - - - - - -\n- - - w4 - - b2 -\nb2 b2 w4 w4 - w5 - -\n- b2 - - w5 - b2 -\n- - - - - - - -\n- b2 - b2 - - w2 -\nb3 - - - - - - b2\n- - - w7 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "problem": "8 8\n- w4 - - - - b2 -\n- - w2 - - - - b2\n- - - w2 w3 w3 - -\nb5 - - - - - b2 -\n- - - - - - w2 -\n- b5 - - - - - -\n- - b2 - - b3 - -\n- - - b2 - - - b5",
+      "source": "https://www.janko.at/Raetsel/Shingoki/052.a.htm"
+    },
+    "53_8x8": {
+      "id": "53_8x8",
+      "problem": "8 8\n- w5 - - - b6 - -\nb5 - - - b6 - - -\nb3 - - - - - - -\nb2 - - b2 - - w2 -\n- - - - - - - w5\nb3 - - w3 - - - -\n- - - - w2 - - -\nb3 b2 - - - - - b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/053.a.htm"
+    },
+    "54_11x11": {
+      "id": "54_11x11",
+      "problem": "11 11\nb10 - - - - - b8 - - - -\n- b4 - - - - - b6 - - b2\n- - - - b2 - - - - - -\n- - - - - w3 - - - b2 -\nw6 b3 - b2 - - b5 - - - b2\n- - - - b2 - - - - - b3\n- - b3 - - - - b6 - b2 -\n- - - - - - - - - - -\nw2 - - - w2 - - - - b3 -\nb3 - b2 - - b2 b3 b3 - - -\n- - - b2 - - w3 w3 - - b5",
+      "source": "https://www.janko.at/Raetsel/Shingoki/054.a.htm"
+    },
+    "55_11x11": {
+      "id": "55_11x11",
+      "problem": "11 11\n- - b5 - - - - - b3 - -\n- - - - - - - - b2 b2 -\n- b2 - - - - b8 - - b2 w2\n- b2 - b3 - - - - - - -\nb5 - w2 - w2 - - b5 - - -\n- - - - - w3 - w3 - - b3\nw4 w2 - - - - - - - - b2\n- - w2 - - - - - - - b2\n- - b3 - w3 - - - - - -\n- w2 - w2 - - w5 - - - -\n- - - b8 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/055.a.htm"
+    },
+    "56_11x11": {
+      "id": "56_11x11",
+      "problem": "11 11\n- - - w3 - - - - w3 - -\n- - b3 w2 - - - - - - -\n- - - b3 - - - - - b3 b2\n- - - - b3 w2 - b2 - - b2\nw4 - w2 - b5 - b5 - - - -\nb7 - - - - - - - w4 w4 -\n- b3 - - - - - - - - -\n- - - w3 w4 b4 - - - - -\n- - - b5 - b3 - - - - -\n- - - w3 - - b3 w2 - - -\n- - - - - - - - - w2 b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/056.a.htm"
+    },
+    "57_16x16": {
+      "id": "57_16x16",
+      "problem": "16 16\n- b5 - - - - - - b4 - - - - - w2 b3\n- - - w2 - - - - - - - - - - - -\nb4 - b4 - - - - - w2 - - - - b3 b2 -\n- - - - - - - - - b3 - b2 - - b2 -\n- - b3 - - w3 - b5 b2 - - b6 b2 b3 - -\n- - b2 - b4 - w8 - - - - w4 - - - -\n- w3 - - - - - - - - - - - b2 - b2\n- - - b3 - - - - - b4 b3 - b2 - - -\n- - b2 - - - - - b3 - b3 - - - - -\nb4 - - - - - - b2 - - - - b2 b2 - -\n- - - - - - - - - - - - b2 - b4 -\n- - w5 - b2 b2 - - w3 - - - b3 - - -\n- - - - - b4 - b2 - - b3 - - - b2 b3\n- w5 - - w3 - - - w3 - - w2 - - w2 -\nb2 - - w4 - - - w2 - - - - - - - -\nb3 - - - - - - - b4 b8 - - - - b6 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/057.a.htm"
+    },
+    "58_16x16": {
+      "id": "58_16x16",
+      "problem": "16 16\n- - - - - - w8 - - b5 - - - - - b5\n- - - - b2 - - - - b3 - - - - - -\n- - - - - b2 - - - - - w2 - - - -\n- - - b3 - b2 w2 b6 b2 - w2 - w3 - - -\n- - - - - - - - - - - - - w2 - -\n- - w9 - - - b4 - - b2 w2 - - - - -\n- - - - b4 - - w5 - - - b2 - w3 - b4\n- - - - - b4 - - b3 - b3 - - - - -\n- - - - - - - - w2 b3 - - - b2 - -\n- w12 - w11 - - - - b3 - - - b3 b4 - -\n- - - - - b4 - - - b3 - - - - - -\n- - - - - - - - - b4 b3 - - - b3 b4\n- - - - - - w2 - w4 - - - - - - -\n- - - - b5 - - - - - w3 - b4 - - b2\nw15 b2 - - w2 - - - - - - - w2 - - -\n- - - - b3 - - b4 - - - - - w3 b4 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/058.a.htm"
+    },
+    "59_21x21": {
+      "id": "59_21x21",
+      "problem": "21 21\nb3 - - - - - w7 - - - - - - - - - - - - - -\nb2 - - - - - w5 - - - - b5 - - - - b2 - w2 w2 -\nb2 - b4 w2 b4 - - - - b3 - - - - - - b7 - - - -\n- - - - b3 b3 - - - - - b6 - - - - b3 - - w2 -\n- - - - - b2 - b2 - w2 - - - - - b3 - - - b7 -\n- - - - - - - - - - w2 w4 w5 - - w2 - - - - -\n- - - - - - - b2 - w2 - - - - - - - - w5 w6 -\n- w2 w3 b6 - - - b5 b4 - - - - - b5 - w4 - - - -\n- - - - - - - - b2 - - w2 - - - w2 - - - - -\n- - - b4 - - - - - - - b3 w2 - b3 - - - - - -\n- - - b2 b3 - w4 - b2 - - - - - - - - - - - w7\n- b2 b4 - b2 - - - w2 - - - - - b3 - - - b4 - -\n- b2 - - - - - - b4 - - - - - - b3 - w9 - - -\n- - - - - w2 - b3 b2 - - - b4 w2 b2 - - - - - -\n- - - - - - b2 - - - b4 - - - - - w3 - b2 b2 b2\nw3 b3 - b6 w3 - - b3 b2 - - w5 - - - - - - - b3 -\n- - - - b7 b2 - b6 - - - - - - w7 - - - - - -\n- w5 - - - - - - - - w4 - - - - - - - w2 - b2\n- - - - - - - - b3 - - - - - - - - - - - -\nb2 - - - - - b4 - - - - b4 b2 - b2 - w2 - - - b2\n- w3 - b4 b5 - w3 - - - - - w7 - - b9 b3 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/059.a.htm"
+    },
+    "60_21x21": {
+      "id": "60_21x21",
+      "problem": "21 21\n- - w3 b4 - - - - - - - b5 - - - - - - - b2 -\nb2 - - - - b2 - - - - - - w4 b2 - - - b2 b2 - w2\n- - b2 b2 b2 - b7 b2 - b3 - - - b4 - b3 - - b3 - -\n- - b4 - - - - - b4 - - w4 - - b2 - w4 - - b2 -\n- - w2 b2 b2 - - w4 - - - - - - - - - b2 - b2 -\nw3 - - - - - - - - - - - w2 - b4 b3 - - - - -\n- - - b3 - w6 - - b3 - b5 - - b4 - - - - - - -\n- - - - - - - - - - - - b3 - - b2 - - - b2 -\n- b2 b3 - w2 - - - b3 - w5 - - w3 - b3 - - b3 - b3\n- - b2 - - - - w2 - - - w3 - - b2 - w3 - - w2 -\n- - - - - - b2 - - - - - - - - - - b5 - - -\n- - w2 - - b4 w2 - - - - b4 - - - b4 - - - - b5\n- w2 b4 - w4 - w4 - - - - - - - - w3 w2 - - - -\nb5 - - b6 - - - w3 - - - - - - - - - - - b2 -\n- - - - - - - - - - - b2 b2 - - - - - - - b3\nw4 - - - - - b3 - - - - - - - b3 b4 - - - b2 -\n- - w3 - b2 - - w2 - - - - - - - - - - - - -\n- - w3 - - - - - b4 b7 b4 - - w4 - w2 - b2 - b2 -\n- - - - - b2 - - - w4 - b7 - - - - b2 - - - -\n- - - - w2 b2 - - - - - - - b5 - b2 - - w2 - w2\nb3 - b3 b2 - b7 - - - - - - b13 - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "problem": "8 8\nb3 - - b2 b6 - - -\n- - - - w5 - - -\n- b2 - b4 - - - b2\n- - - - - - b2 -\n- - - - - - - -\nw4 w2 - - - w5 w2 -\n- - - - - - - -\n- - - - - - - b8",
+      "source": "https://www.janko.at/Raetsel/Shingoki/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "problem": "8 8\n- - - - b5 - - -\n- - - b2 - w5 - b2\n- - b2 - - - - -\nw6 - - - - - - b2\n- b3 - - w2 - w2 -\n- - b2 w3 - - - -\n- - - - b2 - - -\n- - - w4 - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/062.a.htm"
+    },
+    "63_11x11": {
+      "id": "63_11x11",
+      "problem": "11 11\n- - - - - - b3 - - b5 -\n- b2 - - - - - - - - w5\n- b2 w3 - - - b4 b4 - - -\n- - - - w3 b5 - - - - -\nb2 - - - w3 - - - b4 - -\n- b2 b2 - - - - - b3 - -\n- - b3 - - - - - - - -\n- - b3 w3 - - - - - b2 -\n- - - - - - w2 - w2 - -\n- - - - - b3 - - w3 - -\nb4 - w3 - b9 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/063.a.htm"
+    },
+    "64_11x11": {
+      "id": "64_11x11",
+      "problem": "11 11\nb9 - - - - w4 - b4 - - -\n- - - - - w3 - - - - -\n- - - - - b5 - w3 - - w10\n- - - b3 w3 - - - - - -\n- b5 - - - - - - - - -\n- w3 - - - - - b2 - - -\n- - - - - - - - - - -\n- - - - - - - b4 - - -\n- - - - b2 - b3 - b7 - -\n- - b3 - - - - - b2 w8 -\nb3 - - - b2 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/064.a.htm"
+    },
+    "65_11x11": {
+      "id": "65_11x11",
+      "problem": "11 11\n- - - - - w6 - - - - b3\n- b2 - - - w4 - - b2 - -\n- - w3 - - - - - b4 - -\n- - - - b3 - - - - - b2\nb3 - - - - b3 - - b4 - -\n- b4 - - - - - b4 - - w4\n- - - - b3 - - - - - -\nb3 w2 - b3 - - - b3 b3 - -\n- w3 - - - b2 - - - - -\n- b2 - - - - w5 - - - b2\n- - - - - - - - - w8 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/065.a.htm"
+    },
+    "66_16x16": {
+      "id": "66_16x16",
+      "problem": "16 16\n- - w5 - - b6 - b3 - b2 - - - - w3 -\n- b4 - - b5 - - - - b2 - - - - - b3\n- - - - - - - - b3 - - w2 - - - -\n- - - w2 - - - - - - - w4 - - - -\nb5 - - - - b4 - - - - - - - w2 - -\nw3 - - b2 - - b2 - - - - - b2 - - -\n- - - b2 - w2 b2 b3 - - b3 - b5 - - -\n- - - - - b3 - - w3 b6 - - w4 - w6 -\n- b3 b3 - - - - - - w5 - - - - - b8\n- - - - - w2 - b4 - - - w3 - b4 b5 -\n- - - w3 b5 - - - - - - - - - - -\nb4 - - w2 b3 b3 - b3 - - - - b5 - - -\n- - - - - - - - - - - w3 - - - w7\nb3 - w3 - - w2 - - - b2 - - b4 - - -\nw2 - - - - - b3 - - b2 - - - - - -\n- b2 - - - - - - w4 - - - - b2 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/066.a.htm"
+    },
+    "67_16x16": {
+      "id": "67_16x16",
+      "problem": "16 16\nb4 - - - - - b3 - - - - w4 - - - -\nb2 - b2 - - w3 w2 - - - b5 - - w2 b3 -\n- - - - - - - - b3 w2 - b3 - - - -\n- - b5 - - b6 b2 - - - - - b3 - - -\n- b2 - b6 - - - w2 - - - - - - - -\nw3 - - w3 b4 - b3 - - - b5 - - b2 - -\n- - - - - - b4 - - - - b4 - b3 - w9\n- - - - - - - w3 - - w2 b2 - - - -\n- - - w2 - - - b5 - b3 - - - - w6 -\n- - - - - - w5 - - - - - - - - -\n- w3 - - - - - - - w4 - - - - - -\n- w3 w2 - b4 - - - - b4 - - - - b2 -\n- - b5 - - - - - - - - - - - - -\n- - b2 - - - b4 - b2 - - - - - - -\n- - b2 - - - b6 - - - - b6 b5 - - b2\n- - w4 - - - - - - - - - - - w10 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/067.a.htm"
+    },
+    "68_16x16": {
+      "id": "68_16x16",
+      "problem": "16 16\n- - - - w8 - - - - - - - - - - -\n- - - - - w5 - - - - - w4 w3 - - b2\nw3 - b3 - b6 - - - - - - - - - - -\nw3 - - b4 w5 b3 - - - b3 - - - - b2 -\n- - - - - - w3 - - b3 b6 - - - - -\nb4 - - - - - - - b3 - - b6 - - - w7\n- - - - - - - b2 - - - w4 - - - -\n- - - - - b5 - - - - - - - b2 - -\nb2 - - - - - w4 - b5 w3 - - b2 - w5 -\n- - w6 - w2 - - b3 - - - - b3 - - -\n- b3 - b4 - b4 - - - - - w3 w3 - - -\nb2 - - - - - - - - - - - - w3 w3 -\nb4 b2 - - - - w2 - - - - b2 - - - -\n- - - - - b5 - - w3 b5 w3 - - - - b2\n- w2 - - w4 - - - b2 - - w2 - - w3 -\n- - - b2 - - - - b2 - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/068.a.htm"
+    },
+    "69_21x21": {
+      "id": "69_21x21",
+      "problem": "21 21\n- - - - - - - - - - - - w9 - - - w3 - - w2 -\n- b2 b3 - - - w7 - - - - w7 - b2 - - - b3 - b3 -\nw3 - - - b7 - b2 - - b3 - - - - w3 - b2 - - - -\n- - w2 - w4 - - - - - - - w4 - - w2 - - - - w4\n- - - - - - - b7 - - - - w4 - - - w4 - - - -\n- b4 - w3 - - b5 - - - w4 - - - b3 - - - - - b2\n- - - - - - - - - - - - - - - b4 - w3 - - -\n- w3 w2 - - - - - - - - - - b8 - - - - - - -\n- - b4 - - - - - b3 - - - - - - b3 - - w2 - b2\n- - w3 - w2 - - b7 - b6 w5 - - - - w2 - - b4 - b6\n- - b5 - - - b2 b2 b4 - - w6 - - - - - - w3 - -\n- - - - - - - - - - - - w5 w5 w2 - b2 - - - -\n- w2 - - - w2 - - - - - - - b6 - - w2 - - - -\n- - - - - - - - b6 - - - - - - - b5 w3 b5 b4 -\n- w2 - - b8 - - - - b7 - - - - - - - - - - -\n- b4 - - b4 - - b2 - - - - - - - - - b5 - w3 -\n- - - - - - - b2 - - - - b2 w2 - - - - - - -\n- - w3 - - - b2 b3 - - w5 b2 - - - - - - - - -\n- - - - - - w3 - - - - - - b2 - w3 - - w2 - -\nb2 - - - - - w7 - - - - - w2 - w3 - - - w3 - -\n- - - - - - w9 - - - - - - - b6 - w5 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/069.a.htm"
+    },
+    "70_21x21": {
+      "id": "70_21x21",
+      "problem": "21 21\n- - - - - - b2 - - - - - - - - b6 - - w4 - -\n- b3 - - - w2 - - w2 b3 - b6 b5 - - - b4 - - - -\n- - b6 b7 - - b4 - - - b4 - - - - - b4 b3 - w2 w4\n- w5 - - - - b2 - - - - - - - - - w3 - - - -\n- - - - - - b2 b5 b3 b2 - - b4 - w4 - - - - b4 -\n- - - - - - - - - - - - b3 - - b6 - b2 - - -\n- - - - - - - b2 - - - - - - - - w3 - - - -\n- - - - b2 - - w2 b5 - w2 - - w3 - b6 - b4 - - -\n- - - - - - w4 b5 - - w2 - - w2 - - - - b3 w2 -\n- w2 - - - w3 - - - - - - - - - - - - - - -\n- b2 - - - - w2 b5 - - - - - - - - - - - - b7\n- - - w3 - - - - - - w3 - - - - - w2 - - b2 -\nb2 - - w2 - - - - - w3 - b5 b5 - w3 - - - - - -\n- - - - - - - - - - - - w3 - - b6 b4 - w3 - -\n- w3 - - w2 - - b2 - - b2 - b2 - - - - - - b4 -\nb6 - b4 w2 - - - b3 - - b2 - - - - - - - - b3 -\n- b6 - - - - - b2 b3 b7 - - - - b7 - w3 - - - -\nw5 - - - b5 - b2 - - - b4 w2 - - b4 - - - - - -\n- - - - - - - b2 - - - b3 - - - - - - - w2 -\n- b5 - - w3 b3 - - b2 - b3 - - - - b3 - - - - b3\n- - w4 - - - - - - - - - b2 - - - - - - - b4",
+      "source": "https://www.janko.at/Raetsel/Shingoki/070.a.htm"
+    },
+    "71_8x8": {
+      "id": "71_8x8",
+      "problem": "8 8\nb7 - - b2 - - - -\n- - - - b3 - - w6\n- - - - b3 - b5 -\n- - - b3 - b2 - -\n- b5 - - w4 - - -\n- - - b5 - - - -\n- b2 - - - - - -\n- - - - - - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/071.a.htm"
+    },
+    "72_8x8": {
+      "id": "72_8x8",
+      "problem": "8 8\n- - - - b6 - - -\nw7 - - - - - - -\n- - - - b3 b2 - -\n- w4 b3 b4 b4 - - -\n- - - - - - b3 -\n- - - - - - - b7\n- - - - - - - -\n- - b6 - - w5 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/072.a.htm"
+    },
+    "73_11x11": {
+      "id": "73_11x11",
+      "problem": "11 11\n- w3 - - b3 - - - - w4 -\nw6 b6 - - - b2 - - - b5 w5\n- - - - - b5 - - - - -\n- - - - - - - - - - -\n- - b6 - b3 - - b2 - - -\n- - - - w2 - - b6 - - -\n- - - - - - - - - - b2\n- - - - - - - - - b2 -\nw3 - - - - b3 w5 - - - -\n- - b2 - - - - - - - -\n- - - b4 - w3 - - b6 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/073.a.htm"
+    },
+    "74_11x11": {
+      "id": "74_11x11",
+      "problem": "11 11\n- - - - - - - b7 - b2 -\n- b2 - w4 - - b5 - - - w5\nb2 - - - b4 - - - - b4 -\n- - b5 b5 - - - - - - -\n- b3 - - b5 - - b6 - b3 -\n- - - - - - - - - - -\n- b2 - - - - w2 - - - -\n- - - - - b3 - - - - -\n- - w2 - - - - - - - w3\nb4 - b2 - - - b2 b3 - - -\n- - - - - - - - - - b9",
+      "source": "https://www.janko.at/Raetsel/Shingoki/074.a.htm"
+    },
+    "75_11x11": {
+      "id": "75_11x11",
+      "problem": "11 11\n- w2 - - - b2 - - - - -\n- - - b2 - - - - - b2 w5\n- w2 - - - - b4 - w2 b4 -\nb6 - - - - - - - - - -\nw5 - b3 b3 - - - - - b3 -\n- - b3 b3 b2 b3 w2 - - - -\n- w3 - - b2 - - - - - b2\n- - - - b2 - - - - - -\n- - b3 - b3 b2 - - b5 - b2\n- - - - - - - b2 - - -\nb3 - - - - - b2 - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/075.a.htm"
+    },
+    "76_16x16": {
+      "id": "76_16x16",
+      "problem": "16 16\n- b2 - w2 - - - - - - - - - b9 - -\n- - - - - - - - - - w3 - - - - w2\nb4 - - w2 b2 - - b2 - b2 b5 - - - - -\nb3 w2 - - - b3 w2 - - b6 - - - b3 - -\n- b2 - - b3 - - - - - - - - b2 - -\n- - - - b2 - - b2 - - - - - - - -\n- w3 - - b2 - - - w4 - - - - b2 b3 b7\nb3 - b7 - - - b3 - - - - - - - b3 -\n- - - - - - - - - - w3 - - - b4 -\nb2 - - b5 b2 b3 b2 w3 - - - - - - b6 -\n- - - - b3 - - - - b2 - - b3 - - -\n- - - - w2 - - - w4 - - w2 - - - -\nw3 - - - - - - - - - w4 - - - - -\n- - - - - - b3 - w2 - - - - b3 w2 -\n- - - b2 - - - - - - b5 w2 w2 b2 - -\n- - - - b3 b3 b3 - - - - b6 b3 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/076.a.htm"
+    },
+    "77_16x16": {
+      "id": "77_16x16",
+      "problem": "16 16\n- b2 - - - - - - - w3 - b4 - w3 - -\n- - - - b3 b2 b2 - - b2 - - - - - -\nb3 - b3 w2 - - - b2 - - - w3 - - - -\n- - - - - - b2 - - - - - - - - -\nb3 w2 - - b4 - - - - - - w2 - w2 - -\n- - b3 - - - - b2 - w5 - - - - - -\n- - w3 - - - - - - - - w3 - - b6 -\n- - - - b7 - - w2 - - - - - w2 - -\n- - b2 - b2 w7 - - b5 - - - - - - -\nw6 - - - - b8 - - b6 - b5 b3 b3 - b3 -\n- - - - - - - - - - - - - - w2 -\n- - - b3 w5 - - w3 - - - - - - - w11\n- - - b4 - b2 - - - - - b3 - - - -\n- - - - - - - - - - - - - - - -\n- - - - - b2 b3 - - w6 b2 - - - b3 -\n- - - w4 - - - b3 - - b3 - - b5 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/077.a.htm"
+    },
+    "78_16x16": {
+      "id": "78_16x16",
+      "problem": "16 16\n- - - - - - - - b10 - - - - b5 - -\n- b3 b6 - - w5 - - - - b2 b2 - - - -\n- - - - b3 - - - - - - - - b2 - -\n- - - b2 b2 - - - - b3 w2 - - - b2 w3\nb3 - - - - b3 - - - - - - - - b4 -\n- - - - - b3 - - - b2 - - b2 b3 - -\nw3 - b2 b2 b3 b4 b2 - - - - - - - - -\nw3 b2 - - - - b8 - b2 - b4 - - - b2 -\n- - - - - - w7 - - - b7 - - - - b3\n- - - w3 - - - - - - - - - - - b5\nb2 b3 - - w2 b3 - - - - - w4 - - - -\nb2 - - - - - - - - w5 - - - b2 w2 -\n- - b2 - b2 - - - w5 b6 - - b3 - - w4\n- - - - - - - - - b2 - - - - - -\nw2 b2 - - b2 b2 - - - - - - - - - -\n- - - - - - - b12 - - - w7 - - - b8",
+      "source": "https://www.janko.at/Raetsel/Shingoki/078.a.htm"
+    },
+    "79_21x21": {
+      "id": "79_21x21",
+      "problem": "21 21\n- - - w4 - - - - w4 - w4 - - - - - b2 - - - -\n- - b4 - - - - - - - b6 - - - b3 w2 - - b4 b3 -\n- - - - - w2 - - w2 - - w4 - b3 - - - w4 - - -\n- b4 - b2 - - - - - w5 - - w2 b7 - b2 - - - - b4\n- - b3 b2 - - w2 - - - - - - - b2 b2 b3 - - - -\nb3 - - w2 - - - w2 w2 - - - - - - b3 - - b4 - -\n- b4 - - - - - - - - - - - w6 - - - - w3 - -\n- b2 - - - b4 - - - - - - w5 - - - - w2 - - -\n- - - - - b2 - - w2 b3 - b5 - - - - w2 - - - -\n- - b3 - - - w3 b4 - - - - - - w2 - - - b4 - -\n- b2 - - - - - - - - w2 w3 - w3 - - - - - w3 -\nb5 w2 - b5 - - - b4 - - b5 - b2 - - b7 - - - - -\n- - - - w3 - - - b3 b3 - - - - - - - - b9 - -\n- - - - - b3 - - b2 - - w2 b3 b4 w3 w4 - - - - -\nb7 - - - - b4 - b3 b3 - - b4 w2 w3 - - - - - - -\n- - b3 - - - - - - - b3 b3 - - - - - - w8 - -\n- - - - w2 - - - - - - - - - - - - w5 - - -\n- - - - - - - b2 - - - - - - - - - - - - -\nw6 b5 - - - - - - b2 - b3 w2 - - w2 - b3 - - - -\n- - b2 - b2 - - - - - - - - - - - - w2 - - -\n- b2 - b2 - - w2 - - - - w3 - b6 - - - - - b9 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/079.a.htm"
+    },
+    "80_21x21": {
+      "id": "80_21x21",
+      "problem": "21 21\n- - - - w5 - - b2 - b2 - - b3 b3 - - - - - - -\n- b2 - - b3 - - - - b2 - - - - - w2 - - - b17 -\n- - - - b2 - - - - b3 - - - - - w2 - - - - -\n- - - - - - w5 - - b3 - - - b2 w2 - b2 b3 b2 - -\n- - - - b4 w3 - - - - b2 - - - - - - b3 - - -\n- - b5 w3 b2 - - - - - b2 - b2 - - - w2 - - - w17\n- - - - - - - - - b14 - b2 b3 - - - - - - - -\nw4 b4 w2 - - - - w3 - - b2 - - - - - - w6 - - -\n- - - - - - b2 - - - - - - - w6 - - - - - -\n- - w2 - - w2 - - - - - - - - - b6 - b5 - - -\nb4 b3 - - - b2 - - w9 - - - - b2 - - - - w6 - -\nw3 - - - w4 - - - - - - - - b3 - w2 - - - - -\n- - - - - w2 - - - - - - w3 - - - - - - - -\n- - b2 - w3 - - b7 - - - - - w2 - - - - - - -\n- - - - w3 - - - - - - w5 - b2 - - - w2 - - -\n- b3 w2 - - b2 - b2 - - - - - - - - - - - - -\nb2 - - - - - - - - - b7 - b3 - w3 b5 b2 - - b17 -\n- b3 - - - b2 - w2 b3 b3 - - - - b4 - - - b4 - -\n- w3 - - - - - b3 - - b2 - - b2 - - - - b3 - -\nw2 b2 - - - b2 - b2 - - b2 - - - b2 - - - b2 - -\n- - - b2 - - - b2 - - - - b4 - - - - - - w2 b3",
+      "source": "https://www.janko.at/Raetsel/Shingoki/080.a.htm"
+    },
+    "81_8x8": {
+      "id": "81_8x8",
+      "problem": "8 8\nb8 - - - b2 - b2 -\n- - - - - - - b2\n- - b6 b7 - - - -\n- - - - - - - -\n- - - - - - - -\nw7 - - - w3 - - b3\n- - - w5 - - - b3\n- - - - - - - b4",
+      "source": "https://www.janko.at/Raetsel/Shingoki/081.a.htm"
+    },
+    "82_8x8": {
+      "id": "82_8x8",
+      "problem": "8 8\n- b2 - - - w5 - -\n- - - - - w3 - -\n- - - w2 - - - w3\nw7 - - - - w3 b3 -\n- - - - b4 - b2 -\n- - - - - - - -\n- b6 - - b2 - - -\n- - - - b5 - b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/082.a.htm"
+    },
+    "83_11x11": {
+      "id": "83_11x11",
+      "problem": "11 11\nb3 - - - b2 - - - - w4 -\n- - - b2 - - - - - b2 -\n- - - - - w2 - - - - -\n- b3 w2 w2 - - - - - - -\n- - - b4 - - b3 - - - -\n- - - - - - - b5 - - b2\n- b3 - - - - - - - - b2\nb6 w2 - - - - - b3 b8 - -\n- - - w2 - - b2 - - - -\n- - b3 - b2 b2 - - - b3 -\n- - - - - - - - - w10 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/083.a.htm"
+    },
+    "84_11x11": {
+      "id": "84_11x11",
+      "problem": "11 11\n- - - b4 - b2 - - - - b3\n- - b4 - - - b3 - - - -\n- b2 - - - b3 - - b2 - b9\n- - - - - - - w4 - b2 -\nw3 - - b3 b3 - - - - - -\nw3 - b3 b4 - - b6 - b2 - -\n- - - b3 w2 - - - b2 - -\n- - - - - b2 - - - b3 -\nb4 - - - b4 - - - - - -\n- - - b4 - - b3 - - - -\n- - - w4 b5 - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/084.a.htm"
+    },
+    "85_11x11": {
+      "id": "85_11x11",
+      "problem": "11 11\nb5 - w4 - - - - w4 - - -\n- - b3 - b2 - - b2 b5 b2 -\n- - - - - w2 - - - - -\n- - - - - - - b2 - - -\nw3 - - - - - - b5 - - -\n- - - - w4 b5 b2 - - - b3\n- w2 - - - - - - - - -\n- b2 - - - b3 - - - - b2\nw3 - - - w4 - - - - b2 -\n- - b2 w4 - - - w3 b6 - b2\n- - - - - - - - w6 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/085.a.htm"
+    },
+    "86_16x16": {
+      "id": "86_16x16",
+      "problem": "16 16\nb5 - b3 - - - - w5 b6 - - - - - - -\n- - - - - - - b2 - - - - - b2 b2 -\n- - - - - - b3 - - - - - - - - b2\n- - b3 - - - - - b3 - w3 w3 w2 w3 - -\n- b2 - - - w3 - w2 - - - - - - b3 b2\n- - - - w2 w3 - - b3 - - - w2 - b3 -\n- - b3 w2 - - b2 b3 - - w3 - b4 b5 - -\nb2 b3 - - b3 - - - - - - - - - - -\n- - - - - w2 b3 - - b3 - - - - - -\n- - w3 - - - b6 - - - - w4 - - - -\n- b2 - - b2 - - w5 - - - - - - b3 -\n- - - - - - - - - b2 - - b3 - - -\n- - w3 - - - - b7 - - - - - b4 - -\n- b2 - w4 w3 w3 b6 - - - - - - - - -\n- - - - - b4 - - - - - - - w2 w4 w5\n- b2 - - - w4 - b3 - - b2 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/086.a.htm"
+    },
+    "87_16x16": {
+      "id": "87_16x16",
+      "problem": "16 16\n- - - b2 - - b4 w3 - - b2 - - - - -\nw10 - - - - - b4 b2 - - - - w2 - b2 -\n- - - - - - - - b2 b3 - - - - b3 -\n- - - w3 - - - - - - w5 - b2 - b2 -\n- - - - b2 - w3 - - - - - - - - -\n- - w4 - b2 - - - - - - - b3 w2 - -\n- - - b2 - b6 - - - - - - w2 - - b3\n- w5 - - - - - - - - - - w3 - - -\n- - - - b9 - w3 w2 b2 b4 - - - w3 - b4\n- b6 - - w7 - - - - - - - - - - -\n- - - - - - - w3 - - - - - - - b2\n- - - - - - - - - - - w6 w3 - - b2\n- - - - - w6 - - b2 - - - - - - b3\nb2 b4 w3 - - - - b4 - - b3 - b6 - - -\nb3 - - - - - - - b4 - w2 - b3 - - -\n- - - - - - - - - - - - b5 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/087.a.htm"
+    },
+    "88_16x16": {
+      "id": "88_16x16",
+      "problem": "16 16\n- - - b2 - b4 - w4 w4 - - - - b2 - -\n- - - - - w3 - - b3 - - b2 - - w2 -\n- w2 - - b8 - - w3 w2 b2 - - b2 - w2 b3\n- - - - - - - - - - - w2 - - b3 -\nw2 - - w2 - - - b5 - - - - - b5 - -\n- - - b3 - - b2 - - - - - - b3 - -\n- - - b4 - - - b2 - - - - - w3 - -\n- b2 - - - - - w2 - w3 b2 - - - w3 -\nw2 - - - - b3 - w2 - b5 - b3 b3 - - -\n- - - b4 - - - - - - - - - - w2 -\n- w2 w3 - - - w5 - b7 w2 w4 w6 - b2 - -\nb2 b3 w3 - - - b4 - - - - - - - - b5\n- - - - - - b2 - - - - - - b2 - -\n- - - - - - - - - w2 - - - b2 - b3\n- - b3 b4 - b5 w2 b2 - - b2 - w2 - - w2\nb7 - - w6 - - - - - b3 - - - b2 b2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/088.a.htm"
+    },
+    "89_21x21": {
+      "id": "89_21x21",
+      "problem": "21 21\n- b2 - w3 - - - - - - b11 - - - - - - - - - -\nw2 - - b2 - w2 - b2 b2 - - w6 - - - - - - b5 - b2\n- - b2 - - - - w2 - w2 b2 - - - - - b3 - - - -\n- - - b2 - - - - b2 - - - - - b4 - - b4 - b2 -\n- - - - - - b2 - - - - - - - b8 - - - - - b7\n- b4 - b4 - w2 - - - - - - - w2 - b3 - - - - -\n- - b3 w3 - - - b3 b3 - - - - b6 w3 - - - - w2 -\n- - - - - - - - w5 - b6 - - - - - w5 - - - -\n- - - - - - - - b2 - - - b2 - - - b5 - - - -\n- w2 - w2 - b5 - - - - - - - - - - - - - - -\nw4 - - - b7 - - - - - - - b2 - b3 b3 - b3 w3 - -\n- - b3 - - - - - - - - - b3 - - - - - w3 - b4\nb2 - b5 b5 w2 b3 - - - - - b5 - - - - b2 - - - -\n- b3 - - - - b3 - b4 - - b4 - - - w4 - b6 - - w3\n- - - - b3 - - - - - - - - - - - b4 - - - -\nb6 - - - b2 - b7 - - - b7 - b6 - - - - - - - -\n- b2 - b5 - - - - - - - - - b4 - - b5 - - - -\n- - - - - - - - - - w2 - - w2 - - - b3 - - -\n- b3 b2 b4 - - - - w4 b3 - - - b5 - - - - - b2 -\n- - - w4 - - - - - - - b3 - - - - - - - - -\n- - - - - - - - b7 - - - b6 - - - - w3 - b2 b4",
+      "source": "https://www.janko.at/Raetsel/Shingoki/089.a.htm"
+    },
+    "90_21x21": {
+      "id": "90_21x21",
+      "problem": "21 21\n- b2 - - - - b13 - - - - - - - - - - - - - -\n- - - - b2 - b2 b8 - - - - b3 b4 - - b3 - b2 - w3\nb3 - - w3 - - - - - - - - - - - - - - - b2 -\n- - - - - - w2 w4 - - b3 - - - w3 - - - - - -\nb4 b3 - - w3 - - - - - - - - - - - - - - - b3\n- - w3 - - - w2 - - b5 w2 - b2 b2 - b2 - b5 - - b2\n- - - - - w5 - - b7 - - - b3 - - - - - - w2 -\n- - - - - - b2 - b3 w2 - - - - - b2 - b2 - - -\n- - - b4 - - w2 - - b2 - - - - - - - b2 b4 - -\n- - - w3 - b5 - - - - - - - - b7 - - - - - w4\n- b2 - b4 - w2 b5 b4 - - - - b2 - - - b3 b2 b2 - -\n- b2 b2 w3 - - - - b3 - - b3 b2 b2 - - - - b3 - b5\n- - b2 - b2 - - - b2 - - b5 - - - - - - b2 - -\n- - - - - - - b4 - - - - - b2 - - - b2 - b2 -\n- - - - - - b6 - b3 - - - - b2 - w7 b4 - b2 - -\nw8 b3 - w2 b4 - - - - - w3 - - - - b8 - b2 - b3 w5\n- - b3 - - - - - - - - - - w4 - - - - b2 - -\n- - - b4 - w2 - - - - - - - b4 - b2 - b2 b2 - -\n- - - - w2 - - - b4 b2 - - w2 w3 - - - - b2 - -\nb3 - - - - b3 - - - - w2 b3 - - - - b2 - - - -\n- w3 - - - b2 b2 b2 - - - - - - - - - b2 - w2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/090.a.htm"
+    },
+    "91_8x8": {
+      "id": "91_8x8",
+      "problem": "8 8\n- w3 - - - w3 - -\n- - - - - - - -\n- - w2 - - - - -\nw5 - - w4 - - - -\n- b3 - - - - - w7\n- - - w3 - - - -\n- - - - - b5 - -\n- - - b2 - w3 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/091.a.htm"
+    },
+    "92_8x8": {
+      "id": "92_8x8",
+      "problem": "8 8\n- - - - - - w4 -\nb2 - - - b3 - b2 -\n- w3 - - - - - -\n- b2 - - - w4 b2 b2\nb4 - - - - - - b2\n- - - - w2 - - -\nw3 - - - - - - -\n- b3 - b2 b2 - w2 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/092.a.htm"
+    },
+    "93_11x11": {
+      "id": "93_11x11",
+      "problem": "11 11\n- - - - - - - w7 - - -\nb5 - - w2 - - - b3 - b2 -\n- - - - - - - - - - b5\n- - - - b3 - - - - - -\n- w3 - w3 - - - - b4 - -\n- - b2 - b4 - - w2 - b2 -\nb6 - - - w4 - - - - - b2\nw4 b4 - - b5 - w4 - - - -\n- - - - - b2 - - - b4 -\n- - - b3 - - - - - - w3\n- - w4 - - - - b3 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/093.a.htm"
+    },
+    "94_11x11": {
+      "id": "94_11x11",
+      "problem": "11 11\nb5 w4 - - - - - w5 - - -\n- - b3 - - - - - - b4 -\n- - - b2 - - - - - - -\n- w2 - - - - - b3 - - b5\nb4 - - b4 b8 - - - - - -\n- - b2 b5 - - - - - - w4\n- - - - - b3 - - - w2 -\n- - b4 - w6 - - - w4 - -\nb2 - - - - - - b3 - - b6\n- - - - - - w2 w2 - - -\n- w4 - - - - - - w3 - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/094.a.htm"
+    },
+    "95_11x11": {
+      "id": "95_11x11",
+      "problem": "11 11\n- b2 - - - - - - - - -\n- - - - - - - - - - -\nb2 - - - - w2 - - - - -\n- b2 - - w6 b4 - - - - -\n- - - - - - w2 - - - -\n- - w5 - - w3 b2 - - - -\n- - - - b7 - - - w8 - -\n- - - - - b4 - b2 - - -\n- b5 - - - - - b2 - - -\n- - b2 w2 - - - - - - b12\nb3 b2 - b4 - b3 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/095.a.htm"
+    },
+    "96_16x16": {
+      "id": "96_16x16",
+      "problem": "16 16\n- w2 - - w4 - - b5 - b3 - w3 - - - b4\n- b2 - - - w3 - - b2 - w3 b3 - - - -\nw7 - - - - w2 - b4 - - - - - - - -\n- b4 - - - - - w2 - b2 - - - - - b4\n- - - - b3 w2 - - - - b4 - - - - -\n- - b5 - - - - - w2 - - - - w3 - -\n- - - w3 - - - - b2 - - b4 - b4 - -\nb9 - - - b2 - - w3 - b3 - - - - - w5\n- - - - w4 - - - - w2 - - - - b5 -\nw7 - b3 - - b4 - - - - - - - - - b7\n- - - - - - - - - b2 - - - w3 - -\n- - - - w4 b3 - - b5 w2 - - b5 - - -\n- w4 b2 - - - - b4 - - - w2 - - - -\n- - - - - b2 - - - b4 b2 b3 - - - -\n- - - b5 - - - - - - - b2 - w2 b6 -\n- b2 - w5 - - - - - b2 - - - - w4 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/096.a.htm"
+    },
+    "97_16x16": {
+      "id": "97_16x16",
+      "problem": "16 16\n- w2 - - - b2 - - - - - b5 - - - -\n- - - - - - - - - b2 - - - w2 - -\n- w2 - - - - - w2 w2 - - - - - - -\n- - b2 b3 w4 - - - - - - - - w3 - -\n- - b3 - - w3 - - - b3 - b6 w4 - - -\n- - - - - b4 - - - b3 w2 b5 - - - b5\n- - b3 - - - - w2 - - - - - b5 - -\n- - - - - w2 - - - - - - - w4 b2 -\nb6 b5 - w3 - - b4 w3 - - w3 w2 - - - -\nb5 - - - - - - - - b2 - - - - - -\nw3 - w2 b3 - - - - - - - - - - - -\n- b3 w2 - - b3 - - - - - - - - - w3\nb4 - - - - b2 - - - - - b2 - - - -\nb3 - - b3 - - b5 b3 - - - b3 b3 - w2 -\n- b2 - - - - - - b3 - b4 - - - - w2\n- - b2 - b3 b2 b2 - - b3 - - b3 - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/097.a.htm"
+    },
+    "98_16x16": {
+      "id": "98_16x16",
+      "problem": "16 16\nb5 - - - b8 - b2 - - - w3 b4 b2 - - -\n- - - - - - - - - - b3 - - - b2 -\n- b2 - - - w7 b10 - - - - - - b3 - b5\nb4 - - - - - - w7 b2 - - - - - - -\nb2 - - w2 - - - - - - - - b2 - - w4\n- - - - - - - - w4 - - b3 - - - -\n- - - - - - - - - - - b5 - - b4 -\nb2 - - - b3 - - - - b2 b3 w3 - - - b4\n- - w7 - - - - - - - - - - - - b2\nb2 - - - - - - - - b2 - b4 - - - -\n- - - - - w4 - - b2 - - - w2 - - -\n- - - - b4 - - - - - - b3 - - - -\nw3 b3 - - - b6 - b3 w2 w2 - b4 - - b2 -\nb5 - - - - b3 b2 - - - - - - - - -\n- - - - - - - - - - - - - - - -\nb4 - - - - - w3 - b2 - - - w2 - b3 b6",
+      "source": "https://www.janko.at/Raetsel/Shingoki/098.a.htm"
+    },
+    "99_21x21": {
+      "id": "99_21x21",
+      "problem": "21 21\nb9 - - - - - b2 - - - - - - - - - - - w4 - b6\n- - - - - - - b4 - - - - - - - b7 - - - - -\n- - - - b3 b3 - - - w4 - - - - b4 - - b2 - - -\n- - - - - - - - - - b2 - - b3 - - - b2 - - -\n- - w3 - - - - w2 - - - - b4 - - - b2 - b4 - w2\n- w5 - b5 - - - b7 - - - - b4 - - b7 b3 - b4 - -\nw8 - - - w3 b4 - - - - w3 - - - - - - - - - b2\n- - - - - b6 - - - - - - - - - - - - b6 - -\n- - - b4 - - - - - - - w4 w3 w3 - - - w2 - - -\n- w2 - - - w4 - w6 w6 w4 - - - - - b2 - - - b3 -\n- b4 - - - - w6 - - - - - - w2 b4 - - - - - -\n- - - - w3 b5 - - - - - - - - - - - - w4 - w4\nw5 - - - - - - - b2 - w6 b3 - - - - - - - - -\n- - - b5 - b4 - - - - - b2 - b3 - b4 - w3 w2 - b6\n- b3 - - - - - - b2 - - - - - - b3 w3 - - - w5\n- - b3 - - - - - - w2 b3 - - b3 - - - b5 - b4 -\n- - b3 - - b3 - b3 b3 b3 b2 - - - w4 - - - - - -\n- - - - b2 - w4 - - - - - b3 b4 - w3 b3 - - - -\n- w2 - - b2 - - - - - - - - - - - - - - b3 -\n- w2 - b5 b2 b2 - b4 - - - - - - w3 - b3 w2 - - -\n- - - - - - b5 - - w4 b5 - - - - - w3 - - b3 -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/099.a.htm"
+    },
+    "100_21x21": {
+      "id": "100_21x21",
+      "problem": "21 21\n- b2 b2 - b3 - - - - - - - - - - - - b2 - w2 b3\n- - - - - - - - - b2 - b3 - b3 b3 - - - - - -\nb3 - - - - b2 - b4 - - b3 - - - - - - - - - b2\n- - w2 - - - w3 - - - b5 - - w2 - w4 b4 - w2 - -\nw2 - - b5 - w3 - b3 - - w4 - b3 - - - w3 - - - -\n- - - - - - - - - - - w4 - w2 - - - - - - -\n- - - b4 b3 w2 b4 - - b3 - - b2 - - - b4 - - w2 w4\nw5 b5 - b3 b2 b2 - b3 - - - w3 - - - - - w3 - - -\n- - w3 - - - b3 - - - - b2 - - - - w6 - - w3 -\n- - - - - - - - - b2 - - - - b4 - - - b3 - -\n- - - b2 - w2 - w3 - b5 - - - - b4 - - w3 b2 - -\n- - - - b2 - - - w3 - - - - - w2 w6 - - - - w5\nb4 - - - b4 b3 - - - - - b4 - w2 - - - - - - -\nb2 - - - - - - w3 - - - - - b2 - - - - - b2 -\nb2 - - b5 - - - b3 - w2 - - - - - w3 - - - - -\n- - b4 - - - - - - w2 - - - - - - - b7 - - b2\n- b2 - - - b2 - b3 - b3 w2 - b2 - b4 b4 - - - - -\n- - - - - b4 - - - - - b2 - - w3 - - b2 - - b2\n- - - - - - - - - b3 - - b2 - - - - - b3 - -\n- - b3 - - - b3 - - - - b2 - - - b8 - - - - -\n- w3 - - - - - - - b12 - - - - - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shingoki/100.a.htm"
+    }
+  }
+}

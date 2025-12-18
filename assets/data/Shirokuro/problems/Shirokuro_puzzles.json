@@ -1,0 +1,555 @@
+{
+  "count": 110,
+  "puzzles": {
+    "01_10x10": {
+      "id": "01_10x10",
+      "problem": "10 10\nb - w b w - b - b -\nb - w w - w b w - -\nw b w w - b b b - b\nw - b - - - w - w -\n- w b w w b b b - w\nb b - b - - - w w b\nb - b b - b w b - w\n- - - w - - - - b w\nw w w b w - w - - b\nw - - - b w - w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/001.a.htm"
+    },
+    "02_10x10": {
+      "id": "02_10x10",
+      "problem": "10 10\n- w - b - - w - b w\nw b w b - w - - - -\n- - w b w w b - b w\n- w - - - b - w - -\n- b - - - w w - b b\n- b b - - - b - w -\n- - b - w - b - b -\n- w w - - - - - w w\n- - b - - - w - w b\nb - b - w b - b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/002.a.htm"
+    },
+    "03_10x10": {
+      "id": "03_10x10",
+      "problem": "10 10\n- - w - - b w w - b\n- b - - w - - - - -\nb - w - - b - - w b\nb w - - b w - - b -\nb - w b - - - w - -\nw w - b w - - - - b\n- w w - - - - - w w\n- - b w - b - b w -\n- b b - w - - w - b\n- w b b w - b b b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/003.a.htm"
+    },
+    "04_10x10": {
+      "id": "04_10x10",
+      "problem": "10 10\nb - b - w - - w b w\nw b - w b w - b - b\nw w b - - w - - b -\nb - w - b - - w b w\nb - w b - - b w - -\n- b w - w - - b w -\nw b - w - - - - w -\nb - b - b - w w b -\nb - w - b - b w - b\nw - w b w w b w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/004.a.htm"
+    },
+    "05_10x10": {
+      "id": "05_10x10",
+      "problem": "10 10\nb - w w w w - - - b\nb w b - - w b - w -\n- b - b b - - b - w\nb w - - w b w b w b\n- - w b b w b - - -\n- w b - w - w - b b\n- b - - - - - - - -\n- - w w b b b - - w\n- - b b - - w - w -\nw w w b b - w w w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/005.a.htm"
+    },
+    "06_12x12": {
+      "id": "06_12x12",
+      "problem": "12 12\n- b - b - b - w b - - w\n- - b w - b - - w - - -\nw - w b - w - w b w - -\nb w b - w b - w - - w b\nb - w b w b - b - b - -\nb b w w - w w - - - b b\n- b - - w b b w - w - -\nw - b - - b - - w - - -\n- w w b - - - - - b - -\n- - - - w - - - - b - -\nb - - w - w - - b - - -\n- - w - - b - - w b w w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/006.a.htm"
+    },
+    "07_12x12": {
+      "id": "07_12x12",
+      "problem": "12 12\n- w - b - w b - - w b b\n- b - - - - b w - w - w\nb w - b b - w b w - - -\n- b - - w - - b - b - -\n- - - w - - b - w b - -\n- - w - - b w b - - - b\n- w - b w - b - - - - -\nw - w w w - - w w - w w\n- - b - b b w b - - w b\nb w b w b - w - - w b w\nb - w b - b w w - - - b\nb w b - - w - - b - b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/007.a.htm"
+    },
+    "08_12x12": {
+      "id": "08_12x12",
+      "problem": "12 12\n- - b w w - - b - w - -\nw b - w - - - - b - w b\nb - - w b - w b - b - b\n- b - w b w - - w - b w\n- w - w b w w b b w - -\n- b b - - b - - - - - -\nw b w - w - - b w b w b\nb - w b b w - b - w - -\n- - - - b w w - - w - -\nw b w w w - b - b b - w\nb - b w w - w w - b - w\n- b - w b b b b - - w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/008.a.htm"
+    },
+    "09_12x12": {
+      "id": "09_12x12",
+      "problem": "12 12\nw - - - - - - - - - - b\n- w b - w - b - - w b -\n- - b - b - - w - - w -\n- b w - b b w b - - w b\n- - w b w b - - w - - -\n- w b w - - b b - w b w\n- b - w - b w - - - w -\n- - - - - w - b w w b -\nb w - - b b - - b - - -\nb - - w - b b w w - b -\n- b - - - w - - - - b w\nw w w b w - - b - w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/009.a.htm"
+    },
+    "10_12x12": {
+      "id": "10_12x12",
+      "problem": "12 12\nw b - b w b - w - - b w\nb - - w - w b w w - - b\n- b - - w - w w b - - -\n- - w b w b - b w - - -\n- - b - w - b b - - b w\nw b - b - - w w - b - w\n- w - - b - - b b - w b\nb w - b - w - - - b - b\n- w b - w b - - - - w -\n- b - b b - - w b - - w\nb w w - b w - w - - - -\n- w b w w - - b w w b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/010.a.htm"
+    },
+    "11_14x14": {
+      "id": "11_14x14",
+      "problem": "14 14\nw - w - b - - - b w - - - -\nb w w - b w - w - w - - b w\nw b - - w b w - - w w w - b\n- b - - b b - b - - - b w w\n- w w - - - - b - - - - - b\nb - b w b - b w - - b b b b\nw - w - - - - b - b b - b -\n- - b - - - w - - b - - - w\nb - w b - - - w - - w - w -\nw b - b - - - - - w w - w b\nb - b w b - - w - b b - - -\n- w w - w - - - b - w - w b\nw - b - - - - w b b - - - b\n- - b - w w b - - w - w - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/011.a.htm"
+    },
+    "12_14x14": {
+      "id": "12_14x14",
+      "problem": "14 14\n- - w b - w - w b - w b - b\n- b b w b w - - b w - - w w\nw - w - b - - w - b - w - w\n- - - w b b - b - - b - b -\nb w - - - - - - w w b - - b\nb b - w - b - - b w - - - w\nw - b - w w b - - - - - - b\n- - b - w w - - - - - - - b\nw - w - - - b - - - w - - b\n- - b - w - w w - b - - b w\nb w w b - b - w w - b w - b\nw - - b b w - - - - - - - b\n- - - w b - b - - - b - - -\nb w b w b w w b - w w - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/012.a.htm"
+    },
+    "13_14x14": {
+      "id": "13_14x14",
+      "problem": "14 14\nb b - w - - - w b b b b - w\n- b w w - b - - - - w b w b\nw - w - b b - - - - - - - w\nb - w b w w - w - w - - b -\nw b - - b - - - - - - w - -\nw w w b - - w - - w - - b -\nb w - w - - - b w - - w - -\n- b - - w - - b - w - b - -\n- - b b - w - b b b - w b -\n- - - b - - - - - - - - - w\n- b w b - - - w w w - w b -\nw - - b - w w b - - b - - w\n- - b w w - - b b b - w - b\nb b w - - w b w - - - - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/013.a.htm"
+    },
+    "14_14x14": {
+      "id": "14_14x14",
+      "problem": "14 14\n- w - - - w b - w - w - - b\nw b - b w b - b - w b - w -\nb - - - - w w b b - b - - w\nw - w b b - - - - w - b b b\n- - w - w - - w w - - b w -\n- - b w - b b w - - b w - w\nb - - - b w w w - b w - - -\n- - w - - w - w - b b - - -\n- b b b - - - - w b w - b -\nw w w - b - b b - b w b b w\nb - - - - b - - b - - w - -\nw b - w - b - w w - - - - -\n- b - - - - - - - - - - - w\nw - b b - w b - - - w w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/014.a.htm"
+    },
+    "15_14x14": {
+      "id": "15_14x14",
+      "problem": "14 14\n- - b b - w w b - b b b - b\nw b - w w b w b w - w - b -\nb - w - - - - w - w - - w w\nw - b b b - b - - - b w b w\n- w w - w w b b - - - b - w\nb b w - - - w - b w w - - -\n- - - b - w - - - - - - w -\n- - - b - w - - - b - w b b\nw w - - - w - b - b w w - b\n- w - - w b b - w - - b w b\n- - - - - - - b w w w b b -\nb b - w w b b - w b - - w w\nw b - - b - - - - - - - - w\n- - b b b w b w w b - w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/015.a.htm"
+    },
+    "16_17x17": {
+      "id": "16_17x17",
+      "problem": "17 17\nb - - - - - - w - w - b b - - w -\n- b w b b - w - w - w - b - w - b\nb - b - w - - - b w b w - - b - -\nw w w w b - - - w - b - w - b b w\n- - b - - - - - - - - - - - - - w\nb - - - b - w b w b - - w w - - b\nw - b - - w w - - b - - - - - - -\n- b - w - b w b b - b - - - - - w\n- w - - b b - - - - b - - - w w -\n- w - b - w - w - w w - - b w - -\nw b - - b b w b w b - - - - - - w\nb - b w w - - w - - - w w - b b -\nw w - w - b b - b - w - - b - w b\nb b - w - b w b - - - - - - - w -\n- w b - - w b - b - w b b - - - -\n- b - - - - - w b b - b w - - b -\n- w w - - - - - - w w - b b - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/016.a.htm"
+    },
+    "17_17x17": {
+      "id": "17_17x17",
+      "problem": "17 17\n- w b b - w b b - w - b - - b - -\nb - b - - - - - b - w b - w w b w\n- - w b - w - w - w b b - b - - w\nw - - b b w w b - - w w w - - b -\nw - - w w - b - - - - - - b - w -\n- - - w - - b b w - - b b - - - w\n- - b - - w b - - w - w b - w - -\n- w - - w b - w - - w - b - - - w\n- - w b - w w b w b b b - w - b -\nb - b - b - - - w - b w b - - - w\nb b b w - - w - - b w w b - - b w\n- - b - b w w - - - b - - - - - -\n- - w - - - - - w w b w b w - - -\n- b - w - - - - b w - - b - - - b\n- - - - b w b w b - w - b b w - -\n- - - - - b - - - - - w - - - - w\nw - b - w - w - b b - w b w b b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/017.a.htm"
+    },
+    "18_17x17": {
+      "id": "18_17x17",
+      "problem": "17 17\nb - w b - - - - - - w - b w b - w\n- w - - - b w b w - b - - b w w b\n- - - w b w - w - b w - - - - - b\n- b b - w - - - - w b - w w - - b\nb w b w - - - b - w b b - w b w b\n- w - b - - - b - w w - - w b - w\n- - - w - - - b w b w b - - - b w\nw - b - - - w - w b - - b b - - w\nw - b b - - - b - - w w - - - b -\n- w - b - - b - w - b w w w b w -\n- b b - - - - b - b - - w b - b -\n- b - - - - - - - w - - - b - - -\n- w w - w - - w - w - b b - w - -\nb - w - - b b - w - - - - w - - w\nw - - - b w b b w - b - w b b - -\nb - - w - - w - b - - - b - w - -\n- - - - - - - w b b w - w b w w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/018.a.htm"
+    },
+    "19_17x17": {
+      "id": "19_17x17",
+      "problem": "17 17\n- b b - - b w - w - - b w - - b -\n- - - - - w - - b - - - - w w - b\nw w w - - w b - b - - w w b - - -\nb - w w - - b w - b - w - - - w b\nw b - - - - b - w - w b - w - b -\n- - b b - - w w b b w - b b - - b\n- - w b - - b - - b - w - b w - -\nw b - b w - - w b b - - - w b - w\n- b w - - - w - w - w - b - w w -\nw b - w - - w b - b w w - - - - b\nb - w - b b b - b w - w - w - b w\n- b b b w b w w b - b b - w - b b\nw w - w - w b - b - w b - - w w b\n- w - - b - - b - - w - b - - w -\nb - - w w b - - b - - w - - b w w\n- - b w b w w w - - - b - b - b -\nw b b - w b w - - - - - b w w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/019.a.htm"
+    },
+    "20_17x17": {
+      "id": "20_17x17",
+      "problem": "17 17\nw b - - - - w b - w b - - - - w b\nb b w w b w - - b - - w - b - b -\n- - w b b - w - w - - - - - b w w\n- w b - w w - b - b - w b w - b w\nw - - b w w w b - - - - - b - - -\n- b - - b - b - b w - - w - b - w\nw w - b - - w - - - - - b - w w b\n- - b w - b b - - b - - - b w - -\nb w - b w w - w b w - - b - - - w\nw - b w b - w b - b - - b b - - b\n- - - - b b - - - w - - w - w w w\nb b - w w - - w - w - - w w b - b\nw - - - b b - b w - w - - b w b -\nb - - w - w - - - b w - b - - b -\n- - - - - b - b - w - - b w - - w\nw b - w - - - b - w - - w - w - w\nb - - - w w b - - - b b b - b w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/020.a.htm"
+    },
+    "21_10x10": {
+      "id": "21_10x10",
+      "problem": "10 10\nb w w - b - - b w -\n- w - - - - - - - b\n- b b w w w - - b w\nw w b - w - b b - w\nb - b - b - - w w b\n- - w b - - - b - w\nb - - - w w w w - -\n- w b - - b - - b w\n- w - b b - b b - -\nw w b w - b - - b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/021.a.htm"
+    },
+    "22_10x10": {
+      "id": "22_10x10",
+      "problem": "10 10\nb - - w w - w - - b\n- - - w b - - w b w\n- w b - w w - - w b\n- - - b - - b w - b\nb w - w - - w b - -\n- - b - b - - w - b\nw - - - b - - w - b\nb b - - - - - b - -\n- - - - - - - b w -\nw - w b w b - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/022.a.htm"
+    },
+    "23_12x12": {
+      "id": "23_12x12",
+      "problem": "12 12\nw - - b b - - b - w - -\nw - - b w w w b - - - b\nw b - - w b - - b - - -\n- b b - w b - w w - - -\n- w - - b b - w b w b w\n- b b w - - b - - b w -\n- - w - w - - - w w b w\n- - - b w - - w b b - w\n- w b b w b - b b w w b\nb - - - - - - - - - b -\nb b w w - - - - w - b -\nw - - w b - w - - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/023.a.htm"
+    },
+    "24_12x12": {
+      "id": "24_12x12",
+      "problem": "12 12\nw - - - w b w - b w b -\n- - b - - w - w - w b w\nb w - w - b - - b - - w\nb b - w - - b b - - - -\n- b w - - b - - - b - -\nw - - - b - - w - - w b\n- - - - b - b - - b b -\nb - - - w - - w - - b -\n- - b - - w w b - - - -\n- - - b - w - - - w w b\nw - - - - w - b - w - -\n- w - b w w b - w b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/024.a.htm"
+    },
+    "25_14x14": {
+      "id": "25_14x14",
+      "problem": "14 14\n- w b - b w b b w - b - - w\n- - b - w - b - - - w b - -\nb w - w - - - - - - b - - b\n- b w b - w w - b b w w - w\nw w w b - - - - w - b - b w\n- w - b - b w - b b b w - w\nb - b - - w w - - w - w b b\n- - - w - - b b w w b b - w\n- b w b b w w - - b - - - b\nb b - w - - w - - b b w w -\nw - w - b b - w - - b - - w\n- - b w - w w w w - - b b -\nw w - - - - - b - - w - w -\nb - - - - b b - b - - w b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/025.a.htm"
+    },
+    "26_14x14": {
+      "id": "26_14x14",
+      "problem": "14 14\n- - b - w - b w - - b - b -\nw b w - - - w - b - - - w -\nb - w - b - w b b w - b w w\n- b - b - w b w - b - w b -\nb - w b - w - w - - b w w -\nw - w b w b - - - w - - b b\nw w b - w - - - b b w b w -\n- w - b - b - w - - - w - b\nb w - - b w - b - - b - - -\n- - w - b w w - w b - w b -\n- b b - - b - w - b - b - -\nb w w b w b - - b w b w w -\n- b w w - w b w b - w - w b\nb w b - - w - b - w w b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/026.a.htm"
+    },
+    "27_14x14": {
+      "id": "27_14x14",
+      "problem": "14 14\nb - w - b - w b w w b - w b\n- b b - b b b w - - w b w -\nw w w - - - b - - w - - - b\n- - - - w w - b w w - b b -\n- - b w b - - w - - w - b w\nw - b - b b - - w b w - - b\nw - b b w - - w b - b b - w\nb w w - w - b - w w - - - -\n- - - - b b w b - w b w - -\nw - b - w b - w - b - - - w\n- b - b - w w - b b - b w b\n- - - w b - - b w - - - - -\n- - - w - b - - w w - w - w\nb w b b w - - - b - - w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/027.a.htm"
+    },
+    "28_17x17": {
+      "id": "28_17x17",
+      "problem": "17 17\n- - w b b - - w - w - - b w - - b\nw b - w - - b - - - - - b w b b -\n- - - - w - w b b - w - - w - - -\nb - b w b w w - - - - b w b - w -\nw w w - b - w - - - - - - - - - b\nb - w - - - b - - - b - - w w b -\n- b w - - b w b b - b - - - - w w\n- w - b w w - b - - - - - - - - -\nb - w w b - - w - - b - - w - - b\nw - b - - w b b w b - - - - b w b\nb b b b - - b - b - b b w - - - -\nw - w b - - - w - w - - - - b w w\n- - w w b w w b w - - w - - - - -\n- - - - b - w w b - w - b - - - w\nb w - - b - - w w b - w w - w - -\n- b - w - - b - w - - - - b - b -\n- w b - w - - b b - - - b w w b b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/028.a.htm"
+    },
+    "29_17x17": {
+      "id": "29_17x17",
+      "problem": "17 17\nb w - - - - b b - w b - - w - b -\nb b - w b - - w - - w - - b w - b\nw b w - w - w - b - - w - - w - b\nw - w b - - w b b - w - - - - w b\n- - - w - b w - - - w - b w b - w\nb - - - w b b - w w - w - - b b -\nw b - b - b b w - - b w - - - w -\nw - - - - - w - - - b - - - - w b\nb - b w - w b - b b w w - - b - -\nw - b w - - - - - - - - - - - - b\nw - - - - - - - - - - - - w - b -\nb w b b - w b - - w w - - - - - b\nw - b - - b - b b w - - b w w w -\n- w - w b - b - - - b - - w - - -\nb b - b - - - w w - - - - - b b -\nw - w - - - - - b - w b - w - b w\nb w - b w w w b w b - - - - w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/029.a.htm"
+    },
+    "30_17x17": {
+      "id": "30_17x17",
+      "problem": "17 17\n- b - - w b - b - - - w w - - - b\nb - - - - b b - w - b b w b b - -\n- - - - - w - w b - - b b - - - b\nw w - b w b - - w w - w b - w w -\nb b - - w w w - - b b w w w - b -\n- - - w - - b - - w - - - - - b w\n- - w w b w w - b b - - - - w b b\nw w - b - w w - b - - - - - - - w\n- - - - b - b w - - b - - w - w -\n- b - - w b w - b - w - b - w b -\nw b b w - b - w b - - b - - - - w\n- - b - - w w - - - - - - b w w b\nb - - w - b - w b - b - b - w b -\n- b - - b w b - - - - - - - w - -\nw - w - - - w - b - w - - b b w -\n- - b b w - - - b - w - - - - - b\n- w w - w - - b - w - - - - - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/030.a.htm"
+    },
+    "31_10x10": {
+      "id": "31_10x10",
+      "problem": "10 10\nw w - w b w - b b -\n- - b w b - w - - -\nb - - w - - w b - -\n- - w - b w - - w -\n- - b - w - - w - b\n- - - b b - w - - -\nw b - - - b b b - -\nb w - - b w - w w b\n- b - - - - - - w w\nb - - - - - - - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/031.a.htm"
+    },
+    "32_10x10": {
+      "id": "32_10x10",
+      "problem": "10 10\nb - - - b - w w - b\nw w - b b - - - - w\n- w b - - w w b w b\nw b b w w w b - w -\nb - - w b - b w b -\nb - - b b - w - b w\n- - w b b - w b w -\nw - w - b - - b - w\n- b w - - - - - b -\nw - - b w - - b w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/032.a.htm"
+    },
+    "33_12x12": {
+      "id": "33_12x12",
+      "problem": "12 12\nw - b - w - w w b - w -\n- b - - w b - - - w - b\nb w - w - w b - - - b w\nw w - b - - b b b - w -\n- - b - - b w - b - b w\n- - w - - - b w w b w -\nb b - b - - w - b - w -\nb - - - - - - - - - - w\n- w w w b w b - w - - b\n- - - b - w w b - w b w\nb - b b b - w b w b b -\nw b - w - - w - - b w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/033.a.htm"
+    },
+    "34_12x12": {
+      "id": "34_12x12",
+      "problem": "12 12\n- b w - b b w - b w b -\n- w b w - w - b - b - w\nb - w w - - b - w - b -\nw w - b w b w w - - w b\n- - - - b w - - - b b -\nb - - - w - - b w b w -\nb - - w w - b - - w b -\nb - w w - - b - w b - -\nb b w b b - - - b w - -\nw b - w b - w b w b b -\nw w b b - w - w b - - -\nb - - b w - w b w w w w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/034.a.htm"
+    },
+    "35_14x14": {
+      "id": "35_14x14",
+      "problem": "14 14\n- - - w - b - b - - b - - -\nb w w - - - - - - - - w w b\nw - b b w w - - - b w b - b\n- b - w - w b w - - - - w -\nb b - w - b - b w - - w b w\n- b - w b - w - - w - b b w\nw - w - - - - - - - - - - b\n- b w - - w b - w b w - b w\n- - b - - w w b b - b w - -\nb w w - - b b - - w w - - b\nb - b b w w w w - - - b w -\n- - - b b w - b w w - w - -\nw b - w - - - w - - - w - -\n- - - b - w b b b b - b b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/035.a.htm"
+    },
+    "36_14x14": {
+      "id": "36_14x14",
+      "problem": "14 14\nw b - b - - - - - - - w w w\nw - b - w - b - - - b w b -\n- - w - b w b - - w w w - b\nw - - b b - - w - b - - - -\n- w b - - w b b w b - b - -\n- - - - - - - - w b b b b -\nw - w w b b b w - - - - - b\n- b w - b w - - - w w w - w\n- - b - - b - b b - - - w b\nb - w - w - w w w - b - - -\nw b b b w - b w - b - - w w\nb w b - - w - b b w - b - b\n- - - b - w w b - - w - - w\nw - - b - - - - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/036.a.htm"
+    },
+    "37_14x14": {
+      "id": "37_14x14",
+      "problem": "14 14\n- - w b w - - w - - w b b -\nw - w - - b - - w b w - - b\n- b - w b - - - w - b - w w\n- - - b - - w b - - w b b w\nb - b - - - b - - - b - - b\n- w - - w - b w - - w - b -\n- - - b - - - - - b b - - -\n- - w w b - - - - - w - w w\nw - - b w w w - - w w - - b\n- b b b - - w - - - - - - -\n- - b - w - b - - w - w - -\nb - - b - w - - - - - b - -\n- - b - - w w - - - - - w -\n- w - b - - w b b b w b b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/037.a.htm"
+    },
+    "38_17x17": {
+      "id": "38_17x17",
+      "problem": "17 17\nb w w b - - w w - b w b w - w w b\nb - - - w b - - - - w - b b - - -\n- b - w - - b b w - w w b w b - w\nw w b w - - - - - b - - - w b - b\n- - - - w - w b - - - - - - - - b\n- w w b b w - - - - - - w b - w -\nb b - b w b b - b - b - - - - - -\nw w b w - b w - - - w b b b - - w\n- - b w - - w - b w w - b w b - b\n- - w - - - w - b - - w - - w b -\n- - - - - w - b - w - b - - w w -\nb - - b - w b - - b - w b - w - -\nb - - - w - w - - b - w - - - w -\n- - w b b b b - - - - - - - - - -\nw b - b - - w - - b - w w - - - -\n- w w b - - w w b w - - - b - b w\n- b - w b - b - - - - - - - b b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/038.a.htm"
+    },
+    "39_17x17": {
+      "id": "39_17x17",
+      "problem": "17 17\nw - - - - b w - - - - - - b w - b\nb w b - - - - - b - - - w - - b w\nb - w - - w - - b - - - w - b - -\nw - - - b - - b b - - - - - - - -\nw - - b - b - - - b - w b - - w -\n- - - - - - b - w - w - - - b w b\nb - w - w - w - b w - - b - - - w\n- w b w - b - - w - b - w - w - -\n- - - - - b - - b - - w - - b - w\n- w b b - w - - - b - - w - - - -\nb - - - - w - - - b - w - - - - b\n- - - - - b b w - b w w b - w - b\n- - - w b b - - w - - - w - - b -\n- w - b w b - w - w - - b - w - -\n- - - w b - b w w b - b b - b b -\n- - - - b - - w - - - w - - - w w\nw - - b w w - - - b b - w w - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/039.a.htm"
+    },
+    "40_17x17": {
+      "id": "40_17x17",
+      "problem": "17 17\n- - - b w b - b - - b w - - b - -\nb w - - - w - - b w - - b b - - w\nb - - w - w w - w - - - - - b w b\nb - - w w b - - - - w - w - - - -\n- - - b - b - - b w - b w - - w -\n- b - b - w b - b w b - - - - - w\nw - - - - w b - - w w - b - - - w\n- w w w - - b w - - w - - b b - -\nw - - w - w - w b - b w b - - b b\nb w b b b b w - - - b b w b - b w\nb b b w b w b b b - - - - w - w -\nw b w b w b - - w - w - - w w b -\n- - - - - - - - - - - w - b b w w\n- b - - w - - - w - - b w w b - -\n- - w - w - - - b b b - - w - - b\n- b - - - - w w b - - w b - w b w\n- w b - b w w b - - - b w - - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/040.a.htm"
+    },
+    "41_10x10": {
+      "id": "41_10x10",
+      "problem": "10 10\nw w - - - - - - - b\n- w - - - b w b b b\n- - - b - w - - - -\nb b - - b - - w - -\nw - b - - w b - w w\nw b - - - b - - w -\n- - - w - - w b w b\nb - - w - - - - - -\nw b b - w w - b - w\nw - - b - b - b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/041.a.htm"
+    },
+    "42_10x10": {
+      "id": "42_10x10",
+      "problem": "10 10\n- - w b w b - - w -\nw b b w - - b - b w\n- - w b b b w w - -\n- b - w - - - - - w\nw - b - w - - - - b\nb - b - - w - - w w\nw b - - w - - - - -\nw - b - b w w - - -\n- b w - b - - - b b\n- w - - - - b b w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/042.a.htm"
+    },
+    "43_12x12": {
+      "id": "43_12x12",
+      "problem": "12 12\nw - - - - - b b b - w -\n- - - w w - b - b - - -\nb - - b - w b - w - b w\nw - w - b - - w - - - b\nw - - w - b - w w - b w\n- b w b b - w - - - w b\nb b - w w w w w - b w w\nb - w - - - - w - b b -\n- b - - b b b - w - w -\n- w b - w b - w b - b b\nw b - - - b w w b w b -\n- - b w - - - b - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/043.a.htm"
+    },
+    "44_12x12": {
+      "id": "44_12x12",
+      "problem": "12 12\n- b b w w b w - b w - b\n- - - b b - - b w - w -\n- w - - b - - w - - - w\n- w b - w - - - w - b w\nb - w - - b - w - - - -\nb - - - - - - - - - b -\nw b b w - - b - b w w b\nb - - b - b - - w - - b\n- w w - - - w - - b b -\nw w b - - w b - b - w -\n- w - w - w - b w - - w\n- b w b b b w - - w b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/044.a.htm"
+    },
+    "45_14x14": {
+      "id": "45_14x14",
+      "problem": "14 14\n- w - b - b w b - b w - b b\n- w b b w - b - w - w w - -\n- w - - - - - - - - - - w w\n- b w b - - w w b - b b b w\n- w - - - - - - - - - - - b\n- - w - - b - w b w - b - w\n- - - b - - w b - - - w - -\nb b - w b - w w w b w - - b\n- - - - - b w w b - b b w b\nw - b - w b - - w w b w - b\n- w - - w b - - - - w b - -\nw b w - b - - w - b - - w w\n- b - - w - - b w b - w - -\nb w b - b b - w b - - - b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/045.a.htm"
+    },
+    "46_14x14": {
+      "id": "46_14x14",
+      "problem": "14 14\nb - - b w - b b - w - - b w\n- - - w - - b - w w b b - w\n- b - - w b - w b - - - - w\nw - - - b w - - - w b b w b\nb - w - b b w - - b - b - -\n- w - b - w - w - w - - b -\nw w - b w - b b - - w - - w\n- - - b - w w w b - b w w -\n- b w b w w b w - b w - b -\nb b b - w - b - - w - - b -\nb - w w - b b - b w b b - w\n- w - w b - - b b - - - w b\n- - - - w - - - - - w - w -\nw - - b w b w - w w - b b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/046.a.htm"
+    },
+    "47_14x14": {
+      "id": "47_14x14",
+      "problem": "14 14\n- b - w - w b b w b - b - w\nw b w b w - b w - - b - w -\nb b w b w - - - - w w - - b\nw - b - - w - b b b - w - w\nb w b w w - b w - b b w b -\nb b w b - - w w b w b - - w\n- - b - w - b w w - - - - b\n- b w w w - b w - b b w b w\n- w - - w b b b - - w b - w\n- b w - - b w b w w - b - b\n- w - b b - b w w - b - b w\n- - - - w w b - w w - b w -\n- - b b w - - b b - - w w b\nw b - w - w b b - - w b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/047.a.htm"
+    },
+    "48_17x17": {
+      "id": "48_17x17",
+      "problem": "17 17\n- - b - - - b - - w b b b b - w -\nb w w b - w - b - - - - - b w b -\n- - b w w b - - - w b - - w - w -\n- w b - w - w w - - - w w - - b -\n- - - - - b - - w b - w - - b - w\nb b - - b - - - - - - - - - - - w\nw - b - - w b w w - - b w - - - b\n- w w b w - - - - b w - - - w - b\n- - - w - b - - w b - - w - b b -\n- - - - - b - b w - w w - b b - -\n- b b - - - w b b - - w b w - - w\nw - b - - - - w w w b - - b - - -\n- - b - w w - b b - b - - w w - -\n- - - w - b w - w b w - - - b - b\nw w - - - - b w - - - - - w - - w\n- - - - w - - b - - - - - - w - -\nb b w b w - - b b - b b w b - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/048.a.htm"
+    },
+    "49_17x17": {
+      "id": "49_17x17",
+      "problem": "17 17\n- - - b - - - - - - w w b w w b w\nb - w b b w - - b - w b - - - w -\nw w - - w - - w - w b b - w - b w\nw - - - - b b - b b - - b - - b -\nb - w - - b w - w b - w - - - w b\nw b - w w - b b - w w b - b b w b\n- - - b b w b - - w b - - w - - w\n- b - - w - b b - - w - w - b b -\nb - - - - - w - - - w - - b - b w\nw - - - - - b w - w b - - - w - -\nw - - w - b w - - w - b w - b w -\nb b w - - - - w - b b w b b - w -\nb - w b - b - w - - - w w b - w -\nb w w - - b - - - - - - b w - - -\nw - - w - - b - - w w b b - - - -\n- - - - - - - - - - - - - b - - -\nb - - w - b - b w b b w w b - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/049.a.htm"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "problem": "17 17\n- w - - b - - - - - - - - - - - w\nb - - - b - - w b - w - w w - w b\n- - b - - w - - b w - b b - b - w\n- - - w - - b - - - - - - b - - -\nw b - - b - - - - w b w w b - - -\nb b - - w - - - w b w b - - - - w\n- - b b w - w - - - - - b - b - w\nw - - - b b - w b - w w b w - - b\n- b w b - - - - - b - w - w b - w\nw - - - - - - b - - w - w - - b -\n- - - w w - - b w b - - w - w - b\n- w - - b b - - w w - b w b - - -\n- - b w w - w - b - b - w w b - -\nb w - - b w - - b - w b - - w - -\nb w w - b b - w - b - b - - - - w\nw - - - b - w b - - - w w - - - b\nb b w b - - w w - - - - b - b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/050.a.htm"
+    },
+    "51_10x10": {
+      "id": "51_10x10",
+      "problem": "10 10\n- w - - b - - w - b\nw - - - w b - w - b\n- - - b b - b - - w\nb w b - b w b - w b\nw - b - w - w w - b\nb w b w w w - - b -\n- b w - - w - - b -\n- w - - b - - b - w\nw - w - - - - - - b\nb - - - - w b - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/051.a.htm"
+    },
+    "52_10x10": {
+      "id": "52_10x10",
+      "problem": "10 10\nw b b - w b w - b w\nw - w b b - w b w -\nb w b w - b b - b w\nw b w b w b w b - -\nb - b - b b w - w -\nw w w - w - - - b -\nb b - - w - w - b w\nw b - b - w - - - -\nb - w - b w b - - b\nw w b b w b - w - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/052.a.htm"
+    },
+    "53_12x12": {
+      "id": "53_12x12",
+      "problem": "12 12\n- b - - - - - - - - - w\n- - - - - - b w - - b w\n- - - w w w w - - b w -\n- - b - - - b - - - b -\n- - - b b b w - - w w b\n- - - b b w - b w b b -\nb w w w - b - - w - b -\n- b - b - - w b b - - -\nw b - - w b - w - w w b\nw - b - - - - b w - b -\n- w b w b w - - b w - -\nb w w - b - - w - - w w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/053.a.htm"
+    },
+    "54_12x12": {
+      "id": "54_12x12",
+      "problem": "12 12\n- b w b w w - - b b - -\n- b - w b w w - b - w w\nb w - w - - b b w w - -\nb - w - - b b - - w - b\nb - - - b w - - - - b b\nw - b w w - - - b - w w\nw - b w - w b - - - - w\nw b w b - b - - - w b -\nw - b - w - b b w b - w\n- w - - - - - - - - - b\n- w - - b b w b w w b w\nb - - b w - b - w b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/054.a.htm"
+    },
+    "55_14x14": {
+      "id": "55_14x14",
+      "problem": "14 14\n- - b - - - b - b - w - - b\nb b - b - w w w - - b - - w\nw - w b - - - - - - - - - w\nw - b w - - b - - w - w - b\n- w - - b w b - w - - w - b\nb - - w b - - - - b b - w w\nb - w - - b w b w - - - - b\nw - b - w b - - w - b - w -\n- b - w - b - - - - - b - w\nw - b - - - - - - - - - - w\n- - - b - w b - - w - w - -\nb w b w w - b - - b - - w b\n- b w b - - w - b - b b - -\n- w w b b - - w w - w b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/055.a.htm"
+    },
+    "56_14x14": {
+      "id": "56_14x14",
+      "problem": "14 14\n- b b - - b w b b b - w w b\n- - - b b - - w - - w w - b\nw - - - w - w b w - - - b w\n- - - - b - - - - w - w - w\nb - - w - - - w b b - - - b\nb - w b - w - b b w - b w b\n- w w w - - - - w - - b w w\n- w - - b - w b - w - - w b\nw b b - w b - - w b - - - -\nb - - w - w b - w w b - b w\n- b - w - - - - - w - - b -\nb - - w - b w - - b w b w -\n- - b w - - - - - b - w b b\n- b - w b - - b - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/056.a.htm"
+    },
+    "57_14x14": {
+      "id": "57_14x14",
+      "problem": "14 14\nb - w b - - - - w w b b - w\n- - - - b - w w - b b w w b\n- - - w b - - b b - - w - b\n- - b w - - - w - - - - - w\n- w - - w w w b - w - - - -\n- - b b b - b - - b - - w -\n- b - - - b w - b - w b w b\nw - w w w - w - - b b b - w\n- - b - - - - - - - - - - w\n- - w b b - w - w - b - - -\nb b - - w b - w b w b - - w\n- w b - b - - - - - - - - w\n- w - - b - - - w b - b - -\nw b b - w b - w - - - w b w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/057.a.htm"
+    },
+    "58_17x17": {
+      "id": "58_17x17",
+      "problem": "17 17\n- b - - - - - b w - b b - - b w -\nb w - w b - w - - w b - w b - - -\n- w - b - - - - b - w - - w b - w\nw - b - w w - w - b w w b w - w b\nb b b - w b w - b - - b - b w - b\nw - - - - w - b - - - - w - - - b\nb - - w w w - b - - - w - - - b w\nw b b - b - - w - - - - - - - - b\nw - w w - b w - - b - - b - - w -\n- w - - - b - w w - b b - w w - w\nb - - w w b - - w - w b - w b - b\n- b - b w - b - - - - - - - - - w\nb - - - - w - - b - - - w b - - b\n- b - - - - - - w - b w - w b w b\n- - - - b b w w - b w b - w w - -\nw - b - w - w - - b - - - b w - b\n- b w b - - - - - w b - b b - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/058.a.htm"
+    },
+    "59_17x17": {
+      "id": "59_17x17",
+      "problem": "17 17\nb - w - - w - b w - - b - - w - b\n- - b w b - - w b - - - - - - w -\n- b - w - b b - - w w - - b - - w\n- b w - - b - - - - - - - - b - -\n- w w - - - b - b - b w - b w b w\n- b - - b - w b w - - - - b - w -\n- w w b w b w - w - - - - - - - b\nw w - b w - - w w - b - b - - w b\nw - - b - - b - - - - b w w - b -\nb - b w - b - w b - - - w - b w w\n- - - - w - - b w w - b - b - - -\nb - w b w - - - - b - - - - b - w\n- - - - - - - - - - - - b w - - -\n- b b - - w - - b w - b w b b - -\nw b - w b - - - - w w b b - - b w\nw - w b - w b - w - - - - b - b -\nb w - w - - w b b - - - w w w w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/059.a.htm"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "problem": "17 17\n- - w - b w - - b - b w w b b - w\nw - b w - - b w b - - w w - - b -\n- w b b - - - b - - w - - - b w -\nw b - b w b w w - b - w - - b - -\nw - - - - b - b b w b b - w - b w\n- - - - w - - - b b - - w b b - w\n- - w - - w - w w b - b w - - - -\nb - b w b w - - b w b w - w - - -\nw b b w b b - - b w b - - - - - w\n- w - - b - - w - b w - b w - - b\nw - w - w w - - - - - w - w - b -\nb - w - b w - - w b b - - - b - -\n- b b - - b - w b - w b - - w - w\nw - b w - - - - - - - - - - - - b\n- - - - b - b - - w b - - - - - w\nb w - - - w w b w - b - w - - b w\n- w - b w b - - - b b - w w - b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/060.a.htm"
+    },
+    "61_10x10": {
+      "id": "61_10x10",
+      "problem": "10 10\n- w - b w - b b w -\nw w - - - - - - - b\n- - w - b w - - b w\nb - - - - - - - - b\nb - w b - w - - - b\nw - - w - w b - w -\n- w - b w - - - - -\n- - - - - b b - - w\n- b b - w - - b - w\nb - b w w - b b w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/061.a.htm"
+    },
+    "62_10x10": {
+      "id": "62_10x10",
+      "problem": "10 10\nw b w b - w b b w -\n- - b - - - w - w b\nb - w w b - w - b w\nw w - b - b - - - b\nb w b - w b w - - -\nw - b b b - b b - w\n- - - w - w b - b w\nb - - b - w w w b -\nw - w - w - b w - b\n- b w w b w - - b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/062.a.htm"
+    },
+    "63_12x12": {
+      "id": "63_12x12",
+      "problem": "12 12\nb - - w - - - - w b - b\nb w b w - w b - - - - -\nb - w - - w b - - w - -\nb w - - - - - - w w - w\n- b - - w b w - b - b -\nw b w w - b b w b b - w\nw - b - - b w w - b w -\nb - - - b - w b - w b -\nw - w - - b - w b w w b\nb w w b - - b - - w - -\n- b - w - b - b - w b -\n- w - - - - - - - - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/063.a.htm"
+    },
+    "64_12x12": {
+      "id": "64_12x12",
+      "problem": "12 12\nw - b w b - w b - - b -\n- w b w - - b w w - - w\nb - b b - b w - b - w -\n- b - w w b w b w - w b\n- w w w - - b w - w b b\n- b - - w - - - - b w -\n- - - b - b w b b - - -\nw - b w b - - - - w b w\nw b - w b - - b b w b w\nb - b w w w b - - b w w\nw - - w - b b - - - - -\nb - w b - - w w w b - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/064.a.htm"
+    },
+    "65_14x14": {
+      "id": "65_14x14",
+      "problem": "14 14\n- - w - - b w w b b - w - -\n- b - - w - b - b - w w - b\nb b - - w b - - b w - b - -\nw b w - b w - - w b - w b -\n- b - w - w b - b - b - - w\nb w - - w - b w w b - - w w\n- - - - b - w - - - - - - b\nw - b b w b - - b - - b - w\n- - - - w - - - b - - - b w\nw - - b - - - w - - - w b -\nw - - b - w - - - - - w - b\n- - - w b - b b - - - w w b\n- - b w - w - - - - - - - w\nb - - w b b w - w w w b - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/065.a.htm"
+    },
+    "66_14x14": {
+      "id": "66_14x14",
+      "problem": "14 14\nb - - w b w - - - - b w w -\nw - b w b - w - w b w - b b\n- - w - w b b w - b - w - w\n- - - b - - w b b w - - - -\nb b w w - w w - b b b b - -\nw b b - b - w - - w - w - b\n- b - b - - w - - - - - - b\n- - w b w b - - - b - - w b\nw w - w w - b w w w - w - b\n- b - - b - - - b b w - b w\nb w - - - w - w b w - w b -\nw - b b - - w - - b w b - -\n- w b - w - - - w - b w - b\n- b b - w - - b - - w b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/066.a.htm"
+    },
+    "67_14x14": {
+      "id": "67_14x14",
+      "problem": "14 14\nb w b w w b - w b - - - b -\n- b - - w - b b b w - - - -\n- b - - w - - - - - - - w b\n- b w w - b - - w - w b - w\n- b - w - - - w w b - - w -\n- - b w - - b w - b - - b b\n- b - - - - - b b w w - - w\n- w - - w b - b - w b - w b\n- w - b - - w - w - - - - b\n- w b - w - - - - b w b - -\n- w - - b w b - - - - - w b\n- w b b w b b w - - b - w -\n- w - - b - - b b w - w - w\nw - - - - w b w b - w b - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/067.a.htm"
+    },
+    "68_17x17": {
+      "id": "68_17x17",
+      "problem": "17 17\nw w - - - - - b - - w - b - w - -\nb - - - w - - b - - - w - b - - w\n- - - - - b - w - b - w b w b - w\n- b w w b w w b - w b - w - b - -\nw - - - - - - - - - - b - w b w b\n- - - - - b - b w - - w - - - w -\nb b - - - - b - b w w w b - - - b\nb - b - - - - b - w w - - - w - w\n- - w b w - - b - w - - w - - - -\n- w b w - - b - - - b b - - w - -\n- b - - - w - - - b b - b - - - -\n- - - b w - - - w b - - - - b b -\nw - - - - w - - b - w - - - b - w\n- w b - - b - w w - - b w - - b w\n- b b - - - - w - b b - w - b - b\n- - - - - - b - - w b w b - - b -\n- w w - w - b b - - w - w b w w w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/068.a.htm"
+    },
+    "69_17x17": {
+      "id": "69_17x17",
+      "problem": "17 17\n- - b - - w - - - b - w b - w - b\n- w - - - b - - w - b - - - w - -\nb w b - - b - - w w b - - w - b w\n- b w b w w b b w - w w - b b - -\n- w - w - b w b - b b - - w b - w\n- b - w w - - b - - w b w b - - -\n- - w - b b - - w w - - - - - - b\n- - - w b w - - - b w b - b - w b\nw - - b w - - - - - - - b b - w -\nb - - - - b b - w - - - w - - w w\nw w - b - w b - w w - w b w - - b\nw - - - b - w - - - b b w w b - -\n- w b - w - - w w - - b b w w - -\n- b b - w - b b - w b w - b - - w\n- b w b w - - - - - w - - w b b -\nb - b - - b - - - - b - - - b b w\n- w b - w - w b - - - - - b w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/069.a.htm"
+    },
+    "70_17x17": {
+      "id": "70_17x17",
+      "problem": "17 17\nb - w w - - b - - b - w - - b b -\nw w - w - b b - w - b w - - b - b\nb - w - w - w - - w b - - - - - w\n- - - b b w w b - - w w - b w - -\n- b - - - b - - - w b - - - w - -\nb - - - - - b - - - b w - b - w w\nw b - - - w - b - - w - - - b - b\n- w - b - w w w b - b - w - w - b\nw b b - - w w w - - b b w b w b w\n- - w b - - - - w - - w - b - - w\n- w b - w - - w b - w b b - - w -\nb - - b w - b - b - - - w b - - -\n- - b - w b - b - b - - - b - w b\nb - - w w b - w w w w - - b - b b\nw - - b - - w - - w - w - b w - -\nb - b b w b - - - b w - b - b - -\n- - w - - w - b - w - b - - - w w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/070.a.htm"
+    },
+    "71_10x10": {
+      "id": "71_10x10",
+      "problem": "10 10\n- b b - w - w b b w\nw - w b b - - w - b\nb - w - - - - - b w\n- w - b - - - w w b\nw - - w w - b - b -\n- b b b - w w b - -\nb - w - - - - b - w\nb - - - - - - - b -\nw w - w w - b - w -\n- - b b - b w w w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/071.a.htm"
+    },
+    "72_10x10": {
+      "id": "72_10x10",
+      "problem": "10 10\n- w - b b - - - - w\n- w - - - - - b w -\nw - b - - w b - b -\nb b b - - w w - w b\n- - - b - - b w - -\nw - b - - w - w - w\n- b - - w b w b - -\n- w - - - w - - b b\n- w b - b - - w - -\nw - b w w - b b w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/072.a.htm"
+    },
+    "73_12x12": {
+      "id": "73_12x12",
+      "problem": "12 12\n- w b b w - b - - w - b\nw - b b - b - w w b - w\n- - - - b w w - - w - b\n- b - - - b - b - w - b\n- w b w b w b w w - w w\nb w - w w b w - - w - b\n- - - b b - - b b - - -\n- - w - w b - - w - - w\n- - w - b - - b - b - b\n- - b - - - b - - b - -\n- w - b w - w w - w b w\n- w b b - - - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/073.a.htm"
+    },
+    "74_12x12": {
+      "id": "74_12x12",
+      "problem": "12 12\n- w b w w - - b - b - w\n- - - - w - b b b - b -\nw - - b w - b - - w w b\n- w - b w - - w w b w w\n- w - - b b - w - b - -\nb - - - - - - b w w b -\nb b b - w w b - w - - -\n- - w - - b - w b - - -\nw b w - - b - w w b b w\nb w w - - b b w - w b w\nw - - b b w - - - w - -\n- w b b - w b w b b - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/074.a.htm"
+    },
+    "75_14x14": {
+      "id": "75_14x14",
+      "problem": "14 14\n- b - w w - b w b - - w - b\nb - w - b b w - - b - w - b\n- - w b b - - w - b b w - w\n- - b - - w - - - - - - b w\nb - b - - b - - - w - - b -\nw - - - - - b w - - b - w -\nb w w b w - w - w - w b - w\nb b - b - w b - w b w b - -\n- w b w - w - - b - w - - b\nw b w w - - b b b - w b w -\nw - b - - w - - b - w - b w\n- w - - - b w w b - w - b b\nb - b - w - b - w w - w - w\n- - - - b w b - w b - - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/075.a.htm"
+    },
+    "76_14x14": {
+      "id": "76_14x14",
+      "problem": "14 14\nb - b - - w - - b - - w w -\n- b b b - b - w - - - b - b\n- - - w - b - - b w - - - -\nw - - b - - w b b - w - - -\n- w w - b w - - b - - - - -\nw - - - - w - b - - - - - -\nb - - w w - - - w - - w b w\nw - b - - - - - - - - - - w\nb b - - - w w - b b - w - w\n- - - b w b w w - w - - b b\n- b - w b - - b - - - - - -\nw w w b w - b w - - - - - -\n- - w - b - - - - - - - - w\nb b b w - - b b - w - - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/076.a.htm"
+    },
+    "77_14x14": {
+      "id": "77_14x14",
+      "problem": "14 14\nw - - - - b b w b w - b - w\n- b - w b - w - - - w - b b\nb w b w - - - b - b w b - w\n- - - - - w - b w - - w - b\n- w b - w b - w b - w - b -\nw b - b - b w - - w w - - b\n- w - b - - w - w - w - b -\n- w b - w b - b - - w b - w\n- - - w w b - b - w - b w -\nw - - - - - b - - w - b - -\n- b - b b - - - b - - w b -\nb - - b w w w - - - - b w -\nw - b - w b b - - - w - b b\nb w w b - - w w - - - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/077.a.htm"
+    },
+    "78_17x17": {
+      "id": "78_17x17",
+      "problem": "17 17\nb - w w b w w b w b - w - - b b -\nw - - - - - - w b - b - - - w - -\nb w - - - w - - b - b - w - - - b\nb - - - b w - w - b w b b - b - -\n- w - b - b b - - - w w b w - - w\nw b - w - w - - w - w - - b - - -\nb w b - - - - - - b - w w - - w -\n- b w - b - w b - b w w b - - w -\n- - - b w b - - b - - b b w w - b\nb b - - w w - b - w - w - - b - w\nw b - - w b - - b b w - - b w b b\nw - b b w - - - - - b w b b - - -\n- - - w - w - - w - - - - - w b w\nb w - w - w - b - w - - w - - w -\n- w - - b - w - - w - b - w b - -\nb b - - - - b - - w b - - - w - w\nw - - b b w b w - b - w b b w b b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/078.a.htm"
+    },
+    "79_17x17": {
+      "id": "79_17x17",
+      "problem": "17 17\nw b w - - b - - w w - w w - - - b\n- - - - - - b w w - w b - w b w w\n- b b - - b - w - - b - b - b - w\nw w w - b - b w - - w b - b - w b\n- w - b - - b w b - - - w b w - b\n- w w - w w - b - - w - - - - w b\n- - - - b - w - - b b b w - - - -\n- - b - b b b - - - - - - w w - b\nb b w - - - b - w w b - b w - - -\n- - b - w - b - b - b - w b - - -\n- b w - - b w - w - - - - - w - b\nw - - w - - w - w b - - w w w - b\n- w - - w - - w - b b w b w b - w\n- b w - - - - b - - w - - w - - -\nb w - b - - - - - w - w w - b b b\nw - - - b w b - - b b - - - - w b\nb b - - - b w b b w - b - b w - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/079.a.htm"
+    },
+    "80_17x17": {
+      "id": "80_17x17",
+      "problem": "17 17\n- b - b - - - w b - - - - w - - w\nb - - - - - - w b - - b w - - - b\nw w b - w b - - - - - - - - - - w\nb w - - b b - b b w b - w - - w b\n- w - - b - b - b - w w - w b - -\n- - - w b w - w b - w - - - - w b\nw - w - - w w - - b - - w - w - -\n- - b - - b - w - - w - - w b - b\nw - - b b - w b b w - - b - - b -\n- w - - - w - w w - b - - - - w -\n- - - - b - b - - b w - - - - - -\n- b - w - b w - - - w - b - b b -\nw b w - - b w b - w - - - - - - -\n- - - b w - w - b - - - - - - w w\n- b - b w b - - w b b - w b w b w\nw - b - b - - - b w - - w - - - b\nb w - - w b - - - - w b - - - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/080.a.htm"
+    },
+    "81_14x14": {
+      "id": "81_14x14",
+      "problem": "14 14\nb - - w - - - b w w - - b -\n- b - - b - w b - w b b b w\n- - b - w b - - - - b - - b\n- w - - b - - - b w w w w w\n- - w b - - - w w - b w b -\n- b - w w - b - - w - - b -\nw b b - w - - w b w b w - b\nb - w b b - b w b - w - - w\nw b - - - - - - - - - b w b\n- w b w - - - - - w - b - -\nb w - w w - b - - w b w - -\n- - w - - - - - w b w - - b\nb b b - - - w b w - w - b -\nw - w b - w - - b - - b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/081.a.htm"
+    },
+    "82_14x14": {
+      "id": "82_14x14",
+      "problem": "14 14\nw - - b - - - b w - w - - b\nb - - - - - - - - - - - - w\nw w - b - - - b - - w b - -\n- - w - b - - - b - - w w b\n- - w b - - - - - w - b - w\nb w b - - - - w - b - - - -\n- - - w b w b - - b w b - w\n- w - - b - - - b - - w b -\nb w w b b - - w - b - w - w\n- b w w - b w w b b b b w b\nw w - - b b - - b w - - b -\nb - - b - - b w w - - - w w\n- - - - - w - b - - w w - b\n- b - w w b - - - - w b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/082.a.htm"
+    },
+    "83_14x14": {
+      "id": "83_14x14",
+      "problem": "14 14\nb w - b - w - b - - w - - -\nw - b w w - - b w - b w - b\n- b b - b b - w b w w - w b\nb - w b - b w b - - b w b -\n- - - - w - - b - - w w - -\n- - w b - w w - b - - b - b\n- - b - - w - w b b w b - w\n- - w - - - - b - - w w w b\n- - - - w b - b w w - w - b\n- - b b - b w - - - b b - w\n- - b w w b w b b b - - - b\n- - w b w b w b - - w w w b\n- - w - - - - w w b - w w -\nw w b - - - - - b w - - b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/083.a.htm"
+    },
+    "84_14x14": {
+      "id": "84_14x14",
+      "problem": "14 14\nw b w - b - w w - b - w - -\n- b - w - w - b w b - - - w\nb w b b - - - w b b w b - w\nw b - - w b - b - - - - b w\n- w - b w - - - - w - - b w\n- b - b b - - - b - w - - -\nb - w w - - - b w w - w - b\nb - - w w - b - w - - - w b\n- - w - b b - w - b b b w w\n- b - w - b w b - w - - - b\n- b w b w - - b w w - - b w\n- - - - - b - - b - w w b b\nw - - w b - b w b b - w - b\nb - w b w w w - - b - - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/084.a.htm"
+    },
+    "85_14x14": {
+      "id": "85_14x14",
+      "problem": "14 14\nb b w - - b - - w - b w b -\nw b - - w - b - - w b b w -\nw b w b w w b w b w w - b -\n- - - - - - - - - b - w - -\nw - w - b - - b - b - - w -\nb w b - - w - - w w - b - w\n- b w b w - w b b w w b w w\nw - b - - b - - - b w b - b\n- w - - - b - w b b - - b -\nb - - b b - b - - - w - - w\nw - w w w b w - w - b w b -\nb b w - - b - b w w b w w b\nb w - - - - - w - b - - w -\n- b w - - - - b - w - b w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/085.a.htm"
+    },
+    "86_17x17": {
+      "id": "86_17x17",
+      "problem": "17 17\nb w - - - - b w b - w b - b - b -\n- b w - - b w b - w - w w w - - w\n- - - b - w b w - b b b - - - - b\nw w - b w b - w b w - - - - - - -\nb b b w b - w b - b - - - - - w -\n- w - - - - w - w - - w b - - w -\n- - - - b - b - - - - w b - b - -\n- - w b w - b w b - b - - w w - -\n- - b w - b - - w - b - - b - b w\n- - b - - w - b w - - b w w - - b\n- b - - - - w - - - w b - w - - w\n- - - - w b w - b w w b w b b - b\n- - - - - - - b - - - w - b - - -\n- w - - w - - b b w b - - - - - b\n- w - w - - b b - - - w - - - b -\n- - b - w - - - - - w - w w - - w\nw b - w b w b w - b w b b - w w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/086.a.htm"
+    },
+    "87_17x17": {
+      "id": "87_17x17",
+      "problem": "17 17\n- w b - - w - - b b - - - - - w b\n- w w b w w - b w - - w b - - b -\n- - - w b - w b - w - - w w b - -\nw b b - w w - b - - - - b - - - -\n- b w b - - - - - - w - - b - - -\n- - b w b b w b - - w - - - b - b\n- b w - w - b - - w - b w b - - w\nb b b - w - w - - - - - w - - w b\nb - - w - w w - - - b b - b - w w\n- - - - - b - - - - w - b w - - -\nw w - - - w b - - w b - - b w - b\n- w b b - - w - - - w w w - b w w\n- - - - - b b w - - - b - - w - -\n- b - - - - - w - w - b - - - - b\n- - - b - - w - b b b w w b - b b\n- - - - - w b w b - - - - - w - w\nb - - - - - w b - - b - w b - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/087.a.htm"
+    },
+    "88_17x17": {
+      "id": "88_17x17",
+      "problem": "17 17\nw b w b - - - - w b - b w w w - -\nb - - w b - w - w - b - w - b - b\n- b - b - b w w - - - - - b - - w\n- w - b - w - b b - w b - - b - -\nb w b - - b b w b w - - b b w w b\nw - - w - w - b - w - - - w w b -\nb - - b - - - - - - w w w b - w -\nb w w - - - b - - w - w - b - b -\nw b - w - - - w b - w - - b b - -\n- - b - - - w w b - b w b - b - b\n- w w - - b - b - b w - w - w w w\nb b b - w b - - w b - - - - - - w\nb - w - - w - - b - w w - b b - w\n- b - b w - - - b - b - w w - w -\n- - - - - - - - w - b w - - - - w\nw w - b w - - w b b b - w b b - -\nb - - - - - - - - w w - - b w b b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/088.a.htm"
+    },
+    "89_17x17": {
+      "id": "89_17x17",
+      "problem": "17 17\nw b - w b - - - - - w b - - w b w\n- - - - b - - - w - w b - - - b -\nw b - - w - - b w - - w w - b - -\nw - b b - w - b - b b - - - - w -\n- b b - - - - w - - w - - - - - b\nw - w w - b - b - w - - - b w - -\n- - - - w - - - - b b - w w - b -\n- - - - - w - b - - w - - w b - -\n- - b - - - w b b - b - - - - w b\nb - w - b w - b - - w w - - - - -\n- w b - w - w - b - w - b - - - -\n- b - - w w - - b - b - w - b - w\nb w b w - b w b - w - b b - - - -\nw w - - - - - - - - - - - - - - b\nw - b - w b w - - b b - - - - - w\n- - w w - - w b - - w - b w b w -\nb b w b w b - b - w - - - - - b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/089.a.htm"
+    },
+    "90_17x17": {
+      "id": "90_17x17",
+      "problem": "17 17\nw w - b - b w - - - - b - w b w -\n- - w w w - - - - - w b w b b b w\n- - - - - w - - w - - - - b w - -\nb - - - - - - b w - w - - - - - -\n- b b w b - - w - b - - b w - b -\nb - - - - - - w - - - b - - w - -\nw - w b - - b b - - b b - - - w -\nb - - b - - - - - - w w b - - w b\nw - b w - - - - - - - - - - - b -\n- w - - - - b - - w b w - - b b -\n- - w b w - - b - b - - w - b - -\nb - - w - b - - w w w w b w b - w\nw - - - w - b - - - w - b - - - -\n- - - - - - - - w b b w b - - - -\nw - - - - b b w - w - - - - w - -\nb - - - b - b - - b w - w - w - -\n- b - b w w w b - w - b - b b w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/090.a.htm"
+    },
+    "91_14x14": {
+      "id": "91_14x14",
+      "problem": "14 14\nw b w b w - w - b - b w b w\nw b - w b - b - - - - b - w\nb b - - w - w w - - b - b w\nw b b - - - - - - - - - - w\n- w - w - - b b - - w - b -\n- - w - w b - w w b w w w -\nw - - w b - w - b - - - b -\n- b b b - b - - - - - b w -\nb - - w b - - b - - w b - -\nw - - b - - w - - w b b - w\nw b - b w - b - w b - b - w\n- - - - - - b - - - - - - w\n- - w b b - - - - b w - b w\nb - - w w w - - - - b - - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/091.a.htm"
+    },
+    "92_14x14": {
+      "id": "92_14x14",
+      "problem": "14 14\nw b - b - - w - - w - - b -\n- b - - - - - - - w b - w -\n- - - - - - - - - - w b w b\nb - w - - b - - - - w b - -\n- b - - w w b - w - w - - b\nb - - w - b b - - w - w - w\nw w - - b b - b - - - w - b\nw - - b - - - - - b b b b w\n- b w w w w - w b b - w w w\n- - w - - w - w b - - - - -\n- - b - - - - - - w - - - -\nb b - - b b - - w b b - w b\nw - w - b b - b w - b - w b\nb w - - - w w - - - w - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/092.a.htm"
+    },
+    "93_14x14": {
+      "id": "93_14x14",
+      "problem": "14 14\nw - - b w b - - w b - w - w\n- w - - - b - w - - w b - -\nw b w - - - - w - - - b w b\nb w - w - - w - b b w b w b\n- b b - w - - - w - w - b w\nb - w - b - b b b w b w b b\nb - - b - - w - b b b - w b\n- w - - - w - - - - - - - -\n- - w - - - w b w w w - w -\nw b b w - b - w w - - b b w\nb - w - w - - - b - w - b w\n- - - - - - b - w - b - - -\n- - b b b - - b - b - - - b\nw w - - b w - - b w w - - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/093.a.htm"
+    },
+    "94_14x14": {
+      "id": "94_14x14",
+      "problem": "14 14\nb - - w - w - - b b w - b -\n- - - - b w b - w w b - w b\n- b b - - w b b - w w b w -\nw - w b b - w - w - b b - w\nw w b - w b b b - w b - - w\nb b - w w w - w - - b - b w\n- b - - b w - - - b b - w w\nb w b w - - w - - - w b - b\nw b - w - b b - w w b - w b\n- b w b w w b b - - w - - w\n- w - w - w b w - b b - - w\nb w b - b - w w b b - - w -\nw w - - b b - w - b w w - b\nb - - w - - b b - - b w - -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/094.a.htm"
+    },
+    "95_14x14": {
+      "id": "95_14x14",
+      "problem": "14 14\nb - - w - - b - - - - - w w\nb - - - - - - - w b b - - -\n- b b - - b - b - - - b - b\nw - - - - w - - - w w w - b\n- - - - w - b w w b b - w w\nb w w w - b - - w w b b b -\nw - - - b w - b b b - - w -\nb - - b - - - - w - - w - b\n- b - w w b - b w - w - w -\n- - b w w - b - - w - - b w\n- b - - - - w - - - - - - b\n- w b w - w - w - - b - - -\nw - - b b w b - - - w - b -\n- - w - - b - - - b - - w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/095.a.htm"
+    },
+    "96_17x17": {
+      "id": "96_17x17",
+      "problem": "17 17\nb - w - - - w - b b - - w - b - w\nw - - w - - w - w - - b b w b - -\n- - - b - - b b w w - - - b - - -\n- w - - b b - - b - w - b - w - -\n- b - w - w - w - b - - - b b - w\n- w - - - - b - - w - - - - w - -\nb b - w w - b w b w - b w w - b w\n- w b - - w - w w - - b b b b - -\n- - - b - - w b - - - b w w w b -\nb b w b w - - - b w w b w - - - b\nw w - - b - - w b - w - b - - - -\n- w - b - b w - b b - b - - - b w\nb - - - w w b b w - - - w w w - b\n- - - - b w - - - - - - - b - - -\nw - - b - - w w - w - - w b - - w\nb w w b - b - w b b b - - w - b -\nw - - - - - b - - - - w - - - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/096.a.htm"
+    },
+    "97_17x17": {
+      "id": "97_17x17",
+      "problem": "17 17\n- - - - b - w - b - - w b b b - w\nb w b w b b w w b b - w - - - w w\nw w - b w b b - - w - - w - - - -\nw - b w w - - b - - - - w w b - b\nb - - b b w b b w - b - - - - - -\n- w b w - b - - - w b w b - w - w\n- - - - w - - w - b - w b w w b b\n- w b b b w b b w b w - b - - w b\n- w w b - b - - b b - b - w b w -\nw - b w - w - - - - - b - - b - -\n- b - - - - - - b - - - - b w b w\nw b - - w - - - - - - - w w - b b\nb - - b b w - w - w - - - b - - w\n- w - b - - - - w - - - b - b b -\n- b - - b - - b b - w - - b - - -\n- b - - - w - - - b - - w - w w -\nw w w w w b w w - w - w - w - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/097.a.htm"
+    },
+    "98_17x17": {
+      "id": "98_17x17",
+      "problem": "17 17\nb - w w b w - b b - w b w - b w -\nb - b - w - w w - - b w - b - b -\n- w - b - w b w b - - - - w b - w\nw b - b - - w w - - b - b - - w -\nb w b - w w w - - b - b - - b - w\n- - - - - b w b - - w - b - - - w\n- b - b - b - - - - - w w - - b -\n- - w w - - - - w b w - - - - - b\nb w - b - - - w - b b - b - - b w\nw - b - b w - b b - w w - b w - -\nb - w w - - b b w - w b - b - w -\nw - - - - - w w - - b - w - - - -\n- b - w w - - w b - - w - - - b -\nb b - w b - b - - - w w - b w - -\n- w - - w - - b b - - - - - - - -\nb - - - w - - - - w - - - - w - b\nw - - b - b w - w - b b w b - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/098.a.htm"
+    },
+    "99_17x17": {
+      "id": "99_17x17",
+      "problem": "17 17\nb - w w b w - w - - - b w - - b w\nw - - w - - - - - w b - - - - - -\nw w b - w b - b - - w w - w w b -\nb - - - b b b - - w - - - - w - -\nb b - - b w w b w - b - - - - - -\n- w - b w w b b - - - - w - - w b\nw - w - b b w b - - - w b - b - -\n- b - w - b - - w b w - - b b - -\nw - - - b - b - - - b w - b w b b\nb w - - - - - w w - - w - b w b -\n- - w w - b w b - - - - - - b b w\n- b - - - w - w b - - - - w - - -\nw b - b - - b - w b b - - - w w b\nw - b - - b - w - - - b - b b b -\n- w - w w - b b - - - - w - - - -\n- - b - b - - - - - - b b w w w -\nb - w - w - b - - w w w - w b - w",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/099.a.htm"
+    },
+    "100_17x17": {
+      "id": "100_17x17",
+      "problem": "17 17\nw - - b - - - - - w - w - b b w -\nb - - - w b - - w - b w - w b b -\n- - - - - - b w - b - - - b - - -\nb - w - w - b b - w w - - b - - b\n- - b w b - b - w b - - w b w - w\n- - - b b w w b - - - - - - w w b\nb b - w w w - - - - - b w - - b w\nw - - - b w w - b w w - - b b w b\n- - - - - - w b - b - - - b - - -\n- w - - - - w - w - b - - w w w b\nb b - - - b b b - - - - - - - - w\n- w - w - - - w - w - b - b b - w\nw b - b w - b - - - b w b - b - -\n- - - b - b b b b - - w w - w - -\n- w - - - - - w - - b - b - - - -\nw - - - w - - b w - - b - w - - -\nb - w w b w w w - - - - w w - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/100.a.htm"
+    },
+    "101_14x14": {
+      "id": "101_14x14",
+      "problem": "14 14\nw b - w - b b - w w b w - -\n- b b b - - b - - w b - w b\n- - - - b - - w - w w b w -\nb w w w - b - - w b b w b -\n- b - - w w - - - b - - w -\nw b - - w w - - b - w b - w\nw b - - b - b - - b b b - w\n- w w - - b w b b w - w b w\n- - b b - w b - - w - - b -\n- b w w w - - w - - - w - b\n- w - - b b - w w - - - b -\n- - - - b - - - w - - - - -\n- - - - w w b w - - w b w -\nb - b - w b - - b - b - w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/101.a.htm"
+    },
+    "102_14x14": {
+      "id": "102_14x14",
+      "problem": "14 14\nb - w b w b w w b w b - - -\n- - - - w b - b b - b w - b\n- b w - b - - - - b - b - -\n- - - w w - - w - w w - - -\n- - b w - w - - - w - - b w\n- b w - - - - - w w - - b -\nb - - w b - - w b - w b w -\n- w - b b w - b - - w - - b\nw - b w - b - - - b w - - b\nw - - - - w - w - w b - - -\n- b b - - w - w - - b w - b\n- - b w b w - - b - - w b -\nb - b b - w - - w - w - b -\nw b w - - - b - w - - b w b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/102.a.htm"
+    },
+    "103_14x14": {
+      "id": "103_14x14",
+      "problem": "14 14\nw - - b b w - - w - b w b -\n- - - b - - - - - - - - - w\n- b b - - w b - b b b w - b\n- w - b b w w - - - w - - -\n- - b - - - b b - - w - - b\n- - w - - - - - w w - b - w\nw - b w b w - w w - b - w b\nb - - b - w w b - b - - w -\nb - - w - b w w - b - - w -\n- b w b b w - b b w w - b -\nw - - - - - - w b - - w w -\n- - - - w - - - - - - - w -\n- w w - b - b - - w b b b -\n- b - - w - b - w w b w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/103.a.htm"
+    },
+    "104_14x14": {
+      "id": "104_14x14",
+      "problem": "14 14\n- w - - - - w - - - - - - b\n- - b b w b - - b w - - - -\nb b - b - - - - w w b - b -\nw - - - - w - - b - - - - b\n- - w w - - - - b - - w w -\nw - - b b w b - - - - w b -\nb w b - - - w b - w - - - w\nw - w - - b b b w w - - w w\n- - - - w - - - - b w - b -\n- w b - - w b - - - - w w -\n- - - - w - - b b w b - - -\n- b - - b w - - - - - - - -\n- b - - - - - - w w - w - -\nb w b w - - b b w b w b b b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/104.a.htm"
+    },
+    "105_14x14": {
+      "id": "105_14x14",
+      "problem": "14 14\n- w w - b - w b - b - w w -\nw - w - - w b - w - w - b -\nb b b - b w b w b - b - b w\nb - - b w - w - w - w b - -\nw - - - - b b - b b - - - w\nb - w w - w - - - - - w b b\nb - - w b w - - b w w - b -\nw w b b w w - b w - - b - b\n- w - - - w - - b w - w b -\n- - - - b w w - b - w - - w\nb b - - b - b - w b - - b w\n- w - b w b - b - b b w - -\n- w - b b - w - b w w - b -\nb w - - w w - w b w b b w -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/105.a.htm"
+    },
+    "106_17x17": {
+      "id": "106_17x17",
+      "problem": "17 17\n- b - w - b - - w b w w - w w b -\n- b - - - - w b w b - - - b w - b\nb - - w - b b - w w w b - - - b w\n- w w w - - b - - w - b w b - - w\nw b - - b b b - - w b - - b w b w\n- - - b - w w - b w - - b - b - b\nb w b b w b - b w w - w - - w - -\n- b b w b - b - - b - - - w w b b\nw b - b - w - b - - w - b - w b -\nb - - w w - w w - b b b - w - - w\n- w w w - b b b - - - - - b - - w\nw - b - w b - - w b w b - - w - -\nw b - w - w - - w - - b b w - w -\n- - - b w - w w w b - w b - b b b\n- - - - b w w - b b w b b w - - w\nb w b w - - - - b w - b - w w w b\n- w - - - - - - - - - - - - - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/106.a.htm"
+    },
+    "107_17x17": {
+      "id": "107_17x17",
+      "problem": "17 17\nb - - - - w w - - - w - - b - b w\n- - b w w b - - w - - b w - - b -\nb w w - b - - b b - - - - - w b w\nw - w b b - b - w - b - - b - w -\nb - - - - - - - - - w w - - b b w\nb - w - w b w - - w w - b b - - w\nw - - b - - w w b b - w b b - b w\nb - - - b - - - - - - - w w b - w\n- w b w b - b w - - - - - b b - -\n- b - - - - - - b - - w b w - - -\nw w - - - w - - - b b w - w - w -\n- - b b - w - - - b - w w b w b w\n- b - b - w - b - - b w b w b - -\n- b w w b - b - - - - - w - - - b\nb w - - w w w b - - - - - w b - w\n- w - - b - - - w - - b - - - w -\nw b - w - b - - - b - w w b - b -",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/107.a.htm"
+    },
+    "108_17x17": {
+      "id": "108_17x17",
+      "problem": "17 17\nb b w w - - - - - - - b - - - w -\n- - - - - b - - - w b - w - b w b\nw b - - w b w - - - w - - - w - -\nb w - - - - w - b b w w - w - b -\n- b - - - w - - - b - - b - w - b\nw w - b - w w - - b w b - b - w -\nb - b - - - - - w - - - - b - - b\n- b - w b - b - - w - b w - - b w\nw - - b - b b - - - - - - w b - w\n- w w b w - w b - w w w - b - w b\nw - w - w - b w - - b - - - - - -\n- w - w - w b b - - - w b b w - -\nb b - - - b - - - b - b - - w - -\nb w b - b w - - - w b w b - - - w\nb - w - b - - w - - b b - - b - w\nb - w - w w w - w b b - - - - - w\n- - - b - b - - b - w - - w - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/108.a.htm"
+    },
+    "109_17x17": {
+      "id": "109_17x17",
+      "problem": "17 17\nw - b b b w w - - - w b b w w - b\n- b w - - b - w - - b b - - w - -\nw b - w w - b - b - w b - w w w b\n- - w b - w b w - - - b w w - - -\nw - b - - w - - - - - - - b b - w\n- b - w - b - - - b - w b - - b w\nb - - b - w w w b - - - - w - b -\nb - - - w - - - w w - - w b w - -\nw b b w w b w - - b - - b - - w b\n- b - w b - - b - w - - b - w - b\nb w w b b - - w b w w - - - - - b\n- w - - - - b - w b - w - - - b -\n- b - w w - - - - - - - - b b - w\nb - w - - b - b - w - w - - b w b\nb - - b b - - b - - - - - - - - w\nw b w - w w w - w - - - - - - b -\nb - w b - w b b - - w w - - - - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/109.a.htm"
+    },
+    "110_17x17": {
+      "id": "110_17x17",
+      "problem": "17 17\nw - - - - w b - w w b - w - b w b\nb - b - - b w b b w - - b w - - -\nb w - - b - w b - - b w - - w b w\nb w - w - b - w - - w - b w - - b\n- - w - w b w - - b w w - - b w b\nw - - - - b w - - b - b w - w b -\nb b - - b - - b w - b - b b w - b\n- b - b - - b b b w b - b - - w -\n- - - w - w - w b w w - w w b w -\nw - b w - b w - - b b w b - w - -\n- w w - - - b - w b - - w b b b -\nb - w b - - - - w - b w w - - b -\nw w b w - w - - b - w - w - b w -\nb - - b w b w w b w b w - w - b w\nw w - - b w w - b w b b - - - b w\nb w - - - - - b - w - b b b - - -\nw b b w - - - - b - w - - w w - b",
+      "source": "https://www.janko.at/Raetsel/Shirokuro/110.a.htm"
+    }
+  }
+}

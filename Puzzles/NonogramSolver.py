@@ -2,8 +2,9 @@ from typing import Any, List
 from Common.PuzzleSolver import PuzzleSolver
 from Common.Board.Grid import Grid
 from Common.Board.Position import Position
-from Common.Utils.z3_analytics import z3_solver_analytics
-import z3
+# Assuming you have a similar analytics tool for ortools, or you can implement a dummy one
+# from Common.Utils.ortools_analytics import ortools_cpsat_analytics 
+from ortools.sat.python import cp_model as cp
 import copy
 import time
 
@@ -13,7 +14,7 @@ class NonogramSolver(PuzzleSolver):
         self.num_rows: int = self._data['num_rows']
         self.num_cols: int = self._data['num_cols']
 
-        # 初始化 Grid，如果输入数据中没有 grid，则创建一个全空白的
+        # Initialize Grid, create an empty one if not present in input data
         if 'grid' in self._data and self._data['grid']:
             self.grid: Grid[str] = Grid(self._data['grid'])
         else:
@@ -33,6 +34,7 @@ class NonogramSolver(PuzzleSolver):
         ]
         
         self._check_validity()
+        self._cp_vars = [] 
         self._parse_grid() 
     
     def _check_validity(self):
@@ -47,49 +49,86 @@ class NonogramSolver(PuzzleSolver):
         if len(self.cols) != self.num_cols:
             raise ValueError(f"Col clues count ({len(self.cols)}) does not match num_cols ({self.num_cols})")
 
-        # 检查现有的格子字符是否合法
+        # Check for allowed characters
         allowed_chars = {'-', 'x', 'o'} # -: empty/unknown, x: marked empty, o: filled
         for pos, cell in self.grid:
-            # 兼容部分输入可能是数字用于表示颜色的情况，这里假设标准黑白
+            # Assuming standard black and white (digits might represent colors in other variants)
             if cell not in allowed_chars and not cell.isdigit(): 
                 raise ValueError(f"Invalid character '{cell}' at position {pos}")
 
     def _parse_grid(self):
         pass
+    
+    def _create_range_check(self, item_var, lower_bound, upper_bound):
+        """
+        Helper to create a reified constraint: bool_var <-> lower_bound <= item_var <= upper_bound.
+        In CP-SAT, we must explictly create a boolean variable that represents this truth.
+        """
+        # Create the boolean variable indicating if item_var is in range
+        is_in_range = self.model.NewBoolVar(f'in_range_{item_var}_{lower_bound}_{upper_bound}')
         
-    def _constraints_one_dim(self, constraints: List[List[int]], other_dim_len: int, identifier: str):
+        # Implementation via implication:
+        # 1. if is_in_range is true => item_var >= lower AND item_var <= upper
+        self.model.Add(item_var >= lower_bound).OnlyEnforceIf(is_in_range)
+        self.model.Add(item_var <= upper_bound).OnlyEnforceIf(is_in_range)
+        
+        # 2. if is_in_range is false => item_var < lower OR item_var > upper
+        # We need auxiliary bools for the "OR" condition in the negation
+        check_low = self.model.NewBoolVar(f'check_low_{item_var}')
+        check_high = self.model.NewBoolVar(f'check_high_{item_var}')
+        
+        self.model.Add(item_var < lower_bound).OnlyEnforceIf(check_low)
+        self.model.Add(item_var >= lower_bound).OnlyEnforceIf(check_low.Not())
+        
+        self.model.Add(item_var > upper_bound).OnlyEnforceIf(check_high)
+        self.model.Add(item_var <= upper_bound).OnlyEnforceIf(check_high.Not())
+        
+        # Ideally: is_in_range.Not() implies (check_low OR check_high)
+        self.model.AddBoolOr([check_low, check_high]).OnlyEnforceIf(is_in_range.Not())
+        
+        return is_in_range
 
+    def _constraints_one_dim(self, constraints: List[List[int]], other_dim_len: int, identifier: str):
         result_vars = []
         
         for line_num, line_clues in enumerate(constraints):
             last_var = None
             new_vars = []
             
-            # 计算该行/列所有块占据的总最小长度
+            # Calculate total minimum length occupied by blocks in this line
             total_clue_len = sum(line_clues) + len(line_clues) - 1
             
-            # 优化范围约束 (Simple Box Rule logic)
+            # Optimized range constraints (Simple Box Rule logic)
             max_start = other_dim_len - total_clue_len
             min_start = 0
             
             for span_num, span_len in enumerate(line_clues):
-                # 创建变量：identifier_行号_第几个块
-                # 例如: r_0_0 (第0行第0个块的起始位置)
-                new_var = z3.Int(f"{identifier}_{line_num}_{span_num}")
-                # [统计关键点 1]：顺手把变量加入列表
-                self._z3_vars.append(new_var)
-                # 1. 基础范围约束：必须在界内
-                self.solver.add(z3.And(new_var >= 0, new_var < other_dim_len))
+                # Variable: identifier_row_blockIndex
+                # E.g.: r_0_0 (start position of 0th block in 0th row)
+                # CP-SAT allows setting domain [min, max] during creation
                 
-                # 2. 改进的范围约束 (优化求解速度)
-                self.solver.add(z3.And(new_var >= min_start, new_var <= max_start))
+                # Calculate the valid domain for this specific block based on previous blocks
+                # However, for simplicity and allowing the solver to work, we use the floating window
+                # defined by max_start and the current accumulations.
                 
-                # 3. 顺序和间隔约束：当前块必须在前一个块结束至少1格之后
+                # Note: In OR-Tools we must define bounds immediately.
+                # A loose bound is [0, other_dim_len], but we use the optimized ones from the Z3 logic.
+                new_var = self.model.NewIntVar(min_start, max_start + span_len + 1 + total_clue_len, 
+                                               f"{identifier}_{line_num}_{span_num}")
+                
+                self._cp_vars.append(new_var)
+
+                # 1. Base Bounds & 2. Optimized Loop Bounds combined
+                # Enforce strict bounds calculated dynamically in the loop
+                self.model.Add(new_var >= min_start)
+                self.model.Add(new_var <= max_start)
+                
+                # 3. Sequence and spacing constraint: Must be at least 1 cell after previous block
                 if last_var is not None:
-                    # 前一个块的起始(last_var) + 前一个块长度(line_clues[span_num-1]) < 当前块起始
-                    self.solver.add(last_var + line_clues[span_num - 1] < new_var)
+                    # prev_start + prev_len < current_start  => prev_start + prev_len + 1 <= current_start
+                    self.model.Add(last_var + line_clues[span_num - 1] < new_var)
                 
-                # 更新下一个块的最小和最大可能起始位置
+                # Update bounds for the next block
                 min_start = min_start + span_len + 1
                 max_start = max_start + span_len + 1
                 last_var = new_var
@@ -99,126 +138,110 @@ class NonogramSolver(PuzzleSolver):
         return result_vars
 
     def _add_constr(self):
-        self.solver = z3.Solver()
-        # 用于存储代表每个具体格子(i, j)状态的 Z3 Bool 表达式
-        # 这样在 get_solution 时可以直接评估这些表达式
-        self._z3_vars = [] 
-        # 记录变量数
+        # Initialize OR-Tools Model and Solver
+        self.model = cp.CpModel()
+        self.solver = cp.CpSolver()
+        # Optional: Set parameters for performance
+        # self.solver.parameters.max_time_in_seconds = 10.0 
+        
+        self._cp_vars = []
+        # Matrix to store boolean variables representing the final state of each cell
         self.board_vars = [[None for _ in range(self.num_cols)] for _ in range(self.num_rows)]
 
-        # 1. 生成行和列的其实位置变量
-        # row_vars[i][k] 表示第 i 行第 k 个线索块的起始列索引
+        # 1. Create start position variables for rows and columns
+        # row_vars[i][k] is start index of k-th block in row i
         row_block_vars = self._constraints_one_dim(self.rows, self.num_cols, 'r')
-        # col_vars[j][k] 表示第 j 列第 k 个线索块的起始行索引
+        # col_vars[j][k] is start index of k-th block in col j
         col_block_vars = self._constraints_one_dim(self.cols, self.num_rows, 'c')
         
-        # 2. 生成一致性约束 (Consistency Constraints)
-        # 将"块的位置"映射到"格子的状态"
+        # 2. Consistency Constraints
+        # Map "block positions" to "cell states"
+        
         for r in range(self.num_rows):
             for c in range(self.num_cols):
+                
+                # Create a main boolean variable for cell (r,c). 
+                # True = Filled ('x' or 'o'), False = Empty.
+                is_filled = self.model.NewBoolVar(f"cell_{r}_{c}")
+                self.board_vars[r][c] = is_filled
+                
                 # --- Row Logic ---
-                # 判断格子 (r,c) 在行约束看来是 空(Empty) 还是 填(Taken)
+                # Determine if any block in this row covers column 'c'
+                row_block_coverage_bools = []
+                for k in range(len(row_block_vars[r])):
+                    start_var = row_block_vars[r][k]
+                    length = self.rows[r][k]
+                    
+                    # Logic: Block k covers 'c' IF: start_var <= c < start_var + length
+                    # Equivalent to: start_var <= c AND start_var > c - length
+                    # Equivalent to: c - length + 1 <= start_var <= c
+                    
+                    lower_bound = c - length + 1
+                    upper_bound = c
+                    
+                    # We create a boolean that is true if this specific block covers this cell
+                    covers = self._create_range_check(start_var, lower_bound, upper_bound)
+                    row_block_coverage_bools.append(covers)
                 
-                # 如果所有块都在 c 之后，或者某个块在 c 之前就结束了 -> 空
-                empty_cond_row = [
-                    z3.Or(row_block_vars[r][k] > c, row_block_vars[r][k] + self.rows[r][k] <= c) 
-                    for k in range(len(row_block_vars[r]))
-                ]
-                
-                # 如果存在某个块，它的起始 <= c 且 结束 > c -> 填
-                taken_cond_row = [
-                    z3.And(row_block_vars[r][k] <= c, row_block_vars[r][k] + self.rows[r][k] > c) 
-                    for k in range(len(row_block_vars[r]))
-                ]
-                
+                # Define: Row says "Taken" if AT LEAST ONE block covers this cell
+                row_says_taken = self.model.NewBoolVar(f"row_taken_{r}_{c}")
+                if row_block_coverage_bools:
+                    self.model.AddBoolOr(row_block_coverage_bools).OnlyEnforceIf(row_says_taken)
+                    self.model.AddBoolAnd([b.Not() for b in row_block_coverage_bools]).OnlyEnforceIf(row_says_taken.Not())
+                else:
+                    self.model.Add(row_says_taken == 0) # No blocks in this row
+
                 # --- Col Logic ---
-                # 判断格子 (r,c) 在列约束看来是 空(Empty) 还是 填(Taken)
-                empty_cond_col = [
-                    z3.Or(col_block_vars[c][k] > r, col_block_vars[c][k] + self.cols[c][k] <= r) 
-                    for k in range(len(col_block_vars[c]))
-                ]
-                
-                taken_cond_col = [
-                    z3.And(col_block_vars[c][k] <= r, col_block_vars[c][k] + self.cols[c][k] > r) 
-                    for k in range(len(col_block_vars[c]))
-                ]
-                
+                # Determine if any block in this col covers row 'r'
+                col_block_coverage_bools = []
+                for k in range(len(col_block_vars[c])):
+                    start_var = col_block_vars[c][k]
+                    length = self.cols[c][k]
+                    
+                    # Logic: Block k covers 'r' IF: r - length + 1 <= start_var <= r
+                    lower_bound = r - length + 1
+                    upper_bound = r
+                    
+                    covers = self._create_range_check(start_var, lower_bound, upper_bound)
+                    col_block_coverage_bools.append(covers)
+
+                # Define: Col says "Taken" if AT LEAST ONE block covers this cell
+                col_says_taken = self.model.NewBoolVar(f"col_taken_{r}_{c}")
+                if col_block_coverage_bools:
+                    self.model.AddBoolOr(col_block_coverage_bools).OnlyEnforceIf(col_says_taken)
+                    self.model.AddBoolAnd([b.Not() for b in col_block_coverage_bools]).OnlyEnforceIf(col_says_taken.Not())
+                else:
+                    self.model.Add(col_says_taken == 0)
+
                 # --- Combined Logic ---
-                # 只有当行和列都认为该位置为空时，才为空
-                is_empty = z3.And(z3.And(*empty_cond_row), z3.And(*empty_cond_col))
+                # Consistency Rule:
+                # A cell is filled if and only if the Row logic says it's filled AND the Column logic says it's filled.
+                # Actually, strictly speaking in Nonograms:
+                # (Row says Taken) Must Equal (Col says Taken).
+                # If Row says Taken and Col says Empty -> Contradiction (Impossible).
+                # If Row says Empty and Col says Taken -> Contradiction (Impossible).
+                # If both say Empty -> Cell is Empty.
+                # If both say Taken -> Cell is Taken.
                 
-                # 只有当行允许被填 AND 列允许被填 (即存在某个行块覆盖它 OR 存在某个列块覆盖它)
-                # Board[r][c] is TAKEN if (Row says Taken) AND (Col says Taken).
-                # 注意：Z3 中 Or(*list) 若 list 为空返回 False (即没有块覆盖则为 False)
-                row_says_taken = z3.Or(*taken_cond_row) if taken_cond_row else z3.BoolVal(False)
-                col_says_taken = z3.Or(*taken_cond_col) if taken_cond_col else z3.BoolVal(False)
+                self.model.Add(row_says_taken == col_says_taken)
                 
-                is_taken = z3.And(row_says_taken, col_says_taken)
-                
-                # 存储该格子被填满的条件表达式，用于后续取值
-                self.board_vars[r][c] = is_taken
-                
-                # 核心约束：一个格子要么通过 Empty 逻辑验证，要么通过 Taken 逻辑验证
-                self.solver.add(z3.Or(is_empty, is_taken))
-
-    def solve(self):
-        tic = time.perf_counter() 
-        self._add_constr()
-        toc = time.perf_counter()
-        build_time = toc - tic
-        num_vars = len(self._z3_vars)
-        num_constrs = len(self.solver.assertions()) # 顶层约束数量
-        status = self.solver.check()
-        
-        solution_grid = Grid.empty() # 如果失败返回空或其他默认
-        
-        # 映射 Z3 状态到标准字符串
-        if status == z3.sat:
-            str_status = "Feasible" # 或 "Optimal"
-        elif status == z3.unsat:
-            str_status = "Infeasible"
-        else:
-            str_status = "Unknown"
-        
-        # 构建返回字典
-
-        z3_analytics = z3_solver_analytics(self.solver)
-        analytics = {
-            "num_vars": num_vars,
-            "num_int_vars": num_vars, # 本算法全是用 Int 建模
-            "num_bool_vars": 0,       # 没有显式创建 Bool 决策变量
-            "num_constrs": num_constrs,
-            "build_time": build_time,
-            # 展开 z3_solver_analytics 的结果
-            **z3_analytics 
-        }
-
-        # --- 组装结果 ---
-        solution_dict = copy.deepcopy(analytics) # 将统计数据直接融入顶层，或者放入 'statistics' key
-        solution_dict['status'] = str_status
-        solution_dict['grid'] = None
-
-        if status == z3.sat:
-            solution_grid = self.get_solution()
-            solution_dict['grid'] = solution_grid
-        else:
-            solution_dict['grid'] = self.grid
-        
-        return solution_dict
+                # Link our explicit cell variable to the derived state
+                self.model.Add(is_filled == row_says_taken)
     
     def get_solution(self):
-        # 只有在 check() == sat 后调用
-        m = self.solver.model()
+        # Should only be called after Solve() returns OPTIMAL or FEASIBLE
         
         sol_grid_matrix = copy.deepcopy(self.grid.matrix)
         
         for r in range(self.num_rows):
             for c in range(self.num_cols):
-                # 评估我们在 _add_constr 中保存的 Bool 表达式
-                # is_true 用于判断 Z3 的 BoolRef 是否为真
-                if z3.is_true(m.evaluate(self.board_vars[r][c])):
+                # Check the boolean value of the cell variable
+                if self.solver.Value(self.board_vars[r][c]) == 1:
                     sol_grid_matrix[r][c] = "x" # Filled
                 else:
                     sol_grid_matrix[r][c] = "-" # Blank
             
         return Grid(sol_grid_matrix)
+
+    # Note: The solve method is managed externally as per instructions, 
+    # but relies on self.model and self.solver being created in _add_constr.

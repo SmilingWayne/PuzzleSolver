@@ -64,7 +64,8 @@ if __name__ == "__main__":
         "TerraX",
         "Detour",
         "Simpleloop",
-        "Masyu"
+        "Masyu",
+        "BalanceLoop"
 
     ]
     
@@ -127,7 +128,7 @@ if __name__ == "__main__":
                     # print(solution_dict['grid'])
                     # print("===")
                     # print(sol_dict['grid'])
-            # if puzzle_id == "78_10x10":
+            # if puzzle_id == "01_5x5":
             #     print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
             #     break
             # break

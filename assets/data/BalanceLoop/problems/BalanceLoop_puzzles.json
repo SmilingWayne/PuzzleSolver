@@ -1,0 +1,355 @@
+{
+  "count": 70,
+  "puzzles": {
+    "01_5x5": {
+      "id": "01_5x5",
+      "problem": "5 5\n- - - - - \n- - - - - \n- - w4 - - \n- - - - - \nb5 - b - b3",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/001.a.htm"
+    },
+    "02_6x6": {
+      "id": "02_6x6",
+      "problem": "6 6\n- - - - b5 - \nb5 - w4 - - - \n- w6 - - - - \n- - - - w4 - \n- - - w2 - b5 \n- b5 - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/002.a.htm"
+    },
+    "03_7x7": {
+      "id": "03_7x7",
+      "problem": "7 7\n- - - b - - - \nw w w4 - w w w \n- - - b - - - \n- - w - b - - \n- - - w - - - \nb b b - b5 b b \n- - - w - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/003.a.htm"
+    },
+    "04_8x8": {
+      "id": "04_8x8",
+      "problem": "8 8\nb10 - - - b6 - - - \n- - - b3 - b4 - - \n- - - - - - - - \n- - b3 - - - - - \n- - - b4 b3 - b5 - \n- b3 - - - b3 - - \n- - - - b3 - - - \nb3 - b3 - - b4 - b7",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/004.a.htm"
+    },
+    "05_8x8": {
+      "id": "05_8x8",
+      "problem": "8 8\n- - - w b6 - - - \n- - - w b5 - - - \n- w - w b - - - \n- - - w4 b - - - \n- - - w b4 - - - \n- - - w b - b5 - \n- - - w4 b - - - \n- - - w6 b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/005.a.htm"
+    },
+    "06_8x8": {
+      "id": "06_8x8",
+      "problem": "8 8\n- - w4 - - - - - \n- - - w b w4 b4 - \n- - - - - - - - \n- w - - - - b - \n- b - - - - w - \n- - - - - - - - \n- b4 w4 b w - - - \n- - - - - b6 - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/006.a.htm"
+    },
+    "07_8x8": {
+      "id": "07_8x8",
+      "problem": "8 8\nw - - - - - - b \nw - - - - - - b \nw - - - - - - b4 \nb - - - - - - w \nb - - - - - - w \nw - - b w4 - - b \nw - - - - - - b \nw - - - - - - b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/007.a.htm"
+    },
+    "08_8x8": {
+      "id": "08_8x8",
+      "problem": "8 8\n- - - w w - - - \n- w4 - b b - w - \n- - - - - - - - \nw b - - - - b w \nb w - - - - w b \n- - - b - - - - \n- b - w w - b - \n- - - b b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/008.a.htm"
+    },
+    "09_8x8": {
+      "id": "09_8x8",
+      "problem": "8 8\nb - w4 - w2 - b - \n- w - - - w - - \nw - b - b - w - \n- w - b - b - - \nw - w - w - b - \n- w - w - w - - \nb - w - b - b - \n- - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/009.a.htm"
+    },
+    "10_8x8": {
+      "id": "10_8x8",
+      "problem": "8 8\n- w - - b w2 - - \nb4 - - w - w - - \nb - - - b - - - \n- - - - - - b5 - \n- b w - b4 - - - \n- - - - - - w b5 \n- - - - - - w - \n- - - - b5 - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/010.a.htm"
+    },
+    "11_10x10": {
+      "id": "11_10x10",
+      "problem": "10 10\n- - - - - w - b - - \nw w - - w - b - w - \nb - - w - b - - b w \n- w w - b - - - w - \n- w - b - - - w - b \nw - b - - - w - b - \n- b - - - w - b b - \nb w - - w - b - - w \n- b - w - b - - b b \n- - w - b - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/011.a.htm"
+    },
+    "12_10x10": {
+      "id": "12_10x10",
+      "problem": "10 10\n- - - - b w - - - - \n- b3 b4 b - - w w w - \n- - - - - - - - - - \nb5 b4 b - - - - w w w \n- - - - b6 - - - - - \n- - - - - b6 - - - - \nw w w - - - - b b3 b5 \n- - - - - - - - - - \n- w w w - - b b3 b3 - \n- - - - w b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/012.a.htm"
+    },
+    "13_10x10": {
+      "id": "13_10x10",
+      "problem": "10 10\n- - - - w - - - - - \nw - - b - - w4 - - - \n- - b4 - - - - b - - \n- - - - - - - - - - \n- b - - w6 w6 - w - w4 \nb4 - b - b6 b6 - - w - \n- - - - - - - - - - \n- - w - - - - w4 - - \n- - - b4 - - w - - b \n- - - - - b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/013.a.htm"
+    },
+    "14_10x10": {
+      "id": "14_10x10",
+      "problem": "10 10\n- b - - b - - - - b \n- w - w4 b - - - - - \n- - - - - - w2 - - - \n- - - - - - - w4 w2 - \n- - - b5 - b - - b - \n- - w4 - - - - - - - \n- - - - - - w4 - - - \n- w - - - - - - - - \n- - - - b - - - b4 - \n- - - w4 - - - - - w8",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/014.a.htm"
+    },
+    "15_10x10": {
+      "id": "15_10x10",
+      "problem": "10 10\nb6 - - - w - - - - - \n- - - b - - - - - - \n- - - - - b6 - - - - \n- - b b6 - - - w4 - - \nw4 - - - - - - - w - \n- - - - - - - - - - \n- - - - - - w4 - - - \n- w - - - - - w4 b - \n- - - - - - - - - b \n- b - - w6 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/015.a.htm"
+    },
+    "16_10x10": {
+      "id": "16_10x10",
+      "problem": "10 10\nw6 - - - b - - - - - \n- - - w - - - - - - \n- - - - - w6 - - - - \n- - w w6 - - - b4 - - \nb4 - - - - - - - b - \n- - - - - - - - - - \n- - - - - - b4 - - - \n- b - - - - - b4 w - \n- - - - - - - - - w \n- w - - b6 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/016.a.htm"
+    },
+    "17_10x10": {
+      "id": "17_10x10",
+      "problem": "10 10\n- b3 - - - w - - b3 - \nb3 - b3 - - - w - - b \n- b3 - b3 - - - w - - \n- - b - b3 - - - w - \n- - - b3 - - - - - w \nw - - - - - b4 - - - \n- w - - - b3 - b - - \n- - w - - - b4 - b4 - \nb - - w - - - b5 - b3 \n- b3 - - w - - - b4 -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/017.a.htm"
+    },
+    "18_10x10": {
+      "id": "18_10x10",
+      "problem": "10 10\n- w - - - - - - w - \n- b - - - w4 - - b3 - \n- - - - - - - - - - \n- - - w - - - - - - \n- b6 - w - - w - b - \n- w - - - - - - w - \n- b5 - w - - w - b - \n- - - - - - b4 - - - \n- w - - b4 - - - w - \n- b3 - - - - - - b3 -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/018.a.htm"
+    },
+    "19_11x11": {
+      "id": "19_11x11",
+      "problem": "11 11\n- - - - - b8 - - - - - \n- - - - b - b - - - - \n- - - b5 - - - w - - - \n- - b3 - - w - - b - - \n- b3 - - w - w - - b - \nb - - w6 - - - w2 - - b \n- b - - w - w - - b4 - \n- - b - - w - - b6 - - \n- - - w - - - b5 - - - \n- - - - b - b - - - - \n- - - - - b10 - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/019.a.htm"
+    },
+    "20_11x11": {
+      "id": "20_11x11",
+      "problem": "11 11\n- - - b - - - b - - - \n- - b - - - - - b - - \n- b - - w - w4 - - b - \nb - - w - - - w - - b7 \n- - w - - - - - w - - \n- - - - - b5 - - - - - \n- - w - - - - - w - - \nb5 - - w - - - w - - b \n- b - - w - w - - b4 - \n- - b6 - - - - - b - - \n- - - b5 - - - b5 - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/020.a.htm"
+    },
+    "21_6x6": {
+      "id": "21_6x6",
+      "problem": "6 6\n- 2w - 3b - 4w\n- - - - - -\n- - - - 3b -\n- 3b - 3b - -\n- - 2w - - 2w\n4w - 4w - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/021.a.htm"
+    },
+    "22_6x6": {
+      "id": "22_6x6",
+      "problem": "6 6\n- 3b - - 3b -\n- - - - - 4b\n4w - - 2w 3b -\n- - - - - 3b\n5b - - - - -\n- - 2w - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/022.a.htm"
+    },
+    "23_8x8": {
+      "id": "23_8x8",
+      "problem": "8 8\n- 2w - - 3b 3b - -\n2w - - - 4b - - 2w\n- - - - - - - -\n- 3b - - - 2w - 5b\n4b 2w - - 4b - - -\n- - - 4w - - - -\n- - - - - - - -\n- 3b - - - - - 7b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/023.a.htm"
+    },
+    "24_8x8": {
+      "id": "24_8x8",
+      "problem": "8 8\n- - - - 3b 2w - -\n- - - 3b - - - -\n3b - 3b - - - - 3b\n4b - - 2w - - - 3b\n- 2w - - 3b 3b 2w -\n- 5b - - - - - -\n2w - - - - - 3b 2w\n- - - 3b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/024.a.htm"
+    },
+    "25_10x10": {
+      "id": "25_10x10",
+      "problem": "10 10\n6w - - 4b - - - - 2w -\n- - - - - 5b - 5b - -\n- - 6b - 4b - - - - 3b\n- 6b - 2w - - 3b - - -\n- - 5b - 4b - - - - -\n- - - - - 3b - - - 5b\n- - 5b - - - - - - 6b\n- - - - - - - - - -\n- - - - 2w - - - - -\n- 3b - - - - 4w - 5b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/025.a.htm"
+    },
+    "26_10x10": {
+      "id": "26_10x10",
+      "problem": "10 10\n- 3b - 3b 3b - - 3b - -\n- 2w 2w - - 3b - - 3b -\n- - - - - 2w - - - -\n4b - - 5b - - - 4b - 3b\n- 2w - 4b - - - - - -\n- - - - - 3b - - - -\n3b 3b - - - - 2w 5b - 4b\n- - - - - 4w - - - -\n- - 2w 2w - - 3b - - 3b\n- - - - - - - 3b - 6w",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/026.a.htm"
+    },
+    "27_12x12": {
+      "id": "27_12x12",
+      "problem": "12 12\n- - 4b - 4b - - - - 3b - -\n8b - - - - - 2w - 2w 3b - 2w\n- - - - - 3b - 2w 2w - 3b -\n7b - - - - - 3b - - 2w 2w -\n- - 3b - 2w - - 4w - 4w - -\n- - - - - 3b - 2w - - - -\n- 3b - - - - - - - - - 3b\n7b - - 7b - 5b - - - 4w - 3b\n- - - - - - - - - 4b - -\n- - 4b 3b - 2w - 2w - - - -\n- 3b - - 2w - - - - - - -\n- - 4w - - - 2w - 3b - 4w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/027.a.htm"
+    },
+    "28_12x12": {
+      "id": "28_12x12",
+      "problem": "12 12\n3b - 4w - 8b - - - - - 8b -\n- - - 2w - - - 2w - - - -\n- 2w - - - - - - 5b - - 3b\n- 3b 3b - 3b - - 3b - - - -\n2w - - 3b - - 2w - 5b - 3b 3b\n- - 4w - - - - 4b - - - -\n- 2w - 5b - - - - 8b - - -\n- - - - - 3b 3b - - - - 4b\n- 3b - - - - - - 2w - - -\n- - - 4b - 4b - 4b - - - 4w\n- - - - 2w - 2w - - - - -\n6b - - - - 6b - 5b 4b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/028.a.htm"
+    },
+    "29_14x14": {
+      "id": "29_14x14",
+      "problem": "14 14\n8b - - - - - - 2w - - 5b - 5b -\n- - - - 2w 2w - - - - - - - -\n5b - - 3b - - - 6b - - - - 3b 3b\n- - - 2w 2w - - - - - - - - -\n- 2w - 2w - - 2w - - 3b - 3b - -\n- - - - 4w - 4b - - - - - - 3b\n5b - - - - - 4b - - 6b 2w 4b - -\n- - - 3b 6b - - - - - - 3b 3b -\n- 3b - - - - - - 2w - - - - -\n- - - - 3b - 3b - - - 2w - - -\n- - 2w - - - - - 2w - - - 2w -\n3b - - - 3b - - 2w - - 3b - - 4w\n- - - - - 4w - 4w - - 3b - 3b -\n13b - 10b - - - - - 10b - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/029.a.htm"
+    },
+    "30_14x14": {
+      "id": "30_14x14",
+      "problem": "14 14\n- 2w - 5b - - 4b - - - - - - 3b\n- - - 3b - - - 3b 5b - 3b - - -\n6b - - - 3b 5b - - - - - - 2w -\n- - - - - 2w - - 3b - 3b - - -\n6b - 3b - - - 2w - - - - 3b - 3b\n- 3b - - - - 4w - - - 4b - - 5b\n- 2w - - 2w - - - - 4b - - - -\n- - - 3b 2w - 2w - - - - 2w 2w -\n- - 5b 2w - - - - - - 3b - - -\n- 3b - - 4b - 3b 5b - - 5b - - 3b\n- - - - - - - - - - - - 2w -\n3b - - - 4w - - - 2w 4b - - - -\n3b 5b - - - - - 3b - - 5b - - 2w\n- 2w - - - - 2w 3b - - - - 4b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/030.a.htm"
+    },
+    "31_8x8": {
+      "id": "31_8x8",
+      "problem": "8 8\n- 4b - 4b - - - -\n2w 2w - - 4b - - -\n- - - - - 4w - -\n- 2w - - - 2w 5b -\n- - - - - 7b - -\n- - - - 2w - - -\n- - - 2w - - 4b -\n7b - - - 5b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/031.a.htm"
+    },
+    "32_8x8": {
+      "id": "32_8x8",
+      "problem": "8 8\n- - 4w - - - 5b -\n3b - - - 4b - - -\n- - - 3b - - - -\n5b - - - 3b 2w - -\n- - 3b - - - - -\n- - - - 3b - - -\n- - - 3b - - - 4b\n4b - - - - 4w 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/032.a.htm"
+    },
+    "33_10x10": {
+      "id": "33_10x10",
+      "problem": "10 10\n- 4b - 3b - - - 2w 3b -\n5b - - - - 2w - - - 2w\n- - - - 3b - - - 3b -\n- - 2w - - - - 4b - -\n4b - - - - 5b - 4w - -\n- - - 5b - - - - - 2w\n- - - - 7b - 4b - - -\n2w 2w - - - - - - 2w -\n- - - - 2w - - - - -\n5b - - 4b - - - - - 3b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/033.a.htm"
+    },
+    "34_10x10": {
+      "id": "34_10x10",
+      "problem": "10 10\n- 2w 3b 2w - - 3b - - 3b\n- - 2w 2w - - - 2w - -\n4w - - - - - 4w - - -\n- - 4b - - 5b - 2w - -\n- 2w - - - - - 4w - -\n3b - 3b 3b - - - 3b - -\n- 2w - - - 2w - - - -\n3b - - 4b 4b 5b - - - 5b\n- - - - 3b - - - - -\n- - 3b - - - - - 5b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/034.a.htm"
+    },
+    "35_12x12": {
+      "id": "35_12x12",
+      "problem": "12 12\n- 2w 6b 5b - 3b - - 4b 3b - -\n3b - - 3b - - - 3b - - - 7b\n3b - 4w - - - 2w - 2w - - -\n- - - 4b 2w - - 2w - 3b - -\n- 2w - - - - 3b - - 3b - 7b\n2w - - - 7b 5b 5b - 5b - - -\n- - - 2w 2w - - - 3b - - -\n- 3b - 2w 3b 5b 4b 2w - - - 8b\n- - 3b - - 4b 3b 6b - - - -\n4w - - - - - - - - - - 3b\n- - - 2w - - - - - - - 3b\n5b - 3b 4b - 5b - 2w 2w 3b 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/035.a.htm"
+    },
+    "36_12x12": {
+      "id": "36_12x12",
+      "problem": "12 12\n3b - 3b - - - 6w - - 2w - -\n- 3b - - - - - - - 2w 2w 2w\n- - 5b - - - - - - - - -\n- 3b 3b - 3b - 5b 3b 3b - 3b -\n4b - 3b - - 3b - - 4b - - 4b\n- - 5b - 3b - - 4w - - - -\n- - 4w 2w - - 2w 4w - - 2w -\n5b - - - 3b 2w - - - - - -\n- 4b 3b - - - 2w - - - - 4b\n- 4w - 2w 3b 5b - 4w - 6b - 3b\n- 4b - - - - - - 2w 2w - -\n- - 2w 6b 5b - 5b - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/036.a.htm"
+    },
+    "37_12x12": {
+      "id": "37_12x12",
+      "problem": "12 12\n- - 3b - 3b - 2w - - 3b - 5b\n- 3b - - - - - - 2w - - -\n- - - 3b - - - - - 2w - -\n3b - 2w - - - - 3b - 2w - 3b\n- - 3b - 3b - 3b 2w - - 2w -\n3b - - - - 2w - - - - - -\n- 2w - 3b 2w - - - - - 3b -\n- - 2w - - - - 4w - - - 4b\n2w - - - - 5b - - - 4b - -\n4w - - - - - - - - - - -\n- - - 2w - 3b - 2w - - - 4b\n- - 2w - 3b - - 3b - 3b - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/037.a.htm"
+    },
+    "38_14x14": {
+      "id": "38_14x14",
+      "problem": "14 14\n- - 5b - - 6b - - 3b - 3b - 2w 4b\n- - - - - - - 3b 2w - - - - -\n3b - 3b - - - 3b - 2w - 3b 5b - 3b\n2w 3b - 3b - 5b - - - - - - - 4b\n- - - - 4w - 5b - - 3b - - - -\n3b - - - - - - 4w - - 2w - 4w -\n2w - 3b - - 6b 3b - - - - 5b 4b -\n3b - - 2w - 5b - - 3b - - - - 2w\n- 2w 2w 2w - 5b - - - 6w - 3b - -\n5b - 2w - - - - 2w 4b - - 4w - -\n- - - 2w - - - 2w - 3b - - - 4b\n- - 4b - - 8b - - - 5b 2w - - 4w\n5b - - - 3b - - - - - - 2w 3b -\n- 2w 3b - 3b 2w - - 3b - 4b - 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/038.a.htm"
+    },
+    "39_14x14": {
+      "id": "39_14x14",
+      "problem": "14 14\n- - - - - 7b - - 5b - - 5b - -\n- - - - - - - 2w - - - - 2w 4b\n- - - - 2w 4w 3b - - - - - 3b -\n- 3b - - - - 3b - - - 3b 4b - -\n- 2w - - - 3b - - - - - - 2w -\n7b - 3b - - - - - 2w - 7b - - -\n- - - 4w - 2w - - - - - 2w 2w -\n- - - - - - 3b - 2w 3b - - - -\n- - - - - - - 3b - - 6w - 2w 2w\n- - 3b - - 3b - - - 4b - - - -\n- 5b - - - 3b - - - - - - - 3b\n- - 5b - 4w 6b - - - 5b - 2w - 2w\n- 3b - 3b - - - - 5b - - - - -\n4b - - - 3b - 4b - - - - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/039.a.htm"
+    },
+    "40_17x17": {
+      "id": "40_17x17",
+      "problem": "17 17\n- - 7b 7b - - - 9b 3b - 3b - 3b - - - 7b\n- - 3b - - - - 2w - 2w - 2w - - 2w 2w -\n- - 3b - - 3b 5b - - 3b - - 3b 3b - 3b -\n2w - - - 3b - 2w 3b - 7b - - - 5b - - -\n- 3b - - - 2w - 2w 3b - - - 3b 2w - - 6b\n- - 3b - - - 3b 5b - - - 2w 3b - - - -\n- 3b - 2w - - - - 4b - - - - - 2w 2w 7b\n- 2w - 5b 3b - - - - 3b - - 2w - - 3b -\n- 2w - - - - 4b 3b - - - 4b 3b - 4b 2w 3b\n8b 2w 3b 3b - - - 2w - - - - - 4w 2w 2w 2w\n8b - 5b - - 3b - - - - 4b 2w - - - - -\n- - - - 4b - - - - 4b 3b 3b - - 4b - -\n8w - 4w - 4w 2w 3b 2w - - - - - - 3b 3b 5b\n- - - - - 3b - - - - - - - - 3b - 4b\n- - 6b - 4w - - 2w 3b - - 5b - 5b 8b - 4w\n- - - - - - - - - - - - 3b - - - -\n15b - 7b - 7b - 7b - 6b - 4w - - - 3b 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/040.a.htm"
+    },
+    "41_8x8": {
+      "id": "41_8x8",
+      "problem": "8 8\n5b - - 5b 4b - 3b -\n- - - - 2w - - -\n- - - - - 3b - 4w\n5b - 3b - - - - -\n- 4b - - - 3b - -\n- - - 2w - - - 4w\n- - - - - - - -\n- - 4w - 5b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/041.a.htm"
+    },
+    "42_8x8": {
+      "id": "42_8x8",
+      "problem": "8 8\n- 2w - - 3b 2w 2w -\n3b - - - - - - -\n- - 4w 2w - - - -\n3b - 5b 3b - - 3b 4b\n- - - 2w - - - -\n- - - - - 2w - -\n- - - 2w - - - 4b\n4w - 3b - - - 3b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/042.a.htm"
+    },
+    "43_10x10": {
+      "id": "43_10x10",
+      "problem": "10 10\n- - - 3b - - 5b - - -\n- 3b - - - - - - - -\n5b - - 3b - - - - 3b 2w\n- - - - - - - - - -\n- - 3b - - - - - - -\n- 3b - - 2w 3b - 4w - 6b\n- - 2w 3b - 3b - - - -\n- 3b - 2w - - - 2w - -\n- - - - 3b - 3b - - -\n11b - 9b - - - - - 9b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/043.a.htm"
+    },
+    "44_10x10": {
+      "id": "44_10x10",
+      "problem": "10 10\n- - 2w - - - - - - -\n5b - - - 3b - 2w 3b - 2w\n- - 4b - - - - - - 3b\n4w - - - - 2w - 5b 2w 2w\n- - - - 2w 2w 3b - 3b -\n5b 3b - - 3b - - - - -\n- 2w - 3b - - - 5b - -\n- 2w - 2w - - - - - 3b\n2w 2w - - 3b - 3b - 2w -\n- 7b - - - 6b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/044.a.htm"
+    },
+    "45_12x12": {
+      "id": "45_12x12",
+      "problem": "12 12\n- - 2w 3b - - - - - - 3b -\n- 2w - 3b 2w - 2w 2w - - 2w -\n- - - 4b - - 5b 3b - - - 2w\n7b - - - - - - - - - - -\n7b - 6b - - - 3b - - - 3b 2w\n- - - - - 2w 2w 2w 3b - - -\n- - - - 3b - - - 3b 3b 4b -\n7b - 6b - 4b - 7b - - - - -\n8b - - 3b - 4b - - 2w - - 2w\n- 2w - - - - 4w - 3b 3b 3b 3b\n- 3b 3b 2w - - 4b - 2w 2w - -\n- - - - 3b - - - 3b 3b - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/045.a.htm"
+    },
+    "46_12x12": {
+      "id": "46_12x12",
+      "problem": "12 12\n- 4b - 4b - 4b - 3b - - - -\n3b - - - 3b 2w - - - 3b - -\n- - - 4b - - - 2w 4w - 3b -\n5b - 3b - 6w - 3b - - - - -\n- 2w - - - 2w 3b - 3b - - 6b\n2w - - 4b - 2w - - - 2w - 5b\n3b - 3b - - - 3b - 4b - 3b 5b\n- - - - 3b - 2w 3b 3b - - -\n- 4w - 2w 2w - - 3b - - - -\n- 4b - - - - - 2w - 3b - 7b\n- 6b - - 2w 3b - - - - - 3b\n- - - 2w - - 6b - 5b 5b 5b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/046.a.htm"
+    },
+    "47_12x12": {
+      "id": "47_12x12",
+      "problem": "12 12\n- 3b - 4b - - - 6b - - 6b -\n- - - - - 3b 2w - - - - -\n- 2w - - 3b - - - - - - -\n- 3b 3b - - - - 4w - 3b - -\n- - - - 3b - 6w - 3b - 4b -\n- - 3b - - 5b - - - - - 3b\n- 2w 3b - - - 3b - - - - -\n- 4b 3b - - - - 2w - 4w 2w -\n5b - - 2w - 5b - - - 3b 2w -\n- - - - - - 4b - - - - 3b\n- - - - 2w - - 3b - - - -\n10w - - - 5b - - - - - 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/047.a.htm"
+    },
+    "48_14x14": {
+      "id": "48_14x14",
+      "problem": "14 14\n- - - 8b - - - - 7b - 9b 3b - -\n5b - - - - 3b - - - - - - 2w -\n2w - 4b 3b - 4b - 2w - - - - - -\n- - - - - - - 9b - 4w 4b 6b - -\n- 6b - 6w 6b - 8b - 5b - - 2w - 4b\n- - - - - - - - - - 2w - - -\n- - 2w 4b 3b - - 5b 3b - - - 2w 2w\n- - 2w 3b 2w 2w - - 8b 5b - - - -\n5b - - 3b - 4b - - 6b 5b - 5b - -\n- 3b 3b 4b - - - - - - - - - -\n- - 2w - - - 2w - - - 2w 5b - 5b\n3b - 3b 2w 3b - 3b 2w - 2w - - - -\n- 3b - - 2w 2w - 3b - - - - - -\n4b - - - - - - - - - - - 2w 7b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/048.a.htm"
+    },
+    "49_14x14": {
+      "id": "49_14x14",
+      "problem": "14 14\n- 3b - 4b - - - 3b 4b 7b - - - -\n2w - - - 2w - - 3b - - - - - 7b\n- - - - - 2w - - - - - - - -\n- - 5b - - 3b - 3b - - - - 4b 7b\n- 4w - - 5b - - - - - - - 4b 7b\n- - - - - - - 2w - - - 3b - -\n3b - - - - - - 4w - - - - - -\n- - 6b - 3b - 3b - - - 4w - - 9b\n3b 3b - - 3b - - - - - - 3b - -\n- 2w - 3b - - 2w - - - 3b 2w 2w -\n- - - - 3b 3b - - - - - - - -\n3b - 3b - 3b - 3b 3b - - - - - 3b\n2w - - - - - - - - 2w - - - 2w\n- 3b - - - - 5b - - - 6w - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/049.a.htm"
+    },
+    "50_17x17": {
+      "id": "50_17x17",
+      "problem": "17 17\n6w - 3b 5b - 2w - - - - - - - 2w - - -\n- - - 2w - - 3b 3b - - 2w - 2w - - 2w 3b\n3b - - - - - - 2w 4w - 2w - - 2w - - 3b\n- 3b 2w - 4b - 2w - - - - 3b - - 2w - 4b\n- - - - - - - 2w - 4b - - - 2w - - -\n- - - - - 3b - 3b - - 3b - 3b - - - -\n2w 2w - 3b 3b - 3b - - - 5b - 3b 2w - 3b 3b\n- - - - 5b 5b - 6b - - 2w - - - - - 2w\n- 3b 8w - - 4b 5b 2w - - 2w 4b - - 4b - -\n- - - - - 2w - - - - - 3b 3b 4b - - -\n3b - - - 2w 5b - - 3b - 2w 2w - - - - -\n2w - - - - - - - 3b 4b 3b - - - - - 3b\n- 2w - - - - - 3b - - 2w 3b - 4w - - 3b\n- - - - - 4b 2w - 3b 3b - - 2w - 4b 3b -\n2w 2w 2w 3b 3b - - 2w - - - 3b 2w - 5b - -\n- - 2w 2w - - 4b - 3b - - - 2w 2w - - 2w\n- 3b - 4b - - - - - - - 3b 2w - - 3b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/050.a.htm"
+    },
+    "51_8x8": {
+      "id": "51_8x8",
+      "problem": "8 8\n- 3b - - 4w - 5b -\n- - - - - - - -\n4w - - - - 2w - -\n- 3b - - 2w - - -\n- - - - - 4b - 2w\n- 3b - - 3b - - -\n2w - - - - - - -\n- - 5b - 5b - - 5b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/051.a.htm"
+    },
+    "52_8x8": {
+      "id": "52_8x8",
+      "problem": "8 8\n7b - - - - - - 4b\n- - - - - - - -\n- 2w - - - - - -\n- - 2w - - - 3b -\n- - - - 2w - - -\n- - 3b 5b - - - 3b\n- - - - - 4w - -\n6b - - - 4b - 4b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/052.a.htm"
+    },
+    "53_10x10": {
+      "id": "53_10x10",
+      "problem": "10 10\n- 3b - - - - 3b 3b - -\n- - - 3b - 2w - - 4b -\n3b - - - - - - - 3b -\n- 2w - - 2w 4w - 3b - -\n3b - 4w - - - - - - 3b\n- - - 3b - - - - - -\n- 2w - - - - - 4b - -\n- - 4w - - - 3b - - 4w\n3b - - - - - - - - -\n- 5b - - 4b - - 3b - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/053.a.htm"
+    },
+    "54_10x10": {
+      "id": "54_10x10",
+      "problem": "10 10\n- 3b - - 6b - - - - -\n9b - - - - - 4w - - 4b\n- - - - - - 2w - - -\n- - 3b 3b - - 3b - - -\n- - - - 4w - - 4w - 8w\n- - 2w 4w - - 4b - 4b -\n9b - - - 7b 4w 2w - - 4b\n- - - - - - 3b - - -\n- - 4b - - - - - - -\n11b - - - - - - 3b - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/054.a.htm"
+    },
+    "55_12x12": {
+      "id": "55_12x12",
+      "problem": "12 12\n- 4b - 4b 5b - 2w - - - - -\n- - - - - - 3b - 3b - 2w 6b\n3b - - 4b - - - - - 2w 3b 6b\n- 2w - - - - - 3b - - - 6w\n- 3b - - 3b - - - - 3b 5b -\n6b - 3b 5b - 2w - 2w - - - 6b\n6b - - 3b - - - 2w - - 3b -\n- - 3b - - - 4w - - 3b 2w -\n6b - - - 4b - - - - - 2w 2w\n- - - - - - - 3b 2w - 2w -\n- - - - 4b 2w 2w - 3b 3b - 2w\n- 4b - - 7b - 2w 3b - - - 3b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/055.a.htm"
+    },
+    "56_12x12": {
+      "id": "56_12x12",
+      "problem": "12 12\n4w 2w 3b - - - - 3b - - - 4w\n- - - 3b 3b 4b - 3b - 3b - -\n- - - - 5b 3b - - - - - -\n3b - - - - 2w - - - 2w - -\n- - - - 3b - - 6b 3b - 3b -\n- 3b 2w - - 2w - - 3b - - -\n- - 4w - 4w - 4b - 2w 2w 2w -\n3b - - - - - 5b 5b - - - -\n- - 2w - - 2w 2w 5b 2w 2w 2w -\n- - - 2w - 2w - - - 2w 3b -\n- 2w 3b - 2w - 2w - 2w - - -\n5b - - - 5b 3b - - 4b - - 4b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/056.a.htm"
+    },
+    "57_12x12": {
+      "id": "57_12x12",
+      "problem": "12 12\n- - - 5b - 7b 3b - - 3b - -\n- - - - 2w - 2w - - - - 2w\n- - - - 2w - 2w - - - - 2w\n7b - - - 3b - - 3b - - - 2w\n- - 5b - - - - - 4b - - -\n- - - - - 3b - - - 3b - -\n- - - - - - - - 2w - 2w -\n- 5b - - 2w - 4w - 5b - - -\n- - - - - - - - - - - 4b\n- - 5b - - 4b - - - 3b - -\n- 4b - - 3b - - - 3b - 3b 3b\n- - 3b - - - - 2w - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/057.a.htm"
+    },
+    "58_14x14": {
+      "id": "58_14x14",
+      "problem": "14 14\n- - 3b - - 3b - - - - - - - -\n2w - - - 2w 3b - 2w 2w - 4b - - -\n- 2w - - - - - 2w 4w - 2w - - 2w\n- 3b - 4b - 4b - 5b - 5b 2w - - -\n- - 2w - - 3b - - 3b - - - 2w 4b\n3b 3b - 5b - 2w - - - 3b - - - -\n- 2w - - 2w 3b - 4b - - - - - 3b\n- - - - 4b 3b 3b - 3b - 5b - 3b -\n2w - - 4b 6w - - - - - - 3b - 3b\n- 3b 3b - - - - 2w 4w 2w - - - 2w\n- 2w 2w - 3b - - 4w - - 2w 2w - -\n- - - - - - - - 4w - - - 2w -\n2w - 3b - 3b - - 2w - - 2w - 3b -\n4w - - - 4b - - - - 2w - 3b - 4b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/058.a.htm"
+    },
+    "59_14x14": {
+      "id": "59_14x14",
+      "problem": "14 14\n4w - 3b - - - 4w - - - - - - 5b\n- - - - - - - - - - 2w - - -\n3b 3b - 9b - - - 3b 2w - 4b - - -\n- 2w - - - 2w - - 3b - - - - -\n2w - - - - - 2w 3b - 5b - - - 7b\n3b - - - 4w - - - - 2w - - - -\n- 2w - - - - - - - - 3b - - -\n- - - 6b - - 4b - 2w - - - - -\n- - 3b - - 3b - - - 2w - 3b 2w 3b\n- 4w - - - 2w - 3b 2w 3b - 3b - -\n- - - 3b - 4b - - - - 2w - - -\n- - - - - 3b - 3b - - 2w - 3b 2w\n- - - - - - - - - 2w 3b - - -\n6b - - 4b - 5b - - 4b - - - 3b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/059.a.htm"
+    },
+    "60_17x17": {
+      "id": "60_17x17",
+      "problem": "17 17\n3b - 2w - 3b - - - - 2w - - - 4b 3b 3b -\n- - 2w - 2w - 3b - - - 4b 3b 3b 4b - - -\n3b 2w - - - 3b - 4b - 4b - 3b - 3b 4b 2w -\n- - 2w 3b - - - 3b - - - - 2w - 3b 3b -\n4b - - - 2w - - - - 4w - 3b 3b 3b - - 3b\n- 3b - 3b - - 5b - - - 3b - - 2w - - -\n- - - - - - 5b - - 3b 2w - - - - 2w 4b\n5b - - 2w 6b 3b - - - - 3b - 2w - 3b - 4w\n6b 2w 2w 3b 5b - - 4w - 5b - - 2w - 2w - 2w\n- 2w - - - - - 3b 4b - - 2w - 2w - 3b -\n- - - 3b 5b - - - 3b - 2w 3b 2w - 3b - -\n5b - - - - - - 2w 2w - - - 3b - 2w - -\n- - 3b 2w 7b - - - 2w - 2w - - - 3b - -\n- - - - - 2w 2w - - 3b - 4b - - 7b - 4b\n- - 5b - 3b - 2w - - 2w 4b - - - 3b - -\n2w 3b - 2w - - - - - - - 3b 3b 4b - - -\n- - - 2w - - - 4b 3b 3b - - - - 5b - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/060.a.htm"
+    },
+    "61_8x8": {
+      "id": "61_8x8",
+      "problem": "8 8\n- - 3b 4b - - 4b -\n3b - - - 3b - - 2w\n- - 3b - - 3b - -\n- - - - 3b - - 3b\n3b - 2w - - - 2w -\n- - - 3b - - - -\n3b - - - - - - -\n- - 2w - 5b - 4w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/061.a.htm"
+    },
+    "62_8x8": {
+      "id": "62_8x8",
+      "problem": "8 8\n- - 6b - - 4w - 7b\n2w - - - - - - -\n3b - - 4w - - - -\n- - - - - 3b 5b -\n- - - - - - - -\n3b - 3b 3b - - 4w -\n- - - - - - - -\n- 6b - - 6b - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/062.a.htm"
+    },
+    "63_8x8": {
+      "id": "63_8x8",
+      "problem": "8 8\n- - 2w - 7b - - 5b\n- 3b - 4b - - - -\n- 3b - - - - - -\n- - - - - - - 4b\n- - - 5b - 3b - -\n2w - 3b - - 3b - 3b\n- - - - - - 2w -\n3b - - 3b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/063.a.htm"
+    },
+    "64_8x8": {
+      "id": "64_8x8",
+      "problem": "8 8\n4b - - - - - 4b -\n- - 2w - - - - -\n- - - - 6w - 2w 4w\n4b - 2w - 3b - - 4w\n- - - 2w - - - -\n3b - - - - - 2w -\n- - - - - 3b - -\n8b - - 7b - - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/064.a.htm"
+    },
+    "65_10x10": {
+      "id": "65_10x10",
+      "problem": "10 10\n- 6b - - - - - - 2w -\n- - - - - - 3b 2w - -\n8b - 3b - 3b - - - - 4w\n- - - - 4b - - - - -\n8b - 3b - - 2w - 2w - 5b\n- - - 3b - - - - 4b -\n- - - - - - - 3b - -\n- 4w - - - - - - - -\n- - - 2w - - - - - -\n- 2w - - - 5b 5b - - 5b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/065.a.htm"
+    },
+    "66_10x10": {
+      "id": "66_10x10",
+      "problem": "10 10\n- 3b - 5b - 3b - 3b - -\n- - - - - - 2w - - 2w\n- - - - - - - - 2w -\n3b - - 4b - - 3b - - -\n6w - 3b - 2w - 4b - 3b -\n- - - - - - 5b - - 2w\n- - 4w - - - - 3b - -\n- - - - - - - - 2w -\n3b 2w - - 3b - - 3b - -\n- 2w - - - - - - - 4w",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/066.a.htm"
+    },
+    "67_10x10": {
+      "id": "67_10x10",
+      "problem": "10 10\n- - - 3b - 3b - - - 3b\n- 2w - 3b - - - - 2w -\n- - - - 3b 3b 2w - - 3b\n- 2w - - - - - - 2w -\n- - 3b - 2w - - - - 6b\n- 3b 3b - - - - - - -\n3b - - 2w - - - 3b - -\n- - - 3b - 4b 2w - - 5b\n- - - - - - 2w - - -\n- 4b - - 5b - 2w - - -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/067.a.htm"
+    },
+    "68_10x10": {
+      "id": "68_10x10",
+      "problem": "10 10\n6b - - 2w - - 5b - 3b 7b\n4b - - 2w - - - - - -\n- - - - 3b - - - - -\n- 3b - - - - 2w - - -\n- - - - - - - - - 8w\n- - - 4w - - 3b - 2w -\n3b - - - - 5b - - - 4b\n- - - - 3b - - - - -\n- - 4w - - 2w - - - -\n- - 4b - - - - - - 7b",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/068.a.htm"
+    },
+    "69_12x12": {
+      "id": "69_12x12",
+      "problem": "12 12\n4b 2w 2w 2w 3b - - 5b - 3b 2w -\n- - - - - - - - 2w 2w - -\n3b - 4b - 3b - - - - 6b - 3b\n- 5b 3b - 2w 2w - 4b - - 3b -\n- - - - - - - 5b - - 2w -\n- 4w - 3b - - 3b 3b - 5b - -\n- - - - 4w - 3b - - - - -\n- - 2w 4w - - - - - 6b - 5b\n- - 3b - - 2w - - - 2w - -\n- - - - 4w - 5b - 3b - - 5b\n3b - - 2w 2w - - - - - - -\n5b 2w 3b - - 4b - 3b 5b - 2w -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/069.a.htm"
+    },
+    "70_12x12": {
+      "id": "70_12x12",
+      "problem": "12 12\n4b - 3b 5b - 3b 2w 3b - - - -\n- - - - - 2w - - 3b - 4b 5b\n- 4b - 3b - - 6w 3b - - - -\n- - 2w - - - - - - 3b - 5b\n- 4b 4w 2w - 2w - - - 3b - 5b\n- - - 2w - - 4b - - 4b - -\n- - 2w 2w - 3b 2w - - - 2w -\n3b - - 2w 3b - - - 3b 3b - 5b\n4b - - - - 4w - - - 2w - -\n- 2w 4w - - - - 3b - - - -\n- - - - - - 2w 3b - - - 4b\n12b - 11b - 11b - - - - - 11b -",
+      "source": "https://www.janko.at/Raetsel/Balance-Loop/070.a.htm"
+    }
+  }
+}

@@ -53,6 +53,7 @@ from YajilinSolver import YajilinSolver
 from TerraXSolver import TerraXSolver
 from DetourSolver import DetourSolver
 from MasyuSolver import MasyuSolver
+from BalanceLoopSolver import BalanceLoopSolver
 
 from typing import Dict, Any
 
@@ -116,7 +117,8 @@ class SolverFactory:
         "Yajilin": YajilinSolver,
         "TerraX": TerraXSolver,
         "Detour": DetourSolver,
-        "Masyu": MasyuSolver
+        "Masyu": MasyuSolver,
+        "BalanceLoop": BalanceLoopSolver
 
     }
     

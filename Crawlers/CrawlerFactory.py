@@ -64,6 +64,12 @@ from ShirokuroCrawler import ShirokuroCrawler
 from RegionalYajilinCrawler import RegionalYajilinCrawler
 from ConsecutiveSudokuCrawler import ConsecutiveSudokuCrawler
 from MarginSudokuCrawler import MarginSudokuCrawler
+from DotchiLoopCrawler import DotchiLoopCrawler
+from BalanceLoopCrawler import BalanceLoopCrawler
+from NumberLinkCrawler import NumberLinkCrawler
+from BricksCrawler import BricksCrawler
+from SkyscraperSudokuCrawler import SkyscraperSudokuCrawler
+from KuroshiroCrawler import KuroshiroCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -135,7 +141,14 @@ class CrawlerFactory:
         "Shirokuro": ShirokuroCrawler,
         "RegionalYajilin": RegionalYajilinCrawler,
         "ConsecutiveSudoku": ConsecutiveSudokuCrawler,
-        "MarginSudoku": MarginSudokuCrawler
+        "MarginSudoku": MarginSudokuCrawler,
+        "DotchiLoop": DotchiLoopCrawler,
+        "BalanceLoop": BalanceLoopCrawler,
+        "NumberLink": NumberLinkCrawler,
+        "Bricks": BricksCrawler,
+        "SkyscraperSudoku": SkyscraperSudokuCrawler,
+        "Kuroshiro": KuroshiroCrawler
+        
     }
     
     @classmethod

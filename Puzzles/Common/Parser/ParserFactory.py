@@ -53,6 +53,7 @@ from Common.Parser.PuzzleParsers.YajilinParser import YajilinParser
 from Common.Parser.PuzzleParsers.TerraXParser import TerraXParser
 from Common.Parser.PuzzleParsers.DetourParser import DetourParser
 from Common.Parser.PuzzleParsers.MasyuParser import MasyuParser
+from Common.Parser.PuzzleParsers.BalanceLoopParser import BalanceLoopParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -113,6 +114,7 @@ class ParserFactory:
         "TerraX": TerraXParser,
         "Detour": DetourParser,
         "Masyu": MasyuParser,
+        "BalanceLoop": BalanceLoopParser
         
     }
     

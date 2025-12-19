@@ -41,6 +41,7 @@ from Common.Verifier.PuzzleVerifiers.YajilinVerifier import YajilinVerifier
 from Common.Verifier.PuzzleVerifiers.TerraXVerifier import TerraXVerifier
 from Common.Verifier.PuzzleVerifiers.DetourVerifier import DetourVerifier
 from Common.Verifier.PuzzleVerifiers.MasyuVerifier import MasyuVerifier
+from Common.Verifier.PuzzleVerifiers.BalanceLoopVerifier import BalanceLoopVerifier
 
 class VerifierFactory:
     
@@ -100,7 +101,8 @@ class VerifierFactory:
         "Yajilin": YajilinVerifier,
         "TerraX": TerraXVerifier,
         "Detour": DetourVerifier,
-        "Masyu": MasyuVerifier
+        "Masyu": MasyuVerifier,
+        "BalanceLoop": BalanceLoopVerifier
 
         
     }

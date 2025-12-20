@@ -7,55 +7,88 @@ def ortools_and_constr(model: cp.CpModel, target: cp.IntVar, vars: list[cp.IntVa
     model.AddBoolAnd(vars).OnlyEnforceIf(target)  # target => (c1 ∧ ... ∧ cn)
     model.AddBoolOr([target] + [c.Not() for c in vars])  # target ∨ ¬c1 ∨ ... ∨ ¬cn equivalent to (¬target => ¬(c1 ∧ ... ∧ cn))
 
-# def ortools_force_connected_component(model: cp.CpModel, variables: dict[Any, cp.IntVar], is_neighbor: Callable[[Any, Any], bool]):
-#     vars = variables
-#     num_vars = len(vars)
-#     if num_vars <= 2:
-#         return {}
-#     is_root: dict[Position, cp.IntVar] = dict() # = V, defines the unique
-#     prefix_zero: dict[Position, cp.IntVar] = dict() # =V, used for picking the unique root
-#     cell_height: dict[Position, cp.IntVar] = dict() # =V, record height
-#     max_neighbor_height: dict[Position, cp.IntVar] = dict() # =V, the height of the tallest neighbor
+def add_connected_subgraph_constraint(
+    model: cp.CpModel, 
+    active_nodes: Dict[Hashable, cp.IntVar], 
+    adjacency_map: Dict[Hashable, List[Hashable]],
+    prefix: str = 'graph'
+):
+    """
+    Enforce that the set of nodes where active_nodes[n] is True forms a single 
+    connected component (a Tree).
     
-#     vars_keys = list(vars.keys()) # (Position, Position, edge_weight)
-#     for k in vars_keys:
-#         is_root[k] = model.NewBoolVar(f"is_root[{k}]")
-#         cell_height[k] = model.NewIntVar(0, num_vars, f"cell_height[{k}]")
-#         max_neighbor_height[k] = model.NewIntVar(0, num_vars, f"max_neighbor_height[{k}]")
+    Assumption: The subgraph contains at least one active node (otherwise Unsat).
     
-#     prev_k = None
-#     for k in vars_keys:
-#         prefix_zero[k] = model.NewBoolVar(f"prefix_zero[{k}]")
-#         if prev_k is None:
-#             model.Add(prefix_zero[k] == 1)
-#         else:
-#             ortools_and_constr(model, prefix_zero[k], [prefix_zero[prev_k], vars[prev_k].Not()])
-#         prev_k = k 
+    Args:
+        model: The OR-Tools CpModel.
+        active_nodes: Mapping from node identifier (Token/Position) to its BoolVar.
+        adjacency_map: Pre-computed neighbor list for each node. 
+                       Format: {node: [neighbor_node_1, neighbor_node_2, ...]}
+        prefix: Prefix of string to avoid duplicated variable names.
+    """
+    nodes = list(active_nodes.keys())
+    num_nodes = len(nodes)
     
-#     for k in vars_keys:
-#         ortools_and_constr(model, is_root[k], [vars[k], prefix_zero[k]])
+    # 1. Variables
+    # rank[u]: Depth/Order in the tree. 0 if root or inactive.
+    rank = {n: model.NewIntVar(0, num_nodes, f"rank_{n}_{prefix}") for n in nodes}
     
-#     model.Add(sum(is_root.values()) <= 1)
+    # is_root[u]: True if node u is the root of the tree.
+    is_root = {n: model.NewBoolVar(f"is_root_{n}_{prefix}") for n in nodes}
     
-#     for idx, edge in enumerate(vars_keys):
-#         neighbors = [cell_height[next_edge] for idx2, next_edge in enumerate(vars_keys) if idx != idx2 and is_neighbor(edge, next_edge)]
-#         model.AddMaxEquality(max_neighbor_height[edge], neighbors)
-        
-#         model.Add(cell_height[edge] == max_neighbor_height[edge] - 1).OnlyEnforceIf([vars[edge], is_root[edge].Not()])
-#         model.Add(cell_height[edge] == num_vars).OnlyEnforceIf(is_root[edge])
-#         model.Add(cell_height[edge] == 0).OnlyEnforceIf(is_root[edge].Not())
-        
-#     for edge in vars_keys:
-#         model.Add(cell_height[edge] > 0).OnlyEnforceIf(vars[edge])
-        
-#         all_new_vars = {
-#             "is_root": is_root,
-#             "prefix_zero": prefix_zero,
-#             "cell_height": cell_height,
-#             "max_neighbor_height": max_neighbor_height,
-#         }
-#     return all_new_vars
+    # 2. Global Constraints
+    # - There must be exactly one structure root.
+    # - The root must be an active node.
+    model.Add(sum(is_root.values()) == 1)
+    for n in nodes:
+        model.AddImplication(is_root[n], active_nodes[n])
 
+    # 3. Node-level Constraints
+    for curr in nodes:
+        # Rules for Inactive Nodes:
+        # If inactive -> Rank is 0, Cannot be root.
+        model.Add(rank[curr] == 0).OnlyEnforceIf(active_nodes[curr].Not())
+        model.Add(is_root[curr] == 0).OnlyEnforceIf(active_nodes[curr].Not())
+
+        # Rules for Root:
+        # If root -> Rank is 0 (we set root at depth 0, children at 1, 2...)
+        model.Add(rank[curr] == 0).OnlyEnforceIf(is_root[curr])
+
+        # Rules for Active Non-Root Nodes:
+        # If active AND not root -> Rank > 0
+        model.Add(rank[curr] >= 1).OnlyEnforceIf([active_nodes[curr], is_root[curr].Not()])
+
+        # 4. Topology / Parenting Logic
+        neighbors = adjacency_map.get(curr, [])
+        parent_vars = []
+        
+        for neighbor in neighbors:
+            if neighbor not in active_nodes:
+                continue
+                
+            # BoolVar: "neighbor is the parent of curr"
+            # Note: We don't need to store this in a dict unless we want to visualize the tree edges
+            p_var = model.NewBoolVar(f"parent_{curr}_is_{neighbor}_{prefix}")
+            parent_vars.append(p_var)
+            
+            # If neighbor is parent:
+            # 1. Neighbor must be active (implied by tree logic, but explicit is safer)
+            model.AddImplication(p_var, active_nodes[neighbor])
+            
+            # 2. Strict Rank Ordering: rank[curr] = rank[parent] + 1
+            # This prevents cycles.
+            model.Add(rank[curr] == rank[neighbor] + 1).OnlyEnforceIf(p_var)
+
+        # 5. Parent Count Constraints
+        # - If Active Non-Root: MUST have exactly 1 parent.
+        model.Add(sum(parent_vars) == 1).OnlyEnforceIf([active_nodes[curr], is_root[curr].Not()])
+        
+        # - If Root OR Inactive: MUST have 0 parents.
+        #   (Writing as two separate implications for clarity)
+        model.Add(sum(parent_vars) == 0).OnlyEnforceIf(is_root[curr])
+        model.Add(sum(parent_vars) == 0).OnlyEnforceIf(active_nodes[curr].Not())
+
+    return rank, is_root # Optional: return vars if debugging is needed
 
 
 def add_circuit_constraint_from_undirected(

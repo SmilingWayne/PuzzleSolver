@@ -166,6 +166,7 @@ class Grid(Generic[T]):
                 j += y_
                 
         return line_of_sight - {None}
+
     
     def is_bijective(self, other):
         if not issubclass(type(other), Grid):

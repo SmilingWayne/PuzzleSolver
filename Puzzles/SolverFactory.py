@@ -54,6 +54,8 @@ from TerraXSolver import TerraXSolver
 from DetourSolver import DetourSolver
 from MasyuSolver import MasyuSolver
 from BalanceLoopSolver import BalanceLoopSolver
+from PatchworkSolver import PatchworkSolver
+from KuroshutoSolver import KuroshutoSolver
 
 from typing import Dict, Any
 
@@ -118,7 +120,9 @@ class SolverFactory:
         "TerraX": TerraXSolver,
         "Detour": DetourSolver,
         "Masyu": MasyuSolver,
-        "BalanceLoop": BalanceLoopSolver
+        "BalanceLoop": BalanceLoopSolver,
+        "Patchwork": PatchworkSolver,
+        "Kuroshuto": KuroshutoSolver
 
     }
     

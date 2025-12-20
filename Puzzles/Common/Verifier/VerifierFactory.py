@@ -42,6 +42,8 @@ from Common.Verifier.PuzzleVerifiers.TerraXVerifier import TerraXVerifier
 from Common.Verifier.PuzzleVerifiers.DetourVerifier import DetourVerifier
 from Common.Verifier.PuzzleVerifiers.MasyuVerifier import MasyuVerifier
 from Common.Verifier.PuzzleVerifiers.BalanceLoopVerifier import BalanceLoopVerifier
+from Common.Verifier.PuzzleVerifiers.PatchworkVerifier import PatchworkVerifier
+from Common.Verifier.PuzzleVerifiers.KuroshutoVerifier import KuroshutoVerifier
 
 class VerifierFactory:
     
@@ -102,7 +104,9 @@ class VerifierFactory:
         "TerraX": TerraXVerifier,
         "Detour": DetourVerifier,
         "Masyu": MasyuVerifier,
-        "BalanceLoop": BalanceLoopVerifier
+        "BalanceLoop": BalanceLoopVerifier,
+        "Patchwork": PatchworkVerifier,
+        "Kuroshuto": KuroshutoVerifier
 
         
     }

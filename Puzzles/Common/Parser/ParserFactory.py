@@ -56,6 +56,10 @@ from Common.Parser.PuzzleParsers.MasyuParser import MasyuParser
 from Common.Parser.PuzzleParsers.BalanceLoopParser import BalanceLoopParser
 from Common.Parser.PuzzleParsers.PatchworkParser import PatchworkParser
 from Common.Parser.PuzzleParsers.KuroshutoParser import KuroshutoParser
+from Common.Parser.PuzzleParsers.HakyuuParser import HakyuuParser
+from Common.Parser.PuzzleParsers.HeyawakeParser import HeyawakeParser
+from Common.Parser.PuzzleParsers.FobidoshiParser import FobidoshiParser
+from Common.Parser.PuzzleParsers.ABCEndViewParser import ABCEndViewParser
 
 class ParserFactory:
     """Puzzle parser factory """
@@ -118,7 +122,12 @@ class ParserFactory:
         "Masyu": MasyuParser,
         "BalanceLoop": BalanceLoopParser,
         "Patchwork": PatchworkParser,
-        "Kuroshuto": KuroshutoParser
+        "Kuroshuto": KuroshutoParser,
+        "Hakyuu": HakyuuParser,
+        "Heyawake": HeyawakeParser,
+        "Fobidoshi": FobidoshiParser,
+        "ABCEndView": ABCEndViewParser
+        
         
     }
     

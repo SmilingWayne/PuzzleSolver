@@ -66,7 +66,9 @@ if __name__ == "__main__":
         "Simpleloop",
         "Masyu",
         "BalanceLoop",
-        "Nonogram"
+        "Hitori",
+        # "Patchwork",
+        # "Kuroshuto",
 
     ]
     
@@ -115,7 +117,7 @@ if __name__ == "__main__":
             #     # If puzzle is loaded and solved successfully:
             #     # TODO: check solutions via rule_based
                 print(f"Load and solve puzzle but fail to load {pz_name} solutions, ID: {puzzle_id}")
-                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], solution_dict['cpu_time'])
+                print(solution_dict['num_constrs'], solution_dict['status'], solution_dict['num_vars'], round(solution_dict['cpu_time'], 4), round(solution_dict['build_time'], 4) )
             #     continue
             else:
                 if not verifier.verify(solution_dict, sol_dict):
@@ -129,8 +131,9 @@ if __name__ == "__main__":
                     # print(solution_dict['grid'])
                     # print("===")
                     # print(sol_dict['grid'])
-            # if puzzle_id == "01_5x5":
-            #     print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
+            # if puzzle_id == "hard_25x25":
+            #     # print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
+            #     print(solution_dict['grid'])
             #     break
             # break
         toc = time.perf_counter()

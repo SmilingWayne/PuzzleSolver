@@ -44,6 +44,10 @@ from Common.Verifier.PuzzleVerifiers.MasyuVerifier import MasyuVerifier
 from Common.Verifier.PuzzleVerifiers.BalanceLoopVerifier import BalanceLoopVerifier
 from Common.Verifier.PuzzleVerifiers.PatchworkVerifier import PatchworkVerifier
 from Common.Verifier.PuzzleVerifiers.KuroshutoVerifier import KuroshutoVerifier
+from Common.Verifier.PuzzleVerifiers.HakyuuVerifier import HakyuuVerifier
+from Common.Verifier.PuzzleVerifiers.HeyawakeVerifier import HeyawakeVerifier
+from Common.Verifier.PuzzleVerifiers.FobidoshiVerifier import FobidoshiVerifier
+from Common.Verifier.PuzzleVerifiers.ABCEndViewVerifier import ABCEndViewVerifier
 
 class VerifierFactory:
     
@@ -106,7 +110,11 @@ class VerifierFactory:
         "Masyu": MasyuVerifier,
         "BalanceLoop": BalanceLoopVerifier,
         "Patchwork": PatchworkVerifier,
-        "Kuroshuto": KuroshutoVerifier
+        "Kuroshuto": KuroshutoVerifier,
+        "Hakyuu": HakyuuVerifier,
+        "Heyawake": HeyawakeVerifier,
+        "Fobidoshi": FobidoshiVerifier,
+        "ABCEndView": ABCEndViewVerifier
 
         
     }

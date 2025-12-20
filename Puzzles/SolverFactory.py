@@ -56,6 +56,10 @@ from MasyuSolver import MasyuSolver
 from BalanceLoopSolver import BalanceLoopSolver
 from PatchworkSolver import PatchworkSolver
 from KuroshutoSolver import KuroshutoSolver
+from HakyuuSolver import HakyuuSolver
+from HeyawakeSolver import HeyawakeSolver
+from FobidoshiSolver import FobidoshiSolver
+from ABCEndViewSolver import ABCEndViewSolver
 
 from typing import Dict, Any
 
@@ -79,7 +83,6 @@ class SolverFactory:
         "Kakurasu": KakurasuSolver,
         "Fuzuli": FuzuliSolver,
         "TilePaint": TilePaintSolver,
-
         # Sudoku (variants)
         "Sudoku": SudokuSolver,
         "ButterflySudoku": ButterflySudokuSolver,
@@ -122,7 +125,11 @@ class SolverFactory:
         "Masyu": MasyuSolver,
         "BalanceLoop": BalanceLoopSolver,
         "Patchwork": PatchworkSolver,
-        "Kuroshuto": KuroshutoSolver
+        "Kuroshuto": KuroshutoSolver,
+        "Hakyuu": HakyuuSolver,
+        "Heyawake": HeyawakeSolver,
+        "Fobidoshi": FobidoshiSolver,
+        "ABCEndView": ABCEndViewSolver
 
     }
     

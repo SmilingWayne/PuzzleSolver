@@ -66,10 +66,13 @@ if __name__ == "__main__":
         "Simpleloop",
         "Masyu",
         "BalanceLoop",
-        "Hitori",
-        # "Patchwork",
-        # "Kuroshuto",
-
+        "Hitori", # Can be update!
+        "Patchwork",
+        "Kuroshuto",
+        "Hakyuu",
+        "Heyawake", # Can be update! 45s for longest
+        "Fobidoshi", 
+        "ABCEndView"
     ]
     
     import time
@@ -131,9 +134,9 @@ if __name__ == "__main__":
                     # print(solution_dict['grid'])
                     # print("===")
                     # print(sol_dict['grid'])
-            # if puzzle_id == "hard_25x25":
-            #     # print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
-            #     print(solution_dict['grid'])
+            # if puzzle_id == "50_17x17":
+            #     print(solution_dict['grid'], "\n====\n\n", sol_dict['grid'])
+            #     # print(solution_dict['grid'])
             #     break
             # break
         toc = time.perf_counter()

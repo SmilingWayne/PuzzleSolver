@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include pyproject.toml
+
+graft src
+graft tests
+prune crawlers
+prune scripts

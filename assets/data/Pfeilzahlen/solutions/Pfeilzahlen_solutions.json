@@ -4,295 +4,295 @@
       "id": "1_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/001.a.htm",
-      "solution": "8 8\n-  se sw s  sw sw sw se s  -\nse 3  3  3  5  3  2  2  4  w\nne 1  2  4  2  2  0  2  3  sw\ne  2  5  3  3  2  2  3  5  sw\ne  4  3  3  2  3  2  4  5  nw\nne 1  2  1  2  2  2  3  3  sw\ne  1  2  3  3  4  3  3  4  nw\nse 1  2  3  4  4  2  3  4  w\ne  3  4  4  5  4  3  4  4  w\n-  ne n  ne n  n  nw n  n  -"
+      "solution": "8 8\n- se sw s sw sw sw se s -\nse 3 3 3 5 3 2 2 4 w\nne 1 2 4 2 2 0 2 3 sw\ne 2 5 3 3 2 2 3 5 sw\ne 4 3 3 2 3 2 4 5 nw\nne 1 2 1 2 2 2 3 3 sw\ne 1 2 3 3 4 3 3 4 nw\nse 1 2 3 4 4 2 3 4 w\ne 3 4 4 5 4 3 4 4 w\n- ne n ne n n nw n n -"
     },
     "2_8x8": {
       "id": "2_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/002.a.htm",
-      "solution": "8 8\n-  se s  sw s  se se sw s  -\ne  2  6  2  3  1  5  4  2  sw\ne  4  3  4  3  3  2  3  5  sw\ne  2  5  1  6  3  1  2  5  nw\ne  3  3  4  3  3  3  2  3  nw\nne 1  4  1  2  1  3  2  2  sw\ne  5  5  2  4  4  3  5  6  w\nne 2  2  1  2  1  2  2  4  nw\nne 1  3  1  2  1  2  2  2  nw\n-  n  n  ne ne ne ne ne nw -"
+      "solution": "8 8\n- se s sw s se se sw s -\ne 2 6 2 3 1 5 4 2 sw\ne 4 3 4 3 3 2 3 5 sw\ne 2 5 1 6 3 1 2 5 nw\ne 3 3 4 3 3 3 2 3 nw\nne 1 4 1 2 1 3 2 2 sw\ne 5 5 2 4 4 3 5 6 w\nne 2 2 1 2 1 2 2 4 nw\nne 1 3 1 2 1 2 2 2 nw\n- n n ne ne ne ne ne nw -"
     },
     "3_8x8": {
       "id": "3_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/003.a.htm",
-      "solution": "8 8\n-  se sw s  s  s  s  s  sw -\ne  4  2  4  3  3  3  4  1  sw\nne 3  2  3  4  2  6  2  2  w\ne  4  3  3  5  6  4  5  2  w\nne 2  1  3  5  3  5  2  2  w\ne  2  1  4  4  3  4  3  1  nw\ne  3  4  3  5  4  4  4  4  w\ne  5  1  3  3  2  4  3  2  nw\nne 3  3  2  3  2  4  3  2  w\n-  n  nw nw n  ne n  ne nw -"
+      "solution": "8 8\n- se sw s s s s s sw -\ne 4 2 4 3 3 3 4 1 sw\nne 3 2 3 4 2 6 2 2 w\ne 4 3 3 5 6 4 5 2 w\nne 2 1 3 5 3 5 2 2 w\ne 2 1 4 4 3 4 3 1 nw\ne 3 4 3 5 4 4 4 4 w\ne 5 1 3 3 2 4 3 2 nw\nne 3 3 2 3 2 4 3 2 w\n- n nw nw n ne n ne nw -"
     },
     "4_8x8": {
       "id": "4_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/004.a.htm",
-      "solution": "8 8\n-  s  se se se se sw sw sw -\nse 2  1  1  2  5  3  2  1  sw\ne  4  2  1  4  5  4  4  3  sw\nse 2  2  2  1  3  2  4  4  sw\ne  5  4  3  2  2  3  5  6  nw\ne  5  5  2  2  3  2  5  4  nw\nne 4  2  2  1  3  2  1  2  nw\ne  5  4  3  5  5  3  3  3  w\ne  4  4  4  4  5  2  4  3  w\n-  n  n  ne nw n  nw n  n  -"
+      "solution": "8 8\n- s se se se se sw sw sw -\nse 2 1 1 2 5 3 2 1 sw\ne 4 2 1 4 5 4 4 3 sw\nse 2 2 2 1 3 2 4 4 sw\ne 5 4 3 2 2 3 5 6 nw\ne 5 5 2 2 3 2 5 4 nw\nne 4 2 2 1 3 2 1 2 nw\ne 5 4 3 5 5 3 3 3 w\ne 4 4 4 4 5 2 4 3 w\n- n n ne nw n nw n n -"
     },
     "5_8x8": {
       "id": "5_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/005.a.htm",
-      "solution": "8 8\n-  se s  s  s  se se sw sw -\nse 2  4  3  3  1  4  3  1  sw\nne 3  1  5  3  2  3  2  3  sw\nne 2  4  3  6  5  2  2  6  w\nse 2  1  4  4  3  3  2  1  nw\nne 3  3  5  4  3  6  2  2  w\nse 2  4  2  3  4  1  2  2  sw\ne  5  2  5  5  2  3  1  5  nw\nne 1  3  4  3  1  1  2  2  nw\n-  n  ne n  n  n  n  ne n  -"
+      "solution": "8 8\n- se s s s se se sw sw -\nse 2 4 3 3 1 4 3 1 sw\nne 3 1 5 3 2 3 2 3 sw\nne 2 4 3 6 5 2 2 6 w\nse 2 1 4 4 3 3 2 1 nw\nne 3 3 5 4 3 6 2 2 w\nse 2 4 2 3 4 1 2 2 sw\ne 5 2 5 5 2 3 1 5 nw\nne 1 3 4 3 1 1 2 2 nw\n- n ne n n n n ne n -"
     },
     "6_8x8": {
       "id": "6_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/006.a.htm",
-      "solution": "8 8\n-  s  sw s  s  sw se s  s  -\nse 4  1  2  4  2  3  4  2  w\ne  6  2  4  4  3  3  4  5  w\nse 3  3  1  2  1  1  1  2  nw\ne  5  2  4  3  2  2  2  3  nw\nse 3  2  3  5  2  2  3  2  w\ne  5  2  4  5  5  4  3  3  w\ne  3  2  2  4  4  4  2  2  sw\ne  5  2  4  5  4  4  5  4  w\n-  n  nw ne n  n  n  nw nw -"
+      "solution": "8 8\n- s sw s s sw se s s -\nse 4 1 2 4 2 3 4 2 w\ne 6 2 4 4 3 3 4 5 w\nse 3 3 1 2 1 1 1 2 nw\ne 5 2 4 3 2 2 2 3 nw\nse 3 2 3 5 2 2 3 2 w\ne 5 2 4 5 5 4 3 3 w\ne 3 2 2 4 4 4 2 2 sw\ne 5 2 4 5 4 4 5 4 w\n- n nw ne n n n nw nw -"
     },
     "7_8x8": {
       "id": "7_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/007.a.htm",
-      "solution": "8 8\n-  s  sw s  s  s  se sw sw -\ne  5  2  4  4  3  5  6  3  w\nne 2  0  1  2  3  2  2  3  nw\nse 1  1  1  2  3  2  2  2  nw\ne  3  1  4  3  2  4  4  1  nw\ne  3  4  4  4  4  4  4  3  w\nse 3  1  2  2  3  1  1  2  nw\ne  5  2  3  4  2  3  3  1  nw\ne  3  5  5  3  4  4  4  2  w\n-  ne ne nw nw ne n  n  nw -"
+      "solution": "8 8\n- s sw s s s se sw sw -\ne 5 2 4 4 3 5 6 3 w\nne 2 0 1 2 3 2 2 3 nw\nse 1 1 1 2 3 2 2 2 nw\ne 3 1 4 3 2 4 4 1 nw\ne 3 4 4 4 4 4 4 3 w\nse 3 1 2 2 3 1 1 2 nw\ne 5 2 3 4 2 3 3 1 nw\ne 3 5 5 3 4 4 4 2 w\n- ne ne nw nw ne n n nw -"
     },
     "8_8x8": {
       "id": "8_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/008.a.htm",
-      "solution": "8 8\n-  s  s  s  s  se sw s  s  -\ne  3  2  4  4  2  3  4  4  sw\nse 2  2  2  3  1  2  2  4  nw\nse 5  1  3  2  1  2  2  4  nw\nne 3  4  2  3  0  2  3  2  sw\nse 4  2  5  2  1  2  1  4  sw\nse 3  3  3  5  1  1  2  3  nw\ne  6  4  6  6  4  4  4  4  w\nne 3  4  5  4  3  5  2  3  w\n-  n  ne n  n  nw n  nw n  -"
+      "solution": "8 8\n- s s s s se sw s s -\ne 3 2 4 4 2 3 4 4 sw\nse 2 2 2 3 1 2 2 4 nw\nse 5 1 3 2 1 2 2 4 nw\nne 3 4 2 3 0 2 3 2 sw\nse 4 2 5 2 1 2 1 4 sw\nse 3 3 3 5 1 1 2 3 nw\ne 6 4 6 6 4 4 4 4 w\nne 3 4 5 4 3 5 2 3 w\n- n ne n n nw n nw n -"
     },
     "9_8x8": {
       "id": "9_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/009.a.htm",
-      "solution": "8 8\n-  se sw se se se se sw s  -\nse 2  2  1  3  4  4  4  4  w\ne  2  1  2  3  4  2  4  6  nw\ne  1  2  2  4  2  2  4  5  nw\nse 0  1  2  1  2  1  2  3  nw\ne  3  2  1  3  3  2  2  4  sw\nne 2  2  1  3  3  1  3  4  w\nse 2  1  3  2  2  2  3  5  w\ne  4  4  2  4  3  3  5  4  w\n-  ne nw nw n  n  ne n  n  -"
+      "solution": "8 8\n- se sw se se se se sw s -\nse 2 2 1 3 4 4 4 4 w\ne 2 1 2 3 4 2 4 6 nw\ne 1 2 2 4 2 2 4 5 nw\nse 0 1 2 1 2 1 2 3 nw\ne 3 2 1 3 3 2 2 4 sw\nne 2 2 1 3 3 1 3 4 w\nse 2 1 3 2 2 2 3 5 w\ne 4 4 2 4 3 3 5 4 w\n- ne nw nw n n ne n n -"
     },
     "10_8x8": {
       "id": "10_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/010.a.htm",
-      "solution": "8 8\n-  s  se s  s  sw se s  s  -\ne  2  2  4  5  2  3  3  3  sw\ne  4  2  5  6  3  3  4  7  w\nne 1  1  3  2  1  2  3  4  sw\ne  3  2  3  3  1  5  4  4  nw\nse 4  1  3  3  3  3  4  4  w\nne 2  1  2  4  1  2  1  3  nw\ne  2  2  6  4  2  2  2  3  sw\ne  3  4  6  6  2  3  3  6  w\n-  ne ne n  n  nw n  ne n  -"
+      "solution": "8 8\n- s se s s sw se s s -\ne 2 2 4 5 2 3 3 3 sw\ne 4 2 5 6 3 3 4 7 w\nne 1 1 3 2 1 2 3 4 sw\ne 3 2 3 3 1 5 4 4 nw\nse 4 1 3 3 3 3 4 4 w\nne 2 1 2 4 1 2 1 3 nw\ne 2 2 6 4 2 2 2 3 sw\ne 3 4 6 6 2 3 3 6 w\n- ne ne n n nw n ne n -"
     },
     "11_8x8": {
       "id": "11_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/011.a.htm",
-      "solution": "8 8\n-  s  se s  se se s  s  sw -\nse 2  4  5  4  3  5  4  2  w\ne  5  2  5  4  4  5  4  2  nw\nne 1  4  2  3  5  2  3  2  sw\nse 2  1  5  3  2  4  2  2  nw\nne 2  2  4  3  2  2  4  1  sw\ne  3  5  3  3  4  3  3  4  nw\nne 3  1  4  1  2  3  2  2  nw\nne 1  2  2  3  1  2  4  1  nw\n-  ne n  n  n  n  ne ne nw -"
+      "solution": "8 8\n- s se s se se s s sw -\nse 2 4 5 4 3 5 4 2 w\ne 5 2 5 4 4 5 4 2 nw\nne 1 4 2 3 5 2 3 2 sw\nse 2 1 5 3 2 4 2 2 nw\nne 2 2 4 3 2 2 4 1 sw\ne 3 5 3 3 4 3 3 4 nw\nne 3 1 4 1 2 3 2 2 nw\nne 1 2 2 3 1 2 4 1 nw\n- ne n n n n ne ne nw -"
     },
     "12_8x8": {
       "id": "12_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/012.a.htm",
-      "solution": "8 8\n-  s  s  se se s  sw s  sw -\ne  2  2  1  3  4  2  3  2  sw\nse 2  1  1  1  2  3  1  2  nw\nse 4  4  2  1  3  3  5  2  w\nse 4  5  2  2  2  4  4  2  w\nne 5  3  4  2  4  3  2  2  w\ne  4  6  3  6  5  3  3  2  w\nse 4  3  5  3  4  3  2  1  w\ne  4  6  4  4  4  5  4  2  w\n-  ne ne nw nw nw n  nw nw -"
+      "solution": "8 8\n- s s se se s sw s sw -\ne 2 2 1 3 4 2 3 2 sw\nse 2 1 1 1 2 3 1 2 nw\nse 4 4 2 1 3 3 5 2 w\nse 4 5 2 2 2 4 4 2 w\nne 5 3 4 2 4 3 2 2 w\ne 4 6 3 6 5 3 3 2 w\nse 4 3 5 3 4 3 2 1 w\ne 4 6 4 4 4 5 4 2 w\n- ne ne nw nw nw n nw nw -"
     },
     "13_8x8": {
       "id": "13_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/013.a.htm",
-      "solution": "8 8\n-  s  sw s  sw se se se sw -\ne  5  2  4  3  3  5  6  3  w\ne  5  3  3  3  4  4  4  4  w\ne  5  2  2  3  4  1  1  3  nw\ne  4  2  4  4  2  1  1  2  nw\ne  3  3  5  3  2  1  2  1  sw\nse 3  2  2  2  2  1  0  1  sw\nne 6  1  2  3  4  2  2  2  w\nne 4  2  2  3  3  3  3  1  w\n-  n  nw ne n  n  nw nw nw -"
+      "solution": "8 8\n- s sw s sw se se se sw -\ne 5 2 4 3 3 5 6 3 w\ne 5 3 3 3 4 4 4 4 w\ne 5 2 2 3 4 1 1 3 nw\ne 4 2 4 4 2 1 1 2 nw\ne 3 3 5 3 2 1 2 1 sw\nse 3 2 2 2 2 1 0 1 sw\nne 6 1 2 3 4 2 2 2 w\nne 4 2 2 3 3 3 3 1 w\n- n nw ne n n nw nw nw -"
     },
     "14_8x8": {
       "id": "14_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/014.a.htm",
-      "solution": "8 8\n-  s  se sw sw s  se s  s  -\nse 3  2  4  3  3  3  5  3  w\ne  6  3  2  6  5  4  3  6  w\nse 4  1  1  2  4  2  1  2  nw\ne  5  4  4  4  3  5  4  5  w\nse 5  3  3  3  2  2  5  4  w\nne 4  2  1  2  2  2  1  4  nw\nne 3  1  1  2  3  2  1  2  nw\nne 4  1  2  4  3  3  3  3  w\n-  n  nw ne n  nw n  nw n  -"
+      "solution": "8 8\n- s se sw sw s se s s -\nse 3 2 4 3 3 3 5 3 w\ne 6 3 2 6 5 4 3 6 w\nse 4 1 1 2 4 2 1 2 nw\ne 5 4 4 4 3 5 4 5 w\nse 5 3 3 3 2 2 5 4 w\nne 4 2 1 2 2 2 1 4 nw\nne 3 1 1 2 3 2 1 2 nw\nne 4 1 2 4 3 3 3 3 w\n- n nw ne n nw n nw n -"
     },
     "15_8x8": {
       "id": "15_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/015.a.htm",
-      "solution": "8 8\n-  se se se se sw se s  sw -\nse 2  2  3  3  1  1  3  1  sw\nne 3  1  3  2  2  2  2  2  nw\ne  5  5  2  4  5  4  5  3  w\nne 3  1  2  1  2  3  3  1  nw\ne  2  2  3  3  2  3  4  3  sw\ne  3  2  2  3  3  1  4  5  nw\nse 3  1  1  1  1  2  3  2  nw\ne  4  3  2  1  2  4  4  1  nw\n-  n  nw nw nw ne nw nw nw -"
+      "solution": "8 8\n- se se se se sw se s sw -\nse 2 2 3 3 1 1 3 1 sw\nne 3 1 3 2 2 2 2 2 nw\ne 5 5 2 4 5 4 5 3 w\nne 3 1 2 1 2 3 3 1 nw\ne 2 2 3 3 2 3 4 3 sw\ne 3 2 2 3 3 1 4 5 nw\nse 3 1 1 1 1 2 3 2 nw\ne 4 3 2 1 2 4 4 1 nw\n- n nw nw nw ne nw nw nw -"
     },
     "16_8x8": {
       "id": "16_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/016.a.htm",
-      "solution": "8 8\n-  s  se se sw sw se se s  -\nse 2  1  4  3  1  1  1  3  sw\ne  6  2  4  3  4  1  1  4  nw\nne 4  4  1  1  3  1  1  2  sw\ne  5  2  5  1  2  4  3  3  sw\nne 2  1  2  2  2  1  3  3  sw\ne  5  1  2  3  5  2  2  5  sw\nne 2  1  2  1  3  3  1  3  nw\ne  4  3  5  3  4  4  6  3  w\n-  n  ne n  nw n  ne nw nw -"
+      "solution": "8 8\n- s se se sw sw se se s -\nse 2 1 4 3 1 1 1 3 sw\ne 6 2 4 3 4 1 1 4 nw\nne 4 4 1 1 3 1 1 2 sw\ne 5 2 5 1 2 4 3 3 sw\nne 2 1 2 2 2 1 3 3 sw\ne 5 1 2 3 5 2 2 5 sw\nne 2 1 2 1 3 3 1 3 nw\ne 4 3 5 3 4 4 6 3 w\n- n ne n nw n ne nw nw -"
     },
     "17_8x8": {
       "id": "17_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/017.a.htm",
-      "solution": "8 8\n-  s  sw se se se s  se s  -\ne  4  2  1  2  2  4  2  4  sw\ne  4  2  1  1  3  4  2  3  nw\ne  5  4  2  3  3  4  4  4  w\ne  5  4  4  3  2  4  3  4  w\nse 3  4  3  2  2  2  1  4  w\nse 4  2  1  2  1  1  1  2  sw\nne 5  2  1  1  1  3  1  2  sw\nne 3  5  2  1  3  4  3  3  w\n-  n  n  nw ne ne nw nw nw -"
+      "solution": "8 8\n- s sw se se se s se s -\ne 4 2 1 2 2 4 2 4 sw\ne 4 2 1 1 3 4 2 3 nw\ne 5 4 2 3 3 4 4 4 w\ne 5 4 4 3 2 4 3 4 w\nse 3 4 3 2 2 2 1 4 w\nse 4 2 1 2 1 1 1 2 sw\nne 5 2 1 1 1 3 1 2 sw\nne 3 5 2 1 3 4 3 3 w\n- n n nw ne ne nw nw nw -"
     },
     "19_8x8": {
       "id": "19_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/019.a.htm",
-      "solution": "8 8\n-  se se se se s  s  s  sw -\ne  2  3  3  2  3  4  4  1  sw\nse 3  1  3  3  4  5  3  2  w\nse 3  2  1  4  6  3  4  2  w\nse 3  1  2  2  3  4  2  1  nw\ne  4  5  5  3  4  5  5  3  w\nse 4  4  3  3  3  2  4  4  w\nne 5  1  2  2  2  2  2  2  nw\nne 2  3  1  1  3  3  2  1  nw\n-  n  nw nw nw ne nw ne nw -"
+      "solution": "8 8\n- se se se se s s s sw -\ne 2 3 3 2 3 4 4 1 sw\nse 3 1 3 3 4 5 3 2 w\nse 3 2 1 4 6 3 4 2 w\nse 3 1 2 2 3 4 2 1 nw\ne 4 5 5 3 4 5 5 3 w\nse 4 4 3 3 3 2 4 4 w\nne 5 1 2 2 2 2 2 2 nw\nne 2 3 1 1 3 3 2 1 nw\n- n nw nw nw ne nw ne nw -"
     },
     "21_8x8": {
       "id": "21_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/021.a.htm",
-      "solution": "8 8\n-  s  s  se se se sw se sw -\ne  3  4  1  3  4  4  4 3  sw\ne  4  2  2  3  2  5  4 4  sw\nne 2  1  1  2  1  2  4 5  nw\ne  3  3  1  3  2  3  5 4  nw\nse 4  1  1  1  1  4  1 2  nw\nse 3  3  0  2  2  1  2 1  sw\ne  6  3  3  4  1  2  2 4  sw\ne  3  5  4  3  1  2  3 3  nw\n-  n  ne nw n  nw n  n n  -"
+      "solution": "8 8\n- s s se se se sw se sw -\ne 3 4 1 3 4 4 4 3 sw\ne 4 2 2 3 2 5 4 4 sw\nne 2 1 1 2 1 2 4 5 nw\ne 3 3 1 3 2 3 5 4 nw\nse 4 1 1 1 1 4 1 2 nw\nse 3 3 0 2 2 1 2 1 sw\ne 6 3 3 4 1 2 2 4 sw\ne 3 5 4 3 1 2 3 3 nw\n- n ne nw n nw n n n -"
     },
     "22_8x8": {
       "id": "22_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/022.a.htm",
-      "solution": "8 8\n-  se se sw s  se se se s  -\ne  2  4  4  3  2  2  3 5  sw\ne  3  2  3  4  3  1  2 6  nw\nse 1  1  1  2  3  1  1 3  nw\nse 3  1  1  1  2  3  1 2  sw\nse 3  4  2  2  3  2  3 5  w\ne  4  3  4  3  2  1  3 5  nw\ne  2  4  4  4  2  2  1 4  nw\ne  3  4  5  4  6  2  2 5  w\n-  n  n  n  nw n  nw ne n  -"
+      "solution": "8 8\n- se se sw s se se se s -\ne 2 4 4 3 2 2 3 5 sw\ne 3 2 3 4 3 1 2 6 nw\nse 1 1 1 2 3 1 1 3 nw\nse 3 1 1 1 2 3 1 2 sw\nse 3 4 2 2 3 2 3 5 w\ne 4 3 4 3 2 1 3 5 nw\ne 2 4 4 4 2 2 1 4 nw\ne 3 4 5 4 6 2 2 5 w\n- n n n nw n nw ne n -"
     },
     "23_8x8": {
       "id": "23_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/023.a.htm",
-      "solution": "8 8\n-  s  s  se s  se s  s s  -\ne  3  3  1  4  1  4  4 2  sw\nne 2  2  1  1  1  2  3 4  sw\ne  2  5  1  2  1  4  5 4  nw\ne  4  4  3  3  2  6  6 4  w\nne 3  3  1  3  3  4  4 3  w\nse 3  4  1  4  3  4  3 2  w\ne  3  4  4  3  2  4  3 2  sw\ne  3  7  4  5  2  4  5 4  w\n-  ne n  ne nw nw n  n  nw -"
+      "solution": "8 8\n- s s se s se s s s -\ne 3 3 1 4 1 4 4 2 sw\nne 2 2 1 1 1 2 3 4 sw\ne 2 5 1 2 1 4 5 4 nw\ne 4 4 3 3 2 6 6 4 w\nne 3 3 1 3 3 4 4 3 w\nse 3 4 1 4 3 4 3 2 w\ne 3 4 4 3 2 4 3 2 sw\ne 3 7 4 5 2 4 5 4 w\n- ne n ne nw nw n n nw -"
     },
     "27_8x8": {
       "id": "27_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/027.a.htm",
-      "solution": "8 8\n-  s  s  se s  se s  sw s  -\ne  2  3  3  5  2  6  3 2  sw\nse 3  1  1  4  4  3  1 4  sw\nne 3  2  2  4  2  4  2 3  nw\nse 2  5  5  4  1  6  4 2  w\ne  5  5  6  5  4  5  3 5  w\nne 3  3  1  6  2  2  0 3  nw\nne 2  1  4  3  2  3  1 1  nw\nne 3  4  3  4  1  6  2 2  w\n-  ne nw n  n  ne n nw nw -"
+      "solution": "8 8\n- s s se s se s sw s -\ne 2 3 3 5 2 6 3 2 sw\nse 3 1 1 4 4 3 1 4 sw\nne 3 2 2 4 2 4 2 3 nw\nse 2 5 5 4 1 6 4 2 w\ne 5 5 6 5 4 5 3 5 w\nne 3 3 1 6 2 2 0 3 nw\nne 2 1 4 3 2 3 1 1 nw\nne 3 4 3 4 1 6 2 2 w\n- ne nw n n ne n nw nw -"
     },
     "32_8x8": {
       "id": "32_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/032.a.htm",
-      "solution": "8 8\n-  se se s  sw se s  sw sw -\ne  2  5  5  3  3  7  4  3  w\ne  2  3  4  3  4  4  3  2  nw\nse 1  2  1  5  3  2  2  1  sw\ne  3  3  6  4  5  6  3  4  w\nse 1  5  3  3  3  5  5  1  w\ne  4  3  3  3  3  5  4  2  sw\nne 1  2  2  2  3  3  1  3  sw\ne  1  3  3  4  3  3  4  2  nw\n-  ne n  ne n  n  n  n  nw -"
+      "solution": "8 8\n- se se s sw se s sw sw -\ne 2 5 5 3 3 7 4 3 w\ne 2 3 4 3 4 4 3 2 nw\nse 1 2 1 5 3 2 2 1 sw\ne 3 3 6 4 5 6 3 4 w\nse 1 5 3 3 3 5 5 1 w\ne 4 3 3 3 3 5 4 2 sw\nne 1 2 2 2 3 3 1 3 sw\ne 1 3 3 4 3 3 4 2 nw\n- ne n ne n n n n nw -"
     },
     "34_8x8": {
       "id": "34_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/034.a.htm",
-      "solution": "8 8\n-  se sw se sw se se se s  -\ne  4  5  4  6  2  5  3  4  w\ne  4  5  5  3  5  3  3  4  w\ne  4  4  1  5  1  4  1  3  sw\nne 3  2  3  2  3  2  3  4  w\nne 3  3  1  3  1  4  3  4  w\ne  3  3  1  2  2  4  3  2  nw\nne 1  1  1  1  2  2  0  3  sw\ne  2  2  1  5  1  2  2  4  nw\n-  n  n  ne n  nw n  ne nw -"
+      "solution": "8 8\n- se sw se sw se se se s -\ne 4 5 4 6 2 5 3 4 w\ne 4 5 5 3 5 3 3 4 w\ne 4 4 1 5 1 4 1 3 sw\nne 3 2 3 2 3 2 3 4 w\nne 3 3 1 3 1 4 3 4 w\ne 3 3 1 2 2 4 3 2 nw\nne 1 1 1 1 2 2 0 3 sw\ne 2 2 1 5 1 2 2 4 nw\n- n n ne n nw n ne nw -"
     },
     "35_8x8": {
       "id": "35_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/035.a.htm",
-      "solution": "8 8\n-  s  s  sw se s  se sw s  -\nse 1  4  1  2  4  3  3  2  sw\ne  6  2  3  3  6  4  2  5  nw\nne 1  3  2  4  3  2  4  1  sw\ne  3  4  7  4  5  5  4  5  w\ne  4  5  4  5  6  4  4  4  w\nne 3  2  1  3  4  2  2  1  nw\nne 2  1  3  1  3  3  1  2  sw\nne 2  3  1  2  2  1  3  2  nw\n-  ne nw n  n  n  n  n  nw -"
+      "solution": "8 8\n- s s sw se s se sw s -\nse 1 4 1 2 4 3 3 2 sw\ne 6 2 3 3 6 4 2 5 nw\nne 1 3 2 4 3 2 4 1 sw\ne 3 4 7 4 5 5 4 5 w\ne 4 5 4 5 6 4 4 4 w\nne 3 2 1 3 4 2 2 1 nw\nne 2 1 3 1 3 3 1 2 sw\nne 2 3 1 2 2 1 3 2 nw\n- ne nw n n n n n nw -"
     },
     "37_8x8": {
       "id": "37_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/037.a.htm",
-      "solution": "8 8\n-  se s  se s  se s  sw sw -\ne  2  5  2  6  4  6  4  3  w\nse 1  3  2  4  4  5  3  3  w\ne  2  3  2  5  3  4  3  4  sw\nse 1  4  1  4  1  2  2  4  nw\nse 3  4  3  2  1  2  2  3  nw\nne 2  6  1  4  0  3  1  1  nw\ne  4  5  5  5  5  3  2  4  w\nne 1  4  2  7  2  3  1  3  w\n-  ne n  ne n  nw nw ne n  -"
+      "solution": "8 8\n- se s se s se s sw sw -\ne 2 5 2 6 4 6 4 3 w\nse 1 3 2 4 4 5 3 3 w\ne 2 3 2 5 3 4 3 4 sw\nse 1 4 1 4 1 2 2 4 nw\nse 3 4 3 2 1 2 2 3 nw\nne 2 6 1 4 0 3 1 1 nw\ne 4 5 5 5 5 3 2 4 w\nne 1 4 2 7 2 3 1 3 w\n- ne n ne n nw nw ne n -"
     },
     "39_8x8": {
       "id": "39_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/039.a.htm",
-      "solution": "8 8\n-  se s  sw sw s  sw s  sw -\nse 3  5  2  1  4  1  3  2  w\nne 5  2  1  1  2  1  1  0  nw\nne 3  4  2  2  4  1  2  2  w\ne  2  3  3  2  4  1  3  1  sw\ne  3  2  2  3  3  3  2  2  sw\ne  4  4  2  2  7  2  5  3  w\ne  5  4  2  3  4  5  4  4  w\ne  3  4  4  2  5  3  6  3  w\n-  n  ne nw nw n  ne ne nw -"
+      "solution": "8 8\n- se s sw sw s sw s sw -\nse 3 5 2 1 4 1 3 2 w\nne 5 2 1 1 2 1 1 0 nw\nne 3 4 2 2 4 1 2 2 w\ne 2 3 3 2 4 1 3 1 sw\ne 3 2 2 3 3 3 2 2 sw\ne 4 4 2 2 7 2 5 3 w\ne 5 4 2 3 4 5 4 4 w\ne 3 4 4 2 5 3 6 3 w\n- n ne nw nw n ne ne nw -"
     },
     "42_8x8": {
       "id": "42_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/042.a.htm",
-      "solution": "8 8\n-  s  sw se s  sw s  se sw -\ne  5  2  2  4  1  3  3  3  sw\nne 3  2  3  2  3  4  1  3  w\nse 5  2  1  4  3  3  2  2  w\nne 5  1  1  3  1  2  1  2  sw\nse 3  3  3  1  1  2  1  4  sw\ne  6  5  4  5  2  4  5  4  w\nne 5  2  3  4  3  4  2  3  w\nne 3  1  1  3  4  3  0  1  nw\n-  n  nw ne ne nw nw nw n  -"
+      "solution": "8 8\n- s sw se s sw s se sw -\ne 5 2 2 4 1 3 3 3 sw\nne 3 2 3 2 3 4 1 3 w\nse 5 2 1 4 3 3 2 2 w\nne 5 1 1 3 1 2 1 2 sw\nse 3 3 3 1 1 2 1 4 sw\ne 6 5 4 5 2 4 5 4 w\nne 5 2 3 4 3 4 2 3 w\nne 3 1 1 3 4 3 0 1 nw\n- n nw ne ne nw nw nw n -"
     },
     "43_8x8": {
       "id": "43_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/043.a.htm",
-      "solution": "8 8\n-  se s  sw s  se s  sw sw -\ne  2  7  3  5  4  6  4  3  w\nse 1  2  3  3  2  4  2  2  sw\nse 2  4  1  6  4  3  4  4  w\nse 2  3  1  3  3  4  2  3  sw\nne 1  4  2  2  2  5  3  2  nw\ne  3  6  3  6  4  5  6  4  w\nse 1  2  2  4  3  3  1  3  nw\ne  2  4  2  5  4  4  2  2  nw\n-  ne n  ne n  n  n  n  n  -"
+      "solution": "8 8\n- se s sw s se s sw sw -\ne 2 7 3 5 4 6 4 3 w\nse 1 2 3 3 2 4 2 2 sw\nse 2 4 1 6 4 3 4 4 w\nse 2 3 1 3 3 4 2 3 sw\nne 1 4 2 2 2 5 3 2 nw\ne 3 6 3 6 4 5 6 4 w\nse 1 2 2 4 3 3 1 3 nw\ne 2 4 2 5 4 4 2 2 nw\n- ne n ne n n n n n -"
     },
     "44_8x8": {
       "id": "44_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/044.a.htm",
-      "solution": "8 8\n-  s  s  sw se se sw sw s  -\ne  3  5  2  3  6  4  4  4  w\nse 4  1  0  2  2  3  2  2  nw\nne 2  2  2  1  1  1  4  2  sw\nse 3  5  3  2  1  2  3  5  w\ne  5  4  3  2  2  1  3  4  nw\nne 2  3  1  2  1  1  2  2  nw\nse 3  1  2  1  2  2  2  1  sw\nne 4  4  1  3  3  3  3  3  w\n-  ne nw nw ne ne nw n  nw -"
+      "solution": "8 8\n- s s sw se se sw sw s -\ne 3 5 2 3 6 4 4 4 w\nse 4 1 0 2 2 3 2 2 nw\nne 2 2 2 1 1 1 4 2 sw\nse 3 5 3 2 1 2 3 5 w\ne 5 4 3 2 2 1 3 4 nw\nne 2 3 1 2 1 1 2 2 nw\nse 3 1 2 1 2 2 2 1 sw\nne 4 4 1 3 3 3 3 3 w\n- ne nw nw ne ne nw n nw -"
     },
     "46_8x8": {
       "id": "46_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/046.a.htm",
-      "solution": "8 8\n-  s  se sw sw sw sw sw s  -\nse 2  1  3  2  3  2  0  2  sw\ne  6  2  4  3  4  2  1  3  nw\ne  5  6  4  4  4  2  4  4  w\ne  6  3  7  2  3  4  3  4  w\nne 3  2  1  2  2  1  1  1  nw\nse 6  1  2  2  5  1  1  3  w\nne 4  2  3  2  2  3  1  3  w\ne  4  4  5  2  3  2  5  4  w\n-  n  ne n  nw n  ne ne nw -"
+      "solution": "8 8\n- s se sw sw sw sw sw s -\nse 2 1 3 2 3 2 0 2 sw\ne 6 2 4 3 4 2 1 3 nw\ne 5 6 4 4 4 2 4 4 w\ne 6 3 7 2 3 4 3 4 w\nne 3 2 1 2 2 1 1 1 nw\nse 6 1 2 2 5 1 1 3 w\nne 4 2 3 2 2 3 1 3 w\ne 4 4 5 2 3 2 5 4 w\n- n ne n nw n ne ne nw -"
     },
     "47_8x8": {
       "id": "47_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/047.a.htm",
-      "solution": "8 8\n-  s  sw se sw sw sw se s  -\nse 4  2  2  4  2  2  1  4  w\ne  5  2  4  2  3  1  1  2  nw\ne  5  5  2  3  1  2  1  2  sw\ne  7  4  5  2  3  2  3  5  w\nne 4  2  1  2  0  1  2  2  sw\ne  5  2  2  2  3  3  2  3  sw\nne 2  1  1  1  3  2  1  3  sw\ne  4  1  2  4  2  3  4  3  nw\n-  n  nw ne nw nw nw nw nw -"
+      "solution": "8 8\n- s sw se sw sw sw se s -\nse 4 2 2 4 2 2 1 4 w\ne 5 2 4 2 3 1 1 2 nw\ne 5 5 2 3 1 2 1 2 sw\ne 7 4 5 2 3 2 3 5 w\nne 4 2 1 2 0 1 2 2 sw\ne 5 2 2 2 3 3 2 3 sw\nne 2 1 1 1 3 2 1 3 sw\ne 4 1 2 4 2 3 4 3 nw\n- n nw ne nw nw nw nw nw -"
     },
     "49_8x8": {
       "id": "49_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/049.a.htm",
-      "solution": "8 8\n-  se sw s  sw sw se s  s  -\nse 3  3  3  2  0  1  5  2  sw\nne 4  3  6  1  1  3  3  6  w\nne 2  4  2  1  1  1  3  2  nw\ne  5  3  5  3  3  4  4  4  w\nne 2  2  4  2  2  3  3  4  w\nse 1  2  2  1  1  1  4  3  sw\ne  4  2  4  1  1  4  4  5  sw\nne 2  4  3  1  2  3  5  4  w\n-  n  n  n  ne ne n  n  n  -"
+      "solution": "8 8\n- se sw s sw sw se s s -\nse 3 3 3 2 0 1 5 2 sw\nne 4 3 6 1 1 3 3 6 w\nne 2 4 2 1 1 1 3 2 nw\ne 5 3 5 3 3 4 4 4 w\nne 2 2 4 2 2 3 3 4 w\nse 1 2 2 1 1 1 4 3 sw\ne 4 2 4 1 1 4 4 5 sw\nne 2 4 3 1 2 3 5 4 w\n- n n n ne ne n n n -"
     },
     "53_8x8": {
       "id": "53_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/053.a.htm",
-      "solution": "8 8\n-  s  s  sw sw s  se se s  -\nse 2  2  1  1  2  1  2  2  sw\ne  6  3  1  2  2  2  3  4  sw\ne  5  5  2  3  3  2  5  5  w\nse 3  1  2  1  1  1  2  2  nw\nse 4  2  0  3  2  1  1  1  nw\ne  4  4  2  3  5  1  2  2  sw\ne  5  4  5  5  3  4  3  4  w\ne  5  5  4  5  4  2  6  3  w\n-  n  nw nw n  nw nw n  nw -"
+      "solution": "8 8\n- s s sw sw s se se s -\nse 2 2 1 1 2 1 2 2 sw\ne 6 3 1 2 2 2 3 4 sw\ne 5 5 2 3 3 2 5 5 w\nse 3 1 2 1 1 1 2 2 nw\nse 4 2 0 3 2 1 1 1 nw\ne 4 4 2 3 5 1 2 2 sw\ne 5 4 5 5 3 4 3 4 w\ne 5 5 4 5 4 2 6 3 w\n- n nw nw n nw nw n nw -"
     },
     "54_8x8": {
       "id": "54_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/054.a.htm",
-      "solution": "8 8\n-  s  s  se s  s  sw s  s  -\nse 2  2  1  3  5  2  2  1  sw\nse 5  2  0  4  3  2  3  2  sw\nne 5  4  3  3  3  3  5  5  w\nne 2  4  2  2  2  2  5  3  nw\ne  5  2  2  5  4  4  4  3  nw\nne 3  2  1  5  7  3  3  2  w\nse 2  1  1  4  4  3  2  1  sw\ne  5  4  4  5  4  4  6  4  w\n-  n  ne ne n  n  n  n  nw -"
+      "solution": "8 8\n- s s se s s sw s s -\nse 2 2 1 3 5 2 2 1 sw\nse 5 2 0 4 3 2 3 2 sw\nne 5 4 3 3 3 3 5 5 w\nne 2 4 2 2 2 2 5 3 nw\ne 5 2 2 5 4 4 4 3 nw\nne 3 2 1 5 7 3 3 2 w\nse 2 1 1 4 4 3 2 1 sw\ne 5 4 4 5 4 4 6 4 w\n- n ne ne n n n n nw -"
     },
     "55_8x8": {
       "id": "55_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/055.a.htm",
-      "solution": "8 8\n-  s  sw se sw se sw sw s  -\nse 3  4  3  2  2  5  2  3  w\ne  5  3  3  2  4  2  3  3  nw\nne 3  3  2  3  1  1  1  3  sw\ne  2  4  6  2  2  2  2  3  nw\ne  4  5  5  4  3  3  3  4  w\ne  5  3  2  3  3  2  2  3  sw\nne 3  3  3  1  3  3  2  5  w\nne 1  2  2  1  0  2  4  1  nw\n-  ne n  n  nw ne ne nw nw -"
+      "solution": "8 8\n- s sw se sw se sw sw s -\nse 3 4 3 2 2 5 2 3 w\ne 5 3 3 2 4 2 3 3 nw\nne 3 3 2 3 1 1 1 3 sw\ne 2 4 6 2 2 2 2 3 nw\ne 4 5 5 4 3 3 3 4 w\ne 5 3 2 3 3 2 2 3 sw\nne 3 3 3 1 3 3 2 5 w\nne 1 2 2 1 0 2 4 1 nw\n- ne n n nw ne ne nw nw -"
     },
     "57_8x8": {
       "id": "57_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/057.a.htm",
-      "solution": "8 8\n-  se sw se se s  s  se sw -\nse 4  4  2  2  4  3  3  3  w\nne 3  2  4  2  3  6  1  2  w\nse 3  3  3  3  4  4  2  2  w\nse 2  3  2  2  3  2  1  2  sw\ne  5  3  5  2  2  5  1  5  sw\nne 2  6  3  2  3  3  5  3  w\nse 4  2  4  2  3  6  2  4  w\nne 2  1  1  2  4  4  1  1  nw\n-  n  n  n  ne nw n  nw n  -"
+      "solution": "8 8\n- se sw se se s s se sw -\nse 4 4 2 2 4 3 3 3 w\nne 3 2 4 2 3 6 1 2 w\nse 3 3 3 3 4 4 2 2 w\nse 2 3 2 2 3 2 1 2 sw\ne 5 3 5 2 2 5 1 5 sw\nne 2 6 3 2 3 3 5 3 w\nse 4 2 4 2 3 6 2 4 w\nne 2 1 1 2 4 4 1 1 nw\n- n n n ne nw n nw n -"
     },
     "61_8x8": {
       "id": "61_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/061.a.htm",
-      "solution": "8 8\n-  se se s  sw sw s  s  sw -\ne  3  3  7  4  2  3  5  2  w\ne  3  2  6  3  1  3  3  1  sw\ne  4  5  4  3  5  3  4  3  w\ne  5  2  5  3  3  5  5  2  w\nne 2  1  4  2  1  4  5  1  w\ne  4  3  4  2  4  3  5  5  w\nse 2  1  2  1  0  2  3  2  nw\ne  5  2  6  2  2  4  6  2  w\n-  n  nw n  nw ne ne n  nw -"
+      "solution": "8 8\n- se se s sw sw s s sw -\ne 3 3 7 4 2 3 5 2 w\ne 3 2 6 3 1 3 3 1 sw\ne 4 5 4 3 5 3 4 3 w\ne 5 2 5 3 3 5 5 2 w\nne 2 1 4 2 1 4 5 1 w\ne 4 3 4 2 4 3 5 5 w\nse 2 1 2 1 0 2 3 2 nw\ne 5 2 6 2 2 4 6 2 w\n- n nw n nw ne ne n nw -"
     },
     "62_8x8": {
       "id": "62_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/062.a.htm",
-      "solution": "8 8\n-  se s  sw s  sw sw s  s  -\nse 2  4  2  4  2  2  2  3  w\nne 3  2  3  5  1  2  2  4  w\nse 1  4  2  4  2  2  3  3  w\nse 3  3  2  3  2  4  2  3  w\ne  5  4  2  5  3  4  4  4  w\ne  2  5  3  5  3  3  4  5  w\nse 1  1  3  3  0  2  1  3  nw\ne  4  5  2  6  3  3  4  5  w\n-  ne nw nw n  nw n  ne n  -"
+      "solution": "8 8\n- se s sw s sw sw s s -\nse 2 4 2 4 2 2 2 3 w\nne 3 2 3 5 1 2 2 4 w\nse 1 4 2 4 2 2 3 3 w\nse 3 3 2 3 2 4 2 3 w\ne 5 4 2 5 3 4 4 4 w\ne 2 5 3 5 3 3 4 5 w\nse 1 1 3 3 0 2 1 3 nw\ne 4 5 2 6 3 3 4 5 w\n- ne nw nw n nw n ne n -"
     },
     "63_8x8": {
       "id": "63_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/063.a.htm",
-      "solution": "8 8\n-  s  se se sw s  se sw sw -\ne  3  2  4  2  4  4  4  2  sw\ne  3  3  1  4  6  2  2  5  sw\ne  4  2  2  3  6  2  2  4  nw\ne  4  3  3  2  3  4  3  3  nw\nse 4  5  2  1  4  2  4  4  w\nne 5  2  1  1  3  1  1  3  sw\nne 3  2  1  2  3  1  0  2  nw\ne  4  4  4  3  6  2  3  4  w\n-  n  n  ne ne n  nw ne n  -"
+      "solution": "8 8\n- s se se sw s se sw sw -\ne 3 2 4 2 4 4 4 2 sw\ne 3 3 1 4 6 2 2 5 sw\ne 4 2 2 3 6 2 2 4 nw\ne 4 3 3 2 3 4 3 3 nw\nse 4 5 2 1 4 2 4 4 w\nne 5 2 1 1 3 1 1 3 sw\nne 3 2 1 2 3 1 0 2 nw\ne 4 4 4 3 6 2 3 4 w\n- n n ne ne n nw ne n -"
     },
     "65_8x8": {
       "id": "65_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/065.a.htm",
-      "solution": "8 8\n-  s  se se s  se se se sw -\ne  4  4  5  5  2  5  6  5  w\nse 3  2  0  3  3  3  2  2  nw\nne 5  2  1  3  5  4  2  3  w\nne 3  3  2  4  1  4  4  2  w\ne  5  4  5  3  2  3  5  5  w\ne  5  5  1  3  1  2  2  4  nw\nne 5  2  1  1  1  1  1  1  nw\nne 3  3  2  3  1  3  2  2  w\n-  n  n  nw nw nw n  n  n  -"
+      "solution": "8 8\n- s se se s se se se sw -\ne 4 4 5 5 2 5 6 5 w\nse 3 2 0 3 3 3 2 2 nw\nne 5 2 1 3 5 4 2 3 w\nne 3 3 2 4 1 4 4 2 w\ne 5 4 5 3 2 3 5 5 w\ne 5 5 1 3 1 2 2 4 nw\nne 5 2 1 1 1 1 1 1 nw\nne 3 3 2 3 1 3 2 2 w\n- n n nw nw nw n n n -"
     },
     "66_8x8": {
       "id": "66_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/066.a.htm",
-      "solution": "8 8\n-  s  s  se sw se se sw sw -\ne  4  3  3  4  2  5  7  2  w\nse 4  3  1  1  5  3  3  3  w\nse 4  2  0  2  2  2  1  1  nw\ne  5  4  5  4  2  2  5  3  w\ne  5  6  5  3  2  2  4  4  w\ne  6  5  2  2  2  2  2  1  nw\nne 4  2  1  1  2  1  1  1  sw\nne 4  2  2  3  2  2  4  2  w\n-  n  nw ne nw nw ne n  nw -"
+      "solution": "8 8\n- s s se sw se se sw sw -\ne 4 3 3 4 2 5 7 2 w\nse 4 3 1 1 5 3 3 3 w\nse 4 2 0 2 2 2 1 1 nw\ne 5 4 5 4 2 2 5 3 w\ne 5 6 5 3 2 2 4 4 w\ne 6 5 2 2 2 2 2 1 nw\nne 4 2 1 1 2 1 1 1 sw\nne 4 2 2 3 2 2 4 2 w\n- n nw ne nw nw ne n nw -"
     },
     "67_8x8": {
       "id": "67_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/067.a.htm",
-      "solution": "8 8\n-  se sw sw sw sw s  sw s  -\nse 2  5  1  2  0  3  1  1  sw\ne  7  4  6  2  3  5  2  4  w\nne 3  6  1  4  2  3  2  2  w\ne  4  2  4  2  3  4  1  2  sw\nne 3  3  2  3  2  5  1  3  w\nse 4  4  1  2  3  3  4  2  w\ne  5  3  3  1  1  6  1  4  sw\nne 1  4  1  1  1  2  2  3  nw\n-  n  n  nw nw nw n  ne nw -"
+      "solution": "8 8\n- se sw sw sw sw s sw s -\nse 2 5 1 2 0 3 1 1 sw\ne 7 4 6 2 3 5 2 4 w\nne 3 6 1 4 2 3 2 2 w\ne 4 2 4 2 3 4 1 2 sw\nne 3 3 2 3 2 5 1 3 w\nse 4 4 1 2 3 3 4 2 w\ne 5 3 3 1 1 6 1 4 sw\nne 1 4 1 1 1 2 2 3 nw\n- n n nw nw nw n ne nw -"
     },
     "72_8x8": {
       "id": "72_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/072.a.htm",
-      "solution": "8 8\n-  se se se s  se se se s  -\ne  2  3  6  4  3  4  4  6  w\ne  1  2  3  5  2  2  2  6  nw\nse 1  0  2  2  2  2  1  3  nw\nne 1  1  1  1  1  4  1  2  sw\ne  2  2  2  2  2  3  3  6  sw\nne 1  1  3  3  1  2  4  7  w\ne  1  1  3  3  1  4  3  4  nw\ne  3  3  3  3  5  5  2  5  w\n-  ne nw n  ne ne n  ne n  -"
+      "solution": "8 8\n- se se se s se se se s -\ne 2 3 6 4 3 4 4 6 w\ne 1 2 3 5 2 2 2 6 nw\nse 1 0 2 2 2 2 1 3 nw\nne 1 1 1 1 1 4 1 2 sw\ne 2 2 2 2 2 3 3 6 sw\nne 1 1 3 3 1 2 4 7 w\ne 1 1 3 3 1 4 3 4 nw\ne 3 3 3 3 5 5 2 5 w\n- ne nw n ne ne n ne n -"
     },
     "73_8x8": {
       "id": "73_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/073.a.htm",
-      "solution": "8 8\n-  s  sw se sw s  s  sw s  -\nse 5  2  5  3  4  6  1  2  w\nne 4  2  2  2  5  3  1  1  sw\ne  6  3  2  5  4  4  2  4  sw\nne 2  1  5  1  3  3  2  3  nw\nse 2  2  2  3  2  4  2  2  nw\ne  6  1  2  3  6  4  2  3  sw\nne 2  1  1  2  4  4  0  3  nw\ne  4  1  4  3  3  4  4  2  nw\n-  n  nw n  n  n  n  nw nw -"
+      "solution": "8 8\n- s sw se sw s s sw s -\nse 5 2 5 3 4 6 1 2 w\nne 4 2 2 2 5 3 1 1 sw\ne 6 3 2 5 4 4 2 4 sw\nne 2 1 5 1 3 3 2 3 nw\nse 2 2 2 3 2 4 2 2 nw\ne 6 1 2 3 6 4 2 3 sw\nne 2 1 1 2 4 4 0 3 nw\ne 4 1 4 3 3 4 4 2 nw\n- n nw n n n n nw nw -"
     },
     "75_8x8": {
       "id": "75_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/075.a.htm",
-      "solution": "8 8\n-  s  sw sw sw s  s  se sw -\ne  4  3  3  2  5  3  3  3  sw\nse 5  1  2  1  2  3  2  1  nw\nne 5  3  3  1  4  2  4  2  w\ne  5  3  3  2  3  3  2  2  nw\nne 3  1  3  1  3  1  1  1  nw\nne 2  1  2  2  3  1  2  0  sw\ne  5  2  4  3  5  5  3  3  w\ne  5  3  3  2  6  4  5  2  w\n-  n  nw n  ne n  nw n  nw -"
+      "solution": "8 8\n- s sw sw sw s s se sw -\ne 4 3 3 2 5 3 3 3 sw\nse 5 1 2 1 2 3 2 1 nw\nne 5 3 3 1 4 2 4 2 w\ne 5 3 3 2 3 3 2 2 nw\nne 3 1 3 1 3 1 1 1 nw\nne 2 1 2 2 3 1 2 0 sw\ne 5 2 4 3 5 5 3 3 w\ne 5 3 3 2 6 4 5 2 w\n- n nw n ne n nw n nw -"
     },
     "77_8x8": {
       "id": "77_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/077.a.htm",
-      "solution": "8 8\n-  s  sw sw s  s  s  se s  -\ne  6  6  4  4  3  4  3  6  w\nne 4  2  2  2  1  1  2  2  nw\nne 4  2  2  4  2  2  2  4  w\nne 2  1  1  2  2  1  1  2  nw\ne  4  2  2  3  2  3  2  3  sw\nse 3  3  2  3  2  2  3  4  w\nse 3  1  2  2  1  1  2  4  sw\ne  4  3  2  4  2  3  3  4  nw\n-  n  n  n  n  nw ne n  n  -"
+      "solution": "8 8\n- s sw sw s s s se s -\ne 6 6 4 4 3 4 3 6 w\nne 4 2 2 2 1 1 2 2 nw\nne 4 2 2 4 2 2 2 4 w\nne 2 1 1 2 2 1 1 2 nw\ne 4 2 2 3 2 3 2 3 sw\nse 3 3 2 3 2 2 3 4 w\nse 3 1 2 2 1 1 2 4 sw\ne 4 3 2 4 2 3 3 4 nw\n- n n n n nw ne n n -"
     },
     "78_8x8": {
       "id": "78_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/078.a.htm",
-      "solution": "8 8\n-  s  s  s  s  se se se sw -\nse 3  3  3  3  2  3  5  2  w\ne  6  3  4  5  3  5  3  4  w\ne  3  4  2  4  5  2  1  2  nw\ne  4  3  5  6  4  4  2  3  w\nse 3  2  4  5  2  3  3  1  w\nse 3  3  1  2  3  2  1  1  sw\nse 5  2  1  2  2  3  0  2  nw\nne 4  2  2  3  1  1  3  1  nw\n-  n  nw ne n  n  n  ne nw -"
+      "solution": "8 8\n- s s s s se se se sw -\nse 3 3 3 3 2 3 5 2 w\ne 6 3 4 5 3 5 3 4 w\ne 3 4 2 4 5 2 1 2 nw\ne 4 3 5 6 4 4 2 3 w\nse 3 2 4 5 2 3 3 1 w\nse 3 3 1 2 3 2 1 1 sw\nse 5 2 1 2 2 3 0 2 nw\nne 4 2 2 3 1 1 3 1 nw\n- n nw ne n n n ne nw -"
     },
     "79_8x8": {
       "id": "79_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/079.a.htm",
-      "solution": "8 8\n-  se sw se s  s  se sw s  -\nse 2  2  1  4  3  3  4  3  w\ne  3  2  3  4  6  3  3  7  w\ne  1  2  1  5  4  2  2  5  nw\ne  1  1  3  4  4  2  3  4  nw\ne  1  2  2  4  4  3  2  4  sw\nse 1  1  0  3  4  1  1  3  sw\ne  3  1  2  4  4  2  2  6  sw\nne 1  3  2  4  3  2  4  5  w\n-  ne ne ne n  n  ne ne n  -"
+      "solution": "8 8\n- se sw se s s se sw s -\nse 2 2 1 4 3 3 4 3 w\ne 3 2 3 4 6 3 3 7 w\ne 1 2 1 5 4 2 2 5 nw\ne 1 1 3 4 4 2 3 4 nw\ne 1 2 2 4 4 3 2 4 sw\nse 1 1 0 3 4 1 1 3 sw\ne 3 1 2 4 4 2 2 6 sw\nne 1 3 2 4 3 2 4 5 w\n- ne ne ne n n ne ne n -"
     },
     "81_8x8": {
       "id": "81_8x8",
@@ -304,163 +304,163 @@
       "id": "82_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/082.a.htm",
-      "solution": "8 8\n-  s  s  s  sw s  se s  sw -\ne  3  4  5  3  3  3  6  2  w\ne  4  4  5  2  5  4  3  4  w\ne  4  3  3  3  4  2  3  1  sw\nse 1  2  4  2  2  1  2  1  sw\ne  5  4  7  3  4  3  4  5  w\ne  3  6  3  3  3  2  5  1  nw\nne 3  1  5  0  3  3  1  2  sw\nne 2  2  2  3  3  1  3  1  nw\n-  ne nw n  ne nw ne nw nw -"
+      "solution": "8 8\n- s s s sw s se s sw -\ne 3 4 5 3 3 3 6 2 w\ne 4 4 5 2 5 4 3 4 w\ne 4 3 3 3 4 2 3 1 sw\nse 1 2 4 2 2 1 2 1 sw\ne 5 4 7 3 4 3 4 5 w\ne 3 6 3 3 3 2 5 1 nw\nne 3 1 5 0 3 3 1 2 sw\nne 2 2 2 3 3 1 3 1 nw\n- ne nw n ne nw ne nw nw -"
     },
     "84_8x8": {
       "id": "84_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/084.a.htm",
-      "solution": "8 8\n-  s  s  s  sw s  s  se s  -\nse 3  3  3  4  3  2  2  3  w\nse 6  3  3  2  4  2  1  3  w\nne 4  4  1  1  2  2  0  2  nw\nse 3  2  3  1  2  1  2  1  sw\nne 4  2  3  4  3  3  1  4  w\nse 2  2  1  2  5  1  1  1  nw\ne  6  3  4  4  5  6  2  4  w\ne  4  5  4  4  5  4  5  4  w\n-  n  ne nw n  n  ne ne nw -"
+      "solution": "8 8\n- s s s sw s s se s -\nse 3 3 3 4 3 2 2 3 w\nse 6 3 3 2 4 2 1 3 w\nne 4 4 1 1 2 2 0 2 nw\nse 3 2 3 1 2 1 2 1 sw\nne 4 2 3 4 3 3 1 4 w\nse 2 2 1 2 5 1 1 1 nw\ne 6 3 4 4 5 6 2 4 w\ne 4 5 4 4 5 4 5 4 w\n- n ne nw n n ne ne nw -"
     },
     "86_8x8": {
       "id": "86_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/086.a.htm",
-      "solution": "8 8\n-  se s  se sw sw s  sw s  -\nse 2  4  4  4  2  5  2  2  w\nne 4  4  4  2  3  4  2  4  w\nne 3  4  1  3  0  3  2  2  nw\nne 1  2  4  1  1  3  1  2  nw\ne  2  3  3  4  2  4  1  3  nw\ne  2  3  2  4  3  3  2  2  sw\nse 1  2  4  2  2  5  1  4  w\ne  4  4  3  4  2  5  5  3  w\n-  ne nw n  n  nw n  nw nw -"
+      "solution": "8 8\n- se s se sw sw s sw s -\nse 2 4 4 4 2 5 2 2 w\nne 4 4 4 2 3 4 2 4 w\nne 3 4 1 3 0 3 2 2 nw\nne 1 2 4 1 1 3 1 2 nw\ne 2 3 3 4 2 4 1 3 nw\ne 2 3 2 4 3 3 2 2 sw\nse 1 2 4 2 2 5 1 4 w\ne 4 4 3 4 2 5 5 3 w\n- ne nw n n nw n nw nw -"
     },
     "87_8x8": {
       "id": "87_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/087.a.htm",
-      "solution": "8 8\n-  se s  s  sw se sw se s  -\nse 1  3  6  1  3  3  2  4  w\nse 1  3  3  3  0  1  2  3  sw\nse 4  3  5  2  2  2  3  6  w\nne 2  5  4  1  2  4  4  3  w\ne  4  3  4  2  2  5  3  3  sw\nne 1  2  3  2  3  1  2  4  sw\ne  1  3  5  4  2  3  3  5  nw\ne  2  4  7  3  3  5  5  4  w\n-  ne ne n  nw nw n  n  n  -"
+      "solution": "8 8\n- se s s sw se sw se s -\nse 1 3 6 1 3 3 2 4 w\nse 1 3 3 3 0 1 2 3 sw\nse 4 3 5 2 2 2 3 6 w\nne 2 5 4 1 2 4 4 3 w\ne 4 3 4 2 2 5 3 3 sw\nne 1 2 3 2 3 1 2 4 sw\ne 1 3 5 4 2 3 3 5 nw\ne 2 4 7 3 3 5 5 4 w\n- ne ne n nw nw n n n -"
     },
     "88_8x8": {
       "id": "88_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/088.a.htm",
-      "solution": "8 8\n-  se sw sw se sw s  s  sw -\nse 3  4  2  2  2  4  6  2  w\nne 3  1  5  1  2  6  3  4  w\ne  1  3  2  4  3  3  5  2  nw\ne  2  1  4  3  3  4  3  3  sw\nse 1  1  3  1  1  4  2  3  sw\nse 2  3  1  1  1  2  6  2  sw\nne 4  2  4  1  1  6  4  5  w\nne 1  2  2  1  2  3  4  1  nw\n-  ne nw n  ne nw n  n  n  -"
+      "solution": "8 8\n- se sw sw se sw s s sw -\nse 3 4 2 2 2 4 6 2 w\nne 3 1 5 1 2 6 3 4 w\ne 1 3 2 4 3 3 5 2 nw\ne 2 1 4 3 3 4 3 3 sw\nse 1 1 3 1 1 4 2 3 sw\nse 2 3 1 1 1 2 6 2 sw\nne 4 2 4 1 1 6 4 5 w\nne 1 2 2 1 2 3 4 1 nw\n- ne nw n ne nw n n n -"
     },
     "91_8x8": {
       "id": "91_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/091.a.htm",
-      "solution": "8 8\n-  se sw sw sw s  se s  sw -\ne  5  6  3  2  3  2  7  2  w\nne 4  3  3  1  2  3  3  2  w\nse 3  3  1  3  4  1  3  1  w\nse 3  2  2  3  4  1  3  1  w\ne  4  3  3  2  2  3  3  2  sw\ne  2  6  2  1  3  1  6  2  sw\ne  5  2  3  2  2  3  4  5  sw\nne 1  2  0  2  3  1  5  1  nw\n-  n  n  nw ne nw ne n  nw -"
+      "solution": "8 8\n- se sw sw sw s se s sw -\ne 5 6 3 2 3 2 7 2 w\nne 4 3 3 1 2 3 3 2 w\nse 3 3 1 3 4 1 3 1 w\nse 3 2 2 3 4 1 3 1 w\ne 4 3 3 2 2 3 3 2 sw\ne 2 6 2 1 3 1 6 2 sw\ne 5 2 3 2 2 3 4 5 sw\nne 1 2 0 2 3 1 5 1 nw\n- n n nw ne nw ne n nw -"
     },
     "95_8x8": {
       "id": "95_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/095.a.htm",
-      "solution": "8 8\n-  s  sw s  sw se sw s  sw -\ne  5  1  3  1  4  2  3  1  sw\nne 4  2  2  3  2  2  3  2  w\ne  5  3  5  2  4  2  4  4  w\ne  4  3  3  2  2  2  3  2  sw\ne  6  3  4  3  4  3  4  3  w\nne 4  2  3  2  4  2  3  1  w\nse 3  1  2  2  2  2  1  0  sw\ne  5  3  5  3  5  2  4  4  w\n-  n  ne ne nw n  nw ne nw -"
+      "solution": "8 8\n- s sw s sw se sw s sw -\ne 5 1 3 1 4 2 3 1 sw\nne 4 2 2 3 2 2 3 2 w\ne 5 3 5 2 4 2 4 4 w\ne 4 3 3 2 2 2 3 2 sw\ne 6 3 4 3 4 3 4 3 w\nne 4 2 3 2 4 2 3 1 w\nse 3 1 2 2 2 2 1 0 sw\ne 5 3 5 3 5 2 4 4 w\n- n ne ne nw n nw ne nw -"
     },
     "100_8x8": {
       "id": "100_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/100.a.htm",
-      "solution": "8 8\n-  se s  se s  se sw s  s  -\nse 1  4  2  4  3  3  4  3  w\ne  3  2  4  3  4  3  3  4  nw\nse 0  3  2  3  2  3  2  2  nw\nse 1  2  3  2  3  2  3  1  sw\nse 3  3  3  4  3  4  2  6  w\nse 1  3  2  2  3  1  5  1  nw\ne  4  4  5  4  3  7  3  5  w\nne 1  3  2  2  4  1  3  2  nw\n-  ne nw n  ne n  n  ne nw -"
+      "solution": "8 8\n- se s se s se sw s s -\nse 1 4 2 4 3 3 4 3 w\ne 3 2 4 3 4 3 3 4 nw\nse 0 3 2 3 2 3 2 2 nw\nse 1 2 3 2 3 2 3 1 sw\nse 3 3 3 4 3 4 2 6 w\nse 1 3 2 2 3 1 5 1 nw\ne 4 4 5 4 3 7 3 5 w\nne 1 3 2 2 4 1 3 2 nw\n- ne nw n ne n n ne nw -"
     },
     "101_8x8": {
       "id": "101_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/101.a.htm",
-      "solution": "8 8\n-  se se s  s  se se se sw -\nse 1  3  5  3  1  3  6  4  w\nse 1  2  2  3  1  2  3  4  nw\nse 2  2  1  2  4  1  2  3  nw\nne 2  2  2  3  1  3  2  1  nw\nse 1  4  5  3  2  2  4  3  w\nse 2  3  3  3  1  0  2  4  nw\ne  5  4  3  4  2  2  3  3  nw\nne 1  5  4  2  3  3  3  2  w\n-  ne n  nw nw ne nw n  n  -"
+      "solution": "8 8\n- se se s s se se se sw -\nse 1 3 5 3 1 3 6 4 w\nse 1 2 2 3 1 2 3 4 nw\nse 2 2 1 2 4 1 2 3 nw\nne 2 2 2 3 1 3 2 1 nw\nse 1 4 5 3 2 2 4 3 w\nse 2 3 3 3 1 0 2 4 nw\ne 5 4 3 4 2 2 3 3 nw\nne 1 5 4 2 3 3 3 2 w\n- ne n nw nw ne nw n n -"
     },
     "103_8x8": {
       "id": "103_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/103.a.htm",
-      "solution": "8 8\n-  se s  sw se sw s  s  s  -\nse 1  5  2  5  3  4  4  2  w\ne  4  3  5  2  3  5  3  4  sw\ne  3  6  1  4  3  4  4  4  nw\nne 2  2  2  2  3  3  3  3  nw\nne 1  2  3  4  3  6  3  3  w\ne  1  3  1  4  5  4  4  2  nw\nse 2  2  2  3  4  5  2  4  w\nne 2  2  1  2  1  3  3  1  nw\n-  ne nw ne n  n  n  nw nw -"
+      "solution": "8 8\n- se s sw se sw s s s -\nse 1 5 2 5 3 4 4 2 w\ne 4 3 5 2 3 5 3 4 sw\ne 3 6 1 4 3 4 4 4 nw\nne 2 2 2 2 3 3 3 3 nw\nne 1 2 3 4 3 6 3 3 w\ne 1 3 1 4 5 4 4 2 nw\nse 2 2 2 3 4 5 2 4 w\nne 2 2 1 2 1 3 3 1 nw\n- ne nw ne n n n nw nw -"
     },
     "106_8x8": {
       "id": "106_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/106.a.htm",
-      "solution": "8 8\n-  se se se s  sw se sw s  -\nse 1  2  3  4  0  2  3  1  sw\ne  6  2  5  5  5  3  4  5  w\nne 1  3  1  3  3  2  2  2  sw\ne  3  1  5  3  2  4  4  3  nw\nse 3  2  3  4  2  2  5  4  w\ne  5  3  2  3  3  2  3  4  nw\nse 2  2  3  1  1  2  1  3  nw\nne 4  2  4  4  1  1  5  2  w\n-  n  nw n  nw nw ne n  nw -"
+      "solution": "8 8\n- se se se s sw se sw s -\nse 1 2 3 4 0 2 3 1 sw\ne 6 2 5 5 5 3 4 5 w\nne 1 3 1 3 3 2 2 2 sw\ne 3 1 5 3 2 4 4 3 nw\nse 3 2 3 4 2 2 5 4 w\ne 5 3 2 3 3 2 3 4 nw\nse 2 2 3 1 1 2 1 3 nw\nne 4 2 4 4 1 1 5 2 w\n- n nw n nw nw ne n nw -"
     },
     "108_8x8": {
       "id": "108_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/108.a.htm",
-      "solution": "8 8\n-  se se se sw sw se sw s  -\ne  1  3  4  4  1  3  2  3  sw\ne  2  5  4  4  4  2  3  7  w\nse 4  3  1  4  2  2  3  4  w\nne 3  2  1  1  1  3  1  3  nw\nse 2  5  2  2  3  2  3  4  w\nse 2  2  2  4  0  1  1  3  sw\ne  3  4  5  5  4  2  2  6  w\ne  2  6  3  5  4  3  3  4  w\n-  ne n  ne n  nw nw nw n  -"
+      "solution": "8 8\n- se se se sw sw se sw s -\ne 1 3 4 4 1 3 2 3 sw\ne 2 5 4 4 4 2 3 7 w\nse 4 3 1 4 2 2 3 4 w\nne 3 2 1 1 1 3 1 3 nw\nse 2 5 2 2 3 2 3 4 w\nse 2 2 2 4 0 1 1 3 sw\ne 3 4 5 5 4 2 2 6 w\ne 2 6 3 5 4 3 3 4 w\n- ne n ne n nw nw nw n -"
     },
     "111_8x8": {
       "id": "111_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/111.a.htm",
-      "solution": "8 8\n-  se sw sw s  s  sw sw s  -\ne  3  5  2  3  4  4  4  3  w\nse 4  1  2  3  4  2  1  4  w\nne 2  1  1  4  2  0  1  2  nw\nse 1  3  3  2  2  1  1  2  sw\nse 3  3  3  2  2  2  1  3  sw\ne  5  5  3  6  5  3  5  4  w\nne 1  1  3  3  4  3  1  2  sw\nne 1  2  3  5  5  4  2  3  w\n-  ne ne ne ne nw nw nw nw -"
+      "solution": "8 8\n- se sw sw s s sw sw s -\ne 3 5 2 3 4 4 4 3 w\nse 4 1 2 3 4 2 1 4 w\nne 2 1 1 4 2 0 1 2 nw\nse 1 3 3 2 2 1 1 2 sw\nse 3 3 3 2 2 2 1 3 sw\ne 5 5 3 6 5 3 5 4 w\nne 1 1 3 3 4 3 1 2 sw\nne 1 2 3 5 5 4 2 3 w\n- ne ne ne ne nw nw nw nw -"
     },
     "117_8x8": {
       "id": "117_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/117.a.htm",
-      "solution": "8 8\n-  s  se se sw se s  se sw -\ne  3  2  5  3  2  6  4  4  w\nse 1  1  1  1  2  2  3  2  sw\nse 4  1  2  2  3  3  3  6  w\ne  3  2  3  2  1  4  5  2  nw\nse 2  2  3  0  1  3  2  2  sw\ne  5  3  3  3  3  2  2  4  sw\nne 2  2  3  3  1  1  2  3  sw\ne  3  3  7  3  3  5  5  4  w\n-  ne ne n  nw nw ne n  n  -"
+      "solution": "8 8\n- s se se sw se s se sw -\ne 3 2 5 3 2 6 4 4 w\nse 1 1 1 1 2 2 3 2 sw\nse 4 1 2 2 3 3 3 6 w\ne 3 2 3 2 1 4 5 2 nw\nse 2 2 3 0 1 3 2 2 sw\ne 5 3 3 3 3 2 2 4 sw\nne 2 2 3 3 1 1 2 3 sw\ne 3 3 7 3 3 5 5 4 w\n- ne ne n nw nw ne n n -"
     },
     "125_4x4": {
       "id": "125_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/125.a.htm",
-      "solution": "4 4\n-  se se s  sw -\nse 1  2  4  1  sw\nse 2  2  3  3  sw\ne  7  3  4  7  w\nne 1  3  4  1  nw\n-  n  ne nw n  -"
+      "solution": "4 4\n- se se s sw -\nse 1 2 4 1 sw\nse 2 2 3 3 sw\ne 7 3 4 7 w\nne 1 3 4 1 nw\n- n ne nw n -"
     },
     "127_4x4": {
       "id": "127_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/127.a.htm",
-      "solution": "4 4\n-  s  s  s  sw -\nse 1  1  3  1  sw\ne  4  4  4  5  w\nse 3  3  5  2  w\ne  5  5  5  3  w\n-  ne nw n  n  -"
+      "solution": "4 4\n- s s s sw -\nse 1 1 3 1 sw\ne 4 4 4 5 w\nse 3 3 5 2 w\ne 5 5 5 3 w\n- ne nw n n -"
     },
     "130_8x8": {
       "id": "130_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/130.a.htm",
-      "solution": "8 8\n-  s  se se se s  se sw s  -\ne  2  2  3  3  5  2  4  3  sw\ne  3  1  4  3  5  2  2  6  nw\nse 1  2  2  2  3  1  4  1  nw\ne  5  2  4  1  4  4  3  3  sw\nne 3  4  2  2  5  2  3  5  w\nne 3  1  4  3  4  1  5  3  w\nse 2  1  4  3  3  4  2  3  w\ne  4  3  2  1  7  1  3  2  nw\n-  ne nw n  ne n  nw n  nw -"
+      "solution": "8 8\n- s se se se s se sw s -\ne 2 2 3 3 5 2 4 3 sw\ne 3 1 4 3 5 2 2 6 nw\nse 1 2 2 2 3 1 4 1 nw\ne 5 2 4 1 4 4 3 3 sw\nne 3 4 2 2 5 2 3 5 w\nne 3 1 4 3 4 1 5 3 w\nse 2 1 4 3 3 4 2 3 w\ne 4 3 2 1 7 1 3 2 nw\n- ne nw n ne n nw n nw -"
     },
     "131_3x3": {
       "id": "131_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/131.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 1  1  4  sw\ne  3  1  6  nw\ne  2  4  4  nw\n-  ne ne n  -"
+      "solution": "3 3\n- s se s -\nse 1 1 4 sw\ne 3 1 6 nw\ne 2 4 4 nw\n- ne ne n -"
     },
     "141_3x3": {
       "id": "141_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/141.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 1  1  3  sw\nse 2  0  5  sw\ne  3  4  5  nw\n-  ne ne n  -"
+      "solution": "3 3\n- s se s -\nse 1 1 3 sw\nse 2 0 5 sw\ne 3 4 5 nw\n- ne ne n -"
     },
     "154_4x4": {
       "id": "154_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/154.a.htm",
-      "solution": "4 4\n-  se se s  s  -\ne  1  2  5  3  sw\nse 1  2  3  7  w\ne  4  1  4  5  nw\nne 1  5  3  3  w\n-  ne ne nw n  -"
+      "solution": "4 4\n- se se s s -\ne 1 2 5 3 sw\nse 1 2 3 7 w\ne 4 1 4 5 nw\nne 1 5 3 3 w\n- ne ne nw n -"
     },
     "168_8x8": {
       "id": "168_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/168.a.htm",
-      "solution": "8 8\n-  s  s  s  se s  se sw s  -\nse 1  2  1  1  3  4  3  1  sw\nse 5  2  2  1  6  3  3  6  w\nne 2  3  1  2  2  2  4  3  nw\nse 1  2  5  0  2  3  3  2  nw\ne  3  4  3  3  5  3  2  4  sw\nse 3  2  1  3  5  1  2  2  nw\nne 4  2  5  2  4  5  3  2  w\ne  3  7  4  3  5  5  5  3  w\n-  ne ne nw ne n  n  n  nw -"
+      "solution": "8 8\n- s s s se s se sw s -\nse 1 2 1 1 3 4 3 1 sw\nse 5 2 2 1 6 3 3 6 w\nne 2 3 1 2 2 2 4 3 nw\nse 1 2 5 0 2 3 3 2 nw\ne 3 4 3 3 5 3 2 4 sw\nse 3 2 1 3 5 1 2 2 nw\nne 4 2 5 2 4 5 3 2 w\ne 3 7 4 3 5 5 5 3 w\n- ne ne nw ne n n n nw -"
     },
     "177_8x8": {
       "id": "177_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/177.a.htm",
-      "solution": "8 8\n-  se se se sw se se sw s  -\nse 1  3  4  3  2  3  3  3  w\ne  3  2  3  3  3  2  2  6  sw\nne 1  1  1  3  1  1  2  4  nw\nse 1  1  4  2  2  3  3  4  w\nse 2  1  1  2  1  2  1  3  nw\ne  4  4  3  4  4  2  3  5  w\nse 1  2  5  3  1  2  1  5  w\ne  4  3  5  5  2  2  4  5  w\n-  ne nw n  n  nw ne ne n  -"
+      "solution": "8 8\n- se se se sw se se sw s -\nse 1 3 4 3 2 3 3 3 w\ne 3 2 3 3 3 2 2 6 sw\nne 1 1 1 3 1 1 2 4 nw\nse 1 1 4 2 2 3 3 4 w\nse 2 1 1 2 1 2 1 3 nw\ne 4 4 3 4 4 2 3 5 w\nse 1 2 5 3 1 2 1 5 w\ne 4 3 5 5 2 2 4 5 w\n- ne nw n n nw ne ne n -"
     },
     "178_8x8": {
       "id": "178_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/178.a.htm",
-      "solution": "8 8\n-  se sw s  sw sw s  sw s  -\ne  2  3  6  2  2  4  3  3  sw\nse 1  2  5  2  1  2  2  3  nw\nse 3  2  3  3  2  1  3  2  sw\nne 3  2  4  1  2  4  1  2  nw\ne  3  5  6  3  4  5  5  4  w\nne 1  1  4  3  1  2  4  3  sw\nse 1  0  4  2  2  3  2  4  nw\nne 2  2  2  1  3  3  3  1  nw\n-  ne nw n  ne ne nw n  nw -"
+      "solution": "8 8\n- se sw s sw sw s sw s -\ne 2 3 6 2 2 4 3 3 sw\nse 1 2 5 2 1 2 2 3 nw\nse 3 2 3 3 2 1 3 2 sw\nne 3 2 4 1 2 4 1 2 nw\ne 3 5 6 3 4 5 5 4 w\nne 1 1 4 3 1 2 4 3 sw\nse 1 0 4 2 2 3 2 4 nw\nne 2 2 2 1 3 3 3 1 nw\n- ne nw n ne ne nw n nw -"
     },
     "179_8x8": {
       "id": "179_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/179.a.htm",
-      "solution": "8 8\n-  se se sw sw s  se s  s  -\nse 2  3  4  2  4  1  5  3  w\nne 3  2  3  3  3  3  3  5  w\ne  2  3  1  2  6  1  5  4  sw\ne  3  1  2  2  4  4  4  6  sw\nne 0  1  1  1  3  2  6  3  nw\ne  3  3  3  3  6  4  6  6  w\ne  2  2  2  3  5  3  3  4  nw\nne 1  2  3  3  5  1  4  3  w\n-  ne ne ne nw n  nw n  n  -"
+      "solution": "8 8\n- se se sw sw s se s s -\nse 2 3 4 2 4 1 5 3 w\nne 3 2 3 3 3 3 3 5 w\ne 2 3 1 2 6 1 5 4 sw\ne 3 1 2 2 4 4 4 6 sw\nne 0 1 1 1 3 2 6 3 nw\ne 3 3 3 3 6 4 6 6 w\ne 2 2 2 3 5 3 3 4 nw\nne 1 2 3 3 5 1 4 3 w\n- ne ne ne nw n nw n n -"
     },
     "180_8x8": {
       "id": "180_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/180.a.htm",
-      "solution": "8 8\n-  se s  s  s  se sw sw s  -\nse 1  4  3  2  4  6  1  3  w\nse 2  2  2  3  2  2  2  3  sw\nne 3  3  4  5  1  2  3  7  w\nne 0  4  4  1  1  2  2  3  nw\ne  4  4  3  3  2  5  1  4  nw\nne 3  3  2  4  4  2  3  3  w\nne 2  2  4  4  2  4  1  4  w\ne  2  5  5  4  3  4  3  5  w\n-  ne ne nw ne nw n  ne n  -"
+      "solution": "8 8\n- se s s s se sw sw s -\nse 1 4 3 2 4 6 1 3 w\nse 2 2 2 3 2 2 2 3 sw\nne 3 3 4 5 1 2 3 7 w\nne 0 4 4 1 1 2 2 3 nw\ne 4 4 3 3 2 5 1 4 nw\nne 3 3 2 4 4 2 3 3 w\nne 2 2 4 4 2 4 1 4 w\ne 2 5 5 4 3 4 3 5 w\n- ne ne nw ne nw n ne n -"
     },
     "187_8x8": {
       "id": "187_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/187.a.htm",
-      "solution": "8 8\n-  s  se se sw sw s  s  s  -\nse 1  1  3  3  2  1  1  1  sw\ne  4  2  5  3  3  2  2  4  sw\nse 4  5  3  2  3  3  4  4  w\nse 4  2  3  0  2  4  4  1  sw\nne 4  2  3  3  4  5  3  4  w\nne 2  1  2  3  5  1  3  2  sw\nse 2  2  5  4  3  5  2  5  w\ne  3  3  5  2  4  3  6  2  nw\n-  ne ne n  nw n  ne nw nw -"
+      "solution": "8 8\n- s se se sw sw s s s -\nse 1 1 3 3 2 1 1 1 sw\ne 4 2 5 3 3 2 2 4 sw\nse 4 5 3 2 3 3 4 4 w\nse 4 2 3 0 2 4 4 1 sw\nne 4 2 3 3 4 5 3 4 w\nne 2 1 2 3 5 1 3 2 sw\nse 2 2 5 4 3 5 2 5 w\ne 3 3 5 2 4 3 6 2 nw\n- ne ne n nw n ne nw nw -"
     },
     "191_3x3": {
       "id": "191_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/191.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 1  1  3  sw\nse 3  1  3  nw\ne  4  7  3  w\n-  ne n  nw -"
+      "solution": "3 3\n- s se s -\nse 1 1 3 sw\nse 3 1 3 nw\ne 4 7 3 w\n- ne n nw -"
     },
     "213_3x3": {
       "id": "213_3x3",
@@ -496,19 +496,19 @@
       "id": "232_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/232.a.htm",
-      "solution": "3 3\n-  se s  s  -\ne  2  4  2  sw\nne 1  2  4  sw\ne  2  7  4  w\n-  ne n  nw -"
+      "solution": "3 3\n- se s s -\ne 2 4 2 sw\nne 1 2 4 sw\ne 2 7 4 w\n- ne n nw -"
     },
     "235_4x4": {
       "id": "235_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/235.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\nse 2  1  4  1  sw\ne  7  2  4  6  w\nne 2  2  3  1  nw\ne  5  3  6  3  w\n-  n  nw n  nw -"
+      "solution": "4 4\n- s se s s -\nse 2 1 4 1 sw\ne 7 2 4 6 w\nne 2 2 3 1 nw\ne 5 3 6 3 w\n- n nw n nw -"
     },
     "237_4x4": {
       "id": "237_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/237.a.htm",
-      "solution": "4 4\n-  se se s  sw -\ne  4  3  7  3  w\nne 2  1  3  2  nw\nse 2  1  2  1  nw\ne  5  2  5  2  w\n-  n  nw n  nw -"
+      "solution": "4 4\n- se se s sw -\ne 4 3 7 3 w\nne 2 1 3 2 nw\nse 2 1 2 1 nw\ne 5 2 5 2 w\n- n nw n nw -"
     },
     "241_3x3": {
       "id": "241_3x3",
@@ -526,31 +526,31 @@
       "id": "245_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/245.a.htm",
-      "solution": "5 5\n- s se s s s -\nse 3 2 3 2 3 w\nne 3 1 1 2 2 nw\nse 1 3 1 2 2 sw\nse 2 1 4 1 3 sw\ne  4 5 3 7 5 w\n- ne n ne ne nw -"
+      "solution": "5 5\n- s se s s s -\nse 3 2 3 2 3 w\nne 3 1 1 2 2 nw\nse 1 3 1 2 2 sw\nse 2 1 4 1 3 sw\ne 4 5 3 7 5 w\n- ne n ne ne nw -"
     },
     "246_5x5": {
       "id": "246_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/246.a.htm",
-      "solution": "5 5\n- s sw sw s sw -\nse 2 1 2 4 0 sw\ne  6 3 4 4 5 w\nse 3 4 0 3 1 nw\nne 5 1 4 1 0 nw\nne 3 5 2 4 1 w\n- ne nw nw nw nw -"
+      "solution": "5 5\n- s sw sw s sw -\nse 2 1 2 4 0 sw\ne 6 3 4 4 5 w\nse 3 4 0 3 1 nw\nne 5 1 4 1 0 nw\nne 3 5 2 4 1 w\n- ne nw nw nw nw -"
     },
     "247_5x5": {
       "id": "247_5x5",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/247.a.htm",
-      "solution": "5 5\n- s sw se s s -\ne  6 2 2 5 4 w\nne 3 0 0 2 2 nw\ne  4 3 2 4 3 w\nse 2 0 1 2 2 sw\ne  6 2 2 6 4 w\n- n nw ne n nw -"
+      "solution": "5 5\n- s sw se s s -\ne 6 2 2 5 4 w\nne 3 0 0 2 2 nw\ne 4 3 2 4 3 w\nse 2 0 1 2 2 sw\ne 6 2 2 6 4 w\n- n nw ne n nw -"
     },
     "249_6x6": {
       "id": "249_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/249.a.htm",
-      "solution": "6 6\n- se s sw sw s sw -\nse 2 3 4 1 3 0 sw\nne 5 4 3 4 3 2 w\ne  5 5 5 3 5 3 w\nne 2 3 3 1 2 1 nw \nse 3 2 2 2 1 1 nw\nne 4 3 3 1 4 2 w\n- n nw n nw ne nw -"
+      "solution": "6 6\n- se s sw sw s sw -\nse 2 3 4 1 3 0 sw\nne 5 4 3 4 3 2 w\ne 5 5 5 3 5 3 w\nne 2 3 3 1 2 1 nw \nse 3 2 2 2 1 1 nw\nne 4 3 3 1 4 2 w\n- n nw n nw ne nw -"
     },
     "250_8x8": {
       "id": "250_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/250.a.htm",
-      "solution": "8 8\n- se se sw se sw se sw s -\ne  2 5 4 4 3 6 3 4 w\ne  4 2 4 5 4 4 3 6 w\nne 1 1 0 4 2 1 2 4 sw\nse 1 1 2 1 1 4 1 5 nw\ne  3 4 3 3 3 5 6 4 w\nse 3 2 1 4 2 4 2 6 w\nne 1 0 2 2 3 1 1 3 nw\ne  2 4 3 6 2 5 2 4 w\n- ne ne ne n ne n nw n -"
+      "solution": "8 8\n- se se sw se sw se sw s -\ne 2 5 4 4 3 6 3 4 w\ne 4 2 4 5 4 4 3 6 w\nne 1 1 0 4 2 1 2 4 sw\nse 1 1 2 1 1 4 1 5 nw\ne 3 4 3 3 3 5 6 4 w\nse 3 2 1 4 2 4 2 6 w\nne 1 0 2 2 3 1 1 3 nw\ne 2 4 3 6 2 5 2 4 w\n- ne ne ne n ne n nw n -"
     },
     "251_4x4": {
       "id": "251_4x4",
@@ -838,805 +838,805 @@
       "id": "18_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/018.a.htm",
-      "solution": "8 8\n-  se se sw s  se se se s  -\ne  2  4  4  3  2  2  3  5  sw\ne  3  2  3  4  3  1  2  6  nw\nse 1  1  1  2  3  1  1  3  nw\nse 3  1  1  1  2  3  1  2  sw\nse 3  4  2  2  3  2  3  5  w\ne  4  3  4  3  2  1  3  5  nw\ne  2  4  4  4  2  2  1  4  nw\ne  3  4  5  4  6  2  2  5  w\n-  n  n  n  nw n  nw ne n  -"
+      "solution": "8 8\n- se se sw s se se se s -\ne 2 4 4 3 2 2 3 5 sw\ne 3 2 3 4 3 1 2 6 nw\nse 1 1 1 2 3 1 1 3 nw\nse 3 1 1 1 2 3 1 2 sw\nse 3 4 2 2 3 2 3 5 w\ne 4 3 4 3 2 1 3 5 nw\ne 2 4 4 4 2 2 1 4 nw\ne 3 4 5 4 6 2 2 5 w\n- n n n nw n nw ne n -"
     },
     "20_8x8": {
       "id": "20_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/020.a.htm",
-      "solution": "8 8\n-  s  se sw sw se sw sw sw -\nse 2  4  4  1  2  4  2  1  w\nse 5  4  2  3  3  2  2  2  w\nse 5  4  2  4  3  1  2  2  w\nne 3  4  5  2  2  3  1  2  w\ne  4  5  3  3  2  2  3  1  sw\ne  6  5  3  4  4  3  3  4  w\nne 3  3  3  2  3  3  2  3  w\ne  2  3  2  3  2  3  4  2  nw\n-  ne n  ne nw nw ne ne nw -"
+      "solution": "8 8\n- s se sw sw se sw sw sw -\nse 2 4 4 1 2 4 2 1 w\nse 5 4 2 3 3 2 2 2 w\nse 5 4 2 4 3 1 2 2 w\nne 3 4 5 2 2 3 1 2 w\ne 4 5 3 3 2 2 3 1 sw\ne 6 5 3 4 4 3 3 4 w\nne 3 3 3 2 3 3 2 3 w\ne 2 3 2 3 2 3 4 2 nw\n- ne n ne nw nw ne ne nw -"
     },
     "24_7x7": {
       "id": "24_7x7",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/024.a.htm",
-      "solution": "7 7\n-  s  s  sw se s  s  sw -\nse 3  6  2  2  5  4  1 w\nne 6  3  3  2  5  4  2 w\nne 2  5  2  5  3  3  3 w\ne  2  3  6  2  5  2  1 nw\nse 2  5  2  5  3  3  1 w\ne  6  4  4  3  6  3  3 w\nne 1  4  1  1  2  3  1 nw\n-  ne n  n  n  n  ne nw -"
+      "solution": "7 7\n- s s sw se s s sw -\nse 3 6 2 2 5 4 1 w\nne 6 3 3 2 5 4 2 w\nne 2 5 2 5 3 3 3 w\ne 2 3 6 2 5 2 1 nw\nse 2 5 2 5 3 3 1 w\ne 6 4 4 3 6 3 3 w\nne 1 4 1 1 2 3 1 nw\n- ne n n n n ne nw -"
     },
     "25_8x8": {
       "id": "25_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/025.a.htm",
-      "solution": "8 8\n-  se se sw sw s  se sw s  -\nse 1  3  2  0  4  3  2 2  sw\nne 3  1  1  2  4  1  2 5  sw\nne 2  2  2  4  4  1  5 5  w\ne  2  2  4  1  4  4  3 4  nw\ne  2  4  1  2  5  3  3 3  nw\nne 4  1  2  3  5  1  3 4  w\nne 1  1  2  2  2  1  1 3  sw\ne  3  5  4  2  5  2  4 5  w\n-  ne nw nw nw n  nw n  n  -"
+      "solution": "8 8\n- se se sw sw s se sw s -\nse 1 3 2 0 4 3 2 2 sw\nne 3 1 1 2 4 1 2 5 sw\nne 2 2 2 4 4 1 5 5 w\ne 2 2 4 1 4 4 3 4 nw\ne 2 4 1 2 5 3 3 3 nw\nne 4 1 2 3 5 1 3 4 w\nne 1 1 2 2 2 1 1 3 sw\ne 3 5 4 2 5 2 4 5 w\n- ne nw nw nw n nw n n -"
     },
     "26_8x8": {
       "id": "26_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/026.a.htm",
-      "solution": "8 8\n-  se s  se sw s  se s sw -\nse 2  4  2  3  1  1  3 0  sw\nne 3  3  3  2  2  2  1 2  sw\ne  5  7  2  5  5  4  4 3  w\ne  4  5  4  4  5  5  5 3  w\nne 2  2  2  3  2  4  3 1  sw\nse 2  5  1  4  5  3  4 3  w\nse 3  2  2  2  3  3  2 2  nw\ne  3  5  2  4  2  4  4 1  nw\n-  n  n  ne n  nw n nw nw -"
+      "solution": "8 8\n- se s se sw s se s sw -\nse 2 4 2 3 1 1 3 0 sw\nne 3 3 3 2 2 2 1 2 sw\ne 5 7 2 5 5 4 4 3 w\ne 4 5 4 4 5 5 5 3 w\nne 2 2 2 3 2 4 3 1 sw\nse 2 5 1 4 5 3 4 3 w\nse 3 2 2 2 3 3 2 2 nw\ne 3 5 2 4 2 4 4 1 nw\n- n n ne n nw n nw nw -"
     },
     "28_8x8": {
       "id": "28_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/028.a.htm",
-      "solution": "8 8\n-  s  sw sw s  se se s sw -\ne  4  4  3  4  4  3  6 3  w\nse 4  1  2  4  2  3  3 4  w\nne 4  1  3  3  4  1  3 4  w\ne  3  5  3  6  3  3  4 3  w\nse 3  1  6  3  3  2  2 2  w\nne 2  2  1  5  2  0  1 1  sw\ne  5  3  4  5  5  2  3 5  w\nne 2  2  4  3  2  3  4 2  w\n-  ne ne n  n  n  ne nw n  -"
+      "solution": "8 8\n- s sw sw s se se s sw -\ne 4 4 3 4 4 3 6 3 w\nse 4 1 2 4 2 3 3 4 w\nne 4 1 3 3 4 1 3 4 w\ne 3 5 3 6 3 3 4 3 w\nse 3 1 6 3 3 2 2 2 w\nne 2 2 1 5 2 0 1 1 sw\ne 5 3 4 5 5 2 3 5 w\nne 2 2 4 3 2 3 4 2 w\n- ne ne n n n ne nw n -"
     },
     "29_8x8": {
       "id": "29_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/029.a.htm",
-      "solution": "8 8\n-  se se s  se sw s  sw s  -\nse 0  4  3  4  2  3  1  2  sw\nse 3  2  7  4  3  3  2  6  w\nne 2  4  3  4  1  2  3  3  nw\ne  4  5  5  2  3  5  2  4  nw\nne 2  3  4  2  2  3  1  3  sw\nne 1  2  3  5  1  1  2  4  nw\ne  1  2  6  3  3  3  2  5  sw\ne  1  4  3  3  2  5  2  4  nw\n-  ne n  n  n  nw nw nw n  -"
+      "solution": "8 8\n- se se s se sw s sw s -\nse 0 4 3 4 2 3 1 2 sw\nse 3 2 7 4 3 3 2 6 w\nne 2 4 3 4 1 2 3 3 nw\ne 4 5 5 2 3 5 2 4 nw\nne 2 3 4 2 2 3 1 3 sw\nne 1 2 3 5 1 1 2 4 nw\ne 1 2 6 3 3 3 2 5 sw\ne 1 4 3 3 2 5 2 4 nw\n- ne n n n nw nw nw n -"
     },
     "30_8x8": {
       "id": "30_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/030.a.htm",
-      "solution": "8 8\n-  s  s  se s  sw s  se s  -\nse 3  3  2  4  1  4  1 4  w\nse 4  2  3  3  3  2  2 3  w\nse 5  4  1  4  2  3  1 4  w\nse 5  3  2  1  1  2  1 2  nw\ne  6  6  4  4  2  4  3 6  w\nse 3  3  2  3  1  1  2 3  sw\nne 4  1  2  3  2  3  0 4  nw\ne  4  4  1  4  4  4  3 3  nw\n-  n  nw nw ne nw nw nw n  -"
+      "solution": "8 8\n- s s se s sw s se s -\nse 3 3 2 4 1 4 1 4 w\nse 4 2 3 3 3 2 2 3 w\nse 5 4 1 4 2 3 1 4 w\nse 5 3 2 1 1 2 1 2 nw\ne 6 6 4 4 2 4 3 6 w\nse 3 3 2 3 1 1 2 3 sw\nne 4 1 2 3 2 3 0 4 nw\ne 4 4 1 4 4 4 3 3 nw\n- n nw nw ne nw nw nw n -"
     },
     "31_8x8": {
       "id": "31_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/031.a.htm",
-      "solution": "8 8\n-  se sw se s  s  s  s  s  -\ne  4  4  4  5  4  3  2  2  sw\nne 2  2  4  2  4  2  2  2  sw\nse 3  3  1  3  3  3  3  3  sw\nne 3  2  2  1  4  3  4  3  nw\nne 1  2  2  2  3  4  3  3  nw\nse 2  1  2  3  4  2  3  2  nw\nse 2  2  2  3  4  2  1  4  nw\ne  3  4  4  3  4  3  4  2  nw\n-  n  n  n  nw n  ne nw nw -"
+      "solution": "8 8\n- se sw se s s s s s -\ne 4 4 4 5 4 3 2 2 sw\nne 2 2 4 2 4 2 2 2 sw\nse 3 3 1 3 3 3 3 3 sw\nne 3 2 2 1 4 3 4 3 nw\nne 1 2 2 2 3 4 3 3 nw\nse 2 1 2 3 4 2 3 2 nw\nse 2 2 2 3 4 2 1 4 nw\ne 3 4 4 3 4 3 4 2 nw\n- n n n nw n ne nw nw -"
     },
     "33_8x8": {
       "id": "33_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/033.a.htm",
-      "solution": "8 8\n-  s  s  sw s  s  sw sw s  -\ne  2  3  2  2  3  4  3  2  sw\ne  5  4  2  4  4  4  4  5  w\ne  3  3  2  3  3  2  4  3  sw\nne 1  2  2  2  1  3  1  3  nw\nse 3  3  2  3  4  2  4  2  w\ne  6  4  2  5  4  5  3  4  w\nse 2  3  2  1  3  2  2  1  sw\nne 4  4  3  4  2  3  3  3  w\n-  ne nw ne nw ne n  n  nw -"
+      "solution": "8 8\n- s s sw s s sw sw s -\ne 2 3 2 2 3 4 3 2 sw\ne 5 4 2 4 4 4 4 5 w\ne 3 3 2 3 3 2 4 3 sw\nne 1 2 2 2 1 3 1 3 nw\nse 3 3 2 3 4 2 4 2 w\ne 6 4 2 5 4 5 3 4 w\nse 2 3 2 1 3 2 2 1 sw\nne 4 4 3 4 2 3 3 3 w\n- ne nw ne nw ne n n nw -"
     },
     "36_8x8": {
       "id": "36_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/036.a.htm",
-      "solution": "8 8\n-  s  s  s  se s  sw se sw -\ne  3  4  3  4  5  1  3  2  sw\ne  6  3  5  5  5  4  2  4  w\nne 3  3  2  2  4  1  2  1  nw\ne  6  5  4  4  5  4  4  3  w\nne 4  3  4  3  4  3  2  2  w\nse 2  2  2  3  4  0  1  1  nw\ne  6  2  3  4  4  2  1  2  nw\ne  3  5  3  2  4  2  2  1  nw\n-  n  ne nw n  n  nw nw nw -"
+      "solution": "8 8\n- s s s se s sw se sw -\ne 3 4 3 4 5 1 3 2 sw\ne 6 3 5 5 5 4 2 4 w\nne 3 3 2 2 4 1 2 1 nw\ne 6 5 4 4 5 4 4 3 w\nne 4 3 4 3 4 3 2 2 w\nse 2 2 2 3 4 0 1 1 nw\ne 6 2 3 4 4 2 1 2 nw\ne 3 5 3 2 4 2 2 1 nw\n- n ne nw n n nw nw nw -"
     },
     "38_8x8": {
       "id": "38_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/038.a.htm",
-      "solution": "8 8\n-  s  s  sw sw s  s  se sw -\ne  5  5  5  4  4  5  5  4  w\nne 4  3  1  2  3  4  1  1  nw\ne  5  3  1  3  6  4  1  3  nw\nne 2  1  1  3  3  3  2  1  nw\ne  3  2  3  3  3  5  3  2  sw\ne  3  4  1  2  5  4  2  3  nw\ne  5  2  1  3  4  4  2  2  nw\nne 2  1  1  2  2  3  1  1  nw\n-  n  ne ne n  n  n  ne nw -"
+      "solution": "8 8\n- s s sw sw s s se sw -\ne 5 5 5 4 4 5 5 4 w\nne 4 3 1 2 3 4 1 1 nw\ne 5 3 1 3 6 4 1 3 nw\nne 2 1 1 3 3 3 2 1 nw\ne 3 2 3 3 3 5 3 2 sw\ne 3 4 1 2 5 4 2 3 nw\ne 5 2 1 3 4 4 2 2 nw\nne 2 1 1 2 2 3 1 1 nw\n- n ne ne n n n ne nw -"
     },
     "40_8x8": {
       "id": "40_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/040.a.htm",
-      "solution": "8 8\n-  se se se sw se se s  sw -\ne  1  3  4  4  2  3  5  1  sw\ne  3  4  3  6  5  3  5  5  w\ne  3  4  3  5  5  4  6  3  w\ne  3  4  4  4  3  6  6  3  w\nse 2  4  2  3  3  2  6  3  w\nne 2  2  1  3  1  1  3  3  nw\nne 1  2  2  2  1  1  3  1  nw\ne  2  5  3  4  3  3  5  2  w\n-  ne n  ne n  ne nw n  nw -"
+      "solution": "8 8\n- se se se sw se se s sw -\ne 1 3 4 4 2 3 5 1 sw\ne 3 4 3 6 5 3 5 5 w\ne 3 4 3 5 5 4 6 3 w\ne 3 4 4 4 3 6 6 3 w\nse 2 4 2 3 3 2 6 3 w\nne 2 2 1 3 1 1 3 3 nw\nne 1 2 2 2 1 1 3 1 nw\ne 2 5 3 4 3 3 5 2 w\n- ne n ne n ne nw n nw -"
     },
     "41_8x8": {
       "id": "41_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/041.a.htm",
-      "solution": "8 8\n-  s  sw sw s  s  se sw s  -\nse 3  1  0  1  1  2  2  1  sw\nne 5  1  1  2  3  2  2  5  w\ne  3  4  2  4  4  2  4  5  w\ne  2  1  4  3  2  3  2  2  nw\ne  3  3  3  5  5  3  2  4  w\ne  4  3  2  5  6  2  3  4  w\ne  5  2  4  4  3  5  3  4  w\nne 2  4  2  2  3  2  4  3  w\n-  ne ne nw ne ne ne ne nw -"
+      "solution": "8 8\n- s sw sw s s se sw s -\nse 3 1 0 1 1 2 2 1 sw\nne 5 1 1 2 3 2 2 5 w\ne 3 4 2 4 4 2 4 5 w\ne 2 1 4 3 2 3 2 2 nw\ne 3 3 3 5 5 3 2 4 w\ne 4 3 2 5 6 2 3 4 w\ne 5 2 4 4 3 5 3 4 w\nne 2 4 2 2 3 2 4 3 w\n- ne ne nw ne ne ne ne nw -"
     },
     "45_8x8": {
       "id": "45_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/045.a.htm",
-      "solution": "8 8\n-  s  s  s  s  se se se s  -\nse 3  3  3  2  3  4  4  3  w\nne 3  1  3  2  1  2  2  4  sw\ne  2  4  4  3  3  2  2  6  nw\ne  2  3  5  3  3  3  3  2  nw\nse 3  2  4  4  3  5  1  3  w\nne 3  3  3  3  6  2  3  2  w\ne  3  3  4  4  2  5  1  3  sw\nne 1  2  5  1  2  1  2  3  nw\n-  ne ne n  ne n  n  ne nw -"
+      "solution": "8 8\n- s s s s se se se s -\nse 3 3 3 2 3 4 4 3 w\nne 3 1 3 2 1 2 2 4 sw\ne 2 4 4 3 3 2 2 6 nw\ne 2 3 5 3 3 3 3 2 nw\nse 3 2 4 4 3 5 1 3 w\nne 3 3 3 3 6 2 3 2 w\ne 3 3 4 4 2 5 1 3 sw\nne 1 2 5 1 2 1 2 3 nw\n- ne ne n ne n n ne nw -"
     },
     "48_8x8": {
       "id": "48_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/048.a.htm",
-      "solution": "8 8\n-  s  sw se sw se s  s  sw -\ne  4  4  4  4  3  6  5  2  w\nse 3  1  2  0  3  3  4  1  sw\nne 4  2  2  3  2  4  5  5  w\ne  2  2  4  2  2  3  7  2  nw\ne  3  2  4  2  2  5  3  4  nw\ne  3  3  2  3  4  2  5  1  nw\nne 3  1  4  3  2  4  3  3  w\ne  2  2  4  2  2  3  5  1  nw\n-  ne ne n  ne nw ne n  nw -"
+      "solution": "8 8\n- s sw se sw se s s sw -\ne 4 4 4 4 3 6 5 2 w\nse 3 1 2 0 3 3 4 1 sw\nne 4 2 2 3 2 4 5 5 w\ne 2 2 4 2 2 3 7 2 nw\ne 3 2 4 2 2 5 3 4 nw\ne 3 3 2 3 4 2 5 1 nw\nne 3 1 4 3 2 4 3 3 w\ne 2 2 4 2 2 3 5 1 nw\n- ne ne n ne nw ne n nw -"
     },
     "50_8x8": {
       "id": "50_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/050.a.htm",
-      "solution": "8 8\n-  se s  s  s  s  se s  s  -\nse 2  2  2  3  1  2  4  2  sw\nne 2  1  3  2  2  2  2  5  sw\ne  2  3  3  4  3  3  3  5  nw\nse 1  1  3  3  2  2  3  2  nw\nse 3  1  3  3  2  3  1  3  sw\nse 2  4  2  3  3  1  2  3  nw\ne  4  3  6  4  2  3  3  4  sw\nne 3  4  5  5  2  3  3  5  w\n-  n  nw n  n  nw n  ne n  -"
+      "solution": "8 8\n- se s s s s se s s -\nse 2 2 2 3 1 2 4 2 sw\nne 2 1 3 2 2 2 2 5 sw\ne 2 3 3 4 3 3 3 5 nw\nse 1 1 3 3 2 2 3 2 nw\nse 3 1 3 3 2 3 1 3 sw\nse 2 4 2 3 3 1 2 3 nw\ne 4 3 6 4 2 3 3 4 sw\nne 3 4 5 5 2 3 3 5 w\n- n nw n n nw n ne n -"
     },
     "51_8x8": {
       "id": "51_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/051.a.htm",
-      "solution": "8 8\n-  s  s  se s  se s  se sw -\ne  3  5  2  6  3  5  3  3  w\ne  5  3  4  3  4  5  4  3  w\nne 2  3  0  2  1  3  2  3  sw\nse 2  2  1  2  1  2  3  3  nw\nne 2  1  2  2  1  3  2  3  nw\ne  2  4  1  4  3  4  3  2  nw\nse 3  2  3  3  4  4  2  3  w\ne  3  3  2  5  2  4  3  1  nw\n-  ne ne ne ne ne ne nw nw -"
+      "solution": "8 8\n- s s se s se s se sw -\ne 3 5 2 6 3 5 3 3 w\ne 5 3 4 3 4 5 4 3 w\nne 2 3 0 2 1 3 2 3 sw\nse 2 2 1 2 1 2 3 3 nw\nne 2 1 2 2 1 3 2 3 nw\ne 2 4 1 4 3 4 3 2 nw\nse 3 2 3 3 4 4 2 3 w\ne 3 3 2 5 2 4 3 1 nw\n- ne ne ne ne ne ne nw nw -"
     },
     "52_8x8": {
       "id": "52_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/052.a.htm",
-      "solution": "8 8\n-  s  sw sw sw se sw se s  -\nse 4  3  3  1  3  5  3  4  w\nne 4  3  2  2  2  4  4  4  w\nse 3  3  3  2  2  2  4  5  w\ne  3  3  4  2  1  3  2  4  nw\nse 2  3  2  1  1  1  1  3  nw\ne  5  4  4  3  3  3  4  5  w\nne 3  3  3  2  1  4  3  3  w\nne 2  3  3  1  3  3  3  3  w\n-  ne n  n  ne ne n  n  n  -"
+      "solution": "8 8\n- s sw sw sw se sw se s -\nse 4 3 3 1 3 5 3 4 w\nne 4 3 2 2 2 4 4 4 w\nse 3 3 3 2 2 2 4 5 w\ne 3 3 4 2 1 3 2 4 nw\nse 2 3 2 1 1 1 1 3 nw\ne 5 4 4 3 3 3 4 5 w\nne 3 3 3 2 1 4 3 3 w\nne 2 3 3 1 3 3 3 3 w\n- ne n n ne ne n n n -"
     },
     "56_8x8": {
       "id": "56_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/056.a.htm",
-      "solution": "8 8\n-  se sw s  s  se s  se sw -\ne  4  3  2  3  2  3  3  3  sw\nne 2  0  4  1  1  3  1  1  nw\nse 1  2  1  3  3  1  1  1  sw\ne  5  2  4  5  5  4  2  3  w\nne 2  2  4  3  3  4  2  2  w\ne  2  3  3  3  3  3  4  1  sw\ne  6  2  4  4  4  5  2  6  w\nne 2  2  1  2  3  1  3  1  nw\n-  n  nw nw ne n  ne ne nw -"
+      "solution": "8 8\n- se sw s s se s se sw -\ne 4 3 2 3 2 3 3 3 sw\nne 2 0 4 1 1 3 1 1 nw\nse 1 2 1 3 3 1 1 1 sw\ne 5 2 4 5 5 4 2 3 w\nne 2 2 4 3 3 4 2 2 w\ne 2 3 3 3 3 3 4 1 sw\ne 6 2 4 4 4 5 2 6 w\nne 2 2 1 2 3 1 3 1 nw\n- n nw nw ne n ne ne nw -"
     },
     "58_8x8": {
       "id": "58_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/058.a.htm",
-      "solution": "8 8\n-  s  se se sw sw sw sw sw -\ne  5  4  4  4  4  5  4  3  w\nne 3  1  2  3  3  1  2  1  sw\nne 4  2  3  4  3  2  2  4  w\ne  5  3  3  2  2  2  4  3  nw\ne  5  4  2  1  1  3  4  4  sw\nne 5  2  2  1  2  2  4  5  w\nne 4  1  1  3  2  2  4  3  w\ne  4  1  2  2  3  3  2  2  nw\n-  n  nw ne ne ne nw n  n  -"
+      "solution": "8 8\n- s se se sw sw sw sw sw -\ne 5 4 4 4 4 5 4 3 w\nne 3 1 2 3 3 1 2 1 sw\nne 4 2 3 4 3 2 2 4 w\ne 5 3 3 2 2 2 4 3 nw\ne 5 4 2 1 1 3 4 4 sw\nne 5 2 2 1 2 2 4 5 w\nne 4 1 1 3 2 2 4 3 w\ne 4 1 2 2 3 3 2 2 nw\n- n nw ne ne ne nw n n -"
     },
     "59_8x8": {
       "id": "59_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/059.a.htm",
-      "solution": "8 8\n-  s  sw sw se s  se s  s  -\nse 5  2  3  2  5  1  4  4  w\nne 4  1  1  2  1  3  1  3  nw\nse 5  3  2  1  4  1  4  4  w\nne 5  2  1  1  1  1  2  4  sw\nne 4  2  2  1  1  1  2  3  nw\nne 3  2  2  1  3  0  2  3  sw\nse 4  1  1  3  2  2  1  3  nw\nne 4  2  3  2  5  2  4  3  w\n-  n  ne nw nw nw nw nw n  -"
+      "solution": "8 8\n- s sw sw se s se s s -\nse 5 2 3 2 5 1 4 4 w\nne 4 1 1 2 1 3 1 3 nw\nse 5 3 2 1 4 1 4 4 w\nne 5 2 1 1 1 1 2 4 sw\nne 4 2 2 1 1 1 2 3 nw\nne 3 2 2 1 3 0 2 3 sw\nse 4 1 1 3 2 2 1 3 nw\nne 4 2 3 2 5 2 4 3 w\n- n ne nw nw nw nw nw n -"
     },
     "60_8x8": {
       "id": "60_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/060.a.htm",
-      "solution": "8 8\n-  se se s  se sw s  se sw -\nse 1  3  4  2  3  2  1  1  sw\ne  5  1  6  3  3  6  1  2  sw\nne 3  4  3  3  5  4  4  2  w\nse 3  2  5  2  4  6  3  3  w\ne  3  1  5  3  3  6  3  3  nw\ne  2  3  3  3  5  3  4  3  nw\ne  3  1  5  2  3  6  1  3  nw\ne  3  2  4  2  3  4  3  1  nw\n-  n  nw n  ne n  n  nw nw -"
+      "solution": "8 8\n- se se s se sw s se sw -\nse 1 3 4 2 3 2 1 1 sw\ne 5 1 6 3 3 6 1 2 sw\nne 3 4 3 3 5 4 4 2 w\nse 3 2 5 2 4 6 3 3 w\ne 3 1 5 3 3 6 3 3 nw\ne 2 3 3 3 5 3 4 3 nw\ne 3 1 5 2 3 6 1 3 nw\ne 3 2 4 2 3 4 3 1 nw\n- n nw n ne n n nw nw -"
     },
     "64_8x8": {
       "id": "64_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/064.a.htm",
-      "solution": "8 8\n-  se s  s  sw sw sw sw s  -\ne  1  6  5  5  4  3  3  3  sw\nse 2  5  7  3  4  3  2  6  w\nne 3  4  3  4  2  1  3  3  nw\nne 2  4  3  2  3  2  1  3  nw\nne 1  3  4  1  3  2  0  3  nw\ne  2  4  3  5  2  1  3  3  nw\nse 2  3  5  2  3  1  1  6  w\nne 1  4  2  1  1  1  1  3  nw\n-  ne n  n  n  n  ne ne n  -"
+      "solution": "8 8\n- se s s sw sw sw sw s -\ne 1 6 5 5 4 3 3 3 sw\nse 2 5 7 3 4 3 2 6 w\nne 3 4 3 4 2 1 3 3 nw\nne 2 4 3 2 3 2 1 3 nw\nne 1 3 4 1 3 2 0 3 nw\ne 2 4 3 5 2 1 3 3 nw\nse 2 3 5 2 3 1 1 6 w\nne 1 4 2 1 1 1 1 3 nw\n- ne n n n n ne ne n -"
     },
     "68_8x8": {
       "id": "68_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/068.a.htm",
-      "solution": "8 8\n-  s  sw s  s  se se se s  -\ne  3  3  3  4  1  2  3  5  sw\ne  2  3  3  3  2  1  2  7  nw\ne  3  2  2  4  1  2  3  4  nw\nne 2  2  2  3  2  3  2  4  w\ne  3  3  3  4  4  3  3  5  w\ne  2  2  2  5  1  2  2  4  nw\ne  3  3  5  4  3  2  3  6  w\ne  2  4  2  4  1  2  2  4  nw\n-  ne n  ne n  ne ne ne n  -"
+      "solution": "8 8\n- s sw s s se se se s -\ne 3 3 3 4 1 2 3 5 sw\ne 2 3 3 3 2 1 2 7 nw\ne 3 2 2 4 1 2 3 4 nw\nne 2 2 2 3 2 3 2 4 w\ne 3 3 3 4 4 3 3 5 w\ne 2 2 2 5 1 2 2 4 nw\ne 3 3 5 4 3 2 3 6 w\ne 2 4 2 4 1 2 2 4 nw\n- ne n ne n ne ne ne n -"
     },
     "69_8x8": {
       "id": "69_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/069.a.htm",
-      "solution": "8 8\n-  se s  sw s  s  s  se sw -\ne  2  6  1  4  3  3  4  2  sw\ne  4  3  3  4  4  4  2  2  sw\ne  3  5  3  7  5  4  4  3  w\nse 3  4  3  5  4  3  4  2  w\nse 4  4  2  3  2  4  2  1  sw\nne 3  6  1  3  3  2  3  1  nw\nne 4  4  4  5  3  3  3  3  w\nne 1  3  2  5  2  2  2  0  nw\n-  n  n  ne n  nw nw n  nw -"
+      "solution": "8 8\n- se s sw s s s se sw -\ne 2 6 1 4 3 3 4 2 sw\ne 4 3 3 4 4 4 2 2 sw\ne 3 5 3 7 5 4 4 3 w\nse 3 4 3 5 4 3 4 2 w\nse 4 4 2 3 2 4 2 1 sw\nne 3 6 1 3 3 2 3 1 nw\nne 4 4 4 5 3 3 3 3 w\nne 1 3 2 5 2 2 2 0 nw\n- n n ne n nw nw n nw -"
     },
     "70_8x8": {
       "id": "70_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/070.a.htm",
-      "solution": "8 8\n-  s  s  sw s  s  sw s  s  -\ne  3  5  3  4  5  2  4  3  w\nse 4  1  1  2  2  2  1  2  sw\nne 4  3  3  2  3  2  4  3  w\ne  2  5  3  3  2  2  4  3  sw\ne  3  2  5  3  3  2  2  5  nw\nse 1  2  1  4  3  0  3  2  nw\ne  5  3  4  4  5  5  4  4  w\nne 3  4  3  2  4  4  4  2  w\n-  ne nw n  ne ne ne nw nw -"
+      "solution": "8 8\n- s s sw s s sw s s -\ne 3 5 3 4 5 2 4 3 w\nse 4 1 1 2 2 2 1 2 sw\nne 4 3 3 2 3 2 4 3 w\ne 2 5 3 3 2 2 4 3 sw\ne 3 2 5 3 3 2 2 5 nw\nse 1 2 1 4 3 0 3 2 nw\ne 5 3 4 4 5 5 4 4 w\nne 3 4 3 2 4 4 4 2 w\n- ne nw n ne ne ne nw nw -"
     },
     "71_8x8": {
       "id": "71_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/071.a.htm",
-      "solution": "8 8\n-  s  se se s  sw sw s  s  -\nse 2  2  3  6  3  2  2  4  w\ne  3  1  5  5  3  1  3  4  nw\nse 1  3  2  3  2  1  2  4  sw\ne  6  2  3  3  3  3  4  4  nw\nne 2  2  1  3  2  2  3  3  sw\ne  2  1  4  4  4  2  3  5  sw\ne  3  2  4  7  4  3  4  6  w\ne  2  2  3  4  4  2  4  4  nw\n-  ne ne n  n  n  nw ne n  -"
+      "solution": "8 8\n- s se se s sw sw s s -\nse 2 2 3 6 3 2 2 4 w\ne 3 1 5 5 3 1 3 4 nw\nse 1 3 2 3 2 1 2 4 sw\ne 6 2 3 3 3 3 4 4 nw\nne 2 2 1 3 2 2 3 3 sw\ne 2 1 4 4 4 2 3 5 sw\ne 3 2 4 7 4 3 4 6 w\ne 2 2 3 4 4 2 4 4 nw\n- ne ne n n n nw ne n -"
     },
     "74_8x8": {
       "id": "74_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/074.a.htm",
-      "solution": "8 8\n-  se sw sw sw s  se s  sw -\ne  4  5  3  4  3  2  5  2  w\nse 4  2  4  2  2  2  2  2  w\ne  6  4  2  5  4  2  3  3  w\nse 3  2  1  2  3  0  2  1  sw\nne 4  2  4  3  2  4  3  2  w\ne  3  5  3  5  5  3  6  2  w\nse 3  1  3  4  5  3  2  3  w\ne  3  1  2  5  4  3  3  1  nw\n-  n  ne ne n  nw nw nw nw -"
+      "solution": "8 8\n- se sw sw sw s se s sw -\ne 4 5 3 4 3 2 5 2 w\nse 4 2 4 2 2 2 2 2 w\ne 6 4 2 5 4 2 3 3 w\nse 3 2 1 2 3 0 2 1 sw\nne 4 2 4 3 2 4 3 2 w\ne 3 5 3 5 5 3 6 2 w\nse 3 1 3 4 5 3 2 3 w\ne 3 1 2 5 4 3 3 1 nw\n- n ne ne n nw nw nw nw -"
     },
     "76_8x8": {
       "id": "76_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/076.a.htm",
-      "solution": "8 8\n-  se sw s  se se sw sw s  -\ne  4  4  3  3  5  5  3  3  w\nne 2  1  4  3  2  3  4  3  w\ne  1  2  3  5  1  1  5  5  sw\ne  1  2  4  2  3  2  3  5  nw\nse 2  1  1  2  1  3  2  1  nw\ne  4  3  3  4  4  3  5  3  w\nse 2  2  4  3  2  2  2  5  w\ne  2  3  4  4  1  1  4  2  nw\n-  ne ne nw n  nw ne n  nw -"
+      "solution": "8 8\n- se sw s se se sw sw s -\ne 4 4 3 3 5 5 3 3 w\nne 2 1 4 3 2 3 4 3 w\ne 1 2 3 5 1 1 5 5 sw\ne 1 2 4 2 3 2 3 5 nw\nse 2 1 1 2 1 3 2 1 nw\ne 4 3 3 4 4 3 5 3 w\nse 2 2 4 3 2 2 2 5 w\ne 2 3 4 4 1 1 4 2 nw\n- ne ne nw n nw ne n nw -"
     },
     "80_8x8": {
       "id": "80_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/080.a.htm",
-      "solution": "8 8\n-  se se sw sw s  s  s  sw -\nse 1  5  2  2  1  2  2  1  sw\nse 5  2  3  2  2  2  1  1  nw\nne 4  5  1  5  4  2  3  1  w\nse 3  2  3  2  3  3  1  1  sw\nne 3  3  2  3  2  3  3  1  sw\ne  3  5  2  4  4  3  5  3  sw\nne 2  1  3  2  3  4  2  3  sw\ne  2  3  1  5  4  4  5  3  nw\n-  n  n  ne n  nw nw ne nw -"
+      "solution": "8 8\n- se se sw sw s s s sw -\nse 1 5 2 2 1 2 2 1 sw\nse 5 2 3 2 2 2 1 1 nw\nne 4 5 1 5 4 2 3 1 w\nse 3 2 3 2 3 3 1 1 sw\nne 3 3 2 3 2 3 3 1 sw\ne 3 5 2 4 4 3 5 3 sw\nne 2 1 3 2 3 4 2 3 sw\ne 2 3 1 5 4 4 5 3 nw\n- n n ne n nw nw ne nw -"
     },
     "83_8x8": {
       "id": "83_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/083.a.htm",
-      "solution": "8 8\n-  s  s  sw sw s  s  s  s  -\nse 2  3  3  3  5  4  2  2  w\nse 4  2  0  3  4  2  2  2  sw\ne  5  5  3  4  5  4  5  6  w\nse 2  3  3  1  2  3  4  3  nw\nse 3  3  1  3  3  3  3  2  nw\nne 3  2  1  3  6  2  1  2  nw\nne 1  2  2  4  4  3  1  1  nw\ne  3  4  5  5  5  4  5  4  w\n-  ne ne ne n  n  nw ne nw -"
+      "solution": "8 8\n- s s sw sw s s s s -\nse 2 3 3 3 5 4 2 2 w\nse 4 2 0 3 4 2 2 2 sw\ne 5 5 3 4 5 4 5 6 w\nse 2 3 3 1 2 3 4 3 nw\nse 3 3 1 3 3 3 3 2 nw\nne 3 2 1 3 6 2 1 2 nw\nne 1 2 2 4 4 3 1 1 nw\ne 3 4 5 5 5 4 5 4 w\n- ne ne ne n n nw ne nw -"
     },
     "85_8x8": {
       "id": "85_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/085.a.htm",
-      "solution": "8 8\n-  se sw se s  s  sw s  s  -\nse 2  3  2  3  2  3  3  1  sw\ne  5  1  5  4  4  3  4  3  sw\nne 1  3  2  4  3  2  3  3  sw\nse 2  1  4  2  3  3  4  2  nw\nne 3  1  2  3  2  4  4  3  sw\ne  4  4  3  4  6  4  7  6  w\nne 2  0  3  2  2  4  4  3  nw\nne 2  1  2  3  2  3  4  1  nw\n-  n  nw n  ne ne n  n  nw -"
+      "solution": "8 8\n- se sw se s s sw s s -\nse 2 3 2 3 2 3 3 1 sw\ne 5 1 5 4 4 3 4 3 sw\nne 1 3 2 4 3 2 3 3 sw\nse 2 1 4 2 3 3 4 2 nw\nne 3 1 2 3 2 4 4 3 sw\ne 4 4 3 4 6 4 7 6 w\nne 2 0 3 2 2 4 4 3 nw\nne 2 1 2 3 2 3 4 1 nw\n- n nw n ne ne n n nw -"
     },
     "89_8x8": {
       "id": "89_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/089.a.htm",
-      "solution": "8 8\n-  se sw se sw s  se s  sw -\nse 2  2  3  2  2  2  6  2  sw\ne  3  4  2  2  4  5  4  5  nw\ne  4  3  1  2  5  4  5  3  nw\nne 1  1  1  2  2  3  4  3  nw\ne  3  2  3  2  3  3  5  5  nw\nse 1  4  0  1  2  2  4  2  nw\ne  5  2  3  1  3  4  3  3  nw\nne 2  4  1  3  3  2  4  2  w\n-  n  n  ne ne nw n  n  n  -"
+      "solution": "8 8\n- se sw se sw s se s sw -\nse 2 2 3 2 2 2 6 2 sw\ne 3 4 2 2 4 5 4 5 nw\ne 4 3 1 2 5 4 5 3 nw\nne 1 1 1 2 2 3 4 3 nw\ne 3 2 3 2 3 3 5 5 nw\nse 1 4 0 1 2 2 4 2 nw\ne 5 2 3 1 3 4 3 3 nw\nne 2 4 1 3 3 2 4 2 w\n- n n ne ne nw n n n -"
     },
     "90_8x8": {
       "id": "90_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/090.a.htm",
-      "solution": "8 8\n-  se sw se s  sw sw sw s  -\ne  3  2  3  5  4  4  3  3  sw\ne  2  1  5  5  3  4  2  5  sw\nse 2  2  3  3  2  2  2  5  nw\ne  5  4  3  3  2  4  4  4  nw\nne 4  2  3  1  1  4  1  3  nw\nne 3  2  2  3  2  1  1  3  sw\nse 2  1  3  4  1  1  0  4  nw\nne 3  2  5  3  2  3  2  3  w\n-  n  ne n  nw nw n  nw n  -"
+      "solution": "8 8\n- se sw se s sw sw sw s -\ne 3 2 3 5 4 4 3 3 sw\ne 2 1 5 5 3 4 2 5 sw\nse 2 2 3 3 2 2 2 5 nw\ne 5 4 3 3 2 4 4 4 nw\nne 4 2 3 1 1 4 1 3 nw\nne 3 2 2 3 2 1 1 3 sw\nse 2 1 3 4 1 1 0 4 nw\nne 3 2 5 3 2 3 2 3 w\n- n ne n nw nw n nw n -"
     },
     "92_8x8": {
       "id": "92_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/092.a.htm",
-      "solution": "8 8\n-  se sw se sw s  sw s  sw -\nse 3  1  3  2  3  1  3  1  sw\nne 2  2  3  2  2  2  2  2  sw\ne  5  3  4  2  4  2  3  4  sw\nne 3  3  2  2  2  1  3  2  nw\nne 4  1  4  1  2  2  2  2  sw\nne 3  4  3  3  4  2  3  3  w\nse 3  1  3  2  3  1  2  2  sw\nne 4  2  4  3  3  3  3  3  w\n-  n  nw n  nw nw nw nw n  -"
+      "solution": "8 8\n- se sw se sw s sw s sw -\nse 3 1 3 2 3 1 3 1 sw\nne 2 2 3 2 2 2 2 2 sw\ne 5 3 4 2 4 2 3 4 sw\nne 3 3 2 2 2 1 3 2 nw\nne 4 1 4 1 2 2 2 2 sw\nne 3 4 3 3 4 2 3 3 w\nse 3 1 3 2 3 1 2 2 sw\nne 4 2 4 3 3 3 3 3 w\n- n nw n nw nw nw nw n -"
     },
     "93_8x8": {
       "id": "93_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/093.a.htm",
-      "solution": "8 8\n-  s  se s  sw sw sw s  s  -\ne  3  3  6  3  5  2  3  3  w\nse 3  2  4  4  2  2  2  3  w\nse 3  2  2  1  3  0  3  2  sw\ne  4  3  3  1  3  4  3  5  sw\nse 2  1  2  1  2  2  5  2  nw\ne  5  2  4  4  5  4  5  5  w\nse 1  2  2  2  4  2  1  3  nw\ne  3  2  5  3  4  2  4  3  nw\n-  ne ne ne nw n  ne ne nw -"
+      "solution": "8 8\n- s se s sw sw sw s s -\ne 3 3 6 3 5 2 3 3 w\nse 3 2 4 4 2 2 2 3 w\nse 3 2 2 1 3 0 3 2 sw\ne 4 3 3 1 3 4 3 5 sw\nse 2 1 2 1 2 2 5 2 nw\ne 5 2 4 4 5 4 5 5 w\nse 1 2 2 2 4 2 1 3 nw\ne 3 2 5 3 4 2 4 3 nw\n- ne ne ne nw n ne ne nw -"
     },
     "94_8x8": {
       "id": "94_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/094.a.htm",
-      "solution": "8 8\n-  se s  se s  s  se se s  -\nse 2  3  2  4  3  2  3  5  w\ne  3  2  2  3  6  2  1  4  nw\ne  3  4  2  5  6  4  2  4  w\nse 2  1  2  2  3  1  2  3  sw\ne  3  4  2  3  3  2  3  6  sw\nse 3  3  1  1  3  1  2  4  nw\nne 3  2  1  2  3  2  1  3  nw\nne 3  3  2  4  5  2  2  4  w\n-  n  nw ne nw n  nw ne n  -"
+      "solution": "8 8\n- se s se s s se se s -\nse 2 3 2 4 3 2 3 5 w\ne 3 2 2 3 6 2 1 4 nw\ne 3 4 2 5 6 4 2 4 w\nse 2 1 2 2 3 1 2 3 sw\ne 3 4 2 3 3 2 3 6 sw\nse 3 3 1 1 3 1 2 4 nw\nne 3 2 1 2 3 2 1 3 nw\nne 3 3 2 4 5 2 2 4 w\n- n nw ne nw n nw ne n -"
     },
     "96_8x8": {
       "id": "96_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/096.a.htm",
-      "solution": "8 8\n-  s  se s  s  sw sw se sw -\ne  3  2  4  4  3  1  3  3  sw\ne  3  1  6  4  2  3  1  3  sw\ne  3  3  4  3  5  1  2  4  sw\ne  6  3  4  5  4  4  4  4  w\nne 4  1  5  2  3  4  3  2  w\ne  5  4  4  4  5  3  3  4  w\ne  5  2  4  4  3  1  1  4  sw\nne 2  1  5  2  1  0  1  3  nw\n-  n  ne n  nw n  ne ne n  -"
+      "solution": "8 8\n- s se s s sw sw se sw -\ne 3 2 4 4 3 1 3 3 sw\ne 3 1 6 4 2 3 1 3 sw\ne 3 3 4 3 5 1 2 4 sw\ne 6 3 4 5 4 4 4 4 w\nne 4 1 5 2 3 4 3 2 w\ne 5 4 4 4 5 3 3 4 w\ne 5 2 4 4 3 1 1 4 sw\nne 2 1 5 2 1 0 1 3 nw\n- n ne n nw n ne ne n -"
     },
     "97_8x8": {
       "id": "97_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/097.a.htm",
-      "solution": "8 8\n-  s  se sw s  s  s  s  s  -\nse 3  2  4  4  3  4  4  2  w\nse 5  1  1  4  3  2  3  1  sw\ne  6  4  4  5  5  4  4  6  w\nne 3  2  4  3  1  2  5  1  nw\ne  5  3  4  5  2  4  4  3  sw\nne 3  2  2  3  5  1  2  3  nw\nne 4  1  3  6  3  4  4  2  w\nne 3  1  4  4  3  4  5  2  w\n-  n  ne n  n  nw nw n  nw -"
+      "solution": "8 8\n- s se sw s s s s s -\nse 3 2 4 4 3 4 4 2 w\nse 5 1 1 4 3 2 3 1 sw\ne 6 4 4 5 5 4 4 6 w\nne 3 2 4 3 1 2 5 1 nw\ne 5 3 4 5 2 4 4 3 sw\nne 3 2 2 3 5 1 2 3 nw\nne 4 1 3 6 3 4 4 2 w\nne 3 1 4 4 3 4 5 2 w\n- n ne n n nw nw n nw -"
     },
     "98_8x8": {
       "id": "98_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/098.a.htm",
-      "solution": "8 8\n-  s  s  s  sw sw s  se s  -\ne  3  3  4  3  2  3  3  4  w\ne  4  4  4  2  2  3  3  4  w\nse 3  4  2  1  1  2  3  2  w\ne  4  2  3  1  1  3  2  3  sw\nse 3  3  2  2  2  2  3  4  w\nse 2  2  2  1  1  2  3  1  sw\nse 2  2  3  1  1  4  1  3  sw\ne  5  5  4  4  5  3  6  4  w\n-  ne nw ne ne nw ne n  nw -"
+      "solution": "8 8\n- s s s sw sw s se s -\ne 3 3 4 3 2 3 3 4 w\ne 4 4 4 2 2 3 3 4 w\nse 3 4 2 1 1 2 3 2 w\ne 4 2 3 1 1 3 2 3 sw\nse 3 3 2 2 2 2 3 4 w\nse 2 2 2 1 1 2 3 1 sw\nse 2 2 3 1 1 4 1 3 sw\ne 5 5 4 4 5 3 6 4 w\n- ne nw ne ne nw ne n nw -"
     },
     "99_8x8": {
       "id": "99_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/099.a.htm",
-      "solution": "8 8\n-  se se sw s  se sw se s  -\ne  1  4  3  2  2  2  3  3  sw\ne  4  2  4  6  2  3  3  6  w\nse 1  1  1  3  3  0  2  2  nw\ne  2  3  2  3  3  5  1  3  sw\nse 2  1  2  2  2  2  3  2  sw\ne  3  3  2  5  2  2  4  5  sw\nse 1  2  3  2  2  2  1  5  nw\nne 2  2  2  3  2  2  3  1  nw\n-  ne nw ne nw nw ne nw nw -"
+      "solution": "8 8\n- se se sw s se sw se s -\ne 1 4 3 2 2 2 3 3 sw\ne 4 2 4 6 2 3 3 6 w\nse 1 1 1 3 3 0 2 2 nw\ne 2 3 2 3 3 5 1 3 sw\nse 2 1 2 2 2 2 3 2 sw\ne 3 3 2 5 2 2 4 5 sw\nse 1 2 3 2 2 2 1 5 nw\nne 2 2 2 3 2 2 3 1 nw\n- ne nw ne nw nw ne nw nw -"
     },
     "102_8x8": {
       "id": "102_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/102.a.htm",
-      "solution": "8 8\n-  s  s  sw s  sw se s  sw -\nse 2  4  2  4  1  2  5  1  w\ne  6  4  4  4  2  4  4  4  w\ne  3  5  1  4  2  2  4  1  sw\nne 3  2  3  4  2  3  3  3  w\ne  3  2  2  5  2  3  5  1  sw\nse 1  3  0  3  2  3  3  1  sw\nse 4  2  3  3  3  4  4  3  w\ne  4  4  1  6  1  3  6  1  nw\n-  ne nw ne n  nw n  n  nw -"
+      "solution": "8 8\n- s s sw s sw se s sw -\nse 2 4 2 4 1 2 5 1 w\ne 6 4 4 4 2 4 4 4 w\ne 3 5 1 4 2 2 4 1 sw\nne 3 2 3 4 2 3 3 3 w\ne 3 2 2 5 2 3 5 1 sw\nse 1 3 0 3 2 3 3 1 sw\nse 4 2 3 3 3 4 4 3 w\ne 4 4 1 6 1 3 6 1 nw\n- ne nw ne n nw n n nw -"
     },
     "104_8x8": {
       "id": "104_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/104.a.htm",
-      "solution": "8 8\n-  se se se s  se sw sw s  -\ne  2  4  4  5  3  5  1  2  sw\nse 4  2  4  7  3  2  3  3  w\nne 3  3  3  4  2  2  1  3  sw\ne  3  6  4  3  2  5  2  3  nw\nne 4  3  4  4  2  3  4  3  w\nne 3  2  2  6  2  3  2  5  w\ne  2  2  3  3  4  3  2  3  nw\ne  3  4  3  5  2  6  3  3  w\n-  n  n  n  n  ne n  nw nw -"
+      "solution": "8 8\n- se se se s se sw sw s -\ne 2 4 4 5 3 5 1 2 sw\nse 4 2 4 7 3 2 3 3 w\nne 3 3 3 4 2 2 1 3 sw\ne 3 6 4 3 2 5 2 3 nw\nne 4 3 4 4 2 3 4 3 w\nne 3 2 2 6 2 3 2 5 w\ne 2 2 3 3 4 3 2 3 nw\ne 3 4 3 5 2 6 3 3 w\n- n n n n ne n nw nw -"
     },
     "105_8x8": {
       "id": "105_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/105.a.htm",
-      "solution": "8 8\n-  s  se sw sw s  sw s  sw -\ne  3  4  5  1  4  2  4  2  sw\nse 4  3  2  2  1  4  1  1  nw\ne  7  4  4  3  6  3  5  2  w\nne 3  4  3  3  3  4  2  2  w\ne  5  2  5  2  3  3  3  1  nw\ne  5  6  3  4  4  3  4  3  w\ne  6  4  5  2  4  4  3  3  w\nne 2  2  2  1  1  2  2  1  nw\n-  n  n  n  nw nw n  ne nw -"
+      "solution": "8 8\n- s se sw sw s sw s sw -\ne 3 4 5 1 4 2 4 2 sw\nse 4 3 2 2 1 4 1 1 nw\ne 7 4 4 3 6 3 5 2 w\nne 3 4 3 3 3 4 2 2 w\ne 5 2 5 2 3 3 3 1 nw\ne 5 6 3 4 4 3 4 3 w\ne 6 4 5 2 4 4 3 3 w\nne 2 2 2 1 1 2 2 1 nw\n- n n n nw nw n ne nw -"
     },
     "107_8x8": {
       "id": "107_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/107.a.htm",
-      "solution": "8 8\n-  s  sw s  s  s  s  sw s  -\nse 4  2  3  3  2  4  2  4  w\nne 2  1  1  3  2  1  1  4  nw\nse 1  2  1  3  2  1  1  3  nw\nse 3  1  3  2  1  3  0  2  nw\ne  5  6  3  5  4  3  3  4  w\ne  3  4  4  4  3  2  1  4  sw\ne  3  2  5  5  2  3  1  4  nw\ne  3  5  3  6  5  3  4  5  w\n-  ne n  nw n  nw nw ne n  -"
+      "solution": "8 8\n- s sw s s s s sw s -\nse 4 2 3 3 2 4 2 4 w\nne 2 1 1 3 2 1 1 4 nw\nse 1 2 1 3 2 1 1 3 nw\nse 3 1 3 2 1 3 0 2 nw\ne 5 6 3 5 4 3 3 4 w\ne 3 4 4 4 3 2 1 4 sw\ne 3 2 5 5 2 3 1 4 nw\ne 3 5 3 6 5 3 4 5 w\n- ne n nw n nw nw ne n -"
     },
     "109_8x8": {
       "id": "109_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/109.a.htm",
-      "solution": "8 8\n-  s  s  sw se sw s  s  s  -\nse 4  6  2  2  4  3  4  2  w\nne 7  3  4  2  2  4  4  2  w\nne 3  6  3  2  3  2  4  3  w\nse 4  3  3  1  2  1  2  2  nw\ne  6  5  4  4  3  4  4  3  w\nne 3  4  2  0  3  1  3  1  sw\nse 3  3  2  1  1  3  2  3  sw\nne 3  2  2  1  2  1  5  2  nw\n-  n  n  n  nw n  nw n  nw -"
+      "solution": "8 8\n- s s sw se sw s s s -\nse 4 6 2 2 4 3 4 2 w\nne 7 3 4 2 2 4 4 2 w\nne 3 6 3 2 3 2 4 3 w\nse 4 3 3 1 2 1 2 2 nw\ne 6 5 4 4 3 4 4 3 w\nne 3 4 2 0 3 1 3 1 sw\nse 3 3 2 1 1 3 2 3 sw\nne 3 2 2 1 2 1 5 2 nw\n- n n n nw n nw n nw -"
     },
     "110_8x8": {
       "id": "110_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/110.a.htm",
-      "solution": "8 8\n-  s  s  se s  s  sw sw s  -\ne  4  5  4  5  5  4  4  4  w\nse 3  3  1  4  4  1  2  1  nw\nse 5  4  2  5  5  2  2  3  w\nne 4  4  2  3  3  1  2  2  nw\nse 4  6  3  4  3  2  4  3  w\nse 4  3  2  3  3  1  2  2  sw\nse 4  3  0  4  4  1  1  3  nw\nne 3  3  1  3  4  1  3  1  nw\n-  n  n  ne n  n  nw n  nw -"
+      "solution": "8 8\n- s s se s s sw sw s -\ne 4 5 4 5 5 4 4 4 w\nse 3 3 1 4 4 1 2 1 nw\nse 5 4 2 5 5 2 2 3 w\nne 4 4 2 3 3 1 2 2 nw\nse 4 6 3 4 3 2 4 3 w\nse 4 3 2 3 3 1 2 2 sw\nse 4 3 0 4 4 1 1 3 nw\nne 3 3 1 3 4 1 3 1 nw\n- n n ne n n nw n nw -"
     },
     "112_8x8": {
       "id": "112_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/112.a.htm",
-      "solution": "8 8\n-  se sw sw se sw s  sw s  -\ne  5  5  2  4  3  4  4  4  w\nne 2  1  3  0  1  3  1  2  sw\ne  2  4  1  3  2  2  3  4  sw\nse 5  2  2  2  2  2  3  6  w\nne 3  4  2  1  1  4  4  4  w\nse 3  4  2  1  2  4  4  4  w\nse 3  1  1  2  2  2  2  3  sw\nne 3  3  2  4  3  3  2  4  w\n-  n  n  ne ne ne nw n  n  -"
+      "solution": "8 8\n- se sw sw se sw s sw s -\ne 5 5 2 4 3 4 4 4 w\nne 2 1 3 0 1 3 1 2 sw\ne 2 4 1 3 2 2 3 4 sw\nse 5 2 2 2 2 2 3 6 w\nne 3 4 2 1 1 4 4 4 w\nse 3 4 2 1 2 4 4 4 w\nse 3 1 1 2 2 2 2 3 sw\nne 3 3 2 4 3 3 2 4 w\n- n n ne ne ne nw n n -"
     },
     "113_8x8": {
       "id": "113_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/113.a.htm",
-      "solution": "8 8\n-  se s  s  sw s  sw s  sw -\ne  3  5  7  2  4  3  5  3  w\ne  3  5  6  4  3  5  3  3  w\nse 3  1  3  2  4  1  1  2  sw\nne 3  3  3  3  4  3  3  3  w\nse 3  3  5  1  2  5  4  2  w\nse 4  4  4  1  3  3  4  4  w\ne  5  4  3  3  3  2  3  4  nw\nne 1  2  5  1  2  2  1  2  nw\n-  n  ne n  nw ne n  ne n  -"
+      "solution": "8 8\n- se s s sw s sw s sw -\ne 3 5 7 2 4 3 5 3 w\ne 3 5 6 4 3 5 3 3 w\nse 3 1 3 2 4 1 1 2 sw\nne 3 3 3 3 4 3 3 3 w\nse 3 3 5 1 2 5 4 2 w\nse 4 4 4 1 3 3 4 4 w\ne 5 4 3 3 3 2 3 4 nw\nne 1 2 5 1 2 2 1 2 nw\n- n ne n nw ne n ne n -"
     },
     "114_8x8": {
       "id": "114_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/114.a.htm",
-      "solution": "8 8\n-  se s  sw s  s  se se sw -\ne  2  6  4  4  5  4  6  5  w\ne  3  2  3  5  3  4  3  4  nw\nne 1  2  3  4  6  2  3  4  w\ne  1  3  2  5  4  4  3  2  nw\nse 1  1  3  2  3  3  2  1  sw\nne 1  3  1  3  3  1  2  3  sw\ne  3  3  3  4  3  2  3  4  nw\nne 1  3  4  3  3  3  3  2  w\n-  ne ne n  n  n  n  n  n  -"
+      "solution": "8 8\n- se s sw s s se se sw -\ne 2 6 4 4 5 4 6 5 w\ne 3 2 3 5 3 4 3 4 nw\nne 1 2 3 4 6 2 3 4 w\ne 1 3 2 5 4 4 3 2 nw\nse 1 1 3 2 3 3 2 1 sw\nne 1 3 1 3 3 1 2 3 sw\ne 3 3 3 4 3 2 3 4 nw\nne 1 3 4 3 3 3 3 2 w\n- ne ne n n n n n n -"
     },
     "115_8x8": {
       "id": "115_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/115.a.htm",
-      "solution": "8 8\n-  s  sw se sw s  sw sw s  -\ne  4  1  3  3  5  4  2  2  sw\nne 3  2  2  3  6  3  2  4  w\nse 2  1  3  2  1  3  4  1  sw\ne  4  4  6  2  3  5  5  5  w\ne  5  4  2  2  4  2  3  5  nw\nne 3  1  2  2  2  2  2  1  nw\nne 2  1  5  2  3  4  2  2  w\ne  4  4  3  4  5  3  4  3  w\n-  ne nw n  ne nw n  n  nw -"
+      "solution": "8 8\n- s sw se sw s sw sw s -\ne 4 1 3 3 5 4 2 2 sw\nne 3 2 2 3 6 3 2 4 w\nse 2 1 3 2 1 3 4 1 sw\ne 4 4 6 2 3 5 5 5 w\ne 5 4 2 2 4 2 3 5 nw\nne 3 1 2 2 2 2 2 1 nw\nne 2 1 5 2 3 4 2 2 w\ne 4 4 3 4 5 3 4 3 w\n- ne nw n ne nw n n nw -"
     },
     "116_8x8": {
       "id": "116_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/116.a.htm",
-      "solution": "8 8\n-  se se se sw s  s  se s  -\nse 1  3  4  3  4  4  2  4  w\nse 1  2  1  4  3  2  2  3  sw\nse 2  2  1  2  4  3  2  4  sw\nse 1  3  1  1  3  5  3  3  nw\nse 3  3  2  3  4  5  5  4  w\nne 2  3  2  4  5  4  3  5  w\ne  2  3  3  4  5  4  2  4  nw\ne  2  5  4  5  5  5  4  4  w\n-  ne n  nw n  n  n  n  n  -"
+      "solution": "8 8\n- se se se sw s s se s -\nse 1 3 4 3 4 4 2 4 w\nse 1 2 1 4 3 2 2 3 sw\nse 2 2 1 2 4 3 2 4 sw\nse 1 3 1 1 3 5 3 3 nw\nse 3 3 2 3 4 5 5 4 w\nne 2 3 2 4 5 4 3 5 w\ne 2 3 3 4 5 4 2 4 nw\ne 2 5 4 5 5 5 4 4 w\n- ne n nw n n n n n -"
     },
     "118_8x8": {
       "id": "118_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/118.a.htm",
-      "solution": "8 8\n-  s  sw s  s  sw s  s  sw -\nse 3  2  4  6  1  2  5  1  w\nse 5  2  5  3  2  4  3  2  w\nne 4  5  3  3  3  3  4  1  w\nne 4  2  5  5  1  3  4  1  w\nne 3  1  6  5  2  2  3  2  w\nse 1  3  2  4  2  1  2  0  nw\ne  5  1  5  3  2  4  3  2  sw\nne 3  3  3  4  1  3  6  2  w\n-  ne nw n  n  nw ne n  nw -"
+      "solution": "8 8\n- s sw s s sw s s sw -\nse 3 2 4 6 1 2 5 1 w\nse 5 2 5 3 2 4 3 2 w\nne 4 5 3 3 3 3 4 1 w\nne 4 2 5 5 1 3 4 1 w\nne 3 1 6 5 2 2 3 2 w\nse 1 3 2 4 2 1 2 0 nw\ne 5 1 5 3 2 4 3 2 sw\nne 3 3 3 4 1 3 6 2 w\n- ne nw n n nw ne n nw -"
     },
     "119_8x8": {
       "id": "119_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/119.a.htm",
-      "solution": "8 8\n-  s  s  s  sw s  se se sw -\ne  3  5  6  2  3  4  5  4  w\nse 2  2  3  1  1  2  2  3  sw\nne 3  1  2  1  3  1  2  4  sw\ne  2  3  3  2  3  4  4  3  nw\ne  2  2  5  1  3  5  4  3  sw\ne  2  3  3  3  4  3  4  5  sw\nse 2  1  3  2  3  2  3  3  nw\ne  3  3  5  2  3  5  3  2  nw\n-  ne ne n  ne ne n  n  n  -"
+      "solution": "8 8\n- s s s sw s se se sw -\ne 3 5 6 2 3 4 5 4 w\nse 2 2 3 1 1 2 2 3 sw\nne 3 1 2 1 3 1 2 4 sw\ne 2 3 3 2 3 4 4 3 nw\ne 2 2 5 1 3 5 4 3 sw\ne 2 3 3 3 4 3 4 5 sw\nse 2 1 3 2 3 2 3 3 nw\ne 3 3 5 2 3 5 3 2 nw\n- ne ne n ne ne n n n -"
     },
     "120_8x8": {
       "id": "120_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/120.a.htm",
-      "solution": "8 8\n-  s  s  s  sw sw s  sw sw -\nse 3  3  4  3  2  6  3  1  w\ne  5  3  6  1  4  5  2  1  sw\ne  4  6  3  4  4  3  1  3  sw\nse 4  1  6  2  2  2  1  1  nw\nne 4  4  5  3  2  5  2  2  w\ne  5  5  3  1  5  4  3  1  sw\nne 4  1  3  1  2  5  0  2  sw\nne 3  1  3  2  2  2  3  2  nw\n-  n  nw n  ne n  n  ne nw -"
+      "solution": "8 8\n- s s s sw sw s sw sw -\nse 3 3 4 3 2 6 3 1 w\ne 5 3 6 1 4 5 2 1 sw\ne 4 6 3 4 4 3 1 3 sw\nse 4 1 6 2 2 2 1 1 nw\nne 4 4 5 3 2 5 2 2 w\ne 5 5 3 1 5 4 3 1 sw\nne 4 1 3 1 2 5 0 2 sw\nne 3 1 3 2 2 2 3 2 nw\n- n nw n ne n n ne nw -"
     },
     "121_3x3": {
       "id": "121_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/121.a.htm",
-      "solution": "3 3\n-  se sw s  -\ne  4  3  4  sw\nne 1  1  4  nw\ne  3  4  4  w\n-  n  n  n  -"
+      "solution": "3 3\n- se sw s -\ne 4 3 4 sw\nne 1 1 4 nw\ne 3 4 4 w\n- n n n -"
     },
     "122_3x3": {
       "id": "122_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/122.a.htm",
-      "solution": "3 3\n-  se sw s  -\nse 3  3  4  w\nne 1  1  4  nw\ne  2  5  4  w\n-  ne n  n  -"
+      "solution": "3 3\n- se sw s -\nse 3 3 4 w\nne 1 1 4 nw\ne 2 5 4 w\n- ne n n -"
     },
     "123_4x4": {
       "id": "123_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/123.a.htm",
-      "solution": "4 4\n-  s  se s  sw -\nse 1  1  5  1  sw\nse 3  4  2  6  w\nse 5  2  3  1  nw\nne 3  6  3  2  w\n-  ne n  nw n  -"
+      "solution": "4 4\n- s se s sw -\nse 1 1 5 1 sw\nse 3 4 2 6 w\nse 5 2 3 1 nw\nne 3 6 3 2 w\n- ne n nw n -"
     },
     "124_4x4": {
       "id": "124_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/124.a.htm",
-      "solution": "4 4\n-  se se s  sw -\ne  3  5  7  3  w\nse 3  3  5  3  w\nne 5  1  3  5  w\nne 1  1  3  1  nw\n-  n  ne n  n  -"
+      "solution": "4 4\n- se se s sw -\ne 3 5 7 3 w\nse 3 3 5 3 w\nne 5 1 3 5 w\nne 1 1 3 1 nw\n- n ne n n -"
     },
     "126_4x4": {
       "id": "126_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/126.a.htm",
-      "solution": "4 4\n-  se sw sw s  -\nse 1  2  1  1  sw\nse 4  1  3  4  w\ne  3  4  5  4  w\ne  3  5  5  3  w\n-  ne nw n  nw -"
+      "solution": "4 4\n- se sw sw s -\nse 1 2 1 1 sw\nse 4 1 3 4 w\ne 3 4 5 4 w\ne 3 5 5 3 w\n- ne nw n nw -"
     },
     "128_4x4": {
       "id": "128_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/128.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\nse 1  1  3  2  sw\ne  3  3  2  6  sw\ne  4  4  5  5  w\nne 2  4  4  4  w\n-  ne n  ne n  -"
+      "solution": "4 4\n- s se s s -\nse 1 1 3 2 sw\ne 3 3 2 6 sw\ne 4 4 5 5 w\nne 2 4 4 4 w\n- ne n ne n -"
     },
     "129_8x8": {
       "id": "129_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/129.a.htm",
-      "solution": "8 8\n-  s  sw s  sw s  s  s  sw -\nse 4  3  5  3  2  2  4  3  w\nse 3  3  2  2  2  2  2  1  nw\ne  7  4  3  4  5  4  4  3  w\nne 3  3  3  3  3  3  4  3  w\ne  4  2  4  3  2  3  5  3  sw\nse 2  3  1  2  2  2  3  3  nw\ne  5  2  3  2  4  3  4  4  nw\ne  3  3  2  4  2  4  5  2  nw\n-  n  n  ne n  nw ne n  n  -"
+      "solution": "8 8\n- s sw s sw s s s sw -\nse 4 3 5 3 2 2 4 3 w\nse 3 3 2 2 2 2 2 1 nw\ne 7 4 3 4 5 4 4 3 w\nne 3 3 3 3 3 3 4 3 w\ne 4 2 4 3 2 3 5 3 sw\nse 2 3 1 2 2 2 3 3 nw\ne 5 2 3 2 4 3 4 4 nw\ne 3 3 2 4 2 4 5 2 nw\n- n n ne n nw ne n n -"
     },
     "132_3x3": {
       "id": "132_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/132.a.htm",
-      "solution": "3 3\n-  s  s  s  -\ne  5  5  5  w\nne 2  2  3  nw\ne  3  3  3  nw\n-  n  n  n  -"
+      "solution": "3 3\n- s s s -\ne 5 5 5 w\nne 2 2 3 nw\ne 3 3 3 nw\n- n n n -"
     },
     "133_4x4": {
       "id": "133_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/133.a.htm",
-      "solution": "4 4\n-  s  se s  sw -\ne  2  1  6  2  sw\ne  3  4  3  7  w\ne  5  1  4  3  nw\nne 2  4  3  2  w\n-  ne ne nw n  -"
+      "solution": "4 4\n- s se s sw -\ne 2 1 6 2 sw\ne 3 4 3 7 w\ne 5 1 4 3 nw\nne 2 4 3 2 w\n- ne ne nw n -"
     },
     "134_4x4": {
       "id": "134_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/134.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 2  1  2  2  sw\ne  6  2  2  7  w\ne  3  2  2  4  nw\ne  4  3  4  5  w\n-  n  ne ne n  -"
+      "solution": "4 4\n- s se sw s -\nse 2 1 2 2 sw\ne 6 2 2 7 w\ne 3 2 2 4 nw\ne 4 3 4 5 w\n- n ne ne n -"
     },
     "135_4x4": {
       "id": "135_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/135.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 1  1  2  2  sw\nse 4  2  1  6  w\ne  6  3  4  5  w\nne 2  5  3  3  w\n-  ne ne nw n  -"
+      "solution": "4 4\n- s se sw s -\nse 1 1 2 2 sw\nse 4 2 1 6 w\ne 6 3 4 5 w\nne 2 5 3 3 w\n- ne ne nw n -"
     },
     "136_4x4": {
       "id": "136_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/136.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\ne  2  2  4  3  sw\ne  3  4  3  7  w\ne  4  3  5  4  w\nne 2  4  2  4  w\n-  ne n  ne n  -"
+      "solution": "4 4\n- s se s s -\ne 2 2 4 3 sw\ne 3 4 3 7 w\ne 4 3 5 4 w\nne 2 4 2 4 w\n- ne n ne n -"
     },
     "137_4x4": {
       "id": "137_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/137.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 1  1  2  1  sw\nse 5  2  1  5  w\nse 4  2  2  2  sw\nne 3  5  4  3  w\n-  ne ne nw nw -"
+      "solution": "4 4\n- s se sw s -\nse 1 1 2 1 sw\nse 5 2 1 5 w\nse 4 2 2 2 sw\nne 3 5 4 3 w\n- ne ne nw nw -"
     },
     "138_4x4": {
       "id": "138_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/138.a.htm",
-      "solution": "4 4\n-  se sw se sw -\nse 2  2  2  1  sw\ne  6  3  4  3  w\nne 3  3  3  2  w\ne  4  3  5  2  w\n-  n  nw n  nw -"
+      "solution": "4 4\n- se sw se sw -\nse 2 2 2 1 sw\ne 6 3 4 3 w\nne 3 3 3 2 w\ne 4 3 5 2 w\n- n nw n nw -"
     },
     "139_8x8": {
       "id": "139_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/139.a.htm",
-      "solution": "8 8\n-  s  se s  s  s  sw sw s  -\nse 2  3  4  5  4  3  2  2  w\ne  5  1  4  6  4  4  1  3  sw\nne 1  3  2  4  4  2  2  2  sw\nse 3  2  5  4  3  5  3  5  w\nne 4  1  2  4  2  3  4  2  nw\nse 2  3  1  3  4  3  1  3  nw\ne  4  1  5  4  4  4  1  3  nw\nne 2  2  2  6  1  1  2  2  nw\n-  ne nw ne n  nw n  ne nw -"
+      "solution": "8 8\n- s se s s s sw sw s -\nse 2 3 4 5 4 3 2 2 w\ne 5 1 4 6 4 4 1 3 sw\nne 1 3 2 4 4 2 2 2 sw\nse 3 2 5 4 3 5 3 5 w\nne 4 1 2 4 2 3 4 2 nw\nse 2 3 1 3 4 3 1 3 nw\ne 4 1 5 4 4 4 1 3 nw\nne 2 2 2 6 1 1 2 2 nw\n- ne nw ne n nw n ne nw -"
     },
     "140_8x8": {
       "id": "140_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/140.a.htm",
-      "solution": "8 8\n-  s  se sw sw se se se s  -\nse 3  4  5  3  1  1  2  3  sw\nne 6  3  3  3  1  1  2  3  nw\nne 4  4  1  2  2  1  3  2  sw\nne 4  2  4  2  2  4  3  4  w\nne 3  1  1  3  1  1  4  2  nw\ne  3  3  2  3  3  2  3  4  nw\nse 2  1  3  1  1  2  1  3  nw\ne  4  3  2  4  1  1  5  2  nw\n-  n  n  n  n  nw ne n  nw -"
+      "solution": "8 8\n- s se sw sw se se se s -\nse 3 4 5 3 1 1 2 3 sw\nne 6 3 3 3 1 1 2 3 nw\nne 4 4 1 2 2 1 3 2 sw\nne 4 2 4 2 2 4 3 4 w\nne 3 1 1 3 1 1 4 2 nw\ne 3 3 2 3 3 2 3 4 nw\nse 2 1 3 1 1 2 1 3 nw\ne 4 3 2 4 1 1 5 2 nw\n- n n n n nw ne n nw -"
     },
     "142_3x3": {
       "id": "142_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/142.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 2  4  5  w\ne  4  2  5  nw\nne 1  3  2  nw\n-  ne n  n  -"
+      "solution": "3 3\n- s se s -\nse 2 4 5 w\ne 4 2 5 nw\nne 1 3 2 nw\n- ne n n -"
     },
     "143_4x4": {
       "id": "143_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/143.a.htm",
-      "solution": "4 4\n-  se se sw sw -\ne  2  4  6  2  sw\ne  4  4  5  6  w\ne  4  1  3  5  nw\nne 1  1  2  1  nw\n-  n  ne n  n  -"
+      "solution": "4 4\n- se se sw sw -\ne 2 4 6 2 sw\ne 4 4 5 6 w\ne 4 1 3 5 nw\nne 1 1 2 1 nw\n- n ne n n -"
     },
     "144_4x4": {
       "id": "144_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/144.a.htm",
-      "solution": "4 4\n-  se sw s  sw -\nse 3  3  4  1  w\ne  6  3  5  2  w\nne 2  2  2  2  sw\ne  3  2  7  3  w\n-  n  ne n  nw -"
+      "solution": "4 4\n- se sw s sw -\nse 3 3 4 1 w\ne 6 3 5 2 w\nne 2 2 2 2 sw\ne 3 2 7 3 w\n- n ne n nw -"
     },
     "145_4x4": {
       "id": "145_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/145.a.htm",
-      "solution": "4 4\n-  s  se s  sw -\ne  4  4  6  2  w\nse 5  4  2  2  w\nne 7  3  2  1  w\nne 3  4  3  1  w\n-  n  n  nw nw -"
+      "solution": "4 4\n- s se s sw -\ne 4 4 6 2 w\nse 5 4 2 2 w\nne 7 3 2 1 w\nne 3 4 3 1 w\n- n n nw nw -"
     },
     "146_4x4": {
       "id": "146_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/146.a.htm",
-      "solution": "4 4\n-  s  sw s  sw -\ne  3  2  5  2  sw\nse 2  2  2  3  sw\nne 5  1  5  3  w\nne 3  4  4  2  w\n-  ne nw n  n  -"
+      "solution": "4 4\n- s sw s sw -\ne 3 2 5 2 sw\nse 2 2 2 3 sw\nne 5 1 5 3 w\nne 3 4 4 2 w\n- ne nw n n -"
     },
     "147_4x4": {
       "id": "147_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/147.a.htm",
-      "solution": "4 4\n-  s  se s  sw -\ne  2  2  5  2  sw\ne  2  4  2  5  sw\ne  6  3  5  4  w\nne 2  5  3  2  w\n-  ne n  nw n  -"
+      "solution": "4 4\n- s se s sw -\ne 2 2 5 2 sw\ne 2 4 2 5 sw\ne 6 3 5 4 w\nne 2 5 3 2 w\n- ne n nw n -"
     },
     "148_4x4": {
       "id": "148_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/148.a.htm",
-      "solution": "4 4\n-  se se s  s  -\nse 2  2  5  2  w\nse 3  1  2  3  sw\ne  5  3  2  5  nw\nne 2  3  6  2  w\n-  n  ne nw nw -"
+      "solution": "4 4\n- se se s s -\nse 2 2 5 2 w\nse 3 1 2 3 sw\ne 5 3 2 5 nw\nne 2 3 6 2 w\n- n ne nw nw -"
     },
     "149_8x8": {
       "id": "149_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/149.a.htm",
-      "solution": "8 8\n-  se se s  sw sw s  sw s  -\ne  2  4  5  2  1  3  1  3  sw\ne  3  2  5  3  2  2  1  4  sw\nne 3  1  1  3  2  1  1  4  sw\nse 2  1  2  0  2  4  2  4  sw\ne  4  3  4  2  3  7  6  5  w\ne  4  2  2  3  3  4  4  6  sw\nse 1  1  3  2  3  2  1  6  nw\ne  3  2  5  4  2  4  3  3  nw\n-  n  ne ne nw ne ne nw n  -"
+      "solution": "8 8\n- se se s sw sw s sw s -\ne 2 4 5 2 1 3 1 3 sw\ne 3 2 5 3 2 2 1 4 sw\nne 3 1 1 3 2 1 1 4 sw\nse 2 1 2 0 2 4 2 4 sw\ne 4 3 4 2 3 7 6 5 w\ne 4 2 2 3 3 4 4 6 sw\nse 1 1 3 2 3 2 1 6 nw\ne 3 2 5 4 2 4 3 3 nw\n- n ne ne nw ne ne nw n -"
     },
     "150_8x8": {
       "id": "150_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/150.a.htm",
-      "solution": "8 8\n-  se se s  s  sw s  se sw -\ne  2  3  4  3  2  2  5  2  sw\nse 2  1  3  4  0  3  1  2  sw\ne  3  4  3  3  5  2  3  2  nw\nse 2  3  2  3  1  4  2  1  sw\ne  5  3  6  4  3  5  6  4  w\nne 1  4  1  3  2  2  4  3  sw\nse 3  1  3  2  2  4  2  3  nw\nne 3  3  3  4  3  4  5  1  w\n-  n  n  ne ne ne ne n  nw -"
+      "solution": "8 8\n- se se s s sw s se sw -\ne 2 3 4 3 2 2 5 2 sw\nse 2 1 3 4 0 3 1 2 sw\ne 3 4 3 3 5 2 3 2 nw\nse 2 3 2 3 1 4 2 1 sw\ne 5 3 6 4 3 5 6 4 w\nne 1 4 1 3 2 2 4 3 sw\nse 3 1 3 2 2 4 2 3 nw\nne 3 3 3 4 3 4 5 1 w\n- n n ne ne ne ne n nw -"
     },
     "151_3x3": {
       "id": "151_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/151.a.htm",
-      "solution": "3 3\n-  se se s  -\nse 2  1  4  sw\nne 2  0  4  nw\ne  4  4  4  w\n-  n  nw n  -"
+      "solution": "3 3\n- se se s -\nse 2 1 4 sw\nne 2 0 4 nw\ne 4 4 4 w\n- n nw n -"
     },
     "152_3x3": {
       "id": "152_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/152.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 1  3  3  sw\ne  5  2  5  nw\nne 1  5  1  nw\n-  ne n  nw -"
+      "solution": "3 3\n- s se s -\nse 1 3 3 sw\ne 5 2 5 nw\nne 1 5 1 nw\n- ne n nw -"
     },
     "153_4x4": {
       "id": "153_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/153.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\nse 3  2  6  3  w\nne 2  1  3  5  sw\ne  3  2  4  6  nw\nne 1  1  5  2  nw\n-  ne ne n  n  -"
+      "solution": "4 4\n- s se s s -\nse 3 2 6 3 w\nne 2 1 3 5 sw\ne 3 2 4 6 nw\nne 1 1 5 2 nw\n- ne ne n n -"
     },
     "155_4x4": {
       "id": "155_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/155.a.htm",
-      "solution": "4 4\n-  s  sw s  sw -\ne  3  2  4  3  sw\ne  3  2  3  4  nw\nne 3  1  5  3  w\ne  3  4  5  3  w\n-  ne ne n  n  -"
+      "solution": "4 4\n- s sw s sw -\ne 3 2 4 3 sw\ne 3 2 3 4 nw\nne 3 1 5 3 w\ne 3 4 5 3 w\n- ne ne n n -"
     },
     "156_4x4": {
       "id": "156_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/156.a.htm",
-      "solution": "4 4\n-  se sw se s  -\nse 3  3  1  4  w\nse 4  1  2  3  w\nne 4  2  1  4  w\ne  4  4  3  4  w\n-  n  nw nw n  -"
+      "solution": "4 4\n- se sw se s -\nse 3 3 1 4 w\nse 4 1 2 3 w\nne 4 2 1 4 w\ne 4 4 3 4 w\n- n nw nw n -"
     },
     "157_8x8": {
       "id": "157_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/157.a.htm",
-      "solution": "8 8\n-  s  s  s  se s  s  sw s  -\ne  3  2  3  2  4  5  3  3  sw\nne 1  2  1  1  3  5  1  4  sw\nse 2  1  1  3  2  2  5  3  sw\nne 3  2  4  3  2  5  3  6  w\ne  2  5  3  2  4  4  3  3  nw\ne  5  4  4  5  4  5  3  5  w\nne 4  2  4  4  3  3  3  3  w\nne 3  5  3  3  3  4  2  3  w\n-  ne nw nw n  ne n  n  n  -"
+      "solution": "8 8\n- s s s se s s sw s -\ne 3 2 3 2 4 5 3 3 sw\nne 1 2 1 1 3 5 1 4 sw\nse 2 1 1 3 2 2 5 3 sw\nne 3 2 4 3 2 5 3 6 w\ne 2 5 3 2 4 4 3 3 nw\ne 5 4 4 5 4 5 3 5 w\nne 4 2 4 4 3 3 3 3 w\nne 3 5 3 3 3 4 2 3 w\n- ne nw nw n ne n n n -"
     },
     "158_8x8": {
       "id": "158_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/158.a.htm",
-      "solution": "8 8\n-  s  s  sw s  sw s  s  sw -\ne  3  3  2  4  2  3  5  2  sw\nse 4  1  3  1  0  4  3  1  nw\ne  5  6  3  3  4  3  6  3  w\ne  6  3  3  4  1  3  3  2  nw\nne 2  2  4  2  1  1  2  1  nw\ne  3  4  3  4  2  2  4  2  sw\ne  6  3  4  4  3  5  5  3  w\nne 4  3  2  2  3  4  5  1  w\n-  n  nw n  ne ne nw n  nw -"
+      "solution": "8 8\n- s s sw s sw s s sw -\ne 3 3 2 4 2 3 5 2 sw\nse 4 1 3 1 0 4 3 1 nw\ne 5 6 3 3 4 3 6 3 w\ne 6 3 3 4 1 3 3 2 nw\nne 2 2 4 2 1 1 2 1 nw\ne 3 4 3 4 2 2 4 2 sw\ne 6 3 4 4 3 5 5 3 w\nne 4 3 2 2 3 4 5 1 w\n- n nw n ne ne nw n nw -"
     },
     "159_8x8": {
       "id": "159_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/159.a.htm",
-      "solution": "8 8\n-  se s  sw se s  s  se sw -\nse 1  4  1  0  4  3  1  1  sw\ne  5  4  2  2  4  4  2  2  sw\nse 3  4  1  2  3  1  2  2  sw\nne 2  4  3  1  3  2  1  2  nw\ne  3  5  3  3  4  4  2  1  sw\nne 3  3  1  2  5  2  1  1  sw\nne 4  4  2  3  5  4  2  4  w\ne  3  6  4  3  5  5  6  2  w\n-  n  n  nw nw n  ne nw nw -"
+      "solution": "8 8\n- se s sw se s s se sw -\nse 1 4 1 0 4 3 1 1 sw\ne 5 4 2 2 4 4 2 2 sw\nse 3 4 1 2 3 1 2 2 sw\nne 2 4 3 1 3 2 1 2 nw\ne 3 5 3 3 4 4 2 1 sw\nne 3 3 1 2 5 2 1 1 sw\nne 4 4 2 3 5 4 2 4 w\ne 3 6 4 3 5 5 6 2 w\n- n n nw nw n ne nw nw -"
     },
     "160_8x8": {
       "id": "160_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/160.a.htm",
-      "solution": "8 8\n-  se se se se s  s  se sw -\nse 1  3  2  1  2  3  2  2  sw\nse 4  1  2  1  3  3  2  1  nw\nne 2  3  1  2  3  2  3  1  sw\nse 1  2  4  1  2  3  2  2  nw\ne  4  4  5  4  4  4  5  3  w\ne  4  4  2  3  4  3  3  3  sw\nne 3  3  4  1  4  4  3  4  w\ne  3  4  4  4  3  5  7  2  w\n-  n  n  n  nw ne ne n  nw -"
+      "solution": "8 8\n- se se se se s s se sw -\nse 1 3 2 1 2 3 2 2 sw\nse 4 1 2 1 3 3 2 1 nw\nne 2 3 1 2 3 2 3 1 sw\nse 1 2 4 1 2 3 2 2 nw\ne 4 4 5 4 4 4 5 3 w\ne 4 4 2 3 4 3 3 3 sw\nne 3 3 4 1 4 4 3 4 w\ne 3 4 4 4 3 5 7 2 w\n- n n n nw ne ne n nw -"
     },
     "161_3x3": {
       "id": "161_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/161.a.htm",
-      "solution": "3 3\n-  s  se s  -\ne  2  2  3  sw\nse 2  0  4  sw\ne  3  4  4  nw\n-  ne ne nw -"
+      "solution": "3 3\n- s se s -\ne 2 2 3 sw\nse 2 0 4 sw\ne 3 4 4 nw\n- ne ne nw -"
     },
     "162_3x3": {
       "id": "162_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/162.a.htm",
-      "solution": "3 3\n-  se sw s  -\nse 4  2  4  w\nne 2  0  3  nw\ne  4  3  4  w\n-  n  nw n  -"
+      "solution": "3 3\n- se sw s -\nse 4 2 4 w\nne 2 0 3 nw\ne 4 3 4 w\n- n nw n -"
     },
     "163_4x4": {
       "id": "163_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/163.a.htm",
-      "solution": "4 4\n-  s  se sw sw -\nse 2  1  4  1  sw\nse 5  3  1  5  w\ne  7  2  2  2  nw\nne 4  4  2  2  w\n-  n  nw nw n  -"
+      "solution": "4 4\n- s se sw sw -\nse 2 1 4 1 sw\nse 5 3 1 5 w\ne 7 2 2 2 nw\nne 4 4 2 2 w\n- n nw nw n -"
     },
     "164_4x4": {
       "id": "164_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/164.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\nse 3  2  6  3  w\ne  6  3  4  6  w\nne 3  1  2  3  nw\nne 3  1  5  3  w\n-  n  ne n  n  -"
+      "solution": "4 4\n- s se s s -\nse 3 2 6 3 w\ne 6 3 4 6 w\nne 3 1 2 3 nw\nne 3 1 5 3 w\n- n ne n n -"
     },
     "165_4x4": {
       "id": "165_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/165.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 2  2  3  3  w\nse 4  1  1  6  w\ne  4  2  2  4  nw\ne  3  5  4  4  w\n-  ne ne nw n  -"
+      "solution": "4 4\n- s se sw s -\nse 2 2 3 3 w\nse 4 1 1 6 w\ne 4 2 2 4 nw\ne 3 5 4 4 w\n- ne ne nw n -"
     },
     "166_4x4": {
       "id": "166_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/166.a.htm",
-      "solution": "4 4\n-  s  s  s  s  -\ne  2  2  2  2  sw\ne  4  3  3  5  w\ne  3  4  5  4  w\ne  3  5  5  4  w\n-  ne ne ne nw -"
+      "solution": "4 4\n- s s s s -\ne 2 2 2 2 sw\ne 4 3 3 5 w\ne 3 4 5 4 w\ne 3 5 5 4 w\n- ne ne ne nw -"
     },
     "167_8x8": {
       "id": "167_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/167.a.htm",
-      "solution": "8 8\n-  se s  se s  se se se sw -\nse 2  4  2  4  2  4  4  3  w\nne 2  1  3  3  2  1  3  2  nw\ne  2  6  3  6  4  3  4  4  w\ne  3  3  4  3  3  3  3  2  nw\nne 3  4  2  4  2  3  4  3  w\nne 2  4  2  3  3  2  5  2  w\nne 1  1  2  2  1  3  1  2  nw\ne  2  3  1  4  3  1  4  1  nw\n-  ne nw ne ne nw nw n  nw -"
+      "solution": "8 8\n- se s se s se se se sw -\nse 2 4 2 4 2 4 4 3 w\nne 2 1 3 3 2 1 3 2 nw\ne 2 6 3 6 4 3 4 4 w\ne 3 3 4 3 3 3 3 2 nw\nne 3 4 2 4 2 3 4 3 w\nne 2 4 2 3 3 2 5 2 w\nne 1 1 2 2 1 3 1 2 nw\ne 2 3 1 4 3 1 4 1 nw\n- ne nw ne ne nw nw n nw -"
     },
     "169_8x8": {
       "id": "169_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/169.a.htm",
-      "solution": "8 8\n-  se s  s  s  se sw se sw -\ne  2  5  4  3  5  4  4  4  w\nse 2  3  3  4  1  5  2  3  w\nne 3  1  3  2  2  1  2  3  sw\nne 0  5  1  3  1  2  1  3  sw\nse 2  1  5  1  1  3  1  3  nw\nne 2  4  2  5  2  3  4  3  w\nse 4  3  3  3  4  4  2  3  w\nne 2  4  4  3  3  5  1  2  w\n-  ne ne nw ne ne n  nw n  -"
+      "solution": "8 8\n- se s s s se sw se sw -\ne 2 5 4 3 5 4 4 4 w\nse 2 3 3 4 1 5 2 3 w\nne 3 1 3 2 2 1 2 3 sw\nne 0 5 1 3 1 2 1 3 sw\nse 2 1 5 1 1 3 1 3 nw\nne 2 4 2 5 2 3 4 3 w\nse 4 3 3 3 4 4 2 3 w\nne 2 4 4 3 3 5 1 2 w\n- ne ne nw ne ne n nw n -"
     },
     "170_8x8": {
       "id": "170_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/170.a.htm",
-      "solution": "8 8\n-  se sw se se sw sw s  sw -\ne  3  3  1  4  3  2  4  2  sw\nne 2  1  3  2  4  3  3  4  w\nne 0  1  1  2  1  2  5  2  sw\nse 1  1  1  1  1  2  5  4  sw\ne  4  2  2  1  3  3  5  5  sw\ne  3  4  1  3  2  3  5  3  nw\nne 2  2  5  2  3  2  4  4  w\ne  2  4  4  6  3  3  5  3  w\n-  ne ne ne nw nw ne n  n  -"
+      "solution": "8 8\n- se sw se se sw sw s sw -\ne 3 3 1 4 3 2 4 2 sw\nne 2 1 3 2 4 3 3 4 w\nne 0 1 1 2 1 2 5 2 sw\nse 1 1 1 1 1 2 5 4 sw\ne 4 2 2 1 3 3 5 5 sw\ne 3 4 1 3 2 3 5 3 nw\nne 2 2 5 2 3 2 4 4 w\ne 2 4 4 6 3 3 5 3 w\n- ne ne ne nw nw ne n n -"
     },
     "171_3x3": {
       "id": "171_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/171.a.htm",
-      "solution": "3 3\n-  s  se s  -\ne  3  1  4  sw\nne 2  0  3  nw\ne  3  5  4  w\n-  ne ne nw -"
+      "solution": "3 3\n- s se s -\ne 3 1 4 sw\nne 2 0 3 nw\ne 3 5 4 w\n- ne ne nw -"
     },
     "172_3x3": {
       "id": "172_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/172.a.htm",
-      "solution": "3 3\n-  se s  sw -\nse 1  5  1  sw\nse 3  2  4  sw\ne  3  5  3  nw\n-  n  n  n  -"
+      "solution": "3 3\n- se s sw -\nse 1 5 1 sw\nse 3 2 4 sw\ne 3 5 3 nw\n- n n n -"
     },
     "173_4x4": {
       "id": "173_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/173.a.htm",
-      "solution": "4 4\n-  s  s  sw sw -\nse 2  5  1  1  sw\ne  7  5  3  4  w\nne 5  4  2  3  w\ne  3  5  2  2  nw\n-  n  n  nw n  -"
+      "solution": "4 4\n- s s sw sw -\nse 2 5 1 1 sw\ne 7 5 3 4 w\nne 5 4 2 3 w\ne 3 5 2 2 nw\n- n n nw n -"
     },
     "174_4x4": {
       "id": "174_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/174.a.htm",
-      "solution": "4 4\n-  se sw s  sw -\nse 2  3  4  1  w\ne  5  3  5  3  w\nne 1  2  3  1  sw\ne  3  3  6  3  w\n-  ne nw n  nw -"
+      "solution": "4 4\n- se sw s sw -\nse 2 3 4 1 w\ne 5 3 5 3 w\nne 1 2 3 1 sw\ne 3 3 6 3 w\n- ne nw n nw -"
     },
     "175_4x4": {
       "id": "175_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/175.a.htm",
-      "solution": "4 4\n-  s  s  s  sw -\nse 2  1  3  1  sw\ne  5  3  3  2  nw\ne  5  5  5  3  w\ne  4  4  7  2  w\n-  n  ne n  nw -"
+      "solution": "4 4\n- s s s sw -\nse 2 1 3 1 sw\ne 5 3 3 2 nw\ne 5 5 5 3 w\ne 4 4 7 2 w\n- n ne n nw -"
     },
     "176_4x4": {
       "id": "176_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/176.a.htm",
-      "solution": "4 4\n-  se s  se s  -\nse 1  2  3  3  sw\ne  4  4  4  6  w\nse 2  2  2  4  nw\nne 3  3  4  3  w\n-  n  ne n  n  -"
+      "solution": "4 4\n- se s se s -\nse 1 2 3 3 sw\ne 4 4 4 6 w\nse 2 2 2 4 nw\nne 3 3 4 3 w\n- n ne n n -"
     },
     "181_3x3": {
       "id": "181_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/181.a.htm",
-      "solution": "3 3\n-  s  sw s  -\nse 3  1  4  w\nse 2  0  3  nw\ne  5  4  4  w\n-  ne nw n  -"
+      "solution": "3 3\n- s sw s -\nse 3 1 4 w\nse 2 0 3 nw\ne 5 4 4 w\n- ne nw n -"
     },
     "182_3x3": {
       "id": "182_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/182.a.htm",
-      "solution": "3 3\n-  s  se s  -\nse 2  3  5  w\nse 3  1  3  nw\nne 3  4  3  w\n-  ne n  n  -"
+      "solution": "3 3\n- s se s -\nse 2 3 5 w\nse 3 1 3 nw\nne 3 4 3 w\n- ne n n -"
     },
     "183_4x4": {
       "id": "183_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/183.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\nse 1  1  5  1  sw\ne  4  2  4  6  sw\nse 2  2  4  4  nw\nne 2  2  6  1  nw\n-  ne ne n  nw -"
+      "solution": "4 4\n- s se s s -\nse 1 1 5 1 sw\ne 4 2 4 6 sw\nse 2 2 4 4 nw\nne 2 2 6 1 nw\n- ne ne n nw -"
     },
     "184_4x4": {
       "id": "184_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/184.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\ne  3  2  4  3  sw\nse 4  1  3  5  w\nne 4  1  4  4  w\ne  4  4  5  4  w\n-  n  ne n  n  -"
+      "solution": "4 4\n- s se s s -\ne 3 2 4 3 sw\nse 4 1 3 5 w\nne 4 1 4 4 w\ne 4 4 5 4 w\n- n ne n n -"
     },
     "185_4x4": {
       "id": "185_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/185.a.htm",
-      "solution": "4 4\n-  se s  sw sw -\nse 1  5  1  1  sw\nse 4  4  3  3  w\ne  6  5  3  5  w\ne  2  6  2  2  nw\n-  n  n  nw n  -"
+      "solution": "4 4\n- se s sw sw -\nse 1 5 1 1 sw\nse 4 4 3 3 w\ne 6 5 3 5 w\ne 2 6 2 2 nw\n- n n nw n -"
     },
     "186_8x8": {
       "id": "186_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/186.a.htm",
-      "solution": "8 8\n-  s  sw sw sw s  s  s  s  -\nse 3  3  2  3  2  2  2  1  sw\nse 7  3  3  2  4  2  4  3  w\nne 5  5  2  2  3  3  4  3  w\ne  5  3  4  2  3  3  4  2  nw\nne 3  3  3  4  4  2  3  3  w\ne  3  2  3  4  5  2  3  2  nw\nse 2  1  2  2  3  3  2  1  sw\ne  5  4  3  3  5  4  6  4  w\n-  n  n  n  n  n  nw n  nw -"
+      "solution": "8 8\n- s sw sw sw s s s s -\nse 3 3 2 3 2 2 2 1 sw\nse 7 3 3 2 4 2 4 3 w\nne 5 5 2 2 3 3 4 3 w\ne 5 3 4 2 3 3 4 2 nw\nne 3 3 3 4 4 2 3 3 w\ne 3 2 3 4 5 2 3 2 nw\nse 2 1 2 2 3 3 2 1 sw\ne 5 4 3 3 5 4 6 4 w\n- n n n n n nw n nw -"
     },
     "188_8x8": {
       "id": "188_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/188.a.htm",
-      "solution": "8 8\n-  s  se se se s  s  sw sw -\nse 4  2  3  3  5  4  3  2  w\nne 4  2  2  4  4  7  1  2  w\nse 3  3  1  1  5  3  2  1  sw\nse 5  4  3  3  2  5  2  5  w\nne 4  3  3  1  1  2  3  3  nw\nne 3  4  1  1  2  3  1  4  sw\ne  6  2  2  2  4  5  2  3  nw\nne 3  3  1  3  4  5  3  2  w\n-  n  n  nw ne ne n  nw n  -"
+      "solution": "8 8\n- s se se se s s sw sw -\nse 4 2 3 3 5 4 3 2 w\nne 4 2 2 4 4 7 1 2 w\nse 3 3 1 1 5 3 2 1 sw\nse 5 4 3 3 2 5 2 5 w\nne 4 3 3 1 1 2 3 3 nw\nne 3 4 1 1 2 3 1 4 sw\ne 6 2 2 2 4 5 2 3 nw\nne 3 3 1 3 4 5 3 2 w\n- n n nw ne ne n nw n -"
     },
     "189_8x8": {
       "id": "189_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/189.a.htm",
-      "solution": "8 8\n-  s  sw s  s  s  s  s  sw -\ne  5  2  4  5  6  5  6  3  w\ne  4  2  2  4  4  6  4  1  nw\nse 4  2  3  3  5  4  4  2  w\nne 3  1  2  4  2  2  3  2  nw\ne  4  2  4  4  3  3  4  2  nw\nne 2  2  2  2  3  3  2  0  nw\ne  6  2  3  5  5  5  4  2  w\nne 4  1  2  4  4  3  4  1  w\n-  n  nw ne n  n  n  n  nw -"
+      "solution": "8 8\n- s sw s s s s s sw -\ne 5 2 4 5 6 5 6 3 w\ne 4 2 2 4 4 6 4 1 nw\nse 4 2 3 3 5 4 4 2 w\nne 3 1 2 4 2 2 3 2 nw\ne 4 2 4 4 3 3 4 2 nw\nne 2 2 2 2 3 3 2 0 nw\ne 6 2 3 5 5 5 4 2 w\nne 4 1 2 4 4 3 4 1 w\n- n nw ne n n n n nw -"
     },
     "190_8x8": {
       "id": "190_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/190.a.htm",
-      "solution": "8 8\n-  s  sw se se se sw sw s  -\ne  5  3  3  3  5  4  3  3  w\ne  4  1  2  4  3  2  2  3  sw\ne  3  2  3  3  2  2  2  5  nw\nse 2  2  2  0  1  1  3  3  sw\ne  7  2  1  2  1  4  3  4  sw\nne 5  3  1  1  4  2  3  4  w\nse 2  1  2  2  1  2  1  3  nw\ne  4  1  4  4  2  2  3  3  nw\n-  n  ne ne nw nw ne ne nw -"
+      "solution": "8 8\n- s sw se se se sw sw s -\ne 5 3 3 3 5 4 3 3 w\ne 4 1 2 4 3 2 2 3 sw\ne 3 2 3 3 2 2 2 5 nw\nse 2 2 2 0 1 1 3 3 sw\ne 7 2 1 2 1 4 3 4 sw\nne 5 3 1 1 4 2 3 4 w\nse 2 1 2 2 1 2 1 3 nw\ne 4 1 4 4 2 2 3 3 nw\n- n ne ne nw nw ne ne nw -"
     },
     "192_3x3": {
       "id": "192_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/192.a.htm",
-      "solution": "3 3\n-  se s  sw -\nse 1  5  2  sw\nse 3  2  4  nw\ne  3  5  2  nw\n-  n  n  n  -"
+      "solution": "3 3\n- se s sw -\nse 1 5 2 sw\nse 3 2 4 nw\ne 3 5 2 nw\n- n n n -"
     },
     "193_4x4": {
       "id": "193_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/193.a.htm",
-      "solution": "4 4\n-  s  sw sw sw -\nse 4  2  3  1  w\ne  7  4  2  2  w\ne  7  4  2  3  w\nne 3  2  4  1  w\n-  n  ne nw nw -"
+      "solution": "4 4\n- s sw sw sw -\nse 4 2 3 1 w\ne 7 4 2 2 w\ne 7 4 2 3 w\nne 3 2 4 1 w\n- n ne nw nw -"
     },
     "194_4x4": {
       "id": "194_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/194.a.htm",
-      "solution": "4 4\n-  s  s  s  sw -\nse 2  2  2  1  sw\nne 3  4  2  4  w\ne  5  5  5  3  w\ne  3  7  4  3  w\n-  ne n  nw n  -"
+      "solution": "4 4\n- s s s sw -\nse 2 2 2 1 sw\nne 3 4 2 4 w\ne 5 5 5 3 w\ne 3 7 4 3 w\n- ne n nw n -"
     },
     "195_4x4": {
       "id": "195_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/195.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 2  3  3  3  w\nse 3  1  1  4  sw\ne  5  2  2  6  sw\nne 1  3  3  3  nw\n-  ne ne nw n  -"
+      "solution": "4 4\n- s se sw s -\nse 2 3 3 3 w\nse 3 1 1 4 sw\ne 5 2 2 6 sw\nne 1 3 3 3 nw\n- ne ne nw n -"
     },
     "196_8x8": {
       "id": "196_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/196.a.htm",
-      "solution": "8 8\n-  s  se s  sw sw s  se s  -\ne  2  3  5  3  3  4  2  4  sw\nse 1  2  3  4  1  2  1  5  sw\ne  4  3  3  3  4  3  3  5  nw\ne  3  4  2  2  3  7  2  4  nw\ne  4  3  4  3  5  6  5  4  w\nne 1  1  1  4  2  3  1  4  sw\ne  2  2  4  3  4  3  1  5  nw\ne  2  4  3  3  2  4  2  4  nw\n-  ne n  ne n  n  n  ne n  -"
+      "solution": "8 8\n- s se s sw sw s se s -\ne 2 3 5 3 3 4 2 4 sw\nse 1 2 3 4 1 2 1 5 sw\ne 4 3 3 3 4 3 3 5 nw\ne 3 4 2 2 3 7 2 4 nw\ne 4 3 4 3 5 6 5 4 w\nne 1 1 1 4 2 3 1 4 sw\ne 2 2 4 3 4 3 1 5 nw\ne 2 4 3 3 2 4 2 4 nw\n- ne n ne n n n ne n -"
     },
     "197_8x8": {
       "id": "197_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/197.a.htm",
-      "solution": "8 8\n-  s  sw se sw sw sw se s  -\nse 2  1  2  4  2  2  2  2  sw\ne  4  3  3  3  4  3  2  5  sw\nse 3  3  1  2  2  3  2  4  nw\nne 3  1  2  2  2  3  4  1  nw\ne  4  3  3  5  5  6  2  5  w\ne  2  2  2  4  6  2  2  2  nw\nse 4  1  3  5  2  4  1  3  w\nne 2  3  2  1  2  1  2  2  nw\n-  ne ne nw n  n  n  ne nw -"
+      "solution": "8 8\n- s sw se sw sw sw se s -\nse 2 1 2 4 2 2 2 2 sw\ne 4 3 3 3 4 3 2 5 sw\nse 3 3 1 2 2 3 2 4 nw\nne 3 1 2 2 2 3 4 1 nw\ne 4 3 3 5 5 6 2 5 w\ne 2 2 2 4 6 2 2 2 nw\nse 4 1 3 5 2 4 1 3 w\nne 2 3 2 1 2 1 2 2 nw\n- ne ne nw n n n ne nw -"
     },
     "198_8x8": {
       "id": "198_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/198.a.htm",
-      "solution": "8 8\n-  s  s  se s  s  sw s  sw -\nse 2  3  2  4  5  1  4  3  w\nse 2  1  2  3  4  2  1  2  nw\nse 3  2  3  2  4  2  2  1  sw\ne  4  6  3  4  4  2  4  3  sw\ne  5  5  7  4  5  3  4  6  w\nne 2  3  3  4  3  1  3  1  nw\nse 3  2  2  3  5  2  1  2  sw\nne 3  2  2  2  5  2  2  2  nw\n-  ne nw n  nw n  nw nw n  -"
+      "solution": "8 8\n- s s se s s sw s sw -\nse 2 3 2 4 5 1 4 3 w\nse 2 1 2 3 4 2 1 2 nw\nse 3 2 3 2 4 2 2 1 sw\ne 4 6 3 4 4 2 4 3 sw\ne 5 5 7 4 5 3 4 6 w\nne 2 3 3 4 3 1 3 1 nw\nse 3 2 2 3 5 2 1 2 sw\nne 3 2 2 2 5 2 2 2 nw\n- ne nw n nw n nw nw n -"
     },
     "199_8x8": {
       "id": "199_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/199.a.htm",
-      "solution": "8 8\n-  se s  sw se sw s  sw s  -\ne  2  4  2  2  4  6  2  3  sw\ne  4  2  3  3  3  5  3  3  nw\nse 2  4  2  4  2  3  5  3  w\ne  4  3  4  1  2  5  2  5  nw\ne  3  5  1  2  2  4  4  3  nw\nne 4  2  2  2  2  4  4  4  w\nne 1  1  1  1  1  4  2  2  nw\ne  4  4  2  3  4  5  4  3  w\n-  n  nw ne ne ne n  n  nw -"
+      "solution": "8 8\n- se s sw se sw s sw s -\ne 2 4 2 2 4 6 2 3 sw\ne 4 2 3 3 3 5 3 3 nw\nse 2 4 2 4 2 3 5 3 w\ne 4 3 4 1 2 5 2 5 nw\ne 3 5 1 2 2 4 4 3 nw\nne 4 2 2 2 2 4 4 4 w\nne 1 1 1 1 1 4 2 2 nw\ne 4 4 2 3 4 5 4 3 w\n- n nw ne ne ne n n nw -"
     },
     "200_8x8": {
       "id": "200_8x8",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/200.a.htm",
-      "solution": "8 8\n-  s  se s  s  se s  s  sw -\ne  2  1  3  3  3  5  5  1  sw\nse 3  1  2  4  4  5  4  3  w\ne  4  3  4  4  6  5  6  3  w\ne  3  4  5  5  3  7  5  3  w\nse 2  1  4  2  3  2  4  2  sw\nne 3  2  1  4  2  3  3  2  nw\nne 3  1  3  1  3  4  3  0  sw\nne 3  3  3  3  3  5  4  2  w\n-  ne nw ne ne n  n  n  nw -"
+      "solution": "8 8\n- s se s s se s s sw -\ne 2 1 3 3 3 5 5 1 sw\nse 3 1 2 4 4 5 4 3 w\ne 4 3 4 4 6 5 6 3 w\ne 3 4 5 5 3 7 5 3 w\nse 2 1 4 2 3 2 4 2 sw\nne 3 2 1 4 2 3 3 2 nw\nne 3 1 3 1 3 4 3 0 sw\nne 3 3 3 3 3 5 4 2 w\n- ne nw ne ne n n n nw -"
     },
     "201_3x3": {
       "id": "201_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/201.a.htm",
-      "solution": "3 3\n-  se se s  -\nse 1  2  3  w\nse 2  0  3  sw\ne  3  5  5  w\n-  ne ne nw -"
+      "solution": "3 3\n- se se s -\nse 1 2 3 w\nse 2 0 3 sw\ne 3 5 5 w\n- ne ne nw -"
     },
     "202_3x3": {
       "id": "202_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/202.a.htm",
-      "solution": "3 3\n-  se s  s  -\ne  4  6  5  w\nne 1  2  4  nw\ne  2  3  3  nw\n-  n  n  n  -"
+      "solution": "3 3\n- se s s -\ne 4 6 5 w\nne 1 2 4 nw\ne 2 3 3 nw\n- n n n -"
     },
     "203_3x3": {
       "id": "203_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/203.a.htm",
-      "solution": "3 3\n-  s  se s  -\ne  3  3  4  w\ne  4  3  4  w\ne  3  5  3  w\n-  ne n  nw -"
+      "solution": "3 3\n- s se s -\ne 3 3 4 w\ne 4 3 4 w\ne 3 5 3 w\n- ne n nw -"
     },
     "204_4x4": {
       "id": "204_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/204.a.htm",
-      "solution": "4 4\n-  s  se sw s  -\nse 1  2  2  2  sw\nse 4  3  1  6  w\ne  6  4  4  4  w\nne 2  6  2  3  w\n-  ne n  nw n  -"
+      "solution": "4 4\n- s se sw s -\nse 1 2 2 2 sw\nse 4 3 1 6 w\ne 6 4 4 4 w\nne 2 6 2 3 w\n- ne n nw n -"
     },
     "205_4x4": {
       "id": "205_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/205.a.htm",
-      "solution": "4 4\n-  se se s  s  -\nse 2  3  5  3  w\ne  5  2  5  6  w\nne 1  1  2  4  nw\ne  3  2  6  4  w\n-  n  ne n  n  -"
+      "solution": "4 4\n- se se s s -\nse 2 3 5 3 w\ne 5 2 5 6 w\nne 1 1 2 4 nw\ne 3 2 6 4 w\n- n ne n n -"
     },
     "206_4x4": {
       "id": "206_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/206.a.htm",
-      "solution": "4 4\n-  s  se sw sw -\ne  3  3  5  2  sw\ne  5  4  4  5  w\ne  6  2  4  5  w\nne 2  1  2  1  nw\n-  n  ne n  n  -"
+      "solution": "4 4\n- s se sw sw -\ne 3 3 5 2 sw\ne 5 4 4 5 w\ne 6 2 4 5 w\nne 2 1 2 1 nw\n- n ne n n -"
     },
     "207_4x4": {
       "id": "207_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/207.a.htm",
-      "solution": "4 4\n-  s  s  se sw -\nse 2  2  3  2  sw\ne  4  5  1  4  sw\nse 4  3  1  2  nw\nne 4  4  3  3  w\n-  n  n  ne n  -"
+      "solution": "4 4\n- s s se sw -\nse 2 2 3 2 sw\ne 4 5 1 4 sw\nse 4 3 1 2 nw\nne 4 4 3 3 w\n- n n ne n -"
     },
     "208_4x4": {
       "id": "208_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/208.a.htm",
-      "solution": "4 4\n-  s  s  sw sw -\nse 1  2  2  1  sw\nse 4  3  1  5  w\nse 4  2  2  2  nw\ne  4  7  4  3  w\n-  ne ne nw n  -"
+      "solution": "4 4\n- s s sw sw -\nse 1 2 2 1 sw\nse 4 3 1 5 w\nse 4 2 2 2 nw\ne 4 7 4 3 w\n- ne ne nw n -"
     },
     "209_4x4": {
       "id": "209_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/209.a.htm",
-      "solution": "4 4\n-  s  s  s  s  -\nse 1  2  2  2  sw\nse 3  3  3  5  w\ne  3  4  5  3  sw\ne  3  7  5  5  w\n-  ne n  n  n  -"
+      "solution": "4 4\n- s s s s -\nse 1 2 2 2 sw\nse 3 3 3 5 w\ne 3 4 5 3 sw\ne 3 7 5 5 w\n- ne n n n -"
     },
     "210_4x4": {
       "id": "210_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/210.a.htm",
-      "solution": "4 4\n-  s  s  s  sw -\ne  2  2  3  2  sw\ne  2  3  2  4  sw\ne  4  3  5  4  w\ne  4  5  4  4  w\n-  ne nw ne n  -"
+      "solution": "4 4\n- s s s sw -\ne 2 2 3 2 sw\ne 2 3 2 4 sw\ne 4 3 5 4 w\ne 4 5 4 4 w\n- ne nw ne n -"
     },
     "211_3x3": {
       "id": "211_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/211.a.htm",
-      "solution": "3 3\n-  s  sw s  -\nse 3  1  2  sw\nne 4  1  5  w\nne 3  4  3  w\n-  ne nw n  -"
+      "solution": "3 3\n- s sw s -\nse 3 1 2 sw\nne 4 1 5 w\nne 3 4 3 w\n- ne nw n -"
     },
     "212_3x3": {
       "id": "212_3x3",
@@ -1660,7 +1660,7 @@
       "id": "218_11x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/218.a.htm",
-      "solution": "11 4\n-  s  s  se sw -\nse 1  2  2  1  sw\ne  4  4  2  3  sw\nse 3  3  2  2  sw\nne 3  3  3  2  nw\n-  ne nw ne nw -\n[solution]\n- s s se sw -\nse 1 2 2 1 sw\ne 4 4 2 3 sw\nse 3 3 2 2 sw\nne 3 3 3 2 nw\n- ne nw ne nw -"
+      "solution": "11 4\n- s s se sw -\nse 1 2 2 1 sw\ne 4 4 2 3 sw\nse 3 3 2 2 sw\nne 3 3 3 2 nw\n- ne nw ne nw -\n[solution]\n- s s se sw -\nse 1 2 2 1 sw\ne 4 4 2 3 sw\nse 3 3 2 2 sw\nne 3 3 3 2 nw\n- ne nw ne nw -"
     },
     "219_4x4": {
       "id": "219_4x4",
@@ -1726,43 +1726,43 @@
       "id": "231_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/231.a.htm",
-      "solution": "3 3\n-  se s  sw -\ne  1  6  1  sw\nse 2  2  4  sw\ne  2  6  2  nw\n-  ne n  nw -"
+      "solution": "3 3\n- se s sw -\ne 1 6 1 sw\nse 2 2 4 sw\ne 2 6 2 nw\n- ne n nw -"
     },
     "233_3x3": {
       "id": "233_3x3",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/233.a.htm",
-      "solution": "3 3\n-  se se sw -\nse 1  2  3  sw\nse 3  0  3  nw\ne  4  4  4  w\n-  n  ne n  -"
+      "solution": "3 3\n- se se sw -\nse 1 2 3 sw\nse 3 0 3 nw\ne 4 4 4 w\n- n ne n -"
     },
     "234_4x4": {
       "id": "234_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/234.a.htm",
-      "solution": "4 4\n-  s  se s  s  -\ne  2  1  4  3  sw\nse 2  2  2  6  w\ne  6  2  5  4  w\nne 3  5  2  3  w\n-  ne nw nw n  -"
+      "solution": "4 4\n- s se s s -\ne 2 1 4 3 sw\nse 2 2 2 6 w\ne 6 2 5 4 w\nne 3 5 2 3 w\n- ne nw nw n -"
     },
     "236_4x4": {
       "id": "236_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/236.a.htm",
-      "solution": "4 4\n-  s  s  sw s  -\nse 1  4  2  2  sw\ne  5  5  3  7  w\ne  4  4  3  4  nw\nne 1  5  1  2  nw\n-  ne n  nw n  -"
+      "solution": "4 4\n- s s sw s -\nse 1 4 2 2 sw\ne 5 5 3 7 w\ne 4 4 3 4 nw\nne 1 5 1 2 nw\n- ne n nw n -"
     },
     "238_4x4": {
       "id": "238_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/238.a.htm",
-      "solution": "4 4\n-  s  s  se sw -\ne  2  3  2  2  sw\nse 3  3  2  3  w\ne  5  4  4  4  w\ne  2  5  3  2  nw\n-  ne ne ne nw -"
+      "solution": "4 4\n- s s se sw -\ne 2 3 2 2 sw\nse 3 3 2 3 w\ne 5 4 4 4 w\ne 2 5 3 2 nw\n- ne ne ne nw -"
     },
     "239_4x4": {
       "id": "239_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/239.a.htm",
-      "solution": "4 4\n-  s  se sw sw -\nse 2  1  4  1  sw\nse 4  1  1  4  sw\ne  5  2  3  4  nw\ne  4  4  6  3  w\n-  n  ne n  n  -"
+      "solution": "4 4\n- s se sw sw -\nse 2 1 4 1 sw\nse 4 1 1 4 sw\ne 5 2 3 4 nw\ne 4 4 6 3 w\n- n ne n n -"
     },
     "240_4x4": {
       "id": "240_4x4",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/240.a.htm",
-      "solution": "4 4\n- se se s  s -\nse 1 2 4 2 sw\nse 4 1 2 4 nw\nne 4 2 2 3 nw\nne 2 4 5 2 w\n- n  ne nw nw -"
+      "solution": "4 4\n- se se s s -\nse 1 2 4 2 sw\nse 4 1 2 4 nw\nne 4 2 2 3 nw\nne 2 4 5 2 w\n- n ne nw nw -"
     },
     "243_4x4": {
       "id": "243_4x4",
@@ -1780,7 +1780,7 @@
       "id": "248_6x6",
       "difficult": 0,
       "source": "https://www.janko.at/Raetsel/Pfeilzahlen/248.a.htm",
-      "solution": "6 6\n- s s se s sw sw -\ne  3 2 3 6 2 1 sw\nse 3 2 1 4 2 1 sw\nse 6 4 2 3 3 5 w\nne 4 4 1 3 2 2 nw\ne  4 3 4 6 2 1 nw\ne  4 4 5 7 3 2 w\n- n ne ne n nw nw -"
+      "solution": "6 6\n- s s se s sw sw -\ne 3 2 3 6 2 1 sw\nse 3 2 1 4 2 1 sw\nse 6 4 2 3 3 5 w\nne 4 4 1 3 2 2 nw\ne 4 3 4 6 2 1 nw\ne 4 4 5 7 3 2 w\n- n ne ne n nw nw -"
     },
     "253_5x5": {
       "id": "253_5x5",

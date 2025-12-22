@@ -3,9 +3,7 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
-
 import copy
-import math
 
 class Clueless1SudokuSolver(PuzzleSolver):
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

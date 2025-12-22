@@ -4,7 +4,6 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
 from ortools.sat.python import cp_model as cp
-
 import copy
 
 class FobidoshiSolver(PuzzleSolver):

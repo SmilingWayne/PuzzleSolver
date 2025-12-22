@@ -102,4 +102,3 @@ class HakyuuSolver(PuzzleSolver):
             
         return Grid(sol_grid)
     
-    

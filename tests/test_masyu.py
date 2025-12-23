@@ -18,5 +18,5 @@ def data():
 def test_masyu(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es sw - - es sw\nns ns - - ns ns\nns en ew ew nw ns\nns es ew ew sw ns\nns ns - - ns ns\nen nw - - en nw'.split("\n")))
     solver = MasyuSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

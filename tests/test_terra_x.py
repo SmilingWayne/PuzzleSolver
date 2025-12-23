@@ -19,5 +19,5 @@ def data():
 def test_terra_x(data):
     exp_grid = list(map(lambda x: x.split(" "), "8 8 3 4 0 0\n6 2 2 1 1 3\n6 3 3 4 4 2\n0 1 5 4 3 2\n8 1 1 0 0 5\n9 9 3 3 3 5".split("\n")))
     solver = TerraXSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

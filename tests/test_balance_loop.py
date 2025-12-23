@@ -26,5 +26,5 @@ def test_balance_loop(data):
                 ['ns', '-', 'es', 'sw', 'ns'],
                 ['en', 'ew', 'nw', 'en', 'nw']]
     solver = BalanceLoopSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

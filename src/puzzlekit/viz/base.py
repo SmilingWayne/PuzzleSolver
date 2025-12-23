@@ -2,45 +2,45 @@ import matplotlib.pyplot as plt
 from matplotlib import patches
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
-from puzzlekit.core.position import Position
 
 class PuzzlePlotter:
-    def __init__(self, grid: Grid, title: str = "Puzzle Solution", figsize_scale=0.2):
+    def __init__(self, grid: Grid, title: str = "Puzzle Solution", figsize_scale=0.5):
         self.grid = grid
         self.rows = grid.num_rows
         self.cols = grid.num_cols
+        self.title_text = title
+        
+        # 1. Original Figure  Scale only depends on grid, No padding
+        # Later by setting bbox_inches='tight' to auto scale canvas.
+        w = self.cols * figsize_scale
+        h = self.rows * figsize_scale
+        
+        # 2. 为了防止初始太小导致字体挤在一起，给予一个最小尺寸
+        w = max(w, 6) 
+        h = max(h, 6)
 
-        self.padding = 0.2
-        w = (self.cols + 2 * self.padding) * figsize_scale
-        h = (self.rows + 2 * self.padding) * figsize_scale
-        
         self.fig, self.ax = plt.subplots(figsize=(w, h))
-        if title:
-            self.ax.set_title(title, y=1.05) 
         
+        # 3. 翻转 Y 轴，锁定比例
         self.ax.invert_yaxis()
         self.ax.set_aspect('equal')
         self.ax.axis('off')
         
+        # 4. 初始视口严格锁定在网格上
         self.ax.set_xlim(0, self.cols)
         self.ax.set_ylim(self.rows, 0)
 
         self.draw_grid_lines()
 
-    def draw_grid_lines(self, linewidth=1, color='gray', alpha=0.5):
-        for r in range(self.rows + 1):
-            self.ax.plot([0, self.cols], [r, r], color=color, linewidth=linewidth, alpha=alpha)
-        for c in range(self.cols + 1):
-            self.ax.plot([c, c], [0, self.rows], color=color, linewidth=linewidth, alpha=alpha)
-
+    def draw_grid_lines(self, linewidth=1, color='black', alpha=1.0):
     
-    def draw_side_clues(self, data: list, side: str, fontsize=14):
-        """
-        data: List[List[str|int]] or List[str|int]
-        side: 'top', 'bottom', 'left', 'right'
-        """
-        if not data:
-            return
+        for r in range(self.rows + 1):
+            self.ax.plot([0, self.cols], [r, r], color=color, linewidth=linewidth, alpha=alpha, zorder=0)
+        for c in range(self.cols + 1):
+            self.ax.plot([c, c], [0, self.rows], color=color, linewidth=linewidth, alpha=alpha, zorder=0)
+
+    def draw_side_clues(self, data: list, side: str, fontsize=12):
+        if not data: return
 
         normalized_data = []
         for item in data:
@@ -48,86 +48,102 @@ class PuzzlePlotter:
                 normalized_data.append([str(x) for x in item])
             else:
                 normalized_data.append([str(item)])
+        
+        # max_len = max(len(sublist) for sublist in normalized_data) if normalized_data else 0
+        offset_step = 0.5 
 
-        max_len = max(len(sublist) for sublist in normalized_data) if normalized_data else 0
-        offset_step = 0.6 # 每个提示字符的间距
-
-        current_xlim = self.ax.get_xlim()
-        current_ylim = self.ax.get_ylim()
-
+        # 定义绘制函数
+        def safe_text(x, y, txt):
+            if txt in ["-", ".", ""]: return
+            self.ax.text(x, y, txt, ha='center', va='center', fontsize=fontsize)
+            
         if side == 'top':
-            # 这里的逻辑假设 data 长度等于 cols
             for c, clues in enumerate(normalized_data):
-                # 倒序画，贴近网格的是最后一个元素
                 for k, txt in enumerate(reversed(clues)):
-                    y_pos = -0.5 - (k * offset_step)
-                    self.ax.text(c + 0.5, y_pos, txt, ha='center', va='center', fontsize=fontsize)
-            # 扩展 Y 轴上界 (注意 inverted yaxis: 负数是上面)
-            self.ax.set_ylim(min(current_ylim[0], -max_len * offset_step), current_ylim[1])
+                    safe_text(c + 0.5, -0.5 - (k * offset_step), txt)
 
         elif side == 'bottom':
             for c, clues in enumerate(normalized_data):
-                for k, txt in enumerate(clues): # 底部顺序画
-                    y_pos = self.rows + 0.5 + (k * offset_step)
-                    self.ax.text(c + 0.5, y_pos, txt, ha='center', va='center', fontsize=fontsize)
-            self.ax.set_ylim(current_ylim[0], max(current_ylim[1], self.rows + max_len * offset_step))
+                for k, txt in enumerate(clues):
+                    safe_text(c + 0.5, self.rows + 0.5 + (k * offset_step), txt)
         
         elif side == 'left':
-            # data 长度等于 rows
             for r, clues in enumerate(normalized_data):
                 for k, txt in enumerate(reversed(clues)):
-                    x_pos = -0.5 - (k * offset_step)
-                    self.ax.text(x_pos, r + 0.5, txt, ha='center', va='center', fontsize=fontsize)
-            self.ax.set_xlim(min(current_xlim[0], -max_len * offset_step), current_xlim[1])
+                    safe_text(-0.5 - (k * offset_step), r + 0.5, txt)
             
         elif side == 'right':
             for r, clues in enumerate(normalized_data):
                 for k, txt in enumerate(clues):
-                    x_pos = self.cols + 0.5 + (k * offset_step)
-                    self.ax.text(x_pos, r + 0.5, txt, ha='center', va='center', fontsize=fontsize)
-            self.ax.set_xlim(current_xlim[0], max(current_xlim[1], self.cols + max_len * offset_step))
+                    safe_text(self.cols + 0.5 + (k * offset_step), r + 0.5, txt)
 
-    # ==========================
-    # core 2: draw region border lines.
-    # ==========================
+    def draw_cell_text(self, r, c, text, color='black', **kwargs):
+        self.ax.text(c + 0.5, r + 0.5, str(text), ha='center', va='center', color=color, zorder=20, **kwargs)
+    
+    def draw_cell_killer_text(self, r, c, text, color='black', **kwargs):
+        self.ax.text(c + 0.15, r + 0.15, str(text), ha='center', va='center', color=color, fontsize = 14, zorder=10, **kwargs)
+
     def draw_region_borders(self, regions_grid: RegionsGrid, linewidth=3, color='black'):
+        # using the correct logic from previous discussion
         lines_to_draw = set()
-
         rows, cols = self.rows, self.cols
-
         for r in range(rows):
             for c in range(cols):
                 current_region = regions_grid.value(r, c)
-                
-                # 检查上方
-                # 如果是第一行(r=0)，或者上方的格子属于不同区域 -> 画顶边
+                # Up
                 if r == 0 or regions_grid.value(r - 1, c) != current_region:
                     lines_to_draw.add(((r, c), (r, c + 1)))
-                
-                # 检查下方
-                # 如果是最后一行，或者下方的格子属于不同区域 -> 画底边
+                # Down
                 if r == rows - 1 or regions_grid.value(r + 1, c) != current_region:
                     lines_to_draw.add(((r + 1, c), (r + 1, c + 1)))
-
-                # 检查左方
-                # 如果是第一列，或者左边的格子属于不同区域 -> 画左边
+                # Left
                 if c == 0 or regions_grid.value(r, c - 1) != current_region:
                     lines_to_draw.add(((r, c), (r + 1, c)))
-                
-                # 检查右方
-                # 如果是最后一列，或者右边的格子属于不同区域 -> 画右边
+                # Right
                 if c == cols - 1 or regions_grid.value(r, c + 1) != current_region:
                     lines_to_draw.add(((r, c + 1), (r + 1, c + 1)))
-
-        # 统一绘制所有收集到的线段
+        
         for (start, end) in lines_to_draw:
-            # 注意: plot 的参数是 ([x1, x2], [y1, y2]) 即 ([c1, c2], [r1, r2])
-            self.ax.plot([start[1], end[1]], 
-                         [start[0], end[0]], 
-                         color=color, linewidth=linewidth, clip_on=False)
+            self.ax.plot([start[1], end[1]], [start[0], end[0]], 
+                         color=color, linewidth=linewidth, clip_on=False, zorder=10)
 
+    def draw_node_circle(self, grid: Grid):
+        offsets = [
+            (0, 0, 0b1000),
+            (1, 0, 0b0100),
+            (1, 1, 0b0010),
+            (0, 1, 0b0001) 
+        ]
+        rows, cols = self.rows, self.cols
+        for r in range(rows):
+            for c in range(cols):
+                circles_val = grid.value(r, c) 
+                if circles_val.isdigit():
+                    val = int(circles_val)
+                    for dx, dy, bit_mask in offsets:
+                        if val & bit_mask != 0: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='black', edgecolor='black', linewidth=1)
+                        else: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='white', edgecolor='black', linewidth=1)
+                        self.ax.add_patch(circle)
+        
+    
+    def draw_walls(self, grid: Grid, linewidth=3, color='black'):
+        lines_to_draw = set()
+        rows, cols = self.rows, self.cols
+        for r in range(rows):
+            for c in range(cols):
+                walls_val = grid.value(r, c) 
+                if not walls_val.isdigit() or not  (0 <= int(walls_val) <= 15): continue # filter invalid input
+                walls_num = int(walls_val)
+                if walls_num & 0b1000 != 0: lines_to_draw.add(((r, c), (r, c + 1))) # Up
+                if walls_num & 0b0100 != 0: lines_to_draw.add(((r, c), (r + 1, c))) # Left
+                if walls_num & 0b0010 != 0: lines_to_draw.add(((r + 1, c), (r + 1, c + 1))) # Bottom
+                if walls_num & 0b0001 != 0: lines_to_draw.add(((r, c + 1), (r + 1, c + 1))) # Right
+        
+        for (start, end) in lines_to_draw:
+            self.ax.plot([start[1], end[1]], [start[0], end[0]], 
+                         color=color, linewidth=linewidth, clip_on=False, zorder=10)
     # ==========================
-    # 核心功能 3: 绘制内部连线 (n, s, w, e)
+    # Core func 3: Internal connection (n, s, w, e, "") x (n, s, w, e, "")
     # ==========================
     def draw_connectors(self, r, c, direction_str: str, linewidth=2, color='blue'):
         """
@@ -145,7 +161,7 @@ class PuzzlePlotter:
         
         if not direction_str or direction_str == '-':
             return 
-
+        
         for char in direction_str.lower():
             if char in mapping:
                 dx, dy = mapping[char]
@@ -153,11 +169,34 @@ class PuzzlePlotter:
                              [center_y, center_y + dy], 
                              color=color, linewidth=linewidth)
     
+    
     def draw_cell_text(self, r, c, text, color='black', **kwargs):
         self.ax.text(c + 0.5, r + 0.5, str(text), ha='center', va='center', color=color, **kwargs, fontsize = 15)
 
+    def fill_cell(self, r, c, color):
+        rect = patches.Rectangle((c, r), 1, 1, linewidth=0, facecolor=color, alpha = 0.5)
+        self.ax.add_patch(rect)
+        
+    def save(self, filepath):
+        
+        if self.title_text:
+            self.fig.suptitle(self.title_text, fontsize=16, y=0.98)
+            
+        self.ax.relim()
+        self.ax.autoscale_view()
+        self.fig.savefig(filepath, bbox_inches='tight', pad_inches=0.2, dpi=150)
+        plt.close(self.fig)
+
     def show(self):
+        # Fix header position
+        if self.title_text:
+            # suptitle to ensure always above ... 
+            self.fig.suptitle(self.title_text, fontsize=16, y=0.98)
+        
         self.ax.relim()
         self.ax.autoscale_view()
         plt.tight_layout() 
         plt.show()
+        plt.pause(1.5)
+        plt.close(self.fig)
+

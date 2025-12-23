@@ -13,12 +13,12 @@ def data():
         "num_cols": 5, 
         "rows": "6 3 8 10 5".split(" "),
         "cols": "8 12 11 4 4".split(" "),
-        "grid": list()
+        "grid": [["-" for _ in range(5)] for _ in range(5)]
         }
     return d
 
 def test_kakurasu(data):
     exp_grid = list(map(lambda x: x.split(" "), "x - - - x\n- - x - -\nx x - - x\nx x x x -\n- x x - -".split("\n")))
     solver = KakurasuSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

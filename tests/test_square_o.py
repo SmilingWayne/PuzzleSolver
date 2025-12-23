@@ -16,7 +16,7 @@ def data():
     return d
 
 def test_square_o(data):
-    exp_grid = list(map(lambda x: x.split(" "), "7 14 11\n15 12 3\n10 8 2".split("\n")))
+    exp_grid = list(map(lambda x: x.split(" "), "7 13 11\n15 12 3\n9 8 1".split("\n")))
     solver = SquareOSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

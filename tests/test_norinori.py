@@ -19,5 +19,5 @@ def data():
 def test_norinori(data):
     exp_grid = list(map(lambda x: x.split(" "), "x - - x x - x x - -\nx - - - - x - - x -\n- x x - - x - - x -\nx - - x x - - - - x\nx - x - - - - x - x\n- - x - - - - x - -\nx - - - x x - - x -\nx - x x - - x - x -\n- x - - - - x - - x\n- x - - x x - - - x".split("\n")))
     solver = NorinoriSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

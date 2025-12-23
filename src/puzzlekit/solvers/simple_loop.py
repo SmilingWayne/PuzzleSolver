@@ -5,7 +5,7 @@ from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 
-class SimpleloopSolver(PuzzleSolver):
+class SimpleLoopSolver(PuzzleSolver):
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols

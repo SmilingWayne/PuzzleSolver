@@ -18,5 +18,5 @@ def data():
 def test_dominos(data):
     exp_grid = list(map(lambda x: x.strip().split(" "), "5 5 26 26 18 6 16 27 \n23 14 14 2 18 6 16 27 \n23 21 8 2 24 1 4 4 \n3 21 8 9 24 1 12 19 \n3 20 10 9 22 22 12 19 \n13 20 10 7 7 11 15 25 \n13 17 17 0 0 11 15 25".split("\n")))
     solver = DominosSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid).is_bijective(res_grid)

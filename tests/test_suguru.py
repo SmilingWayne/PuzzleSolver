@@ -19,5 +19,5 @@ def data():
 def test_suguru(data):
     exp_grid = list(map(lambda x: x.split(" "), "4 2 1 5 1 2\n3 5 3 2 4 5\n1 2 4 1 3 1\n4 3 5 2 4 2\n5 2 1 3 5 3\n1 3 4 2 1 4".split("\n")))
     solver = SuguruSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

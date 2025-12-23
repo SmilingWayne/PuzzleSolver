@@ -1,7 +1,6 @@
 import pytest
 from puzzlekit.core.grid import Grid
 from puzzlekit.solvers.akari import AkariSolver 
-
 class TestData:
     pass
 
@@ -36,5 +35,6 @@ def test_akari(data):
                 ['-', '-', '-', '-', 'o', '-', '0', '-', '-', 'o'],
                 ['1', 'o', '-', '-', '-', '-', '-', '-', '-', '1']]
     solver = AkariSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid
+    

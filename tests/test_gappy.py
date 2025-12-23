@@ -17,8 +17,8 @@ def data():
         }
     return d
 
-def test_akari(data):
+def test_gappy(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - x - - - - - x -\nx - - - x - - - - -\n- - x - - - x - - -\nx - - - - - - - - x\n- - - - x - x - - -\n- x - - - - - - x -\n- - - x - x - - - -\n- - - - - - - x - x\n- x - - - x - - - -\n- - - x - - - x - -".split("\n")))
     solver = GappySolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

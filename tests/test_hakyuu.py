@@ -19,5 +19,5 @@ def data():
 def test_hakyuu(data):
     exp_grid = list(map(lambda x: x.split(" "), "2 1 3 4 1 5 2 3 1 2\n1 2 1 3 2 7 1 4 2 1\n3 1 4 2 6 1 5 1 3 4\n1 4 2 1 3 2 6 5 1 2\n2 3 5 6 1 4 3 1 5 1\n4 5 1 3 2 6 4 2 1 3\n6 1 3 4 1 2 1 3 4 2\n1 2 4 5 3 1 2 1 6 1\n7 4 6 1 2 3 5 4 1 7\n1 3 1 2 4 5 3 1 2 1".split("\n")))
     solver = HakyuuSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

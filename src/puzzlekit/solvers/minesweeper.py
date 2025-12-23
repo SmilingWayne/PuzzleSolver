@@ -35,10 +35,6 @@ class MinesweeperSolver(PuzzleSolver):
                     self.model.Add(sum([self.x[pos.r, pos.c] for pos in neighbors]) == int(self.grid.value(i, j)))
                 all_cells.append(self.x[i, j])
         self.model.Add(sum(all_cells) == self.num_mines)
-        
-
-    
-    
     
     def get_solution(self):
         sol_grid = copy.deepcopy(self.grid.matrix)

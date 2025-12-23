@@ -50,9 +50,7 @@ class SquareOSolver(PuzzleSolver):
                 v_tr = self.solver.Value(self.x[i, j + 1])
                 v_br = self.solver.Value(self.x[i + 1, j + 1])
                 
-                # Calculate decimal value
-                # 8*TL + 4*BL + 2*TR + 1*BR
-                dec_value = 8 * v_tl + 4 * v_bl + 2 * v_tr + 1 * v_br
+                dec_value = 8 * v_tl + 4 * v_bl + 2 * v_br + 1 * v_tr
                 sol_matrix[i][j] = str(dec_value)
             
         return Grid(sol_matrix)

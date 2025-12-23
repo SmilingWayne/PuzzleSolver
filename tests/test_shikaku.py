@@ -18,5 +18,5 @@ def data():
 def test_shikaku(data):
     exp_grid = list(map(lambda x: x.split(" "), "1 1 4 4 4 4 12 12 14 16\n1 1 4 4 4 4 12 12 14 16\n1 1 5 5 7 9 12 12 15 16\n1 1 5 5 7 9 12 12 15 16\n1 1 6 6 6 10 12 12 15 16\n1 1 6 6 6 10 12 12 15 16\n2 2 2 2 2 11 11 11 15 16\n2 2 2 2 2 11 11 11 15 16\n3 3 3 3 8 8 8 13 15 17\n3 3 3 3 8 8 8 13 15 17".split("\n")))
     solver = ShikakuSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid).is_bijective(res_grid)

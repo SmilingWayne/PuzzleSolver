@@ -9,7 +9,7 @@ class GrandTourSolver(PuzzleSolver):
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
-        self.num_grid: Grid[str] = Grid(grid)
+        self.grid: Grid[str] = Grid(grid)
     
     def _add_constr(self):
         self.model = cp.CpModel()
@@ -55,7 +55,7 @@ class GrandTourSolver(PuzzleSolver):
     def _add_prefill_constr(self):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                val = self.num_grid.value(i, j)
+                val = self.grid.value(i, j)
                 
                 if val.isdigit():
                     number = int(val)

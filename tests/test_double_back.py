@@ -19,5 +19,5 @@ def data():
 def test_double_back(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew ew sw es ew sw\nen sw es ew nw en sw ns\nes nw en ew ew sw ns ns\nen sw es ew sw en nw ns\nes nw en sw en sw es nw\nns es ew nw es nw en sw\nns ns es ew nw es sw ns\nen nw en ew ew nw en nw'.split("\n")))
     solver = DoubleBackSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

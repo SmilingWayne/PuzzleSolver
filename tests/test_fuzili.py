@@ -16,8 +16,8 @@ def data():
         }
     return d
 
-def test_akari(data):
+def test_fuzili(data):
     exp_grid = list(map(lambda x: x.split(" "), "3 1 - - 2\n1 - 2 3 -\n- 2 1 - 3\n- - 3 2 1\n2 3 - 1 -".split("\n")))
     solver = FuzuliSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

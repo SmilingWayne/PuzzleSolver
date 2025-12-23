@@ -18,5 +18,5 @@ def data():
 def test_tenner(data):
     exp_grid = list(map(lambda x: x.split(" "), "6 7 3 1 0 5 4 8 2 9\n8 5 4 2 7 1 0 9 6 3\n6 1 7 5 8 3 4 2 0 9\n9 8 6 1 7 5 0 3 4 2\n5 1 9 4 6 8 7 2 0 3\n34 22 29 13 28 22 15 24 12 26".split("\n")))
     solver = TennerGridSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

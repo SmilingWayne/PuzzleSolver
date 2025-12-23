@@ -23,5 +23,5 @@ def data():
 def test_abc_end_view(data):
     exp_grid = [['a', 'b', '-'], ['b', '-', 'a'], ['-', 'a', 'b']]
     solver = ABCEndViewSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

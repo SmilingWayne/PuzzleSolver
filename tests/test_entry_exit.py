@@ -19,5 +19,5 @@ def data():
 def test_entry_exit(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew ew ew ew ew sw\nns es ew sw es ew sw ns\nns en sw ns en sw ns ns\nns es nw en sw ns en nw\nns en ew sw ns en ew sw\nen sw es nw en ew sw ns\nes nw ns es ew ew nw ns\nen ew nw en ew ew ew nw'.split("\n")))
     solver = EntryExitSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

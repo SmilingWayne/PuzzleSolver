@@ -19,7 +19,5 @@ def data():
 def test_country_road(data):
     exp_grid = list(map(lambda x: x.split(" "), "es ew ew ew sw\nen sw - es nw\nes nw - en sw\nns - - es nw\nen ew ew nw -".split("\n")))
     solver = CountryRoadSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
-    print(res_grid)
-    print(Grid(exp_grid))
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

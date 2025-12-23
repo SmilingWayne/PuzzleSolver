@@ -9,7 +9,7 @@ class HitoriSolver(PuzzleSolver):
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
-        self.clue_grid: Grid[str] = Grid(grid)
+        self.grid: Grid[str] = Grid(grid)
 
     def _add_constr(self):
         self.model = cp.CpModel()
@@ -33,19 +33,19 @@ class HitoriSolver(PuzzleSolver):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 curr = Position(i, j)
-                for neighbor in self.clue_grid.get_neighbors(curr, "orthogonal"):
+                for neighbor in self.grid.get_neighbors(curr, "orthogonal"):
                     self.model.Add(self.is_white[curr] + self.is_white[neighbor] >= 1)
 
         # 3. No duplicate numbers in white cells (Row & Col)
         for r in range(self.num_rows):
             self._add_unique_constraint(
-                list(self.clue_grid.value(r, c) for c in range(self.num_cols)), 
+                list(self.grid.value(r, c) for c in range(self.num_cols)), 
                 [Position(r, c) for c in range(self.num_cols)]
             )
             
         for c in range(self.num_cols):
             self._add_unique_constraint(
-                list(self.clue_grid.value(r, c) for r in range(self.num_rows)), 
+                list(self.grid.value(r, c) for r in range(self.num_rows)), 
                 [Position(r, c) for r in range(self.num_rows)]
             )
 
@@ -76,7 +76,7 @@ class HitoriSolver(PuzzleSolver):
             for j in range(self.num_cols):
                 pos = Position(i, j)
                 # We only care about valid grid neighbors
-                neighbors = self.clue_grid.get_neighbors(pos, "orthogonal")
+                neighbors = self.grid.get_neighbors(pos, "orthogonal")
                 adjacency_map[pos] = neighbors
 
         # Call the generic utility

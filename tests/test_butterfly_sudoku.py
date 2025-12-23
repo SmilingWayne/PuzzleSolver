@@ -40,5 +40,5 @@ def test_butterfly_sudoku(data):
                 ['7', '1', '9', '5', '8', '2', '3', '6', '4', '7', '1', '9'],
                 ['3', '4', '2', '7', '1', '6', '5', '8', '9', '3', '2', '4']]
     solver = ButterflySudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

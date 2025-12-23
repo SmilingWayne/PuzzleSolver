@@ -16,8 +16,8 @@ def data():
         }
     return d
 
-def test_akari(data):
+def test_detour(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew sw\nns es ew nw\nns en ew sw\nen ew ew nw'.split("\n")))
     solver = DetourSolver(**data.puzzle_dict)
-    res_grid = solver.solve().get('grid', [])
+    res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid

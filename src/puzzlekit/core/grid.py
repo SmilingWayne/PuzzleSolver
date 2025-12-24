@@ -6,9 +6,12 @@ T = TypeVar("T")
 
 class Grid(Generic[T]):
     def __init__(self, matrix: list[list[T]]):
-        self._matrix = matrix
-        self.num_rows = len(matrix)
-        self.num_cols = len(matrix[0])
+        self._matrix = matrix if matrix is not None else []
+        try:
+            self.num_rows = len(self._matrix)
+            self.num_cols = len(self._matrix[0]) if self.num_rows > 0 else 0
+        except (TypeError, IndexError):
+            self.num_cols = 0
         self._walls : set[FrozenSet[Position]] = set()
     
     def __getitem__(self, key) -> T:

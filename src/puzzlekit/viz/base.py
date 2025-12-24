@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import matplotlib
 from matplotlib import patches
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -15,18 +16,18 @@ class PuzzlePlotter:
         w = self.cols * figsize_scale
         h = self.rows * figsize_scale
         
-        # 2. 为了防止初始太小导致字体挤在一起，给予一个最小尺寸
+        # 2. To prevent the initial too small to cause the font crowded，give a minimum size
         w = max(w, 6) 
         h = max(h, 6)
 
         self.fig, self.ax = plt.subplots(figsize=(w, h))
         
-        # 3. 翻转 Y 轴，锁定比例
+        # 3. Invert Y axis, lock the ratio
         self.ax.invert_yaxis()
         self.ax.set_aspect('equal')
         self.ax.axis('off')
         
-        # 4. 初始视口严格锁定在网格上
+        # 4. Initial viewport strictly locked on the grid
         self.ax.set_xlim(0, self.cols)
         self.ax.set_ylim(self.rows, 0)
 
@@ -52,7 +53,7 @@ class PuzzlePlotter:
         # max_len = max(len(sublist) for sublist in normalized_data) if normalized_data else 0
         offset_step = 0.5 
 
-        # 定义绘制函数
+        # Define the drawing function
         def safe_text(x, y, txt):
             if txt in ["-", ".", ""]: return
             self.ax.text(x, y, txt, ha='center', va='center', fontsize=fontsize)
@@ -151,7 +152,7 @@ class PuzzlePlotter:
         """
         center_x, center_y = c + 0.5, r + 0.5
         
-        # 映射：方向字符 -> 相对中心的偏移量 (dx, dy)
+        # Mapping: direction string -> offset (dx, dy)
         mapping = {
             'n': (0, -0.5), # Up (y decreases)
             's': (0, 0.5),  # Down
@@ -187,16 +188,25 @@ class PuzzlePlotter:
         self.fig.savefig(filepath, bbox_inches='tight', pad_inches=0.2, dpi=150)
         plt.close(self.fig)
 
-    def show(self):
-        # Fix header position
+    def show(self, block=True, auto_close_sec=0.5):
+        # 1. check backend   
+        # If 'Agg' (CI environment/headless mode), calling show/pause will report Warning, so exit directly
+        backend = matplotlib.get_backend().lower()
+        if backend in ['agg', 'svg', 'pdf', 'ps', 'cairo']:
+            plt.close(self.fig)
+            return
+
+        # 2. Set title and layout (only calculate when needed)
         if self.title_text:
-            # suptitle to ensure always above ... 
             self.fig.suptitle(self.title_text, fontsize=16, y=0.98)
         
         self.ax.relim()
         self.ax.autoscale_view()
         plt.tight_layout() 
-        plt.show()
-        plt.pause(1.5)
-        plt.close(self.fig)
-
+        
+        if auto_close_sec is not None and auto_close_sec > 0:
+            plt.show(block=False)
+            plt.pause(auto_close_sec)
+            plt.close(self.fig)
+        else:
+            plt.show(block=block)

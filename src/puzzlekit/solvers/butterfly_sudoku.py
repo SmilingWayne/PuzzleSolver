@@ -8,28 +8,15 @@ import copy
 class ButterflySudokuSolver(PuzzleSolver):
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
-        self.num_cols: int  = num_cols
+        self.num_cols: int = num_cols
         self.grid: Grid[str] = Grid(grid)
         self.pivot = [[0, 0], [0, 3], [3, 0], [3, 3]]
-        self._check_validity()
-    
-    def _check_validity(self):
-        """Check validity of input data.
-        """
-        if self.grid.num_rows != self.num_rows:
-            raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
-        if self.grid.num_cols != self.num_cols:
-            raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
+        self.validate_input()
         
-        
-        allowed_chars = {'-', 'x'}
-
-        for pos, cell in self.grid:
-            if cell not in allowed_chars and not cell.isdigit():
-                raise ValueError(f"Invalid character '{cell}' at position {pos}")
-
-    def _parse_grid(self):
-        pass
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols, 12, 12)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', "1", "2", "3", "4", "5", "6", "7", "8", "9"})
         
     def _add_constr(self):
         self.x = dict()

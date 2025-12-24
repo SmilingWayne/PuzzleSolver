@@ -42,3 +42,50 @@ def test_butterfly_sudoku(data):
     solver = ButterflySudokuSolver(**data.puzzle_dict)
     res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid
+
+def test_butterfly_sudoku_validation():
+    """Test data validation for ButterflySudokuSolver"""
+    
+    # Test 1: num_rows is not an integer (string type)
+    with pytest.raises(TypeError, match="num_rows must be an integer"):
+        ButterflySudokuSolver(num_rows="12", num_cols=12, grid=[['-'] * 12] * 12)
+    
+    # Test 2: num_cols is not an integer (string type)
+    with pytest.raises(TypeError, match="num_cols must be an integer"):
+        ButterflySudokuSolver(num_rows=12, num_cols="12", grid=[['-'] * 12] * 12)
+    
+    # Test 3: num_rows is not 12 (wrong value)
+    with pytest.raises(ValueError, match="num_rows must be 12"):
+        ButterflySudokuSolver(num_rows=10, num_cols=12, grid=[['-'] * 12] * 10)
+    
+    # Test 4: num_cols is not 12 (wrong value)
+    with pytest.raises(ValueError, match="num_cols must be 12"):
+        ButterflySudokuSolver(num_rows=12, num_cols=10, grid=[['-'] * 10] * 12)
+    
+    # Test 5: invalid character (not in allowed set {'-', "1", "2", "3", "4", "5", "6", "7", "8", "9"})
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        ButterflySudokuSolver(num_rows=12, num_cols=12, grid=[['-'] * 11 + ['invalid']] + [['-'] * 12] * 11)
+    
+    # Test 6: invalid character - "0" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        ButterflySudokuSolver(num_rows=12, num_cols=12, grid=[['-'] * 11 + ['0']] + [['-'] * 12] * 11)
+    
+    # Test 7: invalid character - "x" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        ButterflySudokuSolver(num_rows=12, num_cols=12, grid=[['-'] * 11 + ['x']] + [['-'] * 12] * 11)
+    
+    # Test 8: invalid character - "10" (not allowed, only single digits 1-9)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        ButterflySudokuSolver(num_rows=12, num_cols=12, grid=[['-'] * 11 + ['10']] + [['-'] * 12] * 11)
+    
+    # Test 9: valid grid with all allowed characters
+    valid_grid = [['-', '1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '-']] * 12
+    solver = ButterflySudokuSolver(num_rows=12, num_cols=12, grid=valid_grid)
+    assert solver.num_rows == 12
+    assert solver.num_cols == 12
+    
+    # Test 10: valid grid with only '-' characters
+    valid_grid_empty = [['-'] * 12] * 12
+    solver2 = ButterflySudokuSolver(num_rows=12, num_cols=12, grid=valid_grid_empty)
+    assert solver2.num_rows == 12
+    assert solver2.num_cols == 12

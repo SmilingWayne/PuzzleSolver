@@ -11,7 +11,20 @@ class BalanceLoopSolver(PuzzleSolver):
         self.num_rows = num_rows
         self.num_cols = num_cols
         self.grid = Grid(grid)
-        
+        self.validate_input()
+    
+    def validate_input(self):
+        def is_validate_cell(cell: str):
+            if cell == "-": return True
+            if cell.startswith("w") or cell.startswith("b"):
+                return cell[1:].isdigit() and int(cell[1:]) >= 0
+            if cell.endswith("w") or cell.endswith("b"):
+                return cell[:-1].isdigit() and int(cell[:-1]) >= 0
+            return False
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', 'w', 'b'}, validator = lambda x: is_validate_cell(x))
+    
     def _add_constr(self):
         self.model = cp.CpModel()
         self.solver = cp.CpSolver()
@@ -73,11 +86,9 @@ class BalanceLoopSolver(PuzzleSolver):
                 c_val = None
                 if len(cell) > 1:
                     if cell.startswith("b") or cell.startswith("w"):
-                        c_type = cell[:1]
-                        c_val = int(cell[1:])
+                        c_type, c_val = cell[:1], int(cell[1:])
                     elif cell.endswith("b") or cell.endswith("w"):
-                        c_type = cell[-1:]
-                        c_val = int(cell[: -1])
+                        c_type, c_val = cell[-1:], int(cell[: -1])
                     else:
                         continue
                 else:
@@ -87,10 +98,10 @@ class BalanceLoopSolver(PuzzleSolver):
                 
                 pos = Position(i, j)
                 
-                # 1. 必须被回路经过
+                # 1. Must be on the loop
                 self.model.Add(self.node_active[pos] == 1)
                 
-                # 2. 计算 4 个方向的臂长
+                # 2. Calculate the length of 4 directions
                 len_n = self._create_arm_length_var(i, j, -1, 0)
                 len_s = self._create_arm_length_var(i, j, 1, 0)
                 len_w = self._create_arm_length_var(i, j, 0, -1)
@@ -99,12 +110,12 @@ class BalanceLoopSolver(PuzzleSolver):
                 lengths = [len_n, len_s, len_w, len_e]
                 total_len = sum(lengths)
                 
-                # 3. 数字约束
+                # 3. Number constraint
                 if c_val is not None:
                     self.model.Add(total_len == c_val)
                 
-                # 4. 获取方向激活状态 (has_n, has_s...)
-                # 下面为了方便组合遍历，将 length_var 和 has_bool_var 打包
+                # 4. Get the activation status of the directions (has_n, has_s...)
+                # Below is to facilitate combination traversal, pack length_var and has_bool_var
                 dirs_info = [] 
                 
                 # Process North
@@ -137,20 +148,20 @@ class BalanceLoopSolver(PuzzleSolver):
 
 
                 if c_type == 'w':
-                    # White: 两支激活臂长度相等
-                    # 逻辑简式：任意一个臂长 L，满足 (2*L == total_len) OR (L == 0)
+                    # White: Two active arms have the same length
+                    # Logic: Any arm length L satisfies (2*L == total_len) OR (L == 0)
                     for length_var, has_var in dirs_info:
-                        # 如果该方向激活，则 2*L == Total
+                        # If the direction is activated, then 2*L == Total
                         self.model.Add(2 * length_var == total_len).OnlyEnforceIf(has_var)
                         
-                        # 补充：这里不需要 OnlyEnforceIf(has_var.Not())，因为 has_var=0 时 length_var 自然为 0 
-                        # 但如果 total_len 是变量且可能为 0 (不可能，因为在loop上)，逻辑是自洽的。
+                        # Note: Here we do not need OnlyEnforceIf(has_var.Not()), because when has_var=0, length_var is naturally 0
+                        # If total_len is a variable and may be 0 (impossible, because it's on the loop), the logic is self-consistent.
                         
                 elif c_type == 'b':
-                    # Black: 两支激活臂长度不等
+                    # Black: Two active arms have different lengths
                     # 我们需要两两比较。如果某两个方向同时激活，它们长度必须不等。
                     for (l1, h1), (l2, h2) in combinations(dirs_info, 2):
-                        # 如果 h1 和 h2 都为真，说明这两个是构成本次连接的两条线段
+                        # If h1 and h2 are both true, it means these two are the two segments that make up this connection
                         self.model.Add(l1 != l2).OnlyEnforceIf([h1, h2])
 
     def get_solution(self):

@@ -14,6 +14,12 @@ class Gattai8SudokuSolver(PuzzleSolver):
         self.pivot = [[0, 0], [0, 12], [0, 24], [6, 6], [6, 18], [12, 0], [12, 12], [12, 24]]
         self.blank_pivot = [(0, 9), (0, 21), (3, 9), (3, 21), (9, 0), (9, 3), (9, 15), (9, 27), (9, 30), (15, 9), (15, 21), (18, 9), (18, 21)]
         self.blank = frozenset([(r + r_, c + c_) for (r, c) in self.blank_pivot for r_ in range(3) for c_ in range(3)])
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols, 21, 33)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', "1", "2", "3", "4", "5", "6", "7", "8", "9"})
         
     def _add_constr(self):
         self.x = dict()

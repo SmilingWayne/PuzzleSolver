@@ -20,3 +20,50 @@ def test_even_odd_sudoku(data):
     solver = EvenOddSudokuSolver(**data.puzzle_dict)
     res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid
+
+def test_even_odd_sudoku_validation():
+    """Test data validation for EvenOddSudokuSolver"""
+    
+    # Test 1: num_rows is not an integer (string type)
+    with pytest.raises(TypeError, match="num_rows must be an integer"):
+        EvenOddSudokuSolver(num_rows="9", num_cols=9, grid=[['-'] * 9] * 9)
+    
+    # Test 2: num_cols is not an integer (string type)
+    with pytest.raises(TypeError, match="num_cols must be an integer"):
+        EvenOddSudokuSolver(num_rows=9, num_cols="9", grid=[['-'] * 9] * 9)
+    
+    # Test 3: num_rows is not 9 (wrong value)
+    with pytest.raises(ValueError, match="num_rows must be 9"):
+        EvenOddSudokuSolver(num_rows=8, num_cols=9, grid=[['-'] * 9] * 8)
+    
+    # Test 4: num_cols is not 9 (wrong value)
+    with pytest.raises(ValueError, match="num_cols must be 9"):
+        EvenOddSudokuSolver(num_rows=9, num_cols=8, grid=[['-'] * 8] * 9)
+    
+    # Test 5: invalid character (not in allowed set)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['invalid']] + [['-'] * 9] * 8)
+    
+    # Test 6: invalid character - "0" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['0']] + [['-'] * 9] * 8)
+    
+    # Test 7: invalid character - "x" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['x']] + [['-'] * 9] * 8)
+    
+    # Test 8: invalid character - "e" (lowercase, not allowed, only 'E' is allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['e']] + [['-'] * 9] * 8)
+    
+    # Test 9: valid grid with all allowed characters
+    valid_grid = [['-', 'E', 'O', '1', '2', '3', '4', '5', '6'] for _ in range(9)]
+    solver = EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=valid_grid)
+    assert solver.num_rows == 9
+    assert solver.num_cols == 9
+    
+    # Test 10: valid grid with only '-' characters
+    valid_grid_empty = [['-'] * 9] * 9
+    solver2 = EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=valid_grid_empty)
+    assert solver2.num_rows == 9
+    assert solver2.num_cols == 9

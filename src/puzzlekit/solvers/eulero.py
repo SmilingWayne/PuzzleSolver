@@ -11,6 +11,12 @@ class EuleroSolver(PuzzleSolver):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, allowed= {}, validator = lambda x: isinstance(x, str) and len(x) == 2 and x[0] in "012345" and x[1] in "012345")
         
     def _add_constr(self):
         self.x = dict()

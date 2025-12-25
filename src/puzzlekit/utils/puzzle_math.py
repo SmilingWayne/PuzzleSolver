@@ -1,6 +1,11 @@
 import math
 from typing import List, Tuple
 
+def get_allowed_direction_chars() -> set:
+    directions = ["n", "s", "w", "e"]
+    allowed_combinations = {d1 + d2 for d1 in directions for d2 in directions if d1 != d2}
+    return allowed_combinations
+
 def find_max_integer_safe(matrix):
     max_value = None
     

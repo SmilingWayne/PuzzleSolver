@@ -11,7 +11,17 @@ class FuzuliSolver(PuzzleSolver):
         self.num_cols: int  = num_cols
         self.k: int = k 
         self.grid: Grid[str] = Grid(grid)
-        self._parse_grid()
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        if not isinstance(self.k, int):
+            raise TypeError(f"param k must be an integer, got {type(self.k).__name__}: {self.k}")
+        else:
+            if not ( (1 <= self.k <= self.num_rows) and (1 <= self.k <= self.num_cols) ):
+                raise ValueError(f"param k must be between 1 and {min(self.num_rows, self.num_cols)} ~ (min (num_rows, num_cols)), got {self.k}")
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and int(x) > 0)
 
     def _parse_grid(self):
         """Parse the input grid to identify pre-filled numbers.
@@ -30,6 +40,7 @@ class FuzuliSolver(PuzzleSolver):
                 # Assuming standard behavior where non-digits are variables.
         
     def _add_constr(self):
+        self._parse_grid()
         self.x = dict()
         # Auxiliary boolean variables: b_val[row, col, k] is true if cell(row, col) == k
         self.b_val = dict() 

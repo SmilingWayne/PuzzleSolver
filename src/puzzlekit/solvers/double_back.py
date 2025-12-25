@@ -4,6 +4,7 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
+from puzzlekit.utils.puzzle_math import get_allowed_direction_chars
 from ortools.sat.python import cp_model as cp
 
 class DoubleBackSolver(PuzzleSolver):
@@ -13,6 +14,13 @@ class DoubleBackSolver(PuzzleSolver):
         self.region_grid: RegionsGrid[str] = RegionsGrid(region_grid)
         self.grid: Grid[str] = Grid(grid) if grid else Grid([["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)])
         # for pre fill cells, not active for now.
+        self.validate_input()
+        
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.region_grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, allowed= get_allowed_direction_chars() | {"-", "@", "x"})
         
     def _add_constr(self):
         self.x = dict()

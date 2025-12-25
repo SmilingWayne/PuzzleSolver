@@ -21,3 +21,43 @@ def test_double_back(data):
     solver = DoubleBackSolver(**data.puzzle_dict)
     res_grid = solver.solve_and_show(show = True).get('grid', [])
     assert Grid(exp_grid) == res_grid
+
+def test_double_back_validation():
+    """Test character validation for DoubleBackSolver"""
+    
+    # Create a simple valid region_grid for testing
+    valid_region_grid = [['1', '1'], ['1', '1']]
+    
+    # Test 1: invalid character (not in allowed set)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        DoubleBackSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'invalid']])
+    
+    # Test 2: invalid character - "a" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        DoubleBackSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'a']])
+    
+    # Test 3: invalid character - "nn" (same letter, not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        DoubleBackSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'nn']])
+    
+    # Test 4: valid grid with allowed direction combinations
+    valid_grid = [['-', 'ns', 'ew'], ['@', 'x', 'nw']]
+    solver = DoubleBackSolver(num_rows=2, num_cols=3, 
+                             region_grid=[['1', '1', '1'], ['1', '1', '1']],
+                             grid=valid_grid)
+    assert solver.num_rows == 2
+    assert solver.num_cols == 3
+    
+    # Test 5: valid grid with only '-' characters
+    valid_grid_simple = [['-', '-'], ['-', '-']]
+    solver2 = DoubleBackSolver(num_rows=2, num_cols=2, 
+                               region_grid=valid_region_grid,
+                               grid=valid_grid_simple)
+    assert solver2.num_rows == 2
+    assert solver2.num_cols == 2

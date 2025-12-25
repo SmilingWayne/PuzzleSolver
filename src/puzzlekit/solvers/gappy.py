@@ -14,6 +14,14 @@ class GappySolver(PuzzleSolver):
         # can be prefilled
         self.rows: List[str] = rows
         self.cols: List[str] = cols
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_list_len(self.rows, self.num_rows, "rows")
+        self._check_list_len(self.cols, self.num_cols, "cols")
+        self._check_allowed_chars(self.grid.matrix, {'-', "x"})
     
     def _add_constr(self):
         self.x = dict()

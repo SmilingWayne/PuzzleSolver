@@ -147,12 +147,15 @@ class FuzuliSolver(PuzzleSolver):
         sol_grid = copy.deepcopy(self.grid.matrix)
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                val = self.solver.Value(self.x[i, j])
-                if val > 0:
-                    # Logic puzzle answer usually requires the digit string
-                    sol_grid[i][j] = str(val)
+                if self.grid.value(i, j).isdigit():
+                    sol_grid[i][j] = self.grid.value(i, j)
                 else:
-                    # Represent empty cell
-                    sol_grid[i][j] = "-"
+                    val = self.solver.Value(self.x[i, j])
+                    if val > 0:
+                        # Logic puzzle answer usually requires the digit string
+                        sol_grid[i][j] = str(val)
+                    else:
+                        # Represent empty cell
+                        sol_grid[i][j] = "-"
             
         return Grid(sol_grid)

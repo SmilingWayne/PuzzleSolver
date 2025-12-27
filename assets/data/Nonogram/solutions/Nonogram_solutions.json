@@ -8988,12 +8988,6 @@
       "source": "",
       "solution": "10 10\n- - - x - - - - - -\n- - x x x - - - - -\n- - - x x - - - - -\n- - x x x - - x x -\n- x x x - - x x x x\n- x x x x x x x - x\n- - x x x x x - - x\n- - - x x x - - x -\n- x - - x - - - - -\nx x x x x x x x x -"
     },
-    "2125_1x0": {
-      "id": "2125_1x0",
-      "difficulty": 0,
-      "source": "",
-      "solution": "1 0"
-    },
     "288_15x15": {
       "id": "288_15x15",
       "difficulty": 0,
@@ -13506,12 +13500,6 @@
       "source": "",
       "solution": "25 30\n- - - - - - - - - - - - x - - - - - - - - - - - - - x - - -\n- - - - - - - - - - - x x - - - - x x x x x - - - - x x - -\n- - - - - - - - - - x x x - - - x x x x x x x - - - x x x -\n- - - - - - - - - - x x x - - - x - - x - - x - - - x x x -\n- - - - - - - - - x x x x - - - x x - x x - x - - - x x x x\n- - - - - - - - - x x x x x - x x x x x x x x x - x x x x x\n- - - - - - - - - x x x x x - x x x x - x x x x - x x x x x\n- - - - - - - - - x x x x x x x x x - - - x x x x x x x x x\n- - - - - - - - - - x x x x x x x x x x x x x x x x x x x x\n- - - - - - - - - - - x x x x x x x x x x x x x x x x x x -\n- - - - - - x x x x - - x x x x x x x x x x x x x x x x - -\n- - - - - x x x - x x - - - - x x x x x x x x x - - - - - -\n- - - - - x x x - - x x - - - x x x x x x x x x x - - - - -\n- - - - - x x x x x x x x - - - x x x x x x x x x x x - - -\n- - - - - x x x x x x - - - - - - x x x x x x x x x x x - -\n- - - x x x x x x x x - - - - - - x - - x - - - x x x - - -\n- - x x x x x x x x x x - - - x x x - - x x x - - x - - - -\n- - x x x x x x x x x x - - - x - x - - x - x - - - - - - -\n- x x x x x x x x - x x - - - - - - - - - - - - - - - - - -\n- x x x x x x x x - x x - - - - - - - - - - - - - - - - - -\nx x x x x x x x - x x x - - - - - - - - - - - - - - - - - -\nx x x x - - - - x x x - - - - - - - - - - - - - - - - - - -\nx x x x x x x x x x - - - - - - - - - - - - - - - - - - - -\nx x x - x - x - - - - - - - - - - - - - - - - - - - - - - -\n- - - - x x x x - - - - - - - - - - - - - - - - - - - - - -"
     },
-    "2126_1x0": {
-      "id": "2126_1x0",
-      "difficulty": 0,
-      "source": "",
-      "solution": "1 0"
-    },
     "1739_30x30": {
       "id": "1739_30x30",
       "difficulty": 0,
@@ -14035,6 +14023,6 @@
       "solution": "25 25\nx x x x x x x x x x x x x x x x x x x x x x x x x\nx x x x x x x - - - - - - - - - - - x x x x x x x\nx x x x x - - - - x x x x x - - - - - - x x x x x\nx x x x - - - - x x x x x x x x - - - - - x x x x\nx x x - - - - x x x x x x x x x x - - - - - x x x\nx x - - - - - x x x - - - x x x x x x x x x x x x\nx x - - - - - x x - - - - - x x x x - - - x - x x\nx x - - - - - x - x - - x - x - x x - x x - - - x\nx x x x - - x x - x - - x - - - x - - - x - - - x\nx - - x x - x - - - x - - - - x x - x x - - - - x\nx - - x x x x x x x - - - - - x - - - x - - - - x\nx x x x x x - x - x x x - - x x - x x - - - - - x\nx - - - x - - x - - - x x x x - x x - - - - - - x\nx - - - x - - x x x - - - - - - x - - - - - - - x\nx - - - x x - - x x x - - - - - x x - - - - - - x\nx - - - - x x x x - x x x x - - - x x x x x - - x\nx - - - - - - - x - - - - - - - - - x - - x - - x\nx - - - - - - - x - - x - - - - - - x - x x - - x\nx x - - - - - - x x - - - - x x x - - - x - - x x\nx x - - - - - - - x x x x x x - x x x x x - - x x\nx x x - - - - - - - x x - - - x - - x - - - x x x\nx x x x - - - - - - - x x - x x x x x - - x x x x\nx x x x x - - - - - - - x x x x - - - - x x x x x\nx x x x x x x - - - - - - - - - - - x x x x x x x\nx x x x x x x x x x x x x x x x x x x x x x x x x"
     }
   },
-  "count": 2339,
+  "count": 2337,
   "info": ""
 }

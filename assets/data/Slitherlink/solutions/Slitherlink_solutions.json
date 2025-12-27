@@ -382,7 +382,7 @@
       "id": "37_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- x - - x - - \n- x x x x x - \nx x - - - x x \n- - - - x x - \nx x x - x - - \n- x x x x x x \n- - x x - x x \nunit 30"
+      "solution": "7 7\n- x - - x - - \n- x x x x x - \nx x - - - x x \n- - - - x x - \nx x x - x - - \n- x x x x x x \n- - x x - x x "
     },
     "926_12x16": {
       "id": "926_12x16",
@@ -484,7 +484,7 @@
       "id": "68_12x16",
       "difficulty": 0,
       "source": "",
-      "solution": "12 16\nx x - - x - x - - - x x - x - -\nx x - - x x x x - - - x - x x x\n- x - x x x - - - x x x x x - x\n- x x x - - - - - x - - - x - -\n- - x x - - - x - - - x - x x -\nx x x x - x x x x - - x x x x x\nx - x - - - x x - - - - - x - x\n- - x - - x x - - x x - - x - -\nx x x x - - x - - - x - - x x -\nx - - x x - x x x x x x x x x x\nx x - x x x x x - - x x - - x -\n- - - x - - x - - x x - - x x -\nunit 30"
+      "solution": "12 16\nx x - - x - x - - - x x - x - -\nx x - - x x x x - - - x - x x x\n- x - x x x - - - x x x x x - x\n- x x x - - - - - x - - - x - -\n- - x x - - - x - - - x - x x -\nx x x x - x x x x - - x x x x x\nx - x - - - x x - - - - - x - x\n- - x - - x x - - x x - - x - -\nx x x x - - x - - - x - - x x -\nx - - x x - x x x x x x x x x x\nx x - x x x x x - - x x - - x -\n- - - x - - x - - x x - - x x -"
     },
     "609_16x19": {
       "id": "609_16x19",
@@ -622,7 +622,7 @@
       "id": "55_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- x - - - x - - -\nx x x x - x x x -\n- - - x x x x x x\nx x x x x x x - -\nx x x - - x - - -\nx - - - x x x x -\nx - x x x x - - -\n- - x x - x x x x\n- x x - - - x - x\nunit 30"
+      "solution": "9 9\n- x - - - x - - -\nx x x x - x x x -\n- - - x x x x x x\nx x x x x x x - -\nx x x - - x - - -\nx - - - x x x x -\nx - x x x x - - -\n- - x x - x x x x\n- x x - - - x - x"
     },
     "1027_10x18": {
       "id": "1027_10x18",
@@ -1102,7 +1102,7 @@
       "id": "54_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\nx - - - x - - x -\nx - x - x - - x -\nx x x x x x x x x\nx - - - x - - x -\n- - - - x - - - -\nx x x x x x x x x\nx - - - x - x - x\n- - - - x - - - -\n- x x x x x x x x\nunit 30"
+      "solution": "9 9\nx - - - x - - x -\nx - x - x - - x -\nx x x x x x x x x\nx - - - x - - x -\n- - - - x - - - -\nx x x x x x x x x\nx - - - x - x - x\n- - - - x - - - -\n- x x x x x x x x"
     },
     "796_10x10": {
       "id": "796_10x10",
@@ -1174,7 +1174,7 @@
       "id": "25_6x6",
       "difficulty": 0,
       "source": "",
-      "solution": "6 6\nx - x - x x\nx - x x x -\nx x x - x x\nx - - - x -\nx - x x x x\nx - - x - x\nunit 30"
+      "solution": "6 6\nx - x - x x\nx - x x x -\nx x x - x x\nx - - - x -\nx - x x x x\nx - - x - x"
     },
     "866_10x10": {
       "id": "866_10x10",
@@ -1906,7 +1906,7 @@
       "id": "34_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- - - x x x x \n- x x x x - x \nx x x - - - x \nx x x - x x x \n- - x - x - - \nx - - - x - - \nx x x x x - - \nunit 30"
+      "solution": "7 7\n- - - x x x x \n- x x x x - x \nx x x - - - x \nx x x - x x x \n- - x - x - - \nx - - - x - - \nx x x x x - - "
     },
     "899_14x24": {
       "id": "899_14x24",
@@ -1930,7 +1930,7 @@
       "id": "27_6x6",
       "difficulty": 0,
       "source": "",
-      "solution": "6 6\nx x x x - x\nx - - x - x\nx x - x - x\n- x - x x x\n- x - x - -\n- x - x x x\nunit 30"
+      "solution": "6 6\nx x x x - x\nx - - x - x\nx x - x - x\n- x - x x x\n- x - x - -\n- x - x x x"
     },
     "253_10x10": {
       "id": "253_10x10",
@@ -2098,7 +2098,7 @@
       "id": "56_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- x x - x - x - -\n- x x - x - x x -\nx x x x x x x x x\nx x - - - x - - x\n- - - x - x x - -\n- x x x - x x - -\nx x x x x x x x -\n- - - x - - - x x\n- - x x x - - x -\nunit 30"
+      "solution": "9 9\n- x x - x - x - -\n- x x - x - x x -\nx x x x x x x x x\nx x - - - x - - x\n- - - x - x x - -\n- x x x - x x - -\nx x x x x x x x -\n- - - x - - - x x\n- - x x x - - x -"
     },
     "596_14x24": {
       "id": "596_14x24",
@@ -2176,7 +2176,7 @@
       "id": "60_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- x - - - x - x -\nx x x - x x x x -\n- x - - - x - x x\nx x x x x x - - -\n- x - - x - - x x\n- - - x x x - x -\n- x - - - x x x x\nx x x x x x x - x\n- x - x - x - - -\nunit 30"
+      "solution": "9 9\n- x - - - x - x -\nx x x - x x x x -\n- x - - - x - x x\nx x x x x x - - -\n- x - - x - - x x\n- - - x x x - x -\n- x - - - x x x x\nx x x x x x x - x\n- x - x - x - - -"
     },
     "850_20x36": {
       "id": "850_20x36",
@@ -2440,7 +2440,7 @@
       "id": "95_12x16",
       "difficulty": 0,
       "source": "",
-      "solution": "12 16\n- - - x x - x - - - - x - - - - \nx x - x x x x x - - x x x - - x \n- x x x - - x x - - - x x x x x \n- - - - - - - x x x x x x x - - \n- - - x - - x x x x - - x x x - \n- x - x x x x - - x x - - x x - \nx x x x - - x x - - - - - - x x \n- x x x - x x - - x - - x - x - \n- x - x - - - - - x x - x x x - \n- - - x x - x - x x x x x x x - \nx x x x x x x - - - x - x - x - \nx - - x - x - - - - - - - - x x \nunit 30"
+      "solution": "12 16\n- - - x x - x - - - - x - - - - \nx x - x x x x x - - x x x - - x \n- x x x - - x x - - - x x x x x \n- - - - - - - x x x x x x x - - \n- - - x - - x x x x - - x x x - \n- x - x x x x - - x x - - x x - \nx x x x - - x x - - - - - - x x \n- x x x - x x - - x - - x - x - \n- x - x - - - - - x x - x x x - \n- - - x x - x - x x x x x x x - \nx x x x x x x - - - x - x - x - \nx - - x - x - - - - - - - - x x "
     },
     "218_20x36": {
       "id": "218_20x36",
@@ -2638,7 +2638,7 @@
       "id": "93_15x20",
       "difficulty": 0,
       "source": "",
-      "solution": "15 20\nx - - - - - x x - - - x - - x - - x - -\nx x - - x - - x x x x x - - x - - x - x\n- x x x x x x x - - x x x - x x x x x x\n- x - - x - - x x - - x - - - - - x x x\n- x x - - - x x - - x x x x - - x x x -\nx x - - - - x - - - x - x x x x x - x -\nx - - - x - x x - x x - - - x - - - x x\n- - x - x - - x - - x - - x x x - x x -\nx x x x x - - - - x x - - - - - - - x -\n- x - x x - x - - x x - x x x x - x x -\n- - - x x x x x x x - - - x - x x x - -\n- - - - x x x x - - - x x x - - - x x x\nx x x - x - x - - - x x - x x - - - x -\n- - x x x - x x - x x x - x - - x x x -\n- x x - - - - x - - - x - - - - x - - -\nunit 30"
+      "solution": "15 20\nx - - - - - x x - - - x - - x - - x - -\nx x - - x - - x x x x x - - x - - x - x\n- x x x x x x x - - x x x - x x x x x x\n- x - - x - - x x - - x - - - - - x x x\n- x x - - - x x - - x x x x - - x x x -\nx x - - - - x - - - x - x x x x x - x -\nx - - - x - x x - x x - - - x - - - x x\n- - x - x - - x - - x - - x x x - x x -\nx x x x x - - - - x x - - - - - - - x -\n- x - x x - x - - x x - x x x x - x x -\n- - - x x x x x x x - - - x - x x x - -\n- - - - x x x x - - - x x x - - - x x x\nx x x - x - x - - - x x - x x - - - x -\n- - x x x - x x - x x x - x - - x x x -\n- x x - - - - x - - - x - - - - x - - -"
     },
     "910_14x24": {
       "id": "910_14x24",
@@ -3130,7 +3130,7 @@
       "id": "35_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- - x x x x -\n- x x x x - -\nx x x x - - -\n- x x x x x -\n- - x - x x x\n- x x - - x -\n- x x - - x -\nunit 30"
+      "solution": "7 7\n- - x x x x -\n- x x x x - -\nx x x x - - -\n- x x x x x -\n- - x - x x x\n- x x - - x -\n- x x - - x -"
     },
     "145_10x18": {
       "id": "145_10x18",
@@ -3208,7 +3208,7 @@
       "id": "87_12x16",
       "difficulty": 0,
       "source": "",
-      "solution": "12 16\nx x x x x - x x x x x x - x - -\n- - - x x x x - - x - x x x x x\n- x - - x - - - - - - - - - x -\n- x x - x - - x x - - x - x x -\nx x x x x - x x - - - x - x x x\n- x x - - - - x x x - x - - x -\n- - x - - - - x x x x x - x x x\n- x x - x - x x x - x - - x - -\n- - x x x - - - x - x - - x - -\nx x x x x - x - x - - - x x x x\nx - x - x x x - x x x x x x - x\n- - x - x - - - x - - - x - - -\nunit 30"
+      "solution": "12 16\nx x x x x - x x x x x x - x - -\n- - - x x x x - - x - x x x x x\n- x - - x - - - - - - - - - x -\n- x x - x - - x x - - x - x x -\nx x x x x - x x - - - x - x x x\n- x x - - - - x x x - x - - x -\n- - x - - - - x x x x x - x x x\n- x x - x - x x x - x - - x - -\n- - x x x - - - x - x - - x - -\nx x x x x - x - x - - - x x x x\nx - x - x x x - x x x x x x - x\n- - x - x - - - x - - - x - - -"
     },
     "831_10x10": {
       "id": "831_10x10",
@@ -3340,7 +3340,7 @@
       "id": "57_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- x x x - - - x -\nx x x x x x x x x\n- x - - - x - - -\n- - - - x x x x x\n- x x x x - - - x\n- - x x - - x - -\nx x x x - x x x -\nx x - x x x x x x\nx - - - x - - x -\nunit 30"
+      "solution": "9 9\n- x x x - - - x -\nx x x x x x x x x\n- x - - - x - - -\n- - - - x x x x x\n- x x x x - - - x\n- - x x - - x - -\nx x x x - x x x -\nx x - x x x x x x\nx - - - x - - x -"
     },
     "459_10x10": {
       "id": "459_10x10",
@@ -4090,7 +4090,7 @@
       "id": "96_12x16",
       "difficulty": 0,
       "source": "",
-      "solution": "12 16\n- - - - x x x x - - - x - - x - \nx - - - x - - x x x x x x x x - \nx x x - - - x x - - - x x x x - \nx x - - - - - x x x - - - x x - \n- x - x x - - - x - - - x x x x \n- x x x - - x x x x - - - x - - \nx x - x - - x - - x x - - x x x \n- x - x - x x x - - - - - - - x \nx x - - - - x - - - - - x x - x \nx - - x - x x x - - x - - x x x \nx x x x x x - x x x x - x x x x \n- x - - x - - - - - x - - x x x \nunit 30"
+      "solution": "12 16\n- - - - x x x x - - - x - - x - \nx - - - x - - x x x x x x x x - \nx x x - - - x x - - - x x x x - \nx x - - - - - x x x - - - x x - \n- x - x x - - - x - - - x x x x \n- x x x - - x x x x - - - x - - \nx x - x - - x - - x x - - x x x \n- x - x - x x x - - - - - - - x \nx x - - - - x - - - - - x x - x \nx - - x - x x x - - x - - x x x \nx x x x x x - x x x x - x x x x \n- x - - x - - - - - x - - x x x "
     },
     "153_14x24": {
       "id": "153_14x24",
@@ -4138,7 +4138,7 @@
       "id": "39_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- - x - - - - \nx - x x x - x \nx - - x x x x \nx x x x x x - \nx - x - - - - \nx - - - - x x \nx x x x x x - \nunit 30"
+      "solution": "7 7\n- - x - - - - \nx - x x x - x \nx - - x x x x \nx x x x x x - \nx - x - - - - \nx - - - - x x \nx x x x x x - "
     },
     "505_10x14": {
       "id": "505_10x14",
@@ -4300,7 +4300,7 @@
       "id": "48_8x8",
       "difficulty": 0,
       "source": "",
-      "solution": "8 8\n- x x x - - x -\n- - - x - - x x\n- x - x - x x -\nx x x x x x x x\n- x x - x x - x\n- - x - - x - x\nx x x - x x - x\n- x - - - x - x\nunit 30"
+      "solution": "8 8\n- x x x - - x -\n- - - x - - x x\n- x - x - x x -\nx x x x x x x x\n- x x - x x - x\n- - x - - x - x\nx x x - x x - x\n- x - - - x - x"
     },
     "164_12x16": {
       "id": "164_12x16",
@@ -4564,7 +4564,7 @@
       "id": "38_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- x x x x - -\nx x - - x x -\nx - - - - x x\nx - - - - - -\nx x - - x x -\n- x x - - x -\n- - x x x x -\nunit 30"
+      "solution": "7 7\n- x x x x - -\nx x - - x x -\nx - - - - x x\nx - - - - - -\nx x - - x x -\n- x x - - x -\n- - x x x x -"
     },
     "7_4x4": {
       "id": "7_4x4",
@@ -4636,7 +4636,7 @@
       "id": "49_8x8",
       "difficulty": 0,
       "source": "",
-      "solution": "8 8\n- x - - - - - -\nx x x x x - - x\nx - - - x x - x\nx - - - x x x x\n- - x x x - - x\n- - x x x x - x\nx x x x - x - x\n- x - - - x - x\nunit 30"
+      "solution": "8 8\n- x - - - - - -\nx x x x x - - x\nx - - - x x - x\nx - - - x x x x\n- - x x x - - x\n- - x x x x - x\nx x x x - x - x\n- x - - - x - x"
     },
     "1157_13x13": {
       "id": "1157_13x13",
@@ -5008,7 +5008,7 @@
       "id": "50_8x8",
       "difficulty": 0,
       "source": "",
-      "solution": "8 8\n- x x x x x x x\n- x x x x x x x\n- - - - - x x x\n- - x x x x - -\n- - x x x x - -\nx x x - - x x -\nx x x - - x x -\nx x x - - x x -\nunit 30"
+      "solution": "8 8\n- x x x x x x x\n- x x x x x x x\n- - - - - x x x\n- - x x x x - -\n- - x x x x - -\nx x x - - x x -\nx x x - - x x -\nx x x - - x x -"
     },
     "183_20x30": {
       "id": "183_20x30",
@@ -5050,7 +5050,7 @@
       "id": "84_12x16",
       "difficulty": 0,
       "source": "",
-      "solution": "12 16\nx x x x - x - - - x - x x x - -\nx - - x - x - - - x - - - x x x\nx - x x x x x - x x x x - - - x\nx - - x x - x - - - x x - x - x\nx x - - - - - - - x x x x x x x\nx - - x - - x x - - x x - - - x\nx x x x x x x x - x x - - - x x\nx - - - x - x x - - x - x - x x\nx x - - x - - - - - x - x - x -\nx - - - - - - - - - - - x x x -\nx - x x x x x x x - x - x - x x\nx x x x - - x - x x x x x - - -\nunit 30"
+      "solution": "12 16\nx x x x - x - - - x - x x x - -\nx - - x - x - - - x - - - x x x\nx - x x x x x - x x x x - - - x\nx - - x x - x - - - x x - x - x\nx x - - - - - - - x x x x x x x\nx - - x - - x x - - x x - - - x\nx x x x x x x x - x x - - - x x\nx - - - x - x x - - x - x - x x\nx x - - x - - - - - x - x - x -\nx - - - - - - - - - - - x x x -\nx - x x x x x x x - x - x - x x\nx x x x - - x - x x x x x - - -"
     },
     "338_16x20": {
       "id": "338_16x20",
@@ -5182,7 +5182,7 @@
       "id": "29_6x6",
       "difficulty": 0,
       "source": "",
-      "solution": "6 6\n- x - - - -\nx x x x x -\nx - - - x x\n- - x - x -\n- x x x x x\nx x - x - -\nunit 30"
+      "solution": "6 6\n- x - - - -\nx x x x x -\nx - - - x x\n- - x - x -\n- x x x x x\nx x - x - -"
     },
     "122_10x18": {
       "id": "122_10x18",
@@ -5230,7 +5230,7 @@
       "id": "83_10x10",
       "difficulty": 0,
       "source": "",
-      "solution": "10 10\n- - - - x - - - x -\n- - x x x x x x x x\nx - x x - - - x x x\nx x x x x - - x - -\n- - x - - - - x - -\n- - - - x - - x - -\n- - - - x x x x x x\nx x x x x - x x - -\n- - x x - - - x x x\n- - x x x - - x x x\nunit 30"
+      "solution": "10 10\n- - - - x - - - x -\n- - x x x x x x x x\nx - x x - - - x x x\nx x x x x - - x - -\n- - x - - - - x - -\n- - - - x - - x - -\n- - - - x x x x x x\nx x x x x - x x - -\n- - x x - - - x x x\n- - x x x - - x x x"
     },
     "217_20x36": {
       "id": "217_20x36",
@@ -5320,7 +5320,7 @@
       "id": "58_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- - - - - x x x -\nx x x x x x x x -\n- - x x x x x x -\n- x x x x - - - -\n- - - - x x x x x\n- - - - x x x x x\nx x x x x - - x x\n- - x x x - - x x\n- - x x x - - - -\nunit 30"
+      "solution": "9 9\n- - - - - x x x -\nx x x x x x x x -\n- - x x x x x x -\n- x x x x - - - -\n- - - - x x x x x\n- - - - x x x x x\nx x x x x - - x x\n- - x x x - - x x\n- - x x x - - - -"
     },
     "900_14x24": {
       "id": "900_14x24",
@@ -5680,7 +5680,7 @@
       "id": "51_9x9",
       "difficulty": 0,
       "source": "",
-      "solution": "9 9\n- x - - - x x x x\nx x x - x x x - -\n- - x x x x x x -\n- - - - - x - x x\n- x x x x x - - -\n- - - - x x - x x\nx x x x x x x x -\n- x x x - - x x -\n- x - x - - - x x\nunit 30"
+      "solution": "9 9\n- x - - - x x x x\nx x x - x x x - -\n- - x x x x x x -\n- - - - - x - x x\n- x x x x x - - -\n- - - - x x - x x\nx x x x x x x x -\n- x x x - - x x -\n- x - x - - - x x"
     },
     "687_14x24": {
       "id": "687_14x24",
@@ -5926,7 +5926,7 @@
       "id": "33_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- - - x - - x \nx - x x x x x \nx - - x - - x \nx x x x x - x \nx - - - x - - \nx x - x x x - \n- x - - - x - \nunit 30"
+      "solution": "7 7\n- - - x - - x \nx - x x x x x \nx - - x - - x \nx x x x x - x \nx - - - x - - \nx x - x x x - \n- x - - - x - "
     },
     "580_20x36": {
       "id": "580_20x36",
@@ -6262,7 +6262,7 @@
       "id": "85_10x10",
       "difficulty": 0,
       "source": "",
-      "solution": "10 10\n- - x - - - - x - -\nx x x x x x x x x x\n- - x - x - - x - -\n- - - - x - - x x -\n- x - x x - - x - -\nx x - x x - - x - -\n- x x x - - x x x x\n- x x x x - - x x -\nx x x x x x - - x -\n- x - - x x - - - -\nunit 30"
+      "solution": "10 10\n- - x - - - - x - -\nx x x x x x x x x x\n- - x - x - - x - -\n- - - - x - - x x -\n- x - x x - - x - -\nx x - x x - - x - -\n- x x x - - x x x x\n- x x x x - - x x -\nx x x x x x - - x -\n- x - - x x - - - -"
     },
     "32_7x7": {
       "id": "32_7x7",
@@ -6400,7 +6400,7 @@
       "id": "40_7x7",
       "difficulty": 0,
       "source": "",
-      "solution": "7 7\n- - - - x x -\n- x x - x x -\n- x x - x x -\n- x x x x - -\n- x x x x x x\nx x x - x x x\n- - - - x x x\nunit 30"
+      "solution": "7 7\n- - - - x x -\n- x x - x x -\n- x x - x x -\n- x x x x - -\n- x x x x x x\nx x x - x x x\n- - - - x x x"
     },
     "717_14x24": {
       "id": "717_14x24",
@@ -6544,7 +6544,7 @@
       "id": "28_6x6",
       "difficulty": 0,
       "source": "",
-      "solution": "6 6\n- - - x x -\nx - - x - -\nx x x x - -\n- - x x x x\n- - x - - x\n- x x - - -\nunit 30"
+      "solution": "6 6\n- - - x x -\nx - - x - -\nx x x x - -\n- - x x x x\n- - x - - x\n- x x - - -"
     },
     "171_15x20": {
       "id": "171_15x20",
@@ -6892,7 +6892,7 @@
       "id": "88_15x20",
       "difficulty": 0,
       "source": "",
-      "solution": "15 20\n- - - - x - - x x x - x - x x - - x x - \nx x x - x x x x x x x x x x x x x x - - \n- - x x x - - x - - x - - x - x - x x x \n- - - x - - - x - x x x - - - x - x - x \n- x - x x x - x - x - x - x - - - x - - \n- x x x - - - - - - - x - x x x x x x - \n- - x x x x - - x x x x - - - - - - x x \nx x x x x - - - x x - - - - x x x - - x \n- - - - x x x - - x x - x - - x - - x x \n- x - - x - - - x x x - x x - x x - - - \n- x x - x x - - - - - - - x x x x x - x \nx x x x x x - x - - - x x x x x - - - x \n- x x x x x x x x - x x x x - x x - x x \n- - x - x - x x x x x x - x - x - - x - \nx x x - - - - x - - - x - - - x x x x - \nunit 30"
+      "solution": "15 20\n- - - - x - - x x x - x - x x - - x x - \nx x x - x x x x x x x x x x x x x x - - \n- - x x x - - x - - x - - x - x - x x x \n- - - x - - - x - x x x - - - x - x - x \n- x - x x x - x - x - x - x - - - x - - \n- x x x - - - - - - - x - x x x x x x - \n- - x x x x - - x x x x - - - - - - x x \nx x x x x - - - x x - - - - x x x - - x \n- - - - x x x - - x x - x - - x - - x x \n- x - - x - - - x x x - x x - x x - - - \n- x x - x x - - - - - - - x x x x x - x \nx x x x x x - x - - - x x x x x - - - x \n- x x x x x x x x - x x x x - x x - x x \n- - x - x - x x x x x x - x - x - - x - \nx x x - - - - x - - - x - - - x x x x - "
     },
     "890_20x20": {
       "id": "890_20x20",

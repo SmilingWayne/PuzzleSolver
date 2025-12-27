@@ -20,5 +20,5 @@ def data():
 def test_pills(data):
     exp_grid = list(map(lambda x: x.split(" "), "0 0 0 5 5 5 0 0 0 0\n2 0 0 0 1 1 1 0 0 0\n2 0 0 0 0 0 0 0 0 10\n2 0 6 0 0 0 0 0 0 10\n0 0 6 0 0 0 0 0 0 10\n0 0 6 0 0 0 0 4 4 4\n0 9 9 9 0 0 0 0 0 0\n0 8 8 8 0 0 0 0 0 0\n0 0 0 0 0 0 3 3 3 0\n0 0 0 0 0 7 7 7 0 0".split("\n")))
     solver = PillsSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid).is_bijective(res_grid)

@@ -3,8 +3,9 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 import copy
-
+from typeguard import typechecked
 class ShogunSudokuSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
@@ -14,6 +15,11 @@ class ShogunSudokuSolver(PuzzleSolver):
                     [12, 0], [12, 12], [12, 24], [12, 36]]
         self.blank_pivot = [(a, b) for b in [9, 21, 33] for a in [0, 3, 15, 18]] + [(9, 0), (9, 3), (9, 15), (9, 27), (9, 39), (9, 42)]
         self.blank = frozenset([(r + r_, c + c_) for (r, c) in self.blank_pivot for r_ in range(3) for c_ in range(3)])
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols, 21, 45)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 1 <= int(x) <= 9)
         
     def _add_constr(self):
         self.x = dict()

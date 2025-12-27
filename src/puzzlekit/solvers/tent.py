@@ -4,15 +4,23 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
 import copy
-
+from typeguard import typechecked
 class TentSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
         self.rows = rows
         self.cols = cols
+        self.validate_input()
     
+    def validate_input(self):
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_list_dims_allowed_chars(self.rows, self.num_rows, "rows", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.cols, self.num_cols, "cols", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_allowed_chars(self.grid.matrix, {'-', "x"})
+        
     def _add_constr(self):
         self.x = dict()
         self.y = dict()

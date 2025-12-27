@@ -2,14 +2,20 @@ from typing import Any, List, Set, Dict, Tuple
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
-import copy
+from typeguard import typechecked
 
 class Str8tSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
-        self._parse_grid()
+        self.validate_input()
+    
+    def validate_input(self):
+        vldter = lambda x: (x.isdigit()) or (x.endswith('x') and x[:-1].isdigit()) or (x.startswith('x') and x[1:].isdigit())
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', "x"}, validator = vldter)
 
     def _parse_grid(self):
         """
@@ -50,7 +56,7 @@ class Str8tSolver(PuzzleSolver):
         self.x = {}
         self.model = cp.CpModel()
         self.solver = cp.CpSolver()
-
+        self._parse_grid()
         # 1. Create variables
         # Variables are only created for white cells and numbered black cells.
         # Empty black cells do not have a variable.

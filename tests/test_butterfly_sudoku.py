@@ -40,20 +40,11 @@ def test_butterfly_sudoku(data):
                 ['7', '1', '9', '5', '8', '2', '3', '6', '4', '7', '1', '9'],
                 ['3', '4', '2', '7', '1', '6', '5', '8', '9', '3', '2', '4']]
     solver = ButterflySudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_butterfly_sudoku_validation():
     """Test data validation for ButterflySudokuSolver"""
-    
-    # Test 1: num_rows is not an integer (string type)
-    with pytest.raises(TypeError, match="num_rows must be an integer"):
-        ButterflySudokuSolver(num_rows="12", num_cols=12, grid=[['-'] * 12] * 12)
-    
-    # Test 2: num_cols is not an integer (string type)
-    with pytest.raises(TypeError, match="num_cols must be an integer"):
-        ButterflySudokuSolver(num_rows=12, num_cols="12", grid=[['-'] * 12] * 12)
-    
     # Test 3: num_rows is not 12 (wrong value)
     with pytest.raises(ValueError, match="num_rows must be 12"):
         ButterflySudokuSolver(num_rows=10, num_cols=12, grid=[['-'] * 12] * 10)

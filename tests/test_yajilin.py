@@ -18,5 +18,5 @@ def data():
 def test_yajilin(data):
     exp_grid = list(map(lambda x: x.split(" "), "x 1w es ew ew ew sw\nes ew nw 0e es ew nw\nen ew sw x ns 1e x\nx 1w ns 2s ns es sw\nes ew nw x en nw ns\nns x es ew sw 1w ns\nen ew nw x en ew nw".split("\n")))
     solver = YajilinSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

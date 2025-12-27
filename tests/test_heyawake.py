@@ -19,5 +19,5 @@ def data():
 def test_heyawake(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - x - - -\n- x - - x -\n- - - x - -\nx - x - - -\n- - - x - -\nx - x - - x".split("\n")))
     solver = HeyawakeSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

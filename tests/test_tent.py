@@ -20,5 +20,5 @@ def data():
 def test_tent(data):
     exp_grid = list(map(lambda x: x.split(" "), "x - o - - - - - x o - -\no - x x o - x o - - x -\nx - o - x - - - x - o -\no - x - o - o - o - - -\n- - o x - - x - x - o -\n- - - - - - - - o - x -\no - - - o - o x - - - -\nx - o x x - x - x - o x\n- x - - x - o - o - - -\n- o - - o - - - - - x -\n- - x - - x o x o - o -\n- - o x o - - - - - - -".split("\n")))
     solver = TentSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

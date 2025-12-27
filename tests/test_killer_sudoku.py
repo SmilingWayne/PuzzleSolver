@@ -19,5 +19,5 @@ def data():
 def test_killer_sudoku(data):
     exp_grid = list(map(lambda x: x.split(" "), "2 3 4 1\n4 1 3 2\n3 2 1 4\n1 4 2 3".split("\n")))
     solver = KillerSudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

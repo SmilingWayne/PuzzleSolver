@@ -19,15 +19,11 @@ def data():
 def test_fuzili(data):
     exp_grid = list(map(lambda x: x.split(" "), "3 1 - - 2\n1 - 2 3 -\n- 2 1 - 3\n- - 3 2 1\n2 3 - 1 -".split("\n")))
     solver = FuzuliSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_fuzili_validation():
     """Test data validation for FuzuliSolver"""
-    
-    # Test 1: k is not an integer (string type)
-    with pytest.raises(TypeError, match="param k must be an integer"):
-        FuzuliSolver(num_rows=5, num_cols=5, k="3", grid=[['-'] * 5] * 5)
     
     # Test 2: k is less than 1
     with pytest.raises(ValueError, match="param k must be between 1 and"):

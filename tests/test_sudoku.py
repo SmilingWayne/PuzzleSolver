@@ -18,5 +18,5 @@ def data():
 def test_sudoku(data):
     exp_grid = list(map(lambda x: x.split(" "), "2 1 9 4 5 8 7 3 6\n8 4 3 1 7 6 2 9 5\n7 6 5 3 2 9 8 4 1\n6 2 4 9 8 7 1 5 3\n1 5 8 6 3 2 9 7 4\n3 9 7 5 1 4 6 8 2\n4 7 6 2 9 3 5 1 8\n5 8 2 7 4 1 3 6 9\n9 3 1 8 6 5 4 2 7".split("\n")))
     solver = SudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

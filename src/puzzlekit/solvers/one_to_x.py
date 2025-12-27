@@ -5,17 +5,25 @@ from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
 import copy
-
+from typeguard import typechecked
 
 class OneToXSolver(PuzzleSolver):
-    def __init__(self, data: dict[str, Any]):
-        self._data = data
-        self.num_rows: int = self._data['num_rows']
-        self.num_cols: int  = self._data['num_cols']
-        self.cols: List[str] = self._data['cols']
-        self.rows: List[str] = self._data['rows']
-        self.grid: Grid[Any] = Grid(self._data['grid'])
-        self.regions_grid: RegionsGrid[str] = RegionsGrid(self._data['region_grid'])
+    @typechecked
+    def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]], cols: List[str], rows: List[str]):
+        self.num_rows: int = num_rows
+        self.num_cols: int = num_cols
+        self.grid: Grid[Any] = Grid(grid)
+        self.regions_grid: RegionsGrid[str] = RegionsGrid(region_grid)
+        self.cols: List[str] = cols
+        self.rows: List[str] = rows
+        self.validate_input()
+
+    def validate_input(self):
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.regions_grid.matrix)
+        self._check_list_dims_allowed_chars(self.rows, self.num_rows, "rows", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.cols, self.num_cols, "cols", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
 
     def _add_constr(self):
         self.x = dict()

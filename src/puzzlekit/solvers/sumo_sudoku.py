@@ -3,14 +3,15 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 import copy
-import math
+from typeguard import typechecked
 
 class SumoSudokuSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
-        
+        self.validate_input()
         self.pivot = [[0, 0], [0, 12], [0, 24], 
                             [6, 6], [6, 18], 
                             [12, 0], [12, 12], [12, 24], 
@@ -21,25 +22,11 @@ class SumoSudokuSolver(PuzzleSolver):
             (27,9), (27, 21), (30, 9), (30, 21)
         ]
         self.blank = frozenset([(r + r_, c + c_) for (r, c) in self.blank_pivot for r_ in range(3) for c_ in range(3)])
-        
-        self._check_validity()
     
-    def _check_validity(self):
-        """Check validity of input data.
-        """
-        if self.grid.num_rows != self.num_rows:
-            raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
-        if self.grid.num_cols != self.num_cols:
-            raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
-        
-        allowed_chars = {'-', 'x', '.'}
-
-        for pos, cell in self.grid:
-            if cell not in allowed_chars and not cell.isdigit():
-                raise ValueError(f"Invalid character '{cell}' at position {pos}")
-
-    def _parse_grid(self):
-        pass
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols, 33, 33)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 1 <= int(x) <= 9)
         
     def _add_constr(self):
         self.x = dict()

@@ -4,12 +4,29 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
 import copy
-
+from typeguard import typechecked
 class KakuroSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
+        self.validate_input()
+    
+    def validate_input(self):
+        def is_valid_cell(cell: str):
+            if "," not in cell: return False
+            a, b = cell.split(",")
+            if len(a) > 0: 
+                if not a.isdigit():
+                    return False
+            if len(b) > 0: 
+                if not b.isdigit():
+                    return False
+            return True
+            
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', "0"}, validator = lambda x: is_valid_cell(x))
         
     def _add_constr(self):
         self.x = dict()

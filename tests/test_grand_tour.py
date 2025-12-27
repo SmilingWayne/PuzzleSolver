@@ -18,5 +18,5 @@ def data():
 def test_grand_tour(data):
     exp_grid = list(map(lambda x: x.split(" "), "13 7 12 10 8 10 10 10 9\n6 10 1 13 5 12 10 11 5\n10 9 5 5 5 5 14 10 1\n13 7 5 5 5 6 8 11 5\n6 10 1 5 6 11 5 12 3\n10 11 5 6 8 10 3 5 14\n12 10 - 11 5 12 10 2 9\n5 13 5 14 1 5 14 9 5\n7 5 6 11 5 6 11 5 7".split("\n")))
     solver = GrandTourSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

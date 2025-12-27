@@ -4,8 +4,10 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
 import copy
+from typeguard import typechecked
 
 class FuzuliSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, k: int,  grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols

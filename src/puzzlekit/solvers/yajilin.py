@@ -97,8 +97,8 @@ class YajilinSolver(PuzzleSolver):
     
     
     def get_solution(self):
-        sol_grid = copy.deepcopy(self.grid.matrix)
-        # sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
+        # sol_grid = copy.deepcopy(self.grid.matrix)
+        sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         
         for i in range(self.num_rows):
             for j in range(self.num_cols):

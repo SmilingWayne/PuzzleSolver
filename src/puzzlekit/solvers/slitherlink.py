@@ -16,7 +16,7 @@ class SlitherlinkSolver(PuzzleSolver):
     
     def validate_input(self):
         self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
-        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 1 <= int(x) <= 15)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 0 <= int(x) <= 4)
         
     def _add_constr(self):
         self.model = cp.CpModel()

@@ -17,7 +17,7 @@ class MinesweeperSolver(PuzzleSolver):
     
     def validate_input(self):
         self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
-        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_allowed_chars(self.grid.matrix, {'-', "#"}, validator = lambda x: x.isdigit() and int(x) >= 0)
         if self.num_mines < 0:
             raise ValueError("num_mines must be non-negative")
         if self.num_mines > self.num_rows * self.num_cols:

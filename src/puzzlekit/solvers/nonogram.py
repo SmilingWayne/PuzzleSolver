@@ -3,43 +3,38 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 import copy
+from typeguard import typechecked
 
 class NonogramSolver(PuzzleSolver):
-    def __init__(self, num_rows: int, num_cols: int, rows: List[str], cols: List[str], grid: List[List[str]] = list()):
+    @typechecked
+    def __init__(self, num_rows: int, num_cols: int, rows: List[List[str]], cols: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid) if grid else Grid([["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)])
-        self.rows: List[List[int]] = [
-            [int(k) for k in r] for r in rows
-        ]
-        self.cols: List[List[int]] = [
-            [int(k) for k in r] for r in cols
-        ]
-        self._check_validity()
-        self._cp_vars = [] 
-        self._parse_grid() 
+        self.rows: List[List[Any]] = rows
+        self.cols: List[List[Any]] = cols
+        self.validate_input()
     
-    def _check_validity(self):
-        """Check validity of input data."""
-        if self.grid.num_rows != self.num_rows:
-            raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows} instead.")
-        if self.grid.num_cols != self.num_cols:
-            raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols} instead.")
+    def validate_input(self):
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-', "x", "o"})
+        for i in range(self.num_rows):
+            for j in range(len(self.rows[i])):
+                if self.rows[i][j].isdigit():
+                    self.rows[i][j] = int(self.rows[i][j])
+                elif self.rows[i][j] == "-":
+                    continue
+                else:
+                    raise ValueError(f"Invalid value {self.rows[i][j]} at index {i}, {j}")
+        for j in range(self.num_cols):
+            for i in range(len(self.cols[j])):
+                if self.cols[j][i].isdigit():
+                    self.cols[j][i] = int(self.cols[j][i])
+                elif self.cols[j][i] == "-":
+                    continue
+                else:
+                    raise ValueError(f"Invalid value {self.cols[j][i]} at index {j}, {i}")        
         
-        if len(self.rows) != self.num_rows:
-            raise ValueError(f"Row clues count ({len(self.rows)}) does not match num_rows ({self.num_rows})")
-        if len(self.cols) != self.num_cols:
-            raise ValueError(f"Col clues count ({len(self.cols)}) does not match num_cols ({self.num_cols})")
-
-        # Check for allowed characters
-        allowed_chars = {'-', 'x', 'o'} # -: empty/unknown, x: marked empty, o: filled
-        for pos, cell in self.grid:
-            # Assuming standard black and white (digits might represent colors in other variants)
-            if cell not in allowed_chars and not cell.isdigit(): 
-                raise ValueError(f"Invalid character '{cell}' at position {pos}")
-
-    def _parse_grid(self):
-        pass
     
     def _create_range_check(self, item_var, lower_bound, upper_bound):
         """

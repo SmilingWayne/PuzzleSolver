@@ -188,7 +188,7 @@ class PuzzlePlotter:
         self.fig.savefig(filepath, bbox_inches='tight', pad_inches=0.2, dpi=150)
         plt.close(self.fig)
 
-    def show(self, block=True, auto_close_sec=0.5):
+    def show(self, auto_close_sec=0.5):
         # 1. check backend   
         # If 'Agg' (CI environment/headless mode), calling show/pause will report Warning, so exit directly
         backend = matplotlib.get_backend().lower()
@@ -209,4 +209,4 @@ class PuzzlePlotter:
             plt.pause(auto_close_sec)
             plt.close(self.fig)
         else:
-            plt.show(block=block)
+            plt.show(block=True)

@@ -3,16 +3,19 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
+from typeguard import typechecked
 import copy
 
 class BinairoSolver(PuzzleSolver):
+    
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
+        self.validate_input()
     
     def validate_input(self):
-        self._check_num_col_num(self.num_rows, self.num_cols)
         self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
         self._check_allowed_chars(self.grid.matrix, {'1', '2', '-'})
         
@@ -23,7 +26,7 @@ class BinairoSolver(PuzzleSolver):
         self._add_num_constr()
         self._add_equal_cells_constr()
         self._add_no_more_two_constr()
-        self._add_unique_row_col_constr()
+        # self._add_unique_row_col_constr() # some dataset (especially janko.at) has no unique row/col constr.
 
     def _add_num_constr(self):
         for i in range(self.num_rows):

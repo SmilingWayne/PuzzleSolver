@@ -3,9 +3,11 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
+from typeguard import typechecked
 import copy
 
 class ABCEndViewSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], cols_top: List[str], cols_bottom: List[str], rows_left: List[str], rows_right: List[str], val: str):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
@@ -14,8 +16,19 @@ class ABCEndViewSolver(PuzzleSolver):
         self.cols_bottom: List[str] = cols_bottom
         self.rows_left: List[str] = rows_left
         self.rows_right: List[str] = rows_right
-        self.val: int = self._char_to_int(val)
-        
+        self.val_char: str = val
+        self.validate_input()
+        self.val: int = self._char_to_int(self.val_char)
+    
+    def validate_input(self):
+        vldter = lambda x: x.isalpha() and len(x) == 1
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_list_dims_allowed_chars(self.cols_top, self.num_cols, 'cols_top', allowed = {"-"}, validator=vldter)
+        self._check_list_dims_allowed_chars(self.cols_bottom, self.num_cols, 'cols_bottom', allowed = {"-"}, validator=vldter)
+        self._check_list_dims_allowed_chars(self.rows_left, self.num_rows, 'rows_left', allowed = {"-"}, validator=vldter)
+        self._check_list_dims_allowed_chars(self.rows_right, self.num_rows, 'rows_right', allowed = {"-"}, validator=vldter)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = vldter)
+    
     def _char_to_int(self, c: str) -> int:
         if not c or c == '-':
             return 0

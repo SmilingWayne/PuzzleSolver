@@ -4,12 +4,20 @@ from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 import copy
 import math
+from typeguard import typechecked
 
 class SudokuSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit())
         
     def _add_constr(self):
         self.x = dict()

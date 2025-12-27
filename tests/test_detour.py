@@ -19,7 +19,7 @@ def data():
 def test_detour(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew sw\nns es ew nw\nns en ew sw\nen ew ew nw'.split("\n")))
     solver = DetourSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_country_road_validation():
@@ -27,18 +27,6 @@ def test_country_road_validation():
     
     # Create a simple valid region_grid for testing
     valid_region_grid = [['1', '1'], ['1', '1']]
-    
-    # Test 1: num_rows is not an integer (string type)
-    with pytest.raises(TypeError, match="num_rows must be an integer"):
-        DetourSolver(num_rows="5", num_cols=5, 
-                         grid=[['-', '-'], ['-', '-']], 
-                         region_grid=valid_region_grid)
-    
-    # Test 2: num_cols is not an integer (string type)
-    with pytest.raises(TypeError, match="num_cols must be an integer"):
-        DetourSolver(num_rows=5, num_cols="5", 
-                         grid=[['-', '-'], ['-', '-']], 
-                         region_grid=valid_region_grid)
     
     # Test 3: invalid character in grid (not in allowed set {'-'} and not a non-negative integer)
     with pytest.raises(ValueError, match="Invalid value.*at.*Must be in.*"):

@@ -19,5 +19,45 @@ def data():
 def test_entry_exit(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew ew ew ew ew sw\nns es ew sw es ew sw ns\nns en sw ns en sw ns ns\nns es nw en sw ns en nw\nns en ew sw ns en ew sw\nen sw es nw en ew sw ns\nes nw ns es ew ew nw ns\nen ew nw en ew ew ew nw'.split("\n")))
     solver = EntryExitSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
+    
+def test_entry_exit_validation():
+    """Test character validation for EntryExitSolver"""
+    
+    # Create a simple valid region_grid for testing
+    valid_region_grid = [['1', '1'], ['1', '1']]
+    
+    # Test 1: invalid character (not in allowed set)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EntryExitSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'invalid']])
+    
+    # Test 2: invalid character - "a" (not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EntryExitSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'a']])
+    
+    # Test 3: invalid character - "nn" (same letter, not allowed)
+    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
+        EntryExitSolver(num_rows=2, num_cols=2, 
+                        region_grid=valid_region_grid,
+                        grid=[['-', '-'], ['-', 'nn']])
+    
+    # Test 4: valid grid with allowed direction combinations
+    valid_grid = [['-', 'ns', 'ew'], ['@', 'x', 'nw']]
+    solver = EntryExitSolver(num_rows=2, num_cols=3, 
+                             region_grid=[['1', '1', '1'], ['1', '1', '1']],
+                             grid=valid_grid)
+    assert solver.num_rows == 2
+    assert solver.num_cols == 3
+    
+    # Test 5: valid grid with only '-' characters
+    valid_grid_simple = [['-', '-'], ['-', '-']]
+    solver2 = EntryExitSolver(num_rows=2, num_cols=2, 
+                               region_grid=valid_region_grid,
+                               grid=valid_grid_simple)
+    assert solver2.num_rows == 2
+    assert solver2.num_cols == 2

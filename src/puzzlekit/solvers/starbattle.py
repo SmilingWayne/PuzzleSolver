@@ -3,15 +3,23 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from ortools.sat.python import cp_model as cp
+from typeguard import typechecked
 
 class StarbattleSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, num_stars:int, region_grid: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows
-        self.num_cols: int  = num_cols
-        self.num_stars: int  = num_stars
+        self.num_cols: int = num_cols
+        self.num_stars: int = num_stars
         self.region_grid: RegionsGrid[str] = RegionsGrid(region_grid)
         self.grid: Grid[str] = Grid(grid) if grid else Grid([["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)])
-
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.region_grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 1 <= int(x) <= 15)
+        
     def _add_constr(self):
         self.x = {}
         self.model = cp.CpModel()

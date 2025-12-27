@@ -18,19 +18,11 @@ def data():
 def test_even_odd_sudoku(data):
     exp_grid = list(map(lambda x: x.split(" "), "7 2 6 9 3 8 1 4 5\n4 9 1 2 7 5 6 3 8\n3 8 5 1 6 4 2 7 9\n5 1 9 6 4 3 7 8 2\n2 6 4 8 1 7 9 5 3\n8 3 7 5 2 9 4 6 1\n9 4 3 7 8 1 5 2 6\n6 5 8 4 9 2 3 1 7\n1 7 2 3 5 6 8 9 4".split("\n")))
     solver = EvenOddSudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_even_odd_sudoku_validation():
     """Test data validation for EvenOddSudokuSolver"""
-    
-    # Test 1: num_rows is not an integer (string type)
-    with pytest.raises(TypeError, match="num_rows must be an integer"):
-        EvenOddSudokuSolver(num_rows="9", num_cols=9, grid=[['-'] * 9] * 9)
-    
-    # Test 2: num_cols is not an integer (string type)
-    with pytest.raises(TypeError, match="num_cols must be an integer"):
-        EvenOddSudokuSolver(num_rows=9, num_cols="9", grid=[['-'] * 9] * 9)
     
     # Test 3: num_rows is not 9 (wrong value)
     with pytest.raises(ValueError, match="num_rows must be 9"):

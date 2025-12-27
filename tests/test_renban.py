@@ -19,5 +19,5 @@ def data():
 def test_renban(data):
     exp_grid = list(map(lambda x: x.split(" "), "5 1 4 3 6 2\n4 3 6 2 5 1\n3 6 2 1 4 5\n1 2 5 6 3 4\n6 5 1 4 2 3\n2 4 3 5 1 6".split("\n")))
     solver = RenbanSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

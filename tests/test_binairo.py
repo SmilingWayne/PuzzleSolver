@@ -43,24 +43,20 @@ def test_binairo_validation():
     """Test data validation for BinairoSolver - character validation only"""
     
     # Test 1: invalid character (not in allowed set {'1', '2', '-'})
-    solver1 = BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', 'invalid']])
     with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
-        solver1.validate_input()
+        BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', 'invalid']])
     
     # Test 2: invalid character - "0" (not allowed)
-    solver2 = BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', '0']])
     with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
-        solver2.validate_input()
+        BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', '0']])
     
     # Test 3: invalid character - "3" (not allowed)
-    solver3 = BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', '3']])
     with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
-        solver3.validate_input()
+        BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', '3']])
     
     # Test 4: invalid character - "x" (not allowed)
-    solver4 = BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', 'x']])
     with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
-        solver4.validate_input()
+        BinairoSolver(num_rows=2, num_cols=2, grid=[['-', '-'], ['-', 'x']])
     
     # Test 5: valid grid with all allowed characters
     valid_grid = [['1', '2', '-'], ['-', '1', '2'], ['2', '-', '1']]

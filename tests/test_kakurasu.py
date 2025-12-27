@@ -20,5 +20,5 @@ def data():
 def test_kakurasu(data):
     exp_grid = list(map(lambda x: x.split(" "), "x - - - x\n- - x - -\nx x - - x\nx x x x -\n- x x - -".split("\n")))
     solver = KakurasuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid

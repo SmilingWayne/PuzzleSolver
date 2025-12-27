@@ -18,7 +18,7 @@ def data():
 def test_eulero(data):
     exp_grid = list(map(lambda x: x.split(" "), "31 13 24 42\n44 22 11 33\n12 34 43 21\n23 41 32 14".split("\n")))
     solver = EuleroSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_eulero_validation():

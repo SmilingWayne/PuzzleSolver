@@ -76,9 +76,10 @@ def visualize(
     solution_grid: Optional[Grid] = None, 
     puzzle_data: Optional[Dict[str, Any]] = None, 
     title: Optional[str] = None, 
-    show: bool = True, 
+    show: bool = False, 
     save_path: Optional[str] = None,
-    figsize_scale: float = 0.5
+    figsize_scale: float = 0.5,
+    auto_close_sec: float = 0.5,
 ) -> PuzzlePlotter:
 
     ptype = puzzle_type.lower()
@@ -112,7 +113,7 @@ def visualize(
         plotter.save(save_path)
     
     if show:
-        plotter.show()
+        plotter.show(auto_close_sec=auto_close_sec)
     
     return plotter
 

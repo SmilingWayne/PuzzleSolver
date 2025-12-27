@@ -32,7 +32,7 @@ def test_buraitoraito(data):
                 ['2', '-', '-', '2', '*', '-', '2', '*'],
                 ['*', '3', '-', '*', '*', '3', '-', '*']]
     solver = BuraitoraitoSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = True).get('grid', [])
+    res_grid = solver.solve_and_show(show = False).get('grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_buraitoraito_validation():

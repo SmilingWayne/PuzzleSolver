@@ -32,10 +32,6 @@ def test_balance_loop(data):
 def test_balance_loop_validation():
     """Test data validation for BalanceLoopSolver"""
     
-    # Test 1: grid is not a 2D array (rows are not lists)
-    with pytest.raises(ValueError, match="Grid must be a 2D array"):
-        BalanceLoopSolver(num_rows=2, num_cols=2, grid=[1, 2, 3, 4])
-    
     # Test 2: row count mismatch
     with pytest.raises(ValueError, match="Grid rows must match num_rows"):
         BalanceLoopSolver(num_rows=3, num_cols=2, grid=[['-', '-'], ['-', '-']])

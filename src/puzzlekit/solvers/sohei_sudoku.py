@@ -3,16 +3,23 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 import copy
+from typeguard import typechecked
 
 class SoheiSudokuSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
-        
+        self.validate_input()
         self.pivot = [[0, 6], [6, 0], [6, 12], [12, 6]]
         self.blank_pivot = [(0, 0), (0, 3), (3, 0), (3, 3), (0, 15), (0, 18), (3, 15), (3, 18), (9, 9), (0, 0)] + [(15, 0), (15, 3), (18, 0), (18, 3), (15, 15), (15, 18), (18, 15), (18, 18)]
         self.blank = frozenset([(r + r_, c + c_) for (r, c) in self.blank_pivot for r_ in range(3) for c_ in range(3)])
+        
+    def validate_input(self):
+        self._check_num_col_num(self.num_rows, self.num_cols, 21, 21)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {'-'}, validator = lambda x: x.isdigit() and 1 <= int(x) <= 9)
         
     def _add_constr(self):
         self.x = dict()

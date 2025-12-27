@@ -2,28 +2,30 @@ from typing import Any, Dict, List, Tuple
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
-import copy
+from typeguard import typechecked
 
 class ThermometerSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols
         self.grid: Grid[str] = Grid(grid)
         self.cols: List[str] = cols
         self.rows: List[str] = rows
-        self._check_validity()
+        self.validate_input()
         self._parse_thermometers()
         
-    def _check_validity(self):
-        if self.grid.num_rows != self.num_rows:
-            raise ValueError(f"Inconsistent num of rows: expected {self.num_rows}, got {self.grid.num_rows}")
-        if self.grid.num_cols != self.num_cols:
-            raise ValueError(f"Inconsistent num of cols: expected {self.num_cols}, got {self.grid.num_cols}")
-        if len(self.rows) != self.num_rows:
-             raise ValueError("Row labels count does not match number of rows.")
-        if len(self.cols) != self.num_cols:
-             raise ValueError("Col labels count does not match number of columns.")
-
+    def validate_input(self): 
+        def vldter(x: str):
+            if "." not in x: return False 
+            a, b = x.split(".")
+            if len(a) > 0 and len(b) > 0: return True
+            return False
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_list_dims_allowed_chars(self.rows, self.num_rows, "rows", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.cols, self.num_cols, "cols", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_allowed_chars(self.grid.matrix, {'-', ".", "x"}, validator = vldter)
+        
     def _parse_thermometers(self):
 
         self.thermos: Dict[str, List[Tuple[int, int, int]]] = {}

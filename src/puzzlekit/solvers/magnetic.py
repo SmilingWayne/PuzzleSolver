@@ -4,20 +4,31 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
-
+from typeguard import typechecked
 import copy
 
 class MagneticSolver(PuzzleSolver):
+    @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]], cols_positive: List[str], cols_negative: List[str], rows_positive: List[str], rows_negative: List[str]):
         self.num_rows: int = num_rows
-        self.num_cols: int  = num_cols
+        self.num_cols: int = num_cols
         self.grid: Grid[str] = Grid(grid)
         self.region_grid: RegionsGrid[str] = RegionsGrid(region_grid)
         self.cols_positive: List[str] = cols_positive
         self.cols_negative: List[str] = cols_negative
         self.rows_positive: List[str] = rows_positive
         self.rows_negative: List[str] = rows_negative
-
+        self.validate_input()
+    
+    def validate_input(self):
+        self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
+        self._check_grid_dims(self.num_rows, self.num_cols, self.region_grid.matrix)
+        self._check_allowed_chars(self.grid.matrix, {"+", "-", "x", "."})
+        self._check_list_dims_allowed_chars(self.cols_positive, self.num_cols, "cols_positive", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.cols_negative, self.num_cols, "cols_negative", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.rows_positive, self.num_rows, "rows_positive", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+        self._check_list_dims_allowed_chars(self.rows_negative, self.num_rows, "rows_negative", allowed = {'-'}, validator = lambda x: x.isdigit() and int(x) >= 0)
+    
     def _add_constr(self):
         self.x = dict()
         self.model = cp.CpModel()

@@ -19,5 +19,5 @@ def data():
 def test_minesweeper(data):
     exp_grid = list(map(lambda x: x.split(" "), "- x - -\nx - - -\n- - - -\n- - x -".split("\n")))
     solver = MinesweeperSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

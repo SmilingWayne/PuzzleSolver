@@ -11,7 +11,7 @@ from .common import (
     standard_grid_parser_starbattle,
     standard_grid_parser_nonogram
 )
-
+# this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
 
 PARSER_MAP: Dict[str, ParserFunc] = {

@@ -19,5 +19,5 @@ def data():
 def test_nondango(data):
     exp_grid = list(map(lambda x: x.split(" "), "o o x o\nx o o x\no x x -\no o - -".split("\n")))
     solver = NondangoSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

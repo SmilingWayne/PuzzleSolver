@@ -18,5 +18,5 @@ def data():
 def test_str8t(data):
     exp_grid = list(map(lambda x: x.split(" "), "- 4 3 1 - -\n- 2 4 3 5 1\n- 3 1 5 4 2\n4 5 2 6 3 -\n3 6 5 4 2 -\n- - - 2 1 4".split("\n")))
     solver = Str8tSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

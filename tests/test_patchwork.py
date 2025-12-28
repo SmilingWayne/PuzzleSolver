@@ -19,5 +19,5 @@ def data():
 def test_patchwork(data):
     exp_grid = list(map(lambda x: x.split(" "), "1 2 3 1 2 3 1 3 1 2 3 2\n3 1 2 3 1 2 3 2 3 1 2 1\n2 3 1 2 3 1 2 3 1 2 1 3\n3 1 2 3 1 2 3 1 2 3 2 1\n1 2 3 1 2 3 1 2 3 1 3 2\n2 3 1 2 3 1 2 3 1 2 1 3\n3 1 2 3 1 2 3 1 2 3 2 1\n1 2 3 1 2 3 1 2 3 1 3 2\n2 3 1 2 3 1 2 1 2 3 1 3\n3 1 2 3 1 2 1 3 1 2 3 2\n1 2 3 1 2 3 2 1 2 3 1 3\n2 3 1 2 3 1 3 2 3 1 2 1".split("\n")))
     solver = PatchworkSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

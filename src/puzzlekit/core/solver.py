@@ -4,10 +4,9 @@ from ortools.sat.python import cp_model as cp
 from puzzlekit.core.grid import Grid
 from puzzlekit.utils.ortools_utils import ortools_cpsat_analytics
 from puzzlekit.utils.name_utils import infer_puzzle_type
-from puzzlekit.viz import visualize
+from puzzlekit.core.result import PuzzleResult
 import re
 import time
-
 
 class PuzzleSolver(ABC):
     @abstractmethod
@@ -142,62 +141,71 @@ class PuzzleSolver(ABC):
         if status in [cp.OPTIMAL, cp.FEASIBLE]:
             solution_grid = self.get_solution()
         
-        solution_dict['grid'] = solution_grid
+        solution_dict['solution_grid'] = solution_grid
         
-        return solution_dict
-
-    def solve_and_show(self, show: bool = False, save_path: Optional[str] = None, auto_close_sec: float = 0.5, **kwargs):
-        """
-        Solve and show func
-        """
-
-        result = self.solve()
-        solution_status = result.get('status')
-        context_data = vars(self).copy()     
+        # print(f"{self.puzzle_type}: \nStatus: {solution_dict.get('status', 'Unknown')}, \nCPU Time: {solution_dict.get('cpu_time', -1):.4f} s\nBuild Time: {solution_dict.get('build_time', -1):.4f} s")
         
-        for k, v in context_data.items():
-            if isinstance(v, Grid):
-                context_data[k] = v.matrix
-            if hasattr(v, 'matrix'): 
-                context_data[k] = v.matrix
+        return PuzzleResult(
+            puzzle_type = self.puzzle_type,
+            puzzle_data = vars(self).copy(),
+            solution_data = solution_dict
+        )
+
+    
+    # def solve_and_show(self, show: bool = False, save_path: Optional[str] = None, auto_close_sec: float = 0.5, **kwargs):
+    #     """
+    #     Solve and show func
+    #     """
+
+    #     result = self.solve()
+    #     solution_status = result.get('status')
+    #     context_data = vars(self).copy()
+        
+    #     for k, v in context_data.items():
+    #         if isinstance(v, Grid):
+    #             context_data[k] = v.matrix
+    #         if hasattr(v, 'matrix'): 
+    #             context_data[k] = v.matrix
                 
-        # print(f"[{self.puzzle_type}] Status: {solution_status}, Time: {result.get('build_time', 0):.4f}s")
+    #     # print(f"[{self.puzzle_type}] Status: {solution_status}, Time: {result.get('build_time', 0):.4f}s")
 
-        if solution_status not in ['Optimal', 'Feasible']:
-            print("No visualizable solution found.")
-            if show:
-                try:
-                    visualize(
-                        puzzle_type = self.puzzle_type,
-                        solution_grid = None,
-                        puzzle_data = context_data, 
-                        title = f"{self.puzzle_type.replace('_', ' ').title()} puzzle INFEASIBLE.",
-                        show=show,
-                        save_path=save_path
-                    )
-                except NotImplementedError:
-                    print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
-                except Exception as e:
-                    print(f"Visualization failed: {e}")
-            return result
-        else:
-            solution_grid = result.get('grid')
+    #     if solution_status not in ['Optimal', 'Feasible']:
+    #         print("No visualizable solution found.")
+    #         if show:
+    #             try:
+    #                 visualize(
+    #                     puzzle_type = self.puzzle_type,
+    #                     solution_grid = None,
+    #                     puzzle_data = context_data, 
+    #                     title = f"{self.puzzle_type.replace('_', ' ').title()} puzzle INFEASIBLE.",
+    #                     show=show,
+    #                     save_path=save_path
+    #                 )
+    #             except NotImplementedError:
+    #                 print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
+    #             except Exception as e:
+    #                 print(f"Visualization failed: {e}")
+    #         return result
+    #     else:
+    #         solution_grid = result.get('grid')
             
-            # 3. vis factory
-            if show:
-                try:
-                    visualize(
-                        puzzle_type = self.puzzle_type,
-                        solution_grid = solution_grid,
-                        puzzle_data = context_data, 
-                        title = f"{self.puzzle_type.replace('_', ' ').title()} Result",
-                        show=show,
-                        save_path=save_path,
-                        auto_close_sec=auto_close_sec
-                    )
-                except NotImplementedError:
-                    print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
-                except Exception as e:
-                    print(f"Visualization failed: {e}")
-
-            return result
+    #         # 3. vis factory
+    #         if show:
+    #             try:
+    #                 visualize(
+    #                     puzzle_type = self.puzzle_type,
+    #                     solution_grid = solution_grid,
+    #                     puzzle_data = context_data, 
+    #                     title = f"{self.puzzle_type.replace('_', ' ').title()} Result",
+    #                     show=show,
+    #                     save_path=save_path,
+    #                     auto_close_sec=auto_close_sec
+    #                 )
+    #             except NotImplementedError:
+    #                 print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
+    #             except Exception as e:
+    #                 print(f"Visualization failed: {e}")
+    #         else:
+    #             print(solution_grid)
+    #         return result
+        

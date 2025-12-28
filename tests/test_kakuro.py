@@ -18,5 +18,5 @@ def data():
 def test_kakuro(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - - - - - - - - - - -\n- - 3 4 - 7 9 - - - 3 1\n- 8 6 9 - 6 8 9 - 3 1 2\n- 6 1 2 3 4 - 7 3 4 2 -\n- 9 4 - 1 2 4 - 1 2 - -\n- - 2 1 - 1 2 4 - 1 2 -\n- - - 3 9 - 8 6 9 - 1 2\n- - 7 5 8 9 - 7 8 9 4 6\n- 3 1 2 - 8 7 9 - 8 6 9\n- 1 2 - - - 9 8 - 7 3 -".split("\n")))
     solver = KakuroSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

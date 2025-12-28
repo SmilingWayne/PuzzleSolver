@@ -19,5 +19,5 @@ def data():
 def test_jigsaw_sudoku(data):
     exp_grid = list(map(lambda x: x.split(" "), "1 9 7 4 3 5 6 8 2\n4 6 3 8 2 1 7 5 9\n8 7 5 2 9 6 1 4 3\n7 1 8 6 4 9 3 2 5\n2 5 6 1 7 3 4 9 8\n3 4 1 5 8 2 9 6 7\n9 2 4 7 6 8 5 3 1\n5 8 9 3 1 4 2 7 6\n6 3 2 9 5 7 8 1 4".split("\n")))
     solver = JigsawSudokuSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

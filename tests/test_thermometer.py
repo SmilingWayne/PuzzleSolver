@@ -20,5 +20,5 @@ def data():
 def test_thermometer(data):
     exp_grid = list(map(lambda x: x.split(" "), "x x x - - x\n- - - - x x\n- - - - x x\n- x - x x -\n- x x x x -\nx x x x x -".split("\n")))
     solver = ThermometerSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

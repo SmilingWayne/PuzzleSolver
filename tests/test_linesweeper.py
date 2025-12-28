@@ -18,5 +18,5 @@ def data():
 def test_linesweeper(data):
     exp_grid = list(map(lambda x: x.split(" "), '- - es sw\n- - en nw\n- - - -\n- - - -'.split("\n")))
     solver = LinesweeperSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

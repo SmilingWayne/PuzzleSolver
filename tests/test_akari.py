@@ -35,7 +35,7 @@ def test_akari(data):
                 ['-', '-', '-', '-', 'o', '-', '0', '-', '-', 'o'],
                 ['1', 'o', '-', '-', '-', '-', '-', '-', '-', '1']]
     solver = AkariSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_akari_validation():

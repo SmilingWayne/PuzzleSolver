@@ -18,5 +18,5 @@ def data():
 def test_munraito(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - x s\n- 3 s x\nx s - 4\ns x 8 -".split("\n")))
     solver = MunraitoSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

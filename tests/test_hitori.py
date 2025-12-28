@@ -18,5 +18,5 @@ def data():
 def test_hitori(data):
     exp_grid = list(map(lambda x: x.split(" "), "- x - -\n- - - x\n- x - -\nx - - x".split("\n")))
     solver = HitoriSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

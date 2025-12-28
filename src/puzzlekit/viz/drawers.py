@@ -48,7 +48,8 @@ def draw_magnetic(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter
     
     initial_grid = None
     if 'grid' in puzzle_data:
-        initial_grid = Grid(puzzle_data['grid'])
+        initial_grid = Grid(puzzle_data['grid']) if isinstance(puzzle_data['grid'], list) else puzzle_data['grid']
+        
     
     def _is_given_cell(pos):
         if not initial_grid: return False
@@ -101,7 +102,7 @@ def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzleP
     # Differentiate Given (initial puzzle) and Solution (final solution)
     initial_grid = None
     if 'grid' in puzzle_data:
-        initial_grid = Grid(puzzle_data['grid'])
+        initial_grid = Grid(puzzle_data['grid']) if isinstance(puzzle_data['grid'], list) else puzzle_data['grid']
     
     def _is_given_cell(pos):
         if not initial_grid: return False

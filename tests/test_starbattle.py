@@ -20,5 +20,5 @@ def data():
 def test_starbattle(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - - x - -\nx - - - - -\n- - - - - x\n- - x - - -\n- - - - x -\n- x - - - -".split("\n")))
     solver = StarbattleSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

@@ -26,7 +26,7 @@ def test_bosanowa(data):
                 ['12', '-', '3', '6', '3', '-'],
                 ['6', '-', '-', '-', '-', '-']]
     solver = BosanowaSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_bosanowa_validation():

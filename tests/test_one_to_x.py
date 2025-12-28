@@ -21,6 +21,6 @@ def data():
 def test_one_to_x(data):
     exp_grid = list(map(lambda x: x.split(" "), "1 4 3 2 1 3 1 5 4 1\n2 3 2 1 2 4 2 6 3 2\n1 5 1 3 4 3 1 5 2 1\n2 4 3 1 3 1 2 4 3 4\n1 5 4 2 1 2 1 5 2 1\n2 6 2 1 2 1 2 3 4 3\n3 4 3 4 3 4 3 5 2 1\n1 2 1 3 4 5 2 6 3 2\n2 5 3 1 2 6 1 7 4 1\n1 6 4 3 4 5 4 6 3 5".split("\n")))
     solver = OneToXSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 

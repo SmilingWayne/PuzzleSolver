@@ -147,9 +147,6 @@ class PuzzlePlotter:
     # Core func 3: Internal connection (n, s, w, e, "") x (n, s, w, e, "")
     # ==========================
     def draw_connectors(self, r, c, direction_str: str, linewidth=2, color='blue'):
-        """
-        解析 'ns', 'es', 'ew' 等字符串并在格子内部画线
-        """
         center_x, center_y = c + 0.5, r + 0.5
         
         # Mapping: direction string -> offset (dx, dy)

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "puzzlekit"
 version = "0.1.0"
-description = "Solvers for logic puzzles with ortools. e.g. Nonogram, Slitherlink, Fillomino, Creek, Akari, Yajilin and Sudoku-variants."
+description = "60 + Solvers for logic puzzles with ortools. e.g. Nonogram, Slitherlink, Fillomino, Creek, Akari, Yajilin and Sudoku-variants."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "SmilingWayne", email = "xiaoxiaowayne@gmail.com"}]

@@ -36,7 +36,7 @@ def test_binairo(data):
                 ['1', '1', '2', '2', '1', '2', '2', '1', '1', '2'],
                 ['2', '1', '2', '2', '1', '1', '2', '1', '2', '1']]
     solver = BinairoSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_binairo_validation():

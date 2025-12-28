@@ -18,7 +18,7 @@ def data():
 def test_fobidoshi(data):
     exp_grid = list(map(lambda x: x.split(" "), "- o o o - o\no - - o o o\no o - o o -\no o o - o o\n- o o o - o\n- - - o o o".split("\n")))
     solver = FobidoshiSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_fobidoshi_validation():

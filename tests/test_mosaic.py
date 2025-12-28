@@ -18,5 +18,5 @@ def data():
 def test_mosaic(data):
     exp_grid = list(map(lambda x: x.split(" "), "- - - - x x x x x x x - - - -\n- - x x x x - - - x x x x - -\n- - x x x - - x x x x x x - -\n- x x x - - x x x x x x - - -\n- x x - x x x x x x x x x x -\nx x - - x x x x - - - x x x x\nx x - x x x x - - - - - x x x\n- x x x x x - - x x - x - - -\n- - - - - x - - - - - - - - -\nx x x - - x - - - - x - - - -\nx - x - - - x x - - - x - x x\nx x x - - x - - x x x - - x x\nx - - x x x - - - x x - - - x\n- x x x x x x x x - x x x x -\nx x x x x x x - - - - x x x x".split("\n")))
     solver = MosaicSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

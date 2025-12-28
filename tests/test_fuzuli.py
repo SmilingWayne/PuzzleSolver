@@ -19,7 +19,7 @@ def data():
 def test_fuzili(data):
     exp_grid = list(map(lambda x: x.split(" "), "3 1 - - 2\n1 - 2 3 -\n- 2 1 - 3\n- - 3 2 1\n2 3 - 1 -".split("\n")))
     solver = FuzuliSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
 
 def test_fuzili_validation():

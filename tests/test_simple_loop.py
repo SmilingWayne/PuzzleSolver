@@ -18,5 +18,5 @@ def data():
 def test_simple_loop(data):
     exp_grid = list(map(lambda x: x.split(" "), 'es ew ew ew ew sw\nen sw es ew sw ns\n- ns ns - en nw\nes nw en ew sw -\nns es sw - en sw\nen nw en ew ew nw'.split("\n")))
     solver = SimpleLoopSolver(**data.puzzle_dict)
-    res_grid = solver.solve_and_show(show = False).get('grid', [])
+    res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid

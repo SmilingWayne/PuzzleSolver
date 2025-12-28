@@ -1,12 +1,12 @@
-import sys
-from typing import TYPE_CHECKING
+from typing import Dict, Any
+from puzzlekit.solvers import get_solver_class
 
-if TYPE_CHECKING:
-    from puzzlekit.solvers.abc_end_view import ABCEndViewSolver
-    from puzzlekit.solvers.akari import AkariSolver
-    from puzzlekit.solvers.balance_loop import BalanceLoopSolver
-    from puzzlekit.solvers.binairo import BinairoSolver
-    from puzzlekit.solvers.bosanowa import BosanowaSolver
-    from puzzlekit.solvers.buraitoraito import BuraitoraitoSolver
-    from puzzlekit.solvers.fobidoshi import FobidoshiSolver
+def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
+
+    init_params = (data or {}).copy()
+    init_params.update(kwargs)
     
+    SolverClass = get_solver_class(puzzle_type)
+    return SolverClass(**init_params)
+
+__all__ = ["solver"]

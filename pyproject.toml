@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puzzlekit"
+version = "0.1.0"
+description = "A comprehensive logic puzzle solver (60+) based on Google OR-Tools. e.g. Nonogram, Slitherlink, Akari, Yajilin, Hitori and Sudoku-variants."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "SmilingWayne", email = "xiaoxiaowayne@gmail.com"}]
+license = {file = "LICENSE"}
+keywords = ["puzzle", "solver", "logic", "cp-sat", "efficient", "python", "nonogram", "slitherlink", "yajilin", "hitori", "sudoku", "akari"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "ortools>=9.6",
+    "matplotlib", 
+    "typeguard"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["puzzlekit*"]
+
+[project.urls]
+Homepage = "https://github.com/SmilingWayne/PuzzleSolver"
+Repository = "https://github.com/SmilingWayne/PuzzleSolver"
+Issues = "https://github.com/SmilingWayne/PuzzleSolver/issues"

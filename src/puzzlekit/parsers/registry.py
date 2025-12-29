@@ -1,0 +1,87 @@
+from typing import Callable, Dict, Any
+from .common import (
+    standard_grid_parser, 
+    standard_grid_row_col_parser,
+    standard_region_grid_parser,
+    standard_region_grid_row_col_parser,
+    standard_grid_parser_abc_end_view,
+    standard_grid_parser_fuzuli,
+    standard_grid_parser_magnetic,
+    standard_grid_parser_minesweeper,
+    standard_grid_parser_starbattle,
+    standard_grid_parser_nonogram
+)
+# this peovides quick parsers for json format data
+ParserFunc = Callable[[str], Dict[str, Any]]
+
+PARSER_MAP: Dict[str, ParserFunc] = {
+    "abc_end_view": standard_grid_parser_abc_end_view,
+    "akari": standard_grid_parser,
+    "balance_loop": standard_grid_parser,
+    "binairo": standard_grid_parser,
+    "bosanowa": standard_grid_parser,
+    "buraitoraito": standard_grid_parser,
+    "butterfly_sudoku": standard_grid_parser,
+    "clueless_1_sudoku": standard_grid_parser,
+    "clueless_2_sudoku": standard_grid_parser,
+    "country_road": standard_region_grid_parser,
+    "detour": standard_region_grid_parser,
+    "dominos": standard_grid_parser,
+    "double_back": standard_region_grid_parser,
+    "entry_exit": standard_region_grid_parser,
+    "eulero": standard_grid_parser,
+    "even_odd_sudoku": standard_grid_parser,
+    "fobidoshi": standard_grid_parser,
+    "fuzuli": standard_grid_parser_fuzuli,
+    "gappy": standard_grid_row_col_parser,
+    "gattai_8_sudoku": standard_grid_parser,
+    "grand_tour": standard_grid_parser,
+    "hakyuu": standard_region_grid_parser,
+    "heyawake": standard_region_grid_parser,
+    "hitori": standard_grid_parser,
+    "jigsaw_sudoku": standard_region_grid_parser,
+    "kakurasu": standard_grid_row_col_parser,
+    "kakuro": standard_grid_parser,
+    "killer_sudoku": standard_region_grid_parser,
+    "kuroshuto": standard_grid_parser,
+    "linesweeper": standard_grid_parser,
+    "magnetic": standard_grid_parser_magnetic,
+    "masyu": standard_grid_parser,
+    "minesweeper": standard_grid_parser_minesweeper,
+    "mosaic": standard_grid_parser,
+    "munraito": standard_grid_parser,
+    "nondango": standard_region_grid_parser,
+    "nonogram": standard_grid_parser_nonogram,
+    "norinori": standard_region_grid_parser,
+    "one_to_x": standard_region_grid_row_col_parser,
+    "patchwork": standard_region_grid_parser,
+    "pfeilzahlen": standard_grid_parser,
+    "pills": standard_grid_row_col_parser,
+    "renban": standard_region_grid_parser,
+    "samurai_sudoku": standard_grid_parser,
+    "shikaku": standard_grid_parser,
+    "shogun_sudoku": standard_grid_parser,
+    "simple_loop": standard_grid_parser,
+    "slitherlink": standard_grid_parser,
+    "sohei_sudoku": standard_grid_parser,
+    "square_o": standard_grid_parser,
+    "starbattle": standard_grid_parser_starbattle,
+    "str8t": standard_grid_parser,
+    "sudoku": standard_grid_parser,
+    "suguru": standard_region_grid_parser,
+    "sumo_sudoku": standard_grid_parser,
+    "tenner_grid": standard_grid_parser,
+    "tent": standard_grid_row_col_parser,
+    "terra_x": standard_region_grid_parser,
+    "thermometer": standard_grid_row_col_parser,
+    "tile_paint": standard_region_grid_row_col_parser,
+    "windmill_sudoku": standard_grid_parser,
+    "yajilin": standard_grid_parser,
+}
+
+
+def get_parser(puzzle_type: str) -> ParserFunc:
+    parser = PARSER_MAP.get(puzzle_type)
+    if parser is None:
+        raise ValueError(f"No parser defined for puzzle type: {puzzle_type}")
+    return parser

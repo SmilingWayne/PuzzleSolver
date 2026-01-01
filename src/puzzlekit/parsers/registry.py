@@ -77,6 +77,12 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "tile_paint": standard_region_grid_row_col_parser,
     "windmill_sudoku": standard_grid_parser,
     "yajilin": standard_grid_parser,
+    "hakoiri": standard_region_grid_parser,
+    "diff_neighbors": standard_region_grid_parser,
+    "snake": standard_grid_row_col_parser,
+    "hidoku": standard_grid_parser,
+    "number_cross": standard_grid_row_col_parser,
+    "dotchi_loop": standard_region_grid_parser,
 }
 
 

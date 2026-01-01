@@ -1,5 +1,6 @@
 from typing import Optional, Dict, Any
 from puzzlekit.core.grid import Grid
+from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.viz.base import PuzzlePlotter
 from puzzlekit.viz.drawers import (
     draw_general_puzzle, draw_magnetic
@@ -68,6 +69,12 @@ VISUALIZERS = {
     "tile_paint": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "windmill_sudoku": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "yajilin": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "hakoiri": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "diff_neighbors": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "snake": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "hidoku": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "number_cross": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "dotchi_loop": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     # ...
 }
 
@@ -102,7 +109,7 @@ def visualize(
 
     plotter = PuzzlePlotter(target_grid, title=title, figsize_scale=figsize_scale)
     safe_data = puzzle_data if puzzle_data is not None else {}
-
+    
     try:
         drawer_func(target_grid, safe_data, plotter)
     except Exception as e:

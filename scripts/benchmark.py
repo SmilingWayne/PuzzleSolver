@@ -3,10 +3,10 @@ import sys
 import json
 import time
 import csv
-import traceback
 import pkgutil
+import argparse 
 from datetime import datetime
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 import statistics
 
 # --- Add project root to path ---
@@ -26,17 +26,20 @@ import puzzlekit.solvers
 ASSETS_DIR = os.path.join(project_root, "assets", "data")
 OUTPUT_DIR = os.path.join(project_root, "benchmark_results")
 TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
-OUTPUT_CSV = os.path.join(OUTPUT_DIR, f"benchmark_full_{TIMESTAMP}.csv")
+OUTPUT_CSV = os.path.join(OUTPUT_DIR, f"benchmark_{TIMESTAMP}.csv")
 
 
 def get_all_puzzle_types() -> List[str]:
     """Discover all puzzle types from solvers package."""
     puzzle_types = []
-    package_path = os.path.dirname(puzzlekit.solvers.__file__)
-    for _, name, _ in pkgutil.iter_modules([package_path]):
-        if name.startswith("_") or name == "registry": 
-            continue
-        puzzle_types.append(name)
+    try:
+        package_path = os.path.dirname(puzzlekit.solvers.__file__)
+        for _, name, _ in pkgutil.iter_modules([package_path]):
+            if name.startswith("_") or name == "registry": 
+                continue
+            puzzle_types.append(name)
+    except Exception as e:
+        print(f"Warning: Could not discover solvers automatically: {e}")
     return sorted(puzzle_types)
 
 def load_json_file(filepath: str) -> Dict:
@@ -52,11 +55,6 @@ def parse_simple_solution_string(raw_str: str) -> Grid:
     lines = [line.strip() for line in raw_str.splitlines() if line.strip()]
     if not lines:
         return Grid.empty()
-    # Heuristic: skip first line if it looks like dimensions
-    # first_line_parts = lines[0].split()
-    # # if len(first_line_parts) <= 2 and all(p.isdigit() for p in first_line_parts):
-    # #     content_lines = lines[1:]
-    # # else:
     content_lines = lines[1:]
     matrix = [line.split() for line in content_lines]
     return Grid(matrix)
@@ -89,24 +87,22 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
     
     try:
         parser_func = get_parser(puzzle_type)
-        SolverClass = get_solver_class(puzzle_type) # Will raise if not found
+        SolverClass = get_solver_class(puzzle_type) 
         input_kwargs = parser_func(problem_str)
         solver = SolverClass(**input_kwargs)
         
         tic = time.perf_counter()
-        pz_result = solver.solve() # Returns PuzzleResult object
+        pz_result = solver.solve() 
         toc = time.perf_counter()
         
-        # Access data from PuzzleResult (either as dict or attr)
-        # assuming PuzzleResult has __init__ mapping we discussed
-        result_data = pz_result.solution_data # or pz_result.stats if it acts like dict
+        result_data = pz_result.solution_data 
         
         record["status"] = result_data.get("status", "Unknown")
         record["total_time"] = toc - tic
         
         # Verification
         if record["status"] in ["Optimal", "Feasible"] and solution_str:
-            res_grid = result_data.get("solution_grid", []) # Access attribute
+            res_grid = result_data.get("solution_grid", []) 
             sol_grid = parse_simple_solution_string(solution_str)
             try:
                 is_correct = grid_verifier(puzzle_type, res_grid, sol_grid)
@@ -119,50 +115,81 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
         
     return record
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="PuzzleKit Benchmark Tool.")
+    
+    # either all or one puzzle, mutually exclusive
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("-a", "--all", action="store_true", default=False,
+                       help="Run benchmarks on ALL available puzzles.")
+    group.add_argument("-p", "--puzzle", type=str, 
+                       help="Specific puzzle name to benchmark (e.g. 'Akari', 'slitherlink'). Case-insensitive.")
+    
+    return parser.parse_args()
+
 def main():
+    import time 
+    tic = time.perf_counter()
+    args = parse_args()
+    
+    # if no parameter is specified, print help information and exit, or default to previous behavior (currently set to default all, explicit usage of --all is required)
+    # but for convenience, if no parameter is specified, default to running all (compatibility with original script behavior)
+    # here I set it to: if no parameter is specified, default to running all (compatibility with original script behavior)
+    target_puzzle = args.puzzle
+    run_all = args.all
+    
+    # default behavior: if no parameter is specified, default to running all (compatibility with original script behavior)
+    if not target_puzzle and not run_all:
+        run_all = True
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    all_puzzle_types = get_all_puzzle_types() # From python package scanning
+    all_puzzle_types = get_all_puzzle_types() 
     
-    # We also need to scan the asset directory to find puzzles that might NOT have solvers yet
-    # but exist as data files.
-    asset_folders = [d for d in os.listdir(ASSETS_DIR) if os.path.isdir(os.path.join(ASSETS_DIR, d))]
-    # Store aggregated stats for the final table
-    # Key: Puzzle Name (Folder Name), Value: Dict of stats
+    try:
+        asset_folders = [d for d in os.listdir(ASSETS_DIR) if os.path.isdir(os.path.join(ASSETS_DIR, d))]
+    except FileNotFoundError:
+        print(f"Error: Asset directory not found at {ASSETS_DIR}")
+        return
+
+    # --- Filtering Logic ---
+    sorted_assets = sorted(asset_folders)
+    
+    if target_puzzle:
+        # Normalize input to lower case for comparison
+        target_lower = target_puzzle.lower()
+        # Filter matching folders
+        filtered_assets = [f for f in sorted_assets if f.lower() == target_lower]
+        
+        if not filtered_assets:
+            print(f"Error: Puzzle '{target_puzzle}' not found in assets.")
+            print(f"Available assets: {', '.join(sorted_assets[:10])}...")
+            return
+        sorted_assets = filtered_assets
+        print(f"Running benchmark ONLY for: {sorted_assets[0]}")
+    else:
+        print(f"Running benchmark for ALL {len(sorted_assets)} puzzles.")
+
+    # --- Stats Containers ---
     table_rows = []
-    
     total_problems_global = 0
     total_solutions_global = 0
 
-    # CSV Writer setup
     csv_headers = ["puzzle_type", "pid", "status", "is_correct", "total_time", "error_msg"]
     csv_file = open(OUTPUT_CSV, 'w', newline='', encoding='utf-8')
     writer = csv.DictWriter(csv_file, fieldnames=csv_headers, extrasaction='ignore')
     writer.writeheader()
+    
+    print(f"Results will be saved to: {OUTPUT_CSV}")
 
-    print(f"Starting Benchmark & Stats Generation...")
-    
-    # Iterate through ASSETS folders (Folder Name usually mapped to CamelCase)
-    # We use this as base to ensure we list all data, even if solver missing.
-    sorted_assets = sorted(asset_folders)
-    
+    # Iterate 
     for idx, folder_name in enumerate(sorted_assets, 1):
-        # Infer snake_case type from folder name for solver lookup
-        # This is a bit tricky, doing reverse mapping or just trying standard conversion
-        # Here we try to simulate what run_single_benchmark expects (snake_case)
-        # If folder is "Akari", puzzle_type is "akari". 
-        # If folder is "BalanceLoop", puzzle_type might be "balance_loop"
-        # We rely on our naming utils or simple heuristics if naming_utils is limited
-        # For now, let's assume a simple lower() or utilize 'all_puzzle_types' matching
-        
-        # Try to find matching puzzle_type from our discovered solvers
-        # Simple heuristic: folder name (stripped of non-alnum) roughly matches type
         puzzle_type = None
+        # Heuristic matching
         for pt in all_puzzle_types:
             if infer_class_name(pt) == folder_name:
                 puzzle_type = pt
                 break
         
-        # Load JSON Data
         prob_path = os.path.join(ASSETS_DIR, folder_name, "problems", f"{folder_name}_puzzles.json")
         sol_path = os.path.join(ASSETS_DIR, folder_name, "solutions", f"{folder_name}_solutions.json")
     
@@ -179,13 +206,11 @@ def main():
         total_problems_global += num_pbl
         total_solutions_global += num_sol
         
-        # Benchmark Stats
         solver_status = "❌"
         avg_time = "-"
         max_time = "-"
         correct_cnt = "-"
         
-        # Checks if we have a solver AND data to run
         has_solver_impl = False
         try:
             if puzzle_type:
@@ -196,41 +221,36 @@ def main():
             pass
 
         if has_solver_impl and num_pbl > 0:
-            print(f"[{idx}/{len(sorted_assets)}] Benchmarking {folder_name} ({num_pbl} cases)...")
+            print(f"[{idx}/{len(sorted_assets)}] Benchmarking {folder_name} ({num_pbl} instances)...")
             
             times = []
             corrects = 0
             
-            # Run Benchmark for ALL cases in this folder
             for pid, p_data in puzzles.items():
+                # Loop through instances
                 problem_str = p_data.get("problem", "")
                 solution_str = solutions_map.get(pid, {}).get("solution", "")
 
-                # Execute
                 res = run_single_benchmark(puzzle_type, pid, problem_str, solution_str)
                 writer.writerow(res)
                 
-                # Collect stats
                 if res['status'] != "Error":
                     times.append(res['total_time'])
                 
                 if res['is_correct'] == 'True':
                     corrects += 1
             
-            # Compute Aggregates
             if times:
                 avg_time = f"{statistics.mean(times):.3f}s"
                 max_time = f"{max(times):.3f}s"
             correct_cnt = str(corrects)
         else:
             print(f"[{idx}/{len(sorted_assets)}] Skipping {folder_name} (No solver or no data)")
-            # If no solver, we still list the file stats, but bench stats are '-'
 
-        # Add to table data
-        folder_name_with_link = f"[{folder_name}](./assets/data/{folder_name})"
+        folder_link = f"[{folder_name}](./assets/data/{folder_name})"
         table_rows.append([
             str(idx),
-            folder_name_with_link,
+            folder_link,
             str(num_pbl),
             str(num_sol),
             max_size,
@@ -244,7 +264,7 @@ def main():
 
     # --- Generate Markdown ---
     print("\n" + "="*50)
-    print("GENERATING MARKDOWN TABLE")
+    print("GENERATING MARKDOWN REPORT")
     print("="*50 + "\n")
 
     headers = [
@@ -253,17 +273,12 @@ def main():
     ]
     
     md_output = []
-    
-    # 1. Header
     md_output.append(f"| {' | '.join(headers)} |")
-    # 2. Separator
     md_output.append(f"| {' | '.join(['---'] * len(headers))} |")
     
-    # 3. Rows
     for row in table_rows:
         md_output.append(f"| {' | '.join(row)} |")
     
-    # 4. Summary Row
     summary_row = [
         "", "**Total**", f"**{total_problems_global}**", f"**{total_solutions_global}**",
         "-", "-", "-", "-", "-"
@@ -272,17 +287,19 @@ def main():
     
     final_md = "\n".join(md_output)
     
-    # Print to console (can be copied)
     print(final_md)
     
-    # Also save to file
-    md_path = os.path.join(OUTPUT_DIR, f"README_STATS_{TIMESTAMP}.md")
+    report_filename = f"README_STATS_{'FULL' if run_all else target_puzzle}_{TIMESTAMP}.md"
+    md_path = os.path.join(OUTPUT_DIR, report_filename)
+    
     with open(md_path, 'w', encoding='utf-8') as f:
-        f.write(f"# Puzzle Statistics & Benchmark Report\n\nGenerated on: {datetime.now()}\n\n")
+        title = "Full Benchmark" if run_all else f"{target_puzzle} Benchmark"
+        f.write(f"# {title} Report\n\nGenerated on: {datetime.now()}\n\n")
         f.write(final_md)
         
     print(f"\nMarkdown saved to: {md_path}")
     print(f"Full CSV data saved to: {OUTPUT_CSV}")
-
+    toc = time.perf_counter()
+    print(f"Time taken: {toc - tic:.3f} seconds")
 if __name__ == "__main__":
     main()

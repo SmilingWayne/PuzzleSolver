@@ -90,7 +90,10 @@ def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzleP
     # 1. Draw Regions Grid:
     # -----------------------------
     if 'region_grid' in puzzle_data:
-        r_gridobj = RegionsGrid(puzzle_data['region_grid'])
+        if isinstance(puzzle_data['region_grid'], list):
+            r_gridobj = RegionsGrid(puzzle_data['region_grid'])
+        else:
+            r_gridobj = puzzle_data['region_grid']
         plotter.draw_region_borders(r_gridobj, linewidth=3.5, color='black')
         plotter.draw_grid_lines(linewidth=0.75, color='gray', alpha=0.3)
     else:

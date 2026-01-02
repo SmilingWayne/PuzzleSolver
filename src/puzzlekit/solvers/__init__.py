@@ -71,6 +71,8 @@ if TYPE_CHECKING:
     from .diff_neighbors import DiffNeighborsSolver
     from .number_cross import NumberCrossSolver
     from .dotchi_loop import DotchiLoopSolver
+    from .bricks import BricksSolver
+    from .creek import CreekSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -146,6 +148,9 @@ _SOLVER_META = {
     "hidoku": ("hidoku", "HidokuSolver"),
     "number_cross": ("number_cross", "NumberCrossSolver"),
     "dotchi_loop": ("dotchi_loop", "DotchiLoopSolver"),
+    "bricks": ("bricks", "BricksSolver"),
+    "creek": ("creek", "CreekSolver"),
+    "corral": ("corral", "CorralSolver"),
 }
 # ==========================================
 

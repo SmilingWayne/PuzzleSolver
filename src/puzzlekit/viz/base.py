@@ -125,7 +125,7 @@ class PuzzlePlotter:
                         if val & bit_mask != 0: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='black', edgecolor='black', linewidth=1)
                         else: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='white', edgecolor='black', linewidth=1)
                         self.ax.add_patch(circle)
-        
+    
     
     def draw_walls(self, grid: Grid, linewidth=3, color='black'):
         lines_to_draw = set()
@@ -170,7 +170,24 @@ class PuzzlePlotter:
     
     def draw_cell_text(self, r, c, text, color='black', **kwargs):
         self.ax.text(c + 0.5, r + 0.5, str(text), ha='center', va='center', color=color, **kwargs, fontsize = 15)
-
+    
+    def draw_creek_circles(self, edge_grid: Grid):
+        
+        rows = edge_grid.num_rows
+        cols = edge_grid.num_cols
+        for r in range(rows):
+            for c in range(cols):
+                circles_val = edge_grid.value(r, c) 
+                if circles_val.isdigit():
+                    val = int(circles_val)
+                    circle = patches.Circle((c, r), 0.2, facecolor='white', edgecolor='black', linewidth=1)
+                    # for dx, dy, bit_mask in offsets:
+                    #     if val & bit_mask != 0: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='black', edgecolor='black', linewidth=1)
+                    #     else: circle = patches.Circle((c + dx, r + dy), 0.2, facecolor='white', edgecolor='black', linewidth=1)
+                    self.ax.add_patch(circle)
+                    self.ax.text(c, r, str(val), ha='center', va='center', color='black', fontsize = 12)
+                    
+    
     def fill_cell(self, r, c, color):
         rect = patches.Rectangle((c, r), 1, 1, linewidth=0, facecolor=color, alpha = 0.5)
         self.ax.add_patch(rect)

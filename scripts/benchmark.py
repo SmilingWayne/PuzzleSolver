@@ -241,8 +241,8 @@ def main():
                     corrects += 1
             
             if times:
-                avg_time = f"{statistics.mean(times):.3f}s"
-                max_time = f"{max(times):.3f}s"
+                avg_time = f"{statistics.mean(times):.3f}"
+                max_time = f"{max(times):.3f}"
             correct_cnt = str(corrects)
         else:
             print(f"[{idx}/{len(sorted_assets)}] Skipping {folder_name} (No solver or no data)")
@@ -268,8 +268,8 @@ def main():
     print("="*50 + "\n")
 
     headers = [
-        "No.", "Puzzle Name", "Problems", "Solutions", "Max Size", 
-        "Solver?", "Avg Time", "Max Time", "Correct"
+        "No.", "Puzzle Name", "#.P", "#.S", "Max Size", 
+        "Sol?", "Avg T(s)", "Max T(s)", "#.V"
     ]
     
     md_output = []

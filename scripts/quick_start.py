@@ -15,13 +15,13 @@ data = {
         "region_grid": list(map(lambda x: x.split(" "), "1 3 3 8 9 9\n1 4 5 8 8 9\n1 4 4 4 9 9\n1 4 4 4 10 9\n2 2 6 6 10 11\n2 2 7 7 11 11".split("\n"))),
 }
 
-# data = {
-#         "num_rows": 7, 
-#         "num_cols": 7, 
-#         "grid": list(map(lambda x: x.split(" "), "21 22 27 26 34 33 32\n20 23 25 28 35 36 31\n19 24 14 42 29 30 37\n18 15 13 43 41 39 38\n17 16 44 12 40 3 4\n47 49 45 10 11 2 5\n48 46 9 8 7 6 1".split("\n"))),
-#         }
+data = {
+        "num_rows": 10, 
+        "num_cols": 10, 
+        "grid": list(map(lambda x: x.split(" "), "- - - - - - - - 7 -\n5 - - - - 5 - - - -\n- - 4 - - - - 6 - -\n- - - - 19 - - - - -\n- 7 - - - - 3 - - -\n- - - 2 - - - - 2 -\n- - - - - 7 - - - -\n- - 6 - - - - 2 - -\n- - - - 10 - - - - 3\n- 8 - - - - - - - -".split("\n"))),
+        }
 
-solver = puzzlekit.solver("dotchi_loop", data)
+solver = puzzlekit.solver("corral", data)
 result = solver.solve()
 print(result.solution_data.get('solution_grid', []))
 result.show()

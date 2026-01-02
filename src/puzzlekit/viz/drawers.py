@@ -84,7 +84,21 @@ def draw_magnetic(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter
                 is_given = _is_given_cell(pos)
                 color = 'black' if is_given else 'blue'
                 plotter.draw_cell_text(pos.r, pos.c, val_str, color=color, weight='bold')
-            
+
+def draw_creek(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, style = "creek"):
+    plotter.draw_grid_lines()
+    FILL_CHARS = {'*', '#', 'B', 'x'} # generally
+    MARK_CHARS = {'.', 'W'}      # auxiliaries
+    
+    for pos, val in solution_grid:
+        val_str = str(val)
+        
+        if val_str in FILL_CHARS:
+            plotter.fill_cell(pos.r, pos.c, color='#326734') 
+        elif val_str in MARK_CHARS:
+            plotter.draw_cell_text(pos.r, pos.c, 'x', color='gray', fontsize=10)
+    plotter.draw_creek_circles(puzzle_data.get('grid', []))
+
 def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, style = "default"):
     # -----------------------------
     # 1. Draw Regions Grid:

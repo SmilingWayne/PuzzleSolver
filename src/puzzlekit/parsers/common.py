@@ -395,7 +395,34 @@ def standard_grid_parser_starbattle(data: str) -> Dict[str, Any]:
         }
     except Exception as e:
         raise ValueError(f"Failed to parse region grid: {e}")
-    
+
+def standard_grid_parser_creek(data: str) -> Dict[str, Any]:
+    if not isinstance(data, str):
+        raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
+    try:
+        lines = data.strip().split('\n')
+        if not lines: 
+            print("Warning: Puzzle content is empty")
+            return {
+                "num_rows": 0,
+                "num_cols": 0,
+                "grid": []
+            }
+            
+        num_line = lines[0].split(" ")
+        m = int(num_line[0])
+        n = int(num_line[1]) 
+        grid_lines = lines[1 : 1 + m + 1]
+        grid = [[c for c in g.strip().split(" ") if c.strip()] for g in grid_lines if g.strip()]
+        
+        return {
+            "num_rows": m,
+            "num_cols": n,
+            "grid": grid
+        }
+    except Exception as e:
+        raise ValueError(f"Failed to parse standard grid: {e}")
+
 def standard_grid_parser_nonogram(data: str) -> Dict[str, Any]:
     if not isinstance(data, str):
         raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")

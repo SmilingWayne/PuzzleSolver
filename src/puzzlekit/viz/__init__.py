@@ -3,7 +3,7 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.viz.base import PuzzlePlotter
 from puzzlekit.viz.drawers import (
-    draw_general_puzzle, draw_magnetic
+    draw_general_puzzle, draw_magnetic, draw_creek
 )
 
 VISUALIZERS = {
@@ -75,6 +75,9 @@ VISUALIZERS = {
     "hidoku": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "number_cross": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "dotchi_loop": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "bricks": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "creek": lambda g, d, p: draw_creek(g, d, p, style='creek'),
+    "corral": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     # ...
 }
 

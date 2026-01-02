@@ -78,6 +78,8 @@ VISUALIZERS = {
     "bricks": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "creek": lambda g, d, p: draw_creek(g, d, p, style='creek'),
     "corral": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "yin_yang": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "kuromasu": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     # ...
 }
 

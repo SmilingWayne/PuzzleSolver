@@ -72,6 +72,8 @@ GRID_VERIFIERS = {
     "dotchi_loop": verify_lines,
     "creek": lambda a, b: verify_target_content(a, b, 'x'),
     "corral": verify_exact,
+    "yin_yang": verify_exact,
+    "kuromasu": lambda a, b: verify_target_content(a, b, 'x'),
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

@@ -16,12 +16,12 @@ data = {
 }
 
 data = {
-        "num_rows": 10, 
-        "num_cols": 10, 
-        "grid": list(map(lambda x: x.split(" "), "- - - - - - - - 7 -\n5 - - - - 5 - - - -\n- - 4 - - - - 6 - -\n- - - - 19 - - - - -\n- 7 - - - - 3 - - -\n- - - 2 - - - - 2 -\n- - - - - 7 - - - -\n- - 6 - - - - 2 - -\n- - - - 10 - - - - 3\n- 8 - - - - - - - -".split("\n"))),
+        "num_rows": 9, 
+        "num_cols": 9, 
+        "grid": list(map(lambda x: x.split(" "), "- - - - - 9 - - -\n- - - 9 - - - 9 -\n9 - 15 - 10 - - - -\n- - - 6 - 9 - - -\n- - 7 - - - 3 - -\n- - - 5 - 9 - - -\n- - - - 6 - 6 - 7\n- 3 - - - 13 - - -\n- - - 2 - - - - -".split("\n"))),
         }
 
-solver = puzzlekit.solver("corral", data)
+solver = puzzlekit.solver("kuromasu", data)
 result = solver.solve()
 print(result.solution_data.get('solution_grid', []))
 result.show()

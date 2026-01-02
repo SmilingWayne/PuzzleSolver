@@ -73,6 +73,7 @@ if TYPE_CHECKING:
     from .dotchi_loop import DotchiLoopSolver
     from .bricks import BricksSolver
     from .creek import CreekSolver
+    from .kuromasu import KuromasuSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -151,6 +152,8 @@ _SOLVER_META = {
     "bricks": ("bricks", "BricksSolver"),
     "creek": ("creek", "CreekSolver"),
     "corral": ("corral", "CorralSolver"),
+    "yin_yang": ("yin_yang", "YinYangSolver"),
+    "kuromasu": ("kuromasu", "KuromasuSolver"),
 }
 # ==========================================
 

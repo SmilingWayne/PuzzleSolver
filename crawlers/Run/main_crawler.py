@@ -3,7 +3,7 @@ from Core.core import CrawlerConfig
 
 def main():
     # Define configuration
-    target = "Sternenhimmel"
+    target = "Galaxies"
     
     # NOTE:
     #   puzzle_name: The name of dataset saved to repo;
@@ -20,14 +20,14 @@ def main():
         # output_dir = './data'
     )
     
-    # config = CrawlerConfig(
-    #     puzzle_name= f"{target}",
-    #     index_url = f"https://www.janko.at/Raetsel/Kuroshiro/index.htm",
-    #     base_url = f"https://www.janko.at/Raetsel/Kuroshiro/",
-    #     headless = True,  # Set to False to watch the browser for debugging
-    #     partial_test = False # If you wanna check instead of accessing full data, set to True
-    #     # output_dir = './data'
-    # )
+    config = CrawlerConfig(
+        puzzle_name= f"{target}",
+        index_url = f"https://www.janko.at/Raetsel/Galaxien/index.htm",
+        base_url = f"https://www.janko.at/Raetsel/Galaxien/",
+        headless = True,  # Set to False to watch the browser for debugging
+        partial_test = False # If you wanna check instead of accessing full data, set to True
+        # output_dir = './data'
+    )
   
     # Instantiate and run
     crawler = CrawlerFactory.get_crawler(target, config)

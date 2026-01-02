@@ -70,6 +70,11 @@ from NumberLinkCrawler import NumberLinkCrawler
 from BricksCrawler import BricksCrawler
 from SkyscraperSudokuCrawler import SkyscraperSudokuCrawler
 from KuroshiroCrawler import KuroshiroCrawler
+from BattleshipCrawler import BattleshipCrawler
+from StitchesCrawler import StitchesCrawler
+from KenKenCrawler import KenKenCrawler
+from GalaxiesCrawler import GalaxiesCrawler
+
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -147,7 +152,11 @@ class CrawlerFactory:
         "NumberLink": NumberLinkCrawler,
         "Bricks": BricksCrawler,
         "SkyscraperSudoku": SkyscraperSudokuCrawler,
-        "Kuroshiro": KuroshiroCrawler
+        "Kuroshiro": KuroshiroCrawler,
+        "Battleship": BattleshipCrawler,
+        "Stitches": StitchesCrawler,
+        "KenKen": KenKenCrawler,
+        "Galaxies": GalaxiesCrawler
         
     }
     

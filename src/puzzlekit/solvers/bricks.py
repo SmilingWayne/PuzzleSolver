@@ -105,3 +105,4 @@ class BricksSolver(PuzzleSolver):
                 sol_grid[i][j] = str(val)
 
         return Grid(sol_grid)
+    

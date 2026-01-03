@@ -87,6 +87,50 @@ def standard_grid_row_col_parser(data: str) -> Dict[str, Any]:
     except Exception as e:
         raise ValueError(f"Failed to parse standard grid: {e}")
     
+def standard_grid_parser_skyscraper(data: str) -> Dict[str, Any]:
+    if not isinstance(data, str):
+        raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
+    try:
+        lines = data.strip().split('\n')
+        if not lines: 
+            print("Warning: Puzzle content is empty")
+            return None
+            
+        num_line = lines[0]
+        num_line_parts = num_line.strip().split(" ")
+        if len(num_line_parts) == 3:
+            m, n, k, d = int(num_line_parts[0]), int(num_line_parts[1]), int(num_line_parts[2]), None
+        elif len(num_line_parts) == 4:
+            m, n, k, d = int(num_line_parts[0]), int(num_line_parts[1]), int(num_line_parts[2]), num_line_parts[3]
+        else:
+            raise ValueError(f"Invalid number of parts in header: {num_line_parts}")
+        
+        cols_top = lines[1].strip().split(" ")
+        cols_bottom = lines[2].strip().split(" ")
+        rows_left = lines[3].strip().split(" ")
+        rows_right = lines[4].strip().split(" ")
+        
+        if len(lines) == 5 + m:
+            grid_lines = lines[5 : ]
+            grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
+        elif len(lines) == 5:
+            grid = [["-" for _ in range(n)] for _ in range(m)]
+        else:
+            raise ValueError(f"Invalid number of lines: {len(lines)}, expected {5 + m} or 5")
+        
+        return {
+            "num_rows": int(m), 
+            "num_cols": int(n), 
+            "val": int(k),
+            "cols_top": cols_top,
+            "cols_bottom": cols_bottom,
+            "rows_left": rows_left,
+            "rows_right": rows_right,
+            "grid": grid,
+            "diagonal": True if d == "D" else False
+        }
+    except Exception as e:
+        raise ValueError(f"Failed to parse standard grid of abc end view: {e}")
 
 def standard_grid_parser_abc_end_view(data: str) -> Dict[str, Any]:
     if not isinstance(data, str):

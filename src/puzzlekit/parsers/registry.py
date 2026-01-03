@@ -10,7 +10,8 @@ from .common import (
     standard_grid_parser_minesweeper,
     standard_grid_parser_starbattle,
     standard_grid_parser_nonogram,
-    standard_grid_parser_creek
+    standard_grid_parser_creek,
+    standard_grid_parser_skyscraper
 )
 # this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
@@ -89,7 +90,10 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "creek": standard_grid_parser_creek,
     "corral": standard_grid_parser,
     "yin_yang": standard_grid_parser,
-    "kuromasu":standard_grid_parser
+    "kuromasu":standard_grid_parser,
+    "skyscraper": standard_grid_parser_skyscraper,
+    "makaro": standard_region_grid_parser,
+    "trinairo": standard_grid_parser
 }
 
 

@@ -1,27 +1,29 @@
 import puzzlekit
 
-data = {
-        "num_rows": 4, 
-        "num_cols": 4, 
-        "cols": "16 11 13 9".split(" "),
-        "rows": "10 18 6 15".split(" "),
-        "grid": list(map(lambda x: x.split(" "), "4 5 7 6\n5 7 8 3\n5 6 1 1\n7 4 4 6".split("\n"))),
-        }
+# problem_str = """
+# 20 20\n6\n7 1\n11 2\n3 7\n3 2 5\n3 3 3\n3 2 3 2\n2 2 3 2\n2 1 1 1\n2 2 1 1\n2 2 2\n2 2 2\n2 2 3 3\n2 2 3 3 1\n2 2 1\n3 2 2\n4 9\n17\n9 2\n6 4\n12\n14\n5 4\n3 4\n3 1 3\n2 2 3 1 3\n2 6 5 3\n2 3 3 3\n2 3\n3 2 2 2\n3 2 2 4\n1 2 2 2 2 1\n1 2 2 1\n1 1 4\n5 2 3\n3 1 2\n2 1 2\n3 2 2\n4 3 2\n11
+# """
+# res = puzzlekit.solve(problem_str, "nonogram")
+# res.show()
 
-data = {
-        "num_rows": 6,
-        "num_cols": 6,
-        "grid": list(map(lambda x: x.split(" "), "- w - - w w\n- - w w w -\nw w w w - -\nw w - w b -\n- - b w w w\n- w - w w b".split("\n"))),
-        "region_grid": list(map(lambda x: x.split(" "), "1 3 3 8 9 9\n1 4 5 8 8 9\n1 4 4 4 9 9\n1 4 4 4 10 9\n2 2 6 6 10 11\n2 2 7 7 11 11".split("\n"))),
-}
+problem_str = """
+6 6\n- - - 3x - 3x\n- - - - 2 -\n- - - - - -\n3 3 - 1x - -\n2 - - 3 - 1\n2 - 1 - 1x -
+"""
+res = puzzlekit.solve(problem_str, "trinairo")
+print(res.solution_data.get('solution_grid', []))
+res.show()
 
-data = {
-        "num_rows": 9, 
-        "num_cols": 9, 
-        "grid": list(map(lambda x: x.split(" "), "- - - - - 9 - - -\n- - - 9 - - - 9 -\n9 - 15 - 10 - - - -\n- - - 6 - 9 - - -\n- - 7 - - - 3 - -\n- - - 5 - 9 - - -\n- - - - 6 - 6 - 7\n- 3 - - - 13 - - -\n- - - 2 - - - - -".split("\n"))),
-        }
 
-solver = puzzlekit.solver("kuromasu", data)
-result = solver.solve()
-print(result.solution_data.get('solution_grid', []))
-result.show()
+# import puzzlekit
+# data = {
+#         "num_rows": 20, 
+#         "num_cols": 20, 
+#         "cols": list(map(lambda x: x.split(" "), "2 8\n5 2\n2 4 2\n6 1\n2 2\n2 5\n6 1 6\n3 3 6\n2 1 1 1 3 1\n2 1 1 1\n2 1\n2 1 1 1\n1 1 1 4\n2 1 1 2 2\n2 3 1\n2 1 1 1\n2 1 1 5 1\n3 8 1\n6 6 2\n7".split("\n"))),
+#         "rows": list(map(lambda x: x.split(" "), "2 2\n1 1 4 4\n1 1 2 3 2\n1 1\n4 2 1 1 2\n4 1 2 2 1\n4 1 1 1\n4 1 2 2 1\n2 1 1 3 1\n1 2 2 2\n1 2 2 1\n2 3 3\n2 4\n3 1 4\n4 1 4\n4 2 4\n4 2 3\n4 1 1\n3 2 2\n13".split("\n"))),
+#         "grid": list()
+#         }
+# solver = puzzlekit.solver("nonogram", data)
+# result = solver.solve()
+# print(result)
+# result.show() 
+# # run this If you wanna see the final result in matplotlib ... 

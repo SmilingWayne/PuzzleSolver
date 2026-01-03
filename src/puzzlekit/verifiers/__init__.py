@@ -74,6 +74,9 @@ GRID_VERIFIERS = {
     "corral": verify_exact,
     "yin_yang": verify_exact,
     "kuromasu": lambda a, b: verify_target_content(a, b, 'x'),
+    "skyscraper": verify_exact,
+    "makaro": verify_exact,
+    "trinairo": verify_exact
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

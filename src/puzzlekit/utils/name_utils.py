@@ -5,6 +5,7 @@ SPECIAL_CLASS_TO_TYPE_MAP = {
     "Clueless1Sudoku": "clueless_1_sudoku",
     "Clueless2Sudoku": "clueless_2_sudoku",
     "Gattai8Sudoku": "gattai_8_sudoku",
+    "Str8t": "str8t",
 }
 
 SPECIAL_TYPE_TO_CLASS_MAP = {v: k for k, v in SPECIAL_CLASS_TO_TYPE_MAP.items()}

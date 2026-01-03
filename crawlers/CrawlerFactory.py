@@ -77,6 +77,7 @@ from GalaxiesCrawler import GalaxiesCrawler
 from MathraxCrawler import MathraxCrawler
 from CastleWallCrawler import CastleWallCrawler
 from DigitalBattleshipCrawler import DigitalBattleshipCrawler
+from PutteriaCrawler import PutteriaCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -161,7 +162,8 @@ class CrawlerFactory:
         "Galaxies": GalaxiesCrawler,
         "Mathrax": MathraxCrawler,
         "CastleWall": CastleWallCrawler,
-        "DigitalBattleship": DigitalBattleshipCrawler
+        "DigitalBattleship": DigitalBattleshipCrawler,
+        "Putteria": PutteriaCrawler
         
     }
     

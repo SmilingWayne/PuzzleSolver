@@ -136,13 +136,16 @@ def add_header_if_missing(problem_str: str, puzzle_id: str) -> str:
 def replace_values(problem_str: str, puzzle_id: str) -> str:
     """Replace specific values"""
     lines = problem_str.split("\n")
-    content_lines = "\n".join(lines[1:])
+    first_line = lines[0].strip().split(" ")
+    m = int(first_line[0])
+    content_lines = "\n".join(lines[5:])
     replacements = {
-        "x": "#"
+        "-": "0"
     }
+    first_five_lines = "\n".join(lines[:5])
     for old_val, new_val in replacements.items():
         content_lines = content_lines.replace(old_val, new_val)
-    return f"{lines[0]}\n{content_lines}"
+    return f"{first_five_lines}\n{content_lines}"
 
 def remove_padding(problem_str: str, puzzle_id: str) -> str:
     lines = problem_str.strip().split('\n')

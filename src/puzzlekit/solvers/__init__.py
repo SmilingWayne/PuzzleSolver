@@ -74,6 +74,8 @@ if TYPE_CHECKING:
     from .bricks import BricksSolver
     from .creek import CreekSolver
     from .kuromasu import KuromasuSolver
+    from .makaro import MakaroSolver
+    from .trinairo import TrinairoSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -154,6 +156,9 @@ _SOLVER_META = {
     "corral": ("corral", "CorralSolver"),
     "yin_yang": ("yin_yang", "YinYangSolver"),
     "kuromasu": ("kuromasu", "KuromasuSolver"),
+    "skyscraper": ("skyscraper", "SkyscraperSolver"),
+    "makaro": ("makaro", "MakaroSolver"),
+    "trinairo": ("trinairo", "TrinairoSolver"),
 }
 # ==========================================
 

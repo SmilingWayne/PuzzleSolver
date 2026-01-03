@@ -78,6 +78,11 @@ from MathraxCrawler import MathraxCrawler
 from CastleWallCrawler import CastleWallCrawler
 from DigitalBattleshipCrawler import DigitalBattleshipCrawler
 from PutteriaCrawler import PutteriaCrawler
+from YajikabeCrawler import YajikabeCrawler
+from KoburinCrawler import KoburinCrawler
+from UsooneCrawler import UsooneCrawler
+from CocktailLampCrawler import CocktailLampCrawler
+from NurimisakiCrawler import NurimisakiCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -163,8 +168,12 @@ class CrawlerFactory:
         "Mathrax": MathraxCrawler,
         "CastleWall": CastleWallCrawler,
         "DigitalBattleship": DigitalBattleshipCrawler,
-        "Putteria": PutteriaCrawler
-        
+        "Putteria": PutteriaCrawler,
+        "Yajikabe": YajikabeCrawler,
+        "Koburin": KoburinCrawler,
+        "Usoone": UsooneCrawler,
+        "CocktailLamp": CocktailLampCrawler,
+        "Nurimisaki": NurimisakiCrawler
     }
     
     @classmethod

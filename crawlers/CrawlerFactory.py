@@ -74,7 +74,9 @@ from BattleshipCrawler import BattleshipCrawler
 from StitchesCrawler import StitchesCrawler
 from KenKenCrawler import KenKenCrawler
 from GalaxiesCrawler import GalaxiesCrawler
-
+from MathraxCrawler import MathraxCrawler
+from CastleWallCrawler import CastleWallCrawler
+from DigitalBattleshipCrawler import DigitalBattleshipCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -156,7 +158,10 @@ class CrawlerFactory:
         "Battleship": BattleshipCrawler,
         "Stitches": StitchesCrawler,
         "KenKen": KenKenCrawler,
-        "Galaxies": GalaxiesCrawler
+        "Galaxies": GalaxiesCrawler,
+        "Mathrax": MathraxCrawler,
+        "CastleWall": CastleWallCrawler,
+        "DigitalBattleship": DigitalBattleshipCrawler
         
     }
     

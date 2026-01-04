@@ -97,7 +97,9 @@ def draw_creek(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, s
             plotter.fill_cell(pos.r, pos.c, color='#326734') 
         elif val_str in MARK_CHARS:
             plotter.draw_cell_text(pos.r, pos.c, 'x', color='gray', fontsize=10)
-    plotter.draw_creek_circles(puzzle_data.get('grid', []))
+    if 'grid' in puzzle_data:
+        grid = Grid(puzzle_data['grid']) if isinstance(puzzle_data['grid'], list) else puzzle_data['grid']
+        plotter.draw_creek_circles(grid)
 
 def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, style = "default"):
     # -----------------------------

@@ -61,7 +61,7 @@ def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
     if isinstance(data, dict):
         init_params = data.copy()
     else:
-        raise TypeError(f"Source must be dict or raw string, got {type(source)}")
+        raise TypeError(f"Source must be dict or raw string, got {type(data)}")
     
     init_params.update(kwargs)
 

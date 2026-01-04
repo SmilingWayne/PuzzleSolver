@@ -17,7 +17,7 @@ Most of solvers implemented in this repo are both effective and efficient. They 
 > 
 > `Avg T` and `Max T` indicates the average / maximum time required to solve one puzzle grid among all instances (in seconds).
 > 
-> `#.V` shows the number of verified solutions compared with the expected solutions. Note that some of solutions failed this verification because of additional yet unpopular constraints (like diagnonal-ABCEndView), or different variants of puzzles(like different shapes of 6x6 Jigsaw Sudoku).
+> `#.V` shows the number of verified solutions compared with the expected solutions. Note that some of solutions failed this verification because of additional yet unpopular constraints (like diagnonal-ABCEndView), or different variants of puzzles(like different shapes of 6x6 Jigsaw Sudoku and Bricks).
 
 
 | No. | Puzzle Name | #.P | #.S | Max Size | Sol? | Avg T(s) | Max T(s) | #.V |
@@ -28,7 +28,7 @@ Most of solvers implemented in this repo are both effective and efficient. They 
 | 4 | Battleship | 860 | 860 | 14x14 | ❌ | - | - | - |
 | 5 | Binairo | 380 | 380 | 14x14 | ✅ | 0.008 | 0.016 | 380 |
 | 6 | Bosanowa | 38 | 38 | 11x16 | ✅ | 0.017 | 0.214 | 38 |
-| 7 | Bricks | 210 | 210 | 8x8 | ✅ | 0.003 | 0.013 | 0 |
+| 7 | Bricks | 210 | 210 | 8x8 | ✅ | 0.003 | 0.013 | 190 |
 | 8 | Buraitoraito | 101 | 100 | 15x15 | ✅ | 0.009 | 0.253 | 100 |
 | 9 | Burokku | 270 | 270 | 10x10 | ❌ | - | - | - |
 | 10 | ButterflySudoku | 77 | 77 | 12x12 | ✅ | 0.008 | 0.012 | 77 |
@@ -42,7 +42,7 @@ Most of solvers implemented in this repo are both effective and efficient. They 
 | 18 | Creek | 440 | 440 | 40x50 | ✅ | 0.357 | 12.938 | 440 |
 | 19 | CurvingRoad | 190 | 190 | 14x14 | ❌ | - | - | - |
 | 20 | Detour | 80 | 80 | 13x12 | ✅ | 0.025 | 0.407 | 80 |
-| 21 | DiffNeighbors | 140 | 140 | 15x15 | ✅ | 0.014 | 0.026 | 0 |
+| 21 | DiffNeighbors | 140 | 140 | 15x15 | ✅ | 0.014 | 0.025 | 140 |
 | 22 | DigitalBattleship | 80 | 80 | 12x12 | ❌ | - | - | - |
 | 23 | Dominos | 580 | 579 | 10x11 | ✅ | 0.004 | 0.010 | 579 |
 | 24 | Doors | 270 | 270 | 12x12 | ❌ | - | - | - |

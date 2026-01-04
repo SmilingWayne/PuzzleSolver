@@ -70,6 +70,22 @@ from NumberLinkCrawler import NumberLinkCrawler
 from BricksCrawler import BricksCrawler
 from SkyscraperSudokuCrawler import SkyscraperSudokuCrawler
 from KuroshiroCrawler import KuroshiroCrawler
+from BattleshipCrawler import BattleshipCrawler
+from StitchesCrawler import StitchesCrawler
+from KenKenCrawler import KenKenCrawler
+from GalaxiesCrawler import GalaxiesCrawler
+from MathraxCrawler import MathraxCrawler
+from CastleWallCrawler import CastleWallCrawler
+from DigitalBattleshipCrawler import DigitalBattleshipCrawler
+from PutteriaCrawler import PutteriaCrawler
+from YajikabeCrawler import YajikabeCrawler
+from KoburinCrawler import KoburinCrawler
+from UsooneCrawler import UsooneCrawler
+from CocktailLampCrawler import CocktailLampCrawler
+from NurimisakiCrawler import NurimisakiCrawler
+from NawabariCrawler import NawabariCrawler
+from TriplettsCrawler import TriplettsCrawler
+from DoorsCrawler import DoorsCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -147,8 +163,23 @@ class CrawlerFactory:
         "NumberLink": NumberLinkCrawler,
         "Bricks": BricksCrawler,
         "SkyscraperSudoku": SkyscraperSudokuCrawler,
-        "Kuroshiro": KuroshiroCrawler
-        
+        "Kuroshiro": KuroshiroCrawler,
+        "Battleship": BattleshipCrawler,
+        "Stitches": StitchesCrawler,
+        "KenKen": KenKenCrawler,
+        "Galaxies": GalaxiesCrawler,
+        "Mathrax": MathraxCrawler,
+        "CastleWall": CastleWallCrawler,
+        "DigitalBattleship": DigitalBattleshipCrawler,
+        "Putteria": PutteriaCrawler,
+        "Yajikabe": YajikabeCrawler,
+        "Koburin": KoburinCrawler,
+        "Usoone": UsooneCrawler,
+        "CocktailLamp": CocktailLampCrawler,
+        "Nurimisaki": NurimisakiCrawler,
+        "Nawabari": NawabariCrawler,
+        "Tripletts": TriplettsCrawler,
+        "Doors": DoorsCrawler
     }
     
     @classmethod

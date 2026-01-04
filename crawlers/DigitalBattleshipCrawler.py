@@ -1,0 +1,3 @@
+from BattleshipCrawler import BattleshipCrawler
+
+DigitalBattleshipCrawler = BattleshipCrawler

@@ -84,13 +84,32 @@ def draw_magnetic(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter
                 is_given = _is_given_cell(pos)
                 color = 'black' if is_given else 'blue'
                 plotter.draw_cell_text(pos.r, pos.c, val_str, color=color, weight='bold')
-            
+
+def draw_creek(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, style = "creek"):
+    plotter.draw_grid_lines()
+    FILL_CHARS = {'*', '#', 'B', 'x'} # generally
+    MARK_CHARS = {'.', 'W'}      # auxiliaries
+    
+    for pos, val in solution_grid:
+        val_str = str(val)
+        
+        if val_str in FILL_CHARS:
+            plotter.fill_cell(pos.r, pos.c, color='#326734') 
+        elif val_str in MARK_CHARS:
+            plotter.draw_cell_text(pos.r, pos.c, 'x', color='gray', fontsize=10)
+    if 'grid' in puzzle_data:
+        grid = Grid(puzzle_data['grid']) if isinstance(puzzle_data['grid'], list) else puzzle_data['grid']
+        plotter.draw_creek_circles(grid)
+
 def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzlePlotter, style = "default"):
     # -----------------------------
     # 1. Draw Regions Grid:
     # -----------------------------
     if 'region_grid' in puzzle_data:
-        r_gridobj = RegionsGrid(puzzle_data['region_grid'])
+        if isinstance(puzzle_data['region_grid'], list):
+            r_gridobj = RegionsGrid(puzzle_data['region_grid'])
+        else:
+            r_gridobj = puzzle_data['region_grid']
         plotter.draw_region_borders(r_gridobj, linewidth=3.5, color='black')
         plotter.draw_grid_lines(linewidth=0.75, color='gray', alpha=0.3)
     else:

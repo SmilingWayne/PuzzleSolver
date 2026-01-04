@@ -65,6 +65,20 @@ GRID_VERIFIERS = {
     "tile_paint": lambda a, b: verify_target_content(a, b, "#"),
     "windmill_sudoku":verify_exact,
     "yajilin": verify_lines,
+    "hakoiri": verify_exact,
+    "snake": verify_exact,
+    "hidoku": verify_exact,
+    "number_cross": verify_exact,
+    "dotchi_loop": verify_lines,
+    "creek": lambda a, b: verify_target_content(a, b, 'x'),
+    "corral": verify_exact,
+    "yin_yang": verify_exact,
+    "kuromasu": lambda a, b: verify_target_content(a, b, 'x'),
+    "skyscraper": verify_exact,
+    "makaro": verify_exact,
+    "trinairo": verify_exact,
+    "bricks": verify_exact,
+    "diff_neighbors": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

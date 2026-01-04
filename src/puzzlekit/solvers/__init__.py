@@ -67,8 +67,15 @@ if TYPE_CHECKING:
     from .tile_paint import TilePaintSolver
     from .windmill_sudoku import WindmillSudokuSolver
     from .yajilin import YajilinSolver
-    
-
+    from .hakoiri import HakoiriSolver
+    from .diff_neighbors import DiffNeighborsSolver
+    from .number_cross import NumberCrossSolver
+    from .dotchi_loop import DotchiLoopSolver
+    from .bricks import BricksSolver
+    from .creek import CreekSolver
+    from .kuromasu import KuromasuSolver
+    from .makaro import MakaroSolver
+    from .trinairo import TrinairoSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -138,6 +145,20 @@ _SOLVER_META = {
     "tile_paint": ("tile_paint", "TilePaintSolver"),
     "windmill_sudoku": ("windmill_sudoku", "WindmillSudokuSolver"),
     "yajilin": ("yajilin", "YajilinSolver"),
+    "hakoiri": ("hakoiri", "HakoiriSolver"),
+    "diff_neighbors": ("diff_neighbors", "DiffNeighborsSolver"),
+    "snake": ("snake", "SnakeSolver"),
+    "hidoku": ("hidoku", "HidokuSolver"),
+    "number_cross": ("number_cross", "NumberCrossSolver"),
+    "dotchi_loop": ("dotchi_loop", "DotchiLoopSolver"),
+    "bricks": ("bricks", "BricksSolver"),
+    "creek": ("creek", "CreekSolver"),
+    "corral": ("corral", "CorralSolver"),
+    "yin_yang": ("yin_yang", "YinYangSolver"),
+    "kuromasu": ("kuromasu", "KuromasuSolver"),
+    "skyscraper": ("skyscraper", "SkyscraperSolver"),
+    "makaro": ("makaro", "MakaroSolver"),
+    "trinairo": ("trinairo", "TrinairoSolver"),
 }
 # ==========================================
 

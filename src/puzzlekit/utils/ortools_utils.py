@@ -89,6 +89,110 @@ def add_connected_subgraph_constraint(
 
     return rank, is_root # Optional: return vars if debugging is needed
 
+def add_connected_subgraph_by_height(
+    model: cp.CpModel, 
+    active_nodes: Dict[Hashable, cp.IntVar], 
+    adjacency_map: Dict[Hashable, List[Hashable]],
+    prefix: str = 'graph'
+) -> Tuple[Dict[Hashable, cp.IntVar], Dict[Hashable, cp.IntVar]]:
+    """
+    Enforce that the set of nodes where active_nodes[n] is True forms a single 
+    connected component.
+    
+    This implementation uses the "Canonical Root + Height Flow" method, which is 
+    significantly faster for large/sparse grids than the Spanning Tree method.
+    
+    Args:
+        model: The OR-Tools CpModel.
+        active_nodes: Mapping from node identifier to its BoolVar.
+        adjacency_map: Pre-computed neighbor list for each node. 
+                       Format: {node: [neighbor_node_1, neighbor_node_2, ...]}
+        prefix: Prefix of string to avoid duplicated variable names.
+        
+    Returns:
+        (node_height, is_root): Dictionaries of internal variables for debugging/visualization.
+                                node_height replaces the 'rank' from the old implementation.
+    """
+    # 1. Prepare Nodes
+    # We must convert dict keys to a list to ensure a deterministic order for the 
+    # canonical root selection logic.
+    nodes = list(active_nodes.keys())
+    num_nodes = len(nodes)
+    
+    # Tiny optimization: 0 or 1 active node is trivially connected.
+    if num_nodes <= 1: 
+        return {}, {}
+    
+    # 2. Define Variables
+    is_root: Dict[Hashable, cp.IntVar] = {} 
+    prefix_zero: Dict[Hashable, cp.IntVar] = {} 
+    node_height: Dict[Hashable, cp.IntVar] = {} 
+    max_neighbor_height: Dict[Hashable, cp.IntVar] = {} 
+    
+    for n in nodes:
+        is_root[n] = model.NewBoolVar(f"{prefix}_is_root_{n}")
+        # Height ranges from 0 to num_nodes
+        node_height[n] = model.NewIntVar(0, num_nodes, f"{prefix}_height_{n}")
+        max_neighbor_height[n] = model.NewIntVar(0, num_nodes, f"{prefix}_max_nh_{n}")
+    
+    # 3. Canonical Root Selection (Symmetry Breaking)
+    # The Root MUST be the *first* active node in the ordered list 'nodes'.
+    # prefix_zero[i] is True iff ALL previous nodes in the list are Inactive.
+    prev_n = None
+    for n in nodes:
+        b = model.NewBoolVar(f"{prefix}_prefix_zero_{n}")
+        prefix_zero[n] = b
+        
+        if prev_n is None:
+            # First node: prefix_zero is always True (no predecessors)
+            model.Add(b == 1)
+        else:
+            # Recursive: prefix_zero[n] <-> prefix_zero[prev] AND NOT active[prev]
+            ortools_and_constr(model, b, [prefix_zero[prev_n], active_nodes[prev_n].Not()])
+        prev_n = n 
+    
+    # Link is_root: Can only be root IFF (Active AND prefix_zero)
+    for n in nodes:
+        ortools_and_constr(model, is_root[n], [active_nodes[n], prefix_zero[n]])
+    
+    # At most one root (it ensures single component logic)
+    model.Add(sum(is_root.values()) <= 1)
+    
+    # 4. Height Propagation (Sink-based Flow)
+    for n in nodes:
+        # Filter neighbors: only consider those that are part of the active_nodes set
+        # (Adjacency map might contain nodes not currently involved in this subgraph constraint)
+        raw_neighbors = adjacency_map.get(n, [])
+        valid_neighbors = [nbr for nbr in raw_neighbors if nbr in node_height]
+        
+        neighbor_heights = [node_height[nbr] for nbr in valid_neighbors]
+        
+        # Calculate Max Neighbor Height
+        if neighbor_heights:
+            model.AddMaxEquality(max_neighbor_height[n], neighbor_heights)
+        else:
+            model.Add(max_neighbor_height[n] == 0)
+        
+        # Rule A: Active Node, NOT Root -> Height = Max_Neighbor - 1
+        model.Add(node_height[n] == max_neighbor_height[n] - 1).OnlyEnforceIf(
+            [active_nodes[n], is_root[n].Not()]
+        )
+        
+        # Rule B: Root Node -> Height = num_nodes (Source of flow)
+        model.Add(node_height[n] == num_nodes).OnlyEnforceIf(is_root[n])
+        
+        # Rule C: Inactive Node -> Height = 0
+        model.Add(node_height[n] == 0).OnlyEnforceIf(active_nodes[n].Not())
+        
+    # 5. Final Connectivity Check
+    # If a node is active, it MUST be able to trace a path of heights back to the Root.
+    # Therefore, its height must be > 0.
+    for n in nodes:
+        model.Add(node_height[n] > 0).OnlyEnforceIf(active_nodes[n])
+        
+    # Return matched signature variables
+    # node_height functionally replaces the old 'rank'
+    return node_height, is_root
 
 def add_circuit_constraint_from_undirected(
     model: cp.CpModel,
@@ -133,73 +237,6 @@ def add_circuit_constraint_from_undirected(
         model.AddCircuit(circuit_arcs)
         
     return node_active
-
-def ortools_force_connected_component(model: cp.CpModel, variables: dict[Any, cp.IntVar], is_neighbor: Callable[[Any, Any], bool]):
-    vars = variables
-    num_vars = len(vars)
-    if num_vars <= 1: # 只有0或1条边时不需要强连通约束
-        return {}
-        
-    vars_keys = list(vars.keys()) 
-    
-    is_root: dict[Any, cp.IntVar] = dict() 
-    prefix_zero: dict[Any, cp.IntVar] = dict() 
-    cell_height: dict[Any, cp.IntVar] = dict() 
-    max_neighbor_height: dict[Any, cp.IntVar] = dict() 
-    
-    for k in vars_keys:
-        is_root[k] = model.NewBoolVar(f"is_root[{k}]")
-        # 高度范围从 0 到 num_vars
-        cell_height[k] = model.NewIntVar(0, num_vars, f"cell_height[{k}]")
-        max_neighbor_height[k] = model.NewIntVar(0, num_vars, f"max_neighbor_height[{k}]")
-    
-    # --- 选举唯一的 Root ---
-    prev_k = None
-    for k in vars_keys:
-        # prefix_zero[k] 表示 k 之前的所有变量是否都为 0 (False)
-        prefix_zero[k] = model.NewBoolVar(f"prefix_zero[{k}]")
-        if prev_k is None:
-            model.Add(prefix_zero[k] == 1)
-        else:
-            # prefix_zero[k] <==> prefix_zero[prev_k] AND (NOT vars[prev_k])
-            ortools_and_constr(model, prefix_zero[k], [prefix_zero[prev_k], vars[prev_k].Not()])
-        prev_k = k 
-    
-    # Root 定义：该边是活跃的(vars[k]) 且 它是第一个活跃的(prefix_zero[k])
-    for k in vars_keys:
-        ortools_and_constr(model, is_root[k], [vars[k], prefix_zero[k]])
-    
-    # 整个图最多只有1个 Root
-    model.Add(sum(is_root.values()) <= 1)
-    
-    # --- 高度传导约束 ---
-    for idx, edge in enumerate(vars_keys):
-        # 找出该边所有的邻居边的高度
-        neighbors = [cell_height[next_edge] for idx2, next_edge in enumerate(vars_keys) if idx != idx2 and is_neighbor(edge, next_edge)]
-        
-        # max_neighbor_height[edge] 等于所有邻居高度的最大值
-        if neighbors:
-            model.AddMaxEquality(max_neighbor_height[edge], neighbors)
-        else:
-            model.Add(max_neighbor_height[edge] == 0)
-        
-        # 1. 如果边存在且不是Root：高度 = 最大邻居高度 - 1
-        model.Add(cell_height[edge] == max_neighbor_height[edge] - 1).OnlyEnforceIf([vars[edge], is_root[edge].Not()])
-        
-        # 2. 如果边是Root：高度 = 最大值 (num_vars)
-        model.Add(cell_height[edge] == num_vars).OnlyEnforceIf(is_root[edge])
-        
-        # 3. 如果边不存在(不活跃)：高度 = 0 (**这是之前的BUG所在**)
-        model.Add(cell_height[edge] == 0).OnlyEnforceIf(vars[edge].Not())
-        
-    # 最终约束：所有活跃的边，高度必须 > 0 (防止孤岛环路，因为孤岛没有Root，无法获得高度)
-    for edge in vars_keys:
-        model.Add(cell_height[edge] > 0).OnlyEnforceIf(vars[edge])
-        
-    return {
-        "is_root": is_root,
-        "cell_height": cell_height
-    }
 
 def ortools_cpsat_analytics(model: cp.CpModel, solver: cp.CpSolver):
     

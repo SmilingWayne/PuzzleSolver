@@ -38,15 +38,15 @@ class SternenhimmelCrawler(BasePuzzleCrawler):
         # Define Regex patterns based on type
         if link_type == "class_sv":
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])",
+                'cols': r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])",
+                'rows': r"(?<=\[clabels\]\n)(.*?)(?=\[problem\])",
                 'areas': r"(?<=\[problem\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
             }
         else:
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])",
+                'cols': r"(?<=\[rlabels\]\n)(.*?)(?=\[clabels\])",
+                'rows': r"(?<=\[clabels\]\n)(.*?)(?=\[problem\])",
                 'areas': r"(?<=\[problem\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
             }
@@ -58,8 +58,28 @@ class SternenhimmelCrawler(BasePuzzleCrawler):
             sol_match = re.search(patterns['sol'], html_content, re.DOTALL)
 
             if not all([cols_match, rows_match, areas_match, sol_match]):
-                self.logger.warning(f"Regex mismatch for {text}")
-                return None
+                try:
+                    if link_type == "class_sv":
+                        patterns = {
+                            'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                            'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])",
+                            'areas': r"(?<=\[problem\]\n)(.*?)(?=\[solution\])",
+                            'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
+                        }
+                    else:
+                        patterns = {
+                            'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                            'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[problem\])",
+                            'areas': r"(?<=\[problem\]\n)(.*?)(?=\[solution\])",
+                            'sol': r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
+                        }
+                    cols_match = re.search(patterns['rows'], html_content, re.DOTALL)
+                    rows_match = re.search(patterns['cols'], html_content, re.DOTALL)
+                    areas_match = re.search(patterns['areas'], html_content, re.DOTALL)
+                    sol_match = re.search(patterns['sol'], html_content, re.DOTALL)
+                except Exception as e:
+                    self.logger.error(f"Error parsing detail for {text}: {e}")
+                    return None
 
             # Process data
             solution_raw = sol_match.group().strip()
@@ -68,14 +88,25 @@ class SternenhimmelCrawler(BasePuzzleCrawler):
             areas_raw = areas_match.group().strip()
             
             rows_list = solution_raw.strip().split("\n")
+            areas_list = areas_raw.strip().split("\n")
+            rows_mat = [row.split(" ") for row in rows_list]
+            areas_mat = [row.split(" ") for row in areas_list]
+            
             num_rows = len(rows_list)
             num_cols = len(rows_list[0].split()) if num_rows > 0 else 0
-            
+            cnt_a = 0
+            cnt_b = 0
+            for i in range(num_rows):
+                for j in range(num_cols):
+                    if areas_mat[i][j] != "-":
+                        cnt_b += 1
+                    if rows_mat[i][j] != "-":
+                        cnt_a += 1
             # Create empty problem grid (Optional)
             # empty_grid = "\n".join([" ".join(["-" for _ in range(num_cols)]) for _ in range(num_rows)])
-            
-            header = f"{num_rows} {num_cols}"
-            problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{areas_raw}"
+            default_stars = 1 if cnt_a == cnt_b else cnt_a // cnt_b
+            header = f"{num_rows} {num_cols} {default_stars}"
+            problem_str = f"{header}\n{rows_raw}\n{cols_raw}\n{areas_raw}"
             solution_str = f"{header}\n{solution_raw}"
             
             puzzle_id = f"{text}_{num_rows}x{num_cols}"

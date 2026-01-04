@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
 from Core.core import BasePuzzleCrawler, PuzzleItem
 
-class SkyscraperCrawler(BasePuzzleCrawler):
+class MathraxCrawler(BasePuzzleCrawler):
     
     def parse_index(self, html_content: str) -> List[Dict]:
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -37,52 +37,49 @@ class SkyscraperCrawler(BasePuzzleCrawler):
         # Define Regex patterns based on type
         if link_type == "class_sv":
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
-                # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+                # 'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                # 'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[areas\])",
+                'grids': r"(?<=\[problem\]\n)(.*?)(?=\[nodes\])",
+                'areas': r"(?<=\[nodes\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[moves\])"
             }
         else:
             patterns = {
-                'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
-                'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[solution\])",
-                # 'areas': r"(?<=\[areas\]\n)(.*?)(?=\[solution\])",
+                # 'cols': r"(?<=\[clabels\]\n)(.*?)(?=\[rlabels\])",
+                # 'rows': r"(?<=\[rlabels\]\n)(.*?)(?=\[areas\])",
+                'grids': r"(?<=\[problem\]\n)(.*?)(?=\[nodes\])",
+                'areas': r"(?<=\[nodes\]\n)(.*?)(?=\[solution\])",
                 'sol': r"(?<=\[solution\]\n)(.*?)(?=\[end\])"
             }
 
         try:
-            cols_match = re.search(patterns['cols'], html_content, re.DOTALL)
-            rows_match = re.search(patterns['rows'], html_content, re.DOTALL)
-            # areas_match = re.search(patterns['areas'], html_content, re.DOTALL)
+            # cols_match = re.search(patterns['cols'], html_content, re.DOTALL)
+            # rows_match = re.search(patterns['rows'], html_content, re.DOTALL)
+            grids_match = re.search(patterns['grids'], html_content, re.DOTALL)
+            areas_match = re.search(patterns['areas'], html_content, re.DOTALL)
             sol_match = re.search(patterns['sol'], html_content, re.DOTALL)
 
-            if not all([cols_match, rows_match, sol_match]):
+            if not all([grids_match, sol_match]):
                 self.logger.warning(f"Regex mismatch for {text}")
                 return None
 
             # Process data
             solution_raw = sol_match.group().strip()
-            cols_raw = cols_match.group().strip()
-            rows_raw = rows_match.group().strip()
-            # areas_raw = areas_match.group().strip()
+            # cols_raw = cols_match.group().strip()
+            # rows_raw = rows_match.group().strip()
+            areas_raw = areas_match.group().strip()
+            grids_raw = grids_match.group().strip()
             
             rows_list = solution_raw.strip().split("\n")
             num_rows = len(rows_list)
             num_cols = len(rows_list[0].split()) if num_rows > 0 else 0
-            
-            # Determine max char for puzzle definition
-            end_char = '1'
-            for row in rows_list:
-                for char in row:
-                    if char.isdigit() and int(char) > int(end_char):
-                        end_char = char
             # Determine max char for puzzle definition
             
             # Create empty problem grid (Optional)
-            empty_grid = "\n".join([" ".join(["-" for _ in range(num_cols)]) for _ in range(num_rows)])
+            # empty_grid = "\n".join([" ".join(["-" for _ in range(num_cols)]) for _ in range(num_rows)])
             
-            header = f"{num_rows} {num_cols} {end_char}" if "diagonals" not in html_content else f"{num_rows} {num_cols} {end_char} D"
-            problem_str = f"{header}\n{cols_raw}\n{rows_raw}\n{empty_grid}"
+            header = f"{num_rows} {num_cols}"
+            problem_str = f"{header}\n{grids_raw}\n{areas_raw}"
             solution_str = f"{header}\n{solution_raw}"
             
             puzzle_id = f"{text}_{num_rows}x{num_cols}"

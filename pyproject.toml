@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "puzzlekit"
-version = "0.1.0"
-description = "A comprehensive logic puzzle solver (60+) based on Google OR-Tools. e.g. Nonogram, Slitherlink, Akari, Yajilin, Hitori and Sudoku-variants."
+version = "0.2.0"
+description = "A comprehensive logic puzzle solver (70+) based on Google OR-Tools. e.g., solvers for Nonogram, Slitherlink, Akari, Yajilin, Hitori and Sudoku-variants."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "SmilingWayne", email = "xiaoxiaowayne@gmail.com"}]

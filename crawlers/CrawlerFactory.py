@@ -83,6 +83,9 @@ from KoburinCrawler import KoburinCrawler
 from UsooneCrawler import UsooneCrawler
 from CocktailLampCrawler import CocktailLampCrawler
 from NurimisakiCrawler import NurimisakiCrawler
+from NawabariCrawler import NawabariCrawler
+from TriplettsCrawler import TriplettsCrawler
+from DoorsCrawler import DoorsCrawler
 from typing import Dict, Any
 
 class CrawlerFactory:
@@ -173,7 +176,10 @@ class CrawlerFactory:
         "Koburin": KoburinCrawler,
         "Usoone": UsooneCrawler,
         "CocktailLamp": CocktailLampCrawler,
-        "Nurimisaki": NurimisakiCrawler
+        "Nurimisaki": NurimisakiCrawler,
+        "Nawabari": NawabariCrawler,
+        "Tripletts": TriplettsCrawler,
+        "Doors": DoorsCrawler
     }
     
     @classmethod

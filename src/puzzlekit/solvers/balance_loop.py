@@ -8,6 +8,36 @@ from itertools import combinations
 from typeguard import typechecked
 
 class BalanceLoopSolver(PuzzleSolver):
+    metadata: Dict[str, Any] = {
+        "name": "balance_loop",
+        "alias": [],
+        "tags": ["loop"], 
+        "rule_url": "https://puzz.link/rules.html?balance",
+        "example": """
+        5 5
+        - - - - - 
+        - - - - - 
+        - - w4 - - 
+        - - - - - 
+        b5 - b - b3
+        """,
+        "input_desc": """
+        Standard grid representation.
+        - `-`: empty cells;
+        - `w4`, `b5`: former letter indiates color white ('w') and black ('b'), int indicate the num in the cell;
+        - `w`, `b`: only indicate color white ('w') and black ('b').
+        """,
+        "output_desc": """
+        Returns a loop solution grid. Each cell (if connected) consists of edges pointing to 2 directions. 
+        for instance,  `n`, `s`, `w`, `e` indicate a edge connecting north, south, west, east respectively.
+        - `ns`, `nw`, ...
+        """,
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?balance/6/6/h7m7h7l7h7g7h7l7"},
+            {"janko": "https://www.janko.at/Raetsel/Balance-Loop/001.a.htm" }
+        ]
+    }
+    
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows = num_rows

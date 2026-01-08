@@ -1,4 +1,4 @@
-from typing import Any, List, Tuple
+from typing import Any, List, Tuple, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,33 @@ from typeguard import typechecked
 import copy
 
 class ABCEndViewSolver(PuzzleSolver):
+    metadata: Dict[str, Any] = {
+        "name": "abc_end_view",
+        "alias": ["easy as abc"],
+        "tags": [], 
+        "rule_url": "https://puzz.link/rules.html?easyasabc",
+        "example": """
+        5 5 c
+        - c a b -
+        - b c - a
+        a - b - c
+        c - - a b
+        b a - c -
+        """,
+        "input_desc": """
+        First line: [ROW] [COL] [MAX_CHAR];
+        else follow standard grid representation.
+        - `-`: empty cells;
+        - `char`: pre-filled chars (lower).
+        """,
+        "output_desc": """
+        Returns a filled grid which is the same format as input grid.
+        """,
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?easyasabc/6/6/4/g1313h4131h4343h1434g"},
+            {"janko": "https://www.janko.at/Raetsel/Abc-End-View/012.a.htm" }
+        ]
+    }
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], cols_top: List[str], cols_bottom: List[str], rows_left: List[str], rows_right: List[str], val: str):
         self.num_rows: int = num_rows
@@ -93,22 +120,22 @@ class ABCEndViewSolver(PuzzleSolver):
             # (start_state, transition_value, next_state)
             transitions = []
             
-            # State 0: 处理前导 0
+            # State 0: 
             transitions.append((0, 0, 0))
             
-            # State 0: 遇到目标值 -> 成功 (State 1)
+            # State 0: 
             transitions.append((0, target_val, 1))
             
-            # State 0: 遇到非目标、非零值 -> 失败 (State 2)
+            # State 0: 
             for v in range(1, self.val + 1):
                 if v != target_val:
                     transitions.append((0, v, 2))
             
-            # State 1 (成功后): 后面是什么都无所谓了，保持成功
+            # State 1 
             for v in range(0, self.val + 1):
                 transitions.append((1, v, 1))
                 
-            # State 2 (失败后): 既然错了，就一直错下去
+            # State 2 
             for v in range(0, self.val + 1):
                 transitions.append((2, v, 2))
             

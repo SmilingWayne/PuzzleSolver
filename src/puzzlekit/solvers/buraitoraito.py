@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,45 @@ from typeguard import typechecked
 import copy
 
 class BuraitoraitoSolver(PuzzleSolver):
+    metadata: Dict[str, Any] = {
+        "name": "buraitoraito",
+        "alias": ["bright light"],
+        "tags": [], 
+        "rule_url": "https://www.janko.at/Raetsel/Buraitoraito/index.htm",
+        "input_example": """
+        8 8
+        - - 1 - - - 1 -
+        - 1 - - 1 - - 2
+        - - 3 - - - - -
+        - - - 1 - 1 - 4
+        5 - 1 - 5 - - -
+        - - - - - 5 - -
+        2 - - 2 - - 2 -
+        - 3 - - - 3 - -
+        """,
+        "output_example": """
+        * - 1 - - - 1 *
+        * 1 - - 1 - - 2
+        * - 3 - * - - *
+        * - - 1 - 1 - 4
+        5 - 1 - 5 * - -
+        * - * - * 5 - *
+        2 - - 2 * - 2 *
+        * 3 - * * 3 - *
+        """,
+        "input_desc": """
+        Standard grid representation.
+        
+        """,
+        "output_desc": """
+        Returns a filled grid:
+        - `*`: light;
+        - `-`: empty cell.
+        """,
+        "external_links": [
+            {"janko": "https://www.janko.at/Raetsel/Buraitoraito/002.a.htm" }
+        ]
+    }
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

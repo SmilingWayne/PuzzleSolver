@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,40 @@ from typeguard import typechecked
 import copy
 
 class AkariSolver(PuzzleSolver):
+    metadata: Dict[str, Any] = {
+        "name": "akari",
+        "alias": ["light up", "bijutsukan", "美術館"],
+        "tags": ['Fill'], 
+        "rule_url": "https://puzz.link/rules.html?lightup",
+        "example": """
+        10 10
+        - - - - 1 0 - - - 1
+        - 0 x - - - 1 - - -
+        - - - x - - 1 - - -
+        x - - 2 - - - - 1 -
+        x - - - - 0 - x - -
+        - - x - 1 - - - - x
+        - 4 - - - - 2 - - x
+        - - - x - - 1 - - -
+        - - - 2 - - - x 3 -
+        x - - - x x - - - -
+        """,
+        "input_desc": """
+        Standard grid representation applies. 
+        - `x`: prefilled black cells;
+        - `-`: empty cells;
+        - `int`: number of bulbs required to be placed in orthogonally adjacent cells.
+        """,
+        "output_desc": """
+        Returns a filled grid where:
+        - `o`: bulb placed;
+        - others same as input.
+        """,
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?lightup/10/10/l.hbg..hc.6bg.gbici6bg1b.bg.g.k.k5.i.g2.h.h.bg.hcj"},
+            {"janko": "https://www.janko.at/Raetsel/Akari/366.a.htm" }
+        ]
+    }
     
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

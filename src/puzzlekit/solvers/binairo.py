@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,7 +7,41 @@ from typeguard import typechecked
 import copy
 
 class BinairoSolver(PuzzleSolver):
-    
+    metadata: Dict[str, Any] = {
+        "name": "binairo",
+        "alias": ["takuzu"],
+        "tags": [], 
+        "rule_url": "https://www.puzzle-binairo.com/binairo-6x6-easy/",
+        "example": """
+        8 8
+        - - - - 2 - - -
+        - - 1 2 - 1 - 1
+        - 1 - - - - - -
+        - 1 2 - 1 - 1 2
+        - - 2 - - - - -
+        - 1 - - - - 2 2
+        2 - - - 1 1 - -
+        - - 2 - - - 1 2
+        """,
+        "input_desc": """
+        Standard grid representation.
+        - `-`: empty cells;
+        - `1` for white and `2` for black.
+        """,
+        "output_desc": """
+        Standard grid with same format as input.
+        8 8
+        1 2 2 1 2 2 1 1
+        1 2 1 2 2 1 2 1
+        2 1 1 2 1 1 2 2
+        2 1 2 1 1 2 1 2
+        1 2 2 1 2 2 1 1
+        2 1 1 2 1 1 2 2
+        2 2 1 2 1 1 2 1
+        1 1 2 1 2 2 1 2
+        """,
+        "external_links": []
+    }
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

@@ -1,3 +1,0 @@
-from YonmasuCrawler import YonmasuCrawler
-
-Clueless2SudokuCrawler = YonmasuCrawler

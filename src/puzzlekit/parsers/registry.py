@@ -93,7 +93,12 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "kuromasu":standard_grid_parser,
     "skyscraper": standard_grid_parser_skyscraper,
     "makaro": standard_region_grid_parser,
-    "trinairo": standard_grid_parser
+    "trinairo": standard_grid_parser,
+    "moon_sun": standard_region_grid_parser,
+    "stitches": standard_region_grid_row_col_parser,
+    "shingoki": standard_grid_parser,
+    "koburin": standard_grid_parser,
+    
 }
 
 

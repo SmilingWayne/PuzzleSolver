@@ -76,6 +76,10 @@ if TYPE_CHECKING:
     from .kuromasu import KuromasuSolver
     from .makaro import MakaroSolver
     from .trinairo import TrinairoSolver
+    from .moon_sun import MoonSunSolver
+    from .stitches import StitchesSolver
+    from .shingoki import ShingokiSolver
+    from .koburin import KoburinSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -159,6 +163,10 @@ _SOLVER_META = {
     "skyscraper": ("skyscraper", "SkyscraperSolver"),
     "makaro": ("makaro", "MakaroSolver"),
     "trinairo": ("trinairo", "TrinairoSolver"),
+    "moon_sun": ("moon_sun", "MoonSunSolver"),
+    "stitches": ("stitches", "StitchesSolver"),
+    "shingoki": ("shingoki", "ShingokiSolver"),
+    "koburin": ("koburin", "KoburinSolver"),
 }
 # ==========================================
 

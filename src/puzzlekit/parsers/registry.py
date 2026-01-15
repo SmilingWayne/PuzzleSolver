@@ -88,7 +88,7 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "dotchi_loop": standard_region_grid_parser,
     "bricks": standard_grid_parser,
     "creek": standard_grid_parser_creek,
-    "corral": standard_grid_parser,
+    "cave": standard_grid_parser,
     "yin_yang": standard_grid_parser,
     "kuromasu":standard_grid_parser,
     "skyscraper": standard_grid_parser_skyscraper,

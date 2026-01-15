@@ -8,6 +8,37 @@ from typeguard import typechecked
 from collections import defaultdict
 
 class StitchesSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "stitches",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        5 5
+        0 1 5 3 3
+        2 3 3 3 1
+        1 2 2 1 1
+        1 1 1 1 3
+        1 1 4 5 3
+        4 4 4 5 3
+        4 5 5 5 3
+        """,
+        "output_example": """
+        5 5
+        - - s - s
+        - - n s n
+        - e w n -
+        - - s e w
+        - - n - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]], cols: List[str], rows: List[str]):
         self.num_rows: int = num_rows

@@ -9,6 +9,55 @@ from typeguard import typechecked
 from collections import defaultdict
 
 class MoonSunSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "moon_sun",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        o - o - - - o - - o
+        - - - - - - x - x -
+        - o - o - - x x - -
+        - x - o - - - - o -
+        x - - x - o - - - x
+        - - - - o - - o - -
+        x o x - x - x - - o
+        - - - - o - - - - -
+        x o - x - - - - - o
+        - - - o - o - x x -
+        1 1 2 2 2 12 12 12 13 13
+        1 1 2 2 2 12 12 12 13 13
+        1 1 3 3 11 11 11 14 14 14
+        4 4 3 3 11 11 11 14 14 14
+        4 4 3 3 11 11 11 14 14 14
+        5 5 5 6 6 6 10 10 15 15
+        5 5 5 6 6 6 10 10 15 15
+        5 5 5 6 6 6 10 10 16 16
+        7 7 8 8 8 9 9 9 16 16
+        7 7 8 8 8 9 9 9 16 16
+        """,
+        "output_example": """
+        10 10
+        se sw se ew ew sw - se ew sw
+        ns ns ne ew sw ne ew nw - ns
+        ns ne sw - ne ew sw se ew nw
+        ne sw ns - se ew nw ns - -
+        se nw ne sw ns - - ne ew sw
+        ne sw - ns ne sw - - - ns
+        - ns - ns - ns se ew ew nw
+        se nw - ne ew nw ne ew ew sw
+        ns - - - se ew sw se ew nw
+        ne ew ew ew nw - ne nw - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

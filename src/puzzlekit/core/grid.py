@@ -34,7 +34,7 @@ class Grid(Generic[T]):
     def __repr__(self) -> str:
         if self.is_empty():
             return "Grid.empty()"
-        return "\n".join(" ".join(str(cell) for cell in row) for row in self._matrix)
+        return f"{self.num_rows} {self.num_cols}\n" + "\n".join(" ".join(str(cell) for cell in row) for row in self._matrix)
 
     def __contains__(self, item: Position | T) -> bool:
         if item is None:

@@ -158,7 +158,7 @@ _SOLVER_META = {
     "dotchi_loop": ("dotchi_loop", "DotchiLoopSolver"),
     "bricks": ("bricks", "BricksSolver"),
     "creek": ("creek", "CreekSolver"),
-    "corral": ("corral", "CorralSolver"),
+    "cave": ("cave", "CaveSolver"),
     "yin_yang": ("yin_yang", "YinYangSolver"),
     "kuromasu": ("kuromasu", "KuromasuSolver"),
     "skyscraper": ("skyscraper", "SkyscraperSolver"),

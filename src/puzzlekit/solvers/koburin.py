@@ -7,6 +7,41 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class KoburinSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "koburin",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        8 8
+        - - - 0 - - - 0
+        - 0 - - - 0 - -
+        - - 0 - - - 0 -
+        0 - - - - - - -
+        - - - 0 - - 2 -
+        - 0 - - - - - -
+        - - - - - 1 - -
+        0 - - 0 - - - -
+        """,
+        "output_example": """
+        8 8
+        se ew sw - se ew sw -
+        ns - ne ew nw - ne sw
+        ne sw - se ew sw - ns
+        - ne sw ne sw ne ew nw
+        se ew nw - ns x - x
+        ns - se sw ne ew ew sw
+        ne sw ns ne sw - x ns
+        - ne nw - ne ew ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

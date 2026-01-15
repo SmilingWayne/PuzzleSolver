@@ -6,6 +6,45 @@ from puzzlekit.utils.puzzle_math import get_allowed_direction_chars
 from typeguard import typechecked
 
 class PfeilzahlenSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "pfeilzahlen",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - - - - - - - - - -
+        - 3 3 3 5 3 2 2 4 -
+        - 1 2 4 2 2 0 2 3 -
+        - 2 5 3 3 2 2 3 5 -
+        - 4 3 3 2 3 2 4 5 -
+        - 1 2 1 2 2 2 3 3 -
+        - 1 2 3 3 4 3 3 4 -
+        - 1 2 3 4 4 2 3 4 -
+        - 3 4 4 5 4 3 4 4 -
+        - - - - - - - - - -
+        """,
+        "output_example": """
+        10 10
+        - se sw s sw sw sw se s -
+        se 3 3 3 5 3 2 2 4 w
+        ne 1 2 4 2 2 0 2 3 sw
+        e 2 5 3 3 2 2 3 5 sw
+        e 4 3 3 2 3 2 4 5 nw
+        ne 1 2 1 2 2 2 3 3 sw
+        e 1 2 3 3 4 3 3 4 nw
+        se 1 2 3 4 4 2 3 4 w
+        e 3 4 4 5 4 3 4 4 w
+        - ne n ne n n nw n n -
+        """
+    }
+
     # Definition of directions and their (dr, dc) offsets
     # 0: None, 1: N, 2: NE, 3: E, 4: SE, 5: S, 6: SW, 7: W, 8: NW
     DIR_MAP_STR = {

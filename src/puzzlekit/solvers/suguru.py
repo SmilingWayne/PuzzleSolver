@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -8,6 +8,43 @@ import copy
 from typeguard import typechecked
 
 class SuguruSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "suguru",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        4 - - - - -
+        - - - - - -
+        - - 4 - - 1
+        - - - 2 - -
+        5 - - 3 5 -
+        - - - - - -
+        1 1 2 3 3 3
+        1 2 2 2 3 4
+        1 5 2 6 3 4
+        5 5 6 6 6 4
+        5 7 7 6 8 4
+        5 8 8 8 8 4
+        """,
+        "output_example": """
+        6 6
+        4 2 1 5 1 2
+        3 5 3 2 4 5
+        1 2 4 1 3 1
+        4 3 5 2 4 2
+        5 2 1 3 5 3
+        1 3 4 2 1 4
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

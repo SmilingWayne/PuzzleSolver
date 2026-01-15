@@ -1,4 +1,4 @@
-from typing import Any, Callable, List
+from typing import Any, Callable, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,43 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class GrandTourSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "grand_tour",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        9 9
+        - - - - - - - 8 -
+        - 2 - 1 4 - - - 1
+        2 8 - 1 5 4 - 2 -
+        12 - - 1 5 6 - 8 -
+        - 2 - 1 4 9 4 - -
+        2 8 - - - 2 - - 2
+        8 - - 3 4 8 2 - 8
+        - 1 4 8 - 1 12 1 4
+        - 1 4 - 1 4 2 - -
+        """,
+        "output_example": """
+        9 9
+        13 7 12 10 8 10 10 10 9
+        6 10 1 13 5 12 10 11 5
+        10 9 5 5 5 5 14 10 1
+        13 7 5 5 5 6 8 11 5
+        6 10 1 5 6 11 5 12 3
+        10 11 5 6 8 10 3 5 14
+        12 10 - 11 5 12 10 2 9
+        5 13 5 14 1 5 14 9 5
+        7 5 6 11 5 6 11 5 7
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

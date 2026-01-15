@@ -9,9 +9,33 @@ import copy
 class BosanowaSolver(PuzzleSolver):
     metadata: Dict[str, Any] = {
         "name": "bosanowa",
-        "alias": [],
+        "aliases": [],
+        "difficulty": "",
         "tags": [], 
         "rule_url": "https://puzz.link/rules.html?bosanowa",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?bosanowa/5/5/f718c1k2q2k4"},
+            {"janko": "https://www.janko.at/Raetsel/Bosanowa/001.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: empty (to be filled) cells;
+        *   `.`: forbidden cells (no number);
+        *   `1-MAX`: pre-filled number.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `-`: forbidden cells (no number);
+        *   `1-MAX`: pre-filled number.
+        """,
         "input_example": """
         5 6
         . . . . - -
@@ -21,25 +45,13 @@ class BosanowaSolver(PuzzleSolver):
         - . . . . .
         """,
         "output_example": """
+        5 6
         - - - - 3 6
         - 3 3 6 3 3
         6 6 3 - - -
         12 - 3 6 3 -
         6 - - - - -
-        """,
-        "input_desc": """
-        Standard grid representation.
-        - `-`: empty (to be filled) cells;
-        - `.`: forbidden cells (no number);
-        - `int`: pre-filled number.
-        """,
-        "output_desc": """
-        Returns a filled grid which is the same format as input grid, `.` are replaced by `-`.
-        """,
-        "external_links": [
-            {"Play at puzz.link": "https://puzz.link/p?bosanowa/5/5/f718c1k2q2k4"},
-            {"janko": "https://www.janko.at/Raetsel/Bosanowa/001.a.htm" }
-        ]
+        """
     }
     
     @typechecked

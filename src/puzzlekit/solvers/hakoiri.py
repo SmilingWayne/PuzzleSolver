@@ -8,6 +8,49 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class HakoiriSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "hakoiri",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        8 8
+        - - c - - - t -
+        - - - - - - - c
+        - s - s - - - -
+        - t c - - - s -
+        - - - s - c - t
+        - - - - - - - -
+        - - s - - - - -
+        s - - - s t - s
+        1 1 5 5 5 10 10 10
+        1 1 4 7 7 9 9 10
+        2 4 4 7 9 9 9 9
+        2 2 4 7 9 11 11 11
+        2 2 6 6 9 9 13 11
+        2 2 6 6 8 12 13 13
+        3 2 2 6 8 12 13 13
+        3 3 3 8 8 12 12 13
+        """,
+        "output_example": """
+        8 8
+        c s c s t - t s
+        t - t - c s - c
+        c s - s - - - t
+        - t c t - - s c
+        - - - s - c - t
+        - - t c t s - c
+        - - s - - - - t
+        s c t c s t c s
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

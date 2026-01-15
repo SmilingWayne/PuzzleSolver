@@ -1,10 +1,59 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 class MosaicSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "mosaic",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        15 15
+        - 1 - - 5 - - - 4 - 5 - - - -
+        - - 4 7 - 6 - - - - - 7 4 2 -
+        - - 7 8 - - - 5 - - 9 - 5 - -
+        - 5 - 7 - - 6 - 9 - 9 8 - - -
+        - - 6 - 5 7 - 8 7 - - 7 7 5 -
+        5 6 - - - - 8 6 - - 4 - - 8 -
+        5 - - 6 - 8 6 - 3 - - - 6 - 4
+        - 4 5 5 7 - - - - - - 2 - - -
+        - 5 - - - 4 - - 2 3 - - - 0 -
+        3 5 - - - - - - 1 - 2 - - - -
+        5 - 5 - - - 4 3 - - - 3 - - -
+        4 6 4 - 4 - - - 4 5 5 - - 5 -
+        4 - - - 7 6 5 - - 7 - - - - 4
+        - 6 - - 9 - 6 - - 4 5 6 6 6 -
+        - 5 6 - - 6 - - - - 3 - 6 - -
+        """,
+        "output_example": """
+        15 15
+        - - - - x x x x x x x - - - -
+        - - x x x x - - - x x x x - -
+        - - x x x - - x x x x x x - -
+        - x x x - - x x x x x x - - -
+        - x x - x x x x x x x x x x -
+        x x - - x x x x - - - x x x x
+        x x - x x x x - - - - - x x x
+        - x x x x x - - x x - x - - -
+        - - - - - x - - - - - - - - -
+        x x x - - x - - - - x - - - -
+        x - x - - - x x - - - x - x x
+        x x x - - x - - x x x - - x x
+        x - - x x x - - - x x - - - x
+        - x x x x x x x x - x x x x -
+        x x x x x x x - - - - x x x x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

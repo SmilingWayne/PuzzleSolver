@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -8,6 +8,59 @@ from typeguard import typechecked
 import copy
 
 class MagneticSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "magnetic",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        5 2 3 4 3 4 5 2 5 3
+        4 3 4 3 3 3 4 3 4 5
+        4 4 4 4 4 3 2 4 4 3
+        3 3 3 4 4 4 4 4 4 3
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . + . . .
+        . . . . . . - . . .
+        . . . . . . . . . .
+        . . x x . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        1 2 2 3 4 4 5 5 6 6
+        1 7 7 3 8 9 9 10 10 11
+        12 13 13 14 8 15 15 16 17 11
+        12 18 19 14 20 20 21 16 17 22
+        23 18 19 24 25 26 21 27 28 22
+        23 29 29 24 25 26 30 27 28 31
+        32 32 33 33 34 34 30 35 35 31
+        36 37 37 38 39 40 41 41 42 43
+        36 44 44 38 39 40 45 46 42 43
+        47 47 48 48 49 49 45 46 50 50
+        """,
+        "output_example": """
+        10 10
+        + - + x x x + - + -
+        - + - x + x x + - +
+        + x x + - + - x + -
+        - x + - + - + x - +
+        + x - + - + - x + -
+        - x x - + - + x - +
+        + - x x - + - x x -
+        - + - + x - + - + x
+        + - + - x + - + - x
+        x x - + x x + - + -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]], cols_positive: List[str], cols_negative: List[str], rows_positive: List[str], rows_negative: List[str]):
         self.num_rows: int = num_rows

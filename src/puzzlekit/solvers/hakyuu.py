@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -7,6 +7,55 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class HakyuuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "hakyuu",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - 1 - - 1 - - - 1 -
+        1 - - - 2 7 - 4 - -
+        - - 4 - - - 5 - - -
+        1 4 - - - - - - - -
+        2 - - - 1 - - - - -
+        - - - - - 6 - - - 3
+        - - - - - - - - 4 2
+        - - - 5 - - - 1 - -
+        - - 6 - 2 3 - - - 7
+        - 3 - - - 5 - - 2 -
+        1 1 2 3 4 3 5 5 6 6
+        7 2 2 3 3 3 5 5 8 8
+        9 9 2 10 3 3 11 12 13 13
+        14 9 9 10 11 11 11 15 13 13
+        16 16 17 17 11 11 15 15 18 19
+        16 16 16 17 17 15 15 15 18 18
+        16 20 20 17 17 21 22 22 18 18
+        23 20 20 24 21 21 22 25 26 27
+        24 24 24 24 24 24 26 26 26 26
+        28 29 29 29 29 29 26 30 26 31
+        """,
+        "output_example": """
+        10 10
+        2 1 3 4 1 5 2 3 1 2
+        1 2 1 3 2 7 1 4 2 1
+        3 1 4 2 6 1 5 1 3 4
+        1 4 2 1 3 2 6 5 1 2
+        2 3 5 6 1 4 3 1 5 1
+        4 5 1 3 2 6 4 2 1 3
+        6 1 3 4 1 2 1 3 4 2
+        1 2 4 5 3 1 2 1 6 1
+        7 4 6 1 2 3 5 4 1 7
+        1 3 1 2 4 5 3 1 2 1
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

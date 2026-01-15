@@ -7,12 +7,32 @@ from typeguard import typechecked
 import copy
 
 class BinairoSolver(PuzzleSolver):
-    metadata: Dict[str, Any] = {
+    metadata : Dict[str, Any] = {
         "name": "binairo",
-        "alias": ["takuzu"],
-        "tags": [], 
+        "aliases": ["takuzu"],
+        "difficulty": "",
+        "tags": [''],
         "rule_url": "https://www.puzzle-binairo.com/binairo-6x6-easy/",
-        "example": """
+        "external_links": [],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `x`: Pre-filled cell.
+        *   `1-2`: 1 indicate white circle, 2 indicates black circle.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `1-2`: 1 indicate white circle, 2 indicates black circle.
+        """,
+        "input_example": """
         8 8
         - - - - 2 - - -
         - - 1 2 - 1 - 1
@@ -23,13 +43,7 @@ class BinairoSolver(PuzzleSolver):
         2 - - - 1 1 - -
         - - 2 - - - 1 2
         """,
-        "input_desc": """
-        Standard grid representation.
-        - `-`: empty cells;
-        - `1` for white and `2` for black.
-        """,
-        "output_desc": """
-        Standard grid with same format as input.
+        "output_example": """
         8 8
         1 2 2 1 2 2 1 1
         1 2 1 2 2 1 2 1
@@ -39,9 +53,9 @@ class BinairoSolver(PuzzleSolver):
         2 1 1 2 1 1 2 2
         2 2 1 2 1 1 2 1
         1 1 2 1 2 2 1 2
-        """,
-        "external_links": []
+        """
     }
+    
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

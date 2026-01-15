@@ -1,4 +1,4 @@
-from typing import Any, List, Tuple
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -6,6 +6,37 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class StarbattleSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "starbattle",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6 1
+        1 2 2 2 2 2
+        1 1 1 1 2 2
+        1 2 2 2 2 6
+        1 3 4 3 5 6
+        1 3 4 3 5 5
+        1 3 3 3 5 5
+        """,
+        "output_example": """
+        6 6 1
+        - - - x - -
+        x - - - - -
+        - - - - - x
+        - - x - - -
+        - - - - x -
+        - x - - - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, num_stars:int, region_grid: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

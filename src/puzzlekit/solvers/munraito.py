@@ -6,6 +6,33 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class MunraitoSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "munraito",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        4 4
+        - - - -
+        - 3 - -
+        - - - 4
+        - - 8 -
+        """,
+        "output_example": """
+        4 4
+        - - x s
+        - 3 s x
+        x s - 4
+        s x 8 -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

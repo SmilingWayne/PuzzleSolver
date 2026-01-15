@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,48 @@ import copy
 from typeguard import typechecked
 
 class FuzuliSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "fuzuli",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "https://www.janko.at/Raetsel/Fuzuli/index.htm",
+        "external_links": [
+            {"Janko": "https://www.janko.at/Raetsel/Fuzuli/001.a.htm"}, ],
+        "input_desc": """
+        **Structure:**
+        **1. Header Line**
+        `[ROWS] [COLS] [MAX_NUM]`
+        *   `MAX_NUM`: The limit number (e.g., '3' means filling with 1, 2, 3).
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `1-[MAX_NUM]`: Number hints.
+        """,
+        "output_desc": """
+        Same as input description.
+        """,
+        "input_example": """
+        5 5 3
+        3 1 - - -
+        1 - 2 - -
+        - - - - -
+        - - 3 2 -
+        - - - 1 -
+        """,
+        "output_example": """
+        5 5 3
+        3 1 - - 2
+        1 - 2 3 -
+        - 2 1 - 3
+        - - 3 2 1
+        2 3 - 1 -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, k: int,  grid: List[List[str]]):
         self.num_rows: int = num_rows

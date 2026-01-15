@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,37 @@ from typeguard import typechecked
 import copy
 
 class TennerGridSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "tenner_grid",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 10
+        - 7 3 - 0 5 - 8 - 9
+        - 5 - 2 - 1 - - 6 -
+        - 1 7 - 8 - - 2 0 9
+        9 - - - - - 0 - - 2
+        5 - 9 - 6 8 - - 0 -
+        34 22 29 13 28 22 15 24 12 26
+        """,
+        "output_example": """
+        6 10
+        6 7 3 1 0 5 4 8 2 9
+        8 5 4 2 7 1 0 9 6 3
+        6 1 7 5 8 3 4 2 0 9
+        9 8 6 1 7 5 0 3 4 2
+        5 1 9 4 6 8 7 2 0 3
+        34 22 29 13 28 22 15 24 12 26
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

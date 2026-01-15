@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -8,6 +8,55 @@ import copy
 from typeguard import typechecked
 
 class FobidoshiSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "fobidoshi",
+        "aliases": ["forbidden four"],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "https://www.janko.at/Raetsel/Fobidoshi/index.htm",
+        "external_links": [{"Janko": "https://www.janko.at/Raetsel/Fobidoshi/index.htm"}],
+        "input_desc": """
+        The input puzzle grid follows:
+
+        **Structure:**
+
+        **1. Header Line**
+        `[ROWS] [COLS]`
+
+        **2. Clue Grid (Next `[ROWS]` lines)**
+        Represents the numbers/clues given in the problem.
+        
+        **Legend:**
+        *   `-`: cells without circle;
+        *   `o`: cells with circle.
+        """,
+        "output_desc": """
+        Returns the grid as a matrix of cells, `[ROWS]` by `[COLS]`.
+        
+        **Legend:**
+        *   `-`: cells without circle;
+        *   `o`: cells with circle.
+        """,
+        "input_example": """
+        6 6
+        - o o - - o
+        o - - - - -
+        - o - o - -
+        o o o - - -
+        - o - - - -
+        - - - o - o
+        """,
+        "output_example": """
+        6 6
+        - o o o - o
+        o - - o o o
+        o o - o o -
+        o o o - o o
+        - o o o - o
+        - - - o o o
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

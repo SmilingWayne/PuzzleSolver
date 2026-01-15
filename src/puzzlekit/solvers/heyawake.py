@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -9,6 +9,55 @@ from typeguard import typechecked
 import copy
 
 class HeyawakeSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "heyawake",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - - - 5 - - - - - -
+        3 - - - - - - - - -
+        - - - - - - - - 0 -
+        - - - - - - - - - -
+        - - - - - 5 - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - 4 - - - - - -
+        2 - - - - - - - - -
+        - - - - - - - - - -
+        a a b c c c c d e e
+        f f b c c c c d e e
+        f f b c c c c d g g
+        f f h h h i i i j j
+        k k h h h l l l j j
+        k k h h h l l l j j
+        k k m m m l l l n n
+        o o p q q q q r n n
+        s s p q q q q r n n
+        s s p q q q q r t t
+        """,
+        "output_example": """
+        10 10
+        - - - x - - x - - -
+        - x - - x - - x - x
+        x - - x - - x - - -
+        - x - - x - - - x -
+        - - x - - x - x - -
+        - - - x - - x - - x
+        x - - - - x - x - -
+        - - x - x - - - x -
+        - x - - - - x - - -
+        x - - x - x - - x -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

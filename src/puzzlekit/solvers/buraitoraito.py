@@ -9,9 +9,32 @@ import copy
 class BuraitoraitoSolver(PuzzleSolver):
     metadata: Dict[str, Any] = {
         "name": "buraitoraito",
-        "alias": ["bright light"],
+        "aliases": ["bright light"],
+        "difficulty": "",
         "tags": [], 
         "rule_url": "https://www.janko.at/Raetsel/Buraitoraito/index.htm",
+        "external_links": [
+            {"janko": "https://www.janko.at/Raetsel/Buraitoraito/002.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining `[ROWS]` lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `0~[ROWS]+[COLS]`: Number of stars.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `0~[ROWS]+[COLS]`: Initial number of stars;
+        *   `*`: Star.
+        """,
         "input_example": """
         8 8
         - - 1 - - - 1 -
@@ -33,18 +56,6 @@ class BuraitoraitoSolver(PuzzleSolver):
         2 - - 2 * - 2 *
         * 3 - * * 3 - *
         """,
-        "input_desc": """
-        Standard grid representation.
-        
-        """,
-        "output_desc": """
-        Returns a filled grid:
-        - `*`: light;
-        - `-`: empty cell.
-        """,
-        "external_links": [
-            {"janko": "https://www.janko.at/Raetsel/Buraitoraito/002.a.htm" }
-        ]
     }
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

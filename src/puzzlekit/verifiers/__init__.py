@@ -71,7 +71,7 @@ GRID_VERIFIERS = {
     "number_cross": verify_exact,
     "dotchi_loop": verify_lines,
     "creek": lambda a, b: verify_target_content(a, b, 'x'),
-    "corral": verify_exact,
+    "cave": verify_exact,
     "yin_yang": verify_exact,
     "kuromasu": lambda a, b: verify_target_content(a, b, 'x'),
     "skyscraper": verify_exact,

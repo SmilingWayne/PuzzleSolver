@@ -1,4 +1,4 @@
-from typing import Any, List, Tuple
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,39 @@ from typeguard import typechecked
 import copy
 
 class SkyscraperSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "skyscraper",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        5 5 5
+        - 3 3 - -
+        - 2 2 2 1
+        1 4 3 2 -
+        3 2 3 - 1
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        """,
+        "output_example": """
+        5 5 5
+        5 3 1 4 2
+        1 2 3 5 4
+        3 4 5 2 1
+        4 5 2 1 3
+        2 1 4 3 5
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], cols_top: List[str], cols_bottom: List[str], rows_left: List[str], rows_right: List[str], val: int, diagonal: bool):
         self.num_rows: int = num_rows

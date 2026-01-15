@@ -7,6 +7,37 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class ShingokiSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "shingoki",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        - - - - - -
+        - - b4 - - -
+        - - - - - -
+        - - b4 - b5 -
+        - - - - - -
+        b3 - - b2 - b6
+        """,
+        "output_example": """
+        6 6
+        - - - - se sw
+        se ew sw - ns ns
+        ne sw ns - ns ns
+        se nw ne ew nw ns
+        ns se sw se sw ns
+        ne nw ne nw ne nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

@@ -1,13 +1,64 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class CountryRoadSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "country_road",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ['loop'],
+        "rule_url": "https://pzplus.tck.mn/rules.html?country",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?country/17/13/5hk2ubdeemlt591md29534ikibba5alii8k5ho8444071norg0l2hur13v7v270fe1scvik41ruvpuvhk8043g4g43i32g454h534445k3g3m"}, 
+            {"Janko": "https://www.janko.at/Raetsel/Country-Road/001.a.htm"}
+        ],
+        "input_desc": CLUE_REGION_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        10 10
+        1 - 5 - - 3 - - 3 -
+        - - - - - - - - - -
+        4 - - - - - - 6 - -
+        - - - 10 - - - - - -
+        - - - - - - - 2 - -
+        - - - - - - - - 3 -
+        3 - - - - - - - - -
+        - - - 3 - - 6 - - -
+        2 - - - - - - - 4 -
+        - - - - - - - - - -
+        1 1 6 6 11 13 13 13 18 18
+        1 1 6 6 11 13 13 13 18 18
+        2 2 6 6 12 12 12 16 16 16
+        2 2 7 9 9 9 9 16 16 16
+        2 2 7 9 9 9 9 17 19 19
+        3 3 7 9 9 9 9 17 20 20
+        4 4 4 9 9 9 9 17 20 20
+        4 4 4 10 10 10 15 15 20 20
+        5 5 8 8 8 14 15 15 21 21
+        5 5 8 8 8 14 15 15 21 21
+        """,
+        "output_example": """
+        10 10
+        - - se sw se ew ew ew sw -
+        - se nw ns ns - - - ne sw
+        se nw - ns ne ew sw se ew nw
+        ne ew sw ns - - ns ne ew sw
+        - - ns ns - - ns se ew nw
+        se ew nw ns - - ns ne sw -
+        ns - - ne ew ew nw - ns -
+        ne sw - se ew sw se sw ns -
+        - ns se nw - ns ns ns ne sw
+        - ne nw - - ne nw ne ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

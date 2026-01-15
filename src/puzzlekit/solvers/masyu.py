@@ -7,6 +7,37 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class MasyuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "masyu",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        - - - - - -
+        - - - - - w
+        - b - w b -
+        - b w - b -
+        w - - - - -
+        - - - - - -
+        """,
+        "output_example": """
+        6 6
+        se sw - - se sw
+        ns ns - - ns ns
+        ns ne ew ew nw ns
+        ns se ew ew sw ns
+        ns ns - - ns ns
+        ne nw - - ne nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

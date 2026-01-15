@@ -8,6 +8,43 @@ from typeguard import typechecked
 import copy
 
 class KuromasuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "kuromasu",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        9 9
+        9 - - 8 - 9 - 8 -
+        - - - - - - 9 - -
+        - - - - - - - 3 -
+        3 - - - - 4 - - 3
+        - - 4 - - - 9 - -
+        4 - - 6 - - - - 4
+        - 15 - - - - - - -
+        - - 7 - - - - - -
+        - 7 - 5 - 4 - - 4
+        """,
+        "output_example": """
+        9 9
+        - - - - - - - - x
+        - x - x - - - x -
+        x - x - - x - - -
+        - - - x - - - x -
+        x - - - x - - - x
+        - - x - - x - x -
+        - - - - - - - - -
+        - - - - - - x - -
+        x - x - x - - x -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

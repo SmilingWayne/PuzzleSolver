@@ -2,11 +2,41 @@ from typing import Any, List, Dict, Tuple
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import YAJILIN_STYLE_TEMPLATE_INPUT_DESC, SHADE_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class YajikabeSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "yajikabe",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["shade", "yajilin"],
+        "rule_url": "https://www.janko.at/Raetsel/Yajikabe/index.htm",
+        "external_links": [{"Janko": "https://www.janko.at/Raetsel/Yajikabe/001.a.htm"}],
+        "input_desc": YAJILIN_STYLE_TEMPLATE_INPUT_DESC,
+        "output_desc": SHADE_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        6 6
+        1e 4s 1s 4s 1e -
+        1s - - - - -
+        - - 1e - 0s -
+        0s - 1w - - 0s
+        1n - - - 3w -
+        0e 4n 1n - - 0w
+        """,
+        "output_example": """
+        6 6
+        - - - - - x
+        - x - x x x
+        x x - x - -
+        - x - x - -
+        - x x x - -
+        - - - - - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

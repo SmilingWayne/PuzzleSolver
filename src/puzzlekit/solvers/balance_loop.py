@@ -2,18 +2,41 @@ from typing import Any, List, Dict, Tuple, Optional
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 from itertools import combinations
 from typeguard import typechecked
 
 class BalanceLoopSolver(PuzzleSolver):
-    metadata: Dict[str, Any] = {
+    metadata : Dict[str, Any] = {
         "name": "balance_loop",
-        "alias": [],
-        "tags": ["loop"], 
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
         "rule_url": "https://puzz.link/rules.html?balance",
-        "example": """
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?balance/6/6/h7m7h7l7h7g7h7l7"},
+            {"janko": "https://www.janko.at/Raetsel/Balance-Loop/001.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial clues of the grid rows.
+        
+        **Legend:**
+        *   `-`: Empty cell (no prefilled clue).
+        *   `[color][number]` (e.g., `w4`, `b5`): Circle with specified color and number.
+        *   `[color]` (e.g., `w`, `b`): Circle with specified color but no number.
+
+        **Color Codes:**
+        *   `w`: White circle
+        *   `b`: Black circle
+        """,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
         5 5
         - - - - - 
         - - - - - 
@@ -21,22 +44,16 @@ class BalanceLoopSolver(PuzzleSolver):
         - - - - - 
         b5 - b - b3
         """,
-        "input_desc": """
-        Standard grid representation.
-        - `-`: empty cells;
-        - `w4`, `b5`: former letter indiates color white ('w') and black ('b'), int indicate the num in the cell;
-        - `w`, `b`: only indicate color white ('w') and black ('b').
-        """,
-        "output_desc": """
-        Returns a loop solution grid. Each cell (if connected) consists of edges pointing to 2 directions. 
-        for instance,  `n`, `s`, `w`, `e` indicate a edge connecting north, south, west, east respectively.
-        - `ns`, `nw`, ...
-        """,
-        "external_links": [
-            {"Play at puzz.link": "https://puzz.link/p?balance/6/6/h7m7h7l7h7g7h7l7"},
-            {"janko": "https://www.janko.at/Raetsel/Balance-Loop/001.a.htm" }
-        ]
+        "output_example": """
+        5 5
+        - se sw - -
+        se nw ns - -
+        ns - ne ew sw
+        ns - se sw ns
+        ne ew nw ne nw
+        """
     }
+    
     
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

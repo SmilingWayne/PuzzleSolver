@@ -1,14 +1,47 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 
 class DetourSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "detour",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?detour",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?detour/8/8/51baqm0ldaag0vg00vrv03g02310j112g1"}, 
+            {"Janko": "https://www.janko.at/Raetsel/Detour/001.a.htm"}
+        ],
+        "input_desc": CLUE_REGION_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        4 4
+        - - - 3
+        - 2 - -
+        - - - -
+        - 1 - -
+        1 1 1 5
+        2 3 3 5
+        2 3 3 5
+        2 4 4 4
+        """,
+        "output_example": """
+        4 4
+        se ew ew sw
+        ns se ew nw
+        ns ne ew sw
+        ne ew ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

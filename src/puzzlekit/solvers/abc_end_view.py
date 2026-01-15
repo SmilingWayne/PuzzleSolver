@@ -7,33 +7,69 @@ from typeguard import typechecked
 import copy
 
 class ABCEndViewSolver(PuzzleSolver):
-    metadata: Dict[str, Any] = {
+    metadata : Dict[str, Any] = {
         "name": "abc_end_view",
-        "alias": ["easy as abc"],
-        "tags": [], 
+        "aliases": ["easy as abc"],
+        "difficulty": "",
+        "tags": [],
         "rule_url": "https://puzz.link/rules.html?easyasabc",
-        "example": """
-        5 5 c
-        - c a b -
-        - b c - a
-        a - b - c
-        c - - a b
-        b a - c -
-        """,
-        "input_desc": """
-        First line: [ROW] [COL] [MAX_CHAR];
-        else follow standard grid representation.
-        - `-`: empty cells;
-        - `char`: pre-filled chars (lower).
-        """,
-        "output_desc": """
-        Returns a filled grid which is the same format as input grid.
-        """,
         "external_links": [
             {"Play at puzz.link": "https://puzz.link/p?easyasabc/6/6/4/g1313h4131h4343h1434g"},
-            {"janko": "https://www.janko.at/Raetsel/Abc-End-View/012.a.htm" }
-        ]
+            {"janko": "https://www.janko.at/Raetsel/Abc-End-View/013.a.htm" }
+        ],
+        "input_desc": """
+        The input grid follows structure:
+        
+        **1. Header Line**
+        `[ROWS] [COLS] [MAX_CHAR]`
+        *   `MAX_CHAR`: The limit char (e.g., 'd' means filling with a, b, c, d).
+
+        **2. Clue Lines (Next 4 lines)**
+        Space-separated characters representing hints from different view angles:
+        *   Line 2: **Top** views
+        *   Line 3: **Bottom** views
+        *   Line 4: **Left** views
+        *   Line 5: **Right** views
+
+        **3. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `a-z`: Character hints.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters.
+    
+        *   **Dimensions**: `[ROWS]` lines x `[COLS]` characters.
+        *   **Content**: No external clues are included in the output.
+        
+        **Legend:**
+        *   `a-z`: Filled characters
+        *   `-`: Empty cells (if the puzzle has blank spaces)
+        """,
+        "input_example": """
+        5 5 d
+        - - - - -
+        - - d b -
+        - - c b d
+        - c - a -
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        """,
+        "output_example": """
+        5 5 d
+        - b c a d
+        a d b c -
+        c - a d b
+        b c d - a
+        d a - b c
+        """
     }
+    
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], cols_top: List[str], cols_bottom: List[str], rows_left: List[str], rows_right: List[str], val: str):
         self.num_rows: int = num_rows

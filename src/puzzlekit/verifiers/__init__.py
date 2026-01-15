@@ -83,6 +83,7 @@ GRID_VERIFIERS = {
     "stitches": verify_lines,
     "shingoki": verify_lines,
     "koburin": verify_lines,
+    "yajikabe": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

@@ -98,6 +98,8 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "stitches": standard_region_grid_row_col_parser,
     "shingoki": standard_grid_parser,
     "koburin": standard_grid_parser,
+    "yajikabe": standard_grid_parser,
+    
     
 }
 

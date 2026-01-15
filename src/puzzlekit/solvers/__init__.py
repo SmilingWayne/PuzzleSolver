@@ -80,6 +80,7 @@ if TYPE_CHECKING:
     from .stitches import StitchesSolver
     from .shingoki import ShingokiSolver
     from .koburin import KoburinSolver
+    from .yajikabe import YajikabeSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -167,6 +168,7 @@ _SOLVER_META = {
     "stitches": ("stitches", "StitchesSolver"),
     "shingoki": ("shingoki", "ShingokiSolver"),
     "koburin": ("koburin", "KoburinSolver"),
+    "yajikabe": ("yajikabe", "YajikabeSolver"),
 }
 # ==========================================
 

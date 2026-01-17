@@ -88,6 +88,7 @@ VISUALIZERS = {
     "shingoki": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     "koburin": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     "yajikabe": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "battleship": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     # ...
 }
 

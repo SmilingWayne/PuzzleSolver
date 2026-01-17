@@ -11,7 +11,8 @@ from .common import (
     standard_grid_parser_starbattle,
     standard_grid_parser_nonogram,
     standard_grid_parser_creek,
-    standard_grid_parser_skyscraper
+    standard_grid_parser_skyscraper,
+    standard_grid_parser_battleship,
 )
 # this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
@@ -99,6 +100,7 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "shingoki": standard_grid_parser,
     "koburin": standard_grid_parser,
     "yajikabe": standard_grid_parser,
+    "battleship": standard_grid_parser_battleship,
     
     
 }

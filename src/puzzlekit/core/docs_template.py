@@ -37,6 +37,34 @@ Represents the numbers/clues given in the problem.
 
 """
 
+BATTLESHIP_STYLE_TEMPLATE_INPUT_DESC = """
+The battleship-style grid follows structure:
+
+**1. Header Line**
+`[ROWS] [COLS] [NUM OF SHIPS]`
+
+Note: `[NUM OF SHIPS]` is adaptively updated, you can specify the shape via sequance.
+
+e.g., 5 4 0 2 1 means the number of ships with size 1,2,3,4,5 is 5,4,0,2,1 respectively. The largest ship is not limited, which means you can use: 5 8 8 9 0 0 3 0 5 6 2 sequcece to represent your fleet where the longest ship is 11.
+
+**2. Clue Lines (Next 4 lines)**
+Space-separated characters representing hints (cols and rows):
+*   Line 2: **Top** column numbers.
+*   Line 3: **Left** row numbers.
+
+**3. Clue Grid (Next `[ROWS]` lines)**
+Represents the numbers/clues given in the problem.
+*   `-`: Empty cell (no number or ship).
+*   `x`: forbidden water, no ships filled.
+*   `n`: a ship pointing "North" (up).
+*   `s`: a ship pointing "South" (Down).
+*   `w`: a ship pointing "West" (Left).
+*   `e`: a ship pointing "East" (Right).
+*   `o`: a ship with length 1.
+*   `m`: a middle segment of ship (with length > 1).
+
+"""
+
 GENERAL_GRID_TEMPLATE_INPUT_DESC = """
 The grid follows:
 

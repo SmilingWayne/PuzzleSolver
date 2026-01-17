@@ -1,21 +1,20 @@
 import puzzlekit
 
+import time
 # Raw input data
+start_time = time.time()
 problem_str = """
-6 6
-w b - - - -
-- - - w - -
-- - b - b -
-w - w - - -
-- - - w - -
-- - w - b -
+30 30 9 8 7 6 5 4 3 2 1\n2 9 5 4 6 8 6 5 11 2 5 3 2 13 2 5 11 5 10 7 5 4 9 6 2 3 10 1 2 2\n8 4 6 2 1 7 7 9 5 4 5 6 3 17 3 5 4 10 4 15 3 2 2 15 3 8 1 2 2 2\n- - - - - - - - - - - - - - - w - - - - - - e - - - - - - -\nw - e - - n - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - e - - - - - - - - -\n- - - - - s - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - m - - - - - - -\n- - - - - - - - - - - - w - m - - e - - - - - - - - - - - -\n- w - - e - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - w - - - e - - - - - - - - - -\n- - - - - - - - m - - - - - - - - - - - - - s - - - - - - -\n- n - - - - - - - - s - - - - - - - - - - - - - - - - - - -\n- - - - o - - - s - - - - m - - - - - - - - - - - - n - - -\n- m - - - - - - - - - - - - - - - - - - - - - - - - - - w -\n- - - x - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - x - w - - - m - e - - w - - - - - - e - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - - - n - - - -\n- - - - o - - - o - - - - - - - - - n - - - - s - - - - - -\n- - - - - - - - - - - - - o - - - - - - - - - - - s - - - -\n- - - - - - - - - e - s - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - m - s - - - - - - - - - - -\n- - m - - - - - - - - - - - - - - - - - x - - w - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - - - - s - - -\n- - - - - - - - - - - - - m - - m - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - w - m - - e - - m - e\n- - - - - - - - - - o - - e - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - - - - e - - - - - - - -\n- - s - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - e - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - - - w - - - - - - - - - - -\n- - - o - o - - - - - - - - - - - - - - - - - - - - - - - -
 """
 
 # Solve
-res = puzzlekit.solve(problem_str, puzzle_type="yin_yang")
+res = puzzlekit.solve(problem_str, puzzle_type="battleship")
 
 # Print solution grid
 print(res.solution_data.get('solution_grid', []))
-
+print(res.solution_data.get('cpu_time', "Not available"))
+print(res.solution_data.get('build_time', "Not available"))
+end_time = time.time()
+print(f"Time taken: {end_time - start_time} seconds")
 # Visualize (optional)
 res.show()

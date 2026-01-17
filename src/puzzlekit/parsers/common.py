@@ -87,6 +87,50 @@ def standard_grid_row_col_parser(data: str) -> Dict[str, Any]:
     except Exception as e:
         raise ValueError(f"Failed to parse standard grid: {e}")
     
+
+def standard_grid_parser_battleship(data: str) -> Dict[str, Any]:
+    if not isinstance(data, str):
+        raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
+    try:
+        lines = data.strip().split('\n')
+        if not lines: 
+            print("Warning: Puzzle content is empty")
+            return None
+            
+        # Parse logic adjusted for dynamic ship sizes
+        num_line = lines[0].strip()
+        # Use split() without arguments to handle multiple spaces automatically
+        header_parts = num_line.split() 
+        
+        if len(header_parts) < 2:
+            raise ValueError("Header line must contain at least dimensions (rows cols)")
+            
+        m = int(header_parts[0])
+        n = int(header_parts[1])
+        
+        # Capture all remaining numbers as ship counts (dynamic length)
+        # e.g., if input is "10 10 4 3 2 1", num_ships will be ['4', '3', '2', '1']
+        num_ships = header_parts[2:] 
+        
+        cols_top = lines[1].strip().split()
+        rows_left = lines[2].strip().split()
+        
+        grid_lines = lines[3:]
+        # Use split() for grid rows as well for consistency
+        grid = [g.strip().split() for g in grid_lines if g.strip()]
+        
+        return {
+            "num_rows": m, 
+            "num_cols": n, 
+            "num_ships": num_ships,
+            "cols_top": cols_top,
+            "rows_left": rows_left,
+            "grid": grid
+        }
+    except Exception as e:
+        raise ValueError(f"Failed to parse standard grid of battleship: {e}")
+
+    
 def standard_grid_parser_skyscraper(data: str) -> Dict[str, Any]:
     if not isinstance(data, str):
         raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")

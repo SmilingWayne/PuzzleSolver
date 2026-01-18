@@ -178,3 +178,17 @@ Else, for each cell, a four-bit number "abcd" in decimal system is used to indic
 *   `x`: filled cell (if any).
 
 """
+
+LITS_TEMPLATE_OUTPUT_DESC = """
+Returns a grid with `LITS` format representing the path segments of the single continuous loop.
+
+**Cell Format:**
+Each non-empty cell contains a string of characters indicating the directions of the path passing through it.
+*   `L`: Shape "L"
+*   `I`: Shape "I"
+*   `T`: Shape "T"
+*   `S`: Shape "S"
+*   `-`: Empty cell.
+
+
+"""

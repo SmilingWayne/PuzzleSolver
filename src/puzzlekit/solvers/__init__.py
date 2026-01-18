@@ -82,6 +82,9 @@ if TYPE_CHECKING:
     from .koburin import KoburinSolver
     from .yajikabe import YajikabeSolver
     from .battleship import BattleshipSolver
+    from .lits import LITSSolver
+    from .paint_area import PaintAreaSolver
+    from .putteria import PutteriaSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -171,6 +174,9 @@ _SOLVER_META = {
     "koburin": ("koburin", "KoburinSolver"),
     "yajikabe": ("yajikabe", "YajikabeSolver"),
     "battleship": ("battleship", "BattleshipSolver"),
+    "lits": ("lits", "LITSSolver"),
+    "paint_area": ("paint_area", "PaintAreaSolver"),
+    "putteria": ("putteria", "PutteriaSolver"),
 }
 # ==========================================
 

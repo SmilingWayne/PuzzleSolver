@@ -101,7 +101,9 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "koburin": standard_grid_parser,
     "yajikabe": standard_grid_parser,
     "battleship": standard_grid_parser_battleship,
-    
+    "lits": standard_region_grid_parser,
+    "paint_area": standard_region_grid_parser,
+    "putteria": standard_region_grid_parser,
     
 }
 

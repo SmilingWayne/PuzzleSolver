@@ -85,6 +85,9 @@ GRID_VERIFIERS = {
     "koburin": verify_lines,
     "yajikabe": verify_exact,
     "battleship": verify_exact,
+    "lits": verify_exact,
+    "paint_area": verify_exact,
+    "putteria": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

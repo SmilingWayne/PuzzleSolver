@@ -89,6 +89,9 @@ VISUALIZERS = {
     "koburin": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     "yajikabe": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "battleship": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "lits": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "paint_area": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "putteria": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     # ...
 }
 

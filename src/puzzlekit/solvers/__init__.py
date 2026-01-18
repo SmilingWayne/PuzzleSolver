@@ -85,6 +85,8 @@ if TYPE_CHECKING:
     from .lits import LITSSolver
     from .paint_area import PaintAreaSolver
     from .putteria import PutteriaSolver
+    from .regional_yajilin import RegionalYajilinSolver
+    from .nawabari import NawabariSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -177,6 +179,8 @@ _SOLVER_META = {
     "lits": ("lits", "LITSSolver"),
     "paint_area": ("paint_area", "PaintAreaSolver"),
     "putteria": ("putteria", "PutteriaSolver"),
+    "regional_yajilin": ("regional_yajilin", "RegionalYajilinSolver"),
+    "nawabari": ("nawabari", "NawabariSolver"),
 }
 # ==========================================
 

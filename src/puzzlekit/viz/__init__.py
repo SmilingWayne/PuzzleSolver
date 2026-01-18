@@ -92,6 +92,8 @@ VISUALIZERS = {
     "lits": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "paint_area": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "putteria": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "regional_yajilin": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "nawabari": lambda g, d, p: draw_general_puzzle(g, d, p, style='region'),
     # ...
 }
 

@@ -104,6 +104,8 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "lits": standard_region_grid_parser,
     "paint_area": standard_region_grid_parser,
     "putteria": standard_region_grid_parser,
+    "regional_yajilin": standard_region_grid_parser,
+    "nawabari": standard_grid_parser
     
 }
 

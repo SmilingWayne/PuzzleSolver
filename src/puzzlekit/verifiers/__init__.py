@@ -93,6 +93,7 @@ GRID_VERIFIERS = {
     "mathrax": verify_exact,
     "ken_ken": verify_exact,
     "juosan": verify_exact,
+    "kakkuru": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

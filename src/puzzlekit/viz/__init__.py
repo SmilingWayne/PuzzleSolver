@@ -97,6 +97,7 @@ VISUALIZERS = {
     "mathrax": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "ken_ken": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "juosan": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "kakkuru": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     # ...
 }
 

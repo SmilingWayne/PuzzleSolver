@@ -87,6 +87,9 @@ if TYPE_CHECKING:
     from .putteria import PutteriaSolver
     from .regional_yajilin import RegionalYajilinSolver
     from .nawabari import NawabariSolver
+    from .mathrax import MathraxSolver
+    from .ken_ken import KenKenSolver
+    from .juosan import JuosanSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -181,6 +184,9 @@ _SOLVER_META = {
     "putteria": ("putteria", "PutteriaSolver"),
     "regional_yajilin": ("regional_yajilin", "RegionalYajilinSolver"),
     "nawabari": ("nawabari", "NawabariSolver"),
+    "mathrax": ("mathrax", "MathraxSolver"),
+    "ken_ken": ("ken_ken", "KenKenSolver"),
+    "juosan": ("juosan", "JuosanSolver"),
 }
 # ==========================================
 

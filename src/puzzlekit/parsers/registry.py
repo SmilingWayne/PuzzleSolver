@@ -13,6 +13,7 @@ from .common import (
     standard_grid_parser_creek,
     standard_grid_parser_skyscraper,
     standard_grid_parser_battleship,
+    standard_grid_parser_mathrax,
 )
 # this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
@@ -105,7 +106,10 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "paint_area": standard_region_grid_parser,
     "putteria": standard_region_grid_parser,
     "regional_yajilin": standard_region_grid_parser,
-    "nawabari": standard_grid_parser
+    "nawabari": standard_grid_parser,
+    "mathrax": standard_grid_parser_mathrax,
+    "ken_ken": standard_region_grid_parser,
+    "juosan": standard_region_grid_parser,
     
 }
 

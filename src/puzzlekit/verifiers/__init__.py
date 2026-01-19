@@ -90,6 +90,9 @@ GRID_VERIFIERS = {
     "putteria": verify_exact,
     "regional_yajilin": verify_lines,
     "nawabari": verify_bijective,
+    "mathrax": verify_exact,
+    "ken_ken": verify_exact,
+    "juosan": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

@@ -94,6 +94,9 @@ VISUALIZERS = {
     "putteria": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "regional_yajilin": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     "nawabari": lambda g, d, p: draw_general_puzzle(g, d, p, style='region'),
+    "mathrax": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "ken_ken": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "juosan": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     # ...
 }
 

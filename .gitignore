@@ -154,3 +154,4 @@ cython_debug/
 # Ignore dataset directory
 assets/
 benchmark_results/
+docs/puzzles/*.md

@@ -2,3 +2,4 @@ matplotlib==3.10.8
 ortools==9.10.4067
 pytest==9.0.2
 typeguard==4.4.4
+mkdocs-material

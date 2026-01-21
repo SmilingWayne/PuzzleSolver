@@ -1,0 +1,160 @@
+site_name: PuzzleKit docs
+site_url: https://github.com/SmilingWayne/PuzzleSolver
+site_description: PuzzleKit documentation
+site_dir: site
+
+nav:
+  - Intro:
+      - Intro: index.md
+  - Puzzles:
+      - abc_end_view: puzzles/abc_end_view.md
+      - akari: puzzles/akari.md
+      - balance_loop: puzzles/balance_loop.md
+      - battleship: puzzles/battleship.md
+      - binairo: puzzles/binairo.md
+      - bosanowa: puzzles/bosanowa.md
+      - bricks: puzzles/bricks.md
+      - buraitoraito: puzzles/buraitoraito.md
+      - butterfly_sudoku: puzzles/butterfly_sudoku.md
+      - cave: puzzles/cave.md
+      - clueless_1_sudoku: puzzles/clueless_1_sudoku.md
+      - clueless_2_sudoku: puzzles/clueless_2_sudoku.md
+      - country_road: puzzles/country_road.md
+      - creek: puzzles/creek.md
+      - detour: puzzles/detour.md
+      - diff_neighbors: puzzles/diff_neighbors.md
+      - dominos: puzzles/dominos.md
+      - dotchi_loop: puzzles/dotchi_loop.md
+      - double_back: puzzles/double_back.md
+      - entry_exit: puzzles/entry_exit.md
+      - eulero: puzzles/eulero.md
+      - even_odd_sudoku: puzzles/even_odd_sudoku.md
+      - fobidoshi: puzzles/fobidoshi.md
+      - fuzuli: puzzles/fuzuli.md
+      - gappy: puzzles/gappy.md
+      - gattai_8_sudoku: puzzles/gattai_8_sudoku.md
+      - grand_tour: puzzles/grand_tour.md
+      - hakoiri: puzzles/hakoiri.md
+      - hakyuu: puzzles/hakyuu.md
+      - heyawake: puzzles/heyawake.md
+      - hidoku: puzzles/hidoku.md
+      - hitori: puzzles/hitori.md
+      - jigsaw_sudoku: puzzles/jigsaw_sudoku.md
+      - juosan: puzzles/juosan.md
+      - kakkuru: puzzles/kakkuru.md
+      - kakurasu: puzzles/kakurasu.md
+      - kakuro: puzzles/kakuro.md
+      - ken_ken: puzzles/ken_ken.md
+      - killer_sudoku: puzzles/killer_sudoku.md
+      - koburin: puzzles/koburin.md
+      - kuromasu: puzzles/kuromasu.md
+      - kuroshuto: puzzles/kuroshuto.md
+      - linesweeper: puzzles/linesweeper.md
+      - lits: puzzles/lits.md
+      - magnetic: puzzles/magnetic.md
+      - makaro: puzzles/makaro.md
+      - masyu: puzzles/masyu.md
+      - mathrax: puzzles/mathrax.md
+      - minesweeper: puzzles/minesweeper.md
+      - moon_sun: puzzles/moon_sun.md
+      - mosaic: puzzles/mosaic.md
+      - munraito: puzzles/munraito.md
+      - nawabari: puzzles/nawabari.md
+      - nondango: puzzles/nondango.md
+      - nonogram: puzzles/nonogram.md
+      - norinori: puzzles/norinori.md
+      - number_cross: puzzles/number_cross.md
+      - one_to_x: puzzles/one_to_x.md
+      - paint_area: puzzles/paint_area.md
+      - patchwork: puzzles/patchwork.md
+      - pfeilzahlen: puzzles/pfeilzahlen.md
+      - pills: puzzles/pills.md
+      - putteria: puzzles/putteria.md
+      - regional_yajilin: puzzles/regional_yajilin.md
+      - renban: puzzles/renban.md
+      - samurai_sudoku: puzzles/samurai_sudoku.md
+      - shikaku: puzzles/shikaku.md
+      - shingoki: puzzles/shingoki.md
+      - shogun_sudoku: puzzles/shogun_sudoku.md
+      - simple_loop: puzzles/simple_loop.md
+      - skyscraper: puzzles/skyscraper.md
+      - slitherlink: puzzles/slitherlink.md
+      - snake: puzzles/snake.md
+      - sohei_sudoku: puzzles/sohei_sudoku.md
+      - square_o: puzzles/square_o.md
+      - starbattle: puzzles/starbattle.md
+      - stitches: puzzles/stitches.md
+      - str8t: puzzles/str8t.md
+      - sudoku: puzzles/sudoku.md
+      - suguru: puzzles/suguru.md
+      - sumo_sudoku: puzzles/sumo_sudoku.md
+      - tenner_grid: puzzles/tenner_grid.md
+      - tent: puzzles/tent.md
+      - terra_x: puzzles/terra_x.md
+      - thermometer: puzzles/thermometer.md
+      - tile_paint: puzzles/tile_paint.md
+      - trinairo: puzzles/trinairo.md
+      - windmill_sudoku: puzzles/windmill_sudoku.md
+      - yajikabe: puzzles/yajikabe.md
+      - yajilin: puzzles/yajilin.md
+      - yin_yang: puzzles/yin_yang.md
+
+
+site_author: SmilingWayne
+repo_name: PuzzleKit
+repo_url: https://github.com/SmilingWayne/PuzzleSolver
+edit_uri: edit/main/docs
+
+docs_dir: docs/
+theme:
+  language: "en"
+  name: material
+  font: false
+  #     text: Noto Serif SC
+  #   custom_dir: /docs/stylesheets/
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.top
+    - navigation.indexes
+
+
+markdown_extensions:
+  - admonition
+  - meta
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg

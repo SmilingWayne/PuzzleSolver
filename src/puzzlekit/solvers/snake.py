@@ -8,6 +8,43 @@ import copy
 from typeguard import typechecked
 
 class SnakeSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "snake",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        8 8
+        1 1 7 3 4 2 1 2
+        5 4 1 3 1 3 1 3
+        - - - - - - - x
+        - - - - - - - -
+        - - - - - - - -
+        - - - - - - - -
+        - - - - - - - -
+        - - - - - - - -
+        - - - - - - - -
+        x - - - - - - -
+        """,
+        "output_example": """
+        8 8
+        - - x x x x - x
+        - - x - - x x x
+        - - x - - - - -
+        - - x x x - - -
+        - - - - x - - -
+        - - x x x - - -
+        - - x - - - - -
+        x x x - - - - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows

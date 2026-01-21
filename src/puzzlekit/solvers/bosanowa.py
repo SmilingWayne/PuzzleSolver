@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,52 @@ from typeguard import typechecked
 import copy
 
 class BosanowaSolver(PuzzleSolver):
+    metadata: Dict[str, Any] = {
+        "name": "bosanowa",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [], 
+        "rule_url": "https://puzz.link/rules.html?bosanowa",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?bosanowa/5/5/f718c1k2q2k4"},
+            {"janko": "https://www.janko.at/Raetsel/Bosanowa/001.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: empty (to be filled) cells;
+        *   `.`: forbidden cells (no number);
+        *   `1-MAX`: pre-filled number.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `-`: forbidden cells (no number);
+        *   `1-MAX`: pre-filled number.
+        """,
+        "input_example": """
+        5 6
+        . . . . - -
+        . - - - 3 -
+        - - 3 . . .
+        - . - - - .
+        - . . . . .
+        """,
+        "output_example": """
+        5 6
+        - - - - 3 6
+        - 3 3 6 3 3
+        6 6 3 - - -
+        12 - 3 6 3 -
+        6 - - - - -
+        """
+    }
     
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

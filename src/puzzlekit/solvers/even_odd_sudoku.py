@@ -1,13 +1,49 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import SUDOKU_TEMPLATE_INPUT_DESC, SUDOKU_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 import copy
 import math
 from typeguard import typechecked
 
 class EvenOddSudokuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "even_odd_sudoku",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["sudoku"],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": SUDOKU_TEMPLATE_INPUT_DESC,
+        "output_desc": SUDOKU_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        9 9
+        7 E E O O E 1 E O
+        E O O 2 O 5 E O E
+        O E O O E E E O 9
+        O 1 O E 4 O O 8 E
+        E E E 8 O 7 O O O
+        E 3 O O 2 O E 6 O
+        9 E O O E O O E E
+        E O E 4 O 2 O O O
+        O O 2 O O E E O 4
+        """,
+        "output_example": """
+        9 9
+        7 2 6 9 3 8 1 4 5
+        4 9 1 2 7 5 6 3 8
+        3 8 5 1 6 4 2 7 9
+        5 1 9 6 4 3 7 8 2
+        2 6 4 8 1 7 9 5 3
+        8 3 7 5 2 9 4 6 1
+        9 4 3 7 8 1 5 2 6
+        6 5 8 4 9 2 3 1 7
+        1 7 2 3 5 6 8 9 4
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

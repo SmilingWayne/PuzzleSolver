@@ -1,11 +1,43 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import GENERAL_GRID_TEMPLATE_INPUT_DESC, GENERAL_GRID_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class DominosSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "dominos",
+        "aliases": ["dominosa"],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": GENERAL_GRID_TEMPLATE_INPUT_DESC,
+        "output_desc": GENERAL_GRID_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        7 8
+        5 0 6 5 3 6 2 6
+        4 3 2 0 3 0 5 6
+        5 3 1 2 4 0 4 0
+        0 6 2 1 6 1 1 3
+        3 5 4 3 4 4 6 4
+        2 3 1 1 1 1 2 5
+        2 6 2 0 0 5 4 5
+        """,
+        "output_example": """
+        7 8
+        5 5 26 26 18 6 16 27
+        23 14 14 2 18 6 16 27
+        23 21 8 2 24 1 4 4
+        3 21 8 9 24 1 12 19
+        3 20 10 9 22 22 12 19
+        13 20 10 7 7 11 15 25
+        13 17 17 0 0 11 15 25
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

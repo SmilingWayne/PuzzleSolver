@@ -1,9 +1,38 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 class SquareOSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "square_o",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        5 5
+        1 1 2 2 2
+        0 1 3 4 4
+        1 2 2 3 3
+        1 1 0 2 3
+        0 0 0 1 2
+        """,
+        "output_example": """
+        5 5
+        8 1 10 6 6
+        0 2 7 15 15
+        2 5 9 11 13
+        1 8 0 3 14
+        0 0 0 1 9
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

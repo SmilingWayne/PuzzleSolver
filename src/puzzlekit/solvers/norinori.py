@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -8,6 +8,55 @@ from typeguard import typechecked
 import copy
 
 class NorinoriSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "norinori",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        0 1 4 3 3 7 7 6 6 6
+        0 1 4 4 4 7 7 7 5 6
+        1 1 4 4 4 4 14 7 5 6
+        1 2 2 2 11 4 14 14 6 6
+        10 2 2 11 11 14 14 13 14 15
+        10 10 11 11 11 14 14 13 14 15
+        10 10 10 10 12 17 14 14 14 15
+        9 9 9 12 12 17 17 17 14 15
+        9 8 9 12 18 18 18 18 15 15
+        9 8 9 18 18 16 16 16 16 16
+        """,
+        "output_example": """
+        10 10
+        x - - x x - x x - -
+        x - - - - x - - x -
+        - x x - - x - - x -
+        x - - x x - - - - x
+        x - x - - - - x - x
+        - - x - - - - x - -
+        x - - - x x - - x -
+        x - x x - - x - x -
+        - x - - - - x - - x
+        - x - - x x - - - x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int,  region_grid: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

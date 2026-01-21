@@ -8,6 +8,37 @@ from typeguard import typechecked
 import copy
 
 class YinYangSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "yin_yang",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        w b - - - -
+        - - - w - -
+        - - b - b -
+        w - w - - -
+        - - - w - -
+        - - w - b -
+        """,
+        "output_example": """
+        6 6
+        w b b b b b
+        w w w w w b
+        w b b b b b
+        w b w b w b
+        w b w w w b
+        w w w b b b
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

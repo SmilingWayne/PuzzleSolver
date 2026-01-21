@@ -1,14 +1,64 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from puzzlekit.utils.puzzle_math import get_allowed_direction_chars
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class EntryExitSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "entry_exit",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://www.janko.at/Raetsel/Entry-Exit/index.htm",
+        "external_links": [{"Janko": "https://www.janko.at/Raetsel/Entry-Exit/001.a.htm"}],
+        "input_desc": CLUE_REGION_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        12 12
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        - - - - - - - - - - - -
+        1 1 7 7 11 11 14 17 20 20 23 23
+        1 1 1 7 7 11 14 17 20 20 23 23
+        1 5 8 7 7 14 14 17 20 20 20 24
+        1 2 8 7 7 14 14 17 20 17 24 24
+        2 2 8 8 12 12 12 17 17 17 24 24
+        3 3 8 8 12 12 16 16 16 16 16 16
+        4 3 3 9 9 12 12 18 18 18 21 21
+        4 3 3 10 9 13 12 18 18 18 21 21
+        4 6 6 10 13 13 15 15 21 21 21 25
+        4 6 6 10 13 13 13 15 19 22 25 25
+        4 4 6 10 10 15 15 15 19 22 25 22
+        4 4 6 6 6 15 15 19 19 22 22 22
+        """,
+        "output_example": """
+        8 8
+        se ew ew ew ew ew ew sw
+        ns se ew sw se ew sw ns
+        ns ne sw ns ne sw ns ns
+        ns se nw ne sw ns ne nw
+        ns ne ew sw ns ne ew sw
+        ne sw se nw ne ew sw ns
+        se nw ns se ew ew nw ns
+        ne ew nw ne ew ew ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, region_grid: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

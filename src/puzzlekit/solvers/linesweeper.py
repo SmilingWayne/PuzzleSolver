@@ -1,4 +1,4 @@
-from typing import Any, Callable, List
+from typing import Any, Callable, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,33 @@ from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from typeguard import typechecked
 
 class LinesweeperSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "linesweeper",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        4 4
+        - - - -
+        - - - -
+        - 1 - -
+        - - - -
+        """,
+        "output_example": """
+        4 4
+        - - es sw
+        - - en nw
+        - - - -
+        - - - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

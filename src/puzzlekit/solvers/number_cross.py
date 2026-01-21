@@ -8,6 +8,35 @@ import copy
 from typeguard import typechecked
 
 class NumberCrossSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "number_cross",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        4 4
+        16 11 13 9
+        10 18 6 15
+        4 5 7 6
+        5 7 8 3
+        5 6 1 1
+        7 4 4 6
+        """,
+        "output_example": """
+        4 4
+        - x x -
+        x - - -
+        - x - x
+        - - - x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows

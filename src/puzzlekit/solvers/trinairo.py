@@ -7,6 +7,37 @@ from typeguard import typechecked
 import copy
 
 class TrinairoSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "trinairo",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        - - - 3x - 3x
+        - - - - 2 -
+        - - - - - -
+        3 3 - 1x - -
+        2 - - 3 - 1
+        2 - 1 - 1x -
+        """,
+        "output_example": """
+        6 6
+        1 2 2 3 1 3
+        3 1 3 1 2 2
+        1 1 3 2 3 2
+        3 3 2 1 2 1
+        2 2 1 3 3 1
+        2 3 1 2 1 3
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

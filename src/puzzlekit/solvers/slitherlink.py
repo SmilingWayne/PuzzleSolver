@@ -1,11 +1,51 @@
-from typing import Any, Callable, List
+from typing import Any, Callable, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
+from puzzlekit.core.docs_template import GENERAL_GRID_TEMPLATE_INPUT_DESC, SLITHERLINK_STYLE_TEMPLATE_OUTPUT_DESC
 from typeguard import typechecked
 class SlitherlinkSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "slitherlink",
+        "aliases": ["slither"],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?slither",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?slither/10/10/ic5137bg7bchbgdccb7dgddg7ddabdgdhc7bg7316dbg"},
+            {"Janko": "https://www.janko.at/Raetsel/Slitherlink/0421.a.htm"}],
+        "input_desc": GENERAL_GRID_TEMPLATE_INPUT_DESC,
+        "output_desc": SLITHERLINK_STYLE_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        10 10
+        - 1 1 - 1 - - - - 1
+        - 1 1 - - 1 1 1 1 -
+        - 1 1 - - - 1 1 - 1
+        1 1 - - 1 - - 1 - 1
+        1 1 1 - - 1 1 1 1 -
+        - - 1 - - 1 - - 1 -
+        - 1 - 1 - - - 1 1 -
+        - 1 1 1 - 1 1 - - -
+        1 1 - - 1 1 1 1 1 1
+        - - - 1 1 - - - 1 -
+        """,
+        "output_example": """
+        10 10
+        2 2 2 2 2 - 1 13 6 2
+        12 8 8 8 9 4 1 4 8 9
+        6 2 2 - 1 4 1 4 - 1
+        8 8 9 4 1 6 3 4 - 1
+        2 2 1 6 - 8 8 2 2 3
+        12 9 4 9 6 2 1 12 8 10
+        6 1 6 2 10 11 5 4 1 13
+        9 4 8 8 8 8 1 6 3 5
+        1 4 2 2 2 2 2 8 8 1
+        1 7 12 8 8 8 9 6 2 3
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

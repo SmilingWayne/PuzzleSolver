@@ -151,7 +151,7 @@ def draw_general_puzzle(solution_grid: Grid, puzzle_data: dict, plotter: PuzzleP
             is_given = _is_given_cell(pos)
             if is_given:
                 plotter.draw_cell_text(pos.r, pos.c, initial_grid.value(pos), color='black', weight='bold')
-            if val_str not in set(["ns", 'sn', "ne", "en", "nw", "wn", "sw", "ws", "se", "es", "we", "ew"]):
+            if val_str not in set(["ns", 'sn', "ne", "en", "nw", "wn", "sw", "ws", "se", "es", "we", "ew", "n", "s", "w", "e"]):
                 continue
             plotter.draw_connectors(pos.r, pos.c, val_str, color='blue', linewidth=3)
             

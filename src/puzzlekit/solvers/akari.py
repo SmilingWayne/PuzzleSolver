@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,58 @@ from typeguard import typechecked
 import copy
 
 class AkariSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "akari",
+        "aliases": ["light up", "bijutsukan", "美術館"],
+        "difficulty": "",
+        "tags": ['Fill'],
+        "rule_url": "https://puzz.link/rules.html?lightup",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?lightup/10/10/l.hbg..hc.6bg.gbici6bg1b.bg.g.k.k5.i.g2.h.h.bg.hcj"},
+            {"janko": "https://www.janko.at/Raetsel/Akari/523.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining `[ROWS]` lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `x`: Pre-filled cell.
+        *   `1-4`: Number of bulbs in 4 diagonal cells.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `x`: Filled characters or initially number cells
+        *   `o`: Cells with bulb.
+        """,
+        "input_example": """
+        8 8
+        - - - - - - - -
+        - - 0 - - 2 - -
+        - 1 - - - - 2 -
+        - - - 0 1 - - -
+        - - - x x - - -
+        - 1 - - - - 1 -
+        - - 1 - - 1 - -
+        - - - - - - - -
+        """,
+        "output_example": """
+        8 8
+        - - - o - - - -
+        o - x - o x o -
+        - x - - - - x o
+        - o - x x o - -
+        - - o x x - o -
+        - x - o - - x -
+        - o x - o x - -
+        - - - - - - o -
+        """
+    }
     
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):

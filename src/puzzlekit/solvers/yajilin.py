@@ -1,12 +1,45 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
-import copy
+from puzzlekit.core.docs_template import LOOP_TEMPLATE_OUTPUT_DESC, YAJILIN_STYLE_TEMPLATE_INPUT_DESC
 from typeguard import typechecked
 class YajilinSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "yajilin",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?yajilin",
+        "external_links": [
+            {"Play at puzzlink": "https://puzz.link/p?yajirin/10/10/b2141t41e41a41s31c33l11a11l21a12a11k"},
+            {"Janko": "https://www.janko.at/Raetsel/Yajilin/116.a.htm"}],
+        "input_desc": YAJILIN_STYLE_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        7 7
+        - 1w - - - - -
+        - - - 0e - - -
+        - - - - - 1e -
+        - 1w - 2s - - -
+        - - - - - - -
+        - - - - - 1w -
+        - - - - - - -
+        """,
+        "output_example": """
+        7 7
+        x - se ew ew ew sw
+        se ew nw - se ew nw
+        ne ew sw x ns - x
+        x - ns - ns se sw
+        se ew nw x ne nw ns
+        ns x se ew sw - ns
+        ne ew nw x ne ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

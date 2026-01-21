@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -6,6 +6,51 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class TentSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "tent",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        12 12
+        3 1 5 0 5 0 4 1 4 1 4 0
+        2 3 2 4 2 1 3 2 2 2 3 2
+        x - - - - - - - x - - -
+        - - x x - - x - - - x -
+        x - - - x - - - x - - -
+        - - x - - - - - - - - -
+        - - - x - - x - x - - -
+        - - - - - - - - - - x -
+        - - - - - - - x - - - -
+        x - - x x - x - x - - x
+        - x - - x - - - - - - -
+        - - - - - - - - - - x -
+        - - x - - x - x - - - -
+        - - - x - - - - - - - -
+        """,
+        "output_example": """
+        12 12
+        x - o - - - - - x o - -
+        o - x x o - x o - - x -
+        x - o - x - - - x - o -
+        o - x - o - o - o - - -
+        - - o x - - x - x - o -
+        - - - - - - - - o - x -
+        o - - - o - o x - - - -
+        x - o x x - x - x - o x
+        - x - - x - o - o - - -
+        - o - - o - - - - - x -
+        - - x - - x o x o - o -
+        - - o x o - - - - - - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows

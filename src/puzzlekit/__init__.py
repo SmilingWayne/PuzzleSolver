@@ -72,3 +72,4 @@ def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
     return SolverClass(**init_params)
 
 __all__ = ["solve", "solver"]
+__version__ = '0.3.0'

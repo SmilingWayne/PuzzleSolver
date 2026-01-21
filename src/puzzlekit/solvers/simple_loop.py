@@ -1,4 +1,4 @@
-from typing import Any, Callable, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -6,6 +6,37 @@ from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 class SimpleLoopSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "simple_loop",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        - - - - - -
+        - - - - - -
+        x - - x - -
+        - - - - - x
+        - - - x - -
+        - - - - - -
+        """,
+        "output_example": """
+        6 6
+        se ew ew ew ew sw
+        ne sw se ew sw ns
+        - ns ns - ne nw
+        se nw ne ew sw -
+        ns se sw - ne sw
+        ne nw ne ew ew nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

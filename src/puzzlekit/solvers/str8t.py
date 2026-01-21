@@ -5,6 +5,37 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class Str8tSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "str8t",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        x - - 1x x x
+        x - - - 5 -
+        x - 1 - - -
+        4 - - - - x
+        - 6 5 - - x
+        x x x - 1 4x
+        """,
+        "output_example": """
+        6 6
+        - 4 3 1 - -
+        - 2 4 3 5 1
+        - 3 1 5 4 2
+        4 5 2 6 3 -
+        3 6 5 4 2 -
+        - - - 2 1 4
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

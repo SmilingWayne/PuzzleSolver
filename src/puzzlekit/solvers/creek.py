@@ -1,13 +1,67 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import SHADE_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
 from typeguard import typechecked
-import copy
 
 class CreekSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "creek",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["shade"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?creek",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?creek/10/10/gcnci7d732cbgci7cc38cmdg11bd3dhdgcl2cdhcgcqb"},
+            {"Janko": "https://www.janko.at/Raetsel/Creek/001.a.htm"}
+        ],
+        "input_desc": """
+        **1. Header Line**
+        
+        `[ROWS] [COLS]`
+        
+        Note: `[ROWS] [COLS]` indicate the size of grid, since clues of creek appear in the corners of cells, the following grid is `[ROWS + 1] by [COLS + 1]`, yet, the output grid size is `[ROWS] [COLS]`.
+        
+        **2. Clue Grid (Next `[ROWS + 1]` lines, each line with `[COLS + 1]` clues)**
+        
+        Represents the numbers/clues given in the problem.
+        *   `-`: Empty corner clues (no number).
+        *   `[Integer]`: The number clue in this corner, each correspoding to the corner of row.
+
+        """,
+        "output_desc": SHADE_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        10 10
+        - - - - - - - - - - -
+        - 2 2 - - 3 2 - - 1 -
+        - - - - 3 - - - 3 1 -
+        - - 2 - - 2 - - - 3 -
+        - - - 3 - 3 2 2 3 - -
+        - - - - - - - - - 2 -
+        - 2 3 - 2 2 - - - 3 -
+        - - - 2 - - - 2 - 3 -
+        - - 3 - - 3 - - 1 - -
+        - 3 - 3 - - - 2 - 2 -
+        - - - - - - - - - - -
+        """,
+        "output_example": """
+        10 10
+        - x - - - x - - - x
+        - x - x x x - x - -
+        - - - x - - - x x -
+        - x x x x x - x x x
+        - - - x - x - x - x
+        - x - - - - - - - x
+        - x x x x x x - x x
+        - x - - x x x - - x
+        - x x - - x x x - x
+        x x x x - - - - - x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

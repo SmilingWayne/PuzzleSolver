@@ -1,12 +1,68 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
-from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import SHADE_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy
 
 class GappySolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "gappy",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["shade"],
+        "rule_url": "https://www.janko.at/Raetsel/Gappy/index.htm",
+        "external_links": [{"Janko": "https://www.janko.at/Raetsel/Gappy/001.a.htm"}, {}],
+        "input_desc": """
+        The input grid follows structure:
+        
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Clue Lines (Next 2 lines)**
+        Space-separated characters representing hints from top and left side:
+        *   Line 2: **Top** view hints.
+        *   Line 3: **Left** views hints.
+        
+        **3. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `x`: Pre-filled cell.
+        """,
+        "output_desc": SHADE_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        10 10
+        1 2 1 2 2 1 1 1 4 3
+        5 3 3 8 1 6 1 1 3 3
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        - - - - - - - - - -
+        """,
+        "output_example": """
+        10 10
+        - - x - - - - - x -
+        x - - - x - - - - -
+        - - x - - - x - - -
+        x - - - - - - - - x
+        - - - - x - x - - -
+        - x - - - - - - x -
+        - - - x - x - - - -
+        - - - - - - - x - x
+        - x - - - x - - - -
+        - - - x - - - x - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, rows: List[str], cols: List[str], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

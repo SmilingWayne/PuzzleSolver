@@ -1,13 +1,51 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from puzzlekit.utils.puzzle_math import get_allowed_direction_chars
+from puzzlekit.core.docs_template import GENERAL_REGION_GRID_TEMPLATE_INPUT_DESC, LOOP_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
+
 class DoubleBackSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "double_back",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?doubleback",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?doubleback/10/10/i10o548pcisb7pd9ii1sf3fp1me3te986sg2"},
+            {"Janko": "https://www.janko.at/Raetsel/Double-Back/001.a.htm"}
+        ],
+        "input_desc": GENERAL_REGION_GRID_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        8 8
+        1 1 6 6 6 6 6 6
+        1 5 5 5 5 11 11 6
+        1 5 7 7 7 7 11 6
+        2 4 7 8 8 7 11 6
+        2 4 7 8 8 9 11 12
+        2 4 9 9 9 9 11 12
+        3 4 10 10 10 10 10 13
+        3 3 3 3 3 13 13 13
+        """,
+        "output_example": """
+        8 8
+        se ew ew ew sw se ew sw
+        ne sw se ew nw ne sw ns
+        se nw ne ew ew sw ns ns
+        ne sw se ew sw ne nw ns
+        se nw ne sw ne sw se nw
+        ns se ew nw se nw ne sw
+        ns ns se ew nw se sw ns
+        ne nw ne ew ew nw ne nw
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, region_grid: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

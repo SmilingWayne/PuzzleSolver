@@ -1,3 +1,0 @@
-from YonmasuCrawler import YonmasuCrawler
-
-Gattai8SudokuCrawler = YonmasuCrawler

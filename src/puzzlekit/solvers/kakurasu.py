@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,32 @@ import copy
 from typeguard import typechecked
 
 class KakurasuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "kakurasu",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        5 5
+        8 12 11 4 4
+        6 3 8 10 5
+        """,
+        "output_example": """
+        5 5
+        x - - - x
+        - - x - -
+        x x - - x
+        x x x x -
+        - x x - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, rows: List[str], cols: List[str], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

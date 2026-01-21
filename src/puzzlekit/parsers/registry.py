@@ -11,7 +11,9 @@ from .common import (
     standard_grid_parser_starbattle,
     standard_grid_parser_nonogram,
     standard_grid_parser_creek,
-    standard_grid_parser_skyscraper
+    standard_grid_parser_skyscraper,
+    standard_grid_parser_battleship,
+    standard_grid_parser_mathrax,
 )
 # this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
@@ -88,12 +90,28 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "dotchi_loop": standard_region_grid_parser,
     "bricks": standard_grid_parser,
     "creek": standard_grid_parser_creek,
-    "corral": standard_grid_parser,
+    "cave": standard_grid_parser,
     "yin_yang": standard_grid_parser,
     "kuromasu":standard_grid_parser,
     "skyscraper": standard_grid_parser_skyscraper,
     "makaro": standard_region_grid_parser,
-    "trinairo": standard_grid_parser
+    "trinairo": standard_grid_parser,
+    "moon_sun": standard_region_grid_parser,
+    "stitches": standard_region_grid_row_col_parser,
+    "shingoki": standard_grid_parser,
+    "koburin": standard_grid_parser,
+    "yajikabe": standard_grid_parser,
+    "battleship": standard_grid_parser_battleship,
+    "lits": standard_region_grid_parser,
+    "paint_area": standard_region_grid_parser,
+    "putteria": standard_region_grid_parser,
+    "regional_yajilin": standard_region_grid_parser,
+    "nawabari": standard_grid_parser,
+    "mathrax": standard_grid_parser_mathrax,
+    "ken_ken": standard_region_grid_parser,
+    "juosan": standard_region_grid_parser,
+    "kakkuru": standard_grid_parser
+    
 }
 
 

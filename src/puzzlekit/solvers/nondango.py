@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -7,6 +7,37 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class NondangoSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "nondango",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        4 4
+        x x x x
+        x x x x
+        x x x -
+        x x - -
+        2 2 2 2
+        1 3 3 5
+        1 3 4 5
+        1 4 4 5
+        """,
+        "output_example": """
+        4 4
+        o o x o
+        x o o x
+        o x x -
+        o o - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

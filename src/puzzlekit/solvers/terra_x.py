@@ -1,4 +1,4 @@
-from typing import Any,List
+from typing import Any,List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -7,6 +7,43 @@ from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
 class TerraXSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "terra_x",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        8 - - 4 0 -
+        - - - - - 3
+        - 3 - 4 - -
+        0 1 - - - -
+        8 - - 0 - 5
+        9 - 3 - - -
+        1 1 9 12 16 16
+        2 6 6 13 13 18
+        2 7 7 14 14 19
+        3 8 10 14 17 19
+        4 8 8 15 15 20
+        5 5 11 11 11 20
+        """,
+        "output_example": """
+        6 6
+        8 8 3 4 0 0
+        6 2 2 1 1 3
+        6 3 3 4 4 2
+        0 1 5 4 3 2
+        8 1 1 0 0 5
+        9 9 3 3 3 5
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

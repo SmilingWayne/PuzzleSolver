@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -6,6 +6,33 @@ from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 class HitoriSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "hitori",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        4 4
+        3 3 1 4
+        4 3 2 2
+        1 3 4 2
+        3 4 3 2
+        """,
+        "output_example": """
+        4 4
+        - x - -
+        - - - x
+        - x - -
+        x - - x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

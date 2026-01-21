@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,45 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class KuroshutoSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "kuroshuto",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - - - - - 4 - - 5 -
+        1 - - - 1 - 1 2 - 5
+        - - 5 4 - - 2 - - -
+        - 3 2 - 4 6 - - - 1
+        5 - - - - - 5 4 - -
+        - - 5 - - - - - 4 4
+        - - 5 - - 1 - - - -
+        2 5 - 3 - 2 - - 1 -
+        - - - - 4 - 5 - - -
+        1 - - - - - - 4 - -
+        """,
+        "output_example": """
+        10 10
+        x - - x - - - - - -
+        - - x - - x - - - -
+        - x - - - - - - x -
+        - - - - - - x - - -
+        - x - x - x - - - x
+        - - - - x - - x - -
+        - x - x - - x - - x
+        - - x - x - - - - -
+        - - - - - - - - x -
+        - x - - - x - - - x
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

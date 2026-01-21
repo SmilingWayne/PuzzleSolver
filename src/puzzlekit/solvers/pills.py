@@ -1,10 +1,51 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class PillsSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "pills",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        6 1 10 6 7 5 4 2 5 9
+        8 1 9 3 6 9 2 5 7 5
+        4 1 2 3 4 2 2 0 5 3
+        5 0 4 4 5 2 4 1 1 4
+        1 1 1 4 2 3 2 1 5 1
+        3 0 4 1 5 5 1 3 1 3
+        1 1 3 2 1 5 2 4 5 1
+        2 5 5 2 4 2 4 3 3 4
+        1 5 2 0 3 4 1 2 3 4
+        2 1 2 5 3 2 5 3 0 5
+        4 5 2 1 4 3 4 5 4 3
+        5 3 2 2 1 0 1 2 1 1
+        """,
+        "output_example": """
+        10 10
+        0 0 0 0 8 8 8 2 0 0
+        0 1 0 0 0 0 0 2 0 0
+        0 1 0 0 7 7 7 2 0 0
+        6 1 0 0 0 0 0 0 0 0
+        6 0 10 4 0 0 0 0 0 0
+        6 0 10 4 0 0 0 0 0 0
+        0 0 10 4 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 5 9
+        0 0 0 0 0 0 0 0 5 9
+        0 0 0 3 3 3 0 0 5 9
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows

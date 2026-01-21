@@ -76,6 +76,21 @@ if TYPE_CHECKING:
     from .kuromasu import KuromasuSolver
     from .makaro import MakaroSolver
     from .trinairo import TrinairoSolver
+    from .moon_sun import MoonSunSolver
+    from .stitches import StitchesSolver
+    from .shingoki import ShingokiSolver
+    from .koburin import KoburinSolver
+    from .yajikabe import YajikabeSolver
+    from .battleship import BattleshipSolver
+    from .lits import LITSSolver
+    from .paint_area import PaintAreaSolver
+    from .putteria import PutteriaSolver
+    from .regional_yajilin import RegionalYajilinSolver
+    from .nawabari import NawabariSolver
+    from .mathrax import MathraxSolver
+    from .ken_ken import KenKenSolver
+    from .juosan import JuosanSolver
+    from .kakkuru import KakkuruSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -153,12 +168,27 @@ _SOLVER_META = {
     "dotchi_loop": ("dotchi_loop", "DotchiLoopSolver"),
     "bricks": ("bricks", "BricksSolver"),
     "creek": ("creek", "CreekSolver"),
-    "corral": ("corral", "CorralSolver"),
+    "cave": ("cave", "CaveSolver"),
     "yin_yang": ("yin_yang", "YinYangSolver"),
     "kuromasu": ("kuromasu", "KuromasuSolver"),
     "skyscraper": ("skyscraper", "SkyscraperSolver"),
     "makaro": ("makaro", "MakaroSolver"),
     "trinairo": ("trinairo", "TrinairoSolver"),
+    "moon_sun": ("moon_sun", "MoonSunSolver"),
+    "stitches": ("stitches", "StitchesSolver"),
+    "shingoki": ("shingoki", "ShingokiSolver"),
+    "koburin": ("koburin", "KoburinSolver"),
+    "yajikabe": ("yajikabe", "YajikabeSolver"),
+    "battleship": ("battleship", "BattleshipSolver"),
+    "lits": ("lits", "LITSSolver"),
+    "paint_area": ("paint_area", "PaintAreaSolver"),
+    "putteria": ("putteria", "PutteriaSolver"),
+    "regional_yajilin": ("regional_yajilin", "RegionalYajilinSolver"),
+    "nawabari": ("nawabari", "NawabariSolver"),
+    "mathrax": ("mathrax", "MathraxSolver"),
+    "ken_ken": ("ken_ken", "KenKenSolver"),
+    "juosan": ("juosan", "JuosanSolver"),
+    "kakkuru": ("kakkuru", "KakkuruSolver"),
 }
 # ==========================================
 

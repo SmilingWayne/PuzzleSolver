@@ -3,12 +3,51 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected 
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy
 
 class DotchiLoopSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "dotchi_loop",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://pzplus.tck.mn/rules.html?dotchi",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?dotchi/10/10/5gb0m180g102gd0q1k00000fs0vv07u000003a33k0ij6313123k46j6103c23il6j0390"},
+            {"Janko": "https://www.janko.at/Raetsel/Dotchi-Loop/001.a.htm"}
+        ],
+        "input_desc": CLUE_REGION_TEMPLATE_INPUT_DESC,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        6 6
+        - w - - w w
+        - - w w w -
+        w w w w - -
+        w w - w b -
+        - - b w w w
+        - w - w w b
+        1 3 3 8 9 9
+        1 4 5 8 8 9
+        1 4 4 4 9 9
+        1 4 4 4 10 9
+        2 2 6 6 10 11
+        2 2 7 7 11 11
+        """,
+        "output_example": """
+        6 6
+        se sw se sw se sw
+        ns ns ns ns ns ns
+        ns ne nw ne nw ns
+        ns se ew sw - ns
+        ns ns - ns se nw
+        ne nw - ne nw -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

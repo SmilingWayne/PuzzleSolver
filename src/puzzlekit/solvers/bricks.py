@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,52 @@ from typeguard import typechecked
 import copy
 
 class BricksSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "bricks",
+        "aliases": ["ziegelmauer"],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "https://www.janko.at/Raetsel/Ziegelmauer/index.htm",
+        "external_links": [
+            {"Janko": "https://www.janko.at/Raetsel/Ziegelmauer/001.a.htm"}
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining `[ROWS]` lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `1-[COLS]`: Pre-filled numbers.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix, `[ROWS]` lines x `[COLS]` chars.
+        
+        **Legend:**
+        *   `1-[COLS]`: Filled numbers.
+        """,
+        "input_example": """
+        6 6
+        - - 2 - - -
+        - - 3 - - -
+        - 1 - - 5 -
+        6 3 - - 1 5
+        - - 5 - - -
+        - - 1 - 3 6
+        """,
+        "output_example": """
+        6 6
+        4 5 2 1 6 3
+        1 6 3 5 4 2
+        2 1 6 3 5 4
+        6 3 4 2 1 5
+        3 4 5 6 2 1
+        5 2 1 4 3 6
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

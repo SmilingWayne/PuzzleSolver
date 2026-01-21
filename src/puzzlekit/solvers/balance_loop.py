@@ -2,12 +2,59 @@ from typing import Any, List, Dict, Tuple, Optional
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
+from puzzlekit.core.docs_template import LOOP_TEMPLATE_OUTPUT_DESC
 from puzzlekit.utils.ortools_utils import add_circuit_constraint_from_undirected
 from ortools.sat.python import cp_model as cp
 from itertools import combinations
 from typeguard import typechecked
 
 class BalanceLoopSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "balance_loop",
+        "aliases": [],
+        "difficulty": "",
+        "tags": ["loop"],
+        "rule_url": "https://puzz.link/rules.html?balance",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?balance/6/6/h7m7h7l7h7g7h7l7"},
+            {"janko": "https://www.janko.at/Raetsel/Balance-Loop/001.a.htm" }
+        ],
+        "input_desc": """
+        **1. Header Line**
+        `[ROWS] [COLS]`
+        
+        **2. Grid Lines (Remaining [ROW] lines)**
+        The initial clues of the grid rows.
+        
+        **Legend:**
+        *   `-`: Empty cell (no prefilled clue).
+        *   `[color][number]` (e.g., `w4`, `b5`): Circle with specified color and number.
+        *   `[color]` (e.g., `w`, `b`): Circle with specified color but no number.
+
+        **Color Codes:**
+        *   `w`: White circle
+        *   `b`: Black circle
+        """,
+        "output_desc": LOOP_TEMPLATE_OUTPUT_DESC,
+        "input_example": """
+        5 5
+        - - - - - 
+        - - - - - 
+        - - w4 - - 
+        - - - - - 
+        b5 - b - b3
+        """,
+        "output_example": """
+        5 5
+        - se sw - -
+        se nw ns - -
+        ns - ne ew sw
+        ns - se sw ns
+        ne ew nw ne nw
+        """
+    }
+    
+    
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows = num_rows

@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -7,6 +7,55 @@ from ortools.sat.python import cp_model as cp
 import copy
 
 class PatchworkSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "patchwork",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        - 3 - - - - - - - 1
+        - - - - - - - - - -
+        - 2 - 3 - - - - 2 5
+        3 - 4 - 2 - - 3 - 4
+        - 5 - - - 4 3 - - -
+        5 - - - - 5 - - - 3
+        - - - 2 - - 5 - 1 -
+        4 - - 5 - - 1 - - -
+        - - 4 - 3 - - 3 5 -
+        5 3 - - 1 2 - - - -
+        1 1 1 1 1 11 13 15 17 19
+        2 2 2 2 2 11 13 15 17 19
+        3 3 3 3 3 11 13 15 17 19
+        4 4 4 4 4 11 13 15 17 19
+        5 5 5 5 5 11 13 15 17 19
+        6 6 6 6 6 12 14 16 18 20
+        7 7 7 7 7 12 14 16 18 20
+        8 8 8 8 8 12 14 16 18 20
+        9 9 9 9 9 12 14 16 18 20
+        10 10 10 10 10 12 14 16 18 20
+        """,
+        "output_example": """
+        10 10
+        5 3 4 1 2 4 3 5 1 2
+        4 5 2 3 1 3 5 2 4 1
+        3 4 3 1 5 2 4 5 1 2
+        4 3 1 2 4 5 1 2 3 5
+        5 2 5 4 3 1 3 1 2 4
+        1 4 2 5 1 3 2 4 5 3
+        2 1 5 2 3 4 5 3 4 1
+        3 5 1 4 2 5 2 1 3 4
+        1 2 4 3 5 1 4 3 2 5
+        2 1 3 5 4 2 1 4 5 3
+        """
+    }
+
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows
         self.num_cols: int  = num_cols

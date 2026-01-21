@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from ortools.sat.python import cp_model as cp
@@ -6,6 +6,55 @@ import copy
 from typeguard import typechecked
 
 class NonogramSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "nonogram",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        10 10
+        6
+        2 3 1
+        2 2
+        7 2
+        10
+        3 3
+        2 4 2
+        2 4 2
+        2 2
+        6
+        6
+        8
+        2 3 2
+        1 2 2 1
+        2 2 2 1
+        2 2 2 1
+        2 2 2 1
+        1 2 2
+        8
+        6
+        """,
+        "output_example": """
+        10 10
+        - - x x x x x x - -
+        - x x x x x x x x -
+        x x - x x x - - x x
+        x - - x x - x x - x
+        x x - x x - x x - x
+        x x - x x - x x - x
+        x x - x x - x x - x
+        x - - - x x - - x x
+        - x x x x x x x x -
+        - - x x x x x x - -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, rows: List[List[str]], cols: List[List[str]], grid: List[List[str]] = list()):
         self.num_rows: int = num_rows

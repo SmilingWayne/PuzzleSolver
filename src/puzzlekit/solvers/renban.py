@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
@@ -6,6 +6,43 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class RenbanSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "renban",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        - - - - - -
+        - - 6 - 5 -
+        3 - - 1 - -
+        - 2 - - 3 -
+        6 - - - - -
+        - - - 5 - 6
+        1 5 7 7 12 15
+        1 1 1 7 7 15
+        2 6 1 11 13 13
+        2 2 8 8 8 8
+        3 3 9 10 14 14
+        4 3 10 10 14 16
+        """,
+        "output_example": """
+        6 6
+        5 1 4 3 6 2
+        4 3 6 2 5 1
+        3 6 2 1 4 5
+        1 2 5 6 3 4
+        6 5 1 4 2 3
+        2 4 3 5 1 6
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], region_grid: List[List[str]]):
         self.num_rows: int = num_rows

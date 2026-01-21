@@ -5,6 +5,39 @@ from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
 class ThermometerSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "thermometer",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        6 6
+        2 4 3 3 5 3
+        4 2 2 3 4 5
+        2.1 2.2 2.3 2.4 2.5 10.3
+        8.5 8.4 8.3 8.2 8.1 10.2
+        5.5 5.4 5.3 5.2 5.1 10.1
+        1.3 3.1 4.3 6.1 9.1 11.3
+        1.2 3.2 4.2 6.2 9.2 11.2
+        1.1 3.3 4.1 7.1 7.2 11.1
+        """,
+        "output_example": """
+        6 6
+        x x x - - x
+        - - - - x x
+        - - - - x x
+        - x - x x -
+        - x x x x -
+        x x x x x -
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], rows: List[str], cols: List[str]):
         self.num_rows: int = num_rows

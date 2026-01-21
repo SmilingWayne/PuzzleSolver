@@ -1,4 +1,4 @@
-from typing import Any, List
+from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,39 @@ from typeguard import typechecked
 import copy
 
 class HidokuSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "hidoku",
+        "aliases": [],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "",
+        "external_links": [],
+        "input_desc": """
+        """,
+        "output_desc": """
+        """,
+        "input_example": """
+        7 7
+        - 22 - 26 34 - 32
+        - 23 - - - 36 -
+        - 24 - 42 - - -
+        - - 13 - - - -
+        17 - 44 12 - 3 -
+        47 49 - 10 - - 5
+        - - - - - - 1
+        """,
+        "output_example": """
+        7 7
+        21 22 27 26 34 33 32
+        20 23 25 28 35 36 31
+        19 24 14 42 29 30 37
+        18 15 13 43 41 39 38
+        17 16 44 12 40 3 4
+        47 49 45 10 11 2 5
+        48 46 9 8 7 6 1
+        """
+    }
+
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]]):
         self.num_rows: int = num_rows

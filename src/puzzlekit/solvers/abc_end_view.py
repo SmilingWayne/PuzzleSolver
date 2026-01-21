@@ -1,4 +1,4 @@
-from typing import Any, List, Tuple
+from typing import Any, List, Tuple, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
@@ -7,6 +7,69 @@ from typeguard import typechecked
 import copy
 
 class ABCEndViewSolver(PuzzleSolver):
+    metadata : Dict[str, Any] = {
+        "name": "abc_end_view",
+        "aliases": ["easy as abc"],
+        "difficulty": "",
+        "tags": [],
+        "rule_url": "https://puzz.link/rules.html?easyasabc",
+        "external_links": [
+            {"Play at puzz.link": "https://puzz.link/p?easyasabc/6/6/4/g1313h4131h4343h1434g"},
+            {"janko": "https://www.janko.at/Raetsel/Abc-End-View/013.a.htm" }
+        ],
+        "input_desc": """
+        The input grid follows structure:
+        
+        **1. Header Line**
+        `[ROWS] [COLS] [MAX_CHAR]`
+        *   `MAX_CHAR`: The limit char (e.g., 'd' means filling with a, b, c, d).
+
+        **2. Clue Lines (Next 4 lines)**
+        Space-separated characters representing hints from different view angles:
+        *   Line 2: **Top** views
+        *   Line 3: **Bottom** views
+        *   Line 4: **Left** views
+        *   Line 5: **Right** views
+
+        **3. Grid Lines (Remaining [ROW] lines)**
+        The initial state of the grid rows.
+
+        **Legend:**
+        *   `-`: No clue / Empty cell;
+        *   `a-z`: Character hints.
+        """,
+        "output_desc": """
+        Returns the solved grid as a matrix of characters.
+    
+        *   **Dimensions**: `[ROWS]` lines x `[COLS]` characters.
+        *   **Content**: No external clues are included in the output.
+        
+        **Legend:**
+        *   `a-z`: Filled characters
+        *   `-`: Empty cells (if the puzzle has blank spaces)
+        """,
+        "input_example": """
+        5 5 d
+        - - - - -
+        - - d b -
+        - - c b d
+        - c - a -
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        - - - - -
+        """,
+        "output_example": """
+        5 5 d
+        - b c a d
+        a d b c -
+        c - a d b
+        b c d - a
+        d a - b c
+        """
+    }
+    
     @typechecked
     def __init__(self, num_rows: int, num_cols: int, grid: List[List[str]], cols_top: List[str], cols_bottom: List[str], rows_left: List[str], rows_right: List[str], val: str):
         self.num_rows: int = num_rows
@@ -93,22 +156,22 @@ class ABCEndViewSolver(PuzzleSolver):
             # (start_state, transition_value, next_state)
             transitions = []
             
-            # State 0: 处理前导 0
+            # State 0: 
             transitions.append((0, 0, 0))
             
-            # State 0: 遇到目标值 -> 成功 (State 1)
+            # State 0: 
             transitions.append((0, target_val, 1))
             
-            # State 0: 遇到非目标、非零值 -> 失败 (State 2)
+            # State 0: 
             for v in range(1, self.val + 1):
                 if v != target_val:
                     transitions.append((0, v, 2))
             
-            # State 1 (成功后): 后面是什么都无所谓了，保持成功
+            # State 1 
             for v in range(0, self.val + 1):
                 transitions.append((1, v, 1))
                 
-            # State 2 (失败后): 既然错了，就一直错下去
+            # State 2 
             for v in range(0, self.val + 1):
                 transitions.append((2, v, 2))
             

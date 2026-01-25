@@ -158,3 +158,4 @@ class SlitherlinkSolver(PuzzleSolver):
                 if grid_score > 0:
                     sol_grid[i][j] = str(grid_score)
         return Grid(sol_grid)
+

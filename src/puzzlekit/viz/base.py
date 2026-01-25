@@ -11,12 +11,15 @@ class PuzzlePlotter:
         self.cols = grid.num_cols
         self.title_text = title
         
-        # 1. Original Figure  Scale only depends on grid, No padding
-        # Later by setting bbox_inches='tight' to auto scale canvas.
         w = self.cols * figsize_scale
         h = self.rows * figsize_scale
         
-        # 2. To prevent the initial too small to cause the font crowded，give a minimum size
+        max_display_size = 12  
+        if max(w, h) > max_display_size:
+            scale_factor = max_display_size / max(w, h)
+            w *= scale_factor
+            h *= scale_factor
+        
         w = max(w, 6) 
         h = max(h, 6)
 

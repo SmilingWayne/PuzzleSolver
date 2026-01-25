@@ -91,6 +91,7 @@ if TYPE_CHECKING:
     from .ken_ken import KenKenSolver
     from .juosan import JuosanSolver
     from .kakkuru import KakkuruSolver
+    from .castle_wall import CastleWallSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -189,6 +190,7 @@ _SOLVER_META = {
     "ken_ken": ("ken_ken", "KenKenSolver"),
     "juosan": ("juosan", "JuosanSolver"),
     "kakkuru": ("kakkuru", "KakkuruSolver"),
+    "castle_wall": ("castle_wall", "CastleWallSolver"),
 }
 # ==========================================
 

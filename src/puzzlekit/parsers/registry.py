@@ -110,7 +110,8 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "mathrax": standard_grid_parser_mathrax,
     "ken_ken": standard_region_grid_parser,
     "juosan": standard_region_grid_parser,
-    "kakkuru": standard_grid_parser
+    "kakkuru": standard_grid_parser,
+    "castle_wall": standard_grid_parser
     
 }
 

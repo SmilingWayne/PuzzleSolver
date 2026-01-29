@@ -99,6 +99,12 @@ VISUALIZERS = {
     "juosan": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "kakkuru": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     "castle_wall": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "mejilink": lambda g, d, p: draw_general_puzzle(g, d, p, style='wall'),
+    "mid_loop": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "kurotto": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "nurimisaki": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "aqre": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "canal_view": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     # ...
 }
 

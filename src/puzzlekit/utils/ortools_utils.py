@@ -1,6 +1,7 @@
 from typing import Any, Dict, List, Tuple, Hashable, Callable
 from ortools.sat.python import cp_model as cp
 from puzzlekit.core.position import Position
+from puzzlekit.core.grid import Grid
 
 def ortools_and_constr(model: cp.CpModel, target: cp.IntVar, vars: list[cp.IntVar]):
     model.AddBoolAnd(vars).OnlyEnforceIf(target)  # target => (c1 ∧ ... ∧ cn)
@@ -237,6 +238,108 @@ def add_circuit_constraint_from_undirected(
         model.AddCircuit(circuit_arcs)
         
     return node_active
+
+def add_contiguous_area_constraint(  
+    model: cp.CpModel,  
+    grid: Grid,  
+    start: Position,  
+    is_good: Callable[[Position], cp.IntVar],  
+    target_area: int,  
+    prefix: str = ""  
+) -> Dict[Position, cp.IntVar]:  
+    """  
+    Add flood-fill based contiguous area constraint.  
+      
+    Starting from 'start', flood fill through cells where is_good(pos) is true.  
+    The total number of filled cells must equal 'target_area'.  
+      
+    Args:  
+        model: CP-SAT model  
+        grid: The puzzle grid (for getting neighbors)  
+        start: Starting position for flood fill  
+        is_good: Function that returns a BoolVar indicating if a cell can be part of the region  
+        target_area: Required total area  
+        prefix: Variable name prefix (for uniqueness)  
+      
+    Returns:  
+        Dictionary mapping positions to their final reachability variables  
+      
+    Example usage for Kurotto:  
+        # good(pos) = (pos == start) OR shaded[pos]  
+        def is_good(pos):  
+            if pos == start:  
+                return model.NewConstant(1)  
+            return shaded[pos]  
+          
+        add_contiguous_area_constraint(model, grid, start, is_good, number + 1)  
+      
+    Example usage for other puzzles (e.g., counting connected white cells):  
+        def is_good(pos):  
+            return white[pos]  # BoolVar for "is this cell white"  
+          
+        add_contiguous_area_constraint(model, grid, start, is_good, expected_count)  
+    """  
+    all_positions = [  
+        Position(r, c)   
+        for r in range(grid.num_rows)   
+        for c in range(grid.num_cols)  
+    ]  
+      
+    max_iterations = min(target_area, grid.num_rows + grid.num_cols)  
+    pfx = f"{prefix}_" if prefix else ""  
+      
+    # Initialize: only start is reachable (if it's good)  
+    reachable = {}  
+    for pos in all_positions:  
+        reachable[pos] = model.NewBoolVar(f"{pfx}reach_0_{start.r}_{start.c}_{pos.r}_{pos.c}")  
+        if pos == start:  
+            # Start is reachable iff it's good  
+            good_var = is_good(pos)  
+            if isinstance(good_var, int):  
+                model.Add(reachable[pos] == good_var)  
+            else:  
+                model.Add(reachable[pos] == 1).OnlyEnforceIf(good_var)  
+                model.Add(reachable[pos] == 0).OnlyEnforceIf(good_var.Not())  
+        else:  
+            model.Add(reachable[pos] == 0)  
+      
+    # Iterative expansion  
+    for step in range(max_iterations):  
+        new_reachable = {}  
+        for pos in all_positions:  
+            new_reachable[pos] = model.NewBoolVar(  
+                f"{pfx}reach_{step+1}_{start.r}_{start.c}_{pos.r}_{pos.c}"  
+            )  
+              
+            neighbors = grid.get_neighbors(pos)  
+            expand_vars = []  
+              
+            good_var = is_good(pos)  
+              
+            for nbr in neighbors:  
+                e = model.NewBoolVar(  
+                    f"{pfx}exp_{step}_{start.r}_{start.c}_{pos.r}_{pos.c}_{nbr.r}_{nbr.c}"  
+                )  
+                # e <=> (is_good(pos) AND reachable[nbr])  
+                if isinstance(good_var, int):  
+                    if good_var == 1:  
+                        model.Add(e == reachable[nbr])  
+                    else:  
+                        model.Add(e == 0)  
+                else:  
+                    model.AddBoolAnd([good_var, reachable[nbr]]).OnlyEnforceIf(e)  
+                    model.AddBoolOr([good_var.Not(), reachable[nbr].Not()]).OnlyEnforceIf(e.Not())  
+                expand_vars.append(e)  
+              
+            all_conditions = [reachable[pos]] + expand_vars  
+            model.AddBoolOr(all_conditions).OnlyEnforceIf(new_reachable[pos])  
+            model.AddBoolAnd([c.Not() for c in all_conditions]).OnlyEnforceIf(new_reachable[pos].Not())  
+          
+        reachable = new_reachable  
+      
+    model.Add(sum(reachable[pos] for pos in all_positions) == target_area)  
+      
+    return reachable  
 
 def ortools_cpsat_analytics(model: cp.CpModel, solver: cp.CpSolver):
     

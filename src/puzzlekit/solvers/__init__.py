@@ -92,6 +92,11 @@ if TYPE_CHECKING:
     from .juosan import JuosanSolver
     from .kakkuru import KakkuruSolver
     from .castle_wall import CastleWallSolver
+    from .mejilink import MejilinkSolver
+    from .kurotto import KurottoSolver
+    from .nurimisaki import NurimisakiSolver
+    from .aqre import AqreSolver
+    from .canal_view import CanalViewSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -191,6 +196,12 @@ _SOLVER_META = {
     "juosan": ("juosan", "JuosanSolver"),
     "kakkuru": ("kakkuru", "KakkuruSolver"),
     "castle_wall": ("castle_wall", "CastleWallSolver"),
+    "mejilink": ("mejilink", "MejilinkSolver"),
+    "mid_loop": ("mid_loop", "MidLoopSolver"),
+    "kurotto": ("kurotto", "KurottoSolver"),
+    "nurimisaki": ("nurimisaki", "NurimisakiSolver"),
+    "aqre": ("aqre", "AqreSolver"),
+    "canal_view": ("canal_view", "CanalViewSolver"),
 }
 # ==========================================
 

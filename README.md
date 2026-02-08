@@ -228,10 +228,9 @@ Currently it will take ~30 min to solve all 30k+ instances available.
 
 ## Reference
 
-- [ortools Official](https://developers.google.cn/optimization?hl=zh-cn).
+- [OR-tools Official](https://developers.google.cn/optimization?hl=zh-cn).
 - [Hakank's ORtools tutorials](http://www.hakank.org/google_or_tools/).
-- [PySCIPOpt's tutorials](https://pyscipopt.readthedocs.io/en/latest/tutorials/).
 - Puzzle data source: [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm), [Puzzle](https://www.puzzle-loop.com).
-- Related repos like [puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver) and [Puzzles-Solver](https://github.com/newtomsoft/Puzzles-Solver).
-- [puzz.link](https://puzz.link) and [pzprjs](https://github.com/robx/pzprjs) and .
+- Related repos like [puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver), [Puzzles-Solver](https://github.com/newtomsoft/Puzzles-Solver) and [Nikoli puzzle solver](https://github.com/kevinychen/nikoli-puzzle-solver).
+- [puzz.link](https://puzz.link) and [pzprjs](https://github.com/robx/pzprjs).
 - [Nonogram solver](https://rosettacode.org/wiki/Nonogram_solver#Python).

@@ -1,3 +1,10 @@
+"""
+PuzzleKit Benchmark Tool - 
+
+Updated for _dataset.json format
+Compatible with new unified data format while preserving all original logic.
+"""
+
 import os
 import sys
 import json
@@ -100,8 +107,8 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
         record["status"] = result_data.get("status", "Unknown")
         record["total_time"] = toc - tic
         
-        # Verification
-        if record["status"] in ["Optimal", "Feasible"] and solution_str:
+        # Verification (only if solution exists)
+        if record["status"] in ["Optimal", "Feasible"] and solution_str.strip():
             res_grid = result_data.get("solution_grid", []) 
             sol_grid = parse_simple_solution_string(solution_str)
             try:
@@ -109,6 +116,7 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
                 record["is_correct"] = str(is_correct)
             except Exception as ve:
                 record["is_correct"] = "Error"
+                record["error_msg"] = f"Verification error: {ve}"
     except Exception as e:
         record["status"] = "Error"
         record["error_msg"] = str(e)
@@ -116,7 +124,7 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
     return record
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="PuzzleKit Benchmark Tool.")
+    parser = argparse.ArgumentParser(description="PuzzleKit Benchmark Tool (supports _dataset.json format).")
     
     # either all or one puzzle, mutually exclusive
     group = parser.add_mutually_exclusive_group()
@@ -132,13 +140,10 @@ def main():
     tic = time.perf_counter()
     args = parse_args()
     
-    # if no parameter is specified, print help information and exit, or default to previous behavior (currently set to default all, explicit usage of --all is required)
-    # but for convenience, if no parameter is specified, default to running all (compatibility with original script behavior)
-    # here I set it to: if no parameter is specified, default to running all (compatibility with original script behavior)
+    # Default behavior: run all if no arguments specified
     target_puzzle = args.puzzle
-    run_all = args.all
+    run_all = args.all or (not target_puzzle and not run_all)
     
-    # default behavior: if no parameter is specified, default to running all (compatibility with original script behavior)
     if not target_puzzle and not run_all:
         run_all = True
 
@@ -155,9 +160,7 @@ def main():
     sorted_assets = sorted(asset_folders)
     
     if target_puzzle:
-        # Normalize input to lower case for comparison
         target_lower = target_puzzle.lower()
-        # Filter matching folders
         filtered_assets = [f for f in sorted_assets if f.lower() == target_lower]
         
         if not filtered_assets:
@@ -172,7 +175,7 @@ def main():
     # --- Stats Containers ---
     table_rows = []
     total_problems_global = 0
-    total_solutions_global = 0
+    total_solutions_global = 0  # Now equals total_problems_global (all puzzles have solution slots)
 
     csv_headers = ["puzzle_type", "pid", "status", "is_correct", "total_time", "error_msg"]
     csv_file = open(OUTPUT_CSV, 'w', newline='', encoding='utf-8')
@@ -181,78 +184,90 @@ def main():
     
     print(f"Results will be saved to: {OUTPUT_CSV}")
 
-    # Iterate 
+    # Iterate over puzzle types
     for idx, folder_name in enumerate(sorted_assets, 1):
+        # Match solver class name
         puzzle_type = None
-        # Heuristic matching
         for pt in all_puzzle_types:
             if infer_class_name(pt) == folder_name:
                 puzzle_type = pt
                 break
         
-        prob_path = os.path.join(ASSETS_DIR, folder_name, "problems", f"{folder_name}_puzzles.json")
-        sol_path = os.path.join(ASSETS_DIR, folder_name, "solutions", f"{folder_name}_solutions.json")
-    
-        prob_data = load_json_file(prob_path)
-        sol_data = load_json_file(sol_path)
+        # === KEY CHANGE: Load unified _dataset.json instead of separate files ===
+        dataset_path = os.path.join(ASSETS_DIR, folder_name, f"{folder_name}_dataset.json")
         
-        puzzles = prob_data.get("puzzles", {})
-        solutions_map = sol_data.get("solutions", {})
+        if not os.path.exists(dataset_path):
+            print(f"  ⚠️  Skipping {folder_name}: _dataset.json not found at {dataset_path}")
+            continue
         
-        num_pbl = len(puzzles)
-        num_sol = len(solutions_map)
-        max_size = get_max_size_str(puzzles)
+        dataset_data = load_json_file(dataset_path)
+        puzzles_dict = dataset_data.get("data", {})
+        
+        # Get counts from dataset metadata (fallback to dict length if missing)
+        num_pbl = dataset_data.get("count", len(puzzles_dict))
+        num_sol = dataset_data.get("count_sol", len(puzzles_dict))  # In new format, all puzzles have solution slots (may be empty strings)
+        
+        # Calculate max size from problem data
+        max_size = get_max_size_str(puzzles_dict)
         
         total_problems_global += num_pbl
-        total_solutions_global += num_sol
+        total_solutions_global += num_sol  # Same as num_pbl in new format
         
+        # Check solver availability
         solver_status = "❌"
-        avg_time = "-"
-        max_time = "-"
-        correct_cnt = "-"
-        
         has_solver_impl = False
-        try:
-            if puzzle_type:
+        if puzzle_type:
+            try:
                 get_solver_class(puzzle_type)
                 has_solver_impl = True
                 solver_status = "✅"
-        except ValueError:
-            pass
+            except (ValueError, AttributeError):
+                pass
 
+        # Run benchmarks if solver exists and data available
         if has_solver_impl and num_pbl > 0:
             print(f"[{idx}/{len(sorted_assets)}] Benchmarking {folder_name} ({num_pbl} instances)...")
             
             times = []
             corrects = 0
             
-            for pid, p_data in puzzles.items():
-                # Loop through instances
+            for pid, p_data in puzzles_dict.items():
                 problem_str = p_data.get("problem", "")
-                solution_str = solutions_map.get(pid, {}).get("solution", "")
-
+                solution_str = p_data.get("solution", "")  # May be empty string
+                
+                # Run benchmark for this instance
                 res = run_single_benchmark(puzzle_type, pid, problem_str, solution_str)
                 writer.writerow(res)
                 
-                if res['status'] != "Error":
+                # Collect timing stats for non-error runs
+                if res['status'] not in ["Error", "NotStarted"]:
                     times.append(res['total_time'])
                 
+                # Count correct solutions (only when verification was performed)
                 if res['is_correct'] == 'True':
                     corrects += 1
             
+            # Calculate timing statistics
             if times:
                 avg_time = f"{statistics.mean(times):.3f}"
                 max_time = f"{max(times):.3f}"
+            else:
+                avg_time = "-"
+                max_time = "-"
             correct_cnt = str(corrects)
         else:
-            print(f"[{idx}/{len(sorted_assets)}] Skipping {folder_name} (No solver or no data)")
+            print(f"[{idx}/{len(sorted_assets)}] Skipping {folder_name} (No solver implementation or no data)")
+            avg_time = "-"
+            max_time = "-"
+            correct_cnt = "-"
 
+        # Generate markdown table row
         folder_link = f"[{folder_name}](./assets/data/{folder_name})"
         table_rows.append([
             str(idx),
             folder_link,
             str(num_pbl),
-            str(num_sol),
+            str(num_sol),  # Now equals num_pbl (all puzzles have solution slots)
             max_size,
             solver_status,
             avg_time,
@@ -262,7 +277,7 @@ def main():
 
     csv_file.close()
 
-    # --- Generate Markdown ---
+    # --- Generate Markdown Report ---
     print("\n" + "="*50)
     print("GENERATING MARKDOWN REPORT")
     print("="*50 + "\n")
@@ -300,6 +315,7 @@ def main():
     print(f"\nMarkdown saved to: {md_path}")
     print(f"Full CSV data saved to: {OUTPUT_CSV}")
     toc = time.perf_counter()
-    print(f"Time taken: {toc - tic:.3f} seconds")
+    print(f"Total benchmark time: {toc - tic:.3f} seconds")
+
 if __name__ == "__main__":
     main()

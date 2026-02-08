@@ -3,12 +3,14 @@ site_url: https://github.com/SmilingWayne/PuzzleSolver
 site_description: PuzzleKit documentation
 site_dir: site
 
+# ==== BEGIN NAV CONFIGURATION ====
 nav:
   - Intro:
       - Intro: index.md
   - Puzzles:
       - abc_end_view: puzzles/abc_end_view.md
       - akari: puzzles/akari.md
+      - aqre: puzzles/aqre.md
       - balance_loop: puzzles/balance_loop.md
       - battleship: puzzles/battleship.md
       - binairo: puzzles/binairo.md
@@ -16,6 +18,8 @@ nav:
       - bricks: puzzles/bricks.md
       - buraitoraito: puzzles/buraitoraito.md
       - butterfly_sudoku: puzzles/butterfly_sudoku.md
+      - canal_view: puzzles/canal_view.md
+      - castle_wall: puzzles/castle_wall.md
       - cave: puzzles/cave.md
       - clueless_1_sudoku: puzzles/clueless_1_sudoku.md
       - clueless_2_sudoku: puzzles/clueless_2_sudoku.md
@@ -49,12 +53,15 @@ nav:
       - koburin: puzzles/koburin.md
       - kuromasu: puzzles/kuromasu.md
       - kuroshuto: puzzles/kuroshuto.md
+      - kurotto: puzzles/kurotto.md
       - linesweeper: puzzles/linesweeper.md
       - lits: puzzles/lits.md
       - magnetic: puzzles/magnetic.md
       - makaro: puzzles/makaro.md
       - masyu: puzzles/masyu.md
       - mathrax: puzzles/mathrax.md
+      - mejilink: puzzles/mejilink.md
+      - mid_loop: puzzles/mid_loop.md
       - minesweeper: puzzles/minesweeper.md
       - moon_sun: puzzles/moon_sun.md
       - mosaic: puzzles/mosaic.md
@@ -64,6 +71,7 @@ nav:
       - nonogram: puzzles/nonogram.md
       - norinori: puzzles/norinori.md
       - number_cross: puzzles/number_cross.md
+      - nurimisaki: puzzles/nurimisaki.md
       - one_to_x: puzzles/one_to_x.md
       - paint_area: puzzles/paint_area.md
       - patchwork: puzzles/patchwork.md
@@ -79,6 +87,7 @@ nav:
       - simple_loop: puzzles/simple_loop.md
       - skyscraper: puzzles/skyscraper.md
       - slitherlink: puzzles/slitherlink.md
+      - slitherlink_duality: puzzles/slitherlink_duality.md
       - snake: puzzles/snake.md
       - sohei_sudoku: puzzles/sohei_sudoku.md
       - square_o: puzzles/square_o.md
@@ -99,6 +108,7 @@ nav:
       - yajilin: puzzles/yajilin.md
       - yin_yang: puzzles/yin_yang.md
 
+# ==== END NAV CONFIGURATION ====
 
 site_author: SmilingWayne
 repo_name: PuzzleKit

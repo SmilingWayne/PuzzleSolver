@@ -1,8 +1,9 @@
-from typing import Optional, List, Any, Callable
+from typing import Optional, List, Any, Callable, Dict
 from abc import ABC, abstractmethod
 from ortools.sat.python import cp_model as cp
+from ortools.linear_solver import pywraplp
 from puzzlekit.core.grid import Grid
-from puzzlekit.utils.ortools_utils import ortools_cpsat_analytics
+from puzzlekit.utils.ortools_utils import ortools_cpsat_analytics, ortools_mip_analytics
 from puzzlekit.utils.name_utils import infer_puzzle_type
 from puzzlekit.core.result import PuzzleResult
 import re
@@ -151,61 +152,91 @@ class PuzzleSolver(ABC):
             solution_data = solution_dict
         )
 
-    
-    # def solve_and_show(self, show: bool = False, save_path: Optional[str] = None, auto_close_sec: float = 0.5, **kwargs):
-    #     """
-    #     Solve and show func
-    #     """
+class IterativePuzzleSolver(PuzzleSolver, ABC):
+    """
+    Base class for puzzles solved using Iterative MIP (Cutting Planes).
+    """
+    def _add_constr(self):
+        self.solver = pywraplp.Solver.CreateSolver('SCIP') 
+        self._setup_initial_model()
 
-    #     result = self.solve()
-    #     solution_status = result.get('status')
-    #     context_data = vars(self).copy()
+    @abstractmethod
+    def _setup_initial_model(self):
+        """
+        Set up initial model constraints. 
+        A relaxation model which neglects some constraints.
+        e.g., Hitori solver neglects the connectivity constraint.
+        """
+        pass
+
+    @abstractmethod
+    def _check_and_add_cuts(self, current_solution_values: Dict) -> bool:
+        """
+        Check if the current solution satisfies certain Lazy Constraints.
+        If not, add new linear constraints (Cuts, Cutting Planes) to self.solver and return False.
+        e.g., Hitori solver checks if the current solution satisfies the connectivity constraint.
+        If satisfied, return True.
+        """
+        pass
+
+    # Override solve method, encapsulate the common iterative logic.
+    def solve(self) -> dict:
         
-    #     for k, v in context_data.items():
-    #         if isinstance(v, Grid):
-    #             context_data[k] = v.matrix
-    #         if hasattr(v, 'matrix'): 
-    #             context_data[k] = v.matrix
-                
-    #     # print(f"[{self.puzzle_type}] Status: {solution_status}, Time: {result.get('build_time', 0):.4f}s")
-
-    #     if solution_status not in ['Optimal', 'Feasible']:
-    #         print("No visualizable solution found.")
-    #         if show:
-    #             try:
-    #                 visualize(
-    #                     puzzle_type = self.puzzle_type,
-    #                     solution_grid = None,
-    #                     puzzle_data = context_data, 
-    #                     title = f"{self.puzzle_type.replace('_', ' ').title()} puzzle INFEASIBLE.",
-    #                     show=show,
-    #                     save_path=save_path
-    #                 )
-    #             except NotImplementedError:
-    #                 print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
-    #             except Exception as e:
-    #                 print(f"Visualization failed: {e}")
-    #         return result
-    #     else:
-    #         solution_grid = result.get('grid')
+        tic = time.perf_counter()
+        # 1. Build the initial model via child class' _add_constr method.
+        # Log the build time.
+        self._add_constr() 
+        toc = time.perf_counter()
+        build_time = toc - tic
+        
+        start_time = time.perf_counter()
+        max_iterations = 10000
+        iteration = 0
+        status = pywraplp.Solver.NOT_SOLVED
+        final_status_str = "Unknown"
+        
+        # 2. Iterative Log-Cut Loop
+        while iteration < max_iterations:
+            iteration += 1
+            status = self.solver.Solve()
             
-    #         # 3. vis factory
-    #         if show:
-    #             try:
-    #                 visualize(
-    #                     puzzle_type = self.puzzle_type,
-    #                     solution_grid = solution_grid,
-    #                     puzzle_data = context_data, 
-    #                     title = f"{self.puzzle_type.replace('_', ' ').title()} Result",
-    #                     show=show,
-    #                     save_path=save_path,
-    #                     auto_close_sec=auto_close_sec
-    #                 )
-    #             except NotImplementedError:
-    #                 print(f"Visualizer for {self.puzzle_type} is not implemented yet.")
-    #             except Exception as e:
-    #                 print(f"Visualization failed: {e}")
-    #         else:
-    #             print(solution_grid)
-    #         return result
+            # If the basic model is infeasible, exit directly.
+            if status not in [pywraplp.Solver.OPTIMAL, pywraplp.Solver.FEASIBLE]:
+                final_status_str = "Infeasible" if status == pywraplp.Solver.INFEASIBLE else "Error"
+                break
+                
+            # Check if it's necessary to add new cuts.
+            # If _check_and_add_cuts returns True, it means the current solution does not satisfy the connectivity constraint,
+            # and new constraints have been added. We need to continue solving.
+            cuts_added = self._check_and_add_cuts()
+            
+            if not cuts_added:
+                # No new cuts added -> All constraints satisfied -> Found final solution.
+                final_status_str = "Optimal" if status == pywraplp.Solver.OPTIMAL else "Feasible"
+                break
         
+        else:
+            final_status_str = "Not Solved (Max Iterations)"
+
+        end_time = time.perf_counter()
+        
+        # 3. Collect results.
+        solution_dict = ortools_mip_analytics(self.solver)
+        solution_dict.update({
+            'build_time': build_time,
+            'solve_time': end_time - start_time,
+            'status': final_status_str,
+            'iterations': iteration 
+        })
+        
+        solution_grid = Grid.empty()
+        if final_status_str in ["Optimal", "Feasible"]:
+            solution_grid = self.get_solution()
+            
+        solution_dict['solution_grid'] = solution_grid
+        
+        return PuzzleResult(
+            puzzle_type=self.puzzle_type,
+            puzzle_data=vars(self).copy(),
+            solution_data=solution_dict
+        )

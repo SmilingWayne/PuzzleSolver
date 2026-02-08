@@ -1,5 +1,7 @@
-from typing import Any, Dict, List, Tuple, Hashable, Callable
+from typing import Any, Dict, List, Tuple, Hashable, Callable, Set
+from collections import deque
 from ortools.sat.python import cp_model as cp
+from ortools.linear_solver import pywraplp
 from puzzlekit.core.position import Position
 from puzzlekit.core.grid import Grid
 
@@ -341,6 +343,170 @@ def add_contiguous_area_constraint(
       
     return reachable  
 
+
+
+def add_connectivity_cut_node_based(
+    solver: pywraplp.Solver,
+    active_vars: Dict[Position, pywraplp.Variable],
+    current_values: Dict[Position, int],
+    neighbors_fn: Callable[[Position], List[Position]]
+) -> bool:
+    """
+    (Node-based Connectivity Cut).
+
+    Logic:
+    1. Traverse the nodes in current_values where the value is 1 (active).
+    2. Find all connected components (Connected Components).
+    3. If the number of components > 1, the graph is not connected.
+    4. For each isolated component, find its boundary nodes (Boundary Nodes) with value 0.
+    5. Add constraint: sum(boundary node variables) >= 1. This forces the solver to "break through" at least one boundary in the next iteration.
+
+    Args:
+        solver: SCIP solver instance
+        active_vars: variable mapping {Position: SolverVariable}
+        current_values: snapshot of the current solution {Position: 0 or 1}
+        neighbors_fn: a function, input Position, return its neighbor Position list (for decoupling Grid implementation)
+
+    Returns:
+        bool: if the cut plane is added (i.e.,not connected at that time)，return True; otherwise return False (connected or empty)。
+    """
+    
+    active_nodes = [pos for pos, val in current_values.items() if val == 1]
+    if not active_nodes:
+        return False 
+
+    visited: Set[Position] = set()
+    components: List[Dict[str, Any]] = []
+
+    for start_node in active_nodes:
+        if start_node in visited:
+            continue
+        
+        component_nodes = []
+        boundary_inactive_nodes = set()
+        queue = deque([start_node])
+        visited.add(start_node)
+        
+        while queue:
+            curr = queue.popleft()
+            component_nodes.append(curr)
+        
+            for nbr in neighbors_fn(curr):
+                if nbr not in current_values: 
+                    continue
+                
+                val = current_values[nbr]
+                if val == 1:
+                    if nbr not in visited:
+                        visited.add(nbr)
+                        queue.append(nbr)
+                else:
+                    boundary_inactive_nodes.add(nbr)
+        
+        components.append({
+            "nodes": component_nodes,
+            "boundary": list(boundary_inactive_nodes)
+        })
+    
+    if len(components) <= 1:
+        return False
+    
+    cuts_added = False
+    for comp in components:
+        boundary = comp['boundary']
+        if not boundary:
+            continue
+        
+        ct = solver.Constraint(1, solver.infinity())
+        for pos in boundary:
+            if pos in active_vars:
+                ct.SetCoefficient(active_vars[pos], 1)
+        cuts_added = True
+        
+    return cuts_added
+
+# def add_connectivity_cut_node_based(
+#     solver: pywraplp.Solver,
+#     active_vars: Dict[Position, pywraplp.Variable],
+#     current_values: Dict[Position, int],
+#     neighbors_fn: Callable[[Position], List[Position]]
+# ) -> bool:
+    
+    
+#     # 1. 提取活跃节点
+#     active_nodes = [pos for pos, val in current_values.items() if val == 1]
+#     if not active_nodes:
+#         return False 
+
+#     # 2. 寻找连通分量 (BFS)
+#     visited: Set[Position] = set()
+#     components: List[List[Position]] = [] # 存储为 List 以便保持确定性
+    
+#     # 将 list 转为 set 加速查询
+#     active_set = set(active_nodes)
+
+#     for node in active_nodes:
+#         if node in visited:
+#             continue
+        
+#         component = []
+#         queue = deque([node])
+#         visited.add(node)
+        
+#         while queue:
+#             curr = queue.popleft()
+#             component.append(curr)
+            
+#             for nbr in neighbors_fn(curr):
+#                 if nbr in active_set and nbr not in visited:
+#                     visited.add(nbr)
+#                     queue.append(nbr)
+#         components.append(component)
+
+#     # 如果只有一个分量，则已连通
+#     if len(components) <= 1:
+#         return False
+
+#     cuts_added = False
+    
+#     # 3. 对每个分量添加 Conditional Cut
+#     # 优化：通常对最小的分量添加约束就足够打破循环，不需要全部添加，但全部添加更稳健
+#     # 这里我们对所有分量都加
+#     for comp_nodes in components:
+        
+#         # 寻找该分量的“有效边界”
+#         # 边界定义为：与分量内节点相邻，且当前值为 0 的节点
+#         boundary_nodes = set()
+#         for node in comp_nodes:
+#             for nbr in neighbors_fn(node):
+#                 if nbr not in active_set: # 它是黑的
+#                     # 必须确保这个黑格是一个有效的变量，而不是墙或界外
+#                     if nbr in active_vars: 
+#                         boundary_nodes.add(nbr)
+        
+#         if not boundary_nodes:
+#             # 死局：一个孤立分量被墙围死，或者被无变量区域围死。
+#             # 这种情况下，这个分量必须被消灭（全变黑）。
+#             # 约束退化为: sum(S) - 0 <= |S| - 1  => sum(S) <= |S| - 1
+#             # 这强迫 S 中至少有一个变黑。这是正确的。
+#             pass
+
+#         # 构建约束: sum(S) - sum(B) <= |S| - 1
+#         # 移项方便调用 API: sum(S) - sum(B) <= len(S) - 1
+#         ct = solver.Constraint(-solver.infinity(), len(comp_nodes) - 1)
+        
+#         # S 中的点系数为 +1
+#         for pos in comp_nodes:
+#             ct.SetCoefficient(active_vars[pos], 1.0)
+            
+#         # B 中的点系数为 -1
+#         for pos in boundary_nodes:
+#             ct.SetCoefficient(active_vars[pos], -1.0)
+            
+#         cuts_added = True
+
+#     return cuts_added
+
 def ortools_cpsat_analytics(model: cp.CpModel, solver: cp.CpSolver):
     
     proto = model.Proto()
@@ -351,14 +517,14 @@ def ortools_cpsat_analytics(model: cp.CpModel, solver: cp.CpSolver):
     
     analytics_dict = dict()
     num_variables = len(proto.variables)
-    num_bool_vars = sum(1 for var in proto.variables if var.domain == [0, 1])
-    num_int_vars = num_variables - num_bool_vars
+    # num_bool_vars = sum(1 for var in proto.variables if var.domain == [0, 1])
+    # num_int_vars = num_variables - num_bool_vars
     num_constraints = len(proto.constraints)
 
     analytics_dict = {
         "num_vars": num_variables,
-        "num_bool_vars": num_bool_vars,
-        "num_int_vars": num_int_vars,
+        # "num_bool_vars": num_bool_vars,
+        # "num_int_vars": num_int_vars,
         "num_constrs": num_constraints, 
         "num_conflicts": solver.NumConflicts(),
         "num_branches": solver.NumBranches(),
@@ -368,3 +534,29 @@ def ortools_cpsat_analytics(model: cp.CpModel, solver: cp.CpSolver):
     }
     return analytics_dict
     
+
+def ortools_mip_analytics(solver: pywraplp.Solver) -> dict:
+    
+    if not isinstance(solver, pywraplp.Solver):
+        raise ValueError("ortools MIP model invalid. ")
+    
+    analytics_dict = {}
+    
+    # Returns the number of variables and constraints.
+    analytics_dict['num_vars'] = solver.NumVariables()
+    analytics_dict['num_constrs'] = solver.NumConstraints()
+    
+    # Returns the number of branch-and-bound nodes evaluated during the solve.
+    analytics_dict['num_nodes'] = solver.nodes()
+    
+    # Returns the number of simplex iterations.
+    analytics_dict['num_iterations'] = solver.iterations()
+    
+    # Returns the wall-clock time in seconds.
+    analytics_dict['cpu_time'] = solver.wall_time() / 1000.0
+    analytics_dict['wall_time'] = solver.wall_time() / 1000.0
+    
+    # Returns a string describing the underlying solver and its version.
+    analytics_dict['solver_name'] = solver.SolverVersion()
+    
+    return analytics_dict

@@ -105,6 +105,9 @@ VISUALIZERS = {
     "nurimisaki": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "aqre": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "canal_view": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "nurikabe": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "cojun": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "shugaku": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
     # ...
 }
 

@@ -97,6 +97,9 @@ if TYPE_CHECKING:
     from .nurimisaki import NurimisakiSolver
     from .aqre import AqreSolver
     from .canal_view import CanalViewSolver
+    from .nurikabe import NurikabeSolver
+    from .cojun import CojunSolver
+    from .shugaku import ShugakuSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -202,6 +205,9 @@ _SOLVER_META = {
     "nurimisaki": ("nurimisaki", "NurimisakiSolver"),
     "aqre": ("aqre", "AqreSolver"),
     "canal_view": ("canal_view", "CanalViewSolver"),
+    "nurikabe": ("nurikabe", "NurikabeSolver"),
+    "cojun": ("cojun", "CojunSolver"),
+    "shugaku": ("shugaku", "ShugakuSolver"),
 }
 # ==========================================
 

@@ -101,6 +101,9 @@ GRID_VERIFIERS = {
     "nurimisaki": lambda a, b: verify_target_content(a, b, "x"),
     "aqre": lambda a, b: verify_target_content(a, b, "x"),
     "canal_view": verify_exact,
+    "nurikabe": lambda a, b: verify_target_content(a, b, 'x'),
+    "cojun": verify_exact,
+    "shugaku": verify_exact,
 }
 
 def grid_verifier(puzzle_type: str, a: Grid, b: Grid) -> bool:

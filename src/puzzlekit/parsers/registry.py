@@ -118,6 +118,9 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "nurimisaki": standard_grid_parser,
     "aqre": standard_region_grid_parser,
     "canal_view": standard_grid_parser,
+    "nurikabe": standard_grid_parser,
+    "cojun": standard_region_grid_parser,
+    "shugaku": standard_grid_parser
 }
 
 

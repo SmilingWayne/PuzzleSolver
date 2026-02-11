@@ -11,7 +11,7 @@ from typeguard import typechecked
 class CojunSolver(PuzzleSolver):
     metadata : Dict[str, Any] = {
         "name": "Cojun",
-        "aliases": [""],
+        "aliases": ["Kojun"],
         "difficulty": "",
         "tags": [],
         "rule_url": "https://pzplus.tck.mn/rules.html?cojun",

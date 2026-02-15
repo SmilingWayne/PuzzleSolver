@@ -23,6 +23,7 @@ nav:
       - cave: puzzles/cave.md
       - clueless_1_sudoku: puzzles/clueless_1_sudoku.md
       - clueless_2_sudoku: puzzles/clueless_2_sudoku.md
+      - cojun: puzzles/cojun.md
       - country_road: puzzles/country_road.md
       - creek: puzzles/creek.md
       - detour: puzzles/detour.md
@@ -37,6 +38,7 @@ nav:
       - fuzuli: puzzles/fuzuli.md
       - gappy: puzzles/gappy.md
       - gattai_8_sudoku: puzzles/gattai_8_sudoku.md
+      - geradeweg: puzzles/geradeweg.md
       - grand_tour: puzzles/grand_tour.md
       - hakoiri: puzzles/hakoiri.md
       - hakyuu: puzzles/hakyuu.md
@@ -66,24 +68,30 @@ nav:
       - moon_sun: puzzles/moon_sun.md
       - mosaic: puzzles/mosaic.md
       - munraito: puzzles/munraito.md
+      - nanro: puzzles/nanro.md
       - nawabari: puzzles/nawabari.md
       - nondango: puzzles/nondango.md
       - nonogram: puzzles/nonogram.md
       - norinori: puzzles/norinori.md
       - number_cross: puzzles/number_cross.md
+      - nurikabe: puzzles/nurikabe.md
       - nurimisaki: puzzles/nurimisaki.md
       - one_to_x: puzzles/one_to_x.md
       - paint_area: puzzles/paint_area.md
       - patchwork: puzzles/patchwork.md
       - pfeilzahlen: puzzles/pfeilzahlen.md
       - pills: puzzles/pills.md
+      - pipes: puzzles/pipes.md
       - putteria: puzzles/putteria.md
       - regional_yajilin: puzzles/regional_yajilin.md
       - renban: puzzles/renban.md
       - samurai_sudoku: puzzles/samurai_sudoku.md
       - shikaku: puzzles/shikaku.md
+      - shimaguni: puzzles/shimaguni.md
       - shingoki: puzzles/shingoki.md
+      - shirokuro: puzzles/shirokuro.md
       - shogun_sudoku: puzzles/shogun_sudoku.md
+      - shugaku: puzzles/shugaku.md
       - simple_loop: puzzles/simple_loop.md
       - skyscraper: puzzles/skyscraper.md
       - slitherlink: puzzles/slitherlink.md
@@ -97,12 +105,14 @@ nav:
       - sudoku: puzzles/sudoku.md
       - suguru: puzzles/suguru.md
       - sumo_sudoku: puzzles/sumo_sudoku.md
+      - tatamibari: puzzles/tatamibari.md
       - tenner_grid: puzzles/tenner_grid.md
       - tent: puzzles/tent.md
       - terra_x: puzzles/terra_x.md
       - thermometer: puzzles/thermometer.md
       - tile_paint: puzzles/tile_paint.md
       - trinairo: puzzles/trinairo.md
+      - usoone: puzzles/usoone.md
       - windmill_sudoku: puzzles/windmill_sudoku.md
       - yajikabe: puzzles/yajikabe.md
       - yajilin: puzzles/yajilin.md
@@ -133,7 +143,6 @@ theme:
     # - navigation.expand
     - navigation.top
     - navigation.indexes
-
 
 markdown_extensions:
   - admonition
@@ -166,5 +175,4 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator:
-        !!python/name:material.extensions.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

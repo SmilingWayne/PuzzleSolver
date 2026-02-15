@@ -4,11 +4,21 @@ import time
 # Raw input data
 start_time = time.time()
 problem_str = """
-10 10\n- - - - - 3sx - - - -\n- - - o - - - 3so - -\n- x - - - - - - - -\n- - - - 2eo - - - o -\n1nx - - - - - 1wo - - -\n- - - 1so - - - - - 2nx\n- x - - - 1sx - - - -\n- - - - - - - - o -\n- - 3nx - - - x - - -\n- - - - 2ex - - - - -
+10 10
+- - - - - b - - - -
+- b - - w - - b - -
+w - - - - - - - - -
+- - - - - - - - w -
+- - - - - b b - b -
+- w - w w - - - - -
+- w - - - - - - - -
+- - - - - - - - - b
+- - b - - b - - w -
+- - - - w - - - - -
 """
 
 # Solve
-res = puzzlekit.solve(problem_str, puzzle_type="castle_wall")
+res = puzzlekit.solve(problem_str, puzzle_type="masyu")
 
 # Print solution grid
 print(res.solution_data.get('solution_grid', []))

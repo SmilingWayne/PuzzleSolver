@@ -105,6 +105,16 @@ VISUALIZERS = {
     "nurimisaki": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "aqre": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
     "canal_view": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "nurikabe": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "cojun": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "shugaku": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "geradeweg": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "nanro": lambda g, d, p: draw_general_puzzle(g, d, p, style='text'),
+    "shimaguni": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "usoone": lambda g, d, p: draw_general_puzzle(g, d, p, style='shade'),
+    "tatamibari": lambda g, d, p: draw_general_puzzle(g, d, p, style='region'),
+    "shirokuro": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
+    "pipes": lambda g, d, p: draw_general_puzzle(g, d, p, style='line'),
     # ...
 }
 

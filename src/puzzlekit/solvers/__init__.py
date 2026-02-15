@@ -97,6 +97,16 @@ if TYPE_CHECKING:
     from .nurimisaki import NurimisakiSolver
     from .aqre import AqreSolver
     from .canal_view import CanalViewSolver
+    from .nurikabe import NurikabeSolver
+    from .cojun import CojunSolver
+    from .shugaku import ShugakuSolver
+    from .geradeweg import GeradewegSolver
+    from .nanro import NanroSolver
+    from .shimaguni import ShimaguniSolver
+    from .usoone import UsooneSolver
+    from .tatamibari import TatamibariSolver
+    from .shirokuro import ShirokuroSolver
+    from .pipes import PipesSolver
 # ==========================================
 # Core: Mapping of puzzle type to solver class
 # ==========================================
@@ -202,6 +212,18 @@ _SOLVER_META = {
     "nurimisaki": ("nurimisaki", "NurimisakiSolver"),
     "aqre": ("aqre", "AqreSolver"),
     "canal_view": ("canal_view", "CanalViewSolver"),
+    "nurikabe": ("nurikabe", "NurikabeSolver"),
+    "cojun": ("cojun", "CojunSolver"),
+    "shugaku": ("shugaku", "ShugakuSolver"),
+    "geradeweg": ("geradeweg", "GeradewegSolver"),
+    "nanro": ("nanro", "NanroSolver"),
+    "shimaguni": ("shimaguni", "ShimaguniSolver"),
+    "usoone": ("usoone", "UsooneSolver"),
+    "tatamibari": ("tatamibari", "TatamibariSolver"),
+    "shirokuro": ("shirokuro", "ShirokuroSolver"),
+    "pipes": ("pipes", "PipesSolver"),
+
+
 }
 # ==========================================
 

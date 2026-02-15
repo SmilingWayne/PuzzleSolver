@@ -133,12 +133,19 @@ def parse_args():
     group.add_argument("-p", "--puzzle", type=str, 
                        help="Specific puzzle name to benchmark (e.g. 'Akari', 'slitherlink'). Case-insensitive.")
     
+    parser.add_argument("--skip", type=str, default="",
+                        help="Comma-separated list of puzzle names to skip (e.g., 'Nurikabe,Fillomino').")
     return parser.parse_args()
 
 def main():
     import time 
     tic = time.perf_counter()
     args = parse_args()
+    # Support skip func
+    skip_set = set()
+    if args.skip:
+        skip_set = {name.strip() for name in args.skip.split(',') if name.strip()}
+        print(f"NOTE: Will skip the following puzzles: {', '.join(skip_set)}")
     
     # Default behavior: run all if no arguments specified
     target_puzzle = args.puzzle
@@ -216,7 +223,17 @@ def main():
         # Check solver availability
         solver_status = "❌"
         has_solver_impl = False
-        if puzzle_type:
+        # if puzzle_type:
+        #     try:
+        #         get_solver_class(puzzle_type)
+        #         has_solver_impl = True
+        #         solver_status = "✅"
+        #     except (ValueError, AttributeError):
+        #         pass
+        if folder_name in skip_set:
+            print(f"[{idx}/{len(sorted_assets)}] Skipping {folder_name} (Requested by user --skip)")
+
+        elif puzzle_type:
             try:
                 get_solver_class(puzzle_type)
                 has_solver_impl = True

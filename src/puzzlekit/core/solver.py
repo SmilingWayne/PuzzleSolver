@@ -209,7 +209,6 @@ class IterativePuzzleSolver(PuzzleSolver, ABC):
             # If _check_and_add_cuts returns True, it means the current solution does not satisfy the connectivity constraint,
             # and new constraints have been added. We need to continue solving.
             cuts_added = self._check_and_add_cuts()
-            
             if not cuts_added:
                 # No new cuts added -> All constraints satisfied -> Found final solution.
                 final_status_str = "Optimal" if status == pywraplp.Solver.OPTIMAL else "Feasible"

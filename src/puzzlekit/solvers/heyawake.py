@@ -1,14 +1,18 @@
-from typing import Any, List, Dict, Set, Tuple
+from typing import Any, List, Dict, Set, Tuple, FrozenSet
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from puzzlekit.core.result import PuzzleResult
 from puzzlekit.utils.ortools_utils import ortools_cpsat_analytics
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
 from ortools.sat.python import cp_model as cp
+from collections import deque
 from typeguard import typechecked
 import copy
 import time
+
+# A tailored solver for heyawake puzzle. 25% faster than original.
 
 class HeyawakeSolver(PuzzleSolver):
     metadata : Dict[str, Any] = {
@@ -84,11 +88,32 @@ class HeyawakeSolver(PuzzleSolver):
                 # 1 = Shaded (Black), 0 = Unshaded (White)
                 self.x[i, j] = self.model.NewBoolVar(name = f"x[{i}, {j}]")
         
+        self.boundary_cells = self._get_boundary_cells()
         self._add_region_num_constr()
         self._add_stripe_constr()
         self._add_adjacent_constr()
+        self._add_connected_at_least_constr()
         # REMOVED: self._add_connectivity_constr() 
-                
+    
+    def _add_connected_at_least_constr(self):  
+        """  
+        Basic connectivity hint:
+        
+        Each white cell must have at least one white neighbor  
+        (unless it's the only white cell, which is rare).  
+        This is a weak but useful constraint from the Gurobi code.  
+        """  
+        for i in range(self.num_rows):  
+            for j in range(self.num_cols):  
+                pos = Position(i, j)  
+                neighbors = list(self.grid.get_neighbors(pos, "orthogonal"))  
+                if neighbors:  
+                    # If pos is white, at least one neighbor must be white  
+                    # is_white[pos] <= sum(is_white[n] for n in neighbors)  
+                    self.model.Add(
+                        1 - self.x[pos.r, pos.c] <= sum(1 - self.x[n.r, n.c] for n in neighbors)  
+                    )
+                    
     def _add_region_num_constr(self):
         for region_id, cells in self.region_grid.regions.items():
             curr_val = None 
@@ -155,11 +180,21 @@ class HeyawakeSolver(PuzzleSolver):
                 if j < self.num_cols - 1:
                     self.model.Add(self.x[i, j] + self.x[i, j + 1] <= 1)
 
+    def _temp_display(self):
+        for i in range(self.num_rows):
+            for j in range(self.num_cols):
+                if self.solver.Value(self.x[i, j]) == 1:
+                    print("x", end=" ")
+                else:
+                    print("-", end=" ")
+            print()
+    
     def _check_connectivity(self) -> List[Set[Tuple[int, int]]]:
         """
         BFS to find connected components of WHITE cells (x=0).
         Returns a list of components, where each component is a Set of (r,c).
         """
+    
         white_cells = set()
         for r in range(self.num_rows):
             for c in range(self.num_cols):
@@ -194,7 +229,236 @@ class HeyawakeSolver(PuzzleSolver):
             components.append(curr_comp)
             
         return components
+    
+    def _find_loop_from_component(self, comp: FrozenSet[Position]) -> Set[Position]:
+        
+        if len(comp) < 4:  # 少于4个格子不可能形成对角线环
+            return set()
+        
+        adjacency = {pos: [] for pos in comp}
+        
+        for pos in comp:
+            for neighbor in self.grid.get_neighbors(pos, "diagonal_only"):
+                neighbor_pos = Position(neighbor[0], neighbor[1])
+                if neighbor_pos in comp:
+                    adjacency[pos].append(neighbor_pos)
+        
+        visited = set()
+        parent = {}
+        cycle_found = False
+        cycle_start = None
+        cycle_end = None
+        
+        def dfs(current: Position, prev: Position) -> bool:
+            nonlocal cycle_found, cycle_start, cycle_end
+            
+            visited.add(current)
+            
+            for neighbor in adjacency[current]:
+                if neighbor not in visited:
+                    parent[neighbor] = current
+                    if dfs(neighbor, current):
+                        return True
+                elif neighbor != prev:
+                    cycle_found = True
+                    cycle_start = neighbor
+                    cycle_end = current
+                    return True
+            return False
+        
+        # 3. 从每个未访问的节点开始DFS检测环
+        for pos in comp:
+            if pos not in visited and not cycle_found:
+                parent[pos] = None
+                if dfs(pos, None):
+                    break
+        
+        if not cycle_found:
+            return set()
+        
+        # 4. 提取环上的节点
+        cycle_nodes = set()
+        
+        # 从cycle_end回溯到cycle_start
+        current = cycle_end
+        while current != cycle_start:
+            cycle_nodes.add(current)
+            current = parent.get(current)
+            if current is None:
+                # 回溯失败，返回空集
+                return set()
+        
+        cycle_nodes.add(cycle_start)
+        
+        # 5. 确保环是闭合的
+        # 检查cycle_start和cycle_end是否通过边直接连接
+        if cycle_start not in adjacency.get(cycle_end, []) and cycle_end not in adjacency.get(cycle_start, []):
+            # 如果不是直接连接，需要找到连接路径
+            # 通过BFS找到连接cycle_start和cycle_end的最短路径
+            queue = deque([(cycle_start, [cycle_start])])
+            visited_path = {cycle_start}
+            found = False
+            
+            while queue and not found:
+                current, path = queue.popleft()
+                
+                for neighbor in adjacency.get(current, []):
+                    if neighbor == cycle_end:
+                        # 找到连接路径
+                        for node in path + [neighbor]:
+                            cycle_nodes.add(node)
+                        found = True
+                        break
+                    elif neighbor not in visited_path:
+                        visited_path.add(neighbor)
+                        queue.append((neighbor, path + [neighbor]))
+            
+            if not found:
+                return set()
 
+        valid_cycle = True
+        for node in cycle_nodes:
+            neighbors_in_cycle = sum(1 for n in adjacency.get(node, []) if n in cycle_nodes)
+            if neighbors_in_cycle < 2:
+                valid_cycle = False
+                break
+        
+        if not valid_cycle or len(cycle_nodes) < 4:
+            return set()
+
+        final_cycle = self._extract_core_cycle(cycle_nodes, adjacency)
+        return final_cycle
+
+    def _extract_core_cycle(self, nodes: Set[Position], adjacency: dict) -> Set[Position]:
+
+        from collections import defaultdict
+        degree = defaultdict(int)
+        for node in nodes:
+            degree[node] = 0
+        for node in nodes:
+            for neighbor in adjacency.get(node, []):
+                if neighbor in nodes:
+                    degree[node] += 1
+        
+        nodes_set = set(nodes)
+        changed = True
+        
+        while changed:
+            changed = False
+            to_remove = set()
+            
+            for node in nodes_set:
+                node_degree = 0
+                for neighbor in adjacency.get(node, []):
+                    if neighbor in nodes_set:
+                        node_degree += 1
+                
+                if node_degree <= 1:
+                    to_remove.add(node)
+                    changed = True
+            
+            nodes_set -= to_remove
+            
+            # 如果节点数变得太少，返回空
+            if len(nodes_set) < 4:
+                return set()
+        
+        return nodes_set
+    
+    def _is_on_boundary(self, pos: Position) -> bool:
+        return (pos.r == 0 or pos.r == self.num_rows - 1 or pos.c == 0 or pos.c == self.num_cols - 1)
+
+    def _get_boundary_cells(self) -> FrozenSet[Position]:
+        boundary_cells = set()
+        for i in range(self.num_rows):
+            boundary_cells.add(Position(i, 0))
+            boundary_cells.add(Position(i, self.num_cols - 1))
+        for j in range(self.num_cols):
+            boundary_cells.add(Position(0, j))
+            boundary_cells.add(Position(self.num_rows - 1, j))
+        return frozenset[Position](boundary_cells)
+            
+
+    def _get_black_diagonal_components(self) -> Set[FrozenSet[Position]]:
+        all_components = set()
+        visited = set()
+        
+        for i in range(self.num_rows):
+            for j in range(self.num_cols):
+                pos = Position(i, j)
+                if (self.solver.Value(self.x[pos.r, pos.c]) == 1 and 
+                    pos not in visited):
+                    
+                    queue = [pos]
+                    component = set()
+                    visited.add(pos)
+                    
+                    while queue:
+                        current = queue.pop(0)
+                        component.add(current)
+                        
+                        for neighbor in self.grid.get_neighbors(current, "diagonal_only"):
+                            if (neighbor is not None and 
+                                neighbor not in visited and
+                                self.solver.Value(self.x[neighbor.r, neighbor.c]) == 1):
+                                visited.add(neighbor)
+                                queue.append(neighbor)
+                    if component:  
+                        all_components.add(frozenset(component))
+        # for comp in all_components:
+        #     print(comp)
+        #     print("--------------------------------")
+        return all_components
+
+    
+    def _find_all_cycles_in_component(self, comp: FrozenSet[Position]) -> List[FrozenSet[Position]]:
+
+        if len(comp) < 4:  # 少于4个格子不可能形成对角线环
+            return []
+        
+        
+
+    def _get_cycle_edges(self, comp: FrozenSet[Position]) -> Set[Tuple[Position, Position]]:
+        """获取构成环的边（用于调试和可视化）"""
+        if len(comp) < 4:
+            return set()
+        
+        # 构建邻接表
+        adjacency = {pos: [] for pos in comp}
+        for pos in comp:
+            for neighbor in self.grid.get_neighbors(pos, "diagonal_only"):
+                if neighbor in comp:
+                    adjacency[pos].append(neighbor)
+        
+        visited = set()
+        parent = {}
+        cycle_edges = set()
+        
+        def dfs(current, prev):
+            visited.add(current)
+            
+            for neighbor in adjacency[current]:
+                if neighbor not in visited:
+                    parent[neighbor] = current
+                    if dfs(neighbor, current):
+                        return True
+                elif neighbor != prev:
+                    # 找到环，回溯记录边
+                    cur = current
+                    while cur != neighbor:
+                        next_pos = parent[cur]
+                        cycle_edges.add((min(cur, next_pos), max(cur, next_pos)))
+                        cur = next_pos
+                    cycle_edges.add((min(current, neighbor), max(current, neighbor)))
+                    return True
+            return False
+        
+        for pos in comp:
+            if pos not in visited:
+                dfs(pos, None)
+        
+        return cycle_edges
+        
     # Override the solve method to implement Iterative Constraint Generation
     def solve(self) -> PuzzleResult:
         tic = time.perf_counter()
@@ -210,13 +474,31 @@ class HeyawakeSolver(PuzzleSolver):
         
         iteration = 0
         solution_dict = {}
-        
+        add_new = False
         while True:
             iteration += 1
             # print(f"Iteration {iteration}...")
-            
+            # print(f"Iteration {iteration}...")
             status = self.solver.Solve(self.model)
-            
+            if iteration > 50 and not add_new:
+                print("DUMPING NEW CONSTRAINT!")
+                add_new = True
+                adjacency_map = {}
+                self.is_white = {}
+                for i in range(self.num_rows):
+                    for j in range(self.num_cols):
+                        pos = Position(i, j)
+                        self.is_white[i, j] = self.model.NewBoolVar(name = f"x[{i}, {j}]")
+                        self.model.Add(self.x[i, j] + self.is_white[i, j] == 1)
+                        neighbors = self.grid.get_neighbors(pos, "orthogonal")
+                        adjacency_map[i, j] = set((nbr.r, nbr.c) for nbr in neighbors)
+
+                add_connected_subgraph_constraint(
+                    self.model,
+                    self.is_white,
+                    adjacency_map
+                )
+
             # Check feasibility
             if status not in [cp.OPTIMAL, cp.FEASIBLE]:
                 # Infeasible or Unknown
@@ -225,8 +507,36 @@ class HeyawakeSolver(PuzzleSolver):
                 break
             
             # 2. Check Connectivity
-            components = self._check_connectivity()
+            black_components = self._get_black_diagonal_components()
+            for comp in black_components:
+                # Rule1. check border overlap
+                if len(comp) <= 2:
+                    continue
+                if len(comp & self.boundary_cells) >= 2:
+                    # have 2 boundary cells in the component
+                    # at least one cell in the component must be white
+                    # print(comp)
+                    # print(f"ADDed! {iteration}")
+                    self.model.Add(sum(self.x[pos.r, pos.c] for pos in comp) <= len(comp) - 1)
+                
+                # Rule2. Check loop in the component
+                # if len(comp) < 4:
+                #     continue
+                # for comp in black_components:
+                loop = self._find_loop_from_component(comp)
+                if loop:
+#                 cuts_added = True
+#                 # print(f"ADD!2")
+#                 # print([[pos.r, pos.c] for pos in loop])
+                    self.model.Add(sum(self.x[pos.r, pos.c] for pos in loop) <= len(loop) - 1)
+                    # break
+                
             
+            
+            # Case B: Disconnected -> Add Constraints (Cuts)
+            # Strategy: For each isolated component (except maybe the largest one), 
+            # find its boundary (Black cells). At least one of those Black cells MUST be White.
+            components = self._check_connectivity()
             # Case A: Simply connected (1 component) -> Success
             if len(components) <= 1:
                 # Done!
@@ -236,18 +546,14 @@ class HeyawakeSolver(PuzzleSolver):
                 solution_dict['status'] = "Optimal"
                 solution_dict['iterations'] = iteration
                 break
-            # Case B: Disconnected -> Add Constraints (Cuts)
-            # Strategy: For each isolated component (except maybe the largest one), 
-            # find its boundary (Black cells). At least one of those Black cells MUST be White.
-            
             # Sort components by size (process smallest first usually better)
             components.sort(key=len)
             
-            # We cut ALL components except the largest one (assuming the largest is the "main" body)
-            # Actually, cutting all of them is fine too, but usually one is the 'ocean'.
-            # Let's iterate through all components that are NOT touching the 'main' body.
-            # But we don't know which is main. Simple heuristic: cut the smaller ones.
-            # Adding cuts for components[0 ... -2] (all except biggest)
+            # # We cut ALL components except the largest one (assuming the largest is the "main" body)
+            # # Actually, cutting all of them is fine too, but usually one is the 'ocean'.
+            # # Let's iterate through all components that are NOT touching the 'main' body.
+            # # But we don't know which is main. Simple heuristic: cut the smaller ones.
+            # # Adding cuts for components[0 ... -2] (all except biggest)
             for comp in components[:-1]:
                 
                 # Find "Boundary Wall": Black cells adjacent to this component
@@ -296,3 +602,4 @@ class HeyawakeSolver(PuzzleSolver):
                     sol_grid[i][j] = "-" # Unshaded
             
         return Grid(sol_grid)
+

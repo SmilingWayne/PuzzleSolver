@@ -1,0 +1,261 @@
+from dataclasses import dataclass, field
+from typing import Dict, Optional, Any, Tuple, List
+
+PENPA_MODE = {
+    # correspond to "mode" in penpa.js
+    "z9": "zA", 
+    "zG": ["1", "2", "1"],
+    "zQ": {
+        "zM": "combi",
+        "zS": ["", 1],
+        "multicolor":["",1],
+        "zL": ["1", 2],
+        "zE": ["1", 2],
+        "zW": ["", 2],
+        "zC": ["1", 10],
+        "zN": ["1", 1],
+        "zY": ["circle_L", 1],
+        "zP": ["zT", ""],
+        "zB": ["", ""],
+        "move": ["1" , ""],
+        "combi": ["battleship" , 3],
+        "sudoku": ["1" , 1]
+    },
+    "zA":{
+        "zM" : "combi",
+        "zS" : ["",1],
+        "multicolor": ["",1],
+        "zL" : ["1" , 3],
+        "zE" : ["1" , 3],
+        "zW" : ["",3] , 
+        "zC" : ["1" , 10],
+        "zN" : ["1" , 2],
+        "zY" : ["circle_L" , 1],
+        "zP" : ["zT" , ""],
+        "zB" : ["", ""],
+        "move" : ["1",""],
+        "combi":["blpo",3],
+        "sudoku":["1",9]
+    }
+}
+
+# element 5: this.pu_{x}, e.g., this.pu_a, this.pu_q_col, this.a_col
+PENPA_PU_X_DEFAULF = {
+    "zR": {"z_": []},
+    "zU": {"z_": []},
+    "z8": {"z_": []},
+    "zS": {},
+    "zN": {},
+    "z1": {},
+    "zY": {},
+    "zF": {},
+    "z2": {},
+    "zT": [],
+    "z3": [],
+    "zD": [],
+    "z0": [],
+    "z5": [],
+    "zL": {},
+    "zE": {},
+    "zW": {},
+    "zC": {},
+    "z4": {},
+    "z6": [],
+    "z7": [] 
+}
+
+# element 8: __export_solcheck_shared
+PENPA_SOL_CHECK_DICT_DEFAULT = {
+    "sol_surface_exact": False,
+    "sol_surface": False,
+    "sol_number": False,
+    "sol_loopline_exact": False,
+    "sol_loopline": False,
+    "sol_ignoreloopline": False,
+    "sol_loopedge_exact": False,
+    "sol_loopedge": False,
+    "sol_ignoreborder": False,
+    "sol_wall": False,
+    "sol_square": False,
+    "sol_circle": False,
+    "sol_tri": False,
+    "sol_arrow": False,
+    "sol_math": False,
+    "sol_battleship": False,
+    "sol_tent": False,
+    "sol_star": False,
+    "sol_akari": False,
+    "sol_mine": False
+}
+
+
+# element 18: __export_checker_shared
+PENPA_SOL_CHECK_OR_DICT_DEFAULT = {
+    "sol_or_surface_exact": False,
+    "sol_or_surface": False,
+    "sol_or_number": False,
+    "sol_or_loopline_exact": False,
+    "sol_or_loopline": False,
+    "sol_or_loopedge_exact": False,
+    "sol_or_loopedge": False,
+    "sol_or_wall": False,
+    "sol_or_square": False,
+    "sol_or_circle": False,
+    "sol_or_tri": False,
+    "sol_or_arrow": False,
+    "sol_or_math": False,
+    "sol_or_battleship": False,
+    "sol_or_tent": False,
+    "sol_or_star": False,
+    "sol_or_akari": False,
+    "sol_or_mine": False
+}
+
+PENPA_BG_IMAGE_ENCRYPTED = "JYjBDkAwEAX/5Z33UNf+jDQUjdWV1Q0i/r0Nl8nMPDBl+GzZMhAveEe6PsochleadazZWJxlnF8ghf1CJhC8fan0sq8T9vBQ=="
+
+
+@dataclass
+class PenpaMetadata:
+    
+    # ========== Line 1: header ==========
+    grid_type: str = "square"
+    nx: int = 5
+    ny: int = 5
+    size: int = 35                # size of each cell on penpa 
+    theta: int = 0                # for rotate
+    reflect: List[int] = field(default_factory=lambda: [1, 1])
+    canvasx: int = 0              # canvas size x
+    canvasy: int = 0              # canvas size y
+    center_n: int = 0             # center cell
+    center_n0: int = 0            # center cell (?)
+    sudoku: List[int] = field(default_factory=lambda: [0, 0, 0, 0])
+    title: str = ""               # name of the puzzle e.g., heyawake, nonogram
+    author: str = ""              # author of the puzzle, optional
+    source: str = ""              # (source) url of the puzzle
+    rules: str = ""               # rules of the puzzle 
+    border_status: str = "OFF"    # unknown
+    multisolution: bool = False   # is multi solution ? 
+    bg_image_encrypted: str = ""  # (placeholder) for background picture
+
+    # ========== Line 2: space ==========
+    space: List[int] = field(default_factory=lambda: [0, 0, 0, 0])  # [top, bottom, left, right]
+    
+    # ========== Line 3: mode ==========
+    mode: Dict[str, Any] = field(default_factory=dict)  # complete mode
+    
+    # ========== Line 5: pu_a ==========
+    pu_a: Dict[str, Any] = field(default_factory=dict)
+    
+    # ========== Line 6-7: __export_list_tab_shared ==========
+    centerlist_diff: List[int] = field(default_factory=list)  # diff encoding centerlist
+    tab_settings: List[str] = field(default_factory=lambda: ["Surface", "Composite"])
+    
+    # ========== Line 8: sol_check ==========
+    sol_check: Dict[str, bool] = field(default_factory=dict)
+    
+    # ========== Line 9-14: version shared ==========
+    timer_placeholder: str = "x"     # default 'x'
+    comp_mode: str = "x"             # default 'x'
+    version: List[int] = field(default_factory=lambda: [3, 2, 1]) # v3.2.1, aha~
+    mode_snapshot: Dict[str, Any] = field(default_factory=dict)  # another snapshot of mode (sub mode?)
+    theme_placeholder: str = "x"     # default 'x'
+    custom_colors_on: int = 0        # either 1 or 0
+    
+    # ========== Line 15-16: pu_q_col / pu_a_col ==========
+    pu_q_col: Dict[str, Any] = field(default_factory=dict)
+    pu_a_col: Dict[str, Any] = field(default_factory=dict)
+    
+    # ========== Line 17: sol_check (OR) ==========
+    sol_check_or: Dict[str, bool] = field(default_factory=dict)
+    
+    # ========== Line 18: genre_tags ==========
+    genre_tags: List[str] = field(default_factory=list)
+    
+    # ========== Line 19: custom_message ==========
+    custom_message: str = ""
+    
+    def __post_init__(self):
+        """
+        Auto fill default after init
+        """
+        if not self.mode: self.mode = PENPA_MODE.copy()
+        
+        if not self.pu_a: self.pu_a = PENPA_PU_X_DEFAULF.copy()
+        
+        if not self.mode_snapshot: self.mode_snapshot = PENPA_MODE.copy()
+            
+        if not self.sol_check: self.sol_check = PENPA_SOL_CHECK_DICT_DEFAULT.copy()
+
+        if not self.sol_check_or: self.sol_check_or = PENPA_SOL_CHECK_OR_DICT_DEFAULT.copy()
+            
+        if not self.bg_image_encrypted: self.bg_image_encrypted = PENPA_BG_IMAGE_ENCRYPTED
+            
+        if not self.pu_q_col: self.pu_q_col = PENPA_PU_X_DEFAULF.copy()
+            
+        if not self.pu_a_col: self.pu_a_col = PENPA_PU_X_DEFAULF.copy()
+        
+
+@dataclass
+class CellState:
+    """
+    Cell status
+    """
+    value: Optional[str] = None   # Number clue
+    shaded: bool = False          # black?
+    num_color: int = 1            # number color
+    
+
+@dataclass
+class EdgeState:
+    """Edge Status
+    
+    - edge_type: 
+        2:    black border line
+        13:   dot line
+        ...
+    """
+    connected: bool = True        # thin line
+    edge_type: int = 2            # default = 2
+    # blacked: bool = False         # black border
+    # deleted: bool = False         # delete mark
+
+
+@dataclass
+class PuzzleInstance:
+    """
+    Puzzle Intermediate Representation (IR)
+    
+    Start from Heyawake!
+    """
+    grid_type: str = "square"
+    puzzle_type: str = "heyawake"
+    title: str = ""
+    author: str = ""
+    source: str = ""
+    rows: int = 0                       # for rectangle with margins
+    cols: int = 0                       # for rectangle with margins
+    hex_len: int = 0                    # placeholder
+    margins: List[int] = field(default_factory = list)   # for margins, top, bottom, left, right
+    boxes: List[Any] = field(default_factory=list)  # same as 'box' of penpa
+    edges: Dict[tuple[Any], EdgeState] = field(default_factory=dict) # edge status
+    cells: Dict[tuple[Any], CellState] = field(default_factory=dict)
+    regions: list[list[int]] = field(default_factory=list)           # Heyawake 的房间区域 ID
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    
+
+    def __repr__(self):
+        """Custom format.
+        """
+        return f"""
+        Puzzle Instance for {self.puzzle_type}.
+        
+        grid_type:         {self.grid_type} 
+        title:             {self.title}
+        shape:             {self.rows} x {self.cols} 
+        margins:           {', '.join(map(str, self.margins))}
+        author:            {self.author}
+        source:            {self.source}
+        edges (len):       {len(self.edges.keys())}
+        boxes (len):       {len(self.boxes)}
+        cells (len):       {len(self.cells.keys())}
+        """

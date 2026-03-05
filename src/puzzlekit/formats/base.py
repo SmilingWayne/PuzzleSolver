@@ -1,70 +1,46 @@
 from dataclasses import dataclass, field
 from typing import Dict, Optional, Any, Tuple, List
+from functools import reduce
+import json
 
-PENPA_MODE = {
-    # correspond to "mode" in penpa.js
-    "z9": "zA", 
-    "zG": ["1", "2", "1"],
-    "zQ": {
-        "zM": "combi",
-        "zS": ["", 1],
-        "multicolor":["",1],
-        "zL": ["1", 2],
-        "zE": ["1", 2],
-        "zW": ["", 2],
-        "zC": ["1", 10],
-        "zN": ["1", 1],
-        "zY": ["circle_L", 1],
-        "zP": ["zT", ""],
-        "zB": ["", ""],
-        "move": ["1" , ""],
-        "combi": ["battleship" , 3],
-        "sudoku": ["1" , 1]
-    },
-    "zA":{
-        "zM" : "combi",
-        "zS" : ["",1],
-        "multicolor": ["",1],
-        "zL" : ["1" , 3],
-        "zE" : ["1" , 3],
-        "zW" : ["",3] , 
-        "zC" : ["1" , 10],
-        "zN" : ["1" , 2],
-        "zY" : ["circle_L" , 1],
-        "zP" : ["zT" , ""],
-        "zB" : ["", ""],
-        "move" : ["1",""],
-        "combi":["blpo",3],
-        "sudoku":["1",9]
-    }
-}
-
-# element 5: this.pu_{x}, e.g., this.pu_a, this.pu_q_col, this.a_col
-PENPA_PU_X_DEFAULF = {
-    "zR": {"z_": []},
-    "zU": {"z_": []},
-    "z8": {"z_": []},
-    "zS": {},
-    "zN": {},
-    "z1": {},
-    "zY": {},
-    "zF": {},
-    "z2": {},
-    "zT": [],
-    "z3": [],
-    "zD": [],
-    "z0": [],
-    "z5": [],
-    "zL": {},
-    "zE": {},
-    "zW": {},
-    "zC": {},
-    "z4": {},
-    "z6": [],
-    "z7": [] 
-}
+PENPA_MODE = '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}'
+PENPA_PU_X_STR = '{zR:{z_:[]},zU:{z_:[]},z8:{z_:[]},zS:{},zN:{},z1:{},zY:{},zF:{},z2:{},zT:[],z3:[],zD:[],z0:[],z5:[],zL:{},zE:{},zW:{},zC:{},z4:{},z6:[],z7:[]}'
+COMPRESS_SUB = [
+    ('z', 'zZ'),
+    ('"qa"', 'z9'),
+    ('"pu_q"', 'zQ'),
+    ('"pu_a"', 'zA'),
+    ('"grid"', 'zG'),
+    ('"edit_mode"', 'zM'),
+    ('"surface"', 'zS'),
+    ('"line"', 'zL'),
+    ('"lineE"', 'zE'),
+    ('"wall"', 'zW'),
+    ('"cage"', 'zC'),
+    ('"number"', 'zN'),
+    ('"symbol"', 'zY'),
+    ('"special"', 'zP'),
+    ('"board"', 'zB'),
+    ('"command_redo"', 'zR'),
+    ('"command_undo"', 'zU'),
+    ('"command_replay"', 'z8'),
+    ('"numberS"', 'z1'),
+    ('"freeline"', 'zF'),
+    ('"freelineE"', 'z2'),
+    ('"thermo"', 'zT'),
+    ('"arrows"', 'z3'),
+    ('"direction"', 'zD'),
+    ('"squareframe"', 'z0'),
+    ('"polygon"', 'z5'),
+    ('"deletelineE"', 'z4'),
+    ('"killercages"', 'z6'),
+    ('"nobulbthermo"', 'z7'),
+    ('"_a"', 'z_'),
+    ('null', 'zO'),
+]
 
 # element 8: __export_solcheck_shared
+
 PENPA_SOL_CHECK_DICT_DEFAULT = {
     "sol_surface_exact": False,
     "sol_surface": False,
@@ -88,6 +64,8 @@ PENPA_SOL_CHECK_DICT_DEFAULT = {
     "sol_mine": False
 }
 
+PENPA_PU_X_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, PENPA_PU_X_STR))
+PENPA_MODE_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, PENPA_MODE))
 
 # element 18: __export_checker_shared
 PENPA_SOL_CHECK_OR_DICT_DEFAULT = {
@@ -121,7 +99,7 @@ class PenpaMetadata:
     grid_type: str = "square"
     nx: int = 5
     ny: int = 5
-    size: int = 35                # size of each cell on penpa 
+    size: int = 38                # size of each cell on penpa 
     theta: int = 0                # for rotate
     reflect: List[int] = field(default_factory=lambda: [1, 1])
     canvasx: int = 0              # canvas size x
@@ -141,25 +119,28 @@ class PenpaMetadata:
     space: List[int] = field(default_factory=lambda: [0, 0, 0, 0])  # [top, bottom, left, right]
     
     # ========== Line 3: mode ==========
-    mode: Dict[str, Any] = field(default_factory=dict)  # complete mode
+    mode: Dict[str, Any] = field(default_factory=dict)
+    
+    # ========== Line 4: pu_q ==========
+    pu_q: Dict[str, Any] = field(default_factory=dict)
     
     # ========== Line 5: pu_a ==========
     pu_a: Dict[str, Any] = field(default_factory=dict)
     
     # ========== Line 6-7: __export_list_tab_shared ==========
     centerlist_diff: List[int] = field(default_factory=list)  # diff encoding centerlist
-    tab_settings: List[str] = field(default_factory=lambda: ["Surface", "Composite"])
+    tab_settings: List[str] = field(default_factory=lambda: [])
     
     # ========== Line 8: sol_check ==========
     sol_check: Dict[str, bool] = field(default_factory=dict)
     
     # ========== Line 9-14: version shared ==========
-    timer_placeholder: str = "x"     # default 'x'
-    comp_mode: str = "x"             # default 'x'
+    timer_placeholder: str = '"x"'     # default 'x'
+    comp_mode: str = '"x"'             # default 'x'
     version: List[int] = field(default_factory=lambda: [3, 2, 1]) # v3.2.1, aha~
-    mode_snapshot: Dict[str, Any] = field(default_factory=dict)  # another snapshot of mode (sub mode?)
-    theme_placeholder: str = "x"     # default 'x'
-    custom_colors_on: int = 0        # either 1 or 0
+    mode_snapshot: Dict[str, Any] = field(default_factory=dict)
+    theme_placeholder: str = '"x"'     # default 'x'
+    custom_colors_on: str = '0'        # either 1 or 0
     
     # ========== Line 15-16: pu_q_col / pu_a_col ==========
     pu_q_col: Dict[str, Any] = field(default_factory=dict)
@@ -178,11 +159,13 @@ class PenpaMetadata:
         """
         Auto fill default after init
         """
-        if not self.mode: self.mode = PENPA_MODE.copy()
+        if not self.mode: self.mode = PENPA_MODE_DEFAULT.copy()
         
-        if not self.pu_a: self.pu_a = PENPA_PU_X_DEFAULF.copy()
+        if not self.pu_q: self.pu_q = PENPA_PU_X_DEFAULT.copy()
         
-        if not self.mode_snapshot: self.mode_snapshot = PENPA_MODE.copy()
+        if not self.pu_a: self.pu_a = PENPA_PU_X_DEFAULT.copy()
+        
+        if not self.mode_snapshot: self.mode_snapshot = PENPA_MODE_DEFAULT.copy()
             
         if not self.sol_check: self.sol_check = PENPA_SOL_CHECK_DICT_DEFAULT.copy()
 
@@ -190,9 +173,9 @@ class PenpaMetadata:
             
         if not self.bg_image_encrypted: self.bg_image_encrypted = PENPA_BG_IMAGE_ENCRYPTED
             
-        if not self.pu_q_col: self.pu_q_col = PENPA_PU_X_DEFAULF.copy()
+        if not self.pu_q_col: self.pu_q_col = PENPA_PU_X_DEFAULT.copy()
             
-        if not self.pu_a_col: self.pu_a_col = PENPA_PU_X_DEFAULF.copy()
+        if not self.pu_a_col: self.pu_a_col = PENPA_PU_X_DEFAULT.copy()
         
 
 @dataclass
@@ -203,6 +186,7 @@ class CellState:
     value: Optional[str] = None   # Number clue
     shaded: bool = False          # black?
     num_color: int = 1            # number color
+    num_style: str = "1"          # number style
     
 
 @dataclass

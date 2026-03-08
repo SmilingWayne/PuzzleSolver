@@ -2,6 +2,7 @@ from puzzlekit.formats.base import (
     PuzzleInstance, CellState, EdgeState,
     PenpaMetadata, COMPRESS_SUB
 )
+from puzzlekit.formats.utils import generate_centerlist_diff
 from typing import Any, Dict, List, Optional, Tuple, Union
 import json
 from base64 import b64decode, b64encode
@@ -26,33 +27,6 @@ def to_penpa_str(pu_x: Optional[Dict | List], apply_compression : bool = True):
         return pu_q_str
     else:
         return json.dumps(pu_x, separators=(',', ':'), ensure_ascii=False)
-
-
-def penpa_encrypt(text: str) -> str:
-    """Raw Deflate + base64 match encrypt_data of JS"""
-    # UTF-8
-    data = text.encode('utf-8')
-    # Raw Deflate: wbits = -15: no header/trailer
-    compressed = compress(data, level=9)[2:-4]  # remove zlib header(2) and adler32(4)
-    # base64 encode（URL safe: Optional）
-    return b64encode(compressed).decode('ascii')
-
-def generate_centerlist_diff(rows: int, cols: int, margins: List[int] = [0, 0, 0, 0]):
-    """
-    Auto pack centerlist (in default all cells are filled)
-    
-    FIX: must consider the margin part.
-    for part of `__export_list_tab_shared` in penpa+
-    """
-    prev, nx0 = 0, cols + 4
-    centerlist = []
-    top_m, bottom_m, left_m, right_m = margins
-    for row in range(2 + top_m, rows + 2 - bottom_m):
-        for col in range(2 + left_m, cols + 2 - right_m):
-            idx = col + row * nx0
-            centerlist.append(idx - prev)
-            prev = idx
-    return centerlist
 
 def calculate_center_n(nx: int, ny: int, size: int = 38) -> int:
     """
@@ -160,12 +134,6 @@ class HeyawakePenpaConverter:
             }
         )
     
-    def decode(self):
-        pass 
-
-    def encode(self):
-        pass
-    
     def index_to_coord(self, index: int, type_: str = 'edge') -> Tuple[Tuple[int, int], int]:
         """Convert the [Penpa+](https://swaroopg92.github.io/penpa-edit/) index to coordinate.
 
@@ -182,7 +150,7 @@ class HeyawakePenpaConverter:
         else:
             return (index // self.real_cols - 2, index % self.real_cols - 2), category
             
-    def coord_to_index(self, coord: Tuple[int, int], type_: str) -> Tuple[int, int]:
+    def coord_to_index(self, coord: Tuple[int, int] ,type_: str) -> Tuple[int, int]:
         assert type_ in ("edge", "cell"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', get {type}"
         r_, c_ = coord
         if type_ == "edge":
@@ -193,6 +161,7 @@ class HeyawakePenpaConverter:
     def decode(self) -> PuzzleInstance: 
         self.parts = decompress(b64decode(self.url[len(PENPA_PREFIX) :]), -15).decode().split("\n")
         header = self.parts[0].split(",")
+        
         assert header[0] in ("square", "sudoku", "kakuro"), "Penpa puzzle must be in square, sudoku, kakuro"
         
         # info collect
@@ -228,6 +197,7 @@ class HeyawakePenpaConverter:
                 for k, v in self.board.items():
                     if k == "lineE":
                         self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
+                        print(self.ir_puzzle.edges)
                     elif k == "number":
                         self.ir_puzzle.cells = self._decode_number(number_dict = v)
                     else:
@@ -289,9 +259,11 @@ class HeyawakePenpaConverter:
         center_n = calculate_center_n(inst.rows, inst.cols, mtd.size)
         center_list = generate_centerlist_diff(inst.rows, inst.cols, inst.margins)
         
+        self.real_rows = inst.rows + inst.margins[0] + inst.margins[1] + 4  # penpa size after padding
+        self.real_cols = inst.cols + inst.margins[2] + inst.margins[3] + 4
         # 1. form pu_q dict, then update
         original_pu_q = mtd.pu_q
-        print(self.parts[3], "\n")
+        # print(self.parts[3], "\n")
         
         # augmented update（number/edge only: for now）
         original_pu_q["number"] = self._encode_number(inst.cells)
@@ -337,12 +309,9 @@ class HeyawakePenpaConverter:
         ]
         
         for i in range(19):
-            if i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]:
-                text_lines.append(to_pack_elem[i])
-            else:
-                text_lines.append(self.parts[i])
+            text_lines.append(to_pack_elem[i])
+            # else: text_lines.append(self.parts[i])
                 
-        
         # 5. concatenate + compress + base64
         plain_text = "\n".join(text_lines)
         compressed = compress(plain_text.encode())[2:-4]

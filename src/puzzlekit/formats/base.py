@@ -166,7 +166,7 @@ class PenpaMetadata:
         if not self.pu_a: self.pu_a = PENPA_PU_X_DEFAULT.copy()
         
         if not self.mode_snapshot: self.mode_snapshot = PENPA_MODE_DEFAULT.copy()
-            
+        
         if not self.sol_check: self.sol_check = PENPA_SOL_CHECK_DICT_DEFAULT.copy()
 
         if not self.sol_check_or: self.sol_check_or = PENPA_SOL_CHECK_OR_DICT_DEFAULT.copy()
@@ -226,6 +226,11 @@ class PuzzleInstance:
     regions: list[list[int]] = field(default_factory=list)           # Heyawake 的房间区域 ID
     metadata: Dict[str, Any] = field(default_factory=dict)
     
+    # =============== Penpa params end ===============
+    
+    skip_shading: bool = True
+    rows_no_margin: int = 0
+    cols_no_margin: int = 0
 
     def __repr__(self):
         """Custom format.

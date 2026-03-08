@@ -1,9 +1,14 @@
 from typing import Dict, Any, List, Optional, Union, Set
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState
+    PuzzleInstance, CellState, EdgeState, PenpaMetadata
 )
 from puzzlekit.formats.utils import generate_centerlist_diff
 
+ALLOWED_PUZZLE_TYPE = {
+    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone"
+}
+
+# allowed puzzle types 
 
 # Yajilin, Masyu, Slitherlink, heyawake, shikaku, norinori, hitori
 class PuzzlinkConverter:
@@ -26,6 +31,8 @@ class PuzzlinkConverter:
         border_list = self._decode_border()
         region_grid = self._convert_border_to_region_grid(border_list)
         number_map = self._decode_number16()
+        print(number_map)
+        print(border_list)
         grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         self._move_numbers_to_top_left_corner(grid, region_grid, number_map)
         return (self.num_rows, self.num_cols, grid, region_grid)
@@ -67,7 +74,7 @@ class PuzzlinkConverter:
     
     def decode(self) -> Dict[str, Any]:
         # 0. Parse the header url.
-        
+        print(self.url)
         self._parse_header()
         
         # If wanna add more puzzle types, just add the puzzle type to the list and implement the corresponding logic
@@ -102,8 +109,6 @@ class PuzzlinkConverter:
             self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, [0, 0, 0, 0], region_grid)
 
             print(region_grid)
-            print(self.ir_puzzle.cells)
-            print(self.ir_puzzle.edges)
             print(len(self.ir_puzzle.edges.keys()))
             print(len(self.ir_puzzle.cells.keys()))
             
@@ -115,7 +120,6 @@ class PuzzlinkConverter:
             # pu.mode_qa("pu_a");
             # pu.mode_set("surface"); //include redraw
             # UserSettings.tab_settings = ["Surface"];
-
 
         elif self.puzzle_type in ["country", "detour", "juosan", "yajilin-regions", "yajirin-regions"]:
             # toichika2, nagenawa, maxi, factors are neglected.
@@ -143,6 +147,96 @@ class PuzzlinkConverter:
             raise NotImplementedError
 
         return self.ir_puzzle
+    
+    
+    def encode(self, inst: PuzzleInstance) -> str:
+        """Encode PuzzleInstance to puzz.link url.
+
+        Args:
+            inst (PuzzleInstance): Input intermediate representation instance.
+
+        Returns:
+            str: puzz.link url.
+        """
+        mtd = PenpaMetadata()
+        
+        assert inst.grid_type in ["square"], f"Puzzle grid type must be 'square', get {inst.grid_type}."
+        assert inst.puzzle_type in ALLOWED_PUZZLE_TYPE, f"Puzzle {inst.puzzle_type} has not been implemented yet... "
+        
+        self.puzzle_type = inst.puzzle_type
+        self.num_rows, self.num_cols = inst.rows - inst.margins[0] - inst.margins[1], inst.cols - inst.margins[2] - inst.margins[3] 
+        if self.puzzle_type in ["heyawake", "shikaku", "aqre","heyawacky","shimaguni","stostone"]:
+            self.body = self._encode_heyawake_variant(inst)
+        else:
+            raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
+        
+        # _decode_heyawake_variant
+        pass
+    
+    def _encode_heyawake_variant(self, inst: PuzzleInstance):
+        border_list = self._region_grid_to_borders(inst.edges)
+        region_grid = self._convert_border_to_region_grid(border_list)
+        number_map: Dict[int, Any] = dict()
+        for k, cell_state in inst.cells.items():
+            (r_, c_) = k
+            val = int(cell_state.value) if cell_state.value.isdigit() else cell_state.value
+            number_map[int(region_grid[r_][c_])] = val
+            
+                
+        # print(region_grid)
+        # print(number_map)
+        border_str = self._encode_border(border_list)
+    
+        # 5. 编码 number_map → 16 进制字符串
+        number_str = self._encode_number16(number_map)
+        
+        # 6. 拼接 body
+        body = f"https://puzz.link/p?{inst.puzzle_type}/{inst.cols}/{inst.rows}/{border_str + number_str}"
+        print("FINAL ", body)
+        # print("EXTRACTED", border_list)
+        # comp = {1: 1, 6: 1, 12: 1, 16: 1, 18: 1, 20: 1, 24: 1, 26: 1, 28: 1, 32: 1, 34: 1, 35: 1, 39: 1, 41: 1, 47: 1, 49: 1, 50: 1, 53: 1, 54: 1, 55: 1, 56: 1, 57: 1, 60: 1, 64: 1, 65: 1, 68: 1, 70: 1, 71: 1, 74: 1, 75: 1, 80: 1, 83: 1, 89: 1, 92: 1, 93: 1, 94: 1, 95: 1, 96: 1, 97: 1, 98: 1, 99: 1, 100: 1, 103: 1, 104: 1, 105: 1, 106: 1, 108: 1, 111: 1, 112: 1, 113: 1, 114: 1, 115: 1, 117: 1, 118: 1, 120: 1, 121: 1, 122: 1, 123: 1, 126: 1, 127: 1, 129: 1, 130: 1, 131: 1, 132: 1, 134: 1, 139: 1, 141: 1, 143: 1, 144: 1, 145: 1, 146: 1, 147: 1, 148: 1, 150: 1, 154: 1, 155: 1, 157: 1, 159: 1, 160: 1, 161: 1, 162: 1, 164: 1, 165: 1, 168: 1, 174: 1, 175: 1, 176: 1, 177: 1, 178: 1}
+        # for k_ , v_ in comp.items():
+        #     if k_ not in border_list:
+        #         print(k_)
+        # assert len(comp.keys()) == len(border_list.keys())
+        
+        
+        pass
+    
+    
+    def _region_grid_to_borders(self, edges_dict: Dict[Any, List[EdgeState]]) -> Dict[int, int]:
+        """
+        Reconstruct edge dict from region_grid.
+        
+        Reverse operation of _decode_border
+        
+        Returns:
+            {border_id: 1}  # 1 
+        """
+        border_list = {}
+        # calculate vertical cells offset
+        num_vert_borders = self.num_rows * (self.num_cols - 1)
+        
+        for (p1, p2), edge_state in edges_dict.items():
+            # only handle "bolder line" edges (edge_type = 2 ==> black border)
+            if not edge_state.connected or edge_state.edge_type != 2:
+                continue
+            
+            (r1, c1), (r2, c2) = p1, p2
+            sorted_v = sorted([(r1, c1), (r2, c2)], key=lambda x: (x[0], x[1]))
+            (r_a, c_a), (r_b, c_b) = sorted_v
+            if c_a == c_b and r_b == r_a + 1:
+                c, r = c_a - 1, r_a
+                if 0 <= r < self.num_rows and 0 <= c < self.num_cols - 1:
+                    vert_border_id = r * (self.num_cols - 1) + c 
+                    border_list[vert_border_id] = 1
+            elif r_a == r_b and c_b == c_a + 1:
+                r, c = r_a - 1, c_a
+                if 0 <= r < self.num_rows - 1 and 0 <= c < self.num_cols:
+                    horiz_border_id = num_vert_borders + r * self.num_cols + c 
+                    border_list[horiz_border_id] = 1
+        
+        return border_list
     
     def _parse_header(self):
         """Parse the header of the puzzle, such as: slither/10/10/body_str"""
@@ -200,18 +294,6 @@ class PuzzlinkConverter:
                 number = f"{number_str}{direction_map[direction]}"
             
             number_grid[row][col] = number
-            
-            # ===== For debug start =====
-            # if not self.skip_shading:
-            #     if shading_type == 0:  
-            #         shading_grid[row][col] = "L"  # Light gray
-            #     elif shading_type == 2: 
-            #         shading_grid[row][col] = "B"  # Black
-            #     elif shading_type == 1:
-            #         shading_grid[row][col] = "N"  # No shading
-            # else:
-            #     shading_grid[row][col] = "-"
-            # ===== For debug end =====
             
             if self.puzzle_type == "yajilin":
                 if shading_type == 2 and number == "-":
@@ -326,7 +408,7 @@ class PuzzlinkConverter:
             
             if char == '-':
                 number_list.append(int(self.body[index+1:index+3], 36))
-                index += 3  # 应该是3，不是2！
+                index += 3  # 
             elif char == '%':
                 number_list.append('?')
                 index += 1
@@ -343,6 +425,122 @@ class PuzzlinkConverter:
         
         self.body = self.body[index:]
         return number_list
+
+    def _encode_number16(self, number_map: Dict[int, Any]) -> str:
+        """
+        reverse operation of _decode_number16.
+        
+        参数:
+            number_map: Dict[int, Optional[int, str]]
+                    key = region_id (int 0 开始的连续/非连续整数)
+                    value = 整数 或 '?'
+        
+        返回:
+            str: 16 进制压缩字符串，可直接拼接到 body 中
+        """
+        if not number_map:
+            return ""
+        
+        result = []
+        max_region_id = max(number_map.keys())
+        current_id = 0
+        skip_count = 0
+        
+        while current_id <= max_region_id:
+            if current_id in number_map:
+                # 🔹 先输出累积的跳过
+                if skip_count > 0:
+                    result.append(self._encode_skip(skip_count))
+                    skip_count = 0
+                
+                # 🔹 输出当前值
+                val = number_map[current_id]
+                result.append(self._encode_value(val))
+            else:
+                # 🔹 累积跳过计数
+                skip_count += 1
+            
+            current_id += 1
+        
+        # 注意：末尾的跳过通常不需要编码，因为解码时字符串结束就停止
+        # 但如果需要明确跳过，可以取消下面注释
+        # if skip_count > 0:
+        #     result.append(self._encode_skip(skip_count))
+        
+        return ''.join(result)
+
+
+    def _encode_skip(self, count: int) -> str:
+        """
+        编码跳过 count 个区域，使用 g-z 字符
+        
+        映射关系:
+            g (36 进制=16) → skip 1 个
+            h (17) → skip 2 个
+            ...
+            z (35) → skip 20 个
+        
+        如果 count > 20，用多个字符拼接
+        """
+        result = []
+        while count > 0:
+            if count >= 20:
+                result.append('z')
+                count -= 20
+            else:
+                # g=1, h=2, ..., z=20
+                result.append(chr(ord('g') + count - 1))
+                count = 0
+        return ''.join(result)
+
+
+    def _encode_value(self, val: Any) -> str:
+        """
+        _read_number16 的逆函数，编码单个值
+        
+        编码格式对照表:
+        | 值范围       | 前缀 | 后缀长度 | 示例      |
+        |------------|------|---------|----------|
+        | 0-15       | 无   | 1 字符   | 'a'      |
+        | 16-255     | -    | 2 字符   | '-ff'    |
+        | 256-4095   | +    | 3 字符   | '+fff'   |
+        | 4096-8191  | =    | 3 字符   | '=000'   |
+        | 8192-12287 | %    | 3 字符   | '%000'   |
+        | 12288-77775| *    | 4 字符   | '*0000'  |
+        | 77776+     | $    | 5 字符   | '$00000' |
+        | '?'        | .    | 1 字符   | '.'      |
+        """
+        if val == '?':
+            return '.'
+        elif isinstance(val, int):
+            if 0 <= val <= 15:
+                return format(val, 'x')  # 0-9, a-f
+            elif 16 <= val <= 255:
+                return '-' + format(val, '02x')
+            elif 256 <= val <= 4095:
+                return '+' + format(val, '03x')
+            elif 4096 <= val <= 8191:
+                return '=' + format(val - 4096, '03x')
+            elif 8192 <= val <= 12287:
+                return '%' + format(val - 8192, '03x')
+            elif 12288 <= val <= 77775:
+                return '*' + format(val - 12240, '04x')  # ⚠️ 注意是 12240
+            else:  # val >= 77776
+                return '$' + format(val - 77776, '05x')
+        else:
+            # 非法值，默认用 '-' 编码 0
+            return '-'
+
+
+    
+    def _int_to_base32(self, val: int) -> str:
+        """integer -> base32 (0-9, a-v)"""
+        if 0 <= val <= 9:
+            return str(val)
+        elif 10 <= val <= 31:
+            return chr(ord('a') + val - 10)
+        else:
+            raise ValueError(f"Value {val} out of range for base32")
     
     def _decode_number16(self) -> Dict[int, int]:
         
@@ -364,9 +562,7 @@ class PuzzlinkConverter:
                 c += skip_count
                 i += 1
             else:
-                
                 i += 1
-        
         self.body = current_body[i:]
         return number_map
     
@@ -454,6 +650,44 @@ class PuzzlinkConverter:
         
         return arrows
     
+    def _encode_border(self, border_list: Dict[int, Optional[str | int]]) -> str:
+        """
+        encode border_list to base32 str
+        reverse operation of _decode_border
+        """
+        num_vert_borders = (self.num_cols - 1) * self.num_rows
+        num_horiz_borders = self.num_cols * (self.num_rows - 1)
+        total_borders = num_vert_borders + num_horiz_borders
+        
+        # 2. bitarray (each border 1 bit)
+        bits = [0] * total_borders
+        for border_id in border_list:
+            if 0 <= border_id < total_borders:
+                bits[border_id] = 1
+        
+        # 3. every 5 bits pack into 1 str of base32
+        twi = [16, 8, 4, 2, 1]  # 5 bits mask
+        result_chars = []
+        
+        # vertical border
+        for i in range(0, num_vert_borders, 5):
+            val = 0
+            for w in range(5):
+                if i + w < num_vert_borders and bits[i + w]:
+                    val |= twi[w]
+            result_chars.append(self._int_to_base32(val))
+        
+        # horizontal border
+        for i in range(num_vert_borders, total_borders, 5):
+            val = 0
+            for w in range(5):
+                if i + w < total_borders and bits[i + w]:
+                    val |= twi[w]
+            result_chars.append(self._int_to_base32(val))
+        
+        return ''.join(result_chars)
+
+    
     def _decode_border(self) -> Dict[int, int]:
         """To get the region walls of grid. e.g., heyawake, jigsaw sudoku.
 
@@ -537,7 +771,6 @@ class PuzzlinkConverter:
     
     def _convert_border_to_region_grid(self, border_list: Dict[int, int]) -> List[List[int]]:
         
-        
         rows, cols = self.num_rows, self.num_cols
         num_vert = (cols - 1) * rows
         
@@ -611,11 +844,15 @@ if __name__ == "__main__":
     PzpCvtr = PuzzlinkConverter("https://puzz.link/p?hitori/65/65/-3l-3k-3j-3i-3h-3g-3f-3e-3d-3c-3b-3a-39-38-37-36-35-34-33-32-31-30-2z-2y-2x-2w-2v-2u-2t-2s-2r-2q-2p-2o-2n-2m-2l-2k-2j-2i-2h-2g-2f-2e-2d-2c-2b-2a-29-28-27-26-25-24-23-22-21-20-1z-1y-1x-1w-1v-1u-1t-3k1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r-3j123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q-3i33557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r11-3h32547694badcfehcjilknmpkrqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o-3g557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133-3f56769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q1232-3e7799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r113355-3d7694bad8fehcjil8nmpkrqtovuxszy-11o-13-12-15-10-17-16-19-14-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1k-1r-1q1-1o325-1k-3c99bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r11335577-3b9abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q12325676-3abbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799-39badcfehcjilknmpkrqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694-38ddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bb-37defehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769aba-36ffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbdd-35fehcjil8nmpkrqtgvuxszy-11o-13-12-15-10-17-16-19g-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1c-1r-1q1-1o325-1k7694bad-1c-34hhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddff-33hijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefe-32jjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhh-31jilknmpkrqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694badcfehc-30llnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjj-2zlmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehiji-2ynnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjll-2xnmpkrqtovuxszy-11o-13-12-15-10-17-16-19-14-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1k-1r-1q1-1o325-1k7694bad8fehcjil8-2wpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnn-2vpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnm-2urrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpp-2trqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694badcfehcjilknmpk-2sttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprr-2rtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrq-2qvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrtt-2pvuxszy-11o-13-12-15-10-17-16-19g-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1pw-1r-1q1-1o325-1k7694bad-1cfehcjil8nmpkrqtw-2oxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvv-2nxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvu-2mzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxx-2lzy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694badcfehcjilknmpkrqtsvuxs-2k-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-2j-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-2i-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-2h-13-12-15-10-17-16-19-14-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1k-1r-1q1-1o325-1k7694bad8fehcjil8nmpkrqtovuxszy-11o-2g-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-2f-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-2e-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-2d-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694badcfehcjilknmpkrqtsvuxszy-11-10-13-12-15-10-2c-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-2b-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-2a-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-29-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1c-1r-1q1-1o325-1k7694bad-1cfehcjil8nmpkrqtgvuxszy-11o-13-12-15-10-17-16-19g-28-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-27-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-26-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-25-1f-1e-1h-1g-1j-1i-1l-1g-1n-1m-1p-1o-1r-1q1-1o32547694badcfehcjilknmpkrqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-24-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-23-1h-1i-1j-1i-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-22-1j-1j-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-21-1j-1i-1l-1g-1n-1m-1p-1k-1r-1q1-1o325-1k7694bad8fehcjil8nmpkrqtovuxszy-11o-13-12-15-10-17-16-19-14-1b-1a-1d-18-1f-1e-1h-14-20-1l-1l-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1z-1l-1m-1n-1m-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1y-1n-1n-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1x-1n-1m-1p-1o-1r-1q1-1o32547694badcfehcjilknmpkrqtsvuxszy-11-10-13-12-15-10-17-16-19-18-1b-1a-1d-18-1f-1e-1h-1g-1j-1i-1l-1g-1w-1p-1p-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1v-1p-1q-1r-1q123256769abadefehijilmnmpqrqtuvuxyzy-11-12-13-12-15-16-17-16-19-1a-1b-1a-1d-1e-1f-1e-1h-1i-1j-1i-1l-1m-1n-1m-1u-1r-1r1133557799bbddffhhjjllnnpprrttvvxxzz-11-11-13-13-15-15-17-17-19-19-1b-1b-1d-1d-1f-1f-1h-1h-1j-1j-1l-1l-1n-1n-1p-1p-1t-1r-1q1-1o325-1k7694bad-1cfehcjil8nmpkrqtwvuxszy-11o-13-12-15-10-17-16-19g-1b-1a-1d-18-1f-1e-1h-14-1j-1i-1l-1g-1n-1m-1p-1t")
     PzpCvtr = PuzzlinkConverter("https://puzz.link/p?heyawake/20/20/00000i805541aaa2kkkdp94riaa74kse99osijh8n72hef32pq43j48464g8890gg4gk0310000007s00ov0300o07o04o0s30v0f7s2000000000vv00000fo1s8fs2007o7g0400003vvo0s3007s00411g53g2j9i844h1j5g2g6g63g5h")
     PzpCvtr = PuzzlinkConverter("https://puzz.link/p?shimaguni/10/10/884aha5h85jshipgi17vjqfmudt1buhlti1ui2h34g3m")
-    
+    PzpCvtr = PuzzlinkConverter("https://puzz.link/p?heyawake/10/10/ckpbir56acsk19mjc63grjo33g0cvv1vo37og2g31j1g22.i33k2g")
     
     res = PzpCvtr.decode()
-    from puzzlekit.formats.heyawake import HeyawakePenpaConverter
+    from puzzlekit.formats.penpa_converter import HeyawakePenpaConverter
     penpa_url = HeyawakePenpaConverter("")
-    print(penpa_url.encode(res))
+    penpa_test = penpa_url.encode(res)
+    
+    # PzpCvtr.encode(res)
+    new_pzp = PuzzlinkConverter("")
+    new_pzp.encode()
 
     

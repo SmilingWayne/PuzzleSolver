@@ -122,7 +122,7 @@ def calculate_center_n(nx: int, ny: int, size: int = 38) -> int:
     return closest_idx
 
 
-class HeyawakePenpaConverter:
+class PenpaConverter:
     """Convert Penpa to PuzzleInstance
     """
     def __init__(self, url: str):
@@ -274,8 +274,6 @@ class HeyawakePenpaConverter:
         # 3. construct text_lines
         text_lines = []
         
-        # print(original_pu_q)
-        
         to_pack_elem = [
             ",".join(map(str, [
                 inst.grid_type, inst.cols, inst.rows, mtd.size, mtd.theta, mtd.reflect[0], mtd.reflect[1],
@@ -330,7 +328,7 @@ if __name__ == "__main__":
         "m=edit&p=1VVfb9s2EH/3pyAIFEgAxbbkP7H1lqXNXtqsq70VhWAEtMRYhCXSo8g4VpB+jX2gfbHekU4txV6BPWzAIOt8+ul497szf3T1h2WaB2EfP8NRAN9wDacjd0eTsbv7+2suTMFjcmu1WLMlJ2cfmdDVOTmjITGKTOl5cGVNrnRMPljNDLlmksyVNCzIjdlUca+33W67q3Jj67rgVTdVZW9ZqFUv6kdRr3/Zk/vUFxvMfLHcXZSY6CJl8sJgol7wO9OCGaEkUfcHKtpCvpjMcpZxUqmSE15uzI6kvCgqAIjJgY/JOVlpkRFRkUw8iIyDK4G6lRWuzAhMg1VvomvCWZqTFEsKKeSK8EeWmmJHzFYRacsl1xU5E7IynGXIREl+TpjMSM4eMJ7BRAwrSCVq4AJjLnBESKCyJS5At5GsS+bw0OZBSraDxFhVWaCTCbZSkhXFrkuuCsjtY32Ppa0MgUkAZ8lTA/hWmNz3oaCYxq6W1hCpSPTXnxEMQtkNMvHrYcS4nEsjNIeSPnn3TfQWPjdKE2aNKmHyKYyzsO4XSHOerqFbTO1aO0WoZHrt5kyWBUvXBFP5SCy+0mzXDX65uQnuWVHxTrLfbItOQkMa0AjukC6+1rOvCaVBuOg81Z/ip/ouThbPQf3bwZ0c3Fn8BPY2fqKDiMYJHcBClyagoxAByPodmCIApV6A8QCBSQO4RGB0ACYTBKYHIOy7kEbWMHIxlw3EUxk3kfGr0uFwiMiwgXg232OgrdA198XZG2cjZ+fQe1APnH3rbN/ZkbPvXcw7Zz87e+3s0Nmxi7nE6XU6ycAfA+1r9P/DcA/NrL5nKaewbyjs27tq/xwbbXngIK9AGrsN6KFCqU0hJIQ1QLGSCqRx6hWCPFudil8qnb3KvgUJtwB/DLegVOi0aENGi9Yz01ptWwjIM28BS2bgyK5ysWlnApW3CRjWpsjWcMy2cx96fu7QR+ruJAqicRBOUJXTuL4K6p/9bn3RbVD/CrL8ENe3qEqvYNyMLmgA7jvvRuB+du8RvPaRfXBv97sf3C/g+rHcvfcrPsZJPQ8olvnJLUGXluoBmHoa+Az/MkvoJaGNafg3lc3U2r4IDMV15dnOfswW3R+xRW7/Mtvp4tn/DP1/dCD+B+fH415pSh/E1thHAJ8QHKAnhbXHj7QF+JGKsOCxkAA9oSVAX8sJoGNFAXgkKsD+RleY9bW0kNVrdWGpI4FhqabGkkXnGw=="
         
     ]:
-        hpc = HeyawakePenpaConverter(url = test_url)
+        hpc = PenpaConverter(url = test_url)
         tmp = hpc.decode()
         enc = hpc.encode(tmp)
         print(enc)

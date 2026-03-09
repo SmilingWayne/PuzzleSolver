@@ -223,7 +223,6 @@ class PuzzleInstance:
     boxes: List[Any] = field(default_factory=list)  # same as 'box' of penpa
     edges: Dict[tuple[Any], EdgeState] = field(default_factory=dict) # edge status
     cells: Dict[tuple[Any], CellState] = field(default_factory=dict)
-    regions: list[list[int]] = field(default_factory=list)           # Heyawake 的房间区域 ID
     metadata: Dict[str, Any] = field(default_factory=dict)
     
     # =============== Penpa params end ===============
@@ -231,7 +230,7 @@ class PuzzleInstance:
     skip_shading: bool = True
     rows_no_margin: int = 0
     cols_no_margin: int = 0
-
+    
     def __repr__(self):
         """Custom format.
         """
@@ -248,3 +247,54 @@ class PuzzleInstance:
         boxes (len):       {len(self.boxes)}
         cells (len):       {len(self.cells.keys())}
         """
+
+    def normalize(self) -> dict:
+        """Normalize IR to comparable dict.
+
+        Returns:
+            dict: _description_
+        """
+        # 1. norm cells - after sort
+        cells_normalized = {}
+        for (r, c), state in sorted(self.cells.items()):
+            cells_normalized[f"{r},{c}"] = {
+                "value": state.value,
+                "shaded": state.shaded,
+                "num_color": state.num_color,
+                "num_style": state.num_style,
+            }
+        
+        # 2. norm edges - after sort
+        edges_normalized = {}
+        for (p1, p2), state in sorted(self.edges.items()):
+            sorted_coords = tuple(sorted([p1, p2]))
+            key = f"{sorted_coords[0][0]},{sorted_coords[0][1]}-{sorted_coords[1][0]},{sorted_coords[1][1]}"
+            edges_normalized[key] = {
+                "connected": state.connected,
+                "edge_type": state.edge_type,
+            }
+        # print(len(self.cells))
+        # 3. core attributes:
+        return {
+            "grid_type": self.grid_type,
+            "puzzle_type": self.puzzle_type,
+            "rows": self.rows,
+            "cols": self.cols,
+            "margins": self.margins,
+            "cells": cells_normalized,
+            "edges": edges_normalized,
+            "boxes": self.boxes,
+        }
+    
+    def semantic_equals(self, other: 'PuzzleInstance') -> bool:
+        """
+        If two IR is semantic equal.
+        """
+        if not isinstance(other, PuzzleInstance):
+            return False
+        return self.normalize() == other.normalize()
+    
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, PuzzleInstance):
+            return False
+        return self.semantic_equals(other)

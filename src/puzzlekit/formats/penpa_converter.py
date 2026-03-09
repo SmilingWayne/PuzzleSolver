@@ -125,14 +125,9 @@ def calculate_center_n(nx: int, ny: int, size: int = 38) -> int:
 class PenpaConverter:
     """Convert Penpa to PuzzleInstance
     """
-    def __init__(self, url: str):
-        self.url = url
-        self.ir_puzzle = PuzzleInstance(
-            metadata={
-                "source": "penpa",
-                "original_url": self.url,
-            }
-        )
+    def __init__(self, config: Dict[Any, Any] = dict()):
+        self.config = config or dict()
+
     
     def index_to_coord(self, index: int, type_: str = 'edge') -> Tuple[Tuple[int, int], int]:
         """Convert the [Penpa+](https://swaroopg92.github.io/penpa-edit/) index to coordinate.
@@ -158,7 +153,14 @@ class PenpaConverter:
         else:
             return r_ * self.real_cols + c_ + self.real_cols * 2 + 2
     
-    def decode(self) -> PuzzleInstance: 
+    def decode(self, url: str) -> PuzzleInstance: 
+        self.url = url
+        self.ir_puzzle = PuzzleInstance(
+            metadata={
+                "source": "penpa",
+                "original_url": self.url,
+            }
+        )
         self.parts = decompress(b64decode(self.url[len(PENPA_PREFIX) :]), -15).decode().split("\n")
         header = self.parts[0].split(",")
         
@@ -184,7 +186,7 @@ class PenpaConverter:
         
         self.ir_puzzle.rows, self.ir_puzzle.cols = self.new_rows, self.new_cols
         
-        print(f"Puzzle shape (r, c) =  {(self.new_rows, self.new_cols)}", )
+        # print(f"Puzzle shape (r, c) =  {(self.new_rows, self.new_cols)}", )
         
         for p in range(len(self.parts)):
             if p == 1:
@@ -197,7 +199,7 @@ class PenpaConverter:
                 for k, v in self.board.items():
                     if k == "lineE":
                         self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
-                        print(self.ir_puzzle.edges)
+                        # print(self.ir_puzzle.edges)
                     elif k == "number":
                         self.ir_puzzle.cells = self._decode_number(number_dict = v)
                     else:
@@ -206,16 +208,7 @@ class PenpaConverter:
                 # decode box
                 boxes = json.loads(self.parts[p])
                 self.ir_puzzle.boxes = boxes
-        
-        check_diff = json.loads(self.parts[5])
-        new_diff = generate_centerlist_diff(
-            self.ir_puzzle.rows, 
-            self.ir_puzzle.cols, 
-            json.loads(self.parts[1])
-        )
-        
-        assert ",".join(map(str, check_diff)) == ",".join(map(str, new_diff)), "Diff list not matched!!"
-    
+
         return self.ir_puzzle
     
     def _decode_number(self, number_dict: Dict[str,  int]):
@@ -224,7 +217,7 @@ class PenpaConverter:
         new_number_dict = dict()
         for index, num_data in number_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
-            new_number_dict[(r, c)] = CellState(value = num_data[0], num_color = num_data[1], num_style = num_data[2])
+            new_number_dict[(r, c)] = CellState(value = f"{num_data[0]}", num_color = num_data[1], num_style = num_data[2])
         return new_number_dict
         
     def _decode_edge(self, edge_dict: Dict[str, int]):
@@ -314,7 +307,8 @@ class PenpaConverter:
         plain_text = "\n".join(text_lines)
         compressed = compress(plain_text.encode())[2:-4]
         
-        return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
+        return PENPA_PREFIX + b64encode(compressed).decode('ascii')
+        # return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
 
 if __name__ == "__main__":
 
@@ -328,8 +322,8 @@ if __name__ == "__main__":
         "m=edit&p=1VVfb9s2EH/3pyAIFEgAxbbkP7H1lqXNXtqsq70VhWAEtMRYhCXSo8g4VpB+jX2gfbHekU4txV6BPWzAIOt8+ul497szf3T1h2WaB2EfP8NRAN9wDacjd0eTsbv7+2suTMFjcmu1WLMlJ2cfmdDVOTmjITGKTOl5cGVNrnRMPljNDLlmksyVNCzIjdlUca+33W67q3Jj67rgVTdVZW9ZqFUv6kdRr3/Zk/vUFxvMfLHcXZSY6CJl8sJgol7wO9OCGaEkUfcHKtpCvpjMcpZxUqmSE15uzI6kvCgqAIjJgY/JOVlpkRFRkUw8iIyDK4G6lRWuzAhMg1VvomvCWZqTFEsKKeSK8EeWmmJHzFYRacsl1xU5E7IynGXIREl+TpjMSM4eMJ7BRAwrSCVq4AJjLnBESKCyJS5At5GsS+bw0OZBSraDxFhVWaCTCbZSkhXFrkuuCsjtY32Ppa0MgUkAZ8lTA/hWmNz3oaCYxq6W1hCpSPTXnxEMQtkNMvHrYcS4nEsjNIeSPnn3TfQWPjdKE2aNKmHyKYyzsO4XSHOerqFbTO1aO0WoZHrt5kyWBUvXBFP5SCy+0mzXDX65uQnuWVHxTrLfbItOQkMa0AjukC6+1rOvCaVBuOg81Z/ip/ouThbPQf3bwZ0c3Fn8BPY2fqKDiMYJHcBClyagoxAByPodmCIApV6A8QCBSQO4RGB0ACYTBKYHIOy7kEbWMHIxlw3EUxk3kfGr0uFwiMiwgXg232OgrdA198XZG2cjZ+fQe1APnH3rbN/ZkbPvXcw7Zz87e+3s0Nmxi7nE6XU6ycAfA+1r9P/DcA/NrL5nKaewbyjs27tq/xwbbXngIK9AGrsN6KFCqU0hJIQ1QLGSCqRx6hWCPFudil8qnb3KvgUJtwB/DLegVOi0aENGi9Yz01ptWwjIM28BS2bgyK5ysWlnApW3CRjWpsjWcMy2cx96fu7QR+ruJAqicRBOUJXTuL4K6p/9bn3RbVD/CrL8ENe3qEqvYNyMLmgA7jvvRuB+du8RvPaRfXBv97sf3C/g+rHcvfcrPsZJPQ8olvnJLUGXluoBmHoa+Az/MkvoJaGNafg3lc3U2r4IDMV15dnOfswW3R+xRW7/Mtvp4tn/DP1/dCD+B+fH415pSh/E1thHAJ8QHKAnhbXHj7QF+JGKsOCxkAA9oSVAX8sJoGNFAXgkKsD+RleY9bW0kNVrdWGpI4FhqabGkkXnGw=="
         
     ]:
-        hpc = PenpaConverter(url = test_url)
-        tmp = hpc.decode()
+        hpc = PenpaConverter(dict())
+        tmp = hpc.decode(test_url)
         enc = hpc.encode(tmp)
         print(enc)
         

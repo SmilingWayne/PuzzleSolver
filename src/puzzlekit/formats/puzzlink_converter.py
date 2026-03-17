@@ -1,12 +1,16 @@
 from typing import Dict, Any, List, Optional, Union, Set
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState
+    PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor
 )
-from puzzlekit.formats.utils import generate_centerlist_diff
+from puzzlekit.formats.utils import (
+    generate_centerlist_diff, index_to_coord, coord_to_index, auto_border_split
+)
+import math
 import logging
 
 ALLOWED_PUZZLE_TYPE = {
-    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone"
+    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone",
+    "nonogram",  
 }
 # allowed puzzle types 
 
@@ -22,15 +26,76 @@ class PuzzlinkConverter:
     def __init__(self, config: Dict[Any, Any] = dict()):
         self.config = config or {}
 
+    def _decode_nonogram_variant(self):
+        self.body = self.url.split("/")[-1]
+        number_map = self._decode_number16()
+        # print(number_map)
+        max_cols_offset = math.ceil(self.num_cols / 2)
+        max_rows_offset = math.ceil(self.num_rows / 2)
+        
+        rows_offset, cols_offset = 0, 0
+        for k, v in number_map.items():
+            if k < max_rows_offset * self.num_cols:
+                rows_offset = max(rows_offset, int(k % max_rows_offset) + 1)
+            else:
+                cols_offset = max(cols_offset, int((k - max_rows_offset * self.num_cols) % max_cols_offset) + 1)
+
+        cell_dict, edge_dict = dict(), dict()
+        
+        for k, v in number_map.items():
+            if k < max_rows_offset * self.num_cols:
+                row_idx = rows_offset - k % max_rows_offset - 1
+                col_idx = cols_offset + int(k / max_rows_offset)
+                cell_dict[(row_idx, col_idx)] = CellState(
+                    value = f"{v}",
+                    num_color = NumberColor.BLACK,
+                    num_style = "1"
+                )
+            else:
+                row_idx = rows_offset + int((k - max_rows_offset * self.num_cols) / max_cols_offset)
+                col_idx = cols_offset - (k - max_rows_offset * self.num_cols) % max_cols_offset - 1
+                cell_dict[(row_idx, col_idx)] = CellState(
+                    value = f"{v}",
+                    num_color = NumberColor.BLACK,
+                    num_style = "1"
+                )
+
+        self.ir_puzzle.puzzle_type = "nonogram"
+        self.ir_puzzle.title = self.puzzle_type
+        self.ir_puzzle.rows = self.num_rows + rows_offset
+        self.ir_puzzle.cols = self.num_cols + cols_offset
+        self.ir_puzzle.margins = [rows_offset, 0, cols_offset, 0]
+        self.ir_puzzle.source = self.url
+        self.ir_puzzle.cells = cell_dict
+        self.ir_puzzle.edges = auto_border_split(self.num_rows + rows_offset + 4, self.num_cols + cols_offset + 4, [rows_offset, 0, cols_offset, 0])
+        self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
+
+    
     def _decode_heyawake_variant(self):
         border_list = self._decode_border()
         region_grid, _ = self._convert_border_to_region_grid(border_list)
         number_map = self._decode_number16()
-        # logger.info(f"Number Map: {number_map}", )
-        # logger.info(f"Border_list: {border_list}")
         grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         self._move_numbers_to_top_left_corner(grid, region_grid, number_map)
-        return (self.num_rows, self.num_cols, grid, region_grid)
+        
+        self.ir_puzzle.puzzle_type = "heyawake"
+        self.ir_puzzle.title = self.puzzle_type
+        self.ir_puzzle.rows = self.num_rows
+        self.ir_puzzle.cols = self.num_cols
+        self.ir_puzzle.margins = [0, 0, 0, 0]
+        self.ir_puzzle.source = self.url
+        self.ir_puzzle.cells = self._reindex_number(self.num_rows, self.num_cols, [0, 0, 0, 0], grid, skip = "-")
+        self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, [0, 0, 0, 0], region_grid)
+        
+        # puzzlink_pu.drawBorder(pu, info_edge, 2); // 2 is for Black Style
+        # puzzlink_pu.drawNumbers(pu, info_number, 1, "1") // Black Style, Normal submode is 1
+        self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
+        # return (self.num_rows, self.num_cols, grid, region_grid)
+        # NOTE:
+        # // Change to Solution Tab
+        # pu.mode_qa("pu_a");
+        # pu.mode_set("surface"); //include redraw
+        # UserSettings.tab_settings = ["Surface"];
     
     def _reindex_number(self, r: int, c: int, margins: List[int], 
                      grid: List[List[str]], skip: Set[str] = set(),
@@ -43,7 +108,7 @@ class PuzzlinkConverter:
                 if grid[r_][c_] not in skip:
                     # idx = pad_index + r_ * (c + 4 + left_m + right_m) + (c_ + 2 + left_m)
                     # res_dict[f"{idx}"] = [grid[r_][c_], color, submode]
-                    new_number_dict[(r_ + top_m, c_ + left_m)] = CellState(value = grid[r_][c_], num_color = color, num_style = style)
+                    new_number_dict[(r_ + top_m, c_ + left_m)] = CellState(value = grid[r_][c_], num_color =  NumberColor(color), num_style = style)
         return new_number_dict
     
     def _reindex_edge(self, r: int, c: int, margins: List[int],
@@ -107,24 +172,10 @@ class PuzzlinkConverter:
             "shimaguni",
             "stostone"
         ]:
-            _, _, grid, region_grid = self._decode_heyawake_variant()
-            self.ir_puzzle.title = self.puzzle_type
-            self.ir_puzzle.rows = self.num_rows
-            self.ir_puzzle.cols = self.num_cols
-            self.ir_puzzle.margins = [0, 0, 0, 0]
-            self.ir_puzzle.source = self.url
-            self.ir_puzzle.cells = self._reindex_number(self.num_rows, self.num_cols, [0, 0, 0, 0], grid, skip = "-")
-            self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, [0, 0, 0, 0], region_grid)
+            self._decode_heyawake_variant()
             
-            # puzzlink_pu.drawBorder(pu, info_edge, 2); // 2 is for Black Style
-            # puzzlink_pu.drawNumbers(pu, info_number, 1, "1") // Black Style, Normal submode is 1
-            self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
-            
-            # // Change to Solution Tab
-            # pu.mode_qa("pu_a");
-            # pu.mode_set("surface"); //include redraw
-            # UserSettings.tab_settings = ["Surface"];
-
+        elif self.puzzle_type in ['nonogram']:
+            self._decode_nonogram_variant()
         elif self.puzzle_type in ["country", "detour", "juosan", "yajilin-regions", "yajirin-regions"]:
             # toichika2, nagenawa, maxi, factors are neglected.
             return self.ir_puzzle
@@ -168,9 +219,19 @@ class PuzzlinkConverter:
         
         self.puzzle_type = inst.puzzle_type
         self.num_rows, self.num_cols = inst.rows - inst.margins[0] - inst.margins[1], inst.cols - inst.margins[2] - inst.margins[3] 
-        if self.puzzle_type in ["heyawake", "shikaku", "aqre","heyawacky","shimaguni","stostone"]:
-            self.body = self._encode_heyawake_variant(inst)
-            return self.body
+        if self.puzzle_type in [
+            "heyawake",
+            "shikaku", 
+            "aqre",
+            "heyawacky",
+            "shimaguni",
+            "stostone"
+        ]:
+            body_str = self._encode_heyawake_variant(inst)
+            return body_str
+        elif self.puzzle_type in ['nonogram']:
+            body_str = self._encode_nonogram_variant(inst)
+            return body_str
         else:
             raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
         
@@ -186,16 +247,71 @@ class PuzzlinkConverter:
             number_map[int(region_grid[r_][c_])] = val
             
         border_str = self._encode_border(border_list)
-    
         # 5. number_map → number16 
         number_str = self._encode_number16(number_map, max_region_id)
-        logger.info(f"{region_grid}")
         
         # 6. concat body
         body = f"https://puzz.link/p?{inst.puzzle_type}/{inst.cols}/{inst.rows}/{border_str + number_str}"
         return body
     
-    
+    def _encode_nonogram_variant(self, inst: PuzzleInstance):
+        rows_offset = inst.margins[0]  # top margin
+        cols_offset = inst.margins[2]  # left margin
+        
+        # 2. 计算原始网格大小（不含 margin）
+        num_rows = inst.rows - rows_offset
+        num_cols = inst.cols - cols_offset
+        
+        # 3. 计算 max offsets（与解码逻辑一致）
+        max_rows_offset = math.ceil(num_rows / 2)
+        max_cols_offset = math.ceil(num_cols / 2)
+        
+        # 4. 构建 number_map
+        number_map: Dict[int, Any] = dict()
+        
+        for (r, c), cell_state in inst.cells.items():
+            if not cell_state.value or cell_state.value.strip() in ['-', '']:
+                continue
+            
+            # 解析数字值
+            val = cell_state.value.strip()
+            if val == '?':
+                number_val = '?'
+            else:
+                # 尝试解析为整数
+                try:
+                    number_val = int(val)
+                except ValueError:
+                    number_val = val
+            
+            # 判断是行提示还是列提示
+            if r < rows_offset:
+                # 行提示（顶部 margin）
+                # 解码公式：row_idx = rows_offset - k % max_rows_offset - 1
+                #          col_idx = cols_offset + int(k / max_rows_offset)
+                # 编码反向：k = (col_idx - cols_offset) * max_rows_offset + (rows_offset - row_idx - 1)
+                k = (c - cols_offset) * max_rows_offset + (rows_offset - r - 1)
+                number_map[k] = number_val
+                
+            elif c < cols_offset:
+                k_offset = (r - rows_offset) * max_cols_offset + (cols_offset - c - 1)
+                k = max_rows_offset * num_cols + k_offset
+                number_map[k] = number_val
+            else:
+                # 网格内部，忽略（nonogram 的数字只在 margin 区域）
+                pass
+        
+        # 5. 编码 number_map 为 base16 字符串
+        # 需要找到最大的 k 值来确定 max_region_id
+        max_k = max(number_map.keys()) if number_map else 0
+        number_str = self._encode_number16(number_map, max_k)
+        
+        # 6. 构建完整的 puzz.link URL
+        body_str = number_str
+        url = f"https://puzz.link/p?nonogram/{num_cols}/{num_rows}/{body_str}"
+        print(url)
+        return url
+
     def _region_grid_to_borders(self, edges_dict: Dict[Any, List[EdgeState]]) -> Dict[int, int]:
         """
         Reconstruct edge dict from region_grid.
@@ -457,7 +573,7 @@ class PuzzlinkConverter:
         # cuz the grid is actually not affected and str ends. Yet the last char is kept here for completeness.
         if skip_count > 0:
             result.append(self._encode_skip(skip_count))
-        logger.info(''.join(result))
+        # logger.info(''.join(result))
         return ''.join(result)
 
 
@@ -521,8 +637,6 @@ class PuzzlinkConverter:
         else:
             # 非法值，默认用 '-' 编码 0
             return '-'
-
-
     
     def _int_to_base32(self, val: int) -> str:
         """integer -> base32 (0-9, a-v)"""
@@ -820,17 +934,27 @@ class PuzzlinkConverter:
 
     
 if __name__ == "__main__":
+    from puzzlekit.formats.penpa_converter import PenpaConverter
     PzpCvtr = PuzzlinkConverter()
     url_list = [
-        "https://puzz.link/p?heyawake/10/10/ckpbir56acsk19mjc63grjo33g0cvv1vo37og2g31j1g22.i33k2g",
-        "https://puzz.link/p?heyawake/20/20/00000i805541aaa2kkkdp94riaa74kse99osijh8n72hef32pq43j48464g8890gg4gk0310000007s00ov0300o07o04o0s30v0f7s2000000000vv00000fo1s8fs2007o7g0400003vvo0s3007s00411g53g2j9i844h1j5g2g6g63g5h",
+        # "https://puzz.link/p?heyawake/10/10/ckpbir56acsk19mjc63grjo33g0cvv1vo37og2g31j1g22.i33k2g",
+        # "https://puzz.link/p?heyawake/20/20/00000i805541aaa2kkkdp94riaa74kse99osijh8n72hef32pq43j48464g8890gg4gk0310000007s00ov0300o07o04o0s30v0f7s2000000000vv00000fo1s8fs2007o7g0400003vvo0s3007s00411g53g2j9i844h1j5g2g6g63g5h",
+        # "https://puzz.link/p?nonogram/15/11/55j111i13p55j1k55j1k121i5111h12j5k121i21111g1212h33113i111111h11113i11111i3331r111111h211211h22111i111111h211113h"
+        "https://puzz.link/p?nonogram/15/11/55j111i13p55j1k55j1k121i5111h12j5k121i21111g1212h33113i111111h11113i11111i3331r111111h211211h22111i111111h211113"
     ]
     for url in url_list:
         p_ir = PzpCvtr.decode(url)
         url_new = PzpCvtr.encode(p_ir)
-        print(url_new)
-        print(url)
+
+        
+        # penpa_cvter = PenpaConverter()
+        # penpa_str = penpa_cvter.encode(p_ir)
+        # print(penpa_str)
+        
+        # penpa_ir = PzpCvtr.decode(url_new)
+        # print(penpa_ir.cells)
         # assert url_new == url
         # from puzzlekit.formats.penpa_converter import PenpaConverter
         # penpa_url = PenpaConverter("")
         # penpa_test = penpa_url.encode(res)
+    

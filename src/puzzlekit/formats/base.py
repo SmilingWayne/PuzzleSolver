@@ -2,6 +2,40 @@ from dataclasses import dataclass, field
 from typing import Dict, Optional, Any, Tuple, List
 from functools import reduce
 import json
+from enum import Enum
+
+class NumberColor(Enum):
+    """_summary_
+
+    Args:
+        Enum (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    BLACK: int = 1
+    GREEN: int = 2
+    # ... etc
+
+class SurfaceColor(Enum):
+    """Enumeration class for **surface color**.
+
+    Args:
+        Enum (_type_): _description_
+    """
+    DARK_GREY: int = 1
+    GREY: int = 2
+    LIGHT_GREY: int = 3
+    BLACK: int = 4
+    GREEN: int = 5
+    BLUE: int = 6
+    RED: int = 7
+    YELLOW: int = 8
+    PINK: int = 9
+    ORANGE: int = 10
+    PURPLE: int = 11
+    BROWN: int = 12
+
 
 PENPA_MODE = '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}'
 PENPA_PU_X_STR = '{zR:{z_:[]},zU:{z_:[]},z8:{z_:[]},zS:{},zN:{},z1:{},zY:{},zF:{},z2:{},zT:[],z3:[],zD:[],z0:[],z5:[],zL:{},zE:{},zW:{},zC:{},z4:{},z6:[],z7:[]}'
@@ -185,8 +219,11 @@ class CellState:
     """
     value: Optional[str] = None   # Number clue
     shaded: bool = False          # black?
-    num_color: int = 1            # number color
+    # num_color: int = 1            # number color
+    num_color: Optional[NumberColor] = None            # number color
     num_style: str = "1"          # number style
+    
+    surf_color: Optional[SurfaceColor] = None 
     
 
 @dataclass
@@ -260,8 +297,9 @@ class PuzzleInstance:
             cells_normalized[f"{r},{c}"] = {
                 "value": state.value,
                 "shaded": state.shaded,
-                "num_color": state.num_color,
+                "num_color": state.num_color.value if state.num_color is not None else None,
                 "num_style": state.num_style,
+                "surf_color": state.surf_color.value if state.surf_color is not None else None
             }
         
         # 2. norm edges - after sort
@@ -277,7 +315,7 @@ class PuzzleInstance:
         # 3. core attributes:
         return {
             "grid_type": self.grid_type,
-            "puzzle_type": self.puzzle_type,
+            # "puzzle_type": self.puzzle_type,
             "rows": self.rows,
             "cols": self.cols,
             "margins": self.margins,

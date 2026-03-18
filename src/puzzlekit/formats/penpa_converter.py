@@ -1,10 +1,17 @@
 from puzzlekit.formats.base import (
     PuzzleInstance, CellState, EdgeState,
-    PenpaMetadata, COMPRESS_SUB, NumberColor, SurfaceColor
+    COMPRESS_SUB, NumberColor, SurfaceColor
+)
+from puzzlekit.formats.penpa_template import (
+    PENPA_FIXED_FIELDS as fixed,
+    PENPA_PU_X_DEFAULT,
+    get_penpa_template,
+    penpa_str_to_dict
 )
 from puzzlekit.formats.utils import generate_centerlist_diff
 from typing import Any, Dict, List, Optional, Tuple, Union
 import json
+import ast
 from base64 import b64decode, b64encode
 from functools import reduce
 from zlib import compress, decompress
@@ -203,7 +210,6 @@ class PenpaConverter:
                 for k, v in self.board.items():
                     if k == "lineE":
                         self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
-                        # print(self.ir_puzzle.edges)
                     elif k == "number":
                         self._decode_number(number_dict = v)
                     elif k == "surface":
@@ -214,6 +220,9 @@ class PenpaConverter:
                 # decode box
                 boxes = json.loads(self.parts[p])
                 self.ir_puzzle.boxes = boxes
+            elif p == 17:
+                genre_tag = ast.literal_eval(self.parts[p])
+                self.ir_puzzle.puzzle_type = genre_tag[0] if len(genre_tag) > 0 else ""
             # else:
             #     print(p, self.parts[p])
 
@@ -252,8 +261,6 @@ class PenpaConverter:
                     cell.value, cell.num_color, cell.num_style = f"{num_data[0]}", NumberColor(num_data[1]), num_data[2]
                     self.ir_puzzle.cells[(r, c)] = cell
             # ELSE?
-
-            
         
     def _decode_edge(self, edge_dict: Dict[str, int]):
         new_edge_dict = {}
@@ -292,57 +299,61 @@ class PenpaConverter:
     
     def encode(self, inst: PuzzleInstance) -> str:
         """Forge the Penpa+ format url."""
-        mtd = PenpaMetadata()
-        center_n = calculate_center_n(inst.cols , inst.rows , mtd.size)
+        
+        hdr = fixed['header']
+        penpa_template = get_penpa_template(inst.puzzle_type)
+        # mtd = PenpaMetadata()
+        
+        center_n = calculate_center_n(inst.cols , inst.rows , hdr.size)
         center_list = generate_centerlist_diff(inst.rows, inst.cols, inst.margins)
         
         self.real_rows = inst.rows + 4  # penpa size after padding
         self.real_cols = inst.cols + 4
         # 1. form pu_q dict, then update
-        original_pu_q = mtd.pu_q
+        original_pu_q = PENPA_PU_X_DEFAULT.copy()
         # print(self.parts[3], "\n")
         
-        # augmented update（number/edge only: for now）
+        # ==== augmented update ======
+        # (number/edge/surface only: for now）
         original_pu_q["surface"] = self._encode_surface(inst.cells)
         original_pu_q["number"] = self._encode_number(inst.cells)
         original_pu_q["lineE"] = self._encode_edge(inst.edges)
         
         
         # 2. standard JSON serialization (compact mode)
-
         # 3. construct text_lines
         text_lines = []
         
         to_pack_elem = [
             ",".join(map(str, [
-                inst.grid_type, inst.cols, inst.rows, mtd.size, mtd.theta, mtd.reflect[0], mtd.reflect[1],
-                (inst.cols + 1) * mtd.size, (inst.rows + 1) * mtd.size, 
-                center_n, center_n, mtd.sudoku[0], mtd.sudoku[1], mtd.sudoku[2], mtd.sudoku[3],
+                inst.grid_type, inst.cols, inst.rows, hdr.size, hdr.theta, hdr.reflect[0], hdr.reflect[1],
+                (inst.cols + 1) * hdr.size, (inst.rows + 1) * hdr.size, 
+                center_n, center_n, hdr.sudoku[0], hdr.sudoku[1], hdr.sudoku[2], hdr.sudoku[3],
                 "Title: " + inst.title.replace(',', '%2C'),   # comma update
                 "Author: " + inst.author.replace(',', '%2C'), # comma update
                 inst.source.replace(',', '%2C'),
-                mtd.rules.replace(',', '%2C'),
-                mtd.border_status, mtd.multisolution,
-                mtd.bg_image_encrypted
+                hdr.rules.replace(',', '%2C'),
+                hdr.border_status, hdr.multisolution,
+                hdr.bg_image_encrypted
             ])), # Line 0: header
             to_penpa_str(inst.margins), 
-            to_penpa_str(mtd.mode),
+            to_penpa_str(penpa_str_to_dict(penpa_template["mode"])),
             to_penpa_str(original_pu_q),
-            to_penpa_str(mtd.pu_a),
+            to_penpa_str(PENPA_PU_X_DEFAULT.copy()),
             to_penpa_str(inst.boxes), 
-            to_penpa_str(mtd.tab_settings),
-            to_penpa_str(mtd.sol_check, apply_compression = False),
-            mtd.timer_placeholder,
-            mtd.comp_mode,
-            to_penpa_str(mtd.version),
-            to_penpa_str(mtd.mode_snapshot),
-            mtd.theme_placeholder,
-            mtd.custom_colors_on,
-            to_penpa_str(mtd.pu_q_col), 
-            to_penpa_str(mtd.pu_a_col), 
-            to_penpa_str(mtd.sol_check_or, apply_compression = False),
-            to_penpa_str(mtd.genre_tags),
-            mtd.custom_message
+            to_penpa_str(penpa_template['user_tab_setting']),
+            to_penpa_str(fixed['sol_check'], apply_compression = False),
+            fixed['timer_placeholder'],
+            fixed['comp_mode'],
+            to_penpa_str(fixed['version']),
+            to_penpa_str(penpa_str_to_dict(penpa_template["mode"])),
+            fixed["theme_placeholder"],
+            fixed["theme_colors_on"],
+            to_penpa_str(fixed['pu_q_col']), 
+            to_penpa_str(fixed['pu_a_col']), 
+            to_penpa_str(fixed['sol_check_or'], apply_compression = False),
+            to_penpa_str(penpa_template['genre_tags']),
+            fixed["custom_message"]
         ]
         
         for i in range(19):
@@ -360,13 +371,13 @@ class PenpaConverter:
 if __name__ == "__main__":
 
     for test_url in [
-        "m=edit&p=7Vfrb+I4EP/OX3Hy17WO2CYPIq1OlNKVqrbbXtvrFYRQXkBoIGwSSpWq//vOmCJsQ3uPSqv9sEIZzfxmMi/jsVN+WwVFQplHmUWFRy3K4OdyTluAtWxLPtvfTVplif8b7ayqaV4AM62qZek3m8tV3a/7v2fp4qG5/KPM0mqaFE3mNZnVnITRhMeTOI5dEXMvjtdcWK7DOPNsJniYRrNoEc6CVAjmuYwLzxVCxOvQ4TFz4jAOJyyaRAGlX09O6DjIyoSe3s+Ojh86617n76bdF+L2Yvxpdnx1O4vv/mJXVtosrIvMW5xfHh9ln77U/fNp5zHpJc5lmUfTLAnioO7fnT5lixNvMh2z7um0642DhVV+827aj0dXnz83Bq9FDxvPdduvO7T+4g+IIJQweDgZ0vrKf67PfRLl8zAltL4GPaFsSMl8lVVplGd5QbZYfQYcvMmB7e3YO6lHrrsBmQX8xSsP7D2wUVpEWTI62yCX/qC+oQQTOJJvI0vm+WOCwTA5lDdJARAGFSxaOU2XhApQlKs4f1i9mrLhC607/6MM8LQtA9lNGcgdKAOr+3AZSTxJng5U0B6+vMAK/Qk1jPwBlnO7Y70de+0/A73wn0nLhVfxXw6vgzfbApHvxJYu2iCKndjWRIfroq51Ubtz5aJnRat7dj3dWHflMV3UXTGmR2JMGHq0x629lTG2aq+3hDGMrshc7xFsXUOv94FxIx53DHuMp9rrxTNuxBcoK/oW+lNkx8jHQX9KfNlcJZ7RXeZhfcr7RruZh/1U4nnYP9XeyMcz6vOM+G2jn22jf21j/drGerf1/w7naL/Lhxv95kZ/ueyv8r7A+Iq9MPwJI55Af4q+Zehbht42/Nt6P7mN/VJkB/uzXT/Ytkxu3ntJTyTlkt7A3qa1kPRYUktSW9IzadOT9E7SrqQtSR1p4+J0+E/z4wekM2g58hh+/2f/svmozbAxINerYhxECZw33Xy+zMu0Sgic+aTMs1G50Y2SpyCqiL+5e6gaDVus5mECR6UCZXm+hEvRIQ9blQamk0VeJAdVCOIh+IYrVB1wFeZFbOS0DrJMr0XeATVoc1RrUFXAOazIQVHkaw2ZB9VUA5Srh+YpWRjNrAI9xeAhMKLNd+14aZAnIh8YOTA0fl3Qfv4LGq6W9bON2X9IZ1D3KIFvEirgeKT1V0qWq1EwgnYT+CqgH1H/G4Mf3g25z/LinaG3U5rwgdEH6DvTT9Eewt8YdIrWxPemGia7P9gAPTDbADXHG0D7Ew7AvSEH2BtzDr2aow6zMqcdhtobeBhKnXkD8vpVjd/YZNj4Dg=="
-        
+        "m=edit&p=7VdrT+M4FP3Or1j561jbOM7DiTRalddICFhYYFhaVSi0oQ2kTSdJAQXx3+fYudk2bZnVaLUSH6YP9+Tcm2NfX/s6Lb4tojzmwuLC4VJx/OLtCMVd3+KSvs37MinTOPyNdxflJMsBJmU5L8JOZ76oelXv9zSZPXbmfxRlhs8s7girI5yOZVkiSlKhijib54lwbOWMAysRMHjDTPpFFI2FGNsKBL3GjjMeTjj/8/CQ30dpEfOjm4fd/cfu80H3747bk/Lq9P7Tw/751cPo+qs4t5JObp2manZytr+bfvpS9U4m3af4IPbOimw4SeNoFFW966OXdHaoxpN7sXc02VP30cwqvqnL4Gn3/PPnnT7FOdh5rYKw6vLqS9hngnFm4yvYgFfn4Wt1ElYXvLqAiXEx4Gy6SMtkmKVZzhquOq5vtAEPlvDa2DXaq0lhAZ8SBrwBHCb5MI1vj2vmLOxXl5zpvnfN3RqyafYU68702PT1MJveJZq4i0qkqJgkc8YlDMVilD0uyFUM3njV/bkIINJEoGEdgUZbItCB/b8RBIO3NyTnL8RwG/Z1OFdLqJbwInxFexq+Ms/CrQ7WtMkf85zWpbAkroVNBO4R5s4b0x6a1jbtJYR5JU27b1rLtK5pj43PAfqzA59LIVhoY9UEATB6AJaWAHYJS2C/xgK8TbwAbze8CxwQhqasNWHn0mkw9B3Sx+aVrk0YvEu8gy3sImqDscddRRj6Luk7Hpd6ojR2MQaPxuDC3yN/F/o+6bvQ90nfw3gUjceDjyIfDz6KfHzEqChG3wb2CKMvRX0p+ATko3zuWKQZuMD1OMGhNNU+4Lhj1/rggMnHltyRtSY47tD8gOOOW2uCAyYfF5oeabrw8Zvc+dwO6tjxC0xzpfNoUYwWYtEryGCda5pDlNNmDZjcCZpDlFUpSMfW+aV5sDH/Td51fm3yt+HfrAGda0n6EvrNetB5l00ewTdrAzEi38tcO9QX4v1nnXjw95rc6ZySvin7xCudL4pRQcfkDov92iz5PdM6pvXMVvD1DvypPfrfd92/DqePGdMHW/vt/uIGO312scjvo2HMcOyxIktvi/r6Nn6JhiUL6+N31dLiZovpXYxzY4VKs2yOR4FtCo2pRSbjWZbHW02ajEfj96S0aYvUXZaP1sb0HKVpOxbz5NOi6nOrRZU5DqWV6yjPs+cWM43KSYtYOcBaSvFsbTLLqD3E6DFa6226nI63HfbCzLcvOc6rX88oH/oZRSfK+mhV8KMNx6zxLP9BwVka1+ktZQfsDyrPinUb/06RWbGu8xsVRQ92s6iA3VJXwK6XFlCb1QXkRoEB906N0arrZUaPar3S6K42io3uarXe9FnzP44Ndr4D"
     ]:
         hpc = PenpaConverter(dict())
         tmp = hpc.decode(test_url)
         # print("\n\n", tmp.cells)
         enc = hpc.encode(tmp)
+        print(tmp)
         print(enc)
         # b = hpc.decode(enc)
         # print(enc)

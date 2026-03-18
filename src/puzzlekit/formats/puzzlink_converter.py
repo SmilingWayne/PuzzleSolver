@@ -10,7 +10,7 @@ import logging
 
 ALLOWED_PUZZLE_TYPE = {
     "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone",
-    "nonogram",  
+    "nonogram",  "ayeheya"
 }
 # allowed puzzle types 
 
@@ -77,7 +77,7 @@ class PuzzlinkConverter:
         number_map = self._decode_number16()
         grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         self._move_numbers_to_top_left_corner(grid, region_grid, number_map)
-        
+
         self.ir_puzzle.puzzle_type = "heyawake"
         self.ir_puzzle.title = self.puzzle_type
         self.ir_puzzle.rows = self.num_rows
@@ -170,10 +170,10 @@ class PuzzlinkConverter:
             "aqre",
             "heyawacky",
             "shimaguni",
-            "stostone"
+            "stostone",
+            "ayeheya"
         ]:
             self._decode_heyawake_variant()
-            
         elif self.puzzle_type in ['nonogram']:
             self._decode_nonogram_variant()
         elif self.puzzle_type in ["country", "detour", "juosan", "yajilin-regions", "yajirin-regions"]:
@@ -225,6 +225,7 @@ class PuzzlinkConverter:
             "aqre",
             "heyawacky",
             "shimaguni",
+            "ayeheya",
             "stostone"
         ]:
             body_str = self._encode_heyawake_variant(inst)
@@ -937,10 +938,7 @@ if __name__ == "__main__":
     from puzzlekit.formats.penpa_converter import PenpaConverter
     PzpCvtr = PuzzlinkConverter()
     url_list = [
-        # "https://puzz.link/p?heyawake/10/10/ckpbir56acsk19mjc63grjo33g0cvv1vo37og2g31j1g22.i33k2g",
-        # "https://puzz.link/p?heyawake/20/20/00000i805541aaa2kkkdp94riaa74kse99osijh8n72hef32pq43j48464g8890gg4gk0310000007s00ov0300o07o04o0s30v0f7s2000000000vv00000fo1s8fs2007o7g0400003vvo0s3007s00411g53g2j9i844h1j5g2g6g63g5h",
-        # "https://puzz.link/p?nonogram/15/11/55j111i13p55j1k55j1k121i5111h12j5k121i21111g1212h33113i111111h11113i11111i3331r111111h211211h22111i111111h211113h"
-        "https://puzz.link/p?nonogram/15/11/55j111i13p55j1k55j1k121i5111h12j5k121i21111g1212h33113i111111h11113i11111i3331r111111h211211h22111i111111h211113"
+        "https://puzz.link/p?stostone/10/14/0001ail18seopri14284g90i10006co37saag11g280000000000g44gch"
     ]
     for url in url_list:
         p_ir = PzpCvtr.decode(url)

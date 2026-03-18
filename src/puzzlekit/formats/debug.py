@@ -351,21 +351,14 @@ def _compare_edges_detail(edges1: Dict, edges2: Dict) -> List[str]:
 
 if __name__ == "__main__":
     # 测试 URL
-    PUZZLINK_URL = "https://puzz.link/p?nonogram/15/11/55j111i13p55j1k55j1k121i5111h12j5k121i21111g1212h33113i111111h11113i11111i3331r111111h211211h22111i111111h211113h"
-    PENPA_URL = "m=edit&p=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"
+    PUZZLINK_URL = "https://puzz.link/p?stostone/10/14/0001ail18seopri14284g90i10006co37saag11g280000000000g44gch"
+    PENPA_URL = "m=edit&p=7VdrT+M4FP3Or1j561jbOM7DiTRalddICFhYYFhaVSi0oQ2kTSdJAQXx3+fYudk2bZnVaLUSH6YP9+Tcm2NfX/s6Lb4tojzmwuLC4VJx/OLtCMVd3+KSvs37MinTOPyNdxflJMsBJmU5L8JOZ76oelXv9zSZPXbmfxRlhs8s7girI5yOZVkiSlKhijib54lwbOWMAysRMHjDTPpFFI2FGNsKBL3GjjMeTjj/8/CQ30dpEfOjm4fd/cfu80H3747bk/Lq9P7Tw/751cPo+qs4t5JObp2manZytr+bfvpS9U4m3af4IPbOimw4SeNoFFW966OXdHaoxpN7sXc02VP30cwqvqnL4Gn3/PPnnT7FOdh5rYKw6vLqS9hngnFm4yvYgFfn4Wt1ElYXvLqAiXEx4Gy6SMtkmKVZzhquOq5vtAEPlvDa2DXaq0lhAZ8SBrwBHCb5MI1vj2vmLOxXl5zpvnfN3RqyafYU68702PT1MJveJZq4i0qkqJgkc8YlDMVilD0uyFUM3njV/bkIINJEoGEdgUZbItCB/b8RBIO3NyTnL8RwG/Z1OFdLqJbwInxFexq+Ms/CrQ7WtMkf85zWpbAkroVNBO4R5s4b0x6a1jbtJYR5JU27b1rLtK5pj43PAfqzA59LIVhoY9UEATB6AJaWAHYJS2C/xgK8TbwAbze8CxwQhqasNWHn0mkw9B3Sx+aVrk0YvEu8gy3sImqDscddRRj6Luk7Hpd6ojR2MQaPxuDC3yN/F/o+6bvQ90nfw3gUjceDjyIfDz6KfHzEqChG3wb2CKMvRX0p+ATko3zuWKQZuMD1OMGhNNU+4Lhj1/rggMnHltyRtSY47tD8gOOOW2uCAyYfF5oeabrw8Zvc+dwO6tjxC0xzpfNoUYwWYtEryGCda5pDlNNmDZjcCZpDlFUpSMfW+aV5sDH/Td51fm3yt+HfrAGda0n6EvrNetB5l00ewTdrAzEi38tcO9QX4v1nnXjw95rc6ZySvin7xCudL4pRQcfkDov92iz5PdM6pvXMVvD1DvypPfrfd92/DqePGdMHW/vt/uIGO312scjvo2HMcOyxIktvi/r6Nn6JhiUL6+N31dLiZovpXYxzY4VKs2yOR4FtCo2pRSbjWZbHW02ajEfj96S0aYvUXZaP1sb0HKVpOxbz5NOi6nOrRZU5DqWV6yjPs+cWM43KSYtYOcBaSvFsbTLLqD3E6DFa6226nI63HfbCzLcvOc6rX88oH/oZRSfK+mhV8KMNx6zxLP9BwVka1+ktZQfsDyrPinUb/06RWbGu8xsVRQ92s6iA3VJXwK6XFlCb1QXkRoEB906N0arrZUaPar3S6K42io3uarXe9FnzP44Ndr4D"
     plc = Plc()
     ppc = Ppc()
     ir1 = plc.decode(PUZZLINK_URL)
     ir2 = ppc.decode(PENPA_URL)
     # debug_roundtrip(plc, PUZZLINK_URL, "Puzzlink Nonogram", skip_compare=['source', 'metadata'])
     
-    # # 如果解码成功，打印 nonogram 专项信息
-    # try:
-    #     ir = plc.decode(PUZZLINK_URL)
-    #     debug_nonogram_specific(ir)
-    # except Exception as e:
-    #     print(f"⚠️  Could not run nonogram debug: {e}")
-        
-    
+
     print("\n🔍 Cross-comparing IR1 vs IR2:")
     is_equal, diffs = compare_ir(ir1, ir2, ignore_fields=['source', 'metadata'])

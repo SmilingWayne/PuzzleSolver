@@ -15,6 +15,8 @@ class NumberColor(Enum):
     """
     BLACK: int = 1
     GREEN: int = 2
+    CIRCLE_BLACK: int = 6
+    WHITE_ON_BLACK: int = 7
     # ... etc
 
 class SurfaceColor(Enum):
@@ -76,20 +78,6 @@ PENPA_PU_X_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0
 
 
 @dataclass
-class CellState:
-    """
-    Cell status
-    """
-    value: Optional[str] = None   # Number clue
-    shaded: bool = False          # black?
-    # num_color: int = 1            # number color
-    num_color: Optional[NumberColor] = None            # number color
-    num_style: str = "1"          # number style
-    
-    surf_color: Optional[SurfaceColor] = None 
-    
-
-@dataclass
 class EdgeState:
     """Edge Status
     
@@ -102,6 +90,41 @@ class EdgeState:
     edge_type: int = 2            # default = 2
     # blacked: bool = False         # black border
     # deleted: bool = False         # delete mark
+    
+@dataclass
+class SymbolState:
+    """_summary_
+    """
+    symbol_index: int = 0
+    symbol_type: str = "circle_L"
+    symbol_style: int = 1
+    
+    def to_dict(self) -> dict:
+        """Convert to dict.
+
+        Returns:
+            dict: dict of symbol_index, symbol_type, symbol_style
+        """
+        return {
+            "symbol_index": self.symbol_index,
+            "symbol_type": self.symbol_type,
+            "symbol_style": self.symbol_style
+        }
+    
+@dataclass
+class CellState:
+    """
+    Cell status
+    """
+    value: Optional[str] = None   # Number clue
+    shaded: bool = False          # black?
+    # num_color: int = 1            # number color
+    num_color: Optional[NumberColor] = None            # number color
+    num_style: str = "1"          # number style
+    
+    surf_color: Optional[SurfaceColor] = None 
+    symbol: Optional[SymbolState] = None
+    
 
 
 @dataclass
@@ -162,7 +185,8 @@ class PuzzleInstance:
                 "shaded": state.shaded,
                 "num_color": state.num_color.value if state.num_color is not None else None,
                 "num_style": state.num_style,
-                "surf_color": state.surf_color.value if state.surf_color is not None else None
+                "surf_color": state.surf_color.value if state.surf_color is not None else None,
+                "symbol": state.symbol.to_dict() if state.symbol is not None else None
             }
         
         # 2. norm edges - after sort

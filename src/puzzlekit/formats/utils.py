@@ -1,6 +1,9 @@
 from typing import List, Tuple
 from puzzlekit.formats.base import EdgeState
 
+
+# ====================  PENPA UTILS ============================
+
 def auto_border_split(rr: int, rc: int, margins: List[int] = [0, 0, 0, 0], intervals = 5):
     """
     Automatically split the grid into more readiable style via adding edges.
@@ -80,6 +83,98 @@ def coord_to_index(rr: int, rc: int, coord: Tuple[int, int] ,type_: str) -> Tupl
     else:
         return r_ * rc + c_ + rc * 2 + 2
 
+def calculate_center_n(nx: int, ny: int, size: int = 38) -> int:
+    """
+    Simulate search_center() logic of penpa+
+    return center_n (point index)
+    """
+    nx0, ny0 = nx + 4, ny + 4  # internal grid size
+    
+    # 1. centerlist (visible cell centers, type=0)
+    centerlist = [i + j * nx0 for j in range(2, ny0 - 2) for i in range(2, nx0 - 2)]
+    
+    # 2. Geometry center（based on cell center pixel coords）
+    coords = [((idx % nx0 + 0.5) * size, (idx // nx0 + 0.5) * size) for idx in centerlist]
+    xmin, xmax = min(c[0] for c in coords), max(c[0] for c in coords)
+    ymin, ymax = min(c[1] for c in coords), max(c[1] for c in coords)
+    geo_center = ((xmin + xmax) / 2, (ymin + ymax) / 2)
+    
+    # 3. search all point for nearest
+    min_dist = float('inf')
+    closest_idx = 0
+    base = nx0 * ny0  # points per type
+    
+    # Type 0: Cell Centers
+    for j in range(ny0):
+        for i in range(nx0):
+            k = i + j * nx0
+            x, y = (i + 0.5) * size, (j + 0.5) * size
+            dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+            if dist < min_dist:
+                min_dist, closest_idx = dist, k
+    
+    # Type 1: Vertices
+    for j in range(ny0):
+        for i in range(nx0):
+            k = base + i + j * nx0
+            x = (i + 0.5) * size + 0.5 * size
+            y = (j + 0.5) * size + 0.5 * size
+            dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+            if dist < min_dist:
+                min_dist, closest_idx = dist, k
+    
+    # Type 2: H-Edge Mids (y direction offset)
+    for j in range(ny0):
+        for i in range(nx0):
+            k = 2*base + i + j * nx0
+            x = (i + 0.5) * size
+            y = (j + 0.5) * size + 0.5 * size
+            dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+            if dist < min_dist:
+                min_dist, closest_idx = dist, k
+    
+    # Type 3: V-Edge Mids (x direction offset)
+    for j in range(ny0):
+        for i in range(nx0):
+            k = 3*base + i + j * nx0
+            x = (i + 0.5) * size + 0.5 * size
+            y = (j + 0.5) * size
+            dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+            if dist < min_dist:
+                min_dist, closest_idx = dist, k
+    
+    # Type 4,5 omit 
+    offsets_4 = [(-0.25, -0.25), (0.25, -0.25), (-0.25, 0.25), (0.25, 0.25)]
+    for j in range(ny0):
+        for i in range(nx0):
+            base_k = 4*base + 4*(i + j * nx0)
+            cx = (i + 0.5) * size
+            cy = (j + 0.5) * size
+            for subidx, (ox, oy) in enumerate(offsets_4):
+                k = base_k + subidx
+                x = cx + ox * size
+                y = cy + oy * size
+                dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+                if dist < min_dist:
+                    min_dist, closest_idx = dist, k
+    
+    # ========== Type 5: Compass Points (r=0.3, 4 per cell) ==========
+    # Order: N, E, W, S (up, right, left, down)
+    offsets_5 = [(0, -0.3), (0.3, 0), (-0.3, 0), (0, 0.3)]
+    for j in range(ny0):
+        for i in range(nx0):
+            base_k = 8*base + 4*(i + j * nx0)
+            cx = (i + 0.5) * size
+            cy = (j + 0.5) * size
+            for subidx, (ox, oy) in enumerate(offsets_5):
+                k = base_k + subidx
+                x = cx + ox * size
+                y = cy + oy * size
+                dist = (x - geo_center[0])**2 + (y - geo_center[1])**2
+                if dist < min_dist:
+                    min_dist, closest_idx = dist, k
+    
+    return closest_idx
 
 def generate_centerlist_diff(rows: int, cols: int, margins: List[int] = [0, 0, 0, 0]):
     """

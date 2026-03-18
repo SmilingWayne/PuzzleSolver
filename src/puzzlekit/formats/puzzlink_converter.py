@@ -9,8 +9,9 @@ import math
 import logging
 
 ALLOWED_PUZZLE_TYPE = {
-    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone",
-    "nonogram",  "ayeheya"
+    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", 
+    "nonogram",  
+    "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki"
 }
 # allowed puzzle types 
 
@@ -97,6 +98,72 @@ class PuzzlinkConverter:
         # pu.mode_set("surface"); //include redraw
         # UserSettings.tab_settings = ["Surface"];
     
+    def _decode_nurikabe_variant(self):
+        """
+        Decode nurikabe-type puzzles (number-only, no region borders in puzz.link format).
+
+        Puzzle types and their differences:
+        ┌─────────────┬───────────┬────────────────────────────┐
+        │ Type        │ Style     │ "?" handling               │
+        ├─────────────┼───────────┼────────────────────────────┤
+        │ nurikabe    │ BLACK (1) │ shown as "?"               │
+        │ kurochute   │ BLACK (1) │ shown as "?"               │
+        │ kurodoko    │ CIRCLE (6)│ hidden (treated as empty)  │
+        │ kurotto     │ CIRCLE (6)│ hidden                     │
+        │ nurimisaki  │ CIRCLE (6)│ hidden                     │
+        └─────────────┴───────────┴────────────────────────────┘
+        """
+        number_map = self._decode_number16()
+
+        # JS: number_style = type !== "kurochute" && type !== "nurikabe" ? 6 : 1
+        if self.puzzle_type in ["nurikabe", "kurochute"]:
+            num_color = NumberColor.BLACK        # style = 1
+            hide_question = False                # "?" 显示为 "?"
+        else:
+            num_color = NumberColor.CIRCLE_BLACK # style = 6
+            hide_question = True                 # "?" 隐藏（不放入 IR）
+
+        cell_dict = {}
+
+        for k, v in number_map.items():
+            row_idx = k // self.num_cols
+            col_idx = k % self.num_cols
+
+            # 越界保护（decode_number16 不限制上界）
+            if row_idx >= self.num_rows or col_idx >= self.num_cols:
+                continue
+
+            # JS: number = hide_ques && value === "?" ? " " : value
+            # if v == '?' and hide_question:
+            #     continue  # 直接跳过，IR 中不存储
+            if not hide_question:
+                cell_dict[(row_idx, col_idx)] = CellState(
+                    value = str(v) ,     # "?" 原样保留（nurikabe/kurochute）
+                    num_color= num_color,
+                    num_style="1"
+                )
+            else:
+                cell_dict[(row_idx, col_idx)] = CellState(
+                    value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
+                    num_color= num_color,
+                    num_style="1"
+                )
+
+        # 填充 IR
+        self.ir_puzzle.puzzle_type = self.puzzle_type
+        self.ir_puzzle.title      = self.puzzle_type
+        self.ir_puzzle.rows       = self.num_rows
+        self.ir_puzzle.cols       = self.num_cols
+        self.ir_puzzle.margins    = [0, 0, 0, 0]
+        self.ir_puzzle.source     = self.url
+        self.ir_puzzle.cells      = cell_dict
+        self.ir_puzzle.edges      = {}   # 此类谜题无区域边线
+        self.ir_puzzle.boxes      = generate_centerlist_diff(
+            self.ir_puzzle.rows,
+            self.ir_puzzle.cols,
+            self.ir_puzzle.margins
+        )
+    
     def _reindex_number(self, r: int, c: int, margins: List[int], 
                      grid: List[List[str]], skip: Set[str] = set(),
                      color: int = 1, style: str = "1"):
@@ -176,6 +243,8 @@ class PuzzlinkConverter:
             self._decode_heyawake_variant()
         elif self.puzzle_type in ['nonogram']:
             self._decode_nonogram_variant()
+        elif self.puzzle_type in ['kurochute', "kurodoko", "kurotto", "nurikabe", "nurimisaki"]:
+            self._decode_nurikabe_variant()
         elif self.puzzle_type in ["country", "detour", "juosan", "yajilin-regions", "yajirin-regions"]:
             # toichika2, nagenawa, maxi, factors are neglected.
             return self.ir_puzzle
@@ -232,6 +301,9 @@ class PuzzlinkConverter:
             return body_str
         elif self.puzzle_type in ['nonogram']:
             body_str = self._encode_nonogram_variant(inst)
+            return body_str
+        elif self.puzzle_type in ["nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki"]:
+            body_str = self._encode_nurikabe_variant(inst)
             return body_str
         else:
             raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
@@ -311,6 +383,61 @@ class PuzzlinkConverter:
         body_str = number_str
         url = f"https://puzz.link/p?nonogram/{num_cols}/{num_rows}/{body_str}"
         print(url)
+        return url
+    
+    def _encode_nurikabe_variant(self, inst: PuzzleInstance):
+        """
+        Encode nurikabe-type PuzzleInstance to puzz.link URL.
+        
+        Encoding logic:
+        - No border data (unlike heyawake)
+        - Numbers encoded via _encode_number16
+        - "?" kept for nurikabe/kurochute, hidden for others (not in IR, skipped)
+        
+        Args:
+            inst: PuzzleInstance with cells containing number clues.
+        
+        Returns:
+            str: puzz.link URL, e.g. "https://puzz.link/p?nurikabe/7/7/2o2o3n8j1k5h2k"
+        """
+        top_m = inst.margins[0]
+        left_m = inst.margins[2]
+        
+        # Step 1: Build flat number_map {k: value}
+        #         k = row_in_grid * num_cols + col_in_grid
+        number_map: Dict[int, Any] = {}
+        
+        for (r, c), cell_state in inst.cells.items():
+            if not cell_state.value:
+                continue
+            
+            val = cell_state.value
+            # if not val:
+            #     print
+
+            r_grid = r - top_m
+            c_grid = c - left_m
+            
+            if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
+                continue
+            
+            k = r_grid * self.num_cols + c_grid
+            
+            # "?" is kept as '?'（_encode_value 会将其编码为 '.'）
+            if val == '?' or val == " ":
+                number_map[k] = '?'
+            else:
+                try:
+                    number_map[k] = int(val)
+                except ValueError:
+                    number_map[k] = val
+        
+        # Step 2: Encode to base16 string
+        # max_k get the last cell with number to avoid redundent skip
+        max_k = max(number_map.keys()) if number_map else 0
+        body_str = self._encode_number16(number_map, max_k)
+        
+        url = f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         return url
 
     def _region_grid_to_borders(self, edges_dict: Dict[Any, List[EdgeState]]) -> Dict[int, int]:
@@ -618,6 +745,7 @@ class PuzzlinkConverter:
         | 77776+     | $    | 5 字符   | '$00000' |
         | '?'        | .    | 1 字符   | '.'      |
         """
+        
         if val == '?':
             return '.'
         elif isinstance(val, int):
@@ -938,11 +1066,16 @@ if __name__ == "__main__":
     from puzzlekit.formats.penpa_converter import PenpaConverter
     PzpCvtr = PuzzlinkConverter()
     url_list = [
-        "https://puzz.link/p?stostone/10/14/0001ail18seopri14284g90i10006co37saag11g280000000000g44gch"
+        # "https://puzz.link/p?nurikabe/7/7/2o2o3n8j1k5h2k",
+        "https://puzz.link/p?nurikabe/10/10/j2m3i2i2h.j6t4k..k3t6j.h4i4i2m2j",
+        
     ]
     for url in url_list:
         p_ir = PzpCvtr.decode(url)
+        logger.info(p_ir)
+        logger.info(p_ir.cells)
         url_new = PzpCvtr.encode(p_ir)
+        logger.info(url_new)
 
         
         # penpa_cvter = PenpaConverter()

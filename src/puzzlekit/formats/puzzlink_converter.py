@@ -1,6 +1,6 @@
 from typing import Dict, Any, List, Optional, Union, Set
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor
+    PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor, SymbolState, NumberState
 )
 from puzzlekit.formats.utils import (
     generate_centerlist_diff, index_to_coord, coord_to_index, auto_border_split
@@ -11,7 +11,8 @@ import logging
 ALLOWED_PUZZLE_TYPE = {
     "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", 
     "nonogram",  
-    "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki"
+    "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki",
+    "moonsun", "masyu", "mashu", "pearl"
 }
 # allowed puzzle types 
 
@@ -48,17 +49,21 @@ class PuzzlinkConverter:
                 row_idx = rows_offset - k % max_rows_offset - 1
                 col_idx = cols_offset + int(k / max_rows_offset)
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    value = f"{v}",
-                    num_color = NumberColor.BLACK,
-                    num_style = "1"
+                    number = NumberState(
+                        value = f"{v}",
+                        number_color = NumberColor.BLACK,
+                        number_style = "1"
+                    )
                 )
             else:
                 row_idx = rows_offset + int((k - max_rows_offset * self.num_cols) / max_cols_offset)
                 col_idx = cols_offset - (k - max_rows_offset * self.num_cols) % max_cols_offset - 1
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    value = f"{v}",
-                    num_color = NumberColor.BLACK,
-                    num_style = "1"
+                    number = NumberState(
+                        value = f"{v}",
+                        number_color = NumberColor.BLACK,
+                        number_style = "1"
+                    )
                 )
 
         self.ir_puzzle.puzzle_type = "nonogram"
@@ -78,8 +83,9 @@ class PuzzlinkConverter:
         number_map = self._decode_number16()
         grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         self._move_numbers_to_top_left_corner(grid, region_grid, number_map)
-
-        self.ir_puzzle.puzzle_type = "heyawake"
+        
+        # puzzle_type
+        self.ir_puzzle.puzzle_type = self.puzzle_type
         self.ir_puzzle.title = self.puzzle_type
         self.ir_puzzle.rows = self.num_rows
         self.ir_puzzle.cols = self.num_cols
@@ -91,12 +97,6 @@ class PuzzlinkConverter:
         # puzzlink_pu.drawBorder(pu, info_edge, 2); // 2 is for Black Style
         # puzzlink_pu.drawNumbers(pu, info_number, 1, "1") // Black Style, Normal submode is 1
         self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
-        # return (self.num_rows, self.num_cols, grid, region_grid)
-        # NOTE:
-        # // Change to Solution Tab
-        # pu.mode_qa("pu_a");
-        # pu.mode_set("surface"); //include redraw
-        # UserSettings.tab_settings = ["Surface"];
     
     def _decode_nurikabe_variant(self):
         """
@@ -138,15 +138,25 @@ class PuzzlinkConverter:
             #     continue  # 直接跳过，IR 中不存储
             if not hide_question:
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    value = str(v) ,     # "?" 原样保留（nurikabe/kurochute）
-                    num_color= num_color,
-                    num_style="1"
+                    number = NumberState(
+                        value = str(v), # "?" 原样保留（nurikabe/kurochute）
+                        number_color = num_color,
+                        number_style = "1"
+                    )
+                    # value = str(v) ,     
+                    # num_color= num_color,
+                    # num_style="1"
                 )
             else:
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
-                    num_color= num_color,
-                    num_style="1"
+                    number = NumberState(
+                        value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
+                        number_color = num_color,
+                        number_style = "1"
+                    )
+                    # value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
+                    # num_color= num_color,
+                    # num_style="1"
                 )
 
         # 填充 IR
@@ -163,20 +173,100 @@ class PuzzlinkConverter:
             self.ir_puzzle.cols,
             self.ir_puzzle.margins
         )
-    
-    def _reindex_number(self, r: int, c: int, margins: List[int], 
-                     grid: List[List[str]], skip: Set[str] = set(),
-                     color: int = 1, style: str = "1"):
+        
+    def _reindex_cells(
+        self,
+        r: int,
+        c: int,
+        margins: List[int],
+        grid: List[List[str]],
+        skip: Optional[Set[str]] = None,
+        symbol_dict: Optional[Dict[str, SymbolState]] = None,
+        color: int = 1,
+        style: str = "1",
+        parse_number: bool = True,
+        parse_symbol: bool = True,
+    ) -> Dict[tuple[int, int], CellState]:
+        """
+        Reindex grid content into unified CellState dict.
 
-        new_number_dict = dict()
+        Rules:
+        - If value in `skip`, do not emit cell.
+        - If `parse_symbol` and value exists in `symbol_dict`, emit symbol cell.
+        - Else if `parse_number`, emit number cell using (value, color, style).
+        - Else ignore this grid value.
+        """
+        skip = skip or set()
+        symbol_dict = symbol_dict or {}
+        new_cell_dict: Dict[tuple[int, int], CellState] = {}
         top_m, bottom_m, left_m, right_m = margins
+
         for r_ in range(r):
             for c_ in range(c):
-                if grid[r_][c_] not in skip:
-                    # idx = pad_index + r_ * (c + 4 + left_m + right_m) + (c_ + 2 + left_m)
-                    # res_dict[f"{idx}"] = [grid[r_][c_], color, submode]
-                    new_number_dict[(r_ + top_m, c_ + left_m)] = CellState(value = grid[r_][c_], num_color =  NumberColor(color), num_style = style)
-        return new_number_dict
+                token = grid[r_][c_]
+                if token in skip:
+                    continue
+
+                coord = (r_ + top_m, c_ + left_m)
+                if parse_symbol and token in symbol_dict:
+                    new_cell_dict[coord] = CellState(symbol=symbol_dict[token])
+                elif parse_number:
+                    new_cell_dict[coord] = CellState(
+                        number = NumberState(
+                            value = token,
+                            number_color = NumberColor(color),
+                            number_style = style,
+                        )
+                        # value=token,
+                        # num_color=NumberColor(color),
+                        # num_style=style,
+                    )
+
+        return new_cell_dict
+    
+    def _reindex_symbol(
+        self,
+        r: int,
+        c: int,
+        margins: List[int],
+        grid: List[List[str]],
+        skip: Optional[Set[str]] = None,
+        symbol_dict: Optional[Dict[str, SymbolState]] = None,
+    ):
+        # Backward-compatible wrapper: symbol only.
+        return self._reindex_cells(
+            r=r,
+            c=c,
+            margins=margins,
+            grid=grid,
+            skip=skip,
+            symbol_dict=symbol_dict,
+            parse_number=False,
+            parse_symbol=True,
+        )
+    
+    def _reindex_number(
+        self,
+        r: int,
+        c: int,
+        margins: List[int],
+        grid: List[List[str]],
+        skip: Optional[Set[str]] = None,
+        color: int = 1,
+        style: str = "1",
+    ):
+        # Backward-compatible wrapper: number only.
+        return self._reindex_cells(
+            r=r,
+            c=c,
+            margins=margins,
+            grid=grid,
+            skip=skip,
+            color=color,
+            style=style,
+            parse_number=True,
+            parse_symbol=False,
+        )
     
     def _reindex_edge(self, r: int, c: int, margins: List[int],
                     region_grid: List[List[str]], skip: Set[str] = set()):
@@ -221,15 +311,15 @@ class PuzzlinkConverter:
         if self.puzzle_type in ["yajilin", "yajirin", "snakes", "hebi", "castle"]:
             return self._decode_yajilin_variant()
         elif self.puzzle_type in ["moonsun","mashu", "masyu", "pearl"]:
-            return self._decode_masyu_variant()
-        elif self.puzzle_type in ["slither", "slitherlink", "vslither"]:
-            info_number = self._decode_number4()
-            grid_matrix = self._convert_number_map_to_grid(info_number)
-            return {
-                "num_rows": self.num_rows,
-                "num_cols": self.num_cols,
-                "grid": grid_matrix
-            }
+            self._decode_masyu_variant() 
+        # elif self.puzzle_type in ["slither", "slitherlink", "vslither"]:
+        #     info_number = self._decode_number4()
+        #     grid_matrix = self._convert_number_map_to_grid(info_number)
+        #     return {
+        #         "num_rows": self.num_rows,
+        #         "num_cols": self.num_cols,
+        #         "grid": grid_matrix
+        #     }
             
         elif self.puzzle_type in [
             "heyawake", 
@@ -305,6 +395,9 @@ class PuzzlinkConverter:
         elif self.puzzle_type in ["nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki"]:
             body_str = self._encode_nurikabe_variant(inst)
             return body_str
+        elif self.puzzle_type in ["moonsun", "masyu", "pearl", "mashu"]:
+            body_str = self._encode_masyu_variant(inst)
+            return body_str
         else:
             raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
         
@@ -316,7 +409,7 @@ class PuzzlinkConverter:
         number_map: Dict[int, Any] = dict()
         for k, cell_state in inst.cells.items():
             (r_, c_) = k
-            val = int(cell_state.value) if cell_state.value.isdigit() else cell_state.value
+            val = int(cell_state.number.value) if cell_state.number.value.isdigit() else cell_state.number.value
             number_map[int(region_grid[r_][c_])] = val
             
         border_str = self._encode_border(border_list)
@@ -343,11 +436,11 @@ class PuzzlinkConverter:
         number_map: Dict[int, Any] = dict()
         
         for (r, c), cell_state in inst.cells.items():
-            if not cell_state.value or cell_state.value.strip() in ['-', '']:
+            if not cell_state.number.value or cell_state.number.value.strip() in ['-', '']:
                 continue
             
             # 解析数字值
-            val = cell_state.value.strip()
+            val = cell_state.number.value.strip()
             if val == '?':
                 number_val = '?'
             else:
@@ -382,7 +475,83 @@ class PuzzlinkConverter:
         # 6. 构建完整的 puzz.link URL
         body_str = number_str
         url = f"https://puzz.link/p?nonogram/{num_cols}/{num_rows}/{body_str}"
-        print(url)
+        return url
+    
+    def _encode_masyu_variant(self, inst: PuzzleInstance):
+        """
+        Encode masyu-like PuzzleInstance to puzz.link URL.
+
+        Inverse of `_decode_masyu_variant`:
+        - moonsun: border (regions) + number3
+        - others : number3 only
+        """
+        top_m = inst.margins[0]
+        left_m = inst.margins[2]
+
+        total_cells = self.num_rows * self.num_cols
+        number_list = [0] * total_cells
+
+        def _token_from_cell(cell_state: CellState) -> Optional[str]:
+            # Prefer symbol information, then fallback to number value.
+            if cell_state.symbol is not None:
+                sym = cell_state.symbol
+                if sym.symbol_type == "sun_moon":
+                    if sym.symbol_index == 1:
+                        return "o"
+                    if sym.symbol_index == 2:
+                        return "x"
+                
+                if sym.symbol_type in ["circle_L", "circle"]:
+                    # Compatible with both index conventions:
+                    # old: w=0, b=1
+                    # new: w=1, b=2
+                    if sym.symbol_index == 0:
+                        return "w"
+                    if sym.symbol_index == 1:
+                        return "w"
+                    if sym.symbol_index == 2:
+                        return "b"
+                if sym.symbol_type == "x":
+                    return "x"
+
+            if cell_state.number is not None and cell_state.number.value:
+                return str(cell_state.number.value).strip().lower()
+            return None
+
+        for (r, c), cell_state in inst.cells.items():
+            r_grid = r - top_m
+            c_grid = c - left_m
+            if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
+                continue
+
+            token = _token_from_cell(cell_state)
+            if not token or token in ["-", "", " "]:
+                continue
+
+            idx = r_grid * self.num_cols + c_grid
+            if self.puzzle_type == "moonsun":
+                if token in ["o", "sun", "moon_o", "1", "w"]:
+                    number_list[idx] = 1
+                elif token in ["x", "moon", "moon_x", "2", "b"]:
+                    number_list[idx] = 2
+            else:
+                if token in ["w", "o", "white", "1"]:
+                    number_list[idx] = 1
+                elif token in ["b", "x", "black", "2"]:
+                    number_list[idx] = 2
+
+        number3_str = self._encode_number3(number_list)
+
+        if self.puzzle_type == "moonsun":
+            border_list = self._region_grid_to_borders(inst.edges)
+            border_str = self._encode_border(border_list)
+            body_str = border_str + number3_str
+        else:
+            # logger.info(number3_str)
+            logger.info(number_list)
+            body_str = number3_str
+
+        url = f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         return url
     
     def _encode_nurikabe_variant(self, inst: PuzzleInstance):
@@ -408,12 +577,10 @@ class PuzzlinkConverter:
         number_map: Dict[int, Any] = {}
         
         for (r, c), cell_state in inst.cells.items():
-            if not cell_state.value:
+            if not cell_state.number.value:
                 continue
             
-            val = cell_state.value
-            # if not val:
-            #     print
+            val = cell_state.number.value
 
             r_grid = r - top_m
             c_grid = c - left_m
@@ -553,26 +720,60 @@ class PuzzlinkConverter:
         }
     
     def _decode_masyu_variant(self):
+        """
+        Decode masyu-like variants into PuzzleInstance (IR).
+        
+        Notes:
+        - For `moonsun`, the body contains a border section (regions) followed by number3.
+        - For other masyu-like types, the body is number3 only.
+        - This method follows the same "fill self.ir_puzzle" style as `_decode_heyawake_variant`.
+        """
+        margins = [0, 0, 0, 0]
+        region_grid = None
+
         if self.puzzle_type in ["moonsun"]:
-            
             border_list = self._decode_border()
             region_grid, _ = self._convert_border_to_region_grid(border_list)
             info_number = self._decode_number3()
-            grid = self._convert_one_two_2_white_black_grid(info_number, category = "moonsun")
-            return {
-                "num_rows": self.num_rows,
-                "num_cols": self.num_cols,
-                "grid": grid,
-                "region_grid": region_grid
-            }
+            grid = self._convert_one_two_2_white_black_grid(info_number, category="moonsun")
+            logger.info(grid)
         else:
             info_number = self._decode_number3()
             grid = self._convert_one_two_2_white_black_grid(info_number)
-            return {
-                "num_rows": self.num_rows,
-                "num_cols": self.num_cols,
-                "grid": grid
-            }
+            logger.info(grid)
+
+        # Fill IR (cells/edges mapping can be refined later by user)
+        self.ir_puzzle.puzzle_type = self.puzzle_type
+        self.ir_puzzle.title = self.puzzle_type
+        self.ir_puzzle.rows = self.num_rows
+        self.ir_puzzle.cols = self.num_cols
+        self.ir_puzzle.margins = margins
+        self.ir_puzzle.source = self.url
+        symbol_dict = {
+            "x": SymbolState(symbol_index=2, symbol_type="sun_moon", symbol_style=1),
+            "o": SymbolState(symbol_index=1, symbol_type="sun_moon", symbol_style=1),
+            "w": SymbolState(symbol_index=1, symbol_type="circle_L", symbol_style=1),
+            "b": SymbolState(symbol_index=2, symbol_type="circle_L", symbol_style=1),
+        }
+        self.ir_puzzle.cells = self._reindex_cells(
+            self.num_rows,
+            self.num_cols,
+            margins,
+            grid,
+            skip={"-"},
+            symbol_dict=symbol_dict,
+            parse_number=False, # by default, these puzzles will not have numbers.
+            parse_symbol=True,  # by default, these puzzles can and will only have symbols.
+        )
+
+        if region_grid is not None:
+            self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, margins, region_grid)
+        else:
+            self.ir_puzzle.edges = {}
+
+        self.ir_puzzle.boxes = generate_centerlist_diff(
+            self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins
+        )
     
     def _move_numbers_to_top_left_corner(self, 
                                 grid_matrix: List[List[str]], 
@@ -844,6 +1045,33 @@ class PuzzlinkConverter:
         
         self.body = self.body[len(number_list) // 3:]
         return number_list
+
+    def _encode_number3(self, number_list: List[int]) -> str:
+        """
+        Reverse operation of `_decode_number3`.
+
+        Pack every 3 trits (0/1/2) into one base36 char:
+            encoded = a*9 + b*3 + c
+        """
+        if not number_list:
+            return ""
+
+        def _int_to_base36(val: int) -> str:
+            if 0 <= val <= 9:
+                return str(val)
+            return chr(ord("a") + val - 10)
+
+        result: List[str] = []
+        i = 0
+        while i < len(number_list):
+            a = number_list[i] if i < len(number_list) else 0
+            b = number_list[i + 1] if i + 1 < len(number_list) else 0
+            c = number_list[i + 2] if i + 2 < len(number_list) else 0
+            packed = a * 9 + b * 3 + c
+            result.append(_int_to_base36(packed))
+            i += 3
+
+        return "".join(result)
     
     def _decode_yajilin_arrows(self, parsing_castle: bool = False) -> Dict[int, List[Any]]:
         """Decode Yajilin arrows (or Castle arrows)"""
@@ -1067,7 +1295,8 @@ if __name__ == "__main__":
     PzpCvtr = PuzzlinkConverter()
     url_list = [
         # "https://puzz.link/p?nurikabe/7/7/2o2o3n8j1k5h2k",
-        "https://puzz.link/p?nurikabe/10/10/j2m3i2i2h.j6t4k..k3t6j.h4i4i2m2j",
+        # "https://puzz.link/p?moonsun/17/13/ga43qcc6htvn19vfuuaeiqssmklmdkhlpp4e3vo0g0elrj9d8lbdah2l65a19d9j98qldatj8qum3bajv5aii3003390o62000403m36200030032030j000i900b120ik3023j000006401000291p100000",
+        "https://puzz.link/p?mashu/14/8/330000096960006ik00039a00010j0i0000220"
         
     ]
     for url in url_list:
@@ -1075,7 +1304,7 @@ if __name__ == "__main__":
         logger.info(p_ir)
         logger.info(p_ir.cells)
         url_new = PzpCvtr.encode(p_ir)
-        logger.info(url_new)
+        logger.info(f" -> {url_new}")
 
         
         # penpa_cvter = PenpaConverter()

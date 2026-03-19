@@ -76,6 +76,28 @@ PENPA_MODE = '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",
 PENPA_PU_X_STR = '{zR:{z_:[]},zU:{z_:[]},z8:{z_:[]},zS:{},zN:{},z1:{},zY:{},zF:{},z2:{},zT:[],z3:[],zD:[],z0:[],z5:[],zL:{},zE:{},zW:{},zC:{},z4:{},z6:[],z7:[]}'
 PENPA_PU_X_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, PENPA_PU_X_STR))
 
+@dataclass
+class NumberState:
+    """_summary_
+
+    Returns:
+        _type_: _description_
+    """
+    value: Optional[str] = None 
+    number_color: Optional[NumberColor] = None
+    number_style: str = "1"
+    
+    def to_dict(self) -> dict:
+        """Convert to dict.
+
+        Returns:
+            dict: dict of number, number_color, number_style
+        """
+        return {
+            "value": self.value,
+            "number_color": self.number_color.value if self.number_color is not None else None,
+            "number_style": self.number_style
+        }
 
 @dataclass
 class EdgeState:
@@ -116,12 +138,12 @@ class CellState:
     """
     Cell status
     """
-    value: Optional[str] = None   # Number clue
+    # value: Optional[str] = None   # Number clue
     shaded: bool = False          # black?
-    # num_color: int = 1            # number color
-    num_color: Optional[NumberColor] = None            # number color
-    num_style: str = "1"          # number style
+    # num_color: Optional[NumberColor] = None            # number color
+    # num_style: str = "1"          # number style
     
+    number: Optional[NumberState] = None
     surf_color: Optional[SurfaceColor] = None 
     symbol: Optional[SymbolState] = None
     
@@ -181,10 +203,8 @@ class PuzzleInstance:
         cells_normalized = {}
         for (r, c), state in sorted(self.cells.items()):
             cells_normalized[f"{r},{c}"] = {
-                "value": state.value,
                 "shaded": state.shaded,
-                "num_color": state.num_color.value if state.num_color is not None else None,
-                "num_style": state.num_style,
+                "number": state.number.to_dict() if state.number is not None else None,
                 "surf_color": state.surf_color.value if state.surf_color is not None else None,
                 "symbol": state.symbol.to_dict() if state.symbol is not None else None
             }

@@ -13,7 +13,8 @@ ALLOWED_PUZZLE_TYPE = {
     "nonogram",  
     "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki",
     "moonsun", "masyu", "mashu", "pearl",
-    "slither", "slitherlink", "vslither", "tslither"
+    "slither", "slitherlink", "vslither", "tslither",
+    "yajilin", "yajirin", "castle", "hebi"
 }
 # allowed puzzle types 
 
@@ -159,9 +160,6 @@ class PuzzlinkConverter:
                         number_color = num_color,
                         number_style = "1"
                     )
-                    # value = str(v) ,     
-                    # num_color= num_color,
-                    # num_style="1"
                 )
             else:
                 cell_dict[(row_idx, col_idx)] = CellState(
@@ -170,9 +168,6 @@ class PuzzlinkConverter:
                         number_color = num_color,
                         number_style = "1"
                     )
-                    # value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
-                    # num_color= num_color,
-                    # num_style="1"
                 )
 
         # 填充 IR
@@ -183,7 +178,7 @@ class PuzzlinkConverter:
         self.ir_puzzle.margins    = [0, 0, 0, 0]
         self.ir_puzzle.source     = self.url
         self.ir_puzzle.cells      = cell_dict
-        self.ir_puzzle.edges      = {}   # 此类谜题无区域边线
+        self.ir_puzzle.edges      = {}
         self.ir_puzzle.boxes      = generate_centerlist_diff(
             self.ir_puzzle.rows,
             self.ir_puzzle.cols,
@@ -332,13 +327,12 @@ class PuzzlinkConverter:
         self.num_cols: int = 0
         self.skip_shading: bool = True
         self.puzzle_type: str = ""
-        # 0. Parse the header url.
-        # logger.info(f"URL: {self.url}")
+        # .0 parse header
         self._parse_header()
         
         # If wanna add more puzzle types, just add the puzzle type to the list and implement the corresponding logic
         if self.puzzle_type in ["yajilin", "yajirin", "snakes", "hebi", "castle"]:
-            return self._decode_yajilin_variant()
+            self._decode_yajilin_variant()
         elif self.puzzle_type in ["moonsun","mashu", "masyu", "pearl"]:
             self._decode_masyu_variant() 
         elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
@@ -406,6 +400,9 @@ class PuzzlinkConverter:
             return body_str
         elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
             body_str = self._encode_slither_variant(inst)
+            return body_str
+        elif self.puzzle_type in ["yajilin", "yajirin", "castle", "hebi"]:
+            body_str = self._encode_yajilin_variant(inst)
             return body_str
         else:
             raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
@@ -689,6 +686,128 @@ class PuzzlinkConverter:
         body_str = self._encode_number4(number_map)
         return f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
 
+    def _encode_yajilin_variant(self, inst: PuzzleInstance):
+        top_m = inst.margins[0]
+        left_m = inst.margins[2]
+
+        # Config switch:
+        # - False (default): emit normal yajilin URL without "/b" section.
+        # - True: emit shade-mode yajilin URL with "/b" section.
+        with_shading = bool(self.config.get("yajilin_encode_with_shading", False))
+
+        # IR dir code (base.py): 0:n,1:w,2:e,3:s -> puzz.link: 1:up,2:down,3:left,4:right
+        ir_to_puzzlink_dir = {"0": 1, "1": 3, "2": 4, "3": 2}
+        is_castle_or_hebi = self.puzzle_type in ["castle", "hebi"]
+
+        clues: Dict[int, str] = {}
+
+        for (r, c), cell_state in inst.cells.items():
+            if cell_state.number is None or cell_state.number.value is None:
+                continue
+
+            r_grid = r - top_m
+            c_grid = c - left_m
+            if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
+                continue
+
+            raw = str(cell_state.number.value).strip()
+            if raw in ["-", "_"]:
+                raw = ""
+            if raw == "":
+                # For castle/hebi, empty clue text is still meaningful when
+                # shading exists (encoded as "."). Do not skip these cells.
+                if not is_castle_or_hebi:
+                    continue
+
+            if "_" in raw:
+                a_part, b_part = raw.split("_", 1)
+            else:
+                # Backward compatibility: pure number or pure marker.
+                a_part, b_part = raw, ""
+
+            a_part = a_part.strip()
+            b_part = b_part.strip()
+
+            direction = ir_to_puzzlink_dir.get(b_part, 0)
+
+            # a_part:
+            # - "?" means empty number in this converter's yajilin decode path.
+            # - empty means no number.
+            # - decimal string means clue number.
+            if a_part in ["", "?", "-", " "]:
+                number_hex = "."
+            else:
+                try:
+                    number_int = int(a_part)
+                except ValueError:
+                    # Non-numeric payload is ignored for puzz.link yajilin encoding.
+                    continue
+                if number_int < 0:
+                    continue
+                number_hex = format(number_int, "x")
+
+            # decodeYajilinArrows length rule inverse:
+            # - no '-' => base length 1, direction digit plus 5 means +1 digit (len 2)
+            # - '-'    => base length 3, direction digit plus 5 means +1 digit (len 4)
+            # We emit canonical shortest form that can be decoded losslessly.
+            nlen = len(number_hex)
+            if nlen <= 2:
+                prefix = ""
+                direc_code = direction + (5 if nlen == 2 else 0)
+            elif nlen <= 4:
+                prefix = "-"
+                if nlen == 3:
+                    direc_code = direction
+                else:
+                    direc_code = direction + 5
+            else:
+                # yajilin arrow format supports up to 4 hex digits in this decoder.
+                continue
+
+            token = f"{prefix}{direc_code}{number_hex}"
+
+            if self.puzzle_type == "castle":
+                # Castle stores per-clue shading prefix before direction token.
+                # 0: light gray, 1: white/none, 2: black.
+                if cell_state.surf_color == SurfaceColor.BLACK:
+                    shading_code = 2
+                elif cell_state.surf_color == SurfaceColor.LIGHT_GREY:
+                    shading_code = 0
+                else:
+                    shading_code = 1
+                token = f"{shading_code}{token}"
+
+            clues[r_grid * self.num_cols + c_grid] = token
+
+        if not clues:
+            body_str = ""
+        else:
+            body_parts: List[str] = []
+            pos = 0
+            # Keep trailing skips to match puzz.link yajilin bodies more stably.
+            end_pos = self.num_rows * self.num_cols - 1
+            while pos <= end_pos:
+                if pos in clues:
+                    body_parts.append(clues[pos])
+                    pos += 1
+                    continue
+
+                skip = 0
+                while pos <= end_pos and pos not in clues and skip < 26:
+                    skip += 1
+                    pos += 1
+                # decode side: c += int(char, 36) - 9
+                body_parts.append(chr(ord("a") + skip - 1))
+
+            body_str = "".join(body_parts)
+
+        puzzle_type = "yajilin" if self.puzzle_type == "yajirin" else self.puzzle_type
+        if is_castle_or_hebi:
+            return f"https://puzz.link/p?{puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+        if with_shading:
+            return f"https://puzz.link/p?{puzzle_type}/b/{self.num_cols}/{self.num_rows}/{body_str}"
+        return f"https://puzz.link/p?{puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+    
     def _region_grid_to_borders(self, edges_dict: Dict[Any, List[EdgeState]]) -> Dict[int, int]:
         """
         Reconstruct edge dict from region_grid.
@@ -756,50 +875,102 @@ class PuzzlinkConverter:
         if self.puzzle_type == "yajirin":
             self.puzzle_type = "yajilin"
         elif self.puzzle_type == "snakes":
-            self.puzzle_type = "hebi" 
-            # TODO: this pzl is not paid enough attention to, because neither data nor solver is implemented.
+            self.puzzle_type = "hebi"
         
         parsing_castle = (self.puzzle_type == "castle")
         arrows = self._decode_yajilin_arrows(parsing_castle)
-        
-        number_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
-        # shading_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
-        
+        margins = [0, 0, 0, 0]
+
+        cell_dict: Dict[tuple[int, int], CellState] = {}
+        edge_dict: Dict[tuple[Any], EdgeState] = {}
+
+        # puzz.link direction encoding (for yajilin arrows): 1=up,2=down,3=left,4=right
+        # IR NumberState.value direction part follows base.py:
+        # 0:n, 1:w, 2:e, 3:s, ...
+        direction_map = {1: "0", 2: "3", 3: "1", 4: "2"}
+
         for cell_index, arrow_data in arrows.items():
-            direction, number_str, shading_type = arrow_data
+            if cell_index < 0:
+                continue
+
             row = cell_index // self.num_cols
             col = cell_index % self.num_cols
-            
-            number = number_str
-            if self.skip_shading and not number_str:
-                number = "?"
-            
-            if direction != 0 and number_str:
-                direction_map = {1: "n", 2: "s", 3: "w", 4: "e"}  # 上、下、左、右
-                number = f"{number_str}{direction_map[direction]}"
-            
-            number_grid[row][col] = number
-            
-            if self.puzzle_type == "yajilin":
-                if shading_type == 2 and number == "-":
-                    number_grid[row][col] = "x"
-            elif self.puzzle_type == "castle":
-                if shading_type == 2:
-                    number_grid[row][col] = "x" if number == "-" else f"{number}x"
-                elif shading_type == 1:
-                    number_grid[row][col] = "o" if number == "-" else f"{number}o"
-            else:
-                # snake puzzle, temporary not implemented.
-                pass
-        
-        return {
-            "num_rows": self.num_rows,
-            "num_cols": self.num_cols,
-            # "puzzle_type": self.puzzle_type,
-            "grid": number_grid,  # grid + arrow matrix
-            # "shading": shading_grid,  # bg grid
-            # "arrows": arrows  # raw arrow data (ignored for now, available for debug)
-        }
+            if row >= self.num_rows or col >= self.num_cols:
+                continue
+
+            direction, number_str, shading_type = arrow_data
+            effective_shading = 2 if self.puzzle_type == "hebi" else shading_type
+
+            # number token a in "{a}_{b}".
+            # Keep JS behavior: if shading is skipped and clue has no number, render as "?".
+            a_part = number_str if number_str else ("?" if self.skip_shading else "")
+            b_part = direction_map.get(direction, "") if direction != 0 else ""
+            value = f"{a_part}_{b_part}" if (a_part or b_part) else ""
+
+            number_color = NumberColor.BLACK
+            if not self.skip_shading and effective_shading == 2:
+                # Black background uses white number style in IR, even for empty text.
+                number_color = NumberColor.WHITE_ON_BLACK
+
+            cell_state = CellState(
+                number=NumberState(
+                    value=value,
+                    number_color=number_color,
+                    number_style="2",
+                )
+            )
+
+            # Yajilin shading/background comes only in /b format.
+            if not self.skip_shading:
+                if effective_shading == 0:
+                    cell_state.surf_color = SurfaceColor.LIGHT_GREY
+                elif effective_shading == 2:
+                    cell_state.surf_color = SurfaceColor.BLACK
+
+            cell_dict[(row, col)] = cell_state
+
+            # JS line toggling for shading mode:
+            # each candidate edge is XOR-toggled (add if absent, remove if present).
+            if not self.skip_shading:
+                cell_edges = [
+                    (((row, col), (row + 1, col)), (row, col - 1)),       # left
+                    (((row, col + 1), (row + 1, col + 1)), (row, col + 1)),  # right
+                    (((row, col), (row, col + 1)), (row - 1, col)),       # top
+                    (((row + 1, col), (row + 1, col + 1)), (row + 1, col)),  # bottom
+                ]
+                for (p1, p2), adjacent_cell in cell_edges:
+                    key = (p1, p2)
+                    if key in edge_dict:
+                        if self.puzzle_type == "castle":
+                            # Castle only removes a shared border if both sides have same shading.
+                            adjacent_state = cell_dict.get(adjacent_cell)
+                            adjacent_shading = None
+                            if adjacent_state is not None:
+                                if adjacent_state.surf_color == SurfaceColor.BLACK:
+                                    adjacent_shading = 2
+                                elif adjacent_state.surf_color == SurfaceColor.LIGHT_GREY:
+                                    adjacent_shading = 0
+                                else:
+                                    adjacent_shading = 1
+                            if adjacent_shading == effective_shading:
+                                del edge_dict[key]
+                        else:
+                            # Yajilin / Hebi: shared border is always removed.
+                            del edge_dict[key]
+                    else:
+                        edge_dict[key] = EdgeState(connected=True, edge_type=2)
+
+        self.ir_puzzle.puzzle_type = self.puzzle_type
+        self.ir_puzzle.title = self.puzzle_type
+        self.ir_puzzle.rows = self.num_rows
+        self.ir_puzzle.cols = self.num_cols
+        self.ir_puzzle.margins = margins
+        self.ir_puzzle.source = self.url
+        self.ir_puzzle.cells = cell_dict
+        self.ir_puzzle.edges = edge_dict
+        self.ir_puzzle.boxes = generate_centerlist_diff(
+            self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins
+        )
     
     def _decode_masyu_variant(self):
         """
@@ -817,11 +988,9 @@ class PuzzlinkConverter:
             border_list = self._decode_border()
             info_number = self._decode_number3()
             grid = self._convert_one_two_2_white_black_grid(info_number, category="moonsun")
-            logger.info(grid)
         else:
             info_number = self._decode_number3()
             grid = self._convert_one_two_2_white_black_grid(info_number)
-            logger.info(grid)
 
         # Fill IR (cells/edges mapping can be refined later by user)
         self.ir_puzzle.puzzle_type = self.puzzle_type
@@ -1441,16 +1610,19 @@ if __name__ == "__main__":
     from puzzlekit.formats.penpa_converter import PenpaConverter
     PzpCvtr = PuzzlinkConverter()
     url_list = [
-        "https://puzz.link/p?country/12/16/jp7vd1633018180c0606gdkckcjvnjuvt410a5jag780410280o000141mgmfjmnc20gg3bum-4am35g16h"
+        "https://puzz.link/p?hebi/10/10/d0.b35c150.a44k0.a25c0.41a0.d0.e41a0.b25a0.e0.d0.a0.0.c30a23k44a0.43c0.b35d"
         
     ]
     for url in url_list:
         p_ir = PzpCvtr.decode(url)
         logger.info(p_ir)
         logger.info(p_ir.cells)
-        # url_new = PzpCvtr.encode(p_ir)
-        # logger.info(f" -> {url_new}")
-
+        url_new = PzpCvtr.encode(p_ir)
+        logger.info(f" -> {url_new}")
+        penpa = PenpaConverter()
+        penpa_url = penpa.encode(p_ir)
+        
+        logger.info(penpa_url)
         
         # penpa_cvter = PenpaConverter()
         # penpa_str = penpa_cvter.encode(p_ir)
@@ -1462,3 +1634,14 @@ if __name__ == "__main__":
         # from puzzlekit.formats.penpa_converter import PenpaConverter
         # penpa_url = PenpaConverter("")
         # penpa_test = penpa_url.encode(res)
+
+# "key": "1,1", 
+# "left":  {"shaded": true, "number": {"value": "1_2", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}, 
+# "right": {"shaded": false, "number": {"value": "1_2", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}}, 
+
+# {"key": "2,4", 
+#     "left": {"shaded": true, "number": {"value": "_", "number_color": 1, "number_style": "2"}, "surf_color": 4, "symbol": null}, 
+#     "right": {"shaded": false, "number": {"value": "", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}}, 
+# {"key": "3,1", 
+#     "left": {"shaded": false, "number": {"value": "_", "number_color": 1, "number_style": "2"}, "surf_color": 3, "symbol": null}, 
+#     "right": {"shaded": false, "number": {"value": "", "number_color": 1, "number_style": "2"}, "surf_color": 3, "symbol": null}}]

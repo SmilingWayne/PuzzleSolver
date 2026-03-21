@@ -15,11 +15,9 @@ class TestCrossFormatPenpaPuzzlink:
                 # First decode, from url -> IR1
                 converter1 = PuzzlinkConverter()
                 ir1 = converter1.decode(url_pzl)
-                print(ir1.cells)
                 # Second decode, from url2 -> IR2
                 converter2 = PenpaConverter()
                 ir2 = converter2.decode(url_ppa)
-                print(ir2.cells)
                 
                 # If IR1 ?== IR2 
                 assert ir1 == ir2, f"[Puzzlink] Puzzle {pid} wrong. URL: {url_pzl}"

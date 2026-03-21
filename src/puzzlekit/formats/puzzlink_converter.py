@@ -9,10 +9,11 @@ import math
 import logging
 
 ALLOWED_PUZZLE_TYPE = {
-    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", 
+    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", "country",
     "nonogram",  
     "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki",
-    "moonsun", "masyu", "mashu", "pearl"
+    "moonsun", "masyu", "mashu", "pearl",
+    "slither", "slitherlink", "vslither", "tslither"
 }
 # allowed puzzle types 
 
@@ -76,6 +77,20 @@ class PuzzlinkConverter:
         self.ir_puzzle.edges = auto_border_split(self.num_rows + rows_offset + 4, self.num_cols + cols_offset + 4, [rows_offset, 0, cols_offset, 0])
         self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
 
+    def _decode_slither_variant(self):
+        info_number = self._decode_number4()
+        grid = self._convert_number_map_to_grid(info_number)
+        self.ir_puzzle.puzzle_type = self.puzzle_type
+        self.ir_puzzle.title = self.puzzle_type
+        self.ir_puzzle.rows = self.num_rows
+        self.ir_puzzle.cols = self.num_cols
+        self.ir_puzzle.margins = [0, 0, 0, 0]
+        self.ir_puzzle.source = self.url
+        self.ir_puzzle.cells = self._reindex_number(self.num_rows, self.num_cols, [0, 0, 0, 0], grid, skip = "-")
+        # THINK: DO WE NEED TO ADD EDGES for pre-filled grid?
+        # NO. Because puzz.link not support edges for slither.
+        self.ir_puzzle.boxes = generate_centerlist_diff(self.ir_puzzle.rows, self.ir_puzzle.cols, self.ir_puzzle.margins)
+        
     
     def _decode_heyawake_variant(self):
         border_list = self._decode_border()
@@ -83,7 +98,6 @@ class PuzzlinkConverter:
         number_map = self._decode_number16()
         grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
         self._move_numbers_to_top_left_corner(grid, region_grid, number_map)
-        
         # puzzle_type
         self.ir_puzzle.puzzle_type = self.puzzle_type
         self.ir_puzzle.title = self.puzzle_type
@@ -92,7 +106,9 @@ class PuzzlinkConverter:
         self.ir_puzzle.margins = [0, 0, 0, 0]
         self.ir_puzzle.source = self.url
         self.ir_puzzle.cells = self._reindex_number(self.num_rows, self.num_cols, [0, 0, 0, 0], grid, skip = "-")
-        self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, [0, 0, 0, 0], region_grid)
+        # Preserve every encoded border segment directly.
+        # Reconstructing from region ids can drop non-boundary helper segments.
+        self.ir_puzzle.edges = self._reindex_border_list(self.num_rows, self.num_cols, [0, 0, 0, 0], border_list)
         
         # puzzlink_pu.drawBorder(pu, info_edge, 2); // 2 is for Black Style
         # puzzlink_pu.drawNumbers(pu, info_number, 1, "1") // Black Style, Normal submode is 1
@@ -268,24 +284,37 @@ class PuzzlinkConverter:
             parse_symbol=False,
         )
     
-    def _reindex_edge(self, r: int, c: int, margins: List[int],
-                    region_grid: List[List[str]], skip: Set[str] = set()):
+    def _reindex_border_list(self, r: int, c: int, margins: List[int], border_list: Dict[int, int]):
+        """
+        Convert puzz.link border ids directly into IR edges.
+        This keeps all border segments exactly as encoded.
+        """
         new_edge_dict = dict()
         top_m, bottom_m, left_m, right_m = margins
-        for r_ in range(r):
-            for c_ in range(c):
-                if r_ > 0:
-                    if region_grid[r_][c_] != region_grid[r_ - 1][c_]: # top
-                        new_edge_dict[((r_ + top_m, c_ + left_m) , (r_ + top_m, c_ + left_m + 1))] = EdgeState(connected = True, edge_type = 2)
-                if r_ < r - 1:
-                    if region_grid[r_][c_] != region_grid[r_ + 1][c_]: # bottom
-                        new_edge_dict[((r_ + top_m + 1, c_ + left_m) , (r_ + top_m + 1, c_ + left_m + 1))] = EdgeState(connected = True, edge_type = 2)
-                if c_ > 0:
-                    if region_grid[r_][c_] != region_grid[r_][c_ - 1]: # left
-                        new_edge_dict[((r_ + top_m, c_ + left_m) , (r_ + top_m + 1, c_ + left_m))] = EdgeState(connected = True, edge_type = 2)
-                if c_ < c - 1:
-                    if region_grid[r_][c_] != region_grid[r_][c_ + 1]: # right
-                        new_edge_dict[((r_ + top_m, c_ + left_m + 1) , (r_ + top_m + 1, c_ + left_m + 1))] = EdgeState(connected = True, edge_type = 2)
+        num_vert = (c - 1) * r
+        num_horiz = c * (r - 1)
+        total = num_vert + num_horiz
+
+        for border_id in border_list.keys():
+            if border_id < 0 or border_id >= total:
+                continue
+
+            if border_id < num_vert:
+                # Vertical border between cells (row, col) and (row, col+1)
+                row = border_id // (c - 1)
+                col = border_id % (c - 1)
+                p1 = (row + top_m, col + 1 + left_m)
+                p2 = (row + 1 + top_m, col + 1 + left_m)
+            else:
+                # Horizontal border between cells (row, col) and (row+1, col)
+                local = border_id - num_vert
+                row = local // c
+                col = local % c
+                p1 = (row + 1 + top_m, col + left_m)
+                p2 = (row + 1 + top_m, col + 1 + left_m)
+
+            new_edge_dict[(p1, p2)] = EdgeState(connected=True, edge_type=2)
+
         return new_edge_dict
 
     
@@ -312,30 +341,15 @@ class PuzzlinkConverter:
             return self._decode_yajilin_variant()
         elif self.puzzle_type in ["moonsun","mashu", "masyu", "pearl"]:
             self._decode_masyu_variant() 
-        # elif self.puzzle_type in ["slither", "slitherlink", "vslither"]:
-        #     info_number = self._decode_number4()
-        #     grid_matrix = self._convert_number_map_to_grid(info_number)
-        #     return {
-        #         "num_rows": self.num_rows,
-        #         "num_cols": self.num_cols,
-        #         "grid": grid_matrix
-        #     }
-            
-        elif self.puzzle_type in [
-            "heyawake", 
-            "shikaku", 
-            "aqre",
-            "heyawacky",
-            "shimaguni",
-            "stostone",
-            "ayeheya"
-        ]:
+        elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
+            self._decode_slither_variant()
+        elif self.puzzle_type in ["heyawake", "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", "country"]:
             self._decode_heyawake_variant()
         elif self.puzzle_type in ['nonogram']:
             self._decode_nonogram_variant()
         elif self.puzzle_type in ['kurochute', "kurodoko", "kurotto", "nurikabe", "nurimisaki"]:
             self._decode_nurikabe_variant()
-        elif self.puzzle_type in ["country", "detour", "juosan", "yajilin-regions", "yajirin-regions"]:
+        elif self.puzzle_type in ["detour", "juosan", "yajilin-regions", "yajirin-regions"]:
             # toichika2, nagenawa, maxi, factors are neglected.
             return self.ir_puzzle
         elif self.puzzle_type in ["hitori"]:
@@ -378,15 +392,7 @@ class PuzzlinkConverter:
         
         self.puzzle_type = inst.puzzle_type
         self.num_rows, self.num_cols = inst.rows - inst.margins[0] - inst.margins[1], inst.cols - inst.margins[2] - inst.margins[3] 
-        if self.puzzle_type in [
-            "heyawake",
-            "shikaku", 
-            "aqre",
-            "heyawacky",
-            "shimaguni",
-            "ayeheya",
-            "stostone"
-        ]:
+        if self.puzzle_type in ["heyawake", "shikaku",  "aqre", "heyawacky", "shimaguni", "ayeheya", "stostone", "country"]:
             body_str = self._encode_heyawake_variant(inst)
             return body_str
         elif self.puzzle_type in ['nonogram']:
@@ -398,6 +404,9 @@ class PuzzlinkConverter:
         elif self.puzzle_type in ["moonsun", "masyu", "pearl", "mashu"]:
             body_str = self._encode_masyu_variant(inst)
             return body_str
+        elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
+            body_str = self._encode_slither_variant(inst)
+            return body_str
         else:
             raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
         
@@ -407,10 +416,38 @@ class PuzzlinkConverter:
         border_list = self._region_grid_to_borders(inst.edges)
         region_grid, max_region_id = self._convert_border_to_region_grid(border_list)
         number_map: Dict[int, Any] = dict()
+
+        # Region anchor index: choose cell nearest to (0, 0).
+        # Tie-break: later in row-major order wins.
+        region_top_left: Dict[str, tuple[int, int]] = {}
+        region_best_dist2: Dict[str, int] = {}
+        for r_ in range(self.num_rows):
+            for c_ in range(self.num_cols):
+                rid = region_grid[r_][c_]
+                dist2 = r_ * r_ + c_ * c_
+                if (
+                    rid not in region_top_left
+                    or dist2 < region_best_dist2[rid]
+                    or dist2 == region_best_dist2[rid]
+                ):
+                    region_top_left[rid] = (r_, c_)
+                    region_best_dist2[rid] = dist2
+
         for k, cell_state in inst.cells.items():
             (r_, c_) = k
-            val = int(cell_state.number.value) if cell_state.number.value.isdigit() else cell_state.number.value
-            number_map[int(region_grid[r_][c_])] = val
+            if cell_state.number is None or not cell_state.number.value:
+                continue
+            if not (0 <= r_ < self.num_rows and 0 <= c_ < self.num_cols):
+                continue
+
+            rid = region_grid[r_][c_]
+            # Encode number only from region's top-left cell.
+            if region_top_left.get(rid) != (r_, c_):
+                continue
+
+            val_raw = cell_state.number.value
+            val = int(val_raw) if str(val_raw).isdigit() else val_raw
+            number_map[int(rid)] = val
             
         border_str = self._encode_border(border_list)
         # 5. number_map → number16 
@@ -607,6 +644,51 @@ class PuzzlinkConverter:
         url = f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         return url
 
+    def _encode_slither_variant(self, inst: PuzzleInstance):
+        """
+        Encode slither-like PuzzleInstance to puzz.link URL.
+
+        Reverse operation of `_decode_slither_variant` using number4 format.
+        Supported puzzle types share the same strategy:
+        - slither
+        - slitherlink
+        - vslither
+        - tslither
+        """
+        top_m = inst.margins[0]
+        left_m = inst.margins[2]
+
+        number_map: Dict[int, Union[int, str]] = {}
+        for (r, c), cell_state in inst.cells.items():
+            if cell_state.number is None or cell_state.number.value is None:
+                continue
+
+            r_grid = r - top_m
+            c_grid = c - left_m
+            if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
+                continue
+
+            raw = str(cell_state.number.value).strip()
+            if raw == "":
+                continue
+
+            if raw == "?":
+                val: Union[int, str] = "?"
+            else:
+                try:
+                    parsed = int(raw)
+                except ValueError:
+                    continue
+                if parsed < 0 or parsed > 4:
+                    continue
+                val = parsed
+
+            k = r_grid * self.num_cols + c_grid
+            number_map[k] = val
+
+        body_str = self._encode_number4(number_map)
+        return f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+
     def _region_grid_to_borders(self, edges_dict: Dict[Any, List[EdgeState]]) -> Dict[int, int]:
         """
         Reconstruct edge dict from region_grid.
@@ -729,11 +811,10 @@ class PuzzlinkConverter:
         - This method follows the same "fill self.ir_puzzle" style as `_decode_heyawake_variant`.
         """
         margins = [0, 0, 0, 0]
-        region_grid = None
+        border_list = None
 
         if self.puzzle_type in ["moonsun"]:
             border_list = self._decode_border()
-            region_grid, _ = self._convert_border_to_region_grid(border_list)
             info_number = self._decode_number3()
             grid = self._convert_one_two_2_white_black_grid(info_number, category="moonsun")
             logger.info(grid)
@@ -766,8 +847,10 @@ class PuzzlinkConverter:
             parse_symbol=True,  # by default, these puzzles can and will only have symbols.
         )
 
-        if region_grid is not None:
-            self.ir_puzzle.edges = self._reindex_edge(self.num_rows, self.num_cols, margins, region_grid)
+        if border_list is not None:
+            self.ir_puzzle.edges = self._reindex_border_list(
+                self.num_rows, self.num_cols, margins, border_list
+            )
         else:
             self.ir_puzzle.edges = {}
 
@@ -787,16 +870,23 @@ class PuzzlinkConverter:
         Parse the {RegionID: Number} and fill it into the grid_matrix at the top left corner of the region.
         """
         
-        # 1. Find the top left corner of each region
+        # 1. Find the anchor cell of each region:
+        # nearest to (0, 0); tie-break by later row-major visit.
         # region_start_points: {region_id: (r, c)}
         region_start_points = {}
+        region_best_dist2 = {}
         
         for r in range(self.num_rows):
             for c in range(self.num_cols):
                 r_id = region_grid[r][c]
-                if r_id not in region_start_points:
-                    # because the iteration is from top to bottom, and left to right
+                dist2 = r * r + c * c
+                if (
+                    r_id not in region_start_points
+                    or dist2 < region_best_dist2[r_id]
+                    or dist2 == region_best_dist2[r_id]
+                ):
                     region_start_points[r_id] = (r, c)
+                    region_best_dist2[r_id] = dist2
         
         for r_id_raw, val in number_map.items():
             r_id = str(r_id_raw)
@@ -867,13 +957,13 @@ class PuzzlinkConverter:
         """
         reverse operation of _decode_number16.
         
-        参数:
+        Parameters:
             number_map: Dict[int, Optional[int, str]]
-                    key = region_id (int 0 开始的连续/非连续整数)
-                    value = 整数 或 '?'
+                    key = region_id (int 0-based continuous/non-continuous integers)
+                    value = integer or '?'
         
-        返回:
-            str: 16 进制压缩字符串，可直接拼接到 body 中
+        Returns:
+            str: 16-based compressed string, can be directly concatenated to body.
         """
         if not number_map:
             return ""
@@ -1025,6 +1115,63 @@ class PuzzlinkConverter:
             i += 1
         
         return number_map
+
+    def _encode_number4(self, number_map: Dict[int, Union[int, str]]) -> str:
+        """
+        Reverse operation of `_decode_number4`.
+
+        Encoding table:
+        - '.'      -> '?'
+        - '0'..'4' -> value 0..4
+        - '5'..'9' -> value 0..4 plus skip 1 cell
+        - 'a'..'e' -> value 0..4 plus skip 2 cells
+        - 'g'..'z' -> skip 1..20 cells
+        """
+        if not number_map:
+            return ""
+
+        max_pos = max(number_map.keys())
+        result: List[str] = []
+        pos = 0
+
+        while pos <= max_pos:
+            if pos not in number_map:
+                skip_count = 0
+                while pos <= max_pos and pos not in number_map and skip_count < 20:
+                    skip_count += 1
+                    pos += 1
+                result.append(chr(ord("g") + skip_count - 1))
+                continue
+
+            val = number_map[pos]
+            if val == "?":
+                result.append(".")
+                pos += 1
+                continue
+
+            n = int(val)
+            if not (0 <= n <= 4):
+                pos += 1
+                continue
+
+            next_missing = (pos + 1 <= max_pos and (pos + 1) not in number_map)
+            next2_missing = (
+                pos + 2 <= max_pos
+                and (pos + 1) not in number_map
+                and (pos + 2) not in number_map
+            )
+
+            if next2_missing:
+                result.append(chr(ord("a") + n))  # a-e
+                pos += 3
+            elif next_missing:
+                result.append(str(n + 5))         # 5-9
+                pos += 2
+            else:
+                result.append(str(n))             # 0-4
+                pos += 1
+
+        return "".join(result)
     
     def _decode_number3(self, max_iter: int = -1) -> List[int]:
         """Decode number3 format (3 numbers per character)"""
@@ -1294,17 +1441,15 @@ if __name__ == "__main__":
     from puzzlekit.formats.penpa_converter import PenpaConverter
     PzpCvtr = PuzzlinkConverter()
     url_list = [
-        # "https://puzz.link/p?nurikabe/7/7/2o2o3n8j1k5h2k",
-        # "https://puzz.link/p?moonsun/17/13/ga43qcc6htvn19vfuuaeiqssmklmdkhlpp4e3vo0g0elrj9d8lbdah2l65a19d9j98qldatj8qum3bajv5aii3003390o62000403m36200030032030j000i900b120ik3023j000006401000291p100000",
-        "https://puzz.link/p?mashu/14/8/330000096960006ik00039a00010j0i0000220"
+        "https://puzz.link/p?country/12/16/jp7vd1633018180c0606gdkckcjvnjuvt410a5jag780410280o000141mgmfjmnc20gg3bum-4am35g16h"
         
     ]
     for url in url_list:
         p_ir = PzpCvtr.decode(url)
         logger.info(p_ir)
         logger.info(p_ir.cells)
-        url_new = PzpCvtr.encode(p_ir)
-        logger.info(f" -> {url_new}")
+        # url_new = PzpCvtr.encode(p_ir)
+        # logger.info(f" -> {url_new}")
 
         
         # penpa_cvter = PenpaConverter()
@@ -1317,4 +1462,3 @@ if __name__ == "__main__":
         # from puzzlekit.formats.penpa_converter import PenpaConverter
         # penpa_url = PenpaConverter("")
         # penpa_test = penpa_url.encode(res)
-    

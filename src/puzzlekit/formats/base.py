@@ -80,6 +80,11 @@ PENPA_PU_X_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0
 class NumberState:
     """_summary_
 
+    Yajilin: value: "{a}_{b}" where a is number (or str) and b is Direction.
+    b: Direction:
+    0: n; 1: w; 2: e; 3: s; 4: nw; 5: ne; 6: sw; 7: se; 
+    
+    
     Returns:
         _type_: _description_
     """

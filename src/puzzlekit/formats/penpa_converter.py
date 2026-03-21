@@ -172,23 +172,19 @@ class PenpaConverter:
 
         for index, num_data in number_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
-            if num_data[2] == "1":
-                # NORMAL 
-                if (r, c) not in self.ir_puzzle.cells:
-                    self.ir_puzzle.cells[(r, c)] = CellState(
-                        number = NumberState(
-                            value = f"{num_data[0]}", 
-                            number_color = NumberColor(num_data[1]),
-                            number_style = num_data[2]
-                        )
-                        # value = f"{num_data[0]}", 
-                        # num_color = NumberColor(num_data[1]), 
-                        # num_style = num_data[2]
+
+            if (r, c) not in self.ir_puzzle.cells:
+                self.ir_puzzle.cells[(r, c)] = CellState(
+                    number = NumberState(
+                        value = f"{num_data[0]}", 
+                        number_color = NumberColor(num_data[1]),
+                        number_style = num_data[2]
                     )
-                else:
-                    cell = self.ir_puzzle.cells[(r, c)]
-                    cell.value, cell.num_color, cell.num_style = f"{num_data[0]}", NumberColor(num_data[1]), num_data[2]
-                    self.ir_puzzle.cells[(r, c)] = cell
+                )
+            else:
+                cell = self.ir_puzzle.cells[(r, c)]
+                cell.value, cell.num_color, cell.num_style = f"{num_data[0]}", NumberColor(num_data[1]), num_data[2]
+                self.ir_puzzle.cells[(r, c)] = cell
             # ELSE?
         
     def _decode_edge(self, edge_dict: Dict[str, int]):
@@ -305,13 +301,12 @@ class PenpaConverter:
 if __name__ == "__main__":
 
     for test_url in [
-        # "m=edit&p=7Zdbb+o4EMff+RQrvx5rEydckkhHK65Hqlq2bOmyJULIgGkCCebk0rJBfPeODRW5uOfhrFbqSkuUYfiNGc/E5m8Rf09pxDCpYwubFtYxgavR0rFZN7AJWNz65Rr7ScCcX3A7TTwegeMlyT52NG2fZtNs+mvg77ba/reQxl6qkbpmaaapi5fdtJvw1vS3YE2bgiX6RvdFzDB0jH8fDPCaBjHDN0+bTm/bfu23/9IaU9N8HK6/bHqjx81q8icZ6b4W6cPA2t3d9zrBl2/Z9M5rv7A+a97HfOkFjK5oNp3cHILdwHr21qR743WtNd3p8XdrbL90Rl+/1txLP7PaMbOdrI2zb46LDITlTdAMZyPnmN05aMnDhY9w9gBxhMkMozANEn/JAx6hd5bdgkcQNsDtX92JjAuve4ZEB3948cF9AnfpR8uAzW/P5N5xszFGooCO/LZwUchfmJgMviY/n4sCsKAJrEfs+XuETQjE6Ypv08tQMjvhrP0TbUCm9zaEe25DeIo2RHf/uA3YNeyg6MCenU6wQn9AD3PHFe08Xl3r6j44R7BDaYm0T84RmTakITBNvjRUN1S0aSppC6hRocq8LeVYW+St0oaSWipKdF2JichRqYIQUUYVGyKJAisfBjFFJVVcbyorqatHN0Tu6uiW8omQliI3rONArqYh7RgWG2emtD1pdWkb0t7KMX1pJ9J2pa1L25RjWmK7/PSG+pfKcUF0heSqr8Z/PzarueghjdZ0yeCH3+Xhnsd+whCIL4p5MI/PsTk70GWCnPMhkI8U2C4NFww0K4cCzvdCQhQZ3kMF6D/veMSUIQHZ6vmjVCKkSLXg0apU0ysNgmIv8pgtoPNeL6AkAkHMfaZRxF8LJKSJVwC5M6CQie1KDzOhxRLplpZmC6+P41RDByRv18SGWMT/T8rPflKK1dI/m7x9tnLkRufRD1TnGixjhfYA/YH85KIq/oHS5KJlXpEVUWxVWYAqxAVoWV8AVSUGYEVlgH0gNCJrWWtEVWW5EVNVFEdMlRcdF8Ffh79TNKu9AQ=="
-        # "m=edit&p=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"
-        # masyu
-        "m=edit&p=7Zdbb+o4EMff+RQrvx5rEydckkhHK65Hqlq2bOmyJULIgGkCCebk0rJBfPeODRW5uOfhrFbqSkuUYfiNGc/E5m8Rf09pxDCpYwubFtYxgavR0rFZN7AJWNz65Rr7ScCcX3A7TTwegeMlyT52NG2fZtNs+mvg77ba/reQxl6qkbpmaaapi5fdtJvw1vS3YE2bgiX6RvdFzDB0jH8fDPCaBjHDN0+bTm/bfu23/9IaU9N8HK6/bHqjx81q8icZ6b4W6cPA2t3d9zrBl2/Z9M5rv7A+a97HfOkFjK5oNp3cHILdwHr21qR743WtNd3p8XdrbL90Rl+/1txLP7PaMbOdrI2zb46LDITlTdAMZyPnmN05aMnDhY9w9gBxhMkMozANEn/JAx6hd5bdgkcQNsDtX92JjAuve4ZEB3948cF9AnfpR8uAzW/P5N5xszFGooCO/LZwUchfmJgMviY/n4sCsKAJrEfs+XuETQjE6Ypv08tQMjvhrP0TbUCm9zaEe25DeIo2RHf/uA3YNeyg6MCenU6wQn9AD3PHFe08Xl3r6j44R7BDaYm0T84RmTakITBNvjRUN1S0aSppC6hRocq8LeVYW+St0oaSWipKdF2JichRqYIQUUYVGyKJAisfBjFFJVVcbyorqatHN0Tu6uiW8omQliI3rONArqYh7RgWG2emtD1pdWkb0t7KMX1pJ9J2pa1L25RjWmK7/PSG+pfKcUF0heSqr8Z/PzarueghjdZ0yeCH3+Xhnsd+whCIL4p5MI/PsTk70GWCnPMhkI8U2C4NFww0K4cCzvdCQhQZ3kMF6D/veMSUIQHZ6vmjVCKkSLXg0apU0ysNgmIv8pgtoPNeL6AkAkHMfaZRxF8LJKSJVwC5M6CQie1KDzOhxRLplpZmC6+P41RDByRv18SGWMT/T8rPflKK1dI/m7x9tnLkRufRD1TnGixjhfYA/YH85KIq/oHS5KJlXpEVUWxVWYAqxAVoWV8AVSUGYEVlgH0gNCJrWWtEVWW5EVNVFEdMlRcdF8Ffh79TNKu9AQ=="
+        "#m=edit&p=7VZdb+I4FH3nV6z8OtYmtoFCpNGKz5Gqtlu2dNkSIWSCIYGAmXy0TBD/fa4duiQhjLS70qoPoyhXJ+d++F47nBB+jXkgMGGYEMwa2MQErhqjuFqrY0Jv9G2erqEX+cL6BbfiyJUBADeKdqFlGLs4GSfjX31vuzZ2v33jKw+gQZhBiPGNmZyRHaEzQgNGVtQUjHJqckqT8RKc1FxWyZIRB+Pf+3284H4o8O3Lqt1dt956rb+M2pix54fFp1V38Lyaj/4kA9MzAvPBb2zvH7tt/9OXZHzvtl5FT9QfQ+m4vuBznoxHt3t/228s3QXp3LqdxoJvzfBrY9h8bQ8+f67Yp7EmlUPStJIWTr5YNiIIIwo3QROcDKxDcm8hR25mHsLJE/gRJhOMNrEfeY70ZYDeueQuzaYAe2c40n6FOilJTMAPJwzwBaDjBY4vpncp82jZyRAj1UBbZyuINvJVqMVUg+o5bQqIGY/gWELX2yHMwBHGc7mOT6FkcsRJ61+MAZXex1AwHUOhkjHUdP95DHhjxL5kgubkeIQT+gNmmFq2Guf5DBtn+GQdwD5YB1SvqVRzqrpUhwkVb4iulqWaVFF0amYonZijCNVhuUzCWLoAy3BVzdFcXPXUSC7uJo3Lcs1TvWxu2ksul5o6l0zh/fybIzou0x9sAtFb8aJtX1uq7RB2CidM2662prY1be90TE/bkbYdbava1nXMjdrrf3Qa/0M7NgOpunLVfnomFRs9xcGCOwJ+cx252cnQiwQC3UOh9Kdh6puKPXciZKX6m/XkuG28mQmQiwzlS7lTv96SCu+uHOkttzIQpS5FivnyWinlKik1k8G80NMb9/38LPpLl6NSucpRUQBalHnmQSDfcsyGR26OyMhvrpLYFjYz4vkW+ZoXVtuct+NYQXukb5thqg7x50fqo3+k1GmZH00cP1o7+kWXwQ9U5+ws0iXaA+wP5CfjLeOvKE3GW+QvZEU1e6kswJaIC7BFfQHqUmKAvFAZ4K4Ijapa1BrVVVFu1FIXiqOWyoqOjU5/3tGk8h0="
+        # "m=edit&p=7Vj7b6M4EP69f8XJv673YptHSKTVKX2tVLXZ9tper42iiBLyhJAlkHap+r/v2CYBwiNU6lW30grFMt98M56xHY+H1ffQ9G1MGaY6VgxMMIVHbalYV3WsNqEPPxI/N9PAsdt/4E4YTDwfOpMgWK7ajcYyjB6ihz+d6WLeWP5leeEi8H80KGtQvTFbNtdDqisKoQY1iEV0oo+Hc2tuzdaLWbgOVEpMbWaOmwaBLjOIRwihKnXH7mjmLixGxmPlMXQ/q6araGOqTzD+dnqKR6azsvHZ/ezweN55Oun829AeFOW2O/o0O766nQ3v/qFXZNrwSdcxFheXx4fOp6/Rw8Wks7ZPbP1y5VkTxzaHZvRwd/bsLE6N8WREj84mR8bIXJDVd+OmtT68+vLloBfH3z94iVrtqIOjr+0eoggjBj+K+ji6ar9EF21kee7jFOHoGuQI0z5GbugEU8tzPB9tsOhcajPoniTdOyHnvSMJUgL9btyH7j10ralvOfbgXCKX7V50gxF34FBo8y5yvbXNB+MO8nfpFACPZgDrt5pMlwgrIFiFQ28exlTaf8VRR4QRdWtGAEY2EfCujID3diNoIdx6jwhgg9nec4H3rf7rK6zO3+D/oN3jodwmXSPpXrdfoO2Klor2XrSnomWivQEqjhTRHouWiFYT7bngnIj2TrRHolVFqwtOkw/2JneQRiGSzUZLnj5uYdTkc6C1eKgqU1SIFiODY4bENCYxlWOUNjmoDPj88x0qMEGcDiRPYowI5UEzxWNMrnFCUjjAbW0hxeAQG2gpPV2TYwK25emxHzrCxhYTugrLOKIL5zJjGLrgbRC5WIg1m8I/jgMLXoV38CeMX1UR0fZVOCU3x3+5zj1FFadm/tF+4x+B9w966Dr0R6Zlw4Fx5LlLbzUNbATnNVp5zmAlZQP72bQC1JZ5Iy3JYIvQfbThrEtBjuct+dFTYGEjyoDT8cLz7UIRB+3huMwUFxWYevT84Y5PT6bjZGMRqTwDybM2AwU+HKSpd9P3vacM4prBJAOk0kbGkr3YmczAzLpozs2d0dxkOl4P0DMSv56C4frxO7n+v5MrXynyi6VYHv5niqNvGC3DgTmAiUY8p74d72LIq1hmKRZnqRJKkhYrbOyhZLJ3nsMIN5NK3CWUTHLPc+C+D2YgP++hsFqc1H0gz9FFVMlNoIzBrezlpG4UBRyNBwVmypdJUDKXlYJlaHEzqWtKCSVzlSnh/KjBMWtwZjU4mTteQegirNRVq4AidgW/VFVTlDocVo+03yEgba+DVSRSh1Q9RTEJ/jofaalyN8ak97JT7TZje7e+oFQSlL37zNDlkZBn0KakGHyzSoYobXI2JCFV/JQx5MxVU+qYeZ+h9jKqCYXpSSjutazK3VHJ2BtAtt7McbTEE1GklhDkMJUMOQ/VlMqBKO71kq9XuZK6TGFHpZ5CSqmuwlalvkKsUkdh89RS2Fh/g0KiUlvhTTFspvPNCtu1qK+wbx0o5p8TYMeJ23CxmJ948aeIRAwVRyzmJ2b84SIR61uxWiQ2UuLsvx54KcX4k0fqBCX9D7+KiwLP8yuq7US4CxfU3IBWlN0paRFeUmGnpLt4rpzmzuYrakALimpAd+tqgPKlNYC56hqwkgKbW92tsblXu2U2HypXafOh0sU23ELN2RTmC/UPfgI="
     ]:
         hpc = PenpaConverter(dict())
         tmp = hpc.decode(test_url)
+        print(tmp.cells)
         enc = hpc.encode(tmp)
         print(tmp)
         print(enc)

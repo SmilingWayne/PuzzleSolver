@@ -221,4 +221,4 @@ def convert(
     return encode(ir, dst, converter_config=encode_cfg)
 
 __all__ = ["solve", "solver", "decode", "encode", "convert", "PenpaDecodeError"]
-__version__ = '0.3.2'
+__version__ = '0.3.3'

@@ -8,7 +8,7 @@ import copy
 
 from puzzlekit.formats.base import PuzzleInstance
 from puzzlekit.formats.penpa_converter import PENPA_PREFIX, PENPA_URLPREFIX, PenpaConverter
-from puzzlekit.formats.puzzlink_converter import PuzzlinkConverter
+from puzzlekit.formats.puzzlink_converter import PuzzlinkConverter, parse_puzzlink_input
 
 
 def _read_nonempty_lines(path: str) -> List[str]:
@@ -86,10 +86,17 @@ def _normalize_penpa_url(url: str) -> str:
 
 def _detect_format(url: str) -> str:
     u = url.strip()
-    if "puzz.link/p?" in u:
-        return "puzzlink"
     if u.startswith(PENPA_PREFIX) or u.startswith(PENPA_URLPREFIX):
         return "penpa"
+    if "#" in u:
+        frag = u.split("#", 1)[1]
+        if "m=" in frag and "p=" in frag:
+            return "penpa"
+    try:
+        parse_puzzlink_input(u)
+        return "puzzlink"
+    except ValueError:
+        pass
     raise ValueError("Unknown URL format. Please provide puzz.link or penpa URL.")
 
 

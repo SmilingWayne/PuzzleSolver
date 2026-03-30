@@ -13,9 +13,12 @@ from puzzlekit.formats.utils import (
 )
 from puzzlekit.formats.puzzle_types import normalize_puzzle_type, get_penpa_genre_tags
 from typing import Any, Dict, List, Optional, Tuple, Union
+import binascii
 import json
 import ast
 import os
+import zlib
+from urllib.parse import unquote, urlsplit
 from base64 import b64decode, b64encode
 from functools import reduce
 from zlib import compress, decompress
@@ -26,6 +29,107 @@ logger = logging.getLogger(__name__)
 
 PENPA_URLPREFIX = "https://swaroopg92.github.io/penpa-edit/#"
 PENPA_PREFIX = "m=edit&p="
+
+
+class PenpaDecodeError(ValueError):
+    """Raised when a Penpa URL or payload cannot be decoded into a puzzle.
+
+    Subclass of :class:`ValueError` so callers that already handle invalid
+    input can catch one base type. The original failure is chained via
+    ``raise ... from e`` when applicable (see ``__cause__``).
+    """
+
+
+def _parse_penpa_query(fragment: str) -> List[Tuple[str, str]]:
+    """Parse a Penpa fragment into key/value pairs while preserving '+'."""
+    if not fragment:
+        return []
+
+    params: List[Tuple[str, str]] = []
+    for token in fragment.split("&"):
+        if not token:
+            continue
+        key, sep, value = token.partition("=")
+        if not sep:
+            # tolerate legacy raw payload in query parser
+            params.append(("p", unquote(key)))
+            continue
+        params.append((unquote(key), unquote(value)))
+    return params
+
+
+def parse_penpa_input(url: str) -> Dict[str, Any]:
+    """Normalize Penpa input and extract mode/p payload/additional params.
+
+    Supported forms:
+    - full URL, e.g. https://.../#m=solve&p=...
+    - fragment, e.g. #m=solve&p=...
+    - query-like, e.g. m=edit&p=...&foo=bar
+    - payload only, e.g. <base64-zlib-payload>
+    """
+    raw = (url or "").strip()
+    if not raw:
+        raise ValueError("Penpa input must be a non-empty string")
+
+    parsed = urlsplit(raw)
+    # Priority: Penpa payload is usually in fragment (#...), fallback to query (?...)
+    fragment = (parsed.fragment or "").strip()
+    query = (parsed.query or "").strip()
+
+    if fragment.startswith("?"):
+        fragment = fragment[1:]
+    if query.startswith("?"):
+        query = query[1:]
+
+    candidate = fragment or query
+    if not candidate:
+        # non-URL / simplified fragment / payload-only fallback
+        candidate = raw.split("#", 1)[1] if "#" in raw else raw
+        candidate = candidate.lstrip("#").strip()
+        if candidate.startswith("?"):
+            candidate = candidate[1:]
+
+    params_pairs: List[Tuple[str, str]] = []
+    mode = "edit"
+    payload = ""
+
+    if "=" in candidate or "&" in candidate:
+        params_pairs = _parse_penpa_query(candidate)
+        for k, v in params_pairs:
+            if k == "m":
+                mode = v
+            elif k == "p" and not payload:
+                payload = v
+        # payload-only strings may contain '=' padding and be misread as key=value
+        if not payload and all(k not in {"m", "p"} for k, _ in params_pairs):
+            payload = candidate
+            params_pairs = []
+    else:
+        payload = candidate
+
+    if not payload:
+        raise ValueError(f"Cannot parse Penpa payload from input: {url[:120]}")
+
+    raw_params: Dict[str, List[str]] = {}
+    for k, v in params_pairs:
+        raw_params.setdefault(k, []).append(v)
+
+    extra_params = {
+        k: values for k, values in raw_params.items()
+        if k not in {"m", "p"}
+    }
+
+    return {
+        "mode": mode or "edit",
+        "p_payload": payload,
+        "raw_params": raw_params,
+        "extra_params": extra_params,
+        "fragment": candidate,
+        "normalized_fragment": "&".join(
+            [f"m={mode or 'edit'}", f"p={payload}"]
+            + [f"{k}={v}" for k, vals in extra_params.items() for v in vals]
+        ),
+    }
 
 def to_penpa_str(pu_x: Optional[Dict | List], apply_compression : bool = True):
     
@@ -81,79 +185,114 @@ class PenpaConverter:
     
     def decode(self, url: str) -> PuzzleInstance: 
         self.url = url
+        try:
+            penpa_input = parse_penpa_input(url)
+        except ValueError as e:
+            raise PenpaDecodeError(
+                "Invalid Penpa input: missing or unreadable payload (expected m=…&p=… or a raw p segment)."
+            ) from e
+
         self.ir_puzzle = PuzzleInstance(
             metadata={
                 "source": "penpa",
                 "original_url": self.url,
+                "penpa_mode": penpa_input["mode"],
+                "penpa_params": penpa_input["raw_params"],
+                "penpa_extra_params": penpa_input["extra_params"],
             }
         )
-        self.parts = decompress(b64decode(self.url[len(PENPA_PREFIX) :]), -15).decode().split("\n")
-        header = self.parts[0].split(",")
 
-        assert header[0] in ("square", "sudoku", "kakuro"), f"Penpa puzzle must be in square, sudoku, kakuro, get {header[0]}"
+        try:
+            self.parts = decompress(
+                b64decode(penpa_input["p_payload"]),
+                -15
+            ).decode().split("\n")
+        except binascii.Error as e:
+            raise PenpaDecodeError(
+                "Invalid Penpa URL: the 'p' segment is not valid Base64 (truncated, wrong padding, or corrupted)."
+            ) from e
+        except zlib.error as e:
+            raise PenpaDecodeError(
+                "Invalid Penpa URL: the payload is not zlib-compressed Penpa data (wrong or corrupted bytes)."
+            ) from e
+        except UnicodeDecodeError as e:
+            raise PenpaDecodeError(
+                "Invalid Penpa payload: decompressed bytes are not valid UTF-8 text."
+            ) from e
 
-        # info collect
-        self.ir_puzzle.grid_type = "square" 
-        self.ir_puzzle.size = header[3]
-        self.ir_puzzle.title = header[15][len("Title: "):]
-        self.ir_puzzle.author = header[16][len("Author: "):]
-        self.ir_puzzle.source = header[17]
-        
-        self.margin = json.loads(self.parts[1])
-        self.top_margin, self.bottom_margin, self.left_margin, self.right_margin = self.margin
-        self.rows = int(header[2]) - self.top_margin - self.bottom_margin     # net penpa size, no margin
-        self.cols = int(header[1]) - self.left_margin - self.right_margin
-        
-        
-        self.real_rows = self.rows + self.top_margin + self.bottom_margin + 4  # penpa size after padding
-        self.real_cols = self.cols + self.left_margin + self.right_margin + 4
-        self.new_rows = self.rows + self.top_margin + self.bottom_margin
-        self.new_cols = self.cols + self.left_margin + self.right_margin                           # PuzzleInstance new size, no padding, with margin
-        
-        self.ir_puzzle.rows, self.ir_puzzle.cols = self.new_rows, self.new_cols
+        try:
+            header = self.parts[0].split(",")
 
-        env_debug_parts = os.getenv("PUZZLEKIT_DEBUG_PENPA_PARTS", "").strip().lower() in {
-            "1", "true", "yes", "on",
-        }
-        debug_penpa_parts = bool(
-            self.config.get("debug_penpa_parts", False)
-            or self.config.get("debug_dump", False)
-            or env_debug_parts
-        )
-        if debug_penpa_parts and logger.isEnabledFor(logging.DEBUG):
-            self._display_parts()
-        for p in range(len(self.parts)):
-            if p == 1:
-                # decode margins
-                margins = json.loads(self.parts[p])
-                self.ir_puzzle.margins = margins
-            elif p == 3:
-                # decode from pu_q
-                self.board = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, self.parts[p]))
-                for k, v in self.board.items():
-                    if k == "lineE":
-                        self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
-                    elif k == "number":
-                        self._decode_number(number_dict = v)
-                    elif k == "surface":
-                        self._decode_surface(surface_dict = v)
-                    elif k == "symbol":
-                        self._decode_symbol(symbol_dict = v)
-                    else:
-                        pass
-            elif p == 5:
-                # decode box
-                boxes = json.loads(self.parts[p])
-                self.ir_puzzle.boxes = boxes
-            elif p == 17:
-                genre_tag = ast.literal_eval(self.parts[p])
-                raw_type = genre_tag[0] if len(genre_tag) > 0 else ""
-                self.ir_puzzle.puzzle_type = normalize_puzzle_type(raw_type)
-                logger.debug("penpa.puzzle_type=%s", self.ir_puzzle.puzzle_type)
-            # else:
-            #     print(p, self.parts[p])
+            assert header[0] in ("square"), f"Penpa puzzle must be in square, get {header[0]}"
 
-        return self.ir_puzzle
+            # info collect
+            self.ir_puzzle.grid_type = "square" 
+            self.ir_puzzle.size = header[3]
+            self.ir_puzzle.title = header[15][len("Title: "):]
+            self.ir_puzzle.author = header[16][len("Author: "):]
+            self.ir_puzzle.source = header[17]
+            
+            self.margin = json.loads(self.parts[1])
+            self.top_margin, self.bottom_margin, self.left_margin, self.right_margin = self.margin
+            self.rows = int(header[2]) - self.top_margin - self.bottom_margin     # net penpa size, no margin
+            self.cols = int(header[1]) - self.left_margin - self.right_margin
+            
+            
+            self.real_rows = self.rows + self.top_margin + self.bottom_margin + 4  # penpa size after padding
+            self.real_cols = self.cols + self.left_margin + self.right_margin + 4
+            self.new_rows = self.rows + self.top_margin + self.bottom_margin
+            self.new_cols = self.cols + self.left_margin + self.right_margin                           # PuzzleInstance new size, no padding, with margin
+            
+            self.ir_puzzle.rows, self.ir_puzzle.cols = self.new_rows, self.new_cols
+
+            env_debug_parts = os.getenv("PUZZLEKIT_DEBUG_PENPA_PARTS", "").strip().lower() in {
+                "1", "true", "yes", "on",
+            }
+            debug_penpa_parts = bool(
+                self.config.get("debug_penpa_parts", False)
+                or self.config.get("debug_dump", False)
+                or env_debug_parts
+            )
+            if debug_penpa_parts and logger.isEnabledFor(logging.DEBUG):
+                self._display_parts()
+            for p in range(len(self.parts)):
+                if p == 1:
+                    # decode margins
+                    margins = json.loads(self.parts[p])
+                    self.ir_puzzle.margins = margins
+                elif p == 3:
+                    # decode from pu_q
+                    self.board = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, self.parts[p]))
+                    for k, v in self.board.items():
+                        if k == "lineE":
+                            self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
+                        elif k == "number":
+                            self._decode_number(number_dict = v)
+                        elif k == "surface":
+                            self._decode_surface(surface_dict = v)
+                        elif k == "symbol":
+                            self._decode_symbol(symbol_dict = v)
+                        else:
+                            pass
+                elif p == 5:
+                    # decode box
+                    boxes = json.loads(self.parts[p])
+                    self.ir_puzzle.boxes = boxes
+                elif p == 17:
+                    genre_tag = ast.literal_eval(self.parts[p])
+                    raw_type = genre_tag[0] if len(genre_tag) > 0 else ""
+                    self.ir_puzzle.puzzle_type = normalize_puzzle_type(raw_type)
+                    logger.debug("penpa.puzzle_type=%s", self.ir_puzzle.puzzle_type)
+                # else:
+                #     print(p, self.parts[p])
+
+            return self.ir_puzzle
+        except PenpaDecodeError:
+            raise
+        except (json.JSONDecodeError, AssertionError, IndexError, KeyError, ValueError, SyntaxError, TypeError) as e:
+            raise PenpaDecodeError(
+                "Invalid or corrupt Penpa puzzle file: the decompressed text does not match the expected Penpa+ format."
+            ) from e
     
     def _decode_symbol(self, symbol_dict: Dict[str, List[Any]]):
         for index, symbol_data in symbol_dict.items():
@@ -320,22 +459,20 @@ class PenpaConverter:
         plain_text = "\n".join(text_lines)
         compressed = compress(plain_text.encode())[2:-4]
         
-        return PENPA_PREFIX + b64encode(compressed).decode('ascii')
+        return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
         # return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
 
 if __name__ == "__main__":
 
     for test_url in [
-        # "#m=edit&p=1Vddb9pIFH3Pr6j8Wi94xuMvpGpFkqZS1bLNNt1sYyFkwAluDE4NNJGj9rf33JlrsB3arbTahxUwc+bM9f2auZ5h/XmblKktHPq6oY0eHyVC/ZOhr38Ofy6yTZ4OntnD7WZRlACbzd160O/fbaur6qqXZ6vb/t3vi3Sa9YVD35XwnJ7wEiUTJaaudHozp5c4Pac3dwV1U6mc3kq6QDRUck4dJCAnBbhECi0PKdv+4+zMvk7ydWq//vjp+PR2eP9y+Hffu3LdD6Pr559Ozz98ml/+Jc6drF86ozxcvX13epw/f1VdvV0Mv6QvU//dupgt8jSZJ9XV5euHfHUW3iyuxcnrxUl4nayc9efwIvpyfP7ixVHMUY+PYktYtiXxE9b4WzX6pgk5Pnqs/hw8VpNBPP5qVx/2MNzD94NHS4XWQNmWinTnOaaTpjNzvjCdIX1fd4EZBa7pjGRgtIRGSxiYzswJxwyFw2PhcW8UCsHz0mgW0qgW0igVLo9dxT3LK+YV61OsT9E8ohxxlLHlTRzLDihbYxNxbO3HFHpHhNIQW3KC7O4orUg0KUoPSSHtO0o/2BjDpeaYktcaI4TWmK00VFJqmyKU49YY0caWmrgNSmvZj/UKxJbblNGr0RKiZWkTHef1QnXSohetJUSr1yY6Aej1bBNYWIq66R4tckuIVrsrRCvfFuq6THthT2BTiMEj2o+6PdOt1O0FKsOuXN2e6tbRrafbN1rmJTaUlJEtyRcJjYRdrAdh1wHGjiCsFGTgm+YlMNzSWEAGCdMyXoN3geGpxvQs1qbmKTkaw5bHdhVseQ1esQ8KtjzWSbj208Mb02P95BttZs0He6yAaUdrjLcsbWUtAx98ftYnmfpZ+O9jaTUmnRyvB39oW9fYZ98C6AnYZx/+17YCPBvwsz58Dtj/APpr7NNbn/0JIROy/gB6wlon2WVbIWzVfBjarlM/S3qMz+DAs54Ix4xTy0NPxHoi38aJsMMy4jxEyENk8uAKARnWH0XAtU7YitiWgC3mYRPY6EEPzHocD7j2TcEfkxPYt11pfNO2ZM1DRtY+AFP5agyfeU+CA29y6GKv7nnkhPchbAKzb9irOyyh02X9Enpc9g3n8Q5L2OK9p7HkuLA/XWXWF9zeTwX/Fdslf3h/gmOMIrvUpXaiW6VbX5dgQEfX0VGMOqPbQPvj/f84OsHfb8vrZJbiDB9tl9O0fDYqymWSWzjErXWRT9ZmfpI+JLONNTC3jOZMi1tpHS0qL4o7XIAOaainWmR2syrK9OAUken85keqaOqAqmlRzjs+3Sd53o5FX/da1CwrZ3mb2pRZa5yUZXHfYpbJZtEipskGV8P1Irtra0pXnWRukraLyW3Ssbbcp+PrkfVg6V+M1wwt5GMVDaqhXb2iA2p/KbOrc1y53g6sWbGcZhZdu+goEjiXltt8k82KvIBd5nDG8A2ODpodvNTzhE4MKRzgEWPAj4AmXZM3hnk3iKsL2yIHjvXTBK1l8QURGAdpbJwC0ciS7WJivZ0Xt1sWFXRmDnUY1egXI4CSOgKCJgJCByKgwP7bCKLxV7Nizi/ejM3N8d9fFf7xXfbAVV6UPyn0/WSXPlDuYH9S8Y3ZQ/wPirsx2+WfVDI5+7SYwR6oZ7Ddkgb1tKpBPilscD+obdLaLW/yqlvhZOpJkZOpZp3HFv1r/C2bLbKbAi9lTX8H"
-        # "#m=edit&p=1Vddb9pIFH3Pr6j8Wi94xuMvpGpFkqZS1bLNNt1sYyFkwAluDE4NNJGj9rf33JlrsB3arbTahxUwc+bM9f2auZ5h/XmblKktHPq6oY0eHyVC/ZOhr38Ofy6yTZ4OntnD7WZRlACbzd160O/fbaur6qqXZ6vb/t3vi3Sa9YVD35XwnJ7wEiUTJaaudHozp5c4Pac3dwV1U6mc3kq6QDRUck4dJCAnBbhECi0PKdv+4+zMvk7ydWq//vjp+PR2eP9y+Hffu3LdD6Pr559Ozz98ml/+Jc6drF86ozxcvX13epw/f1VdvV0Mv6QvU//dupgt8jSZJ9XV5euHfHUW3iyuxcnrxUl4nayc9efwIvpyfP7ixVHMUY+PYktYtiXxE9b4WzX6pgk5Pnqs/hw8VpNBPP5qVx/2MNzD94NHS4XWQNmWinTnOaaTpjNzvjCdIX1fd4EZBa7pjGRgtIRGSxiYzswJxwyFw2PhcW8UCsHz0mgW0qgW0igVLo9dxT3LK+YV61OsT9E8ohxxlLHlTRzLDihbYxNxbO3HFHpHhNIQW3KC7O4orUg0KUoPSSHtO0o/2BjDpeaYktcaI4TWmK00VFJqmyKU49YY0caWmrgNSmvZj/UKxJbblNGr0RKiZWkTHef1QnXSohetJUSr1yY6Aej1bBNYWIq66R4tckuIVrsrRCvfFuq6THthT2BTiMEj2o+6PdOt1O0FKsOuXN2e6tbRrafbN1rmJTaUlJEtyRcJjYRdrAdh1wHGjiCsFGTgm+YlMNzSWEAGCdMyXoN3geGpxvQs1qbmKTkaw5bHdhVseQ1esQ8KtjzWSbj208Mb02P95BttZs0He6yAaUdrjLcsbWUtAx98ftYnmfpZ+O9jaTUmnRyvB39oW9fYZ98C6AnYZx/+17YCPBvwsz58Dtj/APpr7NNbn/0JIROy/gB6wlon2WVbIWzVfBjarlM/S3qMz+DAs54Ix4xTy0NPxHoi38aJsMMy4jxEyENk8uAKARnWH0XAtU7YitiWgC3mYRPY6EEPzHocD7j2TcEfkxPYt11pfNO2ZM1DRtY+AFP5agyfeU+CA29y6GKv7nnkhPchbAKzb9irOyyh02X9Enpc9g3n8Q5L2OK9p7HkuLA/XWXWF9zeTwX/Fdslf3h/gmOMIrvUpXaiW6VbX5dgQEfX0VGMOqPbQPvj/f84OsHfb8vrZJbiDB9tl9O0fDYqymWSWzjErXWRT9ZmfpI+JLONNTC3jOZMi1tpHS0qL4o7XIAOaainWmR2syrK9OAUken85keqaOqAqmlRzjs+3Sd53o5FX/da1CwrZ3mb2pRZa5yUZXHfYpbJZtEipskGV8P1Irtra0pXnWRukraLyW3Ssbbcp+PrkfVg6V+M1wwt5GMVDaqhXb2iA2p/KbOrc1y53g6sWbGcZhZdu+goEjiXltt8k82KvIBd5nDG8A2ODpodvNTzhE4MKRzgEWPAj4AmXZM3hnk3iKsL2yIHjvXTBK1l8QURGAdpbJwC0ciS7WJivZ0Xt1sWFXRmDnUY1egXI4CSOgKCJgJCByKgwP7bCKLxV7Nizi/ejM3N8d9fFf7xXfbAVV6UPyn0/WSXPlDuYH9S8Y3ZQ/wPirsx2+WfVDI5+7SYwR6oZ7Ddkgb1tKpBPilscD+obdLaLW/yqlvhZOpJkZOpZp3HFv1r/C2bLbKbAi9lTX8H"
-        "#m=edit&p=tVZtb6JMFP3ur9jM105W3rUkzcbXJk3r1tWuW4kxiFioCJaX1mDa3957h0EFbZ90N0+QyeXM4c49M5wbo6fEDG2qwSXXqUBFuCRNY7eoKOwW+DV0Y8/Wv9FGEjtBCIETx+tIr1bXSTpOx989119W1z+iOICfb1c1uBTHSuarhRraiqssZUp/drt0YXqRTa/uH5vtZeOl0/hTVceyfNdbnD22+3eP89FvsS+41VDoeXX/5rbd9M4u0/GN03i2O7Z2GwWW49nm3EzHo6uN53frD85CbF05rfrC9IXoqT48f272Ly4qBi99UjGISCiR4BbJ5C0dvBmEUHFS2aa/9G061Y3JK03v9mF9Hw70LYw9fUskiegG7AlLQomqwaPMH4EiMuI9G7tslNg4hDw0ldnYZqPARpWN14zTgfSiCLklhegSZJQkKsqwHovhLGRYDGMZFlRkHrPzyWIF+CrnK8BROQfPUM05KsRqFqvA0ThHBY7GOSqspfG1NMhZ4zk14NQ4R4M8NZ4H65R4Hgly7upHLTkH+FJeP+o6qF/mHBk4O42ot7bXletFXTu9wFc4X8FvlfNV+ILzfVBR74GWXC/WzzTCxo/Y9rfYqLBRY8dSw8OvVAzUt7vgvb+N8RMcJOHCtGwCnx2JAm8aZc9Te2NaMdEzWxzOFDA/Wc3ssAB5QbAG153KkE8VQPfBD0L75BSC9vzho1Q4dSLVLAjnpZpeTM8ramEtpgBZbmh5RSgO3cKzGYbBSwFZmbFTAGZmDA0pctx1MZPtlzYzNoslmkuztNpqvx2vFbIh7AZvw+FjjzjX0wZNL/VCF6FpH5rEjZ4OsEdk/YSSVeLFrhV4ASzJMbA4e1GCsLMPR2weo1YGigLEPR5DeA9htlPT6wy51Y10SAmu3WRvY0hWwTMUn9WGz1awmoE8gxxsEJVhIkrmwTLhVBFbVuNrCiBJrgDDTAFGJxSgsP9XwfnkNTss4Utt/N879X+2jQ03eBB+4vH9ZBk+4XRAPzH7wewp/ANfH8yW8SMTY7HHPgb0hJUBLbsZoGNDA3jkacA+sDVmLTsbqyqbG5c68jcudWhxg+T/UqAZM+wd"
+        "https://swaroopg92.github.io/penpa-edit/#m=solve&p=tVZtb6JMcbXJk3r1tWuTyXGIGKhIlheWoNpf3vvHQYVtN302WyQyeHO4c49M5wbo6fEDG2qwSXXqUBFuCRNY7eoKOwW+DV0Y8/Wv9FGEjtBCMCJ43WkV6vrJB2n4++e6y+r6x9RHMDPt6saXIpjJfPVQg1txVWWMqU/u126ML3Iplf3j832svHSafxXVceyfNdbnD22+3eP89FvsS+41VDoeXX/5rbd9M4u0/GN03i2O7Z2GwWW49nm3EzHo6uN53frD85CbF05rfrC9IXoqT48f272Ly4qBi99UjGISCiR4BbJ5C0dvBmEUHFS2aa/9G061Y3JK03v9rC+hwN9C2NP3xJJIroBe8KSUKJq8CjzR6CIjHjPxi4bJTYOIQ9NZTa22SiwUWXjNeN0IL0oQm5JIboEGSWJijKsxzCchQyLIZZhQUXmmJ1PhhXgq5yvAEflHDxDNeeogNUMq8DROEcFjsY5Kqyl8bU0yFnjOTXg1DhHgzw1ngfrlHgeCXLu6kctOQf4Ul4/6jqoX+YcGTg7jai3tteV60VdO73AVzhfwW+V81X4gvN9UFHvgZZcL9bPNMLGj9j2t9iosFFjx1LDw69UDNS3u+C9/4vxExwk4cK0bAKfHYkCbxplz1N7Y1ox0TNbHM4QPQ4THvKT1cwOCywvCNZgulMJ8qlC0H3wg9A+OYVBe/7wUSqcOpFqFoTzUk0vpucVpbAOUwhZbmh5xVAcuoVnMwyDl0JkZcZOITAzY+hHkeOui5lsv7SXsVks0VyapdVW++14rZANYTdYG84eW8S5njZoeqkXmghN+9AjbvR0gC0iayeUrBIvdq3AC2BJHgOHsxclgJ09HLF5RK0sKAqAexwDvAeY7dT0Oovc6kY6pATXbrK3EZJV8AzFZ7XhsxWsZiDPIAcbRGWYiJJ5sEw4VcSO1fiaAkiSK0CYKUB0QgEK+7cKziev2WEJX+rif9+o/9g1NtzfQfiJxfeT5fAJp0P0E7MfzJ6Kf+Drg9ly/MjEWOyxjyF6wsoQLbsZQseGhuCRpyH2ga0xa9nZWFXZ3LjUkb9xqUOLGyT/k0ImlXc=&a=VcJBCQAAAIPAQmsk9q/he3DgngE="
     ]:
         hpc = PenpaConverter()
         tmp = hpc.decode(test_url)
         # print(tmp.cells)
         enc = hpc.encode(tmp)
-        # print(tmp)
-        # print(enc)
+        print(tmp)
+        print(enc)
         b = hpc.decode(enc)
-        logger.info(enc)
+        # logger.info(enc)
         

@@ -1,5 +1,4 @@
 import puzzlekit
-
 import time
 import os
 import logging
@@ -47,28 +46,16 @@ print(f"Time taken: {end_time - start_time} seconds")
 
 
 # URL -> IR
-ir = puzzlekit.decode("https://puzz.link/p?hitori/8/8/7113844227266831246771852247731643381555633245178631347515752264")
-
+ir = puzzlekit.decode("https://puzz.link/p?slither/10/10/g188227cl1dg367bdcg3ddgbhdgd1agbd760dg2cl633661d")
 # IR -> penpa
 penpa_url = puzzlekit.encode(ir, "penpa")
 print(penpa_url)
+# get:
+# m=edit&p=7VdtT9swEP7Or0...
 
-# print(penpa_url)
-# penpa_url2 = puzzlekit.convert("https://puzz.link/p?masyu/10/15/39000c0966103093ibf40d3262003j31008060003l03990030", "penpa")
 
-
-# print(penpa_url2)
-# puzzlink_url = puzzlekit.convert(penpa_url2, "puzzlink")
-# print(puzzlink_url)
-# # Per-stage converter config (optional, for fine-grained conversion control)
-# # e.g. when target is puzzlink and you need encode-side flags only.
-# _ = puzzlekit.convert(
-#     penpa_url2,
-#     "puzzlink",
-#     decode_converter_config={},
-#     encode_converter_config={},
-# )
-
-# # 获取 IR（自动识别）
-# ir2 = puzzlekit.convert(penpa_url2, "ir")
-# print(penpa_url, puzzlink_url)
+penpa_url = "https://swaroopg92.github.io/penpa-edit/#m=edit&p=7Vfvb+I4EP3OX3Hy17WOOIFgIq1OlP6QqrZXru31CkKVISZJawibhLZK1f99Zxyq2IGudHfSqiedQoaZ9+zxTGKeRf5tIzJJmYMfj1P4hqvDuL5d7uvb2V7XSaFk8AsdbIo4zcCJi2KdB+32elOOy/GvKlk9tte/5SopYpm1mYOfGfdF5PMwYm5vFvmuUGHEQxHyWRQq1w+jnuvO9QDOZyGlvx8f04VQuaSndw8Hh4+D56PBX+3u2PNuLhZfHg5HNw/h7Z9s5CTtzLlQfHV+eXigvpyU4/N48CSPpH+Zp/NYSRGKcnx7+qJWxzyKF2x4Gg/5Qqyc/Bu/7j8djL5+bU22rU1br2U/KAe0PAkmxCOUMLhdMqXlKHgtzwMyT5ezhNDyCnhC2ZSS5UYVyTxVaUbesfIMPJjpgntUu7eaR29YgcwB/2Lrg3sH7jzJ5kren1XIZTAprynBAg70bHTJMn2SuBgWh3FVFAAzUcCryeNkTagHRL4J08fNdiibvtFy8A/agEzvbaBbtYHenjawu3/dhgwj+bKng/707Q3e0B/Qw30wwXZuapfX7lXwCvYieCWeA1NxL8N0yOZ5EHp12LXZHoS49auwY7MdZOu5nb4VdjFzPbjLIXTrEAfXoc+swb69kI8L1YN7rlUVx7n1utwuo2+z/Y41lzk2zRzkzdi3KmGswbvYZV0ac7FNY7x+3MZ4D+cb4z3Mb8Z2q6yDvZpxo54Ormfk7zbW04/diP0G72N+I59+8u88bBmmN86dtsfautpew76ipaftobaOtl1tz/SYI21vtR1q29HW12N6uDP/1t79CeVMvEro7av738OmrQm52mQLMZegJcN0uU7zpJAE9JzkqbrPK+5evoh5QYLqXDEZC1ttljMJMmhAKk3XcKzty/BOWWASrdJM7qUQRIH7IBVSe1LN0ixs1PQslLJ70ae4BVUybEFFBhprxCLL0mcLWYoitgDjWLEyyVXjYRbCLlE8isZqy/pxvLXIC9E3/AThR///4fv5D198W85nk7HPVo7e6Gn2A9WpySa8R3sA/YH8GOw+/AOlMdgmviMrWOyusgC6R1wAbeoLQLsSA+COygD2gdBg1qbWYFVNucGldhQHlzJFZ0K2f0zwbwqZtr4D"
+puzzlink_url = puzzlekit.convert(penpa_url, "puzzlink")
+print(puzzlink_url)
+# get:
+# https://puzz.link/p?slither/10/10/b86ag68dg127bg62aldg8dad8bgdl26dg722cg68dg88b3

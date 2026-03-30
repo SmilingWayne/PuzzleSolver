@@ -55,6 +55,23 @@ class TestPuzzlelinkRoundTrip:
         ir2 = decoder2.decode(url2)
         assert ir1 == ir2, f"[Puzzlink][Yajilin][Shading] wrong. URL: {shaded_url}"
 
+    def test_puzzlink_alternate_hosts_and_bare_path(self):
+        """Same puzzle path must decode the same IR from puzz.link, pzplus, pzv, or bare path."""
+        path = (
+            "hebi/10/10/d0.b35c150.a44k0.a25c0.41a0.d0.e41a0.b25a0.e0.d0.a0.0."
+            "c30a23k44a0.43c0.b35d"
+        )
+        ref = PuzzlinkConverter().decode(f"https://puzz.link/p?{path}")
+        alts = [
+            f"https://pzplus.tck.mn/p.html?{path}",
+            f"http://pzv.jp/p?{path}",
+            path,
+            f"?{path}",
+        ]
+        for u in alts:
+            ir = PuzzlinkConverter().decode(u)
+            assert ir == ref, f"Mismatch for URL: {u}"
+
 
 class TestPenpaTrip:
     """

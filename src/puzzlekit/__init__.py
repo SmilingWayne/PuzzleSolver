@@ -7,6 +7,7 @@ from puzzlekit.formats.penpa_converter import (
     PenpaConverter,
     PENPA_PREFIX,
     PENPA_URLPREFIX,
+    PenpaDecodeError,
 )
 
 
@@ -219,5 +220,5 @@ def convert(
         return ir
     return encode(ir, dst, converter_config=encode_cfg)
 
-__all__ = ["solve", "solver", "decode", "encode", "convert"]
+__all__ = ["solve", "solver", "decode", "encode", "convert", "PenpaDecodeError"]
 __version__ = '0.3.2'

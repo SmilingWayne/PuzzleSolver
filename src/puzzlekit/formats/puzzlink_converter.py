@@ -1,4 +1,7 @@
+import re
 from typing import Dict, Any, List, Optional, Union, Set
+from urllib.parse import unquote, urlsplit
+
 from puzzlekit.formats.base import (
     PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor, SymbolState, NumberState
 )
@@ -16,6 +19,76 @@ import math
 import logging
 
 logger = logging.getLogger(__name__)
+
+# puzz.link path: <type>/<cols>/<rows>/<body> or <type>/b/<cols>/<rows>/<body>, etc.
+_PUZZLINK_FIRST_SEG_RE = re.compile(r"^[a-zA-Z][a-zA-Z0-9_]*$")
+
+
+def looks_like_puzzlink_path(puzzle_path: str) -> bool:
+    """Heuristic: first segment is a genre token; avoid penpa/m=edit&p= style strings."""
+    s = (puzzle_path or "").strip().lstrip("/")
+    if "/" not in s:
+        return False
+    parts = [p for p in s.split("/") if p != ""]
+    if len(parts) < 4:
+        return False
+    first = parts[0]
+    if "=" in first or "&" in first:
+        return False
+    return bool(_PUZZLINK_FIRST_SEG_RE.match(first))
+
+
+def parse_puzzlink_input(url: str) -> Dict[str, Any]:
+    """Extract the puzz.link payload path from many URL shapes or a bare path.
+
+    Accepts:
+    - ``https://puzz.link/p?hebi/10/10/...``
+    - ``https://pzplus.tck.mn/p.html?hebi/10/10/...``
+    - ``http://pzv.jp/p?hebi/10/10/...``
+    - ``?hebi/10/10/...`` (paste without scheme)
+    - ``hebi/10/10/...`` (bare path)
+
+    Extra query pairs (e.g. ``&a=...``) are ignored; only the first ``&``-separated
+    chunk of the query is used as the puzzle path when it looks like puzz.link.
+    """
+    raw = (url or "").strip()
+    if not raw:
+        raise ValueError("puzz.link input must be a non-empty string")
+
+    # Paste-only: "?genre/..." without a scheme
+    if raw.startswith("?") and looks_like_puzzlink_path(raw[1:]):
+        puzzle_path = raw[1:].split("#", 1)[0].split("&", 1)[0].strip()
+        return {"puzzle_path": puzzle_path}
+
+    sp = urlsplit(raw)
+    puzzle_path = ""
+
+    if sp.query:
+        candidate = unquote(sp.query.split("&", 1)[0]).lstrip("/")
+        if looks_like_puzzlink_path(candidate):
+            puzzle_path = candidate
+
+    if not puzzle_path and sp.fragment:
+        candidate = unquote(sp.fragment).lstrip("/").split("?", 1)[0].split("&", 1)[0]
+        if looks_like_puzzlink_path(candidate):
+            puzzle_path = candidate
+
+    if not puzzle_path and sp.path:
+        path = unquote(sp.path).lstrip("/")
+        if path.startswith("?"):
+            candidate = path[1:].split("#", 1)[0].split("&", 1)[0]
+        else:
+            candidate = path.split("#", 1)[0].split("&", 1)[0]
+        if looks_like_puzzlink_path(candidate):
+            puzzle_path = candidate
+
+    if not puzzle_path:
+        raise ValueError(
+            f"Cannot extract puzz.link puzzle path from input: {raw[:160]!r}"
+        )
+
+    return {"puzzle_path": puzzle_path}
+
 
 # Yajilin, Masyu, Slitherlink, heyawake, shikaku, norinori, hitori
 class PuzzlinkConverter:
@@ -38,7 +111,7 @@ class PuzzlinkConverter:
         return bool(self.config.get(key, False))
 
     def _decode_nonogram_variant(self):
-        self.body = self.url.split("/")[-1]
+        self.body = self._puzzle_path.split("/")[-1]
         number_map = self._decode_number16()
         # print(number_map)
         max_cols_offset = math.ceil(self.num_cols / 2)
@@ -322,10 +395,13 @@ class PuzzlinkConverter:
     
     def decode(self, url: str) -> Dict[str, Any]:
         self.url: str = url
+        parsed = parse_puzzlink_input(url)
+        self._puzzle_path: str = parsed["puzzle_path"]
         self.ir_puzzle = PuzzleInstance(
             metadata={
                 "source": "puzz.link",
                 "original_url": self.url,
+                "puzzlink_puzzle_path": self._puzzle_path,
             }
         )
         
@@ -837,8 +913,7 @@ class PuzzlinkConverter:
     
     def _parse_header(self):
         """Parse the header of the puzzle, such as: slither/10/10/body_str"""
-        parts = self.url.split("?")
-        urldata = parts[1].split("/")
+        urldata = self._puzzle_path.split("/")
         if len(urldata) > 1 and urldata[1] == 'v:':
             urldata.pop(1)
         
@@ -1613,24 +1688,3 @@ if __name__ == "__main__":
         
         logger.info(penpa_url)
         
-        # penpa_cvter = PenpaConverter()
-        # penpa_str = penpa_cvter.encode(p_ir)
-        # print(penpa_str)
-        
-        # penpa_ir = PzpCvtr.decode(url_new)
-        # print(penpa_ir.cells)
-        # assert url_new == url
-        # from puzzlekit.formats.penpa_converter import PenpaConverter
-        # penpa_url = PenpaConverter("")
-        # penpa_test = penpa_url.encode(res)
-
-# "key": "1,1", 
-# "left":  {"shaded": true, "number": {"value": "1_2", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}, 
-# "right": {"shaded": false, "number": {"value": "1_2", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}}, 
-
-# {"key": "2,4", 
-#     "left": {"shaded": true, "number": {"value": "_", "number_color": 1, "number_style": "2"}, "surf_color": 4, "symbol": null}, 
-#     "right": {"shaded": false, "number": {"value": "", "number_color": 7, "number_style": "2"}, "surf_color": 4, "symbol": null}}, 
-# {"key": "3,1", 
-#     "left": {"shaded": false, "number": {"value": "_", "number_color": 1, "number_style": "2"}, "surf_color": 3, "symbol": null}, 
-#     "right": {"shaded": false, "number": {"value": "", "number_color": 1, "number_style": "2"}, "surf_color": 3, "symbol": null}}]

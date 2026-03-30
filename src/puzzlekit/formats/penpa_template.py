@@ -186,7 +186,3 @@ PENPA_FIXED_FIELDS: PenpaFixedFields = {
     "custom_message" : ""
 }
 
-
-# if __name__ == "__main__":
-#     template = get_penpa_template("heyawake")
-#     print(template)

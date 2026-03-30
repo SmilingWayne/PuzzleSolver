@@ -16,16 +16,26 @@ import math
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(
-    level=logging.DEBUG,  
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
 
 # Yajilin, Masyu, Slitherlink, heyawake, shikaku, norinori, hitori
 class PuzzlinkConverter:
     def __init__(self, config: Dict[Any, Any] = dict()):
         self.config = config or {}
+
+    def _debug_dump_enabled(self, key: str) -> bool:
+        """
+        Control large debug dumps.
+
+        Strategy:
+        - Library code never configures logging globally.
+        - Dumps only happen when DEBUG logging is enabled AND config flag is set.
+        """
+        if not logger.isEnabledFor(logging.DEBUG):
+            return False
+        # Allow both a global switch and per-dump keys.
+        if self.config.get("debug_dump", False):
+            return True
+        return bool(self.config.get(key, False))
 
     def _decode_nonogram_variant(self):
         self.body = self.url.split("/")[-1]
@@ -343,7 +353,7 @@ class PuzzlinkConverter:
         elif decode_family == "noop":
             return self.ir_puzzle
         else:
-            raise NotImplementedError
+            raise NotImplementedError(f"Puzzle type {self.puzzle_type} is not supported currently.")
 
         return self.ir_puzzle
     
@@ -384,7 +394,7 @@ class PuzzlinkConverter:
             body_str = self._encode_yajilin_variant(inst)
             return body_str
         else:
-            raise NotImplementedError(f"Puzzle type {self.puzzle_type} not supported for encoding")
+            raise NotImplementedError(f"Puzzle type {self.puzzle_type} is not supported currently.")
         
         # _decode_heyawake_variant
     
@@ -561,8 +571,8 @@ class PuzzlinkConverter:
             border_str = self._encode_border(border_list)
             body_str = border_str + number3_str
         else:
-            # logger.info(number3_str)
-            logger.info(number_list)
+            if self._debug_dump_enabled("debug_dump_puzzlink_number_list"):
+                logger.debug("puzzlink.number_list=%s", number_list)
             body_str = number3_str
 
         pzl_type = to_puzzlink_type(self.puzzle_type)
@@ -1118,7 +1128,8 @@ class PuzzlinkConverter:
         result = []
         current_id = 0
         skip_count = 0
-        logger.info(f"{number_map}")
+        if self._debug_dump_enabled("debug_dump_puzzlink_number_map"):
+            logger.debug("puzzlink.number_map=%s", number_map)
         while current_id <= max_region_id:
             if current_id in number_map:
                 # 🔹 先输出累积的跳过

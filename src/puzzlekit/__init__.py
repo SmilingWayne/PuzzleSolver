@@ -184,6 +184,8 @@ def convert(
     target_format: str,
     source_format: Optional[str] = None,
     converter_config: Optional[Dict[str, Any]] = None,
+    decode_converter_config: Optional[Dict[str, Any]] = None,
+    encode_converter_config: Optional[Dict[str, Any]] = None,
 ) -> Union[str, PuzzleInstance]:
     """
     Convert between puzzlink/penpa/IR.
@@ -193,21 +195,29 @@ def convert(
         - puzzlink -> penpa: convert(url, "penpa")
         - penpa -> puzzlink: convert(url, "puzzlink")
         - IR -> puzzlink: convert(ir, "puzzlink")
+
+    Notes:
+        - `converter_config` is kept for backward compatibility and applies to both
+          decode/encode when side-specific configs are not provided.
+        - `decode_converter_config` and `encode_converter_config` let callers pass
+          different settings per stage in a two-step conversion.
     """
     dst = _normalize_format_name(target_format)
+    decode_cfg = decode_converter_config if decode_converter_config is not None else converter_config
+    encode_cfg = encode_converter_config if encode_converter_config is not None else converter_config
 
     if isinstance(source, PuzzleInstance):
         if dst == "ir":
             return source
-        return encode(source, dst, converter_config=converter_config)
+        return encode(source, dst, converter_config=encode_cfg)
 
     if not isinstance(source, str):
         raise TypeError(f"source must be str or PuzzleInstance, got {type(source)}")
 
-    ir = decode(source, source_format=source_format, converter_config=converter_config)
+    ir = decode(source, source_format=source_format, converter_config=decode_cfg)
     if dst == "ir":
         return ir
-    return encode(ir, dst, converter_config=converter_config)
+    return encode(ir, dst, converter_config=encode_cfg)
 
 __all__ = ["solve", "solver", "decode", "encode", "convert"]
 __version__ = '0.3.2'

@@ -2,21 +2,18 @@ from typing import Dict, Any, List, Optional, Union, Set
 from puzzlekit.formats.base import (
     PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor, SymbolState, NumberState
 )
+from puzzlekit.formats.puzzle_types import (
+    normalize_puzzle_type,
+    to_puzzlink_type,
+    PUZZLINK_ENCODABLE_TYPES,
+    get_puzzlink_decode_family,
+    get_puzzlink_encode_family,
+)
 from puzzlekit.formats.utils import (
     generate_centerlist_diff, index_to_coord, coord_to_index, auto_border_split
 )
 import math
 import logging
-
-ALLOWED_PUZZLE_TYPE = {
-    "heyawake",  "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", "country",
-    "nonogram",  
-    "nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki",
-    "moonsun", "masyu", "mashu", "pearl",
-    "slither", "slitherlink", "vslither", "tslither",
-    "yajilin", "yajirin", "castle", "hebi"
-}
-# allowed puzzle types 
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -330,41 +327,21 @@ class PuzzlinkConverter:
         # .0 parse header
         self._parse_header()
         
-        # If wanna add more puzzle types, just add the puzzle type to the list and implement the corresponding logic
-        if self.puzzle_type in ["yajilin", "yajirin", "snakes", "hebi", "castle"]:
+        decode_family = get_puzzlink_decode_family(self.puzzle_type)
+        if decode_family == "yajilin_family":
             self._decode_yajilin_variant()
-        elif self.puzzle_type in ["moonsun","mashu", "masyu", "pearl"]:
+        elif decode_family == "masyu_family":
             self._decode_masyu_variant() 
-        elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
+        elif decode_family == "slither_family":
             self._decode_slither_variant()
-        elif self.puzzle_type in ["heyawake", "shikaku",  "aqre", "heyawacky", "shimaguni", "stostone", "ayeheya", "country"]:
+        elif decode_family == "heyawake_family":
             self._decode_heyawake_variant()
-        elif self.puzzle_type in ['nonogram']:
+        elif decode_family == "nonogram_family":
             self._decode_nonogram_variant()
-        elif self.puzzle_type in ['kurochute', "kurodoko", "kurotto", "nurikabe", "nurimisaki"]:
+        elif decode_family == "nurikabe_family":
             self._decode_nurikabe_variant()
-        elif self.puzzle_type in ["detour", "juosan", "yajilin-regions", "yajirin-regions"]:
-            # toichika2, nagenawa, maxi, factors are neglected.
+        elif decode_family == "noop":
             return self.ir_puzzle
-        elif self.puzzle_type in ["hitori"]:
-            return self.ir_puzzle
-            # info_number = self._decode_number36(self.num_cols * self.num_rows)
-            # grid_matrix = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]
-            # for i in range(self.num_rows):
-            #     for j in range(self.num_cols):
-            #         grid_matrix[i][j] = str(info_number[i * self.num_cols + j])
-            # return {
-            #     "num_rows": self.num_rows,
-            #     "num_cols": self.num_cols,
-            #     "grid": grid_matrix
-            # }
-            
-            # pu = new Puzzle_square(cols, rows, size);
-            # setupProblem(pu, "surface");
-
-            # info_number = puzzlink_pu.decodeNumber36(cols * rows);
-            # puzzlink_pu.drawNumbers(pu, info_number, 1, "1", false);
-
         else:
             raise NotImplementedError
 
@@ -382,26 +359,28 @@ class PuzzlinkConverter:
         """
         
         assert inst.grid_type in ["square"], f"Puzzle grid type must be 'square', get {inst.grid_type}."
-        assert inst.puzzle_type in ALLOWED_PUZZLE_TYPE, f"Puzzle {inst.puzzle_type} has not been implemented yet... "
+        normalized_type = normalize_puzzle_type(inst.puzzle_type)
+        assert normalized_type in PUZZLINK_ENCODABLE_TYPES, f"Puzzle {inst.puzzle_type} has not been implemented yet... "
         
-        self.puzzle_type = inst.puzzle_type
+        self.puzzle_type = normalized_type
         self.num_rows, self.num_cols = inst.rows - inst.margins[0] - inst.margins[1], inst.cols - inst.margins[2] - inst.margins[3] 
-        if self.puzzle_type in ["heyawake", "shikaku",  "aqre", "heyawacky", "shimaguni", "ayeheya", "stostone", "country"]:
+        encode_family = get_puzzlink_encode_family(self.puzzle_type)
+        if encode_family == "heyawake_family":
             body_str = self._encode_heyawake_variant(inst)
             return body_str
-        elif self.puzzle_type in ['nonogram']:
+        elif encode_family == 'nonogram_family':
             body_str = self._encode_nonogram_variant(inst)
             return body_str
-        elif self.puzzle_type in ["nurikabe", "kurochute", "kurodoko", "kurotto", "nurimisaki"]:
+        elif encode_family == "nurikabe_family":
             body_str = self._encode_nurikabe_variant(inst)
             return body_str
-        elif self.puzzle_type in ["moonsun", "masyu", "pearl", "mashu"]:
+        elif encode_family == "masyu_family":
             body_str = self._encode_masyu_variant(inst)
             return body_str
-        elif self.puzzle_type in ["slither", "slitherlink", "vslither", "tslither"]:
+        elif encode_family == "slither_family":
             body_str = self._encode_slither_variant(inst)
             return body_str
-        elif self.puzzle_type in ["yajilin", "yajirin", "castle", "hebi"]:
+        elif encode_family == "yajilin_family":
             body_str = self._encode_yajilin_variant(inst)
             return body_str
         else:
@@ -451,7 +430,8 @@ class PuzzlinkConverter:
         number_str = self._encode_number16(number_map, max_region_id)
         
         # 6. concat body
-        body = f"https://puzz.link/p?{inst.puzzle_type}/{inst.cols}/{inst.rows}/{border_str + number_str}"
+        pzl_type = to_puzzlink_type(self.puzzle_type)
+        body = f"https://puzz.link/p?{pzl_type}/{self.num_cols}/{self.num_rows}/{border_str + number_str}"
         return body
     
     def _encode_nonogram_variant(self, inst: PuzzleInstance):
@@ -585,7 +565,8 @@ class PuzzlinkConverter:
             logger.info(number_list)
             body_str = number3_str
 
-        url = f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+        pzl_type = to_puzzlink_type(self.puzzle_type)
+        url = f"https://puzz.link/p?{pzl_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         return url
     
     def _encode_nurikabe_variant(self, inst: PuzzleInstance):
@@ -638,7 +619,8 @@ class PuzzlinkConverter:
         max_k = max(number_map.keys()) if number_map else 0
         body_str = self._encode_number16(number_map, max_k)
         
-        url = f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+        pzl_type = to_puzzlink_type(self.puzzle_type)
+        url = f"https://puzz.link/p?{pzl_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         return url
 
     def _encode_slither_variant(self, inst: PuzzleInstance):
@@ -684,7 +666,8 @@ class PuzzlinkConverter:
             number_map[k] = val
 
         body_str = self._encode_number4(number_map)
-        return f"https://puzz.link/p?{inst.puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
+        pzl_type = to_puzzlink_type(self.puzzle_type)
+        return f"https://puzz.link/p?{pzl_type}/{self.num_cols}/{self.num_rows}/{body_str}"
 
     def _encode_yajilin_variant(self, inst: PuzzleInstance):
         top_m = inst.margins[0]
@@ -801,7 +784,7 @@ class PuzzlinkConverter:
 
             body_str = "".join(body_parts)
 
-        puzzle_type = "yajilin" if self.puzzle_type == "yajirin" else self.puzzle_type
+        puzzle_type = to_puzzlink_type(self.puzzle_type)
         if is_castle_or_hebi:
             return f"https://puzz.link/p?{puzzle_type}/{self.num_cols}/{self.num_rows}/{body_str}"
         if with_shading:
@@ -849,7 +832,7 @@ class PuzzlinkConverter:
         if len(urldata) > 1 and urldata[1] == 'v:':
             urldata.pop(1)
         
-        self.puzzle_type = urldata[0]
+        self.puzzle_type = normalize_puzzle_type(urldata[0])
         self.skip_shading = (self.puzzle_type != "castle") and (self.puzzle_type != "hebi")
         if urldata[1] == "b":
             self.skip_shading = False
@@ -872,11 +855,6 @@ class PuzzlinkConverter:
     
     
     def _decode_yajilin_variant(self):
-        if self.puzzle_type == "yajirin":
-            self.puzzle_type = "yajilin"
-        elif self.puzzle_type == "snakes":
-            self.puzzle_type = "hebi"
-        
         parsing_castle = (self.puzzle_type == "castle")
         arrows = self._decode_yajilin_arrows(parsing_castle)
         margins = [0, 0, 0, 0]

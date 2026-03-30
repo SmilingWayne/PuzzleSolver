@@ -11,6 +11,7 @@ from puzzlekit.formats.penpa_template import (
 from puzzlekit.formats.utils import (
     calculate_center_n
 )
+from puzzlekit.formats.puzzle_types import normalize_puzzle_type, get_penpa_genre_tags
 from typing import Any, Dict, List, Optional, Tuple, Union
 import json
 import ast
@@ -132,7 +133,8 @@ class PenpaConverter:
                 self.ir_puzzle.boxes = boxes
             elif p == 17:
                 genre_tag = ast.literal_eval(self.parts[p])
-                self.ir_puzzle.puzzle_type = genre_tag[0] if len(genre_tag) > 0 else ""
+                raw_type = genre_tag[0] if len(genre_tag) > 0 else ""
+                self.ir_puzzle.puzzle_type = normalize_puzzle_type(raw_type)
                 print(self.ir_puzzle.puzzle_type)
             # else:
             #     print(p, self.parts[p])
@@ -245,7 +247,6 @@ class PenpaConverter:
         
         hdr = fixed['header']
         penpa_template = get_penpa_template(inst.puzzle_type)
-        
         center_n = calculate_center_n(inst.cols , inst.rows , hdr.size)
         
         self.real_rows = inst.rows + 4  # penpa size after padding
@@ -292,7 +293,7 @@ class PenpaConverter:
             to_penpa_str(fixed['pu_q_col']), 
             to_penpa_str(fixed['pu_a_col']), 
             to_penpa_str(fixed['sol_check_or'], apply_compression = False),
-            to_penpa_str(penpa_template['genre_tags']),
+            to_penpa_str(get_penpa_genre_tags(inst.puzzle_type)),
             fixed["custom_message"]
         ]
         
@@ -311,15 +312,14 @@ class PenpaConverter:
 if __name__ == "__main__":
 
     for test_url in [
-        "m=edit&p=7VZdb9owFH3nV0x+rbV8EQiRqonPSlXLykrHSoSQCaYJBEzz0bIg/nuvHRBJSDttkyYepihXJ+c61+fG9oHgOSI+xaqMdawZWMYKXNWagVXVwFVdF7e8v/pu6FHzE65HocN8AE4YrgNTktZRPIyHnz13tZDWX36SuQtQUmVJl5im2qoyUVVS1qKyNtXKvqrEQxvjr50OnhEvoPj6cd5oLeqv7foPSR9q2kN3djFv9R7m08F3pSe7ki93PWN1e9dqeBdX8fDWqb/QNq3cBcx2PEqmJB4OrjfeqmM8OTOlee00jRlZycGz0a+9NHqXlyVr38OotI1rZlzH8ZVpIQVhpMKtoBGOe+Y2vjWRzZYTF+H4HvIIKyOMlpEXujbzmI8OXHyTvK0CbB/hQOQ5aiakIgPu7jHAR4C269seHd8kzJ1pxX2MuICGeJtDtGQvlE/GBfLnRBQQExLCGgSOu0ZYg0QQTdki2g9VRjsc1/+gDah0aIPDpA2OCtrg3f11G7A96Kagg9pot4MV+gY9jE2Lt/NwhMYR3ptbiF1ziyo6f1Udc5V8MaFipSaqjbUjVa0ko9KUwSltDOt/oBS5XMCJauX0BIqm5mYAMYqQ9ChiR0RVxD4oxrEmYktEWURdxBsxpi3iQMSmiGURK2JMlff8W1/lH8ix9MQrfn3p5z1uVLLQfeTPiE1hlzbZcs0CN6QInAIFzBsHSW5MN8QOkZk4VjqT4VbRckLhgKUoj7E13+8FFQ6pDOk+rZhPC1OcpNOn90rxVEGpCfOnOU2vxPOyvYjfgQyVHPAMFfpwelPPxPfZa4ZZktDJECnDylSiq9zHDElWIlmQ3GzL4+fYldAGidvSsMoX8b+tn7ut89WSz83Gzk2O2OjM/8B1jsk8XeA9wH5gP6lsEf+O06Syef7EVrjYU2cBtsBcgM37C1CnFgPkicsA947R8Kp5r+Gq8nbDpzpxHD5V2nQstP9vi0alNw==",
-        "m=edit&p=7VddT+M4FH3nV6z8OtY0/kibRBqtytdIiGFhgWWhqqpQAi2kTSdJAQXx3+dc26FtWkarnRdWWrWxT46Pr++9ca/T4vs8zhMuPPqqgKPHR4vAXDJom8tzn7NxmSbRb7w7L0dZDjAqy1kRtVqzeXVVXX1Ox9OH1uz3YVxA1xIefaXWIylVIpQYSiUTIdWdVGIqhZTeZ6kFwFQIImUitRqCTcCNpFKc/7G/z2/jtEj4weX99u5D92mv+3fLv1Lq/Oj20/3uyfn9zcVf4sQbt3LvKA2m3453t9NPX6urb6PuY7KXtI+LbDhKk/gmrq4uDp7T6X5wN7oVOwejneA2nnrF9+AsfNw++fJlq+fi7G+9VGFUdXn1NeoxwTiTuATr8+okeqm+RWyYTa7HjFenGGdc9DmbzNNyPMzSLGc1Vx3a2RJwbwEvzDihHUsKD/jIYcBLwOE4H6bJ4NAyx1GvOuOMHNg2swmySfaY0GLkIN1bp0BcxyXyX4zGM8YVBor5TfYwd1LRf+VV91+EAUt1GARtGIQ2hEHR/XIY2E3J84YIwv7rK57Qn4hhEPUonPMFDBbwNHphymOR5kyFpvOV6Tq+6UJtO3snPCsVnrC9krbXdd+2ve/6Ns3DMkdumR7TA+yTDu0WuExL9pgaqAWlDSUGlCxHkUc9JomqVW1DmYm1ihx2E2sVOU8TvSXKqBb3JiKatuSVia4xT0ijU8TVK5roG46ZTJBu2R5lZWVRSk9zAUoVTXwzhrSJ6AXtpWn3TStNe4aHxytl2l3Teqb1TXtoNHtIuRSCSwnDEhaFBMbCBoMX8JSw9Be89LhUyJrB0Cg3l3iJrBBWwNppFDTaaYhXtUaDDxyGfXqqhDXq5RuGxncaDY3veB+aN4za2kHmDe4AO/vE+x2LO1i35juwE7i5hDsuriDkMnR2OrAT1nqy7+yEsFPzAeKirVLjwOUqhM2wtqmA3dwAuQ2wJ40GNh2vPMGVsHaUJ4HtXMN71ibGF7xQXEk3V2hgmx/DC5tzJYGV00holNMQL2tNhyttY4ENYLeWxro1VtD4ToNTTfmO96GpsW5z1bZ5Uxr6ttMTr50PbRyKhsemuzBbb8e0mjYgbQTaRPSboQdOm4UwJZ4eCGFKHiUV2DhOQRMmByk4AWNts7M7VLT+YVmzVefXf0TrUTXc6WHj0wvB6sf/73H9rR47nee38TDBMbOTTWZZMS4ThqOeFVk6KOzYIHmOhyWL7CvH8sgKN51PrhOckEtUmmUzOrA2WKiHVsjx3TTLk41DRCY3d++ZoqENpq6z/Kbh01OcpquxmLe9Fcqe0CtUmeP4XbqP8zx7WmEmcTlaIZbeOFYsJdNGMst41cX4IW6sNlmk43WLPTNz9VCP6CH+/1720d/L6Gl5H62MfTR3zEbP8p9UncVgk95Qe8D+pPwsjW7i36k0S6NNfq2skLPrlQXshuICtllfQK2XGJBrVQbcO4WGrDZrDXnVLDe01FrFoaWWiw5+HuYPrImzv/UD"
+        "m=edit&p=7VhrT+M4FP3Orxj560StX4mTSKNVeY2EoAMLLDtUVZW2gRbShklbQEH973tt3zSPltmRViux0qqtfXx8c+/xI9eGxY9VlMUOo/orfAdq+Ejmmx/3PfOj+LmaLpM4/OR0VstJmgFYLp8WYbv9tMpv89tWMp0/tp9+m8TDaZtR/Z0zl7aYG0keSTYUnLZGtBXRFm2NBdPVkEvamnMBSDclH+sqMnacARdxZuzBynG+HR87x1GyiJ2T7w/7h4+dl6POn233Vojr7t3nh8OL64fxzR/sgk7bGe0m/vzs/HA/+fw1vz2bdJ7jo9g7X6SjSRJH4yi/vTl5TebH/v3kjh2cTA78u2hOFz/8q+B5/+LLl70ejrq/95YHYd5x8q9hjzDiEA4/RvpOfhG+5WchGaWz4ZQ4+SX0E4f1HTJbJcvpKE3SjBRcfmqf5gCPSnhj+jU6sCSjgLuIAX4HOJpmoyQenFrmPOzlVw7RAvbN0xqSWfocExSo21YUEMNoCau2mEyfiCOgY7Eap48rUkRYO3nHDCPv/uIIRDkCsRmB2D0C/q+PIOiv17BCv8MYBmFPD+e6hH4JL8M3In0SSofIwFQutRW3le3zmK0s6XmmUralhK2spbJefOvFV7ayfYwqrLHNXKw9rLGfc6wF1tYpE9gWEmu0l8hL9CfRn9T9az3tdpQ94g4ocZTerH07Yj3PRVsPvWGip6FH+IBXKOOIVSk9PdqKVShe963nrNpWjX49i7U2Rqm4VA25Pm20lW7LgahQft3ErECPiKqNWY2akV6WOuE1CbU1LWbRakZcNInGAMx61glpR12VJ1TDSIptI9mULJuSZc0NbAoWvq31a6jLY1NyU17Bm+HkwpSHpqSmdE15amyOYENxHjhca+GOxYJaLChgZrGUYOMizwF7iBnYcLRxK7wArBDrZ/2S15NjMMRyMa6EWG6Fl6hBQizXK3Gh04Wjy1WlNhf9u6rEErBX6IfjzkOdLmjw8FlP2xTPgn4vQKx94nhd0KNEiT3UpsCPQs0eLWMpeFbhsx5oVqhfuSX29PGLenyw8dG/Aj9+4VPHxVi+KHnfdwTlG8x9qxk44NFPAOc9LezBT4B+As+Bo3mDeYDzEMA8BHYeBGNgg/6DAHDhE2IFGIvxDQ8xASvkFWD0Q13AhTYJely0AW1clrF4wYMN90vMCh40454EDng7hwL2asnDnOA+hJiAURvs1Q3m4FOgfw5+BGoTfok5xMK9ZzDHccH+FJIhr0qdEvRLXurB/Qkc4rU+QvWrdmBKaUrPvIJKH12/eLjZ5P/P3/a/ldMT9pJY/7j/Pa6/1yOXq+wuGsVw4+iuZsM4+9RNs1mUELj0kUWaDBa2fxC/RqMlCe/M5bPaU+PmxkeNStL0Ce7FuzwUXTVyej9Ps3hnlybj8f17rnTXDlfDNBs3NL1ESVIfi/kroEbZC1uNWmbTWjvKsvSlxsyi5aRGVG5uNU/xvDGZy6guMXqMGtFm5XSs98grMb8eJD29kP/f0D/6DV2vFv1oqeyjyTEbPc1+knXKzia9I/cA+5P0U+ndxb+TaSq9TX4rrWix25kF2B3JBdhmfgFqO8UAuZVlgHsn0WivzVyjVTXTjQ61lXF0qGrS6RH9nw04Gv4C"
     ]:
         hpc = PenpaConverter(dict())
         tmp = hpc.decode(test_url)
-        print(tmp.cells)
+        # print(tmp.cells)
         enc = hpc.encode(tmp)
-        print(tmp)
-        print(enc)
-        # b = hpc.decode(enc)
+        # print(tmp)
         # print(enc)
+        b = hpc.decode(enc)
+        print(enc)
         

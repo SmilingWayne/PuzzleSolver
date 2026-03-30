@@ -227,7 +227,7 @@ class PuzzleInstance:
         # 3. core attributes:
         return {
             "grid_type": self.grid_type,
-            # "puzzle_type": self.puzzle_type,
+            "puzzle_type": self.puzzle_type,
             "rows": self.rows,
             "cols": self.cols,
             "margins": self.margins,

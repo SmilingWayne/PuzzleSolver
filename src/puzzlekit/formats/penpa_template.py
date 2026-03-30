@@ -1,5 +1,6 @@
 from typing import List, TypedDict, Type, Any, Dict
 from puzzlekit.formats.base import COMPRESS_SUB
+from puzzlekit.formats.puzzle_types import normalize_puzzle_type
 from dataclasses import dataclass, field
 import json 
 from functools import reduce
@@ -14,84 +15,89 @@ PENPA_MODE_TEMPLATE = {
     "heyawake": {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
         "user_tab_setting": ["Surface"],
-        "genre_tags": ["heyawake"]
     },
-    "shimaguni": {
-        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
-        "user_tab_setting": ['Surface'],
-        "genre_tags": ["shimaguni (islands)"]
+    "shikaku": {
+        "mode": '{z9:zA,zG:["2","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["edgesub",3],"sudoku":["1",9]}}',
+        'user_tab_setting': ["Surface","Composite"]
     },
     "aqre": {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
         "user_tab_setting": ['Surface'],
-        "genre_tags": ['aqre']
     },
-    
-    "slitherlink" : {
-        "mode": '{z9:zA,zG:["3","1","2"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["edgex",3],"sudoku":["1",9]}}',
-        "user_tab_setting": ['Surface', "Composite"],
-        "genre_tags": ["slitherlink"]
+    "shimaguni": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ['Surface'],
     },
-    
+    "stostone": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ['Surface'],
+    },
     "ayeheya": {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zS,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
         "user_tab_setting": ['Surface'],
-        "genre_tags": ["ayeheya (ekawayeh)"]
     },
-    
-    "country road": {
+    "country": {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["lineox",3],"sudoku":["1",9]}}',
         "user_tab_setting": ["Surface","Composite"],
-        "genre_tags": ["country road"]
     },
-    
+    "nonogram": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
+    "nurikabe": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
     "kurochute": {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
         "user_tab_setting":  ["Surface","Composite"],
-        "genre_tags": ["kurochute"]
+    },
+    "kurodoko": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
+    "kurotto": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
+    "nurimisaki": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
+    "moonsun": {
+        "mode": '{z9:zA,zG:["2","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["linex",3],"sudoku":["1",9]}}',
+        'user_tab_setting': ["Surface","Composite"]
+    },
+    "masyu": {
+        "mode": '{z9:zA,zG:["2","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["linex",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
+    },
+    "slitherlink": {
+        "mode": '{z9:zA,zG:["3","1","2"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["edgex",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"]
     },
     "yajilin" : {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["linex",3],"sudoku":["1",9]}}',
         "user_tab_setting": ["Surface","Composite"],
-        "genre_tags": ["yajilin"]
     },
-    
+    "castle": {
+        'mode': '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["linex",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Composite"],
+    },
+    "hebi": {
+        "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:zN,zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",9]}}',
+        "user_tab_setting": ["Surface","Number Normal"]
+    },
     "default" : {
         "mode": '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}',
         "user_tab_setting": ["Surface"],
-        "genre_tags": []
     },
     
 }
 
-PUZZLE_TYPE_ALIASES = {
-    # slither aliases and variants
-    "slither": "slitherlink",
-    "slitherlink": "slitherlink", 
-    "vslither": "slitherlink", # vertex slither
-    "tslither": "slitherlink", # touching slither
-    
-    # kuroshute aliases
-    "kurochute": "kurochute",
-    "kuroshuto": "kurochute",
-    "kurochuto": "kurochute",
-    # ====
-    "nonogram": "nonogram",
-    # shimaguni
-    "shimaguni (islands)": "shimaguni",
-
-    "simpleloop": "simpleloop",
-    "heyawacky": "heyawake",
-    "heyawake": "heyawake",
-
-}
-
 def get_penpa_template(puzzle_type: str) -> dict:
-    
-    normalized = PUZZLE_TYPE_ALIASES.get(puzzle_type, puzzle_type)
-    
+    normalized = normalize_puzzle_type(puzzle_type)
     template = PENPA_MODE_TEMPLATE.get(normalized, PENPA_MODE_TEMPLATE["default"])
-    
     return template
 
 def penpa_str_to_dict(mode_str: str):

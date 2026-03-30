@@ -4,7 +4,7 @@ This repository provides **100+ useful, efficient and problem‑specific solvers
 
 For simplicity, the dataset is removed to [puzzlekit-dataset](https://github.com/SmilingWayne/puzzlekit-dataset) repo. The structured dataset contains 41k+ instances covering 130+ specific and popular puzzle types (e.g. Nonogram, Slitherlink, Akari, Fillomino, Hitori, Kakuro, Kakuro), mostly from [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm) and [puzz.link](https://puzz.link). The details are listed in the table below. 
 
-
+This repo also provides **bidirectional conversion between [puzz.link](https://puzz.link) and [Penpa+](https://swaroopg92.github.io/penpa-edit/) puzzle URLs** for supported genres (19 for now) via a shared intermediate representation. puzz.link-like links from common mirrors (e.g., `pzplus.tck.mn`, `pzv.jp`) are also accepted.
 
 <details>
   <summary><strong>Table of puzzles, datasets and solvers.</strong></summary>
@@ -164,6 +164,37 @@ For simplicity, the dataset is removed to [puzzlekit-dataset](https://github.com
 
 </details>
 
+<details>
+<summary><strong>Supported puzzle types for URL interchange</strong>
+</summary>
+
+> (canonical IR name, puzz.link token, aliases, Penpa genre tag)
+
+| Canonical (IR) | puzz.link token | puzz.link aliases               | Penpa genre tag       |
+| -------------- | --------------- | ------------------------------- | --------------------- |
+| `aqre`         | `aqre`          | aqre                            | `aqre`                |
+| `ayeheya`      | `ayeheya`       | ayeheya                         | `ayeheya (ekawayeh)`  |
+| `castle`       | `castle`        | castle                          | `castlewall`          |
+| `country`      | `country`       | country                         | `country road`        |
+| `hebi`         | `hebi`          | hebi, snakes                    | `hebi-ichigo`         |
+| `heyawake`     | `heyawake`      | heyawake, heyawacky, heyawack   | `heyawake`            |
+| `kurochute`    | `kurochute`     | kurochute, kuroshuto, kurochuto | `kurochute`           |
+| `kurodoko`     | `kurodoko`      | kurodoko                        | `kurodoko`            |
+| `kurotto`      | `kurotto`       | kurotto                         | `kurotto`             |
+| `masyu`        | `masyu`         | masyu, mashu, pearl             | `masyu`               |
+| `moonsun`      | `moonsun`       | moonsun                         | `moon or sun`         |
+| `nonogram`     | `nonogram`      | nonogram                        | `nonogram`            |
+| `nurikabe`     | `nurikabe`      | nurikabe                        | `nurikabe`            |
+| `nurimisaki`   | `nurimisaki`    | nurimisaki                      | `nurimisaki`          |
+| `shikaku`      | `shikaku`       | shikaku                         | `shikaku`             |
+| `shimaguni`    | `shimaguni`     | shimaguni                       | `shimaguni (islands)` |
+| `slitherlink`  | `slither`       | slitherlink                     | `slitherlink`         |
+| `stostone`     | `stostone`      | stostone                        | `stostone`            |
+| `yajilin`      | `yajilin`       | yajilin, yajirin                | `yajilin`             |
+
+</details>
+
+
 
 <details>
   <summary><strong>Gallery of some puzzles (not complete!)</strong></summary>
@@ -239,6 +270,33 @@ python scripts/benchmark.py -a
 ```
 
 Currently it will take ~30 min to solve all 30k+ instances available.
+
+---
+
+If you want to try the bi-directional conversion between penpa+ and puzz.link, follow the quick tour:
+
+
+```python
+import puzzlekit
+
+# 1st method
+ir = puzzlekit.decode("https://puzz.link/p?slither/10/10/g188227cl1dg367bdcg3ddgbhdgd1agbd760dg2cl633661d")
+penpa_url = puzzlekit.encode(ir, "penpa")
+print(penpa_url)
+# get:
+# https://swaroopg92.github.io/penpa-edit/#m=edit&p=7VdtT9swEP7Or0...
+
+
+# 2nd method (recommend)
+penpa_url = "YOUR_PENPA_URL" # both full URL or `m=edit&p=...` are okay
+puzzlink_url = puzzlekit.convert(penpa_url, "puzzlink")
+print(puzzlink_url)
+# get:
+# https://puzz.link/p?slither/10/10/b86ag68dg127bg62aldg8dad8bgdl26dg722cg68dg88b3
+```
+
+See also `scripts/quick_start.py` for a runnable sample.
+
 
 ## Roadmap
 

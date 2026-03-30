@@ -155,3 +155,5 @@ cython_debug/
 assets/
 benchmark_results/
 docs/puzzles/*.md
+penpa_edit/
+src/puzzlekit/formats/temp

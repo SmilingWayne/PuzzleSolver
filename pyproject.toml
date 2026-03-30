@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "puzzlekit"
-version = "0.3.2"
-description = "A comprehensive logic puzzle solver (100+) based on Google OR-Tools. e.g., solvers for Nonogram, Slitherlink, Akari, Yajilin, Hitori and Sudoku-variants."
+version = "0.3.3"
+description = "100+ logic puzzle solvers on Google OR-Tools (e.g., yajilin, slitherlink, nonogram), with bidirectional conversion between puzz.link and Penpa+ URLs for supported genres (shared IR)."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "SmilingWayne", email = "xiaoxiaowayne@gmail.com"}]
 license = {file = "LICENSE"}
-keywords = ["puzzle", "solver", "logic", "cp-sat", "efficient", "python", "nonogram", "slitherlink", "yajilin", "hitori", "sudoku", "akari"]
+keywords = ["puzzle", "solver", "logic", "cp-sat", "python", "nonogram", "slitherlink", "yajilin", "sudoku", "puzzlink", "penpa", "url-conversion"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",

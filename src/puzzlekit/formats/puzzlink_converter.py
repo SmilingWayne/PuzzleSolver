@@ -3,7 +3,13 @@ from typing import Dict, Any, List, Optional, Union, Set
 from urllib.parse import unquote, urlsplit
 
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState, NumberColor, SurfaceColor, SymbolState, NumberState
+    PuzzleInstance,
+    CellState,
+    EdgeState,
+    SymbolState,
+    NumberClue,
+    ArrowClue,
+    Direction,
 )
 from puzzlekit.formats.puzzle_types import (
     normalize_puzzle_type,
@@ -131,21 +137,13 @@ class PuzzlinkConverter:
                 row_idx = rows_offset - k % max_rows_offset - 1
                 col_idx = cols_offset + int(k / max_rows_offset)
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    number = NumberState(
-                        value = f"{v}",
-                        number_color = NumberColor.BLACK,
-                        number_style = "1"
-                    )
+                    clue=NumberClue(value=f"{v}")
                 )
             else:
                 row_idx = rows_offset + int((k - max_rows_offset * self.num_cols) / max_cols_offset)
                 col_idx = cols_offset - (k - max_rows_offset * self.num_cols) % max_cols_offset - 1
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    number = NumberState(
-                        value = f"{v}",
-                        number_color = NumberColor.BLACK,
-                        number_style = "1"
-                    )
+                    clue=NumberClue(value=f"{v}")
                 )
 
         self.ir_puzzle.puzzle_type = "nonogram"
@@ -212,13 +210,13 @@ class PuzzlinkConverter:
         """
         number_map = self._decode_number16()
 
-        # JS: number_style = type !== "kurochute" && type !== "nurikabe" ? 6 : 1
+        # Some variants hide '?' in the original JS; we preserve a stable IR:
+        # - for nurikabe/kurochute keep '?' as clue text
+        # - for others keep a blank " " (compatible with previous behavior)
         if self.puzzle_type in ["nurikabe", "kurochute"]:
-            num_color = NumberColor.BLACK        # style = 1
-            hide_question = False                # "?" 显示为 "?"
+            hide_question = False
         else:
-            num_color = NumberColor.CIRCLE_BLACK # style = 6
-            hide_question = True                 # "?" 隐藏（不放入 IR）
+            hide_question = True
 
         cell_dict = {}
 
@@ -235,19 +233,11 @@ class PuzzlinkConverter:
             #     continue  # 直接跳过，IR 中不存储
             if not hide_question:
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    number = NumberState(
-                        value = str(v), # "?" 原样保留（nurikabe/kurochute）
-                        number_color = num_color,
-                        number_style = "1"
-                    )
+                    clue=NumberClue(value=str(v))
                 )
             else:
                 cell_dict[(row_idx, col_idx)] = CellState(
-                    number = NumberState(
-                        value = str(v) if str(v) != "?" else " " ,     # "?" 原样保留（nurikabe/kurochute）
-                        number_color = num_color,
-                        number_style = "1"
-                    )
+                    clue=NumberClue(value=str(v) if str(v) != "?" else " ")
                 )
 
         # 填充 IR
@@ -303,14 +293,7 @@ class PuzzlinkConverter:
                     new_cell_dict[coord] = CellState(symbol=symbol_dict[token])
                 elif parse_number:
                     new_cell_dict[coord] = CellState(
-                        number = NumberState(
-                            value = token,
-                            number_color = NumberColor(color),
-                            number_style = style,
-                        )
-                        # value=token,
-                        # num_color=NumberColor(color),
-                        # num_style=style,
+                        clue=NumberClue(value=token)
                     )
 
         return new_cell_dict
@@ -497,7 +480,7 @@ class PuzzlinkConverter:
 
         for k, cell_state in inst.cells.items():
             (r_, c_) = k
-            if cell_state.number is None or not cell_state.number.value:
+            if cell_state.clue is None:
                 continue
             if not (0 <= r_ < self.num_rows and 0 <= c_ < self.num_cols):
                 continue
@@ -507,7 +490,9 @@ class PuzzlinkConverter:
             if region_top_left.get(rid) != (r_, c_):
                 continue
 
-            val_raw = cell_state.number.value
+            if not isinstance(cell_state.clue, NumberClue):
+                continue
+            val_raw = cell_state.clue.value
             val = int(val_raw) if str(val_raw).isdigit() else val_raw
             number_map[int(rid)] = val
             
@@ -536,11 +521,11 @@ class PuzzlinkConverter:
         number_map: Dict[int, Any] = dict()
         
         for (r, c), cell_state in inst.cells.items():
-            if not cell_state.number.value or cell_state.number.value.strip() in ['-', '']:
+            if cell_state.clue is None or not isinstance(cell_state.clue, NumberClue):
                 continue
             
             # 解析数字值
-            val = cell_state.number.value.strip()
+            val = str(cell_state.clue.value).strip()
             if val == '?':
                 number_val = '?'
             else:
@@ -614,8 +599,12 @@ class PuzzlinkConverter:
                 if sym.symbol_type == "x":
                     return "x"
 
-            if cell_state.number is not None and cell_state.number.value:
-                return str(cell_state.number.value).strip().lower()
+            if cell_state.clue is not None:
+                if isinstance(cell_state.clue, NumberClue):
+                    return str(cell_state.clue.value).strip().lower()
+                if isinstance(cell_state.clue, ArrowClue):
+                    # Prefer arrow value when present; direction handled by yajilin encoder.
+                    return "" if cell_state.clue.value is None else str(cell_state.clue.value).strip().lower()
             return None
 
         for (r, c), cell_state in inst.cells.items():
@@ -678,10 +667,10 @@ class PuzzlinkConverter:
         number_map: Dict[int, Any] = {}
         
         for (r, c), cell_state in inst.cells.items():
-            if not cell_state.number.value:
+            if cell_state.clue is None or not isinstance(cell_state.clue, NumberClue):
                 continue
             
-            val = cell_state.number.value
+            val = cell_state.clue.value
 
             r_grid = r - top_m
             c_grid = c - left_m
@@ -725,7 +714,7 @@ class PuzzlinkConverter:
 
         number_map: Dict[int, Union[int, str]] = {}
         for (r, c), cell_state in inst.cells.items():
-            if cell_state.number is None or cell_state.number.value is None:
+            if cell_state.clue is None or not isinstance(cell_state.clue, NumberClue):
                 continue
 
             r_grid = r - top_m
@@ -733,7 +722,7 @@ class PuzzlinkConverter:
             if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
                 continue
 
-            raw = str(cell_state.number.value).strip()
+            raw = str(cell_state.clue.value).strip()
             if raw == "":
                 continue
 
@@ -764,40 +753,56 @@ class PuzzlinkConverter:
         # - True: emit shade-mode yajilin URL with "/b" section.
         with_shading = bool(self.config.get("yajilin_encode_with_shading", False))
 
-        # IR dir code (base.py): 0:n,1:w,2:e,3:s -> puzz.link: 1:up,2:down,3:left,4:right
-        ir_to_puzzlink_dir = {"0": 1, "1": 3, "2": 4, "3": 2}
+        # Direction mapping:
+        # IR (semantic) -> puzz.link yajilin arrows: 1=up,2=down,3=left,4=right, 0=none
+        dir_to_puzzlink = {
+            Direction.N: 1,
+            Direction.S: 2,
+            Direction.W: 3,
+            Direction.E: 4,
+        }
+        # Backward-compat parse: old IR sometimes stored direction suffix codes in strings.
+        old_code_to_puzzlink = {"0": 1, "3": 2, "1": 3, "2": 4}
         is_castle_or_hebi = self.puzzle_type in ["castle", "hebi"]
 
         clues: Dict[int, str] = {}
 
         for (r, c), cell_state in inst.cells.items():
-            if cell_state.number is None or cell_state.number.value is None:
-                continue
-
             r_grid = r - top_m
             c_grid = c - left_m
             if not (0 <= r_grid < self.num_rows and 0 <= c_grid < self.num_cols):
                 continue
 
-            raw = str(cell_state.number.value).strip()
-            if raw in ["-", "_"]:
-                raw = ""
-            if raw == "":
-                # For castle/hebi, empty clue text is still meaningful when
-                # shading exists (encoded as "."). Do not skip these cells.
+            # Determine clue payload (a_part) + direction.
+            a_part = ""
+            direction = 0
+
+            clue = cell_state.clue
+            if isinstance(clue, ArrowClue):
+                a_part = "" if clue.value is None else str(clue.value).strip()
+                direction = dir_to_puzzlink.get(clue.direction, 0)
+            elif isinstance(clue, NumberClue):
+                raw = str(clue.value).strip()
+                if raw in ["-", "_"]:
+                    raw = ""
+                if "_" in raw:
+                    a_part_raw, b_part_raw = raw.split("_", 1)
+                    a_part = a_part_raw.strip()
+                    direction = old_code_to_puzzlink.get(b_part_raw.strip(), 0)
+                else:
+                    a_part = raw
+                    direction = 0
+            else:
+                # No clue: for castle/hebi we may still need to encode shading cells.
+                a_part = ""
+                direction = 0
+
+            if a_part == "":
+                # For castle/hebi, empty clue text is still meaningful when shading exists.
                 if not is_castle_or_hebi:
                     continue
-
-            if "_" in raw:
-                a_part, b_part = raw.split("_", 1)
-            else:
-                # Backward compatibility: pure number or pure marker.
-                a_part, b_part = raw, ""
-
-            a_part = a_part.strip()
-            b_part = b_part.strip()
-
-            direction = ir_to_puzzlink_dir.get(b_part, 0)
+                if not (cell_state.fill in {"black", "light_gray"}):
+                    continue
 
             # a_part:
             # - "?" means empty number in this converter's yajilin decode path.
@@ -838,9 +843,9 @@ class PuzzlinkConverter:
             if self.puzzle_type == "castle":
                 # Castle stores per-clue shading prefix before direction token.
                 # 0: light gray, 1: white/none, 2: black.
-                if cell_state.surf_color == SurfaceColor.BLACK:
+                if cell_state.fill == "black":
                     shading_code = 2
-                elif cell_state.surf_color == SurfaceColor.LIGHT_GREY:
+                elif cell_state.fill == "light_gray":
                     shading_code = 0
                 else:
                     shading_code = 1
@@ -948,9 +953,7 @@ class PuzzlinkConverter:
         edge_dict: Dict[tuple[Any], EdgeState] = {}
 
         # puzz.link direction encoding (for yajilin arrows): 1=up,2=down,3=left,4=right
-        # IR NumberState.value direction part follows base.py:
-        # 0:n, 1:w, 2:e, 3:s, ...
-        direction_map = {1: "0", 2: "3", 3: "1", 4: "2"}
+        direction_map = {1: Direction.N, 2: Direction.S, 3: Direction.W, 4: Direction.E}
 
         for cell_index, arrow_data in arrows.items():
             if cell_index < 0:
@@ -964,31 +967,23 @@ class PuzzlinkConverter:
             direction, number_str, shading_type = arrow_data
             effective_shading = 2 if self.puzzle_type == "hebi" else shading_type
 
-            # number token a in "{a}_{b}".
-            # Keep JS behavior: if shading is skipped and clue has no number, render as "?".
-            a_part = number_str if number_str else ("?" if self.skip_shading else "")
-            b_part = direction_map.get(direction, "") if direction != 0 else ""
-            value = f"{a_part}_{b_part}" if (a_part or b_part) else ""
-
-            number_color = NumberColor.BLACK
-            if not self.skip_shading and effective_shading == 2:
-                # Black background uses white number style in IR, even for empty text.
-                number_color = NumberColor.WHITE_ON_BLACK
-
-            cell_state = CellState(
-                number=NumberState(
-                    value=value,
-                    number_color=number_color,
-                    number_style="2",
-                )
-            )
+            # Semantic clue:
+            # - direction==0 and empty number means "no clue" (but may still carry shading)
+            # - if shading is skipped and clue has no number, keep legacy "?" placeholder
+            clue_value: Optional[Union[int, str]] = number_str if number_str else ("?" if self.skip_shading else None)
+            if direction == 0 and clue_value is None:
+                cell_state = CellState(clue=None)
+            else:
+                clue_dir = direction_map.get(direction, Direction.N)
+                cell_state = CellState(clue=ArrowClue(value=clue_value, direction=clue_dir))
 
             # Yajilin shading/background comes only in /b format.
             if not self.skip_shading:
                 if effective_shading == 0:
-                    cell_state.surf_color = SurfaceColor.LIGHT_GREY
+                    cell_state.fill = "light_gray"
                 elif effective_shading == 2:
-                    cell_state.surf_color = SurfaceColor.BLACK
+                    cell_state.fill = "black"
+                    cell_state.shaded = True
 
             cell_dict[(row, col)] = cell_state
 
@@ -1009,9 +1004,9 @@ class PuzzlinkConverter:
                             adjacent_state = cell_dict.get(adjacent_cell)
                             adjacent_shading = None
                             if adjacent_state is not None:
-                                if adjacent_state.surf_color == SurfaceColor.BLACK:
+                                if adjacent_state.fill == "black":
                                     adjacent_shading = 2
-                                elif adjacent_state.surf_color == SurfaceColor.LIGHT_GREY:
+                                elif adjacent_state.fill == "light_gray":
                                     adjacent_shading = 0
                                 else:
                                     adjacent_shading = 1

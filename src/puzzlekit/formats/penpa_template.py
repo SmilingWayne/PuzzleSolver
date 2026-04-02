@@ -1,5 +1,5 @@
 from typing import List, TypedDict, Type, Any, Dict
-from puzzlekit.formats.base import COMPRESS_SUB
+from puzzlekit.formats.penpa_constants import COMPRESS_SUB
 from puzzlekit.formats.puzzle_types import normalize_puzzle_type
 from dataclasses import dataclass, field
 import json 

@@ -1,7 +1,13 @@
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState,
-    COMPRESS_SUB, NumberColor, SurfaceColor, SymbolState, NumberState,
+    PuzzleInstance,
+    CellState,
+    EdgeState,
+    SymbolState,
+    NumberClue,
+    ArrowClue,
+    Direction,
 )
+from puzzlekit.formats.penpa_constants import COMPRESS_SUB
 from puzzlekit.formats.penpa_template import (
     PENPA_FIXED_FIELDS as fixed,
     PENPA_PU_X_DEFAULT,
@@ -308,16 +314,34 @@ class PenpaConverter:
                 self.ir_puzzle.cells[(r, c)] = cell
     
     def _decode_surface(self, surface_dict: Dict[str, int]):
+        penpa_surface_to_fill = {
+            1: "dark_gray",
+            2: "gray",
+            3: "light_gray",
+            4: "black",
+            5: "green",
+            6: "blue",
+            7: "red",
+            8: "yellow",
+            9: "pink",
+            10: "orange",
+            11: "purple",
+            12: "brown",
+        }
         for index, num_data in surface_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
             if not num_data: continue
+            fill = penpa_surface_to_fill.get(int(num_data))
             if (r, c) not in self.ir_puzzle.cells: 
                 self.ir_puzzle.cells[(r, c)] = CellState(
-                    surf_color = SurfaceColor(int(num_data))
+                    fill=fill,
+                    shaded=(fill == "black"),
                 )
             else:
                 cell = self.ir_puzzle.cells[(r, c)]
-                cell.surf_color = SurfaceColor(int(num_data))
+                cell.fill = fill
+                if fill == "black":
+                    cell.shaded = True
                 self.ir_puzzle.cells[(r, c)] = cell
                 # Only update the color
     
@@ -325,30 +349,42 @@ class PenpaConverter:
         # ['4', 1, '1']:  number, color, submode
         # lots to do here. for diff number format
 
+        code_to_dir = {
+            "0": Direction.N,
+            "1": Direction.W,
+            "2": Direction.E,
+            "3": Direction.S,
+            "4": Direction.NW,
+            "5": Direction.NE,
+            "6": Direction.SW,
+            "7": Direction.SE,
+        }
+
         for index, num_data in number_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
 
+            raw = f"{num_data[0]}"
+            if raw == "":
+                # Penpa sometimes stores styling-only entries with empty text.
+                # Treat them as "no clue" in semantic IR.
+                continue
+            clue_obj = None
+            # Yajilin-style encoding legacy: "{a}_{b}" where b is direction code.
+            if "_" in raw:
+                a_part, b_part = raw.rsplit("_", 1)
+                b_part = b_part.strip()
+                if b_part in code_to_dir:
+                    a_part = a_part.strip()
+                    value = a_part if a_part != "" else None
+                    clue_obj = ArrowClue(value=value, direction=code_to_dir[b_part])
+
             if (r, c) not in self.ir_puzzle.cells:
                 self.ir_puzzle.cells[(r, c)] = CellState(
-                    number = NumberState(
-                        value = f"{num_data[0]}", 
-                        number_color = NumberColor(num_data[1]),
-                        number_style = num_data[2]
-                    )
+                    clue=clue_obj if clue_obj is not None else NumberClue(value=raw),
                 )
             else:
                 cell = self.ir_puzzle.cells[(r, c)]
-                # Existing cell may come from surface/symbol pass and have number=None.
-                if cell.number is None:
-                    cell.number = NumberState(
-                        value = f"{num_data[0]}",
-                        number_color = NumberColor(num_data[1]),
-                        number_style = num_data[2],
-                    )
-                else:
-                    cell.number.value = f"{num_data[0]}"
-                    cell.number.number_color = NumberColor(num_data[1])
-                    cell.number.number_style = num_data[2]
+                cell.clue = clue_obj if clue_obj is not None else NumberClue(value=raw)
                 self.ir_puzzle.cells[(r, c)] = cell
             # ELSE?
         
@@ -371,19 +407,65 @@ class PenpaConverter:
         return new_symbol_dict
     
     def _encode_surface(self, cell_dict: Dict[tuple[int, int], CellState]):
+        fill_to_penpa_surface = {
+            "dark_gray": 1,
+            "grey": 2,
+            "gray": 2,
+            "light_gray": 3,
+            "black": 4,
+            "green": 5,
+            "blue": 6,
+            "red": 7,
+            "yellow": 8,
+            "pink": 9,
+            "orange": 10,
+            "purple": 11,
+            "brown": 12,
+        }
         new_surface_dict = dict()
         for coords, v_ in cell_dict.items():
-            if v_.surf_color:
+            if v_.fill:
+                color_id = fill_to_penpa_surface.get(str(v_.fill).lower())
+                if color_id is None:
+                    continue
                 index = f"{self.coord_to_index(coords, 'cell')}"
-                new_surface_dict[str(index)] = v_.surf_color.value
+                new_surface_dict[str(index)] = color_id
         return new_surface_dict
     
     def _encode_number(self, number_dict: Dict[str, CellState]):
+        direction_to_code = {
+            Direction.N: "0",
+            Direction.W: "1",
+            Direction.E: "2",
+            Direction.S: "3",
+            Direction.NW: "4",
+            Direction.NE: "5",
+            Direction.SW: "6",
+            Direction.SE: "7",
+        }
         new_number_dict = dict()
         for coords, v_ in number_dict.items():
-            if v_.number:
-                index = f"{self.coord_to_index(coords, 'cell')}"
-                new_number_dict[str(index)] = [v_.number.value, v_.number.number_color.value, v_.number.number_style]
+            if not v_.clue:
+                continue
+
+            value_str: Optional[str] = None
+            if isinstance(v_.clue, NumberClue):
+                value_str = str(v_.clue.value)
+            elif isinstance(v_.clue, ArrowClue):
+                # Backward-compatible encoding: keep direction as suffix token.
+                a = "" if v_.clue.value is None else str(v_.clue.value)
+                b = direction_to_code.get(v_.clue.direction, "0")
+                value_str = f"{a}_{b}" if (a or b) else ""
+            else:
+                # TextClue or unknown: treat as raw text.
+                value_str = getattr(v_.clue, "text", None)  # type: ignore[attr-defined]
+
+            if value_str is None:
+                continue
+
+            index = f"{self.coord_to_index(coords, 'cell')}"
+            # Default Penpa number style: black, submode "1"
+            new_number_dict[str(index)] = [value_str, 1, "1"]
 
         return new_number_dict
     

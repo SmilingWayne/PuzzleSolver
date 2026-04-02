@@ -1,108 +1,67 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
-from typing import Dict, Optional, Any, Tuple, List
-from functools import reduce
-import json
 from enum import Enum
+from typing import Any, Dict, List, Optional, Tuple, Union
 
-class NumberColor(Enum):
-    """_summary_
+# -----------------------------
+# Format-agnostic semantic types
+# -----------------------------
 
-    Args:
-        Enum (_type_): _description_
-
-    Returns:
-        _type_: _description_
-    """
-    BLACK: int = 1
-    GREEN: int = 2
-    CIRCLE_BLACK: int = 6
-    WHITE_ON_BLACK: int = 7
-    # ... etc
-
-class SurfaceColor(Enum):
-    """Enumeration class for **surface color**.
-
-    Args:
-        Enum (_type_): _description_
-    """
-    DARK_GREY: int = 1
-    GREY: int = 2
-    LIGHT_GREY: int = 3
-    BLACK: int = 4
-    GREEN: int = 5
-    BLUE: int = 6
-    RED: int = 7
-    YELLOW: int = 8
-    PINK: int = 9
-    ORANGE: int = 10
-    PURPLE: int = 11
-    BROWN: int = 12
+# A format-neutral color token.
+#
+# Recommended conventions:
+# - semantic names: "black", "white", "light_gray", "gray", ...
+# - rich colors: "#RRGGBB" or "#RRGGBBAA"
+Color = str
 
 
-COMPRESS_SUB = [
-    ('z', 'zZ'),
-    ('"qa"', 'z9'),
-    ('"pu_q"', 'zQ'),
-    ('"pu_a"', 'zA'),
-    ('"grid"', 'zG'),
-    ('"edit_mode"', 'zM'),
-    ('"surface"', 'zS'),
-    ('"line"', 'zL'),
-    ('"lineE"', 'zE'),
-    ('"wall"', 'zW'),
-    ('"cage"', 'zC'),
-    ('"number"', 'zN'),
-    ('"symbol"', 'zY'),
-    ('"special"', 'zP'),
-    ('"board"', 'zB'),
-    ('"command_redo"', 'zR'),
-    ('"command_undo"', 'zU'),
-    ('"command_replay"', 'z8'),
-    ('"numberS"', 'z1'),
-    ('"freeline"', 'zF'),
-    ('"freelineE"', 'z2'),
-    ('"thermo"', 'zT'),
-    ('"arrows"', 'z3'),
-    ('"direction"', 'zD'),
-    ('"squareframe"', 'z0'),
-    ('"polygon"', 'z5'),
-    ('"deletelineE"', 'z4'),
-    ('"killercages"', 'z6'),
-    ('"nobulbthermo"', 'z7'),
-    ('"_a"', 'z_'),
-    ('null', 'zO'),
-]
-PENPA_MODE = '{z9:zA,zG:["1","2","1"],zQ:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",2],zE:["1",2],zW:["",2],zC:["1",10],zN:["1",1],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["battleship",3],"sudoku":["1",1]},zA:{zM:"combi",zS:["",1],"multicolor":["",1],zL:["1",3],zE:["1",3],zW:["",3],zC:["1",10],zN:["1",2],zY:["circle_L",1],zP:[zT,""],zB:["",""],"move":["1",""],"combi":["blpo",3],"sudoku":["1",9]}}'
-PENPA_PU_X_STR = '{zR:{z_:[]},zU:{z_:[]},z8:{z_:[]},zS:{},zN:{},z1:{},zY:{},zF:{},z2:{},zT:[],z3:[],zD:[],z0:[],z5:[],zL:{},zE:{},zW:{},zC:{},z4:{},z6:[],z7:[]}'
-PENPA_PU_X_DEFAULT = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, PENPA_PU_X_STR))
+class Direction(str, Enum):
+    """Compass direction for directional clues/marks."""
 
-@dataclass
-class NumberState:
-    """_summary_
+    N = "n"
+    S = "s"
+    W = "w"
+    E = "e"
+    NW = "nw"
+    NE = "ne"
+    SW = "sw"
+    SE = "se"
 
-    Yajilin: value: "{a}_{b}" where a is number (or str) and b is Direction.
-    b: Direction:
-    0: n; 1: w; 2: e; 3: s; 4: nw; 5: ne; 6: sw; 7: se; 
-    
-    
-    Returns:
-        _type_: _description_
-    """
-    value: Optional[str] = None 
-    number_color: Optional[NumberColor] = None
-    number_style: str = "1"
-    
+
+@dataclass(frozen=True)
+class TextClue:
+    kind: str = "text"
+    text: str = ""
+
     def to_dict(self) -> dict:
-        """Convert to dict.
+        return {"kind": self.kind, "text": self.text}
 
-        Returns:
-            dict: dict of number, number_color, number_style
-        """
+
+@dataclass(frozen=True)
+class NumberClue:
+    kind: str = "number"
+    value: Union[int, str] = ""
+
+    def to_dict(self) -> dict:
+        return {"kind": self.kind, "value": self.value}
+
+
+@dataclass(frozen=True)
+class ArrowClue:
+    kind: str = "arrow"
+    value: Optional[Union[int, str]] = None
+    direction: Direction = Direction.N
+
+    def to_dict(self) -> dict:
         return {
+            "kind": self.kind,
             "value": self.value,
-            "number_color": self.number_color.value if self.number_color is not None else None,
-            "number_style": self.number_style
+            "direction": self.direction.value,
         }
+
+
+Clue = Union[TextClue, NumberClue, ArrowClue]
 
 @dataclass
 class EdgeState:
@@ -120,7 +79,10 @@ class EdgeState:
     
 @dataclass
 class SymbolState:
-    """_summary_
+    """A lightweight symbol marker.
+
+    `symbol_type` is a free-form token (converter-defined), e.g. "circle", "x",
+    "sun_moon", etc.
     """
     symbol_index: int = 0
     symbol_type: str = "circle_L"
@@ -143,14 +105,13 @@ class CellState:
     """
     Cell status
     """
-    # value: Optional[str] = None   # Number clue
-    shaded: bool = False          # black?
-    # num_color: Optional[NumberColor] = None            # number color
-    # num_style: str = "1"          # number style
-    
-    number: Optional[NumberState] = None
-    surf_color: Optional[SurfaceColor] = None 
+    clue: Optional[Clue] = None
+    fill: Optional[Color] = None
     symbol: Optional[SymbolState] = None
+
+    # Legacy convenience: some encodings express “black cell” as a fill color.
+    # Solvers/step-by-step tools should prefer semantic `fill` and explicit state layers.
+    shaded: bool = False
     
 
 
@@ -170,16 +131,10 @@ class PuzzleInstance:
     cols: int = 0                       # for rectangle with margins
     hex_len: int = 0                    # placeholder
     margins: List[int] = field(default_factory = list)   # for margins, top, bottom, left, right
-    boxes: List[Any] = field(default_factory=list)  # same as 'box' of penpa
-    edges: Dict[tuple[Any], EdgeState] = field(default_factory=dict) # edge status
+    boxes: List[Any] = field(default_factory=list)  # layout/cut-out metadata (kept as-is for now)
+    edges: Dict[tuple[Any], EdgeState] = field(default_factory=dict)
     cells: Dict[tuple[Any], CellState] = field(default_factory=dict)
     metadata: Dict[str, Any] = field(default_factory=dict)
-    
-    # =============== Penpa params end ===============
-    
-    skip_shading: bool = True
-    rows_no_margin: int = 0
-    cols_no_margin: int = 0
     
     def __repr__(self):
         """Custom format.
@@ -207,11 +162,12 @@ class PuzzleInstance:
         # 1. norm cells - after sort
         cells_normalized = {}
         for (r, c), state in sorted(self.cells.items()):
+            clue_dict = state.clue.to_dict() if state.clue is not None else None
             cells_normalized[f"{r},{c}"] = {
                 "shaded": state.shaded,
-                "number": state.number.to_dict() if state.number is not None else None,
-                "surf_color": state.surf_color.value if state.surf_color is not None else None,
-                "symbol": state.symbol.to_dict() if state.symbol is not None else None
+                "fill": state.fill,
+                "clue": clue_dict,
+                "symbol": state.symbol.to_dict() if state.symbol is not None else None,
             }
         
         # 2. norm edges - after sort

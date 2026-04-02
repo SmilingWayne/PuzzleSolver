@@ -60,8 +60,18 @@ class ArrowClue:
             "direction": self.direction.value,
         }
 
+@dataclass(frozen = True)
+class TapaClue:
+    kind: str = "tapa"
+    value: Optional[Union[int, str]] = None
+    
+    def to_dict(self) -> dict:
+        return {
+            "kind": self.kind,
+            "value": self.value,
+        }
 
-Clue = Union[TextClue, NumberClue, ArrowClue]
+Clue = Union[TextClue, NumberClue, ArrowClue, TapaClue]
 
 @dataclass
 class EdgeState:

@@ -5,10 +5,11 @@ from puzzlekit.formats.base import (
     SymbolState,
     NumberClue,
     ArrowClue,
+    TapaClue,
     Direction,
 )
-from puzzlekit.formats.penpa_constants import COMPRESS_SUB
 from puzzlekit.formats.penpa_template import (
+    COMPRESS_SUB,
     PENPA_FIXED_FIELDS as fixed,
     PENPA_PU_X_DEFAULT,
     get_penpa_template,
@@ -370,13 +371,18 @@ class PenpaConverter:
                 continue
             clue_obj = None
             # Yajilin-style encoding legacy: "{a}_{b}" where b is direction code.
-            if "_" in raw:
-                a_part, b_part = raw.rsplit("_", 1)
-                b_part = b_part.strip()
-                if b_part in code_to_dir:
-                    a_part = a_part.strip()
-                    value = a_part if a_part != "" else None
-                    clue_obj = ArrowClue(value=value, direction=code_to_dir[b_part])
+            if num_data[2] == "2":
+                if "_" in raw:
+                    a_part, b_part = raw.rsplit("_", 1)
+                    b_part = b_part.strip()
+                    if b_part in code_to_dir:
+                        a_part = a_part.strip()
+                        value = a_part if a_part != "" else None
+                        clue_obj = ArrowClue(value=value, direction=code_to_dir[b_part])
+            # Tapa-style encoding format, with 3rd element be "4"
+            elif num_data[2] == "4":
+                value = num_data[0]
+                clue_obj = TapaClue(value = value)
 
             if (r, c) not in self.ir_puzzle.cells:
                 self.ir_puzzle.cells[(r, c)] = CellState(
@@ -447,7 +453,8 @@ class PenpaConverter:
         for coords, v_ in number_dict.items():
             if not v_.clue:
                 continue
-
+            penpa_submode = "1" 
+            # compatiable for penpa (value, style, submode) struct
             value_str: Optional[str] = None
             if isinstance(v_.clue, NumberClue):
                 value_str = str(v_.clue.value)
@@ -456,6 +463,10 @@ class PenpaConverter:
                 a = "" if v_.clue.value is None else str(v_.clue.value)
                 b = direction_to_code.get(v_.clue.direction, "0")
                 value_str = f"{a}_{b}" if (a or b) else ""
+                penpa_submode = "2"
+            elif isinstance(v_.clue, TapaClue):
+                value_str = v_.clue.value
+                penpa_submode = "4"
             else:
                 # TextClue or unknown: treat as raw text.
                 value_str = getattr(v_.clue, "text", None)  # type: ignore[attr-defined]
@@ -465,7 +476,7 @@ class PenpaConverter:
 
             index = f"{self.coord_to_index(coords, 'cell')}"
             # Default Penpa number style: black, submode "1"
-            new_number_dict[str(index)] = [value_str, 1, "1"]
+            new_number_dict[str(index)] = [value_str, 1, penpa_submode]
 
         return new_number_dict
     
@@ -545,16 +556,21 @@ class PenpaConverter:
         # return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
 
 if __name__ == "__main__":
+    # 配置 logging 以显示 DEBUG 输出
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s [%(levelname)-8s] %(name)s:%(lineno)d - %(message)s",
+    )
 
     for test_url in [
-        "https://swaroopg92.github.io/penpa-edit/#m=solve&p=tVZtb6JMcbXJk3r1tWuTyXGIGKhIlheWoNpf3vvHQYVtN302WyQyeHO4c49M5wbo6fEDG2qwSXXqUBFuCRNY7eoKOwW+DV0Y8/Wv9FGEjtBCMCJ43WkV6vrJB2n4++e6y+r6x9RHMDPt6saXIpjJfPVQg1txVWWMqU/u126ML3Iplf3j832svHSafxXVceyfNdbnD22+3eP89FvsS+41VDoeXX/5rbd9M4u0/GN03i2O7Z2GwWW49nm3EzHo6uN53frD85CbF05rfrC9IXoqT48f272Ly4qBi99UjGISCiR4BbJ5C0dvBmEUHFS2aa/9G061Y3JK03v9rC+hwN9C2NP3xJJIroBe8KSUKJq8CjzR6CIjHjPxi4bJTYOIQ9NZTa22SiwUWXjNeN0IL0oQm5JIboEGSWJijKsxzCchQyLIZZhQUXmmJ1PhhXgq5yvAEflHDxDNeeogNUMq8DROEcFjsY5Kqyl8bU0yFnjOTXg1DhHgzw1ngfrlHgeCXLu6kctOQf4Ul4/6jqoX+YcGTg7jai3tteV60VdO73AVzhfwW+V81X4gvN9UFHvgZZcL9bPNMLGj9j2t9iosFFjx1LDw69UDNS3u+C9/4vxExwk4cK0bAKfHYkCbxplz1N7Y1ox0TNbHM4QPQ4THvKT1cwOCywvCNZgulMJ8qlC0H3wg9A+OYVBe/7wUSqcOpFqFoTzUk0vpucVpbAOUwhZbmh5xVAcuoVnMwyDl0JkZcZOITAzY+hHkeOui5lsv7SXsVks0VyapdVW++14rZANYTdYG84eW8S5njZoeqkXmghN+9AjbvR0gC0iayeUrBIvdq3AC2BJHgOHsxclgJ09HLF5RK0sKAqAexwDvAeY7dT0Oovc6kY6pATXbrK3EZJV8AzFZ7XhsxWsZiDPIAcbRGWYiJJ5sEw4VcSO1fiaAkiSK0CYKUB0QgEK+7cKziev2WEJX+rif9+o/9g1NtzfQfiJxfeT5fAJp0P0E7MfzJ6Kf+Drg9ly/MjEWOyxjyF6wsoQLbsZQseGhuCRpyH2ga0xa9nZWFXZ3LjUkb9xqUOLGyT/k0ImlXc=&a=VcJBCQAAAIPAQmsk9q/he3DgngE="
+        "https://swaroopg92.github.io/penpa-edit/#m=edit&p=7Zdvb+I4E8Df8ylOfrsW2PkDSaTVitJ2parttdf2egWhykBIUgyhSWirVP3uOx7Tw0noSs+z0qkvlojR8BvPeOxJxiF/3IgspLxLOae2RxnlcHWdLnVcYMzxtWDb6zopZBj8QfubIk4zUOKiWOdBp7PelMNy2JbJatFZfyvEWnR4t8N5J7MeepGQYh611SdnKzdxY8EiwdQVWyvBEsGWwgMZedGERb3YlgilE3swDjyV6bEdtRdOJCYQTsk2a0f2Y3tB6Z/Hx3QuZB7Sk7uHg8NF//mo/0/HHdr2zfn8y8Ph5c3D7PZvfsmSTsbOpbc6uzg8kF++l8OzuP8UHoXdizydxjIUM1EOb09e5OrYi+I5H5zEA28uVix/9K79p4PLr19bo+1ejFuvpR+UfVp+D0aEE0os+HIypuVl8FqeBWSaLicJoeUV2AnlY0qWG1kk01SmGXln5an2tkA92qm3aFfaQEPOQD/f6qDegTpNsqkM7081uQhG5TUlKoED9FYqWaZPoZpMJah+66QATEQBtczjZE2oDYZ8M0sXm+1QPn6jZf//WAZEel+GUvUylLZnGWp1v74MuU73LMAfv71Bgf6CJdwHI7Wam53q7dSr4BXkefBKXEe5Qg05JY6aomsr0DOAq4BtG6SLPibxFPlmAL8GeqwOeB1YNeCjC9sBzjA31yS9OuF6IiMO5zpyBWGkKsKdqCKMbmwOt5vR7aafgxsE0+6Q23R0MS3PJNtQlVEYy6gH1xUydp9vN9d06zWz8rCQjkmwbGYGes8rbn69LtzXm2eS5mw+5m3EtrZlMIl2M4iFxMjRsvReGiW2LEzbvCMtXZfKKLsxHXhUbyhrWzuT4HRmaF2mf8fAc8Px6blDeYzSQnkNDxctbZSHKBlKF+UpjjlCeYtygNJB2cUxPfV4/k8P8H+Qzsix8Hz8+HJ/23/FPm6NyNUmm4tpCH1+kC7XaZ4UIYGzluSpvM+17T58EdOCBPrMNy0VttosJyEcUQaSabqGd5R9Ed5NFZhEqzQL95oUDGfRR6GUaU+oSZrNajk9Cymra8GXsgrSR2QFFRmcf8ZvkWXpc4UsRRFXgHHkVyKFq9pmFqKaoliI2mzL3Xa8tcgLwe/IpvCA/H4x+vQvRqpY7LN118+WDt7nafaTprMz1vGe1gP0J93HsO7jHzQaw1rnja6ikm02FqB7egvQensB1OwwABtNBtgHfUZFrbcalVW926ipGg1HTWX2nBFRfzLJuPUD"
     ]:
         hpc = PenpaConverter()
         tmp = hpc.decode(test_url)
         # print(tmp.cells)
         enc = hpc.encode(tmp)
-        print(tmp)
+        # print(tmp)
         print(enc)
-        b = hpc.decode(enc)
+        # b = hpc.decode(enc)
         # logger.info(enc)
         

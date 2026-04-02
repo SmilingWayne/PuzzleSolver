@@ -41,22 +41,53 @@ from puzzlekit.formats.puzzlink.utils import (
     move_numbers_to_region_corners,
     region_grid_to_borders,
 )
+from puzzlekit.formats.puzzlink.handlers import (
+    Codecs,
+    HeyawakeHandler,
+    NurikabeHandler,
+    SlitherHandler,
+    MasyuHandler,
+    YajilinHandler,
+    NonogramHandler,
+)
 import math
 import logging
 
 logger = logging.getLogger(__name__)
 
+
 class PuzzlinkConverter:
+    """
+    Converter for puzz.link puzzle URLs.
+
+    This is a facade that delegates to family-specific handlers.
+    """
+
     def __init__(self, config: Dict[Any, Any] = dict()):
         self.config = config or {}
-        # Initialize codecs. 
-        # Basic logic.
-        self._number16_codec = Number16Codec()
-        self._number4_codec = Number4Codec()
-        self._number3_codec = Number3Codec()
-        self._number36_codec = Number36Codec()
-        self._border_codec = BorderCodec()
-        self._yajilin_arrow_codec = YajilinArrowCodec()
+
+        # Initialize codecs (shared by all handlers)
+        self._codecs = Codecs()
+
+        # Initialize family handlers
+        self._handlers = {
+            "heyawake_family": HeyawakeHandler(self._codecs, self.config),
+            "nurikabe_family": NurikabeHandler(self._codecs, self.config),
+            "slither_family": SlitherHandler(self._codecs, self.config),
+            "masyu_family": MasyuHandler(self._codecs, self.config),
+            "yajilin_family": YajilinHandler(self._codecs, self.config),
+            "nonogram_family": NonogramHandler(self._codecs, self.config),
+        }
+
+        # Legacy attributes for backward compatibility during decode/encode
+        self._puzzle_path: str = ""
+        self.body: str = ""
+        self.num_rows: int = 0
+        self.num_cols: int = 0
+        self.skip_shading: bool = True
+        self.puzzle_type: str = ""
+        self.url: str = ""
+        self.ir_puzzle: Optional[PuzzleInstance] = None
 
     def _debug_dump_enabled(self, key: str) -> bool:
         """
@@ -322,87 +353,92 @@ class PuzzlinkConverter:
         return new_edge_dict
 
     
-    def decode(self, url: str) -> Dict[str, Any]:
-        self.url: str = url
-        parsed = parse_puzzlink_input(url)
-        self._puzzle_path: str = parsed["puzzle_path"]
-        self.ir_puzzle = PuzzleInstance(
-            metadata={
-                "source": "puzz.link",
-                "original_url": self.url,
-                "puzzlink_puzzle_path": self._puzzle_path,
-            }
-        )
-        
-        self.body: str = ""
-        self.num_rows: int = 0
-        self.num_cols: int = 0
-        self.skip_shading: bool = True
-        self.puzzle_type: str = ""
-        # .0 parse header
-        self._parse_header()
-        
-        decode_family = get_puzzlink_decode_family(self.puzzle_type)
-        if decode_family == "yajilin_family":
-            self._decode_yajilin_variant()
-        elif decode_family == "masyu_family":
-            self._decode_masyu_variant() 
-        elif decode_family == "slither_family":
-            self._decode_slither_variant()
-        elif decode_family == "heyawake_family":
-            self._decode_heyawake_variant()
-        elif decode_family == "nonogram_family":
-            self._decode_nonogram_variant()
-        elif decode_family == "nurikabe_family":
-            self._decode_nurikabe_variant()
-        elif decode_family == "noop":
-            return self.ir_puzzle
-        else:
-            raise NotImplementedError(f"Puzzle type {self.puzzle_type} is not supported currently.")
-
-        return self.ir_puzzle
-    
-    
-    def encode(self, inst: PuzzleInstance) -> str:
-        """Encode PuzzleInstance to puzz.link url.
+    def decode(self, url: str) -> PuzzleInstance:
+        """
+        Decode a puzz.link URL to a PuzzleInstance.
 
         Args:
-            inst (PuzzleInstance): Input intermediate representation instance.
+            url: The puzz.link URL or path to decode
 
         Returns:
-            str: puzz.link url.
+            A populated PuzzleInstance
         """
-        
-        assert inst.grid_type in ["square"], f"Puzzle grid type must be 'square', get {inst.grid_type}."
+        self.url = url
+        parsed = parse_puzzlink_input(url)
+        self._puzzle_path = parsed["puzzle_path"]
+
+        # Parse header
+        parsed_header = parse_puzzle_header(self._puzzle_path)
+        self.puzzle_type = parsed_header.puzzle_type
+        self.num_cols = parsed_header.num_cols
+        self.num_rows = parsed_header.num_rows
+        self.body = parsed_header.body
+        self.skip_shading = parsed_header.skip_shading
+
+        # Get handler and decode
+        decode_family = get_puzzlink_decode_family(self.puzzle_type)
+        if decode_family == "noop":
+            # Return empty puzzle instance
+            return PuzzleInstance(
+                metadata={
+                    "source": "puzz.link",
+                    "original_url": self.url,
+                    "puzzlink_puzzle_path": self._puzzle_path,
+                }
+            )
+
+        handler = self._handlers.get(decode_family)
+        if handler is None:
+            raise NotImplementedError(
+                f"Puzzle type {self.puzzle_type} (family: {decode_family}) is not supported currently."
+            )
+
+        ir_puzzle = handler.decode(
+            self.puzzle_type,
+            self.num_rows,
+            self.num_cols,
+            self.body,
+            self.skip_shading
+        )
+
+        # Add metadata
+        ir_puzzle.metadata["source"] = "puzz.link"
+        ir_puzzle.metadata["original_url"] = self.url
+        ir_puzzle.metadata["puzzlink_puzzle_path"] = self._puzzle_path
+
+        return ir_puzzle
+
+    def encode(self, inst: PuzzleInstance) -> str:
+        """
+        Encode a PuzzleInstance to a puzz.link URL.
+
+        Args:
+            inst: The PuzzleInstance to encode
+
+        Returns:
+            The puzz.link URL string
+        """
+        assert inst.grid_type in ["square"], (
+            f"Puzzle grid type must be 'square', got {inst.grid_type}."
+        )
+
         normalized_type = normalize_puzzle_type(inst.puzzle_type)
-        assert normalized_type in PUZZLINK_ENCODABLE_TYPES, f"Puzzle {inst.puzzle_type} has not been implemented yet... "
-        
-        self.puzzle_type = normalized_type
-        self.num_rows, self.num_cols = inst.rows - inst.margins[0] - inst.margins[1], inst.cols - inst.margins[2] - inst.margins[3] 
-        encode_family = get_puzzlink_encode_family(self.puzzle_type)
-        if encode_family == "heyawake_family":
-            body_str = self._encode_heyawake_variant(inst)
-            return body_str
-        elif encode_family == 'nonogram_family':
-            body_str = self._encode_nonogram_variant(inst)
-            return body_str
-        elif encode_family == "nurikabe_family":
-            body_str = self._encode_nurikabe_variant(inst)
-            return body_str
-        elif encode_family == "masyu_family":
-            body_str = self._encode_masyu_variant(inst)
-            return body_str
-        elif encode_family == "slither_family":
-            body_str = self._encode_slither_variant(inst)
-            return body_str
-        elif encode_family == "yajilin_family":
-            body_str = self._encode_yajilin_variant(inst)
-            return body_str
-        else:
-            raise NotImplementedError(f"Puzzle type {self.puzzle_type} is not supported currently.")
-        
-        # _decode_heyawake_variant
-    
+        assert normalized_type in PUZZLINK_ENCODABLE_TYPES, (
+            f"Puzzle {inst.puzzle_type} has not been implemented yet..."
+        )
+
+        encode_family = get_puzzlink_encode_family(normalized_type)
+        handler = self._handlers.get(encode_family)
+
+        if handler is None:
+            raise NotImplementedError(
+                f"Puzzle type {normalized_type} (family: {encode_family}) is not supported currently."
+            )
+
+        return handler.encode(inst)
+
+    # Legacy helper methods (deprecated - use handler modules directly)
+
     def _encode_heyawake_variant(self, inst: PuzzleInstance):
         border_list = self._region_grid_to_borders(inst.edges)
         region_grid, max_region_id = self._convert_border_to_region_grid(border_list)

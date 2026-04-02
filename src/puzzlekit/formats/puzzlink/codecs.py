@@ -545,6 +545,13 @@ class YajilinArrowCodec:
                 i += 1
                 ca = body[i]
 
+            # Handle special case: '.' means direction=0, no number (empty clue)
+            if ca == '.':
+                arrows[c] = [0, "", shading]
+                c += 1
+                i += 1
+                continue
+
             number_length = 3 if ca == '-' else 1
             if ca == '-':
                 i += 1

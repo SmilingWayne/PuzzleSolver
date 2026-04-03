@@ -17,6 +17,7 @@ from puzzlekit.formats.puzzlink.codecs import (
     BorderCodec,
     YajilinArrowCodec,
     TapaCodec,
+    TapaLoopCodec,
 )
 
 
@@ -31,6 +32,7 @@ class Codecs:
         self.border = BorderCodec()
         self.yajilin_arrow = YajilinArrowCodec()
         self.tapa = TapaCodec()
+        self.tapa_loop = TapaLoopCodec()
 
 
 class PuzzleFamilyHandler(ABC):

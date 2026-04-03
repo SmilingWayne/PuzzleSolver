@@ -740,3 +740,169 @@ class TapaCodec:
                 1 if val & 1 else -2
             ]
         return None
+
+
+# =============================================================================
+# Tapa-Like-Loop Codec
+# =============================================================================
+
+class TapaLoopCodec:
+    """
+    Tapa-Like-Loop format encode/decode core.
+
+    Similar to Tapa but with different encoding for multi-number clues:
+    - '0'-'8':  single digit [0]-[8]
+    - '.':      empty clue "?"
+    - 'g'-'z':  skip N cells (1-20)
+    - 'a'-'f' + next: 2-number, n = base36(2char) - 360, mod=8
+    - '+' + 2char:    3-number, n = base36(2char) - 36,  mod=7
+    - '-' + 2char:    4-number, n = base36(2char) - 36,  mod=6
+
+    Note: 4-number clues use clockwise order in puzzlink (top,right,bottom,left),
+    but Penpa uses (top,bottom,left,right), so we swap [0] and [1].
+    """
+
+    def encode_qnums(self, qnums: List[int]) -> Optional[str]:
+        """Encode single qnums list to string (no skip)."""
+        if not qnums:
+            return None
+
+        # Single digit or empty
+        if len(qnums) == 1:
+            return "." if qnums[0] == -2 else str(qnums[0])
+
+        # 2-number: each 0-7 (treat -2 as 0), n = n1*8 + n2 + 360
+        if len(qnums) == 2:
+            n1 = 0 if qnums[0] == -2 else qnums[0]
+            n2 = 0 if qnums[1] == -2 else qnums[1]
+            if 0 <= n1 <= 7 and 0 <= n2 <= 7:
+                val = n1 * 8 + n2 + 360
+                if val <= 395:
+                    return self._to_base36_2(val)
+
+        # 3-number: each 0-6 (treat -2 as 0), n = n1*49 + n2*7 + n3 + 36
+        if len(qnums) == 3:
+            nums = [0 if q == -2 else q for q in qnums]
+            if all(0 <= n <= 6 for n in nums):
+                val = nums[0] * 49 + nums[1] * 7 + nums[2] + 36
+                return "+" + self._to_base36_2(val)
+
+        # 4-number: each 0-5 (treat -2 as 0), n = n1*216 + n2*36 + n3*6 + n4 + 36
+        if len(qnums) == 4:
+            nums = [0 if q == -2 else q for q in qnums]
+            if all(0 <= n <= 5 for n in nums):
+                # Convert Penpa (top,bottom,left,right) to puzzlink clockwise (top,right,bottom,left)
+                p0, p1, p2, p3 = nums[0], nums[2], nums[3], nums[1]
+                val = p0 * 216 + p1 * 36 + p2 * 6 + p3 + 36
+                return "-" + self._to_base36_2(val)
+
+        return None
+
+    def encode(self, qnums_map: Dict[int, List[int]], max_id: int) -> str:
+        """Encode qnums dict to puzzlink string."""
+        if not qnums_map:
+            return ""
+
+        result: List[str] = []
+        current_id = 0
+        skip_count = 0
+
+        while current_id <= max_id:
+            if current_id in qnums_map:
+                if skip_count > 0:
+                    result.append(self._encode_skip(skip_count))
+                    skip_count = 0
+                encoded = self.encode_qnums(qnums_map[current_id])
+                if encoded:
+                    result.append(encoded)
+            else:
+                skip_count += 1
+            current_id += 1
+
+        if skip_count > 0:
+            result.append(self._encode_skip(skip_count))
+
+        return ''.join(result)
+
+    def _encode_skip(self, count: int) -> str:
+        """Encode skip: g(16)=skip1 ... z(35)=skip20."""
+        result = []
+        while count > 0:
+            if count >= 20:
+                result.append('z')
+                count -= 20
+            else:
+                result.append(chr(ord('g') + count - 1))
+                count = 0
+        return ''.join(result)
+
+    @staticmethod
+    def _to_base36_2(val: int) -> str:
+        """Convert 0-1295 to 2-char base36."""
+        high, low = val // 36, val % 36
+        return (str(high) if high <= 9 else chr(ord("a") + high - 10)) + \
+               (str(low) if low <= 9 else chr(ord("a") + low - 10))
+
+    def decode(self, body: str, num_rows: int, num_cols: int) -> Dict[int, List[int]]:
+        """Decode puzzlink string to {position: qnums} dict."""
+        qnums_map: Dict[int, List[int]] = {}
+        i, c = 0, 0
+        max_cells = num_rows * num_cols
+
+        while i < len(body) and c < max_cells:
+            char = body[i]
+
+            # Single digit 0-8 or '.'
+            if '0' <= char <= '8':
+                qnums_map[c] = [int(char)]
+                i += 1
+                c += 1
+            elif char == '.':
+                qnums_map[c] = [-2]
+                i += 1
+                c += 1
+            # '-' prefix for 4-number
+            elif char == '-' and i + 2 < len(body):
+                n = int(body[i+1:i+3], 36) - 36
+                # Decode 4 numbers with mod 6
+                qnums = [
+                    (n // 216) % 6,
+                    (n // 36) % 6,
+                    (n // 6) % 6,
+                    n % 6
+                ]
+                # Convert from puzzlink clockwise (top,right,bottom,left) to Penpa (top,bottom,left,right)
+                # puzzlink[0]=top, [1]=right, [2]=bottom, [3]=left
+                # Penpa needs: top, bottom, left, right = [0], [2], [3], [1]
+                qnums = [qnums[0], qnums[2], qnums[3], qnums[1]]
+                qnums_map[c] = [q if q > 0 else -2 for q in qnums]
+                i += 3
+                c += 1
+            # '+' prefix for 3-number
+            elif char == '+' and i + 2 < len(body):
+                n = int(body[i+1:i+3], 36) - 36
+                # Decode 3 numbers with mod 7
+                qnums = [
+                    (n // 49) % 7,
+                    (n // 7) % 7,
+                    n % 7
+                ]
+                qnums_map[c] = [q if q > 0 else -2 for q in qnums]
+                i += 3
+                c += 1
+            # 2-char encoding (a-f + next)
+            elif 'a' <= char <= 'f' and i + 1 < len(body):
+                n = int(char + body[i + 1], 36) - 360
+                # Decode 2 numbers with mod 8
+                qnums = [(n // 8) % 8, n % 8]
+                qnums_map[c] = [q if q > 0 else -2 for q in qnums]
+                i += 2
+                c += 1
+            # Skip g-z
+            elif 'g' <= char <= 'z':
+                c += int(char, 36) - 15
+                i += 1
+            else:
+                i += 1
+
+        return qnums_map

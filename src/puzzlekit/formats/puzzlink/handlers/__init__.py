@@ -11,6 +11,7 @@ from puzzlekit.formats.puzzlink.handlers.slither import SlitherHandler
 from puzzlekit.formats.puzzlink.handlers.masyu import MasyuHandler
 from puzzlekit.formats.puzzlink.handlers.yajilin import YajilinHandler
 from puzzlekit.formats.puzzlink.handlers.nonogram import NonogramHandler
+from puzzlekit.formats.puzzlink.handlers.tapa import TapaHandler
 
 __all__ = [
     "PuzzleFamilyHandler",
@@ -21,4 +22,5 @@ __all__ = [
     "MasyuHandler",
     "YajilinHandler",
     "NonogramHandler",
+    "TapaHandler",
 ]

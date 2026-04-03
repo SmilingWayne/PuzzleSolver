@@ -49,6 +49,7 @@ from puzzlekit.formats.puzzlink.handlers import (
     MasyuHandler,
     YajilinHandler,
     NonogramHandler,
+    TapaHandler,
 )
 import math
 import logging
@@ -77,6 +78,7 @@ class PuzzlinkConverter:
             "masyu_family": MasyuHandler(self._codecs, self.config),
             "yajilin_family": YajilinHandler(self._codecs, self.config),
             "nonogram_family": NonogramHandler(self._codecs, self.config),
+            "tapa_family": TapaHandler(self._codecs, self.config),
         }
 
         # Legacy attributes for backward compatibility during decode/encode

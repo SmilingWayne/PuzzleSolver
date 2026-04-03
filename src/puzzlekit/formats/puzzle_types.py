@@ -75,6 +75,10 @@ PUZZLE_TYPES_DICT: Dict[str, Dict[str, Dict[str, object]]] = {
         "puzzlink": {"aliases": ["slitherlink", "slither", "vslither", "tslither"], "primary": "slither", "family": "slither_family"},
         "penpa": {"aliases": ["slitherlink"], "genre_tag": "slitherlink"},
     },
+    "tapa": {
+        "puzzlink": {"aliases": ["tapa"], "primary": "tapa", "family": "tapa_family"},
+        "penpa": {"aliases": ["tapa"], "genre_tag": "tapa"},
+    },
     "yajilin": {
         "puzzlink": {"aliases": ["yajilin", "yajirin"], "primary": "yajilin", "family": "yajilin_family"},
         "penpa": {"aliases": ["yajilin"], "genre_tag": "yajilin"},

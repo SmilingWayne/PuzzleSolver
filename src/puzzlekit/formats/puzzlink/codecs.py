@@ -5,7 +5,7 @@ This module provides low-level codecs for the various number and border
 encoding formats used by puzz.link puzzles.
 """
 
-from typing import Dict, Any, List, Tuple, Union
+from typing import Dict, Any, List, Tuple, Union, Optional
 import logging
 
 logger = logging.getLogger(__name__)
@@ -571,3 +571,172 @@ class YajilinArrowCodec:
             i += number_length + 1
 
         return arrows
+
+
+# =============================================================================
+# Tapa Codec
+# =============================================================================
+
+class TapaCodec:
+    """
+    Tapa format encode/decode core.
+
+    Scheme: pzprjs/tapa.js - direct port from Penpa+ implementation.
+
+    Encoding:
+    - '0'-'8':  single digit [0]-[8]
+    - '9':      [1,1,1,1] special case
+    - '.':      empty clue [-2]
+    - 2-char (a-f + 0-z): 2/3/4 number combinations
+    - 'g'-'z':  skip N cells (1-20)
+
+    2-number: val = max(0,n1)*6 + max(0,n2) + 360, range [360,395] -> "a0"-"az"
+    3-number: val = max(0,n1)*16 + max(0,n2)*4 + max(0,n3) + 396, range [396,459] -> "b0"-"cp"
+    4-number: val = b1*8 + b2*4 + b3*2 + b4 + 460 (bi=1 if ni>0), range [460,475] -> "cq"-"d7"
+    """
+
+    STRINGS = "?12345"  # For decoding: index 0='?', 1-5='1'-'5'
+
+    def encode_qnums(self, qnums: List[int]) -> Optional[str]:
+        """Encode single qnums list to string (no skip)."""
+        if not qnums:
+            return None
+
+        # Single digit or empty
+        if len(qnums) == 1:
+            return "." if qnums[0] == -2 else str(qnums[0])
+
+        # Special case [1,1,1,1] -> "9"
+        if len(qnums) == 4 and qnums == [1, 1, 1, 1]:
+            return "9"
+
+        # 2-number: each normalized to 0-5
+        if len(qnums) == 2:
+            n1, n2 = max(0, qnums[0]), max(0, qnums[1])
+            if n1 <= 5 and n2 <= 5:
+                return self._to_base36_2(n1 * 6 + n2 + 360)
+
+        # 3-number: each normalized to 0-3
+        if len(qnums) == 3:
+            n1, n2, n3 = [max(0, q) for q in qnums]
+            if n1 <= 3 and n2 <= 3 and n3 <= 3:
+                return self._to_base36_2(n1 * 16 + n2 * 4 + n3 + 396)
+
+        # 4-number: binary presence flags
+        if len(qnums) == 4:
+            bits = [1 if q > 0 else 0 for q in qnums]
+            return self._to_base36_2(bits[0]*8 + bits[1]*4 + bits[2]*2 + bits[3] + 460)
+
+        return None
+
+    def encode(self, qnums_map: Dict[int, List[int]], max_id: int) -> str:
+        """Encode qnums dict to puzzlink string."""
+        if not qnums_map:
+            return ""
+
+        result: List[str] = []
+        current_id = 0
+        skip_count = 0
+
+        while current_id <= max_id:
+            if current_id in qnums_map:
+                if skip_count > 0:
+                    result.append(self._encode_skip(skip_count))
+                    skip_count = 0
+                encoded = self.encode_qnums(qnums_map[current_id])
+                if encoded:
+                    result.append(encoded)
+            else:
+                skip_count += 1
+            current_id += 1
+
+        if skip_count > 0:
+            result.append(self._encode_skip(skip_count))
+
+        return ''.join(result)
+
+    def _encode_skip(self, count: int) -> str:
+        """Encode skip: g(16)=skip1 ... z(35)=skip20."""
+        result = []
+        while count > 0:
+            if count >= 20:
+                result.append('z')
+                count -= 20
+            else:
+                result.append(chr(ord('g') + count - 1))
+                count = 0
+        return ''.join(result)
+
+    @staticmethod
+    def _to_base36_2(val: int) -> str:
+        """Convert 0-1295 to 2-char base36."""
+        high, low = val // 36, val % 36
+        return (str(high) if high <= 9 else chr(ord("a") + high - 10)) + \
+               (str(low) if low <= 9 else chr(ord("a") + low - 10))
+
+    def decode(self, body: str, num_rows: int, num_cols: int) -> Dict[int, List[int]]:
+        """Decode puzzlink string to {position: qnums} dict."""
+        qnums_map: Dict[int, List[int]] = {}
+        i, c = 0, 0
+        max_cells = num_rows * num_cols
+
+        while i < len(body) and c < max_cells:
+            char = body[i]
+
+            # Single digit or special chars
+            if '0' <= char <= '8':
+                qnums_map[c] = [int(char)]
+                i += 1
+                c += 1
+            elif char == '9':
+                qnums_map[c] = [1, 1, 1, 1]
+                i += 1
+                c += 1
+            elif char == '.':
+                qnums_map[c] = [-2]
+                i += 1
+                c += 1
+            # 2-char encoding (a-f + next)
+            elif 'a' <= char <= 'f' and i + 1 < len(body):
+                num = int(char + body[i + 1], 36)
+                qnums = self._decode_2char(num)
+                if qnums:
+                    qnums_map[c] = qnums
+                    i += 2
+                    c += 1
+                else:
+                    i += 1
+            # Skip g-z
+            elif 'g' <= char <= 'z':
+                c += int(char, 36) - 15
+                i += 1
+            else:
+                i += 1
+
+        return qnums_map
+
+    def _decode_2char(self, num: int) -> Optional[List[int]]:
+        """Decode 2-char base36 number to qnums."""
+        # 2-number: 360-395 -> "a0"-"az"
+        if 360 <= num < 396:
+            val = num - 360
+            n1, n2 = val // 6, val % 6
+            return [n1 if n1 > 0 else -2, n2 if n2 > 0 else -2]
+        # 3-number: 396-459 -> "b0"-"cp"
+        if 396 <= num < 460:
+            val = num - 396
+            return [
+                (val // 16) or -2,
+                ((val % 16) // 4) or -2,
+                (val % 4) or -2
+            ]
+        # 4-number: 460-475 -> "cq"-"d7"
+        if 460 <= num < 476:
+            val = num - 460
+            return [
+                1 if val & 4 else -2,
+                1 if val & 8 else -2,
+                1 if val & 2 else -2,
+                1 if val & 1 else -2
+            ]
+        return None

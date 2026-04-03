@@ -31,6 +31,7 @@ from puzzlekit.formats.puzzlink.handlers import (
     NonogramHandler,
     TapaHandler,
     TapaLoopHandler,
+    FillominoHandler,
 )
 import logging
 
@@ -60,6 +61,7 @@ class PuzzlinkConverter:
             "nonogram_family": NonogramHandler(self._codecs, self.config),
             "tapa_family": TapaHandler(self._codecs, self.config),
             "tapaloop_family": TapaLoopHandler(self._codecs, self.config),
+            "fillomino_family": FillominoHandler(self._codecs, self.config),
         }
 
         # Legacy attributes for backward compatibility during decode/encode

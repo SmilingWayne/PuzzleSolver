@@ -13,6 +13,7 @@ from puzzlekit.formats.puzzlink.handlers.yajilin import YajilinHandler
 from puzzlekit.formats.puzzlink.handlers.nonogram import NonogramHandler
 from puzzlekit.formats.puzzlink.handlers.tapa import TapaHandler
 from puzzlekit.formats.puzzlink.handlers.tapa_loop import TapaLoopHandler
+from puzzlekit.formats.puzzlink.handlers.fillomino import FillominoHandler
 
 __all__ = [
     "PuzzleFamilyHandler",
@@ -25,4 +26,5 @@ __all__ = [
     "NonogramHandler",
     "TapaHandler",
     "TapaLoopHandler",
+    "FillominoHandler",
 ]

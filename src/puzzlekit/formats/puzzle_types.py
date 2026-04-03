@@ -94,6 +94,10 @@ PUZZLE_TYPES_DICT: Dict[str, Dict[str, Dict[str, object]]] = {
     "hebi": {
         "puzzlink": {"aliases": ["hebi", "snakes"], "primary": "hebi", "family": "yajilin_family"},
         "penpa": {"aliases": ["hebi-ichigo"], "genre_tag": "hebi-ichigo"},
+    },
+    "fillomino": {
+        "puzzlink": {"aliases": ["fillomino"], "primary": "fillomino", "family": "fillomino_family"},
+        "penpa": {"aliases": ["fillomino"], "genre_tag": "fillomino"},
     }
 }
 

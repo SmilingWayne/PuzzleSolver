@@ -11,9 +11,8 @@ from puzzlekit.formats.base import (
     NumberClue,
 )
 from puzzlekit.formats.puzzlink.handlers.base import PuzzleFamilyHandler, Codecs
-from puzzlekit.formats.utils import generate_centerlist_diff
+from puzzlekit.formats.utils import generate_centerlist_diff, auto_border_split
 from puzzlekit.formats.puzzle_types import to_puzzlink_type
-
 
 class NonogramHandler(PuzzleFamilyHandler):
     """
@@ -68,7 +67,7 @@ class NonogramHandler(PuzzleFamilyHandler):
         ir_puzzle.margins = [rows_offset, 0, cols_offset, 0]
         ir_puzzle.source = ""
         ir_puzzle.cells = cell_dict
-        ir_puzzle.edges = {}
+        ir_puzzle.edges = auto_border_split(num_rows + rows_offset + 4, num_cols + cols_offset + 4, [rows_offset, 0, cols_offset, 0])
         ir_puzzle.boxes = generate_centerlist_diff(
             ir_puzzle.rows, ir_puzzle.cols, ir_puzzle.margins
         )

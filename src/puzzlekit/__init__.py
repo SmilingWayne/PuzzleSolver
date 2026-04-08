@@ -1,7 +1,16 @@
 from typing import Dict, Any, Optional, Union
 from puzzlekit.solvers import get_solver_class
-from puzzlekit.parsers.registry import get_parser 
+from puzzlekit.parsers.registry import get_parser
 from puzzlekit.formats.base import PuzzleInstance
+from puzzlekit.formats.puzzle_types import normalize_puzzle_type
+from puzzlekit.inference import (
+    InferenceResult,
+    InferenceTrace,
+    InferenceState,
+    apply_trace,
+    initial_state_from_instance,
+    TrivialInferenceEngine,
+)
 from puzzlekit.formats.puzzlink_converter import PuzzlinkConverter
 from puzzlekit.formats.penpa_converter import (
     PenpaConverter,
@@ -113,6 +122,50 @@ def solve(
     
     return result
 
+
+_INFERENCE_ENGINES = {
+    "trivial": TrivialInferenceEngine,
+}
+
+
+def infer(
+    source: PuzzleInstance,
+    puzzle_type: Optional[str] = None,
+    *,
+    engine: str = "trivial",
+    initial_state: Optional[InferenceState] = None,
+) -> InferenceResult:
+    """
+    Run a logical inference pass on PuzzleInstance (no CP-SAT).
+
+    This API uses PuzzleInstance as the single puzzle representation.
+    The base instance is not mutated; updates are stored in InferenceState overlay.
+    """
+    eng_key = (engine or "trivial").strip().lower()
+    eng_cls = _INFERENCE_ENGINES.get(eng_key)
+    if eng_cls is None:
+        raise ValueError(
+            f"Unknown inference engine '{engine}'. Supported: {sorted(_INFERENCE_ENGINES)}"
+        )
+
+    if not isinstance(source, PuzzleInstance):
+        raise TypeError(f"source must be PuzzleInstance, got {type(source)}")
+
+    # Keep this arg for API compatibility; PuzzleInstance is source of truth.
+    _ = puzzle_type
+    pt = normalize_puzzle_type(source.puzzle_type)
+    init = initial_state or initial_state_from_instance(source)
+    trace = eng_cls().infer(source, init)
+    final_state = apply_trace(init, trace)
+    return InferenceResult(
+        puzzle_type=pt,
+        base_instance=source,
+        initial_state=init,
+        final_state=final_state,
+        trace=trace,
+    )
+
+
 def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
     # return solve(source=data, puzzle_type=puzzle_type, **kwargs)
     init_params = {}
@@ -220,5 +273,16 @@ def convert(
         return ir
     return encode(ir, dst, converter_config=encode_cfg)
 
-__all__ = ["solve", "solver", "decode", "encode", "convert", "PenpaDecodeError"]
+__all__ = [
+    "solve",
+    "infer",
+    "solver",
+    "decode",
+    "encode",
+    "convert",
+    "PenpaDecodeError",
+    "InferenceResult",
+    "InferenceTrace",
+    "InferenceState",
+]
 __version__ = '0.3.3'

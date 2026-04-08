@@ -170,20 +170,40 @@ class PenpaConverter:
             index: The [Penpa+](https://swaroopg92.github.io/penpa-edit/) index to be converted.
             offset: To be compatiable with edge / cell index:
         """
-        assert type_ in ("edge", "cell"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', get {type_}"
+        assert type_ in ("edge", "cell", "edge_center"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', 'edge_center', get {type_}"
         category, index = divmod(index, self.real_rows * self.real_cols)
         if type_ == "edge":
             return (index // self.real_cols - 1, index % self.real_cols - 1), category
-        else:
+        elif type_ == "cell":
             return (index // self.real_cols - 2, index % self.real_cols - 2), category
+        elif type_ == "edge_center":
+            if category == 2: # horizontal edge center ...
+                r, c = divmod(index, self.real_cols)
+                return ((r - 1, c - 2), (r - 1, c - 1)), category
+            elif category == 3: # vertical edge center ...
+                r, c = divmod(index, self.real_cols)
+                return ((r - 2, c - 1), (r - 1, c - 1)), category
+            else:
+                raise ValueError(f"Penpa edge index (edge_center) must be either type 2 or 3, get {category}")
             
-    def coord_to_index(self, coord: Tuple[int, int] ,type_: str) -> Tuple[int, int]:
-        assert type_ in ("edge", "cell"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', get {type_}"
+    def coord_to_index(self, coord: Optional[Tuple[int, int] | Tuple[Tuple[int, int], Tuple[int, int]]], type_: str) -> Tuple[int, int]:
+        assert type_ in ("edge", "cell", 'edge_center'), f"Wrong index type for index_to_coord, expected 'cell', 'edge', 'edge_center', get {type_}"
         r_, c_ = coord
         if type_ == "edge":
             return (r_ + 1) * self.real_cols + (c_ + 1) + self.real_cols * self.real_rows
-        else:
+        elif type_ == "cell":
             return r_ * self.real_cols + c_ + self.real_cols * 2 + 2
+        elif type_ == "edge_center":
+            r1, c1 = r_; r2, c2 = c_
+            if r1 == r2 and c2 == c1 + 1:
+                # horizontal ... 
+                return (r1 + 1) * self.real_cols + (c2 + 1) + 2 * self.real_rows * self.real_cols
+            elif r2 == r1 + 1 and c1 == c2:
+                # vertical ... 
+                return (r2 + 1) * self.real_cols + (c1 + 1) + 3 * self.real_rows * self.real_cols
+            else:
+                raise ValueError(f"IR edge coords must be adjacent, get {r_} v.s. {c_}.")
+            
     
     def _display_parts(self):
         # Verbose Penpa payload introspection; guarded by config + DEBUG level.
@@ -272,7 +292,7 @@ class PenpaConverter:
                     self.board = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, self.parts[p]))
                     for k, v in self.board.items():
                         if k == "lineE":
-                            self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
+                            self._decode_edge(edge_dict = v)
                         elif k == "number":
                             self._decode_number(number_dict = v)
                         elif k == "surface":
@@ -394,15 +414,45 @@ class PenpaConverter:
                 self.ir_puzzle.cells[(r, c)] = cell
             # ELSE?
         
-    def _decode_edge(self, edge_dict: Dict[str, int]):
-        new_edge_dict = {}
+    def _decode_edge(self, edge_dict: Dict[str, int]) -> None:
         for index, v_ in edge_dict.items():
             if "," in index:
                 index_1, index_2 = map(int, index.split(","))
                 coord_1, _ = self.index_to_coord(index_1, 'edge')
                 coord_2, _ = self.index_to_coord(index_2, 'edge')
-                new_edge_dict[(coord_1, coord_2)] = EdgeState(connected = True, edge_type = v_)
-        return new_edge_dict
+                self.ir_puzzle.edges[(coord_1, coord_2)] = EdgeState(connected = True, edge_type = v_)
+                continue
+
+            # Penpa sometimes stores non-standard lineE entries using a single index key.
+            # Keep a framework hook here; you can later decide how to map these marks
+            # into semantic edges (or edge decorations) for specific puzzle types.
+            if index.isdigit() and isinstance(v_, int):
+                self._decode_edge_single_index(index=int(index), value=v_)
+                continue
+
+    def _decode_edge_single_index(self, index: int, value: int) -> None:
+        """
+        Handle Penpa lineE entries encoded with a single index key.
+
+        This is a normalization hook: you may later map (index,value) into a semantic
+        edge mark (e.g. an 'x' / forbidden connection) by updating `self.ir_puzzle.edges`.
+
+        For now we preserve the raw info in metadata to avoid data loss.
+        """
+        (coord_1, coord_2), catgry = self.index_to_coord(index, "edge_center")
+
+        if (coord_1, coord_2) not in self.ir_puzzle.cells:
+            self.ir_puzzle.edges[(coord_1, coord_2)] = EdgeState(
+                connected = False, edge_type = -1,
+                symbol = SymbolState(-1, "custom_x", -1)
+            ) 
+            # they are custom, thus -1 is given to avoid potential error.
+        else:
+            edge = self.ir_puzzle.edges[(coord_1, coord_2)]
+            edge.symbol = SymbolState(-1, "custom_x", -1) 
+            self.ir_puzzle.edge[(coord_1, coord_2)] = edge
+            # if the edge is previously defined, only (augmentally) change the symbol part.
+        
     
     def _encode_symbol(self, symbol_dict: Dict[tuple[int, int], SymbolState]):
         new_symbol_dict = dict()
@@ -483,9 +533,18 @@ class PenpaConverter:
     def _encode_edge(self, edge_dict: Dict[str, EdgeState]):
         new_edge_dict = dict()
         for coords, v_ in edge_dict.items():
-            coord_1, coord_2 = coords
-            edge_str = f"{self.coord_to_index(coord_1, 'edge')},{self.coord_to_index(coord_2, 'edge')}"
-            new_edge_dict[edge_str] = v_.edge_type
+            if v_.symbol is None:
+                coord_1, coord_2 = coords
+                edge_str = f"{self.coord_to_index(coord_1, 'edge')},{self.coord_to_index(coord_2, 'edge')}"
+                # ignore custom 'edge symbol' stuff ... 
+                new_edge_dict[edge_str] = v_.edge_type
+            else:
+                # for custom symbol ... 
+                coord_1, coord_2 = coords
+                edge_str = f"{self.coord_to_index((coord_1, coord_2), 'edge_center')}"
+                if v_.symbol.symbol_type == "custom_x":
+                    new_edge_dict[edge_str] = 98
+                
         return new_edge_dict
     
     def encode(self, inst: PuzzleInstance) -> str:
@@ -563,7 +622,7 @@ if __name__ == "__main__":
     )
 
     for test_url in [
-        "#m=solve&p=tVZtb9s2F/2eX0EIKLABSqwXW5b0pcjaZMDQpd2SoSiMoKBtxlYjS34oaW4cpL+9516KsSTnGTBs8wt9eS557rmXJqnqf43Uyk3wjjzXc328I8/jbzymD6H0vsnqXKXiF7mVhaqUuG42lfjBudmVQhZL8b5Qzo/ueVOvS52Km3W5kZW4Lh6WSrvrut5W6Wi02+3OVptts9/nqjpblJvRPC9Xo8ALxiPfG31pqU8rUJ/OH07BBZbTillOg5H7IZcLJeq1EkWzmStdiTtdbhjIimW2kLVaCi2LFfVFVW6UKO/YvVB5Xr0K3gBEX9aiKFsOkVVCq63iuZgliwehy50otViUebMpzsRVG6wsmKts6ipbPlOvdEYTTXhGSD955fIL9BYIZiKtdNlsKwrCEnpRSBscpUaqZ+JCLtZEQ+IqtZWa1c0fBKblSlY1tCjRFE0FmHI7E+fitVjIgnLRKCKiUibEASU+BcqlXoH8VfAWn0sAsqlR4DpboCp5U2fIb7FWi/usWJGcbp03DWLOlQCv0qZQK60Uy57njaJfMMJF1vnVW57dEXig2Eh9bxjmWM57miZFtZamoistH1DxkkuJbCkJ9bXW8lkKxvNoy2uX43ktdlmegx5C76AV3XptlmWY5Jn7/vLSvZN5pU5m7f/89mTm+I7rBPj6zu03p2qW5X3jfGM4uT153P+ePu4/p7PbJ3f/x8GMD+Z1+oj2Kn10wsBJeaLPbK4TTggAuQXGYwY6Q8ZHQ6IhMD2aEw/ijJPhkAkH6gLDOBOOEx6AiON0AQ4z7gAcZnIAYm8wIvaHI7gk0QFIWFgXYGHTA+B7rKyHsLTXXYS1dZGAtfQQFhN3kJATEPR69E+jJ3bFDq2iz6v4idtLbgNub7DI7j7k9i23HrcTbt/xmAusvZ8kbuAj29hDoDhyAdjO1A08qKMODAwLrSeGByqNx4cH1TEesHktGwx4UCb2JCDwWgIY8KBcxgMCryWAAQ/KZjwg8FoCGPCgfNzxKaiN45M2KycAQWDnBIgTWOoQ+YSWIIzQaeMEExBMLMEYKUxs2hEIIksQQU5kU5iCYGoJptA2bfMJqAaJJaBSxW1FA49qbT0B2ALLFoIgtARjzKGtYYIi08hmOkVyU5scrU/M+WAtP/KKvuF2TOsah64fQzn9iXBB+gm0kp1gFmmAzYUjCWRTqUgB2VQcEkA2lYPik00FoPBkU8oUnWwkGdL/AXaIP4q1SSH67XhIj40GzmlqtHGyUTueqkCHBOtBLDqHyKa6BUaDn0CbZ7RxjonRTLjN8bnOlsfmaKts49ocbY2tTpujrbCPoka8caZ0dp6czILY9RE8dNE8vyf/To8O9+tG3+FWxvF+zSc77hq9kbmDk93BDfG5av1prRvlMmRuni6Sl+U2z/DIk/LtYcBsVZRavegiUC1XL42f85Xfc+xknvcA85TWgxaZXuR9qNZZry81njB6CC77dQ+YyxpPddU62/aZcM33BdSyL1Hey0G0zSHnpxPnq8PfWYg7dUqXZpLuz939z+YKsreru/8Nt+av6f6CLs2Zg9OXj1AeFMK8MGbswf7IAwh9Y4YSeNXeaTA/wTRV+fzOcQMgH9LZ/sZ1KM5PPIVMZ1P+CaFGB/XxHDpHKjOnUwzjaa9+GwJ/1XOWax1D0XRTdlST+VeiSeJ/LDq5fTKL4f2t55Z/fvsdn5uDjf613W6lPuy4zr8JsN11ffTF7dXiRzsM+NFeooDH2wnoCzsK6HBTATreVwCPthaw/7O7iHW4wUjVcI9RqKNtRqG6O212e8LWdw==&q=RcghCgAhEAXQu/xsmDwXMAleYcMEQS1fyyzefcAivPR+cH7DoMilbvduRAJXuyeiD04A&r=jVbNzqMwDHyXnHMgIZDwDvsGqKraikqV+LorVhz27TvpNoAK/jlST7HHY4/pe/Ocf67DZKzz3vamNrazxpmTNX/m88XYylYn/P7338/195hRle2TNbfHdBuH8y9jPQXtGglZUqcaD0HInNSJaxDRIUMrIufpfrkNSB+sI2ON9RQ1NMF4iZpTdwoFkxotSrqsZCuiAp6cgOo6BchVIEAKWFBRo3Kb1IpETysSHakIQjSjpYyoVSRiLEmBNwP+nMeRigYh+k7gKiGDApV3nEn13wLIt9ynYRgfT7TXNDGDzdHLDlCuJhPm9WhEzxH345Mwz7Tz8bCuAsGsAsZBUsoTzSFiY1PiAK23EbTYXmPEyMH55rPr4DcbClC4UPEPEyr84UEK2GU/opxmOQSYYN0yuSrbjTgPld62O4wgFXO+3gVXd+T2erkf+hMHXxMtGWLI7JP6urVopvpUH4zq6qbc7ds3eFVT08Na7OEqJoaZFBPJvi1/+yUSVI3IVsN1wvl9K9aNzssgXZagP3D5hRSltycqOWFdWE7YbrqtDgZDvljmskDFg7pJSSv5Xn2BdnlPe1B5iTUdE9tPWZEYdih/frWaLwKcRnlWGtnnClJeooIUzXgzf3EvxKpSYII4S2QQVkjG4IBkDM2nE+JDgimV+Sc+cOlKD/ZvqbRmKj0Y4LVSjgbuH10pUw0+/+hKmWowhtSqBfX1CPJuFyQ/fKcX"
+        "https://swaroopg92.github.io/penpa-edit/#m=edit&p=7VfvT+s2FP3ev2Ly12etsZ3ml/Q0lQJPQsCjA8ZoVaE0cZtA2vQlKaAg/vd3rxOWOC1v07YPTJrauOeee23fazsnaf5t62eSMgO/wqHwCx+TOerijqUuo/5cxUUivZ/ocFtEaQYgKopN7vX7m205KSc/J/H6ob/5JU/iIpJZnxn4debMDrkRxkFsWyy0nfkyCCIRRkG4dOy5sAZhPI+FCBwe2CGlX4+P6cJPcklPbu8PDh+GT0fD3/uDiRDX54tP94fj6/vw5jc2NuJ+Zpwnzvrs4vAg+fSlnJxFw0d5JK2LPA2iRPqhX05uTp6T9bGzjBZsdBKNnIW/NvJvzpX7eDD+/Lk3rUub9V5K1yvHtPziTYkglDC4OJnRcuy9lGceCdLVPCa0vAQ/oWxGyWqbFHGQJmlG3rjyFBD05ACPGnij/IhGFckMwOc1BngLMIizIJF3pxVz4U3LK0owgQPVGyFZpY8SJ8Pk0K6SAkKGS/mcQn4C2Hwbpg/bOo7NXmk5/Bs1wEhvNSCsakC0pwYs7d+pYU8F7uz1FbbnV6jhzptiOdcNdBp46b0QYRDPpkQw4nHYQ2sAJrjOa9dUwOmGMWEKwcHEw16bENk2LTB5YzpaXxODG6+JwXjn1KatBQ+EFmx1TH1eC/s2po1JNkPZ+ry2PpHtan0d9DbBLpbfMnGopi8z9NVhhj4VM/QVYAxrbtvob8VzHK9JhnEsuxXPMb7lV7vTrCFT29OKN/XtYmYnHxOLb9kDvVw20NeKDTC+5bc68Z1tUifpj/5wopj3Au2tao9Vy1V7BWeRlkK1h6o1VDtQ7amKOYLTaOKRch04HriyCnAoEYHNINcK1C7OGOUcMhCAXZsKBue7xtyFIIUd4GEIwIK7VJhQAWIBwm6aNWaAcRzI4kblMlKtqVpL5Wjj3fQX77fq1vrny/Gn6UyhCtx9/TP473Gz3pRcbrOFH0jQv1G62qR5XEgCDyCSp8ldXvnu5LMfFMSrHoRtj8att6u5BOluUUmabuA5vG+EN5dGxst1msm9LiRRlN8ZCl17hpqnWdjJ6clPEr0W9dqhUdWjQ6OKDJ4LLdvPsvRJY1Z+EWnE3C/gFSWP4o0+klx3FrPw9RT9B78z26pZjtceeSbqAgkAUfj/beGDvy3gVhkfTcM+WjrqlKfZDySncXbpPcID7A+0p+Xdx78jMy1vl9/RFEx2V1aA3aMswHbFBahdfQFyR2KAe0dlcNSu0GBWXa3BqXbkBqdqK86U1H+j8E8VmfW+Aw=="
     ]:
         hpc = PenpaConverter()
         tmp = hpc.decode(test_url)

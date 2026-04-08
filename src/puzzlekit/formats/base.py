@@ -84,6 +84,7 @@ class EdgeState:
     """
     connected: bool = True        # thin line
     edge_type: int = 2            # default = 2
+    symbol: Optional[SymbolState] = None # symbol, such as ">", "<", "x" ... 
     # blacked: bool = False         # black border
     # deleted: bool = False         # delete mark
     
@@ -188,6 +189,7 @@ class PuzzleInstance:
             edges_normalized[key] = {
                 "connected": state.connected,
                 "edge_type": state.edge_type,
+                "symbol": state.symbol.to_dict() if state.symbol is not None else None,
             }
         # print(len(self.cells))
         # 3. core attributes:

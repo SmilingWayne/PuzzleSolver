@@ -5,7 +5,7 @@ from __future__ import annotations
 import copy
 from typing import Tuple
 
-from puzzlekit.formats.base import CellState, EdgeState, PuzzleInstance
+from puzzlekit.formats.base import CellState, EdgeState, SymbolState, PuzzleInstance
 from puzzlekit.inference.schema import InferenceState, InferenceStep, InferenceTrace
 
 
@@ -87,13 +87,22 @@ def project_state_to_instance(
         edge = inst.edges.get((p1, p2)) or inst.edges.get((p2, p1)) or EdgeState()
 
         if isinstance(raw_value, bool):
-            edge.connected = raw_value
+            if raw_value:  # True = connected (line)
+                edge.connected = True
+                edge.edge_type = 3  
+            else:  # False = crossed (X)
+                edge.connected = False
+                edge.edge_type = 98  # Penpa X mark
+                edge.symbol = SymbolState(symbol_index=-1, symbol_type="custom_x", symbol_style=-1)
         elif isinstance(raw_value, str):
             v = raw_value.strip().lower()
             if v in {"on", "true", "1", "connected"}:
                 edge.connected = True
-            elif v in {"off", "false", "0", "blocked"}:
+                edge.edge_type = 3
+            else:
                 edge.connected = False
+                edge.edge_type = 98
+                edge.symbol = SymbolState(symbol_index=-1, symbol_type="custom_x", symbol_style=-1)
         inst.edges[(p1, p2)] = edge
 
     return inst

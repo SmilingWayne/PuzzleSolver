@@ -159,3 +159,5 @@ penpa_edit/
 src/puzzlekit/formats/temp
 pzprjs/
 .claude
+scripts/data/reports/
+scripts/data/maps/

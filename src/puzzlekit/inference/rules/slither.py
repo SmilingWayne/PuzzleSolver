@@ -165,6 +165,8 @@ class SlitherlinkEngine:
             self._cell_line_counter[(r, c)] += 1
         for corner in self._edge_to_corners.get(key, ()):
             self._corner_line_counter[corner] += 1
+        self._edge_state_version += 1
+        self._mark_dirty_from_edge_change(key)
         self._record_step()
         return True
 
@@ -177,6 +179,8 @@ class SlitherlinkEngine:
             self._cell_cross_counter[(r, c)] += 1
         for corner in self._edge_to_corners.get(key, ()):
             self._corner_cross_counter[corner] += 1
+        self._edge_state_version += 1
+        self._mark_dirty_from_edge_change(key)
         self._record_step()
         return True
 
@@ -363,62 +367,139 @@ class SlitherlinkEngine:
     
     def _rule_elimination(self) -> int:
         """
-        Corner elimination:
-        for each corner touching numbered cells, enumerate feasible degree patterns
-        (0 line or 2 lines) under current fixed line/cross constraints, then apply:
-        - edge in all feasible patterns  -> line
-        - edge in no feasible patterns   -> cross
+        Corner elimination (joint enumeration over 4 corners per numbered cell):
+        For each numbered cell, enumerate feasible (q0, q1, q2, q3) combinations
+        where qi is the state of corner i (0 lines or 2 lines).
+
+        Constraints:
+        - Total lines on cell's 4 borders = qnum
+        - Shared edges between adjacent corners must be consistent
+
+        After enumeration:
+        - Edge in all feasible patterns -> line
+        - Edge in no feasible patterns -> cross
         """
         before = self._step_count
-        corners_to_check = set()
-        for r, c in self._numbered_cells:
-            corners_to_check.update({
-                (r, c),
-                (r, c + 1),
-                (r + 1, c),
-                (r + 1, c + 1),
-            })
+        if not self._dirty_cells_for_elimination:
+            return 0
+        target_cells = list(self._dirty_cells_for_elimination)
+        self._dirty_cells_for_elimination.clear()
 
-        for corner in corners_to_check:
-            edges = self._corner_edges.get(corner, [])
-            if not edges:
+        for (r, c) in target_cells:
+            qnum = self._numbered_cells.get((r, c))
+            if qnum is None:
+                continue
+            # 4 corners of the cell: (r,c)=top-left, (r,c+1)=top-right,
+            # (r+1,c)=bottom-left, (r+1,c+1)=bottom-right
+            corners = [(r, c), (r, c + 1), (r + 1, c), (r + 1, c + 1)]
+
+            # Cell's 4 borders (for counting lines)
+            cell_edges = set(self._cell_edge_keys[(r, c)])
+
+            # Build candidate states for each corner
+            corner_candidates = []
+            for corner in corners:
+                self._refresh_corner_domain(corner)
+                corner_candidates.append(list(self._corner_domains.get(corner, set())))
+
+            # Skip if any corner has no candidates
+            if any(len(cands) == 0 for cands in corner_candidates):
                 continue
 
-            fixed_lines = {ek for ek in edges if self._is_line(ek)}
-            fixed_crosses = {ek for ek in edges if self._is_cross(ek)}
-            unknown_edges = [ek for ek in edges if self._is_unknown(ek)]
-            if not unknown_edges:
-                continue
+            # 4-layer nested enumeration with pruning
+            comblist = []
 
-            feasible_patterns = []
+            for q0 in corner_candidates[0]:
+                # Prune 1: line count on cell edges so far
+                q0_cell_lines = len(q0 & cell_edges)
+                if q0_cell_lines > qnum:
+                    continue
+                # Prune 2: remaining corners can't fill the gap
+                if 2 - q0_cell_lines > 4 - qnum:
+                    continue
 
-            # Degree 0 option (no incident line)
-            if not fixed_lines:
-                feasible_patterns.append(set())
-
-            # Degree 2 options
-            if len(fixed_lines) <= 2:
-                for pair in combinations(edges, 2):
-                    chosen = set(pair)
-                    if not fixed_lines.issubset(chosen):
+                for q1 in corner_candidates[1]:
+                    q01_cell_lines = len((q0 | q1) & cell_edges)
+                    if q01_cell_lines > qnum:
                         continue
-                    if chosen & fixed_crosses:
+                    if 3 - q01_cell_lines > 4 - qnum:
                         continue
-                    feasible_patterns.append(chosen)
 
-            if not feasible_patterns:
+                    for q2 in corner_candidates[2]:
+                        q012_cell_lines = len((q0 | q1 | q2) & cell_edges)
+                        if q012_cell_lines > qnum:
+                            continue
+
+                        for q3 in corner_candidates[3]:
+                            total_lines = len((q0 | q1 | q2 | q3) & cell_edges)
+                            if total_lines != qnum:
+                                continue
+
+                            comblist.append((q0, q1, q2, q3))
+
+            if not comblist:
                 continue
 
-            must_be_line = set.intersection(*feasible_patterns)
-            can_be_line = set.union(*feasible_patterns)
+            # Update each corner's candidates: keep only states that appear in comblist
+            for i, corner in enumerate(corners):
+                valid_states = {comb[i] for comb in comblist}
+                if not valid_states:
+                    continue
+                prev_states = self._corner_domains.get(corner, set())
+                next_states = prev_states & valid_states
+                if next_states != prev_states:
+                    self._corner_domains[corner] = next_states
+                    for rc in self._corner_to_numbered_cells.get(corner, ()):
+                        self._dirty_cells_for_elimination.add(rc)
 
-            for ek in unknown_edges:
-                if ek in must_be_line:
-                    self._add_line(ek)
-                elif ek not in can_be_line:
-                    self._add_cross(ek)
-        
+                edges = self._corner_edges.get(corner, [])
+                unknown_edges = [ek for ek in edges if self._is_unknown(ek)]
+
+                # Must be line: in ALL valid states
+                # Must be cross: in NO valid state
+                if valid_states:
+                    # Convert frozensets to sets for intersection/union
+                    valid_states_list = list(valid_states)
+                    must_be_line = set(valid_states_list[0])
+                    can_be_line = set(valid_states_list[0])
+                    for state in valid_states_list[1:]:
+                        must_be_line &= set(state)
+                        can_be_line |= set(state)
+                else:
+                    must_be_line = set()
+                    can_be_line = set()
+
+                for ek in unknown_edges:
+                    if ek in must_be_line:
+                        self._add_line(ek)
+                    elif ek not in can_be_line:
+                        self._add_cross(ek)
+
         return self._step_count - before
+
+    def _refresh_corner_domain(self, corner: Tuple[int, int]) -> bool:
+        """Filter one corner domain by current fixed line/cross assignments."""
+        edges = self._corner_edges.get(corner, [])
+        fixed_lines = {ek for ek in edges if self._is_line(ek)}
+        fixed_crosses = {ek for ek in edges if self._is_cross(ek)}
+        current = self._corner_domains.get(corner, set())
+        if not current:
+            current = set(self._corner_all_states.get(corner, set()))
+        filtered = {
+            state for state in current
+            if fixed_lines.issubset(state) and not (state & fixed_crosses)
+        }
+        changed = filtered != current
+        if changed:
+            self._corner_domains[corner] = filtered
+        return changed
+
+    def _mark_dirty_from_edge_change(self, edge_key: str) -> None:
+        """Mark elimination targets affected by one edge update."""
+        for corner in self._edge_to_corners.get(edge_key, ()):
+            if self._refresh_corner_domain(corner):
+                for rc in self._corner_to_numbered_cells.get(corner, ()):
+                    self._dirty_cells_for_elimination.add(rc)
 
     # -------------------------------------------------------------------------
     # Trace building
@@ -471,6 +552,12 @@ class SlitherlinkEngine:
         self._edge_to_cells = {}
         self._corner_edges = {}
         self._edge_to_corners = {}
+        self._corner_to_numbered_cells = {}
+        self._corner_all_states = {}
+        self._corner_domains = {}
+        self._dirty_cells_for_elimination = set()
+        self._cell_elim_signature = {}
+        self._edge_state_version = 0
         self._cell_line_counter = {}
         self._cell_cross_counter = {}
         self._corner_line_counter = {}          # each corner point has either 0 or 2 lines
@@ -483,6 +570,11 @@ class SlitherlinkEngine:
                 self._corner_edges[corner] = cedges
                 self._corner_line_counter[corner] = 0
                 self._corner_cross_counter[corner] = 0
+                all_states = {frozenset()}
+                for pair in combinations(cedges, 2):
+                    all_states.add(frozenset(pair))
+                self._corner_all_states[corner] = all_states
+                self._corner_domains[corner] = set(all_states)
                 for ek in cedges:
                     self._edge_to_corners.setdefault(ek, set()).add(corner)
         
@@ -500,8 +592,13 @@ class SlitherlinkEngine:
                 if clue is not None:
                     self._numbered_cells[(r, c)] = clue
                     self._number_buckets.setdefault(clue, []).append((r, c))
+                    for corner in ((r, c), (r, c + 1), (r + 1, c), (r + 1, c + 1)):
+                        self._corner_to_numbered_cells.setdefault(corner, set()).add((r, c))
         
         self._edge_to_corners = {ek: tuple(corners) for ek, corners in self._edge_to_corners.items()}
+        self._corner_to_numbered_cells = {
+            corner: tuple(cells) for corner, cells in self._corner_to_numbered_cells.items()
+        }
 
     def _rebuild_cell_edge_counters(self) -> None:
         """Rebuild per-cell line/cross counters from current edge assignments."""
@@ -565,6 +662,11 @@ class SlitherlinkEngine:
             self._cross_candidates = state.metadata["cross_candidates"]
         
         self._rebuild_cell_edge_counters()
+        self._edge_state_version = 0
+        self._cell_elim_signature = {}
+        self._dirty_cells_for_elimination = set(self._numbered_cells.keys())
+        for corner in self._corner_edges:
+            self._refresh_corner_domain(corner)
 
         # Reset counters
         self._step_count = 0

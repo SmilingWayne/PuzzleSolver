@@ -10,6 +10,7 @@ Design principles:
 from __future__ import annotations
 from typing import Dict, List, Tuple, Optional
 from enum import IntEnum
+from itertools import combinations
 
 from puzzlekit.formats.base import PuzzleInstance, NumberClue
 from puzzlekit.inference.schema import InferenceState, InferenceTrace, InferenceStep, InferenceStepKind
@@ -160,6 +161,10 @@ class SlitherlinkEngine:
             return False
         self._edge_values[key] = True
         self._edge_marks.pop(key, None)
+        for r, c in self._edge_to_cells.get(key, []):
+            self._cell_line_counter[(r, c)] += 1
+        for corner in self._edge_to_corners.get(key, ()):
+            self._corner_line_counter[corner] += 1
         self._record_step()
         return True
 
@@ -168,6 +173,10 @@ class SlitherlinkEngine:
             return False
         self._edge_values[key] = False
         self._edge_marks.pop(key, None)
+        for r, c in self._edge_to_cells.get(key, []):
+            self._cell_cross_counter[(r, c)] += 1
+        for corner in self._edge_to_corners.get(key, ()):
+            self._corner_cross_counter[corner] += 1
         self._record_step()
         return True
 
@@ -222,277 +231,194 @@ class SlitherlinkEngine:
     def _rule_number_zero(self, instance: PuzzleInstance) -> int:
         """Clue 0: all four edges are crosses."""
         before = self._step_count
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                if self._get_cell_number(instance, r, c) != 0:
-                    continue
-                for p1, p2 in _get_cell_edges(r, c):
-                    ek = _edge_key(p1, p2)
-                    if self._is_unknown(ek):
-                        self._add_cross(ek)
-        return self._step_count - before
-
-    def _rule_number_four(self, instance: PuzzleInstance) -> int:
-        """Clue 4: all four edges are lines."""
-        before = self._step_count
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                if self._get_cell_number(instance, r, c) != 4:
-                    continue
-                for p1, p2 in _get_cell_edges(r, c):
-                    ek = _edge_key(p1, p2)
-                    if self._is_unknown(ek):
-                        self._add_line(ek)
+        for r, c in self._number_buckets.get(0, []):
+            for ek in self._cell_edge_keys[(r, c)]:
+                if self._is_unknown(ek):
+                    self._add_cross(ek)
         return self._step_count - before
 
     def _rule_number_completion(self, instance: PuzzleInstance) -> int:
-        """Satisfied clue: remaining edges are crosses."""
+        """Clue completion: if crosses reach budget, all remaining edges are lines."""
         before = self._step_count
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                val = self._get_cell_number(instance, r, c)
-                if val is None or val in (0, 4):
-                    continue
-                edge_keys = [_edge_key(p1, p2) for p1, p2 in _get_cell_edges(r, c)]
-                line_count = sum(1 for ek in edge_keys if self._is_line(ek))
-                if line_count != val:
-                    continue
-                for ek in edge_keys:
-                    if self._is_unknown(ek):
-                        self._add_cross(ek)
+        for (r, c), val in self._numbered_cells.items():
+            if val in (0, 4):
+                continue
+            line_count = self._cell_line_counter[(r, c)]
+            cross_count = self._cell_cross_counter[(r, c)]
+            unknown_count = 4 - line_count - cross_count
+            if unknown_count <= 0 or cross_count != 4 - val:
+                continue
+            for ek in self._cell_edge_keys[(r, c)]:
+                if self._is_unknown(ek):
+                    self._add_line(ek)
         return self._step_count - before
 
-    def _rule_number_remaining(self, instance: PuzzleInstance) -> int:
-        """Cross budget exhausted: remaining must be lines (val + cross_count == 4)."""
+    def _rule_cross_completion(self, instance: PuzzleInstance) -> int:
+        """Clue completion: if required lines are fixed, all remaining edges are crosses."""
         before = self._step_count
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                val = self._get_cell_number(instance, r, c)
-                if val is None or val in (0, 4):
-                    continue
-                edge_keys = [_edge_key(p1, p2) for p1, p2 in _get_cell_edges(r, c)]
-                cross_count = sum(1 for ek in edge_keys if self._is_cross(ek))
-                if val + cross_count != 4:
-                    continue
-                for ek in edge_keys:
-                    if self._is_unknown(ek):
-                        self._add_line(ek)
+        for (r, c), val in self._numbered_cells.items():
+            if val in (0, 4):
+                continue
+            line_count = self._cell_line_counter[(r, c)]
+            cross_count = self._cell_cross_counter[(r, c)]
+            unknown_count = 4 - line_count - cross_count
+            if unknown_count <= 0 or line_count != val:
+                continue
+            for ek in self._cell_edge_keys[(r, c)]:
+                if self._is_unknown(ek):
+                    self._add_cross(ek)
+        return self._step_count - before
+    
+    def _rule_two_three_pattern(self) -> int: 
+        """Special Pattern: Two-three pattern.
+        """
+        before = self._step_count
+        
+        for (r, c), val in self._numbered_cells.items():
+            if val != 2: 
+                continue 
+            for (r0, c0, r1, c1, r2, c2, r3, c3, r4, c4) in [
+                    (r - 1, c, r + 1, c, r + 1, c + 1, r - 1, c, r - 1, c + 1), 
+                    (r + 1, c, r, c, r, c + 1, r + 2, c, r + 2, c + 1),
+                    (r, c + 1, r, c, r + 1, c, r, c + 2, r + 1, c + 2), 
+                    (r, c - 1, r, c + 1, r + 1, c + 1, r, c - 1, r + 1, c - 1)
+                ]:
+                # r, c : 2-cell;
+                # r0, c0: 3-cell;
+                # only target at cells with value 2, and the adjacent cells have value 3, with special position.
+                # r1, c1-r2, c2: if 2-cell has specific cross ... 
+                # r3, c3-r4, c4: if unknown edge of 3-cell is not line ... 
+                if (r0, c0) in self._numbered_cells and self._numbered_cells[(r0, c0)] == 3:
+                    if self._is_cross(_edge_key((r1, c1), (r2, c2))):
+                        if self._is_unknown(_edge_key((r3, c3), (r4, c4))):
+                            self._add_line(_edge_key((r3, c3), (r4, c4)))
+        return self._step_count - before
+        
+    def _rule_corner_two_lines_rest_cross(self) -> int:
+        """Corner degree rule: if 2 lines fixed, all other incident edges are crosses."""
+        before = self._step_count
+        for corner, edges in self._corner_edges.items():
+            if self._corner_line_counter[corner] != 2:
+                continue
+            for ek in edges:
+                if self._is_unknown(ek):
+                    self._add_cross(ek)
+        return self._step_count - before
+    
+    def _rule_corner_single_line_forces_line(self) -> int:
+        """Corner degree rule: if 1 line and 1 unknown, that unknown must be line."""
+        before = self._step_count
+        for corner, edges in self._corner_edges.items():
+            if self._corner_line_counter[corner] != 1:
+                continue
+            unknown_edges = [ek for ek in edges if self._is_unknown(ek)]
+            if len(unknown_edges) == 1:
+                self._add_line(unknown_edges[0])
         return self._step_count - before
 
-    def _rule_two_three_pattern(self, instance: PuzzleInstance) -> int:
+    def _rule_consecutive_three(self, instance: PuzzleInstance) -> int:
         """
-        2-3 pattern: when 2 is adjacent to 3, and 2's far edge (away from 3) is X.
-
-        Pattern (JS 13860-13864):
-                ×
-        · · ·    · · ╻
-        ×2 3  -> ×2 3┃
-        · · ·    · · ╹
-                ×
-
-        Condition: 2's edge away from the 3 is already marked as X.
-        Deduction: 3's far edge is line, 3's two side edges are X.
+        Consecutive 3 rule:
+        - Horizontal run of adjacent 3-cells -> all vertical boundaries of that run are lines.
+        - Vertical run of adjacent 3-cells -> all horizontal boundaries of that run are lines.
         """
         before = self._step_count
-        self._num_rows = instance.rows
-        self._num_cols = instance.cols
-
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                if self._get_cell_number(instance, r, c) != 2:
-                    continue
-                # Check 4 directions for adjacent 3
-                for dr, dc in [(0, 1), (1, 0), (0, -1), (-1, 0)]:
-                    nr, nc = r + dr, c + dc
-                    if not self._is_valid_cell(nr, nc):
-                        continue
-                    if self._get_cell_number(instance, nr, nc) != 3:
-                        continue
-
-                    # Get the shared edge between 2 and 3
-                    shared_edge = self._get_shared_edge(r, c, nr, nc)
-                    if shared_edge is None:
-                        continue
-
-                    # Get 2's far edge (away from 3, opposite direction)
-                    far_edge_2 = self._get_shared_edge(r, c, r - dr, c - dc)
-                    if far_edge_2 is None:
-                        continue
-
-                    # Check if 2's far edge has a cross
-                    if not self._is_cross(far_edge_2):
-                        continue
-
-                    # Get all edges of the 3-cell
-                    three_cell_edges = self._get_cell_edges_list(nr, nc)
-
-                    # The opposite edge in 3-cell (away from the 2)
-                    opposite_edge = self._get_shared_edge(nr, nc, nr + dr, nc + dc)
-
-                    # Mark the two side edges of 3-cell as cross (not shared, not opposite)
-                    for edge in three_cell_edges:
-                        if edge != shared_edge and edge != opposite_edge:
-                            self._add_cross(edge)
-
-                    # Mark the opposite edge as line
-                    if opposite_edge and self._is_unknown(opposite_edge):
-                        self._add_line(opposite_edge)
-
-        return self._step_count - before
-
-    def _rule_diagonal_color_for_three(self, instance: PuzzleInstance) -> int:
-        """
-        Diagonal color rule for 3: if a 3 has the same color on diagonal cells,
-        deduce lines on the two edges facing the diagonal.
-
-        Pattern (JS 13907-13913):
-        If a 3-cell has the same color (green/yellow) as a diagonal cell,
-        the two edges of the 3-cell that touch the diagonal corner are lines.
-        """
-        before = self._step_count
-        self._num_rows = instance.rows
-        self._num_cols = instance.cols
-
-        for r in range(instance.rows):
-            for c in range(instance.cols):
-                if self._get_cell_number(instance, r, c) != 3:
-                    continue
-
-                cell_color = self._cell_colors.get(f"{r},{c}")
-                if cell_color is None or cell_color == CellColor.NONE:
-                    continue
-
-                cell_edges = self._get_cell_edges_list(r, c)
-
-                # Check 4 diagonal directions
-                for diag_dr, diag_dc in [(1, 1), (1, -1), (-1, 1), (-1, -1)]:
-                    diag_r, diag_c = r + diag_dr, c + diag_dc
-                    if not self._is_valid_cell(diag_r, diag_c):
-                        continue
-
-                    diag_color = self._cell_colors.get(f"{diag_r},{diag_c}")
-                    if diag_color != cell_color:
-                        continue
-
-                    # The diagonal corner touches two edges of the 3-cell
-                    # For diagonal (dr, dc), the corner is at (r + max(0,dr), c + max(0,dc))
-                    corner_r = r + max(0, diag_dr)
-                    corner_c = c + max(0, diag_dc)
-
-                    # The two edges touching this corner
-                    corner_edges = [
-                        e for e in cell_edges
-                        if e.startswith(f"{corner_r},{corner_c}-") or e.endswith(f"-{corner_r},{corner_c}")
-                    ]
-
-                    for edge in corner_edges:
-                        if self._is_unknown(edge):
-                            self._add_line(edge)
-
-        return self._step_count - before
-
-    def _rule_triple_three(self, instance: PuzzleInstance) -> int:
-        """Adjacent 3-3 pattern: parallel line deduction."""
-        before = self._step_count
-        twocnt = sum(1 for r in range(instance.rows) for c in range(instance.cols)
-                     if self._get_cell_number(instance, r, c) == 2)
-        threecnt = sum(1 for r in range(instance.rows) for c in range(instance.cols)
-                       if self._get_cell_number(instance, r, c) == 3)
-        if not (threecnt > 2 or twocnt > 0):
+        threes = set(self._number_buckets.get(3, []))
+        if not threes:
             return 0
 
+        # Horizontal runs: row fixed, contiguous columns with clue 3
         for r in range(instance.rows):
-            for c in range(instance.cols):
-                if self._get_cell_number(instance, r, c) != 3:
+            c = 0
+            while c < instance.cols:
+                if (r, c) not in threes:
+                    c += 1
                     continue
-                if self._get_cell_number(instance, r, c + 1) == 3:
-                    for cc in (c, c + 1, c + 2):
+                start = c
+                while c + 1 < instance.cols and (r, c + 1) in threes:
+                    c += 1
+                end = c
+                if end > start:  # at least 2 consecutive 3s
+                    for cc in range(start, end + 2):
                         self._add_line(_edge_key((r, cc), (r + 1, cc)))
-                if self._get_cell_number(instance, r + 1, c) == 3:
-                    for rr in (r, r + 1, r + 2):
+                c += 1
+
+        # Vertical runs: column fixed, contiguous rows with clue 3
+        for c in range(instance.cols):
+            r = 0
+            while r < instance.rows:
+                if (r, c) not in threes:
+                    r += 1
+                    continue
+                start = r
+                while r + 1 < instance.rows and (r + 1, c) in threes:
+                    r += 1
+                end = r
+                if end > start:  # at least 2 consecutive 3s
+                    for rr in range(start, end + 2):
                         self._add_line(_edge_key((rr, c), (rr, c + 1)))
-        return self._step_count - before
+                r += 1
 
-    def _rule_single_loop(self, instance: PuzzleInstance) -> int:
-        """Single-loop constraints: cross candidates and connectivity."""
+        return self._step_count - before
+    
+    def _rule_elimination(self) -> int:
+        """
+        Corner elimination:
+        for each corner touching numbered cells, enumerate feasible degree patterns
+        (0 line or 2 lines) under current fixed line/cross constraints, then apply:
+        - edge in all feasible patterns  -> line
+        - edge in no feasible patterns   -> cross
+        """
         before = self._step_count
+        corners_to_check = set()
+        for r, c in self._numbered_cells:
+            corners_to_check.update({
+                (r, c),
+                (r, c + 1),
+                (r + 1, c),
+                (r + 1, c + 1),
+            })
 
-        # Initialize cross candidates
-        for r in range(instance.rows + 1):
-            for c in range(instance.cols + 1):
-                cross_key = f"cross_{r},{c}"
-                if cross_key not in self._cross_candidates:
-                    edges = _get_cross_edges(r, c)
-                    edge_keys = [_edge_key(e[0], e[1]) for e in edges if _is_valid_edge(e, instance)]
-                    candidates: List[List[str]] = [[]]
-                    for i in range(len(edge_keys)):
-                        for j in range(i + 1, len(edge_keys)):
-                            candidates.append([edge_keys[i], edge_keys[j]])
-                    self._cross_candidates[cross_key] = candidates
+        for corner in corners_to_check:
+            edges = self._corner_edges.get(corner, [])
+            if not edges:
+                continue
 
-        # Filter candidates and deduce
-        for cross_key, candidates in list(self._cross_candidates.items()):
-            left, right = cross_key.split("_", 1)[1].split(",")
-            cr, cc = int(left), int(right)
-            incident_edges = [
-                _edge_key(e[0], e[1])
-                for e in _get_cross_edges(cr, cc)
-                if _is_valid_edge(e, instance)
-            ]
+            fixed_lines = {ek for ek in edges if self._is_line(ek)}
+            fixed_crosses = {ek for ek in edges if self._is_cross(ek)}
+            unknown_edges = [ek for ek in edges if self._is_unknown(ek)]
+            if not unknown_edges:
+                continue
 
-            filtered: List[List[str]] = []
-            for combo in candidates:
-                combo_set = set(combo)
-                if any(self._is_cross(e) for e in combo_set):
-                    continue
-                if any(self._is_line(e) and e not in combo_set for e in incident_edges):
-                    continue
-                if all(self._is_unknown(e) or self._is_line(e) for e in combo_set):
-                    filtered.append(combo)
+            feasible_patterns = []
 
-            self._cross_candidates[cross_key] = filtered
+            # Degree 0 option (no incident line)
+            if not fixed_lines:
+                feasible_patterns.append(set())
 
-            if len(filtered) == 1:
-                for edge_key in filtered[0]:
-                    if self._is_unknown(edge_key):
-                        self._add_line(edge_key)
-                for edge_key in incident_edges:
-                    if self._is_unknown(edge_key) and edge_key not in filtered[0]:
-                        self._add_cross(edge_key)
-            elif len(filtered) > 1:
-                for edge_key in incident_edges:
-                    if self._is_unknown(edge_key):
-                        if all(edge_key in combo for combo in filtered):
-                            self._add_line(edge_key)
-                        elif not any(edge_key in combo for combo in filtered):
-                            self._add_cross(edge_key)
+            # Degree 2 options
+            if len(fixed_lines) <= 2:
+                for pair in combinations(edges, 2):
+                    chosen = set(pair)
+                    if not fixed_lines.issubset(chosen):
+                        continue
+                    if chosen & fixed_crosses:
+                        continue
+                    feasible_patterns.append(chosen)
 
-        # Cross connectivity: 0 or 2 lines
-        for r in range(instance.rows + 1):
-            for c in range(instance.cols + 1):
-                edges = _get_cross_edges(r, c)
-                edge_keys = [_edge_key(e[0], e[1]) for e in edges if _is_valid_edge(e, instance)]
-                line_count = sum(1 for ek in edge_keys if self._is_line(ek))
-                unknown_count = sum(1 for ek in edge_keys if self._is_unknown(ek))
+            if not feasible_patterns:
+                continue
 
-                if line_count == 2:
-                    for ek in edge_keys:
-                        if self._is_unknown(ek):
-                            self._add_cross(ek)
-                elif line_count == 1 and unknown_count == 1:
-                    for ek in edge_keys:
-                        if self._is_unknown(ek):
-                            self._add_line(ek)
-                elif unknown_count == 1:
-                    for ek in edge_keys:
-                        if self._is_unknown(ek):
-                            self._add_cross(ek)
+            must_be_line = set.intersection(*feasible_patterns)
+            can_be_line = set.union(*feasible_patterns)
 
+            for ek in unknown_edges:
+                if ek in must_be_line:
+                    self._add_line(ek)
+                elif ek not in can_be_line:
+                    self._add_cross(ek)
+        
         return self._step_count - before
-
-    def _rule_color_propagation(self) -> int:
-        """Cell color propagation (currently disabled)."""
-        return 0
 
     # -------------------------------------------------------------------------
     # Trace building
@@ -536,12 +462,77 @@ class SlitherlinkEngine:
             message=message,
         )
 
+    def _preprocess(self, instance: PuzzleInstance, state: InferenceState) -> None:
+        """Preprocess the puzzle instance and state.
+        """
+        self._numbered_cells = {}
+        self._number_buckets = {}
+        self._cell_edge_keys = {}
+        self._edge_to_cells = {}
+        self._corner_edges = {}
+        self._edge_to_corners = {}
+        self._cell_line_counter = {}
+        self._cell_cross_counter = {}
+        self._corner_line_counter = {}          # each corner point has either 0 or 2 lines
+        self._corner_cross_counter = {}         # each corner point has either 4 or 2 crosses
+        
+        for r in range(instance.rows + 1):
+            for c in range(instance.cols + 1):
+                corner = (r, c)
+                cedges = [_edge_key(p1, p2) for p1, p2 in _get_cross_edges(r, c) if _is_valid_edge((p1, p2), instance)]
+                self._corner_edges[corner] = cedges
+                self._corner_line_counter[corner] = 0
+                self._corner_cross_counter[corner] = 0
+                for ek in cedges:
+                    self._edge_to_corners.setdefault(ek, set()).add(corner)
+        
+        for r in range(instance.rows):
+            for c in range(instance.cols):
+                # cell -> edges
+                ekeys = [_edge_key(p1, p2) for p1, p2 in _get_cell_edges(r, c)]
+                self._cell_edge_keys[(r, c)] = ekeys
+                self._cell_line_counter[(r, c)] = 0
+                self._cell_cross_counter[(r, c)] = 0
+                for ek in ekeys:
+                    self._edge_to_cells.setdefault(ek, []).append((r, c))
+                
+                clue = self._get_cell_number(instance, r, c)
+                if clue is not None:
+                    self._numbered_cells[(r, c)] = clue
+                    self._number_buckets.setdefault(clue, []).append((r, c))
+        
+        self._edge_to_corners = {ek: tuple(corners) for ek, corners in self._edge_to_corners.items()}
+
+    def _rebuild_cell_edge_counters(self) -> None:
+        """Rebuild per-cell line/cross counters from current edge assignments."""
+        for rc in self._cell_line_counter:
+            self._cell_line_counter[rc] = 0
+            self._cell_cross_counter[rc] = 0
+        for corner in self._corner_line_counter:
+            self._corner_line_counter[corner] = 0
+            self._corner_cross_counter[corner] = 0
+        for ek, val in self._edge_values.items():
+            if val is True:
+                for rc in self._edge_to_cells.get(ek, []):
+                    self._cell_line_counter[rc] += 1
+                for corner in self._edge_to_corners.get(ek, ()):
+                    self._corner_line_counter[corner] += 1
+            elif val is False:
+                for rc in self._edge_to_cells.get(ek, []):
+                    self._cell_cross_counter[rc] += 1
+                for corner in self._edge_to_corners.get(ek, ()):
+                    self._corner_cross_counter[corner] += 1
+
     # -------------------------------------------------------------------------
     # Main entry point
     # -------------------------------------------------------------------------
 
     def infer(self, instance: PuzzleInstance, state: InferenceState) -> InferenceTrace:
         """Run inference on the puzzle."""
+        # Stage 0: Preprocess ...
+        
+        self._preprocess(instance, state)
+        
         trace = InferenceTrace(engine=self.name, engine_version=self.version)
 
         # Initialize state from InferenceState
@@ -549,7 +540,7 @@ class SlitherlinkEngine:
         self._edge_marks: Dict[str, EdgeMark] = {}
         self._cell_colors: Dict[str, CellColor] = {}
         self._cross_candidates: Dict[str, List[List[str]]] = {}
-
+        
         for key, val in state.edge_values.items():
             if isinstance(val, bool):
                 self._edge_values[key] = val
@@ -572,6 +563,8 @@ class SlitherlinkEngine:
 
         if "cross_candidates" in state.metadata:
             self._cross_candidates = state.metadata["cross_candidates"]
+        
+        self._rebuild_cell_edge_counters()
 
         # Reset counters
         self._step_count = 0
@@ -580,15 +573,14 @@ class SlitherlinkEngine:
 
         # Rule pipeline
         rules = [
-            ("slitherlink.single_loop", "loop", "SingleLoopInBorder", lambda: self._rule_single_loop(instance)),
             ("slitherlink.number_zero", "number", "Clue0_AllCross", lambda: self._rule_number_zero(instance)),
-            ("slitherlink.number_four", "number", "Clue4_AllLine", lambda: self._rule_number_four(instance)),
             ("slitherlink.number_completion", "number", "ClueSatisfied_RestCross", lambda: self._rule_number_completion(instance)),
-            ("slitherlink.number_remaining", "number", "CrossBudget_RestLine", lambda: self._rule_number_remaining(instance)),
-            ("slitherlink.two_three_pattern", "pattern", "TwoThree_Pattern", lambda: self._rule_two_three_pattern(instance)),
-            ("slitherlink.number_triple_three", "number", "Adjacent33_ParallelLines", lambda: self._rule_triple_three(instance)),
-            ("slitherlink.diagonal_color", "color", "DiagonalColor_For3", lambda: self._rule_diagonal_color_for_three(instance)),
-            ("slitherlink.color_propagation", "color", "ColorPropagation", lambda: self._rule_color_propagation()),
+            ("slitherlink.cross_completion", "cross", "ClueSatisfied_RestNumber", lambda: self._rule_cross_completion(instance)),
+            ("slitherlink.consecutive_three", "pattern", "Consecutive3_ParallelLines", lambda: self._rule_consecutive_three(instance)),
+            ("slitherlink.two_three_pattern", "pattern", "TwoThree_Pattern", lambda: self._rule_two_three_pattern()),
+            ("slitherlink.corner_two_lines", "corner", "Corner2Lines_RestCross", lambda: self._rule_corner_two_lines_rest_cross()),
+            ("slitherlink.corner_single_line", "corner", "Corner1Line_OneUnknownMustLine", lambda: self._rule_corner_single_line_forces_line()),
+            ("slitherlink.corner_elimination", "corner", "CornerElimination_MustLineOrCross", lambda: self._rule_elimination()),
         ]
 
         rule_stats: Dict[str, int] = {}
@@ -619,8 +611,8 @@ class SlitherlinkEngine:
             except StepFinishedError:
                 break
 
-            # Check convergence
-            if len(self._edge_values) == len(before_edges) and len(self._cell_colors) == len(before_colors):
+            # Check convergence: stop only when no rule fired in this iteration.
+            if iteration_fired == 0:
                 break
 
         # Update trace metadata
@@ -630,7 +622,6 @@ class SlitherlinkEngine:
         trace.metadata["iterations"] = iteration + 1
         trace.metadata["rules_fired_count"] = rules_fired_count
         trace.metadata["rule_stats"] = rule_stats
-
         return trace
 
 

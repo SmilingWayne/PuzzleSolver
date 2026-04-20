@@ -108,11 +108,11 @@ class CellState:
 
 ### Attributes
 
-| Attribute | Type                    | Description                                                       |
-|-----------|-------------------------|-------------------------------------------------------------------|
-| `clue`    | `Optional[Clue]`        | Clue in the cell, such as numbers, arrows, etc.                   |
-| `fill`    | `Optional[str]`         | Fill color, e.g., `"black"`, `"gray"`, `"red"`, etc.              |
-| `symbol`  | `Optional[SymbolState]` | Symbol marker, such as circles, crosses, etc.                     |
+| Attribute | Type                    | Description                                                         |
+| --------- | ----------------------- | ------------------------------------------------------------------- |
+| `clue`    | `Optional[Clue]`        | Clue in the cell, such as numbers, arrows, etc.                     |
+| `fill`    | `Optional[str]`         | Fill color, e.g., `"black"`, `"gray"`, `"red"`, etc.                |
+| `symbol`  | `Optional[SymbolState]` | Symbol marker, such as circles, crosses, etc.                       |
 | `shaded`  | `bool`                  | Whether the cell is black/shaded (used in Heyawake, Nurikabe, etc.) |
 
 ### SymbolState: Symbol Markers
@@ -141,11 +141,11 @@ class EdgeState:
 
 ### Common Edge Types
 
-| edge_type | Description                          |
-|-----------|--------------------------------------|
-| `2`       | Default thick black border           |
-| `13`      | Dashed border                        |
-| `-1`      | Custom edge (used with `symbol`)     |
+| edge_type | Description                      |
+| --------- | -------------------------------- |
+| `2`       | Default thick black border       |
+| `13`      | Dashed border                    |
+| `-1`      | Custom edge (used with `symbol`) |
 
 ---
 
@@ -453,13 +453,13 @@ print(f"puzz.link URL: {new_puzzlink_url}")
 
 ## Related Files
 
-| File                                                                                          | Description                                                    |
-|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`src/puzzlekit/formats/base.py`](../src/puzzlekit/formats/base.py)                           | Core class definitions: PuzzleInstance, CellState, EdgeState   |
-| [`src/puzzlekit/formats/puzzlink_converter.py`](../src/puzzlekit/formats/puzzlink_converter.py) | puzz.link format converter                                     |
-| [`src/puzzlekit/formats/penpa_converter.py`](../src/puzzlekit/formats/penpa_converter.py)     | Penpa+ format converter                                        |
-| [`src/puzzlekit/formats/janko_converter.py`](../src/puzzlekit/formats/janko_converter.py)     | Janko.at format converter (decode support)                     |
-| [`src/puzzlekit/formats/puzzle_types.py`](../src/puzzlekit/formats/puzzle_types.py)           | Puzzle type definitions and mappings                           |
+| File                                                                                            | Description                                                  |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [`src/puzzlekit/formats/base.py`](../src/puzzlekit/formats/base.py)                             | Core class definitions: PuzzleInstance, CellState, EdgeState |
+| [`src/puzzlekit/formats/puzzlink_converter.py`](../src/puzzlekit/formats/puzzlink_converter.py) | puzz.link format converter                                   |
+| [`src/puzzlekit/formats/penpa_converter.py`](../src/puzzlekit/formats/penpa_converter.py)       | Penpa+ format converter                                      |
+| [`src/puzzlekit/formats/janko_converter.py`](../src/puzzlekit/formats/janko_converter.py)       | Janko.at format converter (decode support)                   |
+| [`src/puzzlekit/formats/puzzle_types.py`](../src/puzzlekit/formats/puzzle_types.py)             | Puzzle type definitions and mappings                         |
 
 ---
 

@@ -44,6 +44,14 @@ def _edge_key(p1: Tuple[int, int], p2: Tuple[int, int]) -> str:
     return f"{a[0]},{a[1]}-{b[0]},{b[1]}"
 
 
+def _parse_edge_key(key: str) -> Tuple[Tuple[int, int], Tuple[int, int]]:
+    """Parse canonical edge key back to endpoint coordinates."""
+    left, right = key.split("-")
+    r1, c1 = left.split(",")
+    r2, c2 = right.split(",")
+    return (int(r1), int(c1)), (int(r2), int(c2))
+
+
 def _get_cell_edges(r: int, c: int) -> List[Tuple[Tuple[int, int], Tuple[int, int]]]:
     """Get 4 edges around cell (r, c)."""
     return [
@@ -75,26 +83,6 @@ def _is_valid_edge(
     max_r, max_c = instance.rows, instance.cols
     return (0 <= r1 <= max_r and 0 <= c1 <= max_c and
             0 <= r2 <= max_r and 0 <= c2 <= max_c)
-
-
-def _is_valid_cell(r: int, c: int, instance: PuzzleInstance) -> bool:
-    """Check if cell is within puzzle bounds."""
-    return 0 <= r < instance.rows and 0 <= c < instance.cols
-
-
-def _get_shared_edge(r1: int, c1: int, r2: int, c2: int) -> Optional[str]:
-    """Get the edge shared between two adjacent cells."""
-    if r1 == r2:  # Same row, horizontal adjacency
-        if c2 == c1 + 1:  # (r1,c1) is left of (r2,c2)
-            return _edge_key((r1, c1 + 1), (r2 + 1, c1 + 1))
-        elif c2 == c1 - 1:  # (r1,c1) is right of (r2,c2)
-            return _edge_key((r1, c1), (r2 + 1, c1))
-    elif c1 == c2:  # Same column, vertical adjacency
-        if r2 == r1 + 1:  # (r1,c1) is above (r2,c2)
-            return _edge_key((r1 + 1, c1), (r1 + 1, c1 + 1))
-        elif r2 == r1 - 1:  # (r1,c1) is below (r2,c2)
-            return _edge_key((r1, c1), (r1, c1 + 1))
-    return None
 
 
 # =============================================================================
@@ -139,6 +127,9 @@ class SlitherlinkEngine:
 
     def _is_yellow(self, key: str) -> bool:
         return self._cell_colors.get(key) == CellColor.YELLOW
+
+    def _cell_key(self, r: int, c: int) -> str:
+        return f"{r},{c}"
 
     def _get_cell_number(self, instance: PuzzleInstance, r: int, c: int) -> Optional[int]:
         if not (0 <= r < instance.rows and 0 <= c < instance.cols):
@@ -188,6 +179,7 @@ class SlitherlinkEngine:
         if self._cell_colors.get(key) == CellColor.GREEN:
             return False
         self._cell_colors[key] = CellColor.GREEN
+        print("Add Yellow!")
         self._record_step()
         return True
 
@@ -195,6 +187,7 @@ class SlitherlinkEngine:
         if self._cell_colors.get(key) == CellColor.YELLOW:
             return False
         self._cell_colors[key] = CellColor.YELLOW
+        print("Add Yellow!")
         self._record_step()
         return True
 
@@ -227,6 +220,14 @@ class SlitherlinkEngine:
     def _get_cell_edges_list(self, r: int, c: int) -> List[str]:
         """Get the 4 edge keys around cell (r, c)."""
         return [_edge_key(p1, p2) for p1, p2 in _get_cell_edges(r, c)]
+
+    def _get_adjacent_cells(self, r: int, c: int) -> List[Tuple[int, int]]:
+        """Orthogonally adjacent valid cell coordinates."""
+        neighbors: List[Tuple[int, int]] = []
+        for nr, nc in ((r - 1, c), (r + 1, c), (r, c - 1), (r, c + 1)):
+            if self._is_valid_cell(nr, nc):
+                neighbors.append((nr, nc))
+        return neighbors
 
     # -------------------------------------------------------------------------
     # Rules
@@ -275,6 +276,7 @@ class SlitherlinkEngine:
     
     def _rule_two_three_pattern(self) -> int: 
         """Special Pattern: Two-three pattern.
+        Easy Trick.
         """
         before = self._step_count
         
@@ -299,10 +301,16 @@ class SlitherlinkEngine:
         return self._step_count - before
         
     def _rule_corner_two_lines_rest_cross(self) -> int:
-        """Corner degree rule: if 2 lines fixed, all other incident edges are crosses."""
+        """
+        Trivial.
+        Corner degree rule: 1.
+        
+        1. if 2 lines fixed, all other incident edges are crosses.
+        2. if 3 lines crossed, the rest edge must be cross.
+        """
         before = self._step_count
         for corner, edges in self._corner_edges.items():
-            if self._corner_line_counter[corner] != 2:
+            if self._corner_line_counter[corner] != 2 and self._corner_cross_counter[corner] != 3:
                 continue
             for ek in edges:
                 if self._is_unknown(ek):
@@ -477,6 +485,114 @@ class SlitherlinkEngine:
 
         return self._step_count - before
 
+    def _rule_loop_guard_union_find(self) -> int:
+        """
+        Single-loop guard:
+        if an undecided edge connects two vertices already connected by line edges,
+        setting it as line would create a premature small loop, so mark it cross.
+        """
+        before = self._step_count
+
+        parent: Dict[Tuple[int, int], Tuple[int, int]] = {}
+        rank: Dict[Tuple[int, int], int] = {}
+
+        def find(x: Tuple[int, int]) -> Tuple[int, int]:
+            if parent[x] != x:
+                parent[x] = find(parent[x])
+            return parent[x]
+
+        def union(a: Tuple[int, int], b: Tuple[int, int]) -> None:
+            ra, rb = find(a), find(b)
+            if ra == rb:
+                return
+            if rank[ra] < rank[rb]:
+                parent[ra] = rb
+            elif rank[ra] > rank[rb]:
+                parent[rb] = ra
+            else:
+                parent[rb] = ra
+                rank[ra] += 1
+
+        # Initialize DSU on all lattice points
+        for r in range(self._num_rows + 1):
+            for c in range(self._num_cols + 1):
+                v = (r, c)
+                parent[v] = v
+                rank[v] = 0
+
+        # Union by currently fixed line edges
+        for ek, val in self._edge_values.items():
+            if val is not True:
+                continue
+            p1, p2 = self._edge_endpoints[ek]
+            union(p1, p2)
+
+        for ek in self._all_edge_keys:
+            if not self._is_unknown(ek):
+                continue
+            p1, p2 = self._edge_endpoints[ek]
+            if find(p1) == find(p2):
+                self._add_cross(ek)
+
+        return self._step_count - before
+
+    def _rule_local_color_propagation(self) -> int:
+        """Local color-number propagation (subset of JS SlitherlinkAssist color rules)."""
+        before = self._step_count
+
+        for (r, c), qnum in self._numbered_cells.items():
+            cell_key = self._cell_key(r, c)
+            neighbors = self._get_adjacent_cells(r, c)
+            innercnt = sum(1 for nr, nc in neighbors if self._is_green(self._cell_key(nr, nc)))
+            outercnt = sum(1 for nr, nc in neighbors if self._is_yellow(self._cell_key(nr, nc)))
+
+            # (1) threshold-based coloring
+            if qnum < innercnt or 4 - qnum < outercnt:
+                self._add_green(cell_key)
+            if qnum < outercnt or 4 - qnum < innercnt:
+                self._add_yellow(cell_key)
+
+            is_green = self._is_green(cell_key)
+            is_yellow = self._is_yellow(cell_key)
+
+            # (2) colored cell + equation constraints -> neighbor colors
+            if is_green and qnum == outercnt:
+                for nr, nc in neighbors:
+                    self._add_green(self._cell_key(nr, nc))
+            if is_yellow and qnum == innercnt:
+                for nr, nc in neighbors:
+                    self._add_yellow(self._cell_key(nr, nc))
+            if is_yellow and qnum == 4 - outercnt:
+                for nr, nc in neighbors:
+                    self._add_green(self._cell_key(nr, nc))
+            if is_green and qnum == 4 - innercnt:
+                for nr, nc in neighbors:
+                    self._add_yellow(self._cell_key(nr, nc))
+
+            # (3) qnum == 2 batch coloring
+            if qnum == 2 and outercnt == 2:
+                for nr, nc in neighbors:
+                    self._add_green(self._cell_key(nr, nc))
+            if qnum == 2 and innercnt == 2:
+                for nr, nc in neighbors:
+                    self._add_yellow(self._cell_key(nr, nc))
+
+            # (4) one green + one yellow around 1/3 -> force undecided borders
+            if qnum in (1, 3) and innercnt == 1 and outercnt == 1:
+                for nr, nc in neighbors:
+                    nkey = self._cell_key(nr, nc)
+                    if self._cell_colors.get(nkey, CellColor.NONE) != CellColor.NONE:
+                        continue
+                    shared = self._get_shared_edge(r, c, nr, nc)
+                    if not shared or not self._is_unknown(shared):
+                        continue
+                    if qnum == 1:
+                        self._add_cross(shared)
+                    else:
+                        self._add_line(shared)
+
+        return self._step_count - before
+
     def _refresh_corner_domain(self, corner: Tuple[int, int]) -> bool:
         """Filter one corner domain by current fixed line/cross assignments."""
         edges = self._corner_edges.get(corner, [])
@@ -546,18 +662,24 @@ class SlitherlinkEngine:
     def _preprocess(self, instance: PuzzleInstance, state: InferenceState) -> None:
         """Preprocess the puzzle instance and state.
         """
+        self._num_rows = instance.rows
+        self._num_cols = instance.cols
         self._numbered_cells = {}
         self._number_buckets = {}
         self._cell_edge_keys = {}
         self._edge_to_cells = {}
-        self._corner_edges = {}
         self._edge_to_corners = {}
+        self._edge_endpoints = {}
+        self._all_edge_keys = set()
+        
+        self._corner_edges: Dict[Tuple[int, int], List[str]]= {} 
         self._corner_to_numbered_cells = {}
         self._corner_all_states = {}
         self._corner_domains = {}
+        
         self._dirty_cells_for_elimination = set()
-        self._cell_elim_signature = {}
         self._edge_state_version = 0
+        self._cell_elim_signature = {}
         self._cell_line_counter = {}
         self._cell_cross_counter = {}
         self._corner_line_counter = {}          # each corner point has either 0 or 2 lines
@@ -587,6 +709,10 @@ class SlitherlinkEngine:
                 self._cell_cross_counter[(r, c)] = 0
                 for ek in ekeys:
                     self._edge_to_cells.setdefault(ek, []).append((r, c))
+                for p1, p2 in _get_cell_edges(r, c):
+                    ek = _edge_key(p1, p2)
+                    self._edge_endpoints[ek] = tuple(sorted((p1, p2)))
+                    self._all_edge_keys.add(ek)
                 
                 clue = self._get_cell_number(instance, r, c)
                 if clue is not None:
@@ -596,9 +722,7 @@ class SlitherlinkEngine:
                         self._corner_to_numbered_cells.setdefault(corner, set()).add((r, c))
         
         self._edge_to_corners = {ek: tuple(corners) for ek, corners in self._edge_to_corners.items()}
-        self._corner_to_numbered_cells = {
-            corner: tuple(cells) for corner, cells in self._corner_to_numbered_cells.items()
-        }
+        self._corner_to_numbered_cells = {corner: tuple(cells) for corner, cells in self._corner_to_numbered_cells.items()}
 
     def _rebuild_cell_edge_counters(self) -> None:
         """Rebuild per-cell line/cross counters from current edge assignments."""
@@ -683,6 +807,8 @@ class SlitherlinkEngine:
             ("slitherlink.corner_two_lines", "corner", "Corner2Lines_RestCross", lambda: self._rule_corner_two_lines_rest_cross()),
             ("slitherlink.corner_single_line", "corner", "Corner1Line_OneUnknownMustLine", lambda: self._rule_corner_single_line_forces_line()),
             ("slitherlink.corner_elimination", "corner", "CornerElimination_MustLineOrCross", lambda: self._rule_elimination()),
+            ("slitherlink.loop_guard_union_find", "loop", "LoopGuard_PreventPrematureCycle", lambda: self._rule_loop_guard_union_find()),
+            ("slitherlink.local_color_propagation", "color", "LocalColor_NumberPropagation", lambda: self._rule_local_color_propagation()),
         ]
 
         rule_stats: Dict[str, int] = {}

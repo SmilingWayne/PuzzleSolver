@@ -1,5 +1,6 @@
 from typing import Optional, List, Any, Callable, Dict
 from abc import ABC, abstractmethod
+import copy
 from ortools.sat.python import cp_model as cp
 from ortools.linear_solver import pywraplp
 from puzzlekit.core.grid import Grid
@@ -117,19 +118,51 @@ class PuzzleSolver(ABC):
                         f"Allowed values: {allowed}, Ignore set: {ignore}"
                     )
     
-    def solve(self) -> dict:
+    def solve(self, solver_options: Optional[Dict[str, Any]] = None) -> dict:
+        """
+        Solve the puzzle with optional solver parameters.
+
+        Args:
+            solver_options: Optional dict of OR-Tools CP-SAT parameters.
+                           Common options:
+                           - time_limit_sec: Maximum solving time in seconds (default: 30.0)
+                           - num_search_workers: Number of parallel search workers
+                           - use_branching: Enable branching heuristic
+
+        Returns:
+            PuzzleResult with solution data including status, cpu_time, solution_grid, etc.
+        """
         solution_dict = dict()
-        solution_grid = Grid.empty() 
-        
-        
-        tic = time.perf_counter() 
+        solution_grid = Grid.empty()
+
+        # Apply default solver options
+        if solver_options is None:
+            solver_options = {}
+
+        # Set default time limit if not specified
+        if 'time_limit_sec' not in solver_options:
+            solver_options['time_limit_sec'] = 30.0
+
+        tic = time.perf_counter()
         self._add_constr()
         toc = time.perf_counter()
-        
+
         build_time = toc - tic
+
+        # Apply solver options before solving
+        # OR-Tools CP-SAT parameter names: https://github.com/google/or-tools/blob/stable/ortools/sat/cp_model.proto
+        for key, value in solver_options.items():
+            # Map user-friendly parameter names to OR-Tools internal names
+            if key == 'time_limit_sec':
+                self.solver.parameters.max_time_in_seconds = value
+            elif hasattr(self.solver.parameters, key):
+                setattr(self.solver.parameters, key, value)
+
         status = self.solver.Solve(self.model)
         solution_dict = ortools_cpsat_analytics(self.model, self.solver)
         solution_dict['build_time'] = build_time
+
+        # Map status codes to human-readable strings
         solution_status = {
             cp.OPTIMAL: "Optimal",
             cp.FEASIBLE: "Feasible",
@@ -138,14 +171,28 @@ class PuzzleSolver(ABC):
             cp.UNKNOWN: "Unknown"
         }
         solution_dict['status'] = solution_status.get(status, "Unknown")
-        
+
+        # Check if the solver exceeded the time limit
+        # WallTime() returns seconds (not milliseconds)
+        time_limit_sec = solver_options.get('time_limit_sec', 30.0)
+        if status == cp.UNKNOWN and self.solver.WallTime() >= time_limit_sec * 0.95:
+            # 0.95 factor to account for small timing variations
+            solution_dict['status'] = "Timeout"
+        # Also check for Timeout when status is OPTIMAL/FEASIBLE but time exceeded
+        # This handles edge cases where solver finishes just after the time limit
+        elif status in [cp.OPTIMAL, cp.FEASIBLE] and self.solver.WallTime() >= time_limit_sec:
+            solution_dict['status'] = "Timeout"
+        # Handle UNKNOWN status that's not due to timeout
+        elif status == cp.UNKNOWN:
+            solution_dict['status'] = "Unknown"
+
         if status in [cp.OPTIMAL, cp.FEASIBLE]:
             solution_grid = self.get_solution()
-        
+
         solution_dict['solution_grid'] = solution_grid
-        
+
         # print(f"{self.puzzle_type}: \nStatus: {solution_dict.get('status', 'Unknown')}, \nCPU Time: {solution_dict.get('cpu_time', -1):.4f} s\nBuild Time: {solution_dict.get('build_time', -1):.4f} s")
-        
+
         return PuzzleResult(
             puzzle_type = self.puzzle_type,
             puzzle_data = vars(self).copy(),
@@ -180,31 +227,52 @@ class IterativePuzzleSolver(PuzzleSolver, ABC):
         pass
 
     # Override solve method, encapsulate the common iterative logic.
-    def solve(self) -> dict:
-        
+    def solve(self, solver_options: Optional[Dict[str, Any]] = None) -> dict:
+        """
+        Solve the puzzle using iterative MIP with optional solver parameters.
+
+        Args:
+            solver_options: Optional dict of OR-Tools MIP parameters.
+                           Common options:
+                           - time_limit_sec: Maximum solving time in seconds (default: 30.0)
+
+        Returns:
+            PuzzleResult with solution data including status, cpu_time, solution_grid, etc.
+        """
+        # Apply default solver options
+        if solver_options is None:
+            solver_options = {}
+
+        # Set default time limit if not specified
+        if 'time_limit_sec' not in solver_options:
+            solver_options['time_limit_sec'] = 30.0
+
         tic = time.perf_counter()
         # 1. Build the initial model via child class' _add_constr method.
         # Log the build time.
-        self._add_constr() 
+        self._add_constr()
         toc = time.perf_counter()
         build_time = toc - tic
-        
+
+        # Apply solver options
+        self.solver.set_time_limit(int(solver_options.get('time_limit_sec', 30.0) * 1000))
+
         start_time = time.perf_counter()
         max_iterations = 10000
         iteration = 0
         status = pywraplp.Solver.NOT_SOLVED
         final_status_str = "Unknown"
-        
+
         # 2. Iterative Log-Cut Loop
         while iteration < max_iterations:
             iteration += 1
             status = self.solver.Solve()
-            
+
             # If the basic model is infeasible, exit directly.
             if status not in [pywraplp.Solver.OPTIMAL, pywraplp.Solver.FEASIBLE]:
                 final_status_str = "Infeasible" if status == pywraplp.Solver.INFEASIBLE else "Error"
                 break
-                
+
             # Check if it's necessary to add new cuts.
             # If _check_and_add_cuts returns True, it means the current solution does not satisfy the connectivity constraint,
             # and new constraints have been added. We need to continue solving.
@@ -213,27 +281,31 @@ class IterativePuzzleSolver(PuzzleSolver, ABC):
                 # No new cuts added -> All constraints satisfied -> Found final solution.
                 final_status_str = "Optimal" if status == pywraplp.Solver.OPTIMAL else "Feasible"
                 break
-        
+
         else:
             final_status_str = "Not Solved (Max Iterations)"
 
         end_time = time.perf_counter()
-        
+
         # 3. Collect results.
         solution_dict = ortools_mip_analytics(self.solver)
         solution_dict.update({
             'build_time': build_time,
             'solve_time': end_time - start_time,
             'status': final_status_str,
-            'iterations': iteration 
+            'iterations': iteration
         })
-        
+
+        # Check if timeout occurred
+        if status == pywraplp.Solver.ABNORMAL or self.solver.wall_time() / 1000.0 >= solver_options.get('time_limit_sec', 30.0):
+            solution_dict['status'] = "Timeout"
+
         solution_grid = Grid.empty()
         if final_status_str in ["Optimal", "Feasible"]:
             solution_grid = self.get_solution()
-            
+
         solution_dict['solution_grid'] = solution_grid
-        
+
         return PuzzleResult(
             puzzle_type=self.puzzle_type,
             puzzle_data=vars(self).copy(),

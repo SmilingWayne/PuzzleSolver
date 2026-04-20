@@ -71,43 +71,49 @@ def _build_converter(fmt: str, converter_config: Optional[Dict[str, Any]] = None
     raise ValueError(f"Unsupported converter format '{fmt}'.")
 
 def solve(
-    source: Union[str, Dict[str, Any]], 
-    puzzle_type: str, 
+    source: Union[str, Dict[str, Any]],
+    puzzle_type: str,
+    solver_options: Optional[Dict[str, Any]] = None,
     **kwargs
 ) -> Any:
     """
     Unified entry point for solving puzzles.
-    
+
     Args:
-        source: 
+        source:
             - A string containing the raw puzzle data (with headers, e.g. "9 9\n...").
             - A dictionary (pre-parsed data).
         puzzle_type: The snake_case type name (e.g., 'akari', 'fuzuli').
+        solver_options: Optional dict of OR-Tools solver parameters.
+                       Common options:
+                       - time_limit_sec: Maximum solving time in seconds (default: 30.0)
+                       - num_search_workers: Number of parallel search workers
+                       - use_branching: Enable branching heuristic
         show: Whether to visualize the result.
         **kwargs: Overrides for solver parameters.
     """
-    
+
     # --- 1.  (Parsing) ---
     init_params = {}
-    
+
     if isinstance(source, dict):
         init_params = source.copy()
-        
+
     elif isinstance(source, str):
         try:
-            target_parser = get_parser(puzzle_type) 
+            target_parser = get_parser(puzzle_type)
             parsed_data = target_parser(source.strip())
-            
+
             if parsed_data is None:
                 raise ValueError(f"Parser returned None for type '{puzzle_type}'")
-                
+
             init_params.update(parsed_data)
         except ValueError as e:
             raise ValueError(f"Parsing failed for type '{puzzle_type}': {e}")
-            
+
     else:
         raise TypeError(f"Source must be dict or raw string, got {type(source)}")
-    
+
     init_params.update(kwargs)
 
     try:
@@ -117,9 +123,9 @@ def solve(
 
 
     solver_instance = SolverClass(**init_params)
-    
-    result = solver_instance.solve()
-    
+
+    result = solver_instance.solve(solver_options=solver_options)
+
     return result
 
 
@@ -169,12 +175,12 @@ def infer(
 def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
     # return solve(source=data, puzzle_type=puzzle_type, **kwargs)
     init_params = {}
-    
+
     if isinstance(data, dict):
         init_params = data.copy()
     else:
         raise TypeError(f"Source must be dict or raw string, got {type(data)}")
-    
+
     init_params.update(kwargs)
 
     try:

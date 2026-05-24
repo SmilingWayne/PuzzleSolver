@@ -1,6 +1,6 @@
 # Puzzle Kit
 
-This repository provides **100+ useful, efficient and problem‑specific solvers** for a variety of **logic puzzles**. The underlying solving engine is the open‑source Google [OR-Tools](https://developers.google.cn/optimization) CP-SAT solver. For more details of puzzles and their input format, you can refer to [docs of puzzlekit](https://smilingwayne.github.io/PuzzleSolver/).
+This repository provides **100+ useful, efficient and problem‑specific solvers** for a variety of **logic puzzles**. The underlying solving engine is the open‑source Google [OR-Tools](https://developers.google.cn/optimization) CP-SAT solver. For more details of puzzles and their input format, you can refer to [docs of puzzlekit](https://smilingwayne.github.io/puzzlekit/).
 
 For simplicity, the dataset is removed to [puzzlekit-dataset](https://github.com/SmilingWayne/puzzlekit-dataset) repo. The structured dataset contains 41k+ instances covering 130+ specific and popular puzzle types (e.g. Nonogram, Slitherlink, Akari, Fillomino, Hitori, Kakuro, Kakuro), mostly from [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm) and [puzz.link](https://puzz.link). The details are listed in the table below. 
 
@@ -253,7 +253,7 @@ res = puzzlekit.solve(problem_str, "masyu")
 # res.show() # If you want to visualize it.
 ```
 
-The detailed usage of specific logic puzzles can be found in the [docs of puzzlekit](https://smilingwayne.github.io/PuzzleSolver/).
+The detailed usage of specific logic puzzles can be found in the [docs of puzzlekit](https://smilingwayne.github.io/puzzlekit/).
 
 If you want a batch-run, clone the dataset you need via [puzzlekit-dataset](https://github.com/SmilingWayne/puzzlekit-dataset) to `./assets` folder in the root. Then run the `scripts/benchmark.py` like:
 

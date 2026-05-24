@@ -17,7 +17,6 @@ flowchart LR
     parserLayer --> solverLayer[solvers_subclasses]
     solverLayer --> coreLayer[core_solver_grid_result]
     solverLayer --> utilLayer[utils_ortools_utils]
-    irLayer -.parallelPath.-> inferLayer[inference_path]
 ```
 
 ---
@@ -37,7 +36,7 @@ flowchart LR
 - **统一求解框架做得好**：`core/solver.py` 把建模、求解参数、状态归一化、分析指标统一封装，降低新增 solver 门槛。
 - **公共约束层已经形成**：`utils/ortools_utils.py` 提供连通性、回路、flood-fill、MIP cut 等复用能力。
 - **入口 API 设计友好**：`solve()` 兼容字符串和字典输入，`decode/encode/convert` 明确覆盖格式互转。
-- **架构上具备平台化雏形**：求解、格式转换、推理（`infer()`）并行存在，具备继续扩展为“谜题基础设施”的潜力。
+- **架构上具备平台化雏形**：求解与格式转换主链路清晰，具备继续扩展为“谜题基础设施”的潜力。
 
 ### 缺点
 
@@ -126,9 +125,9 @@ flowchart LR
 
 ### P2（中长期，4-8 周）
 
-#### 步骤 7：统一 solve/infer 双路径叙事
+#### 步骤 7：统一 solve 主路径叙事
 - 动作：
-  - 在文档中明确：`solve()`（CP-SAT）与 `infer()`（逻辑推理）当前覆盖边界与推荐场景。
+  - 在文档中明确：`solve()`（CP-SAT）作为主路径的覆盖边界与推荐场景。
   - 逐步评估是否将部分 parser 路径向 IR 路径汇聚，减少表示层割裂。
 - 预期收益：架构认知一致，减少后续扩展时的“双轨维护”负担。
 

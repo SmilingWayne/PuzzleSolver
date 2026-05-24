@@ -191,7 +191,7 @@ def _apply_ignore_paths(data: Any, ignore_paths: List[str]) -> Any:
     Remove fields from a nested JSON-like structure.
 
     Path syntax:
-    - dot-separated keys, e.g. "cells", "meta.rows", "cells.*.number.number_style"
+    - dot-separated keys, e.g. "cells", "meta.rows", "cells.*.clue"
     - "*" matches all dict keys / list items at that level
     """
     if not ignore_paths:
@@ -503,7 +503,7 @@ def main() -> None:
         default="",
         help=(
             "Comma-separated ignore paths applied to normalized IR before diff. "
-            "Examples: 'meta.source,cells.*.number.number_style,edges'. "
+            "Examples: 'meta.source,cells.*.clue,edges' or 'cells.*.symbol.symbol_style'. "
             "Supported: dot paths with '*' wildcard."
         ),
     )

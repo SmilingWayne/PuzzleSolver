@@ -2,7 +2,7 @@ from typing import Any, List, Dict, Tuple
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
@@ -140,7 +140,7 @@ class CanalViewSolver(PuzzleSolver):
 
         # Assumes the puzzle requires at least one black cell.
         # Canal view puzzles usually have substantial black areas.
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             self.is_black, 
             adjacency_map,

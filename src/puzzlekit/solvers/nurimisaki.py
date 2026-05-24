@@ -2,7 +2,7 @@ from typing import Any, List, Dict, Tuple
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
@@ -64,7 +64,7 @@ class NurimisakiSolver(PuzzleSolver):
                     self.adj_map[u].append(v)
         
         # 3. Global Connectivity: All white cells must form a single area
-        add_connected_subgraph_constraint(self.model, self.is_white, self.adj_map)
+        add_connected_subgraph_by_height(self.model, self.is_white, self.adj_map)
         
         # 4. No 2x2 Rule (Neither White nor Black can form 2x2)
         for r in range(self.num_rows - 1):

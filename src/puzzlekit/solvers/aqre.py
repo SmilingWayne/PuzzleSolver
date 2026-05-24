@@ -4,7 +4,7 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
@@ -141,7 +141,7 @@ class AqreSolver(PuzzleSolver):
         # We assume there is at least one black cell (add implication if strictly necessary, 
         # but usually regions dictate >0 black cells).
         
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             self.is_black, # BoolVars for nodes to connect
             adjacency_map,

@@ -2,7 +2,7 @@ from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_by_height
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_by_height, add_connected_subgraph_constraint
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy

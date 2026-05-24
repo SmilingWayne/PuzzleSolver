@@ -74,7 +74,7 @@ class ShimaguniSolver(PuzzleSolver):
         
         for region_id, cells in region_cells.items():
             # print(region_id, cells)
-            count_var = self.model.NewIntVar(0, len(cells) + 2, f"count_{region_id}")
+            count_var = self.model.NewIntVar(0, len(cells) , f"count_{region_id}")
             region_black_count[region_id] = count_var
             if region_id in region_clues:
                 self.model.Add(count_var == region_clues[region_id])
@@ -93,7 +93,7 @@ class ShimaguniSolver(PuzzleSolver):
             active_nodes = {pos: self.black[pos.r, pos.c] for pos in cells}
             
             if len(cells) > 1:
-                add_connected_subgraph_by_height(
+                add_connected_subgraph_constraint(
                     self.model,
                     active_nodes,
                     adjacency_map,

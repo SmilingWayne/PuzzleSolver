@@ -4,7 +4,7 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LITS_TEMPLATE_OUTPUT_DESC
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_by_height 
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy

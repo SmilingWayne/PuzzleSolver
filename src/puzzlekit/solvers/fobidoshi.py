@@ -2,7 +2,7 @@ from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 import copy
 from typeguard import typechecked
@@ -107,7 +107,7 @@ class FobidoshiSolver(PuzzleSolver):
 
         # Call the generic utility
         # self.is_white maps keys (Position) to BoolVars
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             self.x,
             adjacency_map

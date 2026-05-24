@@ -1,5 +1,5 @@
 site_name: PuzzleKit docs
-site_url: https://github.com/SmilingWayne/PuzzleSolver
+site_url: https://smilingwayne.github.io/puzzlekit/
 site_description: PuzzleKit documentation
 site_dir: site
 
@@ -122,7 +122,7 @@ nav:
 
 site_author: SmilingWayne
 repo_name: PuzzleKit
-repo_url: https://github.com/SmilingWayne/PuzzleSolver
+repo_url: https://github.com/SmilingWayne/puzzlekit
 edit_uri: edit/main/docs
 
 docs_dir: docs/

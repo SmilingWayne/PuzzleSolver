@@ -75,6 +75,14 @@ PUZZLE_TYPES_DICT: Dict[str, Dict[str, Dict[str, object]]] = {
         "puzzlink": {"aliases": ["slitherlink", "slither", "vslither", "tslither"], "primary": "slither", "family": "slither_family"},
         "penpa": {"aliases": ["slitherlink"], "genre_tag": "slitherlink"},
     },
+    "tapa": {
+        "puzzlink": {"aliases": ["tapa"], "primary": "tapa", "family": "tapa_family"},
+        "penpa": {"aliases": ["tapa"], "genre_tag": "tapa"},
+    },
+    "tapaloop": {
+        "puzzlink": {"aliases": ["tapaloop", "tapa-like-loop"], "primary": "tapaloop", "family": "tapaloop_family"},
+        "penpa": {"aliases": ["tapalikeloop", "tapa-like-loop"], "genre_tag": "tapa-like-loop"},
+    },
     "yajilin": {
         "puzzlink": {"aliases": ["yajilin", "yajirin"], "primary": "yajilin", "family": "yajilin_family"},
         "penpa": {"aliases": ["yajilin"], "genre_tag": "yajilin"},
@@ -86,6 +94,10 @@ PUZZLE_TYPES_DICT: Dict[str, Dict[str, Dict[str, object]]] = {
     "hebi": {
         "puzzlink": {"aliases": ["hebi", "snakes"], "primary": "hebi", "family": "yajilin_family"},
         "penpa": {"aliases": ["hebi-ichigo"], "genre_tag": "hebi-ichigo"},
+    },
+    "fillomino": {
+        "puzzlink": {"aliases": ["fillomino"], "primary": "fillomino", "family": "fillomino_family"},
+        "penpa": {"aliases": ["fillomino"], "genre_tag": "fillomino"},
     }
 }
 

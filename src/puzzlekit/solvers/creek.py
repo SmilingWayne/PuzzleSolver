@@ -4,7 +4,7 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from puzzlekit.core.docs_template import SHADE_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from typeguard import typechecked
 
 class CreekSolver(PuzzleSolver):
@@ -108,7 +108,7 @@ class CreekSolver(PuzzleSolver):
                 neighbors = self.grid.get_neighbors(pos, "orthogonal")
                 adjacency_map[i, j] = set((nbr.r, nbr.c) for nbr in neighbors)
 
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             self.x,
             adjacency_map

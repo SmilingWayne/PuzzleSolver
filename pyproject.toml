@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "puzzlekit"
-version = "0.3.3"
+version = "0.3.4"
 description = "100+ logic puzzle solvers on Google OR-Tools (e.g., yajilin, slitherlink, nonogram), with bidirectional conversion between puzz.link and Penpa+ URLs for supported genres (shared IR)."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -37,6 +37,6 @@ where = ["src"]
 include = ["puzzlekit*"]
 
 [project.urls]
-Homepage = "https://github.com/SmilingWayne/PuzzleSolver"
-Repository = "https://github.com/SmilingWayne/PuzzleSolver"
-Issues = "https://github.com/SmilingWayne/PuzzleSolver/issues"
+Homepage = "https://github.com/SmilingWayne/puzzlekit"
+Repository = "https://github.com/SmilingWayne/puzzlekit"
+Issues = "https://github.com/SmilingWayne/puzzlekit/issues"

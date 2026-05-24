@@ -1,0 +1,58 @@
+name: PR CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: pr-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-matrix:
+    name: Test (Python ${{ matrix.python-version }})
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+    uses: ./.github/workflows/reusable_build_test.yml
+    with:
+      python_version: ${{ matrix.python-version }}
+      upload_artifact: false
+      build_package: false
+
+  package-build-check:
+    name: Package Build Check (Python 3.10)
+    uses: ./.github/workflows/reusable_build_test.yml
+    with:
+      python_version: "3.10"
+      upload_artifact: false
+      build_package: true
+
+  docs-build-check:
+    name: Docs Build Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install .
+          pip install mkdocs-material
+
+      - name: Generate Puzzle Docs
+        run: |
+          python scripts/gen_docs.py
+
+      - name: Build MkDocs
+        run: |
+          mkdocs build

@@ -1,6 +1,6 @@
 from typing import Dict, Any, Optional, Union
 from puzzlekit.solvers import get_solver_class
-from puzzlekit.parsers.registry import get_parser 
+from puzzlekit.parsers.registry import get_parser
 from puzzlekit.formats.base import PuzzleInstance
 from puzzlekit.formats.puzzlink_converter import PuzzlinkConverter
 from puzzlekit.formats.penpa_converter import (
@@ -62,43 +62,49 @@ def _build_converter(fmt: str, converter_config: Optional[Dict[str, Any]] = None
     raise ValueError(f"Unsupported converter format '{fmt}'.")
 
 def solve(
-    source: Union[str, Dict[str, Any]], 
-    puzzle_type: str, 
+    source: Union[str, Dict[str, Any]],
+    puzzle_type: str,
+    solver_options: Optional[Dict[str, Any]] = None,
     **kwargs
 ) -> Any:
     """
     Unified entry point for solving puzzles.
-    
+
     Args:
-        source: 
+        source:
             - A string containing the raw puzzle data (with headers, e.g. "9 9\n...").
             - A dictionary (pre-parsed data).
         puzzle_type: The snake_case type name (e.g., 'akari', 'fuzuli').
+        solver_options: Optional dict of OR-Tools solver parameters.
+                       Common options:
+                       - time_limit_sec: Maximum solving time in seconds (default: 30.0)
+                       - num_search_workers: Number of parallel search workers
+                       - use_branching: Enable branching heuristic
         show: Whether to visualize the result.
         **kwargs: Overrides for solver parameters.
     """
-    
+
     # --- 1.  (Parsing) ---
     init_params = {}
-    
+
     if isinstance(source, dict):
         init_params = source.copy()
-        
+
     elif isinstance(source, str):
         try:
-            target_parser = get_parser(puzzle_type) 
+            target_parser = get_parser(puzzle_type)
             parsed_data = target_parser(source.strip())
-            
+
             if parsed_data is None:
                 raise ValueError(f"Parser returned None for type '{puzzle_type}'")
-                
+
             init_params.update(parsed_data)
         except ValueError as e:
             raise ValueError(f"Parsing failed for type '{puzzle_type}': {e}")
-            
+
     else:
         raise TypeError(f"Source must be dict or raw string, got {type(source)}")
-    
+
     init_params.update(kwargs)
 
     try:
@@ -108,20 +114,60 @@ def solve(
 
 
     solver_instance = SolverClass(**init_params)
-    
-    result = solver_instance.solve()
-    
+
+    result = solver_instance.solve(solver_options=solver_options)
+
     return result
+
+
+_INFERENCE_REMOVAL_MESSAGE = (
+    "puzzlekit.infer() and Inference* types were removed from PuzzleKit. "
+    "Use puzzlekit.solve() for direct puzzle -> answer solving."
+)
+
+
+class _RemovedInferenceSymbol:
+    """Compatibility placeholder for removed inference data models."""
+
+    def __init__(self, *_args, **_kwargs):
+        raise RuntimeError(_INFERENCE_REMOVAL_MESSAGE)
+
+
+class InferenceResult(_RemovedInferenceSymbol):
+    pass
+
+
+class InferenceTrace(_RemovedInferenceSymbol):
+    pass
+
+
+class InferenceState(_RemovedInferenceSymbol):
+    pass
+
+
+def infer(
+    source: PuzzleInstance,
+    puzzle_type: Optional[str] = None,
+    *,
+    engine: str = "trivial",
+    initial_state: Optional[InferenceState] = None,
+) -> InferenceResult:
+    """
+    Deprecated compatibility API for removed inference subsystem.
+    """
+    _ = (source, puzzle_type, engine, initial_state)
+    raise RuntimeError(_INFERENCE_REMOVAL_MESSAGE)
+
 
 def solver(puzzle_type: str, data: Dict[str, Any] = None, **kwargs) -> Any:
     # return solve(source=data, puzzle_type=puzzle_type, **kwargs)
     init_params = {}
-    
+
     if isinstance(data, dict):
         init_params = data.copy()
     else:
         raise TypeError(f"Source must be dict or raw string, got {type(data)}")
-    
+
     init_params.update(kwargs)
 
     try:
@@ -220,5 +266,21 @@ def convert(
         return ir
     return encode(ir, dst, converter_config=encode_cfg)
 
-__all__ = ["solve", "solver", "decode", "encode", "convert", "PenpaDecodeError"]
-__version__ = '0.3.3'
+__all__ = [
+    "solve",
+    "infer",
+    "solver",
+    "decode",
+    "encode",
+    "convert",
+    "PenpaDecodeError",
+    "InferenceResult",
+    "InferenceTrace",
+    "InferenceState",
+]
+
+from importlib.metadata import PackageNotFoundError, version
+try:
+    __version__ = version("puzzlekit")
+except PackageNotFoundError:
+    __version__ = "0+unknown"

@@ -1,0 +1,55 @@
+name: Reusable Build and Test
+
+on:
+  workflow_call:
+    inputs:
+      python_version:
+        description: Python version for CI
+        required: false
+        default: "3.10"
+        type: string
+      upload_artifact:
+        description: Whether to upload dist artifacts
+        required: false
+        default: false
+        type: boolean
+      build_package:
+        description: Whether to run python -m build
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  build-n-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ inputs.python_version }}
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build pytest
+          pip install .
+
+      - name: Run Tests
+        run: |
+          pytest tests/
+
+      - name: Build package
+        if: ${{ inputs.build_package }}
+        run: |
+          python -m build
+
+      - name: Store distribution artifacts
+        if: ${{ inputs.upload_artifact }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/

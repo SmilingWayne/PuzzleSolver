@@ -19,21 +19,11 @@ if _level_name:
 # Raw input data
 start_time = time.time()
 problem_str = """
-10 10
-- - - - - b - - - -
-- b - - w - - b - -
-w - - - - - - - - -
-- - - - - - - - w -
-- - - - - b b - b -
-- w - w w - - - - -
-- w - - - - - - - -
-- - - - - - - - - b
-- - b - - b - - w -
-- - - - w - - - - -
+10 10\n6 5 - - - - - - - -\n- - - - - - - - - -\n- - - - - 2 - - - -\n1 - - - - - 9 - - -\n- - - - - - - - - -\n- - - - - - - - - -\n3 - - - - - 8 - - -\n- 4 - - - - - - - -\n- - - - - - - - - -\n- - 7 - - - - - - -\n1 4 4 4 4 4 4 4 4 4\n1 1 1 4 4 4 8 4 4 4\n1 1 1 1 4 8 8 8 8 4\n2 2 2 7 7 7 9 9 9 9\n2 3 3 3 7 7 7 9 9 9\n2 3 3 3 7 7 7 10 9 9\n3 3 5 3 7 6 10 10 9 9\n3 5 5 5 5 6 10 10 10 10\n3 5 5 6 6 6 6 10 10 10\n3 5 6 6 6 6 6 10 10 10
 """
 
 # Solve
-res = puzzlekit.solve(problem_str, puzzle_type="masyu")
+res = puzzlekit.solve(problem_str, puzzle_type="shimaguni")
 
 # Print solution grid
 print(res.solution_data.get('solution_grid', []))

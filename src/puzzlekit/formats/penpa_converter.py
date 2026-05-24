@@ -1,8 +1,15 @@
 from puzzlekit.formats.base import (
-    PuzzleInstance, CellState, EdgeState,
-    COMPRESS_SUB, NumberColor, SurfaceColor, SymbolState, NumberState,
+    PuzzleInstance,
+    CellState,
+    EdgeState,
+    SymbolState,
+    NumberClue,
+    ArrowClue,
+    TapaClue,
+    Direction,
 )
 from puzzlekit.formats.penpa_template import (
+    COMPRESS_SUB,
     PENPA_FIXED_FIELDS as fixed,
     PENPA_PU_X_DEFAULT,
     get_penpa_template,
@@ -163,20 +170,40 @@ class PenpaConverter:
             index: The [Penpa+](https://swaroopg92.github.io/penpa-edit/) index to be converted.
             offset: To be compatiable with edge / cell index:
         """
-        assert type_ in ("edge", "cell"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', get {type_}"
+        assert type_ in ("edge", "cell", "edge_center"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', 'edge_center', get {type_}"
         category, index = divmod(index, self.real_rows * self.real_cols)
         if type_ == "edge":
             return (index // self.real_cols - 1, index % self.real_cols - 1), category
-        else:
+        elif type_ == "cell":
             return (index // self.real_cols - 2, index % self.real_cols - 2), category
+        elif type_ == "edge_center":
+            if category == 2: # horizontal edge center ...
+                r, c = divmod(index, self.real_cols)
+                return ((r - 1, c - 2), (r - 1, c - 1)), category
+            elif category == 3: # vertical edge center ...
+                r, c = divmod(index, self.real_cols)
+                return ((r - 2, c - 1), (r - 1, c - 1)), category
+            else:
+                raise ValueError(f"Penpa edge index (edge_center) must be either type 2 or 3, get {category}")
             
-    def coord_to_index(self, coord: Tuple[int, int] ,type_: str) -> Tuple[int, int]:
-        assert type_ in ("edge", "cell"), f"Wrong index type for index_to_coord, expected 'cell', 'edge', get {type_}"
+    def coord_to_index(self, coord: Optional[Tuple[int, int] | Tuple[Tuple[int, int], Tuple[int, int]]], type_: str) -> Tuple[int, int]:
+        assert type_ in ("edge", "cell", 'edge_center'), f"Wrong index type for index_to_coord, expected 'cell', 'edge', 'edge_center', get {type_}"
         r_, c_ = coord
         if type_ == "edge":
             return (r_ + 1) * self.real_cols + (c_ + 1) + self.real_cols * self.real_rows
-        else:
+        elif type_ == "cell":
             return r_ * self.real_cols + c_ + self.real_cols * 2 + 2
+        elif type_ == "edge_center":
+            r1, c1 = r_; r2, c2 = c_
+            if r1 == r2 and c2 == c1 + 1:
+                # horizontal ... 
+                return (r1 + 1) * self.real_cols + (c2 + 1) + 2 * self.real_rows * self.real_cols
+            elif r2 == r1 + 1 and c1 == c2:
+                # vertical ... 
+                return (r2 + 1) * self.real_cols + (c1 + 1) + 3 * self.real_rows * self.real_cols
+            else:
+                raise ValueError(f"IR edge coords must be adjacent, get {r_} v.s. {c_}.")
+            
     
     def _display_parts(self):
         # Verbose Penpa payload introspection; guarded by config + DEBUG level.
@@ -265,7 +292,7 @@ class PenpaConverter:
                     self.board = json.loads(reduce(lambda s, abbr: s.replace(abbr[1], abbr[0]), COMPRESS_SUB, self.parts[p]))
                     for k, v in self.board.items():
                         if k == "lineE":
-                            self.ir_puzzle.edges = self._decode_edge(edge_dict = v)
+                            self._decode_edge(edge_dict = v)
                         elif k == "number":
                             self._decode_number(number_dict = v)
                         elif k == "surface":
@@ -283,8 +310,6 @@ class PenpaConverter:
                     raw_type = genre_tag[0] if len(genre_tag) > 0 else ""
                     self.ir_puzzle.puzzle_type = normalize_puzzle_type(raw_type)
                     logger.debug("penpa.puzzle_type=%s", self.ir_puzzle.puzzle_type)
-                # else:
-                #     print(p, self.parts[p])
 
             return self.ir_puzzle
         except PenpaDecodeError:
@@ -308,16 +333,34 @@ class PenpaConverter:
                 self.ir_puzzle.cells[(r, c)] = cell
     
     def _decode_surface(self, surface_dict: Dict[str, int]):
+        penpa_surface_to_fill = {
+            1: "dark_gray",
+            2: "gray",
+            3: "light_gray",
+            4: "black",
+            5: "green",
+            6: "blue",
+            7: "red",
+            8: "yellow",
+            9: "pink",
+            10: "orange",
+            11: "purple",
+            12: "brown",
+        }
         for index, num_data in surface_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
             if not num_data: continue
+            fill = penpa_surface_to_fill.get(int(num_data))
             if (r, c) not in self.ir_puzzle.cells: 
                 self.ir_puzzle.cells[(r, c)] = CellState(
-                    surf_color = SurfaceColor(int(num_data))
+                    fill=fill,
+                    shaded=(fill == "black"),
                 )
             else:
                 cell = self.ir_puzzle.cells[(r, c)]
-                cell.surf_color = SurfaceColor(int(num_data))
+                cell.fill = fill
+                if fill == "black":
+                    cell.shaded = True
                 self.ir_puzzle.cells[(r, c)] = cell
                 # Only update the color
     
@@ -325,42 +368,89 @@ class PenpaConverter:
         # ['4', 1, '1']:  number, color, submode
         # lots to do here. for diff number format
 
+        code_to_dir = {
+            "0": Direction.N,
+            "1": Direction.W,
+            "2": Direction.E,
+            "3": Direction.S,
+            "4": Direction.NW,
+            "5": Direction.NE,
+            "6": Direction.SW,
+            "7": Direction.SE,
+        }
+
         for index, num_data in number_dict.items():
             (r, c), _ = self.index_to_coord(int(index), 'cell')
 
+            raw = f"{num_data[0]}"
+            if raw == "":
+                # Penpa sometimes stores styling-only entries with empty text.
+                # Treat them as "no clue" in semantic IR.
+                continue
+            clue_obj = None
+            # Yajilin-style encoding legacy: "{a}_{b}" where b is direction code.
+            if num_data[2] == "2":
+                if "_" in raw:
+                    a_part, b_part = raw.rsplit("_", 1)
+                    b_part = b_part.strip()
+                    if b_part in code_to_dir:
+                        a_part = a_part.strip()
+                        value = a_part if a_part != "" else None
+                        clue_obj = ArrowClue(value=value, direction=code_to_dir[b_part])
+            # Tapa-style encoding format, with 3rd element be "4"
+            elif num_data[2] == "4":
+                value = num_data[0]
+                clue_obj = TapaClue(value = value)
+
             if (r, c) not in self.ir_puzzle.cells:
                 self.ir_puzzle.cells[(r, c)] = CellState(
-                    number = NumberState(
-                        value = f"{num_data[0]}", 
-                        number_color = NumberColor(num_data[1]),
-                        number_style = num_data[2]
-                    )
+                    clue=clue_obj if clue_obj is not None else NumberClue(value=raw),
                 )
             else:
                 cell = self.ir_puzzle.cells[(r, c)]
-                # Existing cell may come from surface/symbol pass and have number=None.
-                if cell.number is None:
-                    cell.number = NumberState(
-                        value = f"{num_data[0]}",
-                        number_color = NumberColor(num_data[1]),
-                        number_style = num_data[2],
-                    )
-                else:
-                    cell.number.value = f"{num_data[0]}"
-                    cell.number.number_color = NumberColor(num_data[1])
-                    cell.number.number_style = num_data[2]
+                cell.clue = clue_obj if clue_obj is not None else NumberClue(value=raw)
                 self.ir_puzzle.cells[(r, c)] = cell
             # ELSE?
         
-    def _decode_edge(self, edge_dict: Dict[str, int]):
-        new_edge_dict = {}
+    def _decode_edge(self, edge_dict: Dict[str, int]) -> None:
         for index, v_ in edge_dict.items():
             if "," in index:
                 index_1, index_2 = map(int, index.split(","))
                 coord_1, _ = self.index_to_coord(index_1, 'edge')
                 coord_2, _ = self.index_to_coord(index_2, 'edge')
-                new_edge_dict[(coord_1, coord_2)] = EdgeState(connected = True, edge_type = v_)
-        return new_edge_dict
+                self.ir_puzzle.edges[(coord_1, coord_2)] = EdgeState(connected = True, edge_type = v_)
+                continue
+
+            # Penpa sometimes stores non-standard lineE entries using a single index key.
+            # Keep a framework hook here; you can later decide how to map these marks
+            # into semantic edges (or edge decorations) for specific puzzle types.
+            if index.isdigit() and isinstance(v_, int):
+                self._decode_edge_single_index(index=int(index), value=v_)
+                continue
+
+    def _decode_edge_single_index(self, index: int, value: int) -> None:
+        """
+        Handle Penpa lineE entries encoded with a single index key.
+
+        This is a normalization hook: you may later map (index,value) into a semantic
+        edge mark (e.g. an 'x' / forbidden connection) by updating `self.ir_puzzle.edges`.
+
+        For now we preserve the raw info in metadata to avoid data loss.
+        """
+        (coord_1, coord_2), catgry = self.index_to_coord(index, "edge_center")
+
+        if (coord_1, coord_2) not in self.ir_puzzle.cells:
+            self.ir_puzzle.edges[(coord_1, coord_2)] = EdgeState(
+                connected = False, edge_type = -1,
+                symbol = SymbolState(-1, "custom_x", -1)
+            ) 
+            # they are custom, thus -1 is given to avoid potential error.
+        else:
+            edge = self.ir_puzzle.edges[(coord_1, coord_2)]
+            edge.symbol = SymbolState(-1, "custom_x", -1) 
+            self.ir_puzzle.edge[(coord_1, coord_2)] = edge
+            # if the edge is previously defined, only (augmentally) change the symbol part.
+        
     
     def _encode_symbol(self, symbol_dict: Dict[tuple[int, int], SymbolState]):
         new_symbol_dict = dict()
@@ -371,28 +461,88 @@ class PenpaConverter:
         return new_symbol_dict
     
     def _encode_surface(self, cell_dict: Dict[tuple[int, int], CellState]):
+        fill_to_penpa_surface = {
+            "dark_gray": 1,
+            "grey": 2,
+            "gray": 2,
+            "light_gray": 3,
+            "black": 4,
+            "green": 5,
+            "blue": 6,
+            "red": 7,
+            "yellow": 8,
+            "pink": 9,
+            "orange": 10,
+            "purple": 11,
+            "brown": 12,
+        }
         new_surface_dict = dict()
         for coords, v_ in cell_dict.items():
-            if v_.surf_color:
+            if v_.fill:
+                color_id = fill_to_penpa_surface.get(str(v_.fill).lower())
+                if color_id is None:
+                    continue
                 index = f"{self.coord_to_index(coords, 'cell')}"
-                new_surface_dict[str(index)] = v_.surf_color.value
+                new_surface_dict[str(index)] = color_id
         return new_surface_dict
     
     def _encode_number(self, number_dict: Dict[str, CellState]):
+        direction_to_code = {
+            Direction.N: "0",
+            Direction.W: "1",
+            Direction.E: "2",
+            Direction.S: "3",
+            Direction.NW: "4",
+            Direction.NE: "5",
+            Direction.SW: "6",
+            Direction.SE: "7",
+        }
         new_number_dict = dict()
         for coords, v_ in number_dict.items():
-            if v_.number:
-                index = f"{self.coord_to_index(coords, 'cell')}"
-                new_number_dict[str(index)] = [v_.number.value, v_.number.number_color.value, v_.number.number_style]
+            if not v_.clue:
+                continue
+            penpa_submode = "1" 
+            # compatiable for penpa (value, style, submode) struct
+            value_str: Optional[str] = None
+            if isinstance(v_.clue, NumberClue):
+                value_str = str(v_.clue.value)
+            elif isinstance(v_.clue, ArrowClue):
+                # Backward-compatible encoding: keep direction as suffix token.
+                a = "" if v_.clue.value is None else str(v_.clue.value)
+                b = direction_to_code.get(v_.clue.direction, "0")
+                value_str = f"{a}_{b}" if (a or b) else ""
+                penpa_submode = "2"
+            elif isinstance(v_.clue, TapaClue):
+                value_str = v_.clue.value
+                penpa_submode = "4"
+            else:
+                # TextClue or unknown: treat as raw text.
+                value_str = getattr(v_.clue, "text", None)  # type: ignore[attr-defined]
+
+            if value_str is None:
+                continue
+
+            index = f"{self.coord_to_index(coords, 'cell')}"
+            # Default Penpa number style: black, submode "1"
+            new_number_dict[str(index)] = [value_str, 1, penpa_submode]
 
         return new_number_dict
     
     def _encode_edge(self, edge_dict: Dict[str, EdgeState]):
         new_edge_dict = dict()
         for coords, v_ in edge_dict.items():
-            coord_1, coord_2 = coords
-            edge_str = f"{self.coord_to_index(coord_1, 'edge')},{self.coord_to_index(coord_2, 'edge')}"
-            new_edge_dict[edge_str] = v_.edge_type
+            if v_.symbol is None:
+                coord_1, coord_2 = coords
+                edge_str = f"{self.coord_to_index(coord_1, 'edge')},{self.coord_to_index(coord_2, 'edge')}"
+                # ignore custom 'edge symbol' stuff ... 
+                new_edge_dict[edge_str] = v_.edge_type
+            else:
+                # for custom symbol ... 
+                coord_1, coord_2 = coords
+                edge_str = f"{self.coord_to_index((coord_1, coord_2), 'edge_center')}"
+                if v_.symbol.symbol_type == "custom_x":
+                    new_edge_dict[edge_str] = 98
+                
         return new_edge_dict
     
     def encode(self, inst: PuzzleInstance) -> str:
@@ -463,16 +613,23 @@ class PenpaConverter:
         # return PENPA_URLPREFIX + PENPA_PREFIX + b64encode(compressed).decode('ascii')
 
 if __name__ == "__main__":
+    # 配置 logging 以显示 DEBUG 输出
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s [%(levelname)-8s] %(name)s:%(lineno)d - %(message)s",
+    )
 
     for test_url in [
-        "https://swaroopg92.github.io/penpa-edit/#m=solve&p=tVZtb6JMcbXJk3r1tWuTyXGIGKhIlheWoNpf3vvHQYVtN302WyQyeHO4c49M5wbo6fEDG2qwSXXqUBFuCRNY7eoKOwW+DV0Y8/Wv9FGEjtBCMCJ43WkV6vrJB2n4++e6y+r6x9RHMDPt6saXIpjJfPVQg1txVWWMqU/u126ML3Iplf3j832svHSafxXVceyfNdbnD22+3eP89FvsS+41VDoeXX/5rbd9M4u0/GN03i2O7Z2GwWW49nm3EzHo6uN53frD85CbF05rfrC9IXoqT48f272Ly4qBi99UjGISCiR4BbJ5C0dvBmEUHFS2aa/9G061Y3JK03v9rC+hwN9C2NP3xJJIroBe8KSUKJq8CjzR6CIjHjPxi4bJTYOIQ9NZTa22SiwUWXjNeN0IL0oQm5JIboEGSWJijKsxzCchQyLIZZhQUXmmJ1PhhXgq5yvAEflHDxDNeeogNUMq8DROEcFjsY5Kqyl8bU0yFnjOTXg1DhHgzw1ngfrlHgeCXLu6kctOQf4Ul4/6jqoX+YcGTg7jai3tteV60VdO73AVzhfwW+V81X4gvN9UFHvgZZcL9bPNMLGj9j2t9iosFFjx1LDw69UDNS3u+C9/4vxExwk4cK0bAKfHYkCbxplz1N7Y1ox0TNbHM4QPQ4THvKT1cwOCywvCNZgulMJ8qlC0H3wg9A+OYVBe/7wUSqcOpFqFoTzUk0vpucVpbAOUwhZbmh5xVAcuoVnMwyDl0JkZcZOITAzY+hHkeOui5lsv7SXsVks0VyapdVW++14rZANYTdYG84eW8S5njZoeqkXmghN+9AjbvR0gC0iayeUrBIvdq3AC2BJHgOHsxclgJ09HLF5RK0sKAqAexwDvAeY7dT0Oovc6kY6pATXbrK3EZJV8AzFZ7XhsxWsZiDPIAcbRGWYiJJ5sEw4VcSO1fiaAkiSK0CYKUB0QgEK+7cKziev2WEJX+rif9+o/9g1NtzfQfiJxfeT5fAJp0P0E7MfzJ6Kf+Drg9ly/MjEWOyxjyF6wsoQLbsZQseGhuCRpyH2ga0xa9nZWFXZ3LjUkb9xqUOLGyT/k0ImlXc=&a=VcJBCQAAAIPAQmsk9q/he3DgngE="
+        # "https://swaroopg92.github.io/penpa-edit/#m=solve&p=vVZrb+o4EP3Or1j5a60lL0IaqVrxrFTdsuWWLlsihEwwTcBgmkeLgtrf3rGTbnCgV9pKu7I8mjnjGc/YPlHi55REFNswTAdrWIdh2LacumXJqRVjFCaMur/hVpoEPAIlSJJd7NbruzSbZJPfWbhd13d/xCxMAhrVbRi62ZyvdNsxSNAkjr3wMf6z38dLwmKKbx5X7e669dpr/V1vTEzzYbC8WHWHD6vF+C99qIX1SBswZ3t7122zi+tschu0XmiP2ncx9wNGyYJkk/HNnm37zlOw1Ds3QcdZkq0WPzujy5f28Oqq5hW1T2seMhFGOkwDTd+RzzfzEL17iC6e6B5hc1o7ZD/dQzZzvekbzh5K1SnVe/cAcuAekGEg1xOHBSmnkNME0yxNC0yjNG1lsdlUTEtNZYnYMpUlYstUlogV15SbDdVri1Sl124oqWx136Zac/M4FXSpy14fpexLaUg5gqPAmSllV0pNyoaUP+SanpRjKTtSWlLack1THGat5hlit8/R+L4uLvc+jZbEp3C9Hb7Z8ThMKIIrRTFnszj3zeie+Aly88d37FGwbbqZ00iBGOc7eNznMny6FDB82vKInnUJUDy5L1IJF3KTKFUyzXm0qJT0ShhTW5FEViA/jHymQkkUKjaJIv6qIBuSBAowJwnQPg7CnZqJbitnmRC1RLImld025Wm81dAeyQlPEN6BoN+lm7Vwdu0qVMXZEPh36xaMFRz0EIIAjDYpS0KfMw77Fhi8P09EGqD2SnUs/ULr5KCugT4odFAfQc2Pa/YjR+5cLxthJApoy2ihog1/gQ5kmLTzogD45zMCnaYLvk6LVbqgUusbHUCmzw6EmncgtDMdiMb+sw4up2/5ZWn/6gv5P3xB9gW/efQLipfOKnyG6ID+gutH3nP4F7Q+8lbxExKLYk95DOgZKgNaZTNAp4QG8ITTgH1Ba5G1ymxRVZXcYqsTfoutjinuoeJfQPwZoGntAw==&a=JYrBCQBACMN28d1PeuOI+6+hnpBCCM0sLQEWPBE69+z7NG+/41IN"
+        # "https://swaroopg92.github.io/penpa-edit/#m=edit&p=7VZdb9owFH3nV0x+rTXyRaCRpiml0LWjlLYg1kQIBTAQmmCWD9oF8d977cBITFppnTT1YbJ8dTjXOb7XTo4If8ZOQLAOQ61hCcswFF3nU9Y0PqXd6LqRR4xP2IyjOQ0AzKNoFRrl8ipOrMT67LnLx/Lqa+i50ZwEZR2GrFZHC1mvKc686tT0yRjjm2YTTx0vJPjqYd6qU/Pp3PyxrkWWJV9I8aXUXzQXJ3f+90tXDeRmu9a57ly7ysz8Vj+71RsneicOexFZ3/ry2aJndaed/uxU+dVoW1pi3UiVK2taXpu9LyV7V/agtElOjcTEyYVhIxVhJMNU0AAnt8YmuTbQmPojF+HkHvIIywOM/NiL3DH1aID2XNICBE8qABsH2Od5huopKUuA2zsM8AHg2A3GHhm2UqZj2EkXI1bAGX+aQeTTNWGbseLY77QoIEZOBMcezt0VwiokwnhCH+PdUnmwxYn5jjZAad8Gg2kbDBW0wbr76zbIZEaeCzo4HWy3cEN30MPQsFk7vQOsHeC9sYHYNjZIUfbNs6sEPUVlBNzsb0JjhJIhdOERtSoQmiiqcY2MqMY1MqIa15AOREVcoXPRzAq9IojqYh1VsZdqXhTOQOYn8cBjk0eFxy4cFE5UHs95lHis8Njiaxo89nms86jxqPM1VXbUf3QZ/6AcW1G4K6Wj8n48KNnoPg6mzpjAy1mn/oqGbkQQGAQKqTcM09yQPDvjCBmpR2UzOW4Z+yMC31WG8ihdgQcWKexTOdKdLWlAClOMZF/MK1IsVSA1osFEqOnJ8bx8L9zwc1T6XeeoKICPNvPbCQL6lGN8J5rniIxP5ZTIUjjMyMmX6Dw6wm7+4Ti2JfSM+LRVDC/Cfzf/+G7Obkv6aDby0crhLzoN3nCdQ1KkC7wH2DfsJ5Mt4l9xmkxW5I9shRV77CzAFpgLsKK/AHVsMUAeuQxwrxgNUxW9hlUl2g3b6shx2FZZ07HR7l8s+0+LBqUX"
+        "https://swaroopg92.github.io/penpa-edit/#m=edit&p=7Vhtb9s2EP6eX1HwawlMJEW9AfvgpEnXLq9Ngiw2DENxlESJHGWylHQK8t97d6JqSnI6bB2KDRhs04+fO94byTPt5e9VXCRcOPhUAYd3eLgioJcMPHo55nGSllkSvVlmaXmTFFl6f8dHVXmTF9EbzvnBzg6/irNlwj+e3+xu5aOnd6PfHoNyPBbvneqDc3a7c/v20+LXD6kqxM5+cLh3uJfK69EvW5tH3vZb77BanpbJ49FCbN6ejk+uDs+uQ/nH9v7YrccHjv44vvrpcXT688bEhDPdeK7DqB7x+n00YYpxJuAl2ZTXR9FzvRexeb64SBmvj0HOuJhytqiyMp3nWV6wlqt3AcFMCXB7Bc9IjmirIYUDeN9ggOcA52kxz5LZbsMcRpP6hDMMYJNmI2SL/DFBZxgcfm6CAuIiLqGcy5v0gXEFgmV1md9VRlVMX3g9+htpgKU2DYRNGojWpIHZfXcayeV18nlNBuH05QVW6BPkMIsmmM7pCgYreBw9w7gfPTMlcCospMClBHtKtdVoCRcJaRFBXyPs2XB1T8MlDcuG7hNePw6PbNiE3zPqU6SWhk8aNtH3EvS9BDTFWRGh0/MinH4gwqEC2IygGnUYb8DQLCsYIeWAGVhWFE+HGfhS5Mu24w68a7JjJSr0UKdfPzFYFeFRzHZ9vG48sK8E7a5zGndolDSewObjtaLxHY0OjZrGXdLZhj3pYoHDALaNgKgJSFhrAphHAyAQArhRCOBqEwhb5dCItAOZNcDoaAmZNcD40ljXBkBhCLjGhcbtS0C3BrFUCDzRAmWUPTxABPAUNMAY9NxWGbc/Ad849fxWGXckAdyJCHzHWPYdY9kXRtnHPUUAt0kDTF6+MnZ8PK4EtJkuQ81lCDFJOLpOyBVWGbFUXEkICLAMfdCBmcgLAToQBOlo0DFzlc+VBn+EA8BGR4FNdIbYBX3MFrEG3jO+XM/CLge9FY9lIn3w29rUEJtuYlMKsNGR2uUSV6XFXhMzcICNX4wNexTyHuTV6nghl76VO5YMedfh0jV54Vf015pALriB2ppI4xeK2tZHQu4w39gRgA0vJJeiqQlhU0PgABu/UNuvvIQ4cWu2vB0/djHEAdgPjP0AbJo1lQHYDI1NxAHGD2frjE7YFo0ujR6dPB+/FP7S18Y/cMilgNXCjaywCoAxW8JYBchW/WnEE9VcnboP/d/jphsTdlwVV/E8gW/6rXzxkC/TMmFw22LLPJstG9ks+RzPSxY1Fz5b0uHuq8VFApcUi8ry/AGujusstKIOmV7f50WyVoQkXj9eMYWiNaYu8uKyF9NTnGXdXOhe3KGaS1KHKgu4AVmf46LInzrMIi5vOoR16etYSu57xSzjbojxXdzztliV42WDfWb0msAZw0X8/2r8b78a42o5P7jTfW/jndTbpkNCt+T1AWcP1SyeQbkZ/B7jKzE00FfFTU8diH94qnSI8uIbHW0l7NNr+hqw32htlnQd/0oXs6R9ftCyMNhh1wJ2TeMCtt+7gBq2LyAHHQy4V5oYWu33MYyq38rQ1aCboSu7oU2Y9TcDm258AQ=="
     ]:
         hpc = PenpaConverter()
         tmp = hpc.decode(test_url)
         # print(tmp.cells)
         enc = hpc.encode(tmp)
-        print(tmp)
+        # print(tmp)
         print(enc)
-        b = hpc.decode(enc)
+        # b = hpc.decode(enc)
         # logger.info(enc)
         

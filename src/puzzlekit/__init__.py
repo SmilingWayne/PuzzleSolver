@@ -278,4 +278,9 @@ __all__ = [
     "InferenceTrace",
     "InferenceState",
 ]
-__version__ = '0.3.3'
+
+from importlib.metadata import PackageNotFoundError, version
+try:
+    __version__ = version("puzzlekit")
+except PackageNotFoundError:
+    __version__ = "0+unknown"

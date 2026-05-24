@@ -3,7 +3,7 @@ from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
 from puzzlekit.core.docs_template import YAJILIN_STYLE_TEMPLATE_INPUT_DESC, SHADE_TEMPLATE_OUTPUT_DESC
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 
@@ -134,7 +134,7 @@ class YajikabeSolver(PuzzleSolver):
 
         # Use the provided utility logic (from Heyawake context)
         # Note: We enforce connectivity on the BLACK cells.
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             self.black_vars,
             adjacency_map,

@@ -2,7 +2,7 @@ from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy
@@ -80,7 +80,7 @@ class YinYangSolver(PuzzleSolver):
         # Map: Position -> BoolVar (x)
         white_nodes = {Position(r, c): self.x[r, c] for r in range(self.num_rows) for c in range(self.num_cols)}
         
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             white_nodes,
             adjacency_map,
@@ -91,7 +91,7 @@ class YinYangSolver(PuzzleSolver):
         # Map: Position -> Not(BoolVar) (which is effectively IsBlack)
         black_nodes = {Position(r, c): self.x[r, c].Not() for r in range(self.num_rows) for c in range(self.num_cols)}
         
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             black_nodes,
             adjacency_map,

@@ -2,7 +2,7 @@ from typing import Any, List, Dict
 from puzzlekit.core.solver import PuzzleSolver
 from puzzlekit.core.grid import Grid
 from puzzlekit.core.position import Position
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from puzzlekit.core.docs_template import SHADE_TEMPLATE_OUTPUT_DESC
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
@@ -101,7 +101,7 @@ class CaveSolver(PuzzleSolver):
         
         active_nodes_in = {Position(r, c): self.x[r, c] for r in range(self.num_rows) for c in range(self.num_cols)}
 
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             active_nodes_in,
             adjacency_map_in,
@@ -156,7 +156,7 @@ class CaveSolver(PuzzleSolver):
         active_nodes_out[BOUNDARY_NODE] = boundary_active_var
         
         # Add the constraint
-        add_connected_subgraph_constraint(
+        add_connected_subgraph_by_height(
             self.model,
             active_nodes_out,
             adjacency_map_out,

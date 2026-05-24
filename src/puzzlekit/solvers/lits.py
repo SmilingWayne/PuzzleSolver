@@ -4,7 +4,7 @@ from puzzlekit.core.grid import Grid
 from puzzlekit.core.regionsgrid import RegionsGrid
 from puzzlekit.core.position import Position
 from puzzlekit.core.docs_template import CLUE_REGION_TEMPLATE_INPUT_DESC, LITS_TEMPLATE_OUTPUT_DESC
-from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint
+from puzzlekit.utils.ortools_utils import add_connected_subgraph_constraint, add_connected_subgraph_by_height
 from ortools.sat.python import cp_model as cp
 from typeguard import typechecked
 import copy
@@ -241,7 +241,7 @@ class LITSSolver(PuzzleSolver):
                 adjacency_map[r, c] = set((nbr.r, nbr.c) for nbr in neighbors if self.region_grid.value(nbr.r, nbr.c) != "@")
                 
 
-        add_connected_subgraph_constraint(self.model, self.x, adjacency_map)
+        add_connected_subgraph_by_height(self.model, self.x, adjacency_map)
 
     def get_solution(self):
         sol_grid = [["-" for _ in range(self.num_cols)] for _ in range(self.num_rows)]

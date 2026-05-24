@@ -41,10 +41,16 @@ def add_connected_subgraph_constraint(
     # 2. Global Constraints
     # - There must be exactly one structure root.
     # - The root must be an active node.
-    model.Add(sum(is_root.values()) == 1)
-    for n in nodes:
-        model.AddImplication(is_root[n], active_nodes[n])
 
+    total_active = model.NewIntVar(0, num_nodes, f"total_active_{prefix}")
+    has_active = model.NewBoolVar(f"has_active_{prefix}")
+    model.Add(total_active >= 1).OnlyEnforceIf(has_active)
+    model.Add(total_active == 0).OnlyEnforceIf(has_active.Not())
+
+    model.Add(sum(is_root.values()) == 1).OnlyEnforceIf(has_active)
+    model.Add(sum(is_root.values()) == 0).OnlyEnforceIf(has_active.Not())
+
+    
     # 3. Node-level Constraints
     for curr in nodes:
         # Rules for Inactive Nodes:

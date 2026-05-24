@@ -141,12 +141,12 @@ def run_single_benchmark(puzzle_type: str, pid: str, problem_str: str, solution_
 def parse_args():
     parser = argparse.ArgumentParser(description="PuzzleKit Benchmark Tool (supports _dataset.json format).")
 
-    # either all or one puzzle, mutually exclusive
+    # either all or one/multiple puzzles, mutually exclusive
     group = parser.add_mutually_exclusive_group()
     group.add_argument("-a", "--all", action="store_true", default=False,
                        help="Run benchmarks on ALL available puzzles.")
     group.add_argument("-p", "--puzzle", type=str,
-                       help="Specific puzzle name to benchmark (e.g. 'Akari', 'slitherlink'). Case-insensitive.")
+                       help="Specific puzzle name(s) to benchmark. Multiple names can be comma-separated (e.g., 'Akari,slitherlink,Creek'). Case-insensitive.")
 
     parser.add_argument("--skip", type=str, default="",
                         help="Comma-separated list of puzzle names to skip (e.g., 'Nurikabe,Fillomino').")
@@ -185,17 +185,24 @@ def main():
 
     # --- Filtering Logic ---
     sorted_assets = sorted(asset_folders)
-    
+
     if target_puzzle:
-        target_lower = target_puzzle.lower()
-        filtered_assets = [f for f in sorted_assets if f.lower() == target_lower]
-        
+        # Support comma-separated list of puzzle names
+        target_list = [name.strip().lower() for name in target_puzzle.split(',')]
+        filtered_assets = [f for f in sorted_assets if f.lower() in target_list]
+
         if not filtered_assets:
-            print(f"Error: Puzzle '{target_puzzle}' not found in assets.")
+            print(f"Error: Puzzle(s) '{target_puzzle}' not found in assets.")
             print(f"Available assets: {', '.join(sorted_assets[:10])}...")
             return
+
+        # Print which puzzles will be run
+        if len(filtered_assets) == 1:
+            print(f"Running benchmark ONLY for: {filtered_assets[0]}")
+        else:
+            print(f"Running benchmark for {len(filtered_assets)} puzzles: {', '.join(filtered_assets)}")
+
         sorted_assets = filtered_assets
-        print(f"Running benchmark ONLY for: {sorted_assets[0]}")
     else:
         print(f"Running benchmark for ALL {len(sorted_assets)} puzzles.")
 

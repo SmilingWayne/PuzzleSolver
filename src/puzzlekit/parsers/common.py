@@ -177,43 +177,66 @@ def standard_grid_parser_skyscraper(data: str) -> Dict[str, Any]:
         raise ValueError(f"Failed to parse standard grid of abc end view: {e}")
 
 def standard_grid_parser_abc_end_view(data: str) -> Dict[str, Any]:
+    """Parse ABCEndView / Easy as ABC Janko ``problem`` text for ``solve()``.
+
+    Layout:
+    - Line 0: ``{rows} {cols} {max_letter}`` (e.g. ``7 7 e``)
+    - Lines 1–4: top, bottom, left, right edge clues
+    - Lines 5..(optional): ``rows`` grid rows (cell givens); may be omitted when
+      every cell is empty — a compact 5-line problem is expanded to an all-``-``
+      ``rows``×``cols`` grid.
+    """
     if not isinstance(data, str):
         raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
     try:
-        lines = data.strip().split('\n')
-        if not lines: 
+        lines = [ln for ln in data.strip().split("\n") if ln is not None]
+        if not lines:
             print("Warning: Puzzle content is empty")
             return None
-            
-        num_line = lines[0]
-        m, n, k = num_line.strip().split(" ")
-        
-        m = int(m)
-        n = int(n)
 
-        cols_top = lines[1].strip().split(" ")
-        cols_bottom = lines[2].strip().split(" ")
-        rows_left = lines[3].strip().split(" ")
-        rows_right = lines[4].strip().split(" ")
+        header_parts = lines[0].strip().split()
+        if len(header_parts) != 3:
+            raise ValueError(f"header must be 'rows cols max_letter', got: {lines[0]!r}")
+        m, n, k = int(header_parts[0]), int(header_parts[1]), header_parts[2]
+
+        if len(lines) not in (5, 5 + m):
+            raise ValueError(
+                f"ABCEndView problem must have 5 lines (borders only) or {5 + m} lines "
+                f"(with {m} grid rows), got {len(lines)}"
+            )
+
+        cols_top = lines[1].strip().split()
+        cols_bottom = lines[2].strip().split()
+        rows_left = lines[3].strip().split()
+        rows_right = lines[4].strip().split()
 
         grid_lines = lines[5:]
-        if grid_lines:
-            grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
-        else:
+        if not grid_lines:
             grid = [["-" for _ in range(n)] for _ in range(m)]
+        else:
+            grid = []
+            for r, row_line in enumerate(grid_lines):
+                tokens = row_line.strip().split()
+                if len(tokens) != n:
+                    raise ValueError(
+                        f"grid row {r}: expected {n} tokens, got {len(tokens)}"
+                    )
+                grid.append(tokens)
 
         return {
-            "num_rows": int(m), 
-            "num_cols": int(n), 
+            "num_rows": m,
+            "num_cols": n,
             "val": k,
             "cols_top": cols_top,
             "cols_bottom": cols_bottom,
             "rows_left": rows_left,
             "rows_right": rows_right,
-            "grid": grid
+            "grid": grid,
         }
+    except ValueError:
+        raise
     except Exception as e:
-        raise ValueError(f"Failed to parse standard grid of abc end view: {e}")
+        raise ValueError(f"Failed to parse standard grid of abc end view: {e}") from e
 
 def standard_region_grid_row_col_parser(data: str) -> Dict[str, Any]:
     """Standard region grid parser for puzzles with region information.

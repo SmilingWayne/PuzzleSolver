@@ -1,6 +1,8 @@
 import pytest
+import puzzlekit
 from puzzlekit.core.grid import Grid
-from puzzlekit.solvers.abc_end_view import ABCEndViewSolver 
+from puzzlekit.parsers.common import standard_grid_parser_abc_end_view
+from puzzlekit.solvers.abc_end_view import ABCEndViewSolver
 
 class TestData:
     pass
@@ -25,6 +27,21 @@ def test_abc_end_view(data):
     solver = ABCEndViewSolver(**data.puzzle_dict)
     res_grid = solver.solve().solution_data.get('solution_grid', [])
     assert Grid(exp_grid) == res_grid
+
+
+def test_parser_compact_five_line_problem():
+    problem = "3 3 b\n- - a\n- - -\na - -\n- - -"
+    parsed = standard_grid_parser_abc_end_view(problem)
+    assert parsed["num_rows"] == 3
+    assert parsed["grid"] == [["-"] * 3 for _ in range(3)]
+
+
+def test_solve_compact_problem_via_puzzlekit_api():
+    problem = "3 3 b\n- - a\n- - -\na - -\n- - -"
+    result = puzzlekit.solve(problem, puzzle_type="abc_end_view")
+    assert result.solution_data.get("status") in ("Optimal", "Feasible")
+    exp = [["a", "b", "-"], ["b", "-", "a"], ["-", "a", "b"]]
+    assert Grid(exp) == result.solution_data.get("solution_grid")
 
 def test_abc_end_view_validation():
     """Test data validation for ABCEndViewSolver - character and list dimension validation"""

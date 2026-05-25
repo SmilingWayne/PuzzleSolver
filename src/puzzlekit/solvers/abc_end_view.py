@@ -31,8 +31,9 @@ class ABCEndViewSolver(PuzzleSolver):
         *   Line 4: **Left** views
         *   Line 5: **Right** views
 
-        **3. Grid Lines (Remaining [ROW] lines)**
-        The initial state of the grid rows.
+        **3. Grid Lines (optional, [ROW] lines)**
+        Initial cell givens. Omit this block when the board is empty (all ``-``);
+        a 5-line problem (header + four borders) is valid and treated as an empty grid.
 
         **Legend:**
         *   `-`: No clue / Empty cell;
@@ -54,11 +55,6 @@ class ABCEndViewSolver(PuzzleSolver):
         - - d b -
         - - c b d
         - c - a -
-        - - - - -
-        - - - - -
-        - - - - -
-        - - - - -
-        - - - - -
         """,
         "output_example": """
         5 5 d

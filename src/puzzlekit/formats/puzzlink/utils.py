@@ -11,6 +11,41 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
+def reindex_border_list(
+    border_list: Dict[int, int],
+    num_rows: int,
+    num_cols: int,
+    margins: Optional[List[int]] = None,
+) -> Dict[Tuple[int, int], EdgeState]:
+    """Convert puzz.link border segment ids into IR edge coordinates."""
+    margins = margins or [0, 0, 0, 0]
+    top_m, _, left_m, _ = margins
+    num_vert = (num_cols - 1) * num_rows
+    num_horiz = num_cols * (num_rows - 1)
+    total = num_vert + num_horiz
+
+    new_edge_dict: Dict[Tuple[int, int], EdgeState] = {}
+    for border_id in border_list.keys():
+        if border_id < 0 or border_id >= total:
+            continue
+
+        if border_id < num_vert:
+            row = border_id // (num_cols - 1)
+            col = border_id % (num_cols - 1)
+            p1 = (row + top_m, col + 1 + left_m)
+            p2 = (row + 1 + top_m, col + 1 + left_m)
+        else:
+            local = border_id - num_vert
+            row = local // num_cols
+            col = local % num_cols
+            p1 = (row + 1 + top_m, col + left_m)
+            p2 = (row + 1 + top_m, col + 1 + left_m)
+
+        new_edge_dict[(p1, p2)] = EdgeState(connected=True, edge_type=2)
+
+    return new_edge_dict
+
 def index_to_coord(rr: int, rc:int, index: int, type_: str = 'edge') -> Tuple[Tuple[int, int], int]:
     """_summary_
 

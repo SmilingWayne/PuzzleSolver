@@ -18,6 +18,7 @@ from puzzlekit.formats.puzzlink.utils import (
     number_list_to_white_black_grid,
     border_to_region_grid,
     region_grid_to_borders,
+    reindex_border_list,
 )
 from puzzlekit.formats.utils import generate_centerlist_diff
 from puzzlekit.formats.puzzle_types import to_puzzlink_type
@@ -80,7 +81,7 @@ class MasyuHandler(PuzzleFamilyHandler):
 
         if border_list is not None:
             # Reindex border list to IR edges
-            ir_puzzle.edges = self._reindex_border_list(border_list, num_rows, num_cols, [0, 0, 0, 0])
+            ir_puzzle.edges = reindex_border_list(border_list, num_rows, num_cols, [0, 0, 0, 0])
         else:
             ir_puzzle.edges = {}
 
@@ -163,39 +164,3 @@ class MasyuHandler(PuzzleFamilyHandler):
         pzl_type = to_puzzlink_type(inst.puzzle_type)
         url = f"https://puzz.link/p?{pzl_type}/{num_cols}/{num_rows}/{body_str}"
         return url
-
-    def _reindex_border_list(
-        self,
-        border_list: Dict[int, int],
-        num_rows: int,
-        num_cols: int,
-        margins: List[int]
-    ) -> Dict[tuple, Any]:
-        """Convert puzz.link border ids to IR edges."""
-        from puzzlekit.formats.base import EdgeState
-
-        new_edge_dict = {}
-        top_m, _, left_m, _ = margins
-        num_vert = (num_cols - 1) * num_rows
-        num_horiz = num_cols * (num_rows - 1)
-        total = num_vert + num_horiz
-
-        for border_id in border_list.keys():
-            if border_id < 0 or border_id >= total:
-                continue
-
-            if border_id < num_vert:
-                row = border_id // (num_cols - 1)
-                col = border_id % (num_cols - 1)
-                p1 = (row + top_m, col + 1 + left_m)
-                p2 = (row + 1 + top_m, col + 1 + left_m)
-            else:
-                local = border_id - num_vert
-                row = local // num_cols
-                col = local % num_cols
-                p1 = (row + 1 + top_m, col + left_m)
-                p2 = (row + 1 + top_m, col + 1 + left_m)
-
-            new_edge_dict[(p1, p2)] = EdgeState(connected=True, edge_type=2)
-
-        return new_edge_dict

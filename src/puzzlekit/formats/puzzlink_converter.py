@@ -3,7 +3,6 @@ from typing import Dict, Any, List, Optional, Set
 from puzzlekit.formats.base import (
     PuzzleInstance,
     CellState,
-    EdgeState,
     SymbolState,
     NumberClue,
     ArrowClue,
@@ -175,40 +174,6 @@ class PuzzlinkConverter:
             parse_number=True,
             parse_symbol=False,
         )
-    
-    def _reindex_border_list(self, r: int, c: int, margins: List[int], border_list: Dict[int, int]):
-        """
-        Convert puzz.link border ids directly into IR edges.
-        This keeps all border segments exactly as encoded.
-        """
-        new_edge_dict = dict()
-        top_m, bottom_m, left_m, right_m = margins
-        num_vert = (c - 1) * r
-        num_horiz = c * (r - 1)
-        total = num_vert + num_horiz
-
-        for border_id in border_list.keys():
-            if border_id < 0 or border_id >= total:
-                continue
-
-            if border_id < num_vert:
-                # Vertical border between cells (row, col) and (row, col+1)
-                row = border_id // (c - 1)
-                col = border_id % (c - 1)
-                p1 = (row + top_m, col + 1 + left_m)
-                p2 = (row + 1 + top_m, col + 1 + left_m)
-            else:
-                # Horizontal border between cells (row, col) and (row+1, col)
-                local = border_id - num_vert
-                row = local // c
-                col = local % c
-                p1 = (row + 1 + top_m, col + left_m)
-                p2 = (row + 1 + top_m, col + 1 + left_m)
-
-            new_edge_dict[(p1, p2)] = EdgeState(connected=True, edge_type=2)
-
-        return new_edge_dict
-
     
     def decode(self, url: str) -> PuzzleInstance:
         """

@@ -1,18 +1,41 @@
 # PuzzleInstance 数据结构文档
 
-> PuzzleInstance 是 PuzzleKit 中的**中间表示（Intermediate Representation, IR）**，用于在不同谜题格式（如 puzz.link、Penpa+、Janko 等）之间进行统一的转换和处理。
+> **PuzzleInstance** 是 PuzzleKit **格式转换层**（`decode` / `encode` / `convert`）使用的**中间表示（IR）**，用于在 puzz.link、Penpa+ 以及（规划中的）Janko 文本之间互转。
+
+---
+
+## 适用范围与边界
+
+| 角色 | 使用 IR 的部分 | 当前**不**使用 IR 的部分 |
+| ---- | -------------- | ------------------------ |
+| **主要** | puzz.link ↔ Penpa+ URL 互转（[`formats/`](../src/puzzlekit/formats/)） | — |
+| **暂不包括** | — | [`solve()`](../src/puzzlekit/__init__.py) 的文本 parser → 求解器（独立的字符串/字典题面格式） |
+
+**设计定位：** IR 目前是 **URL 互转枢纽**，尚未作为全库统一谜题模型。部分字段（如 `EdgeState.edge_type`、`SymbolState`）仍带有 Penpa+ 编码痕迹；带边界的题型在 encode 时需从 `edges` 反推区域，而非在 IR 中显式存区域。
+
+**比较两个 IR：**
+
+- `semantic_equals()` — 完整规范化比较（含 margins、boxes 等），用于同格式往返测试。
+- `cross_format_semantic_equals()` — 仅比较**题面语义**（题型、内容区尺寸、cells/edges 相对内容区坐标），忽略标题、作者、`boxes` 及 Penpa 与 puzz.link 的 margin 差异。见 [`base.py`](../src/puzzlekit/formats/base.py)。
+
+URL 互转支持题型以 [`puzzle_types.py`](../src/puzzlekit/formats/puzzle_types.py) 为准。更新 README 表格：
+
+```bash
+PYTHONPATH=src python scripts/generate_format_interchange_table.py --update-readme
+```
 
 ---
 
 ## 目录
 
-1. [核心结构概览](#核心结构概览)
-2. [坐标系统详解](#坐标系统详解)
-3. [CellState: 单元格状态](#cellstate-单元格状态)
-4. [EdgeState: 边状态](#edgestate-边状态)
-5. [Clue Types: 线索类型](#clue-types-线索类型)
-6. [实际使用示例](#实际使用示例)
-7. [从不同格式转换](#从不同格式转换)
+1. [适用范围与边界](#适用范围与边界)
+2. [核心结构概览](#核心结构概览)
+3. [坐标系统详解](#坐标系统详解)
+4. [CellState: 单元格状态](#cellstate-单元格状态)
+5. [EdgeState: 边状态](#edgestate-边状态)
+6. [Clue Types: 线索类型](#clue-types-线索类型)
+7. [实际使用示例](#实际使用示例)
+8. [从不同格式转换](#从不同格式转换)
 
 ---
 

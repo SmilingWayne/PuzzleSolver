@@ -1,19 +1,42 @@
 # PuzzleInstance Intermediate Representation Specification
 
-> **PuzzleInstance** is the **Intermediate Representation (IR)** used throughout PuzzleKit. It provides a unified data model for converting and processing puzzles across different formats, including [puzz.link](https://puzz.link), [Penpa+](https://swaroopg92.github.io/penpa-edit/), and [Janko.at](https://www.janko.at).
+> **PuzzleInstance** is the **Intermediate Representation (IR)** used by PuzzleKit’s **format conversion** layer (`decode` / `encode` / `convert`). It bridges [puzz.link](https://puzz.link), [Penpa+](https://swaroopg92.github.io/penpa-edit/), and (planned) [Janko.at](https://www.janko.at) text.
+
+---
+
+## Scope and boundaries
+
+| Role | What uses `PuzzleInstance` | What does *not* use it today |
+| ---- | -------------------------- | ----------------------------- |
+| **Primary** | puzz.link ↔ Penpa+ URL interchange via [`formats/`](../src/puzzlekit/formats/) converters | — |
+| **Out of scope (for now)** | — | [`solve()`](../src/puzzlekit/__init__.py) text parsers → OR-Tools solvers (separate string/dict problem format) |
+
+**Design intent:** IR is a **URL-interchange hub**, not yet a single model for the whole library. Fields such as `EdgeState.edge_type` and `SymbolState` still mirror Penpa+ storage in places; region partitions for border-family puzzles are recovered from `edges` at encode time rather than stored as first-class regions.
+
+**Comparing two IR values:**
+
+- `semantic_equals()` — full normalized comparison (cells, edges, margins, boxes, shape), used for same-format roundtrips.
+- `cross_format_semantic_equals()` — compares **puzzle content only** (type, content size, cells, edges in content-relative coordinates); ignores title, author, `boxes`, and margin padding differences between Penpa+ and puzz.link decoders. See [`base.py`](../src/puzzlekit/formats/base.py).
+
+Supported URL-interchange types are defined in [`puzzle_types.py`](../src/puzzlekit/formats/puzzle_types.py). Regenerate the README table with:
+
+```bash
+PYTHONPATH=src python scripts/generate_format_interchange_table.py --update-readme
+```
 
 ---
 
 ## Table of Contents
 
-1. [Core Structure Overview](#core-structure-overview)
-2. [Coordinate System](#coordinate-system)
-3. [CellState: Cell State](#cellstate-cell-state)
-4. [EdgeState: Edge State](#edgestate-edge-state)
-5. [Clue Types](#clue-types)
-6. [Usage Examples](#usage-examples)
-7. [Format Conversion](#format-conversion)
-8. [Related Files](#related-files)
+1. [Scope and boundaries](#scope-and-boundaries)
+2. [Core Structure Overview](#core-structure-overview)
+3. [Coordinate System](#coordinate-system)
+4. [CellState: Cell State](#cellstate-cell-state)
+5. [EdgeState: Edge State](#edgestate-edge-state)
+6. [Clue Types](#clue-types)
+7. [Usage Examples](#usage-examples)
+8. [Format Conversion](#format-conversion)
+9. [Related Files](#related-files)
 
 ---
 

@@ -4,7 +4,7 @@ This repository provides **100+ useful, efficient and problem‑specific solvers
 
 For simplicity, the dataset is removed to [puzzlekit-dataset](https://github.com/SmilingWayne/puzzlekit-dataset) repo. The structured dataset contains 41k+ instances covering 130+ specific and popular puzzle types (e.g. Nonogram, Slitherlink, Akari, Fillomino, Hitori, Kakuro, Kakuro), mostly from [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm) and [puzz.link](https://puzz.link). The details are listed in the table below. 
 
-This repo also provides **bidirectional conversion between [puzz.link](https://puzz.link) and [Penpa+](https://swaroopg92.github.io/penpa-edit/) puzzle URLs** for supported genres (19 for now) via a shared intermediate representation. puzz.link-like links from common mirrors (e.g., `pzplus.tck.mn`, `pzv.jp`) are also accepted.
+This repo also provides **bidirectional conversion between [puzz.link](https://puzz.link) and [Penpa+](https://swaroopg92.github.io/penpa-edit/) puzzle URLs** for supported genres (see table below; sourced from `puzzle_types.py`) via a shared intermediate representation. puzz.link-like links from common mirrors (e.g., `pzplus.tck.mn`, `pzv.jp`) are also accepted.
 
 <details>
   <summary><strong>Table of puzzles, datasets and solvers.</strong></summary>
@@ -168,161 +168,30 @@ This repo also provides **bidirectional conversion between [puzz.link](https://p
 <summary><strong>Supported puzzle types for URL interchange</strong>
 </summary>
 
-> (canonical IR name, puzz.link token, aliases, Penpa genre tag)
+> (22 canonical IR types; generated from `src/puzzlekit/formats/puzzle_types.py` — run `python scripts/generate_format_interchange_table.py --update-readme` to refresh.)
 
-| Canonical (IR) | puzz.link token | puzz.link aliases               | Penpa genre tag       |
-| -------------- | --------------- | ------------------------------- | --------------------- |
-| `aqre`         | `aqre`          | aqre                            | `aqre`                |
-| `ayeheya`      | `ayeheya`       | ayeheya                         | `ayeheya (ekawayeh)`  |
-| `castle`       | `castle`        | castle                          | `castlewall`          |
-| `country`      | `country`       | country                         | `country road`        |
-| `hebi`         | `hebi`          | hebi, snakes                    | `hebi-ichigo`         |
-| `heyawake`     | `heyawake`      | heyawake, heyawacky, heyawack   | `heyawake`            |
-| `kurochute`    | `kurochute`     | kurochute, kuroshuto, kurochuto | `kurochute`           |
-| `kurodoko`     | `kurodoko`      | kurodoko                        | `kurodoko`            |
-| `kurotto`      | `kurotto`       | kurotto                         | `kurotto`             |
-| `masyu`        | `masyu`         | masyu, mashu, pearl             | `masyu`               |
-| `moonsun`      | `moonsun`       | moonsun                         | `moon or sun`         |
-| `nonogram`     | `nonogram`      | nonogram                        | `nonogram`            |
-| `nurikabe`     | `nurikabe`      | nurikabe                        | `nurikabe`            |
-| `nurimisaki`   | `nurimisaki`    | nurimisaki                      | `nurimisaki`          |
-| `shikaku`      | `shikaku`       | shikaku                         | `shikaku`             |
-| `shimaguni`    | `shimaguni`     | shimaguni                       | `shimaguni (islands)` |
-| `slitherlink`  | `slither`       | slitherlink                     | `slitherlink`         |
-| `stostone`     | `stostone`      | stostone                        | `stostone`            |
-| `yajilin`      | `yajilin`       | yajilin, yajirin                | `yajilin`             |
-
+| Canonical (IR) | puzz.link token | puzz.link aliases | Penpa genre tag |
+| --- | --- | --- | --- |
+| `aqre` | `aqre` | aqre | `aqre` |
+| `ayeheya` | `ayeheya` | ayeheya | `ayeheya (ekawayeh)` |
+| `castle` | `castle` | castle | `castlewall` |
+| `country` | `country` | country | `country road` |
+| `fillomino` | `fillomino` | fillomino | `fillomino` |
+| `hebi` | `hebi` | hebi, snakes | `hebi-ichigo` |
+| `heyawake` | `heyawake` | heyawake, heyawacky, heyawack | `heyawake` |
+| `kurochute` | `kurochute` | kurochute, kuroshuto, kurochuto | `kurochute` |
+| `kurodoko` | `kurodoko` | kurodoko | `kurodoko` |
+| `kurotto` | `kurotto` | kurotto | `kurotto` |
+| `masyu` | `masyu` | masyu, mashu, pearl | `masyu` |
+| `moonsun` | `moonsun` | moonsun | `moon or sun` · *also:* moonsun |
+| `nonogram` | `nonogram` | nonogram | `nonogram` |
+| `nurikabe` | `nurikabe` | nurikabe | `nurikabe` |
+| `nurimisaki` | `nurimisaki` | nurimisaki | `nurimisaki` |
+| `shikaku` | `shikaku` | shikaku | `shikaku` |
+| `shimaguni` | `shimaguni` | shimaguni | `shimaguni (islands)` |
+| `slitherlink` | `slither` | slitherlink, slither, vslither, tslither | `slitherlink` |
+| `stostone` | `stostone` | stostone | `stostone` |
+| `tapa` | `tapa` | tapa | `tapa` |
+| `tapaloop` | `tapaloop` | tapaloop, tapa-like-loop | `tapa-like-loop` · *also:* tapalikeloop |
+| `yajilin` | `yajilin` | yajilin, yajirin | `yajilin` |
 </details>
-
-
-
-<details>
-  <summary><strong>Gallery of some puzzles (not complete!)</strong></summary>
-
-![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202506081152222.png)
-
-![](https://cdn.jsdelivr.net/gh/SmilingWayne/picsrepo/202501081804542.png)
-
-</details>
-
-## Related Projects & Online Play
-
-If you are looking for **online playing** or a **browser-based solver** with excellent performance, here are some fantastic alternatives:
-
-- **[Noqx](https://github.com/T0nyX1ang/Noqx)** 🎉, with interactive penpa-edit style [web interface](http://t0nyx1ang.github.io/noqx/penpa-edit/): An enhanced and more-efficient logic puzzle solver based on Clingo (Answer Set Program (ASP) solver) and WASM. It supports 170+ puzzle types, covering most of this repo with same or even better efficiency compared with this repo. It's highly recommend to give it a try. 
-- **[nikoli-puzzle-solver (Z3)](https://util.in:8102)**: Another SAT-based solver with interactive penpa-style web page via z3 solver for 100+ puzzle types. It supports more grid format like hex, triangle and more.
-- **[puzzle_solver](https://github.com/Ar-Kareem/puzzle_solver)** for 90+puzzles by Ar-Kareem, also in OR-Tools.
-- **[Puzzles-Solver](https://github.com/newtomsoft/Puzzles-Solver)** in action by newtomsoft, with browser plugins provided.
-
-**How Puzzlekit differs:**
-> Puzzlekit is designed as a **Python library** (WIP... though) for developers and researchers, offering programmatic access, a unified API, and a massive structured **dataset** for benchmarking.
-
-## Usage
-
-Dependencies: Python >= 3.10, e.g., 
-
-```shell
-conda create -n py310 python=3.10.14
-```
-
-install the solvers via pip:
-
-```shell
-pip install puzzlekit
-```
-
-Then a quick tour:
-
-```python
-import puzzlekit
-
-problem_str = """
-10 10
-- - - - - b - - - -
-- b - - w - - b - -
-w - - - - - - - - -
-- - - - - - - - w -
-- - - - - b b - b -
-- w - w w - - - - -
-- w - - - - - - - -
-- - - - - - - - - b
-- - b - - b - - w -
-- - - - w - - - - -
-"""
-res = puzzlekit.solve(problem_str, "masyu")
-# res.show() # If you want to visualize it.
-```
-
-The detailed usage of specific logic puzzles can be found in the [docs of puzzlekit](https://smilingwayne.github.io/puzzlekit/).
-
-If you want a batch-run, clone the dataset you need via [puzzlekit-dataset](https://github.com/SmilingWayne/puzzlekit-dataset) to `./assets` folder in the root. Then run the `scripts/benchmark.py` like:
-
-```shell
-python scripts/benchmark.py -p Hidoku 
-```
-
-The script will create `./benchmark_results` folder where two files, `benchmark_{timestamp}.csv` and `README_STATS_{puzzle_name}_{timestamp}.md` can show you the details.
-
-If you want to run all instances, use:
-
-```shell
-python scripts/benchmark.py -a
-```
-
-Currently it will take ~30 min to solve all 30k+ instances available.
-
----
-
-If you want to try the bi-directional conversion between penpa+ and puzz.link, follow the quick tour:
-
-
-```python
-import puzzlekit
-
-# 1st method
-ir = puzzlekit.decode("https://puzz.link/p?slither/10/10/g188227cl1dg367bdcg3ddgbhdgd1agbd760dg2cl633661d")
-penpa_url = puzzlekit.encode(ir, "penpa")
-print(penpa_url)
-# get:
-# https://swaroopg92.github.io/penpa-edit/#m=edit&p=7VdtT9swEP7Or0...
-
-
-# 2nd method (recommend)
-penpa_url = "YOUR_PENPA_URL" # both full URL or `m=edit&p=...` are okay
-puzzlink_url = puzzlekit.convert(penpa_url, "puzzlink")
-print(puzzlink_url)
-# get:
-# https://puzz.link/p?slither/10/10/b86ag68dg127bg62aldg8dad8bgdl26dg722cg68dg88b3
-```
-
-See also `scripts/quick_start.py` for a runnable sample.
-
-
-## Roadmap
-
-- [x] 130+ Puzzle Solvers & 40k+ Dataset.
-- [x] Unified Python API (pip install puzzlekit).
-- [ ] Unified Converter: Batch converting internal formats to penpa-edit or puzz.link URLs.
-- [ ] Dataset update, remove duplicates.
-- [ ] Docs update.
-
-----
-
-## Reference
-
-Aside from links mentioned above, please refer to the following:
-
-**Solving Tools:**
-- [OR-Tools CP-SAT solver](https://developers.google.cn/optimization?hl=zh-cn) by Google.
-- [Z3 SMT Solver](https://www.microsoft.com/en-us/research/project/z3-3/?msockid=31abdfd0975e6ec50eb0c8d196dd6f6f) by microsoft.
-- [Clingo](https://potassco.org/clingo/) and [Clasp](https://potassco.org/clasp/) by the University of Potsdam, an answer set solving collection.
-- [Hakank's OR-Tools tutorials](http://www.hakank.org/google_or_tools/)
-- More...
-
-**Dataset and online play:**
-- [Raetsel's Janko](https://www.janko.at/Raetsel/index.htm);
-- [Puzzle-xx.com](https://www.puzzle-loop.com).
-- [puzz.link](https://puzz.link), and variants like [pzplus](https://pzplus.tck.mn/list.html), [pvz.jp](http://pzv.jp/)
-- [pzprjs](https://github.com/robx/pzprjs) format for puzzle encoding.
-- More...
-

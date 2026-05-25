@@ -188,15 +188,20 @@ def standard_grid_parser_abc_end_view(data: str) -> Dict[str, Any]:
         num_line = lines[0]
         m, n, k = num_line.strip().split(" ")
         
+        m = int(m)
+        n = int(n)
+
         cols_top = lines[1].strip().split(" ")
         cols_bottom = lines[2].strip().split(" ")
         rows_left = lines[3].strip().split(" ")
         rows_right = lines[4].strip().split(" ")
-        
-        grid_lines = lines[5 : ]
-        grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
-        
-        
+
+        grid_lines = lines[5:]
+        if grid_lines:
+            grid = [g.strip().split(" ") for g in grid_lines if g.strip()]
+        else:
+            grid = [["-" for _ in range(n)] for _ in range(m)]
+
         return {
             "num_rows": int(m), 
             "num_cols": int(n), 

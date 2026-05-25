@@ -448,7 +448,7 @@ class PenpaConverter:
         else:
             edge = self.ir_puzzle.edges[(coord_1, coord_2)]
             edge.symbol = SymbolState(-1, "custom_x", -1) 
-            self.ir_puzzle.edge[(coord_1, coord_2)] = edge
+            self.ir_puzzle.edges[(coord_1, coord_2)] = edge
             # if the edge is previously defined, only (augmentally) change the symbol part.
         
     

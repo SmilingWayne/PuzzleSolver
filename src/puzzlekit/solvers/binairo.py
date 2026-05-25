@@ -22,37 +22,38 @@ class BinairoSolver(PuzzleSolver):
         The initial state of the grid rows.
 
         **Legend:**
-        *   `-`: No clue / Empty cell;
-        *   `x`: Pre-filled cell.
-        *   `1-2`: 1 indicate white circle, 2 indicates black circle.
+        *   `-`: Empty / no clue.
+        *   `w`: White circle (given).
+        *   `b`: Black circle (given).
         """,
         "output_desc": """
         Returns the solved grid as a matrix of characters, `[ROWS]` lines x `[COLS]` chars.
         
         **Legend:**
-        *   `1-2`: 1 indicate white circle, 2 indicates black circle.
+        *   `w`: White circle.
+        *   `b`: Black circle.
         """,
         "input_example": """
         8 8
-        - - - - 2 - - -
-        - - 1 2 - 1 - 1
-        - 1 - - - - - -
-        - 1 2 - 1 - 1 2
-        - - 2 - - - - -
-        - 1 - - - - 2 2
-        2 - - - 1 1 - -
-        - - 2 - - - 1 2
+        - - - - b - - -
+        - - w b - w - w
+        - w - - - - - -
+        - w b - w - w b
+        - - b - - - - -
+        - w - - - - b b
+        b - - - w w - -
+        - - b - - - w b
         """,
         "output_example": """
         8 8
-        1 2 2 1 2 2 1 1
-        1 2 1 2 2 1 2 1
-        2 1 1 2 1 1 2 2
-        2 1 2 1 1 2 1 2
-        1 2 2 1 2 2 1 1
-        2 1 1 2 1 1 2 2
-        2 2 1 2 1 1 2 1
-        1 1 2 1 2 2 1 2
+        w b b w b b w w
+        w b w b b w b w
+        b w w b w w b b
+        b w b w w b w b
+        w b b w b b w w
+        b w w b w w b b
+        b b w b w w b w
+        w w b w b b w b
         """
     }
     
@@ -65,7 +66,7 @@ class BinairoSolver(PuzzleSolver):
     
     def validate_input(self):
         self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
-        self._check_allowed_chars(self.grid.matrix, {'1', '2', '-'})
+        self._check_allowed_chars(self.grid.matrix, {"-", "w", "b"})
         
     def _add_constr(self):
         self.x = dict()
@@ -80,9 +81,9 @@ class BinairoSolver(PuzzleSolver):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 self.x[i, j] = self.model.NewBoolVar(f"x[{i},{j}]")
-                if self.grid.value(i, j) == "1":
+                if self.grid.value(i, j) == "w":
                     self.model.Add(self.x[i, j] == 0)
-                elif self.grid.value(i, j) == "2":
+                elif self.grid.value(i, j) == "b":
                     self.model.Add(self.x[i, j] == 1)
     
     def _add_no_more_two_constr(self):
@@ -131,7 +132,7 @@ class BinairoSolver(PuzzleSolver):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
                 if self.solver.Value(self.x[i, j]) > 1e-3:
-                    sol_grid[i][j] = "2"
+                    sol_grid[i][j] = "b"
                 else:
-                    sol_grid[i][j] = "1"
+                    sol_grid[i][j] = "w"
         return Grid(sol_grid)

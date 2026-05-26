@@ -61,6 +61,8 @@ class MasyuHandler(PuzzleFamilyHandler):
             "o": SymbolState(symbol_index=1, symbol_type="sun_moon", symbol_style=1),
             "w": SymbolState(symbol_index=1, symbol_type="circle_L", symbol_style=1),
             "b": SymbolState(symbol_index=2, symbol_type="circle_L", symbol_style=1),
+            "W": SymbolState(symbol_index=1, symbol_type="circle_M", symbol_style=1),
+            "B": SymbolState(symbol_index=2, symbol_type="circle_M", symbol_style=1),
         }
 
         cell_dict: Dict[tuple[int, int], CellState] = {}
@@ -114,9 +116,12 @@ class MasyuHandler(PuzzleFamilyHandler):
                 if sym.symbol_type in ["circle_L", "circle"]:
                     # Compatible with both index conventions:
                     # old: w=0, b=1; new: w=1, b=2
-                    if sym.symbol_index == 0:
+                    if sym.symbol_index == 0 or sym.symbol_index == 1:
                         return "w"
-                    if sym.symbol_index == 1:
+                    if sym.symbol_index == 2:
+                        return "b"
+                if sym.symbol_type == "circle_M":
+                    if sym.symbol_index == 8:
                         return "w"
                     if sym.symbol_index == 2:
                         return "b"

@@ -44,12 +44,14 @@ def test_even_odd_sudoku_validation():
     with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
         EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['x']] + [['-'] * 9] * 8)
     
-    # Test 8: invalid character - "e" (lowercase, not allowed, only 'E' is allowed)
-    with pytest.raises(ValueError, match="Invalid value.*at.*Allowed values.*"):
-        EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=[['-'] * 8 + ['e']] + [['-'] * 9] * 8)
-    
+    # Test 8: valid lowercase e/o (canonical in cleaned datasets)
+    solver_lower = EvenOddSudokuSolver(
+        num_rows=9, num_cols=9, grid=[['-'] * 8 + ['e']] + [['-'] * 9] * 8
+    )
+    assert solver_lower.grid.value(0, 8) == 'e'
+
     # Test 9: valid grid with all allowed characters
-    valid_grid = [['-', 'E', 'O', '1', '2', '3', '4', '5', '6'] for _ in range(9)]
+    valid_grid = [['-', 'e', 'o', '1', '2', '3', '4', '5', '6'] for _ in range(9)]
     solver = EvenOddSudokuSolver(num_rows=9, num_cols=9, grid=valid_grid)
     assert solver.num_rows == 9
     assert solver.num_cols == 9

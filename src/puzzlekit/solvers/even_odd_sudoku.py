@@ -54,7 +54,7 @@ class EvenOddSudokuSolver(PuzzleSolver):
     def validate_input(self):
         self._check_num_col_num(self.num_rows, self.num_cols, 9, 9)
         self._check_grid_dims(self.num_rows, self.num_cols, self.grid.matrix)
-        self._check_allowed_chars(self.grid.matrix, {'-', 'E', 'O', "1", "2", "3", "4", "5", "6", "7", "8", "9"})
+        self._check_allowed_chars(self.grid.matrix, {'-', 'E', 'O', 'e', 'o', "1", "2", "3", "4", "5", "6", "7", "8", "9"})
         
     def _add_constr(self):
         self.x = dict()
@@ -92,9 +92,10 @@ class EvenOddSudokuSolver(PuzzleSolver):
     def _add_even_odd_constr(self):
         for i in range(self.num_rows):
             for j in range(self.num_cols):
-                if self.grid.value(i, j) == "E":
+                cell = self.grid.value(i, j)
+                if cell in ("E", "e"):
                     self.model.AddAllowedAssignments([self.x[i, j]], [[2], [4], [6], [8]])
-                elif self.grid.value(i, j) == "O":
+                elif cell in ("O", "o"):
                     self.model.AddAllowedAssignments([self.x[i, j]], [[1], [3], [5], [7], [9]])
     
     def get_solution(self):

@@ -14,6 +14,7 @@ from .common import (
     standard_grid_parser_skyscraper,
     standard_grid_parser_battleship,
     standard_grid_parser_mathrax,
+    entry_exit_parser,
 )
 # this peovides quick parsers for json format data
 ParserFunc = Callable[[str], Dict[str, Any]]
@@ -32,7 +33,7 @@ PARSER_MAP: Dict[str, ParserFunc] = {
     "detour": standard_region_grid_parser,
     "dominos": standard_grid_parser,
     "double_back": standard_region_grid_parser,
-    "entry_exit": standard_region_grid_parser,
+    "entry_exit": entry_exit_parser,
     "eulero": standard_grid_parser,
     "even_odd_sudoku": standard_grid_parser,
     "fobidoshi": standard_grid_parser,

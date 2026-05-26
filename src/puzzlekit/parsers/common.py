@@ -402,6 +402,60 @@ def standard_region_grid_parser(data: str) -> Dict[str, Any]:
     except Exception as e:
         raise ValueError(f"Failed to parse region grid: {e}")
 
+
+def entry_exit_parser(data: str) -> Dict[str, Any]:
+    """EntryExit: ``m n`` + ``m`` region rows; optional ``m`` clue rows after regions."""
+    if not isinstance(data, str):
+        raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
+    try:
+        lines = data.strip().split("\n")
+        if not lines:
+            return {
+                "num_rows": 0,
+                "num_cols": 0,
+                "grid": [],
+                "region_grid": [],
+            }
+
+        num_line = lines[0].split()
+        m, n = int(num_line[0]), int(num_line[1])
+
+        if len(lines) < 1 + m:
+            raise ValueError(
+                f"Insufficient lines: expected at least {1 + m} (header + regions), got {len(lines)}"
+            )
+
+        region_grid_lines = lines[1 : 1 + m]
+        region_grid = [
+            [c for c in g.strip().split(" ") if c.strip()]
+            for g in region_grid_lines
+            if g.strip()
+        ]
+
+        if len(lines) == 1 + 2 * m:
+            clue_lines = lines[1 + m : 1 + 2 * m]
+            grid = [
+                [c for c in g.strip().split(" ") if c.strip()]
+                for g in clue_lines
+                if g.strip()
+            ]
+        elif len(lines) == 1 + m:
+            grid = [["-" for _ in range(n)] for _ in range(m)]
+        else:
+            raise ValueError(
+                f"Expected {1 + m} or {1 + 2 * m} lines, got {len(lines)}"
+            )
+
+        return {
+            "num_rows": m,
+            "num_cols": n,
+            "grid": grid,
+            "region_grid": region_grid,
+        }
+    except Exception as e:
+        raise ValueError(f"Failed to parse entry_exit grid: {e}")
+
+
 def standard_grid_parser_magnetic(data: str) -> Dict[str, Any]:
     if not isinstance(data, str):
         raise TypeError(f"data must be a string, got {type(data).__name__}: {data}")
